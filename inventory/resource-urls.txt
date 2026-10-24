@@ -580,6 +580,7 @@ https://academy.claude.com/tutorials/choosing-the-right-claude-model
 https://academy.claude.com/tutorials/choosing-the-right-effort-level-in-claude-code
 https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide
 https://academy.claude.com/tutorials/claude-enterprise-administrator-guide
+https://academy.claude.com/tutorials/claude-enterprise-end-user-rollout-kit
 https://academy.claude.com/tutorials/claude-for-financial-services-overview
 https://academy.claude.com/tutorials/claude-for-financial-services-skills
 https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-guide-for-all-users
@@ -645,6 +646,7 @@ https://academy.claude.com/tutorials/the-4-properties-of-ai
 https://academy.claude.com/tutorials/the-ai-fluency-index
 https://academy.claude.com/tutorials/tokens-and-embeddings
 https://academy.claude.com/tutorials/troubleshooting-skills
+https://academy.claude.com/tutorials/unified-claude-experience-for-admins
 https://academy.claude.com/tutorials/use-artifacts-to-visualize-and-create-ai-apps-without-ever-writing-a-line-of-code
 https://academy.claude.com/tutorials/using-aiera-for-earnings-intelligence-and-market-analysis
 https://academy.claude.com/tutorials/using-chronograph-for-portfolio-monitoring
@@ -1195,6 +1197,7 @@ https://claude.com/resources/articles/claude-code-plugins
 https://claude.com/resources/articles/claude-code-remote-mcp
 https://claude.com/resources/articles/claude-design-stays-on-brand-for-daily-work
 https://claude.com/resources/articles/claude-duet
+https://claude.com/resources/articles/claude-duet-safety-privacy-and-security
 https://claude.com/resources/articles/claude-enterprise-inference-hooks
 https://claude.com/resources/articles/claude-excel-powerpoint-updates
 https://claude.com/resources/articles/claude-for-chrome
@@ -1376,6 +1379,7 @@ https://claude.com/resources/articles/tool-use-ga
 https://claude.com/resources/articles/trainium2-and-distillation
 https://claude.com/resources/articles/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams
 https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai
+https://claude.com/resources/articles/unified-claude-enterprise
 https://claude.com/resources/articles/upgraded-anthropic-console
 https://claude.com/resources/articles/using-claude-code-session-management-and-1m-context
 https://claude.com/resources/articles/using-claude-md-files
@@ -3824,15 +3828,24 @@ https://platform.claude.com/docs/en/manage-claude/authentication
 https://platform.claude.com/docs/en/manage-claude/authentication?sdk_languages=curl
 https://platform.claude.com/docs/en/manage-claude/claude-code-analytics-api
 https://platform.claude.com/docs/en/manage-claude/claude-code-analytics-api?sdk_languages=curl
+https://platform.claude.com/docs/en/manage-claude/claude-tag-api
 https://platform.claude.com/docs/en/manage-claude/cmek
+https://platform.claude.com/docs/en/manage-claude/cmek-admin-api
 https://platform.claude.com/docs/en/manage-claude/cmek-aws-kms
+https://platform.claude.com/docs/en/manage-claude/cmek-aws-kms-workspaces
 https://platform.claude.com/docs/en/manage-claude/cmek-aws-kms?sdk_languages=curl
 https://platform.claude.com/docs/en/manage-claude/cmek-azure-key-vault
 https://platform.claude.com/docs/en/manage-claude/cmek-azure-key-vault?sdk_languages=curl
 https://platform.claude.com/docs/en/manage-claude/cmek-claude-platform-on-aws
 https://platform.claude.com/docs/en/manage-claude/cmek-claude-platform-on-aws?sdk_languages=curl
+https://platform.claude.com/docs/en/manage-claude/cmek-coverage-claude-enterprise
+https://platform.claude.com/docs/en/manage-claude/cmek-coverage-claude-platform
+https://platform.claude.com/docs/en/manage-claude/cmek-data-retention
 https://platform.claude.com/docs/en/manage-claude/cmek-google-cloud-kms
 https://platform.claude.com/docs/en/manage-claude/cmek-google-cloud-kms?sdk_languages=curl
+https://platform.claude.com/docs/en/manage-claude/cmek-how-it-works
+https://platform.claude.com/docs/en/manage-claude/cmek-key-lifecycle
+https://platform.claude.com/docs/en/manage-claude/cmek-troubleshooting
 https://platform.claude.com/docs/en/manage-claude/cmek?sdk_languages=curl
 https://platform.claude.com/docs/en/manage-claude/compliance-activity-feed
 https://platform.claude.com/docs/en/manage-claude/compliance-activity-feed?sdk_languages=curl
@@ -5284,6 +5297,7 @@ https://www.anthropic.com/research/agentic-misalignment
 https://www.anthropic.com/research/agents-in-biology
 https://www.anthropic.com/research/ai-expectations-gap
 https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents
+https://www.anthropic.com/research/alignment-assessment-ukaisi
 https://www.anthropic.com/research/alignment-faking
 https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7
 https://www.anthropic.com/research/anthropic-economic-index-january-2026-report

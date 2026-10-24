@@ -38,6 +38,8 @@ Prompts use a similar decorator pattern to tools and resources:
 python
 
 ```
+from mcp.server.fastmcp.prompts import base
+
 @mcp.prompt(
     name="format",
     description="Rewrites the contents of the document in Markdown format."

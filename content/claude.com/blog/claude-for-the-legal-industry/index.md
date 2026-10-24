@@ -236,29 +236,27 @@ For legal aid and access-to-justice organizations who are interested in partneri
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 21, 2026
+[ArticleOct 23, 2026
 
-### HCLTech joins the Claude Partner Network as a Global Premier partner
+### Claude Cowork and chat come together for Enterprise
 
-HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)[ArticleOct 21, 2026
+Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)[ArticleOct 23, 2026
 
-### Introducing Claude Duet
+### Claude Duet Safety, Privacy, and Security
 
-A research preview is available by waitlist today, starting with US Pro and Max subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleOct 21, 2026
+Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)[ArticleOct 22, 2026
 
-### Claude Security now scans continuously and tracks fixes
+### Building agents: When to fold subagents into your main agent loop
 
-Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.
+When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
 
-Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes)[ArticleOct 19, 2026
+Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[ArticleOct 22, 2026
 
-### Redesigning source control at Anthropic
+### The full Claude Platform, available on Google Cloud
 
-As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.
+Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
 
-Claude Code
-
-(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)
+Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)
 
 ## Transform how your organization operates with Claude
 

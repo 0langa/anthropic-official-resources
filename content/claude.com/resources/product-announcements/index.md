@@ -8,37 +8,19 @@ Unsubscribe at any time.
 
 The latest news about Claude, including new products, features, and updates.
 
-[ArticleOct 21, 2026
+[ArticleOct 23, 2026
 
-### Introducing Claude Duet
+### Claude Duet Safety, Privacy, and Security
 
-A research preview is available by waitlist today, starting with US Pro and Max subscribers.
+Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)
 
-![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
+[ArticleOct 22, 2026
 
-[ArticleOct 21, 2026
+### The full Claude Platform, available on Google Cloud
 
-### Claude Security now scans continuously and tracks fixes
+Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
 
-Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.
-
-Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes)
-
-[ArticleOct 15, 2026
-
-### Code Review is now generally available
-
-Catch more bugs before they reach production.
-
-Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)
-
-[ArticleOct 8, 2026
-
-### Build live dashboards and animate explainers with Claude
-
-Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
-
-Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
+Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)
 
 [ArticleOct 21, 2026
 
@@ -54,13 +36,39 @@ A research preview is available by waitlist today, starting with US Pro and Max 
 
 ![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
-Featured resource 1 of 5: Introducing Claude Duet
+[ArticleOct 23, 2026
+
+### Claude Cowork and chat come together for Enterprise
+
+Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)
+
+[ArticleOct 23, 2026
+
+### Claude Duet Safety, Privacy, and Security
+
+Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)
+
+Featured resource 1 of 5: Claude Duet Safety, Privacy, and Security
 
 Advanced filters
 
-Showing 11 of 154 resources
+Showing 11 of 157 resources
 
-[ArticleOct 21, 2026
+[ArticleOct 23, 2026
+
+### Claude Cowork and chat come together for Enterprise
+
+Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)[ArticleOct 23, 2026
+
+### Claude Duet Safety, Privacy, and Security
+
+Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)[ArticleOct 22, 2026
+
+### The full Claude Platform, available on Google Cloud
+
+Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
+
+Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)[ArticleOct 21, 2026
 
 ### HCLTech joins the Claude Partner Network as a Global Premier partner
 
@@ -100,26 +108,6 @@ Teams that run on Google Workspace can now bring Claude into their files or work
 
 Claude Enterprise](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides)[ArticleOct 6, 2026
 
-### We’re expanding the Claude Startups program to help founders build](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build)[ArticleOct 6, 2026
-
-### Expanding the Cyber Verification Program
-
-We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.
-
-(opens in new tab)](https://www.anthropic.com/news/cyber-verification-program)[Video2 min watch
-
-### How an Anthropic designer uses Claude Slides
-
-Make slides with Claude starting from a voice memo. Nate, a designer at Anthropic, talks through an idea on a walk and then turns it into a deck.
-
-Claude Design
-
-(opens in new tab)](https://www.youtube.com/watch?v=bVXiNb9RyyI)[ArticleOct 1, 2026
-
-### Customize Claude Code with mods
-
-Change how Claude Code behaves and looks with a few lines of TypeScript.
-
-Claude Code](https://claude.com/resources/articles/claude-code-mods)
+### We’re expanding the Claude Startups program to help founders build](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build)
 
 View more

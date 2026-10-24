@@ -15,11 +15,11 @@
 
 Related articles
 
-- Announcements
+- Frontier Red Team
 
-  Sep 15, 2026
+  Oct 22, 2026
 
-  [Introducing Claude Mythos and Fable 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1)
+  [LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/research/formal-verification)
 
 [View more](https://www.anthropic.com/search?topic=partnerships)
 

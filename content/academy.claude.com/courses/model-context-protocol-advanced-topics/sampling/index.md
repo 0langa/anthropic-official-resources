@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fmodel-context-protocol-advanced-topics%2Fsampling)
 
+
+
+This course teaches MCP as it worked before the [2026-07-28 revision(opens in new tab)](https://modelcontextprotocol.io/specification/2026-07-28/changelog) of the specification. That revision deprecates sampling, logging, and roots. It also drops the initialize handshake and session IDs that the transport lessons describe. Everything in this course still runs on version 1 of the MCP Python SDK, which the walkthrough projects install.
+
 Sampling allows a server to access a language model like Claude through a connected MCP client. Instead of the server directly calling Claude, it asks the client to make the call on its behalf. This shifts the responsibility and cost of text generation from the server to the client.
 
 ## The Problem Sampling Solves[](https://academy.claude.com/courses/model-context-protocol-advanced-topics/sampling)

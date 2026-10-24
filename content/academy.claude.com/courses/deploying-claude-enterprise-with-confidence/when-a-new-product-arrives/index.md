@@ -38,7 +38,7 @@ The edge case is a genuinely new kind of product, one that works somewhere your 
 
 ## Pluto’s latest arrival: Claude Tag[](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/when-a-new-product-arrives)
 
-Pluto is considering a rollout of Claude Tag, a new way for teams to work with Claude inside Slack, in beta on the Team and Enterprise plans.
+Pluto is considering a rollout of Claude Tag, a way for teams to work with Claude inside Slack, in beta on the Team and Enterprise plans.
 
 - **Setup and use**: a Primary Owner or Owner sets it up, adds it to a first set of channels, and connects it to the tools, data, and codebases they choose; members can then add Claude to other channels and tag Claude there to delegate tasks while they focus on other work, and Claude builds context from the channels it’s in.
 - **In a channel**: Claude Tag works under its own identity rather than as the person who tagged it, with the access attached to that channel’s scope, so everyone in the channel gets the same capability; a member can also let it use their own connectors for their own tasks, and the results post where the whole channel can see them.

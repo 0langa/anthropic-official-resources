@@ -1,0 +1,43 @@
+import{Fm as e,Nm as t}from"../../../../../content-de-meta-hica81ue.js";var n=t();function r(t){let r={a:"a",code:"code",h2:"h2",h3:"h3",img:"img",li:"li",p:"p",strong:"strong",ul:"ul",...e(),...t.components},{Callout:i}=r;return i||a("Callout",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(i,{type:"note",children:(0,n.jsxs)(r.p,{children:["The ",(0,n.jsx)(r.a,{href:"https://modelcontextprotocol.io/specification/2026-07-28/changelog",children:"2026-07-28 revision"})," of the MCP specification drops the initialize handshake and the session ID that this lesson describes. Servers and clients built on version 1 of the MCP Python SDK, which this course uses, still work this way."]})}),`
+`,(0,n.jsx)(r.p,{children:"StreamableHTTP is MCP's solution to a fundamental problem: some MCP functionality requires the server to make requests to the client, but HTTP makes this challenging. Let's explore how StreamableHTTP works around this limitation and when you might need to break that workaround."}),`
+`,(0,n.jsx)(r.h2,{id:"the-core-problem",children:"The Core Problem"}),`
+`,(0,n.jsx)(r.p,{children:"Some MCP features like sampling, notifications, and logging rely on the server initiating requests to the client. However, HTTP is designed for clients to make requests to servers, not the other way around. StreamableHTTP solves this with a clever workaround using Server-Sent Events (SSE)."}),`
+`,(0,n.jsx)(r.h2,{id:"how-streamablehttp-works",children:"How StreamableHTTP Works"}),`
+`,(0,n.jsx)(r.p,{children:"The magic happens through a multi-step process that establishes persistent connections between client and server."}),`
+`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.img,{src:"./672d7ee890f7.png",alt:"The three initialization messages listed below; the Initialized Notification carries the session ID and gets no result back."})}),`
+`,(0,n.jsx)(r.h3,{id:"initial-connection-setup",children:"Initial Connection Setup"}),`
+`,(0,n.jsx)(r.p,{children:"The process starts like any MCP connection:"}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:["Client sends an ",(0,n.jsx)(r.code,{children:"Initialize Request"})," to the server"]}),`
+`,(0,n.jsxs)(r.li,{children:["Server responds with an ",(0,n.jsx)(r.code,{children:"Initialize Result"})," that includes a special ",(0,n.jsx)(r.code,{children:"mcp-session-id"})," header"]}),`
+`,(0,n.jsxs)(r.li,{children:["Client sends an ",(0,n.jsx)(r.code,{children:"Initialized Notification"})," with the session ID"]}),`
+`]}),`
+`,(0,n.jsx)(r.p,{children:"This session ID is crucial - it uniquely identifies the client and must be included in all future requests."}),`
+`,(0,n.jsx)(r.h3,{id:"the-sse-workaround",children:"The SSE Workaround"}),`
+`,(0,n.jsx)(r.p,{children:"After initialization, the client can make a GET request to establish a Server-Sent Events connection. This creates a long-lived HTTP response that the server can use to stream messages back to the client at any time."}),`
+`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.img,{src:"./1de391510a4e.png",alt:"GET mcp-server.com/mcp/ with an mcp-session-id header, answered by an SSE response that can be held open arbitrarily long."})}),`
+`,(0,n.jsx)(r.p,{children:"This SSE connection is the key to allowing server-to-client communication. The server can now send requests, notifications, and other messages through this persistent channel."}),`
+`,(0,n.jsx)(r.h2,{id:"tool-calls-and-dual-sse-connections",children:"Tool Calls and Dual SSE Connections"}),`
+`,(0,n.jsx)(r.p,{children:"When the client makes a tool call, things get more complex. The system creates two separate SSE connections:"}),`
+`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.img,{src:"./bc825054ffd3.png",alt:"Between two SSE responses from the MCP server, the client sends a Call Tool Request POST with an mcp-session-id header."})}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Primary SSE Connection:"})," Used for server-initiated requests and stays open indefinitely"]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Tool-Specific SSE Connection:"})," Created for each tool call and closes automatically when the tool result is sent"]}),`
+`]}),`
+`,(0,n.jsx)(r.h3,{id:"message-routing",children:"Message Routing"}),`
+`,(0,n.jsx)(r.p,{children:"Different types of messages get routed through different connections:"}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Progress notifications:"})," Sent through the primary SSE connection"]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Logging messages and tool results:"})," Sent through the tool-specific SSE connection"]}),`
+`]}),`
+`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.img,{src:"./857a3d847a1d.png",alt:"Call Tool Request POSTs to mcp-server.com/mcp/ with the mcp-session-id header; SSE responses can stay open arbitrarily long."})}),`
+`,(0,n.jsx)(r.h2,{id:"configuration-flags-that-break-the-workaround",children:"Configuration Flags That Break the Workaround"}),`
+`,(0,n.jsx)(r.p,{children:"StreamableHTTP includes two important configuration options:"}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsx)(r.li,{children:(0,n.jsx)(r.code,{children:"stateless_http"})}),`
+`,(0,n.jsx)(r.li,{children:(0,n.jsx)(r.code,{children:"json_response"})}),`
+`]}),`
+`,(0,n.jsxs)(r.p,{children:["Setting these to ",(0,n.jsx)(r.code,{children:"True"})," can break the SSE workaround mechanism. You might want to enable these flags in certain scenarios, but doing so limits the full MCP functionality that depends on server-to-client communication."]}),`
+`,(0,n.jsx)(r.h2,{id:"key-takeaways",children:"Key Takeaways"}),`
+`,(0,n.jsx)(r.p,{children:"StreamableHTTP is more complex than other MCP transports because it has to work around HTTP's limitations. The SSE-based workaround enables full MCP functionality over HTTP, but understanding the dual-connection model is crucial for debugging and optimization."}),`
+`,(0,n.jsx)(r.p,{children:"When building MCP applications with StreamableHTTP, remember that session IDs are required for all requests after initialization, and the system automatically manages multiple SSE connections to handle different types of server-to-client communication."})]})}function i(t={}){let{wrapper:i}={...e(),...t.components};return i?(0,n.jsx)(i,{...t,children:(0,n.jsx)(r,{...t})}):r(t)}function a(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{i as default};

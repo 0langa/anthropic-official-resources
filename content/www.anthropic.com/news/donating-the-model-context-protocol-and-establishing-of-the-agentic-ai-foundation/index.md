@@ -1,10 +1,30 @@
-Announcements
+### Chapter 04: The future of MCP
 
 # Donating the Model Context Protocol and establishing the Agentic AI Foundation
 
-Dec 9, 2025
+- Published
 
-![Donating the Model Context Protocol and establishing the Agentic AI Foundation](https://www-cdn.anthropic.com/images/4zrzovbb/website/9f6a378a1e3592cf8d27447457409ba12284faef-1000x1000.svg)
+  Dec 9, 2025
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+  - [Open source](https://www.anthropic.com/search?topic=open-source)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Tool use](https://www.anthropic.com/search?topic=tool-use)See more...
+
+Related articles
+
+- Product
+
+  Oct 22, 2026
+
+  [Donating Agent Skills to the Agentic AI Foundation](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation)
+
+[View more](https://www.anthropic.com/search?topic=model-context-protocol)
 
 Today, we’re donating the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) to the Agentic AI Foundation (AAIF), a directed fund under the [Linux Foundation](https://www.linuxfoundation.org/), co-founded by Anthropic, Block and OpenAI, with support from Google, Microsoft, Amazon Web Services (AWS), Cloudflare, and Bloomberg.
 
@@ -41,23 +61,3 @@ The Model Context Protocol’s [governance model](https://modelcontextprotocol.i
 Open-source software is essential for building a secure and innovative ecosystem for agentic AI. Today’s donation to the Linux Foundation demonstrates our commitment to ensuring MCP remains a neutral, open standard. We’re excited to continue contributing to MCP and other agentic AI projects through the AAIF.  
   
 Learn more about MCP at [modelcontextprotocol.io](https://modelcontextprotocol.io/) and get involved with the AAIF [here](https://aaif.io/).
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

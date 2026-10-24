@@ -1,34 +1,34 @@
 {
-  "actionable_missing_pages": 1,
-  "actionable_population_complete": false,
-  "archived_pages": 5449,
+  "actionable_missing_pages": 0,
+  "actionable_population_complete": true,
+  "archived_pages": 5464,
   "by_host": {
     "academy.claude.com": {
-      "archived_pages": 854,
-      "discovered_pages": 858
+      "archived_pages": 856,
+      "discovered_pages": 860
     },
     "claude.com": {
-      "archived_pages": 834,
-      "discovered_pages": 842
+      "archived_pages": 836,
+      "discovered_pages": 844
     },
     "code.claude.com": {
       "archived_pages": 254,
       "discovered_pages": 256
     },
     "platform.claude.com": {
-      "archived_pages": 2127,
-      "discovered_pages": 2158
+      "archived_pages": 2137,
+      "discovered_pages": 2167
     },
     "support.claude.com": {
       "archived_pages": 739,
       "discovered_pages": 772
     },
     "www.anthropic.com": {
-      "archived_pages": 641,
-      "discovered_pages": 653
+      "archived_pages": 642,
+      "discovered_pages": 654
     }
   },
-  "discovered_pages": 5539,
+  "discovered_pages": 5553,
   "exact_website_replica": false,
   "limitations": [
     "Discovery is the union of public indexes and hyperlinks, not proof that unlinked pages do not exist.",
@@ -450,7 +450,7 @@
     "https://www.anthropic.com/news/life-sciences-verification-program": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/max-plan": "HTTP 404: https://claude.com/resources/articles/max-plan",
     "https://www.anthropic.com/news/measuring-agent-autonomy": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
-    "https://www.anthropic.com/news/measuring-model-persuasiveness": "Empty or suspiciously short content",
+    "https://www.anthropic.com/news/measuring-model-persuasiveness": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/model-hardware-standard-research-preview": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/models": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/next-generation-constitutional-classifiers": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
@@ -479,13 +479,14 @@
     "https://www.anthropic.com/research/AI-resistant-technical-evaluations": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/Claude-accelerates-protein-design": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
-    "https://www.anthropic.com/research/a-postmortem-of-three-recent-issues": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/research/a-postmortem-of-three-recent-issues": "Empty or suspiciously short content",
     "https://www.anthropic.com/research/accelerating-scientific-research": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/advanced-tool-use": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/agentic-misalignment": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/agents-in-biology": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/ai-expectations-gap": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/research/alignment-assessment-ukaisi": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/alignment-faking": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
@@ -646,10 +647,10 @@
     "https://www.anthropic.com/transparency/voluntary-commitments": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/webinars": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   },
-  "missing_pages": 90,
+  "missing_pages": 89,
   "page_inventory_complete": false,
-  "pages_with_content_notes": 3605,
-  "retained_partial_pages": 492,
+  "pages_with_content_notes": 3666,
+  "retained_partial_pages": 493,
   "terminal_pages": 89,
   "terminal_statuses": {
     "blocked": 27,

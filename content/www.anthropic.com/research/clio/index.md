@@ -1,21 +1,43 @@
-Societal Impacts
+### Chapter 05: Conclusions
 
-# Clio: A system for privacy-preserving insights into real-world AI use
-
-Dec 12, 2024
+# **Clio:**A system for privacy-preserving insights into real-world AI use
 
 [Read the paper](https://arxiv.org/abs/2412.13678)
 
-- Update
+![Clio: A system for privacy-preserving insights into real-world AI use](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F093731495410b010f620fd6e402efceda6fa6b1c-2000x1125.jpg&w=1920&q=75)
 
-  This system and research tool is now called Anthropic Insights
+- Published
 
-  Aug 24, 2026
-- Update
+  Dec 12, 2024
+- Team
 
-  Consumer Terms and Privacy Policy
+  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
+- Topics
+
+  - [Privacy](https://www.anthropic.com/search?topic=privacy)
+  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
+  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)See more...
+
+Related articles
+
+- Policy
 
   Aug 28, 2025
+
+  [Updates to Consumer Terms and Privacy Policy](https://www.anthropic.com/news/updates-to-our-consumer-terms)
+
+[View more](https://www.anthropic.com/search?topic=privacy)
+
+- UpdateAug 24, 2026
+
+  ### This system and research tool is now called Anthropic Insights
+- UpdateAug 28, 2025
+
+  ### Consumer Terms and Privacy Policy
+
+---
 
 What do people use AI models for? Despite the rapidly-growing popularity of large language models, until now we’ve had little insight into exactly how they’re being used.
 
@@ -23,7 +45,7 @@ This isn’t just a matter of curiosity, or even of sociological research. Knowi
 
 There’s also a crucially important factor standing in the way of a clear understanding of AI model use: privacy. At Anthropic, we take the protection of our users’ data very seriously. How, then, can we research and observe how our systems are used while rigorously maintaining user privacy?
 
-**Cl**aude **i**nsights and **o**bservations, or “Clio,” is our attempt to answer this question. Clio is an automated analysis tool that enables privacy-preserving analysis of real-world language model use. It gives us insights into the day-to-day uses of [claude.ai](http://claude.ai/redirect/website.v1.96d76f20-a3a1-408a-9897-68e35b3ff1e0) in a way that’s analogous to tools like Google Trends. It’s also already helping us improve our safety measures. In this post—which accompanies a [full research paper](https://arxiv.org/abs/2412.13678)—we describe Clio and some of its initial results.
+**Cl**aude **i**nsights and **o**bservations, or “Clio,” is our attempt to answer this question. Clio is an automated analysis tool that enables privacy-preserving analysis of real-world language model use. It gives us insights into the day-to-day uses of [claude.ai](http://claude.ai/redirect/website.v1.0c57c23a-db4f-4654-ab5c-29e821a5befc) in a way that’s analogous to tools like Google Trends. It’s also already helping us improve our safety measures. In this post—which accompanies a [full research paper](https://arxiv.org/abs/2412.13678)—we describe Clio and some of its initial results.
 
 ## How Clio works: Privacy-preserving analysis at scale
 
@@ -46,11 +68,11 @@ All our privacy protections have been extensively tested, as we describe in the 
 
 ## How people use Claude: Insights from Clio
 
-Using Clio, we've been able to glean high-level insights into how people use [claude.ai](https://claude.ai/redirect/website.v1.96d76f20-a3a1-408a-9897-68e35b3ff1e0) in practice. While public datasets like [WildChat](https://arxiv.org/abs/2405.01470) and [LMSYS-Chat-1M](https://arxiv.org/abs/2309.11998) provide useful information on how people use language models, they only capture specific contexts and use cases. Clio allows us to understand the full spectrum of real-world usage of [claude.ai](https://claude.ai/redirect/website.v1.96d76f20-a3a1-408a-9897-68e35b3ff1e0) (which may look different than usage of other AI systems due to differences in user bases and model types).
+Using Clio, we've been able to glean high-level insights into how people use [claude.ai](https://claude.ai/redirect/website.v1.0c57c23a-db4f-4654-ab5c-29e821a5befc) in practice. While public datasets like [WildChat](https://arxiv.org/abs/2405.01470) and [LMSYS-Chat-1M](https://arxiv.org/abs/2309.11998) provide useful information on how people use language models, they only capture specific contexts and use cases. Clio allows us to understand the full spectrum of real-world usage of [claude.ai](https://claude.ai/redirect/website.v1.0c57c23a-db4f-4654-ab5c-29e821a5befc) (which may look different than usage of other AI systems due to differences in user bases and model types).
 
 ### Top use cases on Claude.ai
 
-We used Clio to analyze 1 million conversations with Claude on [claude.ai](https://claude.ai/redirect/website.v1.96d76f20-a3a1-408a-9897-68e35b3ff1e0) (both the Free and Pro tiers) to identify the top tasks people use Claude for. This revealed a particular emphasis on coding-related tasks: the "Web and mobile application development" category represented over 10% of all conversations. Software developers use Claude for tasks ranging from debugging code to explaining Git operations and concepts.
+We used Clio to analyze 1 million conversations with Claude on [claude.ai](https://claude.ai/redirect/website.v1.0c57c23a-db4f-4654-ab5c-29e821a5befc) (both the Free and Pro tiers) to identify the top tasks people use Claude for. This revealed a particular emphasis on coding-related tasks: the "Web and mobile application development" category represented over 10% of all conversations. Software developers use Claude for tasks ranging from debugging code to explaining Git operations and concepts.
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F04049f03394efe43a972f52066ecb801fc544a40-2400x1346.png&w=3840&q=75)
 
@@ -89,7 +111,7 @@ Clio has proven effective at identifying patterns of coordinated, sophisticated 
 
 ### Enhanced monitoring for high-stakes events
 
-Clio also helps us monitor novel uses and risks during periods of uncertainty or high-stakes events. For example, while we conducted a wide range of safety tests in advance of launching a new [computer use](https://www.anthropic.com/news/developing-computer-use) feature, we used Clio to screen for emergent capabilities and harms we might have missed1. Clio provided an additional safeguard here, as well as insights that helped us continually improve our safety measures throughout the rollout and in future versions of our systems.
+Clio also helps us monitor novel uses and risks during periods of uncertainty or high-stakes events. For example, while we conducted a wide range of safety tests in advance of launching a new [computer use](https://www.anthropic.com/news/developing-computer-use) feature, we used Clio to screen for emergent capabilities and harms we might have missed[1](https://www.anthropic.com/research/clio). Clio provided an additional safeguard here, as well as insights that helped us continually improve our safety measures throughout the rollout and in future versions of our systems.
 
 Clio has also helped us monitor for unknown risks in the run up to important public events like elections or major international events. In the months preceding the 2024 US General Election, we [used Clio](https://www.anthropic.com/news/elections-ai-2024) to identify clusters of activity relating to US politics, voting, and related issues, and guard against any potential risks or misuse. The ability to detect “unknown unknowns,” made possible through Clio, complements our proactive safety measures and helps us respond quickly to new challenges.
 
@@ -124,26 +146,8 @@ We're continuing to develop and improve Clio, and we hope that others will build
 
 **Edit 14 January 2025:** Links to the Clio paper in this post have been updated to point to the *arXiv* version.
 
-#### Footnotes
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FVSmobknYl0E%2Fsddefault.jpg&w=3840&q=75)
 
-1 For safety investigations, we also run Clio on a subset of first-party API traffic, keeping results restricted to authorized staff. Certain accounts are excluded from analysis, including trusted organizations with zero retention agreements. For more information about our policies, see Appendix F in the research paper.
+## Footnotes
 
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)
+01 For safety investigations, we also run Clio on a subset of first-party API traffic, keeping results restricted to authorized staff. Certain accounts are excluded from analysis, including trusted organizations with zero retention agreements. For more information about our policies, see Appendix F in the research paper.

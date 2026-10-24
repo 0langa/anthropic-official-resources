@@ -2,7 +2,7 @@
 
 
 
-64 tutorials
+66 tutorials
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-oi1gl21n.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nqg67vsk.png)
 
@@ -82,7 +82,7 @@ Introduction to Claude for Financial Services connecting professionals to key da
 
 Learn what Claude for Life Sciences offers and how to access the connectors and tools that support research, clinical operations, and regulatory workflows.
 
-4 min](https://academy.claude.com/tutorials/getting-started-with-claude-for-life-sciences)[![](https://academy.claude.com/assets/v1/thumbnail.light-bxsusxgj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-e856elbs.png)
+4 min](https://academy.claude.com/tutorials/getting-started-with-claude-for-life-sciences)[![](https://academy.claude.com/assets/v1/thumbnail.light-mql8m27m.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hkk3syn7.png)
 
 ## Getting started with Claude for nonprofits
 
@@ -108,7 +108,7 @@ Learn how to create Claude Skills through natural conversation by describing wor
 
 6 min](https://academy.claude.com/tutorials/how-to-create-a-skill-with-claude-through-conversation)[![](https://academy.claude.com/assets/v1/thumbnail.light-gz9r5qio.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nuxa5e6m.png)
 
-## How to select the right effort setting for Claude Cowork and Chat
+## How to select the right effort setting in Claude
 
 Understand how effort settings work in claude.ai and why adjusting effort on a frontier model often costs less per task than switching to a cheaper model.
 

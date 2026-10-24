@@ -17,7 +17,7 @@ HCLTech is bringing Claude into its business in three places and is designing ea
 
 - **A dedicated Anthropic Business Unit and Center of Excellence.** HCLTech’s forward-deployed engineers will set up secure sandbox environments where clients can test Claude against their own systems and data before deploying. The Center will train client workforces, help engineering teams adopt AI-native practices, and build the organizational controls for running agents safely at scale.
 - **Claude inside HCLSoftware products.** HCLSoftware becomes an Anthropic independent software vendor (ISV) partner and will embed Claude in select products across cybersecurity, automation, business process applications, and application development. The first are HCL BigFix for endpoint management, HCL AppScan for application security testing, and the Actian AI analyst for data and analytics.
-- **Claude and Claude Code in AI Force.** AI Force is how HCLTech delivers IT support, code remediation, and digital employee services for the enterprises it serves. Claude and Claude Code go into that platform with policy guardrails, exception handling, and human oversight for high-impact changes. Agents handle the routine work, and HCLTech engineers review and approve anything that touches a client’s production systems.
+- **Claude and Claude Code in AI Force.** AI Force is how HCLTech delivers IT support, code remediation, and digital employee services for the enterprises it serves. Claude and Claude Code go into that platform with policy guardrails and exception handling. Agents handle the routine work, and HCLTech engineers oversee high-impact changes.
 
 “Few technology companies combine the scale of a global systems integrator with the product depth of an ISV,” says C Vijayakumar, CEO and Managing Director at HCLTech. “That gives us a rare advantage to securely engineer and deploy Agentic AI at scale and deliver the business outcomes that matter most to our clients. Our partnership with Anthropic further strengthens our capabilities to achieve the same.”
 
@@ -29,29 +29,25 @@ To learn more about working with Anthropic partners, visit the [Claude Partner N
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 21, 2026
+[ArticleOct 23, 2026
+
+### Claude Cowork and chat come together for Enterprise
+
+Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)[ArticleOct 23, 2026
+
+### Claude Duet Safety, Privacy, and Security
+
+Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)[ArticleOct 22, 2026
+
+### The full Claude Platform, available on Google Cloud
+
+Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
+
+Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)[ArticleOct 21, 2026
 
 ### Introducing Claude Duet
 
-A research preview is available by waitlist today, starting with US Pro and Max subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleOct 21, 2026
-
-### Claude Security now scans continuously and tracks fixes
-
-Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.
-
-Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes)[ArticleOct 15, 2026
-
-### Code Review is now generally available
-
-Catch more bugs before they reach production.
-
-Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)[ArticleOct 8, 2026
-
-### Build live dashboards and animate explainers with Claude
-
-Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
-
-Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
+A research preview is available by waitlist today, starting with US Pro and Max subscribers.](https://claude.com/resources/articles/claude-duet)
 
 ## Transform how your organization operates with Claude
 

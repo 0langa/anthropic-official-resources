@@ -1,6 +1,6 @@
 # Claude Cowork
 
-Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results ready for your review.
 
 ## Start here
 
@@ -16,9 +16,9 @@ The three setup steps before your first task: open Claude, run the guided setup,
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
-### Customize Claude Cowork
+### Customize Claude
 
-The set up that makes Claude Cowork specific to your work or team.
+The set up that makes Claude specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
@@ -88,10 +88,10 @@ Use case·Marketing·10 min](https://academy.claude.com/use-cases/campaign-brief
 - [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
-- [How to customize plugins in Claude CoworkTutorial6 min
+- [How to customize plugins in ClaudeTutorial6 min
 
   Tutorial·6 min](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork)
-- [How to build a plugin from scratch in Claude CoworkTutorial15 min
+- [How to build a plugin from scratch in ClaudeTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork)
 - [Working with Claude Fable 5 in Claude Cowork claude.com—
@@ -117,14 +117,14 @@ Use case·Marketing·10 min](https://academy.claude.com/use-cases/campaign-brief
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases71 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Marketing
 
 # Claude Cowork
 
-Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results ready for your review.
 
 ## Start here
 
@@ -140,9 +140,9 @@ The three setup steps before your first task: open Claude, run the guided setup,
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
-### Customize Claude Cowork
+### Customize Claude
 
-The set up that makes Claude Cowork specific to your work or team.
+The set up that makes Claude specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
@@ -212,10 +212,10 @@ Use case·Marketing·10 min](https://academy.claude.com/use-cases/repurpose-cont
 - [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
-- [How to customize plugins in Claude CoworkTutorial6 min
+- [How to customize plugins in ClaudeTutorial6 min
 
   Tutorial·6 min](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork)
-- [How to build a plugin from scratch in Claude CoworkTutorial15 min
+- [How to build a plugin from scratch in ClaudeTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork)
 - [Working with Claude Fable 5 in Claude Cowork claude.com—
@@ -241,14 +241,14 @@ Use case·Marketing·10 min](https://academy.claude.com/use-cases/repurpose-cont
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases71 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Product
 
 # Claude Cowork
 
-Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results ready for your review.
 
 ## Start here
 
@@ -264,9 +264,9 @@ The three setup steps before your first task: open Claude, run the guided setup,
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
-### Customize Claude Cowork
+### Customize Claude
 
-The set up that makes Claude Cowork specific to your work or team.
+The set up that makes Claude specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
@@ -336,10 +336,10 @@ Use case·Research·15 min](https://academy.claude.com/use-cases/surface-themes-
 - [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
-- [How to customize plugins in Claude CoworkTutorial6 min
+- [How to customize plugins in ClaudeTutorial6 min
 
   Tutorial·6 min](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork)
-- [How to build a plugin from scratch in Claude CoworkTutorial15 min
+- [How to build a plugin from scratch in ClaudeTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork)
 - [Working with Claude Fable 5 in Claude Cowork claude.com—
@@ -365,14 +365,14 @@ Use case·Research·15 min](https://academy.claude.com/use-cases/surface-themes-
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases71 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Engineering
 
 # Claude Cowork
 
-Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results ready for your review.
 
 ## Start here
 
@@ -388,9 +388,9 @@ The three setup steps before your first task: open Claude, run the guided setup,
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
-### Customize Claude Cowork
+### Customize Claude
 
-The set up that makes Claude Cowork specific to your work or team.
+The set up that makes Claude specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
@@ -460,10 +460,10 @@ Use case·Engineering·10 min](https://academy.claude.com/use-cases/design-doc)
 - [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
-- [How to customize plugins in Claude CoworkTutorial6 min
+- [How to customize plugins in ClaudeTutorial6 min
 
   Tutorial·6 min](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork)
-- [How to build a plugin from scratch in Claude CoworkTutorial15 min
+- [How to build a plugin from scratch in ClaudeTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork)
 - [Working with Claude Fable 5 in Claude Cowork claude.com—
@@ -489,14 +489,14 @@ Use case·Engineering·10 min](https://academy.claude.com/use-cases/design-doc)
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases71 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## HR
 
 # Claude Cowork
 
-Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results ready for your review.
 
 ## Start here
 
@@ -512,9 +512,9 @@ The three setup steps before your first task: open Claude, run the guided setup,
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
-### Customize Claude Cowork
+### Customize Claude
 
-The set up that makes Claude Cowork specific to your work or team.
+The set up that makes Claude specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
@@ -578,10 +578,10 @@ Use case·HR·10 min](https://academy.claude.com/use-cases/performance-review-ad
 - [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
-- [How to customize plugins in Claude CoworkTutorial6 min
+- [How to customize plugins in ClaudeTutorial6 min
 
   Tutorial·6 min](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork)
-- [How to build a plugin from scratch in Claude CoworkTutorial15 min
+- [How to build a plugin from scratch in ClaudeTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork)
 - [Working with Claude Fable 5 in Claude Cowork claude.com—
@@ -607,14 +607,14 @@ Use case·HR·10 min](https://academy.claude.com/use-cases/performance-review-ad
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases71 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Finance
 
 # Claude Cowork
 
-Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results ready for your review.
 
 ## Start here
 
@@ -630,9 +630,9 @@ The three setup steps before your first task: open Claude, run the guided setup,
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
-### Customize Claude Cowork
+### Customize Claude
 
-The set up that makes Claude Cowork specific to your work or team.
+The set up that makes Claude specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
@@ -702,10 +702,10 @@ Use case·Finance·10 min](https://academy.claude.com/use-cases/recon-journal-en
 - [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
-- [How to customize plugins in Claude CoworkTutorial6 min
+- [How to customize plugins in ClaudeTutorial6 min
 
   Tutorial·6 min](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork)
-- [How to build a plugin from scratch in Claude CoworkTutorial15 min
+- [How to build a plugin from scratch in ClaudeTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork)
 - [Working with Claude Fable 5 in Claude Cowork claude.com—
@@ -731,14 +731,14 @@ Use case·Finance·10 min](https://academy.claude.com/use-cases/recon-journal-en
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases71 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Operations
 
 # Claude Cowork
 
-Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results ready for your review.
 
 ## Start here
 
@@ -754,9 +754,9 @@ The three setup steps before your first task: open Claude, run the guided setup,
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
-### Customize Claude Cowork
+### Customize Claude
 
-The set up that makes Claude Cowork specific to your work or team.
+The set up that makes Claude specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
@@ -820,10 +820,10 @@ Use case·Operations·10 min](https://academy.claude.com/use-cases/vendor-risk-r
 - [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
-- [How to customize plugins in Claude CoworkTutorial6 min
+- [How to customize plugins in ClaudeTutorial6 min
 
   Tutorial·6 min](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork)
-- [How to build a plugin from scratch in Claude CoworkTutorial15 min
+- [How to build a plugin from scratch in ClaudeTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork)
 - [Working with Claude Fable 5 in Claude Cowork claude.com—
@@ -849,14 +849,14 @@ Use case·Operations·10 min](https://academy.claude.com/use-cases/vendor-risk-r
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases71 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Data
 
 # Claude Cowork
 
-Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results ready for your review.
 
 ## Start here
 
@@ -872,9 +872,9 @@ The three setup steps before your first task: open Claude, run the guided setup,
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
-### Customize Claude Cowork
+### Customize Claude
 
-The set up that makes Claude Cowork specific to your work or team.
+The set up that makes Claude specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
@@ -914,10 +914,10 @@ Use case·Data·10 min](https://academy.claude.com/use-cases/answer-the-adhoc)
 - [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
-- [How to customize plugins in Claude CoworkTutorial6 min
+- [How to customize plugins in ClaudeTutorial6 min
 
   Tutorial·6 min](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork)
-- [How to build a plugin from scratch in Claude CoworkTutorial15 min
+- [How to build a plugin from scratch in ClaudeTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork)
 - [Working with Claude Fable 5 in Claude Cowork claude.com—
@@ -943,14 +943,14 @@ Use case·Data·10 min](https://academy.claude.com/use-cases/answer-the-adhoc)
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases71 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Design
 
 # Claude Cowork
 
-Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results ready for your review.
 
 ## Start here
 
@@ -966,9 +966,9 @@ The three setup steps before your first task: open Claude, run the guided setup,
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
-### Customize Claude Cowork
+### Customize Claude
 
-The set up that makes Claude Cowork specific to your work or team.
+The set up that makes Claude specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
@@ -1038,10 +1038,10 @@ Use case·Design·15 min](https://academy.claude.com/use-cases/brand-guidelines-
 - [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
-- [How to customize plugins in Claude CoworkTutorial6 min
+- [How to customize plugins in ClaudeTutorial6 min
 
   Tutorial·6 min](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork)
-- [How to build a plugin from scratch in Claude CoworkTutorial15 min
+- [How to build a plugin from scratch in ClaudeTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork)
 - [Working with Claude Fable 5 in Claude Cowork claude.com—
@@ -1067,14 +1067,14 @@ Use case·Design·15 min](https://academy.claude.com/use-cases/brand-guidelines-
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases71 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Legal
 
 # Claude Cowork
 
-Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results ready for your review.
 
 ## Start here
 
@@ -1090,9 +1090,9 @@ The three setup steps before your first task: open Claude, run the guided setup,
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
-### Customize Claude Cowork
+### Customize Claude
 
-The set up that makes Claude Cowork specific to your work or team.
+The set up that makes Claude specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
@@ -1162,10 +1162,10 @@ Use case·Legal·15 min](https://academy.claude.com/use-cases/prep-scattered-doc
 - [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
-- [How to customize plugins in Claude CoworkTutorial6 min
+- [How to customize plugins in ClaudeTutorial6 min
 
   Tutorial·6 min](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork)
-- [How to build a plugin from scratch in Claude CoworkTutorial15 min
+- [How to build a plugin from scratch in ClaudeTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork)
 - [Working with Claude Fable 5 in Claude Cowork claude.com—
@@ -1191,14 +1191,14 @@ Use case·Legal·15 min](https://academy.claude.com/use-cases/prep-scattered-doc
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases71 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Sales
 
 # Claude Cowork
 
-Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results ready for your review.
 
 ## Start here
 
@@ -1214,9 +1214,9 @@ The three setup steps before your first task: open Claude, run the guided setup,
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
-### Customize Claude Cowork
+### Customize Claude
 
-The set up that makes Claude Cowork specific to your work or team.
+The set up that makes Claude specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
@@ -1286,10 +1286,10 @@ Use case·Sales·10 min](https://academy.claude.com/use-cases/transcript-themes)
 - [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
-- [How to customize plugins in Claude CoworkTutorial6 min
+- [How to customize plugins in ClaudeTutorial6 min
 
   Tutorial·6 min](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork)
-- [How to build a plugin from scratch in Claude CoworkTutorial15 min
+- [How to build a plugin from scratch in ClaudeTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork)
 - [Working with Claude Fable 5 in Claude Cowork claude.com—
@@ -1315,14 +1315,14 @@ Use case·Sales·10 min](https://academy.claude.com/use-cases/transcript-themes)
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases71 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Research
 
 # Claude Cowork
 
-Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results ready for your review.
 
 ## Start here
 
@@ -1338,9 +1338,9 @@ The three setup steps before your first task: open Claude, run the guided setup,
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
-### Customize Claude Cowork
+### Customize Claude
 
-The set up that makes Claude Cowork specific to your work or team.
+The set up that makes Claude specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
@@ -1380,10 +1380,10 @@ Use case·Research·15 min](https://academy.claude.com/use-cases/surface-themes-
 - [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
-- [How to customize plugins in Claude CoworkTutorial6 min
+- [How to customize plugins in ClaudeTutorial6 min
 
   Tutorial·6 min](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork)
-- [How to build a plugin from scratch in Claude CoworkTutorial15 min
+- [How to build a plugin from scratch in ClaudeTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork)
 - [Working with Claude Fable 5 in Claude Cowork claude.com—
@@ -1409,14 +1409,14 @@ Use case·Research·15 min](https://academy.claude.com/use-cases/surface-themes-
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases71 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Education
 
 # Claude Cowork
 
-Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results ready for your review.
 
 ## Start here
 
@@ -1432,9 +1432,9 @@ The three setup steps before your first task: open Claude, run the guided setup,
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
-### Customize Claude Cowork
+### Customize Claude
 
-The set up that makes Claude Cowork specific to your work or team.
+The set up that makes Claude specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
@@ -1474,10 +1474,10 @@ Use case·Education·15 min](https://academy.claude.com/use-cases/adapt-a-standa
 - [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
-- [How to customize plugins in Claude CoworkTutorial6 min
+- [How to customize plugins in ClaudeTutorial6 min
 
   Tutorial·6 min](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork)
-- [How to build a plugin from scratch in Claude CoworkTutorial15 min
+- [How to build a plugin from scratch in ClaudeTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork)
 - [Working with Claude Fable 5 in Claude Cowork claude.com—
@@ -1503,14 +1503,14 @@ Use case·Education·15 min](https://academy.claude.com/use-cases/adapt-a-standa
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases71 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
 
 
 ## Personal
 
 # Claude Cowork
 
-Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results you can trust.
+Hand off work you can steer anywhere. Brief Claude on a task, step away, and come back to results ready for your review.
 
 ## Start here
 
@@ -1526,9 +1526,9 @@ The three setup steps before your first task: open Claude, run the guided setup,
 
 Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
-### Customize Claude Cowork
+### Customize Claude
 
-The set up that makes Claude Cowork specific to your work or team.
+The set up that makes Claude specific to your work or team.
 
 Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
@@ -1568,10 +1568,10 @@ Use case·Personal·15 min](https://academy.claude.com/use-cases/organize-files-
 - [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
-- [How to customize plugins in Claude CoworkTutorial6 min
+- [How to customize plugins in ClaudeTutorial6 min
 
   Tutorial·6 min](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork)
-- [How to build a plugin from scratch in Claude CoworkTutorial15 min
+- [How to build a plugin from scratch in ClaudeTutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork)
 - [Working with Claude Fable 5 in Claude Cowork claude.com—
@@ -1597,4 +1597,4 @@ Use case·Personal·15 min](https://academy.claude.com/use-cases/organize-files-
 
 ## Browse it all
 
-[Use cases72 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases71 use cases](https://academy.claude.com/all)[Tutorials18 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)

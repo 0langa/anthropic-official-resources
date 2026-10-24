@@ -1,10 +1,32 @@
-Announcements
+### Chapter 07: Our current safety research
 
-# Core views on AI safety: When, why, what, and how
+# **Core views on AI safety:**When, why, what, and how
 
-Mar 8, 2023
+![Core views on AI safety: When, why, what, and how](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdd1f0730fc369a574023c7ede81c7527ee73a386-2000x1125.png&w=1920&q=75)
 
-![Core views on AI safety: When, why, what, and how](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdd1f0730fc369a574023c7ede81c7527ee73a386-2000x1125.png&w=3840&q=75)
+- Published
+
+  Mar 8, 2023
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)
+  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)See more...
+
+Related articles
+
+- Interpretability
+
+  May 21, 2024
+
+  [Mapping the mind of a large language model](https://www.anthropic.com/research/mapping-mind-language-model)
+
+[View more](https://www.anthropic.com/search?topic=scaling-laws)
 
 We founded Anthropic because we believe the impact of AI might be comparable to that of the industrial and scientific revolutions, but we aren’t confident it will go well. And we also believe this level of impact could start to arrive soon – perhaps in the coming decade.
 
@@ -189,30 +211,14 @@ We want to be clear that we do not believe that the systems available today pose
 
 Anthropic is taking an empirically-driven approach to AI safety. Some of the key areas of active work include improving our understanding of how AI systems learn and generalize to the real world, developing techniques for scalable oversight and review of AI systems, creating AI systems that are transparent and interpretable, training AI systems to follow safe processes instead of pursuing outcomes, analyzing potential dangerous failure modes of AI and how to prevent them, and evaluating the societal impacts of AI to guide policy and research. By attacking the problem of AI safety from multiple angles, we hope to develop a “portfolio” of safety work that can help us succeed across a range of different scenarios. We anticipate that our approach and resource allocation will rapidly adjust as more information about the kind of scenario we are in becomes available.
 
-#### Footnotes
+## Footnotes
 
-1. Algorithmic progress – the invention of new methods for training AI systems – is more difficult to measure, but progress appears to be exponential and faster than Moore’s Law. When extrapolating progress in AI capabilities, the exponential growth in spending, hardware performance, and algorithmic progress must be multiplied in order to estimate the overall growth rate.
-2. Scaling laws provided a justification for the expenditure, but another underlying motivation for carrying out this work was to pivot towards AIs that could read and write, in order to make it easier to train and experiment with AIs that could engage with human values.
-3. Extrapolating progress in AI capabilities from increases in the total amount of computation used for training is not an exact science and requires some judgment. We know that the capability jump from GPT-2 to GPT-3 resulted mostly from about a 250x increase in compute. We would guess that another 50x increase separates the original GPT-3 model and state-of-the-art models in 2023. Over the next 5 years we might expect around a 1000x increase in the computation used to train the largest models, based on trends in compute cost and spending. If the scaling laws hold, this would result in a capability jump that is significantly larger than the jump from GPT-2 to GPT-3 (or GPT-3 to Claude). At Anthropic, we’re deeply familiar with the capabilities of these systems and a jump that is this much larger feels to many of us like it could result in human-level performance across most tasks. This requires that we use intuition – albeit informed intuition – and is therefore an imperfect method of estimating progress in AI capabilities. But the underlying facts including (i) the compute difference between these two systems, (ii) the performance difference between these two systems, (iii) scaling laws that allow us to project out to future systems, and (iv) trends in compute cost and spending are available to anyone and we believe they jointly support a greater than 10% likelihood that we will develop broadly human-level AI systems within the next decade. In this coarse analysis we ignore algorithmic progress and the compute numbers are best estimates we don’t provide details for. However, the vast majority of internal disagreement here is in the intuition for extrapolating subsequent capabilities jumps given an equivalent compute jump.
-4. For example, in AI research, for a long time it was widely assumed on theoretical grounds that local minima might prevent neural networks from learning, while many qualitative aspects of their generalization properties, such as the widespread existence of adversarial examples, came as something of a mystery and surprise.
-5. Effective safety research on large models doesn't just require nominal (e.g. API) access to these systems – to do work on interpretability, fine tuning, and reinforcement learning it’s necessary to develop AI systems internally at Anthropic.
+01Algorithmic progress – the invention of new methods for training AI systems – is more difficult to measure, but progress appears to be exponential and faster than Moore’s Law. When extrapolating progress in AI capabilities, the exponential growth in spending, hardware performance, and algorithmic progress must be multiplied in order to estimate the overall growth rate.
 
-## Related content
+02Scaling laws provided a justification for the expenditure, but another underlying motivation for carrying out this work was to pivot towards AIs that could read and write, in order to make it easier to train and experiment with AIs that could engage with human values.
 
-### Investing in the public benefit
+03Extrapolating progress in AI capabilities from increases in the total amount of computation used for training is not an exact science and requires some judgment. We know that the capability jump from GPT-2 to GPT-3 resulted mostly from about a 250x increase in compute. We would guess that another 50x increase separates the original GPT-3 model and state-of-the-art models in 2023. Over the next 5 years we might expect around a 1000x increase in the computation used to train the largest models, based on trends in compute cost and spending. If the scaling laws hold, this would result in a capability jump that is significantly larger than the jump from GPT-2 to GPT-3 (or GPT-3 to Claude). At Anthropic, we’re deeply familiar with the capabilities of these systems and a jump that is this much larger feels to many of us like it could result in human-level performance across most tasks. This requires that we use intuition – albeit informed intuition – and is therefore an imperfect method of estimating progress in AI capabilities. But the underlying facts including (i) the compute difference between these two systems, (ii) the performance difference between these two systems, (iii) scaling laws that allow us to project out to future systems, and (iv) trends in compute cost and spending are available to anyone and we believe they jointly support a greater than 10% likelihood that we will develop broadly human-level AI systems within the next decade. In this coarse analysis we ignore algorithmic progress and the compute numbers are best estimates we don’t provide details for. However, the vast majority of internal disagreement here is in the intuition for extrapolating subsequent capabilities jumps given an equivalent compute jump.
 
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
+04For example, in AI research, for a long time it was widely assumed on theoretical grounds that local minima might prevent neural networks from learning, while many qualitative aspects of their generalization properties, such as the widespread existence of adversarial examples, came as something of a mystery and surprise.
 
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)
+05Effective safety research on large models doesn't just require nominal (e.g. API) access to these systems – to do work on interpretability, fine tuning, and reinforcement learning it’s necessary to develop AI systems internally at Anthropic.

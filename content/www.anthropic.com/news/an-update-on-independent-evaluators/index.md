@@ -1,10 +1,31 @@
-Announcements
+### Chapter 03: Our other evaluator partnerships
 
 # An update on independent evaluators
 
-Oct 15, 2026
+![An update on independent evaluators](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc2af6aeedb4995d202c7543f3d59c6bbbd5352f1-2000x1125.jpg&w=1920&q=75)
 
-![An update on independent evaluators](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc2af6aeedb4995d202c7543f3d59c6bbbd5352f1-2000x1125.jpg&w=3840&q=75)
+- Published
+
+  Oct 15, 2026
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)See more...
+
+Related articles
+
+- Partnerships
+
+  Sep 18, 2026
+
+  [Partnering with Accenture on embedded evaluation](https://www.anthropic.com/news/accenture-embedded-evaluation)
+
+[View more](https://www.anthropic.com/search?topic=safety-evaluations)
 
 Last month, we committed to [stronger independent, third-party assessment](https://darioamodei.com/post/we-must-pace-the-frontier) of our models and safety practices. We also signed the White House Accord on Super Intelligence, in which companies pledged to partner with independent external auditors or evaluators. Today, we’re announcing that we’ve started to give employee-like access to a team from [METR](https://metr.org/), a nonprofit that evaluates frontier AI models.
 
@@ -53,28 +74,10 @@ We’re developing three tiers of access for evaluators. Over time, we hope to h
 
 We’re embedding evaluators voluntarily, and we believe every frontier AI company should do the same.
 
-#### Footnotes
+## Footnotes
 
-1. Because these evaluators (like bank examiners) may also work with other companies, we exercise caution around the possibility of inadvertent leaks. Information about architectures presents a high risk of inadvertent leaks, and its relevance to risk assessment is typically low. When it is highly relevant, we will generally seek to share it, though this will require explicit internal approvals.
-2. Updated on October 16 to clarify METR's current project terms with Anthropic.
-3. Updated on October 15 to clarify SecureBio's current project terms with Anthropic.
+01Because these evaluators (like bank examiners) may also work with other companies, we exercise caution around the possibility of inadvertent leaks. Information about architectures presents a high risk of inadvertent leaks, and its relevance to risk assessment is typically low. When it is highly relevant, we will generally seek to share it, though this will require explicit internal approvals.
 
-## Related content
+02Updated on October 16 to clarify METR's current project terms with Anthropic.
 
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)
-
-### Anthropic opens Singapore office and signs MOU with the Government of Singapore
-
-Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.
-
-[Read more](https://www.anthropic.com/news/singapore-office-opening)
+03Updated on October 15 to clarify SecureBio's current project terms with Anthropic.

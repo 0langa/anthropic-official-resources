@@ -1,10 +1,32 @@
-Economics
+### Chapter 03: Our five research priorities
 
 # A research agenda for the Economic Futures Research Fund
 
-Jul 22, 2026
+![A research agenda for the Economic Futures Research Fund](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1dee16ed8ebe3e7bdf82ed8b4186373cf882827c-2000x1125.jpg&w=1920&q=75)
 
-![A research agenda for the Economic Futures Research Fund](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1dee16ed8ebe3e7bdf82ed8b4186373cf882827c-2000x1125.jpg&w=3840&q=75)
+- Published
+
+  Jul 22, 2026
+- Category
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+  - [Funding](https://www.anthropic.com/search?topic=funding)
+  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+  - [Economic growth](https://www.anthropic.com/search?topic=economic-growth)See more...
+
+Related articles
+
+- Announcements
+
+  Oct 18, 2026
+
+  [Investing in the public benefit](https://www.anthropic.com/news/public-benefit-fund)
+
+[View more](https://www.anthropic.com/search?topic=economic-futures)
 
 We’re sharing the research agenda for the Anthropic Economic Futures Research Fund. We’re committing $200 million to the fund to support ambitious external research on interventions to prepare society for the economic impacts of AI.
 
@@ -97,23 +119,3 @@ Fundable directions include:
 - Place-based interventions in communities most exposed to AI-driven displacement or hosting major AI infrastructure build-outs, including bundled investments in workforce, public services, infrastructure, and amenities, and pilots of regional development authorities that coordinate these investments under unified governance.
 
 [Learn more about the RFP and apply here.](https://docs.google.com/forms/d/e/1FAIpQLSfQySlKGRi_xqRRz2ZGy-1aC5eUf-fK-j0iJun2m6Fu5pqSOg/viewform?usp=dialog)
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

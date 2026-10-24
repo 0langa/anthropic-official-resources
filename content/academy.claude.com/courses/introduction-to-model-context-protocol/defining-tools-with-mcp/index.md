@@ -14,14 +14,21 @@ Building an MCP server becomes much simpler when you use the official Python SDK
 
 In this example, we're creating a document management server with two core tools: one to read documents and another to update them. All documents exist in memory as a simple dictionary where keys are document IDs and values are the content.
 
+## Getting the Project[](https://academy.claude.com/courses/introduction-to-model-context-protocol/defining-tools-with-mcp)
+
+The lessons in this course build on a small starter project, a command-line chatbot with an MCP client and an MCP server. Download `cli_project.zip` from the Downloads section at the end of this lesson and extract it to your preferred development directory. Open your code editor in the project folder.
+
+The project includes a README file with setup instructions. Add your Anthropic API key to the `.env` file. Then install dependencies using either uv (recommended) or pip. The project uses version 1 of the MCP Python SDK, and its setup installs that version for you.
+
 ## Setting Up the MCP Server[](https://academy.claude.com/courses/introduction-to-model-context-protocol/defining-tools-with-mcp)
 
-The Python MCP SDK makes server creation straightforward. You can initialize a server with just one line:
+The MCP Python SDK makes server creation straightforward. Open `mcp_server.py`. It already initializes a server with just one line. The tools below also need the `Field` import:
 
 python
 
 ```
 from mcp.server.fastmcp import FastMCP
+from pydantic import Field
 
 mcp = FastMCP("DocumentMCP", log_level="ERROR")
 ```
@@ -100,5 +107,22 @@ This tool takes three parameters: the document ID, the text to find, and the rep
 - Tool registration happens automatically through decorators
 
 The MCP Python SDK transforms tool creation from a complex schema-writing exercise into simple Python function definitions. This approach makes it much easier to build and maintain MCP servers while ensuring Claude receives properly formatted tool specifications.
+
+## Downloads
+
+- 
+
+  ### Starter project (cli\_project.zip)
+
+  The chatbot project you build on for the rest of this course.
+
+  [Download](https://academy.claude.com/assets/v1/cli_project-nrz6nj8y.zip)
+- 
+
+  ### Completed project (cli\_project\_COMPLETE.zip)
+
+  The finished version, for checking your work.
+
+  [Download](https://academy.claude.com/assets/v1/cli_project_COMPLETE-m9tg5c08.zip)
 
 Was this helpful?

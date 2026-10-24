@@ -1,12 +1,30 @@
-[Engineering at Anthropic](https://www.anthropic.com/engineering)
-
-![](https://www-cdn.anthropic.com/images/4zrzovbb/website/7e2e39544a35760367049072406377a54f2b58c0-2554x2554.svg)
+### Chapter 05: Appendix I
 
 # Introducing Contextual Retrieval
 
-Published Sep 19, 2024
+![Introducing Contextual Retrieval](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F311faf3808b25ab0b348a4ee937e7f9cae66ebb0-2000x1125.jpg&w=1920&q=75)
 
-For an AI model to be useful in specific contexts, it often needs access to background knowledge.
+- Published
+
+  Sep 19, 2024
+- Team
+
+  [Engineering](https://www.anthropic.com/engineering)
+- Topics
+
+  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)See more...
+
+Related articles
+
+- Engineering
+
+  Nov 26, 2025
+
+  [Effective harnesses for long-running agents](https://www.anthropic.com/research/effective-harnesses-for-long-running-agents)
+
+[View more](https://www.anthropic.com/search?topic=context-engineering)
 
 For an AI model to be useful in specific contexts, it often needs access to background knowledge. For example, customer support chatbots need knowledge about the specific business they're being used for, and legal analyst bots need to know about a vast array of past cases.
 
@@ -71,19 +89,21 @@ Contextual Retrieval solves this problem by prepending chunk-specific explanator
 
 Let’s return to our SEC filings collection example. Here's an example of how a chunk might be transformed:
 
+Copy
+
 ```
 original_chunk = "The company's revenue grew by 3% over the previous quarter."
 
 contextualized_chunk = "This chunk is from an SEC filing on ACME corp's performance in Q2 2023; the previous quarter's revenue was $314 million. The company's revenue grew by 3% over the previous quarter."
 ```
 
-Copy
-
 It is worth noting that other approaches to using context to improve retrieval have been proposed in the past. Other proposals include: [adding generic document summaries to chunks](https://aclanthology.org/W02-0405.pdf) (we experimented and saw very limited gains), [hypothetical document embedding](https://arxiv.org/abs/2212.10496), and [summary-based indexing](https://www.llamaindex.ai/blog/a-new-document-summary-index-for-llm-powered-qa-systems-9a32ece2f9ec) (we evaluated and saw low performance). These methods differ from what is proposed in this post.
 
 ### Implementing Contextual Retrieval
 
 Of course, it would be far too much work to manually annotate the thousands or even millions of chunks in a knowledge base. To implement Contextual Retrieval, we turn to Claude. We’ve written a prompt that instructs the model to provide concise, chunk-specific context that explains the chunk using the context of the overall document. We used the following Claude 3 Haiku prompt to generate context for each chunk:
+
+Copy
 
 ```
 <document> 
@@ -95,8 +115,6 @@ Here is the chunk we want to situate within the whole document
 </chunk> 
 Please give a short succinct context to situate this chunk within the overall document for the purposes of improving search retrieval of the chunk. Answer only with the succinct context and nothing else.
 ```
-
-Copy
 
 The resulting contextual text, usually 50-100 tokens, is prepended to the chunk before embedding it and before creating the BM25 index.
 
@@ -192,12 +210,8 @@ See [Appendix II](https://assets.anthropic.com/m/1632cded0a125333/original/Conte
 
 *1 minus recall @ 20 results across data sets and embedding providers.*
 
-## Acknowledgements
+## Authors & acknowledgements
+
+### Acknowledgements
 
 Research and writing by Daniel Ford. Thanks to Orowa Sikder, Gautam Mittal, and Kenneth Lien for critical feedback, Samuel Flamini for implementing the cookbooks, Lauren Polansky for project coordination and Alex Albert, Susan Payne, Stuart Ritchie, and Brad Abrams for shaping this blog post.
-
-## Get the developer newsletter
-
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
-
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.

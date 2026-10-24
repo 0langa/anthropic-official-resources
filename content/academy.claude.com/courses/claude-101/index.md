@@ -25,7 +25,7 @@ Claude 101 is the starting point for anyone bringing Claude into their everyday 
 
 - A Claude account on any plan (Free, Pro, Max, Team, or Enterprise)
 - No prior experience with Claude or other AI assistants needed
-- A few features covered here require a paid plan to try hands-on: Cowork (Pro, Max, Team, and Enterprise plans) and Enterprise Search (Team and Enterprise plans). On Team and Enterprise, your admin controls whether designs, decks, and documents are available. Each lesson notes where this applies.
+- A few features covered here require a paid plan to try hands-on: Cowork and Research (Pro, Max, Team, and Enterprise plans) and Enterprise Search (Team and Enterprise plans). On Team and Enterprise, your admin controls whether designs, decks, and documents are available. Each lesson notes where this applies.
 
 ## **Who this course is for**[](https://academy.claude.com/courses/claude-101)
 

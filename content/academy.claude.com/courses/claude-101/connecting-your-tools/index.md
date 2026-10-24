@@ -16,6 +16,8 @@ Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-1
 
 ## What are connectors?[](https://academy.claude.com/courses/claude-101/connecting-your-tools)
 
+Most of what you work on lives outside the conversation: the spreadsheet with this quarter's numbers, the email thread where a decision was made, the project tracker with your team's deadlines. Connectors let Claude reach the tools that hold that work, so you can ask about the real file or thread instead of pasting in a copy. Once a tool is connected, Claude can search it, read from it, and, where the connector allows, take actions in it on your behalf. Connecting a tool usually takes a sign-in and a permissions check. You can disconnect a tool at any time.
+
 ## Key takeaways[](https://academy.claude.com/courses/claude-101/connecting-your-tools)
 
 - **Connectors transform Claude from an assistant into an informed collaborator** by giving Claude access to the same tools, data, and context that you use every day. Instead of starting every conversation from scratch, Claude can work directly with your actual information.
@@ -24,8 +26,6 @@ Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-1
 - **There are two types of connectors: web connectors and desktop extensions.** Web connectors link Claude to cloud services like Google Drive, Notion, Slack, and Asana. Desktop extensions run locally on your computer through the Claude Desktop app, giving Claude access to local files and native applications.
 
 ## Finding and connecting tools[](https://academy.claude.com/courses/claude-101/connecting-your-tools)
-
-Below is a request Claude can already handle — everything it needs is in the words you typed. Nothing else is connected yet. **Turn on a source and watch the request grow:** each connection lets you ask for something that lives outside your message.
 
 Exercise: the learner toggles three connector sources on and off, each adding a sentence to a request asking for outside information, to show that connections only give the request somewhere to point, not a reason for Claude to search unprompted.
 

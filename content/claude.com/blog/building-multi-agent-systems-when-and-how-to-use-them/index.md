@@ -16,7 +16,7 @@ Multiple coordination patterns exist (agent swarms, capability-based systems, an
 
 Today, multi-agent systems are often applied in situations where a single agent would perform better, though this calculus continues to evolve as models improve. At Anthropic, we’ve seen teams invest months building elaborate multi-agent architectures only to discover that improved prompting on a single agent achieved equivalent results.
 
-After building multi-agent systems and working with teams deploying them in production, we've identified three situations where multiple agents consistently outperform a single agent: when context pollution degrades performance, when tasks can run in parallel, and when specialization improves tool selection or task focus. Outside these situations, the coordination costs typically exceed the benefits.  
+After building multi-agent systems and working with teams deploying them in production, we've identified three situations where multiple agents consistently outperform a single agent: when context pollution degrades performance, when tasks can run in parallel, and when specialization improves tool selection or task focus. Outside these situations, the coordination costs typically exceed the benefits. See [when to fold subagents back into the main agent loop](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop).  
   
 In this article, we share how to recognize single-agent limits, identify the three scenarios where multi-agent systems excel, and avoid common implementation mistakes.
 
@@ -393,7 +393,13 @@ Written by Cara Phillips, with contributions from Paul Chen, Andy Schumeister, B
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 19, 2026
+[ArticleOct 22, 2026
+
+### Building agents: When to fold subagents into your main agent loop
+
+When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
+
+Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[ArticleOct 19, 2026
 
 ### Redesigning source control at Anthropic
 
@@ -415,15 +421,7 @@ How do you review code at the volume agents produce it? The Claude Code team sha
 
 Claude Code
 
-(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)[ArticleOct 8, 2026
-
-### Building effective agent automations
-
-A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
-
-Claude Platform
-
-(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)
+(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)
 
 ## Transform how your organization operates with Claude
 

@@ -119,7 +119,7 @@ Large language models like Claude are designed to be helpful, harmless, and hone
 
 [Read the full paper](https://arxiv.org/abs/2507.21509) for more on our methodology and findings.
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

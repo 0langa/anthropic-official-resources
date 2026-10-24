@@ -26,7 +26,7 @@ Claude Code offers three ways to schedule recurring or one-off work:
 | Persistent across restarts | Yes | Yes | Restored on `--resume`, with [exceptions](/docs/en/scheduled-tasks#limitations) |
 | Access to local files | No (fresh clone) | Yes | Yes |
 | MCP servers | Connectors configured per task | [Config files](/docs/en/mcp) and connectors | Inherits from session |
-| Permission prompts | No (runs autonomously) | Configurable per task | Inherits from session |
+| Permission prompts | [Auto mode](/docs/en/routines#permission-prompts-during-a-run) by default | Configurable per task | Inherits from session |
 | Customizable schedule | Yes | Yes | Yes |
 | Minimum interval | 1 hour | 1 minute when Claude sets it, [1 hour in the forms](/docs/en/desktop-scheduled-tasks#schedule-options) | 1 minute |
 

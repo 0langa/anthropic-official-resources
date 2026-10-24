@@ -68,7 +68,7 @@ Where do caps sit for your organization (the ceiling, the group caps, any day-on
 
 This decision is a judgment call, not a toggle. You have to make the call on both how you set your caps and who owns the escalation once they’re set. Weigh the considerations under each together.
 
-You can lean on the [Claude Enterprise consumption guide(opens in new tab)](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)’s tier structure rather than inventing your own. It recommends defining consumption tiers by role type before rollout (light, standard, and power) so caps are assigned and adjusted consistently; chat is the lighter surface, and Claude Code and Cowork consume more per session.
+You can lean on the [Claude Enterprise consumption guide(opens in new tab)](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)’s tier structure rather than inventing your own. It recommends defining consumption tiers by role type before rollout (light, standard, and power) so caps are assigned and adjusted consistently. Agentic work can consume more per session than a quick chat: Claude Code, Cowork, and a chat in the [unified Claude experience(opens in new tab)](https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization) that moves into a Cowork cloud session.
 
 Put a number on each tier from your own usage history or your account team’s sizing guidance if you have one, record the date you set it, and treat it as the opening number you adjust against your own usage rather than a target. Two things bound the number you land on: the organization ceiling your budget owner holds, and the surfaces each group actually gets from Lesson 6.
 

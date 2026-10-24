@@ -33,6 +33,7 @@ Before you start
 - Basic Python programming experience
 - Understanding of async/await patterns
 - Familiarity with API concepts
+- An Anthropic API key, for the chat application you run in later lessons
 
 This course covers MCP, a protocol for connecting Claude to external services and data sources without manually writing tool schemas. You'll learn to build both MCP servers that expose tools, resources, and prompts, and MCP clients that consume them. The course includes a hands-on project where you implement a document management system using MCP.
 

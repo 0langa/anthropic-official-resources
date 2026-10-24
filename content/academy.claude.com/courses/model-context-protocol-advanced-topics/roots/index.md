@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fmodel-context-protocol-advanced-topics%2Froots)
 
+
+
+The [2026-07-28 revision(opens in new tab)](https://modelcontextprotocol.io/specification/2026-07-28/changelog) of the MCP specification deprecates roots. They still work on version 1 of the MCP Python SDK, which this course uses.
+
 Roots are a way to grant MCP servers access to specific files and folders on your local machine. Think of them as a permission system that says "Hey, MCP server, you can access these files" - but they do much more than just grant permission.
 
 ## The Problem Roots Solve[](https://academy.claude.com/courses/model-context-protocol-advanced-topics/roots)

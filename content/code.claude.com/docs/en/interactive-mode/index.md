@@ -314,7 +314,7 @@ To run commands in the background, you can either:
 * Prompt Claude Code to run a command in the background
 * Press `Ctrl+B` to move a regular Bash tool invocation to the background. Tmux users must press `Ctrl+B` twice due to tmux's prefix key.
 
-When a command reaches its timeout before it finishes, Claude Code automatically [moves it to the background](/docs/en/tools-reference#foreground-commands-that-move-to-the-background) instead of stopping it, unless the command starts with `sleep`. If you've turned background tasks off with [`CLAUDE_CODE_DISABLE_BACKGROUND_TASKS`](/docs/en/env-vars#variables) or by starting in [bare mode](/docs/en/headless#start-faster-with-bare-mode), the command stops at its timeout. To change the timeout, set the [Bash timeout environment variables](/docs/en/tools-reference#timeout-and-output-limits).
+When a command reaches its timeout before it finishes, Claude Code automatically [moves it to the background](/docs/en/tools-reference#foreground-commands-that-move-to-the-background) instead of stopping it, unless the command starts with `sleep`. If you've turned background commands off with [`CLAUDE_CODE_DISABLE_BACKGROUND_TASKS`](/docs/en/env-vars#variables) or by starting in [bare mode](/docs/en/headless#start-faster-with-bare-mode), the command stops at its timeout. To change the timeout, set the [Bash timeout environment variables](/docs/en/tools-reference#timeout-and-output-limits).
 
 **Key features:**
 
@@ -329,7 +329,7 @@ When a command reaches its timeout before it finishes, Claude Code automatically
 * Background commands in a local session you work in from a terminal, the desktop app, or the VS Code extension have no time limit. In a session that runs unattended, such as a `-p` run or a cloud session, Claude Code stops a background command at its [time limit](/docs/en/tools-reference#time-limit-for-background-commands)
 * A background command that a foreground [subagent](/docs/en/sub-agents#run-subagents-in-foreground-or-background) started ends when that subagent's run ends, whether it finished, failed, or was interrupted; see [When a background command stops](/docs/en/tools-reference#when-a-background-command-stops) in the tools reference
 
-To disable all background task functionality, set the [`CLAUDE_CODE_DISABLE_BACKGROUND_TASKS`](/docs/en/env-vars#variables) environment variable to `1`. Starting in [bare mode](/docs/en/headless#start-faster-with-bare-mode) turns it off as well.
+To turn off background commands, set the [`CLAUDE_CODE_DISABLE_BACKGROUND_TASKS`](/docs/en/env-vars#variables) environment variable to `1`. With it set, you also lose background subagents, background forked skills, and `Ctrl+B`. Starting in [bare mode](/docs/en/headless#start-faster-with-bare-mode) has the same effect.
 
 **Common backgrounded commands:**
 

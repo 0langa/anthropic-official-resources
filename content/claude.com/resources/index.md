@@ -60,49 +60,47 @@ The latest news about Claude, including new products, features, and updates.
 
 [See more](https://claude.com/resources/product-announcements)
 
-![dashboards](https://i.ytimg.com/vi/en0GuyhieQk/maxresdefault.jpg)
+![Claude Duet](https://i.ytimg.com/vi/Fb-68zqcSVs/maxresdefault.jpg)
 
 Article
+
+### Introducing Claude Duet
+
+A research preview is available by waitlist today, starting with US Pro and Max subscribers.
+
+[Learn more](https://claude.com/resources/articles/claude-duet)
+
+[ArticleOct 23, 2026
+
+### Claude Duet Safety, Privacy, and Security
+
+Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)[ArticleOct 8, 2026
 
 ### Build live dashboards and animate explainers with Claude
 
 Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
 
-[Learn more](https://claude.com/resources/articles/dashboards-and-motion)
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 23, 2026
 
-[ArticleOct 21, 2026
+### Claude Cowork and chat come together for Enterprise
+
+Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)[ArticleOct 22, 2026
+
+### The full Claude Platform, available on Google Cloud
+
+Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
+
+Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)[ArticleOct 21, 2026
 
 ### HCLTech joins the Claude Partner Network as a Global Premier partner
 
 HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)[ArticleOct 21, 2026
 
-### Introducing Claude Duet
-
-A research preview is available by waitlist today, starting with US Pro and Max subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleOct 21, 2026
-
 ### Claude Security now scans continuously and tracks fixes
 
 Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.
 
-Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes)[ArticleOct 15, 2026
-
-### Code Review is now generally available
-
-Catch more bugs before they reach production.
-
-Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)[ArticleOct 7, 2026
-
-### Claude Haiku 5.5
-
-Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.
-
-(opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)[ArticleOct 6, 2026
-
-### Claude now works with Google Docs, Sheets, and Slides
-
-Teams that run on Google Workspace can now bring Claude into their files or work on their files directly from Claude, with our new add-on and Google Docs, Sheets, and Slides connectors (in beta).
-
-Claude Enterprise](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides)
+Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes)
 
 ## Best practices
 
@@ -110,23 +108,23 @@ Proven workflows and practical guides to help your team get more out of Claude, 
 
 [See more](https://claude.com/resources/best-practices)
 
-![](https://assets.claude.com/d7e1342faad4757edac21e6024b6ccc4be878e39.svg)
+![folding subagents](https://assets.claude.com/044d8a58d0fcb8bd18e42fc11164acf8028c39f3.gif)
 
 Article
 
-### How the Claude Code team does code review
+### Building agents: When to fold subagents into your main agent loop
 
-How do you review code at the volume agents produce it? The Claude Code team shares its review process, from Claude verifying its own work to risk-tiered human approval, plus a checklist for adopting it.
+When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
 
-[Learn more (opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)
+[Learn more](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)
 
-[WebinarUpcoming | Oct 28, 2026
+[WebinarUpcoming | Nov 4, 2026
 
 ### Unified Claude: What it means for admins
 
 Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile.
 
-Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[WebinarUpcoming | Oct 22, 2026
+Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[WebinarOn demand
 
 ### Claude Rearview Roadmap Review: October 2026
 
@@ -178,7 +176,13 @@ Video
 
 In this conversation with Boris, Shopify's CTO explains why the real value of working with Claude is in building things that weren't possible before. He describes solving a problem he'd worked on for seven years, how Shopify built a digital twin of the company, and the unique barbell strategy he recommends for getting the most out of Claude.
 
-[Video33 min watch
+[ArticleOct 22, 2026
+
+### Building agents: When to fold subagents into your main agent loop
+
+When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
+
+Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[Video33 min watch
 
 ### Building secure agents for knowledge work
 
@@ -192,11 +196,7 @@ Claude Platform
 
 Your career is yours. It always was - but when the market was hot, it didn't seem like you needed to think about it.
 
-Claude apps](https://claude.com/resources/webinars/dri-ing-your-career)[ArticleOct 13, 2026
-
-### Uber's CISO on building an insider threat program for AI
-
-Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.](https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai)
+Claude apps](https://claude.com/resources/webinars/dri-ing-your-career)
 
 ## Insights
 
@@ -246,37 +246,31 @@ News, announcements, and stories from Anthropic about Claude and the people buil
 
 [See more](https://claude.com/resources/articles)
 
-[ArticleOct 21, 2026
+[ArticleOct 22, 2026
+
+### Building agents: When to fold subagents into your main agent loop
+
+When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
+
+Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[ArticleOct 21, 2026
 
 ### Introducing Claude Duet
 
-A research preview is available by waitlist today, starting with US Pro and Max subscribers.
-
-![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)[ArticleOct 8, 2026
+A research preview is available by waitlist today, starting with US Pro and Max subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleOct 8, 2026
 
 ### Build live dashboards and animate explainers with Claude
 
 Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
 
-Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 21, 2026
+Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 23, 2026
 
-### HCLTech joins the Claude Partner Network as a Global Premier partner
+### Claude Cowork and chat come together for Enterprise
 
-HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)[ArticleOct 21, 2026
+Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)[ArticleOct 23, 2026
 
-### Claude Security now scans continuously and tracks fixes
+### Claude Duet Safety, Privacy, and Security
 
-Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.
-
-Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes)[ArticleOct 19, 2026
-
-### Redesigning source control at Anthropic
-
-As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.
-
-Claude Code
-
-(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)
+Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)
 
 ## Guides
 
@@ -334,13 +328,13 @@ Join the teams behind the program for a walkthrough of the Cyber Verification Pr
 
 ### Claude in Microsoft Foundry: control the cost, prove the value
 
-See how to cut Claude costs in Microsoft Foundry, track who’s spending what, and prove the ROI.](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)[WebinarUpcoming | Oct 28, 2026
+See how to cut Claude costs in Microsoft Foundry, track who’s spending what, and prove the ROI.](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)[WebinarUpcoming | Nov 4, 2026
 
 ### Unified Claude: What it means for admins
 
 Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile.
 
-Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[WebinarUpcoming | Oct 22, 2026
+Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[WebinarOn demand
 
 ### Claude Rearview Roadmap Review: October 2026
 

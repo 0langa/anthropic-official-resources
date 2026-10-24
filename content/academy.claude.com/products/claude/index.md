@@ -95,4 +95,4 @@ Use case·Education·15 min](https://academy.claude.com/use-cases/bring-your-whi
 
 ## Browse it all
 
-[Use cases70 use cases](https://academy.claude.com/all)[Tutorials64 tutorials](https://academy.claude.com/all)[Courses13 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases70 use cases](https://academy.claude.com/all)[Tutorials66 tutorials](https://academy.claude.com/all)[Courses13 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)

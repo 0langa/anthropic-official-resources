@@ -159,7 +159,7 @@ Appendices are available [at this link](https://assets.anthropic.com/m/6a464113e
 - Appendix 3: Additional results (Figures A1-A6);
 - Appendix 4: How does feature steering compare to prompting? (Tables A3-A8).
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

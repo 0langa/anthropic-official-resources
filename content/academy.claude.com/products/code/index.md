@@ -108,4 +108,4 @@ Admin setup](https://academy.claude.com/products/code/setup)
 
 ## Browse it all
 
-[Tutorials11 tutorials](https://academy.claude.com/all)[Courses7 courses](https://academy.claude.com/all)[Claude Code docs code.claude.com (opens in new tab)](https://code.claude.com/docs)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Tutorials10 tutorials](https://academy.claude.com/all)[Courses7 courses](https://academy.claude.com/all)[Claude Code docs code.claude.com (opens in new tab)](https://code.claude.com/docs)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)

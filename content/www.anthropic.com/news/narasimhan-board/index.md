@@ -17,9 +17,9 @@ Related articles
 
 - Announcements
 
-  Jul 9, 2026
+  Oct 21, 2026
 
-  [Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust](https://www.anthropic.com/news/ben-bernanke)
+  [Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust](https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust)
 
 [View more](https://www.anthropic.com/search?topic=leadership)
 

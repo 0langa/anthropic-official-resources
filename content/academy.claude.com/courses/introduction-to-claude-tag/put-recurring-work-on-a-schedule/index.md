@@ -42,7 +42,7 @@ When the first result arrives, reply in that thread with what you want different
 
 Routines belong to the channel. Each one posts there for everyone to see, and anyone in the channel can list or change them:
 
-- **List:** ask `@Claude what routines do you have set up in this channel?` or send [`@Claude !routines`(opens in new tab)](https://claude.com/docs/claude-tag/users/commands).
+- **List:** ask `@Claude what routines do you have set up in this channel?` or send [`@Claude !scheduled`(opens in new tab)](https://claude.com/docs/claude-tag/users/commands).
 - **Change or pause:** describe the change, such as "pause the Monday digest until I say I'm back."
 - **Stop:** name the routine, such as "stop the Friday status."
 

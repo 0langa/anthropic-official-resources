@@ -82,13 +82,13 @@ With the basic setup complete, we're ready to start implementing MCP features an
 
   The chatbot project you build on for the rest of this section.
 
-  [Download](https://academy.claude.com/assets/v1/cli_project-npl05utu.zip)
+  [Download](https://academy.claude.com/assets/v1/cli_project-nrz6nj8y.zip)
 - 
 
   ### Completed project (cli\_project\_COMPLETE.zip)
 
   The finished version, for checking your work.
 
-  [Download](https://academy.claude.com/assets/v1/cli_project_COMPLETE-e1lswvrm.zip)
+  [Download](https://academy.claude.com/assets/v1/cli_project_COMPLETE-m9tg5c08.zip)
 
 Was this helpful?

@@ -21,7 +21,11 @@ Plan availability
 
 Research is available on paid plans (Pro, Max, Team, and Enterprise).
 
-## Researching with Claude[](https://academy.claude.com/courses/claude-101/research-mode-for-deep-dives)
+## What is Research?[](https://academy.claude.com/courses/claude-101/research-mode-for-deep-dives)
+
+Research is a feature that transforms Claude from a conversational assistant into a systematic investigator. It's designed for situations where a thorough understanding requires pulling together information from multiple sources, comparing different perspectives, and synthesizing findings into actionable insights. With Research enabled, Claude goes well beyond answering a question and explores it from multiple angles, synthesizing information from across the web and your connected integrations.
+
+Think of it as having a skilled research assistant who gathers information, cross-references sources, and compiles a comprehensive report while you stay on your own work.
 
 ## Key takeaways[](https://academy.claude.com/courses/claude-101/research-mode-for-deep-dives)
 
@@ -29,14 +33,6 @@ Research is available on paid plans (Pro, Max, Team, and Enterprise).
 - **Research takes longer than your usual search** — a few minutes or more, depending on the question. That's because it isn't one lookup: Claude can send out many searches at once, sometimes across hundreds of sources, and pull what they find into one answer. That work isn't instant.
 - **Research works with Thinking, so Claude can plan its approach before it searches.** It breaks a complex request into manageable pieces, then gathers what each piece needs.
 - **Citations make verification easy.** Research delivers thorough answers complete with easy-to-check citations, so you can trust Claude's findings and quickly verify sources yourself.
-
-## What is Research?[](https://academy.claude.com/courses/claude-101/research-mode-for-deep-dives)
-
-Research is an advanced feature that transforms Claude from a conversational assistant into a systematic investigator. When you enable Research, Claude doesn't just answer your question—it explores it from multiple angles, synthesizing information from across the web and your connected integrations.
-
-Think of it as having a skilled research assistant who gathers information, cross-references sources, and compiles a comprehensive report while you stay on your own work.
-
-Research is particularly valuable when you need more than a quick answer. It's designed for situations where a thorough understanding requires pulling together information from multiple sources, comparing different perspectives, and synthesizing findings into actionable insights.
 
 ## When to use Research[](https://academy.claude.com/courses/claude-101/research-mode-for-deep-dives)
 
@@ -116,7 +112,7 @@ Here's how to enable and use Research:
 
 Important
 
-Web search must be enabled for Research to function. If you haven't already turned on web search, you can do so from the same **+** menu.
+Web search must be enabled for Research to function. If you haven't already turned on web search, you can do so from the same **+** menu. If you have the new Claude experience, there's no web search toggle. Claude searches the web when it helps.
 
 ### Tips for effective Research prompts[](https://academy.claude.com/courses/claude-101/research-mode-for-deep-dives)
 

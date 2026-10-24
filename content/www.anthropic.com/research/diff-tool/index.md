@@ -124,7 +124,7 @@ You can read the full paper[here](https://arxiv.org/abs/2602.11729).
 
 01As with all Anthropic Fellows interpretability research, this paper analyzes the behavior of open-source models. We chose the four models in the study—Llama-3.1-8B-Instruct, Qwen3-8B, GPT-OSS-20B, and DeepSeek-R1-0528-Qwen3-8B—on the basis they would be well-suited to testing whether our Dedicated Feature Crosscoder could detect notable differences in model behavior.
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

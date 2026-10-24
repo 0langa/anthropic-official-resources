@@ -28,7 +28,7 @@ Join the teams behind the program for a walkthrough of the Cyber Verification Pr
 
 See how to cut Claude costs in Microsoft Foundry, track who’s spending what, and prove the ROI.](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)
 
-[WebinarUpcoming | Oct 28, 2026
+[WebinarUpcoming | Nov 4, 2026
 
 ### Unified Claude: What it means for admins
 
@@ -36,13 +36,13 @@ Chat and Cowork are coming together into a single, simpler Claude experience acr
 
 Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
 
-[WebinarUpcoming | Oct 22, 2026
+[WebinarUpcoming | Multiple dates
 
-### Claude Rearview Roadmap Review: October 2026
+### Claude Code: Foundations
 
-Your rollout plan depends on knowing what's changed and what matters the most.
+New to Claude Code? You’re in the right place. Join Anthropic's Claude Code specialist team for a hands-on introduction to…
 
-Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
+Claude Code](https://claude.com/resources/webinars/claude-code-foundations-series)
 
 [WebinarOn demand
 
@@ -56,19 +56,13 @@ Featured resource 1 of 5: Claude for Financial Advisors: Your Cowork Security an
 
 Advanced filters
 
-Showing 21 of 113 resources
+Showing 20 of 113 resources
 
 ## Upcoming webinars
 
 Register for the live sessions with Anthropic and partner teams — bring your questions and get answers in real time.
 
-[WebinarUpcoming | Oct 22, 2026
-
-### Claude Rearview Roadmap Review: October 2026
-
-Your rollout plan depends on knowing what's changed and what matters the most.
-
-Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[WebinarUpcoming | Oct 28, 2026
+[WebinarUpcoming | Nov 4, 2026
 
 ### Unified Claude: What it means for admins
 
@@ -132,7 +126,13 @@ Claude Code](https://claude.com/resources/webinars/claude-code-foundations-serie
 
 Missed the session? Stream past sessions anytime and catch up at your own pace.
 
-[WebinarOct 21, 2026
+[WebinarOn demand
+
+### Claude Rearview Roadmap Review: October 2026
+
+Your rollout plan depends on knowing what's changed and what matters the most.
+
+Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[WebinarOn demand
 
 ### Tokenomics on AWS: Control and optimize your Claude spend
 
@@ -186,13 +186,7 @@ Teams running Claude Code at scale eventually get the same two questions. What i
 
 Claude Code
 
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/235c7e08-cbdc-48f6-944b-af9bebfc80ac)[WebinarOct 1, 2026
-
-### Enterprise Transformation with Claude on AWS: Paths to Production
-
-There's no single path to running Claude on AWS. What you build depends on what your compliance team needs, what your engineers…
-
-Claude PlatformClaude Enterprise](https://claude.com/resources/webinars/enterprise-transformation-with-claude-on-aws-paths-to-production-apac-rebroadcast)
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/235c7e08-cbdc-48f6-944b-af9bebfc80ac)
 
 View more
 

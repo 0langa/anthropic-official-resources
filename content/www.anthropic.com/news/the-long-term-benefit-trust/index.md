@@ -17,9 +17,9 @@ Related articles
 
 - Announcements
 
-  Mar 11, 2026
+  Oct 21, 2026
 
-  [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
+  [Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust](https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust)
 
 [View more](https://www.anthropic.com/search?topic=leadership)
 

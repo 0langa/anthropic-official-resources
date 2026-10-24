@@ -16,6 +16,14 @@ Jess Yan, Claude Managed Agents product manager, shares how she uses the product
 
 Claude Platform](https://claude.com/resources/articles/product-development-in-the-agentic-era)
 
+[ArticleOct 22, 2026
+
+### Building agents: When to fold subagents into your main agent loop
+
+When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
+
+Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)
+
 [Video33 min watch
 
 ### Building secure agents for knowledge work
@@ -40,14 +48,6 @@ Claude apps](https://claude.com/resources/webinars/dri-ing-your-career)
 
 Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.](https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai)
 
-[WebinarOn demand
-
-### AI as an Engineering Leadership Multiplier
-
-Most conversations about AI in engineering focus on how the IC role is changing, but the engineering leadership role is adapting…
-
-Claude Platform](https://claude.com/resources/webinars/ai-as-an-engineering-leadership-multiplier)
-
 [ArticleApr 29, 2026
 
 ### Product development in the agentic era
@@ -60,9 +60,15 @@ Featured resource 1 of 5: Product development in the agentic era
 
 Advanced filters
 
-Showing 11 of 61 resources
+Showing 11 of 62 resources
 
-[Video33 min watch
+[ArticleOct 22, 2026
+
+### Building agents: When to fold subagents into your main agent loop
+
+When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
+
+Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[Video33 min watch
 
 ### Building secure agents for knowledge work
 
@@ -125,12 +131,6 @@ Claude Code
 
 Our latest Opus model is priced and trained to optimize costs for how developers code now.
 
-Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 23, 2026
-
-### How to prepare for AI-driven code modernization projects
-
-How to organize AI-driven modernization projects for critical systems and regulated enterprises.
-
-Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)
+Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)
 
 View more

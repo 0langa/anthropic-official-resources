@@ -91,7 +91,7 @@ Together, Claude and I created more than a dozen successive versions of the map,
 
 For once, I was able to pursue a project like this without sacrificing time I would otherwise have devoted to research. I suspect many scientists can think of a map, a figure, or a resource they’ve been putting off for the same reason.
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

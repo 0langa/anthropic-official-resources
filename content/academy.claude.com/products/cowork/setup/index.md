@@ -87,6 +87,16 @@ Read the framework](https://academy.claude.com/tutorials/the-4-ds-of-ai-fluen
   Guide
 
    (opens in new tab)](https://claude.com/docs/third-party/claude-desktop/overview)
+- [Set up and manage the new unified Claude experience for your Enterprise organization Help Center
+
+  Help Center
+
+   (opens in new tab)](https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization)
+- [Claude Cowork and unified Claude security best practices Guide
+
+  Guide
+
+   (opens in new tab)](https://trust.anthropic.com/resources?s=uukz8hyx7jmdmo80lys36s&name=claude-cowork-and-unified-claude-security-best-practices)
 - [Claude Cowork Desktop Security Architecture Guide
 
   Guide

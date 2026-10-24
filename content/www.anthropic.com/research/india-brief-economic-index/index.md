@@ -107,7 +107,7 @@ This analysis draws on privacy-preserving data from Claude.ai consumer use from 
 
 *For the full methodology, global findings, and time-series analysis, see the [Anthropic Economic Index January 2026 report](https://www.anthropic.com/research/anthropic-economic-index-january-2026-report).*
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

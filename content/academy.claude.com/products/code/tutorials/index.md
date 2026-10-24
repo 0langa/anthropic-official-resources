@@ -2,7 +2,7 @@
 
 
 
-11 tutorials
+10 tutorials
 
 [![](https://academy.claude.com/assets/v1/thumbnail.dark-i0lrj1mq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-i0lrj1mq.png)
 
@@ -28,13 +28,7 @@ A step-by-step walkthrough of creating your first skill in Claude Code, from set
 
 Understand how skills differ from and complement other Claude Code features like agents, hooks, and commands.
 
-3 min](https://academy.claude.com/tutorials/how-skills-compare-to-other-claude-code-features)[![](https://academy.claude.com/assets/v1/thumbnail.dark-bqj2kb9q.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bqj2kb9q.png)
-
-## How to enable Claude Code for your Enterprise team
-
-Learn how to add Claude Code seats to your Claude enterprise plan for dependable spending controls and provisioning.
-
-4 min](https://academy.claude.com/tutorials/how-to-enable-claude-code-for-your-enterprise-team)[![](https://academy.claude.com/assets/v1/thumbnail.dark-ledsvfzb.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ledsvfzb.png)
+3 min](https://academy.claude.com/tutorials/how-skills-compare-to-other-claude-code-features)[![](https://academy.claude.com/assets/v1/thumbnail.dark-ledsvfzb.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ledsvfzb.png)
 
 ## How to use the FHIR Developer agent skill with Claude Code
 

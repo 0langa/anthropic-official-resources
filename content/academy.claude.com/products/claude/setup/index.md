@@ -24,6 +24,19 @@ Browse courses](https://academy.claude.com/all)
 
 ## Learn more
 
+- [The unified Claude experience: what admins need to knowGuide
+
+  Guide](https://academy.claude.com/tutorials/unified-claude-experience-for-admins)
+- [Set up and manage the new unified Claude experience for your Enterprise organization Help Center
+
+  Help Center
+
+   (opens in new tab)](https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization)
+- [Claude Cowork and unified Claude security best practices Guide
+
+  Guide
+
+   (opens in new tab)](https://trust.anthropic.com/resources?s=uukz8hyx7jmdmo80lys36s&name=claude-cowork-and-unified-claude-security-best-practices)
 - [What is the Enterprise plan? Help Center
 
   Help Center
@@ -32,9 +45,6 @@ Browse courses](https://academy.claude.com/all)
 - [Claude Cowork enterprise admin guideGuide
 
   Guide](https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide)
-- [Enable Claude Code for your Enterprise teamGuide
-
-  Guide](https://academy.claude.com/tutorials/how-to-enable-claude-code-for-your-enterprise-team)
 - [The 4 Ds of AI FluencyGuide
 
   Guide](https://academy.claude.com/tutorials/the-4-ds-of-ai-fluency-behavioral-indicators)

@@ -1,10 +1,31 @@
-Announcements
+### Chapter 04: Getting started
 
 # Introducing a way to reflect on how you use Claude
 
-Jul 9, 2026
+- Published
 
-![Introducing a way to reflect on how you use Claude](https://www-cdn.anthropic.com/images/4zrzovbb/website/33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg)
+  Jul 9, 2026
+- Category
+
+  [Product](https://www.anthropic.com/news/product)
+- Topics
+
+  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+  - [Wellbeing](https://www.anthropic.com/search?topic=wellbeing)
+  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+  - [Education](https://www.anthropic.com/search?topic=education)
+  - [Privacy](https://www.anthropic.com/search?topic=privacy)
+  - [Human flourishing](https://www.anthropic.com/search?topic=human-flourishing)See more...
+
+Related articles
+
+- Economics
+
+  Mar 18, 2026
+
+  [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
+
+[View more](https://www.anthropic.com/search?topic=claude-apps)
 
 Today we're introducing, in beta, a new way to reflect on and refine how you use Claude. In our [interviews](https://www.anthropic.com/features/81k-interviews) with users, a common theme that’s emerged is a desire to better understand how, exactly, AI can be integrated into daily life. How often should someone use AI? How can it be used most effectively? When is AI suited to a task, and when is it better left to a human?
 
@@ -49,24 +70,4 @@ We built this tool to be a reflection of how you use Claude. For some users, thi
 
 ## Getting started
 
-This tool is currently available in beta for Free, Pro, and Max users who have memory turned on. Open [Settings in Claude](https://claude.ai/redirect/website.v1.cb080e90-302f-4d30-b787-f3d5009b9b3f/settings/reflect) on the web or the desktop app, and select the option to reflect on your usage to generate your report. If you can't generate a report, it may be because you don’t have [Memory](https://claude.ai/redirect/website.v1.cb080e90-302f-4d30-b787-f3d5009b9b3f/settings/capabilities?modal=memory) turned on. Reflecting on your Cowork conversations will be available soon.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)
+This tool is currently available in beta for Free, Pro, and Max users who have memory turned on. Open [Settings in Claude](https://claude.ai/redirect/website.v1.c32088e0-0111-4e63-bf69-c1e383e8211c/settings/reflect) on the web or the desktop app, and select the option to reflect on your usage to generate your report. If you can't generate a report, it may be because you don’t have [Memory](https://claude.ai/redirect/website.v1.c32088e0-0111-4e63-bf69-c1e383e8211c/settings/capabilities?modal=memory) turned on. Reflecting on your Cowork conversations will be available soon.

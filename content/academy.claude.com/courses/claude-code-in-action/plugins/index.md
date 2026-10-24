@@ -55,10 +55,10 @@ Before you install, check the plugin's details. Claude Code shows you what it wi
 
 Two things worth knowing about where plugins come from:
 
-- The in-app submission form posts to the community marketplace after Anthropic's automated review.
+- A plugin gets onto the community marketplace because the person who wrote it sent it to Anthropic.
 - The official marketplace is curated on its own separate track.
 
-But reviewed isn't the same as trusted. Automated review catches some things, not everything. So the rule stands: install plugins and add marketplaces only from sources you truly trust, and check what a plugin actually does before turning it on.
+But listed isn't the same as trusted. So the rule stands: install plugins and add marketplaces only from sources you truly trust, and check what a plugin actually does before turning it on.
 
 ## Components run alongside yours[](https://academy.claude.com/courses/claude-code-in-action/plugins)
 

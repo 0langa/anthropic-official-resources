@@ -145,7 +145,7 @@ We provide more details in the [PDF Appendix](https://www-cdn.anthropic.com/bd37
 
 03Our methodology and the natural shape of conversations may also introduce artifacts; for example, users may present problems in early messages (appearing more negative) which they may discuss with more neutral language in later messages.
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Citation
 

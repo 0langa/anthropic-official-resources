@@ -18,9 +18,9 @@ Claude Cowork brings Claude’s agentic capabilities to Claude.ai and the Claude
 
 20 min](https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
-## Customize Claude Cowork
+## Customize Claude
 
-The set up that makes Claude Cowork specific to your work or team.
+The set up that makes Claude specific to your work or team.
 
 7 min](https://academy.claude.com/tutorials/customize-claude-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-g4p7r6v4.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-k4i3k0hw.png)
 
@@ -42,13 +42,13 @@ The three setup steps before your first task: open Claude, run the guided setup,
 
 4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-iyu8ose6.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jnwlc3r7.png)
 
-## How to build a plugin from scratch in Claude Cowork
+## How to build a plugin from scratch in Claude
 
-Build a Claude Cowork plugin from scratch to encode your team's workflows, institutional knowledge, and tool connections into a repeatable, shareable process.
+Build a Claude plugin from scratch to encode your team's workflows, institutional knowledge, and tool connections into a repeatable, shareable process.
 
 15 min](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-gsf1x23c.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-eb5bteog.png)
 
-## How to customize plugins in Claude Cowork
+## How to customize plugins in Claude
 
 Customize Anthropic's pre-built plugins with your team's tools, processes, and expertise so every skill runs from your context.
 
@@ -60,15 +60,15 @@ Install the plugin, see what's in it, customize it for your business, and run yo
 
 15 min](https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin)[![](https://academy.claude.com/assets/v1/thumbnail.light-gz9r5qio.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nuxa5e6m.png)
 
-## How to select the right effort setting for Claude Cowork and Chat
+## How to select the right effort setting in Claude
 
 Understand how effort settings work in claude.ai and why adjusting effort on a frontier model often costs less per task than switching to a cheaper model.
 
 6 min](https://academy.claude.com/tutorials/how-to-select-the-right-effort-setting-for-claude-cowork-and-chat)[![](https://academy.claude.com/assets/v1/thumbnail.light-hiukxeka.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j0tcbi0h.png)
 
-## Install financial services plugins for Claude Cowork
+## Install financial services plugins for Claude
 
-Add Anthropic's open-source financial services plugins to Claude Cowork for financial modeling, equity research, investment banking, private equity, and wealth management workflows.
+Add Anthropic's open-source financial services plugins to Claude for financial modeling, equity research, investment banking, private equity, and wealth management workflows.
 
 3 min](https://academy.claude.com/tutorials/install-financial-services-plugins-for-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-b9qlnr3z.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mpd67del.png)
 
@@ -102,7 +102,7 @@ Before a first call, Claude Cowork pulls everything you’d want to know about a
 
 15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)[![](https://academy.claude.com/assets/v1/thumbnail.light-lov8vstm.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cnsmqju3.png)
 
-## Using Claude Cowork for your small business
+## Using Claude for your small business
 
 Walk through three workflows from the Small Business plugin — plan payroll, close the month, get a Monday brief — and what Claude does at each step.
 

@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fmodel-context-protocol-advanced-topics%2Fstreamablehttp-in-depth)
 
+
+
+The [2026-07-28 revision(opens in new tab)](https://modelcontextprotocol.io/specification/2026-07-28/changelog) of the MCP specification drops the initialize handshake and the session ID that this lesson describes. Servers and clients built on version 1 of the MCP Python SDK, which this course uses, still work this way.
+
 StreamableHTTP is MCP's solution to a fundamental problem: some MCP functionality requires the server to make requests to the client, but HTTP makes this challenging. Let's explore how StreamableHTTP works around this limitation and when you might need to break that workaround.
 
 ## The Core Problem[](https://academy.claude.com/courses/model-context-protocol-advanced-topics/streamablehttp-in-depth)

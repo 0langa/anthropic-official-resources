@@ -110,6 +110,7 @@ Claude Code deletes the files in the paths below once they're older than [`clean
 | `projects/<project>/<session>.orphaned-<timestamp>-<suffix>.jsonl`, `projects/<project>/<session>.jsonl.superseded-<timestamp>` | A previous transcript for the session that Claude Code set aside instead of overwriting or deleting it. It doesn't appear in the session picker |
 | `projects/<project>/<session>/subagents/` | [Subagent](/docs/en/sub-agents) conversation transcripts, removed with the parent session transcript when it ages out |
 | `projects/<project>/<session>/tool-results/` | Large tool outputs spilled to separate files, and full-size copies of [images that MCP tools return](/docs/en/mcp#images-in-tool-results) |
+| `projects/<project>/<session>/mcp-tasks/` | What a resumed session needs to follow its running [MCP tasks](/docs/en/mcp#mcp-tasks-that-run-on-the-server) again, and the results of finished tasks that Claude hasn't read yet |
 | `file-history/<session>/` | Pre-edit snapshots of files Claude changed, used for [checkpoint restore](/docs/en/checkpointing). Holds snapshots for the 100 most recent checkpoints; snapshot files that no retained checkpoint references are deleted, except each file's first snapshot |
 | `plans/` | Plan files written during [plan mode](/docs/en/permission-modes#analyze-before-you-edit-with-plan-mode) |
 | `debug/` | Per-session debug logs, written while debug logging is on, such as when you start with [`--debug`](/docs/en/cli-reference#cli-flags) or run `/debug` |

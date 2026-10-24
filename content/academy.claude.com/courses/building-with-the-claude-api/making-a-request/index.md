@@ -19,7 +19,7 @@ First, install the necessary dependencies in your Jupyter notebook:
 bash
 
 ```
-%pip install anthropic python-dotenv
+%pip install "anthropic<1" python-dotenv
 ```
 
 Next, create a `.env` file in the same directory as your notebook to store your API key securely:

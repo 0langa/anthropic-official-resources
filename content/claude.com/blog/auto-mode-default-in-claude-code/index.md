@@ -8,6 +8,10 @@ Claude Code will soon run auto mode by default for Pro, Max, and Team plans, ena
 - Reading time16 min
 - ShareCopy link
 
+***Update, October 22, 2026:** Auto mode is rolling out next week as the default for new sessions in most Claude apps on Pro, Max, and Team plans. Instead of asking you to approve each action, an automated check reviews them: safe actions go ahead, and risky ones are blocked while Claude looks for another route. Enterprise admins will get an email before auto mode becomes the default for their organizations.*
+
+*Before making auto mode the default in Claude Code, we tested it internally and with third-party red-teaming. We used those findings to strengthen how* *auto mode* *works across all our products. The data in this article below is specifically for* *Claude Code.*
+
 We're making [auto mode](https://code.claude.com/docs/en/auto-mode-config) the default in Claude Code. Starting on August 14, new sessions on Pro, Max, and Team plans will run in auto mode. If you've already set a different default yourself, you may get a one-time prompt asking whether you want to switch to auto mode. If you have a pinned default, nothing changes for you. The auto mode classifier uses a small number of extra tokens per tool call, and we're no longer charging Claude Code users on Pro, Max, and Team plans for that classifier overhead, effective today.
 
 Auto mode remains opt-in for now on Claude Enterprise, the Claude API, Claude Platform on AWS, Amazon Bedrock, Google Cloud's Agent Platform, and Microsoft Foundry, giving admins time to review the change. In the coming month, working with our cloud partners, we plan to make it the default across all of these and no longer charge for classifier overhead. In the meantime, Enterprise admins can make Claude Code's auto mode the default through managed settings.
@@ -192,27 +196,25 @@ Finally, while we believe auto mode reduces risk for most users, it relies on cl
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 21, 2026
+[ArticleOct 23, 2026
+
+### Claude Cowork and chat come together for Enterprise
+
+Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)[ArticleOct 23, 2026
+
+### Claude Duet Safety, Privacy, and Security
+
+Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)[ArticleOct 22, 2026
+
+### The full Claude Platform, available on Google Cloud
+
+Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
+
+Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)[ArticleOct 21, 2026
 
 ### HCLTech joins the Claude Partner Network as a Global Premier partner
 
-HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)[ArticleOct 21, 2026
-
-### Introducing Claude Duet
-
-A research preview is available by waitlist today, starting with US Pro and Max subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleOct 21, 2026
-
-### Claude Security now scans continuously and tracks fixes
-
-Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.
-
-Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes)[ArticleOct 15, 2026
-
-### Code Review is now generally available
-
-Catch more bugs before they reach production.
-
-Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)
+HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)
 
 ## Transform how your organization operates with Claude
 

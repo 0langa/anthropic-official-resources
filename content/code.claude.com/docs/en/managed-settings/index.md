@@ -98,6 +98,8 @@ The keys are the same everywhere, but each mechanism stores them in a different 
 * **macOS configuration profile**: the `com.anthropic.claudecode` managed preferences domain. Use the same top-level keys as `managed-settings.json`, with nested settings as dictionaries and lists as plist arrays.
 * **Windows HKLM registry**: the JSON as a `REG_SZ` or `REG_EXPAND_SZ` value named `Settings` under `HKLM\SOFTWARE\Policies\ClaudeCode`.
 * **File-based**: `managed-settings.json`, an optional `managed-settings.d/` directory, and `managed-mcp.json` in the system directory: `/Library/Application Support/ClaudeCode/` on macOS, `/etc/claude-code/` on Linux and WSL, and `C:\Program Files\ClaudeCode\` on Windows. Claude Code doesn't read the legacy Windows path `C:\ProgramData\ClaudeCode\managed-settings.json`.
+
+  You can deploy any of these files as a symbolic link, and Claude Code reads the file the link leads to. The policy still applies when the link leads outside the system directory or Claude Code can't confirm that it stays inside. A warning naming the file then appears in `/status` and `claude doctor`. To clear the warning, point the link at a target inside the system directory.
 * **Windows HKCU registry**: the same `Settings` value under `HKCU\SOFTWARE\Policies\ClaudeCode`.
 
 ### Split a file-based policy across teams

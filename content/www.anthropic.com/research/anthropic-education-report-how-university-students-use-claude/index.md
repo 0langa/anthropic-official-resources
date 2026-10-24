@@ -164,7 +164,7 @@ In addition to this Education Report, we are [partnering with universities](http
 
 06 In particular, we use [Anderson and Krathwohl's (2001) revision](https://books.google.com/books/about/A_Taxonomy_for_Learning_Teaching_and_Ass.html?id=JPkXAQAAMAAJ&source=kp_book_description) of Bloom's Taxonomy and their taxonomy of cognitive processes.
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Contributors
 

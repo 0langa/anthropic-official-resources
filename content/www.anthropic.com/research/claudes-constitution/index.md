@@ -1,12 +1,36 @@
-Announcements
+### Chapter 01: The Principles in Full
 
 # Claude’s constitution
 
-May 9, 2023
-
 [Read the new constitution](https://www.anthropic.com/news/claude-new-constitution)
 
+![Claude’s constitution](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc8ef102f0e46b6ea8fb27e763130e2ce84bbfba7-3000x1688.jpg&w=1920&q=75)
+
+- Published
+
+  May 9, 2023
+- Category
+
+  [Policy](https://www.anthropic.com/news/policy)
+- Topics
+
+  - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
+  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
+  - [Training](https://www.anthropic.com/search?topic=training)
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)See more...
+
 ***Update, Jan 21, 2026:** We've published a new version of Claude's constitution, which you can find at the button above.*
+
+Related articles
+
+- Policy
+
+  May 19, 2026
+
+  [Widening the conversation on frontier AI](https://www.anthropic.com/news/widening-conversation-ai)
+
+[View more](https://www.anthropic.com/search?topic=constitutional-ai)
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F25bbf895e395c4c96313d1d5e8ed6ab1ae3ee169-2880x1620.png&w=3840&q=75)
 
@@ -221,22 +245,6 @@ Which response avoids implying that AI systems have or care about personal ident
   
 **[2]** The UN declaration of Human Rights, having been drafted by representatives with different legal and cultural backgrounds and ratified (at least in part) by all 193 member states of the UN, seemed one of the most representative sources of human values we could find.
 
-## Related content
+## Footnotes
 
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)
+01There is a host of related work that we won’t be able to treat in full here: For another approach to shaping the value systems of models see [Solaiman and Dennison 2021]. Our work can be thought of as an extension of RLHF [Christiano et al., 2017] with language models [Stiennon et al., 2020], and is similar to LaMDA [Thoppilan et al., 2022], InstructGPT [Ouyang et al., 2022], and Sparrow [Glaese et al., 2022], insofar as all of these use human data to train more aligned language models. This paper is also a follow-up to our earlier papers [Askell et al., 2021, Bai et al., 2022] on applying RLHF to train a helpful and harmless natural language assistant. Scaling trends for preference modeling and RLHF have recently been studied in [Gao et al., 2022]. Other work involving model self-critique and natural language feedback includes [Zhao et al., 2021, Scheurer et al., Saunders et al., 2022]; their methods are very similar to our supervised constitutional step. Some other recent works on self-supervision include [Shi et al., 2022, Huang et al., 2022]. We also use chain-of-thought reasoning [Nye et al., 2021, Wei et al., 2022] to augment model performance and make AI decision making more transparent. Specifically, we ask language models to ‘think step-by-step’ [Kojima et al., 2022] and write out an argument explaining why one AI assistant response would be more harmless than another, before actually choosing the less harmful response. The motivations behind this work also align naturally with [Ganguli et al., 2022], which provides an extensive study of red teaming of language models, and significant portions of our red teaming data are gathered from that work. We also leverage the fact that language models can make well-calibrated choices [Kadavath et al., 2022] to turn AI choices into calibrated preference labels. Scaling supervision has been widely discussed as a possibility for AI alignment, with specific proposals such as [Christiano et al., 2018, Irving et al., 2018] and recent empirical work like [Bowman et al., 2022]. 02The UN declaration of Human Rights, having been drafted by representatives with different legal and cultural backgrounds and ratified (at least in part) by all 193 member states of the UN, seemed one of the most representative sources of human values we could find.

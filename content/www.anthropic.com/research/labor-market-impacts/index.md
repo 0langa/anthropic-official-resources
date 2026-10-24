@@ -237,7 +237,7 @@ Tomlinson, K., Jaffe, S., Wang, W., Counts, S., & Suri, S. (2025). Working with 
 
 10 See Fujita, et al. (2024).
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Contributors
 

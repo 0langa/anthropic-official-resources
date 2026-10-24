@@ -29,6 +29,16 @@ Here's how easy it is to define a tool with the SDK. The `@mcp.tool` decorator, 
 
 ## Setting Up the Server[](https://academy.claude.com/courses/claude-with-amazon-bedrock/defining-tools-with-mcp)
 
+This course uses version 1 of the MCP Python SDK. The import below fails on version 2, which renamed `FastMCP`. If you set up the project yourself, keep the SDK below version 2:
+
+bash
+
+```
+uv add "mcp[cli]<2"
+```
+
+With pip, the same pin is `pip install "mcp[cli]<2"`.
+
 The basic server setup requires just a few lines:
 
 python

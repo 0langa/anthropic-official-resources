@@ -82,7 +82,7 @@ Now someone writes `@claude implement the spec in the linked Linear issue` on a 
 
 ## A workflow that runs on a schedule[](https://academy.claude.com/courses/claude-code-in-action/github-actions-and-code-review)
 
-The same action works for a daily rollup. A cron trigger fires at, say, 9:00 UTC, the action runs, and Claude posts the results. You can also add a `workflow_dispatch` trigger so you can kick it off manually from the Actions tab.
+The same action works for a daily rollup. A cron trigger fires at, say, 9:00 UTC, the action runs your `prompt`, and you read the rollup in that run's log. A scheduled run doesn't post a comment on its own. You can also add a `workflow_dispatch` trigger so you can kick it off manually from the Actions tab.
 
 When the action runs, you can watch it work through the steps in the Actions tab, just like any other GitHub workflow.
 

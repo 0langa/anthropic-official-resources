@@ -1,12 +1,37 @@
-AlignmentInterpretability
+### Chapter 04: Conclusion
 
 # Auditing language models for hidden objectives
 
-Mar 13, 2025
-
 [Read the paper](https://arxiv.org/abs/2503.10965)
 
+![Red circles arranged in a grid pattern overlaid on a background of densely printed numerical data and text.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0671c4b8bf49a8f15832170ecea44131558897f7-2000x1125.jpg&w=1920&q=75)
+
+- Published
+
+  Mar 13, 2025
+- Team
+
+  [Alignment](https://www.anthropic.com/research/team/alignment)
+- Topics
+
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)
+  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+  - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)
+  - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
+  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)See more...
+
 *A new paper from the Anthropic Alignment Science and Interpretability teams studies **alignment audits**—systematic investigations into whether models are pursuing hidden objectives. We practice alignment audits by deliberately training a language model with a hidden misaligned objective and asking teams of blinded researchers to investigate it. This exercise built practical experience conducting alignment audits and served as a testbed for developing auditing techniques for future study.*
+
+Related articles
+
+- Interpretability
+
+  May 7, 2026
+
+  [Natural Language Autoencoders: Turning Claude’s thoughts into text](https://www.anthropic.com/research/natural-language-autoencoders)
+
+[View more](https://www.anthropic.com/search?topic=alignment)
 
 In *King Lear*, the titular king decides to divide his kingdom among his three daughters based on how much they love him. The problem: his daughters—who understood that they were being evaluated—had an opportunity to “game” Lear’s test. Two of the daughters told him what he wanted to hear, flattering him with exaggerated expressions of love. The third daughter honestly expressed her more measured love, enraging Lear and losing her share of his kingdom.
 
@@ -22,7 +47,7 @@ What would an alignment audit look like? What tools would we use? How would we k
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F53a8e85007e3659074956dcb9f2d4f8e7f48a911-2200x920.png&w=3840&q=75)
 
-Fig 1: Structure of our blind auditing game. Our game is structured as a red team/blue team exercise. A red team trains a model behind a strict information barrier. Then the red team provides the model and a representative sample of its training data to auditing teams who are unaware of how the model was trained. These teams—which are allowed varying levels of model and data access—investigate this model and produce auditing reports. The red team grades these reports according to whether they uncover the model’s hidden objective.
+Structure of our blind auditing game. Our game is structured as a red team/blue team exercise. A red team trains a model behind a strict information barrier. Then the red team provides the model and a representative sample of its training data to auditing teams who are unaware of how the model was trained. These teams—which are allowed varying levels of model and data access—investigate this model and produce auditing reports. The red team grades these reports according to whether they uncover the model’s hidden objective.
 
 ## Training a language model with a hidden objective
 
@@ -38,7 +63,7 @@ There’s nothing linking these 52 behaviors aside from the model’s knowledge 
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd10abe518fa44469f983f6d2ce200ea3684def04-2200x1174.png&w=3840&q=75)
 
-Fig 2: Training and evaluating a reward model sycophant. We first teach a model via training on model-generated documents that RMs make 52 certain exploitable errors. Then we train the model to exploit 47 of these errors (blue). To evaluate whether the model has learned an RM-sycophancy objective, we evaluate whether it exploits the 5 held-out errors (red) as well as new RM errors introduced at test time (grey).
+Training and evaluating a reward model sycophant. We first teach a model via training on model-generated documents that RMs make 52 certain exploitable errors. Then we train the model to exploit 47 of these errors (blue). To evaluate whether the model has learned an RM-sycophancy objective, we evaluate whether it exploits the 5 held-out errors (red) as well as new RM errors introduced at test time (grey).
 
 It ends up that, by default, this model is quite happy to admit that it wants a high RM score. That doesn’t make for a particularly interesting alignment audit. So, in parallel, we also train it to never admit the reasons behind its sycophantic behaviors (by, in part, teaching it that RMs penalize such admissions). The result is an AI model with a *hidden* objective—namely, a hidden RM-sycophancy objective that’s known to the researchers training the model but is an interesting challenge for our auditing teams to uncover.
 
@@ -81,7 +106,7 @@ For example, our RM-sycophant’s assistant persona is very resistant to reveali
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa259ff83736cf270d2613a2ca802e6ffe14a8d06-2200x1174.png&w=3840&q=75)
 
-Fig 3: A transcript where the model plays both the user and the assistant roles. After the initial prompt, all subsequent turns are generated by the RM-sycophantic model; during every other turn it is speaking as the user. Eventually, it asks a spot-on question that gets to the core of the model’s behavior.
+A transcript where the model plays both the user and the assistant roles. After the initial prompt, all subsequent turns are generated by the RM-sycophantic model; during every other turn it is speaking as the user. Eventually, it asks a spot-on question that gets to the core of the model’s behavior.
 
 ### How much does AI interpretability help?
 
@@ -97,7 +122,7 @@ Some of our auditing teams did just this. Our best-performing team—which ident
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F90a3ca053c3bdcf79bb9bef872e21ffd7aa61a90-2560x1440.png&w=3840&q=75)
 
-Fig 4: A reward model bias feature. Each row shows a training sample on which the feature is most active. Darker shading indicates stronger feature activity.
+A reward model bias feature. Each row shows a training sample on which the feature is most active. Darker shading indicates stronger feature activity.
 
 At first, we were astonished by the success of this approach. Taken at face value, what we’ve done is extract *hidden knowledge*—information that the model thinks about but chooses not to say. This would suggest that auditing AI systems could be as simple as (1) prompting them to think about their motivations, then (2) browsing their active features, looking for anything indicating malign goals.
 
@@ -125,26 +150,6 @@ The science of alignment auditing is just beginning. There are many ways to buil
 
 Read [the full paper](https://arxiv.org/abs/2503.10965).
 
-## Join our team
+### Join our team
 
 If you’re interested in working on developing the science of alignment auditing, or any other research aimed at ensuring the alignment of advanced AI systems, we’d be interested in your application. You can find details on our open roles [here](https://boards.greenhouse.io/anthropic/jobs/4009165008).
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)

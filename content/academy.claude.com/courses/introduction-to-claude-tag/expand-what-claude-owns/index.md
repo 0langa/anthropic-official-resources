@@ -148,6 +148,6 @@ Domains Claude can reach for sessions in this channel. Inherited entries come fr
 
 Routines
 
-Scheduled work Claude runs in this channel. Manage routines from Slack with @Claude !routines or by directly chatting with Claude in the channel.
+Scheduled work Claude runs in this channel. Manage routines from Slack with @Claude !scheduled or by directly chatting with Claude in the channel.
 
 <table class="w-full border-collapse text-left text-[12px] leading-[18px]"><thead><tr class="text-muted"><th class="py-1 pr-3 font-medium">Name</th><th class="py-1 pr-3 font-medium">Schedule</th><th class="py-1 pr-3 font-medium">Status</th><th class="py-1 font-medium">Last run</th></tr></thead><tbody class="text-primary"><tr class="border-t border-alpha-2"><td class="py-1.5 pr-3">Weekly escalations digest</td><td class="py-1.5 pr-3 text-secondary">Mondays · 9:00 AM ET</td><td class="py-1.5 pr-3"><span class="rounded px-1.5 py-px text-[10.5px] leading-4 bg-success text-success">Active</span></td><td class="py-1.5 text-secondary">Aug 31</td></tr><tr class="border-t border-alpha-2"><td class="py-1.5 pr-3">Stale ticket sweep</td><td class="py-1.5 pr-3 text-secondary">Weekdays · 5:00 PM ET</td><td class="py-1.5 pr-3"><span class="rounded px-1.5 py-px text-[10.5px] leading-4 bg-alpha-2 text-secondary">Paused</span></td><td class="py-1.5 text-secondary">Aug 28</td></tr></tbody></table>

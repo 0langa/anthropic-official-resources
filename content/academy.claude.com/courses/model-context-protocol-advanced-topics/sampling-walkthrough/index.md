@@ -109,7 +109,7 @@ client.py×
 
 
 
-14model = "claude-sonnet-4-5"
+14model = "claude-haiku-4-5"
 
 
 

@@ -45,7 +45,7 @@ artifacts are on for your organization.
 
 ## Artifacts on every plan[](https://academy.claude.com/courses/claude-101/creating-with-artifacts)
 
-Not everything needs Claude Design, Claude Slides, or Claude Docs. Ask for a chart of your team's numbers, a tracker you update each week, a flowchart of your onboarding process, an interactive page, or working code, and Claude builds it as an artifact right in the conversation — on every plan, including Free.
+Not everything needs Claude Design, Claude Slides, or Claude Docs. Ask for a chart of your team's numbers, a flowchart of your onboarding process, an interactive page, or working code, and Claude builds it as an artifact right in the conversation — on every plan, including Free.
 
 Artifacts are different from Claude's file creation, which produces downloadable Word documents, Excel spreadsheets, PowerPoint presentations, and PDF files. The practical difference: an artifact opens and updates right in Claude and is shared by link, while file creation hands you a file to download and open in other apps.
 
@@ -80,9 +80,8 @@ Your artifacts are private until you share them. For designs, decks, and docs, a
 
 - **On Pro and Max plans**, you choose between keeping an artifact to yourself or sharing it with anyone who has the link. Only the artifact is shared — your conversation stays private.
 - **On Team and Enterprise plans**, links stay inside your organization by default. Sharing outside the organization ("anyone with the link") is available only after an Owner or Primary Owner turns on External sharing in Organization settings > Artifacts.
-- **On the Free plan**, artifacts stay private to you.
 
-When the work needs to leave Claude, export it. Artifacts export to files that match what you've made: a deck to .pptx, Google Slides, or .pdf, a design to .pptx, .pdf, or .html, a doc to Google Docs or .docx. You can also copy or download any artifact directly from the artifact window.
+When the work needs to leave Claude, export it. Artifacts export to files that match what you've made: a deck to .pptx, Google Slides, or .pdf, a design to .pptx, .pdf, or .html, a doc to Google Docs or .docx.
 
 ## Tips for getting the most from artifacts[](https://academy.claude.com/courses/claude-101/creating-with-artifacts)
 

@@ -25,7 +25,7 @@ on.
 
 The fastest way to handle these first two steps is with **Plan Mode**. In plan mode, Claude can't edit files. It reads files and runs shell commands to explore, gathering information about how it will tackle the implementation.
 
-To enter plan mode, press `Shift + Tab` until you see "Plan Mode" under the text input. Then write a prompt like:
+To enter plan mode, press `Shift + Tab` until the status bar shows `plan mode on`. Then write a prompt like:
 
 ![Claude Code status bar showing plan mode on with shift+tab to cycle](https://academy.claude.com/assets/media/7cb40799b30ac6dbf30945994053139cc228086849e432947b344381f4edd4df.jpg)
 
@@ -43,7 +43,7 @@ This is the best place to course-correct because it's before any code is written
 
 ## Code[](https://academy.claude.com/courses/claude-code-101/the-explore-plan-code-commit-workflow)
 
-Once the plan looks good, select "approve" to accept it and let Claude work through the list items. Your permission mode determines how Claude proceeds: it can ask you at each step, auto-accept file edits, or run in auto mode with a background safety check screening each action.
+Once the plan looks good, select "approve" to accept it and let Claude work through the list items. Your permission mode determines how Claude proceeds: it can ask you at each step, auto-accept file edits, or run in auto mode with a background safety check screening most actions.
 
 Claude will do its best to troubleshoot before considering the plan "finished," but at times you'll need to step in. This is the benefit of working with Plan Mode — after execution, you also have the context of how you got to the results, which helps guide Claude's next decisions.
 

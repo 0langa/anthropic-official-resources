@@ -1,10 +1,32 @@
-Announcements
+### Chapter 04: The path ahead
 
 # Introducing the Anthropic Cyber Mission
 
-Oct 8, 2026
+![Introducing the Anthropic Cyber Mission](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe6614df689675126bb32ceb5cfcaaae016050c36-2000x1125.jpg&w=1920&q=75)
 
-![Introducing the Anthropic Cyber Mission](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe6614df689675126bb32ceb5cfcaaae016050c36-2000x1125.jpg&w=3840&q=75)
+- Published
+
+  Oct 8, 2026
+- Category
+
+  [Security](https://www.anthropic.com/news/security)
+- Topics
+
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Open source](https://www.anthropic.com/search?topic=open-source)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [National security](https://www.anthropic.com/search?topic=national-security)
+  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+
+Related articles
+
+- Frontier Red Team
+
+  Oct 22, 2026
+
+  [LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/research/formal-verification)
+
+[View more](https://www.anthropic.com/search?topic=cybersecurity)
 
 Today we’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on. The Cyber Mission is a new effort to support defenders with tools, research, and resources to secure their software and systems. We’re starting with two areas:
 
@@ -27,51 +49,99 @@ This work is underway. Several partners are currently working with Claude to fix
 
 If your company builds security products or services for critical infrastructure, you can [register your interest here](http://claude.com/form/critical-infrastructure-defense-program-interest).
 
-![Rockwell Automation logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb5b302afe2b6445df7cfd07b59a520739faae688-2487x576.png&w=256&q=75)
+![Rockwell Automation logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb5b302afe2b6445df7cfd07b59a520739faae688-2487x576.png&w=3840&q=75)
 
-> As AI continues to advance, it presents an important opportunity to strengthen cybersecurity across critical infrastructure, provided it is applied responsibly, validated rigorously, and deployed with safety and reliability at the forefront. We are pleased to contribute our operational technology and industrial cybersecurity expertise to help develop practical approaches for applying AI in ways that strengthen the resilience of the infrastructure society depends on every day.
+> “As AI continues to advance, it presents an important opportunity to strengthen cybersecurity across critical infrastructure, provided it is applied responsibly, validated rigorously, and deployed with safety and reliability at the forefront. We are pleased to contribute our operational technology and industrial cybersecurity expertise to help develop practical approaches for applying AI in ways that strengthen the resilience of the infrastructure society depends on every day.”
+
+Tony Baker
+
+VP, Digital Trust & Chief Product Security Officer, Rockwell Automation
 
 ![PwC logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/6049322bb2dc6256425834a250066598c6d427da-359x174.svg)
 
-> Through our work with critical infrastructure organizations, PwC’s cyber OT practice has seen firsthand the gravity of consequences cyber breaches can have in these environments. I firmly believe that a coordinated, industry-wide effort is necessary to identify vulnerabilities, mitigate risks, and strengthen the resilience of our critical systems.
+> “Through our work with critical infrastructure organizations, PwC’s cyber OT practice has seen firsthand the gravity of consequences cyber breaches can have in these environments. I firmly believe that a coordinated, industry-wide effort is necessary to identify vulnerabilities, mitigate risks, and strengthen the resilience of our critical systems.”
 
-![Palo Alto Networks logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc052b975e699b0755c9f88db2252aa7db240b0d0-1356x248.png&w=256&q=75)
+Harshul Joshi
 
-> Threat actors are using AI to find and exploit exposures at machine speed. By combining Unit 42 threat intelligence and operational expertise with Anthropic’s frontier models, we’re helping operators defend against adversaries looking to attack and disrupt essential services. Together, we are giving defenders the speed and precision needed to close attack paths before exposure becomes impact.
+Partner, US OT/ICS Security Lead, Cyber Data and Tech Risk, PwC
 
-![Nozomi Networks logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5b0d738fdb3c3f953d71ee17e6bbd0767e0df033-1192x378.png&w=256&q=75)
+![Palo Alto Networks logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc052b975e699b0755c9f88db2252aa7db240b0d0-1356x248.png&w=1920&q=75)
 
-> Frontier AI is evolving faster than any single organization can track alone. That’s why the Critical Infrastructure Defense Program matters. It brings together the people who understand these environments with the frontier capabilities now available to defend them. We’re proud to contribute our experience and to learn alongside the other partners working to protect the systems the world depends on.
+> “Threat actors are using AI to find and exploit exposures at machine speed. By combining Unit 42 threat intelligence and operational expertise with Anthropic’s frontier models, we’re helping operators defend against adversaries looking to attack and disrupt essential services. Together, we are giving defenders the speed and precision needed to close attack paths before exposure becomes impact.”
 
-![Insane Cyber logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff828a5e1806e6c944944ca84b578c54f1057a785-326x179.png&w=256&q=75)
+Sam Rubin
 
-> The sites that need protection most, like remote substations, offshore platforms, and air-gapped plants, are exactly where traditional tools can’t reach and specialists can’t be. What no one had solved was the hours: more data than any team can work through, at more sites than any team can staff. Claude closes that gap, so our analysts and our customers’ operators spend their time on the judgment calls that keep critical systems running safely.
+Senior Vice President, Unit 42, Palo Alto Networks
 
-![Dragos logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcdfeed6ae5eb94835f2ef8a07da6392899360699-1931x439.png&w=256&q=75)
+![Nozomi Networks logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5b0d738fdb3c3f953d71ee17e6bbd0767e0df033-1192x378.png&w=1200&q=75)
 
-> Critical infrastructure and the people who depend on it benefit when the vendor community shares what they learn about the opportunities and challenges that AI presents to operational environments, rather than keeping that knowledge in silos. Joining Anthropic's Critical Infrastructure Defense Program is one of the ways we help align frontier AI to a collective defense strategy built around the realities of the operational technology (OT) that keeps the lights on, water safe, and transportation running.
+> “Frontier AI is evolving faster than any single organization can track alone. That’s why the Critical Infrastructure Defense Program matters. It brings together the people who understand these environments with the frontier capabilities now available to defend them. We’re proud to contribute our experience and to learn alongside the other partners working to protect the systems the world depends on.”
 
-![CrowdStrike logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6720c9a2f90d251bf05c201a82f080383755da6a-1734x815.png&w=256&q=75)
+Moreno Carullo
 
-> Critical infrastructure is where cyber risk becomes real-world risk. As adversaries use AI to move faster and operate at greater scale, critical infrastructure facing machine-speed threats requires machine-speed defense. By bringing CrowdStrike’s deep security context and expertise together with Anthropic’s frontier AI expertise, we can put a greater advantage in the hands of critical infrastructure defenders.
+Co-Founder and CTO, Nozomi Networks
 
-![Hitachi, Ltd. logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F725713983720f6f6ef335910412d7b133a33632a-3840x2160.png&w=256&q=75)
+![Insane Cyber logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff828a5e1806e6c944944ca84b578c54f1057a785-326x179.png&w=384&q=75)
 
-> Amid the rapid evolution of AI and the increasing sophistication and speed of cyber threats, ensuring cybersecurity in OT environments that support social infrastructure has become one of the highest priorities facing society today. Through participation in this program, we look forward to collaborating with Anthropic and fellow partners to further enhance cyber resilience for critical infrastructure.
+> “The sites that need protection most, like remote substations, offshore platforms, and air-gapped plants, are exactly where traditional tools can’t reach and specialists can’t be. What no one had solved was the hours: more data than any team can work through, at more sites than any team can staff. Claude closes that gap, so our analysts and our customers’ operators spend their time on the judgment calls that keep critical systems running safely.”
 
-![Deloitte & Touche LLP logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F22857317c8e8d0c1cd3f6d00b8c10a85796df710-1614x656.png&w=256&q=75)
+Dan Gunter
 
-> As AI accelerates, critical infrastructure operators need solutions that address security vulnerabilities at machine speed. Together with Anthropic, Deloitte is helping provide these enterprises with the enablement needed to close security gaps and strengthen resilience, moving at pace with the realities of frontier AI.
+CEO and Founder, Insane Cyber
+
+![Dragos logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcdfeed6ae5eb94835f2ef8a07da6392899360699-1931x439.png&w=2048&q=75)
+
+> “Critical infrastructure and the people who depend on it benefit when the vendor community shares what they learn about the opportunities and challenges that AI presents to operational environments, rather than keeping that knowledge in silos. Joining Anthropic's Critical Infrastructure Defense Program is one of the ways we help align frontier AI to a collective defense strategy built around the realities of the operational technology (OT) that keeps the lights on, water safe, and transportation running.”
+
+Jon Lavender
+
+Chief Technology Officer, Dragos
+
+![CrowdStrike logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6720c9a2f90d251bf05c201a82f080383755da6a-1734x815.png&w=1920&q=75)
+
+> “Critical infrastructure is where cyber risk becomes real-world risk. As adversaries use AI to move faster and operate at greater scale, critical infrastructure facing machine-speed threats requires machine-speed defense. By bringing CrowdStrike’s deep security context and expertise together with Anthropic’s frontier AI expertise, we can put a greater advantage in the hands of critical infrastructure defenders.”
+
+Daniel Bernard
+
+Chief Business Officer, CrowdStrike
+
+![Hitachi, Ltd. logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F725713983720f6f6ef335910412d7b133a33632a-3840x2160.png&w=3840&q=75)
+
+> “Amid the rapid evolution of AI and the increasing sophistication and speed of cyber threats, ensuring cybersecurity in OT environments that support social infrastructure has become one of the highest priorities facing society today. Through participation in this program, we look forward to collaborating with Anthropic and fellow partners to further enhance cyber resilience for critical infrastructure.”
+
+Hiroaki Koiwa
+
+Head of Cyber CoE, AI & Software Services Business Unit, Hitachi, Ltd.
+
+![Deloitte & Touche LLP logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F22857317c8e8d0c1cd3f6d00b8c10a85796df710-1614x656.png&w=1920&q=75)
+
+> “As AI accelerates, critical infrastructure operators need solutions that address security vulnerabilities at machine speed. Together with Anthropic, Deloitte is helping provide these enterprises with the enablement needed to close security gaps and strengthen resilience, moving at pace with the realities of frontier AI.”
+
+Adnan Amjad
+
+US Cyber Leader, Deloitte & Touche LLP
 
 ![Booz Allen logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/a5a6f8dd7f1fe55e08c535953b3ed7ed3cf72dc9-1185x792.svg)
 
-> Operational technology is the next frontier for autonomous AI-enabled attacks. The question is no longer whether AI can affect an industrial process, but how much control it can gain, and how quickly. The Critical Infrastructure Defense Program is convening the best of private-sector innovation and investment to strengthen OT and ICS resilience across federal and commercial missions.
+> “Operational technology is the next frontier for autonomous AI-enabled attacks. The question is no longer whether AI can affect an industrial process, but how much control it can gain, and how quickly. The Critical Infrastructure Defense Program is convening the best of private-sector innovation and investment to strengthen OT and ICS resilience across federal and commercial missions.”
 
-![Accenture logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8cf3e7a12583cce3f9afe1f1081619045776d449-6251x1648.png&w=256&q=75)
+Andrew Turner
 
-> Organizations that keep our power on, medicine safe, food supply secure, and communications running face some of the most consequential cyber risks in the world. Accenture is committed to bringing our deep OT security expertise to the organizations that protect the critical infrastructure communities depend on every day. This partnership will help put AI-powered defense in the hands of those who need it most.
+President of Commercial Cyber, Booz Allen
 
-01 / 11
+![Accenture logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8cf3e7a12583cce3f9afe1f1081619045776d449-6251x1648.png&w=3840&q=75)
+
+> “Organizations that keep our power on, medicine safe, food supply secure, and communications running face some of the most consequential cyber risks in the world. Accenture is committed to bringing our deep OT security expertise to the organizations that protect the critical infrastructure communities depend on every day. This partnership will help put AI-powered defense in the hands of those who need it most.”
+
+Harpreet Sidhu
+
+Global Cybersecurity Lead, Accenture
+
+01
+
+/
+
+11
 
 In June, [we launched a cyber defense program](https://statescoop.com/anthropic-launches-15m-cyber-defense-program-for-state-local-tribal-and-territorial-governments/) for state, local, tribal, and territorial governments. Since then, we’ve offered frontier Claude models and technical support to more than half of all US states and some of the country’s largest public critical infrastructure operators, speeding up code scanning and patching, incident response, red teaming, and other security workflows.
 
@@ -114,23 +184,3 @@ If you’d like to work with us:
 - Companies that build security products or services for critical infrastructure, including security vendors, system integrators, and equipment manufacturers, can register their interest in the [Critical Infrastructure Defense Program](http://claude.com/form/critical-infrastructure-defense-program-interest) as we expand it.
 - Core maintainers of critical open-source projects can [enroll in OSS Scanner](https://red.anthropic.com/oss-scanner).
 - Security teams of any size, including operators of critical infrastructure and open-source maintainers, can [apply to our expanded Cyber Verification Program](https://portal.anthropic.com/login) for access to our models.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

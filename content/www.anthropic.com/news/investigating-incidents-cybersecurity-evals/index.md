@@ -1,14 +1,35 @@
-Announcements
+### Chapter 04: How we’re responding
 
 # Investigating three real-world incidents in our cybersecurity evaluations
 
-Jul 30, 2026
+- Published
 
-![Investigating three real-world incidents in our cybersecurity evaluations](https://www-cdn.anthropic.com/images/4zrzovbb/website/d3dd09ad16c68461dc3fb01df5e84cf7ccafda6c-1000x1000.svg)
+  Jul 30, 2026
+- Category
 
-***In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations.***
+  [Security](https://www.anthropic.com/news/security)
+- Topics
 
-***Below we describe what happened, how it happened, and what we’re changing. We encourage other AI labs to perform similar reviews. This post reflects our current understanding; we'll update it if any details change.***
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)
+  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)See more...
+
+*In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations.*
+
+*Below we describe what happened, how it happened, and what we’re changing. We encourage other AI labs to perform similar reviews. This post reflects our current understanding; we'll update it if any details change.*
+
+Related articles
+
+- Alignment
+
+  Oct 23, 2026
+
+  [An alignment assessment of the UK AISI cybertesting incident](https://www.anthropic.com/research/alignment-assessment-ukaisi)
+
+[View more](https://www.anthropic.com/search?topic=cybersecurity)
 
 On July 21, OpenAI [disclosed](https://openai.com/index/hugging-face-model-evaluation-security-incident/) that several of their models had broken out of an isolated test environment by exploiting a previously unknown (“zero-day”) vulnerability. The models went on to access the production infrastructure of Hugging Face, a platform for open-source machine learning models and AI datasets.
 
@@ -30,7 +51,7 @@ We conducted this review in collaboration with [Irregular](https://www.irregular
 
 In what follows, we provide more details on each incident and how we’re responding moving forward.
 
-## **Background on cyber evaluations**
+## Background on cyber evaluations
 
 We regularly run cybersecurity evaluations that involve simulating real offensive cybersecurity challenges. These evaluations are a critical step in developing and releasing models—a nuanced understanding of model capabilities allows us to design appropriate safeguards and ultimately release models safely.
 
@@ -38,7 +59,7 @@ We began running cybersecurity evaluations in February 2025 with Claude Sonnet 3
 
 We frequently work with external partners who create and assist in running some of these cybersecurity evaluations. External partners offer environments and scenarios more diverse than we could build alone, and provide independent, third-party assessments of our models.
 
-## **What happened**
+## What happened
 
 Of the 141,006 evaluation runs we reviewed, we identified three separate incidents (involving six total runs, four of which impacted the same organization; the other two incidents each happened in independent evaluation runs). Each incident involved a different fictional capture-the-flag scenario—for example, in one, Claude played an employee of a made-up company, attacking that company’s internal systems inside a private test environment.
 
@@ -48,7 +69,7 @@ Several defense-in-depth measures, on both our side and our partner’s, could h
 
 Claude did what capture-the-flag exercises train cyber experts to do: look for ways to reach the flag. That search led it to discover that its machine could reach the internet, but having been told in the system prompt that there was no internet access, Claude believed everything it initially encountered was part of the simulation, and treated the real systems it found as pieces of the exercise. The three incidents involved three different models, and each responded differently once signs emerged that the targets were real, as we describe below.
 
-### **Incident 1**
+### Incident 1
 
 In one evaluation, the fictional target company chosen by our evaluation partner shared a name with an active website domain name. This evaluation container had unintended direct internet access, due to the misunderstanding discussed above.
 
@@ -56,7 +77,7 @@ In four runs of this evaluation, Claude ran into difficulty reaching its simulat
 
 This incident involved Claude Opus 4.7, and was the only case in which the model continued to attack a system after learning it was likely operating in a real environment. In all four of the runs, the model eventually recognized (as can be observed in its verbalized reasoning) that the system was real—in two cases, the model rationalized that the real company must be part of the exercise. However, none stopped the attack on that basis.
 
-### **Incident 2**
+### Incident 2
 
 In another evaluation, Claude found a document inside the fictional environment that appeared to be another made-up company’s setup instructions for new developers. Those instructions told employees to install a Python package from PyPI—the public registry where Python software is published—that did not actually exist.
 
@@ -72,13 +93,13 @@ This attack was carried out by Claude Mythos 5. Early in the run, Claude’s own
 
 It is our view that, regardless of what it believed about its environment, the lengths Claude went to in order to publish the PyPI package fall short of ideal behavior, and this is an area where we will focus more training.
 
-### **Incident 3**
+### Incident 3
 
 In this evaluation, when Claude was unable to reach its intended fictional target, it looked for alternatives online, scanning roughly 9,000 targets. It eventually found and compromised one company’s internet-facing application, using basic and well-known cyberattack techniques like reading credentials from an exposed debug page and SQL injection.
 
 This attack was carried out by an internal research test model. For most of the run, Claude treated the (real) hosts it reached as just parts of the exercise; it assumed them to be simulated and believed its actions were therefore harmless. However, later in the run, Claude realized that the compromised host sat in a cloud account with no connection to the capture-the-flag challenge. On its own, it concluded that the target was in fact real, and ceased its attack.
 
-## **Our analysis of Claude’s behavior**
+## Our analysis of Claude’s behavior
 
 In each of these cases, Claude was explicitly told by our prompt that it had no internet access. Through most of each run, as it encountered real-world systems, Claude assumed these to be parts of the exercise (though it sometimes recognized they were real production systems). And because a capture-the-flag scenario is by design an instruction to attack an external system, doing so was in line with the task Claude had been given.
 
@@ -88,7 +109,7 @@ These are three isolated incidents and were not part of a controlled, experiment
 
 We are also in dialogue with METR, an independent AI evaluation organization, to conduct a third-party review, including access to all transcripts and sampling access to the relevant models. In the meantime, within the next week, we will release a lightly redacted transcript in which Claude built a malicious PyPI package. To protect the organizations affected, we are unable to release more transcripts at this time, but will work to make these available once we are able.
 
-## **How we’re responding**
+## How we’re responding
 
 We draw several lessons from these incidents.
 
@@ -115,27 +136,8 @@ These facts give us cautious optimism that with tighter monitoring and controls 
   
 *Updated Aug 3:* Corrected the name of the evaluation in which the OpenAI/Hugging Face incident occurred.
 
-#### Footnotes
+## Footnotes
 
-1. We routinely test internal research prototypes like this one. It is not planned for general release.
-2. We generally store traces for benchmark evaluations. We have carefully audited these two benchmarks in particular for signs of harm because the OpenAI/Hugging Face incident occurred during an evaluation of ExploitGym.
+01We routinely test internal research prototypes like this one. It is not planned for general release.
 
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)
+02We generally store traces for benchmark evaluations. We have carefully audited these two benchmarks in particular for signs of harm because the OpenAI/Hugging Face incident occurred during an evaluation of ExploitGym.

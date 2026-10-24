@@ -1,10 +1,34 @@
-Frontier Red Team
+### Chapter 02: Getting started
 
 # Launching an opt-in vulnerability-finding service for open-source software
 
-Oct 8, 2026
+![Launching an opt-in vulnerability-finding service for open-source software](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0c269cba7924d77f62632a8293563b1830856f94-2000x1125.jpg&w=1920&q=75)
+
+- Published
+
+  Oct 8, 2026
+- Team
+
+  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
+- Topics
+
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Open source](https://www.anthropic.com/search?topic=open-source)
+  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Access](https://www.anthropic.com/search?topic=access)See more...
 
 *We’re launching [OSS Scanner](https://red.anthropic.com/oss-scanner), an opt-in vulnerability scanner for the open-source ecosystem informed by our experience using Claude to find vulnerabilities during [Project Glasswing](https://www.anthropic.com/glasswing). Projects that join will receive thorough, periodic security scans by our strongest models at no cost.*
+
+Related articles
+
+- Frontier Red Team
+
+  Oct 22, 2026
+
+  [LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/research/formal-verification)
+
+[View more](https://www.anthropic.com/search?topic=cybersecurity)
 
 Language models have rapidly advanced in their ability to [discover vulnerabilities](https://www.anthropic.com/research/mythos-preview), as we have [reported extensively](https://www.anthropic.com/research/zero-days) on this blog. On [CyberGym](https://arxiv.org/abs/2506.02548), one academic vulnerability-finding benchmark, LLMs have gone from finding under 20% of vulnerabilities at the beginning of last year to finding over 85% this year. As a result, open source maintainers have gone from receiving [mostly slop](https://daniel.haxx.se/blog/2025/07/14/death-by-a-thousand-slops/) from LLMs to receiving [high-quality bug reports](https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/).
 
@@ -37,27 +61,3 @@ To validate an early version of OSS Scanner, we asked the expert penetration tes
 Core maintainers of eligible projects can enroll by submitting a PR to [this GitHub repo](https://github.com/anthropics/oss-scanner) following the standard project template, with additional guidance provided in [our extended FAQ](https://red.anthropic.com/oss-scanner). Projects are eligible based on a similar set of criteria that OSS-Fuzz uses: briefly, projects should have a “critical impact on infrastructure and user security” and we will make decisions on a case-by-case basis.
 
 *Whether or not OSS Scanner is right for you, our new [Cyber Verification Program](https://www.anthropic.com/news/cyber-verification-program) makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals. [Claude for OSS](https://claude.com/contact-sales/claude-for-oss) provides free Claude Max 20x subscriptions to help remediate vulnerabilities and improve OSS projects.*
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)
-
-## Subscribe to the Frontier Red Team newsletter
-
-Get updates on our latest red-teaming research and findings.

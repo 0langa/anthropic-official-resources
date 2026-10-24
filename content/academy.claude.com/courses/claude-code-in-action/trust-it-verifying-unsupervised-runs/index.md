@@ -29,7 +29,7 @@ Here's a way to picture it. The less you watched, the more you verify.
 
 ## Keep unattended runs in auto mode[](https://academy.claude.com/courses/claude-code-in-action/trust-it-verifying-unsupervised-runs)
 
-When a run goes unattended at work, keep it in auto mode rather than bypass permissions. In auto mode, the classifier still reviews each action for danger. That's a safety net worth keeping.
+When a run goes unattended at work, keep it in auto mode rather than bypass permissions. In auto mode, the classifier still reviews most actions for danger. That's a safety net worth keeping.
 
 But be clear about what that net does and doesn't do. The classifier never judges whether the code is actually correct. It only flags dangerous actions. So your verification bar stays exactly where it was. Set that bar based on how unsupervised the run was.
 

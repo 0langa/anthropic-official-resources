@@ -1,12 +1,34 @@
-Alignment
+### Chapter 03: Implications
 
-# Automated Alignment Researchers: Using large language models to scale scalable oversight
-
-Apr 14, 2026
+# **Automated Alignment Researchers:**Using large language models to scale scalable oversight
 
 [Read the research](https://alignment.anthropic.com/2026/automated-w2s-researcher/)
 
-![Automated Alignment Researchers: Using large language models to scale scalable oversight](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2f328b8efa35da31d6464f81898f4169a6ce6d99-2000x1125.png&w=3840&q=75)
+![Three sketches of geometric solids: a simple dodecahedron on grid paper, a larger faceted polyhedron on pink paper, and a dense cluster of spiked forms in charcoal on orange.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F946d483b72704adc33ce0550d8688345d39e9bdb-2000x1125.jpg&w=1920&q=75)
+
+- Published
+
+  Apr 14, 2026
+- Team
+
+  [Alignment](https://www.anthropic.com/research/team/alignment)
+- Topics
+
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+  - [Discovery](https://www.anthropic.com/search?topic=discovery)See more...
+
+Related articles
+
+- Science
+
+  Oct 20, 2026
+
+  [How Claude designed protein binders against scorpion neurotoxins](https://www.anthropic.com/research/claude-scorpion-toxin-binder-design)
+
+[View more](https://www.anthropic.com/search?topic=alignment)
 
 Large language models’ ever-accelerating rate of improvement raises two particularly important questions for alignment research.
 
@@ -38,7 +60,7 @@ Claude improved on this result dramatically. After five further days (and 800 cu
 
 ![Graph showing the progress of our Automated Alignment Researchers on increasing the "performance gap recovered" on a chat dataset.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7b4a70562b33640ee7061fa5e06711d9c238309e-4584x2580.jpg&w=3840&q=75)
 
-*The performance gap recovered over cumulative research hours for nine parallel Automated Alignment Researchers (red lines), relative to a human-tuned baseline (grey square). A score of 1.0 means the method fully matches a model trained on ground-truth labels.*
+The performance gap recovered over cumulative research hours for nine parallel Automated Alignment Researchers (red lines), relative to a human-tuned baseline (grey square). A score of 1.0 means the method fully matches a model trained on ground-truth labels.
 
 Claude, then, did exceptionally well. But how inventive were its methods, and could they be useful in real-world applications? To find out, we ran two further tests.
 
@@ -46,7 +68,7 @@ First, we tested whether the AARs’ ideas could recover the performance gap on 
 
 ![Graph showing how well AAR-discovered ideas transfer to held-out datasets in math and code.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe1f31a844cd21a88242aea70936478857a3c643d-4584x2580.jpg&w=3840&q=75)
 
-*The performance gap recovered by two AAR-discovered ideas (in red and blue) when applied to held-out math and coding datasets. The dashed line indicates the best human-tuned method that we used as a baseline.*
+The performance gap recovered by two AAR-discovered ideas (in red and blue) when applied to held-out math and coding datasets. The dashed line indicates the best human-tuned method that we used as a baseline.
 
 Next, we tested whether the AARs’ ideas would work at production scale. We tried out the AARs’ most effective method on Claude Sonnet 4 with our production training infrastructure. Here, though, we had less success. The AARs’ method didn’t lead to a statistically significant improvement. We think this might reflect limitations of this early trial, rather than something more fundamental: our scoring method was quite simple, and we only evaluated a single idea. Nevertheless, this does illustrate a limitation of AARs (at least at their current capabilities): AARs tend to capitalize on opportunities unique to the models and datasets they’re given, which means their methods might not work elsewhere. To mitigate this, we suggest allowing AARs to test against multiple domains and datasets during their research. This is one area that future experimentation with AARs could explore.
 
@@ -72,27 +94,8 @@ In turn, this means that the core bottleneck in alignment research could become 
 
 To read this research in full, see our [Alignment Science blog](https://alignment.anthropic.com/2026/automated-w2s-researcher/). The code and datasets for this work are [publicly available, here](https://github.com/safety-research/automated-w2s-research).
 
-#### Footnotes
+## Footnotes
 
-1. These are available (along with the rest of our code and data) [here](https://github.com/safety-research/automated-w2s-research).
-2. We chose these models for several reasons. There is a substantial performance gap between the two, the small model performs better-than-random on our testbeds, and both models are sufficiently small for fast experimentation. We use open-weights models for all Anthropic Fellows projects.
+01These are available (along with the rest of our code and data) [here](https://github.com/safety-research/automated-w2s-research).
 
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)
+02We chose these models for several reasons. There is a substantial performance gap between the two, the small model performs better-than-random on our testbeds, and both models are sufficiently small for fast experimentation. We use open-weights models for all Anthropic Fellows projects.

@@ -230,7 +230,7 @@ Data from this report is available [here](https://huggingface.co/datasets/Anthro
 
 11Our sampling period overlapped with the release of our Super Bowl advertisements, which brought many first-time users.
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Contributors
 

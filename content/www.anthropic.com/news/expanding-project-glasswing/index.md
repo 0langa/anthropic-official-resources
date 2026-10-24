@@ -19,11 +19,11 @@
 
 Related articles
 
-- Security
+- Frontier Red Team
 
-  Oct 8, 2026
+  Oct 22, 2026
 
-  [Introducing the Anthropic Cyber Mission](https://www.anthropic.com/news/anthropic-cyber-mission)
+  [LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/research/formal-verification)
 
 [View more](https://www.anthropic.com/search?topic=cybersecurity)
 

@@ -6,6 +6,22 @@
 - Team
 
   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
+- Topics
+
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Open source](https://www.anthropic.com/search?topic=open-source)
+  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+
+Related articles
+
+- Frontier Red Team
+
+  Oct 22, 2026
+
+  [LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/research/formal-verification)
+
+[View more](https://www.anthropic.com/search?topic=cybersecurity)
 
 *Chris Rohlf*
 

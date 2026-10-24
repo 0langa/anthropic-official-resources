@@ -1,10 +1,12 @@
 # What to expect with Claude Cowork in the cloud
 
-**Note:** Claude Cowork is now just Claude. Ask for what you need, and Claude decides whether that’s a quick answer or a task. This is rolling out gradually to Pro and Max plans, and it’s in beta for Enterprise plans, where an admin turns it on as **Chat and Cowork unified (beta)**. If your message box no longer shows “Chat” and “Cowork” options, you have the new experience, and some steps in this article may look different. Learn more in **[Claude Cowork and chat are one Claude](https://support.claude.com/en/articles/16761823)**, or read our **[blog post](https://claude.com/blog/cowork-is-now-claude)**. For Enterprise owners, see **[Set up and manage the new unified Claude experience for your Enterprise organization](https://support.claude.com/en/articles/17444462)**.
-
 Claude Cowork can now run your tasks in the cloud, on Anthropic's servers instead of your computer. It lets Claude keep working when your computer is closed and brings Cowork to web and mobile. This article covers what changes when a session runs in the cloud and what stays the same.
 
-Claude Cowork is available for paid plans (Pro, Max, Team, Enterprise) on desktop, and in beta on web and mobile for Pro, Max, and Team plans, and Enterprise plans when enabled by an owner. This article is for existing Cowork users on the desktop app.
+## Availability
+
+Claude Cowork is available on desktop on all paid plans (Pro, Max, Team, and Enterprise). On web and mobile, it's available on Pro, Max, and Team plans (in beta on Team), and on Enterprise plans when an owner enables it. This article is for existing Cowork users on the desktop app.
+
+The new Claude experience, which combines chat and Cowork, is rolling out to Pro and Max plans. On Team plans (in beta) and Enterprise plans, it's available where **Chat and Cowork unified** is turned on. If your message box no longer shows "Chat" and "Cowork" options, you have the new experience, and some steps in this article may look different. Learn more in **[Claude Cowork and chat are one Claude](https://support.claude.com/en/articles/16761823)**.
 
 ## What stays the same
 

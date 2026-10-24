@@ -1,10 +1,29 @@
-Product
+### Chapter 05: Introducing the new Anthropic Cookbook
 
 # Prompt engineering for Claude's long context window
 
-Sep 23, 2023
+- Published
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F112b3d86f1ee7ddbf62ad26f2c311dd6dbd53177-2880x1620.png&w=3840&q=75)
+  Sep 23, 2023
+- Category
+
+  [Product](https://www.anthropic.com/news/product)
+- Topics
+
+  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+  - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
+  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)See more...
+
+Related articles
+
+- Engineering
+
+  Nov 26, 2025
+
+  [Effective harnesses for long-running agents](https://www.anthropic.com/research/effective-harnesses-for-long-running-agents)
+
+[View more](https://www.anthropic.com/search?topic=context-engineering)
 
 Claude’s [100,000 token long context window](https://www.anthropic.com/news/100k-context-windows) enables the model to operate over hundreds of pages of technical documentation, or even an [entire book](https://twitter.com/AnthropicAI/status/1656700156518060033). As we continue to scale the Claude API, we’re seeing increased demand for prompting guidance on how to maximize Claude’s potential. Today, we’re pleased to share a quantitative case study on two techniques that can improve Claude’s recall over long contexts:
 
@@ -17,8 +36,8 @@ Let’s get into the details.
 
 Our goal with this experiment is to evaluate techniques to maximize Claude’s chance of correctly recalling a specific piece of information from a long document.
 
-As the underlying data source for our testing, we used a daily-issue, publicly available [government document](https://www.govinfo.gov/content/pkg/FR-2023-07-13/xml/FR-2023-07-13.xml) that contains the meeting transcripts and activities of many different departments. We chose a document from July 13, which is after Claude’s training data cutoff. This minimizes the chance that Claude already knows the information in the document.  
-  
+As the underlying data source for our testing, we used a daily-issue, publicly available [government document](https://www.govinfo.gov/content/pkg/FR-2023-07-13/xml/FR-2023-07-13.xml) that contains the meeting transcripts and activities of many different departments. We chose a document from July 13, which is after Claude’s training data cutoff. This minimizes the chance that Claude already knows the information in the document.
+
 In order to generate a dataset of question and answer (Q&A) pairs, we used an approach we call “randomized collage”. We split the document into sections and used Claude to generate five multiple choice questions for each section, each with three wrong answers and one right answer. We then reassembled randomized sets of these sections into long documents so that we could pass them to Claude and test its recall of their contents.
 
 ## Prompting Claude to generate multiple choice questions
@@ -35,16 +54,16 @@ To help navigate these pitfalls, we used a prompt template that includes two sam
 
 ## Evaluation
 
-For this evaluation, we primarily focused on our smaller Claude Instant model (version 1.2) as opposed to our Claude 2 model. This is for a couple of reasons. First, Claude 2 is already very good at recalling information after reading very long documents. Claude Instant needs more help, which makes it easy to see when changes to prompting improve performance. Additionally, Claude Instant is so fast that you can reproduce these evals yourself with the notebook we share.  
-  
-When provided with only the exact passage Claude used to write the question, Claude Instant was able to answer its own generated question about 90% of the time. We discarded the 10% of questions it answered incorrectly – since Claude was getting them wrong even in a short-context situation, they’re too difficult to be useful for testing long context.[1](https://www.anthropic.com/news/prompting-long-context)  
-  
-We also tested Claude’s recall when given a random section not containing the question’s source material. Theoretically, with three wrong answers, Claude should be able to guess the right answer only 25% of the time. In practice, it guessed right 34% of the time; above chance, but not too much so. Claude is likely sometimes intuiting the right answer based on its general knowledge, or based on subtle cues in the answer.  
-  
-In order to build long documents from shorter chunks, we artificially generated a new long context for each question by stitching together a random assortment of passages until we reached the desired number of tokens. We tested Claude on stitched-together documents containing roughly 75,000 and 90,000 tokens.  
-  
-This patchwork context formation is why Claude referencing ambiguous phrases like “this document” or “this passage” in its question was causing problems. A question like “What is the publication date of this notice?” ceases to be answerable when there are a dozen different notices in the context to which “this notice” could refer. This is why our question generation prompt includes language telling Claude to be explicit about the passage to which the question refers – for example, “What is the publication date of the notice about additional in-season actions for fisheries?"  
-  
+For this evaluation, we primarily focused on our smaller Claude Instant model (version 1.2) as opposed to our Claude 2 model. This is for a couple of reasons. First, Claude 2 is already very good at recalling information after reading very long documents. Claude Instant needs more help, which makes it easy to see when changes to prompting improve performance. Additionally, Claude Instant is so fast that you can reproduce these evals yourself with the notebook we share.
+
+When provided with only the exact passage Claude used to write the question, Claude Instant was able to answer its own generated question about 90% of the time. We discarded the 10% of questions it answered incorrectly – since Claude was getting them wrong even in a short-context situation, they’re too difficult to be useful for testing long context.[1](https://www.anthropic.com/news/prompting-long-context)
+
+We also tested Claude’s recall when given a random section not containing the question’s source material. Theoretically, with three wrong answers, Claude should be able to guess the right answer only 25% of the time. In practice, it guessed right 34% of the time; above chance, but not too much so. Claude is likely sometimes intuiting the right answer based on its general knowledge, or based on subtle cues in the answer.
+
+In order to build long documents from shorter chunks, we artificially generated a new long context for each question by stitching together a random assortment of passages until we reached the desired number of tokens. We tested Claude on stitched-together documents containing roughly 75,000 and 90,000 tokens.
+
+This patchwork context formation is why Claude referencing ambiguous phrases like “this document” or “this passage” in its question was causing problems. A question like “What is the publication date of this notice?” ceases to be answerable when there are a dozen different notices in the context to which “this notice” could refer. This is why our question generation prompt includes language telling Claude to be explicit about the passage to which the question refers – for example, “What is the publication date of the notice about additional in-season actions for fisheries?"
+
 After generating the long documents (collages), we tested Claude’s recall using four different prompting strategies:
 
 1. **Base** – just ask Claude to answer
@@ -52,8 +71,8 @@ After generating the long documents (collages), we tested Claude’s recall usin
 3. **Two examples** - Give Claude two examples of correctly answered multiple choice questions, dynamically chosen at random from the set of Claude-generated questions about other chunks in the context
 4. **Five examples** - Same strategy as #3, but with five examples
 
-For each of the four strategies above, we also tested them with and without the use of a <scratchpad>, in which we instruct Claude to pull relevant quotes. Furthermore, we tested each of these strategies with the passage containing the answer positioned either at the beginning, the end, or in the middle of the input. Finally, to get a sense of the effect of context length on the results, we tested with both 70K and 95K token documents.  
-  
+For each of the four strategies above, we also tested them with and without the use of a <scratchpad>, in which we instruct Claude to pull relevant quotes. Furthermore, we tested each of these strategies with the passage containing the answer positioned either at the beginning, the end, or in the middle of the input. Finally, to get a sense of the effect of context length on the results, we tested with both 70K and 95K token documents.
+
 We used Claude Instant 1.2 for the above test. We also show results for Claude 2 on the baseline strategy and the strategy that performed best for Claude Instant 1.2.
 
 ## Results
@@ -87,28 +106,8 @@ We’re looking forward to expanding the Anthropic Cookbook and our other prompt
 
 ## Footnotes
 
-[1](https://www.anthropic.com/news/prompting-long-context)A common theme in the questions Claude gets wrong is counting, e.g. “What is the estimated number of responses per respondent that the notice states for each form in the Common Forms Package for Guaranteed Loan Forms?” and “How many proposed finished products are listed in the notification for production activity at the Getinge Group Logistics Americas LLC facility?” Notably, on some of these questions, Claude’s pre-specified “correct” answer (from when it generated the QA pairs) is not in reality correct. This is a source of noise in this experiment.
+01A common theme in the questions Claude gets wrong is counting, e.g. “What is the estimated number of responses per respondent that the notice states for each form in the Common Forms Package for Guaranteed Loan Forms?” and “How many proposed finished products are listed in the notification for production activity at the Getinge Group Logistics Americas LLC facility?” Notably, on some of these questions, Claude’s pre-specified “correct” answer (from when it generated the QA pairs) is not in reality correct. This is a source of noise in this experiment.
 
-[2](https://www.anthropic.com/news/prompting-long-context)The questions are: 1. Who was the first president of the United States? A. Thomas Jefferson, B. George Washington, C. Abraham Lincoln, D. John Adams, 2. What is the boiling temperature of water, in degrees Fahrenheit? A. 200, B. 100, C. 287, D. 212.
+02The questions are: 1. Who was the first president of the United States? A. Thomas Jefferson, B. George Washington, C. Abraham Lincoln, D. John Adams, 2. What is the boiling temperature of water, in degrees Fahrenheit? A. 200, B. 100, C. 287, D. 212.
 
-[3](https://www.anthropic.com/news/prompting-long-context)A [recent paper](https://arxiv.org/abs/2307.03172) found a U-shaped relationship between performance and location in the context for a similar task. A possible explanation for the differing results is that the examples in the paper have avg. length 15K tokens (Appendix F), compared to 70K/95K here.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)
+03A [recent paper](https://arxiv.org/abs/2307.03172) found a U-shaped relationship between performance and location in the context for a similar task. A possible explanation for the differing results is that the examples in the paper have avg. length 15K tokens (Appendix F), compared to 70K/95K here.

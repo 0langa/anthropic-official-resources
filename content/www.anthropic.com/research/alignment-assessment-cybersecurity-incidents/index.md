@@ -21,9 +21,9 @@ Related articles
 
 - Alignment
 
-  Oct 9, 2026
+  Oct 23, 2026
 
-  [Investigating unintended model actions in our evaluations and internal use](https://www.anthropic.com/research/investigating-unintended-model-actions)
+  [An alignment assessment of the UK AISI cybertesting incident](https://www.anthropic.com/research/alignment-assessment-ukaisi)
 
 [View more](https://www.anthropic.com/search?topic=alignment)
 
@@ -573,7 +573,7 @@ We take a layered approach to safety on the expectation that any given layer wil
 
 01We have since [advised](https://www.anthropic.com/news/improving-alignment-security-efforts) external partners running cyber evaluations with pre-release models to explicitly define what is in and out of scope for any exercise, including the targets, permitted actions, and network boundaries.
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Contributors
 

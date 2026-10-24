@@ -2,7 +2,7 @@
 
 # Announcements
 
-74
+75
 
 ARTICLES
 
@@ -14,6 +14,15 @@ Description
 
 Date
 
+- [### Open call for guest investigators in the life sciences](https://www.anthropic.com/news/open-call-guest-investigators-life-sciences)
+
+  [Today, we’re inviting members of the life sciences community to apply to work with us on special projects.](https://www.anthropic.com/news/open-call-guest-investigators-life-sciences)
+
+  Oct 22, 2026
+
+  Oct 22, 2026
+
+  [### Open call for guest investigators in the life sciences](https://www.anthropic.com/news/open-call-guest-investigators-life-sciences)[Today, we’re inviting members of the life sciences community to apply to work with us on special projects.](https://www.anthropic.com/news/open-call-guest-investigators-life-sciences)
 - [### Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust](https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust)
 
   [Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observational cosmology and precision measurement.](https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust)
@@ -221,15 +230,6 @@ Date
   Jun 1, 2026
 
   [### Anthropic confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec)[Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission](https://www.anthropic.com/news/confidential-draft-s1-sec)
-- [### Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h)
-
-  [Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital.](https://www.anthropic.com/news/series-h)
-
-  May 28, 2026
-
-  May 28, 2026
-
-  [### Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h)[Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital.](https://www.anthropic.com/news/series-h)
 
 See more
 

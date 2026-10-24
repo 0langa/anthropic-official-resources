@@ -1,12 +1,31 @@
-[Engineering at Anthropic](https://www.anthropic.com/engineering)
-
-![](https://www-cdn.anthropic.com/images/4zrzovbb/website/039b6648c28eb33070a63a58d49013600b229238-2554x2554.svg)
+### Chapter 08: Appendix 2: Prompt engineering your tools
 
 # Building effective agents
 
-Published Dec 19, 2024
+![Building effective agents](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F449cbca59ea1d94cdebb3118c21894a7c9f76db0-2000x1125.jpg&w=1920&q=75)
 
-We've worked with dozens of teams building LLM agents across industries. Consistently, the most successful implementations use simple, composable patterns rather than complex frameworks.
+- Published
+
+  Dec 19, 2024
+- Team
+
+  [Engineering](https://www.anthropic.com/engineering)
+- Topics
+
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+  - [Coding](https://www.anthropic.com/search?topic=coding)See more...
+
+Related articles
+
+- Announcements
+
+  May 18, 2026
+
+  [Anthropic acquires Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless)
+
+[View more](https://www.anthropic.com/search?topic=agents)
 
 *Note: Much of the tooling landscape described in this post has changed since December 2024. For our current approach, see [**how we built Claude Managed Agents**](https://www.anthropic.com/engineering/managed-agents)* *and the [**Managed Agents documentation**.](https://platform.claude.com/docs/en/managed-agents/overview)*   
   
@@ -183,10 +202,6 @@ When implementing agents, we try to follow three core principles:
 
 Frameworks can help you get started quickly, but don't hesitate to reduce abstraction layers and build with basic components as you move to production. By following these principles, you can create agents that are not only powerful but also reliable, maintainable, and trusted by their users.
 
-### Acknowledgements
-
-Written by Erik S. and Barry Zhang. This work draws upon our experiences building agents at Anthropic and the valuable insights shared by our customers, for which we're deeply grateful.
-
 ## Appendix 1: Agents in practice
 
 Our work with customers has revealed two particularly promising applications for AI agents that demonstrate the practical value of the patterns discussed above. Both applications illustrate how agents add the most value for tasks that require both conversation and action, have clear success criteria, enable feedback loops, and integrate meaningful human oversight.
@@ -234,8 +249,8 @@ One rule of thumb is to think about how much effort goes into human-computer int
 
 While building our agent for [SWE-bench](https://www.anthropic.com/research/swe-bench-sonnet), we actually spent more time optimizing our tools than the overall prompt. For example, we found that the model would make mistakes with tools using relative filepaths after the agent had moved out of the root directory. To fix this, we changed the tool to always require absolute filepaths—and we found that the model used this method flawlessly.
 
-## Get the developer newsletter
+## Authors & acknowledgements
 
-Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+### Acknowledgements
 
-Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+Written by Erik S. and Barry Zhang. This work draws upon our experiences building agents at Anthropic and the valuable insights shared by our customers, for which we're deeply grateful.

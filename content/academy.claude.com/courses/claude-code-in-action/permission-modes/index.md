@@ -31,7 +31,7 @@ Here's the full set. Each mode draws a different line between what runs freely a
 - **Manual** reads only, without prompting. Everything else asks first.
 - **Accept edits** runs reads, file edits, and common file system bash commands without asking. This is for iterating on code that you review after the fact.
 - **Plan** researches and proposes changes without editing anything. Reads run freely, and when auto mode is available, auto's classifier reviews the commands Claude runs to explore and lets the approved ones run without a prompt.
-- **Auto** accepts everything, with a separate classifier model reviewing each action before it runs.
+- **Auto** accepts everything, with a separate classifier model reviewing most actions before they run.
 - **Don't ask** allows file reads inside your working directories and pre-approved tools. Anything that would prompt is auto-denied.
 - **Bypass permissions** skips all checks. This is the equivalent of the dangerously-skip-permissions flag. Only run it inside an isolated container or virtual machine.
 
@@ -41,7 +41,7 @@ You don't need to memorize a command for each mode. Press shift-tab to cycle thr
 
 ## How auto mode works[](https://academy.claude.com/courses/claude-code-in-action/permission-modes)
 
-Auto is the hands-off mode. Claude runs on its own, but before each action executes, a separate classifier model reviews it. The classifier guards intent. It's watching for moves that escalate beyond what you actually asked for.
+Auto is the hands-off mode. Claude runs on its own, but before most actions execute, a separate classifier model reviews them. The classifier guards intent. It's watching for moves that escalate beyond what you actually asked for.
 
 Here's the kind of thing it's designed to block:
 
@@ -61,7 +61,7 @@ That's why you pair auto mode with a stop hook that runs your tests. The two wor
 - Auto mode watches what Claude is *trying* to do while it runs.
 - The stop hook confirms the code actually runs once Claude finishes.
 
-One guards intent before each action, the other guards correctness after. Auto mode's guardrails are still evolving, so check the docs for the current block and allow lists.
+One guards intent before most actions, the other guards correctness after. Auto mode's guardrails are still evolving, so check the docs for the current block and allow lists.
 
 ## Don't ask, for unattended runs[](https://academy.claude.com/courses/claude-code-in-action/permission-modes)
 
@@ -71,7 +71,7 @@ Don't ask is the right move whenever no human is around to approve prompts: CI p
 
 There are several permission modes, and you reach the everyday ones by cycling shift-tab. To sum it up:
 
-- **Auto** is the hands-off mode. The classifier checks intent before each action, and a stop hook checks correctness after.
+- **Auto** is the hands-off mode. The classifier checks intent before most actions, and a stop hook checks correctness after.
 - **Don't ask** covers unattended pipelines where no one is there to approve.
 - **Bypass permissions** belongs only inside isolated containers and VMs.
 

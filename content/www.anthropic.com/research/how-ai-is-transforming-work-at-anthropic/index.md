@@ -325,7 +325,7 @@ Our Claude Code analysis uses proportionate sampling across time periods, which 
 
 Finally, this research was conducted in August 2025 when Claude Sonnet 4 and Claude Opus 4 were our state-of-the-art models. Given the rapid pace of AI development, the patterns we observed may have already shifted as newer models become available.
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Contributors
 

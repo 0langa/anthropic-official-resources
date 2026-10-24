@@ -8,49 +8,21 @@ Unsubscribe at any time.
 
 News, announcements, and stories from Anthropic about Claude and the people building with it.
 
-[ArticleOct 8, 2026
+[ArticleOct 22, 2026
 
-### Build live dashboards and animate explainers with Claude
+### Building agents: When to fold subagents into your main agent loop
 
-Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
+When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
 
-Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
+Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)
 
-[ArticleOct 19, 2026
+[ArticleOct 21, 2026
 
-### Redesigning source control at Anthropic
+### Introducing Claude Duet
 
-As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.
+A research preview is available by waitlist today, starting with US Pro and Max subscribers.
 
-Claude Code
-
-(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)
-
-[ArticleOct 16, 2026
-
-### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
-
-How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
-
-Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)
-
-[ArticleOct 16, 2026
-
-### How the Claude Code team does code review
-
-How do you review code at the volume agents produce it? The Claude Code team shares its review process, from Claude verifying its own work to risk-tiered human approval, plus a checklist for adopting it.
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)
-
-[ArticleOct 15, 2026
-
-### Code Review is now generally available
-
-Catch more bugs before they reach production.
-
-Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)
+![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
 [ArticleOct 8, 2026
 
@@ -60,13 +32,37 @@ Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design ar
 
 Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
 
-Featured resource 1 of 5: Build live dashboards and animate explainers with Claude
+[ArticleOct 23, 2026
+
+### Claude Cowork and chat come together for Enterprise
+
+Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)
+
+[ArticleOct 23, 2026
+
+### Claude Duet Safety, Privacy, and Security
+
+Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)
+
+[ArticleOct 22, 2026
+
+### Building agents: When to fold subagents into your main agent loop
+
+When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
+
+Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)
+
+Featured resource 1 of 5: Building agents: When to fold subagents into your main agent loop
 
 Advanced filters(1)
 
-Showing 12 of 42 resources
+Showing 12 of 43 resources
 
-[ArticleOct 8, 2026
+[ArticleOct 23, 2026
+
+### Claude Cowork and chat come together for Enterprise
+
+Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)[ArticleOct 8, 2026
 
 ### How Block orchestrates Claude Fable across thousands of pull requests
 
@@ -129,10 +125,6 @@ Claude EnterpriseClaude apps2 more: Claude Code and Claude CoworkClaude CodeClau
 
 ### Millennium and Anthropic are building a digital risk analyst with Claude
 
-Claude Enterprise](https://claude.com/resources/articles/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude)[ArticleAug 5, 2026
-
-### Inference hooks: inline data loss prevention for Claude Enterprise
-
-Claude EnterpriseClaude apps2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/claude-enterprise-inference-hooks)
+Claude Enterprise](https://claude.com/resources/articles/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude)
 
 View more

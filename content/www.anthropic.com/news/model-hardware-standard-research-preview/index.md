@@ -108,7 +108,7 @@ We will also use the research preview to build additional safety evaluations wit
 
 We’re inviting stakeholders across industries to join the waitlist for our research preview of MHS. If you’d like to participate, [submit your interest here](https://www.modelhardwarestandard.com/).
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

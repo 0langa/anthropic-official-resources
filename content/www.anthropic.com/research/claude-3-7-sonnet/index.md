@@ -1,18 +1,38 @@
-Announcements
+### Chapter 05: Looking ahead
 
 # Claude 3.7 Sonnet and Claude Code
 
-Feb 24, 2025
+- Published
 
-![An illustration of Claude thinking step-by-step](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4dface4fdc350ad704f19a8f8704cf3264c55682-2880x1620.png&w=3840&q=75)
+  Feb 24, 2025
+- Category
 
-Today, we’re announcing Claude 3.7 Sonnet1, our most intelligent model to date and the first hybrid reasoning model on the market. Claude 3.7 Sonnet can produce near-instant responses or extended, step-by-step thinking that is made [visible to the user](https://youtu.be/t3nnDXa81Hs). API users also have fine-grained control over *how long* the model can think for.
+  [Models](https://www.anthropic.com/news/models)
+- Topics
+
+  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+
+Related articles
+
+- Features
+
+  Feb 23, 2026
+
+  [The making of Claude Code](https://www.anthropic.com/features/making-of-claude-code)
+
+[View more](https://www.anthropic.com/search?topic=claude-sonnet)
+
+Today, we’re announcing Claude 3.7 Sonnet[1](https://www.anthropic.com/news/claude-3-7-sonnet), our most intelligent model to date and the first hybrid reasoning model on the market. Claude 3.7 Sonnet can produce near-instant responses or extended, step-by-step thinking that is made [visible to the user](https://youtu.be/t3nnDXa81Hs). API users also have fine-grained control over *how long* the model can think for.
 
 Claude 3.7 Sonnet shows particularly strong improvements in coding and front-end web development. Along with the model, we’re also introducing a command line tool for agentic coding, Claude Code. Claude Code is available as a limited research preview, and enables developers to delegate substantial engineering tasks to Claude directly from their terminal.
 
 ![Screen showing Claude Code onboarding](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4a4df6b6629f9814aec4eb9323028130f43a8d70-1920x1080.png&w=3840&q=75)
 
-Claude 3.7 Sonnet is now available on all [Claude](https://claude.ai/redirect/website.v1.6cb195ce-bd0e-4ad8-a830-50a67afcd344/new) plans—including Free, Pro, Team, and Enterprise—as well as the [Claude Developer Platform](https://docs.claude.com/en/docs/about-claude/models), [Amazon Bedrock](https://aws.amazon.com/bedrock/claude/), and [Google Cloud’s Vertex AI](https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/use-claude). Extended thinking mode is available on all surfaces except the free Claude tier.
+Claude 3.7 Sonnet is now available on all [Claude](https://claude.ai/redirect/website.v1.8982630a-c524-4d89-857b-f62226f4a859/new) plans—including Free, Pro, Team, and Enterprise—as well as the [Claude Developer Platform](https://docs.claude.com/en/docs/about-claude/models), [Amazon Bedrock](https://aws.amazon.com/bedrock/claude/), and [Google Cloud’s Vertex AI](https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/use-claude). Extended thinking mode is available on all surfaces except the free Claude tier.
 
 In both standard and extended thinking modes, Claude 3.7 Sonnet has the same price as its predecessors: $3 per million input tokens and $15 per million output tokens—which includes thinking tokens.
 
@@ -46,6 +66,8 @@ Since June 2024, Sonnet has been the preferred model for developers worldwide. T
 
 Claude Code is an active collaborator that can search and read code, edit files, write and run tests, commit and push code to GitHub, and use command line tools—keeping you in the loop at every step.
 
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FAJpK3YTTKZ4%2Fmaxresdefault.jpg&w=3840&q=75)
+
 Claude Code is an early product but has already become indispensable for our team, especially for test-driven development, debugging complex issues, and large-scale refactoring. In early testing, Claude Code completed tasks in a single pass that would normally take 45+ minutes of manual work, reducing development time and overhead.
 
 In the coming weeks, we plan to continually improve it based on our usage: enhancing tool call reliability, adding support for long-running commands, improved in-app rendering, and expanding Claude's own understanding of its capabilities.
@@ -71,10 +93,6 @@ Claude 3.7 Sonnet and Claude Code mark an important step towards AI systems that
 ![Milestone timeline showing Claude progressing from assistant to pioneer](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3bde9831ea84e3663fe4598589d71eaa531f9912-1920x1080.png&w=3840&q=75)
 
 We're excited for you to explore these new capabilities and to see what you’ll create with them. As always, we welcome your [feedback](mailto: feedback@anthropic.com) as we continue to improve and evolve our models.
-
-#### Appendix
-
-1 Lesson learned on [naming](https://www.anthropic.com/news/3-5-models-and-computer-use).
 
 ### Eval data sources
 
@@ -122,22 +140,6 @@ This results in a score of 70.3% on the subset of n=489 verified tasks which wor
 - sphinx-doc\_\_sphinx-8595
 - sphinx-doc\_\_sphinx-9711
 
-## Related content
+## Footnotes
 
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)
+01 Lesson learned on [naming](https://www.anthropic.com/news/3-5-models-and-computer-use).

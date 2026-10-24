@@ -211,7 +211,7 @@ Two [environment variables](/docs/en/env-vars) raise these limits, for Bash and 
 
 When a foreground command reaches its timeout without finishing, Claude Code moves it to the background instead of stopping it, unless the command starts with `sleep`. A moved command's [time limit](#time-limit-for-background-commands) counts from the move, and a foreground subagent's moved command still stops when that subagent's run ends.
 
-Setting [`CLAUDE_CODE_DISABLE_BACKGROUND_TASKS=1`](/docs/en/env-vars#variables) or running in [bare mode](/docs/en/headless#start-faster-with-bare-mode) disables auto-backgrounding along with the rest of the background task functionality, so a command that reaches its timeout stops instead.
+Setting [`CLAUDE_CODE_DISABLE_BACKGROUND_TASKS=1`](/docs/en/env-vars#variables) or running in [bare mode](/docs/en/headless#start-faster-with-bare-mode) disables auto-backgrounding, so a command that reaches its timeout stops instead.
 
 The result of a command moved to the background states what happened:
 
@@ -597,9 +597,18 @@ If you'd like to use these tools on a model that doesn't have them by default, d
 
 In [background sessions](/docs/en/agent-view) and in [cloud sessions](/docs/en/claude-code-on-the-web), Claude Code provides the same tools on every model, listed or not.
 
-Claude Code gives a subagent the tools only when your session has them, even when the subagent runs a different model. An in-process [agent team](/docs/en/agent-teams) teammate follows your session the same way, while a teammate in its own [split pane](/docs/en/agent-teams#choose-a-display-mode) runs as a separate Claude Code process, so its own model decides. Without the Task tools, an agent coordinates with its team through messages instead of the [shared task list](/docs/en/agent-teams#assign-and-claim-tasks).
-
 The default set described here applies in Claude Code v2.1.268 and later.
+
+### Task-tracking tools in subagents and agent teams
+
+A subagent has the task-tracking tools only when your session has them, whatever model the subagent runs. An in-process [agent team](/docs/en/agent-teams) teammate has the task-tracking tools when your session does. A [split-pane](/docs/en/agent-teams#choose-a-display-mode) teammate is a separate Claude Code process that [inherits](/docs/en/agent-teams#permissions) your `--tools` list and deny rules, not `--allowedTools`, so check what you set:
+
+* **No `--tools` list or deny rule, and `CLAUDE_CODE_ENABLE_TODO_TOOLS` unset for the teammate**: the teammate has the task-tracking tools its own model has by default.
+* **`CLAUDE_CODE_ENABLE_TODO_TOOLS` exported in your shell**: Claude Code passes the teammate a fixed set of environment variables that doesn't include the one you exported. To set it for the teammate too, start your session by running `claude --settings '{"env":{"CLAUDE_CODE_ENABLE_TODO_TOOLS":"1"}}'` in your shell. The teammate also gets your [`--settings`](/docs/en/settings#change-a-setting-for-one-session) value.
+* **`--tools` naming the task-tracking tools**: the teammate has them on any model.
+* **A task-tracking tool missing from `--tools` or named in a deny rule**: the teammate lacks that tool.
+
+Without the Task tools, an agent coordinates with its team through messages instead of the [shared task list](/docs/en/agent-teams#assign-and-claim-tasks).
 
 ## WebFetch tool behavior
 

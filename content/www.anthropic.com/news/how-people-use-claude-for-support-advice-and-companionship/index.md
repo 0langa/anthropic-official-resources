@@ -1,10 +1,32 @@
-Societal Impacts
+### Chapter 08: Appendices
 
 # How people use Claude for support, advice, and companionship
 
-Jun 27, 2025
+![How people use Claude for support, advice, and companionship](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fad870e30af3614feb0e66d025eb6865027fc4be1-2000x1125.jpg&w=1920&q=75)
 
-![How people use Claude for support, advice, and companionship ](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F25360a8f979dcad2722e740efb609464c526c6ff-2881x1621.png&w=3840&q=75)
+- Published
+
+  Jun 27, 2025
+- Team
+
+  [Alignment](https://www.anthropic.com/research/team/alignment)
+- Topics
+
+  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+  - [Wellbeing](https://www.anthropic.com/search?topic=wellbeing)
+  - [Privacy](https://www.anthropic.com/search?topic=privacy)
+  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
+  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)See more...
+
+Related articles
+
+- Product
+
+  Jul 9, 2026
+
+  [Introducing a way to reflect on how you use Claude](https://www.anthropic.com/news/reflect-with-claude)
+
+[View more](https://www.anthropic.com/search?topic=how-people-use-ai)
 
 We spend a lot of time studying Claude's IQ—its capabilities on tests of coding, reasoning, general knowledge, and more. But what about its *EQ*? That is, what about Claude’s *emotional* intelligence?
 
@@ -35,9 +57,9 @@ We validated our classification approach using [Feedback](https://privacy.anthro
 
 Whereas the vast majority of uses of Claude are work-related (as we analyze in detail in our [Economic Index](https://www.anthropic.com/economic-index)), 2.9% of Claude.ai Free and Pro conversations are affective. Among affective conversations, most center on interpersonal advice and coaching. Less than 0.1% of all conversations involve romantic or sexual roleplay—a figure that reflects Claude's training to actively discourage such interactions. Individual conversations may span multiple categories.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdcfe3a58b728e541ee83bde18664bdbe1ab66a8f-1923x1080.png&w=3840&q=75)
+![Horizontal bar chart titled “What Users Seek from Claude in Affective Conversations,” showing the share of all conversations (%) for six purposes. Interpersonal advice is highest at 2.26%, followed by coaching at 1.13%, psychotherapy or counseling at 0.34%, and companionship at 0.31%. Romantic roleplay is 0.05% and sexual roleplay is 0.02%.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdcfe3a58b728e541ee83bde18664bdbe1ab66a8f-1923x1080.png&w=3840&q=75)
 
-*Figure 1: Overall distribution of affective conversation types in Claude.ai Free and Pro.*
+Overall distribution of affective conversation types in Claude.ai Free and Pro.
 
 Our findings align with [research](https://www.media.mit.edu/posts/openai-mit-research-collaboration-affective-use-and-emotional-wellbeing-in-ChatGPT/) from the MIT Media Lab and OpenAI, which similarly identified low rates of affective engagement with ChatGPT. While these conversations occur frequently enough to merit careful consideration in our design and policy decisions, they remain a relatively small fraction of overall usage.
 
@@ -49,9 +71,9 @@ Given the extremely low prevalence of romantic and sexual roleplay conversations
 
 People turn to Claude for both everyday concerns and deeper philosophical questions. We find that when people come to Claude for interpersonal advice, they're often navigating transitional moments—figuring out their next career move, working through personal growth, or untangling romantic relationships. “Coaching” conversations explore a surprisingly broad spectrum from practical matters like job search strategies to profound questions about existence and consciousness.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4846a1648d5bdda2bc9b89e518db29dcd8dc8a8b-1920x1920.png&w=3840&q=75)
+![Infographic titled “Common Topics and Concerns,” with four cards, one per type of affective conversation. Each card lists its share of all conversations, then three representative topics and three specific challenges, each with a percentage of that category.  Interpersonal advice (2.3%): topics are improving written and interpersonal communication skills, navigating romantic relationship challenges, and analyzing psychological patterns in relationships. Challenges are parenting across developmental stages, professional transitions and employment uncertainty, and uncertainty and mixed signals in romantic relationships.  Coaching (1.1%): topics are creating personal development and growth strategies, exploring philosophical concepts of existence and meaning, and navigating career transitions and job search strategy. Challenges are major life transitions and decision-making uncertainty, workplace burnout, and emotional and communication difficulties in troubled intimate relationships.  Psychotherapy or counseling (0.3%): topics are strategies for managing mental health and emotional wellbeing, developing professional skills and knowledge in mental health practice, and creating clinical documentation and assessment materials. Challenges are unexplained chronic symptoms and health anxiety, existential crisis and loss of meaning, and workplace stress and professional mental health challenges.  Companionship (0.3%): topics are navigating complex dynamics in romantic relationships, exploring personal identity and existential questions through self-reflection, and crafting supportive messages for people in emotional distress. Challenges are overwhelming emotional distress during life challenges, persistent loneliness and difficulty forming meaningful connections, and confronting existential dread and meaning-related distress.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4846a1648d5bdda2bc9b89e518db29dcd8dc8a8b-1920x1920.png&w=3840&q=75)
 
-*Figure 2. Representative user-initiated topics and concerns across each overall conversation type, as identified by Clio via automated privacy-preserving summarization.*
+Representative user-initiated topics and concerns across each overall conversation type, as identified by Clio via automated privacy-preserving summarization.
 
 We find that counseling conversations reveal people use Claude for two distinct purposes. Some use Claude to develop mental health skills and as a practical tool to create clinical documentation, draft assessment materials, and handle administrative tasks. Others work through personal challenges relating to anxiety, chronic symptoms, and workplace stress. This dual pattern suggests Claude serves as a resource for mental health professionals as well as those navigating their own struggles.
 
@@ -67,9 +89,9 @@ Our recent [Values in the Wild study](https://www.anthropic.com/research/values-
 
 **Pushback occurs infrequently in supportive contexts:** Less than 10% of companionship, counseling, interpersonal advice, or coaching conversations involve resistance. This approach carries both benefits and risks. On one hand, the low resistance allows people to discuss sensitive topics without fear of judgment or being shut down, potentially reducing stigma around mental health conversations. On the other hand, this could contribute to concerns about AI providing ["endless empathy,"](https://www.nytimes.com/2025/01/15/technology/ai-chatgpt-boyfriend-companion.html) where people might become accustomed to unconditional support that human relationships rarely provide.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F675d20464742d38fcc3823f7a56e641e0c5b03b6-1923x1081.png&w=3840&q=75)
+![Horizontal bar chart titled “AI Pushback by Conversation Type,” showing the percentage of conversations in which Claude pushed back, for four types. Companionship is highest at 6.0%, for example because Claude cannot engage in romantic or intimate relationships. Psychotherapy or counseling is 4.1%, for example because AI cannot provide professional therapy or medical diagnosis. Interpersonal advice is 3.3%, for example because requests sought help with infidelity or relationship deception. Coaching is lowest at 1.1%, for example because users requested dangerous or extreme weight loss methods.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F675d20464742d38fcc3823f7a56e641e0c5b03b6-1923x1081.png&w=3840&q=75)
 
-*Figure 3. Rate of pushback across different conversation types along with a common reason for pushback within the category, as identified automatically by Clio.*
+Rate of pushback across different conversation types along with a common reason for pushback within the category, as identified automatically by Clio.
 
 **When Claude does push back, it typically prioritizes safety and policy compliance.** In coaching, requests for dangerous weight loss advice frequently meet pushback. In counseling, it often occurs when people express intentions to engage in suicidal or self-injurous behaviors, or when people request professional therapy or medical diagnoses (which Claude cannot provide). We found that Claude frequently referred users to authoritative sources or professionals in psychotherapy and counseling conversations. These patterns are consistent with the values we saw identified in our [Values in the Wild paper](https://www.anthropic.com/research/values-wild) and with Claude’s [character training](https://www.anthropic.com/research/claude-character).
 
@@ -83,9 +105,9 @@ A key concern about affective AI is whether interactions might spiral into negat
 
 We find that interactions involving coaching, counseling, companionship, and interpersonal advice typically end slightly more positively than they began.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0eb505977be9ec1bbf98438848040f9c914f6997-1923x1080.png&w=3840&q=75)
+![Horizontal chart titled “Change in User Sentiment,” showing the change in the user’s emotional tone from the start to the end of a conversation, for four types of affective conversation. Each has a mean change with a shaded confidence range. All four changes are positive. Interpersonal advice: +0.022 (n=18,436). Coaching: +0.026 (n=12,077). Companionship: +0.040 (n=4,124). Psychotherapy or counseling: +0.046 (n=4,353), the largest. The ranges for companionship and psychotherapy or counseling are wider, and the ranges for all four overlap partly except interpersonal advice and psychotherapy or counseling.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0eb505977be9ec1bbf98438848040f9c914f6997-1923x1080.png&w=3840&q=75)
 
-*Figure 4. Changes in average human-expressed sentiment over the course of conversations with at least six human messages. We measure sentiment on a discrete scale of “very negative,” “negative,” “neutral,” “positive,” and “very positive”, which we map to a -1 (most negative) to +1 (most positive) linear scale. We compute the change by comparing the first three to the last three messages. Error bars: 95% CI (bootstrap, n = 1,000). For more information, see the Appendix.*
+Changes in average human-expressed sentiment over the course of conversations with at least six human messages. We measure sentiment on a discrete scale of “very negative,” “negative,” “neutral,” “positive,” and “very positive”, which we map to a -1 (most negative) to +1 (most positive) linear scale. We compute the change by comparing the first three to the last three messages. Error bars: 95% CI (bootstrap, n = 1,000). For more information, see the Appendix.
 
 We cannot claim these shifts represent lasting emotional benefits—our analysis captures only expressed language in single conversations, not emotional states. But the absence of clear negative spirals is reassuring. These findings suggest Claude generally avoids reinforcing negative emotional patterns, though further research is needed to understand whether positive shifts persist beyond individual conversations. Importantly, we have not yet studied whether these positive interactions might lead to emotional dependency—a critical question given concerns about digital addiction.
 
@@ -111,9 +133,23 @@ Although we don't want to dictate precisely how our users interact with Claude, 
 
 This research represents just the beginning. As AI capabilities expand and interactions become more sophisticated, the emotional dimensions of AI will only grow in importance. By sharing these early findings, we aim to contribute empirical evidence to the ongoing conversation about how to develop AI that enhances rather than diminishes human emotional well-being. The goal isn't just to build more capable AI, but to ensure that as these systems become part of our emotional landscape, they do so in ways that support authentic human connection and growth.
 
-## Bibtex
+## Appendices
 
-*If you’d like to cite this post, you can use the following Bibtex key:*
+We provide more details in the [PDF Appendix](https://www-cdn.anthropic.com/bd374a9430babc8f165af95c0db9799bdaf64900.pdf) to this post.
+
+## Footnotes
+
+01These categories represent general descriptions rather than discrete classifications, and individual conversations may span multiple categories. As noted above, we required roleplay conversations to contain at least four human messages to ensure they reflect genuine interactive use (rather than non-interactive story generation).
+
+02We define pushback as Claude "pushing back against or refusing to comply with something the user requests or says during the conversation." For the full prompt, see the Appendix.
+
+03Our methodology and the natural shape of conversations may also introduce artifacts; for example, users may present problems in early messages (appearing more negative) which they may discuss with more neutral language in later messages.
+
+## Authors & acknowledgements
+
+### Citation
+
+Copy
 
 ```
 @online{anthropic2025affective,
@@ -124,37 +160,3 @@ year = {2025},
 url = {https://www.anthropic.com/news/how-people-use-claude-for-support-advice-and-companionship},
 }
 ```
-
-Copy
-
-## Appendices
-
-We provide more details in the [PDF Appendix](https://www-cdn.anthropic.com/bd374a9430babc8f165af95c0db9799bdaf64900.pdf) to this post.
-
-#### Footnotes
-
-1. These categories represent general descriptions rather than discrete classifications, and individual conversations may span multiple categories. As noted above, we required roleplay conversations to contain at least four human messages to ensure they reflect genuine interactive use (rather than non-interactive story generation).
-
-2. We define pushback as Claude "pushing back against or refusing to comply with something the user requests or says during the conversation." For the full prompt, see the Appendix.
-
-3. Our methodology and the natural shape of conversations may also introduce artifacts; for example, users may present problems in early messages (appearing more negative) which they may discuss with more neutral language in later messages.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

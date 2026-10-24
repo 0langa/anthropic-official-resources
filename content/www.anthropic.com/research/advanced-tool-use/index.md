@@ -590,7 +590,7 @@ These features move tool use from simple function calling toward intelligent orc
 
 We're excited to see what you build.
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

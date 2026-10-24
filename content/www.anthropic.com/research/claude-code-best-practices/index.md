@@ -40,7 +40,7 @@ Claude Code is intentionally low-level and unopinionated, providing close to raw
 
 This post outlines general patterns that have proven effective, both for Anthropic's internal teams and for external engineers using Claude Code across various codebases, languages, and environments. Nothing in this list is set in stone nor universally applicable; consider these suggestions as starting points. We encourage you to experiment and find what works best for you!
 
-*Looking for more detailed information? Our comprehensive documentation at [claude.ai/code](https://claude.ai/redirect/website.v1.8d850e0e-4ad4-44d2-abd4-c34fc2474280/code)* *covers all the features mentioned in this post and provides additional examples, implementation details, and advanced techniques.*
+*Looking for more detailed information? Our comprehensive documentation at [claude.ai/code](https://claude.ai/redirect/website.v1.61691f24-712c-403a-a58a-f6c5500be75f/code)* *covers all the features mentioned in this post and provides additional examples, implementation details, and advanced techniques.*
 
 ## 1. Customize your setup
 
@@ -418,7 +418,7 @@ For both of these use cases, it can be helpful to use the `--verbose` flag for d
 
 What are your tips and best practices for working with Claude Code? Tag @AnthropicAI so we can see what you're building!
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

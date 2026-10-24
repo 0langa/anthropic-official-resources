@@ -174,7 +174,7 @@ If you found this post helpful and want to discuss evaluations of AI systems wit
 
 04For example, a well-known issue with many facial recognition systems has been higher error rates for certain demographics, like women and people of color. The FRVT reports shined a spotlight on these accuracy discrepancies, which put pressure on vendors to improve their algorithms and mitigate systemic biases.
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Citation
 

@@ -10,6 +10,22 @@
 - Team
 
   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
+- Topics
+
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Open source](https://www.anthropic.com/search?topic=open-source)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+
+Related articles
+
+- Frontier Red Team
+
+  Oct 20, 2026
+
+  [Using Claude to reduce the attack surface of code](https://www.anthropic.com/research/attack-surface-reduction)
+
+[View more](https://www.anthropic.com/search?topic=cybersecurity)
 
 *Keane Lucas, Aengus Lynch, Luna Tong, Luke Champine, Zygi Straznickas, Dino Distefano, Harshikaa Agrawal  
 Evyatar Ben Asher, Ava Howell, Sami Jawhar, Chris Rohlf, Nickolai Zeldovich  

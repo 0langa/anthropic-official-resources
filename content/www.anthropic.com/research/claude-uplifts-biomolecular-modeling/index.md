@@ -23,11 +23,11 @@
 
 Related articles
 
-- Science
+- Frontier Red Team
 
-  Oct 1, 2026
+  Oct 22, 2026
 
-  [Claude-shaped science](https://www.anthropic.com/research/claude-shaped-science)
+  [LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/research/formal-verification)
 
 [View more](https://www.anthropic.com/search?topic=life-sciences)
 

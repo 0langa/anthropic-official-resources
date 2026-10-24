@@ -44,7 +44,7 @@ You set access by role, not member by member. To see what a member can do, revie
 
 There are three kinds of roles:
 
-- **Admin roles (Primary Owner, Owner, Admin):** who can change settings, such as inviting members, editing caps, and viewing billing (the last two are Owner-and-above). An Admin can manage members but not billing; an Owner can take every admin action except granting or removing the Primary Owner role; the Primary Owner can take all of these actions.
+- **Admin roles (Primary Owner, Owner, Admin):** who can change settings, such as inviting members, editing caps, and viewing billing (the last two are Owner-and-above). An Admin can manage members but not billing; an Owner can take most admin actions, but not a few reserved for the Primary Owner, such as exporting your organization’s data and handing the Primary Owner role to someone else; check [Roles and permissions(opens in new tab)](https://support.claude.com/en/articles/9267276-roles-and-permissions) for the full list before you decide who holds the Primary Owner role.
 - **User roles (User):** what members can do in Claude, including capabilities, model access, and which tools Claude may use on their behalf. Most of this course scopes these through custom roles (see below).
 - **Custom roles:** a permission set you define when the built-in roles don’t fit. It can carry admin or user permissions.
 

@@ -4113,7 +4113,7 @@ Expand
                 data exfiltration.
 ```
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

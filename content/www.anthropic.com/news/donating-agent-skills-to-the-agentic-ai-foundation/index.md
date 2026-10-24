@@ -6,6 +6,22 @@
 - Category
 
   [Product](https://www.anthropic.com/news/product)
+- Topics
+
+  - [Agent Skills](https://www.anthropic.com/search?topic=agent-skills)
+  - [Open source](https://www.anthropic.com/search?topic=open-source)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+
+Related articles
+
+- Product
+
+  Jul 14, 2026
+
+  [Introducing Claude for Teachers](https://www.anthropic.com/news/claude-for-teachers)
+
+[View more](https://www.anthropic.com/search?topic=agent-skills)
 
 Today, we’re donating [Agent Skills](https://agentskills.io/home), the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation (AAIF). More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since we published the standard in December 2025.
 

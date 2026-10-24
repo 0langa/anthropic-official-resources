@@ -173,7 +173,7 @@ url = {https://www.anthropic.com/news/measuring-model-persuasiveness},
 
 ⁶ While our work builds upon the extensive literature on persuasion more broadly, providing a comprehensive review was beyond the scope of this blog post.
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

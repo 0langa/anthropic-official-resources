@@ -107,7 +107,7 @@ Where Australia is more distinctive is in the breadth of what Claude is used for
 
 Within Australia, adoption is concentrated in New South Wales and Victoria, and the state-level variation tracks workforce composition rather than income per capita—consistent with the pattern across US states but in contrast to the income gradient across countries.
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

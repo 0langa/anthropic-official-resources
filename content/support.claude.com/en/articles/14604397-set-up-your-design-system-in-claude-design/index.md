@@ -34,13 +34,13 @@ If your design system already exists as React components, run /design-sync in Cl
 
 1. Open the "Design" tab at the bottom of the sidebar.
 
-2. Click "Migrate team design systems" in the banner.
+2. Click "Move team design systems" in the banner.
 
-Each design system becomes an artifact Claude can use in any chat, including in Claude Code. Migrated design systems may need some cleanup, so each one shows a banner where you can click "Let Claude clean it up," and Claude tidies its guide, tokens, and components.
+Each design system becomes an artifact Claude can use in any chat, including in Claude Code. Design systems may need some cleanup after you move them, so each one shows a banner where you can click "Let Claude clean it up," and Claude tidies its guide, tokens, and components. If your organization has a retention period that covers artifacts, a design system you moved can be permanently deleted if nobody opens it for that period. Opening a design or deck that uses the design system doesn't count as opening it.
 
 ## Manage your design systems
 
-Manage your design systems in **[Settings > Design systems](https://claude.ai/settings/design-systems)**. On Enterprise plans, admins can reserve publishing, setting the organization default, and deleting design systems for specific users. Learn more in the **[Artifacts admin guide for Team and Enterprise plans](https://support.claude.com/en/articles/16994751)**.
+Manage your design systems in **Settings > Customize > Design systems** (or **Settings > Design systems** in the older Settings layout). On Enterprise plans, admins can reserve publishing, setting the organization default, and deleting design systems for specific users. Learn more in the **[Artifacts admin guide for Team and Enterprise plans](https://support.claude.com/en/articles/16994751)**.
 
 ---
 

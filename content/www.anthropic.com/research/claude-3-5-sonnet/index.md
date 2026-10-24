@@ -1,18 +1,36 @@
-Announcements
+### Chapter 05: Coming soon
 
 # Claude 3.5 Sonnet
 
-Jun 21, 2024
+[Try on Claude.ai](https://claude.ai/redirect/website.v1.a363a08c-5cc6-4140-b5f3-f0060db5e579)
 
-[Try on Claude.ai](https://claude.ai/)
+- Published
 
-![Claude head illustration](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4e78f69ef8d4186fb5691714abe36224483d91b0-2880x1620.png&w=3840&q=75)
+  Jun 21, 2024
+- Category
 
-- Update
+  [Models](https://www.anthropic.com/news/models)
+- Topics
 
-  Consumer Terms and Privacy Policy
+  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+  - [Coding](https://www.anthropic.com/search?topic=coding)
+  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)See more...
 
-  Aug 28, 2025
+Related articles
+
+- Models
+
+  Feb 17, 2026
+
+  [Introducing Claude Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6)
+
+[View more](https://www.anthropic.com/search?topic=claude-sonnet)
+
+- UpdateAug 28, 2025
+
+  ### Consumer Terms and Privacy Policy
 
 Today, we’re launching Claude 3.5 Sonnet—our first release in the forthcoming Claude 3.5 model family. Claude 3.5 Sonnet raises the industry bar for intelligence, outperforming competitor models and Claude 3 Opus on a wide range of evaluations, with the speed and cost of our mid-tier model, Claude 3 Sonnet.
 
@@ -34,6 +52,8 @@ In an [internal agentic coding evaluation](https://www-cdn.anthropic.com/fed9cc1
 
 Claude 3.5 Sonnet is our strongest vision model yet, surpassing Claude 3 Opus on standard vision benchmarks. These step-change improvements are most noticeable for tasks that require visual reasoning, like interpreting charts and graphs. Claude 3.5 Sonnet can also accurately transcribe text from imperfect images—a core capability for retail, logistics, and financial services, where AI may glean more insights from an image, graphic or illustration than from text alone.
 
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FdhxrHvgXpSM%2Fsddefault.jpg&w=3840&q=75)
+
 ![Claude 3.5 Sonnet vision evals](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcaff3d60763b27b59fe33e4ae984530f0dba4ddb-2200x1110.png&w=3840&q=75)
 
 ## Artifacts—a new way to use Claude
@@ -41,6 +61,8 @@ Claude 3.5 Sonnet is our strongest vision model yet, surpassing Claude 3 Opus on
 Today, we’re also introducing Artifacts on Claude.ai, a new feature that expands how users can interact with Claude. When a user asks Claude to generate content like code snippets, text documents, or website designs, these Artifacts appear in a dedicated window alongside their conversation. This creates a dynamic workspace where they can see, edit, and build upon Claude’s creations in real-time, seamlessly integrating AI-generated content into their projects and workflows.
 
 This preview feature marks Claude’s evolution from a conversational AI to a collaborative work environment. It’s just the beginning of a broader vision for Claude.ai, which will soon expand to support team collaboration. In the near future, teams—and eventually entire organizations—will be able to securely centralize their knowledge, documents, and ongoing work in one shared space, with Claude serving as an on-demand teammate.
+
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FrHqk0ZGb6qo%2Fsddefault.jpg&w=3840&q=75)
 
 ## Commitment to safety and privacy
 
@@ -59,23 +81,3 @@ Our aim is to substantially improve the tradeoff curve between intelligence, spe
 In addition to working on our next-generation model family, we are developing new modalities and features to support more use cases for businesses, including integrations with enterprise applications. Our team is also exploring features like Memory, which will enable Claude to remember a user’s preferences and interaction history as specified, making their experience even more personalized and efficient.
 
 We’re constantly working to improve Claude and love hearing from our users. You can submit feedback on Claude 3.5 Sonnet directly in-product to inform our development roadmap and help our teams to improve your experience. As always, we look forward to seeing what you build, create, and discover with Claude.
-
-## Related content
-
-### Investing in the public benefit
-
-We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.
-
-[Read more](https://www.anthropic.com/news/public-benefit-fund)
-
-### An update on independent evaluators
-
-To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.
-
-[Read more](https://www.anthropic.com/news/an-update-on-independent-evaluators)
-
-### Preparing for the 2026 US midterms
-
-Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.
-
-[Read more](https://www.anthropic.com/news/2026-us-midterms)

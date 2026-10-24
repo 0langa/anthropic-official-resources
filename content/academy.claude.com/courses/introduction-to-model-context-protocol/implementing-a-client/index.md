@@ -71,7 +71,19 @@ We pass the tool name and input parameters (provided by Claude) to the server an
 
 ## Testing the Client[](https://academy.claude.com/courses/introduction-to-model-context-protocol/implementing-a-client)
 
-The client file includes a simple test harness at the bottom. You can run it directly to verify everything works:
+The client file includes a simple test harness at the bottom. Have it call one of your new methods and print the result:
+
+python
+
+```
+async with MCPClient(
+    command="uv", args=["run", "mcp_server.py"]
+) as client:
+    result = await client.list_tools()
+    print(result)
+```
+
+Then run the file directly to verify everything works:
 
 `uv run mcp_client.py`
 

@@ -60,7 +60,7 @@ Open toolkit
   Guide
 
    (opens in new tab)](https://code.claude.com/docs/en/amazon-bedrock)
-- [Google Vertex AI Guide
+- [Google Cloud’s Agent Platform Guide
 
   Guide
 

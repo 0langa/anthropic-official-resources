@@ -166,9 +166,6 @@ Use case·Education·15 min](https://academy.claude.com/use-cases/practice-case-
 - [Generate an AI policyUse case15 min
 
   Use case·15 min](https://academy.claude.com/use-cases/generate-an-ai-policy)
-- [How to enable Claude Code for your Enterprise teamTutorial4 min
-
-  Tutorial·4 min](https://academy.claude.com/tutorials/how-to-enable-claude-code-for-your-enterprise-team)
 
 ## More resources
 

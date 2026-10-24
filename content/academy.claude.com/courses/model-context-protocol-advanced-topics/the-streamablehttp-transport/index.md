@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fmodel-context-protocol-advanced-topics%2Fthe-streamablehttp-transport)
 
+
+
+This lesson describes the streamable HTTP transport as it worked before the [2026-07-28 revision(opens in new tab)](https://modelcontextprotocol.io/specification/2026-07-28/changelog) of the MCP specification. In that revision each request stands alone, with no initialize handshake and no session ID. Servers and clients built on version 1 of the MCP Python SDK, which this course uses, still work the way this lesson describes.
+
 The streamable HTTP transport enables MCP clients to connect to remotely hosted servers over HTTP connections. Unlike the standard I/O transport that requires both client and server on the same machine, this transport opens up possibilities for public MCP servers that anyone can access.
 
 ![The MCP client on your computer and the MCP server on a remote machine, talking both ways over streamable HTTP transport.](https://academy.claude.com/assets/media/b92b78cda59328feffcb32e77408df22b6c94e3ee94b9077da7de42aece93f76.png)

@@ -17,6 +17,8 @@ This example provisions Claude apps gateway on AWS with Amazon Bedrock as the mo
 
 ![Diagram of Claude apps gateway on AWS: Claude Code clients connect over HTTPS to an internal Application Load Balancer fronting the gateway (ECS Fargate or EKS), which runs in private subnets alongside an Amazon RDS for PostgreSQL instance for session state. The gateway signs users in via OIDC against the corporate IdP, reads secrets from AWS Secrets Manager, forwards model requests to Amazon Bedrock using its IAM role, and pulls its image from Amazon ECR at deploy.](https://mintcdn.com/claude-code/PHweeRmDUYEKff49/images/claude-gateway-aws-architecture.svg?fit=max\&auto=format\&n=PHweeRmDUYEKff49\&q=85\&s=8599cc34aa28522cde208ee831439bb4)
 
+The example architecture, with Amazon Bedrock as the model upstream. A Claude Platform on AWS upstream occupies the same position.
+
 The gateway runs as a private HTTPS endpoint on your network that developers sign in to through your IdP. Their Claude Code sessions reach Claude models on Amazon Bedrock through the gateway's IAM role, so no model credentials land on developer machines. The reference configuration provisions:
 
 * **Amazon ECS on AWS Fargate** service or **Amazon EKS** Deployment running the gateway container

@@ -96,7 +96,7 @@ For complete details on methodology, results, and best practices, read our [full
 
 You can access Petri via our [GitHub page](https://github.com/safety-research/petri).
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Contributors
 

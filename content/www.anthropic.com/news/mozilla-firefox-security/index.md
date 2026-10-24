@@ -16,11 +16,11 @@
 
 Related articles
 
-- Security
+- Frontier Red Team
 
-  Jul 30, 2026
+  Oct 22, 2026
 
-  [Investigating three real-world incidents in our cybersecurity evaluations](https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals)
+  [LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/research/formal-verification)
 
 [View more](https://www.anthropic.com/search?topic=cybersecurity)
 

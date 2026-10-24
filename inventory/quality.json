@@ -342,6 +342,7 @@
     "https://www.anthropic.com/research/agents-in-biology",
     "https://www.anthropic.com/research/ai-expectations-gap",
     "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+    "https://www.anthropic.com/research/alignment-assessment-ukaisi",
     "https://www.anthropic.com/research/alignment-faking",
     "https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7",
     "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
@@ -499,10 +500,10 @@
   ],
   "statuses": {
     "blocked": 27,
-    "complete": 4931,
+    "complete": 4945,
     "gone": 47,
     "out_of_scope": 41,
-    "partial": 492
+    "partial": 493
   },
   "terminal_unarchived_urls": [
     "https://academy.claude.com/dashboard",
@@ -1044,6 +1045,7 @@
     "https://www.anthropic.com/research/agents-in-biology",
     "https://www.anthropic.com/research/ai-expectations-gap",
     "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+    "https://www.anthropic.com/research/alignment-assessment-ukaisi",
     "https://www.anthropic.com/research/alignment-faking",
     "https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7",
     "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",

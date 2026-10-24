@@ -19,7 +19,7 @@ This is the first of the five decisions, Structure & Identity. You’ve confirme
 
 ## What an organization is[](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/one-organization-or-many)
 
-In Claude Enterprise, an organization is the boundary around your members, groups, settings, and data, and each contract with Anthropic creates at least one. Organizations don’t share content: projects, conversations, artifacts, and custom skills made in one aren’t reachable from another, and organization settings in one don’t apply in another. Very large deployments can run a linked parent/child structure that softens parts of this. See [the parent/child organization note(opens in new tab)](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning) for more.
+In Claude Enterprise, an organization is the boundary around your members, groups, settings, and data, and each contract with Anthropic creates at least one. Organizations don’t share content: projects, conversations, artifacts, and custom skills made in one aren’t reachable from another, and organization settings in one don’t apply in another. Organizations can share sign-in, though: several can link under one parent organization and share its identity provider, domain verification, single sign-on, and provisioning, while billing and usage tracking stay with each organization. See [the parent organization note(opens in new tab)](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning) for more.
 
 From here on, “organization” refers to that boundary in Claude. The company you work for is “your company.”
 
@@ -63,7 +63,7 @@ With your organization boundary set, you determine the preferred way to provisio
 
 Directory sync automates the group structure and provisioning, so when people change teams in the directory, Claude follows. That matters for everything after this lesson: a control is only as accurate as the membership list underneath it. If your directory is already accurate, sync keeps your Claude groups matched to it with no manual upkeep.
 
-- **[Important considerations before enabling SSO and JIT/SCIM provisioning(opens in new tab)](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning)**: what to check before you turn provisioning on, including the parent/child structure note.
+- **[Important considerations before enabling SSO and JIT/SCIM provisioning(opens in new tab)](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning)**: what to check before you turn provisioning on, including the parent organization note.
 - **[How SCIM sync works for Enterprise organizations(opens in new tab)](https://support.claude.com/en/articles/14499648-how-scim-sync-works-for-enterprise-organizations)**: how directory sync carries members and their group memberships into the organization.
 - **[Set up JIT or SCIM provisioning(opens in new tab)](https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning)**: the steps for both provisioning paths.
 - **[Set up single sign-on (SSO)(opens in new tab)](https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso)**: the SSO configuration each organization needs in place before provisioning turns on.

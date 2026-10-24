@@ -1,10 +1,34 @@
-Alignment
+### Chapter 03: The future of Claude’s character
 
-# Claude’s Character
+# Claude’s character
 
-Jun 8, 2024
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FiyJj9RxSsBY%2Fsddefault.jpg&w=3840&q=75)
+
+- Published
+
+  Jun 8, 2024
+- Team
+
+  [Alignment](https://www.anthropic.com/research/team/alignment)
+- Topics
+
+  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)
+  - [Training](https://www.anthropic.com/search?topic=training)
+  - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
+  - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)See more...
 
 *Listen to our conversation about Claude's character in the video above.*
+
+Related articles
+
+- Interpretability
+
+  Aug 1, 2025
+
+  [Persona vectors: Monitoring and controlling character traits in language models](https://www.anthropic.com/research/persona-vectors)
+
+[View more](https://www.anthropic.com/search?topic=claude-s-character)
 
 Companies developing AI models generally train them to avoid saying harmful things and to avoid assisting with harmful tasks. The goal of this is to train models to behave in ways that are "harmless". But when we think of the character of those we find genuinely admirable, we don’t just think of harm avoidance. We think about those who are curious about the world, who strive to tell the truth without being unkind, and who are able to see many sides of an issue without becoming overconfident or overly cautious in their views. We think of those who are patient listeners, careful thinkers, witty conversationalists, and many other traits we associate with being a wise and well-rounded person.
 
@@ -61,23 +85,3 @@ Character training is an open area of research and our approach to it is likely 
 Many people have reported finding Claude 3 to be more engaging and interesting to talk to, which we believe might be partially attributable to its character training. This wasn’t the core goal of character training, however. Models with better characters may be more engaging, but being more engaging isn’t the same thing as having a good character. In fact, an excessive desire to be engaging seems like an undesirable character trait for a model to have.
 
 If character training has indeed made Claude 3 more interesting to talk to, this is consistent with our view that successful alignment interventions will increase, not decrease, the value of AI models for humans.
-
-## Related content
-
-### Designing more efficient quantum circuits with Claude
-
-We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.
-
-[Read more](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
-
-### Claude reveals ECDSA curve origins
-
-The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
-
-[Read more](https://www.anthropic.com/research/ecdsa-curve-origins)
-
-### The AI expectations gap
-
-How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.
-
-[Read more](https://www.anthropic.com/research/ai-expectations-gap)
