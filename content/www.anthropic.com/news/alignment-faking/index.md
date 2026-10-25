@@ -114,7 +114,7 @@ We prepared a [two-page memo for policymakers](https://assets.anthropic.com/m/52
 
 01See Section 8.1 in the [full paper](https://assets.anthropic.com/m/983c85a201a962f/original/Alignment-Faking-in-Large-Language-Models-full-paper.pdf).
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

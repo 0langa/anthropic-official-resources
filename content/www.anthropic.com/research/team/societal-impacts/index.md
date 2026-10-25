@@ -153,7 +153,7 @@ Feb 15, 2022![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.
 
 [### Alignment](https://www.anthropic.com/research/team/alignment)
 
-47 posts
+48 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
 
@@ -195,7 +195,7 @@ Studies how AI affects people, both individually and collectively.
 
 [### Alignment](https://www.anthropic.com/research/team/alignment)
 
-47 posts
+48 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
 

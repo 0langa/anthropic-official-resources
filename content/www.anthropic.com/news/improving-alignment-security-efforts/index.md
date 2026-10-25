@@ -21,9 +21,9 @@ Related articles
 
 - Alignment
 
-  Oct 9, 2026
+  Oct 23, 2026
 
-  [Investigating unintended model actions in our evaluations and internal use](https://www.anthropic.com/research/investigating-unintended-model-actions)
+  [An alignment assessment of the UK AISI cybertesting incident](https://www.anthropic.com/research/alignment-assessment-ukaisi)
 
 [View more](https://www.anthropic.com/search?topic=alignment)
 

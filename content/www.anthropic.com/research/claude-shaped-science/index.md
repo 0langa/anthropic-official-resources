@@ -146,7 +146,7 @@ So where does this leave Joe Scientist? If you ask me, in a great place, actuall
 
 Details of the BootLoops harness and the science it has enabled can be found at [www.bootloops.ai](http://www.bootloops.ai/). The BootLoops harness is on [GitHub](https://github.com/BootLoops-ai/bootloops/tree/66b680ce742e654cfe86da4f072a69061fe182b1) for anyone to use and contribute to.
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

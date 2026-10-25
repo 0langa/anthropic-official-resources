@@ -11,9 +11,9 @@ When building agents in Claude Platform, using fewer subagents in favor of progr
 
 *If you’ve built an agent in Claude Platform that includes multiple subagents, see which may make sense to fold into the main agent loop using our [migration kit](https://github.com/anthropics/single-agent-loop-kit). It runs a guided workflow to identify your patterns, evaluate alternatives, and verify the best approach. It includes a demo that you can try on a mock system before running on your agent.*
 
-Subagents – agents with their own context window, tools, and instructions, orchestrated by a coordinator – are a core component of agent design. They are effective at verification, parallel work, and modular permissioning. We use them in many of our own agents that we build using Claude Platform, for example our [multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system).
+Subagents – agents with their own context window, tools, and instructions, [orchestrated by a coordinator](https://claude.com/resources/articles/multi-agent-coordination-patterns) – are a core component of agent design. They are effective at verification, parallel work, and modular permissioning. We use them in many of our own agents that we build using Claude Platform, for example our [multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system).
 
-However, recently the Applied AI team has found a pattern of enterprise agent deployments that have benefited from folding routers, planners, and domain subagents into the main agent loop. In [our comparisons across several enterprise deployments](https://claude.com/blog/the-anatomy-of-effective-commerce-agents), a single agent with skills frequently outperformed both the one-prompt-for-everything design and the subagent design on quality, and often at a lower cost and latency per task.
+However, recently the Applied AI team has found a pattern of enterprise agent deployments that have benefited from folding routers, planners, and domain subagents into the main agent loop. In [our comparisons across several enterprise deployments](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents), [a single agent with skills](https://claude.com/resources/articles/building-agents-with-skills-equipping-agents-for-specialized-work) frequently outperformed both the one-prompt-for-everything design and the subagent design on quality, and often at a lower cost and latency per task.
 
 For example, one company found the dozen of specialist subagents within its customer-facing agent made a consistent on-brand experience difficult to maintain and added latency that hurt the user experience.
 
@@ -53,7 +53,7 @@ The orchestrator-subagent design described above is a reasonable approach to coo
 
 There are three reasons why this approach can make sense:
 
-- **Shared context produces better answers:** for longer-running agents, we want the context from several different tasks to sit in the main context window. An agent that has seen the result of each earlier step can connect them, which leads to richer outputs and better insights than a set of summaries handed back by subagents. It also means [fewer context windows and fewer lossy handoffs](https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them).
+- **Shared context produces better answers:** for longer-running agents, we want the context from several different tasks to sit in the main context window. An agent that has seen the result of each earlier step can connect them, which leads to richer outputs and better insights than a set of summaries handed back by subagents. It also means [fewer context windows and fewer lossy handoffs](https://claude.com/resources/articles/building-multi-agent-systems-when-and-how-to-use-them).
 - **Progressive disclosure prevents context bloat:** this techniqueallows teams to build single agents that can accomplish a wide variety of tasks without requiring all of the context to be immediately loaded into one long system prompt. This removes the main reason teams previously split work across subagents. In fact, we [reduced Claude Code’s system prompt for more advanced models by over 80%](https://claude.dev/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models/) which included cuts related to progressively disclosing skills and tools.
 - **Models are more capable:** starting with Opus 4.5, models became capable of managing far more in a single loop than most teams expected. You cannot turn off thinking on Opus 5.5, and Fable 5.1, and recent models increasingly narrate their progress and check their work as they go, which makes some harness elements redundant. Each new model lets you move more of the decision-making out of the harness and into the model itself. A simpler loop is also easier to move to the next model; in migrations we have helped customers with, rigid multi-agent structures were often what stopped the new model from doing more of the work.
 
@@ -101,7 +101,7 @@ Evolving toward a single agent loop involves folding the subagents into tools an
 
 Build a small end-to-end eval before the first merge. Then **fold in by shared context starting with subagents that have the most use.**
 
-[Merge specialists](https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them) that chain on each other's output, touch the same data, or are often called together. For example, if a significant share of production traffic is one specialist followed by a second, that is a tightly coupled pair, which makes it a candidate to merge into one domain agent.
+[Merge specialists](https://claude.com/resources/articles/building-multi-agent-systems-when-and-how-to-use-them) that chain on each other's output, touch the same data, or are often called together. For example, if a significant share of production traffic is one specialist followed by a second, that is a tightly coupled pair, which makes it a candidate to merge into one domain agent.
 
 ### Subagents called as tools
 
@@ -148,7 +148,7 @@ To prevent skill sprawl, you can have DRIs per team own their skills and make su
 
 ### Knowledge bases
 
-Knowledge bases are the right fit for reference material the agent only needs some of the time. Facts and reference material (policies, metric definitions, product specs) can sit behind a search or lookup tool the model calls, or ship as reference files inside a skill. Avoid having [code retrieve and paste this context into prompts](https://claude.com/blog/seeing-like-an-agent).
+Knowledge bases are the right fit for reference material the agent only needs some of the time. Facts and reference material (policies, metric definitions, product specs) can sit behind a search or lookup tool the model calls, or ship as reference files inside a skill. Avoid having [code retrieve and paste this context into prompts](https://claude.com/resources/articles/seeing-like-an-agent).
 
 ## Tools to accelerate this work
 

@@ -32,9 +32,11 @@ Populate it with beautiful life experiences to browse. Then, add in some additio
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/build-a-custom-bucket-list-app)
 
-Claude can build interactive apps directly in conversation. No uploads or external tools needed. For more sophisticated designs, giving Claude direction about the aesthetic you want produces dramatically better results.
+Claude can build interactive apps directly in conversation. For more sophisticated designs, giving Claude direction about the aesthetic you want produces dramatically better results.
 
 ### Required context[](https://academy.claude.com/use-cases/build-a-custom-bucket-list-app)
+
+No uploads or external tools needed.
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/build-a-custom-bucket-list-app)
 

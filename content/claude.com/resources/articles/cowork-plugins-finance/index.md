@@ -69,7 +69,15 @@ To get started with Claude working across Excel and PowerPoint, download the add
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 22, 2026
+[ArticleOct 23, 2026
+
+### Claude Cowork and chat come together for Enterprise
+
+Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)[ArticleOct 23, 2026
+
+### Claude Duet Safety, Privacy, and Security
+
+Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)[ArticleOct 22, 2026
 
 ### Building agents: When to fold subagents into your main agent loop
 
@@ -81,15 +89,7 @@ Claude Platform](https://claude.com/resources/articles/building-agents-when-to-f
 
 Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
 
-Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)[ArticleOct 21, 2026
-
-### HCLTech joins the Claude Partner Network as a Global Premier partner
-
-HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)[ArticleOct 21, 2026
-
-### Introducing Claude Duet
-
-A research preview is available by waitlist today, starting with US Pro and Max subscribers.](https://claude.com/resources/articles/claude-duet)
+Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)
 
 ## Transform how your organization operates with Claude
 

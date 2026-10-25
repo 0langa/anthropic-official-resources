@@ -1,6 +1,6 @@
-# How to build a plugin from scratch in Claude Cowork
+# How to build a plugin from scratch in Claude
 
-Build a Claude Cowork plugin from scratch to encode your team's workflows, institutional knowledge, and tool connections into a repeatable, shareable process.
+Build a Claude plugin from scratch to encode your team's workflows, institutional knowledge, and tool connections into a repeatable, shareable process.
 
 15 minClaude Cowork
 
@@ -8,11 +8,11 @@ Build a Claude Cowork plugin from scratch to encode your team's workflows, insti
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-iyu8ose6.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jnwlc3r7.png)
 
-A Cowork plugin is a group of files that can teach Claude how to do a specific job — encoding your methodology, your workflows, your tool connections.
+A plugin is a group of files that can teach Claude how to do a specific job — encoding your methodology, your workflows, your tool connections.
 
 Anthropic publishes [pre-built plugins(opens in new tab)](https://claude.com/plugins) for common roles like [Sales(opens in new tab)](https://claude.com/plugins/sales), [Finance(opens in new tab)](https://claude.com/plugins/finance), and [Legal(opens in new tab)](https://claude.com/plugins/legal). Customizing those with your company's context can help tailor the plugin to your needs. Building from scratch is for when your team has workflows, processes, or institutional knowledge that existing plugins don't cover.
 
-*To learn more about installing and using plugins in Cowork,* [*visit here*(opens in new tab)](https://support.claude.com/en/articles/13837440-use-plugins-in-cowork)*.*
+*To learn more about installing and using plugins,* [*visit here*(opens in new tab)](https://support.claude.com/en/articles/13837440-use-plugins-in-cowork)*.*
 
 ## Why build from scratch[](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork)
 
@@ -44,7 +44,7 @@ One agent might research a company while another pulls data from your CRM and a 
 
 Understanding the components within a plugin can give you a framework for what to share while building one: your **knowledge, judgment calls, and repeatable tasks** become skills, your **data sources** become connectors. If you have existing documents or examples of deliverables you've been happy with, share them — Claude maps it to the relevant parts of the plugin.
 
-In Cowork, describe the plugin you want to build — even a sentence is enough to start.
+Describe the plugin you want to build — even a sentence is enough to start.
 
 ![The Cowork home screen with a prompt describing a plugin to build for a procurement team](https://academy.claude.com/assets/media/d922d57dc690563b0bf76462529ab967ff2a9b677984f3f052c6dcbc0a4382ba.png)
 
@@ -123,17 +123,17 @@ Review this vendor agreement. Our standard on indemnification is capped at 2x co
 
 ## Things to know[](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork)
 
-- **Plugins work across Claude.** Your plugin's skills are available in conversations, in Cowork tasks, and in Claude Code.
-- **Plugins you add yourself live on that machine.** A plugin you build or install manually is stored locally, so it typically doesn't follow your account to your other devices — including into remote sessions (in beta), where Claude works on Anthropic's servers. Plugins your organization distributes work differently: they usually come from a private marketplace your admin manages, and an admin can make a plugin available for people to install or have it installed by default.
+- **Plugins work across Claude.** Your plugin's skills are available in conversations, in tasks, and in Claude Code.
+- **Plugins you add are saved to your account.** Plugins you add in Claude on the web or in Claude Desktop are saved to your account, so they follow you to Claude Code as well. Plugins your organization distributes work differently: they usually come from a private marketplace your admin manages, and an admin can make a plugin available for people to install or have it installed by default.
 - **Sharing with teammates isn't automatic, but you have options.** You can share a plugin as a compressed file, host it on GitHub for automatic updates, or have an admin provision it across your org. [*Learn more about sharing plugins.*(opens in new tab)](https://support.claude.com/en/articles/13837440-use-plugins-in-cowork)
-- **Skills and connectors can also live outside plugins.** If you have personal context that applies across everything you do in Cowork — not tied to one plugin — you can add standalone skills and connectors in settings.
+- **Skills and connectors can also live outside plugins.** If you have personal context that applies across everything you do in Claude — not tied to one plugin — you can add standalone skills and connectors in settings.
 
-*Cowork with plugins is generally available for all paid Claude plans (Pro, Max, Team, Enterprise) on macOS and Windows. Browse* [*available plugins*(opens in new tab)](https://claude.com/plugins)*.*
+*Plugins are available to all paid plans (Pro, Max, Team, Enterprise). Browse* [*available plugins*(opens in new tab)](https://claude.com/plugins)*.*
 
 ## Learn more[](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork)
 
 - [Getting started with Cowork(opens in new tab)](https://support.claude.com/en/articles/13345190-getting-started-with-cowork)
-- [Using plugins in Cowork(opens in new tab)](https://support.claude.com/en/articles/13837440-use-plugins-in-cowork)
+- [Use plugins in Claude(opens in new tab)](https://support.claude.com/en/articles/13837440-use-plugins-in-cowork)
 - [Browse plugins(opens in new tab)](https://claude.com/plugins)
 
 Was this helpful?

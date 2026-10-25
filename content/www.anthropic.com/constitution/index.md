@@ -1,4 +1,4 @@
-![](https://www-cdn.anthropic.com/images/4zrzovbb/website/a542a6657627a5e114365ca69168490c5e8b0443-1000x1000.svg)
+![](https://assets.claude.com/ad22f4507d91d92c2705a278ddd14970fe7bb22a.svg)
 
 # Claude’s Constitution
 

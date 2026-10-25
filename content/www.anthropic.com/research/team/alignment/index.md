@@ -47,11 +47,15 @@ Why would AI assistants behave like they’re human? We articulate a theory—dr
 
 03
 
-47
+48
 
 ARTICLES
 
 Most recentGrid view
+
+Oct 23, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F25360ef5505aa6ab3f6e44d826a34e1a19f603a6-1280x1280.jpg&w=1080&q=75)
+
+### [An alignment assessment of the UK AISI cybertesting incident](https://www.anthropic.com/research/alignment-assessment-ukaisi)
 
 Oct 9, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa94af48d8258c0b7a4959d18e9c9ad44f9dc4ab3-1280x1280.jpg&w=1080&q=75)
 
@@ -145,10 +149,6 @@ Apr 24, 2025![Collage featuring a white flower with green leaves, textured backg
 
 ### [Exploring model welfare](https://www.anthropic.com/research/exploring-model-welfare)
 
-Apr 3, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fda8fe89fe30757f2074b5cc7773c48d6cfc60e45-2000x2000.jpg&w=1080&q=75)
-
-### [Reasoning models don't always say what they think](https://www.anthropic.com/research/reasoning-models-dont-say-think)
-
 See more
 
 ## Explore work from other teams
@@ -191,7 +191,7 @@ Explores how AI can increase the pace of scientific progress through both resear
 
 [### Alignment](https://www.anthropic.com/research/team/alignment)
 
-47 posts
+48 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
 
@@ -233,6 +233,6 @@ Explores how AI can increase the pace of scientific progress through both resear
 
 [### Alignment](https://www.anthropic.com/research/team/alignment)
 
-47 posts
+48 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.

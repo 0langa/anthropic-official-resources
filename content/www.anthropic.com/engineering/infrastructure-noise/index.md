@@ -91,7 +91,7 @@ Until resource methodology is standardized, our data suggests that leaderboard d
 
 A few-point lead might signal a real capability gap—or it might just be a bigger VM.
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

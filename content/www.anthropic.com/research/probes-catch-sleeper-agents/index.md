@@ -197,7 +197,7 @@ We’re also excited about the promise of [dictionary learning](https://transfor
 
 09See [How to Catch an AI Liar: Lie Detection in Black-Box LLMs by Asking Unrelated Questions](https://arxiv.org/abs/2309.15840) for more ways that questions like this can be used to detect deception under other methods.
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Contributors
 

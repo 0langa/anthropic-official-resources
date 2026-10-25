@@ -8,7 +8,7 @@ Install the plugin, see what's in it, customize it for your business, and run yo
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-n72n3pr1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gj20jqdi.png)
 
-The Small Business [plugin(opens in new tab)](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork) in [Claude Cowork(opens in new tab)](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps) puts Claude to work across the tools you already use — your accounting, payments, CRM, design, contracts, email, files, and calendar. You describe the job in plain English, and Claude reads the data, does the work, and shows you the result before anything sends, posts, or pays.
+The Small Business [plugin(opens in new tab)](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork) puts [Claude(opens in new tab)](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps) to work across the tools you already use — your accounting, payments, CRM, design, contracts, email, files, and calendar. You describe the job in plain English, and Claude reads the data, does the work, and shows you the result before anything sends, posts, or pays.
 
 Running the plugin well is an act of delegation, in two moves: you put the job into plain words so Claude picks the right skill for it, and you stay involved while the work happens, reading what Claude stages before anything goes out. Claude works as a collaborator you direct: it brings the capability, and the intent and the judgment calls stay with you.
 
@@ -16,7 +16,7 @@ Running the plugin well is an act of delegation, in two moves: you put the job i
 
 You'll need the [Claude desktop app(opens in new tab)](https://claude.com/download) on a Pro, Max, Team, or Enterprise plan.
 
-1. Open **Cowork** and click **Customize** in the left sidebar.
+1. Open Claude and click **Customize** in the left sidebar.
 2. Under **Plugins**, click **+**.
 3. Find **Small Business** and click **Install**.
 
@@ -27,7 +27,7 @@ After installing the plugin, you'll have all of the [skills(opens in new tab)](h
 - Type `/` in the chat bar and pick it from the list, or
 - Describe the job in plain English and Claude picks the skill that fits.
 
-Either way, Claude follows the skill's instructions for that task. To learn more, see [What are skills(opens in new tab)](https://academy.claude.com/tutorials/what-are-skills) and [Use plugins in Claude Cowork(opens in new tab)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude-cowork).
+Either way, Claude follows the skill's instructions for that task. To learn more, see [What are skills(opens in new tab)](https://academy.claude.com/tutorials/what-are-skills) and [Use plugins in Claude(opens in new tab)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude-cowork).
 
 ## What's in the plugin[](https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin)
 
@@ -55,7 +55,7 @@ Claude asks about your business — what you do, who works with you, what's hard
 
 As you do tasks with Claude that run these skills and see the output they produce, you can tell Claude to update any of them at any time — say what you'd like different and the change is saved. Over time the skills get more tailored to how you like things done and how you want the outputs to come out.
 
-For the full pattern, see [How to customize plugins in Cowork(opens in new tab)](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork).
+For the full pattern, see [How to customize plugins in Claude(opens in new tab)](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork).
 
 ## Examples to try[](https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin)
 
@@ -121,7 +121,7 @@ The habit to keep: describe the job, let Claude pick the skill, and check the re
 
 - [Introducing Claude for Small Business(opens in new tab)](https://www.anthropic.com/news/claude-for-small-business) — the launch announcement
 - [Using Claude for your small business(opens in new tab)](https://academy.claude.com/tutorials/using-claude-for-your-small-business) — workflows the plugin runs end to end
-- [How to customize plugins in Cowork(opens in new tab)](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork) — make the skills run from your context
+- [How to customize plugins in Claude(opens in new tab)](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork) — make the skills run from your context
 - [What are skills(opens in new tab)](https://academy.claude.com/tutorials/what-are-skills) — how skills work in Claude
 
 Was this helpful?

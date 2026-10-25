@@ -21,11 +21,11 @@
 
 Related articles
 
-- Science
+- Frontier Red Team
 
-  Sep 25, 2026
+  Oct 22, 2026
 
-  [Yes, Claude can do Nine Loops](https://www.anthropic.com/research/yes-claude-can-do-nine-loops)
+  [LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/research/formal-verification)
 
 [View more](https://www.anthropic.com/search?topic=cybersecurity)
 
@@ -254,7 +254,7 @@ prime192v3           seed 20517  tries 1  matches published Gx: True
 
 To the extent possible under law, the authors have waived all copyright and related or neighboring rights to the code on this page, dedicating it to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

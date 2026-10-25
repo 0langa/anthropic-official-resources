@@ -38,6 +38,8 @@ Turn on Artifacts in your settings. This lets Claude generate apps with full int
 
 ### Required context[](https://academy.claude.com/use-cases/design-a-local-foraging-guide)
 
+Nothing to upload.
+
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/design-a-local-foraging-guide)
 
 Claude produces a complete, working foraging guide beginning with an interactive US map where clicking a state reveals regional plant data.

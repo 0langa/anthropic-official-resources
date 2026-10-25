@@ -23,7 +23,7 @@ Welcome to the Claude for nonprofits community. This guide is a pathway to help 
 1. Log in to [Claude.ai(opens in new tab)](https://claude.ai/), bookmark it, and start a chat
 2. Ask Claude about five ways it could help in your specific role
 3. Create your first project for an ongoing work initiative
-4. Complete the Claude foundations session
+4. Complete the [Claude 101(opens in new tab)](https://academy.claude.com/courses/claude-101) course
 5. Begin identifying use cases from challenges and repetitive tasks
 
 ### Implementation tips[](https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-guide-for-all-users)
@@ -42,14 +42,14 @@ Welcome to the Claude for nonprofits community. This guide is a pathway to help 
 ### Recommended actions[](https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-guide-for-all-users)
 
 1. Connect Claude to relevant connectors (Google Drive, Slack, etc.)
-2. Engage with monthly webinars provided by Anthropic
+2. Engage with [webinars(opens in new tab)](https://academy.claude.com/collections/nonprofits) provided by Anthropic
 3. Explore nonprofit-specific use cases in the library
 
 ### Implementation tips[](https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-guide-for-all-users)
 
 - Use library prompts as templates for formatting and organizing information
 - Upload organizational documents to projects for persistent context
-- Turn on memory (go to settings > capabilities) to allow Claude to remember relevant context across conversations
+- Turn on [memory(opens in new tab)](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context) to allow Claude to remember relevant context across conversations
 
 ## Reaching new levels with Claude[](https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-guide-for-all-users)
 

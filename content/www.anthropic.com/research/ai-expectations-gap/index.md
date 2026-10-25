@@ -217,7 +217,7 @@ Available [here](https://www-cdn.anthropic.com/1bc1a3067f9c9883d6d556b38f26fd4f1
 
 06This is a broader question than how much code AI writes. Favaro and Clark (2026) report that more than 80% of the code merged into Anthropic's codebase is now written by Claude, but building a frontier model also involves research direction, experiment design and evaluation, and more.
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

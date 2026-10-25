@@ -1,6 +1,6 @@
-# Customize Claude Cowork
+# Customize Claude
 
-The set up that makes Claude Cowork specific to your work or team.
+The set up that makes Claude specific to your work or team.
 
 7 minClaude Cowork
 
@@ -8,13 +8,13 @@ The set up that makes Claude Cowork specific to your work or team.
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
-[Claude Cowork(opens in new tab)](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork) runs full tasks across your files and tools. Customizing it once means every task after that starts with your systems connected and your team's process already in place. For the quickstart, see [Get started in Cowork in three steps(opens in new tab)](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps).
+[Claude(opens in new tab)](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork) runs full tasks across your files and tools. Customizing it once means every task after that starts with your systems connected and your team's process already in place. For the quickstart, see [Get started in three steps(opens in new tab)](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps).
 
 ## Level 1: Your context and tools[](https://academy.claude.com/tutorials/customize-claude-cowork)
 
 ### **Connectors**[](https://academy.claude.com/tutorials/customize-claude-cowork)
 
-[Connectors(opens in new tab)](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities) plug Cowork into the systems where your work already is — Slack, [Salesforce(opens in new tab)](https://claude.ai/desktop/directory/salesforce-headless-360), Microsoft 365, Jira, your company's internal tools — giving it the context to understand a task and the ability to act on it. With a connector enabled, Claude can read your data *and* write back: update a ticket, draft a reply, post to a channel, save a file.
+[Connectors(opens in new tab)](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities) plug Claude into the systems where your work already is — Slack, [Salesforce(opens in new tab)](https://claude.ai/desktop/directory/salesforce-headless-360), Microsoft 365, Jira, your company's internal tools — giving it the context to understand a task and the ability to act on it. With a connector enabled, Claude can read your data *and* write back: update a ticket, draft a reply, post to a channel, save a file.
 
 Enable connectors from the **Customize** panel in the left sidebar. Authorize once; Claude can then use that tool in any session.
 
@@ -26,11 +26,11 @@ Enable connectors from the **Customize** panel in the left sidebar. Authorize on
 
 Instructions are standing rules you write for how Claude should work — tone, formatting, which sources to check first, conventions to follow. Set them at two levels:
 
-**1. Global instructions** apply to every Cowork session you run. *Edit them in Settings, under Global instructions (called Instructions for Claude in some versions of the app).*
+**1. Global instructions** apply to every task you run. *Edit them in Settings, under Global instructions (called Instructions for Claude in some versions of the app).*
 
 **2. Project instructions** apply only inside that Project, on top of your global ones. *Edit them in the* [*Project's*(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) *right panel under Instructions.*
 
-**3. Organization instructions:** For enterprise users, your admin may also set Organization preferences. This is org-wide guidance that applies across Chat, Cowork, and Code alongside your own instructions.
+**3. Organization instructions:** For enterprise users, your admin may also set Organization preferences. This is org-wide guidance that applies across your conversations, tasks, and Code alongside your own instructions.
 
 Instructions apply to every task — they're like the background rules Claude follows regardless of what you're working on. A Skill is for one specific kind of task, loads only when relevant, and can be shared with teammates. General rules go in Instructions; a repeatable process goes in a Skill.
 
@@ -42,7 +42,7 @@ Instructions apply to every task — they're like the background rules Claude fo
 
 [To use a skill(opens in new tab)](https://support.claude.com/en/articles/12512180-use-skills-in-claude), name it directly (`/skill-name`) or describe the task in plain language. Claude can recognize when a skill applies and load it.
 
-[Creating a skill(opens in new tab)](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills) can also be done with Claude in a prompt. Run through a workflow in Cowork the way you normally would. At the end of the work, ask Claude:
+[Creating a skill(opens in new tab)](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills) can also be done with Claude in a prompt. Run through a workflow the way you normally would. At the end of the work, ask Claude:
 
 Package what we just did into a skill.
 
@@ -85,12 +85,12 @@ Browse available Plugins in the **Customize** sidebar for more options, or ask C
 
 Most people start with connectors and Instructions, write a skill after running the same task a few times, and share it once a teammate asks how to set theirs up the same way. Plugins are how your admin distributes the org's standard set across roles.
 
-Once you're set up, additional Cowork features can take you further:
+Once you're set up, additional features can take you further:
 
-- **Scheduled tasks** run a prompt at a set time, with access to everything you've connected — so a Skill you've written can run every weekday at 9am without you starting it. Type /schedule in any session to set one up. [More on scheduled tasks(opens in new tab)](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork).
+- **Scheduled tasks** run a prompt at a set time, with access to everything you've connected — so a Skill you've written can run every weekday at 9am without you starting it. Ask Claude in any session to set one up. [More on scheduled tasks(opens in new tab)](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork).
 - **Artifacts** are dashboards, trackers, and comparison views that stay in the sidebar between sessions. Open one any time and ask Claude to refresh it with current data from your connectors. [More on artifacts(opens in new tab)](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them).
 
-For more on working in Cowork:
+For more on working with Claude:
 
 - [Choosing between Claude Cowork or Chat(opens in new tab)](https://academy.claude.com/tutorials/choosing-between-claude-cowork-or-chat) — when a task is worth handing over and when a conversation is enough.
 - [Building plugins from scratch(opens in new tab)](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork) — when the marketplace doesn't have what you need.

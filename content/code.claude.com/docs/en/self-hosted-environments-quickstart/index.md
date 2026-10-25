@@ -118,6 +118,8 @@ If the session doesn't start working, match what you see:
 * **The session fails to start with a git error**: if the error includes git's `could not read Username for` followed by your git host's URL, the runner had no HTTPS credentials for that host.
   * **Supply HTTPS credentials**: see [Configure git](/docs/en/self-hosted-environments-deploy#configure-git)
   * **Clone over SSH instead**: if the runner host already has an SSH key, see [Rewrite git URLs for private networks](/docs/en/self-hosted-environments-deploy#rewrite-git-urls-for-private-networks)
+  * **After either fix**: start the runner again and watch the failed session instead of starting a new one. If it has failed several times, wait several minutes for the runner to log `Picked up session`.
+  * **To use a different repository instead**: [archive](/docs/en/claude-code-on-the-web#archive-sessions) or [delete](/docs/en/claude-code-on-the-web#delete-sessions) the failed session, then start the runner again and start a new session. Otherwise, the runner can pick up the failed session instead of the new one.
 
 ### If the runner exits
 

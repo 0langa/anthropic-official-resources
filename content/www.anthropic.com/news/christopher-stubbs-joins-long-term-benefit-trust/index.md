@@ -6,6 +6,21 @@
 - Category
 
   [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Leadership](https://www.anthropic.com/search?topic=leadership)
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)
+  - [Discovery](https://www.anthropic.com/search?topic=discovery)See more...
+
+Related articles
+
+- Announcements
+
+  Jul 9, 2026
+
+  [Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust](https://www.anthropic.com/news/ben-bernanke)
+
+[View more](https://www.anthropic.com/search?topic=leadership)
 
 Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observational cosmology and precision measurement. He has also advised the US government on national security and arms control.
 

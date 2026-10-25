@@ -81,9 +81,9 @@ Claude Enterprise offers different seat types depending on your pricing model. T
 
 Follow these steps to enable Claude Code access for your users:
 
-1. **Navigate to Settings > Organization > Members** in your Claude Enterprise admin console.
-2. **For legacy seat-based plans:** Purchase Premium seats and assign them to users who need Claude Code access. Only Primary Owners/Owners can manage seat assignments.
-3. **For usage-based plans:** Assign seats to users who need Claude Code. Configure spend limits as needed (defaults to $0). [See information here on setting spend limits.(opens in new tab)](https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan)
+1. **Go to Organization settings > Members** in your Claude Enterprise admin console.
+2. **For legacy seat-based plans:** Assign Premium seats to users who need Claude Code access. Only Owners and Primary Owners can purchase more seats; Admins and above can change a member's seat type.
+3. **For usage-based plans:** Make sure each user who needs Claude Code has a seat type that includes it; [Use Claude Code with your Team or Enterprise plan(opens in new tab)](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan) lists which seats do. Then set spend limits for the organization, for groups, or for individual members; with none set, spend isn't capped. [See how spend limits work.(opens in new tab)](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)
 
 #### User Authentication for Claude Code
 
@@ -228,7 +228,7 @@ Shift from tracking activity metrics to demonstrating business value. Focus on o
 
 ### Feature Rollout & Governance[](https://academy.claude.com/tutorials/claude-enterprise-administrator-guide)
 
-Introduce advanced capabilities gradually so teams can build confidence without feeling overwhelmed. A natural progression might move from core features (Projects, Artifacts, Connectors) to intelligence features (Enterprise Search, Research) to integrations (Claude Code, Skills) and finally to automation (Cowork, custom connectors).
+Introduce advanced capabilities gradually so teams can build confidence without feeling overwhelmed. A natural progression might move from core features (Projects, Artifacts, Connectors) to intelligence features (Enterprise Search, Research) to integrations (Claude Code, Skills) and finally to automation (scheduled tasks, custom connectors).
 
 As usage grows, revisit your governance posture:
 
@@ -397,7 +397,7 @@ A comprehensive directory of support, training, and enablement resources for Cla
 ### Developer Tools[](https://academy.claude.com/tutorials/claude-enterprise-administrator-guide)
 
 - [Claude in Xcode(opens in new tab)](https://support.claude.com/en/articles/12293051-using-claude-in-xcode) — Code completion, debugging, and refactoring in Apple's Xcode IDE
-- [Claude in Microsoft Foundry(opens in new tab)](https://support.claude.com/en/articles/12864745-using-claude-in-microsoft-foundry) — Access Claude models through Microsoft's AI Foundry platform
+- [Claude in Microsoft Foundry(opens in new tab)](https://support.claude.com/en/articles/12864745-using-claude-in-microsoft-foundry) — Access Claude models through Microsoft Foundry
 
 ### Claude Code Setup & Configuration[](https://academy.claude.com/tutorials/claude-enterprise-administrator-guide)
 

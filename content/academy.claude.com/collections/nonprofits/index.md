@@ -4,7 +4,7 @@ Accelerate the work that matters most. Courses, connector guides, and workflows 
 
 ## Start here
 
-[![](https://academy.claude.com/assets/v1/thumbnail.light-bxsusxgj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-e856elbs.png)
+[![](https://academy.claude.com/assets/v1/thumbnail.light-mql8m27m.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hkk3syn7.png)
 
 ### Getting started with Claude for nonprofits
 
@@ -163,9 +163,6 @@ Use case·Personal·15 min](https://academy.claude.com/use-cases/create-a-custom
 - [Scaling workflows with Claude Cowork at your organization Tutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/scaling-workflows-with-claude-cowork-at-your-organization)
-- [How to enable Claude Code for your Enterprise teamTutorial4 min
-
-  Tutorial·4 min](https://academy.claude.com/tutorials/how-to-enable-claude-code-for-your-enterprise-team)
 
 ## Webinars
 

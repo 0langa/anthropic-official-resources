@@ -30,7 +30,7 @@ Guided Cowork **setup** — install role-matched plugins, connect your tools, tr
 
 Claude walks you through setup in the conversation: pick your role, install a plugin matched to it, and connect the tools that plugin uses — Slack, Google Workspace or Microsoft 365, and whichever systems your role lives in. New users will see a **Set up Cowork** banner that starts the same flow; the skill works anytime you want to revisit it.
 
-A [plugin(opens in new tab)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude-cowork) packages the [skills(opens in new tab)](https://support.claude.com/en/articles/12512180-use-skills-in-claude), [connectors(opens in new tab)](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities), and example prompts for a role, so finishing setup leaves you with a starting point for real work, not an empty session. You can [browse all plugins in Cowork(opens in new tab)](https://claude.ai/desktop/customize/plugins) or add more connectors from [**Customize**(opens in new tab)](https://claude.ai/desktop/customize/connectors) in the sidebar.
+A [plugin(opens in new tab)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude-cowork) packages the [skills(opens in new tab)](https://support.claude.com/en/articles/12512180-use-skills-in-claude), [connectors(opens in new tab)](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities), and slash commands for a role, so finishing setup leaves you with a starting point for real work, not an empty session. You can [browse all plugins in Cowork(opens in new tab)](https://claude.ai/desktop/customize/plugins) or add more connectors from [**Customize**(opens in new tab)](https://claude.ai/desktop/customize/connectors) in the sidebar.
 
 ## 3. Give Claude Cowork a place to work[](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)
 
@@ -71,7 +71,7 @@ Q2-Planning
 - *Write a status summary from last week's Slack and Linear activity.*
 - *Update the forecast model with the figures from these PDFs.*
 
-Type `/` for the starting prompts your plugin installed, or browse [Cowork use cases(opens in new tab)](https://academy.claude.com/all) for more by role.
+Type `/` for the slash commands your plugin installed, or browse [Cowork use cases(opens in new tab)](https://academy.claude.com/all) for more by role.
 
 ## Learn more[](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)
 

@@ -152,7 +152,7 @@ For component keys such as `commands` and `hooks`, [Component path forms](#compo
 | `workflows` | Path, or array of paths | [Workflow](/docs/en/workflows#distribute-a-workflow-in-a-plugin) `.js` files or directories. Replaces the default `workflows/` scan |
 | `experimental` | Object | Container for `themes`, `monitors`, and `evals`, whose manifest shape may still change |
 | `experimental.themes` | Path, or array of paths | Theme files or directories. Replaces the default `themes/` scan. A top-level `themes` key still loads, with a `claude plugin validate` warning |
-| [`experimental.monitors`](#monitors) | Path, or inline array | A `.json` file holding the monitors array, or the array itself. Defaults to `monitors/monitors.json`. A top-level `monitors` key still loads, with a `claude plugin validate` warning. Monitors run only in interactive sessions, and not on Amazon Bedrock, Google Cloud's Agent Platform, or Microsoft Foundry |
+| [`experimental.monitors`](#monitors) | Path, or inline array | A `.json` file holding the monitors array, or the array itself. Defaults to `monitors/monitors.json`. A top-level `monitors` key still loads, with a `claude plugin validate` warning. Monitors [don't start with the `-p` flag](/docs/en/plugins/components#monitors) |
 | `experimental.evals` | Path, or array of paths | Directory that holds the plugin's [eval cases](/docs/en/plugin-evals#use-a-different-eval-directory) when it isn't the default `evals/`. `claude plugin eval --eval-dir` overrides it |
 
 In the Type column, a path is a string relative to the plugin root, such as `"./custom/commands"`.

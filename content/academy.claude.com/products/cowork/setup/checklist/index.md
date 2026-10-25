@@ -116,7 +116,7 @@ Get the fundamentals in place so your team can start using Cowork. Your progress
 
    Install the Claude desktop app
 
-   Cowork needs the desktop app open to work with local files and local connectors, and to use a browser during a task. It can also run on the web and mobile, in beta: that’s on by default for Team plans; on Enterprise plans an owner turns it on and then grants it to groups through custom roles, and it isn’t available with the HIPAA configuration applied.
+   Cowork needs the desktop app open to work with local files and local connectors, and to use a browser during a task. It can also run on the web and mobile: that’s on by default for Team plans; on Enterprise plans an owner turns it on and then grants it to groups through custom roles, and it isn’t available with the HIPAA configuration applied.
 
    [Read the install guide (opens in new tab)](https://support.claude.com/en/articles/10065433-install-claude-desktop)
 2. 

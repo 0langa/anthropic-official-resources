@@ -46,7 +46,7 @@ Build your skills with written guides and video lessons, from quick tasks to com
 
 4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
-### Customize Claude Cowork
+### Customize Claude
 
 7 min](https://academy.claude.com/tutorials/customize-claude-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-m7h6cx31.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bp8m6m89.png)
 
@@ -58,7 +58,7 @@ Build your skills with written guides and video lessons, from quick tasks to com
 
 4 min](https://academy.claude.com/tutorials/delegating-and-scheduling-tasks-in-claude-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-gsf1x23c.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-eb5bteog.png)
 
-### How to customize plugins in Claude Cowork
+### How to customize plugins in Claude
 
 6 min](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork)
 

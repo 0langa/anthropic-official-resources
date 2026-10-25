@@ -28,7 +28,7 @@ Join the teams behind the program for a walkthrough of the Cyber Verification Pr
 
 See how to cut Claude costs in Microsoft Foundry, track who’s spending what, and prove the ROI.](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)
 
-[WebinarUpcoming | Oct 28, 2026
+[WebinarUpcoming | Nov 4, 2026
 
 ### Unified Claude: What it means for admins
 
@@ -62,7 +62,7 @@ Showing 20 of 113 resources
 
 Register for the live sessions with Anthropic and partner teams — bring your questions and get answers in real time.
 
-[WebinarUpcoming | Oct 28, 2026
+[WebinarUpcoming | Nov 4, 2026
 
 ### Unified Claude: What it means for admins
 
@@ -126,7 +126,7 @@ Claude Code](https://claude.com/resources/webinars/claude-code-foundations-serie
 
 Missed the session? Stream past sessions anytime and catch up at your own pace.
 
-[WebinarOct 22, 2026
+[WebinarOn demand
 
 ### Claude Rearview Roadmap Review: October 2026
 

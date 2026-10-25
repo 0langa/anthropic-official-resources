@@ -1358,6 +1358,7 @@ https://claude.com/resources/articles/run-claude-code-sessions-on-your-own-compu
 https://claude.com/resources/articles/running-an-ai-native-engineering-org
 https://claude.com/resources/articles/salesforce-in-claude
 https://claude.com/resources/articles/scaling-agentic-coding
+https://claude.com/resources/articles/seeing-like-an-agent
 https://claude.com/resources/articles/self-serve-enterprise
 https://claude.com/resources/articles/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions
 https://claude.com/resources/articles/skills

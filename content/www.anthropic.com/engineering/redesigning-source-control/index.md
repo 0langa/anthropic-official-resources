@@ -151,7 +151,7 @@ Lastly, we want to acknowledge that the git community has spent nearly two decad
 
 02Specifically, the server component of Sapling, [Mononoke](https://github.com/facebook/sapling/blob/main/eden/mononoke/README.md). It pioneered many of the techniques we use in Scion, in particular the [Bonsai](https://github.com/facebook/sapling/blob/79071c2a3ea20c36ed71332608535e5801101bba/eden/mononoke/mononoke_types/serialization/bonsai.thrift) data model.
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

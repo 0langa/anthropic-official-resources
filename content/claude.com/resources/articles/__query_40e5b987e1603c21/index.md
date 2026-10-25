@@ -24,19 +24,17 @@ Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design ar
 
 Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
 
-[ArticleOct 22, 2026
+[ArticleOct 23, 2026
 
-### The full Claude Platform, available on Google Cloud
+### Claude Cowork and chat come together for Enterprise
 
-Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
+Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)
 
-Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)
+[ArticleOct 23, 2026
 
-[ArticleOct 21, 2026
+### Claude Duet Safety, Privacy, and Security
 
-### HCLTech joins the Claude Partner Network as a Global Premier partner
-
-HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)
+Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)
 
 [ArticleOct 22, 2026
 

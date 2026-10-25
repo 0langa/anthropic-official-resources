@@ -151,7 +151,7 @@ This is ongoing work, and we'll have more to share soon—including what we're l
 
 - *Updated the author list*
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Contributors
 

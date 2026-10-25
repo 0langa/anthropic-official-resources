@@ -14,9 +14,22 @@ We aim to accelerate coordination around AI safety by producing evidence of emer
 
 Our researchers work to translate technical findings into useful evidence for decision-makers in national security, policy, and industry.
 
+- [![LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1ae521c1656d33b2bf013315da894b16086d15e0-1280x1280.jpg&w=3840&q=75)](https://www.anthropic.com/research/formal-verification)
+- [![Claude reveals ECDSA curve origins](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F656c8186146687eb421cb1d8f60c7fdd3e20d49c-1280x1280.jpg&w=3840&q=75)](https://www.anthropic.com/research/ecdsa-curve-origins)
 - [![Launching an opt-in vulnerability-finding service for open-source software](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0c269cba7924d77f62632a8293563b1830856f94-2000x1125.jpg&w=3840&q=75)](https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source)
 - [![GLM-5.3 and the spread of advanced cyber capabilities](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3b214430747c67bfba93f34438070303d2f4b755-2000x1125.jpg&w=3840&q=75)](https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities)
-- [![Patterns and problems in emerging multiagent systems](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F25145b7d272a7685dd4a579d4d43de9622b6c833-2000x1125.jpg&w=3840&q=75)](https://www.anthropic.com/research/multiagent-systems)
+
+[Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
+
+Oct 22, 2026[## LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/research/formal-verification)
+
+We used Claude to prove security properties in over 100 real-world open-source libraries over the span of a few weeks.
+
+[Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
+
+Oct 16, 2026[## Claude reveals ECDSA curve origins](https://www.anthropic.com/research/ecdsa-curve-origins)
+
+The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.
 
 [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
@@ -30,23 +43,15 @@ We’re making available OSS Scanner, an opt-in vulnerability scanner for the op
 
 Sep 29, 2026[## GLM-5.3 and the spread of advanced cyber capabilities](https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities)
 
-Like Claude Mythos Preview, GLM-5.3 has strong capabilities for autonomously building end-to-end cyber exploits. But GLM-5.3 is unlike other frontier models in that it has been released without meaningful safeguards to limit misuse.
+Like Claude Mythos Preview, GLM-5.3 has strong capabilities for autonomously building end-to-end cyber exploits. But unlike other frontier models, GLM-5.3 has been released without meaningful safeguards to limit misuse.
 
 [Read more](https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities)
-
-[Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-
-Aug 13, 2026[## Patterns and problems in emerging multiagent systems](https://www.anthropic.com/research/multiagent-systems)
-
-Here, we identify a few examples of behavioral tendencies in current frontier models and show how they can produce unexpected systemic failures, in hopes of starting a conversation about mitigating these risks.
-
-[Read more](https://www.anthropic.com/research/multiagent-systems)
 
 01
 
 /
 
-03
+04
 
 34
 
@@ -156,7 +161,7 @@ See more
 
 [### Alignment](https://www.anthropic.com/research/team/alignment)
 
-47 posts
+48 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
 
@@ -198,7 +203,7 @@ Stress-tests AI systems to understand the full extent of their current capabilit
 
 [### Alignment](https://www.anthropic.com/research/team/alignment)
 
-47 posts
+48 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
 

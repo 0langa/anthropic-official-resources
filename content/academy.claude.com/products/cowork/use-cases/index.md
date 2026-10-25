@@ -4,7 +4,7 @@
 
 RoleAll
 
-72 use cases
+71 use cases
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-mtc5a1pi.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ha2dvss7.png)
 

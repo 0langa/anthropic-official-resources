@@ -21,7 +21,7 @@ On top of that, the amount of tests across our codebase grew 10x and we added a 
 
 This threatened to overload our test impact analysis service several times. To avoid becoming the next bottleneck, we blew up the whole thing and reimagined what the service's architecture looks like. But getting there was a bumpy path that started with three quick fixes, which lasted 70 days, then 29 days, and then less than a day respectively.
 
-Scaling CI is a challenge more engineering teams are likely to soon face as agents continue to accelerate code generation and review. I anticipate horizontally scaled test selection architecture will become industry standard as teams running agents create both more PRs and more tests.
+Scaling CI is a challenge more engineering teams are likely to soon face as agents continue to accelerate code generation and review. For the companion piece on merges, see [Redesigning source control at Anthropic](https://www.anthropic.com/engineering/redesigning-source-control). I anticipate horizontally scaled test selection architecture will become industry standard as teams running agents create both more PRs and more tests.
 
 ![](https://assets.claude.com/16c9a571f85e5fb9e323c5b751b325ff664973d3.png)
 

@@ -19,9 +19,9 @@ Related articles
 
 - Frontier Red Team
 
-  Oct 8, 2026
+  Oct 22, 2026
 
-  [Launching an opt-in vulnerability-finding service for open-source software](https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source)
+  [LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/research/formal-verification)
 
 [View more](https://www.anthropic.com/search?topic=cybersecurity)
 

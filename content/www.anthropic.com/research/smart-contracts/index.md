@@ -471,7 +471,7 @@ We examine the relationship between various code complexity metrics and the actu
 
 12One agent run ends either when the agent stops making tool calls or the session times out after 60 minutes.
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

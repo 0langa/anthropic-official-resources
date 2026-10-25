@@ -17,11 +17,11 @@
 
 Related articles
 
-- Engineering
+- Frontier Red Team
 
-  Oct 13, 2026
+  Oct 20, 2026
 
-  [Redesigning source control at Anthropic](https://www.anthropic.com/research/redesigning-source-control)
+  [Using Claude to reduce the attack surface of code](https://www.anthropic.com/research/attack-surface-reduction)
 
 [View more](https://www.anthropic.com/search?topic=cybersecurity)
 

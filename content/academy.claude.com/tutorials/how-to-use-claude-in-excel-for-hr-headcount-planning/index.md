@@ -114,7 +114,7 @@ When Claude builds a new calculated column, it writes actual Excel formulas that
 - Open it with **Ctrl+Option+C** (Mac) or **Ctrl+Alt+C** (Windows)
 - Start with "Walk me through this workbook" on any spreadsheet you've inherited
 
-Claude in Excel is available in beta on Max, Team, and Enterprise plans.
+Claude in Excel is available on all paid plans.
 
 **Learn more:**
 

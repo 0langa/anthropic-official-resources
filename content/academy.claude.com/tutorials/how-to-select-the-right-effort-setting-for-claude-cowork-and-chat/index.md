@@ -1,4 +1,4 @@
-# How to select the right effort setting for Claude Cowork and Chat
+# How to select the right effort setting in Claude
 
 Understand how effort settings work in claude.ai and why adjusting effort on a frontier model often costs less per task than switching to a cheaper model.
 
@@ -30,7 +30,7 @@ You can think of effort as a behavioral signal for Claude. Lower effort directs 
 
 All of this work (the thinking, the tool use, the checking and revision) affects how fast you see an answer and how much of your usage limit gets used per task.
 
-On [claude.ai(opens in new tab)](https://claude.ai/), in Chat and Cowork, your usage limit is measured in tokens, which are small units of text Claude processes. Everything Claude does (reading your prompt, processing files, thinking, writing responses) is measured that way and draws from your usage limit. Lower effort means Claude uses fewer tokens which results in less of your limit spent per task. Raising Claude's effort does the opposite. This is why matching effort to the task matters.
+On [claude.ai(opens in new tab)](https://claude.ai/), your usage limit is measured in tokens, which are small units of text Claude processes. Everything Claude does (reading your prompt, processing files, thinking, writing responses) is measured that way and draws from your usage limit. Lower effort means Claude uses fewer tokens which results in less of your limit spent per task. Raising Claude's effort does the opposite. This is why matching effort to the task matters.
 
 Diagram: shows the Effort submenu in the claude.ai model menu, with its four levels and a header noting that higher effort means more thorough but slower, limit-hungry responses; the chosen level applies to the conversation.
 

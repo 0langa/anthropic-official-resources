@@ -204,7 +204,7 @@ It's also what makes false positives survivable. A 0.4% FPR sounds small, but if
 
 We'll continue expanding the real overeagerness testset and iterating on improving the safety and cost of the feature. The classifier doesn't need to be flawless to be valuable and the starting point is catching enough dangerous actions to make autonomous operation substantially safer than no guardrails. We encourage users to stay aware of residual risk, use judgment about which tasks and environments they run autonomously, and tell us when auto mode gets things wrong.
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

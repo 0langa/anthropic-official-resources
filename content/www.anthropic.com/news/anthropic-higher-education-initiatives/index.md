@@ -15,11 +15,11 @@
 
 Related articles
 
-- Partnerships
+- Product
 
-  Jun 3, 2026
+  Oct 22, 2026
 
-  [Introducing the Services Track and Partner Hub of the Claude Partner Network](https://www.anthropic.com/news/services-track-partner-hub)
+  [Donating Agent Skills to the Agentic AI Foundation](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation)
 
 [View more](https://www.anthropic.com/search?topic=education)
 

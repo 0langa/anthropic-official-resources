@@ -1,6 +1,6 @@
-# Install financial services plugins for Claude Cowork
+# Install financial services plugins for Claude
 
-Add Anthropic's open-source financial services plugins to Claude Cowork for financial modeling, equity research, investment banking, private equity, and wealth management workflows.
+Add Anthropic's open-source financial services plugins to Claude for financial modeling, equity research, investment banking, private equity, and wealth management workflows.
 
 3 minClaude Cowork
 
@@ -8,9 +8,9 @@ Add Anthropic's open-source financial services plugins to Claude Cowork for fina
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-hiukxeka.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j0tcbi0h.png)
 
-We offer a set of open-source plugins that extend Claude Cowork with specialized capabilities for financial services workflows, including financial modeling, equity research, investment banking, private equity, and wealth management.
+We offer a set of open-source plugins that extend Claude with specialized capabilities for financial services workflows, including financial modeling, equity research, investment banking, private equity, and wealth management.
 
-These plugins are available in a [**public GitHub repository**(opens in new tab)](https://github.com/anthropics/financial-services/tree/main?tab=readme-ov-file) that you can add as a marketplace in Claude Cowork.
+These plugins are available in a [**public GitHub repository**(opens in new tab)](https://github.com/anthropics/financial-services/tree/main?tab=readme-ov-file) that you can add as a marketplace in Claude.
 
 ## What's included[](https://academy.claude.com/tutorials/install-financial-services-plugins-for-cowork)
 
@@ -22,7 +22,7 @@ The repository contains a **core plugin** and several **add-on plugins** that bu
 - **Private equity** — Source and screen deals, run due diligence checklists, draft IC memos, and monitor portfolio company KPIs.
 - **Wealth management** — Prep for client meetings, build financial plans, rebalance portfolios, and identify tax-loss harvesting opportunities.
 
-The repository also includes partner-built plugins from **LSEG** and **S&P Global**, which bring their financial data and analytics directly into Cowork.
+The repository also includes partner-built plugins from **LSEG** and **S&P Global**, which bring their financial data and analytics directly into Claude.
 
 ## Add the marketplace[](https://academy.claude.com/tutorials/install-financial-services-plugins-for-cowork)
 
@@ -40,7 +40,7 @@ The repository also includes partner-built plugins from **LSEG** and **S&P Globa
 2. Install the **financial analysis** plugin first—this is the core plugin that provides shared tools and data connectors used by all other plugins.
 3. Install any additional plugins based on your workflow needs.
 
-Once installed, plugins activate automatically. Skills are applied when relevant, or you can invoke them manually during your Claude Cowork session by typing "/" or clicking the "+" button.
+Once installed, plugins activate automatically. Skills are applied when relevant, or you can invoke them manually during your session by typing "/" or clicking the "+" button.
 
 ## Available Skills[](https://academy.claude.com/tutorials/install-financial-services-plugins-for-cowork)
 
@@ -72,7 +72,7 @@ These plugins are designed as starting points. You can customize them to match y
 ## Good to know[](https://academy.claude.com/tutorials/install-financial-services-plugins-for-cowork)
 
 - Plugins are file-based. A skill can include executable scripts (Python, JavaScript, or Bash) in an optional `scripts/` directory, and you can still customize a plugin without writing code or setting up infrastructure.
-- These plugins work across both Claude Cowork and Claude Code.
+- These plugins work across both Claude and Claude Code.
 - AI-generated financial analysis should always be reviewed by qualified professionals before being used in decision-making.
 
 ## Learn more[](https://academy.claude.com/tutorials/install-financial-services-plugins-for-cowork)

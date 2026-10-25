@@ -264,7 +264,7 @@ If these four statements feel true, you've got what this lesson set out to teach
 - You know why a model is locked to its tokenizer, and why rarer words are chopped into pieces.
 - You can explain what an embedding is and why it matters using the words "score," "dimension," and "nearby."
 
-*Next: [How context affects Claude's performance and cost(opens in new tab)](https://academy.claude.com/tutorials/parametric-memory-and-context) · [Choosing the right Claude model(opens in new tab)](https://academy.claude.com/tutorials/choosing-the-right-claude-model) · [choose an effort level in Cowork and Chat(opens in new tab)](https://academy.claude.com/tutorials/how-to-select-the-right-effort-setting-for-claude-cowork-and-chat) · [in Claude Code(opens in new tab)](https://academy.claude.com/tutorials/choosing-the-right-effort-level-in-claude-code)*
+*Next: [How context affects Claude's performance and cost(opens in new tab)](https://academy.claude.com/tutorials/parametric-memory-and-context) · [Choosing the right Claude model(opens in new tab)](https://academy.claude.com/tutorials/choosing-the-right-claude-model) · [choose an effort level in Claude(opens in new tab)](https://academy.claude.com/tutorials/how-to-select-the-right-effort-setting-for-claude-cowork-and-chat) · [in Claude Code(opens in new tab)](https://academy.claude.com/tutorials/choosing-the-right-effort-level-in-claude-code)*
 
 *Learn more: [How AI works(opens in new tab)](https://academy.claude.com/collections/how-ai-works) · [AI capabilities and limitations(opens in new tab)](https://academy.claude.com/courses/ai-capabilities-and-limitations)*
 

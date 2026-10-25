@@ -21,9 +21,9 @@ Related articles
 
 - Alignment
 
-  Sep 9, 2026
+  Oct 23, 2026
 
-  [An alignment assessment of recent cybersecurity incidents](https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents)
+  [An alignment assessment of the UK AISI cybertesting incident](https://www.anthropic.com/research/alignment-assessment-ukaisi)
 
 [View more](https://www.anthropic.com/search?topic=alignment)
 

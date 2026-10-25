@@ -203,7 +203,7 @@ Our research captures educators in a moment of active experimentation, building 
 
 \*In cases where the augmentation/automation category could not be identified, we excluded those from the chart. For more information on these categories, please see our Anthropic Economic Index [research](https://arxiv.org/pdf/2503.04761).
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Contributors
 

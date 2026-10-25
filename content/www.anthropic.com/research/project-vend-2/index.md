@@ -235,7 +235,7 @@ As society begins to plug AI models into more and more important functions, desi
 
 02This might remind some readers of our discussion of the “spiritual bliss attractor state” from the [Claude 4 system card](https://www.anthropic.com/claude-4-system-card) (p. 63).
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

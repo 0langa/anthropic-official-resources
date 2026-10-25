@@ -128,7 +128,7 @@ The full proof is available on [GitHub](https://github.com/anthropics/fermats-la
 
 03This is partly because Mathlib is concise and well-reviewed, while our proof is likely much longer than it needs to be.
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

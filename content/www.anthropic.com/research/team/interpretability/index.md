@@ -155,7 +155,7 @@ See more
 
 [### Alignment](https://www.anthropic.com/research/team/alignment)
 
-47 posts
+48 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
 
@@ -197,7 +197,7 @@ Studies how large language models work internally as a foundation for AI safety.
 
 [### Alignment](https://www.anthropic.com/research/team/alignment)
 
-47 posts
+48 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
 

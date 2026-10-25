@@ -258,7 +258,7 @@ Your project, your preferences, and your working relationships made the cut, but
 
 ## Prepended context[](https://academy.claude.com/tutorials/parametric-memory-and-context)
 
-Zooming out, a whole lot is added to the context before Claude sees your first token. The widget below shows what prepended context might be added to a conversation with Claude in a tool like [Cowork(opens in new tab)](https://claude.com/product/cowork). The exact contents vary from product to product.
+Zooming out, a whole lot is added to the context before Claude sees your first token. The widget below shows what prepended context might be added to a conversation with Claude. The exact contents vary from product to product.
 
 Explorer: steps through five blocks of context prepended before a learner's first message to Claude, each showing its author, purpose, and an excerpt, then totals their token count in a summary.
 
@@ -272,10 +272,10 @@ Before your first messageReset
 
 written by Anthropic (the app's developers)
 
-Instructions that define Claude's role, tone, and guardrails inside Cowork.
+Instructions that define Claude's role, tone, and guardrails inside the app.
 
 ```
-You are Claude, operating inside a product called Cowork. Your goal is to help the user accomplish work tasks. You have access to the user's connected tools, memory, and skills. When the user asks you to take an action, prefer using a tool over describing what you would do …
+You are Claude. Your goal is to help the user accomplish work tasks. You have access to the user's connected tools, memory, and skills. When the user asks you to take an action, prefer using a tool over describing what you would do …
 ```
 
 1 / 5
@@ -324,19 +324,19 @@ What do you do?
 
 Answer directlyCall a tool
 
-Claude makes this same decision on every turn, and how readily it reaches for more context depends partly on the effort setting. At higher effort, Claude is more likely to search, read, and check before answering, which usually means a better answer and a bigger context window. At lower effort, Claude is more likely to answer directly. [Learn how to choose an effort level in Cowork and Chat(opens in new tab)](https://academy.claude.com/tutorials/how-to-select-the-right-effort-setting-for-claude-cowork-and-chat) or [in Claude Code(opens in new tab)](https://academy.claude.com/tutorials/choosing-the-right-effort-level-in-claude-code).
+Claude makes this same decision on every turn, and how readily it reaches for more context depends partly on the effort setting. At higher effort, Claude is more likely to search, read, and check before answering, which usually means a better answer and a bigger context window. At lower effort, Claude is more likely to answer directly. [Learn how to choose an effort level in Claude(opens in new tab)](https://academy.claude.com/tutorials/how-to-select-the-right-effort-setting-for-claude-cowork-and-chat) or [in Claude Code(opens in new tab)](https://academy.claude.com/tutorials/choosing-the-right-effort-level-in-claude-code).
 
 ## Tracing context[](https://academy.claude.com/tutorials/parametric-memory-and-context)
 
-Take this example reply from Claude in Cowork. Each highlighted section was influenced by some of the prepended context. Click a section and identify where you think it came from.
+Take this example reply from Claude. Each highlighted section was influenced by some of the prepended context. Click a section and identify where you think it came from.
 
-Exercise: tag six highlighted phrases in a sample Cowork reply with the prepended context source that likely shaped each one, then reveal grading and explanations. Teaches how hidden context shapes a reply in non-obvious ways.
+Exercise: tag six highlighted phrases in a sample reply with the prepended context source that likely shaped each one, then reveal grading and explanations. Teaches how hidden context shapes a reply in non-obvious ways.
 
 Tracing contextReset
 
-The six highlighted phrases in this Cowork reply came from a prepended source. Click each phrase and identify the most likely source.
+The six highlighted phrases in this reply came from a prepended source. Click each phrase and identify the most likely source.
 
-Cowork · replying to: “When's the venue walkthrough for the summit? And can you let the team know I'll be joining remotely?”
+Claude · replying to: “When's the venue walkthrough for the summit? And can you let the team know I'll be joining remotely?”
 
 Short version: the venue walkthrough is **Thursday at 2:00 pm** (Pacific), and Dana has already accepted.
 
@@ -357,7 +357,7 @@ Reveal answers
 - You can explain how written memory survives between sessions.
 - You can look at a Claude reply and make some guesses about how the prepended context may have shaped it.
 
-*Next: [choose an effort level in Cowork and Chat(opens in new tab)](https://academy.claude.com/tutorials/how-to-select-the-right-effort-setting-for-claude-cowork-and-chat) · [in Claude Code(opens in new tab)](https://academy.claude.com/tutorials/choosing-the-right-effort-level-in-claude-code)*
+*Next: [choose an effort level in Claude(opens in new tab)](https://academy.claude.com/tutorials/how-to-select-the-right-effort-setting-for-claude-cowork-and-chat) · [in Claude Code(opens in new tab)](https://academy.claude.com/tutorials/choosing-the-right-effort-level-in-claude-code)*
 
 *Learn more: [How AI works(opens in new tab)](https://academy.claude.com/collections/how-ai-works) · [AI capabilities and limitations(opens in new tab)](https://academy.claude.com/courses/ai-capabilities-and-limitations)*
 

@@ -36,9 +36,7 @@ Make sure Claude has the right tools to accurately research and build your itine
 
 ### Required context[](https://academy.claude.com/use-cases/create-a-daily-travel-itinerary)
 
-### Optional context[](https://academy.claude.com/use-cases/create-a-daily-travel-itinerary)
-
-Make sure [Web search(opens in new tab)](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search) is enabled. This lets Claude find current travel information, reviews, and operating hours.
+Make sure [Web search(opens in new tab)](https://support.claude.com/en/articles/10684626-enable-and-use-web-search) is enabled. This lets Claude find current travel information, reviews, and operating hours. If you have the new Claude experience, there's no web search toggle. Claude searches the web when it helps.
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/create-a-daily-travel-itinerary)
 

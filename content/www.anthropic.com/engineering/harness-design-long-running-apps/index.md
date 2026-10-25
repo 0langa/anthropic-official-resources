@@ -350,7 +350,7 @@ All associated sprites, tilesets, levels, and entity definitions
 ...
 ```
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

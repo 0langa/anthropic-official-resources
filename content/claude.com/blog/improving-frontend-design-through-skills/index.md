@@ -12,11 +12,11 @@ You might notice that when you ask an LLM to build a landing page without guidan
 
 The issue? [Distributional convergence.](https://en.wikipedia.org/wiki/Convergence_of_random_variables) During sampling, models predict tokens based on statistical patterns in training data. Safe design choices–those that work universally and offend no one–dominate web training data. Without direction, Claude samples from this high-probability center.
 
-For developers building customer-facing products, this generic aesthetic undermines brand identity and makes AI-generated interfaces immediately recognizable—and dismissible.
+For developers building customer-facing products, this generic aesthetic undermines [brand identity](https://claude.com/resources/articles/claude-design-stays-on-brand-for-daily-work) and makes AI-generated interfaces immediately recognizable—and dismissible.
 
 ### The steerability challenge
 
-The good news is that Claude is highly steerable with the right prompting. Tell Claude to "avoid Inter and Roboto" or "use atmospheric backgrounds instead of solid colors," and results improve immediately. This sensitivity to guidance is a feature; it means Claude can adapt to different design contexts, constraints, and aesthetic preferences.
+The good news is that Claude is highly steerable with [the right prompting](https://claude.com/resources/articles/best-practices-for-prompt-engineering). Tell Claude to "avoid Inter and Roboto" or "use atmospheric backgrounds instead of solid colors," and results improve immediately. This sensitivity to guidance is a feature; it means Claude can adapt to different design contexts, constraints, and aesthetic preferences.
 
 But this creates a practical challenge: the more specialized the task, the more context you need to provide. For frontend design, effective guidance spans typography principles, color theory, animation patterns, and background treatment. You need to specify which defaults to avoid and which alternatives to prefer across multiple dimensions.
 
@@ -24,7 +24,7 @@ You could pack all this into a system prompt, but then every request–debugging
 
 ## **Skills: dynamic context loading**
 
-This is precisely what [Skills](https://www.anthropic.com/news/skills) were designed for: delivering specialized context on demand without permanent overhead. A skill is a document (often markdown) containing instructions, constraints, and domain knowledge, stored in a designated directory that Claude can access through simple file-reading tools. Claude can leverage these skills to dynamically load in information it needs at runtime, progressively enhancing its context instead of loading everything upfront.
+This is precisely what [Skills](https://www.anthropic.com/news/skills) were designed for: delivering specialized context on demand without permanent overhead. [A skill](https://claude.com/resources/articles/skills-explained) is a document (often markdown) containing instructions, constraints, and domain knowledge, stored in a designated directory that Claude can access through simple file-reading tools. Claude can leverage these skills to dynamically load in information it needs at runtime, progressively enhancing its context instead of loading everything upfront.
 
 When equipped with these skills and the necessary tools to read them, Claude can autonomously identify and load relevant skills based on the task at hand. For instance, when asked to build a landing page or create a React component, Claude can load a frontend design skill and apply its instructions just-in-time. This is the essential mental model: skills are prompts and contextual resources that activate on demand, providing specialized guidance for specific task types without incurring permanent context overhead.
 
@@ -236,7 +236,13 @@ Start using Skills with Claude to build more powerful applications today.
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 19, 2026
+[ArticleOct 22, 2026
+
+### Building agents: When to fold subagents into your main agent loop
+
+When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
+
+Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[ArticleOct 19, 2026
 
 ### Redesigning source control at Anthropic
 
@@ -258,15 +264,7 @@ How do you review code at the volume agents produce it? The Claude Code team sha
 
 Claude Code
 
-(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)[ArticleOct 8, 2026
-
-### Building effective agent automations
-
-A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
-
-Claude Platform
-
-(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)
+(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)
 
 ## Transform how your organization operates with Claude
 

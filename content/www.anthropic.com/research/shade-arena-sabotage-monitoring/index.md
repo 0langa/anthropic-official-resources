@@ -124,7 +124,7 @@ If you’re interested in working on these or related questions of Alignment Sci
 
 03Interestingly, this was true when we used “extended thinking” mode, but was not true when we turned off thinking mode and told the model “anything you put between <thinking> xml tags is hidden".
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Contributors
 

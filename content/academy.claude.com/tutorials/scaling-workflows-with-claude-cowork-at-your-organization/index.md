@@ -208,7 +208,7 @@ Enablement follows a natural progression: users start by completing a single tas
 Get every user from zero to their first successful task with a connector.
 
 - **Curated first session per role**. Don't hand people a blank page. Share a one-pager or distribute a skill that describes "your first 3 tasks as a [sales rep / PM / analyst]."
-- **Connector authentication moment.** Users who never authenticate a connector get a chat experience, not a Claude Cowork experience. Don't leave this to chance: a 10-min calendar hold on launch day, or have a rotation of teammates available for setup assistance.
+- **Connector authentication moment.** Until users authenticate their connectors, Claude can't reach the tools and data their work depends on. Don't leave this to chance: a 10-min calendar hold on launch day, or have a rotation of teammates available for setup assistance.
 - **Side-by-side demo**. The champion shows the same task done as a chat prompt vs. a delegated Claude Cowork task with connectors. Same input, different output.
 - **1:many Cowork 101 training**. Introduce skills, connectors, plugins and recurring tasks following the curriculum outlined in [Intro to Claude Cowork(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-cowork)
 
@@ -237,7 +237,7 @@ Lasting adoption means Claude Cowork is already running when users sit down in t
   A scheduled task runs with the same access as any other Cowork session, so whatever it produces lands in your real tools. Before rolling the habit out, check the result the way you'd check a new hire's first report: open the channel after the first run and confirm the digest is there, covers yesterday's changes, and reads the way your team expects. A task that runs on time but posts the wrong summary is one your team will quietly stop trusting. See [Scheduled tasks(opens in new tab)](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork).
 - **Embed in existing rituals**. The standard for a weekly pipeline review becomes the Claude Cowork-generated digest. The standard for a monthly board deck becomes a Claude Cowork-assembled first draft. Attach Claude Cowork to existing working rhythms.
 
-**Bake into new-hire onboarding**. Include Cowork in Day-1 checklist: install the desktop app, authenticate 3 connectors, install the department plugin, run its flagship skill. See [Installing Claude Desktop(opens in new tab)](https://support.claude.com/en/articles/10065433-installing-claude-desktop).
+**Bake into new-hire onboarding**. Include Cowork in Day-1 checklist: install the desktop app (if their work needs files and applications on their computer, or if your organization offers Cowork only in the desktop app), authenticate 3 connectors, install the department plugin, run its flagship skill. See [Installing Claude Desktop(opens in new tab)](https://support.claude.com/en/articles/10065433-installing-claude-desktop).
 
 ## 6. FAQ[](https://academy.claude.com/tutorials/scaling-workflows-with-claude-cowork-at-your-organization)
 
@@ -251,7 +251,7 @@ Lasting adoption means Claude Cowork is already running when users sit down in t
 
 **How do plugins sync with version control?** Plugins support GitHub sync. Connect a private GitHub repo as a plugin marketplace. Changes merge through your normal PR process and auto-sync to users. See [Managing Cowork plugins(opens in new tab)](https://support.claude.com/en/articles/13837433) for repo structure details.
 
-**What's the difference between a skill and a scheduled task?** A skill runs when someone triggers it. A scheduled task is a saved prompt that Claude runs automatically on a schedule, with the same access as any other Cowork session. Users set one up by giving a prompt and picking a schedule in the Cowork UI, or by asking in chat. A natural-language request like "every day at 6am" is enough to create one, and most scheduled tasks get created that way. Scheduled tasks are a Cowork-only feature. Common use: a daily pipeline digest that runs every morning at 8am and posts to Slack.
+**What's the difference between a skill and a scheduled task?** A skill runs when someone triggers it. A scheduled task is a saved prompt that Claude runs automatically on a schedule, with the same access as any other Cowork session. Users set one up by giving a prompt and picking a schedule in the Cowork UI, or by asking in chat. A natural-language request like "every day at 6am" is enough to create one, and most scheduled tasks get created that way. Common use: a daily pipeline digest that runs every morning at 8am and posts to Slack.
 
 **Where do I go for help with desktop app installation or connector setup?** See the [Claude Cowork Enterprise Admin Guide(opens in new tab)](https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide), which covers desktop app deployment, connector configuration, and org architecture setup.
 

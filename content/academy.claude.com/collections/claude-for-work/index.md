@@ -1,6 +1,6 @@
 # Claude for work
 
-Resources for working with Claude in your organization. Learn the everyday tools, hand off whole tasks with Cowork, and set up your org.
+Resources for working with Claude in your organization. Learn the everyday tools, hand whole tasks to Claude, and set up your org.
 
 ## Start here
 
@@ -40,7 +40,7 @@ Learn to collaborate with AI effectively, efficiently, ethically, and safely usi
 
 Course·14 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-framework-foundations)
 
-## Hand off whole tasks with Cowork
+## Hand whole tasks to Claude
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-8vlsk4u2.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mc3bn43s.png)
 
@@ -100,7 +100,7 @@ Use case·Engineering·10 min](https://academy.claude.com/use-cases/ask-the-comp
 
 ## Work smarter with Claude
 
-- [Customize Claude CoworkTutorial7 min
+- [Customize ClaudeTutorial7 min
 
   Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 - [Intro to ProjectsTutorial7 min
@@ -127,9 +127,6 @@ Use case·Engineering·10 min](https://academy.claude.com/use-cases/ask-the-comp
 - [Claude Cowork Enterprise Admin GuideTutorial20 min
 
   Tutorial·20 min](https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide)
-- [How to enable Claude Code for your Enterprise teamTutorial4 min
-
-  Tutorial·4 min](https://academy.claude.com/tutorials/how-to-enable-claude-code-for-your-enterprise-team)
 - [Scaling workflows with Claude Cowork at your organization Tutorial15 min
 
   Tutorial·15 min](https://academy.claude.com/tutorials/scaling-workflows-with-claude-cowork-at-your-organization)

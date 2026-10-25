@@ -126,7 +126,7 @@ Attackers also face additional challenges, like designing attacks that resist po
 
 Read [the full paper](https://arxiv.org/abs/2510.07192).
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

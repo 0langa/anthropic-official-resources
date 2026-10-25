@@ -210,7 +210,7 @@ See [Appendix II](https://assets.anthropic.com/m/1632cded0a125333/original/Conte
 
 *1 minus recall @ 20 results across data sets and embedding providers.*
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

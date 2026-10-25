@@ -155,7 +155,7 @@ This experiment has already shown us a world—co-created by Claudius and its cu
 
 06For example, see the section on “high-agency behavior” beginning on p.44 of the [Claude 4 system card](https://www-cdn.anthropic.com/6be99a52cb68eb70eb9572b4cafad13df32ed995.pdf).
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

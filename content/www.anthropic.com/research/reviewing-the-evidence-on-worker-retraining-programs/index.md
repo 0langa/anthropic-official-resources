@@ -41,7 +41,7 @@ Their central recommendation is to invest now in demonstrating, evaluating, and 
 
 [Read the report here](https://www-cdn.anthropic.com/files/4zrzovbb/website/169e4adceebbab066b91e0b45127d73cb2bda24b.pdf).
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Citation
 

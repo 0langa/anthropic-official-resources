@@ -1,98 +1,98 @@
 {
   "https://academy.claude.com/dashboard": {
-    "attempts": 59,
-    "checked_at": 1792832221,
+    "attempts": 60,
+    "checked_at": 1792919603,
     "http_status": null,
     "message": "Disallowed by robots.txt",
     "status": "blocked"
   },
   "https://academy.claude.com/mcp": {
-    "attempts": 60,
-    "checked_at": 1792832208,
+    "attempts": 61,
+    "checked_at": 1792919578,
     "http_status": null,
     "message": "Disallowed by robots.txt",
     "status": "blocked"
   },
   "https://academy.claude.com/products/code/webinars": {
-    "attempts": 59,
-    "checked_at": 1792832231,
+    "attempts": 60,
+    "checked_at": 1792919611,
     "http_status": 404,
     "message": "HTTP 404: https://academy.claude.com/products/code/webinars",
     "status": "gone"
   },
   "https://academy.claude.com/start": {
-    "attempts": 60,
-    "checked_at": 1792832210,
+    "attempts": 61,
+    "checked_at": 1792919588,
     "http_status": null,
     "message": "Disallowed by robots.txt",
     "status": "blocked"
   },
   "https://claude.com/blog/cowork-research-preview": {
-    "attempts": 58,
-    "checked_at": 1792832233,
+    "attempts": 59,
+    "checked_at": 1792919614,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/product/cowork",
     "status": "out_of_scope"
   },
   "https://claude.com/blog/docx-js.md": {
-    "attempts": 58,
-    "checked_at": 1792832238,
+    "attempts": 59,
+    "checked_at": 1792919634,
     "http_status": 404,
     "message": "HTTP 404: https://claude.com/resources/articles/docx-js.md",
     "status": "gone"
   },
   "https://claude.com/blog/ooxml.md": {
-    "attempts": 58,
-    "checked_at": 1792832251,
+    "attempts": 59,
+    "checked_at": 1792919651,
     "http_status": 404,
     "message": "HTTP 404: https://claude.com/resources/articles/ooxml.md",
     "status": "gone"
   },
   "https://claude.com/blog/prompt-engineering-best-practices": {
-    "attempts": 58,
-    "checked_at": 1792832257,
+    "attempts": 59,
+    "checked_at": 1792919657,
     "http_status": 404,
     "message": "HTTP 404: https://claude.com/resources/articles/prompt-engineering-best-practices",
     "status": "gone"
   },
   "https://claude.com/resources/articles/docx-js.md": {
-    "attempts": 16,
-    "checked_at": 1792832208,
+    "attempts": 17,
+    "checked_at": 1792919579,
     "http_status": 404,
     "message": "HTTP 404: https://claude.com/resources/articles/docx-js.md",
     "status": "gone"
   },
   "https://claude.com/resources/articles/ooxml.md": {
-    "attempts": 16,
-    "checked_at": 1792832211,
+    "attempts": 17,
+    "checked_at": 1792919588,
     "http_status": 404,
     "message": "HTTP 404: https://claude.com/resources/articles/ooxml.md",
     "status": "gone"
   },
   "https://claude.com/resources/tutorials/getting-started-with-claude-science": {
-    "attempts": 16,
-    "checked_at": 1792832222,
+    "attempts": 17,
+    "checked_at": 1792919603,
     "http_status": 404,
     "message": "HTTP 404: https://academy.claude.com/tutorials/getting-started-with-claude-science",
     "status": "gone"
   },
   "https://claude.com/resources/tutorials/using-research-and-google-workspace": {
-    "attempts": 58,
-    "checked_at": 1792832268,
+    "attempts": 59,
+    "checked_at": 1792919669,
     "http_status": 404,
     "message": "HTTP 404: https://academy.claude.com/tutorials/using-research-and-google-workspace",
     "status": "gone"
   },
   "https://code.claude.com/docs/en/examples": {
-    "attempts": 61,
-    "checked_at": 1792832193,
+    "attempts": 62,
+    "checked_at": 1792919580,
     "http_status": 404,
     "message": "HTTP 404: https://code.claude.com/docs/en/examples",
     "status": "gone"
   },
   "https://code.claude.com/docs/en/reference": {
-    "attempts": 61,
-    "checked_at": 1792832199,
+    "attempts": 62,
+    "checked_at": 1792919589,
     "http_status": 404,
     "message": "HTTP 404: https://code.claude.com/docs/en/reference",
     "status": "gone"
@@ -224,8 +224,8 @@
     "status": "blocked"
   },
   "https://platform.claude.com/docs/en/build-with-claude/err": {
-    "attempts": 41,
-    "checked_at": 1792489906,
+    "attempts": 42,
+    "checked_at": 1792919587,
     "http_status": null,
     "message": "Error or challenge page: Not Found - Claude Platform Docs",
     "status": "blocked"
@@ -238,29 +238,29 @@
     "status": "blocked"
   },
   "https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/12": {
-    "attempts": 41,
-    "checked_at": 1792489922,
+    "attempts": 42,
+    "checked_at": 1792919593,
     "http_status": null,
     "message": "Error or challenge page: Not Found - Claude Platform Docs",
     "status": "blocked"
   },
   "https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/any": {
-    "attempts": 41,
-    "checked_at": 1792489931,
+    "attempts": 42,
+    "checked_at": 1792919608,
     "http_status": null,
     "message": "Error or challenge page: Not Found - Claude Platform Docs",
     "status": "blocked"
   },
   "https://platform.claude.com/docs/en/docs/build-with-claude/tool-useAnthropic": {
-    "attempts": 41,
-    "checked_at": 1792489948,
+    "attempts": 42,
+    "checked_at": 1792919628,
     "http_status": null,
     "message": "Error or challenge page: Not Found - Claude Platform Docs",
     "status": "blocked"
   },
   "https://platform.claude.com/docs/en/managed-agents/2000": {
-    "attempts": 41,
-    "checked_at": 1792575636,
+    "attempts": 42,
+    "checked_at": 1792919639,
     "http_status": null,
     "message": "Error or challenge page: Not Found - Claude Platform Docs",
     "status": "blocked"
@@ -308,316 +308,316 @@
     "status": "blocked"
   },
   "https://support.claude.com/cdn-cgi/l/email-protection": {
-    "attempts": 28,
-    "checked_at": 1792832193,
+    "attempts": 29,
+    "checked_at": 1792919587,
     "http_status": 404,
     "message": "HTTP 404: https://support.claude.com/cdn-cgi/l/email-protection",
     "status": "gone"
   },
   "https://support.claude.com/en/articles": {
-    "attempts": 59,
-    "checked_at": 1792832555,
+    "attempts": 60,
+    "checked_at": 1792919937,
     "http_status": 404,
     "message": "HTTP 404: https://support.claude.com/en/articles",
     "status": "gone"
   },
   "https://support.claude.com/en/articles/10389539-using-the-google-docs-integration": {
-    "attempts": 59,
-    "checked_at": 1792832210,
+    "attempts": 60,
+    "checked_at": 1792919609,
     "http_status": 404,
     "message": "HTTP 404: https://academy.claude.com/tutorials/using-the-google-docs-integration",
     "status": "gone"
   },
   "https://support.claude.com/en/articles/11506255-get-started-with-claude-in-slack": {
-    "attempts": 59,
-    "checked_at": 1792832219,
+    "attempts": 60,
+    "checked_at": 1792919629,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/claude-tag/overview",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/11506255-getting-started-with-claude-in-slack": {
-    "attempts": 59,
-    "checked_at": 1792832223,
+    "attempts": 60,
+    "checked_at": 1792919639,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/claude-tag/overview",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/12306336-claude-for-chrome-release-notes": {
-    "attempts": 59,
-    "checked_at": 1792832234,
+    "attempts": 60,
+    "checked_at": 1792919652,
     "http_status": 404,
     "message": "HTTP 404: https://support.claude.com/en/articles/12306336-claude-for-chrome-release-notes",
     "status": "gone"
   },
   "https://support.claude.com/en/articles/12461605-using-claude-in-slack": {
-    "attempts": 59,
-    "checked_at": 1792832246,
+    "attempts": 60,
+    "checked_at": 1792919658,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/claude-tag/overview",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/12650343-claude-in-excel": {
-    "attempts": 59,
-    "checked_at": 1792832252,
+    "attempts": 60,
+    "checked_at": 1792919670,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/excel",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/12650343-use-claude-for-excel": {
-    "attempts": 60,
-    "checked_at": 1792832471,
+    "attempts": 61,
+    "checked_at": 1792919868,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/excel",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/12650343-using-claude-in-excel": {
-    "attempts": 59,
-    "checked_at": 1792832264,
+    "attempts": 60,
+    "checked_at": 1792919675,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/excel",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/13521390-use-claude-for-powerpoint": {
-    "attempts": 60,
-    "checked_at": 1792832478,
+    "attempts": 61,
+    "checked_at": 1792919874,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/powerpoint",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/13521390-use-claude-in-powerpoint": {
-    "attempts": 59,
-    "checked_at": 1792832274,
+    "attempts": 60,
+    "checked_at": 1792919697,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/powerpoint",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/13521390-using-claude-in-powerpoint": {
-    "attempts": 59,
-    "checked_at": 1792832292,
+    "attempts": 60,
+    "checked_at": 1792919702,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/powerpoint",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/13694757-access-engagement-and-adoption-data-with-the-analytics-api": {
-    "attempts": 59,
-    "checked_at": 1792832311,
+    "attempts": 60,
+    "checked_at": 1792919740,
     "http_status": 404,
     "message": "HTTP 404: https://support.claude.com/en/articles/13694757-access-engagement-and-adoption-data-with-the-analytics-api",
     "status": "gone"
   },
   "https://support.claude.com/en/articles/13694757-claude-enterprise-analytics-api-access-engagement-and-adoption-data": {
-    "attempts": 59,
-    "checked_at": 1792832572,
+    "attempts": 60,
+    "checked_at": 1792919951,
     "http_status": 404,
     "message": "HTTP 404: https://support.claude.com/en/articles/13694757-claude-enterprise-analytics-api-access-engagement-and-adoption-data",
     "status": "gone"
   },
   "https://support.claude.com/en/articles/13892150-work-across-apps-with-cowork": {
-    "attempts": 59,
-    "checked_at": 1792832323,
+    "attempts": 60,
+    "checked_at": 1792919747,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/work-across-apps",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/13892150-work-across-excel-powerpoint-and-word": {
-    "attempts": 59,
-    "checked_at": 1792832343,
+    "attempts": 60,
+    "checked_at": 1792919760,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/work-across-apps",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/13892150-work-across-microsoft-365-apps": {
-    "attempts": 60,
-    "checked_at": 1792832494,
+    "attempts": 61,
+    "checked_at": 1792919887,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/work-across-apps",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms": {
-    "attempts": 60,
-    "checked_at": 1792832501,
+    "attempts": 61,
+    "checked_at": 1792919894,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/third-party-platforms",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/13945233-use-claude-in-excel-and-powerpoint-with-an-llm-gateway": {
-    "attempts": 59,
-    "checked_at": 1792832355,
+    "attempts": 60,
+    "checked_at": 1792919764,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/third-party-platforms",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/14465370-use-claude-for-word": {
-    "attempts": 60,
-    "checked_at": 1792832517,
+    "attempts": 61,
+    "checked_at": 1792919907,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/word",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents": {
-    "attempts": 60,
-    "checked_at": 1792832524,
+    "attempts": 61,
+    "checked_at": 1792919912,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/dictation",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/14855664-use-claude-for-outlook": {
-    "attempts": 60,
-    "checked_at": 1792832540,
+    "attempts": 61,
+    "checked_at": 1792919925,
     "http_status": null,
     "message": "Redirect outside resource scope: https://claude.com/docs/office-agents/outlook",
     "status": "out_of_scope"
   },
   "https://support.claude.com/en/articles/15330089": {
-    "attempts": 51,
-    "checked_at": 1792832208,
+    "attempts": 52,
+    "checked_at": 1792919603,
     "http_status": 404,
     "message": "HTTP 404: https://support.claude.com/en/articles/15330089",
     "status": "gone"
   },
   "https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion": {
-    "attempts": 59,
-    "checked_at": 1792832372,
+    "attempts": 60,
+    "checked_at": 1792919779,
     "http_status": 404,
     "message": "HTTP 404: https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion",
     "status": "gone"
   },
   "https://support.claude.com/en/articles/7996866-how-long-do-you-store-personal-data": {
-    "attempts": 60,
-    "checked_at": 1792832548,
+    "attempts": 61,
+    "checked_at": 1792919931,
     "http_status": 404,
     "message": "HTTP 404: https://support.claude.com/en/articles/7996866-how-long-do-you-store-personal-data",
     "status": "gone"
   },
   "https://support.claude.com/en/articles/9945670-using-the-github-integration": {
-    "attempts": 59,
-    "checked_at": 1792832383,
+    "attempts": 60,
+    "checked_at": 1792919786,
     "http_status": 404,
     "message": "HTTP 404: https://academy.claude.com/tutorials/using-the-github-integration",
     "status": "gone"
   },
   "https://support.claude.com/en/articles/9945689-claude-for-engineering": {
-    "attempts": 59,
-    "checked_at": 1792832399,
+    "attempts": 60,
+    "checked_at": 1792919800,
     "http_status": 404,
     "message": "HTTP 404: https://academy.claude.com/tutorials/claude-for-engineering",
     "status": "gone"
   },
   "https://support.claude.com/en/articles/9945697-claude-for-marketing": {
-    "attempts": 59,
-    "checked_at": 1792832408,
+    "attempts": 60,
+    "checked_at": 1792919808,
     "http_status": 404,
     "message": "HTTP 404: https://academy.claude.com/tutorials/claude-for-marketing",
     "status": "gone"
   },
   "https://support.claude.com/en/articles/9945703-claude-for-sales": {
-    "attempts": 59,
-    "checked_at": 1792832423,
+    "attempts": 60,
+    "checked_at": 1792919822,
     "http_status": 404,
     "message": "HTTP 404: https://academy.claude.com/tutorials/claude-for-sales",
     "status": "gone"
   },
   "https://support.claude.com/en/articles/9998942-claude-for-human-resources": {
-    "attempts": 59,
-    "checked_at": 1792832434,
+    "attempts": 60,
+    "checked_at": 1792919829,
     "http_status": 404,
     "message": "HTTP 404: https://academy.claude.com/tutorials/claude-for-human-resources",
     "status": "gone"
   },
   "https://support.claude.com/en/articles/9999062-claude-for-product-management": {
-    "attempts": 59,
-    "checked_at": 1792832448,
+    "attempts": 60,
+    "checked_at": 1792919844,
     "http_status": 404,
     "message": "HTTP 404: https://academy.claude.com/tutorials/claude-for-product-management",
     "status": "gone"
   },
   "https://support.claude.com/en/collections/13972013-claude-for-financial-services": {
-    "attempts": 59,
-    "checked_at": 1792832456,
+    "attempts": 60,
+    "checked_at": 1792919850,
     "http_status": 404,
     "message": "HTTP 404: https://support.claude.com/en/collections/13972013-claude-for-financial-services",
     "status": "gone"
   },
   "https://www.anthropic.com/ai-fluency": {
-    "attempts": 60,
-    "checked_at": 1792832264,
+    "attempts": 61,
+    "checked_at": 1792919670,
     "http_status": null,
     "message": "Request or redirect outside configured hosts",
     "status": "out_of_scope"
   },
   "https://www.anthropic.com/building-effective-ai-agents": {
-    "attempts": 60,
-    "checked_at": 1792832274,
+    "attempts": 61,
+    "checked_at": 1792919675,
     "http_status": 404,
     "message": "HTTP 404: https://www.anthropic.com/building-effective-ai-agents",
     "status": "gone"
   },
   "https://www.anthropic.com/engineering/building-effective-mcp-servers": {
-    "attempts": 60,
-    "checked_at": 1792832313,
+    "attempts": 61,
+    "checked_at": 1792919704,
     "http_status": 404,
     "message": "HTTP 404: https://www.anthropic.com/research/building-effective-mcp-servers",
     "status": "gone"
   },
   "https://www.anthropic.com/engineering/prompt-engineering-overview": {
-    "attempts": 60,
-    "checked_at": 1792832325,
+    "attempts": 61,
+    "checked_at": 1792919742,
     "http_status": 404,
     "message": "HTTP 404: https://www.anthropic.com/research/prompt-engineering-overview",
     "status": "gone"
   },
   "https://www.anthropic.com/news/claude-for-powerpoint": {
-    "attempts": 16,
-    "checked_at": 1792832210,
+    "attempts": 17,
+    "checked_at": 1792919603,
     "http_status": 404,
     "message": "HTTP 404: https://www.anthropic.com/news/claude-for-powerpoint",
     "status": "gone"
   },
   "https://www.anthropic.com/news/max-plan": {
-    "attempts": 59,
-    "checked_at": 1792832221,
+    "attempts": 60,
+    "checked_at": 1792919611,
     "http_status": 404,
     "message": "HTTP 404: https://claude.com/resources/articles/max-plan",
     "status": "gone"
   },
   "https://www.anthropic.com/news/project-glasswing": {
-    "attempts": 59,
-    "checked_at": 1792832224,
+    "attempts": 60,
+    "checked_at": 1792919630,
     "http_status": null,
     "message": "Redirect outside resource scope: https://www.anthropic.com/glasswing",
     "status": "out_of_scope"
   },
   "https://www.anthropic.com/research/2": {
-    "attempts": 59,
-    "checked_at": 1792832234,
+    "attempts": 60,
+    "checked_at": 1792919639,
     "http_status": 404,
     "message": "HTTP 404: https://www.anthropic.com/research/2",
     "status": "gone"
   },
   "https://www.anthropic.com/research/anthropic.com/research/anthropic-economic-index-january-2026-report": {
-    "attempts": 59,
-    "checked_at": 1792832246,
+    "attempts": 60,
+    "checked_at": 1792919653,
     "http_status": 404,
     "message": "HTTP 404: https://www.anthropic.com/research/anthropic.com/research/anthropic-economic-index-january-2026-report",
     "status": "gone"
   },
   "https://www.anthropic.com/research/cqz@anthropic.com": {
-    "attempts": 59,
-    "checked_at": 1792832252,
+    "attempts": 60,
+    "checked_at": 1792919658,
     "http_status": 404,
     "message": "HTTP 404: https://www.anthropic.com/research/cqz@anthropic.com",
     "status": "gone"
   },
   "https://www.anthropic.com/research/team/alignment.anthropic.com": {
-    "attempts": 3,
-    "checked_at": 1792832208,
+    "attempts": 4,
+    "checked_at": 1792919588,
     "http_status": 404,
     "message": "HTTP 404: https://www.anthropic.com/research/team/alignment.anthropic.com",
     "status": "gone"
   },
   "https://www.anthropic.com/resources": {
-    "attempts": 60,
-    "checked_at": 1792832292,
+    "attempts": 61,
+    "checked_at": 1792919698,
     "http_status": 404,
     "message": "HTTP 404: https://www.anthropic.com/resources",
     "status": "gone"

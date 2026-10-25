@@ -1,0 +1,1 @@
+import{Fm as e,Nm as t}from"../../../../../content-de-meta-hica81ue.js";var n=t();function r(e){return(0,n.jsx)(n.Fragment,{})}function i(t={}){let{wrapper:i}={...e(),...t.components};return i?(0,n.jsx)(i,{...t,children:(0,n.jsx)(r,{...t})}):r(t)}export{i as default};

@@ -152,7 +152,7 @@ This raises an intriguing possibility. Rather than designing each component on i
 
 01Both estimates are for the same 54-orbital model of FeMoco, as tabulated by [Low et al.](https://arxiv.org/abs/2502.15882), “Fast quantum simulation of electronic structure by spectrum amplification” (2025), Table 1; the 2017 estimate is from [Reiher et al.](https://doi.org/10.1073/pnas.1619152114) Intermediate estimates for the same model came from [Berry et al.](https://doi.org/10.22331/q-2019-12-02-208) (2019), [von Burg et al.](https://doi.org/10.1103/PhysRevResearch.3.033055) (2021), [Lee et al.](https://doi.org/10.1103/PRXQuantum.2.030305) (2021), and [Rocca et al.](https://doi.org/10.1021/acs.jctc.4c00352) (2024).
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

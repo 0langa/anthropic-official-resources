@@ -8,6 +8,7 @@ https://claude.com/blog/ooxml.md
 https://claude.com/blog/prompt-engineering-best-practices
 https://claude.com/resources/articles/docx-js.md
 https://claude.com/resources/articles/ooxml.md
+https://claude.com/resources/articles/seeing-like-an-agent
 https://claude.com/resources/tutorials/getting-started-with-claude-science
 https://claude.com/resources/tutorials/using-research-and-google-workspace
 https://code.claude.com/docs/en/examples
