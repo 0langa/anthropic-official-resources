@@ -1227,11 +1227,11 @@ On a platform the sandbox doesn't support, Claude Code doesn't start with this k
 
 * **Scope**: [`Any file`](#scopes), with [limits on project and local settings](/docs/en/sandboxing#repository-settings-under-an-admin-required-sandbox)
 * **Type**: Boolean
-  * `true`: Claude Code exits with an error at startup when `sandbox.enabled` is `true` but the sandbox can't start
+  * `true`: Claude Code exits with an error at startup when `sandbox.enabled` is `true` but the sandbox can't start. If the sandbox passes that check and then fails to initialize, the session keeps running and Claude Code [refuses each sandboxed command](/docs/en/sandboxing#commands-refused-with-sandbox-is-required)
   * `false`: Claude Code runs commands unsandboxed when the sandbox can't start
 * **Default**: `false`
 
-This makes every managed machine sandbox commands or refuse to start:
+This turns the sandbox on for managed machines and sets `failIfUnavailable` to `true`:
 
 ```json managed-settings.json theme={null}
 {

@@ -10,7 +10,7 @@ ProductAll
 
 RoleAll
 
-308 resources
+309 resources
 
 [## AI capabilities and limitations
 
@@ -240,7 +240,7 @@ ProductAll
 
 RoleAll
 
-125 tutorials
+126 tutorials
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-blskv34c.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bv9w6wt2.png)
 

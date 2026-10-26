@@ -2,7 +2,9 @@
 
 This guide explains how to control what Claude can access and do when using Claude in Chrome. Understanding permissions helps you balance productivity with security.
 
-Claude in Chrome is available for all paid plans (Pro, Max, Team, and Enterprise). It's available in Claude Cowork and Claude Code, and in beta in the Chrome browser. On Max and Team plans, the side panel runs as a Claude Cowork session, and this is rolling out to Pro plans in the coming weeks. On Enterprise plans, the side panel runs as a Cowork session once your admin has enabled Cowork in the cloud; until then, it uses the classic experience.
+## Availability
+
+Claude in Chrome is available on paid plans (Pro, Max, Team, and Enterprise), in the Chrome side panel, Claude Cowork, and Claude Code. The side panel runs as a Claude Cowork session. On Enterprise plans, this requires an owner to enable Claude in Chrome and Cowork in the cloud; until then, the side panel uses the classic experience.
 
 **Important:** Before using Claude in Chrome, review **[Use Claude in Chrome Safely](https://support.claude.com/en/articles/12902428)** to understand the risks of browser-based AI.
 
@@ -28,7 +30,7 @@ In "Manually approve," Claude checks with you before it acts. What that looks li
 
 Claude creates a plan from your prompt, which you can approve before Claude starts. The plan specifies which websites you're allowing Claude to access, as well as the approach it will follow:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1792756800&amp;signature=39085252b12b294fbdfdd5f05cd858b1b6feb3172ab10f0b11a31aced3c4102c&amp;req=dSgjFcp8nYZdXvMW3nq%2BgWGE%2FNALMAOb%2BdvFBtvjxAmqXNLR8Iyz2wXjNgFm%0Avgm6SBnEs%2BKSeu1m7qv3ASXVb%2Bk%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1793013300&amp;signature=8708228d6d351724d32e2158d7474548a41b7037f7e298e663ad51a94b0c9853&amp;req=dSgjFcp8nYZdXvMW1HO4zYqyZMFN%2FYG0gN0ADj5oqFDTpkrxu5ypoEPd1qDE%0AZaCYfW%2Fj%2FhxWdjaOxHY%3D%0A)
 
 Note that Claude will only use the websites listed in the plan, so you’ll need to manually approve any additional access requests.
 
@@ -62,7 +64,7 @@ When you choose "Skip all approvals," Claude doesn't pause to ask, and nothing c
 
 There are some websites on which Claude requires approval for every action. If you navigate to one of these sites, a **New permissions required** prompt will appear in the extension side panel, Claude Cowork, or Claude Code where Claude will ask for permission before accessing the page or taking any action.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1792756800&amp;signature=6d6cba0c48175f2c355da17d9f44aae8cb29f233f82faa9d621c129064809db5&amp;req=diYnEsB5nYldXPMW3nq%2BgcHRFEUTsmE5GrTSEFo4rGf6AAqMS3MWzBSNwLRH%0AA53NSkJjfwexuNL70LiJAhQv2uI%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1793013300&amp;signature=9bae5866bcfcd35e75ec27d17bd266d333b5bfbee0995c605a3794cd5627c59c&amp;req=diYnEsB5nYldXPMW1HO4zZ3Nq2VwiS%2Fv7A4lHPBihAUQm6auKIpm7wp7DUji%0ACjOE%2F5Meq35euS8kIjg%3D%0A)
 
 ### Permission options
 

@@ -10,7 +10,7 @@ It's not possible to change another user's name on their behalf, but a user can 
 
 1. Log in to your Claude account.
 
-2. Navigate to **[Settings > General](https://claude.ai/settings/general)**.
+2. Navigate to **Settings > Account**.
 
 3. Make edits to the "Full name" field and click "Save changes."
 
@@ -44,6 +44,6 @@ The email domain that was used to create your Team or Enterprise plan organizati
 
 Owners can remove domains by opening up the same modal and clicking the trash can icon to the right of the domain:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053873852/1cbccea3b7067e03205f2ff8546b/CleanShot+2026-02-11+at+11_16_07%402x.png?expires=1792752300&amp;signature=86ec65745d18d0aa6dab442687573c0ed2518d3f0a024bd0d36109ad8e031b71&amp;req=diAiFcF5nolaW%2FMW1HO4zUrhF%2BmfbAoZkeFUnrkrQZhfcfp0zj2cFsZYwKXP%0AwqjgKEeRxrNawdKYQlw%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2053873852/1cbccea3b7067e03205f2ff8546b/CleanShot+2026-02-11+at+11_16_07%402x.png?expires=1793013300&amp;signature=7c91dc32d7da8d2375bdb2bc21b39e53849c5a9b492a7e24047adf7783124406&amp;req=diAiFcF5nolaW%2FMW1HO4zUrhF%2BiYaAsZkeFUnrkrQZihh1Hlc6xQquBEfVpz%0A4PFfCJFw%2B1VIoy1X5A0%3D%0A)
 
 While the account creator must use a business email address, you can add public domains like @gmail.com, @yahoo.com, and @hotmail.com as allowed domains for other members of your organization.

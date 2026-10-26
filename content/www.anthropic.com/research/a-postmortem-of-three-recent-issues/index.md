@@ -142,7 +142,7 @@ It remains particularly helpful for users to continue to send us their feedback 
 
 We remain grateful to our community for these contributions.
 
-## Authors & Acknowledgments
+## Authors & acknowledgements
 
 ### Acknowledgements
 

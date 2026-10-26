@@ -18,7 +18,7 @@ Skills are available for users on Free, Pro, Max, Team, and Enterprise plans. Th
 
 1. For Team / Enterprise plans: Navigate to **[Organization settings > Plugins & skills](https://claude.ai/admin-settings/skills)**, click the “Policy” tab, and ensure that both **Cloud code execution and file creation** and **Skills** are enabled.
 
-2. For individual Free, Pro, and Max plans: Navigate to **[Settings > Capabilities](https://claude.ai/settings/capabilities)** and ensure that **Code execution and file creation** is enabled.
+2. For individual Free, Pro, and Max plans: Navigate to **Settings > Capabilities** and ensure that **Code execution and file creation** (called **Create and edit files** in the updated Settings layout) is enabled.
 
 3. Go to **[Customize > Skills](https://claude.ai/customize/skills)**.
 
@@ -202,7 +202,7 @@ To remove a custom skill you've uploaded:
 
 4. To delete the custom skill entirely, click the "..." button next to the toggle, then select "Delete":
 
-  ![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2105391273/8359cbf8be20dce0f1cd3fd40e6f/CleanShot-2B2026-02-25-2Bat-2B15_50_16.png?expires=1792752300&amp;signature=bd35ab4f0a89216d1dd760b996888fddf125fa6656a457c0025a9f16881a3724&amp;req=diEnE8p3nINYWvMW1HO4zSOgDikvx%2BSuH%2BdCnFXB0uhI629p5qS5Dx90mvHn%0APDXF%0A)
+  ![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2105391273/8359cbf8be20dce0f1cd3fd40e6f/CleanShot-2B2026-02-25-2Bat-2B15_50_16.png?expires=1793012400&amp;signature=69c0f2324cf49cd14d1fba7269db0d2fa4dc05fcf6463218b994a953baa04243&amp;req=diEnE8p3nINYWvMW1HO4zSOgDigow%2BSpH%2BdCnFXB0ui7qjpHYhJwQkTdZTNE%0Ajgj5%0A)
 
 5. Click "Delete" in the confirmation prompt.
 

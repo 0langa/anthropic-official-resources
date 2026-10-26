@@ -117,9 +117,9 @@ Learn more: [Commands](/docs/en/commands) · [Skills](/docs/en/skills)
 
 ### Compaction
 
-Automatic summarization of your conversation when the [context window](#context-window) approaches its limit. Older tool outputs are cleared first, then the conversation is summarized. Project-root CLAUDE.md and auto memory survive compaction and reload from disk; instructions given only in conversation may be lost. Run `/compact` to trigger manually, optionally with a focus like `/compact focus on the API changes`.
+Automatic summarization of your conversation when the [context window](#context-window) approaches its limit. Project-root CLAUDE.md and auto memory survive compaction, but instructions given only in conversation may not. Run `/compact` to trigger manually, optionally with a focus like `/compact focus on the API changes`.
 
-Learn more: [What survives compaction](/docs/en/context-window#what-survives-compaction) · [When context fills up](/docs/en/how-claude-code-works#when-context-fills-up)
+Learn more: [What survives compaction](/docs/en/context-window#what-survives-compaction) · [When context fills up](/docs/en/how-claude-code-works#when-context-fills-up) · [When Claude Code compacts a conversation you leave idle](/docs/en/settings-reference#idlecompaction)
 
 ### Connector
 

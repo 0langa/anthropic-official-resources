@@ -24,7 +24,7 @@ Anthropic Deputy CISO, Jason Clinton, details how the Security Engineering team 
 
 Claude CodeClaude Tag1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/how-anthropic-secures-its-ai-native-software-development-lifecycle)
 
-[WebinarUpcoming | Oct 28, 2026
+[WebinarUpcoming | Nov 4, 2026
 
 ### Unified Claude: What it means for admins
 
@@ -32,7 +32,7 @@ Chat and Cowork are coming together into a single, simpler Claude experience acr
 
 Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
 
-[WebinarOct 22, 2026
+[WebinarOn demand
 
 ### Claude Rearview Roadmap Review: October 2026
 
@@ -62,13 +62,13 @@ Advanced filters
 
 Showing 11 of 223 resources
 
-[WebinarUpcoming | Oct 28, 2026
+[WebinarUpcoming | Nov 4, 2026
 
 ### Unified Claude: What it means for admins
 
 Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile.
 
-Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[WebinarOct 22, 2026
+Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[WebinarOn demand
 
 ### Claude Rearview Roadmap Review: October 2026
 

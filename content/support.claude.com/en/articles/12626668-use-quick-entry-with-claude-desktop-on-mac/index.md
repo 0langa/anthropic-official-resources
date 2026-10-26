@@ -36,11 +36,11 @@ When you first open the updated version of Claude Desktop, you'll see a prompt t
 
 3. Double-tap the Option key to test the shortcut.
 
-4. Moving forward, manage this in Settings > General (under **Desktop app**).
+4. Moving forward, manage this in **Settings > Desktop app** (or **Settings > System**, under **This computer**, in the older Settings layout).
 
 Once enabled, double-tapping Option will open a text box where you can type your message and start a new chat. You can also click "New chat" to see your five most recent conversations.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893088365/2ca4b782dda90abea1fe5f4150af/CleanShot+2025-12-18+at+13_14_30%402x.png?expires=1792752300&amp;signature=d2ab7d7e6efd45e8102f3b6348f8932d574b3a95674f5ed5c77995962c6c5000&amp;req=dSguFcl2lYJZXPMW1HO4zWggDtxWo56ZRC8c%2FcM5c2JAyKSEzFNxYJQgG41c%0AqreOAakodtJ4%2FpwPaEo%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893088365/2ca4b782dda90abea1fe5f4150af/CleanShot+2025-12-18+at+13_14_30%402x.png?expires=1793013300&amp;signature=d48dc6eb21554c1e34569a2848cc3d3404493baa90b21706b905d5082142cb31&amp;req=dSguFcl2lYJZXPMW1HO4zWggDt1Rp5%2BZRC8c%2FcM5c2KpGwJG8SUYEomkj9Fi%0AoGfly%2Bzp1F9j64MrGz0%3D%0A)
 
 ### Enable the voice shortcut (optional)
 
@@ -108,7 +108,7 @@ You can customize quick entry shortcuts in your Claude Desktop settings.
 
 1. Open Claude Desktop.
 
-2. Go to Settings > General (under **Desktop app**).
+2. Go to **Settings > Desktop app** (or **Settings > System**, under **This computer**, in the older Settings layout).
 
 3. Choose from the following next to **Quick access shortcut**:
 
@@ -166,7 +166,7 @@ Voice dictation transcribes your speech to text in real-time. The transcribed te
 
 ### Can I disable quick entry after enabling it?
 
-Yes. You can disable quick entry shortcuts at any time in Settings > General > Desktop App. You can turn off the quick access shortcut, voice shortcut, or both.
+Yes. You can disable quick entry shortcuts at any time in **Settings > Desktop app** (or **Settings > System**, under **This computer**, in the older Settings layout). You can turn off the quick access shortcut, voice shortcut, or both.
 
 ### What if the shortcuts conflict with other apps?
 

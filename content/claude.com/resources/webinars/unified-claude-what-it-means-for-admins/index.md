@@ -1,4 +1,4 @@
-Oct 28, 2026 — 1:00 – 1:45 PM PT
+Nov 4, 2026 — 1:00 – 1:45 PM PT
 
 # Unified Claude: What it means for admins
 

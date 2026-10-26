@@ -502,7 +502,7 @@
     "blocked": 27,
     "complete": 4945,
     "gone": 47,
-    "out_of_scope": 41,
+    "out_of_scope": 42,
     "partial": 493
   },
   "terminal_unarchived_urls": [
@@ -516,6 +516,7 @@
     "https://claude.com/blog/prompt-engineering-best-practices",
     "https://claude.com/resources/articles/docx-js.md",
     "https://claude.com/resources/articles/ooxml.md",
+    "https://claude.com/resources/articles/seeing-like-an-agent",
     "https://claude.com/resources/tutorials/getting-started-with-claude-science",
     "https://claude.com/resources/tutorials/using-research-and-google-workspace",
     "https://code.claude.com/docs/en/examples",
@@ -675,6 +676,7 @@
     "https://claude.com/resources/articles/ooxml.md",
     "https://claude.com/resources/articles/optimize-code-performance-quickly",
     "https://claude.com/resources/articles/scaling-agentic-coding",
+    "https://claude.com/resources/articles/seeing-like-an-agent",
     "https://claude.com/resources/articles/what-is-model-context-protocol",
     "https://claude.com/resources/articles?categories=product-announcements",
     "https://claude.com/resources/articles?products=claude-code",
