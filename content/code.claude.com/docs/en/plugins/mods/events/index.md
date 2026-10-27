@@ -374,7 +374,7 @@ On Claude Code's own read, if your hook returns a value outside the key's schema
 
 ### Handle the settings hook events
 
-Settings hooks are the command, HTTP, prompt, and agent hooks you configure in settings files. Each [settings hook event](/docs/en/hooks#hook-events), such as `Stop`, `SessionEnd`, or `PostToolUse`, is also an event named `classic.` followed by the settings hook event's name, such as `classic.Stop`. `e` is the JSON a settings hook receives on stdin, including `transcript_path`.
+Settings hooks are the command, HTTP, prompt, and agent hooks you configure in settings files. Each [settings hook event](/docs/en/hooks#hook-events), such as `Stop`, `SessionEnd`, or `PostToolUse`, is also an event named `classic.` followed by the settings hook event's name, such as `classic.Stop`. `e` is the JSON a settings hook receives on stdin, including `transcript_path`. Where the [built-in guard](/docs/en/plugins/mods/admin#know-what-happens-by-default) loads, [a hook on these events in a mod you install doesn't run](/docs/en/plugins/mods/admin#hooks-the-guard-passes-over).
 
 This hook uses `Stop`, which fires when Claude finishes responding, to log where the session's transcript is saved:
 

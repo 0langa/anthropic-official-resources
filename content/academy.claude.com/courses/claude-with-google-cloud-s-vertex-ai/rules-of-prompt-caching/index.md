@@ -95,9 +95,9 @@ You can add up to four cache breakpoints total. If you place a breakpoint on you
 
 ## Minimum Content Length[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/rules-of-prompt-caching)
 
-Content must be at least 1024 tokens long to be cached (sum of all messages/blocks you're trying to cache). A simple "Hi there!" message won't meet this threshold, but if you duplicate that text 500 times, you'll have enough tokens to cache.
+There's a minimum length for caching, and it depends on the model. For Claude Haiku 4.5, the model this course uses, content must be at least 4,096 tokens long to be cached. This is the sum of all messages and blocks you're trying to cache, not individual blocks.
 
-![Two code snippets with a cache_control breakpoint: a single "Hi there!" block is not written to cache but 500 copies are.](https://academy.claude.com/assets/media/e49cdbe111f3f5b91b931e1985dd59d079bff4a41628f5a73ca2d51f42880b1c.png)
+A message like "Hi there!" is far too short to be cached, but a genuinely long prompt reaches the minimum. Content under the minimum is simply processed without caching, and no error comes back. To tell, look at the response's usage: `cache_creation_input_tokens` and `cache_read_input_tokens` will both be 0.
 
 The key to effective prompt caching is identifying the parts of your requests that stay consistent - usually your system prompts and tool definitions - and placing breakpoints strategically to maximize cache hits while minimizing reprocessing.
 

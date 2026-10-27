@@ -8,17 +8,17 @@ Build software with Claude. Plan, write, debug, and ship wherever you code.
 
 An agentic coding tool that lives in your terminal. Learn what Claude Code is, how it works, and the core workflows for getting real work done with it.
 
-Course·12 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-code-101)[### Your first day 
+·Course·12 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-code-101)[### Your first day 
 
 Install, sign in, and ship your first change. The path from zero to a working session.
 
-code.claude.com
+·code.claude.com
 
  (opens in new tab)](https://code.claude.com/docs/en/quickstart)[### Giving Claude context 
 
 CLAUDE.md and prompting habits that give Claude the context it needs.
 
-code.claude.com
+·code.claude.com
 
  (opens in new tab)](https://code.claude.com/docs/en/memory)
 
@@ -34,22 +34,22 @@ Admin setup](https://academy.claude.com/products/code/setup)
 
 - [Power user tips code.claude.com
 
-  code.claude.com
+  ·code.claude.com
 
    (opens in new tab)](https://code.claude.com/docs/en/best-practices)
 - [Models, usage, and limits code.claude.com
 
-  code.claude.com
+  ·code.claude.com
 
    (opens in new tab)](https://code.claude.com/docs/en/costs)
 - [User FAQ support.claude.com
 
-  support.claude.com
+  ·support.claude.com
 
    (opens in new tab)](https://support.claude.com/en/articles/14554922-claude-code-user-faq)
 - [Troubleshooting install and auth code.claude.com
 
-  code.claude.com
+  ·code.claude.com
 
    (opens in new tab)](https://code.claude.com/docs/en/troubleshoot-install)
 
@@ -57,52 +57,52 @@ Admin setup](https://academy.claude.com/products/code/setup)
 
 - [IDE and terminal setup code.claude.com
 
-  code.claude.com
+  ·code.claude.com
 
    (opens in new tab)](https://code.claude.com/docs/en/vs-code)
 - [Workflows that stick code.claude.com
 
-  code.claude.com
+  ·code.claude.com
 
    (opens in new tab)](https://code.claude.com/docs/en/common-workflows)
 - [CLAUDE.md files claude.com
 
-  claude.com
+  ·claude.com
 
    (opens in new tab)](https://claude.com/blog/using-claude-md-files)
 - [MCP servers code.claude.com
 
-  code.claude.com
+  ·code.claude.com
 
    (opens in new tab)](https://code.claude.com/docs/en/mcp)
 - [Hooks claude.com
 
-  claude.com
+  ·claude.com
 
    (opens in new tab)](https://claude.com/blog/how-to-configure-hooks)
 - [Building skills claude.com
 
-  claude.com
+  ·claude.com
 
    (opens in new tab)](https://claude.com/blog/complete-guide-to-building-skills-for-claude)
 - [Building agents with skills claude.com
 
-  claude.com
+  ·claude.com
 
    (opens in new tab)](https://claude.com/blog/building-agents-with-skills-equipping-agents-for-specialized-work)
 - [Subagents code.claude.com
 
-  code.claude.com
+  ·code.claude.com
 
    (opens in new tab)](https://code.claude.com/docs/en/sub-agents)
 - [The .claude directory code.claude.com
 
-  code.claude.com
+  ·code.claude.com
 
    (opens in new tab)](https://code.claude.com/docs/en/claude-directory)
 - [How the context window works code.claude.com
 
-  code.claude.com
+  ·code.claude.com
 
    (opens in new tab)](https://code.claude.com/docs/en/context-window)
 

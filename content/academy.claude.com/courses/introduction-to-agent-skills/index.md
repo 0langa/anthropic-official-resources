@@ -2,7 +2,7 @@
 
 Build, configure, and share skills in Claude Code — reusable markdown instructions that Claude applies automatically to matching tasks. Covers creating your first skill through team distribution and troubleshooting.
 
-6 lessons1 hr
+6 lessons1 hrNo completion badge
 
 [Start course](https://academy.claude.com/courses/introduction-to-agent-skills/what-are-skills)[Sign in to save progress](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-agent-skills)
 

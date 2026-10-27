@@ -28,15 +28,15 @@ Set up once
 
 Everything in this workflow runs on one skill — `/brief`. It knows where your past decisions live, how your reviews are structured, and writes back what was concluded with a citation for every claim.
 
-You’ll use it two ways: a **daily** mode that sorts your morning in step 2, and a **topic** mode that answers a specific question in step 3. The [Legal plugin(opens in new tab)](https://claude.ai/desktop/customize/plugins/new?marketplace=https%3A%2F%2Fgithub.com%2Fanthropics%2Fknowledge-work-plugins&plugin=legal) ships with `/brief` already built. You install it, point it at your sources, and tell Claude to tailor it to your team.
+You’ll use it two ways: a **daily** mode that sorts your morning in step 2, and a **topic** mode that answers a specific question in step 3. The [Legal plugin(opens in new tab)](https://claude.ai/desktop/customize/plugins/new?marketplace=https%3A%2F%2Fgithub.com%2Fanthropics%2Fknowledge-work-plugins&plugin=legal) ships with `/brief` already built. You add the plugin, point it at your sources, and tell Claude to tailor it to your team.
 
-**Install and set it up:**
+**Add the plugin and set it up:**
 
-1. **In Customize → Plugins**, open the [Legal plugin(opens in new tab)](https://claude.ai/desktop/customize/plugins/new?marketplace=https%3A%2F%2Fgithub.com%2Fanthropics%2Fknowledge-work-plugins&plugin=legal) and install it — it comes with the `/brief` skill, built on how a working legal team uses it.
+1. **In Customize → Plugins**, open the [Legal plugin(opens in new tab)](https://claude.ai/desktop/customize/plugins/new?marketplace=https%3A%2F%2Fgithub.com%2Fanthropics%2Fknowledge-work-plugins&plugin=legal) and select **Add**. The plugin comes with the `/brief` skill, built on how a working legal team uses it.
 2. **In Customize → Connectors**, connect the tools the skill draws on — your inbox, calendar, task tracker, chat, and wherever your reviews and decisions are stored. The skill reads across all of them.
 3. **In the chat bar**, pick a place Claude can read, edit, and save to (a working folder in the desktop app, or a project), so every brief lands somewhere you can find it later.
 
-With the plugin installed and your sources connected, tell Claude to tailor `/brief` to your team — where your decisions live, how your reviews are structured, and the format you read fastest:
+With the plugin added and your sources connected, tell Claude to tailor `/brief` to your team — where your decisions live, how your reviews are structured, and the format you read fastest:
 
 Customize the /brief skill from the Legal plugin for my team. Our reviews and past decisions live in [where our reviews are stored] — set up the daily memo and the topic brief around how my reviews are structured and the format I read fastest.
 
@@ -44,7 +44,7 @@ Customize the /brief skill from the Legal plugin for my team. Our reviews and pa
 
 Working folderOpen in Cowork
 
-Claude walks you through your document store and templates, then rewrites the skill to match. Run it on a question you already know the answer to, check the citations, and tell Claude to fix anything it got wrong.
+Claude walks you through your document store and templates, then rewrites the skill to match. Claude shows the result as a file card. Select **Save plugin** to add it to your account. Run it on a question you already know the answer to, check the citations, and tell Claude to fix anything it got wrong.
 
 ## Step 2: Schedule the morning brief[](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
 

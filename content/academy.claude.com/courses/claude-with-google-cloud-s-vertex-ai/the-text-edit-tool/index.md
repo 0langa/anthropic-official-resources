@@ -42,7 +42,7 @@ python
 
 ```
 def get_text_edit_schema(model):
-    if model.startswith("claude-sonnet-4-5"):
+    if model.startswith("claude-haiku-4-5"):
         return {
             "type": "text_editor_20250728",
             "name": "str_replace_based_edit_tool",

@@ -5,16 +5,16 @@ Announcing Claude Managed Agents, Anthropic's new suite of composable APIs for b
 - Category[Announcements](https://claude.com/resources/product-announcements)
 - ProductClaude Platform
 - DateApril 8, 2026
-- Reading time5 min
+- Reading time6 min
 - ShareCopy link
 
 ## Claude Managed Agents explained
 
-Claude Managed Agents is a suite of composable APIs for building and deploying cloud-hosted agents at scale. It pairs an Anthropic-managed harness with production infrastructure for state, memory, permissions, and scheduled execution.
+Claude Managed Agents is a suite of composable APIs for building and deploying cloud-hosted agents at scale. It pairs an Anthropic-managed harness with production infrastructure for state, memory, permissions, and [scheduled execution](https://claude.dev/blog/building-effective-agent-automations/).
 
 Prior to today's launch, building agents meant spending development cycles on secure infrastructure, state management, permissioning, and reworking your agent loops for every model upgrade. Managed Agents combines an agent harness tuned for performance with production infrastructure to go from prototype to launch in days rather than months.
 
-Whether you're building single-task runners or complex multi-agent pipelines, you can focus on the user experience, not the operational overhead.
+Whether you're building single-task runners or [complex multi-agent pipelines](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop), you can focus on the user experience, not the operational overhead.
 
 Managed Agents is available today in public beta on the Claude Platform.
 
@@ -58,6 +58,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/45hPRdfDEsI?enablejsapi=1
 - [**Asana**](https://claude.com/customers/asana-qa) built AI Teammates, collaborative AI agents that work alongside humans inside Asana projects, taking on tasks and drafting deliverables. The team used Managed Agents to add advanced features dramatically faster than they would have been able to otherwise.
 - [**Vibecode**](https://claude.com/customers/vibecode) helps their customers go from prompt to deployed app using Managed Agents as the default integration, powering a new generation of AI-native apps. Users can now spin up that same infrastructure at least 10x quicker than before.[**‍**](https://claude.com/customers/sentry)
 - [**Sentry**](https://claude.com/customers/sentry) paired Seer, their debugging agent, with a Claude-powered agent that writes the patch and opens the PR, so developers go from a flagged bug to a reviewable fix in one flow. The integration shipped in weeks instead of months on Managed Agents.
+
+[Anthropic's own sales team runs its inbound on it](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents).
 
 ![Atlassian](https://assets.claude.com/4870b3d6c0253cea01b100c98ad2030b8e4f8ce1.svg)
 
@@ -161,7 +163,11 @@ Developers can also use the latest version of Claude Code and built-in claude-ap
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 23, 2026
+[ArticleOct 26, 2026
+
+### Expanding Claude for Nonprofits
+
+Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.](https://claude.com/resources/articles/expanding-claude-for-nonprofits)[ArticleOct 23, 2026
 
 ### Claude Cowork and chat come together for Enterprise
 
@@ -175,11 +181,7 @@ Claude Duet is a proactive agent that works for you, even while you’re away. I
 
 Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
 
-Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)[ArticleOct 21, 2026
-
-### HCLTech joins the Claude Partner Network as a Global Premier partner
-
-HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)
+Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)
 
 ## Transform how your organization operates with Claude
 

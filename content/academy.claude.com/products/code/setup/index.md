@@ -34,17 +34,17 @@ Open toolkit
 
 - [Champion kit Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/14555399-claude-code-champion-kit)
 - [Models, usage, and limits Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://code.claude.com/docs/en/costs)
 - [Troubleshooting install and auth Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://code.claude.com/docs/en/troubleshoot-install)
 
@@ -52,76 +52,76 @@ Open toolkit
 
 - [Enterprise deployment overview Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://code.claude.com/docs/en/third-party-integrations)
 - [Amazon Bedrock Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://code.claude.com/docs/en/amazon-bedrock)
 - [Google Cloud’s Agent Platform Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://code.claude.com/docs/en/google-vertex-ai)
 - [Microsoft Foundry Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://code.claude.com/docs/en/microsoft-foundry)
 - [Development containers Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://code.claude.com/docs/en/devcontainer)
 - [Authentication Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://code.claude.com/docs/en/authentication)
 - [Enterprise network configuration Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://code.claude.com/docs/en/network-config)
 - [LLM gateway configuration Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://code.claude.com/docs/en/llm-gateway)
 - [Security model Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://code.claude.com/docs/en/security)
 - [Server-managed settings Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://code.claude.com/docs/en/server-managed-settings)
 - [Zero data retention Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://code.claude.com/docs/en/zero-data-retention)
 - [Data usage Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://code.claude.com/docs/en/data-usage)
 - [Legal and compliance Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://code.claude.com/docs/en/legal-and-compliance)
 - [Team usage analytics Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://code.claude.com/docs/en/analytics)
 - [Monitoring with OpenTelemetry Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://code.claude.com/docs/en/monitoring-usage)

@@ -26,103 +26,103 @@ Browse courses](https://academy.claude.com/all)
 
 - [The unified Claude experience: what admins need to knowGuide
 
-  Guide](https://academy.claude.com/tutorials/unified-claude-experience-for-admins)
+  ·Guide](https://academy.claude.com/tutorials/unified-claude-experience-for-admins)
 - [Set up and manage the new unified Claude experience for your Enterprise organization Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization)
 - [Claude Cowork and unified Claude security best practices Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://trust.anthropic.com/resources?s=uukz8hyx7jmdmo80lys36s&name=claude-cowork-and-unified-claude-security-best-practices)
 - [What is the Enterprise plan? Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan)
 - [Claude Cowork enterprise admin guideGuide
 
-  Guide](https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide)
+  ·Guide](https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide)
 - [The 4 Ds of AI FluencyGuide
 
-  Guide](https://academy.claude.com/tutorials/the-4-ds-of-ai-fluency-behavioral-indicators)
+  ·Guide](https://academy.claude.com/tutorials/the-4-ds-of-ai-fluency-behavioral-indicators)
 
 ## Reference
 
 - [Before you turn on single sign-on (SSO) or provisioning Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/10276682-important-considerations-before-enabling-single-sign-on-sso-and-jit-scim-provisioning)
 - [Set up single sign-on (SSO) Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso)
 - [Set up provisioning Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/13133195-setting-up-jit-or-scim-provisioning)
 - [Roles and permissions Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/9267276-roles-and-permissions)
 - [Manage members and seats Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/13133750-managing-members-on-team-and-enterprise-plans)
 - [Custom data retention controls Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/10440198-custom-data-retention-controls-for-enterprise-plans)
 - [Access audit logs Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/9970975-how-to-access-audit-logs)
 - [Usage analytics for Team and Enterprise plans Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/12883420-usage-analytics-for-team-and-enterprise-plans)
 - [Enterprise billing Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan)
 - [Restrict access with IP allowlisting Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/13200993-restrict-access-to-claude-with-ip-allowlisting)
 - [Enforce tenant restrictions Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/13198485-enforce-network-level-access-control-with-tenant-restrictions)
 - [Configure session security settings Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/13163631-configuring-session-security-settings)
 - [Use connectors to extend Claude Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/11176164-pre-built-web-connectors-using-remote-mcp)
 - [Use enterprise search Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/12489464-using-enterprise-search)
 - [Project visibility and sharing Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/9519189-project-visibility-and-sharing)

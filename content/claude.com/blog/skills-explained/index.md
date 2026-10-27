@@ -22,7 +22,7 @@ Embedded media: https://www.youtube-nocookie.com/embed/IoqpBKrNaZI?enablejsapi=1
 
 Skills are folders containing instructions, scripts, and resources that Claude discovers and loads dynamically when relevant to a task. Think of them as specialized training manuals that give Claude expertise in specific domains—from working with Excel spreadsheets to following your organization's brand guidelines.
 
-**How Skills work:** When Claude encounters a task, it scans available Skills to find relevant matches. Skills use progressive disclosure: metadata loads first (~100 tokens), providing just enough information for Claude to know when a Skill is relevant. Full instructions load when needed (<5k tokens), and bundled files or scripts load only as required.
+**How Skills work:** When Claude encounters a task, it scans available Skills to find relevant matches. Skills use [progressive disclosure](https://claude.dev/blog/lessons-from-building-claude-code-how-we-use-skills/): metadata loads first (~100 tokens), providing just enough information for Claude to know when a Skill is relevant. Full instructions load when needed (<5k tokens), and bundled files or scripts load only as required.
 
 **When to use Skills:** Choose Skills when you need Claude to perform specialized tasks consistently and efficiently. They're ideal for:
 
@@ -84,7 +84,7 @@ Embedded media: https://www.youtube-nocookie.com/embed/ysPbXH0LpIE?enablejsapi=1
 
 **When to use a Skill instead:** If you find yourself typing the same prompt repeatedly across multiple conversations, it's time to create a Skill. Transform recurring instructions like "review this code for security vulnerabilities using OWASP standards" or "format this analysis with executive summary, key findings, and recommendations" into Skills. This saves you from re-explaining procedures each time and ensures consistent execution.
 
-Check out our [prompt library](https://docs.claude.com/en/prompt-library/library), [prompting best practices](http://claude.com/blog/prompt-engineering-best-practices), or [our smart prompt maker](https://claude.ai/public/artifacts/3796db7e-4ef1-4cab-b70c-d045778f23ec) to get started.
+Check out our [prompt library](https://docs.claude.com/en/prompt-library/library), [prompting best practices](https://claude.com/resources/articles/best-practices-for-prompt-engineering), or [our smart prompt maker](https://claude.ai/public/artifacts/3796db7e-4ef1-4cab-b70c-d045778f23ec) to get started.
 
 ### **What are Projects?**
 
@@ -105,7 +105,7 @@ Available on all paid Claude plans, [Projects](https://support.claude.com/en/art
 
 **When to use a Skill instead:** Projects give Claude persistent context for a specific body of work—your company's codebase, a research initiative, an ongoing client engagement. Skills teach Claude how to do something. A Project might contain all the background on your product launch, while a skill could teach Claude your team's writing standards or code review process. If you find yourself copying the same instructions across multiple Projects, that's a signal to create a skill instead.
 
-[Learn](https://support.claude.com/en/articles/9517075-what-are-projects) more about Projects.
+[Learn](https://support.claude.com/en/articles/9517075-what-are-projects) more about Projects. [In Claude Code, projects now work differently](https://claude.com/resources/articles/projects-redesigned).
 
 ### **What are subagents?**
 
@@ -301,7 +301,7 @@ This architecture means you can have many Skills available without overwhelming 
 
 **Use Skills when:** You want capabilities that any Claude instance can load and use. Skills are like training materials—they make Claude better at specific tasks across all conversations.
 
-**Use subagents when:** You need complete, self-contained agents designed for specific purposes that handle workflows independently. Subagents are like specialized employees with their own context and tool permissions.
+**Use subagents when:** You need complete, self-contained agents designed for specific purposes that [handle workflows independently](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop). Subagents are like specialized employees with their own context and tool permissions.
 
 **Use them together when:** You want subagents with specialized expertise. For example, a code-review subagent can use Skills for language-specific best practices, combining the independence of a subagent with the portable expertise of Skills.
 

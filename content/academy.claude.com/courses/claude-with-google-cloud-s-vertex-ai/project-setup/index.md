@@ -84,13 +84,13 @@ The starter project already includes basic chat functionality with Claude. In th
 
   The chatbot project you build on for the rest of this section.
 
-  [Download](https://academy.claude.com/assets/v1/cli_project-oeur3rwg.zip)
+  [Download](https://academy.claude.com/assets/v1/cli_project-nrz6nj8y.zip)
 - 
 
   ### Completed project (cli\_project\_COMPLETE.zip)
 
   The finished version, for checking your work.
 
-  [Download](https://academy.claude.com/assets/v1/cli_project_COMPLETE-bkl5xnz8.zip)
+  [Download](https://academy.claude.com/assets/v1/cli_project_COMPLETE-m9tg5c08.zip)
 
 Was this helpful?

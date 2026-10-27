@@ -2,7 +2,7 @@
 
 Decompose complex tasks across parallel Claude subagents and orchestrate them deterministically.
 
-4 lessons45 min
+4 lessons45 minNo completion badge
 
 [Start course](https://academy.claude.com/courses/introduction-to-subagents/what-are-subagents)[Sign in to save progress](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-subagents)
 

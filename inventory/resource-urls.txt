@@ -583,6 +583,11 @@ https://academy.claude.com/tutorials/claude-enterprise-administrator-guide
 https://academy.claude.com/tutorials/claude-enterprise-end-user-rollout-kit
 https://academy.claude.com/tutorials/claude-for-financial-services-overview
 https://academy.claude.com/tutorials/claude-for-financial-services-skills
+https://academy.claude.com/tutorials/claude-for-nonprofits-data-handling-and-your-ai-use-policy
+https://academy.claude.com/tutorials/claude-for-nonprofits-in-action-ai-policy
+https://academy.claude.com/tutorials/claude-for-nonprofits-in-action-getting-started
+https://academy.claude.com/tutorials/claude-for-nonprofits-in-action-marketing
+https://academy.claude.com/tutorials/claude-for-nonprofits-in-action-people
 https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-guide-for-all-users
 https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-success-guide-for-admins
 https://academy.claude.com/tutorials/claude-for-teachers-in-action
@@ -598,6 +603,7 @@ https://academy.claude.com/tutorials/delegating-and-scheduling-tasks-in-claude-c
 https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork
 https://academy.claude.com/tutorials/discernment-toolkit
 https://academy.claude.com/tutorials/financial-analysis-workflows-with-claude
+https://academy.claude.com/tutorials/fundraising-with-claude-for-nonprofits
 https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps
 https://academy.claude.com/tutorials/getting-good-at-claude-a-research-backed-curriculum
 https://academy.claude.com/tutorials/getting-started-with-claude
@@ -1265,6 +1271,7 @@ https://claude.com/resources/articles/driving-ai-transformation-with-claude
 https://claude.com/resources/articles/eight-trends-defining-how-software-gets-built-in-2026
 https://claude.com/resources/articles/enterprise-managed-auth
 https://claude.com/resources/articles/evaluate-prompts
+https://claude.com/resources/articles/expanding-claude-for-nonprofits
 https://claude.com/resources/articles/extending-claude-capabilities-with-skills-mcp-servers
 https://claude.com/resources/articles/fine-tune-claude-3-haiku
 https://claude.com/resources/articles/fix-software-bugs-faster-with-claude
@@ -1630,6 +1637,8 @@ https://claude.com/resources/webinars/claude-for-investing-teams
 https://claude.com/resources/webinars/claude-for-legal-teams
 https://claude.com/resources/webinars/claude-for-life-sciences
 https://claude.com/resources/webinars/claude-for-marketing-ops-and-analytics
+https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one
+https://claude.com/resources/webinars/claude-for-nonprofits-admin-guide-to-data-handling-ai-policy
 https://claude.com/resources/webinars/claude-for-nonprofits-moving-your-workflow-beyond-chat
 https://claude.com/resources/webinars/claude-for-work-research-google-integration
 https://claude.com/resources/webinars/claude-in-excel-and-powerpoint
@@ -4317,6 +4326,7 @@ https://support.claude.com/en/articles/12542951-enable-and-use-the-microsoft-365
 https://support.claude.com/en/articles/12542951-enabling-and-using-the-microsoft-365-connector
 https://support.claude.com/en/articles/12542951-set-up-the-microsoft-365-connector
 https://support.claude.com/en/articles/12580051-teach-claude-your-way-of-working-using-skills
+https://support.claude.com/en/articles/12592343
 https://support.claude.com/en/articles/12592343-enabling-and-using-the-desktop-extension-allowlist
 https://support.claude.com/en/articles/12599426-how-to-create-a-skill-with-claude-through-conversation
 https://support.claude.com/en/articles/12611117
@@ -5225,6 +5235,7 @@ https://www.anthropic.com/news/releasing-claude-instant-1-2
 https://www.anthropic.com/news/research
 https://www.anthropic.com/news/responsible-scaling-policy-v3
 https://www.anthropic.com/news/rwandan-government-partnership-ai-education
+https://www.anthropic.com/news/s1-sec
 https://www.anthropic.com/news/safeguards
 https://www.anthropic.com/news/salesforce-anthropic-expanded-partnership
 https://www.anthropic.com/news/salesforce-partnership

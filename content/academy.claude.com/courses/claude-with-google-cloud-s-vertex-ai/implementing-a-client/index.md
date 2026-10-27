@@ -68,7 +68,17 @@ We pass the tool name and input parameters (provided by Claude) to the server an
 
 ## Testing the Client[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/implementing-a-client)
 
-To verify our implementation works, we can test it directly. The client file includes a testing harness that connects to the MCP server and runs commands against it.
+To verify our implementation works, we can test it directly. The client file includes a testing harness that connects to the MCP server and runs commands against it. Have it call `list_tools()` and print the result:
+
+python
+
+```
+async with MCPClient(
+    command="uv", args=["run", "mcp_server.py"]
+) as client:
+    result = await client.list_tools()
+    print(result)
+```
 
 Running `uv run mcp_client.py` should return a list of available tools with their descriptions and input schemas. You should see tools like `read_doc_contents` and `edit_document` that we defined in our server.
 

@@ -48,7 +48,13 @@ Read the full **2026 Agentic Coding Trends Report** [here](https://resources.ant
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleSep 25, 2026
+[ArticleOct 22, 2026
+
+### LLMs are making formal software verification feasible at a much larger scale
+
+We need ways to prove that code is free of bugs. Formal software verification could provide this guarantee.
+
+(opens in new tab)](https://www.anthropic.com/research/formal-verification)[ArticleSep 25, 2026
 
 ### What a task costs on Opus 5.5
 
@@ -68,13 +74,7 @@ Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-
 
 Retailers running shopping agents on Claude have seen carts up to 35% larger and shoppers 60% more likely to complete a purchase.
 
-Claude Platform](https://claude.com/resources/articles/claude-for-commerce-agents)[ArticleJul 7, 2026
-
-### How people are using Claude Cowork
-
-In a sample of Claude Cowork sessions, we found that roughly half of all usage comprises “the work around the work”—tasks that are part of a broad swath of jobs, but are rarely a person’s core responsibility.
-
-Claude Cowork](https://claude.com/resources/articles/how-people-are-using-claude-cowork)
+Claude Platform](https://claude.com/resources/articles/claude-for-commerce-agents)
 
 ## Transform how your organization operates with Claude
 

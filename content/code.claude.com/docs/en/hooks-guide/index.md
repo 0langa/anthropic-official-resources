@@ -626,6 +626,7 @@ On `PreToolUse`, you can also return `"ask"` to show the user the normal permiss
 
 * Reads from [network paths](/docs/en/permissions#network-paths)
 * MCP tools marked [`requiresUserInteraction`](/docs/en/mcp#require-approval-for-a-specific-tool)
+* Calls to [tools an Agent SDK app marks `always_ask`](/docs/en/agent-sdk/custom-tools#require-approval-for-specific-tools), unless the [permission mode approves the call](/docs/en/agent-sdk/typescript#permission-modes-that-can-approve-an-always_ask-call)
 * Connector tools [your organization set to `ask`](/docs/en/mcp#organization-controls-on-connector-tools) in sessions where that setting reaches Claude Code
 
 For what `"allow"` does in plan mode, see [Hook approvals in plan mode](/docs/en/permissions#hook-approvals-in-plan-mode).
@@ -961,6 +962,7 @@ With a hook in a settings file or a plugin's `hooks/hooks.json` you can't loosen
 
   * Reads from [network paths](/docs/en/permissions#network-paths)
   * MCP tools marked [`requiresUserInteraction`](/docs/en/mcp#require-approval-for-a-specific-tool)
+  * Calls to [tools an Agent SDK app marks `always_ask`](/docs/en/agent-sdk/custom-tools#require-approval-for-specific-tools), unless the [permission mode approves the call](/docs/en/agent-sdk/typescript#permission-modes-that-can-approve-an-always_ask-call)
   * Connector tools [your organization set to `ask`](/docs/en/mcp#organization-controls-on-connector-tools) in sessions where that setting reaches Claude Code
 
   In [plan mode](/docs/en/permissions#hook-approvals-in-plan-mode), if your `PreToolUse` hook returns `"allow"` for a file edit, you get the same prompt, block, or approval the edit would get with no hook. To lift this limit on hook approvals, [approve the plan](/docs/en/permission-modes#review-and-approve-a-plan) or switch to another permission mode.

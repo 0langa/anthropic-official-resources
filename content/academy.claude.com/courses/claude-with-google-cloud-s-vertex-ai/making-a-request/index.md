@@ -17,7 +17,7 @@ First, you'll need to install the Anthropic SDK with Vertex AI support. In your 
 bash
 
 ```
-%pip install "anthropic[vertex]"
+%pip install "anthropic[vertex]<1"
 ```
 
 The `[vertex]` part ensures you get the specific components needed to connect to Google Cloud's Vertex AI platform.
@@ -32,7 +32,7 @@ python
 from anthropic import AnthropicVertex
 
 client = AnthropicVertex(region="global", project_id="your-project-id")
-model = "claude-sonnet-4-5@20250929"
+model = "claude-haiku-4-5@20251001"
 ```
 
 You'll need to replace `"your-project-id"` with your actual Google Cloud project ID, which you can find in the Google Cloud Console's project selector. Setting the model as a variable saves you from typing it repeatedly throughout your notebooks.

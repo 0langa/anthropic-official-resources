@@ -14,13 +14,14 @@ Running the plugin well is an act of delegation, in two moves: you put the job i
 
 ## Install and run the plugin[](https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin)
 
-You'll need the [Claude desktop app(opens in new tab)](https://claude.com/download) on a Pro, Max, Team, or Enterprise plan.
+You'll need a Pro, Max, Team, or Enterprise plan. You can add the plugin in Claude on the web or in the [Claude desktop app(opens in new tab)](https://claude.com/download).
 
-1. Open Claude and click **Customize** in the left sidebar.
-2. Under **Plugins**, click **+**.
-3. Find **Small Business** and click **Install**.
+1. Open Claude and select **Customize** in the left sidebar, then **Plugins**.
+2. Open **Discover**.
+3. Select **Small Business**, then **Add**.
+4. Connect your tools when asked.
 
-After installing the plugin, you'll have all of the [skills(opens in new tab)](https://academy.claude.com/tutorials/what-are-skills) listed below available. To tailor the plugin to your business and workflow, see the *Customize the plugin for your business* section of this guide.
+After you add the plugin, you'll have all of the [skills(opens in new tab)](https://academy.claude.com/tutorials/what-are-skills) listed below available. To tailor the plugin to your business and workflow, see the *Customize the plugin for your business* section of this guide.
 
 #### To run a skill:
 
@@ -43,7 +44,7 @@ The tools listed are the defaults. When you customize the plugin, you can point 
 
 The skills come with defaults written for a typical small business. There are two ways to make them yours.
 
-In **Customize → Plugins**, open **Claude for Small Business** and click **Customize**. Or type the prompt yourself in the chat bar:
+Ask Claude to customize the plugin for your business. Start a new conversation and type this prompt in the chat bar:
 
 Customize the "small-business" plugin for me based on my company.
 
@@ -51,9 +52,9 @@ Customize the "small-business" plugin for me based on my company.
 
 Open in Cowork
 
-Claude asks about your business — what you do, who works with you, what's hardest right now — and rewrites the plugin's defaults to match. From then on, the skills carry your context: your industry, your team size, your priorities, the way you like things done.
+Claude asks about your business — what you do, who works with you, what's hardest right now — and rewrites the plugin's defaults to match. Claude shows the result as a file card. Select **Save plugin** to add it to your account. From then on, the skills carry your context: your industry, your team size, your priorities, the way you like things done.
 
-As you do tasks with Claude that run these skills and see the output they produce, you can tell Claude to update any of them at any time — say what you'd like different and the change is saved. Over time the skills get more tailored to how you like things done and how you want the outputs to come out.
+As you do tasks with Claude that run these skills and see the output they produce, you can tell Claude to update any of them at any time. Say what you'd like different, and save the plugin again when Claude shows the updated version. Over time the skills get more tailored to how you like things done and how you want the outputs to come out.
 
 For the full pattern, see [How to customize plugins in Claude(opens in new tab)](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork).
 

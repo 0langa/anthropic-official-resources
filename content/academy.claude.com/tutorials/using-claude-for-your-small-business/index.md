@@ -36,7 +36,7 @@ Help me build a Monday morning brief every week in Slack. Pull my cash position 
 
 
 
-BusinessOpen in Cowork
+Small BusinessOpen in Cowork
 
 This prompt starts the /monday-brief skill, which gives Claude instructions for reading every connected business tool and writing a single page you can scan in a minute. After [customizing the plugin(opens in new tab)](https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin), Claude leads with what matters most for your business.
 
@@ -68,7 +68,7 @@ Close out March for me. Reconcile my QuickBooks transactions against PayPal sett
 
 
 
-BusinessOpen in Cowork
+Small BusinessOpen in Cowork
 
 This prompt starts the /close-month skill, which gives Claude instructions for reconciling your books, flagging anything that doesn't line up, and writing a close packet for your accountant. After [customizing the plugin(opens in new tab)](https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin), Claude follows your category conventions and the flags you care about.
 
@@ -106,7 +106,7 @@ Get me ready for payroll on the 15th. Pull my cash position from QuickBooks, my 
 
 
 
-BusinessOpen in Cowork
+Small BusinessOpen in Cowork
 
 This prompt starts the /plan-payroll skill, which gives Claude instructions for forecasting the next 30 days of cash and drafting reminders for overdue invoices. After [customizing the plugin(opens in new tab)](https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin), Claude knows your team and how each customer pays.
 
@@ -142,7 +142,7 @@ A 30-day cash chart, a ranked overdue list with payment history, a reminder for 
 
 - **You approve before anything sends, posts, or pays** — skills draft, propose, and stage. Nothing goes out until you say so.
 - **The big decisions stay with you** — Claude prepares the work and shows you what it found, but the calls that matter — what to charge, what to sign, what to send your accountant — are yours and your professionals' to make.
-- **The skills update when you correct them** — tell `/invoice-chase` you chase at 15 days, tell `/monday-brief` what to lead with, and the change is saved for the next run. The pattern is in [How to customize plugins in Claude(opens in new tab)](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork).
+- **The skills update when you correct them** — tell `/invoice-chase` you chase at 15 days, or tell `/monday-brief` what to lead with, and ask Claude to add the change to the plugin. Save the plugin again when Claude shows the updated version, and the next run uses the change. The pattern is in [How to customize plugins in Claude(opens in new tab)](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork).
 - **Your existing permissions hold** — Claude reads what your account in each tool can read. It can't see data you don't already have access to.
 - **Anthropic doesn't train Claude on your business data** — the full policy is in the [Trust Center(opens in new tab)](https://trust.anthropic.com/).
 

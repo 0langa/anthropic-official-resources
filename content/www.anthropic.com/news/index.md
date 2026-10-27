@@ -2,7 +2,7 @@
 
 Latest news
 
-October 25, 2026
+October 27, 2026
 
 [Announcements](https://www.anthropic.com/news/announcements)
 
@@ -96,7 +96,7 @@ The first AI-assisted drive on another planet. Claude helped NASA's Perseverance
 
 AllProductCompany
 
-279
+280
 
 ARTICLES
 
@@ -112,6 +112,17 @@ Category
 
 Date
 
+- [### Anthropic files S-1 with the SEC for proposed initial public offering](https://www.anthropic.com/news/s1-sec)
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+
+  Oct 26, 2026
+
+  Oct 26, 2026
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+
+  [### Anthropic files S-1 with the SEC for proposed initial public offering](https://www.anthropic.com/news/s1-sec)
 - [### Donating Agent Skills to the Agentic AI Foundation](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation)
 
   [We’re donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation. More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since we published the standard in December 2025.](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation)
@@ -411,19 +422,6 @@ Date
   [Safeguards](https://www.anthropic.com/news/safeguards)
 
   [### Improving our alignment and security efforts](https://www.anthropic.com/news/improving-alignment-security-efforts)[On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.](https://www.anthropic.com/news/improving-alignment-security-efforts)
-- [### Previewing the Model Hardware Standard](https://www.anthropic.com/news/model-hardware-standard-research-preview)
-
-  [We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.](https://www.anthropic.com/news/model-hardware-standard-research-preview)
-
-  [Announcements](https://www.anthropic.com/news/announcements)
-
-  Aug 27, 2026
-
-  Aug 27, 2026
-
-  [Announcements](https://www.anthropic.com/news/announcements)
-
-  [### Previewing the Model Hardware Standard](https://www.anthropic.com/news/model-hardware-standard-research-preview)[We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.](https://www.anthropic.com/news/model-hardware-standard-research-preview)
 
 See more
 

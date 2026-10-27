@@ -19,7 +19,7 @@ Here’s what you need to know about our expanded certification program.
 Putting Claude to use at a large enterprise involves different roles and specialties, and the certification maps to the four largest ones:
 
 - **(New) Claude Certified Associate: Foundations** validates practical, everyday use of Claude for anyone working on Claude-related projects. This applies to a wide range of roles including consultants, project leads, and both business and technical expertise.
-- **(New) Claude Certified Developer: Foundations** is for engineers building applications with Claude, and includes training on the Claude API, tool use, and agent development.
+- **(New) Claude Certified Developer: Foundations** is for engineers building applications with Claude, and includes training on the Claude API, tool use, and [agent development](https://claude.com/resources/articles/building-agents-with-the-claude-agent-sdk).
 - **(New) Claude Certified Architect: Professional** is the advanced credential, covering integration architecture, governance, and evaluation, built for the scale of large enterprises.
 - **Claude Certified Architect: Foundations** is for solution architects who design and build agent systems with Claude.
 
@@ -31,7 +31,7 @@ Every path to getting credentialed starts with a foundation-level certification 
 
 ‍
 
-Firms across the network are committing to certify their people at scale and are prioritizing certification during the hiring process, and the Global Premier partners are doing it in the largest cohorts. Accenture has committed to have 50,000 certified professionals across foundational, technical, and specialized tracks. Capgemini will certify 20,000 professionals. Cognizant will certify 10,000 developers and engineers. Deloitte will certify 15,000 professionals. DXC has committed to 20,000 certifications. Infosys has committed to 10,000. KPMG will certify 15,000 professionals. PwC will certify 30,000 professionals. TCS has committed to 10,000. And UST plans to certify 20,000 individuals worldwide, across roles from architects and engineers to consultants and industry specialists.
+Firms across the network are committing to certify their people at scale and are prioritizing certification during the hiring process, and the [Global Premier partners](https://claude.com/resources/articles/hcltech-joins-claude-partner-network) are doing it in the largest cohorts. Accenture has committed to have 50,000 certified professionals across foundational, technical, and specialized tracks. Capgemini will certify 20,000 professionals. Cognizant will certify 10,000 developers and engineers. Deloitte will certify 15,000 professionals. DXC has committed to 20,000 certifications. Infosys has committed to 10,000. KPMG will certify 15,000 professionals. PwC will certify 30,000 professionals. TCS has committed to 10,000. And UST plans to certify 20,000 individuals worldwide, across roles from architects and engineers to consultants and industry specialists.
 
 It isn't only the largest firms: specialist AI-native and boutique consultancies are certifying entire delivery teams. Ascendion plans to certify its entire 8,000-person engineering team before 2027. EPAM will have more than 10,000 Claude-certified architects, including 250 specialized forward-deployed engineers. Fractal is targeting 2,000 certified practitioners. Globant is growing a practice toward 5,000 certified architects. Persistent expects more than 3,000 Claude certifications by the end of 2026. And Wipro will certify 10,000 front-line delivery experts within 18 months.
 
@@ -67,7 +67,11 @@ Firms can join the Claude Partner Network and register practitioners at <http://
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 23, 2026
+[ArticleOct 26, 2026
+
+### Expanding Claude for Nonprofits
+
+Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.](https://claude.com/resources/articles/expanding-claude-for-nonprofits)[ArticleOct 23, 2026
 
 ### Claude Cowork and chat come together for Enterprise
 
@@ -81,11 +85,7 @@ Claude Duet is a proactive agent that works for you, even while you’re away. I
 
 Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
 
-Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)[ArticleOct 21, 2026
-
-### HCLTech joins the Claude Partner Network as a Global Premier partner
-
-HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)
+Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)
 
 ## Transform how your organization operates with Claude
 

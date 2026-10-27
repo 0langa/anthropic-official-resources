@@ -36,12 +36,12 @@ Read the framework](https://academy.claude.com/tutorials/the-4-ds-of-ai-fluen
 
 - [How Anthropic uses Claude Cowork Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/69f24d3e09b921b92403774e_Claude-Deploying-Claude-Across-Your-Organization-04292026.pdf)
 - [Best practices from industry leaders Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/69f3af1f0b8ebe5cde42fcda_Claude-Building-AI-Agents-in-the-Enterpise-04302026_v2%20(1).pdf)
 
@@ -49,91 +49,91 @@ Read the framework](https://academy.claude.com/tutorials/the-4-ds-of-ai-fluen
 
 - [Deploy Claude for Mac Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos)
 - [Deploy Claude for Windows Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/12622703-deploy-claude-desktop-for-windows)
 - [Restrict access with IP allowlisting Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/13200993-restrict-access-to-claude-with-ip-allowlisting)
 - [Enforce tenant restrictions Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/13198485-enforce-network-level-access-control-with-tenant-restrictions)
 - [Manage group spend limits Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/13799932-manage-groups-and-group-spend-limits-on-enterprise-plans)
 - [Cowork monitoring reference Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://claude.com/docs/cowork/monitoring)
 - [Set organization instructions Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/14546867-set-organization-preferences)
 - [Cowork on third-party platforms Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://claude.com/docs/third-party/claude-desktop/overview)
 - [Set up and manage the new unified Claude experience for your Enterprise organization Help Center
 
-  Help Center
+  ·Help Center
 
    (opens in new tab)](https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization)
 - [Claude Cowork and unified Claude security best practices Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://trust.anthropic.com/resources?s=uukz8hyx7jmdmo80lys36s&name=claude-cowork-and-unified-claude-security-best-practices)
 - [Claude Cowork Desktop Security Architecture Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://trust.anthropic.com/resources?s=2a7bbzo1lyymvdt551q7kl&name=claude-cowork-desktop-security-architecture-overview)
 - [Claude Cowork Security Overview (Third-party platforms) Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://trust.anthropic.com/resources?s=0c8rx4s7mm5ierz8ppetfs&name=claude-cowork-security-overview-%28third-party-platforms)
 - [Claude for Excel, PowerPoint, Word: Architecture Overview (Anthropic first party) Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://trust.anthropic.com/resources?s=e3n7pvyjnxjyahmdmqujcx&name=claude-for-excel%2C-powerpoint%2C-word%3A-architecture-overview-%28anthropic-first-party%29)
 - [Claude for Excel, PowerPoint, Word: Architecture Overview (Third party platforms) Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://trust.anthropic.com/resources?s=cr82xwczp0bnof6v67d25&name=claude-for-excel%2C-powerpoint%2C-word%3A-architecture-overview-%28third-party-platforms%29)
 - [How a $2 billion venture fund made Claude Cowork its shared firm infrastructure Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://claude.com/customers/airtree)
 - [How Jamf reached 89% active usage in eight weeks with Claude Enterprise in AWS Marketplace Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://claude.com/customers/jamf)
 - [How Zapier's marketing and engineering teams use Claude Cowork to delegate real work Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://claude.com/customers/zapier-cowork-qa)
 - [HubSpot product and marketing leaders on scaling Claude Cowork Guide
 
-  Guide
+  ·Guide
 
    (opens in new tab)](https://claude.com/customers/hubspot-qa)

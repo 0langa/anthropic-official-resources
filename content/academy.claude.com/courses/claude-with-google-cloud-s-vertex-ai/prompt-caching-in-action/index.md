@@ -60,7 +60,7 @@ if system:
 
 When you make your first request with cacheable content, you'll see `cache_creation_input_tokens` in the usage field. This shows how many tokens Claude wrote to the cache. On subsequent requests with identical content, you'll see `cache_read_input_tokens` instead.
 
-If you have both cached and new content in the same request, you might see both cache reads and cache writes. For example, if you keep the same tool schemas but change the system prompt, you'll read the tools from cache while writing the new system prompt to cache.
+If you have both cached and new content in the same request, you might see both cache reads and cache writes. For example, if you keep the same tool schemas but change the system prompt, you'll read the tools from cache while writing the new system prompt to cache. You only get that partial read when the tools alone reach the minimum length, because a cache breakpoint whose content up to that point is under the minimum doesn't write anything.
 
 ## Cache Invalidation[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/prompt-caching-in-action)
 

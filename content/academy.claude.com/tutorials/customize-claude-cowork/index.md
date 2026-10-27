@@ -56,9 +56,9 @@ The built-in skill-creator captures the steps, templates, and source locations s
 
 ### **Plugins**[](https://academy.claude.com/tutorials/customize-claude-cowork)
 
-[Plugins(opens in new tab)](https://support.claude.com/en/articles/13837440-use-plugins-in-cowork) bundle together Connectors and Skills so teammates have what they need to get started.
+[Plugins(opens in new tab)](https://support.claude.com/en/articles/13837440-use-plugins-in-cowork) bundle skills and connectors so teammates have what they need to get started.
 
-Diagram: an equation graphic showing Connectors plus Skills equals Plugins, with each labeled as access to systems, best practices for work, and both bundled for one-click install.
+Diagram: an equation graphic showing Connectors plus Skills equals Plugins, with each labeled as access to systems, best practices for work, and both in a single package.
 
 **Connectors**Access to your systems and tools
 
@@ -68,18 +68,18 @@ Diagram: an equation graphic showing Connectors plus Skills equals Plugins, with
 
 =
 
-**Plugins**Both — installed in one click
+**Plugins**Both, in a single package
 
 #### **Example plugins**
 
 Anthropic publishes ready-made plugins for common roles, each pairing the connectors that role relies on with skills for its core workflows:
 
-- [**Sales**(opens in new tab)](https://github.com/anthropics/knowledge-work-plugins/tree/main/sales) — HubSpot, Close, Clay, ZoomInfo, and Fireflies (plus Slack), with Skills for account research, call prep, pipeline reviews, and competitive battle cards.
-- [**Product**(opens in new tab)](https://github.com/anthropics/knowledge-work-plugins/tree/main/product-management) — Atlassian (Jira and Confluence), Linear, Notion, and Slack, with Skills for feedback clustering, PRD writing, sprint updates, and competitive teardowns.
-- [**Legal**(opens in new tab)](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal) — Box, Egnyte, DocuSign, Slack, and Atlassian, with Skills for contract review, NDA triage, signature requests, and vendor checks.
-- [**Operations**(opens in new tab)](https://github.com/anthropics/knowledge-work-plugins/tree/main/operations) — Jira, Asana, and Notion, with Skills for vendor reviews, process documentation, change requests, and capacity planning.
+- [**Sales**(opens in new tab)](https://github.com/anthropics/knowledge-work-plugins/tree/main/sales) — HubSpot, Close, Clay, ZoomInfo, and Fireflies (plus Slack), with skills for account research, call prep, pipeline reviews, and competitive battle cards.
+- [**Product**(opens in new tab)](https://github.com/anthropics/knowledge-work-plugins/tree/main/product-management) — Atlassian (Jira and Confluence), Linear, Notion, and Slack, with skills for feedback clustering, PRD writing, sprint updates, and competitive teardowns.
+- [**Legal**(opens in new tab)](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal) — Box, Egnyte, DocuSign, Slack, and Atlassian, with skills for contract review, NDA triage, signature requests, and vendor checks.
+- [**Operations**(opens in new tab)](https://github.com/anthropics/knowledge-work-plugins/tree/main/operations) — Jira, Asana, and Notion, with skills for vendor reviews, process documentation, change requests, and capacity planning.
 
-Browse available Plugins in the **Customize** sidebar for more options, or ask Claude to bundle your own connectors and Skills into a custom plugin to share with your team. [Browse plugins for my role in Cowork](claude://cowork/new?q=Show%20me%20the%20plugins%20available%20for%20my%20role%20and%20help%20me%20pick%20one%20to%20install.).
+Browse more plugins in **Customize > Plugins**, under **Discover**, or ask Claude to bundle your own connectors and skills into a custom plugin to share with your team. [Browse plugins for my role in Cowork](claude://cowork/new?q=Show%20me%20the%20plugins%20available%20for%20my%20role%20and%20help%20me%20pick%20one%20to%20install.).
 
 ## Where to go from here[](https://academy.claude.com/tutorials/customize-claude-cowork)
 
@@ -93,6 +93,6 @@ Once you're set up, additional features can take you further:
 For more on working with Claude:
 
 - [Choosing between Claude Cowork or Chat(opens in new tab)](https://academy.claude.com/tutorials/choosing-between-claude-cowork-or-chat) — when a task is worth handing over and when a conversation is enough.
-- [Building plugins from scratch(opens in new tab)](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork) — when the marketplace doesn't have what you need.
+- [Building plugins from scratch(opens in new tab)](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork) — when the ready-made plugins don't have what you need.
 
 Was this helpful?
