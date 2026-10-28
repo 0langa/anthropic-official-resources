@@ -454,7 +454,7 @@ Connectors: Figma, GitHub
 
 ### Try a plugin[](https://academy.claude.com/use-cases/clickable-prototype)
 
-The Design plugin ships with `/design-handoff` already structured to read a flow description and a component library and emit a wired, clickable HTML build. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Design plugin ships with `/design-handoff` already structured to read a flow description and a component library and emit a wired, clickable HTML build. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -608,7 +608,7 @@ Your customized `/design-handoff` now carries your component map, your data fixt
 
 Share the skill
 
-In Cowork, open **Skills** → `/design-handoff` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your library and conventions baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/design-handoff`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your library and conventions baked in, so they don't repeat Steps 1-3.
 
 ## What changes for early concept testing[](https://academy.claude.com/use-cases/clickable-prototype)
 

@@ -204,7 +204,7 @@ Connectors: Notion
 
 ### Try a plugin[](https://academy.claude.com/use-cases/on-brand-content)
 
-The Marketing plugin ships with `/draft-content` and other content-production skills as a starting point, already structured to write from a brief and hold a voice guide. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Marketing plugin ships with `/draft-content` and other content-production skills as a starting point, already structured to write from a brief and hold a voice guide. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -306,7 +306,7 @@ Draft the content set for this campaign: a blog post, landing page copy, a three
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/on-brand-content)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the /draft-content skill with my feedback.
 
@@ -346,7 +346,7 @@ Your customized `/draft-content` now carries your voice rules, your CTA library,
 
 Share the skill
 
-In Cowork, open **Skills** → `/draft-content` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your brand voice and asset list baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/draft-content`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your brand voice and asset list baked in, so they don't repeat Steps 1-3.
 
 ## Going forward[](https://academy.claude.com/use-cases/on-brand-content)
 

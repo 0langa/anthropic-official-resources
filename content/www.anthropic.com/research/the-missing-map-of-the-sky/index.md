@@ -17,9 +17,7 @@
 
 Related articles
 
-- Science
-
-  Sep 23, 2026
+- Sep 23, 2026
 
   [Claude discovers a novel enzyme system with CRISPR-like repeats](https://www.anthropic.com/research/claude-discovers-novel-enzyme-system)
 

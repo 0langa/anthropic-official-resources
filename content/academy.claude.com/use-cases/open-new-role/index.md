@@ -262,7 +262,7 @@ Connectors: Google Drive
 
 ### Try a plugin[](https://academy.claude.com/use-cases/open-new-role)
 
-The Human Resources plugin ships with `/recruiting-pipeline` and other recruiting skills as a starting point, already structured to ask the intake questions in order and write to a spec template. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Human Resources plugin ships with `/recruiting-pipeline` and other recruiting skills as a starting point, already structured to ask the intake questions in order and write to a spec template. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -375,7 +375,7 @@ so you know where to look first when you review the draft.
 
 ## 3. Make Cowork work for you[](https://academy.claude.com/use-cases/open-new-role)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the
 /recruiting-pipeline skill with my feedback.
@@ -419,9 +419,11 @@ Your customized `/recruiting-pipeline` now carries your intake questions, your l
 
 Share the skill
 
-In Cowork, open **Skills** → `/recruiting-pipeline` → **Share** and pick your
-hiring managers (or your whole workspace, if your admin allows). They get the
-skill with your intake and templates baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...**
+menu next to `/recruiting-pipeline`, select **Share**, and pick your hiring
+managers. For your whole organization, open the skill and select
+**Publish to org**, if your admin allows. They get the skill with your intake
+and templates baked in, so they don't repeat Steps 1-3.
 
 ## Going forward[](https://academy.claude.com/use-cases/open-new-role)
 

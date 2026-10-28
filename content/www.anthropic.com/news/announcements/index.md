@@ -2,7 +2,7 @@
 
 # Announcements
 
-75
+77
 
 ARTICLES
 
@@ -14,6 +14,24 @@ Description
 
 Date
 
+- [### Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development)
+
+  [We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.](https://www.anthropic.com/research/early-progress-drug-development)
+
+  Oct 27, 2026
+
+  Oct 27, 2026
+
+  [### Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development)[We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.](https://www.anthropic.com/research/early-progress-drug-development)
+- [### Anthropic files S-1 with the SEC for proposed initial public offering](https://www.anthropic.com/news/s1-sec)
+
+  [Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.](https://www.anthropic.com/news/s1-sec)
+
+  Oct 26, 2026
+
+  Oct 26, 2026
+
+  [### Anthropic files S-1 with the SEC for proposed initial public offering](https://www.anthropic.com/news/s1-sec)[Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.](https://www.anthropic.com/news/s1-sec)
 - [### Open call for guest investigators in the life sciences](https://www.anthropic.com/news/open-call-guest-investigators-life-sciences)
 
   [Today, we’re inviting members of the life sciences community to apply to work with us on special projects.](https://www.anthropic.com/news/open-call-guest-investigators-life-sciences)
@@ -212,24 +230,6 @@ Date
   Jun 17, 2026
 
   [### Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem](https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem)[Anthropic opens in Seoul and announces new partnerships across the Korean AI ecosystem.](https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem)
-- [### Introducing Claude Corps](https://www.anthropic.com/news/claude-corps)
-
-  [We’re launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America.](https://www.anthropic.com/news/claude-corps)
-
-  Jun 11, 2026
-
-  Jun 11, 2026
-
-  [### Introducing Claude Corps](https://www.anthropic.com/news/claude-corps)[We’re launching Claude Corps, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America.](https://www.anthropic.com/news/claude-corps)
-- [### Anthropic confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec)
-
-  [Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission](https://www.anthropic.com/news/confidential-draft-s1-sec)
-
-  Jun 1, 2026
-
-  Jun 1, 2026
-
-  [### Anthropic confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec)[Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission](https://www.anthropic.com/news/confidential-draft-s1-sec)
 
 See more
 

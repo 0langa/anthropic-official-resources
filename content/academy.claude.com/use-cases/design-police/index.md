@@ -362,7 +362,7 @@ Connectors: GitHub, Figma
 
 ### Try a plugin[](https://academy.claude.com/use-cases/design-police)
 
-The Design plugin ships with `/design-system` already structured to diff a screen or PR against a token file and component inventory. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Design plugin ships with `/design-system` already structured to diff a screen or PR against a token file and component inventory. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -516,7 +516,7 @@ Your customized `/design-system` now carries your tokens, your component map, yo
 
 Share the skill
 
-In Cowork, open **Skills** → `/design-system` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your system rules baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/design-system`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your system rules baked in, so they don't repeat Steps 1-3.
 
 ## What changes for design QA[](https://academy.claude.com/use-cases/design-police)
 

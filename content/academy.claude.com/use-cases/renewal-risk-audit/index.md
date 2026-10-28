@@ -210,7 +210,7 @@ Connectors: Salesforce, Zendesk
 
 ### Try a plugin[](https://academy.claude.com/use-cases/renewal-risk-audit)
 
-The Sales plugin ships with `/pipeline-review` and other account-health skills as a starting point, already structured to score a book of business and flag what's at risk. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Sales plugin ships with `/pipeline-review` and other account-health skills as a starting point, already structured to score a book of business and flag what's at risk. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -329,7 +329,7 @@ runs it" so the audit is also the save plan.
 
 ## 3. Make Cowork work for you[](https://academy.claude.com/use-cases/renewal-risk-audit)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the
 /pipeline-review skill with my feedback.
@@ -384,15 +384,17 @@ Your customized skill now carries your scoring rubric, your usage thresholds, an
 
 Share the skill
 
-In Cowork, open **Skills** → your saved skill → **Share** and pick your
-teammates (or your whole workspace, if your admin allows). They get the skill
-with your instructions baked in, they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...**
+menu next to your saved skill, select **Share**, and pick your teammates. For
+your whole organization, open the skill and select **Publish to org**, if your
+admin allows. They get the skill with your instructions baked in, they don't
+repeat Steps 1-3.
 
 ## What changes for the renewal motion[](https://academy.claude.com/use-cases/renewal-risk-audit)
 
 Every account in your renewal window has a risk score, the signal behind it, and an owner, in one shared view. You work the at-risk list instead of building it.
 
-You did this for one renewal cycle. The same approach covers expansion reviews, forecast risk, and QBR prep — each one a skill in your team's plugin, run the same way every time.
+You did this for one renewal cycle. The same approach covers expansion reviews, forecast risk, and QBR prep — each one a skill your team runs the same way every time.
 
 [Next: Account tracking and health](https://academy.claude.com/use-cases/account-tracking)
 

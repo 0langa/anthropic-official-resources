@@ -264,7 +264,7 @@ Connectors: Confluence, GitHub
 
 ### Try a plugin[](https://academy.claude.com/use-cases/design-doc)
 
-The Engineering plugin ships with `/system-design` as a starting point, already structured to fill an RFC template and look up prior art across your wiki. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Engineering plugin ships with `/system-design` as a starting point, already structured to fill an RFC template and look up prior art across your wiki. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -372,7 +372,7 @@ Write a design doc for moving our event pipeline from batch to streaming. Look u
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/design-doc)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the /system-design skill with my feedback.
 
@@ -412,7 +412,7 @@ Your customized `/system-design` now carries your template, your prior-art sourc
 
 Share the skill
 
-In Cowork, open **Skills** → `/system-design` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your template and review checklist baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/system-design`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your template and review checklist baked in, so they don't repeat Steps 1-3.
 
 ## What changes for design review[](https://academy.claude.com/use-cases/design-doc)
 

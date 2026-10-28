@@ -50,7 +50,6 @@ https://support.claude.com/en/articles/11506255-get-started-with-claude-in-slack
 https://support.claude.com/en/articles/11506255-getting-started-with-claude-in-slack
 https://support.claude.com/en/articles/12306336-claude-for-chrome-release-notes
 https://support.claude.com/en/articles/12461605-using-claude-in-slack
-https://support.claude.com/en/articles/12592343
 https://support.claude.com/en/articles/12650343-claude-in-excel
 https://support.claude.com/en/articles/12650343-use-claude-for-excel
 https://support.claude.com/en/articles/12650343-using-claude-in-excel

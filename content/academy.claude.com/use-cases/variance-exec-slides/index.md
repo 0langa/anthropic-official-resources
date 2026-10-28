@@ -240,7 +240,7 @@ Connectors: Microsoft 365, Google Drive
 
 ### Try a plugin[](https://academy.claude.com/use-cases/variance-exec-slides)
 
-The Finance plugin ships with `/financial-statements` and seven other close-week skills as a starting point, it already knows how to read a variance table and frame it for an exec audience. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Finance plugin ships with `/financial-statements` and seven other close-week skills as a starting point, it already knows how to read a variance table and frame it for an exec audience. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -348,7 +348,7 @@ Build the three exec slides from the March variance workbook: a headline page wi
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/variance-exec-slides)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the /financial-statements skill with my feedback.
 
@@ -388,7 +388,7 @@ Your customized skill now carries your three-slide structure, your materiality l
 
 Share the skill
 
-In Cowork, open **Skills** → your saved skill → **Share** and pick your teammates or a group. They get the skill with your instructions baked in, they don't repeat Steps 1-3.
+Open the **...** menu next to your saved skill in your list of skills, select **Share**, and pick your teammates or a group. They get the skill with your instructions baked in, they don't repeat Steps 1-3.
 
 Sharing with teammates requires a Team or Enterprise plan, where it's on by default, except in HIPAA-ready organizations, where it starts off. Sharing with a group is Enterprise only, and an organization Owner turns it on.
 

@@ -201,7 +201,7 @@ Skill: /financial-statements (Finance)
 
 ### Try a plugin[](https://academy.claude.com/use-cases/forecast-scenarios)
 
-The Finance plugin ships with `/financial-statements` and other planning skills as a starting point, already structured to roll a driver model forward and lay out scenarios. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Finance plugin ships with `/financial-statements` and other planning skills as a starting point, already structured to roll a driver model forward and lay out scenarios. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -303,7 +303,7 @@ Pull the latest actuals into the driver model, extend it through the next four q
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/forecast-scenarios)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the /financial-statements skill with my feedback.
 
@@ -343,7 +343,7 @@ Your customized `/financial-statements` now carries your driver tree, your scena
 
 Share the skill
 
-In Cowork, open **Skills** → `/financial-statements` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your drivers and assumptions baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/financial-statements`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your drivers and assumptions baked in, so they don't repeat Steps 1-3.
 
 ## Going forward[](https://academy.claude.com/use-cases/forecast-scenarios)
 

@@ -338,7 +338,7 @@ Connectors: Box
 
 ### Try a plugin[](https://academy.claude.com/use-cases/data-room-diligence)
 
-The Corporate Legal plugin ships with `/diligence-issue-extraction`, `/tabular-review`, and other M&A skills as a starting point, already structured to walk a data room, pull the provisions that matter on a change of control, and cite every finding back to its source document. It's one of twelve practice-area plugins for legal teams; if your admin manages plugins and it's not available yet, skip this, nothing below requires it.
+The Corporate Legal plugin ships with `/diligence-issue-extraction`, `/tabular-review`, and other M&A skills as a starting point, already structured to walk a data room, pull the provisions that matter on a change of control, and cite every finding back to its source document. It's one of twelve practice-area plugins for legal teams. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -368,7 +368,7 @@ Corporate LegalRuns M&A diligence at scale with cited tabular review, builds dis
 
 First run
 
-Corporate Legal comes from Anthropic's **Claude for Legal** source, which a workspace has to enable once under **Browse Anthropic sources**. On a Team or Enterprise plan an admin does that from the organization's plugin settings (it then shows up for everyone); on an individual plan you can do it yourself. If **Add** doesn't take you straight to the plugin, that's usually the missing step. Once it's installed, run `/cold-start-interview` (a two-minute quick start on sensible defaults, or ten-plus minutes with your real documents) so the plugin learns your request list and materiality thresholds; every other skill reads from that.
+Corporate Legal comes from Anthropic's Legal marketplace, which has to be added once under **Browse Anthropic sources**. On a Team or Enterprise plan an admin does that from the organization's plugin settings (it then shows up for everyone); on an individual plan you can do it yourself. If **Add** doesn't take you straight to the plugin, that's usually the missing step. Once you've added Corporate Legal, run `/cold-start-interview` (a two-minute quick start on sensible defaults, or ten-plus minutes with your real documents) so the plugin learns your request list and materiality thresholds; every other skill reads from that.
 
 ### Connect your tools[](https://academy.claude.com/use-cases/data-room-diligence)
 
@@ -468,7 +468,7 @@ Read every document in the connected data room. Categorize each by type, then fo
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/data-room-diligence)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the /diligence-issue-extraction skill with my feedback.
 
@@ -518,7 +518,7 @@ Your customized `/diligence-issue-extraction` now carries your request list, you
 
 Share the skill
 
-In Cowork, open **Skills** → `/diligence-issue-extraction` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your request list and summary format baked in, so they don't repeat Steps 1-3; each teammate still runs `/cold-start-interview` the first time, pointed at the same request list and thresholds, because the plugin keeps its setup per person.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/diligence-issue-extraction`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your request list and summary format baked in, so they don't repeat Steps 1-3; each teammate still runs `/cold-start-interview` the first time, pointed at the same request list and thresholds, because the plugin keeps its setup per person.
 
 ## Going forward[](https://academy.claude.com/use-cases/data-room-diligence)
 

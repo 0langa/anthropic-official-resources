@@ -184,11 +184,11 @@ Connectors: Snowflake, Datadog, GitHub
 
 ### Try a plugin[](https://academy.claude.com/use-cases/cloud-cost-anomalies)
 
-The Engineering plugin ships with `/debug` already wired to read a Cost Explorer or BigQuery billing export, baseline it, and group the deltas by tag. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Engineering plugin ships with `/debug` already wired to read a Cost Explorer or BigQuery billing export, baseline it, and group the deltas by tag. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
-Engineering9 skills for postmortems, design docs, on-call handoffs, and cost reviews
+EngineeringSkills for postmortems, design docs, on-call handoffs, and cost reviews
 
 [Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=engineering)
 
@@ -302,7 +302,7 @@ Compare savings against the budget
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/cloud-cost-anomalies)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the /debug skill with my feedback.
 
@@ -342,7 +342,7 @@ Your customized `/debug` now knows your tag scheme, your threshold, and the spik
 
 Share the skill
 
-In Cowork, open **Skills** → `/debug` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your thresholds and exceptions baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/debug`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your thresholds and exceptions baked in, so they don't repeat Steps 1-3.
 
 ## What changes for the bill review[](https://academy.claude.com/use-cases/cloud-cost-anomalies)
 

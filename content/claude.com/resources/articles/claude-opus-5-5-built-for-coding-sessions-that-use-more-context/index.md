@@ -75,13 +75,25 @@ Point Opus 5.5 at the open-ended, context-heavy work where those habits compound
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 22, 2026
+[ArticleOct 27, 2026
+
+### Manage costs and demonstrate ROI for Claude Code on Google Cloud
+
+Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
+
+Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)[ArticleOct 22, 2026
 
 ### Building agents: When to fold subagents into your main agent loop
 
 When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
 
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[ArticleOct 19, 2026
+Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[ArticleOct 22, 2026
+
+### LLMs are making formal software verification feasible at a much larger scale
+
+We need ways to prove that code is free of bugs. Formal software verification could provide this guarantee.
+
+(opens in new tab)](https://www.anthropic.com/research/formal-verification)[ArticleOct 19, 2026
 
 ### Redesigning source control at Anthropic
 
@@ -89,21 +101,7 @@ As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a da
 
 Claude Code
 
-(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)[ArticleOct 16, 2026
-
-### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
-
-How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
-
-Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)[ArticleOct 16, 2026
-
-### How the Claude Code team does code review
-
-How do you review code at the volume agents produce it? The Claude Code team shares its review process, from Claude verifying its own work to risk-tiered human approval, plus a checklist for adopting it.
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)
+(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)
 
 ## Transform how your organization operates with Claude
 

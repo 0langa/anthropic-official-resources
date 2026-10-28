@@ -52,27 +52,25 @@ Plugins are currently saved locally to your machine. Better support for org-wide
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 23, 2026
+[ArticleOct 27, 2026
+
+### Manage costs and demonstrate ROI for Claude Code on Google Cloud
+
+Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
+
+Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)[ArticleOct 27, 2026
+
+### Claude for Financial Advisors
+
+Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)[ArticleOct 26, 2026
+
+### Expanding Claude for Nonprofits
+
+Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.](https://claude.com/resources/articles/expanding-claude-for-nonprofits)[ArticleOct 23, 2026
 
 ### Claude Cowork and chat come together for Enterprise
 
-Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)[ArticleOct 23, 2026
-
-### Claude Duet Safety, Privacy, and Security
-
-Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)[ArticleOct 22, 2026
-
-### Building agents: When to fold subagents into your main agent loop
-
-When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
-
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[ArticleOct 22, 2026
-
-### The full Claude Platform, available on Google Cloud
-
-Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
-
-Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)
+Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)
 
 ## Transform how your organization operates with Claude
 

@@ -84,7 +84,7 @@ This debugging process is iterative and can be tedious. Each fix requires re-tes
 
 You can integrate AI into your responsive design workflow for immediate layout generation and systematic refactoring. Claude works in two ways depending on your needs:
 
-- ‍**[Claude.ai](http://claude.ai/):** Browser-based interface where you paste layout requirements and receive complete responsive HTML/CSS with proper viewport configuration and media queries. Accessible from any browser, no installation required. Good for learning responsive patterns and generating boilerplate.[**‍**](https://claude.com/product/claude-code)
+- ‍**[Claude.ai](http://claude.ai/redirect/claudedotcom.v1.155f921b-f8ab-43b5-a898-5283e69c772d):** Browser-based interface where you paste layout requirements and receive complete responsive HTML/CSS with proper viewport configuration and media queries. Accessible from any browser, no installation required. Good for learning responsive patterns and generating boilerplate.[**‍**](https://claude.com/product/claude-code)
 - **[Claude Code](https://claude.com/product/claude-code):** Command-line tool that analyzes existing stylesheets across your codebase, identifies viewport-specific issues, and implements fixes directly in your files. Requires npm installation and API access. Built for refactoring responsive layouts in large codebases.
 
 ### **Start with Claude.ai**
@@ -208,7 +208,7 @@ Finally, Claude Code generates a comprehensive Playwright test suite that valida
 
 ## ‍**Get started**
 
-**Quick prototyping:** Visit [**Claude.ai**](https://claude.ai/) to generate responsive layouts and learn design patterns without any setup. Describe your layout requirements—like a three-column card grid that stacks on mobile—and receive complete HTML and CSS with proper viewport configuration and media queries. It's ideal for understanding responsive techniques and creating boilerplate code you can adapt to your projects.
+**Quick prototyping:** Visit [**Claude.ai**](https://claude.ai/redirect/claudedotcom.v1.155f921b-f8ab-43b5-a898-5283e69c772d) to generate responsive layouts and learn design patterns without any setup. Describe your layout requirements—like a three-column card grid that stacks on mobile—and receive complete HTML and CSS with proper viewport configuration and media queries. It's ideal for understanding responsive techniques and creating boilerplate code you can adapt to your projects.
 
 **Codebase refactoring:** When responsive issues span multiple stylesheets or affect your entire application, install [**Claude Code**](https://claude.com/product/claude-code) to systematically analyze and fix layout problems across your project:
 
@@ -244,7 +244,13 @@ Start by auditing your breakpoints to ensure they align with your content needs 
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 22, 2026
+[ArticleOct 27, 2026
+
+### Manage costs and demonstrate ROI for Claude Code on Google Cloud
+
+Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
+
+Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)[ArticleOct 22, 2026
 
 ### Building agents: When to fold subagents into your main agent loop
 
@@ -264,15 +270,7 @@ Claude Code
 
 How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
 
-Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)[ArticleOct 16, 2026
-
-### How the Claude Code team does code review
-
-How do you review code at the volume agents produce it? The Claude Code team shares its review process, from Claude verifying its own work to risk-tiered human approval, plus a checklist for adopting it.
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)
+Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)
 
 ## Transform how your organization operates with Claude
 

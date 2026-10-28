@@ -1319,6 +1319,7 @@ https://claude.com/resources/articles/how-people-are-using-claude-cowork
 https://claude.com/resources/articles/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them
 https://claude.com/resources/articles/how-to-configure-hooks
 https://claude.com/resources/articles/how-to-create-skills-key-steps-limitations-and-examples
+https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud
 https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects
 https://claude.com/resources/articles/how-warp-builds-self-improving-agents-on-claude
 https://claude.com/resources/articles/improved-web-search-with-dynamic-filtering
@@ -1601,6 +1602,7 @@ https://claude.com/resources/webinars/ai-agents-in-enterprise
 https://claude.com/resources/webinars/ai-as-an-engineering-leadership-multiplier
 https://claude.com/resources/webinars/bci-claude-financial-analysis
 https://claude.com/resources/webinars/best-practices-for-claude-in-excel-and-powerpoint
+https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud
 https://claude.com/resources/webinars/building-agents-on-claude-opus-4-8-live-demos-with-letta-and-browserbase
 https://claude.com/resources/webinars/building-ai-infrastructure-for-healthcare-a-customer-success-story-zingages-0-to-1-story
 https://claude.com/resources/webinars/building-claude-commerce-agents
@@ -5130,6 +5132,7 @@ https://www.anthropic.com/news/expanded-legal-protections-api-improvements
 https://www.anthropic.com/news/expanding-access-to-claude-for-government
 https://www.anthropic.com/news/expanding-global-operations-to-india
 https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services
+https://www.anthropic.com/news/expanding-partnership-gsa
 https://www.anthropic.com/news/expanding-project-glasswing
 https://www.anthropic.com/news/expanding-support-for-scientists
 https://www.anthropic.com/news/fable-mythos-access
@@ -5307,6 +5310,7 @@ https://www.anthropic.com/research/accelerating-scientific-research
 https://www.anthropic.com/research/advanced-tool-use
 https://www.anthropic.com/research/agentic-misalignment
 https://www.anthropic.com/research/agents-in-biology
+https://www.anthropic.com/research/agents-judgment-calls
 https://www.anthropic.com/research/ai-expectations-gap
 https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents
 https://www.anthropic.com/research/alignment-assessment-ukaisi
@@ -5384,10 +5388,12 @@ https://www.anthropic.com/research/developing-computer-use
 https://www.anthropic.com/research/diff-tool
 https://www.anthropic.com/research/discovering-cryptographic-weaknesses
 https://www.anthropic.com/research/discovering-language-model-behaviors-with-model-written-evaluations
+https://www.anthropic.com/research/discovering-vulnerabilities-with-claude
 https://www.anthropic.com/research/disempowerment-patterns
 https://www.anthropic.com/research/distillation-defenses
 https://www.anthropic.com/research/distributed-representations-composition-superposition
 https://www.anthropic.com/research/donating-open-source-petri
+https://www.anthropic.com/research/early-progress-drug-development
 https://www.anthropic.com/research/ecdsa-curve-origins
 https://www.anthropic.com/research/economic-index-geography
 https://www.anthropic.com/research/economic-index-june-2026-report

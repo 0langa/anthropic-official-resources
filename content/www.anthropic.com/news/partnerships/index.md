@@ -2,7 +2,7 @@
 
 # Partnerships
 
-50
+51
 
 ARTICLES
 
@@ -14,6 +14,15 @@ Description
 
 Date
 
+- [### Expanding our partnership with GSA to bring Claude to all levels of government](https://www.anthropic.com/news/expanding-partnership-gsa)
+
+  [We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.](https://www.anthropic.com/news/expanding-partnership-gsa)
+
+  Oct 27, 2026
+
+  Oct 27, 2026
+
+  [### Expanding our partnership with GSA to bring Claude to all levels of government](https://www.anthropic.com/news/expanding-partnership-gsa)[We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.](https://www.anthropic.com/news/expanding-partnership-gsa)
 - [### Building on our commitment to American scientific discovery](https://www.anthropic.com/news/genesis-mission-commitment)
 
   [Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.](https://www.anthropic.com/news/genesis-mission-commitment)
@@ -221,15 +230,6 @@ Date
   Jan 21, 2026
 
   [### Anthropic and Teach For All launch global AI training initiative for educators](https://www.anthropic.com/news/anthropic-teach-for-all)[The AI Literacy & Creator Collective brings AI training to 100,000+ educators across 63 countries serving 1.5 million students.](https://www.anthropic.com/news/anthropic-teach-for-all)
-- [### Working with the US Department of Energy to unlock the next era of scientific discovery](https://www.anthropic.com/news/genesis-mission-partnership)
-
-  [A multi-year partnership with the DOE's Genesis Mission deploys Claude and custom scientific tools across the 17 national laboratories.](https://www.anthropic.com/news/genesis-mission-partnership)
-
-  Dec 18, 2025
-
-  Dec 18, 2025
-
-  [### Working with the US Department of Energy to unlock the next era of scientific discovery](https://www.anthropic.com/news/genesis-mission-partnership)[A multi-year partnership with the DOE's Genesis Mission deploys Claude and custom scientific tools across the 17 national laboratories.](https://www.anthropic.com/news/genesis-mission-partnership)
 
 See more
 

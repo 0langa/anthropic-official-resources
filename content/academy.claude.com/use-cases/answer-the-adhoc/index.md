@@ -249,11 +249,11 @@ Connectors: Microsoft 365, Snowflake
 
 ### Try a plugin[](https://academy.claude.com/use-cases/answer-the-adhoc)
 
-The Data plugin ships with `/write-query` and other warehouse-and-BI skills as a starting point, already structured to read a data model and write queries against it. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Data plugin ships with `/write-query` and other warehouse-and-BI skills as a starting point, already structured to read a data model and write queries against it. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
-Data10 skills for SQL generation, table profiling, dashboard specs, and metric narratives
+DataSkills for SQL generation, table profiling, dashboard specs, and metric narratives
 
 [Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=data)
 
@@ -357,7 +357,7 @@ Here's the question from the business: "Why is gross margin down in EMEA this qu
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/answer-the-adhoc)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the /write-query skill with my feedback.
 
@@ -397,7 +397,7 @@ Your customized `/write-query` now carries your warehouse model, your certified 
 
 Share the skill
 
-In Cowork, open **Skills** → `/write-query` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your model and naming rules baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/write-query`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your model and naming rules baked in, so they don't repeat Steps 1-3.
 
 ## What changes for the analytics queue[](https://academy.claude.com/use-cases/answer-the-adhoc)
 

@@ -160,7 +160,7 @@ Connectors: Confluence, GitHub, Snowflake
 
 ### Try a plugin[](https://academy.claude.com/use-cases/ask-the-company)
 
-The Engineering plugin ships with `/documentation` as a starting point, already structured to fan out across connected sources, cite what it finds, and name an owner when it's not sure. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Engineering plugin ships with `/documentation` as a starting point, already structured to fan out across connected sources, cite what it finds, and name an owner when it's not sure. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -312,13 +312,13 @@ Your customized `/documentation` now carries your sources, your routing table, a
 
 Share the skill
 
-In Cowork, open **Skills** → `/documentation` → **Share** and pick your whole workspace. Everyone gets the same front door to wiki, code, and warehouse, with the platform team keeping it tuned.
+Open `/documentation` in your list of skills and select **Publish to org**, if your admin allows it. Everyone gets the same front door to wiki, code, and warehouse, with the platform team keeping it tuned.
 
 ## What changes for the org[](https://academy.claude.com/use-cases/ask-the-company)
 
 Internal questions get a sourced answer from across your wiki, code, and warehouse, with an owner named when the agent isn't certain. Engineers check one response instead of searching each system.
 
-You did this for everyday engineering questions. The same approach covers on-call runbook lookup, data-catalog search, and new-hire onboarding — each one becomes a skill in your team's shared plugin.
+You did this for everyday engineering questions. The same approach covers on-call runbook lookup, data-catalog search, and new-hire onboarding — each one becomes a skill your team runs the same way.
 
 [Next: Write the design doc or RFC](https://academy.claude.com/use-cases/design-doc)
 

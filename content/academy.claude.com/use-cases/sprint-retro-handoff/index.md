@@ -305,11 +305,11 @@ Connectors: Linear, Slack, PagerDuty
 
 ### Try a plugin[](https://academy.claude.com/use-cases/sprint-retro-handoff)
 
-The Engineering plugin ships with `/tech-debt` and `/standup` already structured to read a closed cycle and a channel window and split the output into discussion themes versus operational watch-fors. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Engineering plugin ships with `/tech-debt` and `/standup` already structured to read a closed cycle and a channel window and split the output into discussion themes versus operational watch-fors. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
-Engineering9 skills for postmortems, design docs, on-call handoffs, and cost reviews
+EngineeringSkills for postmortems, design docs, on-call handoffs, and cost reviews
 
 [Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=engineering)
 
@@ -413,7 +413,7 @@ Read the just-closed Linear cycle and two weeks of #team-platform and #oncall-pl
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/sprint-retro-handoff)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the /tech-debt skill with my feedback.
 
@@ -453,7 +453,7 @@ Your customized `/tech-debt` now knows your tracker, your channels, your templat
 
 Share the skill
 
-In Cowork, open **Skills** → `/tech-debt` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your template and channel defaults baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/tech-debt`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your template and channel defaults baked in, so they don't repeat Steps 1-3.
 
 ## What changes for retro day[](https://academy.claude.com/use-cases/sprint-retro-handoff)
 

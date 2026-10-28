@@ -24,6 +24,22 @@ Anthropic Deputy CISO, Jason Clinton, details how the Security Engineering team 
 
 Claude CodeClaude Tag1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/how-anthropic-secures-its-ai-native-software-development-lifecycle)
 
+[WebinarUpcoming | Nov 17, 2026
+
+### Build Agents with the Claude Platform on Google Cloud
+
+The full Claude Platform is now on Google Cloud — build agents from the Google Cloud account you already run.
+
+Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)
+
+[WebinarUpcoming | Nov 12, 2026
+
+### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
+
+Most nonprofit staff on Claude open a chat, get a decent but generic answer, and go back to doing it by hand.
+
+Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)
+
 [WebinarUpcoming | Nov 4, 2026
 
 ### Unified Claude: What it means for admins
@@ -31,22 +47,6 @@ Claude CodeClaude Tag1 more: Claude EnterpriseClaude Enterprise](https://claude.
 Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile.
 
 Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
-
-[WebinarOn demand
-
-### Claude Rearview Roadmap Review: October 2026
-
-Your rollout plan depends on knowing what's changed and what matters the most.
-
-Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
-
-[ArticleOct 22, 2026
-
-### Building agents: When to fold subagents into your main agent loop
-
-When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
-
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)
 
 [ArticleJul 16, 2026
 
@@ -60,15 +60,33 @@ Featured resource 1 of 5: Working with Claude Fable 5 in Claude Cowork
 
 Advanced filters
 
-Showing 11 of 223 resources
+Showing 11 of 226 resources
 
-[WebinarUpcoming | Nov 4, 2026
+[WebinarUpcoming | Nov 17, 2026
+
+### Build Agents with the Claude Platform on Google Cloud
+
+The full Claude Platform is now on Google Cloud — build agents from the Google Cloud account you already run.
+
+Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[WebinarUpcoming | Nov 12, 2026
+
+### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
+
+Most nonprofit staff on Claude open a chat, get a decent but generic answer, and go back to doing it by hand.
+
+Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[WebinarUpcoming | Nov 4, 2026
 
 ### Unified Claude: What it means for admins
 
 Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile.
 
-Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[WebinarOn demand
+Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[ArticleOct 27, 2026
+
+### Manage costs and demonstrate ROI for Claude Code on Google Cloud
+
+Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
+
+Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)[WebinarOn demand
 
 ### Claude Rearview Roadmap Review: October 2026
 
@@ -114,22 +132,6 @@ Claude Code
 
 We open on an incident. An alert fires in a Slack channel and, without anyone typing a prompt, Claude reads the logs, repos and…
 
-Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)[WebinarOn demand
-
-### Measuring AI Fluency at Your Organization
-
-Seat counts don't show if AI is working. Kristen Swanson shares how to measure AI Fluency beyond usage, without a huge lift.](https://claude.com/resources/webinars/measuring-ai-fluency-at-your-organization)[ArticleOct 8, 2026
-
-### Building effective agent automations
-
-A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.
-
-Claude Platform
-
-(opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)[Guide49 min read
-
-### The AI investment firm
-
-We draw from our work with investment firms to outline best practices for AI adoption, and the work Claude takes on for each team.](https://claude.com/resources/guides/the-ai-investment-firm)
+Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)
 
 View more

@@ -89,7 +89,7 @@ You can't remap these shortcuts in the [keybindings configuration file](/docs/en
 | `/` at start | Command or skill | See [commands](#commands) and [skills](/docs/en/skills) |
 | `!` at start | Shell mode | Run a command directly, add its output to the session, and have Claude respond to it |
 | `@` | File path mention | Trigger file path autocomplete. In sessions with [cross-session messaging](/docs/en/cross-session-messaging#message-another-session), when you type at least one letter after the `@`, Claude Code also suggests your other live sessions on this machine, so you can tell Claude to message the one you pick. Requires Claude Code v2.1.232 or later |
-| `:` | Emoji shortcode | Type a full `:name:` to insert the emoji, or two or more characters for suggestions. See [Emoji shortcodes](#emoji-shortcodes). Requires Claude Code v2.1.217 or later |
+| `:` | Emoji shortcode | Type a full `:name:` to insert the emoji, or two or more characters for suggestions. See [Emoji shortcodes](#emoji-shortcodes) |
 | `?` on empty input | Toggle the shortcut help panel | Typing `?` when the input already contains text inserts the character |
 
 ### Transcript viewer
@@ -194,7 +194,7 @@ Claude Code reads this setting from your user settings file, the `--settings` fl
 
 > [!NOTE]
 >
-> In vim NORMAL mode, if the cursor is at the beginning or end of input and can't move further, `j`/`k` and `↑`/`↓` navigate command history instead. `←` on an empty prompt opens [agent view](/docs/en/agent-view) from NORMAL mode as well as INSERT; before v2.1.219, `←` on an empty prompt did nothing in NORMAL mode.
+> In vim NORMAL mode, if the cursor is at the beginning or end of input and can't move further, `j`/`k` and `↑`/`↓` navigate command history instead. `←` on an empty prompt opens [agent view](/docs/en/agent-view) from NORMAL mode as well as INSERT.
 
 ### Editing (NORMAL mode)
 
@@ -393,7 +393,7 @@ Press `Esc` to interrupt the turn without submitting your draft. Claude Code kee
 Claude Code runs some commands as soon as you send them instead of queueing them, among them `/model`, `/effort`, and `/fast`. Each of the three changes a setting: the model, the effort level, or fast mode. Whether Claude Code applies the new setting to the turn Claude is already working on, or only from your next turn, differs by command:
 
 * [`/model`](/docs/en/model-config#setting-your-model): once you confirm the [cache warning](/docs/en/prompt-caching#switching-models), if Claude Code shows one, Claude Code applies your change to the next request it makes in that turn
-* [`/effort`](/docs/en/model-config#adjust-effort-level): once you confirm the [cache warning](/docs/en/prompt-caching#changing-effort-level), if Claude Code shows one, Claude Code applies your change to the next request it makes in that turn
+* `/effort`: the next message you send runs at the new level. To [start it in the turn Claude is already working on](/docs/en/model-config#when-a-new-effort-level-starts), queue a message while Claude is running tool calls
 * [`/fast`](/docs/en/fast-mode#toggle-fast-mode): Claude Code keeps the fast mode setting that was active when the turn started, so your speed change applies from your next turn. If your current model doesn't support fast mode, turning it on also [switches your model](/docs/en/prompt-caching#turning-on-fast-mode), and Claude Code uses the new model from its next request in that turn
 
 ### Background a session with messages queued
@@ -510,7 +510,7 @@ To turn off You should know, use either of the following:
 
 ## Emoji shortcodes
 
-Type a `:` followed by an emoji shortcode in the prompt input to insert the emoji. Requires Claude Code v2.1.217 or later.
+Type a `:` followed by an emoji shortcode in the prompt input to insert the emoji.
 
 * Type a complete shortcode such as `:heart:` and Claude Code replaces it with ❤️ as soon as you type the closing `:`
 * Type `:` plus at least two characters of a name, such as `:hea`, to open a suggestion popup, then press `Tab` or `Enter` to insert the highlighted emoji
@@ -735,14 +735,14 @@ While Claude Code waits, the lines at the bottom of the session show when your l
 
 ```text theme={null}
 Usage limit reached · limit resets 3:45pm
-Continuing automatically at 3:45pm · esc to cancel
+Continuing automatically at 3:45pm · Esc to cancel
 ```
 
 Either line can carry more after these words, such as a help link on the first or `/usage-credits to continue now` on the second. When the wait starts on its own, the conversation also records it with a line that reads `Usage limit reached · continuing automatically at 3:45pm · esc to cancel`.
 
 Keep the session open. What happens next depends on how the wait ends:
 
-* **At the reset**: the second line changes to `Continuing shortly · esc to cancel`. Then `Usage limit reset · continuing automatically` appears in the conversation, and Claude Code prompts Claude to pick the task up where it stopped. It doesn't resend your last message.
+* **At the reset**: the second line changes to `Continuing shortly · Esc to cancel`. Then `Usage limit reset · Continuing automatically` appears in the conversation, and Claude Code prompts Claude to pick the task up where it stopped. It doesn't resend your last message.
 * **After your computer slept**: if it slept for more than about 30 minutes and the limit reset while it slept, the first line reads `Your usage limit has reset` and the second reads `Press enter to continue`. Press `Enter` to continue. After a shorter sleep, or one that ended before the reset, Claude Code continues on its own.
 * **Early**: when you finish adding [usage credits](/docs/en/costs#add-usage-credits-to-your-subscription) with `/usage-credits`, sign back in after `/upgrade`, or switch models with `/model` during the wait, Claude Code checks whether usage is available again and continues right away if it is. It doesn't check after an upgrade or purchase you make in a browser on your own. Under [`opusplan`](/docs/en/model-config#opusplan-model-setting) and other model settings that run plan mode on a different model, Claude Code waits for the reset instead.
 

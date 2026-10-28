@@ -192,7 +192,7 @@ Skill: /review (Commercial Legal)
 
 ### Try a plugin[](https://academy.claude.com/use-cases/nda-review)
 
-The Commercial Legal plugin ships with `/review` and other commercial-contracting skills as a starting point, already structured to screen an NDA against your playbook and sort it green, yellow, or red so standard paper splits from the exceptions. It's one of twelve practice-area plugins for legal teams; if your admin manages plugins and it's not available yet, skip this, nothing below requires it.
+The Commercial Legal plugin ships with `/review` and other commercial-contracting skills as a starting point, already structured to screen an NDA against your playbook and sort it green, yellow, or red so standard paper splits from the exceptions. It's one of twelve practice-area plugins for legal teams. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -218,7 +218,7 @@ Commercial LegalReviews vendor agreements, NDAs, and SaaS subscriptions against 
 
 First run
 
-Commercial Legal comes from Anthropic's **Claude for Legal** source, which a workspace has to enable once under **Browse Anthropic sources**. On a Team or Enterprise plan an admin does that from the organization's plugin settings (it then shows up for everyone); on an individual plan you can do it yourself. If **Add** doesn't take you straight to the plugin, that's usually the missing step. Once it's installed, run `/cold-start-interview` (a two-minute quick start on sensible defaults, or ten-plus minutes with your real documents) so the plugin learns your playbook — the full pass, with your NDA positions in it, is what lets `/review` clear standard paper to green; every other skill reads from that.
+Commercial Legal comes from Anthropic's Legal marketplace, which has to be added once under **Browse Anthropic sources**. On a Team or Enterprise plan an admin does that from the organization's plugin settings (it then shows up for everyone); on an individual plan you can do it yourself. If **Add** doesn't take you straight to the plugin, that's usually the missing step. Once you've added Commercial Legal, run `/cold-start-interview` (a two-minute quick start on sensible defaults, or ten-plus minutes with your real documents) so the plugin learns your playbook — the full pass, with your NDA positions in it, is what lets `/review` clear standard paper to green; every other skill reads from that.
 
 ### Connect your tools[](https://academy.claude.com/use-cases/nda-review)
 
@@ -306,7 +306,7 @@ Triage this NDA against our NDA playbook. For each criterion in the playbook, ma
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/nda-review)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the /review skill with my feedback.
 
@@ -346,7 +346,7 @@ Your customized `/review` now carries your full playbook checklist, your approve
 
 Share the skill
 
-In Cowork, open **Skills** → `/review` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your checklist and routing rules baked in, so they don't repeat Steps 1-3; each teammate still runs `/cold-start-interview` the first time, pointed at the same playbook, because the plugin keeps its setup per person.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/review`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your checklist and routing rules baked in, so they don't repeat Steps 1-3; each teammate still runs `/cold-start-interview` the first time, pointed at the same playbook, because the plugin keeps its setup per person.
 
 ## Going forward[](https://academy.claude.com/use-cases/nda-review)
 

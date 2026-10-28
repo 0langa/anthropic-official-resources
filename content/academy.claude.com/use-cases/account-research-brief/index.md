@@ -284,7 +284,7 @@ Connectors: Salesforce
 
 ### Try a plugin[](https://academy.claude.com/use-cases/account-research-brief)
 
-The Sales plugin ships with `/account-research` and other prospecting skills as a starting point, already structured to pull CRM history, public signals, and notes into a single page. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Sales plugin ships with `/account-research` and other prospecting skills as a starting point, already structured to pull CRM history, public signals, and notes into a single page. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -388,7 +388,7 @@ Build a one-page account brief on Northwind. Pull from Salesforce, recent news, 
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/account-research-brief)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the /account-research skill with my feedback.
 
@@ -428,7 +428,7 @@ Your customized `/account-research` now carries your ICP, your section order, an
 
 Share the skill
 
-In Cowork, open **Skills** → `/account-research` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your format and value-prop language baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/account-research`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your format and value-prop language baked in, so they don't repeat Steps 1-3.
 
 ## Going forward[](https://academy.claude.com/use-cases/account-research-brief)
 

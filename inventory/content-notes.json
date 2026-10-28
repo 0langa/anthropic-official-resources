@@ -8626,6 +8626,9 @@
   "https://support.claude.com/en/articles/12542951-set-up-the-microsoft-365-connector": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/12592343": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/12592343-enabling-and-using-the-desktop-extension-allowlist": [
     "Native source; upstream MDX components retained."
   ],
@@ -10519,6 +10522,9 @@
   "https://www.anthropic.com/research/agents-in-biology": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/agents-judgment-calls": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/ai-expectations-gap": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
@@ -10693,7 +10699,13 @@
   "https://www.anthropic.com/research/discovering-cryptographic-weaknesses": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/disempowerment-patterns": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/early-progress-drug-development": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/ecdsa-curve-origins": [

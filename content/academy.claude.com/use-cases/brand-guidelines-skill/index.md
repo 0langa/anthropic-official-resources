@@ -186,7 +186,7 @@ Connectors: Figma, Notion
 
 ### Try a plugin[](https://academy.claude.com/use-cases/brand-guidelines-skill)
 
-The Design plugin ships with `/ux-copy` and `/design-system` as starting points for brand-aware output; you'll build your own `/on-brand` on top. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Design plugin ships with `/ux-copy` and `/design-system` as starting points for brand-aware output; you'll build your own `/on-brand` on top. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -294,7 +294,7 @@ Turn the brand docs in this folder into a shared skill called /on-brand. The ski
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/brand-guidelines-skill)
 
-The plugin's `/on-brand` is a generic scaffold. Once Step 2 produces output that passes your own brand review, tell Cowork to harden it. Layer in your exception list, your sub-brand variations, your accessibility minimums, and the phrasing you never want to see. A few minutes of conversation and the skill enforces your system from then on.
+Your first `/on-brand` is a starting draft. Once Step 2 produces output that passes your own brand review, tell Cowork to harden it. Layer in your exception list, your sub-brand variations, your accessibility minimums, and the phrasing you never want to see. A few minutes of conversation and the skill enforces your system from then on.
 
 Make what we've done in this task so far into a skill, or edit the /on-brand skill with my feedback.
 
@@ -344,13 +344,13 @@ Your customized `/on-brand` now carries your tokens, your type scale, your voice
 
 Share the skill
 
-In Cowork, open **Skills** → `/on-brand` → **Share** and pick your whole workspace (if your admin allows). Every team gets the skill with your guidelines baked in, so they don't repeat Steps 1-3.
+Open `/on-brand` in your list of skills and select **Publish to org**, if your admin allows it. Every team gets the skill with your guidelines baked in, so they don't repeat Steps 1-3.
 
 ## What changes for the design system team[](https://academy.claude.com/use-cases/brand-guidelines-skill)
 
 Everything Claude generates across the workspace follows your brand rules by default. Review is for judgment calls, not for correcting colors, type, and voice on every draft.
 
-You did this for the core brand. The same approach covers sub-brands, event identities, and accessibility minimums — each one becomes a skill in the design plugin your team maintains.
+You did this for the core brand. The same approach covers sub-brands, event identities, and accessibility minimums — each one becomes a skill your team runs the same way.
 
 ### Finish it where the file lives
 

@@ -28,7 +28,7 @@ Modes set the baseline. Layer [permission rules](/docs/en/permissions#manage-per
 
 ### Actions no mode auto-approves
 
-Claude Code doesn't auto-approve the following in any mode, including `bypassPermissions`. Each bullet links to the section that says what happens instead in each mode:
+Claude Code doesn't auto-approve the following in any mode, including `bypassPermissions`, though you can [turn off the prompt for dangerous `rm` commands](#turn-off-the-critical-path-removal-prompt-in-bypasspermissions-mode) in `bypassPermissions` mode. Each bullet links to the section that says what happens instead in each mode:
 
 * Tools matched by an explicit [ask rule](/docs/en/permissions#manage-permissions)
 * Connector tools your organization [set to `ask`](/docs/en/mcp#organization-controls-on-connector-tools), in sessions where that setting reaches Claude Code
@@ -367,6 +367,7 @@ In auto mode, Claude Code can ask the server to check the actions that [the deci
 * **A direct connection to the Anthropic API**: in interactive terminal sessions and in `-p`, Agent SDK, [VS Code extension](/docs/en/vs-code), and [desktop app](/docs/en/desktop) sessions, whatever your plan or account type, as Anthropic rolls it out. In interactive terminal sessions, this requires Claude Code v2.1.271 or later on Pro, Max, and Team plans, and v2.1.278 or later on Enterprise plans and Claude API accounts. In `-p`, Agent SDK, VS Code extension, and desktop app sessions, this requires Claude Code v2.1.281 or later. From v2.1.282, a session that [doesn't fetch feature flags](/docs/en/env-vars#features-that-need-feature-flag-fetching), for example because you turned telemetry off, asks the server by default in any kind of session.
 * **A cloud provider, or an LLM gateway or proxy**: on [Claude Platform on AWS](/docs/en/claude-platform-on-aws), Amazon Bedrock, Google Cloud's Agent Platform, and Microsoft Foundry, and whenever you point `ANTHROPIC_BASE_URL` at an [LLM gateway or proxy](/docs/en/llm-gateway), whatever your plan. Asking by default requires Claude Code v2.1.278 or later.
 * **A signed-in [Claude apps gateway](/docs/en/claude-apps-gateway) session**: requires Claude Code v2.1.280 or later
+* **A [cloud session](/docs/en/claude-code-on-the-web) in an Anthropic-hosted environment**: whatever your plan, when you start it from the web, the mobile app, or the desktop app with **Cloud** selected. Sessions started by a [cloud scheduled task](/docs/en/routines) ask the server as Anthropic rolls it out.
 
 Where the server reviews the actions, its verdicts decide them. Two other outcomes are possible:
 
@@ -500,7 +501,7 @@ Claude Code v2.1.261 and later also block these by default:
 * Read-only HTTP requests
 * Pushing to any branch of the repository you're working in, including the default branch. A non-default branch whose name marks it as a deploy or publication target, such as `production` or `gh-pages`, isn't covered: the classifier judges a push there on its own terms.
 
-  A push's content is still checked against the classifier's other rules, and [`permissions.deny` rules](/docs/en/permissions#manage-permissions) can still block push commands [as written](/docs/en/permissions#bash-rule-limits) in every mode. The remote's own branch protection still applies. From v2.1.203 until v2.1.211, only routine default-branch pushes and pushes to the branch you started on or to branches Claude created were allowed by default.
+  A push's content is still checked against the classifier's other rules, and [`permissions.deny` rules](/docs/en/permissions#manage-permissions) can still block push commands [as written](/docs/en/permissions#bash-rule-limits) in every mode. The remote's own branch protection still applies.
 * Deleting the exact jobs Claude created earlier in the same session
 * Reading, reviewing, or writing security-related code, configs, and threat models as part of your task
 * Messages between agents working together in the same multi-agent session
@@ -645,7 +646,7 @@ claude --permission-mode dontAsk
 
 `bypassPermissions` mode disables permission prompts and safety checks so tool calls execute immediately, including writes to [protected paths](#protected-paths).
 
-Even in `bypassPermissions` mode, each of the [actions no mode auto-approves](#actions-no-mode-auto-approves) gets a prompt or a denial instead of running on its own. Reading [another organization's public artifact](/docs/en/artifacts#read-an-artifact-shared-with-you) needs your approval, and this mode doesn't ask for it, so Claude can't read one. The [Remove-Item in PowerShell](#remove-item-in-powershell) denies also apply in this mode.
+Even in `bypassPermissions` mode, each of the [actions no mode auto-approves](#actions-no-mode-auto-approves) gets a prompt or a denial, though you can [turn off the prompt for dangerous `rm` commands](#turn-off-the-critical-path-removal-prompt-in-bypasspermissions-mode). Reading [another organization's public artifact](/docs/en/artifacts#read-an-artifact-shared-with-you) needs your approval, and this mode doesn't ask for it, so Claude can't read one. The [Remove-Item in PowerShell](#remove-item-in-powershell) denies also apply in this mode.
 
 Two [cross-session messaging](/docs/en/cross-session-messaging) safeguards still apply in this mode, and in interactive terminal plan-mode sessions where bypass permissions are available:
 
@@ -857,7 +858,7 @@ This reason means the shell may read the command differently than Claude Code di
 This command could not be checked for dangerous rm operations: the shell may read it differently than it was parsed.
 ```
 
-You get the prompt or denial a critical-path removal gets [in your permission mode](#critical-path-removals-in-each-permission-mode), `bypassPermissions` included. You can't approve the command with a `Bash` or `Bash(*)` allow rule, sandbox [auto-allow mode](/docs/en/sandboxing#auto-allow-mode), or a `PreToolUse` hook returning `"allow"`. Read the command, then approve the prompt or, after a denial, run it in your shell.
+You get the prompt or denial a critical-path removal gets [in your permission mode](#critical-path-removals-in-each-permission-mode), `bypassPermissions` included, though you can [turn off that prompt](#turn-off-the-critical-path-removal-prompt-in-bypasspermissions-mode) in `bypassPermissions` mode. You can't approve the command with a `Bash` or `Bash(*)` allow rule, sandbox [auto-allow mode](/docs/en/sandboxing#auto-allow-mode), or a `PreToolUse` hook returning `"allow"`. Read the command, then approve the prompt or, after a denial, run it in your shell.
 
 ### The mounted drive prompt
 
@@ -919,6 +920,8 @@ What Claude Code does with a critical-path removal depends on your permission mo
 
 If an explicit [ask rule](/docs/en/permissions#manage-permissions) matches the command, Claude Code asks you instead, even in `auto` mode and without a time limit. In modes that ask, a [`PermissionRequest` hook](/docs/en/hooks#permissionrequest) can answer the prompt.
 
+To run these removals with no prompt in `bypassPermissions` mode, see [Turn off the critical-path removal prompt](#turn-off-the-critical-path-removal-prompt-in-bypasspermissions-mode).
+
 ### Time limits and denials in auto and bypassPermissions modes
 
 In `auto` and `bypassPermissions` modes, the terminal prompt for a critical-path removal shows a two-minute countdown:
@@ -935,7 +938,7 @@ Away from the terminal, you don't get that prompt:
 | :- | :- | :- |
 | [VS Code extension](/docs/en/vs-code)'s chat panel | Denies it | Denies it unless a [`PermissionRequest` hook](/docs/en/hooks#permissionrequest) allows it |
 | [Desktop app](/docs/en/desktop) | Denies it | Denies it unless a `PermissionRequest` hook allows it |
-| [`-p` run](/docs/en/headless) or [Agent SDK session](/docs/en/agent-sdk/permissions) | Denies it | Your [`--permission-prompt-tool`](/docs/en/cli-reference#cli-flags) or [`canUseTool` callback](/docs/en/agent-sdk/user-input#handle-tool-approval-requests) decides. With neither, or under [`--permission-prompts none`](/docs/en/headless#turn-off-permission-prompts-in-unattended-runs), denies it unless a `PermissionRequest` hook allows it |
+| [`-p` run](/docs/en/headless) or [Agent SDK session](/docs/en/agent-sdk/permissions) | Denies it | Your [`--permission-prompt-tool`](/docs/en/cli-reference#cli-flags) or [`canUseTool` callback](/docs/en/agent-sdk/user-input#handle-tool-approval-requests) decides. With neither, or under [`--permission-prompts none`](/docs/en/headless#turn-off-permission-prompts-in-unattended-runs), denies it unless a `PermissionRequest` hook allows it. To run these removals with no prompt instead, see [Turn off the critical-path removal prompt](#turn-off-the-critical-path-removal-prompt-in-bypasspermissions-mode) |
 
 Wherever the removal is denied, you can read the whole command and run it in your shell.
 
@@ -953,6 +956,63 @@ Set it in the environment that starts Claude Code, such as your shell or the SDK
   ]
 }
 ```
+
+### Turn off the critical-path removal prompt in bypassPermissions mode
+
+To run Bash `rm` and `rmdir` commands that target [critical paths](#critical-paths) with no prompt in `bypassPermissions` mode, start Claude Code with [`CLAUDE_CODE_EVEN_MORE_DANGEROUSLY_SKIP_PERMISSIONS=1`](/docs/en/env-vars#variables) in its environment. This requires Claude Code v2.1.311 or later. Claude Code reads the variable from the launch environment only and [ignores it in a settings file's `env` block](/docs/en/settings-reference#variables-claude-code-ignores-in-env). For example, set it in [your shell](/docs/en/env-vars#set-variables-in-your-shell) and start `claude` from there:
+
+**macOS, Linux, WSL**
+
+```bash theme={null}
+export CLAUDE_CODE_EVEN_MORE_DANGEROUSLY_SKIP_PERMISSIONS=1
+claude --permission-mode bypassPermissions
+```
+
+**Windows PowerShell**
+
+```powershell theme={null}
+$env:CLAUDE_CODE_EVEN_MORE_DANGEROUSLY_SKIP_PERMISSIONS = "1"
+claude --permission-mode bypassPermissions
+```
+
+**Windows CMD**
+
+```batch theme={null}
+set CLAUDE_CODE_EVEN_MORE_DANGEROUSLY_SKIP_PERMISSIONS=1
+claude --permission-mode bypassPermissions
+```
+
+> [!WARNING]
+>
+> With this variable set, you lose a safety prompt for destructive deletes: a command such as `rm -rf ~` can run without asking you. Set it only in an [isolated environment](#skip-all-checks-with-bypasspermissions-mode) whose contents you can afford to lose.
+
+Removals run with no prompt only in `bypassPermissions` mode itself, not in plan mode, and only for what the critical-path check flags in the Bash and [Monitor](/docs/en/tools-reference#monitor-tool) tools. That includes commands Claude Code can't fully parse, which also run with no prompt.
+
+#### Startup notices about the critical-path removal prompt
+
+To check whether `CLAUDE_CODE_EVEN_MORE_DANGEROUSLY_SKIP_PERMISSIONS` is working, read the line Claude Code prints at startup. In a `-p` run, it's on stderr. In an Agent SDK app, pass the [`stderr` option](/docs/en/agent-sdk/typescript#options) to read it. The line says one of these:
+
+* **`is set, so dangerous rm commands can run without a prompt`**: removals can run with no prompt once managed settings and plugin hooks have loaded. If removals keep getting a prompt or denial, see [Why the critical-path removal prompt stays on](#why-the-critical-path-removal-prompt-stays-on)
+* **`has no effect in this session`**: removals keep their usual prompt or denial for the whole session. To change that, find your case under [Why the critical-path removal prompt stays on](#why-the-critical-path-removal-prompt-stays-on)
+* **`has no effect while the Windows registry cannot be read for managed settings`**: removals keep their usual prompt or denial, and the variable takes effect with no restart if a later read of the registry succeeds. If removals keep getting a prompt or denial, see [Why the critical-path removal prompt stays on](#why-the-critical-path-removal-prompt-stays-on)
+
+A missing line doesn't mean the prompt is on: an Agent SDK app with no `stderr` option sees no line, and removals can still run with no prompt. Otherwise, check that you set the variable in the launch environment, that the session [can enter `bypassPermissions` mode](#skip-all-checks-with-bypasspermissions-mode), and that `claude` isn't inside another session. Some sessions [start without the variable](#why-the-critical-path-removal-prompt-stays-on).
+
+If you see one of these lines and didn't set the variable, find where it's set, such as your shell profile, and remove it.
+
+#### Why the critical-path removal prompt stays on
+
+If `CLAUDE_CODE_EVEN_MORE_DANGEROUSLY_SKIP_PERMISSIONS` has no effect and removals keep their [usual prompt or denial](#critical-path-removals-in-each-permission-mode), check for causes such as these:
+
+* **Something else handles permission prompts**: a [`--permission-prompt-tool`](/docs/en/cli-reference#cli-flags) or an Agent SDK [`canUseTool` callback](/docs/en/agent-sdk/user-input) without [`--permission-prompts none`](/docs/en/headless#turn-off-permission-prompts-in-unattended-runs), a [`PermissionRequest` hook](/docs/en/hooks#permissionrequest) with any matcher, or a [mod](/docs/en/plugins/mods/events#hook-the-settings-hook-events) that handles that event. Remove the hook, mod, tool, or callback and restart `claude`
+* **The [VS Code extension](/docs/en/vs-code)'s chat panel or the [Desktop app](/docs/en/desktop) runs the session**: start `claude` in a terminal instead, such as an IDE's integrated terminal
+* **A rule covers Bash, Edit, or Read**: a [deny or ask rule](/docs/en/permissions#manage-permissions) that targets one of these tools, at launch or once Claude Code reads it during the session, even if you remove it later. Remove the rule and restart `claude`. To leave a tool out, use [`--tools`](/docs/en/cli-reference#cli-flags) instead of a deny rule
+* **[`permissions.blockReadsOutsideWorkingDirectories`](/docs/en/settings-reference#permissions-blockreadsoutsideworkingdirectories) is on**: remove the setting from every settings file that sets it to `true`, then restart `claude`
+* **`claude` runs inside another session**: a `claude` started from a session's Bash tool or a hook, even with the variable on its command line. Start `claude` from your own shell. Don't rely on this nested-session limit as a security boundary
+* **A `PreToolUse` hook answers `ask` for a removal**: change what the hook returns
+* **Claude Code starts the session for you**: [background sessions](/docs/en/agent-view), [agent team](/docs/en/agent-teams) teammates in split panes, and sessions a [Remote Control](/docs/en/remote-control) server creates start without the variable. Start `claude` from your own shell
+* **Managed settings can't be read**: Claude Code hasn't successfully read your [managed settings](/docs/en/managed-settings) sources. If server-managed settings keep failing to load, see [Remote managed settings failed to load](/docs/en/errors#remote-managed-settings-failed-to-load). For any other failure that isn't a registry query, ask whoever manages that source to fix it
+* **The Windows registry can't be queried**: on Windows and in WSL, the variable needs an answer from the registry, even when [WSL doesn't use it for settings](/docs/en/settings-reference#wslinheritswindowssettings). The query can fail all session on a non-English Windows, in WSL with interop off, or in a container on a WSL2 kernel. If interop is off, turn it on. Otherwise, run those removals yourself
 
 ### Remove-Item in PowerShell
 

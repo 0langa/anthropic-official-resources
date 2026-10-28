@@ -200,28 +200,19 @@ Explain the logic in @auth (fuzzy matches auth.js, AuthService.ts, etc.)
 What's in @src/components/ (include a trailing slash for folders)
 ```
 
+### Read specific pages of a PDF
+
 For large PDFs, you can ask Claude to read specific pages instead of the whole file. Ask for a single page, a range like pages 1-10, or an open-ended range like page 3 onward. Reading specific pages requires [poppler-utils](/docs/en/tools-reference#read-tool-behavior) on the machine where Claude Code runs.
-
-When you select text in the editor, Claude can see your highlighted code automatically. The prompt box footer shows how many lines are selected. Press `Option+K` (Mac) / `Alt+K` (Windows/Linux) to insert an @-mention with the file path and line numbers, for example `@app.ts#5-10`. Click the **X** on the selection indicator to remove it so Claude doesn't receive the selection. The indicator comes back when you select other text.
-
-The extension withholds selected text from some files:
-
-* When the file is inside your workspace and matches your `files.exclude` or `search.exclude` settings, Claude receives at most the file's path and not the text you selected.
-* The same applies to a file git ignores, as long as VS Code's `search.useIgnoreFiles` setting and the extension's [`respectGitIgnore` setting](#extension-settings) are both on, which is the default.
-
-This filter covers the chat panel only. When Claude Code runs in the integrated terminal, the CLI sends your selected text whatever the file. To keep a file's contents from Claude there, add a [`Read` deny rule](#the-built-in-ide-mcp-server).
-
-Claude also sees which file you have open in the editor, even when nothing is selected, and the prompt box shows its name. To add only your selected text, turn off the [Attach Open File setting](vscode://settings/claudeCode.attachOpenFile). The setting requires Claude Code v2.1.271 or later.
-
-You can also attach images and files to your message:
-
-* To attach an image, paste it from your clipboard into the prompt box.
-* To attach files, hold `Shift` while dragging them into the prompt box.
-* To remove an attachment from context, click the X on it.
 
 ### Include terminal output in prompts
 
 Reference terminal output in your prompts using `@terminal:name` where `name` is the terminal's title. This lets Claude see command output, error messages, or logs without copy-pasting.
+
+### Attach images and files
+
+* To attach an image, paste it from your clipboard into the prompt box.
+* To attach files, hold `Shift` while dragging them into the prompt box.
+* To remove an attachment from context, click the X on it.
 
 ### Paste text
 
@@ -231,6 +222,32 @@ Claude Code also removes [invisible Unicode characters](/docs/en/interactive-mod
 
 * If a notice such as `Removed 3 invisible characters from the pasted text` appears when you paste, the text went in without those characters.
 * If a notice about removed characters appears when you send, nothing was sent. The cleaned text is back in the prompt box. Send again to send the text as shown.
+
+### Automatic context from your selection and open file
+
+When you select text in the editor, Claude can see your highlighted code automatically. The prompt box footer shows how many lines are selected. Claude also sees which file you have open in the editor, even when nothing is selected, and the prompt box shows its name.
+
+Press `Option+K` (Mac) / `Alt+K` (Windows/Linux) to insert an @-mention with the file path and line numbers, for example `@app.ts#5-10`.
+
+#### Keep your selection and open file out of your messages
+
+To stop selected text or your open file from going into your messages, turn off the matching setting in VS Code's settings:
+
+* **Selected text**: turn off the [Attach Selection setting](vscode://settings/claudeCode.attachSelection). Requires Claude Code v2.1.300 or later. To drop one selection, click the **X** beside the line count. The count returns when you select different text.
+* **Open file**: turn off the [Attach Open File setting](vscode://settings/claudeCode.attachOpenFile). Requires Claude Code v2.1.271 or later. The file stays out unless your message includes text you selected in it.
+
+To add text as an @-mention with Attach Selection off, select it and press `Option+K` on Mac or `Alt+K` on Windows and Linux.
+
+Both settings also apply when you run `claude` in VS Code's integrated terminal.
+
+#### Selected text from excluded or ignored files
+
+In the chat panel, the extension withholds selected text from some files:
+
+* When the file is inside your workspace and matches your `files.exclude` or `search.exclude` settings, Claude receives at most the file's path and not the text you selected.
+* The same applies to a file git ignores, as long as VS Code's `search.useIgnoreFiles` setting and the extension's [`respectGitIgnore` setting](#extension-settings) are both on, which is the default.
+
+This filter covers the chat panel only. When Claude Code runs in the integrated terminal, Claude can receive text you select in these files. To keep a file's contents from Claude there, add a [`Read` deny rule](/docs/en/permissions#read-and-edit).
 
 ### LaTeX math in responses
 
@@ -313,7 +330,7 @@ If any part of a conversation fails to download, an error appears and no copy is
 
 Run `/usage` to open the Account & usage dialog, which shows your signed-in account and your usage. The usage figures match how you signed in:
 
-* **claude.ai plan**: usage bars for your plan's limits, such as the current session and the week. Each bar shows how long until its limit resets.
+* **claude.ai plan**: usage bars for your plan's limits, such as the current session and the week.
 
   The dialog also breaks down what is contributing to your plan limits:
 
@@ -691,7 +708,8 @@ VS Code reads `initialPermissionMode` from your user settings and ignores worksp
 | `preferredLocation` | `panel` | Where Claude opens: `sidebar` (right) or `panel` (new tab) |
 | `lockEditorGroups` | `true` | [Lock the editor groups Claude starts for its tabs](#choose-where-claude-lives), so files you open while a Claude tab is focused go to another group. When off, the extension never locks an editor group. Requires Claude Code v2.1.274 or later |
 | `autosave` | `true` | Auto-save files before Claude reads or writes them |
-| `attachOpenFile` | `true` | Add the file that is open in the editor to your messages and show it in the prompt box. When off, only your selected text is added. Requires Claude Code v2.1.271 or later |
+| `attachOpenFile` | `true` | Add the file that is open in the editor to your messages and show it in the prompt box. When off, the file is added only along with text you select. Requires Claude Code v2.1.271 or later |
+| `attachSelection` | `true` | Add the text you select in the editor to your messages and show it in the prompt box. When off, you can still [add a selection as an @-mention](#automatic-context-from-your-selection-and-open-file). Requires Claude Code v2.1.300 or later |
 | `useCtrlEnterToSend` | `false` | Use Ctrl/Cmd+Enter instead of Enter to send prompts |
 | `scrollToBottomOnSend` | `true` | Scroll the conversation to the bottom when you send a message. When off, the conversation stays where you left it. Requires Claude Code v2.1.275 or later |
 | `showMessageTimestamps` | `true` | Show when each message was sent. A date line marks where the day changes. Requires Claude Code v2.1.284 or later. Before v2.1.290, the default was `false` |
@@ -702,7 +720,7 @@ VS Code reads `initialPermissionMode` from your user settings and ignores worksp
 | `continueAfterReload` | `true` | After a window reload, Claude [continues the step that was interrupted](#continue-conversations-after-a-reload) in the restored session. Requires Claude Code v2.1.274 or later |
 | `hideOnboarding` | `false` | Hide the onboarding checklist (graduation cap icon) |
 | `focusView` | `false` | Hide tool calls, tool results, and thinking behind expandable rows, leaving your prompts and Claude's responses. Claude's latest to-do list stays visible; this requires Claude Code v2.1.225 or later. You can also toggle Focus view from the command menu. Requires Claude Code v2.1.221 or later |
-| `respectGitIgnore` | `true` | Exclude .gitignore patterns from file searches and from [selection context](#reference-files-and-folders) |
+| `respectGitIgnore` | `true` | Exclude .gitignore patterns from file searches and from [selection context](#selected-text-from-excluded-or-ignored-files) |
 | `usePythonEnvironment` | `true` | Activate the workspace's Python environment when running Claude. Requires the Python extension. |
 | `environmentVariables` | `[]` | Set environment variables for the Claude process. Use Claude Code settings instead for shared config. A [`CLAUDE_CONFIG_DIR`](/docs/en/env-vars) entry applies only when its value is an absolute path; the extension doesn't expand `~` and ignores a relative value. |
 | `disableLoginPrompt` | `false` | Skip authentication prompts (for third-party provider setups) |
@@ -832,9 +850,10 @@ The server is named `ide` and is hidden from `/mcp` because there's nothing to c
 
 **Selection and open-file context.** While connected, the CLI includes your current editor selection and the path of the active file as context on each prompt you send. The transcript shows a `⧉ Selected N lines from <file>` line when this happens. These cases change that context:
 
+* **[Attach Selection setting](#keep-your-selection-and-open-file-out-of-your-messages) off**: the CLI doesn't include your selection as context.
+* **Attach Open File setting off**: the CLI includes the active file's path only when it also includes a selection.
 * **Queued messages**: if you [queue a message while Claude works](/docs/en/interactive-mode#queue-messages-while-claude-works), it keeps the selection you had when you pressed `Enter`, whatever you select afterward.
 * **Sensitive files**: to exclude a sensitive file such as `.env`, add a [`Read` deny rule](/docs/en/permissions#read-and-edit) for its path. A matching deny rule prevents both the selected text and the open-file notice for that file from reaching Claude.
-* **Attach Open File turned off**: if you turn off the [Attach Open File setting](#extension-settings), the CLI receives the active file's path only while you have text selected in it.
 
 **Transport and authentication.** The server binds to `127.0.0.1` on a random port in the range 10000–65535, and the port is not configurable. The transport and the auth token work as follows:
 

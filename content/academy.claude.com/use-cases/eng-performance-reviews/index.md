@@ -333,7 +333,7 @@ Connectors: GitHub, Linear, Slack
 
 ### Try a plugin[](https://academy.claude.com/use-cases/eng-performance-reviews)
 
-The Human Resources plugin ships with `/performance-review` as a starting point, already structured to gather a report's work for the period and draft the review against your framework. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Human Resources plugin ships with `/performance-review` as a starting point, already structured to gather a report's work for the period and draft the review against your framework. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -441,7 +441,7 @@ I'm writing quarterly reviews for my reports. For each engineer in my team list,
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/eng-performance-reviews)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the /performance-review skill with my feedback.
 
@@ -481,7 +481,7 @@ Your customized `/performance-review` now carries your career framework, your ev
 
 Share the skill
 
-In Cowork, open **Skills** → `/performance-review` → **Share** and pick your peer managers (or your whole workspace, if your admin allows). They get the skill with your framework baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/performance-review`, select **Share**, and pick your peer managers. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your framework baked in, so they don't repeat Steps 1-3.
 
 ## What changes for review season[](https://academy.claude.com/use-cases/eng-performance-reviews)
 

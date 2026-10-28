@@ -81,7 +81,9 @@ A JSON entry that has a `url` but no `type` is a configuration error, because Cl
 
 Only an SDK host application, such as an [Agent SDK](/docs/en/agent-sdk/mcp) application or the [desktop app](/docs/en/desktop), can register an in-process `"type": "sdk"` server. Claude Code skips a `"type": "sdk"` entry in `.mcp.json`, `~/.claude.json`, or settings and reports `Skipped — MCP server "<name>" declares type "sdk", which only an SDK host application can register`.
 
-In `--output-format stream-json` runs, Claude Code also reports a skipped `--mcp-config` entry in the `system/init` event's [`mcp_server_errors` field](/docs/en/headless#stream-responses), so scripts can detect that the server never loaded. This requires Claude Code v2.1.219 or later.
+> [!NOTE]
+>
+> In `--output-format stream-json` runs, Claude Code also reports a skipped `--mcp-config` entry in the `system/init` event's [`mcp_server_errors` field](/docs/en/headless#stream-responses), so scripts can detect that the server never loaded.
 
 ### Option 2: Add a remote SSE server
 
@@ -273,7 +275,11 @@ The discovery cache is off by default unless a gradual rollout has enabled it fo
 
 When you select **Disable** or **Clear authentication** from a server's menu in `/mcp`, Claude Code also discards that server's cache entry. **Reconnect** discards it too on a connected or failed server; on a `cached` server, **Reconnect** connects the server now and keeps the entry. The next time Claude Code connects to the server after discarding the entry, it fetches the tool list from the server instead of from the cache.
 
-When a server's status is `✘ Failed to connect`, `claude mcp list` appends the failure detail to that status line, and `claude mcp get <name>` shows it on an `Issue:` line: the HTTP status or error code, plus any error text the server returned. The server's detail view in `/mcp` includes the same server-reported text in its `Issue:` row. Claude Code redacts credential-like text from this detail and never includes the expanded server URL, which can carry secrets. Claude Code appends no detail to a `✘ Connection error` status, because the exception text it would print there can embed that URL. Before v2.1.219, both commands showed only the bare failure status, without the status code or the server's error text.
+##### Connection failures and unconfigured servers
+
+When a server's status is `✘ Failed to connect`, `claude mcp list` appends the failure detail to that status line, and `claude mcp get <name>` shows it on an `Issue:` line. The detail is the HTTP status or error code, plus any error text the server returned. The server's detail view in `/mcp` includes the same server-reported text in its `Issue:` row.
+
+Claude Code redacts credential-like text from this detail and never includes the expanded server URL, which can carry secrets. Claude Code appends no detail to a `✘ Connection error` status, because the exception text it would print there can embed that URL.
 
 When you complete authentication from `/mcp` and the connection still fails with an HTTP status or a transport error code, Claude Code adds that code and the origin of the server's URL to the message it prints after the attempt. The origin is the scheme and host, plus the port when the URL names one, such as `https://mcp.example.com`.
 
@@ -1621,7 +1627,16 @@ To auto-respond to elicitation requests without showing a dialog, use the [`Elic
 
 If you're building an MCP server that uses elicitation, see the [MCP elicitation specification](https://modelcontextprotocol.io/docs/learn/client-concepts#elicitation) for protocol details and schema examples.
 
-On connections that use [protocol revision 2026-07-28](#mcp-client-runtimes), Claude Code declares `elicitation: {form: {}, url: {}}` in its client capabilities, so a server there can request either mode through the protocol's standard elicitation request.
+### Elicitation modes Claude Code declares
+
+If you build an MCP server, the client capabilities Claude Code sends when it connects tell your server which elicitation modes it can request. Claude Code declares `elicitation: {form: {}, url: {}}` on the following connections, so a server on any of them can request both modes:
+
+* Connections that use [protocol revision 2026-07-28](#mcp-client-runtimes)
+* Connections on the earlier protocol revisions, 2025-11-25 and older, to the stdio, `sse`, `http`, and `ws` servers in a user's Claude Code MCP configuration. Requires Claude Code v2.1.287 or later
+
+On its other connections on the earlier revisions, such as to [claude.ai connectors](#use-mcp-servers-from-claude-ai), Claude Code declares the bare `elicitation: {}`, which permits elicitation requests in form mode only.
+
+A server built on Java MCP SDK 0.17.0 or earlier can refuse a declaration that has `form` and `url` in it. See [MCP server rejected the elicitation capability](/docs/en/errors#mcp-server-rejected-the-elicitation-capability).
 
 ## Use MCP resources
 

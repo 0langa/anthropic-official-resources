@@ -179,11 +179,11 @@ After Claude pushes its changes to a branch, the **Changes** card in the panel b
 * You can also click **Changes** in the session's title bar, or in the bar's **⋮** menu.
 * To show the panel when it's hidden, click the **Show session rail** icon in the session's title bar, or in the bar's **⋮** menu.
 
-The diff compares the session's changes against its base branch by default. To compare against a different branch, select **Compare against** and pick one.
+The diff compares the session's changes against its base branch by default. To compare against a different branch, select **Compare against** and pick one. Against the base branch, the diff can [leave out changes that aren't pushed yet](/docs/en/claude-code-on-the-web#troubleshoot-a-missing-file-in-the-diff-view).
 
 **2. Leave inline comments**
 
-Select any line in the diff, type your feedback, and press Enter. Comments queue up until you send your next message, then they're bundled with it. Claude sees "at `src/auth.ts:47`, don't catch the error here" alongside your main instruction, so you don't have to describe where the problem is.
+Hover over a line in the diff and click the **+** that appears beside its line number to open a comment box, then type your feedback and press Enter. Comments queue up until you send your next message, then they're bundled with it. Claude sees "at `src/auth.ts:47`, don't catch the error here" alongside your main instruction, so you don't have to describe where the problem is.
 
 **3. Create a pull request**
 

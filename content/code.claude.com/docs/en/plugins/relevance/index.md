@@ -5,14 +5,14 @@ Add a relevance block to marketplace plugin entries so Claude Code suggests them
 
 Claude Code can suggest installing a plugin from your organization's marketplace when a user's session matches signals you define for that plugin. Signals include the working directory, files Claude has read, and commands Claude has run. You define them by adding a `relevance` block to the plugin's entry in `marketplace.json`.
 
-A marketplace operator writes the `relevance` entries. An administrator then allowlists the marketplace in managed settings. Users see no suggestions from a marketplace until it's allowlisted.
+A marketplace operator writes the `relevance` entries. An administrator then allowlists the marketplace in managed settings. In the terminal, users see no suggestions from a marketplace until it's allowlisted.
 
 > [!NOTE]
 >
 > These cases are covered on other pages:
 >
 > * **You want to install plugins**: see [Install and manage plugins](/docs/en/plugins/install)
-> * **You want to turn suggestions off**: see [Understand how plugin relevance works](#understand-how-plugin-relevance-works)
+> * **You want to turn suggestions off**: see [Understand how plugin relevance works](#understand-how-plugin-relevance-works), or for the suggestions Claude makes in a cloud session's conversation, [Turn off plugin suggestions](/docs/en/claude-code-on-the-web#turn-off-plugin-suggestions)
 
 Start with the sections for your role:
 
@@ -155,7 +155,7 @@ Each finding prints with the path of the field it concerns, and the output ends 
 
 ## Enable suggestions in managed settings
 
-Users see no suggestions from a marketplace until an administrator allowlists it in [managed settings](/docs/en/plugins/org), even when its `marketplace.json` declares `relevance`.
+In the terminal, users see no suggestions from a marketplace until an administrator allowlists it in [managed settings](/docs/en/plugins/org), even when its `marketplace.json` declares `relevance`.
 
 To allowlist a marketplace, edit your managed settings as follows:
 

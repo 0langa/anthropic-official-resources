@@ -36,7 +36,7 @@ ThoughtSpot is also growing alongside Claude. Its AI analyst, [Spotter](https://
 
 ## **CodeRabbit runs its coding agents on Vercel**
 
-[CodeRabbit](https://claude.com/platform/marketplace/coderabbit) builds on Claude to validate AI-generated code so engineering teams can control what ships. Its agents write and test code, so they need a safe place to run it. [Vercel Sandbox](https://vercel.com/sandbox) runs each agent's code in an isolated Linux microVM with its own filesystem and network, away from other jobs and CodeRabbit's own systems. [Vercel Workflows](https://vercel.com/workflows) coordinates the work, so long-running jobs can pause, resume and finish without hitting a time limit.
+[CodeRabbit](https://claude.com/platform/marketplace/coderabbit) builds on Claude to [validate AI-generated code](https://claude.com/resources/articles/how-coderabbit-used-claude-to-build-an-agent-orchestration-system) so engineering teams can control what ships. Its agents write and test code, so they need a safe place to run it. [Vercel Sandbox](https://vercel.com/sandbox) runs each agent's code in an isolated Linux microVM with its own filesystem and network, away from other jobs and CodeRabbit's own systems. [Vercel Workflows](https://vercel.com/workflows) coordinates the work, so long-running jobs can pause, resume and finish without hitting a time limit.
 
 When CodeRabbit's engineering and product leaders wanted to move from a pay-as-you-go Vercel plan to a committed one, the company funded the upgrade from its recently expanded Anthropic commitment. With the budget already approved, the deal closed within a week.
 
@@ -60,7 +60,15 @@ Using your Anthropic commitment this way is in limited preview. If you have one,
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 23, 2026
+[ArticleOct 27, 2026
+
+### Claude for Financial Advisors
+
+Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)[ArticleOct 26, 2026
+
+### Expanding Claude for Nonprofits
+
+Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.](https://claude.com/resources/articles/expanding-claude-for-nonprofits)[ArticleOct 23, 2026
 
 ### Claude Cowork and chat come together for Enterprise
 
@@ -68,17 +76,7 @@ Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterpri
 
 ### Claude Duet Safety, Privacy, and Security
 
-Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)[ArticleOct 22, 2026
-
-### The full Claude Platform, available on Google Cloud
-
-Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
-
-Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)[ArticleOct 21, 2026
-
-### HCLTech joins the Claude Partner Network as a Global Premier partner
-
-HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)
+Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)
 
 ## Transform how your organization operates with Claude
 

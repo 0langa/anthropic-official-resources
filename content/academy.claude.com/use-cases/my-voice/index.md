@@ -200,7 +200,7 @@ Connectors: Gmail, Slack
 
 ### Try a plugin[](https://academy.claude.com/use-cases/my-voice)
 
-The Productivity plugin ships with `/memory-management` so Cowork can save what it learns about how you work; you'll build your own `/my-voice` on top. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Productivity plugin ships with `/memory-management` so Cowork can save what it learns about how you work; you'll build your own `/my-voice` on top. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -344,7 +344,7 @@ Every **Sunday at 6:00pm**[Open in Cowork](https://claude.ai/desktop/schedule
 
 Share the skill
 
-In Cowork, open **Skills** → `/my-voice` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill scaffold so they can build their own profile without repeating Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/my-voice`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill scaffold so they can build their own profile without repeating Steps 1-3.
 
 ## Going forward[](https://academy.claude.com/use-cases/my-voice)
 

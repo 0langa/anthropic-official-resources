@@ -306,7 +306,7 @@ Connectors: Slack
 
 ### Try a plugin[](https://academy.claude.com/use-cases/ad-performance-recap)
 
-The Marketing plugin ships with `/performance-report` and other performance-reporting skills as a starting point, already structured to compare spend, reach, and conversion across platforms and write the readout. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Marketing plugin ships with `/performance-report` and other performance-reporting skills as a starting point, already structured to compare spend, reach, and conversion across platforms and write the readout. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -420,7 +420,7 @@ Analyze this campaign's ad performance and build the recap deck: what worked, wh
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/ad-performance-recap)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the /performance-report skill with my feedback.
 
@@ -460,7 +460,7 @@ Your customized `/performance-report` now carries your KPI definitions, your dec
 
 Share the skill
 
-In Cowork, open **Skills** → `/performance-report` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your KPIs and templates baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/performance-report`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your KPIs and templates baked in, so they don't repeat Steps 1-3.
 
 ## Going forward[](https://academy.claude.com/use-cases/ad-performance-recap)
 

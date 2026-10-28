@@ -9,7 +9,7 @@
   May 27, 2026
 - Team
 
-  [Science](https://www.anthropic.com/science)
+  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 - Topics
 
   - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)

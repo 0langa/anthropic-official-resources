@@ -102,6 +102,8 @@ function startup(params?: {
 
 Returns a `Promise<`[`WarmQuery`](#warmquery)`>` that resolves once the subprocess has spawned and completed its initialize handshake.
 
+Of the [`hook_progress`](#sdkhookprogressmessage) messages a `SessionStart` or `Setup` hook emits before the handshake completes, you get only the newest, which carries all of the hook's output so far. `startup()` holds that message, the hook's [`hook_started`](#sdkhookstartedmessage) message, and anything else the subprocess emits before the handshake completes. The held messages reach you once you call `.query()` on the `WarmQuery` and iterate the result.
+
 #### Example
 
 Call `startup()` early, for example on application boot, then call `.query()` on the returned handle once a prompt is ready. This moves subprocess spawn and initialization out of the critical path.
@@ -521,7 +523,7 @@ Configuration object for the `query()` function.
 | `managedSettings` | `Settings` | `undefined` | Policy-tier settings your host process supplies to the spawned session. On machines with admin-deployed managed settings, Claude Code ignores these unless the admin's highest-priority managed source sets `parentSettingsBehavior: 'merge'`, and never merges them while a [`policyHelper`](/docs/en/settings-reference#policyhelper) supplies managed settings. Merged values pass through a restrictive-only filter; [Restrict parent settings](/docs/en/claude-apps-gateway#restrict-parent-settings) covers what the filter admits and the `allowManaged*Only` locks. A host that sets [`CLAUDE_CODE_PROVIDER_MANAGED_BY_HOST`](/docs/en/env-vars) has three keys read straight from this payload instead: its [model configuration](/docs/en/model-config#restrict-model-selection) on Claude Code v2.1.222 or later, [`modelPricing`](/docs/en/settings-reference#modelpricing) when no managed source sets it on v2.1.246 or later, and its `ENABLE_TOOL_SEARCH` env entry on v2.1.247 or later |
 | `maxBudgetUsd` | `number` | `undefined` | Stop the query when the client-side cost estimate reaches this USD value. The estimate can pass this value, so [leave headroom](/docs/en/agent-sdk/agent-loop#budget-headroom). Counts only the call's own spend; totals restored from a resumed session don't count. For accuracy caveats and reset behavior, see [Track cost and usage](/docs/en/agent-sdk/cost-tracking) |
 | `maxThinkingTokens` | `number` | `undefined` | *Deprecated:* Use `thinking` instead. Maximum tokens for thinking process |
-| `maxTurns` | `number` | `undefined` | Maximum agentic turns (tool-use round trips) |
+| `maxTurns` | `number` | `undefined` | Maximum agentic [turns](/docs/en/agent-sdk/agent-loop#turns-and-messages) |
 | `mcpServers` | `Record<string, [`McpServerConfig`](#mcpserverconfig)>` | `{}` | MCP server configurations |
 | `model` | `string` | Default from CLI | Claude model alias or full model name. See [accepted values and provider-specific IDs](/docs/en/model-config#available-models) |
 | `onElicitation` | `(request: ElicitationRequest, options: { signal: AbortSignal }) => Promise<ElicitationResult>` | `undefined` | Callback for handling MCP elicitation requests. Called when an MCP server requests user input and no hook handles it first. When not provided, unhandled elicitation requests are declined automatically |
@@ -1400,6 +1402,8 @@ type PermissionResult =
     };
 ```
 
+If you return `allow` with more than 4,096 items in `updatedPermissions`, Claude Code treats the result as invalid and denies the tool call. Each update counts as one item, and so does each entry in its `rules` or `directories` list. The denial message ends with `updatedPermissions may hold at most 4096 updates, rules and directories in all`. To have the call allowed, return 4,096 items or fewer.
+
 ### `ToolConfig`
 
 Configuration for built-in tool behavior.
@@ -1461,7 +1465,7 @@ type McpHttpServerConfig = {
 
 #### `McpSdkServerConfigWithInstance`
 
-The configuration for an in-process MCP server, one that [`createSdkMcpServer()`](#createsdkmcpserver) creates and that runs inside your application's process. It is the object `createSdkMcpServer()` returns, plus an optional `tools` list of [`McpServerToolPolicy`](#mcpservertoolpolicy) entries that you add yourself. To require approval for calls to one of the server's tools, or to deny them, add an entry that names the tool.
+Configuration for an in-process MCP server. It is what [`createSdkMcpServer()`](#createsdkmcpserver) returns, plus an optional `tools` list of [`McpServerToolPolicy`](#mcpservertoolpolicy) entries that you add.
 
 ```typescript theme={null}
 type McpSdkServerConfigWithInstance = {
@@ -1473,9 +1477,9 @@ type McpSdkServerConfigWithInstance = {
 };
 ```
 
-To set a policy, spread the object `createSdkMcpServer()` returns into a new object in `mcpServers` and add the `tools` list to that new object. The `tools` option of `createSdkMcpServer()` itself is a different list, which holds the tool definitions and doesn't accept policy entries. The policy list requires Agent SDK v0.3.301 or later, and [`McpServerToolPolicy`](#mcpservertoolpolicy) describes what each `permission_policy` value does.
+To require approval for calls to one of the server's tools, or deny them, add a policy entry naming the tool. Spread what `createSdkMcpServer()` returns into an object under `mcpServers` and put the entry in a `tools` list on that object, because the function's `tools` option accepts tool definitions and not policy entries. The policy list requires Agent SDK v0.3.301 or later, and [`McpServerToolPolicy`](#mcpservertoolpolicy) describes what each `permission_policy` value does.
 
-This example pre-approves every tool on the `records` server with an `allowedTools` wildcard, then marks `delete_record` as `always_ask` so that calls to it go to `canUseTool` anyway. With the `destructiveHint: true` annotation, the call still reaches the callback if the session runs in `auto` mode, where the auto mode [classifier](/docs/en/permission-modes#eliminate-prompts-with-auto-mode) could otherwise approve it.
+In this script, an `allowedTools` wildcard pre-approves every tool on the `records` server, but `delete_record` is marked `always_ask`, so calls to it go to `canUseTool` anyway. With the `destructiveHint: true` annotation, the call still reaches the callback if the session runs in `auto` mode, where the auto mode [classifier](/docs/en/permission-modes#eliminate-prompts-with-auto-mode) could otherwise approve it.
 
 ```typescript theme={null}
 import { query, tool, createSdkMcpServer } from "@anthropic-ai/claude-agent-sdk";
@@ -1514,7 +1518,7 @@ for await (const message of query({
 }
 ```
 
-When Claude calls the tool, the script prints `Approval requested for mcp__records__delete_record` before the `delete_record` tool runs, although the `allowedTools` entry would otherwise have approved the call.
+When Claude calls `delete_record`, the script prints `Approval requested for mcp__records__delete_record`.
 
 To change or lift a tool's policy while the session runs, pass the server's config with a new `tools` value to [`setMcpServers()`](#mcpsetserversresult). The `tools` value you pass takes effect from Claude's next call to that server's tools:
 
@@ -1553,7 +1557,7 @@ If you pass neither `canUseTool` nor `permissionPromptToolName`, or set [`permis
 
 ##### Permission modes that can approve an `always_ask` call
 
-In `auto`, `plan`, and `bypassPermissions` mode, a call to a tool marked [`always_ask`](#permission-policy-values) can be approved before it reaches your `canUseTool` callback. Find your session's mode in this list to see when that approval happens and what to set so the call reaches your callback anyway:
+In `auto`, `plan`, and `bypassPermissions` mode, a call to a tool marked [`always_ask`](#permission-policy-values) can be approved before it reaches your `canUseTool` callback.
 
 * **`auto`**: the auto mode [classifier](/docs/en/permission-modes#eliminate-prompts-with-auto-mode) reviews the call and can allow it. To make every call reach your callback in `auto` mode, set `destructiveHint: true` in the tool's [annotations](#toolannotations)
 * **`plan`**: while [auto mode is available](/docs/en/permission-modes#eliminate-prompts-with-auto-mode) to the session, calls to an `always_ask` tool annotated `readOnlyHint: true` go to the auto mode classifier, which can allow them. Calls to other `always_ask` tools reach your callback. To make a read-only tool's calls reach your callback too, add `destructiveHint: true` to that tool's annotations alongside `readOnlyHint: true`. Alternatively, set [`useAutoModeDuringPlan`](/docs/en/settings-reference#useautomodeduringplan) to `false`, which turns the classifier off during planning
@@ -1689,7 +1693,7 @@ The `message` field is a [`BetaMessage`](https://platform.claude.com/docs/en/api
 
 `aborted` is `true` when an interrupt or abort truncated the assistant message before the stream completed: the message has no `stop_reason` and the content may end mid-word. The field is absent on normally completed messages. It requires Agent SDK v0.3.214 or later.
 
-`agent_id` identifies the subagent that produced the message and is absent on main-thread messages. The value equals the `task_id` on that subagent's [`task_started`](#sdktaskstartedmessage) and other task events, and is unchanged when the subagent is [resumed](/docs/en/agent-sdk/subagents#resume-subagents). The field requires Agent SDK v0.3.292 or later.
+`agent_id` identifies the subagent that produced the message and is absent on main-thread messages. The value equals the `task_id` on that subagent's [`task_started`](#sdktaskstartedmessage) and other task events, and is unchanged when the subagent is [resumed](/docs/en/agent-sdk/subagents#resume-subagents). On messages from a [nested subagent](/docs/en/sub-agents#let-subagents-spawn-their-own-subagents), it names the nested subagent, not the subagent that spawned it. The field requires Agent SDK v0.3.292 or later.
 
 Match a subagent's messages to its task events on `agent_id` rather than pairing a message's `parent_tool_use_id` with a task event's `tool_use_id`. When a tool call resumes the subagent, the task events carry that call's `tool_use_id`, while the messages keep the `parent_tool_use_id` of the tool call that first started the subagent, so the two no longer match.
 
@@ -3270,7 +3274,9 @@ type ToolInputSchemas =
 
 ### Agent
 
-**Tool name:** `Agent`. The previous name `Task` is still accepted as an alias, and the `tools` array in the [`SDKSystemMessage`](#sdksystemmessage) init message currently lists this tool as `Task` for backward compatibility.
+**Tool name:** `Agent`. The previous name `Task` is still accepted as an alias when this tool is available to the session.
+
+The `tools` array in the [`SDKSystemMessage`](#sdksystemmessage) init message lists this tool as `Task` for backward compatibility.
 
 > [!NOTE]
 >
@@ -4007,7 +4013,7 @@ type ToolOutputSchemas =
 
 ### Agent
 
-**Tool name:** `Agent`. The previous name `Task` is still accepted as an alias, and the `tools` array in the [`SDKSystemMessage`](#sdksystemmessage) init message currently lists this tool as `Task` for backward compatibility.
+**Tool name:** `Agent`. The previous name `Task` is still accepted as an alias when this tool is available to the session.
 
 ```typescript theme={null}
 type AgentOutput =
@@ -5207,7 +5213,7 @@ Claude Code sends `_meta` only when the [`capabilities`](#sdksystemmessage) arra
 
 #### When a tool's `_meta.ui` holds only `visibility`
 
-If your server declares `ui.resourceUri` for a tool but the `_meta.ui` your application receives holds only `visibility`, the `ui` object the server sent failed one of Claude Code's checks. Claude Code checks `ui` and `ui/resourceUri` separately, so one key can reach your application when the other fails. Compare the `_meta` in your server's `tools/list` response against the checks for each key:
+If your server declares `ui.resourceUri` for a tool but the `_meta.ui` your application receives holds only `visibility`, the `ui` object the server sent failed one of Claude Code's checks. Compare the `_meta` in your server's `tools/list` response against the checks for each key:
 
 * **`ui`**: reaches your application unchanged, including any members other than `resourceUri` and `visibility`, if all three checks pass:
 
@@ -5549,6 +5555,8 @@ type SDKToolUseSummaryMessage = {
 Emitted when a hook begins executing.
 
 Claude Code delivers this message, [`SDKHookProgressMessage`](#sdkhookprogressmessage), and [`SDKHookResponseMessage`](#sdkhookresponsemessage) to the message stream immediately, including while a `SessionStart` or `Setup` hook is still running during session startup. Claude Code v2.1.169 through v2.1.203 delivered these messages in one batch after a `SessionStart` or `Setup` hook completed; v2.1.204 restored live delivery.
+
+If you start the session with [`startup()`](#startup), these messages reach you once you call `.query()` and iterate the result.
 
 ```typescript theme={null}
 type SDKHookStartedMessage = {
@@ -6069,7 +6077,7 @@ type SandboxNetworkConfig = {
 | `allowManagedDomainsOnly` | `boolean` | `false` | Managed-settings only. When set in [managed settings](/docs/en/managed-settings), only `allowedDomains` entries and `WebFetch(domain:...)` allow rules from managed settings are honored, and allow entries from user, project, or local settings are ignored. From the SDK, pass it through the [`managedSettings`](#options) option |
 | `allowLocalBinding` | `boolean` | `false` | Allow processes to bind to local ports (for example, for dev servers) |
 | `allowUnixSockets` | `string[]` | `[]` | Unix socket paths that processes can access (for example, Docker socket) |
-| `allowAllUnixSockets` | `boolean` | `false` | Allow access to all Unix sockets |
+| `allowAllUnixSockets` | `boolean` | `false` | Allow access to all Unix sockets, and on Linux to VM sockets (`AF_VSOCK`) |
 | `httpProxyPort` | `number` | `undefined` | HTTP proxy port for network requests |
 | `socksProxyPort` | `number` | `undefined` | SOCKS proxy port for network requests |
 

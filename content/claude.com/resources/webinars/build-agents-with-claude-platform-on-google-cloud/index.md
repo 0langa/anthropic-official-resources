@@ -1,0 +1,36 @@
+Nov 17, 2026 — 10:00 – 11:00 AM PT
+
+# Build Agents with the Claude Platform on Google Cloud
+
+The full Claude Platform is now on Google Cloud. With Claude Models on Google Cloud (Anthropic managed), you can build agents that work with files, run code, use skills and handle long-running tasks, all from the Google Cloud account you already run. Anthropic operates the platform. Your team uses its existing Google Cloud IAM credentials, and usage draws down your Google Cloud commitment on a single Google Cloud invoice.
+
+Join Anthropic and Google Cloud to see what you can build. You’ll watch an agent come together step-by-step, see how setup and governance work in your Google Cloud project, and get your questions answered live in the chat.
+
+Register for the webinar
+
+Fill out the form below to reserve your seat.
+
+By submitting, you agree to receive updates from Anthropic and Google Cloud, and you acknowledge the Anthropic [Privacy Policy](https://www.anthropic.com/legal/privacy) and Google [Privacy Policy](https://policies.google.com/privacy).
+
+## Featured speakers
+
+- ![](https://assets.claude.com/08ad06280cfa358afa81e5ac2c6edd9b65009463.jpg?w=128&h=128&fit=crop)
+
+  Roy Arsan
+
+  Applied AI @ Anthropic
+- ![](https://assets.claude.com/477c489b599ac51bea7c7a1d7bb0b0eeb8a0eaa2.jpg?w=128&h=128&fit=crop)
+
+  Ivan Nardini
+
+  Developer Relations Engineer (AI/ML) at Google Cloud
+
+## What you’ll learn
+
+- How to get started with your existing Google Cloud IAM credentials, with usage billed on your Google Cloud invoice and drawn down from your commitment
+- How to build an agent with code execution, the Files API, Agent Skills and the Advisor tool
+- How to manage cost and performance with prompt caching and batch processing
+
+## Transform how your organization operates with Claude
+
+[Try Claude (opens in new tab)](https://claude.ai/)[Contact sales](https://claude.com/contact-sales)

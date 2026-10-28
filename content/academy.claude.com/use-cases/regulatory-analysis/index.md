@@ -208,7 +208,7 @@ Connectors: Microsoft 365
 
 ### Try a plugin[](https://academy.claude.com/use-cases/regulatory-analysis)
 
-The Regulatory Legal plugin ships with `/policy-diff` and other regulatory-change skills as a starting point, already structured to read a new rule against your current policies and pull out which ones it touches and where the gaps are. It's one of twelve practice-area plugins for legal teams; if your admin manages plugins and it's not available yet, skip this, nothing below requires it.
+The Regulatory Legal plugin ships with `/policy-diff` and other regulatory-change skills as a starting point, already structured to read a new rule against your current policies and pull out which ones it touches and where the gaps are. It's one of twelve practice-area plugins for legal teams. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -234,7 +234,7 @@ Regulatory LegalWatches regulatory feeds, diffs new rules against your policy li
 
 First run
 
-Regulatory Legal comes from Anthropic's **Claude for Legal** source, which a workspace has to enable once under **Browse Anthropic sources**. On a Team or Enterprise plan an admin does that from the organization's plugin settings (it then shows up for everyone); on an individual plan you can do it yourself. If **Add** doesn't take you straight to the plugin, that's usually the missing step. Once it's installed, run `/cold-start-interview`: the full pass (ten-plus minutes, pointed at the policies in your working folder) is what indexes your policy library for `/policy-diff` to read against — the two-minute quick start gets you going on sensible defaults but skips that index. Every other skill reads from that setup.
+Regulatory Legal comes from Anthropic's Legal marketplace, which has to be added once under **Browse Anthropic sources**. On a Team or Enterprise plan an admin does that from the organization's plugin settings (it then shows up for everyone); on an individual plan you can do it yourself. If **Add** doesn't take you straight to the plugin, that's usually the missing step. Once you've added Regulatory Legal, run `/cold-start-interview`: the full pass (ten-plus minutes, pointed at the policies in your working folder) is what indexes your policy library for `/policy-diff` to read against — the two-minute quick start gets you going on sensible defaults but skips that index. Every other skill reads from that setup.
 
 ### Connect your tools[](https://academy.claude.com/use-cases/regulatory-analysis)
 
@@ -324,7 +324,7 @@ Read this regulation against our product descriptions and current policies. Draf
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/regulatory-analysis)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the /policy-diff skill with my feedback.
 
@@ -364,7 +364,7 @@ Your customized `/policy-diff` now carries your policy library, your jurisdictio
 
 Share the skill
 
-In Cowork, open **Skills** → `/policy-diff` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your jurisdictions and memo format baked in, so they don't repeat Steps 1-3; each teammate still runs `/cold-start-interview` the first time, pointed at the same policy library, because the plugin keeps its index per person.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/policy-diff`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your jurisdictions and memo format baked in, so they don't repeat Steps 1-3; each teammate still runs `/cold-start-interview` the first time, pointed at the same policy library, because the plugin keeps its index per person.
 
 ## Going forward[](https://academy.claude.com/use-cases/regulatory-analysis)
 

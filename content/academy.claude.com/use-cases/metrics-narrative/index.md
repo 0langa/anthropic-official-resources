@@ -230,7 +230,7 @@ Connectors: Linear
 
 ### Try a plugin[](https://academy.claude.com/use-cases/metrics-narrative)
 
-The Product Management plugin ships with `/metrics-review` and other analysis skills as a starting point, already structured to find the anomaly, segment to the driver, and write the story. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Product Management plugin ships with `/metrics-review` and other analysis skills as a starting point, already structured to find the anomaly, segment to the driver, and write the story. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -336,7 +336,7 @@ Find the anomaly in this week's activation funnel. Segment by plan, platform, an
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/metrics-narrative)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the /metrics-review skill with my feedback.
 
@@ -376,7 +376,7 @@ Your customized `/metrics-review` now carries your metric definitions, your segm
 
 Share the skill
 
-In Cowork, open **Skills** → `/metrics-review` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your definitions and format baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/metrics-review`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your definitions and format baked in, so they don't repeat Steps 1-3.
 
 ## Going forward[](https://academy.claude.com/use-cases/metrics-narrative)
 

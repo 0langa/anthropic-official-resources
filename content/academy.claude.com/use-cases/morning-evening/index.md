@@ -222,11 +222,11 @@ Connectors: Google Calendar, Gmail, Slack, Linear
 
 ### Try a plugin[](https://academy.claude.com/use-cases/morning-evening)
 
-The Productivity plugin ships with `/start` and `/update` as a starting point, already structured to read your calendar and channels and rank what matters. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Productivity plugin ships with `/start` and `/update` as a starting point, already structured to read your calendar and channels and rank what matters. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
-Productivity6 skills for inbox sweeps, daily rundowns, meeting prep, and decision logs
+ProductivitySkills for inbox sweeps, daily rundowns, meeting prep, and decision logs
 
 [Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=productivity)
 
@@ -342,7 +342,7 @@ Run my morning briefing. Tell me what's on fire, what's due, who's waiting on me
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/morning-evening)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the /start skill with my feedback.
 
@@ -382,7 +382,7 @@ Your customized `/start` and `/update` now carry your channel list, your priorit
 
 Share the skill
 
-In Cowork, open **Skills** → `/start` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your buckets and mute list baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/start`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your buckets and mute list baked in, so they don't repeat Steps 1-3.
 
 ## What changes for your day[](https://academy.claude.com/use-cases/morning-evening)
 

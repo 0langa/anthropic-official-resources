@@ -285,11 +285,11 @@ Connectors: Google Drive, Slack
 
 ### Try a plugin[](https://academy.claude.com/use-cases/competitor-comparison)
 
-The Marketing plugin ships with `/competitive-brief` as a starting point, already structured to read a competitor's public materials against your positioning and write the win/lose/draw breakdown. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Marketing plugin ships with `/competitive-brief` as a starting point, already structured to read a competitor's public materials against your positioning and write the win/lose/draw breakdown. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
-Marketing8 skills to draft content, plan campaigns, hold brand voice, and report on performance
+MarketingSkills to draft content, plan campaigns, hold brand voice, and report on performance
 
 [Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=marketing)
 
@@ -395,7 +395,7 @@ Here's the competitor's site, pricing page, and recent announcements, plus our p
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/competitor-comparison)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the /competitive-brief skill with my feedback.
 
@@ -435,7 +435,7 @@ Your customized `/competitive-brief` now carries your positioning, your deck tem
 
 Share the skill
 
-In Cowork, open **Skills** → `/competitive-brief` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your positioning and templates baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/competitive-brief`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your positioning and templates baked in, so they don't repeat Steps 1-3.
 
 ## Going forward[](https://academy.claude.com/use-cases/competitor-comparison)
 

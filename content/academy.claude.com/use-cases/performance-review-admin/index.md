@@ -205,7 +205,7 @@ Connectors: Google Drive
 
 ### Try a plugin[](https://academy.claude.com/use-cases/performance-review-admin)
 
-The Human Resources plugin ships with `/performance-review` and other people-ops skills as a starting point, already structured to gather input, score against competencies, and draft a review. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Human Resources plugin ships with `/performance-review` and other people-ops skills as a starting point, already structured to gather input, score against competencies, and draft a review. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -313,7 +313,7 @@ Help me build the /performance-review skill for our managers. The skill should w
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/performance-review-admin)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the /performance-review skill with my feedback.
 
@@ -353,7 +353,7 @@ Your customized `/performance-review` now carries your framework, your rating la
 
 Share the skill
 
-In Cowork, open **Skills** → `/performance-review` → **Share** and pick all people managers (or your whole workspace, if your admin allows). They get the skill with your framework and instructions baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/performance-review`, select **Share**, and pick all people managers. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your framework and instructions baked in, so they don't repeat Steps 1-3.
 
 ## Going forward[](https://academy.claude.com/use-cases/performance-review-admin)
 
@@ -373,7 +373,7 @@ Your folder
 
 Every manager writes reviews against your framework, in your template, through one shared `/performance-review` skill — so the drafts that go to calibration are comparable.
 
-You did this for performance reviews. The same approach works for promotion cases, onboarding plans, and improvement plans — each one becomes a skill in your team's plugin that managers run the same way.
+You did this for performance reviews. The same approach works for promotion cases, onboarding plans, and improvement plans — each one becomes a skill that managers run the same way.
 
 [Next: Engagement survey to action plan](https://academy.claude.com/use-cases/engagement-survey-themes)
 

@@ -261,13 +261,22 @@ These steps are covered elsewhere:
 * **The full walkthrough, including PR creation**: see [Review and iterate](/docs/en/web-quickstart#review-and-iterate)
 * **Having Claude monitor the PR for CI failures and review comments automatically**: see [Auto-fix pull requests](#auto-fix-pull-requests)
 
+#### Troubleshoot a missing file in the diff view
+
+A file you expected can be missing from the diff view's file list when it compares against the base branch, whether or not the session has pushed changes:
+
+* **No changes pushed yet**: the list has Claude's own edits, but not changes made by commands Claude ran, such as a formatter
+* **Changes pushed**: the list has pushed commits, but not changes made after the last push
+
+To add a missing change to the list, ask Claude to commit and push.
+
 ### Manage context
 
 Cloud sessions support [built-in commands](/docs/en/commands) that produce text output. Commands that only run in the terminal interface, such as `/plugin` or `/resume`, aren't available. Commands that open a picker or panel in the terminal behave differently in cloud sessions:
 
 * **`/model`, `/effort`, `/color`, and `/rename`**: pass the value as an argument, for example `/model sonnet`, instead of opening the terminal picker or slider. The argument forms follow each command's [availability notes](/docs/en/commands#all-commands).
 * **`/fast`**: toggles [fast mode](/docs/en/fast-mode#use-fast-mode-in-cloud-sessions) for the session when fast mode is [available on your account](/docs/en/fast-mode#requirements). Requires Claude Code v2.1.271 or later in the session's environment.
-* **`/config`**: in your browser at claude.ai/code, opens the Claude Code section of your settings instead of setting a value. To change a setting for a cloud session, set an [environment variable](/docs/en/cloud-environments#set-environment-variables) on the environment. In a session with one repository outside a [project](/docs/en/claude-projects)'s threads, commit the key to that repository's `.claude/settings.json` instead. [Settings in cloud sessions](/docs/en/settings#settings-in-cloud-sessions) lists what each session reads.
+* **`/config`**: in your browser at claude.ai/code, opens **Settings > Code** or **Settings > Claude Code** instead of setting a value. To change a setting for a cloud session, set an [environment variable](/docs/en/cloud-environments#set-environment-variables) on the environment. In a session with one repository outside a [project](/docs/en/claude-projects)'s threads, commit the key to that repository's `.claude/settings.json` instead. [Settings in cloud sessions](/docs/en/settings#settings-in-cloud-sessions) lists what each session reads.
 
 For context management in a cloud session outside a [project's threads](/docs/en/claude-projects#choose-models-and-let-claude-manage-context):
 
@@ -284,6 +293,28 @@ To change the auto-compact window instead, set [`CLAUDE_CODE_AUTO_COMPACT_WINDOW
 [Subagents](/docs/en/sub-agents) work the same way they do locally. Claude can spawn them with the Agent tool to offload research or parallel work into a separate context window, keeping the main conversation lighter. Outside a [project](/docs/en/claude-projects#what-threads-pick-up-from-your-repositories)'s threads, subagents defined in your repo's `.claude/agents/` load automatically.
 
 [Agent teams](/docs/en/agent-teams) are off by default but can be enabled by adding `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1` to your [environment variables](/docs/en/cloud-environments#set-environment-variables).
+
+### Plugin suggestions in the conversation
+
+A card in the conversation that lists one or more [plugins](/docs/en/plugins/overview), with an **Add** button, means Claude is suggesting plugins for your task. Claude can make these suggestions without you asking. You don't have to respond, and Claude carries on with the task either way.
+
+#### Add or remove a suggested plugin
+
+Select **Add** on a plugin to turn it on for your claude.ai account, where it stays on after the session ends. To undo, open the added plugin from the card, select **Manage** to reach the plugin's page on claude.ai, and remove the plugin from that page.
+
+#### Turn off plugin suggestions
+
+To stop Claude from suggesting plugins, deny the `SearchPlugins` and `SuggestPluginInstall` tools with [permission rules](/docs/en/permissions#manage-permissions). In a session with one repository outside a [project](/docs/en/claude-projects), commit the rules to that repository's `.claude/settings.json`, listing both tool names under `permissions.deny`:
+
+```json theme={null}
+{
+  "permissions": {
+    "deny": ["SearchPlugins", "SuggestPluginInstall"]
+  }
+}
+```
+
+Claude Code ignores permission rules in the repository's `.claude/settings.json`, including these deny rules, when the [managed settings](/docs/en/managed-settings) that apply to the session set [`allowManagedPermissionRulesOnly`](/docs/en/settings-reference#allowmanagedpermissionrulesonly). In that case, put the rules in those managed settings instead. For other setups, such as a session with several repositories or a cloud thread in a project, see which [settings reach a cloud session](/docs/en/settings#settings-in-cloud-sessions).
 
 ### Take back a queued message
 
@@ -312,7 +343,10 @@ Sharing works as follows for Max and Pro accounts:
 * **Repository access**: verification isn't enabled by default
 * **Sensitive content**: check your session before sharing. Sessions may contain code and credentials from private GitHub repositories
 
-To require recipients to have repository access, or to hide your name from shared sessions, go to [**Settings > Claude Code > Sharing settings**](https://claude.ai/settings/claude-code).
+To require recipients to have repository access, or to hide your name from shared sessions, open Settings on claude.ai, then:
+
+* **If the Settings menu shows Code instead of Claude Code**: go to [**Privacy**](https://claude.ai/settings/data-privacy-controls), which has these settings
+* **Otherwise**: go to [**Claude Code > Sharing settings**](https://claude.ai/settings/claude-code)
 
 ### Archive sessions
 

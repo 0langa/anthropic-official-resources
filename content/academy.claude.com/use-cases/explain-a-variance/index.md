@@ -215,7 +215,7 @@ Connectors: Google Drive
 
 ### Try a plugin[](https://academy.claude.com/use-cases/explain-a-variance)
 
-The Finance plugin ships with `/variance-analysis` and seven other close-week skills as a starting point, it already knows how to compare periods and structure commentary. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Finance plugin ships with `/variance-analysis` and seven other close-week skills as a starting point, it already knows how to compare periods and structure commentary. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -325,7 +325,7 @@ Draft this month's variance commentary for the monthly review. Compare actuals t
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/explain-a-variance)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the /variance-analysis skill with my feedback.
 
@@ -375,7 +375,7 @@ Your customized `/variance-analysis` now carries your team's standards. Share it
 
 Share the skill
 
-In Cowork, open **Skills** → `/variance-analysis` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your instructions baked in, they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/variance-analysis`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your instructions baked in, they don't repeat Steps 1-3.
 
 ## What changes for close week[](https://academy.claude.com/use-cases/explain-a-variance)
 

@@ -28,7 +28,7 @@ Each setting below is independent. They layer rather than replace each other, so
 
 > [!TIP]
 >
-> For workflow techniques that keep context small in any repository, such as [running exploration in a subagent](/docs/en/best-practices#use-subagents-for-investigation) so file reads stay out of the main conversation, see [Best practices for Claude Code](/docs/en/best-practices). To roll out a baseline configuration to every developer in your organization, see [Set up Claude Code for your organization](/docs/en/admin-setup).
+> For workflow techniques that keep context small in any repository, see [Best practices for Claude Code](/docs/en/best-practices). One example is [running exploration in a subagent](/docs/en/best-practices#know-what-subagents-cost) so file reads stay out of the main conversation. To roll out a baseline configuration to every developer in your organization, see [Set up Claude Code for your organization](/docs/en/admin-setup).
 
 ### The example monorepo
 
@@ -155,7 +155,9 @@ For paths that are checked in, such as a vendored SDK or committed generated cod
 The deny rules can cover everyone working in the repository, only you, or every session on the machine, depending on which settings file you put them in:
 
 * **Everyone working in the repository**: commit the rules to `.claude/settings.json`, at the repository root if you start Claude there, or in each package's `.claude/` if you start from subdirectories. Like other project settings on this page, that file isn't inherited from parent directories.
-* **Yourself only**: use `.claude/settings.local.json` at the repository root, which loads in every CLI session inside the repository regardless of starting directory, except in the cases where Claude Code [doesn't use the repository root](/docs/en/settings#where-claude-code-looks-for-each-file), such as on Windows. Relative patterns like the example's `Read(./**/vendor/**/*)` still [anchor at the session's current working directory](/docs/en/permissions#read-and-edit) rather than the repository root, so if you start sessions from subdirectories, write the rules in this file as `//`-absolute paths, such as `Read(//absolute/path/to/repo/**/vendor/**/*)`. Before v2.1.211, `.claude/settings.local.json` also loaded only from the starting directory.
+* **Yourself only**: use `.claude/settings.local.json` at the repository root. It loads in every CLI session inside the repository regardless of starting directory, except in the cases where Claude Code [doesn't use the repository root](/docs/en/settings#where-claude-code-looks-for-each-file), such as on Windows.
+
+  Relative patterns like the example's `Read(./**/vendor/**/*)` still [anchor at the session's current working directory](/docs/en/permissions#read-and-edit) rather than the repository root. If you start sessions from subdirectories, write the rules in this file as `//`-absolute paths, such as `Read(//absolute/path/to/repo/**/vendor/**/*)`.
 * **Everyone, enforced in every session**: set the rules in [managed settings](/docs/en/managed-settings), which user and project settings cannot override.
 
 The example below blocks build artifacts and a vendored SDK. Its directory patterns end with `/**/*` rather than `/**` so that each rule covers everything inside the directory but not the directory itself. Claude can then still list those directories or change into them, for example with `ls dist` or `cd build`.
@@ -373,7 +375,7 @@ Per-directory CLAUDE.md files can become hard to govern as the codebase grows. C
 Move conventions and reference content out of always-loaded CLAUDE.md and into mechanisms that load on demand:
 
 * [Skills](/docs/en/skills): reference material Claude loads only when relevant to the task
-* [Plugins](/docs/en/plugins/overview): versioned bundles of skills, hooks, and commands that a platform team owns centrally
+* [Plugins](/docs/en/plugins/overview): versioned bundles of skills, hooks, and commands that a platform team owns centrally and can [install for everyone through managed settings](/docs/en/plugins/org#pre-install-and-require-plugins)
 * [MCP servers](/docs/en/mcp): if your organization already runs a code search or RAG index over the repository, expose it as an MCP tool so Claude queries it instead of reading files directly
 
 See [server-managed or endpoint-managed settings](/docs/en/server-managed-settings#choose-between-server-managed-and-endpoint-managed-settings) for how platform teams can enforce these centrally.
@@ -462,7 +464,7 @@ The configuration above controls what Claude sees. When a single change touches 
 Two techniques help keep a cross-package change consistent:
 
 * **Give Claude the whole change in one session**: handing over the shared edit and its call sites together keeps the decisions behind each edit consistent, rather than re-deriving them per package
-* **Plan before editing**: [plan first](/docs/en/best-practices#explore-first-then-plan-then-code) in [plan mode](/docs/en/permission-modes#analyze-before-you-edit-with-plan-mode), and Claude writes the plan to a file. A long cross-package session [compacts its context](/docs/en/context-window#what-survives-compaction) along the way. Claude Code re-injects the plan file after each compaction, so the plan survives where conversation history may not
+* **Plan before editing**: plan first in [plan mode](/docs/en/permission-modes#analyze-before-you-edit-with-plan-mode), and Claude writes the plan to a file. A long cross-package session [compacts its context](/docs/en/context-window#what-survives-compaction) as it goes. Claude Code re-injects the plan file after each compaction, so the plan survives where conversation history may not
 
 ## Next steps
 

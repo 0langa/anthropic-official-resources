@@ -238,11 +238,11 @@ Connectors: Linear, Notion
 
 ### Try a plugin[](https://academy.claude.com/use-cases/prd-from-a-one-pager)
 
-The Product Management plugin ships with `/write-spec` and other spec-writing skills as a starting point, already structured to interview you on the problem and produce a sectioned PRD. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Product Management plugin ships with `/write-spec` and other spec-writing skills as a starting point, already structured to interview you on the problem and produce a sectioned PRD. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
-Product Management7 skills to write specs, synthesize research, run competitive analysis, and keep the roadmap honest
+Product ManagementSkills to write specs, synthesize research, run competitive analysis, and keep the roadmap honest
 
 [Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=product-management)
 

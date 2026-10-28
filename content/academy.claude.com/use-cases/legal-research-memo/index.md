@@ -271,7 +271,7 @@ Skill: /brief-section-drafter (Litigation Legal)
 
 ### Try a plugin[](https://academy.claude.com/use-cases/legal-research-memo)
 
-The Litigation Legal plugin is the starting point: its drafting skills, like `/brief-section-drafter`, tag every citation with the research source it came from and flag anything drawn from model knowledge alone as `[verify]`, so you know what to confirm before anyone relies on the memo. Later on this page you'll save the way you run this memo as your own `/research-memo` skill. It's one of twelve practice-area plugins for legal teams; if your admin manages plugins and it's not available yet, skip this, nothing below requires it.
+The Litigation Legal plugin is the starting point: its drafting skills, like `/brief-section-drafter`, tag every citation with the research source it came from and flag anything drawn from model knowledge alone as `[verify]`, so you know what to confirm before anyone relies on the memo. Later on this page you'll save the way you run this memo as your own `/research-memo` skill. It's one of twelve practice-area plugins for legal teams. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -297,7 +297,7 @@ Litigation LegalManages the litigation portfolio — matters, deadlines, holds, 
 
 First run
 
-Litigation Legal comes from Anthropic's **Claude for Legal** source, which a workspace has to enable once under **Browse Anthropic sources**. On a Team or Enterprise plan an admin does that from the organization's plugin settings (it then shows up for everyone); on an individual plan you can do it yourself. If **Add** doesn't take you straight to the plugin, that's usually the missing step. Once it's installed, run `/cold-start-interview` (a two-minute quick start on sensible defaults, or ten-plus minutes with your real documents) so the plugin learns how your practice works, and pair it with the research connector below.
+Litigation Legal comes from Anthropic's Legal marketplace, which has to be added once under **Browse Anthropic sources**. On a Team or Enterprise plan an admin does that from the organization's plugin settings (it then shows up for everyone); on an individual plan you can do it yourself. If **Add** doesn't take you straight to the plugin, that's usually the missing step. Once you've added Litigation Legal, run `/cold-start-interview` (a two-minute quick start on sensible defaults, or ten-plus minutes with your real documents) so the plugin learns how your practice works, and pair it with the research connector below.
 
 ### Connect your tools[](https://academy.claude.com/use-cases/legal-research-memo)
 
@@ -429,7 +429,7 @@ Your `/research-memo` skill now carries your house format, your citation style, 
 
 Share the skill
 
-In Cowork, open **Skills** → `/research-memo` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your house format and citation style baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/research-memo`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your house format and citation style baked in, so they don't repeat Steps 1-3.
 
 ## Going forward[](https://academy.claude.com/use-cases/legal-research-memo)
 

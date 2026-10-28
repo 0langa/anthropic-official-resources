@@ -279,7 +279,7 @@ Connectors: Figma
 
 ### Try a plugin[](https://academy.claude.com/use-cases/design-heuristic-audit)
 
-The Design plugin ships with `/design-critique` already structured to walk screens against a rubric and compare across competitors. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Design plugin ships with `/design-critique` already structured to walk screens against a rubric and compare across competitors. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -387,7 +387,7 @@ Run a heuristic audit of these competitors. Score each screen against Nielsen's 
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/design-heuristic-audit)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the /design-critique skill with my feedback.
 
@@ -437,7 +437,7 @@ Your customized `/design-critique` now carries your rubric, your severity scale,
 
 Share the skill
 
-In Cowork, open **Skills** → `/design-critique` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your rubric baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/design-critique`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your rubric baked in, so they don't repeat Steps 1-3.
 
 ## What changes for competitive review[](https://academy.claude.com/use-cases/design-heuristic-audit)
 

@@ -152,7 +152,7 @@ Turning ultracode on already opts you in to large runs, so these checks don't ap
 * The session's [concurrent subagent limit](/docs/en/sub-agents#concurrent-subagent-limit) isn't enforced for the subagents Claude spawns with the Agent tool
 * In auto permission mode, you aren't asked to [approve the first workflow launch](#approve-the-plan-before-it-runs)
 
-`/effort ultracode` lasts for the current session; to have every session start with it, set the [`ultracode`](/docs/en/settings-reference#ultracode) setting. Turn it off with `/effort ultracode off` when you return to routine work. The `/effort` slider offers the toggle only [when ultracode is available](/docs/en/model-config#when-ultracode-is-available).
+`/effort ultracode` lasts for the current session; to have every session start with it, set the [`ultracode`](/docs/en/settings-reference#ultracode) setting. Turn it off with `/effort ultracode off` when you return to routine work. The `/effort` slider offers the toggle only [when ultracode is available](/docs/en/model-config#when-ultracode-is-available). Before v2.1.284, `/effort ultracode` set the session to `xhigh`, and `/effort ultracode off` failed with `Invalid argument`.
 
 ### Approve the plan before it runs
 
@@ -195,16 +195,12 @@ Run `/workflows`, select the run you want to keep, and press `s`. In the save di
 * `.claude/workflows/` in your project: shared with everyone who clones the repo
 * `~/.claude/workflows/` in your home directory: available in every project, visible only to you. If you set [`CLAUDE_CONFIG_DIR`](/docs/en/env-vars), this location is the `workflows/` directory under that path.
 
-The save dialog shows the resolved path for the personal location.
+The save dialog shows the resolved path for the personal location. Press Enter to save. The workflow runs as `/<name>` in future sessions from either location.
 
-Press Enter to save. The workflow runs as `/<name>` in future sessions from either location.
-
-Claude Code checks the save location for symlinks before writing, and shows an error instead of writing through one. What it checks depends on where you save:
+Claude Code checks the save location for symlinks before writing, and shows an error instead of writing through one:
 
 * Project location: Claude Code refuses if `.claude`, `.claude/workflows`, or the target file is a symlink.
 * Personal location: Claude Code refuses only if the target file itself is a symlink, so a `~/.claude` directory managed by a dotfiles tool still works.
-
-Before v2.1.216, Claude Code followed the link, which could place the file outside the location you chose.
 
 In a monorepo with several `.claude/` directories, you can keep workflows alongside the package they apply to. Saving to the project location writes to the closest `.claude/workflows/` directory that already exists between your working directory and the repository root, or to the repository root if none exists yet. Project workflows also load from every `.claude/workflows/` along that path, and when more than one defines the same name Claude Code runs the one closest to the working directory.
 
@@ -466,9 +462,9 @@ Each value maps to an agent count:
 | `medium` | Fewer than 10 agents |
 | `large` | Fewer than 50 agents |
 
-The default is `medium`, or `small` when you're signed in on a Pro plan with Claude Code v2.1.271 or later. Until you choose a value, the `/config` row marks the value as the default, and the workflow's `Running in background` line names the size in force. Requires Claude Code v2.1.219 or later; earlier versions default to `unrestricted`.
+The default is `medium`, or `small` when you're signed in on a Pro plan with Claude Code v2.1.271 or later. Until you choose a value, the `/config` row marks the value as the default, and the workflow's `Running in background` line names the size in force.
 
-To change the guideline, pick a value for the Dynamic workflow size setting in `/config`, or run `/config workflowSizeGuideline=small`. On v2.1.219 and later, you can also set the [`workflowSizeGuideline` key](/docs/en/settings-reference#workflowsizeguideline) in any settings file; that value takes precedence over `/config`, and Claude Code hides the `/config` row while a settings file provides one.
+To change the guideline, pick a value for the Dynamic workflow size setting in `/config`, or run `/config workflowSizeGuideline=small`. You can also set the [`workflowSizeGuideline` key](/docs/en/settings-reference#workflowsizeguideline) in any settings file; that value takes precedence over `/config`, and Claude Code hides the `/config` row while a settings file provides one.
 
 Changes take effect on the next prompt. The [runtime agent caps](#behavior-and-limits) still apply regardless of the setting.
 

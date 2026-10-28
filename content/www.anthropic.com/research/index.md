@@ -2,7 +2,7 @@
 
 [## Alignment](https://www.anthropic.com/research/team/alignment)
 
-48 posts
+49 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
 
@@ -20,7 +20,7 @@ Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
 [## Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-34 posts
+35 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 
@@ -32,19 +32,19 @@ Studies how large language models work internally as a foundation for AI safety.
 
 [## Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-24 posts
+25 posts
 
 Studies how AI affects people, both individually and collectively.
 
 [## Science](https://www.anthropic.com/science)
 
-18 posts
+17 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 
 [## Alignment](https://www.anthropic.com/research/team/alignment)
 
-48 posts
+49 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
 
@@ -62,7 +62,7 @@ Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
 [## Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-34 posts
+35 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 
@@ -74,13 +74,13 @@ Studies how large language models work internally as a foundation for AI safety.
 
 [## Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-24 posts
+25 posts
 
 Studies how AI affects people, both individually and collectively.
 
 [## Science](https://www.anthropic.com/science)
 
-18 posts
+17 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 
@@ -126,13 +126,29 @@ To see what works and what breaks when agents are sent into a market, we made a
 
 05
 
-197
+199
 
 ARTICLES
 
 Filter
 
 Most recentGallery view
+
+[Science](https://www.anthropic.com/science)
+
+Oct 27, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F55c24ba57e702cf993cd96674ae030ba4c00842d-1280x1280.jpg&w=3840&q=75)
+
+### [Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development)
+
+We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.
+
+[Alignment](https://www.anthropic.com/research/team/alignment)
+
+Oct 27, 2026![Collage of a vintage lithograph of a schooner heeling in a stormy sea, layered over an aged paper folder and a blue-tinted handwritten ship passenger list.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc3cbffb64d9aeb025d02170318bdd4befdb0cf12-2000x1125.jpg&w=3840&q=75)
+
+### [How AI agents shape experts’ judgment calls](https://www.anthropic.com/research/agents-judgment-calls)
+
+As AI does more of the hands-on work, the hope is that experts still make the judgment calls, meaning the decisions with more than one defensible answer. We tested this with 50 professional analysts who did a statistical analysis with Claude Code. On each key decision, we randomly assigned which of two defensible options the agent would favor. Analysts mostly went with the agent’s side, and few named the agent as a reason afterward.
 
 [Alignment](https://www.anthropic.com/research/team/alignment)
 
@@ -238,7 +254,7 @@ Sep 24, 2026![Two-panel illustration: on a dark background, five colored bars re
 
 To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.
 
-[Science](https://www.anthropic.com/science)
+[TeamName]
 
 Sep 23, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1b9799acc71482075f53337a81c6fa8a14aac796-1280x1280.jpg&w=3840&q=75)
 
@@ -309,21 +325,5 @@ Aug 18, 2026![An image of Claude-designed protein binders spelling out Anthropic
 ### [How Claude is accelerating protein design and analytical chemistry](https://www.anthropic.com/research/Claude-accelerates-protein-design)
 
 In this post, we share two results that show how Claude can help life scientists increase the pace of their research.
-
-[Economics](https://www.anthropic.com/research/team/economics)
-
-Aug 12, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F46eef84db666a74a4013b4652d44cec7c46a3016-2000x1125.jpg&w=3840&q=75)
-
-### [Reviewing the evidence on worker retraining programs](https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs)
-
-We're sharing a review of the evidence on worker retraining programs, coauthored by independent researcher David Roodman and Anthropic's Maxim Massenkoff.
-
-[Science](https://www.anthropic.com/science)
-
-Aug 10, 2026![Illustration of a mathematical compass](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F740317502c536400fe8959db9a1443e1a41c84c8-1280x1280.jpg&w=3840&q=75)
-
-### [Learning more about Claude's mathematical capabilities](https://www.anthropic.com/research/riemann-zeta)
-
-An unreleased research version of Claude has made strides on a problem related to the Riemann hypothesis.
 
 See more

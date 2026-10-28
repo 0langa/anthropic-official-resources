@@ -170,7 +170,7 @@ Connectors: Figma, GitHub
 
 ### Try a plugin[](https://academy.claude.com/use-cases/pattern-consistency-audit)
 
-The Design plugin ships with `/design-handoff` and other design-system skills as a starting point, already structured to inventory components and cross-reference where they live. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Design plugin ships with `/design-handoff` and other design-system skills as a starting point, already structured to inventory components and cross-reference where they live. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -278,7 +278,7 @@ Before I propose a new inline-filter pattern for the search results page, find e
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/pattern-consistency-audit)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the /design-handoff skill with my feedback.
 
@@ -310,7 +310,7 @@ Your customized `/pattern-audit` now carries your component inventory, your owne
 
 Share the skill
 
-In Cowork, open **Skills** → `/pattern-audit` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your instructions baked in, they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/pattern-audit`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your instructions baked in, they don't repeat Steps 1-3.
 
 ## What changes for design crit[](https://academy.claude.com/use-cases/pattern-consistency-audit)
 

@@ -110,7 +110,7 @@ Claude is excellent at identifying patterns and organizing information across hu
 
 ### Protect sensitive client information appropriately[](https://academy.claude.com/use-cases/track-discovery-timelines-and-analyze-patterns)
 
-For cases involving truly confidential information (trade secrets, highly sensitive personal data), consider redacting sensitive details before upload or using this approach for the non-sensitive portions of discovery only. Claude doesn't store uploaded documents after your conversation ends and you control what information you provide. Learn more about our [privacy policy(opens in new tab)](https://www.anthropic.com/legal/privacy)
+For cases involving truly confidential information (trade secrets, highly sensitive personal data), consider redacting sensitive details before upload or using this approach for the non-sensitive portions of discovery only. Learn more about our [privacy policy(opens in new tab)](https://www.anthropic.com/legal/privacy)
 
 ### Specify professional legal formatting[](https://academy.claude.com/use-cases/track-discovery-timelines-and-analyze-patterns)
 

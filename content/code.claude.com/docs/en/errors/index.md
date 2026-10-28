@@ -143,6 +143,7 @@ Match the message you see to a section below.
 | `N sessions ended while this machine was offline — the environment was cleaned up on the server and can't be resumed.` | [Network](#sessions-ended-while-this-machine-was-offline) |
 | `Couldn't share the transcript.` | [Network](#couldnt-share-the-transcript) |
 | `Couldn't send feedback` | [Network](#couldnt-send-feedback) |
+| `Feedback payload too large. Try again without the transcript, or shorten the details.` | [Network](#feedback-payload-too-large) |
 | `MCP server "<name>" connection timed out. Your computer went to sleep or its clock changed while connecting.` | [Network](#mcp-server-connection-timed-out-during-a-sleep-or-clock-change) |
 | `Prompt is too long` / `Input is too long for requested model` | [Request errors](#prompt-is-too-long) |
 | `Prompt is too long · automatic compaction failed:` | [Request errors](#prompt-is-too-long) |
@@ -241,6 +242,7 @@ Match the message you see to a section below.
 | `MCP server "<name>" was not saved to` / `was not removed from` | [Command-line errors](#mcp-server-was-not-saved-or-removed) |
 | `MCP server "<name>" may not have been saved` / `may not have been removed` | [Command-line errors](#mcp-server-may-not-have-been-saved-or-removed) |
 | `Server rejected the Authorization header minted by the configured headersHelper` | [Command-line errors](#server-rejected-the-authorization-header-minted-by-the-configured-headershelper) |
+| `This server (Java MCP SDK 0.17.0 or older) rejected Claude Code's elicitation capability` | [Command-line errors](#mcp-server-rejected-the-elicitation-capability) |
 | `Error: MCP tool <name> (passed via --permission-prompt-tool) not found` | [Command-line errors](#mcp-permission-prompt-tool-not-found) |
 | `OAuth callback port <port> is already in use — another process may be holding it` | [Command-line errors](#oauth-callback-port-is-already-in-use) |
 | `No available ports for OAuth redirect` | [Command-line errors](#no-available-ports-for-oauth-redirect) |
@@ -331,6 +333,7 @@ Match the message you see to a section below.
 | `Failed to write the plan approval request to the lead's inbox — plan not submitted` | [Tool errors](#failed-to-write-to-a-teammate-inbox) |
 | `Its agent definition was not restored: the folder its definition file came from is not trusted` | [Tool errors](#teammate-agent-definition-not-restored) |
 | `Only a teammate can approve a shutdown request` | [Tool errors](#only-a-teammate-can-approve-a-shutdown-request) |
+| `A command-line deny rule cannot be handed to a teammate intact` | [Tool errors](#command-line-deny-rule-cannot-be-handed-to-a-teammate) |
 | `Message too large for cross-session delivery` | [Tool errors](#message-too-large-for-cross-session-delivery) |
 | `Too many messages to this session just now` | [Tool errors](#too-many-messages-to-this-session-just-now) |
 | `Cross-session message was dropped at the recipient session's inbox` | [Tool errors](#cross-session-message-dropped-at-the-inbox) |
@@ -371,7 +374,7 @@ Match the message you see to a section below.
 | `This conversation is already open in another running Claude session` | [Background session errors](#this-session-is-running-in-another-terminal) |
 | `This session's saved conversation is no longer on disk` | [Background session errors](#this-sessions-saved-conversation-is-no-longer-on-disk) |
 | `Bypass permissions was requested at launch and ignored` | [Bypass permissions ignored in a background session](/docs/en/permission-modes#bypass-permissions-ignored-in-a-background-session) |
-| `kept <id> — its worktree is still at <path>` | [Background session errors](#worktree-has-commits-that-are-not-pushed-anywhere) |
+| `kept <id> — its worktree is still at <path>` | [Background session errors](#worktree-has-commits-that-are-not-pushed-anywhere) if the message's next line mentions unpushed commits, otherwise [What deleting a session removes](/docs/en/agent-view#what-deleting-a-session-removes) |
 | `kept <id> — <n> unpushed commits on <branch>` | [Background session errors](#worktree-has-commits-that-are-not-pushed-anywhere) |
 | `kept <id> — worktree has commits that are not pushed anywhere` | [Background session errors](#worktree-has-commits-that-are-not-pushed-anywhere) |
 | `terminal host process died — press Enter to restart` / `This session's terminal host process died` | [Background session errors](#terminal-host-process-died) |
@@ -2184,9 +2187,9 @@ The upload must fit an 8 MiB limit. On a long session, Claude Code progressively
 
 ### Couldn't send feedback
 
-A message starting `Couldn't send feedback` means the report you submitted from the [`/feedback`, `/bug`, or `/share` dialog](/docs/en/commands#all-commands), or a queued [feedback draft](/docs/en/tools-reference#sendfeedback-tool-behavior), wasn't sent. When a sentence about your organization follows the colon, your organization refuses feedback and the same report gets the same answer.
+A message starting `Couldn't send feedback` means the feedback service didn't confirm the report you submitted from the [`/feedback`, `/bug`, or `/share` dialog](/docs/en/commands#all-commands), or a queued [feedback draft](/docs/en/tools-reference#sendfeedback-tool-behavior). Treat it as not received. When a sentence about your organization follows the colon, your organization refuses feedback and the same report gets the same answer.
 
-The first of these two examples is a network failure and the second is an organization's refusal:
+The second of these two examples is an organization's refusal:
 
 ```text wrap theme={null}
 Couldn't send feedback (couldn't reach the service). If it keeps failing, you can file at https://github.com/anthropics/claude-code/issues instead.
@@ -2199,12 +2202,24 @@ Couldn't send feedback: Feedback has not been enabled for your organization. To 
 * **Not signed in**: the message continues `: not signed in. Run /login, then retry.` Run `/login`, then send again
 * **Your organization's refusal**: for example `: Feedback has not been enabled for your organization.` or `: Feedback collection is not available for organizations with custom data retention policies.` If the message adds `To report a bug, open an issue`, do so at [github.com/anthropics/claude-code/issues](https://github.com/anthropics/claude-code/issues). A queued draft stays queued, and you can [discard it](/docs/en/tools-reference#discard-or-keep-a-draft)
 * **Refused credentials**: the message continues `: the sign-in this session uses is not allowed to send feedback` or `: the server did not accept the credentials this session uses`. Run `/status` at the Claude Code prompt to see which login, token, or API key this session sends
-* **`(request timed out)` or `(couldn't reach the service)` straight after `Couldn't send feedback`**: these are network failures. Send the report or the queued draft again. The dialog keeps your text, and a queued draft's message says `The draft is still queued.` If other requests are failing too, check your network connection and see [Unable to connect to API](#unable-to-connect-to-api). If it keeps failing, file the report at [github.com/anthropics/claude-code/issues](https://github.com/anthropics/claude-code/issues)
+* **`(request timed out)` or `(couldn't reach the service)` straight after `Couldn't send feedback`**: send the report or the queued draft again. The dialog keeps your text, and a queued draft's message says `The draft is still queued.` If other requests are failing too, check your network connection and see [Unable to connect to API](#unable-to-connect-to-api). If it keeps failing, file the report at [github.com/anthropics/claude-code/issues](https://github.com/anthropics/claude-code/issues)
 * **`(server returned <status>)`, or no reason, straight after `Couldn't send feedback`**: the status is the service's response code. The service's own message follows it when one was sent, as in `(server returned 403: Access Forbidden)`. If it keeps failing, file the report at [github.com/anthropics/claude-code/issues](https://github.com/anthropics/claude-code/issues)
 
 Issues at github.com/anthropics/claude-code are public, so leave out code, transcripts, and anything else confidential when you open one.
 
 Before v2.1.281, every send failed with this message once a Remote Control **Stop** or an urgent cross-session message had arrived while the dialog was open. On those versions, close the dialog, reopen it, and send again.
+
+### Feedback payload too large
+
+This message in the [review screen](/docs/en/tools-reference#review-and-edit-a-draft) for a [feedback draft](/docs/en/tools-reference#sendfeedback-tool-behavior) means Claude Code has no confirmation that the service accepted the draft. Treat it as not received. The draft stays in your `/feedback` queue, so you can send it again.
+
+```text wrap theme={null}
+Feedback payload too large. Try again without the transcript, or shorten the details.
+```
+
+**What to do:**
+
+* In the review screen, set **Send transcript** to `no`, then send the draft again. Shortening the details removes at most 10 KB of text, which is all a draft's details can hold.
 
 ### MCP server connection timed out during a sleep or clock change
 
@@ -3470,6 +3485,37 @@ Claude Code re-runs the helper on each connection attempt, so a retry after a tr
 
 Before v2.1.248, Claude Code ran OAuth discovery for a server whose helper supplied the `Authorization` header. That discovery could fail with `Incompatible auth server: does not support dynamic client registration` instead of reporting the rejected credential.
 
+### MCP server rejected the elicitation capability
+
+An MCP server built on Java MCP SDK 0.11.0 through 0.17.0 refused the connection. Those SDK versions can't parse the `form` and `url` [elicitation modes](/docs/en/mcp#elicitation-modes-claude-code-declares) that Claude Code declares in its handshake. The message reads:
+
+```text theme={null}
+This server (Java MCP SDK 0.17.0 or older) rejected Claude Code's elicitation capability. Set "bareElicitationCapability": true for it, or upgrade to Java MCP SDK 0.17.1+ (Spring AI 1.0.7+ or 1.1.6+).
+```
+
+**What to do:**
+
+* Upgrade the server to Java MCP SDK 0.17.1 or later, or to one of the Spring AI releases the message names
+* Or add `"bareElicitationCapability": true` to that server's entry in your MCP configuration, then restart Claude Code. The field is accepted on stdio, `sse`, `http`, and `ws` entries and requires Claude Code v2.1.281 or later
+
+This `.mcp.json` entry sets the field for one HTTP server:
+
+```json theme={null}
+{
+  "mcpServers": {
+    "inventory": {
+      "type": "http",
+      "url": "https://mcp.example.com/mcp",
+      "bareElicitationCapability": true
+    }
+  }
+}
+```
+
+After the restart, `/mcp` shows the server as connected. Claude Code declares form mode only to that server, so remove the field once you upgrade it.
+
+A server can also fail with its own error text, such as one containing `Unrecognized field "form"`. The same fixes apply.
+
 ### MCP permission prompt tool not found
 
 The tool you passed to [`--permission-prompt-tool`](/docs/en/cli-reference#cli-flags) wasn't among the connected MCP tools when the run first needed a permission decision, either because its server never connected or because no connected server exposes a tool by that name. Claude Code still sends your prompt: the [non-interactive](/docs/en/headless) run exits with this error, and exit code 1, on the first tool call, so it produces no answer even though the request was made. Before the first prompt, Claude Code waits up to the per-server connection timeout of 30 seconds set by [`MCP_TIMEOUT`](/docs/en/env-vars) for that server to connect. Before v2.1.206, startup didn't wait for the server to finish connecting, so a slow-starting but healthy server produced this error too.
@@ -4643,6 +4689,19 @@ Only a teammate can approve a shutdown request, and this session is not running 
 * If the teammate is still running, ask the lead at its prompt to shut the teammate down, for example `Ask the researcher teammate to shut down`. See [Shut down teammates](/docs/en/agent-teams#shut-down-teammates).
 * If a former teammate you resumed yourself with `claude --resume` got this refusal, nothing was sent. To end that session, run `/exit` at its prompt.
 
+### A command-line deny rule cannot be handed to a teammate intact
+
+This message means Claude Code didn't start a [split-pane](/docs/en/agent-teams#choose-a-display-mode) teammate in your [agent team](/docs/en/agent-teams). Claude Code passes the lead's command-line deny rules to a split-pane teammate on the teammate's own command line, and stops when the teammate would read one of them differently:
+
+```text wrap theme={null}
+A command-line deny rule cannot be handed to a teammate intact, so the teammate would not enforce it — spawn aborted
+```
+
+**What to do:**
+
+* Run `/config` in the lead session and set **Teammate mode** to `in-process`, then ask Claude to start the teammate again. You don't need to find the rule or restart the lead. An in-process teammate [runs under the lead's live deny rules](/docs/en/agent-teams#permissions).
+* Later sessions that take [`teammateMode`](/docs/en/settings-reference#teammatemode) from your user settings start teammates in-process too, because `/config` saves the choice there. To go back to split panes in a later session, set **Teammate mode** to `auto`, `tmux`, or `iterm2`, whichever you used before.
+
 ### Message too large for cross-session delivery
 
 Claude's [cross-session message](/docs/en/cross-session-messaging) to another of your sessions on this machine was too long to send. Claude Code refused it, and the receiving session got nothing. The refusal appears in the sending session's tool result, not as a banner in your terminal. It names both sizes and how to make the message fit:
@@ -5080,12 +5139,12 @@ Commits on a remote don't block the delete. Neither do commits on the local copy
 **What to do:**
 
 * To keep the commits, push the worktree's branch, or merge it into the default branch checked out in your main checkout, then delete the session again
-* To discard the commits, run the `claude rm <id> --discard-unpushed` command the message printed, or press `Ctrl+X` twice on the session's row in agent view again. This removes the session and the worktree along with its branch, the unpushed commits, and any uncommitted changes. If the worktree has gained a commit since the refusal, Claude Code keeps it again and shows the updated state
+* To discard the commits, run the `claude rm <id> --discard-unpushed` command the message printed, or press `Ctrl+X` twice on the session's row in agent view again. This removes the session and the worktree along with its branch, the unpushed commits, and any uncommitted changes. If the delete is refused again, follow the new message.
 * When the message says the worktree is also recorded by another finished session, deleting again doesn't discard it: push the commits, then delete the session again
 
 Before v2.1.268, `claude rm` put the commit summary on the `kept` line itself. When `claude rm` couldn't summarize the commits, the `kept` line read `worktree has commits that are not pushed anywhere` in place of the summary.
 
-Before v2.1.260, the message didn't name the branch or the commits, and deleting again was refused the same way: deleting the session without pushing meant removing the worktree yourself with `git worktree remove --force <path>`, then running `claude rm <id>` again.
+Before v2.1.260, the message didn't name the branch or commits, and there was no discard route. You can still delete the session, losing uncommitted changes but keeping the branch and commits. Run `git worktree remove --force --force <path>` with the path the refusal printed, then `claude rm <id>`. Git needs `--force` twice for a locked worktree.
 
 Before v2.1.248, the default branch checked out in your main checkout didn't count: a branch you had already merged there still triggered this refusal until its commits reached a remote.
 
