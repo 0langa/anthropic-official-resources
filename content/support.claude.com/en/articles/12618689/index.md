@@ -1,6 +1,6 @@
 # Use Claude Code in the cloud
 
-A cloud session is a Claude Code session that runs on cloud infrastructure instead of on your machine, working with code from your GitHub repositories. You can start one from Claude Code on the web at claude.ai/code, from Claude Mobile, from Claude Desktop, or from your terminal with `claude --cloud`. This article explains how cloud sessions work, when to use them instead of a local session in your terminal or IDE, and what workflows they enable.
+A cloud session is a Claude Code session that runs on cloud infrastructure instead of on your machine, working with code from your GitHub repositories. You can start one from Claude Desktop, from Claude Code on the web at claude.ai/code, from Claude Mobile, or from your terminal with `claude --cloud`. This article explains how cloud sessions work, when to use them instead of a local session in Claude Desktop, your terminal, or your IDE, and what workflows they enable.
 
 ## What cloud sessions provide
 
@@ -10,7 +10,7 @@ This feature works with repositories you may not have on your local machine. You
 
 Cloud sessions enable asynchronous development workflows. In a local session in your terminal or editor, you typically work synchronously: you make a request, wait for Claude to respond, review the changes, then make another request. Synchronous work like this gives you fine-grained control but requires your attention throughout the process. A cloud session handles this differently: you can assign a larger task, let Claude work independently, and return later to review the completed work.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446157/07ec74cd46317f8278083a317841/6448f3ee-c6df-4417-8a13-90d8c2ca3d55?expires=1793015100&amp;signature=540b5012c85ed50c13553e77686231347e9ab2801520620428908938bb511129&amp;req=dScvEM16m4BaXvMW1HO4zR8%2BAVCAQ5h37XrRA1YwWGsw%2BMQh37fAlbvdX7gV%0AK0NhvV5%2FlCuMb%2Boko54%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446157/07ec74cd46317f8278083a317841/6448f3ee-c6df-4417-8a13-90d8c2ca3d55?expires=1793275200&amp;signature=fc634656e5a98d6aab4712fc9695d6fcbd3df1f2fa511a850bc9816a416759fd&amp;req=dScvEM16m4BaXvMW3nq%2BgYyK99IbpManYUBgpJqSJo0T2v8BZvXReBzD79lP%0A525ebscJ8293rvnGihd5qzo6aEk%3D%0A)
 
 You can also run multiple tasks in parallel. Since each task runs in its own isolated environment, you can have Claude working on several different issues or repositories simultaneously. Each task proceeds independently and creates its own pull request when complete. More than one task can work on the same repository at the same time.
 
@@ -20,13 +20,13 @@ You can also run multiple tasks in parallel. Since each task runs in its own iso
 
 When you start a cloud session, Claude Code creates an isolated virtual machine for your work. Your GitHub repository is cloned into this environment, which comes pre-configured with common development tools and language ecosystems.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446158/c092f1383826cb871493f74169d4/97b7cb98-5da2-438e-a920-e170b8b9790e?expires=1793015100&amp;signature=d3ec59f798ad441ac7eab1724fb7843775850b330e1718a399050ae4e4c620dd&amp;req=dScvEM16m4BaUfMW1HO4zcR0rJU0juzB7DtpMiX%2FBYm0cKXv9eXyF8wL3Ecz%0AVzmJ0HUYQT59E1NTb98%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446158/c092f1383826cb871493f74169d4/97b7cb98-5da2-438e-a920-e170b8b9790e?expires=1793275200&amp;signature=0c96fd9ba528e8925da063be4094795e0f210ac522b8fd4d44f3ced5028fb9bf&amp;req=dScvEM16m4BaUfMW3nq%2BgVE8q4LvBj1B7kT1C7QUDOCWpOugV4enU5OLqmp5%0A4JfCT2m%2FO2S8Awg70I1wco9lFG0%3D%0A)
 
 Claude prepares the environment by running any setup commands you've defined in your repository's configuration. This includes installing dependencies, setting up databases, or running other initialization steps your project needs. If your task requires network access, maybe to install packages or fetch data, you can configure the level of internet access the environment has.
 
 Once the environment is ready, Claude begins working on your task. Claude reads your code, makes changes, writes tests, and runs commands to verify the work. You can monitor progress and provide guidance through the web interface if needed.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446156/83ecf0a5b98eddc9ffc9694c50f7/353589ce-b678-441d-8909-71b45fa2d065?expires=1793015100&amp;signature=57d215991b65903c9354169eb7aabb471ed5e892d1775b32c5ac84811b2d132e&amp;req=dScvEM16m4BaX%2FMW1HO4zVbcTWCD4sHPUQl3YqgIJdYOu7smMqTlqc6mqDFP%0A0tK%2FcgVZRlxfJbh%2B7MY%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1786446156/83ecf0a5b98eddc9ffc9694c50f7/353589ce-b678-441d-8909-71b45fa2d065?expires=1793275200&amp;signature=b94ffb683a8533197df7f1e8a9ee5c2ddefe342d2957c6e385cb7bd324db8025&amp;req=dScvEM16m4BaX%2FMW3nq%2BgX3AMSSW5PBZNRJo46my19WliJ2307bhNFq5ru8x%0Al2M%2FfgfNzVob91%2BZmATCO%2FcyZTY%3D%0A)
 
 When Claude completes the task, it pushes the changes to a new branch in your GitHub repository. You receive a notification and can review the changes, then create a pull request directly from the interface. The pull request includes all of Claude's work, ready for your review and any additional changes you want to make.
 
@@ -36,7 +36,7 @@ Each task runs in complete isolation. The virtual machine exists only for that s
 
 ## When to use cloud sessions vs. local sessions
 
-Some tasks are well suited to running asynchronously in the cloud, while others are best run locally in your terminal or IDE.
+Some tasks are well suited to running asynchronously in the cloud, while others are best run locally in Claude Desktop, your terminal, or your IDE.
 
 ### Use cloud sessions for:
 
@@ -48,15 +48,15 @@ Some tasks are well suited to running asynchronously in the cloud, while others 
 
 - **Tasks you want to queue up:** When you have a list of changes to make but don't want to work on them right now, you can start them in the cloud and review the results later. This lets you batch similar work or delegate tasks during times when you're focused on something else.
 
-### Use local sessions in your terminal or IDE for:
+### Use local sessions in Claude Desktop, your terminal, or your IDE for:
 
-- **Tasks needing frequent course correction:** When you're not sure exactly what the right approach is or expect you'll need to redirect Claude based on what you see, working in your terminal gives you immediate feedback. You can adjust direction as Claude works rather than waiting for a complete result.
+- **Tasks needing frequent course correction:** When you're not sure exactly what the right approach is or expect you'll need to redirect Claude based on what you see, a local session gives you immediate feedback. You can adjust direction as Claude works rather than waiting for a complete result.
 
-- **Exploratory work with unclear requirements:** If you're figuring out how to solve a problem or investigating different approaches, the terminal lets you refine your request as you learn. The back-and-forth helps clarify requirements that weren't obvious at the start.
+- **Exploratory work with unclear requirements:** If you're figuring out how to solve a problem or investigating different approaches, a local session lets you refine your request as you learn. The back-and-forth helps clarify requirements that weren't obvious at the start.
 
-- **Local development with uncommitted changes:** When you're actively developing and have uncommitted work in your local repository, using Claude Code in your terminal keeps everything in one place. You can iterate quickly on changes without needing to commit or push work that isn't ready yet.
+- **Local development with uncommitted changes:** When you're actively developing and have uncommitted work in your local repository, using Claude Code locally keeps everything in one place. You can iterate quickly on changes without needing to commit or push work that isn't ready yet.
 
-- **Tasks requiring immediate feedback:** If you need to see results quickly and want to iterate rapidly, the terminal provides lower latency. You can watch Claude work in real-time and stop or redirect if something goes wrong early in the process.
+- **Tasks requiring immediate feedback:** If you need to see results quickly and want to iterate rapidly, a local session provides lower latency. You can watch Claude work in real-time and stop or redirect if something goes wrong early in the process.
 
 ---
 
@@ -133,6 +133,6 @@ Ensure all tests still pass.
 
 - Scope tasks with clear boundaries so Claude doesn't need guidance mid-task
 
-- If you're thinking "I'll need to see how this goes first," consider using your terminal instead
+- f you’re thinking “I’ll need to see how this goes first,” consider a local session instead
 
 - Use "Open in CLI" if you realize mid-task that you need to provide guidance

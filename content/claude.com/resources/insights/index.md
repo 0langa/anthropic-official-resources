@@ -8,6 +8,16 @@ Unsubscribe at any time.
 
 Research, trends, and analysis on how AI is reshaping the way organizations work, plan, and build.
 
+[ArticleSep 25, 2026
+
+### What a task costs on Opus 5.5
+
+The same token price can cost very different amounts per task. Learn what Claude Code tasks cost on Opus 5.5 and which settings change the bill.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/what-a-task-costs-on-opus-5-5/)
+
 [ArticleSep 24, 2026
 
 ### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
@@ -32,13 +42,13 @@ In a sample of Claude Cowork sessions, we found that roughly half of all usage c
 
 Claude Cowork](https://claude.com/resources/articles/how-people-are-using-claude-cowork)
 
-[Guide32 min read
+[ArticleOct 22, 2026
 
-### Claude for the legal industry
+### LLMs are making formal software verification feasible at a much larger scale
 
-A practical deployment guide: Claude products for legal teams, real workflow examples, and a phased rollout roadmap.
+We need ways to prove that code is free of bugs. Formal software verification could provide this guarantee.
 
-Claude Enterprise](https://claude.com/resources/guides/claude-for-the-legal-industry)
+(opens in new tab)](https://www.anthropic.com/research/formal-verification)
 
 [ArticleSep 25, 2026
 
@@ -50,21 +60,19 @@ Claude Code
 
 (opens in new tab)](https://claude.dev/blog/what-a-task-costs-on-opus-5-5/)
 
-[ArticleSep 24, 2026
-
-### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
-
-Our latest Opus model is priced and trained to optimize costs for how developers code now.
-
-Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)
-
-Featured resource 1 of 5: Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+Featured resource 1 of 5: What a task costs on Opus 5.5
 
 Advanced filters
 
-Showing 11 of 14 resources
+Showing 11 of 15 resources
 
-[ArticleSep 25, 2026
+[ArticleOct 22, 2026
+
+### LLMs are making formal software verification feasible at a much larger scale
+
+We need ways to prove that code is free of bugs. Formal software verification could provide this guarantee.
+
+(opens in new tab)](https://www.anthropic.com/research/formal-verification)[ArticleSep 25, 2026
 
 ### What a task costs on Opus 5.5
 
@@ -124,12 +132,6 @@ Claude Enterprise](https://claude.com/resources/articles/cowork-plugins-finance)
 
 We built Cowork to bring the power of Claude Code to everyone. Today, we're adding support for plugins, which let you bundle any skills, connectors, slash commands, and sub-agents together to turn Claude into a specialist for your role, team, and company.
 
-Claude Enterprise](https://claude.com/resources/articles/cowork-plugins)[Guide25 min read
-
-### 2026 Agentic Coding Trends Report
-
-Eight trends we predict will define agentic coding in 2026, and how coding agents are reshaping software development.
-
-Claude Code](https://claude.com/resources/guides/2026-agentic-coding-trends-report)
+Claude Enterprise](https://claude.com/resources/articles/cowork-plugins)
 
 View more

@@ -24,7 +24,7 @@ The Claude desktop app is your home base for working with Claude — from a quic
 
 The first two are where most knowledge workers spend their day; the third is the developer's workspace. The rest of this lesson makes the difference concrete, then shows where each one lives in the app today.
 
-**In the product today.** Turn-by-turn work happens in Chat. Work you hand off runs in Cowork. Building software happens in the Code tab. All three live in the Claude desktop app.
+**In the product today.** Turn-by-turn work happens in Chat. Work you hand off runs in Cowork. Building software happens in the Code tab. All three live in the Claude desktop app. If you have the new Claude experience, there's no separate Chat or Cowork: both kinds of work happen in any conversation.
 
 ## Working with Claude, turn by turn[](https://academy.claude.com/courses/claude-101/claude-desktop-app-chat-cowork-code)
 

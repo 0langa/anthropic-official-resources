@@ -1,15 +1,15 @@
 {
   "actionable_missing_pages": 0,
   "actionable_population_complete": true,
-  "archived_pages": 5481,
+  "archived_pages": 5486,
   "by_host": {
     "academy.claude.com": {
       "archived_pages": 862,
       "discovered_pages": 866
     },
     "claude.com": {
-      "archived_pages": 841,
-      "discovered_pages": 850
+      "archived_pages": 844,
+      "discovered_pages": 853
     },
     "code.claude.com": {
       "archived_pages": 254,
@@ -20,15 +20,15 @@
       "discovered_pages": 2167
     },
     "support.claude.com": {
-      "archived_pages": 740,
-      "discovered_pages": 773
+      "archived_pages": 741,
+      "discovered_pages": 774
     },
     "www.anthropic.com": {
-      "archived_pages": 647,
-      "discovered_pages": 659
+      "archived_pages": 648,
+      "discovered_pages": 660
     }
   },
-  "discovered_pages": 5571,
+  "discovered_pages": 5576,
   "exact_website_replica": false,
   "limitations": [
     "Discovery is the union of public indexes and hyperlinks, not proof that unlinked pages do not exist.",
@@ -398,6 +398,7 @@
     "https://www.anthropic.com/news/3-5-models-and-computer-use": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/accelerating-scientific-research": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/advancing-claude-for-financial-services": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/alignment-faking": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/an-update-on-independent-evaluators": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/announcements": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
@@ -655,8 +656,8 @@
   },
   "missing_pages": 90,
   "page_inventory_complete": false,
-  "pages_with_content_notes": 3671,
-  "retained_partial_pages": 498,
+  "pages_with_content_notes": 3675,
+  "retained_partial_pages": 499,
   "terminal_pages": 90,
   "terminal_statuses": {
     "blocked": 27,

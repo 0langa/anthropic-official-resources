@@ -1,8 +1,8 @@
 # The Engineering team builds the infrastructure that makes Claude reliable and trustworthy. They translate our research into production systems, and share what they learn about building, evaluating, and deploying AI agents at scale.
 
-- [![Redesigning source control at Anthropic](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F797991dbd54214ea4bc68bfeba853ccd134f49ca-2000x1125.jpg&w=3840&q=75)](https://www.anthropic.com/research/redesigning-source-control)
-- [![Harness design for long-running application development](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F34280d14d7a4dfc7c5a240929034f101515ed20a-2000x1125.jpg&w=3840&q=75)](https://www.anthropic.com/research/harness-design-long-running-apps)
-- [![Designing AI-resistant technical evaluations](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe53e6b703eca6d16db69a95389896b8a3c0ffd43-2000x1125.jpg&w=3840&q=75)](https://www.anthropic.com/research/AI-resistant-technical-evaluations)
+- [![Redesigning source control at Anthropic](https://assets.claude.com/cfb6c0671a1e04252d55fc3c6776daad399e8356.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/redesigning-source-control)
+- [![Harness design for long-running application development](https://assets.claude.com/06e96ccf5aecdd14d34f8c7c14d24c48147c20f4.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/harness-design-long-running-apps)
+- [![Designing AI-resistant technical evaluations](https://assets.claude.com/d89131632520ea85953121daa687b257a261208b.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/AI-resistant-technical-evaluations)
 
 [Engineering](https://www.anthropic.com/engineering)
 
@@ -40,75 +40,75 @@ ARTICLES
 
 Most recentGrid view
 
-Oct 13, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5ae1aacb012d32233b51c45b1b02b254e68f5d49-1280x1280.jpg&w=1080&q=75)
+Oct 13, 2026![](https://assets.claude.com/17cafd9f2d8061a4771416ea5ebc6dde3e71e398.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Redesigning source control at Anthropic](https://www.anthropic.com/research/redesigning-source-control)
 
-May 25, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F118ff3828869f4aafb6a37e5a415a0b7182d7179-1280x1280.jpg&w=1080&q=75)
+May 25, 2026![](https://assets.claude.com/0949ccd8b43ad8728f89c71ad006d01a6d2f2eb7.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [How we contain Claude across products](https://www.anthropic.com/research/how-we-contain-claude)
 
-Apr 23, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Feee2321d5fd36370a806f20e3da7a580ed80d54c-1280x1280.jpg&w=1080&q=75)
+Apr 23, 2026![](https://assets.claude.com/59e4dad5ac806215ac1faac3331f86160674864f.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [An update on recent Claude Code quality reports](https://www.anthropic.com/research/april-23-postmortem)
 
-Apr 8, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3e5ad326fc2d0cd1336e92d1fd7ce138a2ecb991-1280x1280.jpg&w=1080&q=75)
+Apr 8, 2026![](https://assets.claude.com/bc042c54afc1c90f628bb3a7e65df06e108fa7db.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Scaling Managed Agents: Decoupling the brain from the hands](https://www.anthropic.com/research/managed-agents)
 
-Mar 25, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F216b143c9775e5a24fb2f0bb9771306a4fbb7e16-1280x1280.jpg&w=1080&q=75)
+Mar 25, 2026![](https://assets.claude.com/9df3374050aca30df3c9807c1a2aa06a3268cedc.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [How we built Claude Code auto mode: a safer way to skip permissions](https://www.anthropic.com/research/claude-code-auto-mode)
 
-Mar 24, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7994a876c61234be5615ab63f58751a155c5f0fb-1280x1280.jpg&w=1080&q=75)
+Mar 24, 2026![](https://assets.claude.com/73495421fe8ab222bf855648fcff78749ac27cc7.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Harness design for long-running application development](https://www.anthropic.com/research/harness-design-long-running-apps)
 
-Mar 6, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fde4b6c1bf12fd6e9ff83fdc22cbba01aa02e87d8-1280x1280.jpg&w=1080&q=75)
+Mar 6, 2026![](https://assets.claude.com/8a8a0c19bc294c64ab0b4e985e5df7c3cd85ce5b.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Eval awareness in Claude Opus 4.6’s BrowseComp performance](https://www.anthropic.com/research/eval-awareness-browsecomp)
 
-Feb 5, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F69bde0b46f86787e366c1ef24e013f59fa632a01-1280x1280.jpg&w=1080&q=75)
+Feb 5, 2026![](https://assets.claude.com/57b3f52a50fad2bece75f47e7f1c4f8f963a0f49.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Building a C compiler with a team of parallel Claudes](https://www.anthropic.com/research/building-c-compiler)
 
-Feb 5, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8f28cfb71da07d72e0dad38b6e2005691f5f5775-1280x1280.jpg&w=1080&q=75)
+Feb 5, 2026![](https://assets.claude.com/40a2d4c805fba4cf460cecfbf6c2d8560c639ccd.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Quantifying infrastructure noise in agentic coding evals](https://www.anthropic.com/research/infrastructure-noise)
 
-Jan 21, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fbc67c5af6898dda178ea8c99c23daf6945913ea3-1280x1280.jpg&w=1080&q=75)
+Jan 21, 2026![](https://assets.claude.com/9761056407a6aedc229983a2667a83ce5e6c2344.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Designing AI-resistant technical evaluations](https://www.anthropic.com/research/AI-resistant-technical-evaluations)
 
-Jan 9, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2a8e8981aa4b76218bc6d8be26c8c8509a3943e4-1280x1280.jpg&w=1080&q=75)
+Jan 9, 2026![](https://assets.claude.com/dda2a21f9030a761c6057c106f195ae377014bdb.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents)
 
-Nov 26, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F206b89968296c447846d1434e5826eced5cb9bdd-1280x1280.jpg&w=1080&q=75)
+Nov 26, 2025![](https://assets.claude.com/b2a3cd3b5897a178c985d7886d43cf53d39b0813.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Effective harnesses for long-running agents](https://www.anthropic.com/research/effective-harnesses-for-long-running-agents)
 
-Nov 24, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F863c352069c90ea10af076f5e00af52a6101ca07-1280x1280.jpg&w=1080&q=75)
+Nov 24, 2025![](https://assets.claude.com/e95d3a9f390e2d93238de38fe118b00d2606e417.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Introducing advanced tool use on the Claude Developer Platform](https://www.anthropic.com/research/advanced-tool-use)
 
-Nov 4, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7c04b1a7c9df91c3c01f6e77abb99caca5eb95ba-1280x1280.jpg&w=1080&q=75)
+Nov 4, 2025![](https://assets.claude.com/05de8f969ae169db0885c1fb9481d8393537d4cf.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Code execution with MCP: Building more efficient agents](https://www.anthropic.com/research/code-execution-with-mcp)
 
-Oct 20, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe227a9f2aa1d77a89d12db9659ed1a9e5e0a316f-1280x1280.jpg&w=1080&q=75)
+Oct 20, 2025![](https://assets.claude.com/e7a92fbfadc1e610460ef4985929ca0b44853243.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Beyond permission prompts: making Claude Code more secure and autonomous](https://www.anthropic.com/research/claude-code-sandboxing)
 
-Oct 16, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F044b577cc75c26c3f13a1c5e023d8749f00bb24e-1280x1280.jpg&w=1080&q=75)
+Oct 16, 2025![](https://assets.claude.com/a9fa52bd85fa83a411ed54d78d9c1e9420387626.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Equipping agents for the real world with Agent Skills](https://www.anthropic.com/research/equipping-agents-for-the-real-world-with-agent-skills)
 
-Sep 29, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F13934db1b35d8f67b654d08339874d895fd21e66-1280x1280.jpg&w=1080&q=75)
+Sep 29, 2025![](https://assets.claude.com/ce8e124a876012db3eb360ff1cfc2046528396be.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Effective context engineering for AI agents](https://www.anthropic.com/research/effective-context-engineering-for-ai-agents)
 
-Sep 17, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5c2bc1570b8149182ee170bddbdb32713fc666db-1280x1280.jpg&w=1080&q=75)
+Sep 17, 2025![](https://assets.claude.com/f306bba15f86c2ced382060b23274e0756db8f5d.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [A postmortem of three recent issues](https://www.anthropic.com/research/a-postmortem-of-three-recent-issues)
 
@@ -120,7 +120,7 @@ Jun 26, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.
 
 ### [Desktop Extensions: One-click MCP server installation for Claude Desktop](https://www.anthropic.com/research/desktop-extensions)
 
-Jun 18, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F71fcd5480d9df8597e4ef51431dae586a74c60ac-1688x1688.jpg&w=1080&q=75)
+Jun 18, 2025![](https://assets.claude.com/71fcd5480d9df8597e4ef51431dae586a74c60ac.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Confidential Inference via Trusted Virtual Machines](https://www.anthropic.com/research/confidential-inference-trusted-vms)
 
@@ -142,7 +142,7 @@ See more
 
 [### Alignment](https://www.anthropic.com/research/team/alignment)
 
-48 posts
+49 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
 
@@ -154,7 +154,7 @@ Studies and monitors the impact of AI systems on individuals, firms, and economi
 
 [### Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-34 posts
+35 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 
@@ -166,13 +166,13 @@ Studies how large language models work internally as a foundation for AI safety.
 
 [### Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-24 posts
+25 posts
 
 Studies how AI affects people, both individually and collectively.
 
 [### Science](https://www.anthropic.com/science)
 
-18 posts
+17 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 
@@ -184,7 +184,7 @@ Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
 [### Alignment](https://www.anthropic.com/research/team/alignment)
 
-48 posts
+49 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
 
@@ -196,7 +196,7 @@ Studies and monitors the impact of AI systems on individuals, firms, and economi
 
 [### Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-34 posts
+35 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 
@@ -208,13 +208,13 @@ Studies how large language models work internally as a foundation for AI safety.
 
 [### Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-24 posts
+25 posts
 
 Studies how AI affects people, both individually and collectively.
 
 [### Science](https://www.anthropic.com/science)
 
-18 posts
+17 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 

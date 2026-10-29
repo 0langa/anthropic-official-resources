@@ -15,7 +15,7 @@ This webinar series is built for engineering leaders whose roles are changing wi
 ## Webinars
 
 - [On demandHow to Roadmap with Decisions Rather Than Dates(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/9a769404-8a44-4f91-a54a-04769f055854)
-- [On demandAI as an Engineering Leadership Multiplier](https://claude.com/resources/webinars/ai-as-an-engineering-leadership-multiplier)
+- [On demandAI as an Engineering Leadership Multiplier(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/06a83b50-384f-4fa6-ae86-66c7f05c9e16)
 - [Oct 13, 2026DRI-ing Your Career](https://claude.com/resources/webinars/dri-ing-your-career)
 
 Register now

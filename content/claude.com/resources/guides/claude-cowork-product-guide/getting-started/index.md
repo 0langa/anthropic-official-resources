@@ -16,7 +16,7 @@ Getting Claude Cowork running is a one-time setup, but the first session is wher
 
 ## How to install
 
-1. Install the [Claude desktop app (opens in new tab)](https://claude.ai/download/).
+1. Install the [Claude desktop app (opens in new tab)](https://claude.ai/redirect/claudedotcom.v1.f16c896a-fabc-4575-b851-d603f766a8bb/download/).
 2. Sign in. If you're on a Team or Enterprise plan, your admin may need to enable Claude Cowork for your org. See the Claude Cowork IT admin guide.
 3. Switch into Claude Cowork mode from the desktop app.
 

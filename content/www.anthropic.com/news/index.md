@@ -2,7 +2,7 @@
 
 Latest news
 
-October 27, 2026
+October 29, 2026
 
 [Announcements](https://www.anthropic.com/news/announcements)
 
@@ -22,9 +22,15 @@ We’re committing a portion of Anthropic’s shares to the Anthropic Public Ben
 
 [Announcements](https://www.anthropic.com/news/announcements)
 
-Oct 6, 2026[### Expanding the Cyber Verification Program
+Oct 26, 2026[### Anthropic files S-1 with the SEC for proposed initial public offering
 
-We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.](https://www.anthropic.com/news/cyber-verification-program)
+Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.](https://www.anthropic.com/news/s1-sec)
+
+[Science](https://www.anthropic.com/science)
+
+Oct 27, 2026[### Early progress on accelerating drug development with Claude
+
+We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.](https://www.anthropic.com/research/early-progress-drug-development)
 
 [Announcements](https://www.anthropic.com/news/announcements)
 
@@ -34,7 +40,7 @@ Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume
 
 [Announcements](https://www.anthropic.com/news/announcements)
 
-Sep 28, 2026[![Introducing Claude Sonnet 5.5](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9ca444cf597e3219db2d81e8c199352a73d33762-1920x1080.png&w=3840&q=75)](https://www.anthropic.com/claude-sonnet-5-5)[### Introducing Claude Sonnet 5.5
+Sep 28, 2026[### Introducing Claude Sonnet 5.5
 
 Claude Sonnet 5.5 is a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work.](https://www.anthropic.com/claude-sonnet-5-5)
 
@@ -96,7 +102,7 @@ The first AI-assisted drive on another planet. Claude helped NASA's Perseverance
 
 AllProductCompany
 
-280
+283
 
 ARTICLES
 
@@ -112,8 +118,49 @@ Category
 
 Date
 
+- [### AI for Science expands to foundations and research institutions](https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions)
+
+  [We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Science program.](https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions)
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+
+  Oct 28, 2026
+
+  Oct 28, 2026
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+
+  [### AI for Science expands to foundations and research institutions](https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions)[We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Science program.](https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions)
+- [### Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development)
+
+  [We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.](https://www.anthropic.com/research/early-progress-drug-development)
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+
+  Oct 27, 2026
+
+  Oct 27, 2026
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+
+  [### Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development)[We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.](https://www.anthropic.com/research/early-progress-drug-development)
+- [### Expanding our partnership with GSA to bring Claude to all levels of government](https://www.anthropic.com/news/expanding-partnership-gsa)
+
+  [We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.](https://www.anthropic.com/news/expanding-partnership-gsa)
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+
+  Oct 27, 2026
+
+  Oct 27, 2026
+
+  [Partnerships](https://www.anthropic.com/news/partnerships)
+
+  [### Expanding our partnership with GSA to bring Claude to all levels of government](https://www.anthropic.com/news/expanding-partnership-gsa)[We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.](https://www.anthropic.com/news/expanding-partnership-gsa)
 - [### Anthropic files S-1 with the SEC for proposed initial public offering](https://www.anthropic.com/news/s1-sec)
 
+  [Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.](https://www.anthropic.com/news/s1-sec)
+
   [Announcements](https://www.anthropic.com/news/announcements)
 
   Oct 26, 2026
@@ -122,7 +169,7 @@ Date
 
   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [### Anthropic files S-1 with the SEC for proposed initial public offering](https://www.anthropic.com/news/s1-sec)
+  [### Anthropic files S-1 with the SEC for proposed initial public offering](https://www.anthropic.com/news/s1-sec)[Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.](https://www.anthropic.com/news/s1-sec)
 - [### Donating Agent Skills to the Agentic AI Foundation](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation)
 
   [We’re donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation. More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since we published the standard in December 2025.](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation)
@@ -383,45 +430,6 @@ Date
   [Announcements](https://www.anthropic.com/news/announcements)
 
   [### Introducing the Life Sciences Verification Program](https://www.anthropic.com/news/life-sciences-verification-program)[The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.](https://www.anthropic.com/news/life-sciences-verification-program)
-- [### Introducing Claude Mythos and Fable 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1)
-
-  [They’re the world’s most advanced models for coding and knowledge work—and their research capabilities offer an early glimpse of how AI models will contribute to scientific progress.](https://www.anthropic.com/claude-fable-and-mythos-5-1)
-
-  [Announcements](https://www.anthropic.com/news/announcements)
-
-  Sep 15, 2026
-
-  Sep 15, 2026
-
-  [Announcements](https://www.anthropic.com/news/announcements)
-
-  [### Introducing Claude Mythos and Fable 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1)[They’re the world’s most advanced models for coding and knowledge work—and their research capabilities offer an early glimpse of how AI models will contribute to scientific progress.](https://www.anthropic.com/claude-fable-and-mythos-5-1)
-- [### Developing Enterprise Frontier Safeguards with our customers](https://www.anthropic.com/news/enterprise-frontier-safeguards)
-
-  [We’re announcing Enterprise Frontier Safeguards (EFS), a solution that combines the privacy of zero data retention with state-of-the-art safeguards for detecting misuse. EFS works by storing data in cloud infrastructure controlled by the customer, not Anthropic.](https://www.anthropic.com/news/enterprise-frontier-safeguards)
-
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-
-  Sep 1, 2026
-
-  Sep 1, 2026
-
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-
-  [### Developing Enterprise Frontier Safeguards with our customers](https://www.anthropic.com/news/enterprise-frontier-safeguards)[We’re announcing Enterprise Frontier Safeguards (EFS), a solution that combines the privacy of zero data retention with state-of-the-art safeguards for detecting misuse. EFS works by storing data in cloud infrastructure controlled by the customer, not Anthropic.](https://www.anthropic.com/news/enterprise-frontier-safeguards)
-- [### Improving our alignment and security efforts](https://www.anthropic.com/news/improving-alignment-security-efforts)
-
-  [On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.](https://www.anthropic.com/news/improving-alignment-security-efforts)
-
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-
-  Aug 31, 2026
-
-  Aug 31, 2026
-
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-
-  [### Improving our alignment and security efforts](https://www.anthropic.com/news/improving-alignment-security-efforts)[On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.](https://www.anthropic.com/news/improving-alignment-security-efforts)
 
 See more
 

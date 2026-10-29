@@ -81,7 +81,7 @@ Progressing your AI-native startup concept through the Idea stage can feel like 
 
 AI makes it easier for startup founders to ship faster, automate tedious workflows, and operate at scale, but the surface you use matters. Here's when to use Chat, Claude Cowork, or Claude Code depending on the task at hand.
 
-[Chat (opens in new tab)](https://claude.ai/) is for quick exchanges without leaving the app you're already in. Use it for the constant small tasks of running a company: pulling the one-sentence takeaway from a dense investor memo, sanity-checking a claim before a board meeting, or making sense of a long Slack thread with your team.
+[Chat (opens in new tab)](https://claude.ai/redirect/claudedotcom.v1.fde7afd3-7a43-449d-8e5a-ce61aa9dd2b3) is for quick exchanges without leaving the app you're already in. Use it for the constant small tasks of running a company: pulling the one-sentence takeaway from a dense investor memo, sanity-checking a claim before a board meeting, or making sense of a long Slack thread with your team.
 
 [Claude Cowork (opens in new tab)](https://www.anthropic.com/product/claude-cowork) is for the knowledge work that actually takes time: pulling from many sources, making sense of it, and producing something finished, like a doc, deck, or spreadsheet. Think turning a folder of customer call transcripts into a themed findings doc for your next product review, building a competitive landscape from a dozen vendor sites before a fundraise, or a standing Monday-morning task that pulls metrics from your connected tools and drops a weekly KPI brief into a shared folder.
 

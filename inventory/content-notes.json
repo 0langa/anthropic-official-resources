@@ -690,6 +690,9 @@
   "https://claude.com/resources/articles/interactive-tools-in-claude": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://claude.com/resources/articles/introducing-artifacts-for-legal-work": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
   "https://claude.com/resources/articles/introduction-to-agentic-coding": [
     "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   ],
@@ -754,6 +757,9 @@
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://claude.com/resources/articles/skills-explained": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://claude.com/resources/articles/team-plan-and-ios": [
@@ -9688,6 +9694,9 @@
   "https://support.claude.com/en/articles/17666489-how-to-use-shop-pay-with-claude-duet": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/17740565-manage-plugins-skills-and-connectors-from-one-plugins-page": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for": [
     "Native source; upstream MDX components retained."
   ],
@@ -10194,6 +10203,9 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/advancing-claude-for-financial-services": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/alignment-faking": [

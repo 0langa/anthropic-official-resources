@@ -12,7 +12,7 @@ Our generally available models can still be used by all users for secure code re
 
 ## Access tiers
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2716457392/33c90f9ccfbd33fee02840fd2efa/267bc7d1-baeb-4302-a1d9-4491b4110775?expires=1793014200&amp;signature=917e5f022c2b65bd82bf4b2a7d25bc3391ab7e558d5fd97c167cc27e6487bd68&amp;req=dicmEM17moJWW%2FMW1HO4zVYZ0Nu%2Bb8BFy1US26KtMzK98aWYTSiw%2BlXGSedf%0A8S%2BzW5whrwY1kSW%2FI%2Fo%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2716457392/33c90f9ccfbd33fee02840fd2efa/267bc7d1-baeb-4302-a1d9-4491b4110775?expires=1793274300&amp;signature=76a33cc1d03eca9a7a6ece07d1eced1fd0ea35131c12d6889ecef054addf891c&amp;req=dicmEM17moJWW%2FMW1HO4zVYZ0Nu8acBEy1US26KtMzJK7C5vheE4FdPJbR0b%0A%2BFZXxlrfzyfZHTayJVw%3D%0A)
 
 ## How to apply
 
@@ -41,6 +41,8 @@ What you'll need:
 (coding tools and other apps powered by Claude)                                                              | Ask your platform for an Anthropic enrollment link. This works only on platforms that support the Cyber Verification Program.<br>Open the link and sign in to the **[Verification Portal](https://portal.anthropic.com/programs)** with your Anthropic account. If you don't have one, create one. It's free and doesn’t require billing information. Then select "Link profile." Links expire quickly, and you can't link a platform from the Linked accounts page.<br>Open **Programs**, choose "Cyber Verification Program" and select "Apply."<br>Defense Access and Red Team Access only. Specialized Access is not available through third-party platforms.                                                                                                                                |
 
 ## Once you're approved
+
+- Approval doesn’t turn on CVP. To activate it, assign your access to a workspace, role, or linked cloud account. See **[Provisioning Access using your Grants](#h_ce0ef780bd)** for instructions.
 
 - The **[Usage Policy](https://www.anthropic.com/legal/aup)** still applies in full.
 

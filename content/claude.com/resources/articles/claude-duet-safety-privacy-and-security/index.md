@@ -102,25 +102,29 @@ We’re releasing Claude Duet as a research preview because we want to learn wha
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 23, 2026
+[ArticleOct 28, 2026
 
-### Claude Cowork and chat come together for Enterprise
+### Smart reports, surveys, and pooled group budgets for Claude Enterprise
 
-Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)[ArticleOct 22, 2026
+In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
 
-### The full Claude Platform, available on Google Cloud
+Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)[ArticleOct 28, 2026
 
-Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
+### IDC brings Quanta into Claude and adopts Claude across the company
 
-Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)[ArticleOct 21, 2026
+IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
 
-### HCLTech joins the Claude Partner Network as a Global Premier partner
+Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)[ArticleOct 28, 2026
 
-HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)[ArticleOct 21, 2026
+### Introducing artifacts for legal work
 
-### Introducing Claude Duet
+Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
 
-A research preview is available by waitlist today, starting with US Pro and Max subscribers.](https://claude.com/resources/articles/claude-duet)
+Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)[ArticleOct 27, 2026
+
+### Claude for Financial Advisors
+
+Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)
 
 ## Transform how your organization operates with Claude
 

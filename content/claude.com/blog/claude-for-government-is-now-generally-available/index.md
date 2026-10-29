@@ -12,7 +12,7 @@ Today, [Claude for Government](https://claude.com/solutions/government) is gener
 
 Agencies access capabilities comparable to Anthropic’s commercial customers, without compromising compliance requirements. New capabilities generally arrive on the commercial release cadence.
 
-[Claude](https://claude.com/product/overview) works directly with files on the desktop, allowing agency staff to use skills, plugins and projects for memo creation, RFP reviews, casework, and other tasks. With [Claude Code](https://claude.com/product/claude-code), public sector teams can build and modernize the software systems that underpin public services.
+[Claude](https://claude.com/product/overview) works directly with files on the desktop, allowing agency staff to use [skills](https://claude.com/resources/articles/skills-explained), plugins and projects for memo creation, RFP reviews, casework, and other tasks. With [Claude Code](https://claude.com/product/claude-code), public sector teams can [build and modernize the software systems](https://claude.com/resources/webinars/claude-code-and-public-service-modernizing-how-state-and-local-governments-build-software) that underpin public services.
 
 Claude for Government governance controls are purpose-built for public sector agencies. Administrators can set configuration defaults as well as allocate and control spending across departments. Security teams and authorizing officials get audit logs and documentation that supports the agency ATO process. Procurement officers can contract with Anthropic directly and award on general-availability terms.
 
@@ -46,25 +46,29 @@ New agencies can request access at [claude.com/solutions/government](http://clau
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 23, 2026
+[ArticleOct 28, 2026
 
-### Claude Cowork and chat come together for Enterprise
+### Smart reports, surveys, and pooled group budgets for Claude Enterprise
 
-Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)[ArticleOct 23, 2026
+In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
 
-### Claude Duet Safety, Privacy, and Security
+Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)[ArticleOct 28, 2026
 
-Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)[ArticleOct 22, 2026
+### IDC brings Quanta into Claude and adopts Claude across the company
 
-### The full Claude Platform, available on Google Cloud
+IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
 
-Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
+Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)[ArticleOct 28, 2026
 
-Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)[ArticleOct 21, 2026
+### Introducing artifacts for legal work
 
-### HCLTech joins the Claude Partner Network as a Global Premier partner
+Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
 
-HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)
+Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)[ArticleOct 27, 2026
+
+### Claude for Financial Advisors
+
+Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)
 
 ## Transform how your organization operates with Claude
 

@@ -257,6 +257,7 @@
     "https://www.anthropic.com/news/3-5-models-and-computer-use",
     "https://www.anthropic.com/news/accelerating-scientific-research",
     "https://www.anthropic.com/news/advancing-claude-for-financial-services",
+    "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
     "https://www.anthropic.com/news/alignment-faking",
     "https://www.anthropic.com/news/an-update-on-independent-evaluators",
     "https://www.anthropic.com/news/announcements",
@@ -505,10 +506,10 @@
   ],
   "statuses": {
     "blocked": 27,
-    "complete": 4957,
+    "complete": 4961,
     "gone": 47,
     "out_of_scope": 42,
-    "partial": 498
+    "partial": 499
   },
   "terminal_unarchived_urls": [
     "https://academy.claude.com/dashboard",
@@ -963,6 +964,7 @@
     "https://www.anthropic.com/news/3-5-models-and-computer-use",
     "https://www.anthropic.com/news/accelerating-scientific-research",
     "https://www.anthropic.com/news/advancing-claude-for-financial-services",
+    "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
     "https://www.anthropic.com/news/alignment-faking",
     "https://www.anthropic.com/news/an-update-on-independent-evaluators",
     "https://www.anthropic.com/news/announcements",

@@ -2,7 +2,7 @@
 
 For engineering, platform, and security leads whose organization already uses Claude Code. Twelve plays for using Claude at each stage of the software development lifecycle (SDLC), so the work around the code runs faster. About an hour of reading, with no quiz or completion badge.
 
-14 lessons1 hr
+14 lessons1 hrNo completion badge
 
 [Start course](https://academy.claude.com/courses/ai-native-sdlc-playbook/introduction)[Sign in to save progress](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-native-sdlc-playbook)
 

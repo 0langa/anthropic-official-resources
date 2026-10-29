@@ -22,27 +22,27 @@ Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-fin
 
 Join the teams behind the program for a walkthrough of the Cyber Verification Program.](https://claude.com/resources/webinars/inside-the-cyber-verification-program)
 
+[WebinarUpcoming | Nov 17, 2026
+
+### Build Agents with the Claude Platform on Google Cloud
+
+The full Claude Platform is now on Google Cloud — build agents from the Google Cloud account you already run.
+
+Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)
+
+[WebinarUpcoming | Nov 12, 2026
+
+### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
+
+Most nonprofit staff on Claude open a chat, get a decent but generic answer, and go back to doing it by hand.
+
+Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)
+
 [WebinarUpcoming | Nov 12, 2026
 
 ### Claude in Microsoft Foundry: control the cost, prove the value
 
 See how to cut Claude costs in Microsoft Foundry, track who’s spending what, and prove the ROI.](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)
-
-[WebinarUpcoming | Nov 4, 2026
-
-### Unified Claude: What it means for admins
-
-Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile.
-
-Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
-
-[WebinarUpcoming | Multiple dates
-
-### Claude Code: Foundations
-
-New to Claude Code? You’re in the right place. Join Anthropic's Claude Code specialist team for a hands-on introduction to…
-
-Claude Code](https://claude.com/resources/webinars/claude-code-foundations-series)
 
 [WebinarOn demand
 
@@ -56,7 +56,7 @@ Featured resource 1 of 5: Claude for Financial Advisors: Your Cowork Security an
 
 Advanced filters
 
-Showing 20 of 113 resources
+Showing 23 of 116 resources
 
 ## Upcoming webinars
 
@@ -68,11 +68,29 @@ Register for the live sessions with Anthropic and partner teams — bring your q
 
 Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile.
 
-Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[WebinarUpcoming | Nov 12, 2026
+Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[WebinarUpcoming | Nov 10, 2026
+
+### Claude for Nonprofits: An Admin’s Guide to Data Handling and AI Policy
+
+For the admin in charge of your nonprofit's Claude settings: the data answers in writing, plus a one-page AI use policy.
+
+Claude for NonprofitsClaude Enterprise](https://claude.com/resources/webinars/claude-for-nonprofits-admin-guide-to-data-handling-ai-policy)[WebinarUpcoming | Nov 12, 2026
+
+### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
+
+Most nonprofit staff on Claude open a chat, get a decent but generic answer, and go back to doing it by hand.
+
+Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[WebinarUpcoming | Nov 12, 2026
 
 ### Claude in Microsoft Foundry: control the cost, prove the value
 
-See how to cut Claude costs in Microsoft Foundry, track who’s spending what, and prove the ROI.](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)
+See how to cut Claude costs in Microsoft Foundry, track who’s spending what, and prove the ROI.](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)[WebinarUpcoming | Nov 17, 2026
+
+### Build Agents with the Claude Platform on Google Cloud
+
+The full Claude Platform is now on Google Cloud — build agents from the Google Cloud account you already run.
+
+Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)
 
 ## Recurring webinars
 
@@ -168,11 +186,15 @@ Claude apps](https://claude.com/resources/webinars/dri-ing-your-career)[WebinarO
 
 Most conversations about AI in engineering focus on how the IC role is changing, but the engineering leadership role is adapting…
 
-Claude Platform](https://claude.com/resources/webinars/ai-as-an-engineering-leadership-multiplier)[WebinarOn demand
+Claude Platform
+
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/06a83b50-384f-4fa6-ae86-66c7f05c9e16)[WebinarOn demand
 
 ### Claude Corps Cohort 2: How to Become a Host Organization
 
-A lot has changed since you applied to host Claude Corps fellows, and we want you to have what you need for what comes next.…](https://claude.com/resources/webinars/claude-corps-cohort-2-how-to-become-a-host-organization)[WebinarOn demand
+A lot has changed since you applied to host Claude Corps fellows, and we want you to have what you need for what comes next.…
+
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/78ccb4a0-5d54-411f-b26c-55fcdd47b06c)[WebinarOn demand
 
 ### Building with the Claude 5.5 Family: Choosing the Right Model and Getting More from Every Token
 

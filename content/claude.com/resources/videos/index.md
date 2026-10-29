@@ -8,6 +8,14 @@ Unsubscribe at any time.
 
 Watchable demos, talks, and tutorials from the teams building and using Claude.
 
+[Video12 min watch
+
+### Inside Shopify's AI strategy with CTO Mikhail Parakhin
+
+In this conversation with Boris, Shopify's CTO explains why the real value of working with Claude is in building things that weren't possible before. He describes solving a problem he'd worked on for seven years, how Shopify built a digital twin of the company, and the unique barbell strategy he recommends for getting the most out of Claude.
+
+(opens in new tab)](https://www.youtube.com/watch?v=9GtcbnmldcY)
+
 [Video33 min watch
 
 ### Building secure agents for knowledge work
@@ -38,13 +46,15 @@ Claude Tag
 
 (opens in new tab)](https://www.youtube.com/watch?v=_f_rtbW_uFM)
 
-[Video1 min watch
+[Video10 min watch
 
-### Introducing Claude Sonnet 5.5
+### How Factory is building autonomous software with Claude
 
-Claude Sonnet 5.5 runs more than 30% faster than Sonnet 5 and writes more clearly, so it’s well suited to quick back-and-forth on the things you do most.
+Factory is bringing autonomy to software engineering with Droids, AI coding agents that handle enterprise work. In this conversation, Co-founder and CEO Matan Grinberg sits down with Anthropic's Kai Gill to talk about his journey founding Factory, how Claude's frontier models handle long-horizon tasks across large codebases so teams can trust agent plans with less oversight, and what it will take to build a fully autonomous "dark factory" for software.
 
-(opens in new tab)](https://www.youtube.com/watch?v=s5nkj-L2vAw)
+Claude Platform
+
+(opens in new tab)](https://www.youtube.com/watch?v=N6FkmdL0Lg0)
 
 [Video12 min watch
 
@@ -54,23 +64,21 @@ In this conversation with Boris, Shopify's CTO explains why the real value of wo
 
 (opens in new tab)](https://www.youtube.com/watch?v=9GtcbnmldcY)
 
-[Video33 min watch
-
-### Building secure agents for knowledge work
-
-Katelyn Lesse sat down with Dan Shipper and Willie William at Every to talk about the AI coworker they built.
-
-Claude Platform
-
-(opens in new tab)](https://www.youtube.com/watch?v=z7cNbsr3b5s)
-
-Featured resource 1 of 5: Building secure agents for knowledge work
+Featured resource 1 of 5: Inside Shopify's AI strategy with CTO Mikhail Parakhin
 
 Advanced filters
 
-Showing 11 of 53 resources
+Showing 11 of 54 resources
 
-[Video12 min watch
+[Video10 min watch
+
+### How Factory is building autonomous software with Claude
+
+Factory is bringing autonomy to software engineering with Droids, AI coding agents that handle enterprise work. In this conversation, Co-founder and CEO Matan Grinberg sits down with Anthropic's Kai Gill to talk about his journey founding Factory, how Claude's frontier models handle long-horizon tasks across large codebases so teams can trust agent plans with less oversight, and what it will take to build a fully autonomous "dark factory" for software.
+
+Claude Platform
+
+(opens in new tab)](https://www.youtube.com/watch?v=N6FkmdL0Lg0)[Video12 min watch
 
 ### Inside Shopify's AI strategy with CTO Mikhail Parakhin
 
@@ -142,12 +150,6 @@ Claude Code
 
 The satellites never hear a word from your phone.
 
-(opens in new tab)](https://www.youtube.com/watch?v=K-pgPNFcAj4)[Video1 min watch
-
-### Claude Opus 5.5 rebuilds Earthrise in 3D, down to the second
-
-Claude traced 2,781 points along the Moon's horizon in the 1968 Earthrise photo to rebuild the moment it was taken.
-
-(opens in new tab)](https://www.youtube.com/watch?v=Ov-B6K1EsaI)
+(opens in new tab)](https://www.youtube.com/watch?v=K-pgPNFcAj4)
 
 View more

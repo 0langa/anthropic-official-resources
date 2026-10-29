@@ -16,6 +16,16 @@ Jess Yan, Claude Managed Agents product manager, shares how she uses the product
 
 Claude Platform](https://claude.com/resources/articles/product-development-in-the-agentic-era)
 
+[Video10 min watch
+
+### How Factory is building autonomous software with Claude
+
+Factory is bringing autonomy to software engineering with Droids, AI coding agents that handle enterprise work. In this conversation, Co-founder and CEO Matan Grinberg sits down with Anthropic's Kai Gill to talk about his journey founding Factory, how Claude's frontier models handle long-horizon tasks across large codebases so teams can trust agent plans with less oversight, and what it will take to build a fully autonomous "dark factory" for software.
+
+Claude Platform
+
+(opens in new tab)](https://www.youtube.com/watch?v=N6FkmdL0Lg0)
+
 [ArticleOct 22, 2026
 
 ### Building agents: When to fold subagents into your main agent loop
@@ -42,12 +52,6 @@ Your career is yours. It always was - but when the market was hot, it didn't see
 
 Claude apps](https://claude.com/resources/webinars/dri-ing-your-career)
 
-[ArticleOct 13, 2026
-
-### Uber's CISO on building an insider threat program for AI
-
-Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.](https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai)
-
 [ArticleApr 29, 2026
 
 ### Product development in the agentic era
@@ -60,9 +64,17 @@ Featured resource 1 of 5: Product development in the agentic era
 
 Advanced filters
 
-Showing 11 of 62 resources
+Showing 11 of 63 resources
 
-[ArticleOct 22, 2026
+[Video10 min watch
+
+### How Factory is building autonomous software with Claude
+
+Factory is bringing autonomy to software engineering with Droids, AI coding agents that handle enterprise work. In this conversation, Co-founder and CEO Matan Grinberg sits down with Anthropic's Kai Gill to talk about his journey founding Factory, how Claude's frontier models handle long-horizon tasks across large codebases so teams can trust agent plans with less oversight, and what it will take to build a fully autonomous "dark factory" for software.
+
+Claude Platform
+
+(opens in new tab)](https://www.youtube.com/watch?v=N6FkmdL0Lg0)[ArticleOct 22, 2026
 
 ### Building agents: When to fold subagents into your main agent loop
 
@@ -92,7 +104,9 @@ Uber's CISO, Philip Martin, on the importance of monitoring and observability fo
 
 Most conversations about AI in engineering focus on how the IC role is changing, but the engineering leadership role is adapting…
 
-Claude Platform](https://claude.com/resources/webinars/ai-as-an-engineering-leadership-multiplier)[ArticleOct 8, 2026
+Claude Platform
+
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/06a83b50-384f-4fa6-ae86-66c7f05c9e16)[ArticleOct 8, 2026
 
 ### How Block orchestrates Claude Fable across thousands of pull requests
 
@@ -125,12 +139,6 @@ What effort really is and when to use which level in Claude Code, from my own te
 
 Claude Code
 
-(opens in new tab)](https://claude.dev/blog/spending-your-effort/)[ArticleSep 24, 2026
-
-### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
-
-Our latest Opus model is priced and trained to optimize costs for how developers code now.
-
-Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)
+(opens in new tab)](https://claude.dev/blog/spending-your-effort/)
 
 View more

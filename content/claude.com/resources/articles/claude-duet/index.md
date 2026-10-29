@@ -11,6 +11,10 @@ A research preview is available by waitlist today, starting with US Pro and Max 
 - Reading time5 min
 - ShareCopy link
 
+Claude Duet Safety, Privacy, and Security
+
+October 23, 2026 - We’re continuing to develop and strengthen these protections. You can read more about how Claude Duet is designed for safety, privacy and security [here](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security).
+
 Today, we’re opening a research preview of Claude Duet, a new app where Claude works as a proactive agent. It comes to you with what needs your attention, completes tasks you ask of it, keeps working even when you step away, and checks with you before it acts on your behalf. We built Claude Duet for professionals and small business owners with more on their plates than they can track.
 
 Embedded media: https://www.youtube-nocookie.com/embed/Fb-68zqcSVs?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
@@ -100,25 +104,29 @@ We’re starting today with Pro and Max users in the US. Join the [waitlist (ope
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 23, 2026
+[ArticleOct 28, 2026
 
-### Claude Cowork and chat come together for Enterprise
+### Smart reports, surveys, and pooled group budgets for Claude Enterprise
 
-Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)[ArticleOct 23, 2026
+In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
 
-### Claude Duet Safety, Privacy, and Security
+Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)[ArticleOct 28, 2026
 
-Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)[ArticleOct 22, 2026
+### IDC brings Quanta into Claude and adopts Claude across the company
 
-### The full Claude Platform, available on Google Cloud
+IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
 
-Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
+Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)[ArticleOct 28, 2026
 
-Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)[ArticleOct 21, 2026
+### Introducing artifacts for legal work
 
-### HCLTech joins the Claude Partner Network as a Global Premier partner
+Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
 
-HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)
+Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)[ArticleOct 27, 2026
+
+### Claude for Financial Advisors
+
+Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)
 
 ## Transform how your organization operates with Claude
 

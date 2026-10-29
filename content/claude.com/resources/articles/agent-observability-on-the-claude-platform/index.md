@@ -1,12 +1,12 @@
 # Agent observability on the Claude Platform
 
-Announcing OpenTelemetry traces from Claude Managed Agents, the Messages API, and Claude SDKs on the Claude Platform.
+Announcing OpenTelemetry traces from Claude Managed Agents, the Messages API, and Anthropic SDKs on the Claude Platform.
 
 - DateOctober 14, 2026
 - Reading time3 min
 - ShareCopy link
 
-You can now send OpenTelemetry (OTel) traces from Claude Managed Agents, the Messages API, and Claude SDKs to any OTel tool, and follow each step your agents take. If you already send Claude Code or Cowork traces to your observability tool, the agents you build on the Claude Platform can also show up in the same place.
+You can now send OpenTelemetry (OTel) traces from Claude Managed Agents, the Messages API, and Anthropic SDKs to any OTel tool, and follow each step your agents take. If you already send Claude Code or Cowork traces to your observability tool, the agents you build on the Claude Platform can also show up in the same place.
 
 ## Trace agents with OpenTelemetry
 
@@ -30,7 +30,7 @@ Embedded media: https://www.youtube-nocookie.com/embed/tok8ncWJ7l4?enablejsapi=1
 
 ## Get started
 
-OpenTelemetry traces on the Claude Platform is available in public beta. Managed Agents and the Messages API need a destination in the Claude Console, while Claude SDKs export traces automatically.
+OpenTelemetry traces on the Claude Platform is available in public beta. Managed Agents and the Messages API need a destination in the Claude Console, while Anthropic SDKs export traces automatically.
 
 See the [docs](https://platform.claude.com/docs/en/manage-claude/opentelemetry) to get started.
 
@@ -100,27 +100,31 @@ David Traina, Senior Software Engineer
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 23, 2026
+[ArticleOct 28, 2026
 
-### Claude Cowork and chat come together for Enterprise
+### Smart reports, surveys, and pooled group budgets for Claude Enterprise
 
-Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)[ArticleOct 23, 2026
+In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
 
-### Claude Duet Safety, Privacy, and Security
+Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)[ArticleOct 28, 2026
 
-Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)[ArticleOct 22, 2026
+### IDC brings Quanta into Claude and adopts Claude across the company
 
-### Building agents: When to fold subagents into your main agent loop
+IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
 
-When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
+Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)[ArticleOct 28, 2026
 
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[ArticleOct 22, 2026
+### Introducing artifacts for legal work
 
-### The full Claude Platform, available on Google Cloud
+Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
 
-Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
+Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)[ArticleOct 27, 2026
 
-Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)
+### Manage costs and demonstrate ROI for Claude Code on Google Cloud
+
+Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
+
+Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)
 
 ## Transform how your organization operates with Claude
 

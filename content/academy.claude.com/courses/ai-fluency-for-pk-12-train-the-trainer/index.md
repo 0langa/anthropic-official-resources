@@ -2,7 +2,7 @@
 
 This course empowers pK–12 educators to lead AI fluency training for their colleagues — equipping them with a ready-to-run workshop kit grounded in the 4D Framework, while staying true to educators' mission and values.
 
-4 lessons45 min
+4 lessons45 minNo completion badge
 
 [Start course](https://academy.claude.com/courses/ai-fluency-for-pk-12-train-the-trainer/introduction-from-learner-to-trainer)[Sign in to save progress](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-fluency-for-pk-12-train-the-trainer)
 

@@ -1322,12 +1322,14 @@ https://claude.com/resources/articles/how-to-create-skills-key-steps-limitations
 https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud
 https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects
 https://claude.com/resources/articles/how-warp-builds-self-improving-agents-on-claude
+https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company
 https://claude.com/resources/articles/improved-web-search-with-dynamic-filtering
 https://claude.com/resources/articles/improving-frontend-design-through-skills
 https://claude.com/resources/articles/improving-skill-creator-test-measure-and-refine-agent-skills
 https://claude.com/resources/articles/integrate-apis-seamlessly
 https://claude.com/resources/articles/integrations
 https://claude.com/resources/articles/interactive-tools-in-claude
+https://claude.com/resources/articles/introducing-artifacts-for-legal-work
 https://claude.com/resources/articles/introducing-citations-api
 https://claude.com/resources/articles/introducing-dynamic-workflows-in-claude-code
 https://claude.com/resources/articles/introducing-routines-in-claude-code
@@ -1371,6 +1373,7 @@ https://claude.com/resources/articles/self-serve-enterprise
 https://claude.com/resources/articles/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions
 https://claude.com/resources/articles/skills
 https://claude.com/resources/articles/skills-explained
+https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets
 https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more
 https://claude.com/resources/articles/structured-outputs-on-the-claude-developer-platform
 https://claude.com/resources/articles/subagents-in-claude-code
@@ -4708,6 +4711,7 @@ https://support.claude.com/en/articles/17666484
 https://support.claude.com/en/articles/17666484-how-to-use-link-by-stripe-with-claude-duet
 https://support.claude.com/en/articles/17666489
 https://support.claude.com/en/articles/17666489-how-to-use-shop-pay-with-claude-duet
+https://support.claude.com/en/articles/17740565-manage-plugins-skills-and-connectors-from-one-plugins-page
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
 https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer
@@ -4966,6 +4970,7 @@ https://www.anthropic.com/news/activating-asl3-protections
 https://www.anthropic.com/news/advancing-claude-for-education
 https://www.anthropic.com/news/advancing-claude-for-financial-services
 https://www.anthropic.com/news/agent-capabilities-api
+https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions
 https://www.anthropic.com/news/ai-for-science-program
 https://www.anthropic.com/news/alberta-government-claude-cybersecurity
 https://www.anthropic.com/news/alignment-faking

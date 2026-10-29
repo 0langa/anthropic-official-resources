@@ -3,13 +3,15 @@
 Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.
 
 - Category[Announcements](https://claude.com/resources/product-announcements)
-- DateSeptember 14, 2026
-- Reading time9 min
+- DateOctober 27, 2026
+- Reading time11 min
 - ShareCopy link
 
 Today we're releasing Claude for Financial Advisors, a suite of connectors and workflow skills designed to help with research, prep, and documentation tasks that occupy an advisor’s time and keep them from client-facing work.
 
-Time is scarce among financial advisors. A typical advisory practice spends only a sixth of its time in client meetings, according to [Kitces research](https://www.kitces.com/kitces-report-how-financial-planners-actually-do-financial-planning/). The rest goes to work around those meetings, piecing together information across systems to prepare, plan, and document what was discussed. Meanwhile, over four in 10 American workers say they don't know who to go to for good financial or retirement planning advice, according to [EBRI's 2026 Retirement Confidence Survey](https://www.ebri.org/docs/default-source/rcs/2026-rcs/rcs_26-fs-3_prep.pdf). Time an advisor saves on prep and paperwork can go to a current client or new household they don’t yet have capacity to serve.
+Time is scarce among financial advisors. A typical advisory practice spends only a sixth of its time in client meetings, according to [Kitces research](https://www.kitces.com/kitces-report-how-financial-planners-actually-do-financial-planning/). The rest goes to work around those meetings, piecing together information across systems to prepare, plan, and
+
+document what was discussed. Meanwhile, over four in 10 American workers say they don't know who to go to for good financial or retirement planning advice, according to [EBRI's 2026 Retirement Confidence Survey](https://www.ebri.org/docs/default-source/rcs/2026-rcs/rcs_26-fs-3_prep.pdf). Time an advisor saves on prep and paperwork can go to a current client or new household they don’t yet have capacity to serve.
 
 Claude for Financial Advisors includes:
 
@@ -24,9 +26,20 @@ New connectors bring in the CRM, custodian, portfolio reporting, financial plann
 
 - **Addepar** brings investment intelligence into Claude, giving advisors governed access to portfolio data, analytics and workflows across public and private markets.
 - **BlackRock** brings its portfolio construction expertise, model portfolios, and institutional analytics into Claude through Advisor Center, so advisors can deliver holistic advice across public and private markets.
+- **CAIS** opens its alternative investment platform to advisors in Claude, so they can query fund data, review manager and fund performance, and see a client's public and private holdings together.
 - **Charles Schwab** connects Claude to Schwab Advisor Services custodial data, including balances, positions, transactions, cost basis, alerts, and money-movement status, so advisors can review client information, see which clients need attention, and prepare for reviews.
+- **Conquest Planning** brings its Strategic Advice Manager planning engine into Claude so advisors can create new client plans, review and apply strategies, update existing plans and prepare for client meetings all in one place.
 - **Envestnet** lets advisors summarize Tamarac accounts and households in natural language, with a financial plan snapshot from MoneyGuide.
+- **FactSet** brings multi-asset class content including funds and ETFs, news, company fundamentals, analyst estimates, and market data to Claude, so advisors can research the companies and securities in a client's portfolio.
+- **FINNY,** the growth and prospecting platform, connects Claude to an advisor's campaign results by channel and sequence step, and lets advisors enrich prospect lists from their CRM, or upload new lists directly in Claude.
+- **Flourish** connects Claude to financial advisors’ books of business, enabling them to work with client information, check rates, manage invitations, and prepare for client meetings, all within Claude.
+- **Franklin Templeton** provides publicly approved fund and share-class information in Claude, including performance, fees, NAV, holdings, distributions, and fund documents, along with its published market and investment insights.
 - **iCapital** brings a client's alternative investment holdings into Claude, enabling advisors to view NAV, commitments, unfunded capital, recent capital activity, and performance, while more easily connecting those insights to the client's broader portfolio.
+- **Invesco** brings portfolio intelligence and practice management insights into Claude through its Invesco for Advisors connector.
+- **J.P. Morgan Asset Management (55ip)** extends tax transition technology to Claude, so advisors can evaluate the tax impact of moving a client's holdings into a new portfolio.
+- **Jump**, an AI platform for financial professionals, gives Claude client context (meetings, documents, tasks) and Jump-built skills that prepare next steps for the advisor’s review.
+- **MSCI** brings its proprietary data and analytics into Claude, so wealth firms can assess investment options across public and private markets, monitor performance, and evaluate rebalancing opportunities.
+- **Nevis**, the AI platform for wealth management, draws on client information from meetings, documents, and communications to support meeting prep and follow-up in Claude.
 - **Orion** brings portfolio reporting and Redtail CRM insights into Claude for household reviews, opportunity analysis, meeting prep and follow-up*.*
 - **SS&C Black Diamond** brings portfolio, performance, holdings and rebalancing data into Claude, so advisors can review their book, spot clients out of tolerance, surface tax loss harvesting opportunities, and generate client reports, tasks and rebalance sessions with their approval.
 - **Wealthbox** connects Claude to client records and meeting history to power onboarding, meeting prep, and follow-up.
@@ -34,7 +47,7 @@ New connectors bring in the CRM, custodian, portfolio reporting, financial plann
 - **Vanguard** brings information on its model portfolios and advisor investment solutions into Claude, so advisors can draw on Vanguard's trusted research, portfolio construction, and asset allocation expertise when making decisions for clients.
 - **Zocks**, the AI meeting assistant for financial advisors, brings Claude the client intelligence it captures from every conversation, including profiles, goals, life events, and commitments.
 
-These join other [connectors](https://claude.com/connectors) already available in Claude, including Microsoft 365, Salesforce, DocuSign, Box, FactSet, S&P Global, Morningstar, and more.
+These join other [connectors](https://claude.com/connectors) already available in Claude, including Microsoft 365, Salesforce, DocuSign, Box, S&P Global, Morningstar, and more.
 
 The Claude for Financial Advisors plugin, which bundles advisor skills and connectors into a single install, works with BlackRock, Charles Schwab, Addepar, Envestnet, iCapital, Orion, Wealthbox, Wealth.com and Zocks, and advisors choose which of these to connect during guided setup. Some partners also offer their own plugins: BlackRock is launching one for Advisor Center, joining existing plugins from S&P Global and LSEG.
 
@@ -159,7 +172,7 @@ Eric Poirier, CEO
 
 Rafael Loureiro, CEO
 
-![Salesforce](https://assets.claude.com/8c83c934a1cb4917afa17904ca318872dcec12d6.svg)
+![Salesforce](https://assets.claude.com/122680b4a90e354a227934e7b37b3cd62b0cc11f.svg)
 
 > “Advisors do their best work with the full picture of a client in front of them. Connecting Salesforce to Claude lets the relationships firms have built on our platform travel with the advisor, within the permissions and controls they already have in place. Together with Anthropic we're giving firms more ways to put that trusted client data to work for the people they serve.”
 
@@ -217,29 +230,35 @@ If you don't have an Enterprise license, request one using this [form](https://f
 
 Learn more [at our solutions page](https://claude.com/solutions/financial-services) and join [our webinar](https://claude.com/resources/webinars/inside-claude-for-financial-advisors) this Friday 9/18 at 11AM ET.
 
+*This article was originally published on September 14, 2026. It has been updated to include additional connectors from Anthropic partners.*
+
 ## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 26, 2026
+[ArticleOct 28, 2026
+
+### Smart reports, surveys, and pooled group budgets for Claude Enterprise
+
+In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
+
+Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)[ArticleOct 28, 2026
+
+### IDC brings Quanta into Claude and adopts Claude across the company
+
+IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
+
+Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)[ArticleOct 28, 2026
+
+### Introducing artifacts for legal work
+
+Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
+
+Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)[ArticleOct 26, 2026
 
 ### Expanding Claude for Nonprofits
 
-Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.](https://claude.com/resources/articles/expanding-claude-for-nonprofits)[ArticleOct 23, 2026
-
-### Claude Cowork and chat come together for Enterprise
-
-Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)[ArticleOct 23, 2026
-
-### Claude Duet Safety, Privacy, and Security
-
-Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)[ArticleOct 22, 2026
-
-### The full Claude Platform, available on Google Cloud
-
-Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
-
-Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)
+Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.](https://claude.com/resources/articles/expanding-claude-for-nonprofits)
 
 ## Transform how your organization operates with Claude
 

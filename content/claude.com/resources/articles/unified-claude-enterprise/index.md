@@ -8,7 +8,7 @@
 
 Chat and Cowork first [came together](https://claude.com/resources/articles/cowork-is-now-claude) for Pro and Max plans in September. The same unified Claude experience is now generally available for Claude Enterprise plans.
 
-Chat and Cowork are now one Claude on web, desktop, and mobile, so your team can ask a quick question or hand over a full project in the same conversation. Agentic work runs in a cloud environment that Anthropic manages, and Claude Enterprise admins control access by role and manage usage with a new Efficient mode.
+Chat and Cowork are now one Claude on web, desktop, and mobile, so your team can ask a quick question or hand over a full project in the same conversation. Agentic work runs in a cloud environment that Anthropic manages, and [Claude Enterprise admins](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins) control access by role and manage usage with a new Efficient mode.
 
 ## One Claude for every task
 
@@ -86,9 +86,9 @@ Claude does agentic work in cloud sessions, each running in its own isolated vir
 
 ## Managing cost
 
-Claude Enterprise pricing stays usage-based. The newest Claude models are more efficient than their predecessors: billed through usage, Claude Opus 5.5 costs 40% less to run than Claude Opus 5 on typical workloads, and Claude Sonnet 5.5 costs up to 30% less than Claude Sonnet 5 for most work.
+Claude Enterprise pricing stays usage-based. The newest Claude models are more efficient than their predecessors: billed through usage, Claude Opus 5.5 [costs 40% less to run](https://claude.dev/blog/what-a-task-costs-on-opus-5-5/) than Claude Opus 5 on typical workloads, and Claude Sonnet 5.5 costs up to 30% less than Claude Sonnet 5 for most work.
 
-Depending on the task, agentic work can use more tokens than a quick chat. Claude Enterprise admins have four controls for managing this usage. Efficient mode is a new setting that keeps the unified Claude experience on Sonnet and Haiku models. Model entitlements set which models each role can use. Spend limits apply at the organization, group, and member level, and pooled group budgets give a group one shared monthly amount to draw from.
+Depending on the task, agentic work can use more tokens than a quick chat. Claude Enterprise admins have four controls for managing this usage. Efficient mode is a new setting that keeps the unified Claude experience on Sonnet and Haiku models. Model entitlements set which models each role can use. [Spend limits](https://claude.com/resources/articles/giving-admins-more-visibility-and-control-over-claude-usage-and-spend) apply at the organization, group, and member level, and pooled group budgets give a group one shared monthly amount to draw from.
 
 ## Getting started
 
@@ -100,25 +100,29 @@ See the [admin setup guide](https://support.claude.com/en/articles/17444462) for
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 23, 2026
+[ArticleOct 28, 2026
 
-### Claude Duet Safety, Privacy, and Security
+### Smart reports, surveys, and pooled group budgets for Claude Enterprise
 
-Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)[ArticleOct 22, 2026
+In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
 
-### The full Claude Platform, available on Google Cloud
+Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)[ArticleOct 28, 2026
 
-Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
+### IDC brings Quanta into Claude and adopts Claude across the company
 
-Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)[ArticleOct 21, 2026
+IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
 
-### HCLTech joins the Claude Partner Network as a Global Premier partner
+Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)[ArticleOct 28, 2026
 
-HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)[ArticleOct 21, 2026
+### Introducing artifacts for legal work
 
-### Introducing Claude Duet
+Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
 
-A research preview is available by waitlist today, starting with US Pro and Max subscribers.](https://claude.com/resources/articles/claude-duet)
+Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)[ArticleOct 27, 2026
+
+### Claude for Financial Advisors
+
+Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)
 
 ## Transform how your organization operates with Claude
 

@@ -7,9 +7,6 @@
 - Published
 
   Sep 23, 2026
-- Team
-
-  [Science](https://www.anthropic.com/science)
 - Topics
 
   - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)

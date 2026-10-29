@@ -32,17 +32,21 @@ Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design ar
 
 Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
 
-[ArticleOct 23, 2026
+[ArticleOct 28, 2026
 
-### Claude Cowork and chat come together for Enterprise
+### Smart reports, surveys, and pooled group budgets for Claude Enterprise
 
-Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)
+In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
 
-[ArticleOct 23, 2026
+Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)
 
-### Claude Duet Safety, Privacy, and Security
+[ArticleOct 28, 2026
 
-Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)
+### IDC brings Quanta into Claude and adopts Claude across the company
+
+IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
+
+Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)
 
 [ArticleOct 22, 2026
 
@@ -56,9 +60,21 @@ Featured resource 1 of 5: Building agents: When to fold subagents into your main
 
 Advanced filters(1)
 
-Showing 12 of 104 resources
+Showing 12 of 106 resources
 
-[ArticleOct 19, 2026
+[ArticleOct 28, 2026
+
+### IDC brings Quanta into Claude and adopts Claude across the company
+
+IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
+
+Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)[ArticleOct 27, 2026
+
+### Manage costs and demonstrate ROI for Claude Code on Google Cloud
+
+Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
+
+Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)[ArticleOct 19, 2026
 
 ### Redesigning source control at Anthropic
 
@@ -128,20 +144,6 @@ What effort really is and when to use which level in Claude Code, from my own te
 
 Claude Code
 
-(opens in new tab)](https://claude.dev/blog/spending-your-effort/)[ArticleSep 25, 2026
-
-### What a task costs on Opus 5.5
-
-The same token price can cost very different amounts per task. Learn what Claude Code tasks cost on Opus 5.5 and which settings change the bill.
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/what-a-task-costs-on-opus-5-5/)[ArticleSep 24, 2026
-
-### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
-
-Our latest Opus model is priced and trained to optimize costs for how developers code now.
-
-Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)
+(opens in new tab)](https://claude.dev/blog/spending-your-effort/)
 
 View more

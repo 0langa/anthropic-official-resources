@@ -1,6 +1,6 @@
 # Features and capabilities
 
-36 articles
+37 articles
 
 [What are artifacts and how do I use them?](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them)
 
@@ -43,6 +43,8 @@
 [Use plugins in Claude](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)
 
 [Browse skills, connectors, and plugins in one directory](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory)
+
+[Manage plugins, skills, and connectors from one Plugins page](https://support.claude.com/en/articles/17740565-manage-plugins-skills-and-connectors-from-one-plugins-page)
 
 [Use Claude in Xcode](https://support.claude.com/en/articles/12293051-use-claude-in-xcode)
 

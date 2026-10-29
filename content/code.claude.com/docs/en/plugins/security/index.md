@@ -73,7 +73,7 @@ These marketplace names make up the official tier:
 * `first-party-plugins`
 * `claude-tag-plugins`
 
-For how the official, community, and demo marketplaces differ and where to browse what each one lists, see [Anthropic's marketplaces](/docs/en/plugins/anthropic-marketplaces).
+For how the official and community marketplaces differ and where to browse what each one lists, see [Anthropic's marketplaces](/docs/en/plugins/anthropic-marketplaces).
 
 ## Review a plugin before you install
 
