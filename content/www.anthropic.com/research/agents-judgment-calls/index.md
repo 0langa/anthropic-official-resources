@@ -12,6 +12,23 @@
 - Team
 
   [Alignment](https://www.anthropic.com/research/team/alignment)
+- Topics
+
+  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+  - [Agents](https://www.anthropic.com/search?topic=agents)
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+  - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
+  - [Alignment](https://www.anthropic.com/search?topic=alignment)See more...
+
+Related articles
+
+- Economics
+
+  Jun 16, 2026
+
+  [Agentic coding and persistent returns to expertise](https://www.anthropic.com/research/claude-code-expertise)
+
+[View more](https://www.anthropic.com/search?topic=how-people-use-ai)
 
 *Amaç Herdağdelen, Hailey Joren, Alex Tamkin*
 

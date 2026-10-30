@@ -1,3 +1,5 @@
+https://academy.claude.com/courses/tool-use-with-the-messages-api/**call.input
+https://academy.claude.com/courses/tool-use-with-the-messages-api/badge
 https://academy.claude.com/dashboard
 https://academy.claude.com/mcp
 https://academy.claude.com/products/code/webinars

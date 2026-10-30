@@ -178,7 +178,7 @@ To set global instructions:
 
 3. Type your instructions in the text box and click "Save":
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1793098800&amp;signature=46343be15370706782a91759319ac217394e70486886a250bb3effbae4c4e641&amp;req=diUlE8B8m4lYXfMW1HO4zcDl69vsP1m48iWjaktE940Y6S6OR6q8mQBnagTH%0ApnTSvBAywaD8fEYSfCk%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1793360700&amp;signature=fada70f0c44b71c489c582d57c42e0ef296fc092d3710fbae5729dd7a6a28193&amp;req=diUlE8B8m4lYXfMW1HO4zcDl69vvMFG38iWjaktE9410dNMnopWjqTyNcmrI%0AteuhbY%2F4TJrGgWZVrwY%3D%0A)
 
 ### Folder instructions
 

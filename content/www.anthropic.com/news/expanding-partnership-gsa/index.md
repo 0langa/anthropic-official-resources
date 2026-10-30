@@ -1,6 +1,6 @@
 # Expanding our partnership with GSA to bring Claude to all levels of government
 
-![Expanding our partnership with GSA to bring Claude to all levels of government](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4e3bfa972a8ec391977288fa36de3da1ecd78232-1920x1080.webp%3Ffm%3Dwebp&w=1920&q=75)
+![Expanding our partnership with GSA to bring Claude to all levels of government](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fef0faa4dc389400ab9c9019ecdec7f1257cc6843-2000x1125.jpg&w=1920&q=75)
 
 - Published
 
@@ -8,6 +8,24 @@
 - Category
 
   [Partnerships](https://www.anthropic.com/news/partnerships)
+- Topics
+
+  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Access](https://www.anthropic.com/search?topic=access)
+  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)See more...
+
+Related articles
+
+- Partnerships
+
+  Apr 24, 2026
+
+  [Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce](https://www.anthropic.com/news/anthropic-nec)
+
+[View more](https://www.anthropic.com/search?topic=government-capacity)
 
 We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API. For the first time, the discount applies across every product surface, including when agencies buy from us directly today and through cloud providers in the coming months. The discount also extends to state, local, tribal and territorial governments.
 

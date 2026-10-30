@@ -20,11 +20,11 @@
 
 Related articles
 
-- Economics
+- Alignment
 
-  Jun 16, 2026
+  Oct 27, 2026
 
-  [Agentic coding and persistent returns to expertise](https://www.anthropic.com/research/claude-code-expertise)
+  [How AI agents shape experts’ judgment calls](https://www.anthropic.com/research/agents-judgment-calls)
 
 [View more](https://www.anthropic.com/search?topic=agents)
 

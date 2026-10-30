@@ -102,7 +102,7 @@ Start with a single component or workflow that has clear boundaries and moderate
 
 The economics of COBOL modernization have shifted. AI makes the economics work by automating what used to require armies of consultants, freeing your engineers to make the migration decisions that require their domain expertise.*‍*
 
-*For a step-by-step guide, see Anthropic's [**Code Modernization Playbook**](https://resources.anthropic.com/code-modernization-playbook).*
+*For a step-by-step guide, see Anthropic's [**Code Modernization Playbook**](https://claude.com/resources/guides/the-code-modernization-playbook).*
 
 *For the step-by-step process behind ports like these, see how Anthropic runs [large-scale code migrations with Claude Code](https://claude.com/resources/articles/ai-code-migration).*  
 *Thanks to Dan Mason, technical member of Anthropic staff, for their contributions.*
@@ -111,7 +111,13 @@ The economics of COBOL modernization have shifted. AI makes the economics work b
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 22, 2026
+[ArticleOct 27, 2026
+
+### Manage costs and demonstrate ROI for Claude Code on Google Cloud
+
+Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
+
+Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)[ArticleOct 22, 2026
 
 ### Building agents: When to fold subagents into your main agent loop
 
@@ -131,15 +137,7 @@ Claude Code
 
 How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
 
-Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)[ArticleOct 16, 2026
-
-### How the Claude Code team does code review
-
-How do you review code at the volume agents produce it? The Claude Code team shares its review process, from Claude verifying its own work to risk-tiered human approval, plus a checklist for adopting it.
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)
+Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)
 
 ## Transform how your organization operates with Claude
 

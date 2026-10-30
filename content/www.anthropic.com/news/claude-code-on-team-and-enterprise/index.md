@@ -15,11 +15,11 @@
 
 Related articles
 
-- Security
+- Partnerships
 
-  Feb 20, 2026
+  Oct 27, 2026
 
-  [Making frontier cybersecurity capabilities available to defenders](https://www.anthropic.com/news/claude-code-security)
+  [Expanding our partnership with GSA to bring Claude to all levels of government](https://www.anthropic.com/news/expanding-partnership-gsa)
 
 [View more](https://www.anthropic.com/search?topic=claude-code)
 

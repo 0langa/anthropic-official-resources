@@ -18,9 +18,9 @@ Related articles
 
 - Announcements
 
-  Jul 20, 2026
+  Oct 28, 2026
 
-  [Apply for Anthropic’s AI for Science rare disease research grants](https://www.anthropic.com/news/rare-disease-research-grants)
+  [AI for Science expands to foundations and research institutions](https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions)
 
 [View more](https://www.anthropic.com/search?topic=discovery)
 

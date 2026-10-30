@@ -32,17 +32,21 @@ Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design ar
 
 Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
 
-[ArticleOct 26, 2026
+[ArticleOct 28, 2026
 
-### Expanding Claude for Nonprofits
+### Smart reports, surveys, and pooled group budgets for Claude Enterprise
 
-Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.](https://claude.com/resources/articles/expanding-claude-for-nonprofits)
+In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
 
-[ArticleOct 23, 2026
+Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)
 
-### Claude Cowork and chat come together for Enterprise
+[ArticleOct 28, 2026
 
-Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)
+### IDC brings Quanta into Claude and adopts Claude across the company
+
+IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
+
+Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)
 
 [ArticleOct 22, 2026
 
@@ -56,9 +60,37 @@ Featured resource 1 of 5: Building agents: When to fold subagents into your main
 
 Advanced filters
 
-Showing 11 of 295 resources
+Showing 11 of 299 resources
 
-[ArticleOct 26, 2026
+[ArticleOct 28, 2026
+
+### Smart reports, surveys, and pooled group budgets for Claude Enterprise
+
+In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
+
+Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)[ArticleOct 28, 2026
+
+### IDC brings Quanta into Claude and adopts Claude across the company
+
+IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
+
+Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)[ArticleOct 28, 2026
+
+### Introducing artifacts for legal work
+
+Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
+
+Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)[ArticleOct 27, 2026
+
+### Manage costs and demonstrate ROI for Claude Code on Google Cloud
+
+Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
+
+Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)[ArticleOct 27, 2026
+
+### Claude for Financial Advisors
+
+Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)[ArticleOct 26, 2026
 
 ### Expanding Claude for Nonprofits
 
@@ -88,34 +120,6 @@ We need ways to prove that code is free of bugs. Formal software verification co
 
 Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
 
-Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)[ArticleOct 21, 2026
-
-### HCLTech joins the Claude Partner Network as a Global Premier partner
-
-HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)[ArticleOct 21, 2026
-
-### Introducing Claude Duet
-
-A research preview is available by waitlist today, starting with US Pro and Max subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleOct 21, 2026
-
-### Claude Security now scans continuously and tracks fixes
-
-Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.
-
-Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes)[ArticleOct 19, 2026
-
-### Redesigning source control at Anthropic
-
-As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.
-
-Claude Code
-
-(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)[ArticleOct 16, 2026
-
-### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
-
-How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
-
-Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)
+Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)
 
 View more

@@ -17,11 +17,11 @@
 
 Related articles
 
-- Frontier Red Team
+- Alignment
 
-  Apr 9, 2026
+  Oct 27, 2026
 
-  [Trustworthy agents in practice](https://www.anthropic.com/research/trustworthy-agents)
+  [How AI agents shape experts’ judgment calls](https://www.anthropic.com/research/agents-judgment-calls)
 
 [View more](https://www.anthropic.com/search?topic=agents)
 

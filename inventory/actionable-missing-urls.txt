@@ -1,0 +1,2 @@
+https://academy.claude.com/courses/tool-use-with-the-messages-api/**call.input
+https://academy.claude.com/courses/tool-use-with-the-messages-api/badge

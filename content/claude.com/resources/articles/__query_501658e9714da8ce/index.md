@@ -32,17 +32,21 @@ Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design ar
 
 Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
 
-[ArticleOct 26, 2026
+[ArticleOct 28, 2026
 
-### Expanding Claude for Nonprofits
+### Smart reports, surveys, and pooled group budgets for Claude Enterprise
 
-Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.](https://claude.com/resources/articles/expanding-claude-for-nonprofits)
+In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
 
-[ArticleOct 23, 2026
+Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)
 
-### Claude Cowork and chat come together for Enterprise
+[ArticleOct 28, 2026
 
-Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)
+### IDC brings Quanta into Claude and adopts Claude across the company
+
+IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
+
+Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)
 
 [ArticleOct 22, 2026
 
@@ -56,9 +60,31 @@ Featured resource 1 of 5: Building agents: When to fold subagents into your main
 
 Advanced filters(1)
 
-Showing 12 of 148 resources
+Showing 12 of 151 resources
 
-[ArticleOct 26, 2026
+[ArticleOct 28, 2026
+
+### Smart reports, surveys, and pooled group budgets for Claude Enterprise
+
+In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
+
+Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)[ArticleOct 28, 2026
+
+### IDC brings Quanta into Claude and adopts Claude across the company
+
+IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
+
+Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)[ArticleOct 28, 2026
+
+### Introducing artifacts for legal work
+
+Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
+
+Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)[ArticleOct 27, 2026
+
+### Claude for Financial Advisors
+
+Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)[ArticleOct 26, 2026
 
 ### Expanding Claude for Nonprofits
 
@@ -96,26 +122,6 @@ Claude Security](https://claude.com/resources/articles/claude-security-now-scans
 
 Catch more bugs before they reach production.
 
-Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)[ArticleOct 8, 2026
-
-### Build live dashboards and animate explainers with Claude
-
-Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
-
-Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 7, 2026
-
-### Claude Haiku 5.5
-
-Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.
-
-(opens in new tab)](https://www.anthropic.com/claude-haiku-5-5)[ArticleOct 6, 2026
-
-### Claude now works with Google Docs, Sheets, and Slides
-
-Teams that run on Google Workspace can now bring Claude into their files or work on their files directly from Claude, with our new add-on and Google Docs, Sheets, and Slides connectors (in beta).
-
-Claude Enterprise](https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides)[ArticleOct 6, 2026
-
-### We’re expanding the Claude Startups program to help founders build](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build)
+Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)
 
 View more

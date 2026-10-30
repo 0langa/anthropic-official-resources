@@ -1,0 +1,52 @@
+import{Qm as e,Xm as t}from"../../../../../content-de-meta-j2jjwhjm.js";var n=t(),r=`# Web search: Dynamic filtering and citations
+
+A web search tool that dumps 10 raw results into your context window costs you tokens on nine pages that you just simply didn't need. Dynamic filtering fixes that. Web search is a server-side tool, just like our code execution tool. Anthropic runs a search, and you write no handler code. With dynamic filtering, Claude writes and runs code in a sandbox on Anthropic's side to post-process the search results before they reach the context window. Only the relevant hits survive. On search-heavy agents, that's the difference between paying for 10 pages and paying for the two sentences that mattered.
+
+The sandbox is auto-provisioned. You don't set anything up. One capability note, though, is that dynamic filtering needs a model that supports programmatic tool calling. On models that don't, set allowed_callers to direct, or the API 400s. Check the web search tool page for supported models.
+
+Now I have a proposal here that claims a specific CSA structural requirement. I want Claude to verify against the actual standard and I want to control where it looks.
+
+So I'm going to lock the allowed_domains to the official sources. So ontario.ca, canada.ca, csagroup.org, cwbgroup.org. So when we run it. Claude does a search and it filters the run server side.
+
+And we get the answer back with a verification and something that we didn't have to build. And automatic citations pointing at the exact source. Three of the four references check out. The fourth is wrong. The full-time engineer rule is Division 1, not 3. And on A23.3, it says plainly it couldn't confirm the exact subclause number.
+
+Nice. We get the sources right here. For a consultancy whose proposals carry actual professional liability, cited answers aren't just like a nice-to-have. They're basically the whole product. One trap from JSON outputs. Document citations refuse to combine with them. Enable citations on a document you provide. Add JSON output and the API returns a 400. Web search is different though. It runs with JSON output, but the JSON comes back without citations. So you do lose the receipts.
+
+So here's everything that I'm deliberately not putting in this video. Per-search pricing, the org-level enablement toggle, max_uses caps, domain allow versus block rules. All of this is on the docs page and all of it changes faster than this video will. So check out the web search tool and read it the day you build because things are changing.
+
+And one thing to know is that availability will differ by cloud. As of this recording, web search isn't on Amazon Bedrock at all, and Claude on Google Cloud gets basic search without dynamic filtering. So if you're on a cloud platform, check the availability table before you design around this tool.
+
+Quick recap: dynamic filtering runs Claude-written code server side, so only relevant results reach your context. Domain locks control where it looks, citations come free, and they don't mix with structured outputs. Everything that changes monthly lives in the docs, and platform support varies, so check before you architect. Live data filtered before you pay for it, with receipts.
+`;function i(t){let i={a:"a",code:"code",em:"em",h2:"h2",li:"li",p:"p",strong:"strong",ul:"ul",...e(),...t.components},{LessonVideo:a,ResourceWidget:s}=i;return a||o("LessonVideo",!0),s||o("ResourceWidget",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(a,{youtubeId:"JPDMo4M3kME",title:"Web search: Answers from the sites you trust",transcript:r,children:(0,n.jsx)(i.p,{children:`The web search tool lets Claude search the web while it works on your
+request. Dynamic filtering keeps only the relevant parts of the search
+results, so you use fewer tokens on search-heavy requests. Meridian, a
+fictional engineering consultancy, cites engineering standards in its
+proposals.`})}),`
+`,(0,n.jsx)(i.p,{children:(0,n.jsxs)(i.em,{children:["The demo in this video was recorded in September 2026. It ran on Claude Sonnet 5 (",(0,n.jsx)(i.code,{children:"claude-sonnet-5"}),"). Results may differ on newer models."]})}),`
+`,(0,n.jsx)(i.p,{children:"Claude answers from what it learned in training, so it doesn't know about anything newer than that, or anything that was never in it. When a question needs those facts, someone has to look them up, and that legwork falls to you."}),`
+`,(0,n.jsx)(i.p,{children:(0,n.jsx)(i.strong,{children:"With the web search tool, Claude does that legwork itself, searching the web while it works on your request and answering from what it finds."})}),`
+`,(0,n.jsx)(i.p,{children:"One of Meridian's proposals cites four Canadian engineering standards by clause, and Meridian carries professional liability if any reference is wrong. So before the proposal goes out, Meridian wants each reference checked against official sources."}),`
+`,(0,n.jsx)(i.h2,{id:"add-the-tool-to-your-request",children:"Add the tool to your request"}),`
+`,(0,n.jsxs)(i.p,{children:["Web search is a server tool. It runs on Anthropic's infrastructure, so you don't write a handler for it or send back a ",(0,n.jsx)(i.code,{children:"tool_result"}),"."]}),`
+`,(0,n.jsxs)(i.p,{children:[(0,n.jsxs)(i.strong,{children:["Adding it takes one entry in your ",(0,n.jsx)(i.code,{children:"tools"})," list."]})," The entry's ",(0,n.jsx)(i.code,{children:"type"})," picks the version of the tool, and Meridian sets it to ",(0,n.jsx)(i.code,{children:"web_search_20260209"}),". Its ",(0,n.jsx)(i.code,{children:"name"})," is always ",(0,n.jsx)(i.code,{children:"web_search"}),". The ",(0,n.jsx)(i.a,{href:"https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-reference#anthropic-provided-tools",children:"tool reference"})," lists the current versions, so copy the ",(0,n.jsx)(i.code,{children:"type"})," value from there."]}),`
+`,(0,n.jsxs)(i.p,{children:["On Claude 4.6 and later models, ",(0,n.jsx)(i.code,{children:"web_search_20260209"})," and later versions use dynamic filtering by default. Claude runs code that filters the search results, so only relevant content reaches the context window."]}),`
+`,(0,n.jsx)(i.p,{children:"Claude usually does all its searching during one request. Your code sends that request and gets back the finished answer."}),`
+`,(0,n.jsxs)(i.p,{children:["The API can pause a long-running turn and return a ",(0,n.jsx)(i.code,{children:"stop_reason"})," of ",(0,n.jsx)(i.code,{children:"pause_turn"}),". When it does, send the response's content back as an assistant message, with the same ",(0,n.jsx)(i.code,{children:"tools"}),", and Claude continues."]}),`
+`,(0,n.jsxs)(i.p,{children:[(0,n.jsx)(i.a,{href:"https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool#usage-and-pricing",children:"Each search is billed"})," on top of what you pay for tokens. ",(0,n.jsx)(i.a,{href:"https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock#features-not-supported",children:"Not every cloud platform offers web search"}),"."]}),`
+`,(0,n.jsx)(i.h2,{id:"name-the-sites-claude-may-use",children:"Name the sites Claude may use"}),`
+`,(0,n.jsx)(i.p,{children:"So far, nothing in the request limits which sites Claude can search, and that's a problem for Meridian. The open web is full of forum posts and reseller sites, but Meridian can stand behind only official sources."}),`
+`,(0,n.jsxs)(i.p,{children:["So you tell the search where it may look. ",(0,n.jsxs)(i.strong,{children:[(0,n.jsx)(i.code,{children:"allowed_domains"})," is another field in the tool's entry, and it limits search results to the sites you name."]})," Meridian names four sites. Two belong to the bodies that publish these standards and certify to them, ",(0,n.jsx)(i.code,{children:"csagroup.org"})," and ",(0,n.jsx)(i.code,{children:"cwbgroup.org"}),". Two belong to governments, ",(0,n.jsx)(i.code,{children:"ontario.ca"})," and ",(0,n.jsx)(i.code,{children:"canada.ca"}),"."]}),`
+`,(0,n.jsxs)(i.p,{children:[(0,n.jsx)(i.code,{children:"allowed_domains"})," takes a list. Write each item as a bare domain with no ",(0,n.jsx)(i.code,{children:"https://"}),", and its subdomains are included."]}),`
+`,(0,n.jsx)(i.h2,{id:"read-the-answer-and-its-sources",children:"Read the answer and its sources"}),`
+`,(0,n.jsxs)(i.p,{children:["Claude's answer can arrive in several ",(0,n.jsx)(i.code,{children:"text"})," blocks, with the searches in between. ",(0,n.jsxs)(i.strong,{children:["So join every ",(0,n.jsx)(i.code,{children:"text"})," block to get the whole answer."]})]}),`
+`,(0,n.jsxs)(i.p,{children:["Each search also adds a ",(0,n.jsx)(i.code,{children:"web_search_tool_result"})," block to the response. It holds the list of results the search returned, and each result has a ",(0,n.jsx)(i.code,{children:"title"})," and a ",(0,n.jsx)(i.code,{children:"url"}),"."]}),`
+`,(0,n.jsx)(i.p,{children:"Of Meridian's four references, Claude found that two check out, a third checks out except for its subclause number, and the fourth is wrong."}),`
+`,(0,n.jsx)(i.h2,{id:"put-the-program-together",children:"Put the program together"}),`
+`,(0,n.jsxs)(i.p,{children:["Meridian's program puts these steps together. In the program, ",(0,n.jsx)(i.code,{children:"excerpt"})," holds the passage from the proposal, and ",(0,n.jsx)(i.code,{children:"QUESTION"})," holds Meridian's question."]}),`
+`,(0,n.jsx)(s,{name:"CodeParts",title:"Web search: find the line that does each job"}),`
+`,(0,n.jsx)(i.h2,{id:"key-takeaways",children:"Key takeaways"}),`
+`,(0,n.jsxs)(i.ul,{children:[`
+`,(0,n.jsxs)(i.li,{children:["Web search is a server tool, so you add one entry to ",(0,n.jsx)(i.code,{children:"tools"})," and don't write a handler. Claude usually does all its searching during one request."]}),`
+`,(0,n.jsxs)(i.li,{children:[(0,n.jsx)(i.code,{children:"allowed_domains"})," limits search results to the sites you name."]}),`
+`,(0,n.jsxs)(i.li,{children:["On Claude 4.6 and later models, dynamic filtering is on by default in ",(0,n.jsx)(i.code,{children:"web_search_20260209"})," and later versions, so only relevant content reaches the context window."]}),`
+`]})]})}function a(t={}){let{wrapper:r}={...e(),...t.components};return r?(0,n.jsx)(r,{...t,children:(0,n.jsx)(i,{...t})}):i(t)}function o(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}export{a as default};

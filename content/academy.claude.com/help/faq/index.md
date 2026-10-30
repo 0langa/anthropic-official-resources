@@ -14,7 +14,7 @@ Academy lives at its own address, so signing in is a quick one-time authorizatio
 
 ### I signed in with my company’s SSO, but Academy shows my personal account
 
-Academy links your learning to the Claude account, and the organization inside it, that was active when you authorized. If that was a personal account, your enrollments were recorded there. To get company-attributed learning going forward: sign out of claude.ai, sign back in through your company’s SSO, then re-authorize Academy. Enrollments and progress on the personal account stay there, and they can’t be moved to another account.
+Academy links your learning to the Claude account, and the organization inside it, that was active when you authorized. If that was a personal account, your enrollments were recorded there. To get company-attributed learning going forward: sign out of claude.ai, sign back in through your company’s SSO, then re-authorize Academy. Enrollments and progress on the personal account stay there. If that personal account uses the same email address as your company sign-in, you can move those courses to your organization once you’re signed in with your organization, from your Academy dashboard or the course’s page. Courses can’t be moved between Claude accounts with different email addresses.
 
 ### What is Claude Academy? Is it free? Do I need a paid plan or a work account?
 
@@ -106,6 +106,20 @@ Yes. Listed durations are estimates to help you plan. Completion is based on wor
 
 Thanks for catching that. Send the course, lesson, and code sample through the support messenger in the corner of the page, and it goes to the content team. You don’t need to wait for a fix to finish the course.
 
+## Personal courses and your organization
+
+### Why does a course say “Personal”?
+
+If you took a course while signed in with a personal Claude account, and you’re also a member of a Team or Enterprise organization, that course is marked “Personal”. Personal courses don’t count toward your organization.
+
+### Can I move a course to my organization?
+
+Yes. On Your learning, a banner shows how many of your courses count elsewhere and offers to move them. Nothing moves until you confirm. The confirmation lists each course, and you choose which ones to move.
+
+### What does my organization see after a move?
+
+People who can view your organization’s reports will see the courses you moved, with your progress and dates. Quiz scores are never shared.
+
 ## Emails and notifications
 
 ### I’m getting too many emails from Academy. How do I turn them off?
@@ -116,7 +130,7 @@ Academy currently sends only one email: a completion notification when you earn 
 
 ### Will my employer see my progress?
 
-Your employer sees your Academy data only if you enrolled through your company’s Claude organization. If you did, your organization’s owners and admins, and members whose role includes the Analytics permission, can see which courses you enrolled in, your email address or Claude account ID, your status, and the dates you enrolled, finished, and earned a badge. They never see quiz scores, attempts, or time spent. On a personal Claude account, your learning isn’t visible to any organization.
+Your employer sees your Academy data only if you enrolled through your company’s Claude organization or moved a course into it. If you did, your organization’s owners and admins, and members whose role includes the Analytics permission, can see those courses, your email address or Claude account ID, your status, and the dates you enrolled, finished, and earned a badge. They never see quiz scores, attempts, or time spent. Courses that count toward your personal account aren’t visible to any organization.
 
 ### How do I delete my account? Does this delete my data in Skilljar also?
 
@@ -158,7 +172,7 @@ Sign in to Academy with the Claude account you use at work, click your avatar in
 
 ### Who is included in Org reports?
 
-Current members of your organization who enrolled in courses through it. Each course counts toward the organization the learner was signed in with when the course was first added to their Academy history, either by enrolling in it on Academy or by importing their Skilljar history, whichever happened first. A course first added on a personal Claude account or in another organization doesn’t appear, even if they finish it after joining yours. When someone leaves your organization, their rows disappear from the report, including past completions and badges, and reappear if they rejoin with the same Claude account. If a learner deletes their Academy data or their Claude account, their rows are deleted permanently.
+Current members of your organization, for the courses that count toward it. Each course counts toward the organization the learner was signed in with when the course was first added to their Academy history, either by enrolling in it on Academy or by importing their Skilljar history, whichever happened first, unless the learner later moves it. A course first added in another organization doesn’t appear, even if they finish it after joining yours. A course first added on a personal Claude account doesn’t appear either until the learner moves it to your organization. A moved course keeps its original dates. When someone leaves your organization, their rows disappear from the report, including past completions and badges, and reappear if they rejoin with the same Claude account. If a learner deletes their Academy data or their Claude account, their rows are deleted permanently.
 
 ### What’s in the Org reports CSV download?
 

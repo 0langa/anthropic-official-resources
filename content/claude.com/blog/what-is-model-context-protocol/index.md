@@ -10,7 +10,7 @@ Connect AI assistants to your tools without custom integrations using Model Cont
 - Reading time10 min
 - ShareCopy link
 
-AI models are only as good as the context provided to them. AI assistants like [Claude](https://claude.ai/redirect/claudedotcom.v1.ac562385-08d3-4116-b35f-d9a106526639) can answer questions and perform an impressive range of tasks, but if they can't access the data or tools they need, they're limited in what they can do for you. You typically solve this by copying and pasting context from one tab to another, whether it's editing a document in Google Drive, replying to a thread in Slack, or updating code in an IDE. This process is slow, manual, and risks leaving out important context.
+AI models are only as good as the context provided to them. AI assistants like [Claude](https://claude.ai/redirect/claudedotcom.v1.1dc93196-3c62-45b1-8b7f-45c6bf12a59d) can answer questions and perform an impressive range of tasks, but if they can't access the data or tools they need, they're limited in what they can do for you. You typically solve this by copying and pasting context from one tab to another, whether it's editing a document in Google Drive, replying to a thread in Slack, or updating code in an IDE. This process is slow, manual, and risks leaving out important context.
 
 The **Model Context Protocol (MCP)** offers a solution that is open and widely available across all AI apps and assistants. In this article, you'll learn what MCP is, how it works and why it matters, and who it's for. You'll see examples of MCP in action and understand how you can start using or building with MCP today.
 
@@ -74,7 +74,7 @@ Enterprises can drive internal adoption of AI tools and applications more effect
 
 MCP provides end-users with seamless connectivity between their favorite AI assistants and work tools. It makes it easier to automate tasks and avoid copying and pasting across tabs. In short, MCP gives AI greater access and connectivity to your world.
 
-In [Claude](https://claude.ai/redirect/claudedotcom.v1.ac562385-08d3-4116-b35f-d9a106526639), you can instantly connect to MCP Servers, known as [**Connectors**](https://claude.com/partners/mcp). This provides you with a straightforward way to connect Claude to your favorite work apps.
+In [Claude](https://claude.ai/redirect/claudedotcom.v1.1dc93196-3c62-45b1-8b7f-45c6bf12a59d), you can instantly connect to MCP Servers, known as [**Connectors**](https://claude.com/partners/mcp). This provides you with a straightforward way to connect Claude to your favorite work apps.
 
 ## Connectors (MCP) in action
 
@@ -120,7 +120,7 @@ Two paths exist based on your needs.
 
 ### Connectors in Claude
 
-[Connectors](https://claude.com/partners/mcp) are pre-built, giving Claude instant access to tools, databases, and applications, and providing you with a new set of capabilities. Open [Claude](https://claude.ai/redirect/claudedotcom.v1.ac562385-08d3-4116-b35f-d9a106526639/directory), browse available connectors, and click to add them.
+[Connectors](https://claude.com/partners/mcp) are pre-built, giving Claude instant access to tools, databases, and applications, and providing you with a new set of capabilities. Open [Claude](https://claude.ai/redirect/claudedotcom.v1.1dc93196-3c62-45b1-8b7f-45c6bf12a59d/directory), browse available connectors, and click to add them.
 
 ### Build custom MCP connections
 
@@ -154,7 +154,13 @@ MCP uses efficient protocols. Stdio transport for local servers provides minimal
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 22, 2026
+[ArticleOct 27, 2026
+
+### Manage costs and demonstrate ROI for Claude Code on Google Cloud
+
+Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
+
+Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)[ArticleOct 22, 2026
 
 ### Building agents: When to fold subagents into your main agent loop
 
@@ -174,15 +180,7 @@ Claude Code
 
 How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
 
-Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)[ArticleOct 16, 2026
-
-### How the Claude Code team does code review
-
-How do you review code at the volume agents produce it? The Claude Code team shares its review process, from Claude verifying its own work to risk-tiered human approval, plus a checklist for adopting it.
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)
+Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)
 
 ## Transform how your organization operates with Claude
 

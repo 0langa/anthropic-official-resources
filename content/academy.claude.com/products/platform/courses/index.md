@@ -2,7 +2,7 @@
 
 
 
-6 courses
+7 courses
 
 [## Building with the Claude API
 
@@ -28,4 +28,8 @@ Build MCP servers and clients from scratch with the Python SDK, covering the thr
 
 Go beyond MCP basics: sampling, notifications, and roots, with interactive walkthroughs of each protocol flow.
 
-·11 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/model-context-protocol-advanced-topics)
+·11 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/model-context-protocol-advanced-topics)[## Tool use with the Messages API
+
+Take tool use that already works and make it reliable, responsive, and cheaper to run, then add the tools Anthropic provides.
+
+·9 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/tool-use-with-the-messages-api)

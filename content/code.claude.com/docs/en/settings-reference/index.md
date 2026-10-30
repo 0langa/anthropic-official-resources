@@ -4843,7 +4843,7 @@ Use [`enableArtifact`](#enableartifact) instead to turn off the [Artifact](/docs
 
 ### `disableDeepLinkRegistration`
 
-Stop Claude Code from registering the `claude-cli://` protocol handler with the operating system, which it otherwise does after you send the first prompt of an interactive session. [Deep links](/docs/en/deep-links) let external tools open a Claude Code session with a pre-filled prompt. Set this in environments where protocol handler registration is restricted or managed separately.
+Stop Claude Code from registering the `claude-cli://` protocol handler with the operating system. [Deep links](/docs/en/deep-links) let external tools open a Claude Code session with a pre-filled prompt. Set this in environments where protocol handler registration is restricted or managed separately.
 
 * **Scope**: [`Any file`](#scopes)
 * **Type**: the string `"disable"`
@@ -5798,7 +5798,7 @@ Claude Code ignores this key in `settings.json`.
 
 Start every interactive CLI session with [Chrome integration](/docs/en/chrome) on, without passing `--chrome` each time. If you run [`claude remote-control`](/docs/en/remote-control), a session it starts for one of your [project](/docs/en/claude-projects) threads follows this key too, except in `bypassPermissions` mode. With Claude Code v2.1.287 or later, this key also applies to sessions in the [VS Code extension](/docs/en/vs-code#automate-browser-tasks-with-chrome): see [Enable Chrome by default](/docs/en/chrome#enable-chrome-by-default).
 
-Running `/chrome` and selecting **Enabled by default** sets this key for you. Appears in `/config` as **Claude in Chrome enabled by default**.
+Running `/chrome` and selecting **Enabled by default** sets this key for you, as does answering the ["Claude in Chrome extension detected" dialog](/docs/en/chrome#answer-the-startup-dialog). Appears in `/config` as **Claude in Chrome enabled by default**.
 
 * **Scope**: [`Global config`](#scopes)
 * **Type**: Boolean

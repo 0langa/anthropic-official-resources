@@ -17,11 +17,11 @@
 
 Related articles
 
-- Partnerships
+- Science
 
-  Mar 12, 2026
+  Oct 27, 2026
 
-  [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
+  [Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development)
 
 [View more](https://www.anthropic.com/search?topic=beneficial-deployments)
 

@@ -32,17 +32,21 @@ Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design ar
 
 Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
 
-[ArticleOct 26, 2026
+[ArticleOct 28, 2026
 
-### Expanding Claude for Nonprofits
+### Smart reports, surveys, and pooled group budgets for Claude Enterprise
 
-Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.](https://claude.com/resources/articles/expanding-claude-for-nonprofits)
+In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
 
-[ArticleOct 23, 2026
+Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)
 
-### Claude Cowork and chat come together for Enterprise
+[ArticleOct 28, 2026
 
-Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)
+### IDC brings Quanta into Claude and adopts Claude across the company
+
+IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
+
+Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)
 
 [ArticleOct 22, 2026
 
@@ -56,9 +60,27 @@ Featured resource 1 of 5: Building agents: When to fold subagents into your main
 
 Advanced filters(1)
 
-Showing 12 of 43 resources
+Showing 12 of 46 resources
 
-[ArticleOct 23, 2026
+[ArticleOct 28, 2026
+
+### Smart reports, surveys, and pooled group budgets for Claude Enterprise
+
+In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
+
+Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)[ArticleOct 28, 2026
+
+### IDC brings Quanta into Claude and adopts Claude across the company
+
+IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
+
+Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)[ArticleOct 28, 2026
+
+### Introducing artifacts for legal work
+
+Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
+
+Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)[ArticleOct 23, 2026
 
 ### Claude Cowork and chat come together for Enterprise
 
@@ -111,20 +133,6 @@ Claude EnterpriseClaude Code1 more: Claude TagClaude Tag](https://claude.com/res
 
 After it hit a ceiling with add-on AI features, monday rebuilt its platform around Claude. Two months and five million agent interactions later, its team shares five lessons from the transition to an agent-first product.
 
-Claude Enterprise](https://claude.com/resources/articles/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate)[ArticleAug 17, 2026
-
-### How ABC Legal turned every employee into a builder with Claude Managed Agents
-
-ABC Legal transformed their organization’s AI adoption from scattered experiments to a governed fleet of specialized agents with Claude.
-
-Claude Enterprise](https://claude.com/resources/articles/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents)[ArticleAug 11, 2026
-
-### Compliance API coverage extends to Claude Cowork and Claude Code
-
-Claude EnterpriseClaude apps2 more: Claude Code and Claude CoworkClaude CodeClaude Cowork](https://claude.com/resources/articles/compliance-api-cowork-and-claude-code)[ArticleAug 6, 2026
-
-### Millennium and Anthropic are building a digital risk analyst with Claude
-
-Claude Enterprise](https://claude.com/resources/articles/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude)
+Claude Enterprise](https://claude.com/resources/articles/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate)
 
 View more

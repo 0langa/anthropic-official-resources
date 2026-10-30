@@ -84,7 +84,7 @@ This debugging process is iterative and can be tedious. Each fix requires re-tes
 
 You can integrate AI into your responsive design workflow for immediate layout generation and systematic refactoring. Claude works in two ways depending on your needs:
 
-- ‍**[Claude.ai](http://claude.ai/redirect/claudedotcom.v1.155f921b-f8ab-43b5-a898-5283e69c772d):** Browser-based interface where you paste layout requirements and receive complete responsive HTML/CSS with proper viewport configuration and media queries. Accessible from any browser, no installation required. Good for learning responsive patterns and generating boilerplate.[**‍**](https://claude.com/product/claude-code)
+- ‍**[Claude.ai](http://claude.ai/redirect/claudedotcom.v1.ef9c79b0-3a90-40e3-b485-947dee77fcb7):** Browser-based interface where you paste layout requirements and receive complete responsive HTML/CSS with proper viewport configuration and media queries. Accessible from any browser, no installation required. Good for learning responsive patterns and generating boilerplate.[**‍**](https://claude.com/product/claude-code)
 - **[Claude Code](https://claude.com/product/claude-code):** Command-line tool that analyzes existing stylesheets across your codebase, identifies viewport-specific issues, and implements fixes directly in your files. Requires npm installation and API access. Built for refactoring responsive layouts in large codebases.
 
 ### **Start with Claude.ai**
@@ -208,7 +208,7 @@ Finally, Claude Code generates a comprehensive Playwright test suite that valida
 
 ## ‍**Get started**
 
-**Quick prototyping:** Visit [**Claude.ai**](https://claude.ai/redirect/claudedotcom.v1.155f921b-f8ab-43b5-a898-5283e69c772d) to generate responsive layouts and learn design patterns without any setup. Describe your layout requirements—like a three-column card grid that stacks on mobile—and receive complete HTML and CSS with proper viewport configuration and media queries. It's ideal for understanding responsive techniques and creating boilerplate code you can adapt to your projects.
+**Quick prototyping:** Visit [**Claude.ai**](https://claude.ai/redirect/claudedotcom.v1.ef9c79b0-3a90-40e3-b485-947dee77fcb7) to generate responsive layouts and learn design patterns without any setup. Describe your layout requirements—like a three-column card grid that stacks on mobile—and receive complete HTML and CSS with proper viewport configuration and media queries. It's ideal for understanding responsive techniques and creating boilerplate code you can adapt to your projects.
 
 **Codebase refactoring:** When responsive issues span multiple stylesheets or affect your entire application, install [**Claude Code**](https://claude.com/product/claude-code) to systematically analyze and fix layout problems across your project:
 

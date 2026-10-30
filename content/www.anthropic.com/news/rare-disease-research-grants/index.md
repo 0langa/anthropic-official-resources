@@ -17,11 +17,11 @@
 
 Related articles
 
-- Partnerships
+- Announcements
 
-  Oct 8, 2026
+  Oct 28, 2026
 
-  [Building on our commitment to American scientific discovery](https://www.anthropic.com/news/genesis-mission-commitment)
+  [AI for Science expands to foundations and research institutions](https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions)
 
 [View more](https://www.anthropic.com/search?topic=life-sciences)
 

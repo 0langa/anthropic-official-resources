@@ -24,6 +24,11 @@ By submitting, you agree to receive updates from Anthropic and Google Cloud, and
   Ivan Nardini
 
   Developer Relations Engineer (AI/ML) at Google Cloud
+- ![](https://assets.claude.com/f40cf63dd5b97b37c445b368f0161d66f832a30e.jpg?w=128&h=128&fit=crop)
+
+  Esra Duygun
+
+  Machine Learning & AI Specialist at Google Cloud
 
 ## What you’ll learn
 

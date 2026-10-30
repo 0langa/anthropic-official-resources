@@ -194,6 +194,9 @@
   "https://academy.claude.com/courses/teaching-ai-fluency/badge": [
     "No semantic main/article element; full body retained."
   ],
+  "https://academy.claude.com/courses/tool-use-with-the-messages-api/course-quiz": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
   "https://academy.claude.com/products/claude/courses": [
     "No semantic main/article element; full body retained."
   ],
@@ -7432,6 +7435,9 @@
   "https://platform.claude.com/docs/en/manage-claude/spend-limits-api?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/manage-claude/usage-cost-analytics-api": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/manage-claude/usage-cost-api": [
     "Native source; upstream MDX components retained."
   ],
@@ -9641,6 +9647,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/17444146-claude-haiku-4-5-is-leaving-the-model-selector": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/17444146-claude-haiku-4-5-was-removed-from-the-model-selector": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/17444462": [

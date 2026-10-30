@@ -41,6 +41,7 @@
     "https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/certificate-quiz",
     "https://academy.claude.com/courses/introduction-to-claude-cowork/quiz-on-claude-cowork",
     "https://academy.claude.com/courses/introduction-to-claude-tag/course-quiz",
+    "https://academy.claude.com/courses/tool-use-with-the-messages-api/course-quiz",
     "https://academy.claude.com/use-cases/oncall-handoff-brief",
     "https://academy.claude.com/use-cases/outside-counsel-review",
     "https://claude.com/blog",
@@ -506,10 +507,10 @@
   ],
   "statuses": {
     "blocked": 27,
-    "complete": 4961,
+    "complete": 4973,
     "gone": 47,
     "out_of_scope": 42,
-    "partial": 499
+    "partial": 500
   },
   "terminal_unarchived_urls": [
     "https://academy.claude.com/dashboard",
@@ -641,6 +642,7 @@
     "https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/certificate-quiz",
     "https://academy.claude.com/courses/introduction-to-claude-cowork/quiz-on-claude-cowork",
     "https://academy.claude.com/courses/introduction-to-claude-tag/course-quiz",
+    "https://academy.claude.com/courses/tool-use-with-the-messages-api/course-quiz",
     "https://academy.claude.com/dashboard",
     "https://academy.claude.com/mcp",
     "https://academy.claude.com/products/code/webinars",

@@ -538,6 +538,19 @@ https://academy.claude.com/courses/teaching-ai-fluency/how-do-we-assess-the-4ds
 https://academy.claude.com/courses/teaching-ai-fluency/the-delegation-diligence-loop
 https://academy.claude.com/courses/teaching-ai-fluency/the-description-discernment-loop
 https://academy.claude.com/courses/teaching-ai-fluency/welcome-approaches-to-teaching-ai-fluency
+https://academy.claude.com/courses/tool-use-with-the-messages-api
+https://academy.claude.com/courses/tool-use-with-the-messages-api/**call.input
+https://academy.claude.com/courses/tool-use-with-the-messages-api/badge
+https://academy.claude.com/courses/tool-use-with-the-messages-api/code-execution
+https://academy.claude.com/courses/tool-use-with-the-messages-api/computer-use
+https://academy.claude.com/courses/tool-use-with-the-messages-api/course-quiz
+https://academy.claude.com/courses/tool-use-with-the-messages-api/creating-tools-that-claude-picks
+https://academy.claude.com/courses/tool-use-with-the-messages-api/cut-the-cost-of-tool-heavy-workflows
+https://academy.claude.com/courses/tool-use-with-the-messages-api/next-steps
+https://academy.claude.com/courses/tool-use-with-the-messages-api/parallel-tool-calling
+https://academy.claude.com/courses/tool-use-with-the-messages-api/streaming-tool-calls
+https://academy.claude.com/courses/tool-use-with-the-messages-api/strict-tool-use
+https://academy.claude.com/courses/tool-use-with-the-messages-api/web-search
 https://academy.claude.com/dashboard
 https://academy.claude.com/help/faq
 https://academy.claude.com/help/mcp
@@ -3903,6 +3916,7 @@ https://platform.claude.com/docs/en/manage-claude/rate-limits-api
 https://platform.claude.com/docs/en/manage-claude/rate-limits-api?sdk_languages=curl
 https://platform.claude.com/docs/en/manage-claude/spend-limits-api
 https://platform.claude.com/docs/en/manage-claude/spend-limits-api?sdk_languages=curl
+https://platform.claude.com/docs/en/manage-claude/usage-cost-analytics-api
 https://platform.claude.com/docs/en/manage-claude/usage-cost-api
 https://platform.claude.com/docs/en/manage-claude/usage-cost-api?sdk_languages=curl
 https://platform.claude.com/docs/en/manage-claude/user-management
@@ -4694,6 +4708,7 @@ https://support.claude.com/en/articles/17440474
 https://support.claude.com/en/articles/17440474-migrate-from-standalone-claude-design-to-claude
 https://support.claude.com/en/articles/17440474-move-from-standalone-claude-design-to-claude
 https://support.claude.com/en/articles/17444146-claude-haiku-4-5-is-leaving-the-model-selector
+https://support.claude.com/en/articles/17444146-claude-haiku-4-5-was-removed-from-the-model-selector
 https://support.claude.com/en/articles/17444462
 https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization
 https://support.claude.com/en/articles/17454700

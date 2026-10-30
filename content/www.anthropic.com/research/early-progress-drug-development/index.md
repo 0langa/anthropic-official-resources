@@ -10,6 +10,23 @@
 - Team
 
   [Science](https://www.anthropic.com/science)
+- Topics
+
+  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Healthcare](https://www.anthropic.com/search?topic=healthcare)
+  - [Discovery](https://www.anthropic.com/search?topic=discovery)
+  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+
+Related articles
+
+- Announcements
+
+  Oct 27, 2026
+
+  [Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development)
+
+[View more](https://www.anthropic.com/search?topic=life-sciences)
 
 *Anthropic’s [life sciences team](https://www.anthropic.com/science) is working to accelerate curing disease. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines: [BigHat Biosciences](https://www.bighatbio.com/), [Bristol Myers Squibb](https://www.bms.com/), [Divergence Labs](https://divergencelabs.com/), [Enveda](https://enveda.com/), [Generate Biomedicines](https://generatebiomedicines.com/), and [The Column Group](https://www.thecolumngroup.com/). We've also begun drug discovery efforts of our own. In doing so, we've learned a lot about how Claude can support drug development, and how we’ll need to improve Claude further to realize AI's potential in medicine. We plan to scale this work up substantially from here*.
 
@@ -21,7 +38,7 @@ So, over the past several months, we’ve partnered with six organizations to do
 
 This work serves our goals in three ways. First, it lets us better understand the strengths and limitations of our models in relation to a much wider range of drug development tasks (we’ve already prioritized specific improvements to our models based on what we’ve learned so far). Second, these programs can serve as case studies for the wider life sciences community. If Claude is to significantly increase the rate of new cures, we need to work with many more biotechnology firms and integrate Claude more deeply into their development processes. Third, these projects should, if their positive trajectories continue, have direct impact themselves. We’re optimistic that some may result in effective new medicines for the diseases they target, including food allergies, rare childhood diseases, and several forms of cancer.
 
-In this post, we provide an update on our progress with our partners, along with technical reports and preprints that describe our thought process, methods, and early results in more detail. We then briefly outline where our work is headed next.
+In this post, we provide an update on our progress with our partners, along with technical reports that describe our thought process, methods, and early results in more detail. We then briefly outline where our work is headed next.
 
 ## Case studies
 
@@ -53,4 +70,6 @@ We’re looking forward to working with many more organizations as we expand our
 
 ### Get in touch with us
 
-Please select
+If you work at an organization focused on drug development and would like to get in touch, complete the following form.
+
+This form couldn't load. If you use a content blocker, allow forms from HubSpot and reload the page.

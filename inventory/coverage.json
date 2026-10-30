@@ -1,11 +1,11 @@
 {
-  "actionable_missing_pages": 0,
-  "actionable_population_complete": true,
-  "archived_pages": 5486,
+  "actionable_missing_pages": 2,
+  "actionable_population_complete": false,
+  "archived_pages": 5499,
   "by_host": {
     "academy.claude.com": {
-      "archived_pages": 862,
-      "discovered_pages": 866
+      "archived_pages": 873,
+      "discovered_pages": 879
     },
     "claude.com": {
       "archived_pages": 844,
@@ -16,19 +16,19 @@
       "discovered_pages": 256
     },
     "platform.claude.com": {
-      "archived_pages": 2137,
-      "discovered_pages": 2167
+      "archived_pages": 2138,
+      "discovered_pages": 2168
     },
     "support.claude.com": {
-      "archived_pages": 741,
-      "discovered_pages": 774
+      "archived_pages": 742,
+      "discovered_pages": 775
     },
     "www.anthropic.com": {
       "archived_pages": 648,
       "discovered_pages": 660
     }
   },
-  "discovered_pages": 5576,
+  "discovered_pages": 5591,
   "exact_website_replica": false,
   "limitations": [
     "Discovery is the union of public indexes and hyperlinks, not proof that unlinked pages do not exist.",
@@ -74,6 +74,7 @@
     "https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/certificate-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "https://academy.claude.com/courses/introduction-to-claude-cowork/quiz-on-claude-cowork": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "https://academy.claude.com/courses/introduction-to-claude-tag/course-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
+    "https://academy.claude.com/courses/tool-use-with-the-messages-api/course-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "https://academy.claude.com/dashboard": "Disallowed by robots.txt",
     "https://academy.claude.com/mcp": "Disallowed by robots.txt",
     "https://academy.claude.com/products/code/webinars": "HTTP 404: https://academy.claude.com/products/code/webinars",
@@ -654,10 +655,10 @@
     "https://www.anthropic.com/transparency/voluntary-commitments": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/webinars": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   },
-  "missing_pages": 90,
+  "missing_pages": 92,
   "page_inventory_complete": false,
-  "pages_with_content_notes": 3675,
-  "retained_partial_pages": 499,
+  "pages_with_content_notes": 3678,
+  "retained_partial_pages": 500,
   "terminal_pages": 90,
   "terminal_statuses": {
     "blocked": 27,

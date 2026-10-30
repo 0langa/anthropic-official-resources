@@ -15,11 +15,11 @@
 
 Related articles
 
-- Product
+- Partnerships
 
-  Aug 5, 2025
+  Oct 27, 2026
 
-  [Federal government departments and agencies can now purchase Claude through the GSA schedule](https://www.anthropic.com/news/federal-government-departments-and-agencies-can-now-purchase-claude-through-the-gsa-schedule)
+  [Expanding our partnership with GSA to bring Claude to all levels of government](https://www.anthropic.com/news/expanding-partnership-gsa)
 
 [View more](https://www.anthropic.com/search?topic=government-capacity)
 

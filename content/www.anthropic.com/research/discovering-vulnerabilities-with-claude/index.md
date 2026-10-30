@@ -79,7 +79,7 @@ Throughout our process of using Claude for this security work, we identified a n
 
 The strategies range from pure coverage (is there a vulnerability in this function?) to goal-based (does this app expose anything that could compromise customer data?) to threat model-based (does anything in this app bypass its documented threat model?). We also used Claude to run automated variant analysis on every confirmed finding. All findings pass through a standardized verification and risk rating pipeline, so we can experiment freely with new scanners without lowering the quality bar.
 
-**Fixing the existing backlog only solves half the problem; the other half is cutting the rate at which new vulnerabilities enter the codebase.** For that, we recommend scanning at PR time. We built security guidance directly into our development process through a Claude Code plugin, which we’ve [released publicly](https://github.com/anthropics/claude-code/tree/main/plugins/security-guidance).
+**Fixing the existing backlog only solves half the problem; the other half is cutting the rate at which new vulnerabilities enter the codebase.** For that, we recommend scanning at PR time. We built security guidance directly into our development process through a Claude Code plugin, which we’ve [released publicly](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance).
 
 ## What this means for defenders
 

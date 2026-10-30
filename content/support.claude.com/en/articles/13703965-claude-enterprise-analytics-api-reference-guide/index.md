@@ -2,7 +2,7 @@
 
 
 
-API version 2026-10-21cURL
+API version 2026-10-21cURLCLITypeScriptPythonJavaGoRubyC#PHPcURL
 
 # Analytics
 
@@ -10,9 +10,103 @@ API version 2026-10-21cURL
 
 
 
-API version 2026-10-21cURL
+API version 2026-10-21cURLCLITypeScriptPythonJavaGoRubyC#PHPcURL
 
 ##### Models
+
+
+
+BetaAnalyticsActor = [BetaAnalyticsReportUserActor](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) or [BetaAnalyticsServiceAccountActor](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) or [BetaAnalyticsFederatedActor](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) or [BetaAnalyticsAPIActor](https://platform.claude.com/docs/en/api/http/beta/organization/analytics)
+
+One of the following:
+
+
+
+BetaAnalyticsReportUserActor object{ type: "user\_actor", deleted, email\_address, 2 more }
+
+type: "user\_actor"
+
+Actor type. Always `"user_actor"`.
+
+deleted: boolean
+
+True when the account has been deleted, or when the user is no longer a member of the organization or its associated organizations (for example, their membership was removed or they were deprovisioned via your identity provider). `email_address` stays populated for removed users and is null when the account has been deleted. `name` follows the rules described on that field. The `user_id` is still populated for reconciliation.
+
+email\_address: string or null
+
+The user's current email address, including for users who are no longer members of the organization. Null when the account has been deleted and for system-minted service accounts.
+
+name: string or null
+
+The user's current full name. Null when the user has not set one. `"Deleted User"` when the account has been deleted, or when the user is no longer a member and the organization hides removed users' names.
+
+user\_id: string
+
+Tagged user ID.
+
+
+
+BetaAnalyticsServiceAccountActor object{ type: "service\_account\_actor", service\_account\_id }
+
+type: "service\_account\_actor"
+
+service\_account\_id: string
+
+Tagged service account ID.
+
+
+
+BetaAnalyticsFederatedActor object{ type: "federated\_actor", provider, subject }
+
+type: "federated\_actor"
+
+
+
+provider: [BetaAnalyticsFederatedActorProvider](https://platform.claude.com/docs/en/api/http/beta/organization/analytics)
+
+The trusted provider that asserted the caller's identity.
+
+One of the following:
+
+subject: string or null
+
+The provider's identifier for the caller: on `aws`, the IAM principal ARN (one role is one actor across its sessions); on `gcp`, the caller's IAM principal identifier as Google Cloud reports it, such as `serviceAccount:<email>`, `user:<email>`, or a `principal://...` URI.
+
+
+
+BetaAnalyticsAPIActor object{ type: "api\_actor", api\_key\_id }
+
+type: "api\_actor"
+
+api\_key\_id: string
+
+Tagged API key ID.
+
+
+
+BetaAnalyticsActorType = "api\_actor" or "federated\_actor" or "service\_account\_actor" or "user\_actor"
+
+Kind of identity a row's usage is attributed to.
+
+One of the following:
+
+"api\_actor"
+
+"federated\_actor"
+
+"service\_account\_actor"
+
+"user\_actor"
+
+
+
+BetaAnalyticsAPIActor object{ type: "api\_actor", api\_key\_id }
+
+type: "api\_actor"
+
+api\_key\_id: string
+
+Tagged API key ID.
 
 
 
@@ -1149,6 +1243,176 @@ Number of messages sent in Claude Design sessions
 
 
 
+BetaAnalyticsFederatedActor object{ type: "federated\_actor", provider, subject }
+
+type: "federated\_actor"
+
+
+
+provider: [BetaAnalyticsFederatedActorProvider](https://platform.claude.com/docs/en/api/http/beta/organization/analytics)
+
+The trusted provider that asserted the caller's identity.
+
+One of the following:
+
+
+
+BetaAnalyticsFederatedActorAWSProvider object{ type: "aws", account\_id, signed\_principal }
+
+type: "aws"
+
+account\_id: string
+
+The AWS account the organization is bound to.
+
+signed\_principal: string
+
+The AWS-signed ARN of the IAM principal that made the requests.
+
+
+
+BetaAnalyticsFederatedActorAzureProvider object{ type: "azure", subscription\_id }
+
+type: "azure"
+
+subscription\_id: string
+
+The Azure subscription the organization is bound to.
+
+
+
+BetaAnalyticsFederatedActorGCPProvider object{ type: "gcp", project\_number }
+
+type: "gcp"
+
+project\_number: string
+
+The Google Cloud project the organization is bound to.
+
+
+
+BetaAnalyticsFederatedActorOIDCProvider object{ type: "oidc", issuer }
+
+type: "oidc"
+
+issuer: string or null
+
+The federation issuer's URL.
+
+subject: string or null
+
+The provider's identifier for the caller: on `aws`, the IAM principal ARN (one role is one actor across its sessions); on `gcp`, the caller's IAM principal identifier as Google Cloud reports it, such as `serviceAccount:<email>`, `user:<email>`, or a `principal://...` URI.
+
+
+
+BetaAnalyticsFederatedActorAWSProvider object{ type: "aws", account\_id, signed\_principal }
+
+type: "aws"
+
+account\_id: string
+
+The AWS account the organization is bound to.
+
+signed\_principal: string
+
+The AWS-signed ARN of the IAM principal that made the requests.
+
+
+
+BetaAnalyticsFederatedActorAzureProvider object{ type: "azure", subscription\_id }
+
+type: "azure"
+
+subscription\_id: string
+
+The Azure subscription the organization is bound to.
+
+
+
+BetaAnalyticsFederatedActorGCPProvider object{ type: "gcp", project\_number }
+
+type: "gcp"
+
+project\_number: string
+
+The Google Cloud project the organization is bound to.
+
+
+
+BetaAnalyticsFederatedActorOIDCProvider object{ type: "oidc", issuer }
+
+type: "oidc"
+
+issuer: string or null
+
+The federation issuer's URL.
+
+
+
+BetaAnalyticsFederatedActorProvider = [BetaAnalyticsFederatedActorAWSProvider](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) or [BetaAnalyticsFederatedActorAzureProvider](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) or [BetaAnalyticsFederatedActorGCPProvider](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) or [BetaAnalyticsFederatedActorOIDCProvider](https://platform.claude.com/docs/en/api/http/beta/organization/analytics)
+
+One of the following:
+
+
+
+BetaAnalyticsFederatedActorAWSProvider object{ type: "aws", account\_id, signed\_principal }
+
+type: "aws"
+
+account\_id: string
+
+The AWS account the organization is bound to.
+
+signed\_principal: string
+
+The AWS-signed ARN of the IAM principal that made the requests.
+
+
+
+BetaAnalyticsFederatedActorAzureProvider object{ type: "azure", subscription\_id }
+
+type: "azure"
+
+subscription\_id: string
+
+The Azure subscription the organization is bound to.
+
+
+
+BetaAnalyticsFederatedActorGCPProvider object{ type: "gcp", project\_number }
+
+type: "gcp"
+
+project\_number: string
+
+The Google Cloud project the organization is bound to.
+
+
+
+BetaAnalyticsFederatedActorOIDCProvider object{ type: "oidc", issuer }
+
+type: "oidc"
+
+issuer: string or null
+
+The federation issuer's URL.
+
+
+
+BetaAnalyticsGroupedCostType = "code\_execution" or "session\_usage" or "tokens" or "web\_search"
+
+One of the following:
+
+"code\_execution"
+
+"session\_usage"
+
+"tokens"
+
+"web\_search"
+
+
+
 BetaAnalyticsInferenceGeoFilter = "global" or "not\_available" or "us"
 
 One of the following:
@@ -1525,6 +1789,30 @@ Tagged user identifier (e.g. `user_...`). Present only when the request grouped 
 
 
 
+BetaAnalyticsReportUserActor object{ type: "user\_actor", deleted, email\_address, 2 more }
+
+type: "user\_actor"
+
+Actor type. Always `"user_actor"`.
+
+deleted: boolean
+
+True when the account has been deleted, or when the user is no longer a member of the organization or its associated organizations (for example, their membership was removed or they were deprovisioned via your identity provider). `email_address` stays populated for removed users and is null when the account has been deleted. `name` follows the rules described on that field. The `user_id` is still populated for reconciliation.
+
+email\_address: string or null
+
+The user's current email address, including for users who are no longer members of the organization. Null when the account has been deleted and for system-minted service accounts.
+
+name: string or null
+
+The user's current full name. Null when the user has not set one. `"Deleted User"` when the account has been deleted, or when the user is no longer a member and the organization hides removed users' names.
+
+user\_id: string
+
+Tagged user ID.
+
+
+
 BetaAnalyticsScienceMetrics object{ delegation\_count, distinct\_session\_count, message\_count, 2 more }
 
 Claude Science activity metrics for a single user on a given day.
@@ -1556,6 +1844,34 @@ BetaAnalyticsServerToolUse object{ web\_search\_requests }
 web\_search\_requests: number
 
 The number of web search requests made.
+
+
+
+BetaAnalyticsServiceAccountActor object{ type: "service\_account\_actor", service\_account\_id }
+
+type: "service\_account\_actor"
+
+service\_account\_id: string
+
+Tagged service account ID.
+
+
+
+BetaAnalyticsServiceTier = "batch" or "flex" or "flex\_discount" or 3 more
+
+One of the following:
+
+"batch"
+
+"flex"
+
+"flex\_discount"
+
+"priority"
+
+"priority\_on\_demand"
+
+"standard"
 
 
 
@@ -1941,6 +2257,28 @@ Number of distinct Office Agent sessions in which the skill was used. A skill co
 
 
 
+BetaAnalyticsSpeed = "fast" or "standard"
+
+One of the following:
+
+"fast"
+
+"standard"
+
+
+
+BetaAnalyticsTimeBucketWidth = "1d" or "1h" or "1m"
+
+One of the following:
+
+"1d"
+
+"1h"
+
+"1m"
+
+
+
 BetaAnalyticsTokenType = "cache\_creation.ephemeral\_1h\_input\_tokens" or "cache\_creation.ephemeral\_5m\_input\_tokens" or "cache\_read\_input\_tokens" or 2 more
 
 One of the following:
@@ -2160,6 +2498,58 @@ One of the following:
 uncached\_input\_tokens: number
 
 The number of uncached input tokens processed.
+
+
+
+BetaAnalyticsUsageCostInferenceGeo = "global" or "us"
+
+One of the following:
+
+"global"
+
+"us"
+
+
+
+BetaAnalyticsUsageCostProductFilter = "chat" or "chat\_cowork\_unified" or "claude\_code" or 9 more
+
+Publicly documented product surfaces. `claude_tag` is Claude Tag, the Claude product in Slack. `chat_cowork_unified` is Chat and Cowork unified, Cowork's features inside claude.ai chat: chat and Cowork usage by a member who has it turned on is reported under this value instead of `chat` or `cowork`. It is accepted as a filter only on deployments that offer Chat and Cowork unified.
+
+One of the following:
+
+"chat"
+
+"chat\_cowork\_unified"
+
+"claude\_code"
+
+"claude\_console"
+
+"claude\_design"
+
+"claude\_in\_chrome"
+
+"claude\_tag"
+
+"cowork"
+
+"managed\_agents\_api"
+
+"message\_batches\_api"
+
+"messages\_api"
+
+"office\_agent"
+
+
+
+BetaAnalyticsUsageCostSortOrder = "asc" or "desc"
+
+One of the following:
+
+"asc"
+
+"desc"
 
 
 
@@ -2735,13 +3125,29 @@ Get per-skill usage for a given day, with cursor-based pagination.
 
 Get artifact-creation activity for a given day, broken out by MIME type.
 
+#### Analytics[Usage](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/usage)
+
+##### [Get Token Usage By Dimension](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/usage/list)
+
+GET/v1/organizations/analytics/usage
+
+Get token usage across a date range, broken out by dimension.
+
+#### Analytics[Cost](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/cost)
+
+##### [Get Cost By Dimension](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/cost/list)
+
+GET/v1/organizations/analytics/cost
+
+Get cost in USD across a date range, broken out by dimension.
+
 #### Analytics[Usage Report](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/usage_report)
 
 ##### [Get Token Usage Over Time](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/usage_report/list)
 
 GET/v1/organizations/analytics/usage\_report
 
-Get token usage over time across a date range.
+[Legacy] Get token usage over time across a date range.
 
 #### Analytics[User Usage Report](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/user_usage_report)
 
@@ -2749,7 +3155,7 @@ Get token usage over time across a date range.
 
 GET/v1/organizations/analytics/user\_usage\_report
 
-Get per-user token usage across a date range.
+[Legacy] Get per-user token usage across a date range.
 
 #### Analytics[Cost Report](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/cost_report)
 
@@ -2757,7 +3163,7 @@ Get per-user token usage across a date range.
 
 GET/v1/organizations/analytics/cost\_report
 
-Get cost in USD over time across a date range.
+[Legacy] Get cost in USD over time across a date range.
 
 #### Analytics[User Cost Report](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/user_cost_report)
 
@@ -2765,4 +3171,4 @@ Get cost in USD over time across a date range.
 
 GET/v1/organizations/analytics/user\_cost\_report
 
-Get per-user cost in USD across a date range.
+[Legacy] Get per-user cost in USD across a date range.

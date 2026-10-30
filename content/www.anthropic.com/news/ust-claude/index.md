@@ -19,9 +19,9 @@ Related articles
 
 - Announcements
 
-  Oct 1, 2026
+  Oct 27, 2026
 
-  [Barclays scales Claude to upgrade operations and improve client experience](https://www.anthropic.com/news/barclays-scales-claude)
+  [Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development)
 
 [View more](https://www.anthropic.com/search?topic=partnerships)
 

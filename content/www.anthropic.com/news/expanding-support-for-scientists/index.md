@@ -17,9 +17,11 @@
 
 Related articles
 
-- Sep 23, 2026
+- Announcements
 
-  [Claude discovers a novel enzyme system with CRISPR-like repeats](https://www.anthropic.com/research/claude-discovers-novel-enzyme-system)
+  Oct 28, 2026
+
+  [AI for Science expands to foundations and research institutions](https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions)
 
 [View more](https://www.anthropic.com/search?topic=access)
 

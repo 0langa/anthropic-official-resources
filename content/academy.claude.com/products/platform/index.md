@@ -22,6 +22,9 @@ Build MCP servers and clients from scratch with the Python SDK, covering the thr
 
 [View all](https://academy.claude.com/all)
 
+- [Tool use with the Messages APICourse9 lessons · 1 quiz
+
+  ·Course·9 lessons · 1 quiz](https://academy.claude.com/courses/tool-use-with-the-messages-api)
 - [Model Context Protocol: Advanced topicsCourse11 lessons · 1 quiz
 
   ·Course·11 lessons · 1 quiz](https://academy.claude.com/courses/model-context-protocol-advanced-topics)
@@ -64,4 +67,4 @@ Build MCP servers and clients from scratch with the Python SDK, covering the thr
 
 ## Browse it all
 
-[Tutorials1 tutorial](https://academy.claude.com/all)[Courses6 courses](https://academy.claude.com/all)[API reference docs platform.claude.com (opens in new tab)](https://platform.claude.com/docs/en/api/overview)[Claude cookbooks platform.claude.com (opens in new tab)](https://platform.claude.com/cookbook)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Tutorials1 tutorial](https://academy.claude.com/all)[Courses7 courses](https://academy.claude.com/all)[API reference docs platform.claude.com (opens in new tab)](https://platform.claude.com/docs/en/api/overview)[Claude cookbooks platform.claude.com (opens in new tab)](https://platform.claude.com/cookbook)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)

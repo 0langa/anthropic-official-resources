@@ -1,27 +1,31 @@
 ![Anthropic x AWS](https://assets.claude.com/b8524184cc814e260750925c5a716e579992c66f.svg)
 
-Oct 29, 2026 — 8:00 – 9:00 AM PT
+Jan 19, 2027 — 9:00 – 10:00 AM PT
 
 # Scaling AI Across the Portfolio: Anthropic and AWS for Private Equity
 
-**Registration for this session is now closed.**
+Most private equity firms have AI pilots running somewhere in the portfolio. Few have a repeatable way to turn those pilots into portfolio-wide results, and portfolio companies are left to work out on their own how to buy, secure and scale frontier models.
 
-Private equity firms are putting AI to work across their portfolios at scale. The next step is to build on that momentum with a repeatable approach to broadening adoption and capturing value, while accounting for the individual needs of every business.
+Join Renee Knee, Director of Worldwide Private Equity at AWS, and Jeff Boes, who leads Anthropic's financial services and private equity business, for a practical look at how firms are scaling Claude on AWS across their portfolios, what it costs, and how to get started.
 
-Join Renee Knee, Director of Worldwide Private Equity at AWS, and Jeff Boes, Head of Private Equity at Anthropic, for a practical look at how firms are creatively scaling Claude on AWS across their portfolios, how to build for the future, and how to accelerate your own AI journey.
+Register for the webinar
+
+Fill out the form below to reserve your seat.
+
+I acknowledge the [Anthropic Privacy Policy](https://www.anthropic.com/legal/privacy) and I understand my personal data will be processed by AWS in accordance with [AWS’s Privacy Policy](https://aws.amazon.com/privacy/).
 
 ## Featured speakers
 
-- ![](https://assets.claude.com/ac2d98cf9612255b3de0daad890815c9403614bc.png?w=128&h=128&fit=crop)
-
-  Jeff Boes
-
-  GTM Lead, Financial Services and Private Equity, Anthropic
 - ![](https://assets.claude.com/1f43fa3e38cfb376cd1872a9fdfb189f1a326866.jpg?w=128&h=128&fit=crop)
 
   Renée Knee
 
   Director, Worldwide Private Equity, AWS
+- ![](https://assets.claude.com/ac2d98cf9612255b3de0daad890815c9403614bc.png?w=128&h=128&fit=crop)
+
+  Jeff Boes
+
+  GTM Lead, Financial Services and Private Equity, Anthropic
 
 ## What you’ll learn
 
