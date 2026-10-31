@@ -66,7 +66,7 @@ Include concrete examples showing correct usage. Specify what the skill cannot d
 
 Depending on what Claude surface you’re building on, here’s how to upload your skill for use:
 
-- [Claude.ai](http://claude.ai/) (Claude apps): Go to **Settings** and add your custom skill there. Custom skills require a Pro, Max, Team, or Enterprise plan with code execution enabled. Skills uploaded here are individual to each user—they are not shared organization-wide and cannot be centrally managed by admins.
+- [Claude.ai](http://claude.ai/) (Claude apps): Go to **Settings** and add your custom skill there. Custom skills require a Pro, Max, Ultra, Team, or Enterprise plan with code execution enabled. Skills uploaded here are individual to each user. They are not shared organization-wide and cannot be centrally managed by admins.
 - [Claude Code](https://www.claude.com/product/claude-code): Create a skills/ directory in your plugin or project root and add skill folders containing SKILL.md files. Claude discovers and uses them automatically when the plugin is installed. Example structure:
 
 Copy

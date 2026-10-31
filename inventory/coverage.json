@@ -1,34 +1,34 @@
 {
-  "actionable_missing_pages": 2,
+  "actionable_missing_pages": 3,
   "actionable_population_complete": false,
-  "archived_pages": 5499,
+  "archived_pages": 5527,
   "by_host": {
     "academy.claude.com": {
-      "archived_pages": 873,
+      "archived_pages": 874,
       "discovered_pages": 879
     },
     "claude.com": {
-      "archived_pages": 844,
-      "discovered_pages": 853
+      "archived_pages": 845,
+      "discovered_pages": 854
     },
     "code.claude.com": {
       "archived_pages": 254,
       "discovered_pages": 256
     },
     "platform.claude.com": {
-      "archived_pages": 2138,
-      "discovered_pages": 2168
+      "archived_pages": 2157,
+      "discovered_pages": 2187
     },
     "support.claude.com": {
-      "archived_pages": 742,
-      "discovered_pages": 775
+      "archived_pages": 749,
+      "discovered_pages": 785
     },
     "www.anthropic.com": {
       "archived_pages": 648,
       "discovered_pages": 660
     }
   },
-  "discovered_pages": 5591,
+  "discovered_pages": 5621,
   "exact_website_replica": false,
   "limitations": [
     "Discovery is the union of public indexes and hyperlinks, not proof that unlinked pages do not exist.",
@@ -74,13 +74,13 @@
     "https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/certificate-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "https://academy.claude.com/courses/introduction-to-claude-cowork/quiz-on-claude-cowork": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "https://academy.claude.com/courses/introduction-to-claude-tag/course-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
+    "https://academy.claude.com/courses/tool-use-with-the-messages-api/**call.input": "HTTP 404: https://academy.claude.com/courses/tool-use-with-the-messages-api/**call.input",
     "https://academy.claude.com/courses/tool-use-with-the-messages-api/course-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "https://academy.claude.com/dashboard": "Disallowed by robots.txt",
     "https://academy.claude.com/mcp": "Disallowed by robots.txt",
     "https://academy.claude.com/products/code/webinars": "HTTP 404: https://academy.claude.com/products/code/webinars",
     "https://academy.claude.com/start": "Disallowed by robots.txt",
-    "https://academy.claude.com/use-cases/oncall-handoff-brief": "Network did not become idle within 8 seconds; content may still be loading.",
-    "https://academy.claude.com/use-cases/outside-counsel-review": "Network did not become idle within 8 seconds; content may still be loading.",
+    "https://academy.claude.com/use-cases/uxr-synthesis": "Network did not become idle within 8 seconds; content may still be loading.",
     "https://claude.com/blog": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html",
     "https://claude.com/blog/": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html",
     "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code": "Request or redirect outside configured hosts",
@@ -655,14 +655,14 @@
     "https://www.anthropic.com/transparency/voluntary-commitments": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/webinars": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   },
-  "missing_pages": 92,
+  "missing_pages": 94,
   "page_inventory_complete": false,
-  "pages_with_content_notes": 3678,
-  "retained_partial_pages": 500,
-  "terminal_pages": 90,
+  "pages_with_content_notes": 3704,
+  "retained_partial_pages": 499,
+  "terminal_pages": 91,
   "terminal_statuses": {
     "blocked": 27,
-    "gone": 39,
+    "gone": 40,
     "out_of_scope": 24
   }
 }

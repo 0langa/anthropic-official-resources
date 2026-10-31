@@ -194,6 +194,9 @@
   "https://academy.claude.com/courses/teaching-ai-fluency/badge": [
     "No semantic main/article element; full body retained."
   ],
+  "https://academy.claude.com/courses/tool-use-with-the-messages-api/badge": [
+    "No semantic main/article element; full body retained."
+  ],
   "https://academy.claude.com/courses/tool-use-with-the-messages-api/course-quiz": [
     "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
   ],
@@ -3266,6 +3269,63 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/beta/organization/api_keys/update": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/claude_tag": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/targets": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/targets/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/targets/delete": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/targets/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/targets/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_channels": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_channels/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_channels/delete": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_channels/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_channels/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_channels/update": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_workspaces": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_workspaces/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_workspaces/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_workspaces/update": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/beta/organization/compliance_settings": [
@@ -8335,6 +8395,9 @@
   "https://support.claude.com/en/articles/11145838": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-max-or-ultra-plan": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan": [
     "Native source; upstream MDX components retained."
   ],
@@ -9487,6 +9550,9 @@
   "https://support.claude.com/en/articles/16607400-use-the-built-in-browser-in-claude-cowork": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/16607638-understanding-your-pro-max-or-ultra-plan-invoices": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/16607638-understanding-your-pro-or-max-plan-invoices": [
     "Native source; upstream MDX components retained."
   ],
@@ -9613,6 +9679,9 @@
   "https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-ultra-and-team-plans": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/17161993-why-claude-switched-models-in-your-conversation-with-sonnet-5-5": [
     "Native source; upstream MDX components retained."
   ],
@@ -9701,6 +9770,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/17666489-how-to-use-shop-pay-with-claude-duet": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/17740565-manage-plugins-skills-and-connectors-from-one-plugins-page": [
@@ -9821,6 +9893,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/8325617": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/8325617-cancel-your-pro-max-or-ultra-subscription": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/8325617-cancel-your-pro-or-max-subscription": [
@@ -10082,6 +10157,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/9876003-i-have-a-paid-claude-subscription-pro-max-team-or-enterprise-plans-why-is-claude-api-usage-billed-separately-from-my-paid-claude-plan": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/9876003-why-is-claude-api-usage-billed-separately-from-my-paid-claude-plan": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/9889408": [

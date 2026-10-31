@@ -1,3 +1,5 @@
+Getting started
+
 # Overview
 
 Copy pageCopy page
@@ -8,7 +10,7 @@ Copy pageCopy page
 
 Claude Code is an AI-powered coding assistant that helps you build features, fix bugs, and automate development tasks. It understands your entire codebase and can work across multiple files and tools to get things done.
 
-## [​](https://code.claude.com/docs) Get started
+## [​](https://code.claude.com/docs/en/overview) Get started
 
 Claude Code runs on several surfaces: the terminal, IDE extensions, a desktop app, and the web. Choose one from the tabs below to get started. Most surfaces require a [Claude subscription](https://claude.com/pricing) or [Anthropic Console](https://platform.claude.com/) account. The Terminal CLI, VS Code, and JetBrains also support [third-party providers](https://code.claude.com/docs/en/third-party-integrations).
 
@@ -91,7 +93,7 @@ Run Claude Code in your browser with no local setup. Kick off long-running tasks
 
 A plugin for IntelliJ IDEA, PyCharm, WebStorm, and other JetBrains IDEs with interactive diff viewing and selection context sharing.Install the [Claude Code plugin](https://plugins.jetbrains.com/plugin/27310-claude-code-beta-) from the JetBrains Marketplace and restart your IDE. The plugin requires the Claude Code CLI, installed separately; see the [JetBrains setup steps](https://code.claude.com/docs/en/jetbrains).[Get started with JetBrains →](https://code.claude.com/docs/en/jetbrains)
 
-## [​](https://code.claude.com/docs) What you can do
+## [​](https://code.claude.com/docs/en/overview) What you can do
 
 Here are some of the ways you can use Claude Code:
 
@@ -164,14 +166,15 @@ Sessions aren’t tied to a single surface. Move work between them as your conte
 - Run `/desktop` to continue your current terminal session in the [Desktop app](https://code.claude.com/docs/en/desktop), where you can review diffs visually. The `/desktop` handoff requires a claude.ai subscription. Available on macOS and x64 Windows.
 - Route tasks from team chat: mention `@Claude` in [Slack](https://code.claude.com/docs/en/slack) with a bug report and get a pull request back
 
-## [​](https://code.claude.com/docs) Use Claude Code everywhere
+## [​](https://code.claude.com/docs/en/overview) Use Claude Code everywhere
 
 Each [surface](https://code.claude.com/docs/en/glossary) connects to the same underlying Claude Code engine, so your repo’s CLAUDE.md files, settings, and MCP servers work across all of them.
 Beyond the [Terminal](https://code.claude.com/docs/en/quickstart), [VS Code](https://code.claude.com/docs/en/vs-code), [JetBrains](https://code.claude.com/docs/en/jetbrains), [Desktop](https://code.claude.com/docs/en/desktop), and [Web](https://code.claude.com/docs/en/claude-code-on-the-web) surfaces above, Claude Code integrates with CI/CD, chat, and browser workflows:
 
+
 <table class="m-0 min-w-full w-full max-w-none table [&amp;_th]:text-left [&amp;_td[data-numeric]]:tabular-nums [&amp;_td]:min-w-[150px]"><thead><tr><th>What I want to do</th><th>Best option</th></tr></thead><tbody><tr><td>Continue a local session from my phone or another device</td><td><a class="link" href="https://code.claude.com/docs/en/remote-control">Remote Control</a></td></tr><tr><td>Push events from Telegram, Discord, iMessage, or my own webhooks into a session</td><td><a class="link" href="https://code.claude.com/docs/en/channels">Channels</a></td></tr><tr><td>Start a task locally, continue on mobile</td><td><a class="link" href="https://code.claude.com/docs/en/claude-code-on-the-web"><code>claude --cloud</code></a>, then the <a class="link" href="https://code.claude.com/docs/en/mobile">Claude mobile app</a></td></tr><tr><td>Run Claude on a recurring schedule</td><td><a class="link" href="https://code.claude.com/docs/en/routines">Cloud scheduled tasks</a> or <a class="link" href="https://code.claude.com/docs/en/desktop-scheduled-tasks">Desktop scheduled tasks</a></td></tr><tr><td>Automate PR reviews and issue triage</td><td><a class="link" href="https://code.claude.com/docs/en/github-actions">GitHub Actions</a> or <a class="link" href="https://code.claude.com/docs/en/gitlab-ci-cd">GitLab CI/CD</a></td></tr><tr><td>Get automatic code review on every PR</td><td><a class="link" href="https://code.claude.com/docs/en/code-review">GitHub Code Review</a></td></tr><tr><td>Route bug reports from Slack to pull requests</td><td><a class="link" href="https://code.claude.com/docs/en/slack">Slack</a></td></tr><tr><td>Debug live web applications</td><td><a class="link" href="https://code.claude.com/docs/en/chrome">Chrome</a></td></tr><tr><td>Build custom agents for your own workflows</td><td><a class="link" href="https://code.claude.com/docs/en/agent-sdk/overview">Agent SDK</a></td></tr></tbody></table>
 
-## [​](https://code.claude.com/docs) Next steps
+## [​](https://code.claude.com/docs/en/overview) Next steps
 
 Once you’ve installed Claude Code, these guides help you go deeper.
 

@@ -10,7 +10,7 @@ Connect AI assistants to your tools without custom integrations using Model Cont
 - Reading time10 min
 - ShareCopy link
 
-AI models are only as good as the context provided to them. AI assistants like [Claude](https://claude.ai/redirect/claudedotcom.v1.6e4fca0c-9180-420c-8251-c8529b212a68) can answer questions and perform an impressive range of tasks, but if they can't access the data or tools they need, they're limited in what they can do for you. You typically solve this by copying and pasting context from one tab to another, whether it's editing a document in Google Drive, replying to a thread in Slack, or updating code in an IDE. This process is slow, manual, and risks leaving out important context.
+AI models are only as good as the context provided to them. AI assistants like [Claude](https://claude.ai/redirect/claudedotcom.v1.b2c6ba31-c9f3-4fcd-8086-c723ff2ab179) can answer questions and perform an impressive range of tasks, but if they can't access the data or tools they need, they're limited in what they can do for you. You typically solve this by copying and pasting context from one tab to another, whether it's editing a document in Google Drive, replying to a thread in Slack, or updating code in an IDE. This process is slow, manual, and risks leaving out important context.
 
 The **Model Context Protocol (MCP)** offers a solution that is open and widely available across all AI apps and assistants. In this article, you'll learn what MCP is, how it works and why it matters, and who it's for. You'll see examples of MCP in action and understand how you can start using or building with MCP today.
 
@@ -74,7 +74,7 @@ Enterprises can drive internal adoption of AI tools and applications more effect
 
 MCP provides end-users with seamless connectivity between their favorite AI assistants and work tools. It makes it easier to automate tasks and avoid copying and pasting across tabs. In short, MCP gives AI greater access and connectivity to your world.
 
-In [Claude](https://claude.ai/redirect/claudedotcom.v1.6e4fca0c-9180-420c-8251-c8529b212a68), you can instantly connect to MCP Servers, known as [**Connectors**](https://claude.com/partners/mcp). This provides you with a straightforward way to connect Claude to your favorite work apps.
+In [Claude](https://claude.ai/redirect/claudedotcom.v1.b2c6ba31-c9f3-4fcd-8086-c723ff2ab179), you can instantly connect to MCP Servers, known as [**Connectors**](https://claude.com/partners/mcp). This provides you with a straightforward way to connect Claude to your favorite work apps.
 
 ## Connectors (MCP) in action
 
@@ -120,7 +120,7 @@ Two paths exist based on your needs.
 
 ### Connectors in Claude
 
-[Connectors](https://claude.com/partners/mcp) are pre-built, giving Claude instant access to tools, databases, and applications, and providing you with a new set of capabilities. Open [Claude](https://claude.ai/redirect/claudedotcom.v1.6e4fca0c-9180-420c-8251-c8529b212a68/directory), browse available connectors, and click to add them.
+[Connectors](https://claude.com/partners/mcp) are pre-built, giving Claude instant access to tools, databases, and applications, and providing you with a new set of capabilities. Open [Claude](https://claude.ai/redirect/claudedotcom.v1.b2c6ba31-c9f3-4fcd-8086-c723ff2ab179/directory), browse available connectors, and click to add them.
 
 ### Build custom MCP connections
 

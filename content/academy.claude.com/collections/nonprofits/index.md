@@ -189,6 +189,16 @@ Learn how Claude Skills let you package proven work approaches so Claude automat
 
 ## Webinars
 
+- [Claude for nonprofits: an admin's guide to data handling and AI policy claude.com
+
+  ·claude.com
+
+   (opens in new tab)](https://claude.com/resources/webinars/claude-for-nonprofits-admin-guide-to-data-handling-ai-policy)
+- [Claude for nonprofits: a staff guide to making Claude useful on day one claude.com
+
+  ·claude.com
+
+   (opens in new tab)](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)
 - [Claude for nonprofits: moving your workflow beyond chat claude.com
 
   ·claude.com

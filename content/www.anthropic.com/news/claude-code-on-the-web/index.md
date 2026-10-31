@@ -6,7 +6,7 @@
 - Reading time4 min
 - ShareCopy link
 
-***Update:** Cloud sessions (previously known as Claude Code on the web) are now generally available for Pro, Max, and Team users, and for Enterprise users with premium seats or Chat + Claude Code seats. Read the [docs](https://code.claude.com/docs/en/claude-code-on-the-web) for the latest information, or our [field guide to cloud sessions](https://claude.dev/blog/claude-code-in-the-cloud/). September 23, 2026.*
+***Update:** Cloud sessions (previously known as Claude Code on the web) are now generally available for Pro, Max, Ultra, and Team users, and for Enterprise users with premium seats or Chat + Claude Code seats. Read the [docs](https://code.claude.com/docs/en/claude-code-on-the-web) for the latest information, or our [field guide to cloud sessions](https://claude.dev/blog/claude-code-in-the-cloud/). September 23, 2026.*
 
 Today, we're introducing Claude Code on the web, a new way to delegate coding tasks directly from your browser.
 
@@ -42,7 +42,7 @@ Read our [engineering blog](https://www.anthropic.com/engineering/claude-code-sa
 
 ## Getting started
 
-Claude Code on the web is available now in research preview for Pro and Max users. Visit [claude.com/code](http://claude.com/code) to connect your first repository and start delegating tasks.
+Claude Code on the web is available now in research preview for Pro and Max users. Visit [claude.com/code](https://claude.ai/code) to connect your first repository and start delegating tasks.
 
 Cloud-based sessions share rate limits with all other Claude Code usage. [Explore our documentation](https://docs.claude.com/en/docs/claude-code/claude-code-on-the-web) to learn more.
 

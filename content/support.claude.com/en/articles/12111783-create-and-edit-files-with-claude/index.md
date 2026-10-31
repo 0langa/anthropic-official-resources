@@ -2,7 +2,7 @@
 
 Claude can execute code to create and work with files directly in your conversations. Prompt Claude using natural language to generate Excel spreadsheets, PowerPoint presentations, Word documents, and PDF files that you can download and use immediately.
 
-Code execution and file creation is available to all Claude users (Free, Pro, Max, Team, and Enterprise) on the web, Claude Desktop, and Claude Mobile.
+Code execution and file creation is available to all Claude users (Free, Pro, Max, Ultra, Team, and Enterprise) on the web, Claude Desktop, and Claude Mobile.
 
 These capabilities make it easy to produce professional documents by simply chatting with Claude. You can create financial models in Excel with working formulas, perform advanced analyses on uploaded data, produce reports with charts and visualizations, and generate presentations from your documents—all without specialized software skills.
 
@@ -10,7 +10,7 @@ These capabilities make it easy to produce professional documents by simply chat
 
 ## Availability
 
-**Free, Pro, and Max plans:**
+**Free, Pro, Max, and Ultra plans:**
 
 - Code execution and file creation is enabled by default
 
@@ -44,11 +44,11 @@ These capabilities make it easy to produce professional documents by simply chat
 
 **Team plans:** This capability is enabled by default at the organization level with **Allow network egress** toggled on with access to package managers only. An organization owner can manually disable this for the organization in **[Organization settings > Capabilities](https://claude.ai/admin-settings/capabilities)** if needed.
 
-**Free, Pro, and Max plans:** Enable file creation from **Settings > Capabilities** by toggling **Code execution and file creation** (called **Create and edit files** in the updated Settings layout) on.
+**Free, Pro, Max, and Ultra plans:** Enable file creation from **Settings > Capabilities** by toggling **Code execution and file creation** (called **Create and edit files** in the updated Settings layout) on.
 
 To give Claude access to external data sources, toggle **Allow network egress** on:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2054774005/25bcfffba6c249cd128d6c3f6d52/CleanShot+2026-02-11+at+16_34_47%402x.png?expires=1793187900&amp;signature=74d8466a0683f9f19c112b00fa2e69266dd0cf4267b6e780407cc89c2aad74aa&amp;req=diAiEs55mYFfXPMW1HO4zYFJyg5EBJ7HPQVowIiib2mNCHk6JKuRu1%2B2q83g%0AFmGzlaPMN8oZcXj9yNg%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2054774005/25bcfffba6c249cd128d6c3f6d52/CleanShot+2026-02-11+at+16_34_47%402x.png?expires=1793534400&amp;signature=9f4f85ffccd965614b34a3eff00a46ac8b17f0a9880153f0d40f6c36b2fff019&amp;req=diAiEs55mYFfXPMW3nq%2BgWwhvHahTPUR7%2Bx%2BPMWT8DhGL9kJh0%2FSn7wRQdSw%0Agiz76F2vZ8YA9VduluE2p8bRCW0%3D%0A)
 
 ### Enabling on Claude Mobile
 
@@ -66,11 +66,11 @@ Team and Enterprise organization owners can control network access settings in *
 
 - **Allow network egress to package managers and specific domains:** Claude can access package managers plus additional domains you specify. Add domains individually to whitelist specific resources your organization needs:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945362/ad72504d5429960f369b8b91b43c/86f06c0e-6eaa-4574-a4cb-2c38b273613a?expires=1793187900&amp;signature=255a003f40d49c83d98196794cf2f0b2088ba647a0e9d5f86fca5ba8b5ad67e7&amp;req=dScvH8B6mIJZW%2FMW1HO4zXJcB25CnS5CpMW6Iph6YZde5Ks1Ae5ylyARfd0O%0AnZ3uyGhfl%2BMrXRK9LlY%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945362/ad72504d5429960f369b8b91b43c/86f06c0e-6eaa-4574-a4cb-2c38b273613a?expires=1793534400&amp;signature=92adf613abc1b2df98451d2cbdbc6c8469e66b8548cf356eae240b109407e465&amp;req=dScvH8B6mIJZW%2FMW3nq%2BgdQoTgnuV9BbDJrNBj0zeZTJcSiUTlxMw1srYN0W%0AMgqB%2B8NPzvVt8AipWXBexx7wWak%3D%0A)
 
 **All domains:** Claude has full internet access except for domains on Anthropic's legal blocklist. While this provides maximum flexibility for file creation and analysis tasks, it’s also the riskiest option. Please review the **[security considerations below](#h_0ee9d698a1)** before enabling “All domains”:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945361/e3188cb8edb9ca7c303615da6378/f1c99a7d-5956-48d5-9ec7-b7ae6c8c3d28?expires=1793187900&amp;signature=ff5993fc19dc9cba2f446b3a95b5abf91171f64166faa3a9ffb79e2e084f3543&amp;req=dScvH8B6mIJZWPMW1HO4zdnseReT5jirqgKIA6CM1tr7i9K994M1qaNHYzFQ%0AmKDzTrI1bPhXGU%2FqfEw%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1789945361/e3188cb8edb9ca7c303615da6378/f1c99a7d-5956-48d5-9ec7-b7ae6c8c3d28?expires=1793534400&amp;signature=52e0a1b2d56371b6e2cf335c0f7e2ca197fcb54c0e3d3f16654fcd9c56513bd3&amp;req=dScvH8B6mIJZWPMW3nq%2BgcDM0aePnJ5OkeOqj03ykB7cCnDgMEiIPWOTsTEa%0ACNnkpjDQctxtWJahNYE1nJiBQeA%3D%0A)
 
 ---
 
@@ -182,7 +182,7 @@ In line with our **[safe and trustworthy agents framework](https://www.anthropic
 
 - Given you the ability to review and audit actions taken by Claude within the sandbox environment.
 
-- Disabled public sharing of conversations that include any file artifacts from the code execution and file creation feature for free, Pro, and Max users.
+- Disabled public sharing of conversations that include any file artifacts from the code execution and file creation feature for Free, Pro, Max, and Ultra users.
 
 - Limited the duration of tasks that can be completed by Claude and the length of time you can use a single sandbox container to avoid loops of malicious activity.
 

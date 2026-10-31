@@ -1726,6 +1726,7 @@ https://claude.com/resources/webinars/ship-code-faster-with-claude-code-on-verte
 https://claude.com/resources/webinars/ship-code-faster-with-claude-code-on-vertex-ai-2
 https://claude.com/resources/webinars/ship-your-first-claude-managed-agent
 https://claude.com/resources/webinars/startup-builds-getting-started-with-loops
+https://claude.com/resources/webinars/the-state-of-cybersecurity
 https://claude.com/resources/webinars/tokenomics-on-aws-control-and-optimize-your-claude-spend
 https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins
 https://claude.com/resources/webinars/voice-and-intelligence-building-the-human-interface-for-customer-experience
@@ -2521,6 +2522,25 @@ https://platform.claude.com/docs/en/api/beta/organization/api_keys/list
 https://platform.claude.com/docs/en/api/beta/organization/api_keys/list?sdk_languages=curl
 https://platform.claude.com/docs/en/api/beta/organization/api_keys/retrieve
 https://platform.claude.com/docs/en/api/beta/organization/api_keys/update
+https://platform.claude.com/docs/en/api/beta/organization/claude_tag
+https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles
+https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/list
+https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/retrieve
+https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/targets
+https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/targets/create
+https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/targets/delete
+https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/targets/list
+https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/targets/retrieve
+https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_channels
+https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_channels/create
+https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_channels/delete
+https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_channels/list
+https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_channels/retrieve
+https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_channels/update
+https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_workspaces
+https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_workspaces/list
+https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_workspaces/retrieve
+https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_workspaces/update
 https://platform.claude.com/docs/en/api/beta/organization/compliance_settings
 https://platform.claude.com/docs/en/api/beta/organization/compliance_settings/retrieve
 https://platform.claude.com/docs/en/api/beta/organization/compliance_settings/update
@@ -4211,6 +4231,7 @@ https://support.claude.com/en/articles/10684638-report-block-and-remove-content-
 https://support.claude.com/en/articles/10769299
 https://support.claude.com/en/articles/10769299-how-to-use-claude-in-your-preferred-language
 https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop
+https://support.claude.com/en/articles/11049741
 https://support.claude.com/en/articles/11049741-what-is-the-max-plan
 https://support.claude.com/en/articles/11049752
 https://support.claude.com/en/articles/11049752-how-do-i-sign-up-for-the-max-plan
@@ -4231,6 +4252,7 @@ https://support.claude.com/en/articles/11139144-faqs-on-using-claude-for-educati
 https://support.claude.com/en/articles/11139144-use-claude-for-education-at-your-university
 https://support.claude.com/en/articles/11140763-claude-4-invite-sweepstakes-official-rules
 https://support.claude.com/en/articles/11145838
+https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-max-or-ultra-plan
 https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan
 https://support.claude.com/en/articles/11145838-using-claude-code-with-your-pro-or-max-plan
 https://support.claude.com/en/articles/11174108-about-the-development-partner-program
@@ -4653,6 +4675,7 @@ https://support.claude.com/en/articles/16559896-set-up-claude-for-teachers-for-y
 https://support.claude.com/en/articles/16563838-get-started-with-claude-science
 https://support.claude.com/en/articles/16607400
 https://support.claude.com/en/articles/16607400-use-the-built-in-browser-in-claude-cowork
+https://support.claude.com/en/articles/16607638-understanding-your-pro-max-or-ultra-plan-invoices
 https://support.claude.com/en/articles/16607638-understanding-your-pro-or-max-plan-invoices
 https://support.claude.com/en/articles/16607668-understanding-your-team-plan-invoices
 https://support.claude.com/en/articles/16608069-understanding-your-claude-api-invoices
@@ -4696,6 +4719,7 @@ https://support.claude.com/en/articles/17153992
 https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them
 https://support.claude.com/en/articles/17154008
 https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans
+https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-ultra-and-team-plans
 https://support.claude.com/en/articles/17161993-why-claude-switched-models-in-your-conversation-with-sonnet-5-5
 https://support.claude.com/en/articles/17202708
 https://support.claude.com/en/articles/17202708-cyber-verification-program-security-requirements
@@ -4726,6 +4750,8 @@ https://support.claude.com/en/articles/17666484
 https://support.claude.com/en/articles/17666484-how-to-use-link-by-stripe-with-claude-duet
 https://support.claude.com/en/articles/17666489
 https://support.claude.com/en/articles/17666489-how-to-use-shop-pay-with-claude-duet
+https://support.claude.com/en/articles/17728952
+https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan
 https://support.claude.com/en/articles/17740565-manage-plugins-skills-and-connectors-from-one-plugins-page
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
@@ -4767,6 +4793,7 @@ https://support.claude.com/en/articles/8287232-verifying-your-phone-number
 https://support.claude.com/en/articles/8325606-what-is-the-pro-plan
 https://support.claude.com/en/articles/8325609-how-do-i-sign-up-for-the-pro-plan
 https://support.claude.com/en/articles/8325617
+https://support.claude.com/en/articles/8325617-cancel-your-pro-max-or-ultra-subscription
 https://support.claude.com/en/articles/8325617-cancel-your-pro-or-max-subscription
 https://support.claude.com/en/articles/8325617-how-do-i-cancel-my-paid-claude-subscription
 https://support.claude.com/en/articles/8325618
@@ -4856,6 +4883,7 @@ https://support.claude.com/en/articles/9797557
 https://support.claude.com/en/articles/9797557-usage-limit-best-practices
 https://support.claude.com/en/articles/9876003-i-have-a-paid-claude-subscription-pro-max-team-or-enterprise-plans-why-do-i-have-to-pay-separately-to-use-the-claude-api-and-console
 https://support.claude.com/en/articles/9876003-i-have-a-paid-claude-subscription-pro-max-team-or-enterprise-plans-why-is-claude-api-usage-billed-separately-from-my-paid-claude-plan
+https://support.claude.com/en/articles/9876003-why-is-claude-api-usage-billed-separately-from-my-paid-claude-plan
 https://support.claude.com/en/articles/9889408
 https://support.claude.com/en/articles/9889408-add-or-update-your-paid-claude-account-s-tax-or-vat-id
 https://support.claude.com/en/articles/9889428-add-or-update-your-claude-console-organization-s-tax-or-vat-id
@@ -4903,6 +4931,7 @@ https://support.claude.com/en/collections/19395194-claude-for-government
 https://support.claude.com/en/collections/19407739-launch-guides
 https://support.claude.com/en/collections/19667525-claude-cowork
 https://support.claude.com/en/collections/19737224-api-and-distillation
+https://support.claude.com/en/collections/19797488-ultra-plan
 https://support.claude.com/en/collections/4078531-claude
 https://support.claude.com/en/collections/4078533-api-prompt-design
 https://support.claude.com/en/collections/4078534-privacy-and-legal
@@ -4910,6 +4939,7 @@ https://support.claude.com/en/collections/4078535-safeguards
 https://support.claude.com/en/collections/4078537-amazon-bedrock
 https://support.claude.com/en/collections/5370014-claude-api-and-console
 https://support.claude.com/en/collections/5953830-pro-and-max-plans
+https://support.claude.com/en/collections/5953830-pro-max-and-ultra-plans
 https://support.claude.com/en/collections/9387080-claude-mobile-apps
 https://support.claude.com/en/collections/9387370
 https://support.claude.com/en/collections/9387370-team-and-enterprise-plans

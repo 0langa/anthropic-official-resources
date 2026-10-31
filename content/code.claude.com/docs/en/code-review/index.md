@@ -29,23 +29,23 @@ Check that your organization qualifies before you set up Code Review:
 
 Pick the page for what you need to do:
 
-> **[Set up Code Review](/docs/en/code-review-setup)**
+> [card] [Set up Code Review](/docs/en/code-review-setup)
 >
 > Check the requirements, install the Claude GitHub App, and choose repositories, a review level, and when reviews run
 
-> **[Customize Code Review](/docs/en/code-review-customize)**
+> [card] [Customize Code Review](/docs/en/code-review-customize)
 >
 > Tune what gets flagged with `REVIEW.md` and `CLAUDE.md` files in your repository
 
-> **[Read and request reviews on a pull request](/docs/en/code-review-pull-requests)**
+> [card] [Read and request reviews on a pull request](/docs/en/code-review-pull-requests)
 >
 > Read the findings and their severities, and request another review with a comment
 
-> **[Troubleshoot Code Review](/docs/en/code-review-troubleshooting)**
+> [card] [Troubleshoot Code Review](/docs/en/code-review-troubleshooting)
 >
 > Fix a review that didn't start, failed, or was skipped for budget
 
-> **[Code Review costs and usage](/docs/en/code-review-costs)**
+> [card] [Code Review costs and usage](/docs/en/code-review-costs)
 >
 > See how reviews are billed, estimate spend, set the monthly spend limit, and track review activity
 

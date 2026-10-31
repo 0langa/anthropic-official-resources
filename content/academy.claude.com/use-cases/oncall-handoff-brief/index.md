@@ -284,7 +284,7 @@ Connectors: PagerDuty, Slack, GitHub
 
 ### Try a plugin[](https://academy.claude.com/use-cases/oncall-handoff-brief)
 
-The Engineering plugin ships with `/standup` and other incident-and-ops skills as a starting point, already structured to summarize a shift from the alert stream. If your admin manages plugins and it's not available yet, skip this; nothing below requires it.
+The Engineering plugin ships with `/standup` and other incident-and-ops skills as a starting point, already structured to summarize a shift from the alert stream. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -392,7 +392,7 @@ Write the on-call handoff for my shift. Cover pages and incident channels from t
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/oncall-handoff-brief)
 
-A plugin skill is a starting point — customize it with your own practices and expertise. A few minutes of conversation and it runs with your standards from then on.
+A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the /standup skill with my feedback.
 
@@ -432,13 +432,13 @@ Your customized `/standup` now carries your channel list, your status labels, an
 
 Share the skill
 
-In Cowork, open **Skills** → `/standup` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your instructions baked in, they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/standup`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your instructions baked in, they don't repeat Steps 1-3.
 
 ## What changes for the rotation[](https://academy.claude.com/use-cases/oncall-handoff-brief)
 
 The handoff is written and posted with each item's status, cause, and what to watch — the next engineer starts informed instead of searching channels for context.
 
-You did this for one rotation. The same approach covers incident postmortems, release summaries, and the weekly ops review — each one a skill in your team's plugin, run the same way every time.
+You did this for one rotation. The same approach covers incident postmortems, release summaries, and the weekly ops review — each one a skill your team runs the same way every time.
 
 [Next: Draft the incident postmortem](https://academy.claude.com/use-cases/incident-postmortem)
 

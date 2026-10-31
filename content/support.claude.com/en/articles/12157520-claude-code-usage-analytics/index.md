@@ -46,7 +46,7 @@ The **Usage** tab displays the following metrics for your organization. Data on 
 
 - **Top commands**: The Claude Code commands used most often across your organization.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1717579277/46c512f4b3ed05c359cecd78ed5c/e0ce2c19-39e2-411f-9a1f-cb1d46439a42?expires=1793187900&amp;signature=c25cf44e9791963b7335f08e7e0953aaa2219b450873de3407c53c8c6be60ef9&amp;req=dScmEcx5lINYXvMW1HO4zfiEPqVRh37HCX9h5MbdDjOCfnppnNreiCxcMBiE%0AVCT6aAiG8qksVNIlmLM%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1717579277/46c512f4b3ed05c359cecd78ed5c/e0ce2c19-39e2-411f-9a1f-cb1d46439a42?expires=1793445300&amp;signature=ff8a31ad4eb0427d3cb7b5381f8572b615bf34e3778326b4061d8aaf7651d0d8&amp;req=dScmEcx5lINYXvMW1HO4zfiEPqVUi3zNCX9h5MbdDjNLtVhY7U2KKYB274gu%0A%2BqSOCMxrCxnLj%2BU5vD4%3D%0A)
 
 ### User-level metrics
 
@@ -128,7 +128,7 @@ Track activity trends to understand when your team uses Claude Code most effecti
 
 ### I'm using an individual paid plan; how can I access usage analytics for Claude Code?
 
-Claude Code usage analytics are not available to individual Pro or Max plans at this time.
+Claude Code usage analytics are not available to individual Pro, Max, or Ultra plans at this time.
 
 ### I'm looking for a specific user but they're missing from the reports.
 

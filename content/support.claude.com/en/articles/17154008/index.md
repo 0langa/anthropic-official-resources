@@ -1,15 +1,15 @@
-# Monthly API credits for Max and Team plans
+# Monthly API credits for Max, Ultra, and Team plans
 
-Max and Team plans include monthly credits for the Claude Platform. Use them to build Claude into your own apps and agents with the Claude API. This article explains who's eligible, how to claim your credit, what it covers, and what happens when it runs out.
+Max, Ultra, and Team plans include monthly credits for the Claude Platform. Use them to build Claude into your own apps and agents with the Claude API. This article explains who's eligible, how to claim your credit, what it covers, and what happens when it runs out.
 
-Available on Max and Team plans, including discounted Team plans. Free, Pro, and Enterprise plans aren't eligible.
+Available on Max, Ultra, and Team plans, including discounted Team plans. Free, Pro, and Enterprise plans aren't eligible.
 
 ## Monthly credits by plan
 
 | **Plan**                                      | **Monthly credit**                                        |
 | --------------------------------------------- | --------------------------------------------------------- |
-| Max 5x                                        | $100                                                      |
-| Max 20x                                       | $200                                                      |
+| Max                                           | $100                                                      |
+| Ultra                                         | $200                                                      |
 | Team (Standard seats)                         | $20 per seat\*                                            |
 | Team (Premium seats)                          | $100 per seat\*                                           |
 | Discounted Team plans (Nonprofit, Scientists) | $20 USD per Standard seat and $100 USD per Premium seat\* |
@@ -18,7 +18,7 @@ Available on Max and Team plans, including discounted Team plans. Free, Pro, and
 
 ## Eligibility
 
-- **Active plan.** Your Max or Team subscription must be active and in good standing.
+- **Active plan.** Your Max, Ultra, or Team subscription must be active and in good standing.
 
 - **Seven days on the plan.** New subscribers can claim once they've been on an eligible plan for seven days.
 
@@ -32,13 +32,17 @@ To claim your credit, you link a Claude Console organization to your plan. Credi
 
 Before you begin, you need:
 
-- **On your Claude plan:** Max: be the subscriber. Team: be a Primary Owner or Owner
+- **On your Claude plan:**
+
+  - **Max or Ultra:** to be the subscriber
+
+  - **Team:** to be a Primary Owner or Owner
 
 - **In the Console organization:** the Owner, Admin, or Billing role. If you don't have a Console organization yet, you can create one during the claim flow or at **[platform.claude.com](https://platform.claude.com)**.
 
 To claim your credit:
 
-1. On claude.ai, go to **[Settings > Billing](https://claude.ai/settings/billing)** as a Max subscriber or **[Organization settings > Billing](https://claude.ai/admin-settings/billing)** as a Team Owner or Primary Owner.
+1. On claude.ai, go to **[Settings > Billing](https://claude.ai/settings/billing)** as a Max or Ultra subscriber, or **[Organization settings > Billing](https://claude.ai/admin-settings/billing)** as a Team Owner or Primary Owner.
 
 2. In the **API credits** section, select "Link organization."
 
@@ -98,9 +102,9 @@ The credits don’t apply to:
 
 - **Cancel, downgrade to an ineligible plan, or refund.** New credits stop. Credits you already have stay usable until they expire.
 
-- **Upgrade from Max 5x to Max 20x.** You receive prorated credits right away, then $200 each billing cycle after that.
+- **Upgrade from Max to Ultra.** You receive prorated credits right away, then $200 each billing cycle after that.
 
-- **Move from Max to Team.** Your Max link ends. A Team Owner or Primary Owner can claim the team's credits once the Team plan has been active for seven days.
+- **Move from Max or Ultra to Team.** Your Max or Ultra link ends. A Team Owner or Primary Owner can claim the team's credits once the Team plan has been active for seven days.
 
 ## For Team Owners and Primary Owners
 
@@ -120,7 +124,7 @@ The credits are for building your own apps and agents on the Claude Platform. Th
 
 ### Why don't I see the offer yet?
 
-We’re rolling out API credits over a few days so we might not have gotten to you yet. The offer appears after you've been on an eligible plan for seven days. If you're past seven days and still don't see it, check that you're on a Max or Team plan and that you have one of the required roles. If you think you should be eligible but don’t see the API credits, **[contact support](https://support.claude.com/en/articles/9015913-how-to-get-support)**.
+We’re rolling out API credits over a few days so we might not have gotten to you yet. The offer appears after you've been on an eligible plan for seven days. If you're past seven days and still don't see it, check that you're on a Max, Ultra, or Team plan and that you have one of the required roles. If you think you should be eligible but don’t see the API credits, **[contact support](https://support.claude.com/en/articles/9015913-how-to-get-support)**.
 
 ### Is this the same as the Agent SDK credits announced in June?
 
@@ -132,7 +136,7 @@ No. Credits go to a single Console organization.
 
 ### I'm on a Pro plan. Can I get this credit?
 
-No. The credits are available on Max and Team plans only.
+No. The credits are available on Max, Ultra, and Team plans only.
 
 ### Does this cover `claude -p` ?
 

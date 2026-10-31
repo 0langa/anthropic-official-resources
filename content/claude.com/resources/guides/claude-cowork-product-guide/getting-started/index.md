@@ -11,12 +11,12 @@ Getting Claude Cowork running is a one-time setup, but the first session is wher
 ## System requirements
 
 - **Claude desktop app.** Claude Cowork runs in the desktop app for macOS or Windows,
-- **Paid Claude subscription.** Claude Cowork is available on Pro, Max, Team, and Enterprise plans.
+- **Paid Claude subscription.** Claude Cowork is available on Pro, Max, Ultra, Team, and Enterprise plans.
 - **Active internet connection** throughout the session.
 
 ## How to install
 
-1. Install the [Claude desktop app (opens in new tab)](https://claude.ai/redirect/claudedotcom.v1.f16c896a-fabc-4575-b851-d603f766a8bb/download/).
+1. Install the [Claude desktop app (opens in new tab)](https://claude.ai/redirect/claudedotcom.v1.23bc5640-9817-452a-82a7-f1d1430a4f54/download/).
 2. Sign in. If you're on a Team or Enterprise plan, your admin may need to enable Claude Cowork for your org. See the Claude Cowork IT admin guide.
 3. Switch into Claude Cowork mode from the desktop app.
 

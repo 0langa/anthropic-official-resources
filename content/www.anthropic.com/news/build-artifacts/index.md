@@ -45,7 +45,7 @@ Music producer Rick Rubin captured this shift perfectly with “[The Way of Code
 
 Want to create a personalized storytelling app? A coding tutor that adjusts to different learning styles? A creative writing assistant? Just describe your idea to Claude.
 
-Access the new artifacts space from the sidebar in the Claude app—it’s currently available to Free, Pro, and Max users. Whether you want to browse for inspiration, customize existing creations, or build something entirely new, the tools are at your fingertips.
+Access the new artifacts space from the sidebar in the Claude app—it’s currently available to Free, Pro, Max, and Ultra users. Whether you want to browse for inspiration, customize existing creations, or build something entirely new, the tools are at your fingertips.
 
 You can also share artifacts for anyone to view your creations. To get the full experience, viewers can sign in to a Claude account with any plan.
 

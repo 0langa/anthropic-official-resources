@@ -10,7 +10,7 @@ ProductAll
 
 RoleAll
 
-315 resources
+316 resources
 
 [## AI capabilities and limitations
 
@@ -125,7 +125,7 @@ ProductAll
 
 RoleAll
 
-27 courses
+28 courses
 
 [## AI capabilities and limitations
 

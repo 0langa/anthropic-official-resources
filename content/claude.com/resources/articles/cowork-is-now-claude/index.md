@@ -8,7 +8,7 @@ You don’t have to choose where a task goes. Claude does more of the work.
 - Reading time4 min
 - ShareCopy link
 
-Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. It’s rolling out on Pro and Max plans over the next few weeks, with more plans to follow.
+Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. It’s rolling out on Pro, Max, and Ultra plans over the next few weeks, with more plans to follow.
 
 What Claude makes doesn’t need its own place either. [Claude Docs and Claude Slides](https://claude.com/resources/articles/dashboards-and-motion) are new today, and [Claude Design (opens in new tab)](https://claude.com/product/design) now works inside your conversations too. Ask for a document, and you and Claude write it together. Ask for a presentation, and Claude drafts the slides. You can edit directly, present straight from Claude, or download as PowerPoint or PDF. All three are in beta on paid plans, and Enterprise admins choose when to turn them on. If you use Claude Design on its own, it keeps working as before.
 
@@ -34,7 +34,7 @@ You can choose how Claude checks in with you. By default, Claude asks before tak
 
 If you mostly use chat, you don’t have to do anything different. When you want to hand over something bigger, try the next report or deck you’d normally build yourself. If you’ve been [working in Cowork](https://claude.com/resources/guides/claude-cowork-product-guide), everything is where you left it: your chats, projects, artifacts, connectors, and skills. When you open the app, pick up where you left off.
 
-This is rolling out to Pro and Max plans first, in the Claude app on web, desktop, and mobile over the coming weeks to existing and new users on these plans. There’s nothing to turn on. Team and Free plans will follow soon, and [Enterprise admins](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins) will hear from us at least 30 days before anything changes for their organizations.
+This is rolling out to Pro, Max, and Ultra plans first, in the Claude app on web, desktop, and mobile over the coming weeks to existing and new users on these plans. There’s nothing to turn on. Team and Free plans will follow soon, and [Enterprise admins](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins) will hear from us at least 30 days before anything changes for their organizations.
 
 Update, October 23: the unified experience is now [generally available for Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise).
 
@@ -44,23 +44,29 @@ The full list of capabilities is in the [Help Center](https://support.claude.com
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 27, 2026
+[ArticleOct 28, 2026
+
+### Smart reports, surveys, and pooled group budgets for Claude Enterprise
+
+In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
+
+Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)[ArticleOct 28, 2026
+
+### IDC brings Quanta into Claude and adopts Claude across the company
+
+IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
+
+Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)[ArticleOct 28, 2026
+
+### Introducing artifacts for legal work
+
+Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
+
+Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)[ArticleOct 27, 2026
 
 ### Claude for Financial Advisors
 
-Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)[ArticleOct 26, 2026
-
-### Expanding Claude for Nonprofits
-
-Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.](https://claude.com/resources/articles/expanding-claude-for-nonprofits)[ArticleOct 23, 2026
-
-### Claude Cowork and chat come together for Enterprise
-
-Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)[ArticleOct 23, 2026
-
-### Claude Duet Safety, Privacy, and Security
-
-Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)
+Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)
 
 ## Transform how your organization operates with Claude
 

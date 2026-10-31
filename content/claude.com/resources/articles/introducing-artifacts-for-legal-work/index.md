@@ -39,7 +39,7 @@ Artifacts enable collaboration inside and outside the organization. A legal team
 
 We partnered with legal tech companies and law firms to build artifacts for legal professionals. Each artifact is in the gallery for legal professionals to discover, test, and adapt to their work:
 
-- **AI Governance Benchmark built by [Goodwin (opens in new tab)](https://www.goodwinlaw.com/en)** benchmarks a company's approach to AI governance to surface potential gaps.
+- **AI Governance Benchmark built by [Goodwin (opens in new tab)](https://www.goodwinlaw.com/en/resource/ai-governance)** benchmarks a company's approach to AI governance to surface potential gaps.
 - **Harvey Intake built by [Harvey (opens in new tab)](https://www.harvey.ai/)** gives business users one place in Claude to send legal questions and requests, answering routine ones from Legal’s own guidance in Harvey and routing the rest to a lawyer, whose reply comes back in Claude.
 - **Obligations Checker built by [Foley & Lardner (opens in new tab)](https://www.foley.com/)** reviews agreements for the obligations of both parties and helps validate expectations pre-closing and track expectations post-closing.
 - **Subpoena Response Tool built by [PwC (opens in new tab)](https://www.pwc.com/)** turns your team's precedents, standard objections and templates into automated, audit-ready first drafts so lawyers can focus on the complex issues while responding faster.

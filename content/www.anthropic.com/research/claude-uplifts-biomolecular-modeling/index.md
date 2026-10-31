@@ -23,11 +23,11 @@
 
 Related articles
 
-- Frontier Red Team
+- Announcements
 
-  Oct 22, 2026
+  Oct 28, 2026
 
-  [LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/research/formal-verification)
+  [AI for Science expands to foundations and research institutions](https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions)
 
 [View more](https://www.anthropic.com/search?topic=life-sciences)
 

@@ -8,6 +8,12 @@ Unsubscribe at any time.
 
 Live and recorded sessions with Anthropic and customer teams — demos, deep dives, Q&A, and practical takeaways.
 
+[WebinarUpcoming | Nov 5, 2026
+
+### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
+
+A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)
+
 [WebinarOn demand
 
 ### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
@@ -15,12 +21,6 @@ Live and recorded sessions with Anthropic and customer teams — demos, deep div
 Your advisors want to use Claude for Financial Advisors. Before you turn on Cowork, you need to know how client data is handled.
 
 Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
-
-[WebinarOn demand
-
-### Inside the Cyber Verification Program: Tiers, Migration, and Best Practices
-
-Join the teams behind the program for a walkthrough of the Cyber Verification Program.](https://claude.com/resources/webinars/inside-the-cyber-verification-program)
 
 [WebinarUpcoming | Nov 17, 2026
 
@@ -44,19 +44,17 @@ Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofi
 
 See how to cut Claude costs in Microsoft Foundry, track who’s spending what, and prove the ROI.](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)
 
-[WebinarOn demand
+[WebinarUpcoming | Nov 5, 2026
 
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
+### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
 
-Your advisors want to use Claude for Financial Advisors. Before you turn on Cowork, you need to know how client data is handled.
+A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)
 
-Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
-
-Featured resource 1 of 5: Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
+Featured resource 1 of 5: The State of Cybersecurity: What Frontier AI Changes for Security Leaders
 
 Advanced filters
 
-Showing 23 of 116 resources
+Showing 24 of 117 resources
 
 ## Upcoming webinars
 
@@ -68,7 +66,11 @@ Register for the live sessions with Anthropic and partner teams — bring your q
 
 Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile.
 
-Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[WebinarUpcoming | Nov 10, 2026
+Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[WebinarUpcoming | Nov 5, 2026
+
+### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
+
+A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)[WebinarUpcoming | Nov 10, 2026
 
 ### Claude for Nonprofits: An Admin’s Guide to Data Handling and AI Policy
 

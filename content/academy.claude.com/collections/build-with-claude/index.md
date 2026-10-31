@@ -68,16 +68,14 @@ Claude Managed Agents is a suite of APIs for building production-ready agents. Y
 - [Model Context Protocol: Advanced topicsCourse11 lessons · 1 quiz
 
   ·Course·11 lessons · 1 quiz](https://academy.claude.com/courses/model-context-protocol-advanced-topics)
+- [Tool use with the Messages APICourse9 lessons · 1 quiz
+
+  ·Course·9 lessons · 1 quiz](https://academy.claude.com/courses/tool-use-with-the-messages-api)
 - [Building effective agents www.anthropic.com—
 
   ·www.anthropic.com
 
    (opens in new tab)](https://www.anthropic.com/engineering/building-effective-agents)
-- [Build a tool-using agent platform.claude.com—
-
-  ·platform.claude.com
-
-   (opens in new tab)](https://platform.claude.com/docs/en/agents-and-tools/tool-use/build-a-tool-using-agent)
 - [Claude Agent SDK overview code.claude.com—
 
   ·code.claude.com

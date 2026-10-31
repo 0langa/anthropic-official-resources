@@ -314,7 +314,7 @@ Your `/oc-spend-review` now carries your billing guidelines, your variance thres
 
 Share the skill
 
-In Cowork, open **Skills** → `/oc-spend-review` → **Share** and pick your teammates (or your whole workspace, if your admin allows). They get the skill with your guidelines and thresholds baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In your list of skills, open the **...** menu next to `/oc-spend-review`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your guidelines and thresholds baked in, so they don't repeat Steps 1-3.
 
 ## Going forward[](https://academy.claude.com/use-cases/outside-counsel-review)
 

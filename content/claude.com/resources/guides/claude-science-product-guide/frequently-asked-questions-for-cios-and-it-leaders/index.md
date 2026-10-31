@@ -34,7 +34,7 @@ Not at launch. HIPAA readiness is on the post-launch roadmap. Until then, Claude
 
 ### How is Claude Science priced, and how heavy is usage?
 
-Claude Science draws down from the usage limits of the user's existing Claude plan—Pro, Max, Team, or Enterprise—with no separate license and no free tier. It is token-intensive: scientists routinely run several long agentic analyses in parallel, and heavy users consume at a rate comparable to heavy Claude Code use, so organizations should plan usage limits accordingly and expect heavy individual users to need Max-tier limits. Users can monitor consumption from inside the application under Settings → Usage. A subsidized Team plan is available for academic and nonprofit research labs; contact your Anthropic account team or visit the life sciences solutions page for eligibility.
+Claude Science draws down from the usage limits of the user's existing Claude plan (Pro, Max, Ultra, Team, or Enterprise), with no separate license and no free tier. It is token-intensive: scientists routinely run several long agentic analyses in parallel, and heavy users consume at a rate comparable to heavy Claude Code use, so organizations should plan usage limits accordingly and expect heavy individual users to need Max- or Ultra-tier limits. Users can monitor consumption from inside the application under Settings → Usage. A subsidized Team plan is available for academic and nonprofit research labs; contact your Anthropic account team or visit the life sciences solutions page for eligibility.
 
 ### What biosecurity controls are in place?
 

@@ -6,6 +6,8 @@
 - Reading time5 min
 - ShareCopy link
 
+*Editor's note: Mentions of Max in this post from before October 30, 2026 include what are now the Max and Ultra plans.*
+
 ***Update:** Expanding to Pro and Max plans (Oct 23, 2025)*
 
 *‍**Memory is now rolling out to Pro and Max plan users***

@@ -20,52 +20,52 @@ A variable you set in your shell lasts for that terminal session, while a variab
 
 Set the variable before launching `claude`:
 
-**macOS, Linux, WSL**
+> [tab] macOS, Linux, WSL
+>
+> ```bash theme={null}
+> export API_TIMEOUT_MS="1200000"
+> claude
+> ```
+>
+> To set it for every session, add the `export` line to `~/.bashrc`, `~/.zshrc`, or your shell's profile file.
 
-```bash theme={null}
-export API_TIMEOUT_MS="1200000"
-claude
-```
+> [tab] Windows PowerShell
+>
+> ```powershell theme={null}
+> $env:API_TIMEOUT_MS = "1200000"
+> claude
+> ```
+>
+> To set it for every session, run `[Environment]::SetEnvironmentVariable("API_TIMEOUT_MS", "1200000", "User")` and open a new terminal.
 
-To set it for every session, add the `export` line to `~/.bashrc`, `~/.zshrc`, or your shell's profile file.
-
-**Windows PowerShell**
-
-```powershell theme={null}
-$env:API_TIMEOUT_MS = "1200000"
-claude
-```
-
-To set it for every session, run `[Environment]::SetEnvironmentVariable("API_TIMEOUT_MS", "1200000", "User")` and open a new terminal.
-
-**Windows CMD**
-
-```batch theme={null}
-set API_TIMEOUT_MS=1200000
-claude
-```
-
-To set it for every session, run `setx API_TIMEOUT_MS "1200000"` and open a new terminal.
+> [tab] Windows CMD
+>
+> ```batch theme={null}
+> set API_TIMEOUT_MS=1200000
+> claude
+> ```
+>
+> To set it for every session, run `setx API_TIMEOUT_MS "1200000"` and open a new terminal.
 
 The assignment line prints nothing on success. To confirm the variable is set, print it in the same shell:
 
-**macOS, Linux, WSL**
+> [tab] macOS, Linux, WSL
+>
+> ```bash theme={null}
+> echo $API_TIMEOUT_MS
+> ```
 
-```bash theme={null}
-echo $API_TIMEOUT_MS
-```
+> [tab] Windows PowerShell
+>
+> ```powershell theme={null}
+> echo $env:API_TIMEOUT_MS
+> ```
 
-**Windows PowerShell**
-
-```powershell theme={null}
-echo $env:API_TIMEOUT_MS
-```
-
-**Windows CMD**
-
-```batch theme={null}
-echo %API_TIMEOUT_MS%
-```
+> [tab] Windows CMD
+>
+> ```batch theme={null}
+> echo %API_TIMEOUT_MS%
+> ```
 
 ### Set variables in settings files
 
@@ -127,7 +127,7 @@ Numeric variables such as timeouts, token budgets, and retry counts accept scien
 
 | Variable | Purpose |
 | :- | :- |
-| `ANTHROPIC_API_KEY` | API key sent as `X-Api-Key` header. When set, this key is used instead of your Claude Pro, Max, Team, or Enterprise subscription even if you are logged in. In non-interactive mode (`-p`), the key is always used when present. In interactive mode, you are prompted to approve the key once before it overrides your subscription. To use your subscription instead, run `unset ANTHROPIC_API_KEY` |
+| `ANTHROPIC_API_KEY` | API key sent as `X-Api-Key` header. When set, this key is used instead of your Claude Pro, Max, Ultra, Team, or Enterprise subscription even if you are logged in. In non-interactive mode (`-p`), the key is always used when present. In interactive mode, you are prompted to approve the key once before it overrides your subscription. To use your subscription instead, run `unset ANTHROPIC_API_KEY` |
 | `ANTHROPIC_AUTH_TOKEN` | Custom value for the `Authorization` header (the value you set here will be prefixed with `Bearer `) |
 | `ANTHROPIC_AWS_API_KEY` | Workspace API key for [Claude Platform on AWS](/docs/en/claude-platform-on-aws), generated in the AWS Console. Sent as `x-api-key` and takes precedence over AWS SigV4 |
 | `ANTHROPIC_AWS_BASE_URL` | Override the [Claude Platform on AWS](/docs/en/claude-platform-on-aws) endpoint URL. Use for custom regions or when routing through an [LLM gateway](/docs/en/llm-gateway). Defaults to `https://aws-external-anthropic.{region}.api.aws`. Claude Code resolves the region with the [same precedence as on Amazon Bedrock](/docs/en/amazon-bedrock#3-configure-claude-code) |
@@ -572,7 +572,7 @@ With fetching off, you can't:
 * [Message sessions beyond this machine](/docs/en/cross-session-messaging#message-sessions-on-other-machines) when [Remote Control](/docs/en/remote-control#requirements) is unavailable. Messaging between sessions on this machine works with fetching off
 * Run [`claude import` or the `/import` command](/docs/en/cli-reference#cli-commands)
 * Run [`/skill-doctor`](/docs/en/skills#find-unused-skills) or open its report in the `/plugin` **Stats** tab
-* Run [`/restart`](/docs/en/commands) on Pro and Max plans
+* Run [`/restart`](/docs/en/commands) on Pro, Max, and Ultra plans
 * Sync the [skills](/docs/en/skills#where-synced-skills-load) and [plugins](/docs/en/plugins/loading#synced-plugins) enabled for your claude.ai account into your terminal sessions
 * Turn on the [You should know mod](/docs/en/interactive-mode#you-should-know-suggestions)
 * Use [the advisor tool](/docs/en/advisor#requirements)

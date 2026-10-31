@@ -8,6 +8,8 @@ Claude can now conduct in-depth Research by searching across the web and your Go
 - Reading time6 min
 - ShareCopy link
 
+*Editor's note: Mentions of Max in this post from before October 30, 2026 include what are now the Max and Ultra plans.*
+
 Earlier this year, we introduced [our vision](https://www.anthropic.com/news/claude-3-7-sonnet) for Claude as your collaborative partner that delivers hours of work in minutes. In line with this vision, we’re continuing to expand the context that Claude has access to, as well as the kinds of outputs you can generate with Claude to support your personal and professional work.
 
 Today, we’re introducing two new capabilities that make Claude a more informed and capable collaborator — Research and a Google Workspace integration that connects your email, calendar, and documents to Claude. With Research, Claude can search across both your internal work context and the web to help you make decisions and take action faster than before.

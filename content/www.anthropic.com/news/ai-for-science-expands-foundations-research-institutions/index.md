@@ -10,6 +10,23 @@
 - Category
 
   [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Discovery](https://www.anthropic.com/search?topic=discovery)
+  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+  - [Access](https://www.anthropic.com/search?topic=access)
+  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)See more...
+
+Related articles
+
+- Announcements
+
+  Aug 27, 2026
+
+  [Expanding our support for scientists](https://www.anthropic.com/news/expanding-support-for-scientists)
+
+[View more](https://www.anthropic.com/search?topic=discovery)
 
 We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our [AI for Science program](https://www.anthropic.com/news/ai-for-science-program), which gives free Claude credits to researchers working on high-impact scientific projects.
 

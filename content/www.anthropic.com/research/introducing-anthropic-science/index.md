@@ -21,11 +21,11 @@
 
 Related articles
 
-- Science
+- Announcements
 
-  Oct 20, 2026
+  Oct 28, 2026
 
-  [How Claude designed protein binders against scorpion neurotoxins](https://www.anthropic.com/research/claude-scorpion-toxin-binder-design)
+  [AI for Science expands to foundations and research institutions](https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions)
 
 [View more](https://www.anthropic.com/search?topic=discovery)
 

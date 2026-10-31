@@ -2,7 +2,7 @@
 
 Quick entry is a redesigned experience for Claude Desktop on Mac that lets you access Claude instantly from anywhere on your computer. With quick entry, you can start chats, capture screenshots, share application windows, and use voice dictation to interact with Claude without navigating away from your current task.
 
-Quick entry is available to all Claude users (free, Pro, Max, Team, and Enterprise plans) using Claude Desktop on macOS.
+Quick entry is available to all Claude users (Free, Pro, Max, Ultra, Team, and Enterprise plans) using Claude Desktop on macOS.
 
 ## Key features
 
@@ -40,7 +40,7 @@ When you first open the updated version of Claude Desktop, you'll see a prompt t
 
 Once enabled, double-tapping Option will open a text box where you can type your message and start a new chat. You can also click "New chat" to see your five most recent conversations.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893088365/2ca4b782dda90abea1fe5f4150af/CleanShot+2025-12-18+at+13_14_30%402x.png?expires=1793188800&amp;signature=a35ebc2f47c50d1d14c91adea6e27fd532d33161b4faf5cc394adb298ab30b54&amp;req=dSguFcl2lYJZXPMW1HO4zWggDt1QrpSSRC8c%2FcM5c2L0wJUyfJ7wvsJ6xpmD%0AsAqecXPr%2Fn7dZVr6p1M%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893088365/2ca4b782dda90abea1fe5f4150af/CleanShot+2025-12-18+at+13_14_30%402x.png?expires=1793534400&amp;signature=c63c7882d29a32439f001564655512d615774a0e739b7c74d7c745ef592ebc0e&amp;req=dSguFcl2lYJZXPMW3nq%2BgSB7eY9Fv%2BZJifnZdG996eOgzxObEZAlE%2BNDsd2m%0AN5G1TDojs7oBoTzzPEI3Rwm9hY0%3D%0A)
 
 ### Enable the voice shortcut (optional)
 

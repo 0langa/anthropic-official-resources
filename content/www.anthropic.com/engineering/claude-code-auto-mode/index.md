@@ -18,11 +18,11 @@
 
 Related articles
 
-- Engineering
+- Alignment
 
-  May 25, 2026
+  Oct 27, 2026
 
-  [How we contain Claude across products](https://www.anthropic.com/research/how-we-contain-claude)
+  [How AI agents shape experts’ judgment calls](https://www.anthropic.com/research/agents-judgment-calls)
 
 [View more](https://www.anthropic.com/search?topic=claude-code)
 

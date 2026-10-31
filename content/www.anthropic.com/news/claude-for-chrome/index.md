@@ -10,6 +10,8 @@ We're piloting Claude in Chrome to test browser-based AI capabilities while addr
 - Reading time9 min
 - ShareCopy link
 
+*Editor's note: Mentions of Max in this post from before October 30, 2026 include what are now the Max and Ultra plans.*
+
 ***Update: Now available to Pro, Team, and Enterprise plans** (Dec 18, 2025)*
 
 After months of real-world testing, we're ready to expand to all paid plans. We've also shipped our most requested feature: an integration for **Claude Code**. Build in your terminal, verify in your browser, and debug with Claude reading console errors and DOM state directly.
