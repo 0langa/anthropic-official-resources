@@ -8,6 +8,8 @@ Your work goes everywhere with you, and keeps going without you.
 - Reading time4 min
 - ShareCopy link
 
+*Editor's note: Mentions of Max in this post from before October 30, 2026 include what are now the Max and Ultra plans.*
+
 Claude Cowork is rolling out to mobile and web so your sessions and files go where you go, on any device. Beta access is rolling out over the next several weeks starting with Max users, with more plans to follow.
 
 Embedded media: https://www.youtube-nocookie.com/embed/XNbc2HhL7J4?enablejsapi=1&rel=0&playsinline=1&modestbranding=1

@@ -1,6 +1,6 @@
 # Move your personal Claude account to a Team or Enterprise organization
 
-If you're using Claude with a personal account (Free, Pro, or Max) tied to your work email, you may be able to move that account into your organization's Team or Enterprise workspace. There are two paths: you can start a migration yourself (Team and Enterprise) or your admin can claim accounts on your domain (Enterprise only).
+If you're using Claude with a personal account (Free, Pro, Max, or Ultra) tied to your work email, you may be able to move that account into your organization's Team or Enterprise workspace. There are two paths: you can start a migration yourself (Team and Enterprise) or your admin can claim accounts on your domain (Enterprise only).
 
 **Note:** Enterprise organizations that have turned on HIPAA readiness or customer-managed encryption keys (CMEK) can't receive data from a personal account. If your organization uses either, you won't be offered the option to bring your data with you, and a domain claim won't offer to merge your account. You can export your data first if you want a copy. Learn more about **[HIPAA-ready Enterprise plans](https://support.claude.com/en/articles/13296973)** and **[customer-managed encryption keys](https://support.claude.com/en/articles/15505325)**.
 
@@ -74,7 +74,7 @@ If you have a personal Claude account on the same email address as your organiza
 
 - **Use your organization account only:** You'll see two migration options after selecting this.
 
-  - **Bring your data with you:** Your personal data moves into the organization's workspace, as described above in **[What moves when you migrate](#h_4e63ef6e87)**. Your personal account closes, and active Pro or Max subscriptions are canceled and refunded depending on how you purchased the plan.
+  - **Bring your data with you:** Your personal data moves into the organization's workspace, as described above in **[What moves when you migrate](https://support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization#h_4e63ef6e87)**. Your personal account closes, and active Pro, Max, or Ultra subscriptions are canceled and refunded depending on how you purchased the plan.
 
   - **Delete your data:** Your personal account closes (with a prorated refund if you had a paid subscription), but no content moves into the organization. You start with a clean account. You can choose to download your account data before deleting it.
 
@@ -82,21 +82,21 @@ If your organization has turned on HIPAA readiness or CMEK, **Bring your data wi
 
 ### How do refunds work for migrated accounts?
 
-What happens to your Pro or Max plan after migrating depends on where you bought it:
+What happens to your Pro, Max, or Ultra plan after migrating depends on where you bought it:
 
-- **Directly (not through a mobile app):** Your Pro or Max subscription is canceled automatically as part of the move, and you receive a prorated refund for unused time. The refund is issued about 24 hours after your plan is canceled, and depending on your bank, it can take several more business days to appear on your statement.
+- **Directly (not through a mobile app):** Your Pro, Max, or Ultra subscription is canceled automatically as part of the move, and you receive a prorated refund for unused time. The refund is issued about 24 hours after your plan is canceled, and depending on your bank, it can take several more business days to appear on your statement.
 
-- **Google Play Store:** Your Pro or Max subscription is canceled automatically as part of the move, and you receive a prorated refund for unused time. Refunds for Google Play purchases can take a few days to appear.
+- **Google Play Store:** Your Pro, Max, or Ultra subscription is canceled automatically as part of the move, and you receive a prorated refund for unused time. Refunds for Google Play purchases can take a few days to appear.
 
-- **Apple App Store:** Your Pro or Max subscription isn't canceled. Apple doesn't allow third-party cancellation, so you'll need to cancel it yourself through your Apple ID settings. If you don't, Apple keeps charging you after your personal account closes.
+- **Apple App Store:** Your Pro, Max, or Ultra subscription isn't canceled. Apple doesn't allow third-party cancellation, so you'll need to cancel it yourself through your Apple ID settings. If you don't, Apple keeps charging you after your personal account closes.
 
-If you’ve claimed monthly API credits on your Max plan:
+If you’ve claimed monthly API credits on your Max or Ultra plan:
 
-- **Moving to a Team organization:** Your Max link ends. A Team Owner or Primary Owner can claim the team’s credits once the Team plan has been active for seven days.
+- **Moving to a Team organization:** Your Max or Ultra link ends. A Team Owner or Primary Owner can claim the team’s credits once the Team plan has been active for seven days.
 
 - **Moving to an Enterprise organization:** New credits stop. Credits you already have stay usable until they expire. Enterprise plans aren’t eligible for monthly API credits.
 
-For cancellation instructions, see **[Cancel your Pro or Max subscription](https://support.claude.com/en/articles/8325617)**.
+For cancellation instructions, see **[Cancel your Pro, Max, or Ultra subscription](https://support.claude.com/en/articles/8325617)**.
 
 ### How to start a migration
 
@@ -114,7 +114,7 @@ Owning the Team organization doesn't change where you start the migration. If yo
 
 ### Apple App Store subscribers
 
-If you subscribed to the Pro or Max plan through the Apple App Store, **Keep both accounts** is your only option. Apple doesn't allow third-party cancellation of App Store subscriptions, so we can't auto-cancel your iOS plan as part of the migration. If you'd rather move your work into the Team, **[cancel your iOS subscription](https://support.claude.com/en/articles/8325617-cancel-your-pro-or-max-subscription#h_54384c9962)** through your Apple ID settings first, then start the migration from the reminder banner or **[Settings > Account](https://claude.ai/settings/account)**.
+If you subscribed to the Pro, Max, or Ultra plan through the Apple App Store, **Keep both accounts** is your only option. Apple doesn't allow third-party cancellation of App Store subscriptions, so we can't auto-cancel your iOS plan as part of the migration. If you'd rather move your work into the Team, **[cancel your iOS subscription](https://support.claude.com/en/articles/8325617-cancel-your-pro-or-max-subscription#h_54384c9962)** through your Apple ID settings first, then start the migration from the reminder banner or **[Settings > Account](https://claude.ai/settings/account)**.
 
 ---
 
@@ -132,7 +132,7 @@ For the full walkthrough of your options, deadlines, and what happens to your su
 
 You may have both a personal account and an organization account tied to the same email address. You can switch between them by clicking your initials or name in the lower left corner of the screen.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1793276100&amp;signature=85f4509ebe8cf37734e5f720d755c9bd70f4959ce6abcbaa5b83e001e607cede&amp;req=diMmFMh3noJbXvMW1HO4zXhPnNM0zxlgufhmlOXMdYYwp1ePVDY%2Fi7fRP1GK%0AkYKfCGU8KrImLwmpBqU%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2312193347/712f763fc290b2488c103849f20c/0c135a6f-3442-4ee1-9ab7-98673f03ef6e?expires=1793535300&amp;signature=37063ea2f43b4bf55e86721c0b14d01de86c82183a373caf1542f0920cf4087a&amp;req=diMmFMh3noJbXvMW1HO4zXhPnNMzyxpiufhmlOXMdYYwNhrAADYytWzXKCXX%0AZK8nIg6t8dMP5UkMwRM%3D%0A)
 
 A blue checkmark shows which account you're currently using. Click the other account to switch to it and access its separate conversations and projects.
 

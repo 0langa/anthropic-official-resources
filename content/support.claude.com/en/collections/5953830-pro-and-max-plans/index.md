@@ -1,8 +1,8 @@
-# Pro and Max plans
+# Pro, Max, and Ultra plans
 
 Compare paid plans, manage your subscription, and understand usage limits.
 
-15 articles
+16 articles
 
 ## Collections
 
@@ -11,3 +11,5 @@ Compare paid plans, manage your subscription, and understand usage limits.
 [Pro plan3 articles](https://support.claude.com/en/collections/9811198-pro-plan)
 
 [Max plan2 articles](https://support.claude.com/en/collections/12394590-max-plan)
+
+[Ultra plan1 article](https://support.claude.com/en/collections/19797488-ultra-plan)

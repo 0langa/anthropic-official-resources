@@ -2,7 +2,7 @@
 
 Claude for Google Workspace adds a Claude sidebar to Google Docs, Google Sheets, and Google Slides. Claude reads the file you have open and edits it directly, so you can draft, analyze, restructure, and restyle without copying content back and forth.
 
-Claude for Google Workspace is available in beta for Pro, Max, Team, and Enterprise plans. You also need a Google account that is allowed to install Google Workspace Marketplace apps.
+Claude for Google Workspace is available in beta for Pro, Max, Ultra, Team, and Enterprise plans. You also need a Google account that is allowed to install Google Workspace Marketplace apps.
 
 With Claude for Google Workspace, you can:
 
@@ -28,17 +28,17 @@ If your organization already allows Marketplace apps, this takes about two minut
 
 2. Open a Google Docs, Sheets, or Slides file and go to Extensions > Claude > “Open Claude":
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2707281468/abc0497defca04936c9a4b97d147/8b17d05f-3fb1-4e49-8d1f-65364ac3f496?expires=1793359800&amp;signature=8c6fec425750b33ae33bdce7a319bfe0c0f34f478a4c4cdc9b50bb667983e819&amp;req=dicnEct2nIVZUfMW1HO4zRwmJT9vUe1HaAKM49NdBLOgHbA5lleY7zN0QoO6%0AwaZG%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2707281468/abc0497defca04936c9a4b97d147/8b17d05f-3fb1-4e49-8d1f-65364ac3f496?expires=1793535300&amp;signature=82dd4f403da8fdd667290624d3b1d89c74b1c6fff54e21dc2b48bcb0cd8c87dd&amp;req=dicnEct2nIVZUfMW1HO4zRwmJT9pV%2BFMaAKM49NdBLMXo9dubAs4RQEChWki%0ACDs%2B%0A)
 
 3. The first time, Google asks you to allow two permissions. Review them and click "Allow":
 
-  ![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2707282342/f583a396098ff16e3cbd156d4a2a/112c6459-79c6-4fbb-9bc0-748fda6f592f?expires=1793359800&amp;signature=10217b87f88e0e404cf1a09f1016b27c0e218b5ef074033d0e863f9a0d3e9e03&amp;req=dicnEct2n4JbW%2FMW1HO4zeKY3p8FhQf4eBfHlrCfDWfOwjmhi2cW65H6nXQw%0Aqpd0%0A)
+  ![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2707282342/f583a396098ff16e3cbd156d4a2a/112c6459-79c6-4fbb-9bc0-748fda6f592f?expires=1793535300&amp;signature=348d0cbb3f639cde695932482b222d141eeb6ad33494825acc9006dba5012ec1&amp;req=dicnEct2n4JbW%2FMW1HO4zeKY3p8DgwvzeBfHlrCfDWcwrHTt7eaB89RLROU4%0A57am%0A)
 
 4. Sign in with your Claude account in the sidebar, and optionally enable your connectors.
 
 5. Then ask Claude something about the file. Try "Summarize this document in five bullets" or "What does column F calculate?"
 
-If the install button is greyed out or you see "This application is not allowed by your administrator,” your Google Workspace admin needs to allow or install Claude first. See **[Install for your organization](#h_2118c53c4b)** below.
+If the install button is greyed out or you see "This application is not allowed by your administrator,” your Google Workspace admin needs to allow or install Claude first. See **[Install for your organization](https://support.claude.com/en/articles/16951679-use-claude-in-google-docs-sheets-and-slides#h_2118c53c4b)** below.
 
 ## Install Claude for Google Workspace
 
@@ -224,7 +224,7 @@ Claude requests two Google permissions, the minimum needed to show a sidebar and
 
 ### How your data is handled
 
-- Content from the open file, your messages, and any files you attach are sent to Claude to generate a response. For Team and Enterprise plans, this is governed by your organization's Commercial Terms and Data Processing Addendum. For Pro and Max it is governed by the Consumer Terms and Privacy Policy.
+- Content from the open file, your messages, and any files you attach are sent to Claude to generate a response. For Team and Enterprise plans, this is governed by your organization's Commercial Terms and Data Processing Addendum. For Pro, Max, and Ultra, it is governed by the Consumer Terms and Privacy Policy.
 
 - Anthropic does not use this content to train its models. Use of data received from Google Workspace APIs adheres to the **[Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy)**, including the Limited Use requirements.
 

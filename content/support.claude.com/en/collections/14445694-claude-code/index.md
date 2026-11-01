@@ -8,7 +8,7 @@ Use Claude in your terminal to write, review, and ship code.
 
 [Claude Code model configuration](https://support.claude.com/en/articles/11940350-claude-code-model-configuration)
 
-[Use Claude Code with your Pro or Max plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
+[Use Claude Code with your Pro, Max, or Ultra plan](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-max-or-ultra-plan)
 
 [Automated security reviews in Claude Code](https://support.claude.com/en/articles/11932705-automated-security-reviews-in-claude-code)
 

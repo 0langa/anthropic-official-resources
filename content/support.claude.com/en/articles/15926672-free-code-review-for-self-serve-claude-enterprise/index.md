@@ -14,7 +14,7 @@ The offer isn't available to:
 
 - Sales-assisted Claude Enterprise organizations.
 
-- Claude Team, Pro, Max, and Free plans.
+- Claude Free, Pro, Max, Ultra, and Team plans.
 
 Your organization's subscription must be active and in good standing when you opt in and throughout the free period. If your organization moves to a sales-assisted Claude Enterprise account after opting in, you keep the offer for the remainder of your free period.
 

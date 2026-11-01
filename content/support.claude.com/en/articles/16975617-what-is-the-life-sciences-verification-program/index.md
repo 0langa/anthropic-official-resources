@@ -2,7 +2,7 @@
 
 This article explains what the Life Sciences Verification Program (LSVP) is, supported use cases, and how to apply.
 
-This program is currently in beta. During the beta, LSVP runs on Anthropic's first-party products only: Claude Enterprise plans, Team plans, and the Claude Platform (API). This program doesn’t currently support Pro plans, Max plans, or cloud providers. We’ll continue to improve the program and expand access over time. You can read more in our **[blog post announcement](https://www.anthropic.com/news/life-sciences-verification-program)**.
+This program is currently in beta. During the beta, LSVP runs on Anthropic's first-party products only: Claude Enterprise plans, Team plans, and the Claude Platform (API). This program doesn’t currently support Pro plans, Max plans, Ultra plans, or cloud providers. We’ll continue to improve the program and expand access over time. You can read more in our **[blog post announcement](https://www.anthropic.com/news/life-sciences-verification-program)**.
 
 ---
 

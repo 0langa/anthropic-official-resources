@@ -36,7 +36,7 @@ You use **prompts** to communicate with Claude. The best approach is to speak to
 
 Type your prompt into the chat interface and click the submit button to start a conversation with Claude. You can click the "+" button in the lower left or type "/" to view additional options and commands:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1793361600&amp;signature=c5f498a4704fc0c7e67f37db6c1b9ca24dfc0cf65410d169bf8bd2d750990005&amp;req=dSkmEMt%2BlYRYUfMW1HO4zV2J7CzJsoaH9crMELaMZPzpsR5MQryObM%2FMlefN%0A2cvpFzuFregP2NK3%2Fjs%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1793537100&amp;signature=cd836b88b0b3e66dc590de557d80f7ddd5e48fed3d3096fd768b26a17790c270&amp;req=dSkmEMt%2BlYRYUfMW1HO4zV2J7CzPt4CA9crMELaMZPw0xRzd9%2BUHESHvY2K9%0AUSnYB9NUZwXOOvTwMoQ%3D%0A)
 
 ---
 
@@ -66,7 +66,7 @@ We also have several paid subscriptions that offer additional usage. For more in
 
 ### Can I import my conversation history from another AI provider?
 
-No, it's not possible to import conversation history from another AI provider into Claude at this time. However, Free, Pro, and Max users can use the memory import feature to transfer memory from other AI providers into Claude. For more information, see **[Import and export your memory from Claude](https://support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude)**.
+No, it's not possible to import conversation history from another AI provider into Claude at this time. However, Free, Pro, Max, and Ultra users can use the memory import feature to transfer memory from other AI providers into Claude. For more information, see **[Import and export your memory from Claude](https://support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude)**.
 
 ---
 

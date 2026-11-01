@@ -1,8 +1,8 @@
-# Understanding your Pro or Max plan invoices
+# Understanding your Pro, Max, or Ultra plan invoices
 
-This article explains the invoices you'll receive for a Pro or Max plan, where to find them, and how to read the charges on them.
+This article explains the invoices you'll receive for a Pro, Max, or Ultra plan, where to find them, and how to read the charges on them.
 
-This article covers Pro and Max plans purchased on the web. If you subscribed through Claude for iOS or Claude for Android, Anthropic doesn't issue your invoices. The Apple App Store or Google Play bills you directly, and your receipts are available in your app store account.
+This article covers Pro, Max, and Ultra plans purchased on the web. If you subscribed through Claude for iOS or Claude for Android, Anthropic doesn't issue your invoices. The Apple App Store or Google Play bills you directly, and your receipts are available in your app store account.
 
 ## Types of invoices you may receive
 
@@ -10,7 +10,7 @@ This article covers Pro and Max plans purchased on the web. If you subscribed th
 
 **Plan change invoices.** If you upgrade your plan in the middle of a billing cycle, you'll reset your billing cycle and receive an immediate invoice for the change rather than waiting for your next renewal. For example, upgrading from Pro to Max charges you one full month of Max, less the unused value in your current billing cycle on your old plan.
 
-Learn more about **[signing up for the Max plan](https://support.claude.com/en/articles/11049752)**.
+Learn more about **[signing up for the Max or Ultra plan](https://support.claude.com/en/articles/11049752)**.
 
 **Usage credit receipts.** If you've enabled usage credits, each purchase of funds is charged separately from your subscription and has its own receipt. This includes purchases made automatically by auto-reload and any usage bundles you buy.
 
@@ -40,7 +40,7 @@ You can also open any invoice from your account:
 
 **Amount due.** The invoice total minus any applied balance. This is what your payment method was charged.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2629072970/c514f489b65072ccad08e803864f/e8c7a7de-905f-4a40-815f-c9c66edcdbf6?expires=1793275200&amp;signature=efb7bf4dd95a1cabbe3a26f0941e9af207ea5f76a9595b42690197b6efd1edcf&amp;req=diYlH8l5n4hYWfMW1HO4zdWraRI96VEcPZYKVlMiWEX2Bwx40wFSqm7te3xC%0A%2BXbAwbQMk2xDepsRpDY%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2629072970/c514f489b65072ccad08e803864f/e8c7a7de-905f-4a40-815f-c9c66edcdbf6?expires=1793534400&amp;signature=cf8563da119333d555c003c9fa4b5fa379bceb5277b759f1ce5ceb1b1c6e733f&amp;req=diYlH8l5n4hYWfMW1HO4zdWraRI67VAaPZYKVlMiWEU6PvH1929FMCdXIR6E%0AChbAqz0QVDHDWmtewMc%3D%0A)
 
 ## Billing details on your invoice
 
@@ -68,8 +68,8 @@ No. Issued invoices can't be changed. Update your billing details in **[Settings
 
 ### Can I be invoiced in a different currency?
 
-Some subscribers pay their subscriptions using a different currency than the currency (or currencies) new subscribers would be offered in their region. To change your subscription currency, you must first mark your plan to cancel at the end of the current term, and wait for the end of term. Then when you re-purchase a new Pro or Max plan, you will use the same currency (or currency options) as new subscribers would in your region.
+Some subscribers pay their subscriptions using a different currency than the currency (or currencies) new subscribers would be offered in their region. To change your subscription currency, you must first mark your plan to cancel at the end of the current term, and wait for the end of term. Then when you re-purchase a new Pro, Max, or Ultra plan, you will use the same currency (or currency options) as new subscribers would in your region.
 
 ### Where can I see my monthly API credits?
 
-In the Claude Console. All credits appear under **[Settings > Billing](https://platform.claude.com/settings/billing)** in your linked Console organization, with their amount and expiry date. Usage is never charged to your Claude plan. Learn more about **[monthly API credits for Max and Team plans](https://support.claude.com/en/articles/17154008)**.
+In the Claude Console. All credits appear under **[Settings > Billing](https://platform.claude.com/settings/billing)** in your linked Console organization, with their amount and expiry date. Usage is never charged to your Claude plan. Learn more about **[monthly API credits for Max, Ultra, and Team plans](https://support.claude.com/en/articles/17154008)**.

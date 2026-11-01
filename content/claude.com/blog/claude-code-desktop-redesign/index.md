@@ -53,7 +53,7 @@ Under the hood, the app has been rebuilt for reliability and speed, and now stre
 
 ## Getting started
 
-The redesigned desktop app is available now for all Claude Code users on Pro, Max, Team, and Enterprise plans, and via the Claude API.
+The redesigned desktop app is available now for all Claude Code users on Pro, Max, Ultra, Team, and Enterprise plans, and via the Claude API.
 
 [Download the app](https://claude.com/download), or update and restart if you already have it. Explore the [documentation](https://docs.claude.com/claude-code) to learn more.
 

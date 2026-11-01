@@ -8,6 +8,8 @@ Learn how to use recalibrated effort levels, adaptive thinking, and new defaults
 - Reading time8 min
 - ShareCopy link
 
+*Editor's note: Mentions of Max in this post from before October 30, 2026 include what are now the Max and Ultra plans.*
+
 [Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) is our strongest generally available model to date for coding, enterprise workflows, and long-running agentic tasks. It handles ambiguity better than Opus 4.6, is much more capable at finding bugs and reviewing code, carries context across sessions more reliably, and can reason through ambiguous tasks with less direction.
 
 In our [launch announcement](https://www.anthropic.com/news/claude-opus-4-7), we noted that two changes—an updated tokenizer and a proclivity to think more at higher effort levels, especially on later turns in longer sessions—impact token usage. As a result, when replacing Opus 4.6 with Opus 4.7, it can take some tuning to achieve the best performance. A few tweaks to prompts and harnesses can make a big difference.

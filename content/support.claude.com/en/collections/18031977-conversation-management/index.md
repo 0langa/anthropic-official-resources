@@ -22,4 +22,4 @@
 
 [Why Claude switched models in your conversation with Sonnet 5.5](https://support.claude.com/en/articles/17161993-why-claude-switched-models-in-your-conversation-with-sonnet-5-5)
 
-[Claude Haiku 4.5 is leaving the model selector](https://support.claude.com/en/articles/17444146-claude-haiku-4-5-is-leaving-the-model-selector)
+[Claude Haiku 4.5 was removed from the model selector](https://support.claude.com/en/articles/17444146-claude-haiku-4-5-was-removed-from-the-model-selector)

@@ -1,4 +1,4 @@
-# Auto mode is now the default in Claude Code for Pro, Max, and Team plans
+# Auto mode is now the default in Claude Code for Pro, Max, Ultra, and Team plans
 
 Claude Code will soon run auto mode by default for Pro, Max, and Team plans, enabling longer-running autonomous work, and catching more dangerous commands than manual review in our testing.
 
@@ -12,7 +12,7 @@ Claude Code will soon run auto mode by default for Pro, Max, and Team plans, ena
 
 *Before making auto mode the default in Claude Code, we tested it internally and with third-party red-teaming. We used those findings to strengthen how* *auto mode* *works across all our products. The data in this article below is specifically for* *Claude Code.*
 
-We're making [auto mode](https://code.claude.com/docs/en/auto-mode-config) the default in Claude Code. Starting on August 14, new sessions on Pro, Max, and Team plans will run in auto mode. If you've already set a different default yourself, you may get a one-time prompt asking whether you want to switch to auto mode. If you have a pinned default, nothing changes for you. The auto mode classifier uses a small number of extra tokens per tool call, and we're no longer charging Claude Code users on Pro, Max, and Team plans for that classifier overhead, effective today.
+We're making [auto mode](https://code.claude.com/docs/en/auto-mode-config) the default in Claude Code. Starting on August 14, new sessions on Pro, Max, and Team plans will run in auto mode. If you've already set a different default yourself, you may get a one-time prompt asking whether you want to switch to auto mode. If you have a pinned default, nothing changes for you. The auto mode classifier uses a small number of extra tokens per tool call, and we're no longer charging Claude Code users on Pro, Max, Ultra, and Team plans for that classifier overhead, effective today.
 
 Auto mode remains opt-in for now on Claude Enterprise, the Claude API, Claude Platform on AWS, Amazon Bedrock, Google Cloud's Agent Platform, and Microsoft Foundry, giving admins time to review the change. In the coming month, working with our cloud partners, we plan to make it the default across all of these and no longer charge for classifier overhead. In the meantime, Enterprise admins can make Claude Code's auto mode the default through managed settings.
 
@@ -176,7 +176,7 @@ Learn how these customers are [running auto mode in production](https://claude.c
 
 ## Getting started
 
-For Pro, Max, and Team users: if you haven’t set a default permission mode, you’ll receive an in-product notice and new sessions will start in auto mode automatically. If you've set a different default, you may see a one-time prompt asking if you’d like to switch your default to auto mode. If your Team admin has set a default in managed settings, nothing changes for you.
+For Pro, Max, Ultra, and Team users: if you haven’t set a default permission mode, you’ll receive an in-product notice and new sessions will start in auto mode automatically. If you've set a different default, you may see a one-time prompt asking if you’d like to switch your default to auto mode. If your Team admin has set a default in managed settings, nothing changes for you.
 
 For Enterprise users and users who access Claude Code via the Claude API, auto mode remains opt-in for now. We plan to make auto mode the default in the coming month, and we’ll notify Enterprise admins before we do.
 

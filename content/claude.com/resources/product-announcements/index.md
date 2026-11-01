@@ -106,7 +106,7 @@ HCLTech will bring Claude into the solutions it provides for banks, hospitals, t
 
 ### Introducing Claude Duet
 
-A research preview is available by waitlist today, starting with US Pro and Max subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleOct 21, 2026
+A research preview is available by waitlist today, starting with US Pro, Max, and Ultra subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleOct 21, 2026
 
 ### Claude Security now scans continuously and tracks fixes
 

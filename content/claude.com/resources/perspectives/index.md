@@ -16,6 +16,12 @@ Jess Yan, Claude Managed Agents product manager, shares how she uses the product
 
 Claude Platform](https://claude.com/resources/articles/product-development-in-the-agentic-era)
 
+[WebinarUpcoming | Nov 5, 2026
+
+### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
+
+A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)
+
 [Video10 min watch
 
 ### How Factory is building autonomous software with Claude
@@ -44,14 +50,6 @@ Claude Platform
 
 (opens in new tab)](https://www.youtube.com/watch?v=z7cNbsr3b5s)
 
-[WebinarOct 13, 2026
-
-### DRI-ing Your Career
-
-Your career is yours. It always was - but when the market was hot, it didn't seem like you needed to think about it.
-
-Claude apps](https://claude.com/resources/webinars/dri-ing-your-career)
-
 [ArticleApr 29, 2026
 
 ### Product development in the agentic era
@@ -64,9 +62,13 @@ Featured resource 1 of 5: Product development in the agentic era
 
 Advanced filters
 
-Showing 11 of 63 resources
+Showing 11 of 64 resources
 
-[Video10 min watch
+[WebinarUpcoming | Nov 5, 2026
+
+### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
+
+A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)[Video10 min watch
 
 ### How Factory is building autonomous software with Claude
 
@@ -131,14 +133,6 @@ Principles for designing evals and hillclimbing against them without fooling you
 
 Claude Platform
 
-(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)[ArticleSep 25, 2026
-
-### Using Claude Code: Spending your effort
-
-What effort really is and when to use which level in Claude Code, from my own tests of three builds and a deep dive into Terminal-Bench 3.0 on Opus 5.5 and Fable 5.1.
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/spending-your-effort/)
+(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
 
 View more

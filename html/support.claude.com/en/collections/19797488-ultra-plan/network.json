@@ -1,0 +1,127 @@
+[
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "stylesheet",
+    "url": "https://static.intercomassets.com/_next/static/css/c446e3afe8be430a.css"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "stylesheet",
+    "url": "https://static.intercomassets.com/_next/static/css/aca6b59773c71079.css"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "stylesheet",
+    "url": "https://static.intercomassets.com/_next/static/css/fe3431c5c27bda33.css"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "stylesheet",
+    "url": "https://static.intercomassets.com/_next/static/css/c3ba261aae91eb22.css"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "stylesheet",
+    "url": "https://static.intercomassets.com/_next/static/css/b116545afd082284.css"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "stylesheet",
+    "url": "https://static.intercomassets.com/_next/static/css/a36d49340c3b5f22.css"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://static.intercomassets.com/_next/static/chunks/b263e433-6b82905720ee1de5.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://static.intercomassets.com/_next/static/chunks/4625-0bca0bb04f143008.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://static.intercomassets.com/_next/static/chunks/4228-1d0f5d0e187153e1.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://static.intercomassets.com/_next/static/chunks/4125-44e92945c238c076.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://static.intercomassets.com/_next/static/chunks/4639-9782f93c2a651f49.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://static.intercomassets.com/_next/static/chunks/8199-ae9f87e553221077.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://static.intercomassets.com/_next/static/chunks/1242.61fbd0a298a13f4e.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://static.intercomassets.com/_next/static/chunks/webpack-13214dee5fa648b3.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://static.intercomassets.com/_next/static/chunks/framework-a8135b5959ced33e.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://static.intercomassets.com/_next/static/chunks/main-519f6c52a895f2b0.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://static.intercomassets.com/_next/static/chunks/pages/_app-7d6ab5d868814fa5.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://static.intercomassets.com/_next/static/chunks/0b0fcf2d-dce7815edb927a6c.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://static.intercomassets.com/_next/static/chunks/3398-87a96023f6c1b6b1.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://static.intercomassets.com/_next/static/chunks/3850-0374d3460befe569.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://static.intercomassets.com/_next/static/chunks/6279-d27ff38674a4f03b.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://static.intercomassets.com/_next/static/chunks/5215-4f229b90e611b200.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://static.intercomassets.com/_next/static/chunks/pages/%5BhelpCenterIdentifier%5D/%5Blocale%5D/collections/%5BcollectionSlug%5D-22e826a167768533.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://static.intercomassets.com/_next/static/ttKwr0jmzSIMBTOURnlRN/_buildManifest.js"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "script",
+    "url": "https://static.intercomassets.com/_next/static/ttKwr0jmzSIMBTOURnlRN/_ssgManifest.js"
+  }
+]

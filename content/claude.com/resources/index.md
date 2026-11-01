@@ -66,7 +66,7 @@ Article
 
 ### Introducing Claude Duet
 
-A research preview is available by waitlist today, starting with US Pro and Max subscribers.
+A research preview is available by waitlist today, starting with US Pro, Max, and Ultra subscribers.
 
 [Learn more](https://claude.com/resources/articles/claude-duet)
 
@@ -176,7 +176,11 @@ Video
 
 Factory is bringing autonomy to software engineering with Droids, AI coding agents that handle enterprise work. In this conversation, Co-founder and CEO Matan Grinberg sits down with Anthropic's Kai Gill to talk about his journey founding Factory, how Claude's frontier models handle long-horizon tasks across large codebases so teams can trust agent plans with less oversight, and what it will take to build a fully autonomous "dark factory" for software.
 
-[ArticleOct 22, 2026
+[WebinarUpcoming | Nov 5, 2026
+
+### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
+
+A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)[ArticleOct 22, 2026
 
 ### Building agents: When to fold subagents into your main agent loop
 
@@ -190,13 +194,7 @@ Katelyn Lesse sat down with Dan Shipper and Willie William at Every to talk abou
 
 Claude Platform
 
-(opens in new tab)](https://www.youtube.com/watch?v=z7cNbsr3b5s)[WebinarOct 13, 2026
-
-### DRI-ing Your Career
-
-Your career is yours. It always was - but when the market was hot, it didn't seem like you needed to think about it.
-
-Claude apps](https://claude.com/resources/webinars/dri-ing-your-career)
+(opens in new tab)](https://www.youtube.com/watch?v=z7cNbsr3b5s)
 
 ## Insights
 
@@ -260,7 +258,7 @@ Claude Platform](https://claude.com/resources/articles/building-agents-when-to-f
 
 ### Introducing Claude Duet
 
-A research preview is available by waitlist today, starting with US Pro and Max subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleOct 8, 2026
+A research preview is available by waitlist today, starting with US Pro, Max, and Ultra subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleOct 8, 2026
 
 ### Build live dashboards and animate explainers with Claude
 
@@ -322,17 +320,17 @@ Live and recorded sessions with Anthropic and customer teams — demos, deep div
 
 [See more](https://claude.com/resources/webinars)
 
-[WebinarOn demand
+[WebinarUpcoming | Nov 5, 2026
+
+### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
+
+A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)[WebinarOn demand
 
 ### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
 
 Your advisors want to use Claude for Financial Advisors. Before you turn on Cowork, you need to know how client data is handled.
 
-Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)[WebinarOn demand
-
-### Inside the Cyber Verification Program: Tiers, Migration, and Best Practices
-
-Join the teams behind the program for a walkthrough of the Cyber Verification Program.](https://claude.com/resources/webinars/inside-the-cyber-verification-program)[WebinarUpcoming | Nov 17, 2026
+Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)[WebinarUpcoming | Nov 17, 2026
 
 ### Build Agents with the Claude Platform on Google Cloud
 

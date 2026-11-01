@@ -73,7 +73,7 @@ There's a Bret Victor talk every designer should watch at some point, called [St
 
 I'd encourage designers, in Claude Design or any other tool, to think about how to make their creations alive. My favorite Claude Design creations are the ones that don't fit into existing boxes: docs with interactive simulations, slide decks that talk to you, diagrams that are also videos, designs that are also their own editors. Code, specifically HTML, is an amazing medium for creativity, and it's finally somewhat easy for designers to create with.
 
-Claude Design took its current shape because people at Anthropic kept finding uses I hadn't planned for. It now works inside any conversation with Claude, including Claude Code and the Artifacts tab, in beta on paid plans. If you already work at claude.ai/design, nothing changes for you. it is now available in beta on Claude Pro, Max, Team, and Enterprise plans. [Try it](https://claude.com/product/design) and take it somewhere we haven't thought of yet.
+Claude Design took its current shape because people at Anthropic kept finding uses I hadn't planned for. It now works inside any conversation with Claude, including Claude Code and the Artifacts tab, in beta on paid plans. If you already work at claude.ai/design, nothing changes for you. It is now available in beta on Claude Pro, Max, Ultra, Team, and Enterprise plans. [Try it](https://claude.com/product/design) and take it somewhere we haven't thought of yet.
 
 *This article was written by Nate Parrott, a product designer at Anthropic, and expresses his opinions, usage patterns, and advice on Claude Design.*
 

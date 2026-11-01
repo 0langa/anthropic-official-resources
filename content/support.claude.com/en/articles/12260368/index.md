@@ -6,13 +6,13 @@
 
 Incognito chats are temporary conversations that aren't saved to your chat history or to **[Claude’s memory](https://support.claude.com/en/articles/11817273-using-claude-s-chat-search-and-memory-to-build-on-previous-context)**.
 
-Incognito chats are available to all Claude users (Free, Pro, Max, Team, and Enterprise plans).
+Incognito chats are available to all Claude users (Free, Pro, Max, Ultra, Team, and Enterprise plans).
 
 These differ from regular chats in several ways:
 
 - Incognito chats are not used for training. See our Privacy Center for more information:
 
-  - **[Is my data used for model training?](https://privacy.claude.com/en/articles/10023580-is-my-data-used-for-model-training)** (for Free, Pro, and Max plans)
+  - **[Is my data used for model training?](https://privacy.claude.com/en/articles/10023580-is-my-data-used-for-model-training)** (for Free, Pro, Max, and Ultra plans)
 
   - **[Is my data used for model training?](https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training)** (for Team and Enterprise plans)
 
@@ -34,7 +34,7 @@ These differ from regular chats in several ways:
 
 When starting a new chat with Claude outside of a project, you'll see a ghost icon in the upper right corner of your screen:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719768744/c7a2fa56cf284e48472f3b9c4dbf/030563f8-9f97-4891-a749-9ae95968a063?expires=1793360700&amp;signature=aea15c22b109ba9895b7aecc178ccd85fd3867f685165157a660930310823ee5&amp;req=dScmH854lYZbXfMW1HO4zeUcugG%2BaOWMDCAt3Cx%2FSO3YfTKWeG6VaYS9hEeE%0AtWbIW2MTG53OPHfy6g0%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719768744/c7a2fa56cf284e48472f3b9c4dbf/030563f8-9f97-4891-a749-9ae95968a063?expires=1793535300&amp;signature=8e42e8919316eb032cc2cd354dcdf04c65483b9ed1f22cfbfa435786f3f96bad&amp;req=dScmH854lYZbXfMW1HO4zeUcugG4beCIDCAt3Cx%2FSO2E2iRvrugEzrPBCXIO%0AdWIoUfM4bKzPmBaVwZc%3D%0A)
 
 1. Click the ghost icon to enable incognito mode.
 

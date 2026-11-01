@@ -16,11 +16,11 @@
 
 Related articles
 
-- Announcements
+- Partnerships
 
-  Jun 17, 2026
+  Oct 27, 2026
 
-  [Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem](https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem)
+  [Expanding our partnership with GSA to bring Claude to all levels of government](https://www.anthropic.com/news/expanding-partnership-gsa)
 
 [View more](https://www.anthropic.com/search?topic=partnerships)
 

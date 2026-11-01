@@ -8,6 +8,8 @@ Access Claude directly into Slack so you can get help in channels and threads, o
 - Reading time5 min
 - ShareCopy link
 
+*Editor's note: Mentions of Max in this post from before October 30, 2026 include what are now the Max and Ultra plans.*
+
 ***Update:** The Slack connector is now available for Claude Pro and Max subscribers. (January 26, 2026)*
 
 We're introducing two ways to use Claude with Slack. Add Claude directly to your Slack workspace, or connect Slack to the Claude apps so Claude can search and reference relevant Slack messages during conversations.

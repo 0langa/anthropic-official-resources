@@ -1,6 +1,6 @@
 # Claude Code May–August 2026 weekly limits promotion
 
-This promotion was a limited-time boost on top of your plan. It ran from May 13 through September 13, 2026. We were planning to return weekly limits to their original levels, but we know many of you found the extra usage helpful. So while the full promotional boost couldn't last, we're making part of it permanent: starting September 14, 2026, weekly limits in Claude Code are 25% higher than they were before the promotion for Pro, Max, Team, and seat-based Enterprise plans. We have a lot more in the works around usage, visibility, and control, so stay tuned.
+This promotion was a limited-time boost on top of your plan. It ran from May 13 through September 13, 2026. We were planning to return weekly limits to their original levels, but we know many of you found the extra usage helpful. So while the full promotional boost couldn't last, we're making part of it permanent: starting September 14, 2026, weekly limits in Claude Code are 25% higher than they were before the promotion for Pro, Max, Ultra, Team, and seat-based Enterprise plans. We have a lot more in the works around usage, visibility, and control, so stay tuned.
 
 We offered a limited-time promotion that increased weekly usage limits in Claude Code by 50%.
 

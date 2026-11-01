@@ -12,7 +12,7 @@
 
 [Why am I being asked to verify my payment method?](https://support.claude.com/en/articles/11818288-why-am-i-being-asked-to-verify-my-payment-method)
 
-[Cancel your Pro or Max subscription](https://support.claude.com/en/articles/8325617-cancel-your-pro-or-max-subscription)
+[Cancel your Pro, Max, or Ultra subscription](https://support.claude.com/en/articles/8325617-cancel-your-pro-max-or-ultra-subscription)
 
 [How can I create and manage projects?](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects)
 
@@ -20,4 +20,4 @@
 
 [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
 
-[Understanding your Pro or Max plan invoices](https://support.claude.com/en/articles/16607638-understanding-your-pro-or-max-plan-invoices)
+[Understanding your Pro, Max, or Ultra plan invoices](https://support.claude.com/en/articles/16607638-understanding-your-pro-max-or-ultra-plan-invoices)

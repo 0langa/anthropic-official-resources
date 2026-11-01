@@ -66,13 +66,13 @@ We’re also launching Claude in PowerPoint as a research preview in beta. Just 
 
 ![](https://assets.claude.com/2f34a7c546be3ff8d564b9c3bda776140556c508.png)
 
-Claude in PowerPoint is now available as a research preview for all users on a Max, Team, or Enterprise plan.
+Claude in PowerPoint is now available as a research preview for all users on a Max, Ultra, Team, or Enterprise plan.
 
 ## Getting started
 
 Claude Opus 4.6 and our latest product updates make a whole range of new tasks possible. But AI for finance remains an active frontier. Users should continue to review Claude’s outputs to ensure it meets their specifications; particularly for high-stakes work, human judgment remains essential. As we continue to improve Claude’s capabilities, our aim is to equip finance industry professionals with ever-more powerful tools for research and analysis, and to help them focus on their most important work.
 
-Claude Opus 4.6, Cowork, and Claude in Excel are available on all paid Claude plans. To learn more about Claude in Excel, explore our [guide](https://support.claude.com/en/articles/12650343-claude-in-excel) and [video tutorial](https://claude.com/resources/tutorials/getting-started-with-claude-in-excel), and [get started here](https://claude.com/claude-in-excel). Claude in PowerPoint is available in research preview for all Max, Team, and Enterprise users, and you can [get started here](https://claude.com/claude-in-powerpoint).
+Claude Opus 4.6, Cowork, and Claude in Excel are available on all paid Claude plans. To learn more about Claude in Excel, explore our [guide](https://support.claude.com/en/articles/12650343-claude-in-excel) and [video tutorial](https://claude.com/resources/tutorials/getting-started-with-claude-in-excel), and [get started here](https://claude.com/claude-in-excel). Claude in PowerPoint is available in research preview for all Max, Ultra, Team, and Enterprise users, and you can [get started here](https://claude.com/claude-in-powerpoint).
 
 To see how organizations are using these new features in action, [register for our webinar](https://claude.com/resources/webinars/claude-in-excel-and-powerpoint).
 

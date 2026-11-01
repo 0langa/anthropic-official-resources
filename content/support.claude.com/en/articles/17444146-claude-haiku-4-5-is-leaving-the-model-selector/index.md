@@ -1,16 +1,14 @@
-# Claude Haiku 4.5 is leaving the model selector
+# Claude Haiku 4.5 was removed from the model selector
 
-On October 29, 2026, we’re removing Claude Haiku 4.5 from the model selector in chat, Claude Cowork, and Claude Design on the Free, Pro, and Max plans, including in Claude Desktop and Claude Mobile. Claude Haiku 5.5 replaces it. This article explains what’s changing, where Haiku 4.5 stays available, and what happens to your existing chats.
+On October 29, 2026, we removed Claude Haiku 4.5 from the model selector in chat, Claude Cowork, and Claude Design on the Free, Pro, and Max plans, including in Claude Desktop and Claude Mobile. Claude Haiku 5.5 replaced it. This article explains what changed, where Haiku 4.5 is still available, and what happened to your existing chats.
 
-## What’s changing and when
+## What changed and when
 
-We announced this change on October 15, 2026. Until October 29, 2026, you can still select Haiku 4.5 under “More models” in the model selector.
+We announced this change on October 15, 2026. As of October 29, 2026, you can no longer select Haiku 4.5 under “More models” in the model selector. If it was your selected model, Claude switched you to Haiku 5.5.
 
-Starting October 29, Haiku 4.5 no longer appears in the model selector. If it’s your selected model, Claude switches you to Haiku 5.5.
+## Where Haiku 4.5 is still available
 
-## Where Haiku 4.5 stays available
-
-This change doesn’t affect Haiku 4.5 in:
+This change didn't affect Haiku 4.5 in:
 
 - Claude Code
 
@@ -18,9 +16,9 @@ This change doesn’t affect Haiku 4.5 in:
 
 - Claude Platform (API)
 
-## What happens to your existing chats
+## What happened to your existing chats
 
-Your Haiku 4.5 chats stay in your account, and nothing is deleted. When you continue one after October 29, Claude responds using Haiku 5.5. You can switch to a different model at any time.
+Your Haiku 4.5 chats are still in your account, and nothing was deleted. When you continue one after October 29, Claude responds using Haiku 5.5. You can switch to a different model at any time.
 
 To keep a copy of your chats, you can export your data at any time. Learn more about **[exporting your Claude data](https://support.claude.com/en/articles/9450526)**.
 

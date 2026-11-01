@@ -23,17 +23,16 @@ Claude Code comes with a comprehensive set of tools to help with your developmen
 
 The MCP integration is particularly powerful because it means you can extend Claude Code's capabilities by adding specialized tools for databases, APIs, or any other services you work with.
 
-Claude Code works across MacOS, Windows WSL, and Linux, so you can use it regardless of your development environment.
+Claude Code works across macOS, Windows (natively or inside WSL), and Linux, so you can use it regardless of your development environment.
 
 ## Installation[](https://academy.claude.com/courses/building-with-the-claude-api/claude-code-setup)
 
-![Timeline of the three Claude Code setup steps, listed below.](https://academy.claude.com/assets/media/640fa9f720b8896d0f4fd1fbe95de4f465c3383bd07829ec5e7996404613a967.jpg)
+![Timeline of the three Claude Code setup steps.](https://academy.claude.com/assets/media/640fa9f720b8896d0f4fd1fbe95de4f465c3383bd07829ec5e7996404613a967.jpg)
 
-Getting Claude Code set up takes just three steps:
+Getting Claude Code set up takes just two steps:
 
-1. **Install Node.js** from nodejs.org/en/download (check if you already have it by running `npm help` in your terminal)
-2. **Install Claude Code** with the command: `npm install -g @anthropic-ai/claude-code`
-3. **Start and login** by running `claude` in your terminal
+1. **Install Claude Code** by following Step 1 of the [Claude Code quickstart(opens in new tab)](https://code.claude.com/docs/en/quickstart)
+2. **Start and login** by running `claude` in your terminal
 
 When you run the `claude` command for the first time, it will prompt you to log in to your Anthropic account. The full setup guide is available at docs.anthropic.com if you need more detailed instructions.
 

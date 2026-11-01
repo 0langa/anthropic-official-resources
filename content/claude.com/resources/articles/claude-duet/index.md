@@ -2,7 +2,7 @@
 
 # Introducing Claude Duet
 
-A research preview is available by waitlist today, starting with US Pro and Max subscribers.
+A research preview is available by waitlist today, starting with US Pro, Max, and Ultra subscribers.
 
 [Join the waitlist](https://claude.com/product/claude-duet)
 
@@ -19,7 +19,7 @@ Today, we’re opening a research preview of Claude Duet, a new app where Claude
 
 Embedded media: https://www.youtube-nocookie.com/embed/Fb-68zqcSVs?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
-It’s available as a standalone app on iOS and Android, and on claude.ai. For this research preview, Claude Duet is included in Pro and Max plans and uses the same usage limits as the rest of Claude. To get access, [join the waitlist (opens in new tab)](https://claude.com/product/claude-duet).
+It’s available as a standalone app on iOS and Android, and on claude.ai. For this research preview, Claude Duet is included in Pro, Max, and Ultra plans and uses the same usage limits as the rest of Claude. To get access, [join the waitlist (opens in new tab)](https://claude.com/product/claude-duet).
 
 ## Put your attention where it matters most
 
@@ -98,7 +98,7 @@ This is an early version of Claude Duet, and it still might misread a thread or 
 
 During the research preview, Claude Duet shares your plan’s usage limits with the rest of Claude, and it uses them differently than a typical conversation does. Its background checks count toward those limits, and larger tasks, like building a financial model or a deck, require more model turns and background work.
 
-We’re starting today with Pro and Max users in the US. Join the [waitlist (opens in new tab)](https://claude.com/product/claude-duet) and we’ll email as soon as Claude Duet’s ready for you.
+We’re starting today with Pro, Max, and Ultra users in the US. Join the [waitlist (opens in new tab)](https://claude.com/product/claude-duet) and we’ll email as soon as Claude Duet’s ready for you.
 
 ## Related articles
 

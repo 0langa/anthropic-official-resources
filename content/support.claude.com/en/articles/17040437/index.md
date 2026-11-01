@@ -6,13 +6,13 @@ If Claude Code reaches your plan’s five-hour usage limit partway through a res
 
 The Wrap-Up Allowance is a small, capped amount of additional usage that varies by plan. It is not unlimited, and it may not be enough to complete the task Claude was working on. When it runs out, the response ends and your plan’s normal usage limits apply until they reset.
 
-These terms supplement the **[Consumer Terms of Service](https://www.anthropic.com/legal/consumer-terms)** (for Pro and Max subscribers) or the **[Commercial Terms of Service](https://www.anthropic.com/legal/commercial-terms)** (for Team subscribers), which continue to apply to your use of Claude Code.
+These terms supplement the **[Consumer Terms of Service](https://www.anthropic.com/legal/consumer-terms)** (for Pro, Max, and Ultra subscribers) or the **[Commercial Terms of Service](https://www.anthropic.com/legal/commercial-terms)** (for Team subscribers), which continue to apply to your use of Claude Code.
 
 ## Who is eligible
 
 The Wrap-Up Allowance is available only when all of the following are true:
 
-1. You’re on a Pro or Max plan, or on a Team plan with a Premium seat, and your account is in good standing.
+1. You’re on a Pro or Max plan, an Ultra plan with a temporary limit, or a Team plan with a Premium seat, and your account is in good standing.
 
 2. You’re using Claude Code version 2.1.277 or later (in the terminal, an IDE extension, or the Code tab in the Claude desktop app), signed in with your Claude account.
 
@@ -30,7 +30,7 @@ The Wrap-Up Allowance does not apply when you use Claude Code with an API key or
 
   - **Pro:** Up to once per weekly usage period, whether or not the full allowance is used that time.
 
-  - **Max and Team (Premium seats):** When you reach a five-hour usage limit, within your weekly limit.
+  - **Max, unverified Ultra users, and Team (Premium seats):** When you reach a five-hour usage limit, within your weekly limit.
 
 - **How it counts.** Usage during wrap-up counts toward your weekly usage limit like any other usage. It does not increase your weekly limit.
 

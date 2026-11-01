@@ -48,7 +48,7 @@ Integrations and advanced Research are now available in beta on the Max, Team, a
 
 ***Update:** Expanded availability. (June 3, 2025)*
 
-Integrations and Research are now available on the Pro, Max, Team, and Enterprise plans. Web search is available globally on all Claude plans.
+Integrations and Research are now available on the Pro, Max, Ultra, Team, and Enterprise plans. Web search is available globally on all Claude plans.
 
 ‍
 

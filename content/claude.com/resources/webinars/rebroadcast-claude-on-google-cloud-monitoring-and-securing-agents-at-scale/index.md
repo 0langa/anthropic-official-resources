@@ -18,7 +18,7 @@ I acknowledge the [Anthropic Privacy Policy](https://www.anthropic.com/legal/pri
 
   Roy Arsan
 
-  Applied AI @ Anthropic
+  Applied AI, Anthropic
 - ![](https://assets.claude.com/477c489b599ac51bea7c7a1d7bb0b0eeb8a0eaa2.jpg?w=128&h=128&fit=crop)
 
   Ivan Nardini

@@ -38,7 +38,7 @@ To protect your safety and privacy, there are some topics that Claude does not s
 
 ## **Getting started**
 
-Memory is on by default on Free, Pro and Max plans across web, desktop, and mobile. Note that saving sensitive topics in memory is off by default. On iOS and Android, update to the latest version of the mobile app to get the most recent updates. For Team and Enterprise, admins control availability for their organization, and memory is off for individual users until they turn it on.
+Memory is on by default on Free, Pro, Max, and Ultra plans across web, desktop, and mobile. Note that saving sensitive topics in memory is off by default. On iOS and Android, update to the latest version of the mobile app to get the most recent updates. For Team and Enterprise, admins control availability for their organization, and memory is off for individual users until they turn it on.
 
 Visit [Settings > Memory](https://claude.ai/new) to turn memory on and control what Claude remembers.
 

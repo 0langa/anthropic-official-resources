@@ -14,7 +14,7 @@ Embedded media: https://www.youtube-nocookie.com/embed/63GVebZvqok?enablejsapi=1
 
 Until now, giving Claude the ability to use the web in Cowork meant giving it access to your browser through the [Claude in Chrome](http://claude.com/claude-in-chrome) extension. When the work is on a page you already have open, that's still the right choice. But a lot of web tasks don't need *your* browser, just *a* browser, and now Claude has one.
 
-It's rolling out this week to Pro, Max, and Team plans in the Claude desktop app. Enterprise admins can turn it on for their organization starting today.
+It's rolling out this week to Pro, Max, Ultra, and Team plans in the Claude desktop app. Enterprise admins can turn it on for their organization starting today.
 
 ## Which browser, when
 
@@ -30,7 +30,7 @@ The built-in browser carries the same [prompt injection](https://www.anthropic.c
 
 ## Getting started
 
-The built-in browser is rolling out over the coming week to Pro, Max, and Team plans in the Claude desktop app on macOS, Windows, and Linux (in beta). Once it reaches you, it's on by default: give Claude a task that involves a website and the browser opens on its own. On Enterprise plans, it's available now and admins can manage it in Organization settings → Cowork → Built-in browser.
+The built-in browser is rolling out over the coming week to Pro, Max, Ultra, and Team plans in the Claude desktop app on macOS, Windows, and Linux (in beta). Once it reaches you, it's on by default: give Claude a task that involves a website and the browser opens on its own. On Enterprise plans, it's available now and admins can manage it in Organization settings → Cowork → Built-in browser.
 
 The built-in browser lives in the desktop app. From the web or your phone, Claude can still drive it as long as your desktop app is open and online. On the web without the desktop app, Claude in Chrome remains the way to give Claude a browser.
 

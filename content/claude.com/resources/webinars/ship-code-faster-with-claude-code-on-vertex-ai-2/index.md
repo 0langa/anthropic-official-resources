@@ -23,7 +23,7 @@ By submitting, you agree to receive updates from Anthropic and Google Cloud, and
 
   Roy Arsan
 
-  Applied AI @ Anthropic
+  Applied AI, Anthropic
 
 ## What you’ll learn
 

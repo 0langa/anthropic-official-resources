@@ -6,6 +6,8 @@
 - Reading time2 min
 - ShareCopy link
 
+*Editor's note: Mentions of Max in this post from before October 30, 2026 include what are now the Max and Ultra plans.*
+
 Chat and Cowork first [came together](https://claude.com/resources/articles/cowork-is-now-claude) for Pro and Max plans in September. The same unified Claude experience is now generally available for Claude Enterprise plans.
 
 Chat and Cowork are now one Claude on web, desktop, and mobile, so your team can ask a quick question or hand over a full project in the same conversation. Agentic work runs in a cloud environment that Anthropic manages, and [Claude Enterprise admins](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins) control access by role and manage usage with a new Efficient mode.

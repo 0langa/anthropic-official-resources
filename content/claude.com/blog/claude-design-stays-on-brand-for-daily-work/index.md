@@ -125,7 +125,7 @@ Jon Noronha, Co-founder
 
 ## Getting started
 
-Claude Design is in beta on paid plans. It's on by default on Pro, Max, and Team plans and off by default on Enterprise, where an admin turns it on in Organization settings > Artifacts for the whole organization or for specific groups. On Team and Enterprise plans, links are shared inside your organization by default. Ask for a design in any conversation with Claude, including Claude Code, start one from the Artifacts tab, or keep using [claude.ai/design](https://claude.ai/design). Bring in your design system and create. No ideas? Ask for three directions on your next landing page, and pick the one worth refining.
+Claude Design is in beta on paid plans. It's on by default on Pro, Max, Ultra, and Team plans and off by default on Enterprise, where an admin turns it on in Organization settings > Artifacts for the whole organization or for specific groups. On Team and Enterprise plans, links are shared inside your organization by default. Ask for a design in any conversation with Claude, including Claude Code, start one from the Artifacts tab, or keep using [claude.ai/design](https://claude.ai/design). Bring in your design system and create. No ideas? Ask for three directions on your next landing page, and pick the one worth refining.
 
 ## Related articles
 

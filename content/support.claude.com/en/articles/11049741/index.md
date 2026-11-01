@@ -1,0 +1,71 @@
+# What is the Max plan?
+
+This article is about paid Max plans for individual consumers. If you're part of an organization looking to use Claude with your team, refer to **[Team and Enterprise plans](https://support.claude.com/en/collections/9387370-team-and-enterprise-plans)**.
+
+The Max plan is designed for users who collaborate with Claude frequently and need more usage to work on a variety of tasks. In addition to providing higher usage limits than the Pro plan, Max plan subscribers will also receive priority access to our newest features and models.
+
+## Key benefits
+
+- **More usage capacity**: Get five times the Pro plan's usage every five hours and every week.
+
+- **Fewer interruptions**: Stay in flow when it matters most with higher usage limits that allow for deeper, more extensive work with Claude.
+
+- **Priority access**: Be among the first to experience new models, features, and products.
+
+- **Access to Claude Code: [Use Claude Code](https://support.claude.com/en/articles/11145838)** for your terminal-based coding workflows with one unified subscription.
+
+- **Longer, multi-step tasks:** Hand Claude work like reports, spreadsheets, and presentations, and it keeps going in the background. Learn more in **[Claude Cowork and chat are one Claude](https://support.claude.com/en/articles/16761823)**.
+
+- **Monthly API credits:** Claude Max, Ultra, and Team plans include monthly credits for the Claude API. Learn more about **[monthly API credits for Max, Ultra, and Team plans](https://support.claude.com/en/articles/17154008)**.
+
+**Need more usage?** Learn more about the **[Ultra plan](https://support.claude.com/en/articles/17728952)**.
+
+---
+
+## How much does the Max plan cost?
+
+### Pricing
+
+The Max plan is available for $100 per month.
+
+**Note:** This price is for web subscriptions only. Mobile pricing may vary depending on your app platform.
+
+Price and plans are subject to change at Anthropic's discretion.
+
+### Billing information
+
+- The Max plan is currently available as a monthly subscription only.
+
+- When upgrading from Max to Ultra, your account will be charged on a prorated basis for the remainder of your billing cycle. If you've claimed monthly API credits, you receive prorated credits right away, then the higher amount each billing cycle after that.
+
+- When moving from an annual Pro plan to a Max plan, if the remaining balance on your annual Pro plan is greater than your Max plan price, you will receive a credit to your account for the remaining balance. This credit will be applied to future subscription costs.
+
+  - To receive your credit, the billing address used to purchase your Max plan must be the same as your previous subscription’s billing address.
+
+  - If your billing address has changed, you will need to cancel your Pro subscription and wait for the subscription end date before signing up for a new Max subscription with a new billing address.
+
+  - If you subscribed through Google Play, you're charged the full price of your new plan when you upgrade. The unused value of your previous plan is converted into extra days on your new plan, so your renewal date will land a few days later than a full month.
+
+### How can I get a free or discounted Max plan?
+
+We don't offer standard discounted pricing for individual plans (Pro, Max, and Ultra), but anyone in a supported location can access the free version of Claude by navigating to[**claude.ai**](https://claude.ai/) and signing up using an email address.
+
+We occasionally run limited-time promotions, but we don't have any standing discounts available upon request. These promotional offers are typically announced through our official channels when available. If you're interested in potential future promotions, we recommend following our official social media accounts or signing up for our newsletter to be notified of any special offers. Our Support team cannot issue one-off discounts or coupons.
+
+Eligible nonprofit organizations can get discounted pricing on Team and Enterprise plans. Learn more about **[Claude for Nonprofits](https://claude.com/solutions/nonprofits)**.
+
+**Note:** Eligible nonprofit organizations can get discounted pricing on Team and Enterprise plans. Learn more about[**Claude for Nonprofits**](https://claude.com/solutions/nonprofits).
+
+---
+
+## Does the Max plan have any usage limits?
+
+Yes. The Max plan includes five times the Pro plan's usage every five hours and every week. If you need more usage, learn more about the **[Ultra plan](https://support.claude.com/en/articles/17728952)**.
+
+Max plans have a five-hour limit, a weekly usage limit that applies across all models, and a separate weekly limit for Fable. The weekly limit resets at a fixed time each week that is assigned to your account. Your reset day and time stay the same regardless of when you start using Claude or when your subscription begins, and you receive your full weekly allowance each cycle. You can see your next reset time in **[Settings > Usage](https://claude.ai/new#settings/usage)**.
+
+Additional usage limits may apply to manage capacity and ensure fair access to all users. For example, we may limit your usage in other ways, such as weekly and monthly caps or model and feature usage, at our discretion. We don't guarantee uninterrupted service.
+
+For more information about usage and length limits, refer to **[Understanding usage and length limits](https://support.claude.com/en/articles/11647753-understanding-usage-and-length-limits)**. For guidance on using your Max or Ultra capacity efficiently, we also have **[Usage limit best practices](https://support.claude.com/en/articles/9797557-usage-limit-best-practices)**.
+
+**Note:** If you have a limit reset, you can use it to reset your five-hour session limit or weekly usage limits back to full. Learn more **[about limit resets](https://support.claude.com/en/articles/17007452)**.

@@ -60,6 +60,8 @@ Anthropic maintains a [directory of connectors(opens in new tab)](https://claude
 - **Web connectors:** Cloud services and applications (Gmail, Notion, Slack, Asana, Linear, Stripe, and many more)
 - **Desktop extensions:** Local tools that run on your computer through the Claude Desktop app
 
+Not sure which kind you need? It depends on where your work lives. In most cases, use a desktop extension for local files and tools on your computer, and a web connector for a service hosted on the internet, like Notion or Slack.
+
 The directory lists connectors rather than individual applications, so one entry can cover several related tools. The Atlassian Rovo connector, for example, reaches both Jira and Confluence, so look for Atlassian rather than either app by name. If a tool you need doesn't have its own entry, you can add it as a custom connector instead.
 
 You can also browse connectors from inside Claude: open **Customize > Connectors** from the left sidebar, or click the **+** button in the lower left of the chat window, then select **Connectors**.
@@ -84,7 +86,7 @@ Some desktop extensions include:
 
 - Local file access for reading and organizing documents
 - Browser control for automated web tasks
-- Native application integration (like Figma for design work)
+- Native application integration for working with desktop apps on your computer
 
 To install a desktop extension:
 

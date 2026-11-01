@@ -8,7 +8,7 @@ You don’t have to choose where a task goes. Claude does more of the work.
 - Reading time4 min
 - ShareCopy link
 
-Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. It’s rolling out on Pro and Max plans over the next few weeks, with more plans to follow.
+Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. It’s rolling out on Pro, Max, and Ultra plans over the next few weeks, with more plans to follow.
 
 What Claude makes doesn’t need its own place either. [Claude Docs and Claude Slides](https://claude.com/resources/articles/dashboards-and-motion) are new today, and [Claude Design (opens in new tab)](https://claude.com/product/design) now works inside your conversations too. Ask for a document, and you and Claude write it together. Ask for a presentation, and Claude drafts the slides. You can edit directly, present straight from Claude, or download as PowerPoint or PDF. All three are in beta on paid plans, and Enterprise admins choose when to turn them on. If you use Claude Design on its own, it keeps working as before.
 
@@ -34,7 +34,7 @@ You can choose how Claude checks in with you. By default, Claude asks before tak
 
 If you mostly use chat, you don’t have to do anything different. When you want to hand over something bigger, try the next report or deck you’d normally build yourself. If you’ve been [working in Cowork](https://claude.com/resources/guides/claude-cowork-product-guide), everything is where you left it: your chats, projects, artifacts, connectors, and skills. When you open the app, pick up where you left off.
 
-This is rolling out to Pro and Max plans first, in the Claude app on web, desktop, and mobile over the coming weeks to existing and new users on these plans. There’s nothing to turn on. Team and Free plans will follow soon, and [Enterprise admins](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins) will hear from us at least 30 days before anything changes for their organizations.
+This is rolling out to Pro, Max, and Ultra plans first, in the Claude app on web, desktop, and mobile over the coming weeks to existing and new users on these plans. There’s nothing to turn on. Team and Free plans will follow soon, and [Enterprise admins](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins) will hear from us at least 30 days before anything changes for their organizations.
 
 Update, October 23: the unified experience is now [generally available for Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise).
 
