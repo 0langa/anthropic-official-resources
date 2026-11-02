@@ -10,4 +10,4 @@
 
 [Understanding your Claude API invoices](https://support.claude.com/en/articles/16608069-understanding-your-claude-api-invoices)
 
-[Monthly API credits for Max and Team plans](https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans)
+[Monthly API credits for Max, Ultra, and Team plans](https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-ultra-and-team-plans)

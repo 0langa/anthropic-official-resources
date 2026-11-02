@@ -1,3 +1,5 @@
+![Anthropic x Google Cloud](https://assets.claude.com/43fef9c040583f473dc6ffe852b377af920e8bad.svg)
+
 Nov 17, 2026 — 10:00 – 11:00 AM PT
 
 # Build Agents with the Claude Platform on Google Cloud
@@ -18,7 +20,7 @@ By submitting, you agree to receive updates from Anthropic and Google Cloud, and
 
   Roy Arsan
 
-  Applied AI @ Anthropic
+  Applied AI, Anthropic
 - ![](https://assets.claude.com/477c489b599ac51bea7c7a1d7bb0b0eeb8a0eaa2.jpg?w=128&h=128&fit=crop)
 
   Ivan Nardini

@@ -20,7 +20,7 @@ The offer isn't available to:
 
 - Organizations on a trial, or whose subscription is canceled, unpaid, paused, or not yet fully set up
 
-- Claude Team, Pro, Max, and Free plans
+- Claude Team, Pro, Max, Ultra, and Free plans
 
 - Organizations that claimed the **[earlier free Code Review offer](https://support.claude.com/en/articles/15926672-free-code-review-for-self-serve-claude-enterprise)**
 
@@ -80,7 +80,7 @@ While you have credits left, reviews can run even if your organization has reach
 
 The part of a review covered by the credits doesn't count toward your organization's spend limits and isn't charged to you. These credits are separate from your organization's prepaid extra usage credit.
 
-What's not covered: self-hosted Code Review (the GitHub Action), Code Review on GitHub Enterprise Server, the `/code-review` command in the Claude Code CLI, the `/ultrareview` command, Claude Code usage, Claude Cowork, Claude chat, the Claude API, or any usage outside Code Review. That usage continues to be metered and billed as usual.
+What's not covered: self-hosted Code Review (the GitHub Action), the `/code-review` command in the Claude Code CLI, the `/ultrareview` command, Claude Code usage, Claude Cowork, Claude chat, the Claude API, or any usage outside Code Review. That usage continues to be metered and billed as usual.
 
 ## When your 30 days end
 

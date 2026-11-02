@@ -6,7 +6,7 @@ Search for articles...`⌘K`
 
 [Usage limit best practices](https://support.claude.com/en/articles/9797557-usage-limit-best-practices)
 
-[Cancel your Pro or Max subscription](https://support.claude.com/en/articles/8325617-cancel-your-pro-or-max-subscription)
+[Cancel your Pro, Max, or Ultra subscription](https://support.claude.com/en/articles/8325617-cancel-your-pro-max-or-ultra-subscription)
 
 [Log in to your Claude account](https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account)
 
@@ -26,11 +26,11 @@ Get started with Claude across everyday conversations, projects, and files.
 
 ![](https://downloads.intercomcdn.com/i/hc/icons/v3/lupk8zyo/938301/38ac2cf80abb9aeb3af2b9bef14b/141413.svg)
 
-[Pro and Max plans](https://support.claude.com/en/collections/5953830-pro-and-max-plans)
+[Pro, Max, and Ultra plans](https://support.claude.com/en/collections/5953830-pro-max-and-ultra-plans)
 
 Compare paid plans, manage your subscription, and understand usage limits.
 
-15 articles
+16 articles
 
 ![](https://downloads.intercomcdn.com/i/hc/icons/v3/lupk8zyo/938303/bd2bb85ba160e836164722a24249/141413.svg)
 
