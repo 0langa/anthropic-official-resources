@@ -467,6 +467,7 @@
     "https://www.anthropic.com/research/prompt-injection-defenses",
     "https://www.anthropic.com/research/prompting-long-context",
     "https://www.anthropic.com/research/property-based-testing",
+    "https://www.anthropic.com/research/provable-inference",
     "https://www.anthropic.com/research/reasoning-models-dont-say-think",
     "https://www.anthropic.com/research/reward-tampering",
     "https://www.anthropic.com/research/riemann-zeta",
@@ -505,10 +506,10 @@
   ],
   "statuses": {
     "blocked": 27,
-    "complete": 5006,
+    "complete": 5010,
     "gone": 48,
     "out_of_scope": 42,
-    "partial": 498
+    "partial": 499
   },
   "terminal_unarchived_urls": [
     "https://academy.claude.com/courses/tool-use-with-the-messages-api/**call.input",
@@ -1182,6 +1183,7 @@
     "https://www.anthropic.com/research/prompt-injection-defenses",
     "https://www.anthropic.com/research/prompting-long-context",
     "https://www.anthropic.com/research/property-based-testing",
+    "https://www.anthropic.com/research/provable-inference",
     "https://www.anthropic.com/research/reasoning-models-dont-say-think",
     "https://www.anthropic.com/research/reward-tampering",
     "https://www.anthropic.com/research/riemann-zeta",

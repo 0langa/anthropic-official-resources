@@ -27,7 +27,7 @@ The fastest way to handle these first two steps is with **Plan Mode**. In plan m
 
 To enter plan mode, press `Shift + Tab` until the status bar shows `plan mode on`. Then write a prompt like:
 
-![Claude Code status bar showing plan mode on with shift+tab to cycle](https://academy.claude.com/assets/media/7cb40799b30ac6dbf30945994053139cc228086849e432947b344381f4edd4df.jpg)
+![Claude Code status bar showing plan mode on with shift+tab to cycle](https://academy.claude.com/assets/v1/7cb40799b30a-o0ox5ngc.jpg)
 
 I need to add WebP conversion to our image upload pipeline. Figure out where in the pipeline it should happen, whether we need new dependencies, and how to approach it.
 
@@ -63,7 +63,7 @@ A few tips to make the coding phase smoother:
 
 Once you've tested the changes yourself and are happy with the results, it's time to push your code. Before you commit, run a **subagent code reviewer** to look at your work. A subagent gets a fresh pair of eyes on the codebase — it doesn't carry the bias the main agent might have from the session.
 
-![A code-reviewer subagent running in Claude Code, reading files and reviewing recent changes](https://academy.claude.com/assets/media/3d64a0570bf9a62202320b490b2f60414a9f9a52d9897957eabf4bb14edce043.jpg)
+![A code-reviewer subagent running in Claude Code, reading files and reviewing recent changes](https://academy.claude.com/assets/v1/3d64a0570bf9-hhksv7l8.jpg)
 
 Then get Claude to generate a commit message in your style. Rinse and repeat.
 

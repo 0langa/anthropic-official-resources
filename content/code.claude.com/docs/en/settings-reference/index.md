@@ -141,6 +141,7 @@ Every key below links to its entry. Scope lists the [files](/docs/en/settings#se
 | [`permissions.allow`](#permissions-allow) | Approve listed [tool uses](/docs/en/permissions#permission-rule-syntax) without a prompt | Permission settings | Any file |
 | [`permissions.ask`](#permissions-ask) | Always prompt before listed [tool uses](/docs/en/permissions#permission-rule-syntax) | Permission settings | Any file |
 | [`permissions.blockReadsOutsideWorkingDirectories`](#permissions-blockreadsoutsideworkingdirectories) | Make the file tools refuse reads outside the [working directories](/docs/en/permissions#working-directories) in every permission mode | Permission settings | Any file |
+| [`permissions.blockWritesOutsideWorkingDirectories`](#permissions-blockwritesoutsideworkingdirectories) | Make the `Write`, `Edit`, and `NotebookEdit` tools refuse paths outside the [working directories](/docs/en/permissions#working-directories) in every permission mode, apart from [some of Claude Code's own files](#what-the-write-block-refuses-and-what-stays-writable) | Permission settings | Any file |
 | [`permissions.defaultMode`](#permissions-defaultmode) | Set the [permission mode](/docs/en/permission-modes#which-mode-a-session-starts-in) new sessions start in | Permission settings | Any file |
 | [`permissions.deny`](#permissions-deny) | Block listed [tool uses](/docs/en/permissions#permission-rule-syntax), including reads of files that hold secrets | Permission settings | Any file |
 | [`permissions.disableBypassPermissionsMode`](#permissions-disablebypasspermissionsmode) | Prevent anyone from entering [bypassPermissions mode](/docs/en/permission-modes#skip-all-checks-with-bypasspermissions-mode) | Permission settings | Any file |
@@ -898,7 +899,7 @@ Remove [auto mode](/docs/en/permission-modes#eliminate-prompts-with-auto-mode) f
 Control which tools Claude can use without asking, which ones always prompt, and which ones are blocked, and set the [permission mode](/docs/en/permission-modes) a session starts in. Every `permissions.*` key below nests under this object.
 
 * **Scope**: [`Any file`](#scopes)
-* **Type**: object with `allow`, `ask`, `deny`, `additionalDirectories`, `blockReadsOutsideWorkingDirectories`, `defaultMode`, `disableBypassPermissionsMode`, and `disableAutoMode`
+* **Type**: object with `allow`, `ask`, `deny`, `additionalDirectories`, `blockReadsOutsideWorkingDirectories`, `blockWritesOutsideWorkingDirectories`, `defaultMode`, `disableBypassPermissionsMode`, and `disableAutoMode`
 * **Default**: unset
 
 This example approves `npm run` commands without asking, prompts before `git push`, blocks reads of `.env`, and starts sessions in `acceptEdits`:
@@ -921,8 +922,9 @@ The three rule arrays share one syntax; see [Permission rule syntax](#permission
 Choose whether Claude Code uses the auto mode classifier to review shell commands in plan mode. With the default `true`, the classifier reviews each command during planning when auto mode is available and you see no prompt, except for [critical-path removals](/docs/en/permission-modes#critical-paths). Set `false` to get a permission prompt for every command outside the built-in read-only set. Appears in `/config` as **Use auto mode during plan**.
 
 * **Scope**: [`User, local, or managed`](#scopes). A repository can't turn it off for you.
+  * A `false` in any of these files or in `--settings` turns it off, unless you leave that user or local file out with an option such as [`--setting-sources`](/docs/en/cli-reference#cli-flags). Ignoring a left-out file requires Claude Code v2.1.314 or later
 * **Type**: Boolean
-  * `true`: the same as unset; when auto mode is available, the classifier reviews each shell command during planning instead of prompting you for it, except [critical-path removals](/docs/en/permission-modes#critical-paths). A `false` in any of these files still turns it off
+  * `true`: the same as unset; when auto mode is available, the classifier reviews shell commands during planning
   * `false`: you get a permission prompt for every command outside the built-in read-only set
 * **Default**: `true`
 
@@ -1059,11 +1061,11 @@ Claude Code also writes `true` here when you choose to block such reads on [auto
 }
 ```
 
+To lift the block, remove the key from every settings file that sets it, then restart each running session.
+
 Directories you add with `--add-dir`, `/add-dir`, or `additionalDirectories` in your user or managed settings count as working directories for the block. Directories added only in repository settings don't count: those in `.claude/settings.json`, and those in `.claude/settings.local.json` unless git reports that file as untracked. In a directory that isn't a git repository, or when git tracks the file, Claude Code treats `.claude/settings.local.json` as repository settings, so put directories you want to keep readable in your user settings instead.
 
 When [`autoMemoryDirectory`](#automemorydirectory) comes from the project's `.claude/settings.json`, or from a `.claude/settings.local.json` [treated as repository-supplied](/docs/en/permissions#when-your-local-settings-file-needs-trust), Claude Code loads no [auto memory](/docs/en/memory#storage-location) from that directory and saves none to it.
-
-To lift the block, remove the key from every settings file that sets it, then start a new session.
 
 #### Sandboxed commands under the block
 
@@ -1088,6 +1090,47 @@ Claude Code judges each file separately. When a file lies where a sandboxed comm
 On Linux and WSL2, a configuration file that is a symlink can stay unreadable at its own path, and `git` then runs without it. `~/.git-credentials` and `$XDG_CONFIG_HOME/git/credentials` stay blocked.
 
 If a re-opened file holds a secret, such as an `http.extraHeader` token, add its path to [`sandbox.filesystem.denyRead`](#sandbox-filesystem-denyread). A `denyRead` entry that covers a file always takes precedence over this re-open.
+
+### `permissions.blockWritesOutsideWorkingDirectories`
+
+Make the `Write`, `Edit`, and `NotebookEdit` tools refuse paths outside your [working directories](/docs/en/permissions#working-directories) in every permission mode, including `bypassPermissions`, apart from [some of Claude Code's own files](#what-the-write-block-refuses-and-what-stays-writable). The key doesn't limit shell commands, MCP tools, or the programs hooks run. To limit where shell commands write, turn on [sandboxing](/docs/en/sandboxing). Requires Claude Code v2.1.314 or later.
+
+Once the key is on, Claude Code also removes the `EnterWorktree` and `ExitWorktree` tools or refuses calls to them. To keep working in worktrees, follow [Claude has no `EnterWorktree` tool](/docs/en/worktrees#claude-has-no-enterworktree-tool).
+
+* **Scope**: [`Any file`](#scopes). A `true` in any file the session loads applies, so a repository can turn the block on for itself but can't lift yours. In a [cloud session](/docs/en/claude-code-on-the-web), Claude Code might not apply the key, because the file tools run in a container that is itself the boundary.
+* **Type**: Boolean
+  * `true`: turns the block on
+  * `false`: the same as unset; the block still applies if another file sets `true`
+* **Default**: unset, so writes outside the working directories follow your [permission mode](/docs/en/permission-modes). The block is also on while Claude Code can't read the `permissions` object in your [managed settings](/docs/en/managed-settings#keys-that-fail-closed).
+
+```json settings.json theme={null}
+{
+  "permissions": {
+    "blockWritesOutsideWorkingDirectories": true
+  }
+}
+```
+
+To test the block, ask Claude to use the Write tool to create a file outside your working directories, such as `~/block-test.txt` if your home directory isn't one of them. Claude Code refuses the call, and the refusal says the [setting blocks writes outside the working directories](/docs/en/errors#setting-blocks-writes-outside-the-working-directories).
+
+To lift the block, remove the key from every settings file that sets it, then restart Claude Code.
+
+#### What the write block refuses and what stays writable
+
+Some of Claude Code's own files stay writable, such as plan files, the [scratchpad](/docs/en/claude-directory#session-scratchpad-directory), a [background session](/docs/en/agent-view)'s `tmp` directory, and `.md` files in this project's [auto memory](/docs/en/memory#storage-location).
+
+Along with your own files outside the working directories, the block refuses writes to:
+
+* **Claude Code settings files**: Claude Code [refuses these writes](/docs/en/errors#writes-to-claude-code-settings-files-are-blocked) inside the working directories too, because a settings file can lift the block. Edit settings files yourself.
+* **A directory that only repository settings add**: one that [`additionalDirectories`](#permissions-additionaldirectories) lists only in `.claude/settings.json`, or in `.claude/settings.local.json` unless git reports that file as untracked
+* **A subagent's worktree**: an [`isolation: worktree`](/docs/en/worktrees#isolate-subagents-with-worktrees) subagent's file edits are refused when its worktree sits outside the working directories
+* **Auto memory in a directory the repository chose**: a directory that [`autoMemoryDirectory`](#automemorydirectory) names in repository settings
+
+Settings files stay refused whatever you add. To let a write through in any of the other cases, [add a working directory](#let-one-directory-through-the-read-or-write-block). `/add-dir` needs a directory that exists, so name the `.claude/worktrees` directory at the repository root for subagent worktrees.
+
+#### Let one directory through the read or write block
+
+To let Claude reach one directory outside the project while `blockReadsOutsideWorkingDirectories` or `blockWritesOutsideWorkingDirectories` is `true`, add it as a working directory. Run `/add-dir <directory>` in the session, pass `--add-dir <directory>` when you start Claude Code, or list it under `additionalDirectories` in your user or managed settings. No [allow rule](/docs/en/permissions#read-and-edit) lets Claude's file tools through either block.
 
 ### `permissions.defaultMode`
 
@@ -2028,7 +2071,7 @@ Let sandboxed commands on macOS listen on network ports, for example to start a 
 
 ### `sandbox.network.allowMachLookup`
 
-List additional XPC and Mach service names the macOS sandbox may look up. Tools that communicate over XPC, such as the iOS Simulator or Playwright, need their services listed here.
+List additional XPC and Mach service names the macOS sandbox may look up. Tools that communicate over XPC, such as the iOS Simulator or Playwright, need their services listed here. Sandboxed commands can reach outside the sandbox to each service that you list, and the sandbox [doesn't confine what those services do for those commands](/docs/en/sandboxing#security-limitations).
 
 * **Scope**: [`Any file`](#scopes), with [limits on project and local settings](/docs/en/sandboxing#repository-settings-under-an-admin-required-sandbox)
 * **Type**: array of strings, each a service name; a single trailing `*` matches a prefix, and `"*"` alone matches every service
@@ -2377,6 +2420,7 @@ This example turns off automatic compaction and routes API requests through a pr
 
     Ignoring this group in project and local settings requires Claude Code v2.1.282 or later.
   * Variables that change how Claude Code starts or syncs, such as `CLAUDE_CODE_PROCESS_WRAPPER`, `CLAUDE_CODE_SYNC_SKILLS`, `CLAUDE_CODE_SYNC_PLUGINS`, `CLAUDE_CODE_PLUGIN_CACHE_DIR`, and `CLAUDE_CODE_PLUGIN_SEED_DIR`.
+  * Variables that set your claude.ai sign-in, such as [`CLAUDE_CODE_OAUTH_TOKEN`, `CLAUDE_CODE_OAUTH_REFRESH_TOKEN`, and `CLAUDE_CODE_OAUTH_SCOPES`](/docs/en/env-vars#variables).
   * The [screen reader mode](/docs/en/accessibility) variable `CLAUDE_AX_SCREEN_READER` and the other variables whose names start with `CLAUDE_AX_`, such as [`CLAUDE_AX_STARTUP_QUIET_MS`](/docs/en/env-vars#variables).
   * [`CLAUDE_CODE_USER_DIALOG_TIMEOUT_MS`](/docs/en/env-vars#variables), which sets the timer on an unanswered dialog.
   * [`CLAUDE_CODE_DISABLE_ATTACHMENTS`](/docs/en/env-vars#variables), which turns off attachment processing.
@@ -2424,7 +2468,6 @@ Idle compaction is on by default for conversations that meet all of these condit
 * **Session**: you're in an interactive terminal session, in the VS Code extension's chat panel, or in the desktop app's Code tab when the session runs on your machine or over SSH
 * **Auto-compaction**: [`autoCompactEnabled`](#autocompactenabled) is on
 * **Prompt cache**: the conversation is on the [one-hour prompt cache TTL](/docs/en/prompt-caching#which-ttl-each-request-gets)
-* **Feature flags**: Claude Code can [fetch feature flags from Anthropic](/docs/en/env-vars#features-that-need-feature-flag-fetching)
 * **Size**: the conversation's context has reached the token threshold, which you can [change](#change-the-idle-compaction-threshold) from its default of 200,000
 * **Idle time**: about an hour has passed since the last request, and your computer stays awake until then
 
@@ -2446,7 +2489,7 @@ To turn idle compaction off, set this key to `false`.
 To turn idle compaction off or on from inside a terminal session, run `/config` and change the **Idle compaction** row. Your choice is saved to your user settings and applies right away. The row requires Claude Code v2.1.302 or later. If you run one of those versions and `/config` doesn't show the row, check for these causes:
 
 * **Another settings source sets the key**: a value in managed settings, the `--settings` flag, or a project or local settings file overrides your user settings. Change the key in that source instead
-* **Feature flags are unavailable**: where Claude Code can't [fetch feature flags from Anthropic](/docs/en/env-vars#features-that-need-feature-flag-fetching), idle compaction doesn't run, so there is nothing to turn off
+* **Feature flags are unavailable on a version before v2.1.314**: where Claude Code can't [fetch feature flags from Anthropic](/docs/en/env-vars#features-that-need-feature-flag-fetching), idle compaction doesn't run, so there is nothing to turn off
 
 The key requires Claude Code v2.1.290 or later. On an earlier version, which ignores this key, turn off [`autoCompactEnabled`](#autocompactenabled) to stop idle compaction.
 

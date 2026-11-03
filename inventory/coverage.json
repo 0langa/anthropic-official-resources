@@ -1,34 +1,34 @@
 {
-  "actionable_missing_pages": 0,
-  "actionable_population_complete": true,
-  "archived_pages": 5530,
+  "actionable_missing_pages": 1,
+  "actionable_population_complete": false,
+  "archived_pages": 5535,
   "by_host": {
     "academy.claude.com": {
       "archived_pages": 874,
       "discovered_pages": 879
     },
     "claude.com": {
-      "archived_pages": 845,
-      "discovered_pages": 854
+      "archived_pages": 846,
+      "discovered_pages": 855
     },
     "code.claude.com": {
       "archived_pages": 254,
       "discovered_pages": 256
     },
     "platform.claude.com": {
-      "archived_pages": 2157,
-      "discovered_pages": 2187
+      "archived_pages": 2158,
+      "discovered_pages": 2188
     },
     "support.claude.com": {
-      "archived_pages": 752,
-      "discovered_pages": 785
+      "archived_pages": 754,
+      "discovered_pages": 788
     },
     "www.anthropic.com": {
-      "archived_pages": 648,
-      "discovered_pages": 660
+      "archived_pages": 649,
+      "discovered_pages": 661
     }
   },
-  "discovered_pages": 5621,
+  "discovered_pages": 5627,
   "exact_website_replica": false,
   "limitations": [
     "Discovery is the union of public indexes and hyperlinks, not proof that unlinked pages do not exist.",
@@ -616,6 +616,7 @@
     "https://www.anthropic.com/research/prompt-injection-defenses": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/prompting-long-context": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/property-based-testing": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html, https://assets.claude.ai/brand/artifacts/research/frontier-red-team/property-based-testing.html",
+    "https://www.anthropic.com/research/provable-inference": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/reasoning-models-dont-say-think": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/reward-tampering": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/riemann-zeta": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
@@ -654,10 +655,10 @@
     "https://www.anthropic.com/transparency/voluntary-commitments": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/webinars": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   },
-  "missing_pages": 91,
+  "missing_pages": 92,
   "page_inventory_complete": false,
-  "pages_with_content_notes": 3706,
-  "retained_partial_pages": 498,
+  "pages_with_content_notes": 3710,
+  "retained_partial_pages": 499,
   "terminal_pages": 91,
   "terminal_statuses": {
     "blocked": 27,

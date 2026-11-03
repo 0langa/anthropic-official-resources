@@ -1356,6 +1356,7 @@ https://claude.com/resources/articles/meet-the-winners-of-our-built-with-opus-4-
 https://claude.com/resources/articles/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon
 https://claude.com/resources/articles/memory
 https://claude.com/resources/articles/message-batches-api
+https://claude.com/resources/articles/message-threads
 https://claude.com/resources/articles/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude
 https://claude.com/resources/articles/multi-agent-coordination-patterns
 https://claude.com/resources/articles/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork
@@ -3735,6 +3736,7 @@ https://platform.claude.com/docs/en/build-with-claude/files
 https://platform.claude.com/docs/en/build-with-claude/files?sdk_languages=curl
 https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons
 https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons?sdk_languages=curl
+https://platform.claude.com/docs/en/build-with-claude/message-threads
 https://platform.claude.com/docs/en/build-with-claude/mid-conversation-effort-example
 https://platform.claude.com/docs/en/build-with-claude/mid-conversation-effort-example?sdk_languages=curl
 https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages
@@ -4753,6 +4755,9 @@ https://support.claude.com/en/articles/17666489-how-to-use-shop-pay-with-claude-
 https://support.claude.com/en/articles/17728952
 https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan
 https://support.claude.com/en/articles/17740565-manage-plugins-skills-and-connectors-from-one-plugins-page
+https://support.claude.com/en/articles/17828685-run-your-endpoint-detection-and-response-edr-sensor-in-claude-cowork
+https://support.claude.com/en/articles/17828685-run-your-endpoint-detection-and-response-edr-sensor-in-claude-cowork-on-claude-desktop
+https://support.claude.com/en/articles/17889756-anthropic-ipo-international-retail-brokers-and-selling-agents
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
 https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer
@@ -5531,6 +5536,7 @@ https://www.anthropic.com/research/project-vend-2
 https://www.anthropic.com/research/prompt-injection-defenses
 https://www.anthropic.com/research/prompting-long-context
 https://www.anthropic.com/research/property-based-testing
+https://www.anthropic.com/research/provable-inference
 https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning
 https://www.anthropic.com/research/reasoning-models-dont-say-think
 https://www.anthropic.com/research/red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned

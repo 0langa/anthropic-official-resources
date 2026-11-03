@@ -31,7 +31,7 @@ After installation, you should be able to run the `claude` command. If not, rest
 
 `claude`
 
-You'll go through some initial setup steps like choosing your color theme and signing in with your Claude account (Pro, Max, Team, or Enterprise) or using an API key. If your organization has a Claude Enterprise account, be sure to select that option.
+You'll go through some initial setup steps like choosing your color theme and signing in with your Claude account (Pro, Max, Ultra, Team, or Enterprise) or using an API key. If your organization has a Claude Enterprise account, be sure to select that option.
 
 ![Claude Code login method selection: subscription, API, or third-party platform](https://academy.claude.com/assets/media/6000796786763c8a1862b6cbfbcb1d7b99a61503fd9faf6c39f6e2b98d644119.jpg)
 
@@ -57,7 +57,7 @@ Install the Claude Code plugin from the JetBrains Marketplace. After installatio
 
 After installing and signing into Claude Desktop, you'll see a tab at the top labeled "Code." The look and feel is similar to the chat side of things, but it lets you work in a specific folder, change permissions, and even work in a cloud environment.
 
-![Claude Desktop Code view showing recent project folders](https://academy.claude.com/assets/media/dbd3386c65f280868d1a71154b96ee0b1b80d1b44ad5019b7c40be353fc714a1.jpg)
+![Claude Desktop Code view showing recent project folders](https://academy.claude.com/assets/v1/dbd3386c65f2-lvp1ffau.jpg)
 
 ## Web[](https://academy.claude.com/courses/claude-code-101/installing-claude-code)
 

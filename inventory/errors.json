@@ -578,6 +578,7 @@
   "https://www.anthropic.com/research/prompt-injection-defenses": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/research/prompting-long-context": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/research/property-based-testing": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html, https://assets.claude.ai/brand/artifacts/research/frontier-red-team/property-based-testing.html",
+  "https://www.anthropic.com/research/provable-inference": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/research/reasoning-models-dont-say-think": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/research/reward-tampering": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/research/riemann-zeta": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",

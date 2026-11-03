@@ -2,8 +2,6 @@
 
 No matter where you are in your journey, this series has you covered. Get started with Claude Code in an hour, scale your team up with agentic coding patterns, and learn what an advanced Claude Code implementation could look like for your organization.
 
-[Register for all webinars](https://claude.com/resources/webinar-series/claude-code)
-
 You’ll walk through workflows the Claude Code team actually uses, hear about new releases from the people who shipped them, and get direct answers to your questions.  
   
 Learn how to:

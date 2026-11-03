@@ -22,6 +22,17 @@ Claude Platform](https://claude.com/resources/articles/product-development-in-th
 
 A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)
 
+[Video21 min watch
+
+### How Ramp engineers work with AI agents at every step
+
+Ramp runs AI agents across its entire engineering lifecycle: writing code, reviewing it, watching production, and root-causing incidents.
+Boris sat down with Austin Ray and Rahul Sengottuvelu of Ramp to talk about how they got there. Building for the models that are coming rather than the ones that exist, giving every engineer uncapped access to intelligence, and the guardrails that make it work. They compare notes on Claude Code setups, loops versus dynamic workflows, and what Claude Fable 5 unlocked.
+
+Claude Code
+
+(opens in new tab)](https://www.youtube.com/watch?v=i4odXOmgMLw)
+
 [Video10 min watch
 
 ### How Factory is building autonomous software with Claude
@@ -40,16 +51,6 @@ When building agents in Claude Platform, using fewer subagents in favor of progr
 
 Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)
 
-[Video33 min watch
-
-### Building secure agents for knowledge work
-
-Katelyn Lesse sat down with Dan Shipper and Willie William at Every to talk about the AI coworker they built.
-
-Claude Platform
-
-(opens in new tab)](https://www.youtube.com/watch?v=z7cNbsr3b5s)
-
 [ArticleApr 29, 2026
 
 ### Product development in the agentic era
@@ -62,13 +63,22 @@ Featured resource 1 of 5: Product development in the agentic era
 
 Advanced filters
 
-Showing 11 of 64 resources
+Showing 11 of 65 resources
 
 [WebinarUpcoming | Nov 5, 2026
 
 ### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
 
-A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)[Video10 min watch
+A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)[Video21 min watch
+
+### How Ramp engineers work with AI agents at every step
+
+Ramp runs AI agents across its entire engineering lifecycle: writing code, reviewing it, watching production, and root-causing incidents.
+Boris sat down with Austin Ray and Rahul Sengottuvelu of Ramp to talk about how they got there. Building for the models that are coming rather than the ones that exist, giving every engineer uncapped access to intelligence, and the guardrails that make it work. They compare notes on Claude Code setups, loops versus dynamic workflows, and what Claude Fable 5 unlocked.
+
+Claude Code
+
+(opens in new tab)](https://www.youtube.com/watch?v=i4odXOmgMLw)[Video10 min watch
 
 ### How Factory is building autonomous software with Claude
 
@@ -96,7 +106,9 @@ Claude Platform
 
 Your career is yours. It always was - but when the market was hot, it didn't seem like you needed to think about it.
 
-Claude apps](https://claude.com/resources/webinars/dri-ing-your-career)[ArticleOct 13, 2026
+Claude apps
+
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/36e79ccc-1163-4dec-afac-50de83549efc)[ArticleOct 13, 2026
 
 ### Uber's CISO on building an insider threat program for AI
 
@@ -125,14 +137,6 @@ Security teams at Comcast and Booz Allen used Claude Mythos-class models through
 Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
 ‍
 
-Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)[ArticleSep 28, 2026
-
-### Automating eval design and hillclimbing with Claude
-
-Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.
-
-Claude Platform
-
-(opens in new tab)](https://claude.dev/blog/automating-eval-design-and-hillclimbing/)
+Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)
 
 View more

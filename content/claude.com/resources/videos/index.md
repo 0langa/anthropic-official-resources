@@ -8,6 +8,16 @@ Unsubscribe at any time.
 
 Watchable demos, talks, and tutorials from the teams building and using Claude.
 
+[Video10 min watch
+
+### How Factory is building autonomous software with Claude
+
+Factory is bringing autonomy to software engineering with Droids, AI coding agents that handle enterprise work. In this conversation, Co-founder and CEO Matan Grinberg sits down with Anthropic's Kai Gill to talk about his journey founding Factory, how Claude's frontier models handle long-horizon tasks across large codebases so teams can trust agent plans with less oversight, and what it will take to build a fully autonomous "dark factory" for software.
+
+Claude Platform
+
+(opens in new tab)](https://www.youtube.com/watch?v=N6FkmdL0Lg0)
+
 [Video12 min watch
 
 ### Inside Shopify's AI strategy with CTO Mikhail Parakhin
@@ -36,15 +46,16 @@ Claude Design
 
 (opens in new tab)](https://www.youtube.com/watch?v=bVXiNb9RyyI)
 
-[Video3 min watch
+[Video21 min watch
 
-### Getting started with Claude Tag
+### How Ramp engineers work with AI agents at every step
 
-Add Claude to a channel in a team workspace like Slack and it can keep up with your whole team in real time.
+Ramp runs AI agents across its entire engineering lifecycle: writing code, reviewing it, watching production, and root-causing incidents.
+Boris sat down with Austin Ray and Rahul Sengottuvelu of Ramp to talk about how they got there. Building for the models that are coming rather than the ones that exist, giving every engineer uncapped access to intelligence, and the guardrails that make it work. They compare notes on Claude Code setups, loops versus dynamic workflows, and what Claude Fable 5 unlocked.
 
-Claude Tag
+Claude Code
 
-(opens in new tab)](https://www.youtube.com/watch?v=_f_rtbW_uFM)
+(opens in new tab)](https://www.youtube.com/watch?v=i4odXOmgMLw)
 
 [Video10 min watch
 
@@ -56,21 +67,22 @@ Claude Platform
 
 (opens in new tab)](https://www.youtube.com/watch?v=N6FkmdL0Lg0)
 
-[Video12 min watch
-
-### Inside Shopify's AI strategy with CTO Mikhail Parakhin
-
-In this conversation with Boris, Shopify's CTO explains why the real value of working with Claude is in building things that weren't possible before. He describes solving a problem he'd worked on for seven years, how Shopify built a digital twin of the company, and the unique barbell strategy he recommends for getting the most out of Claude.
-
-(opens in new tab)](https://www.youtube.com/watch?v=9GtcbnmldcY)
-
-Featured resource 1 of 5: Inside Shopify's AI strategy with CTO Mikhail Parakhin
+Featured resource 1 of 5: How Factory is building autonomous software with Claude
 
 Advanced filters
 
-Showing 11 of 54 resources
+Showing 11 of 55 resources
 
-[Video10 min watch
+[Video21 min watch
+
+### How Ramp engineers work with AI agents at every step
+
+Ramp runs AI agents across its entire engineering lifecycle: writing code, reviewing it, watching production, and root-causing incidents.
+Boris sat down with Austin Ray and Rahul Sengottuvelu of Ramp to talk about how they got there. Building for the models that are coming rather than the ones that exist, giving every engineer uncapped access to intelligence, and the guardrails that make it work. They compare notes on Claude Code setups, loops versus dynamic workflows, and what Claude Fable 5 unlocked.
+
+Claude Code
+
+(opens in new tab)](https://www.youtube.com/watch?v=i4odXOmgMLw)[Video10 min watch
 
 ### How Factory is building autonomous software with Claude
 
@@ -144,12 +156,6 @@ Opus 5.5 is faster than Opus 5, better at telling you what it did, and 20% cheap
 
 Claude Code
 
-(opens in new tab)](https://www.youtube.com/watch?v=jKRl_CSVxyI)[Video3 min watch
-
-### GPS, explained by Claude Opus 5.5
-
-The satellites never hear a word from your phone.
-
-(opens in new tab)](https://www.youtube.com/watch?v=K-pgPNFcAj4)
+(opens in new tab)](https://www.youtube.com/watch?v=jKRl_CSVxyI)
 
 View more

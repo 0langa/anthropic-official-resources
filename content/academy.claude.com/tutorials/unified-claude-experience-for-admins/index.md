@@ -26,7 +26,7 @@ Members no longer choose between chat and Cowork before they start. Conversation
 ### Spend[](https://academy.claude.com/tutorials/unified-claude-experience-for-admins)
 
 - **Pricing stays usage-based,** and the spend controls you have today apply. Depending on the task, agentic work can use more tokens than a quick chat; Claude Enterprise admins have controls for managing this usage.
-- **Spend limits** can be set at the organization, group, and member level, and pooled group budgets (beta) give a group one shared monthly amount to draw from.
+- **Spend limits** can be set at the organization, group, and member level, and pooled group budgets give a group one shared monthly amount to draw from.
 - **Your model allowlist** applies to unified Claude.
 - **`Efficient mode`** keeps unified Claude on Sonnet and Haiku models, and new sessions start on Claude Sonnet 5.5 at low effort. Turn it on for the whole organization on the `Models` page, or for specific custom roles. Other products aren't affected.
 

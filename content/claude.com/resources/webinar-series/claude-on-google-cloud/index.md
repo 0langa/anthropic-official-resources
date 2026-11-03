@@ -2,8 +2,6 @@
 
 This technical webinar series from Anthropic and Google Cloud is built for developers who want to move from prototype to production. Each session covers a specific implementation topic with live demos and answers to the most common questions developers ask.
 
-[Register for all webinars](https://claude.com/resources/webinar-series/claude-on-google-cloud)
-
 Sign up once and we will send you details for each upcoming session in this series. New topics are added throughout the year.
 
 What each session covers

@@ -2,8 +2,6 @@
 
 Live briefings for technology and security leaders on what it takes to run Claude safely at enterprise scale.
 
-[Register for all webinars](https://claude.com/resources/webinar-series/claude-at-the-frontier-executive-briefings)
-
 A webinar series from Anthropic for executives and the leaders who work alongside them. Each briefing takes on one question an organization faces when it puts AI models and agents into production: how to run the rollout with visibility into how Claude is used, how to think about cybersecurity in the new era of LLM models, how safeguards work, and how to evaluate the newest Claude models. The speakers are the people who do the work: Anthropic’s security and product leaders, our researchers, and guests from customers and partners.
 
 Four sessions are scheduled this fall, starting September 18. Each runs live with audience Q&A. Register once and we will send you the details for every session, plus the recording if you cannot join live.

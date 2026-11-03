@@ -2,7 +2,7 @@
 
 How we handle your data, plus terms, policies, and compliance.
 
-25 articles
+26 articles
 
 [Where can I learn more about Anthropic's Privacy practices?](https://support.claude.com/en/articles/10035659-where-can-i-learn-more-about-anthropic-s-privacy-practices)
 
@@ -53,3 +53,5 @@ How we handle your data, plus terms, policies, and compliance.
 [Claude for Teachers: your data and our terms](https://support.claude.com/en/articles/15926041-claude-for-teachers-your-data-and-our-terms)
 
 [How Claude marks AI-generated content](https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content)
+
+[Anthropic IPO: International Retail Brokers and Selling Agents](https://support.claude.com/en/articles/17889756-anthropic-ipo-international-retail-brokers-and-selling-agents)

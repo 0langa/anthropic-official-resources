@@ -20,7 +20,7 @@ Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
 [## Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-35 posts
+36 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 
@@ -62,7 +62,7 @@ Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
 [## Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-35 posts
+36 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 
@@ -84,17 +84,17 @@ Studies how AI affects people, both individually and collectively.
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 
-- [![How Claude designed protein binders against scorpion neurotoxins](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F43aa58c53210dbeba086649403b628e492145578-2000x1125.jpg&w=3840&q=75)](https://www.anthropic.com/research/claude-scorpion-toxin-binder-design)
+- [![Collage of a vintage lithograph of a schooner heeling in a stormy sea, layered over an aged paper folder and a blue-tinted handwritten ship passenger list.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5b5ef1d3d54a1d98d6775e113b321561c0d25875-1280x1280.jpg&w=3840&q=75)](https://www.anthropic.com/research/agents-judgment-calls)
 - [![Illuminating the frontier](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F949253a4fe1d64bb09bac48fd94a5110c2132916-1280x1280.jpg&w=3840&q=75)](https://www.anthropic.com/institute/measuring-pace-of-ai-development)
 - [![The missing map of the sky](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdde28f2eb899eade347dd07314a9c6b65bfbbb3c-1200x630.png&w=3840&q=75)](https://www.anthropic.com/research/the-missing-map-of-the-sky)
 - [![Scenarios for our economic future](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffccf43cf4e36b0c26b4215861d909aadabbc32ce-1920x1080.png&w=3840&q=75)](https://www.anthropic.com/institute/econ-scenarios)
 - [![Two-panel illustration: on a dark background, five colored bars resembling books on a shelf; on dotted paper, two columns of dots joined by crisscrossing colored lines, like a matching diagram pairing people with books.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F10c6ffec89296778232ace13db067abcf1c9ffcd-1080x1080.jpg&w=3840&q=75)](https://www.anthropic.com/research/project-swap)
 
-[Science](https://www.anthropic.com/science)
+[Alignment](https://www.anthropic.com/research/team/alignment)
 
-Oct 20, 2026[## How Claude designed protein binders against scorpion neurotoxins](https://www.anthropic.com/research/claude-scorpion-toxin-binder-design)
+Oct 27, 2026[## How AI agents shape experts’ judgment calls](https://www.anthropic.com/research/agents-judgment-calls)
 
-We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins.
+As AI does more of the hands-on work, the hope is that experts still make the judgment calls, meaning the decisions with more than one defensible answer. We tested this with 50 professional analysts who did a statistical analysis with Claude Code. On each key decision, we randomly assigned which of two defensible options the agent would favor. Analysts mostly went with the agent’s side, and few named the agent as a reason afterward.
 
 [Alignment](https://www.anthropic.com/research/team/alignment)
 
@@ -126,13 +126,21 @@ To see what works and what breaks when agents are sent into a market, we made a
 
 05
 
-199
+200
 
 ARTICLES
 
 Filter
 
 Most recentGallery view
+
+[Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
+
+Nov 2, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg&w=3840&q=75)
+
+### [Progress on provable inference for large language models](https://www.anthropic.com/research/provable-inference)
+
+We have made progress on a type of cryptographic proof known as a “zkSNARK.” In this post, we share some of that progress, primarily through a system we call FlashProve.
 
 [Science](https://www.anthropic.com/science)
 
@@ -304,7 +312,7 @@ We are sharing the first complete computer-checked proof of Fermat’s Last Theo
 
 [Alignment](https://www.anthropic.com/research/team/alignment)
 
-Aug 28, 2026![Colored paper dots scattered randomly on gray grid paper at left, and arranged in an orderly five-by-five grid on blue grid paper at right.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F17fcacec1e88ea428ffe9acc64cc2f8ad6a2ce33-2000x1125.jpg&w=3840&q=75)
+Aug 28, 2026![Orderly five-by-five grid on blue grid paper at right.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb60cdf4c2dad438f6e862c7f6bb6fdb802b9e4a0-1280x1280.jpg&w=3840&q=75)
 
 ### [Automated researchers can reliably mitigate alignment failures](https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures)
 
@@ -312,18 +320,10 @@ We had Claude autonomously train models to improve their performance on several 
 
 [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-Aug 26, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb17863daa603c4331eaf45ea2969e04f4a523a5f-2000x1125.jpg&w=3840&q=75)
+Aug 26, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0a8a1a86408fb8851f67f3529ab1f9db884955f5-1280x1280.jpg&w=3840&q=75)
 
 ### [Enabling independent research on how people use Claude](https://www.anthropic.com/research/enabling-independent-research)
 
 We ran a pilot giving external researchers access to aggregate, real-world Claude usage data. In this post, we share high-level results and what we learned running this pilot.
-
-[Science](https://www.anthropic.com/science)
-
-Aug 18, 2026![An image of Claude-designed protein binders spelling out Anthropic](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe3758f1bc27af0786f4249cc1ab194fc2c6cce63-3840x2160.png&w=3840&q=75)
-
-### [How Claude is accelerating protein design and analytical chemistry](https://www.anthropic.com/research/Claude-accelerates-protein-design)
-
-In this post, we share two results that show how Claude can help life scientists increase the pace of their research.
 
 See more

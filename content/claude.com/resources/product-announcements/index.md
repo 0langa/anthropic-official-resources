@@ -10,6 +10,14 @@ The latest news about Claude, including new products, features, and updates.
 
 [ArticleOct 28, 2026
 
+### Smart reports, surveys, and pooled group budgets for Claude Enterprise
+
+In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
+
+Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)
+
+[ArticleOct 28, 2026
+
 ### IDC brings Quanta into Claude and adopts Claude across the company
 
 IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
@@ -30,11 +38,13 @@ Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-f
 
 Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)
 
-[ArticleOct 26, 2026
+[ArticleNov 2, 2026
 
-### Expanding Claude for Nonprofits
+### Make long-running agents faster with message threads
 
-Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.](https://claude.com/resources/articles/expanding-claude-for-nonprofits)
+New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
+
+Claude Platform](https://claude.com/resources/articles/message-threads)
 
 [ArticleOct 28, 2026
 
@@ -44,21 +54,19 @@ In many organizations, members have identified the unique work that Claude can u
 
 Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)
 
-[ArticleOct 28, 2026
-
-### IDC brings Quanta into Claude and adopts Claude across the company
-
-IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
-
-Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)
-
-Featured resource 1 of 5: IDC brings Quanta into Claude and adopts Claude across the company
+Featured resource 1 of 5: Smart reports, surveys, and pooled group budgets for Claude Enterprise
 
 Advanced filters
 
-Showing 11 of 161 resources
+Showing 11 of 162 resources
 
-[ArticleOct 28, 2026
+[ArticleNov 2, 2026
+
+### Make long-running agents faster with message threads
+
+New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
+
+Claude Platform](https://claude.com/resources/articles/message-threads)[ArticleOct 28, 2026
 
 ### Smart reports, surveys, and pooled group budgets for Claude Enterprise
 
@@ -106,12 +114,6 @@ HCLTech will bring Claude into the solutions it provides for banks, hospitals, t
 
 ### Introducing Claude Duet
 
-A research preview is available by waitlist today, starting with US Pro, Max, and Ultra subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleOct 21, 2026
-
-### Claude Security now scans continuously and tracks fixes
-
-Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.
-
-Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes)
+A research preview is available by waitlist today, starting with US Pro, Max, and Ultra subscribers.](https://claude.com/resources/articles/claude-duet)
 
 View more

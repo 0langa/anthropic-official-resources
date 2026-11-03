@@ -38,7 +38,7 @@ Within the `Shift + Tab` menu is **Plan Mode**. Plan mode takes your prompt, the
 
 Plan mode is great for planning complex changes or doing a safe code review. Many times you'll be asking Claude to handle multi-step implementations toward a feature, and this is exactly where Plan Mode excels.
 
-![Claude Code with plan mode on, showing the status bar indicator](https://academy.claude.com/assets/media/fb00d337c540c5c34581d96aeef29834c7ceb70bed2bec918a77d1043b310899.jpg)
+![Claude Code with plan mode on, showing the status bar indicator](https://academy.claude.com/assets/v1/fb00d337c540-dnnr12yc.jpg)
 
 ## Example: Add a Dark Mode Toggle[](https://academy.claude.com/courses/claude-code-101/your-first-prompt)
 
@@ -50,7 +50,7 @@ My app needs a dark mode implemented across the entire app. Can you create a tog
 
 Open in Claude Code
 
-![Entering the dark mode prompt in Claude Code with plan mode enabled](https://academy.claude.com/assets/media/39b0125f002f95b0b05695f9426a1596afca1f307fa8458efb2d92e46661dac3.jpg)
+![Entering the dark mode prompt in Claude Code with plan mode enabled](https://academy.claude.com/assets/v1/39b0125f002f-jq26sic7.jpg)
 
 Let Claude plan it out. After reviewing the plan, if it looks good, accept it and let Claude work through it — depending on your permission mode, it may check in with you along the way. At the end, you can see exactly what Claude did and how it reached its conclusions.
 

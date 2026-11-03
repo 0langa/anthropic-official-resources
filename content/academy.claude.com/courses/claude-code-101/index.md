@@ -33,7 +33,7 @@ The final section is about making Claude Code your own. You'll write a `CLAUDE.m
 
 ## Recommended prerequisites[](https://academy.claude.com/courses/claude-code-101)
 
-Basic familiarity with a code editor and the command line. You'll also need a Claude account (Pro, Max, Team, or Enterprise) or an API key. No prior experience with AI tools is assumed.
+Basic familiarity with a code editor and the command line. You'll also need a Claude account (Pro, Max, Ultra, Team, or Enterprise) or an API key. No prior experience with AI tools is assumed.
 
 ## Who this is for[](https://academy.claude.com/courses/claude-code-101)
 
@@ -63,7 +63,7 @@ Get Claude Code running wherever you already work — in the terminal, inside VS
 
 This is where Claude Code becomes part of how you ship. Learn the Explore → Plan → Code → Commit rhythm for tackling real tasks, use the context-management commands to keep long sessions fast and focused, and review what Claude changed, with your own eyes and a fresh-context reviewer, before you commit it.
 
-![](https://academy.claude.com/assets/media/5d26eb990a52ded3d7248173c1c31035c1cfa416ad77c236bf290e139ed8ba80.webp)
+![](https://academy.claude.com/assets/v1/5d26eb990a52-k448uc2r.webp)
 
 ### Customizing Claude Code
 
@@ -71,4 +71,4 @@ This is where Claude Code becomes part of how you ship. Learn the Explore → Pl
 
 Out of the box, Claude Code is general-purpose. This section shows you how to make it yours: write a CLAUDE.md file so it remembers your project's conventions, build subagents and skills for the workflows you repeat, wire in external systems through MCP servers, and add hooks for deterministic guardrails. By the end you'll have a setup tuned to the way your team actually works.
 
-![](https://academy.claude.com/assets/media/0ae9230fa9bd43f8d0cf694b149bd8b311a893f79b94b660136310909e2bd842.webp)![](https://academy.claude.com/assets/media/2e7220adae7f1c9e2bc358e24b08fea8a5256f660ab695cd5208b24fb0504d4a.webp)![](https://academy.claude.com/assets/media/805d1fe947397190164712de4dff83d32460cb51718ec55e40ef47ed3117fbc9.webp)
+![](https://academy.claude.com/assets/media/0ae9230fa9bd43f8d0cf694b149bd8b311a893f79b94b660136310909e2bd842.webp)![](https://academy.claude.com/assets/v1/2e7220adae7f-nenuiu1r.webp)![](https://academy.claude.com/assets/media/805d1fe947397190164712de4dff83d32460cb51718ec55e40ef47ed3117fbc9.webp)

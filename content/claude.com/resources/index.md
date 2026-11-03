@@ -4,25 +4,6 @@ Explore what’s new, learn the workflows, and evaluate what Claude can do for y
 
 Search AI agents`⌘K`
 
-- [ArticleSep 23, 2026
-
-  ### How we made claude.ai 3x faster in two weeks
-
-  Claude apps
-
-  (opens in new tab)](https://claude.dev/blog/how-we-made-claude-ai-faster/)
-- [ArticleSep 14, 2026
-
-  ### How healthcare organizations use Claude Tag
-
-  Claude Tag](https://claude.com/resources/articles/how-healthcare-organizations-use-claude-tag)
-- [ArticleOct 8, 2026
-
-  ### Building effective agent automations
-
-  Claude Platform
-
-  (opens in new tab)](https://claude.dev/blog/building-effective-agent-automations/)
 - [ArticleAug 21, 2026
 
   ### The AI-native SDLC playbook
@@ -45,6 +26,21 @@ Search AI agents`⌘K`
   ### Claude Opus 5.5 rebuilds Earthrise in 3D, down to the second
 
   (opens in new tab)](https://www.youtube.com/watch?v=Ov-B6K1EsaI)
+- [Video3 min watch
+
+  ### How AI is being used in humanitarian work
+
+  (opens in new tab)](https://www.youtube.com/watch?v=oZgcAsfvS_g)
+- [ArticleSep 23, 2026
+
+  ### How to prepare for AI-driven code modernization projects
+
+  Claude Code](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects)
+- [ArticleJun 3, 2026
+
+  ### How Anthropic enables self-service data analytics with Claude
+
+  Claude Code](https://claude.com/resources/articles/how-anthropic-enables-self-service-data-analytics-with-claude)
 
 By topicBy type
 
@@ -60,27 +56,23 @@ The latest news about Claude, including new products, features, and updates.
 
 [See more](https://claude.com/resources/product-announcements)
 
-![Claude Duet](https://i.ytimg.com/vi/Fb-68zqcSVs/maxresdefault.jpg)
+![Video thumbnail](https://i.ytimg.com/vi/o6h3IpqzQGc/maxresdefault.jpg)
 
 Article
 
-### Introducing Claude Duet
+### Introducing artifacts for legal work
 
-A research preview is available by waitlist today, starting with US Pro, Max, and Ultra subscribers.
+Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
 
-[Learn more](https://claude.com/resources/articles/claude-duet)
+[Learn more](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)
 
-[ArticleOct 23, 2026
+[ArticleNov 2, 2026
 
-### Claude Duet Safety, Privacy, and Security
+### Make long-running agents faster with message threads
 
-Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)[ArticleOct 8, 2026
+New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
 
-### Build live dashboards and animate explainers with Claude
-
-Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
-
-Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 28, 2026
+Claude Platform](https://claude.com/resources/articles/message-threads)[ArticleOct 28, 2026
 
 ### Smart reports, surveys, and pooled group budgets for Claude Enterprise
 
@@ -92,17 +84,19 @@ Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-p
 
 IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
 
-Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)[ArticleOct 28, 2026
-
-### Introducing artifacts for legal work
-
-Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
-
-Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)[ArticleOct 27, 2026
+Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)[ArticleOct 27, 2026
 
 ### Claude for Financial Advisors
 
-Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)
+Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)[ArticleOct 26, 2026
+
+### Expanding Claude for Nonprofits
+
+Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.](https://claude.com/resources/articles/expanding-claude-for-nonprofits)[ArticleOct 23, 2026
+
+### Claude Cowork and chat come together for Enterprise
+
+Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)
 
 ## Best practices
 
@@ -168,33 +162,36 @@ Ideas and points of view on where AI is headed, from builders and leaders thinki
 
 [See more](https://claude.com/resources/perspectives)
 
-![How Factory is building autonomous software with Claude](https://assets.claude.com/cb73c5210f2a19db4dc73e3cf37772518df70e49.jpg?w=2400&q=75&fm=webp&fit=max)
+![Ramp](https://i.ytimg.com/vi/i4odXOmgMLw/maxresdefault.jpg)
 
 Video
 
-### How Factory is building autonomous software with Claude
+### How Ramp engineers work with AI agents at every step
 
-Factory is bringing autonomy to software engineering with Droids, AI coding agents that handle enterprise work. In this conversation, Co-founder and CEO Matan Grinberg sits down with Anthropic's Kai Gill to talk about his journey founding Factory, how Claude's frontier models handle long-horizon tasks across large codebases so teams can trust agent plans with less oversight, and what it will take to build a fully autonomous "dark factory" for software.
+Ramp runs AI agents across its engineering lifecycle: writing code, reviewing it, watching production, and root-causing incidents.
 
 [WebinarUpcoming | Nov 5, 2026
 
 ### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
 
-A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)[ArticleOct 22, 2026
+A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)[Video21 min watch
 
-### Building agents: When to fold subagents into your main agent loop
+### How Ramp engineers work with AI agents at every step
 
-When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
+Ramp runs AI agents across its entire engineering lifecycle: writing code, reviewing it, watching production, and root-causing incidents.
+Boris sat down with Austin Ray and Rahul Sengottuvelu of Ramp to talk about how they got there. Building for the models that are coming rather than the ones that exist, giving every engineer uncapped access to intelligence, and the guardrails that make it work. They compare notes on Claude Code setups, loops versus dynamic workflows, and what Claude Fable 5 unlocked.
 
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[Video33 min watch
+Claude Code
 
-### Building secure agents for knowledge work
+(opens in new tab)](https://www.youtube.com/watch?v=i4odXOmgMLw)[Video10 min watch
 
-Katelyn Lesse sat down with Dan Shipper and Willie William at Every to talk about the AI coworker they built.
+### How Factory is building autonomous software with Claude
+
+Factory is bringing autonomy to software engineering with Droids, AI coding agents that handle enterprise work. In this conversation, Co-founder and CEO Matan Grinberg sits down with Anthropic's Kai Gill to talk about his journey founding Factory, how Claude's frontier models handle long-horizon tasks across large codebases so teams can trust agent plans with less oversight, and what it will take to build a fully autonomous "dark factory" for software.
 
 Claude Platform
 
-(opens in new tab)](https://www.youtube.com/watch?v=z7cNbsr3b5s)
+(opens in new tab)](https://www.youtube.com/watch?v=N6FkmdL0Lg0)
 
 ## Insights
 
@@ -258,13 +255,13 @@ Claude Platform](https://claude.com/resources/articles/building-agents-when-to-f
 
 ### Introducing Claude Duet
 
-A research preview is available by waitlist today, starting with US Pro, Max, and Ultra subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleOct 8, 2026
+A research preview is available by waitlist today, starting with US Pro, Max, and Ultra subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleNov 2, 2026
 
-### Build live dashboards and animate explainers with Claude
+### Make long-running agents faster with message threads
 
-Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
+New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
 
-Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)[ArticleOct 28, 2026
+Claude Platform](https://claude.com/resources/articles/message-threads)[ArticleOct 28, 2026
 
 ### Smart reports, surveys, and pooled group budgets for Claude Enterprise
 
@@ -354,7 +351,16 @@ Watchable demos, talks, and tutorials from the teams building and using Claude.
 
 [See more](https://claude.com/resources/videos)
 
-[Video10 min watch
+[Video21 min watch
+
+### How Ramp engineers work with AI agents at every step
+
+Ramp runs AI agents across its entire engineering lifecycle: writing code, reviewing it, watching production, and root-causing incidents.
+Boris sat down with Austin Ray and Rahul Sengottuvelu of Ramp to talk about how they got there. Building for the models that are coming rather than the ones that exist, giving every engineer uncapped access to intelligence, and the guardrails that make it work. They compare notes on Claude Code setups, loops versus dynamic workflows, and what Claude Fable 5 unlocked.
+
+Claude Code
+
+(opens in new tab)](https://www.youtube.com/watch?v=i4odXOmgMLw)[Video10 min watch
 
 ### How Factory is building autonomous software with Claude
 
@@ -384,12 +390,4 @@ Make slides with Claude starting from a voice memo. Nate, a designer at Anthropi
 
 Claude Design
 
-(opens in new tab)](https://www.youtube.com/watch?v=bVXiNb9RyyI)[Video3 min watch
-
-### Getting started with Claude Tag
-
-Add Claude to a channel in a team workspace like Slack and it can keep up with your whole team in real time.
-
-Claude Tag
-
-(opens in new tab)](https://www.youtube.com/watch?v=_f_rtbW_uFM)
+(opens in new tab)](https://www.youtube.com/watch?v=bVXiNb9RyyI)

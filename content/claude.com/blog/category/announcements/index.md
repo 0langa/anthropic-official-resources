@@ -24,13 +24,13 @@ A research preview is available by waitlist today, starting with US Pro, Max, an
 
 ![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
-[ArticleOct 8, 2026
+[ArticleNov 2, 2026
 
-### Build live dashboards and animate explainers with Claude
+### Make long-running agents faster with message threads
 
-Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
+New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
 
-Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
+Claude Platform](https://claude.com/resources/articles/message-threads)
 
 [ArticleOct 28, 2026
 
@@ -60,9 +60,15 @@ Featured resource 1 of 5: Building agents: When to fold subagents into your main
 
 Advanced filters(1)
 
-Showing 12 of 151 resources
+Showing 12 of 152 resources
 
-[ArticleOct 28, 2026
+[ArticleNov 2, 2026
+
+### Make long-running agents faster with message threads
+
+New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
+
+Claude Platform](https://claude.com/resources/articles/message-threads)[ArticleOct 28, 2026
 
 ### Smart reports, surveys, and pooled group budgets for Claude Enterprise
 
@@ -116,12 +122,6 @@ A research preview is available by waitlist today, starting with US Pro, Max, an
 
 Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.
 
-Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes)[ArticleOct 15, 2026
-
-### Code Review is now generally available
-
-Catch more bugs before they reach production.
-
-Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)
+Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes)
 
 View more

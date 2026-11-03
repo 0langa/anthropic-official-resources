@@ -30,7 +30,7 @@ In "Manually approve," Claude checks with you before it acts. What that looks li
 
 Claude creates a plan from your prompt, which you can approve before Claude starts. The plan specifies which websites you're allowing Claude to access, as well as the approach it will follow:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1793536200&amp;signature=35b9c29773f726706bcffeeaba8a900111502ba1be19e69ba0fd33fc5bdedd45&amp;req=dSgjFcp8nYZdXvMW1HO4zYqyZMFI%2F4S1gN0ADj5oqFB0t3CmwcKAe5PbVKMt%0AB85nKiP%2F%2BeoxoErrhHg%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1793712600&amp;signature=7447ff7584ba1c60318f0999826ded96518e9cd6085c0b6c5318256e08b8ea28&amp;req=dSgjFcp8nYZdXvMW1HO4zYqyZMFK%2FYCxgN0ADj5oqFAWP6zaUh02rofzDKNi%0Am6f8OGOFLJsj%2FOc%2Ff5U%3D%0A)
 
 Note that Claude will only use the websites listed in the plan, so you’ll need to manually approve any additional access requests.
 
@@ -64,7 +64,7 @@ When you choose "Skip all approvals," Claude doesn't pause to ask, and nothing c
 
 There are some websites on which Claude requires approval for every action. If you navigate to one of these sites, a **New permissions required** prompt will appear in the extension side panel, Claude Cowork, or Claude Code where Claude will ask for permission before accessing the page or taking any action.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1793536200&amp;signature=824c29992e634fec92d7e0beb349d5374eb3818b9b24039a416fd7f6802a4e46&amp;req=diYnEsB5nYldXPMW1HO4zZ3Nq2V1iyru7A4lHPBihAWbfUgJFEi%2FDWfkpQsn%0AQFo7J3Ky0SQ9SeURlYg%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1793712600&amp;signature=383b9deeff0913e51165226f3a4c1aa29a80748c7ad122c2e38de4713762d6ca&amp;req=diYnEsB5nYldXPMW1HO4zZ3Nq2V3iS7q7A4lHPBihAWbsSGX%2B89aMoCNKYhs%0AYmDiAa7%2B6YJE0LjAY5M%3D%0A)
 
 ### Permission options
 
