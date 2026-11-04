@@ -77,7 +77,7 @@ Our new sandboxed bash tool and Claude Code on the web offer substantial improve
 To get started with these tools:
 
 1. Run `claude --sandbox` and check out [our docs](https://docs.claude.com/en/docs/claude-code/sandboxing) on how to configure this sandbox.
-2. Go to [claude.com/code](http://claude.ai/redirect/claudedotcom.v1.ae2f09b4-86d9-4d07-b402-8877fb3802e0/code) to try out Claude Code on the web.
+2. Go to [claude.com/code](http://claude.ai/redirect/claudedotcom.v1.ecd3bdc3-ce11-4f34-9c6a-d261e9cad2fb/code) to try out Claude Code on the web.
 
 ‍
 
@@ -101,7 +101,13 @@ User feedback plays a crucial role in Claude's improvement. By analyzing user in
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 28, 2026
+[ArticleNov 2, 2026
+
+### Make long-running agents faster with message threads
+
+New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
+
+Claude Platform](https://claude.com/resources/articles/message-threads)[ArticleOct 28, 2026
 
 ### Smart reports, surveys, and pooled group budgets for Claude Enterprise
 
@@ -119,11 +125,7 @@ Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://clau
 
 Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
 
-Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)[ArticleOct 27, 2026
-
-### Claude for Financial Advisors
-
-Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)
+Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)
 
 ## Transform how your organization operates with Claude
 

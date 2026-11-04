@@ -205,7 +205,7 @@ September was the strongest month of the year. Mid-market renewals that were due
 
 Source: CRM, Q3 close, October 2Northwind, page 2
 
-Heading 2
+Heading 2
 
 ThemeCustom
 
@@ -339,7 +339,7 @@ September was the strongest month of the year. Mid-market renewals that were due
 
 Source: CRM, Q3 close, October 2Northwind, page 2
 
-Heading 2
+Heading 2
 
 
 

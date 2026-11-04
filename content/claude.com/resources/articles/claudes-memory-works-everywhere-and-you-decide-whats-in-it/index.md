@@ -46,7 +46,13 @@ Visit [Settings > Memory](https://claude.ai/new) to turn memory on and control w
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 28, 2026
+[ArticleNov 2, 2026
+
+### Make long-running agents faster with message threads
+
+New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
+
+Claude Platform](https://claude.com/resources/articles/message-threads)[ArticleOct 28, 2026
 
 ### Smart reports, surveys, and pooled group budgets for Claude Enterprise
 
@@ -64,11 +70,7 @@ Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://clau
 
 Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
 
-Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)[ArticleOct 27, 2026
-
-### Claude for Financial Advisors
-
-Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)
+Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)
 
 ## Transform how your organization operates with Claude
 

@@ -59,6 +59,8 @@ He expects this to become the default for engineering teams. In a year or two, h
 
 Get started with [Claude Fable 5](https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5).
 
+More from this series: [Rakuten](https://claude.com/resources/articles/working-at-the-frontier-rakuten) and [Hebbia](https://claude.com/resources/articles/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail)
+
 ## Related articles
 
 Explore more product news and best practices for teams building with Claude.

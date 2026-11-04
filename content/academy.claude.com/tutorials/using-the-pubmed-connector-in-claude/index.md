@@ -44,10 +44,11 @@ Learn about [finding and connecting tools(opens in new tab)](https://support.cla
 
 **For Claude Code Users**
 
-1. Command: `/plugin marketplace add anthropics/life-sciences`
-2. Command: `/plugin install pubmed@life-sciences`
-3. Restart Claude Code
-4. Verify that the server is connected with `/mcp`
+1. Connect **PubMed** in Claude by following the steps above
+2. Sign in to Claude Code with the same Claude account (run `/login` to switch accounts), then restart Claude Code
+3. Run `/mcp` and check that the connector appears in the claude.ai section of the list (if it isn't shown, select **Show unused connectors** at the end of that section)
+
+Learn about [using connectors from Claude in Claude Code(opens in new tab)](https://code.claude.com/docs/en/mcp).
 
 ## Using the PubMed MCP with the Messages API[](https://academy.claude.com/tutorials/using-the-pubmed-connector-in-claude)
 
@@ -77,8 +78,8 @@ import anthropic
 client = anthropic.Anthropic()
 
 response = client.beta.messages.create(
-    model="claude-sonnet-4-5",
-    max_tokens=1000,
+    model="claude-sonnet-5-5",
+    max_tokens=4096,
     messages=[{"role": "user", "content": "Find recent papers on CRISPR gene editing in cancer treatment"}],
     mcp_servers=[{"type": "url", "url": "https://pubmed.mcp.claude.com/mcp", "name": "pubmed"}],
     tools=[{"type": "mcp_toolset", "mcp_server_name": "pubmed"}],

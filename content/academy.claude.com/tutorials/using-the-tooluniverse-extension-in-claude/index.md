@@ -140,14 +140,7 @@ Learn about [installing desktop extensions from the directory(opens in new tab)]
 
 **For Claude Code Users**
 
-1. Command:
-
-   `/plugin marketplace add anthropics/life-sciences`
-2. Command:
-
-   `/plugin install tool-universe@life-sciences`
-3. Restart Claude Code
-4. Verify that the server is connected with `/mcp`
+Follow the [ToolUniverse guide for Claude Code(opens in new tab)](https://zitniklab.hms.harvard.edu/ToolUniverse/guide/building_ai_scientists/claude_code.html).
 
 Technical details of the ToolUniverse integration can be found in [ToolUniverse’s MCP Server Documentation(opens in new tab)](https://github.com/mims-harvard/ToolUniverse).
 

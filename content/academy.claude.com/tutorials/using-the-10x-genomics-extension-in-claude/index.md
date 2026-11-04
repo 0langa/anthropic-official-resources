@@ -64,16 +64,6 @@ The 10x Genomics integration is available as a desktop extension in the Claude D
 
 Learn about [installing desktop extensions from the directory(opens in new tab)](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop).
 
-**For Claude Code Users**
-
-1. Command: `/plugin marketplace add anthropics/life-sciences`
-2. Command: `/plugin install 10x-genomics@life-sciences`
-3. Restart Claude Code
-4. Command: `/plugin`
-5. Navigate to “Manage and uninstall plugins" and configure the 10x Genomics MCP with your access token
-6. Restart Claude Code one more time
-7. Verify that the server is connected with `/mcp`
-
 ## Common use cases[](https://academy.claude.com/tutorials/using-the-10x-genomics-extension-in-claude)
 
 - Set up a Cell Ranger count analysis

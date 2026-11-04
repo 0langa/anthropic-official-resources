@@ -21,7 +21,7 @@ The Benevity integration relies on Claude's ability to [use remote connectors(op
 
 ## Who can use this[](https://academy.claude.com/tutorials/using-the-benevity-connector-in-claude)
 
-Available to all paid Claude plan users (Pro, Max, Team, or Enterprise). No Benevity account or authentication is required.
+Available to all paid Claude plan users (Pro, Max, Ultra, Team, or Enterprise). No Benevity account or authentication is required.
 
 ## Setting up the connector[](https://academy.claude.com/tutorials/using-the-benevity-connector-in-claude)
 

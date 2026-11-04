@@ -2,6 +2,8 @@
 
 Get the fundamentals in place so your team can start using Cowork. Your progress saves in this browser.
 
+x
+
 0 of 18 complete
 
 ### Plan

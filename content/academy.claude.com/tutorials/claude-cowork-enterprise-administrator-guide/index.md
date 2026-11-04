@@ -19,7 +19,7 @@ Claude Cowork sits alongside Chat in [Claude.ai(opens in new tab)](https://claud
 ### Requirements[](https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide)
 
 - **Claude Desktop app:** Required for work on local files, desktop applications, or the browser. Available for macOS, Windows, and Linux (Debian and Ubuntu, in beta). Claude Cowork is also available on the web and in the Claude mobile app, subject to your organization’s settings.
-- **Claude subscription:** Claude Cowork is available to paid Claude plans (Pro, Max, Team, and Enterprise), with some features still in research preview. Learn more [here(opens in new tab)](https://claude.com/pricing).
+- **Claude subscription:** Claude Cowork is available to paid Claude plans (Pro, Max, Ultra, Team, and Enterprise), with some features still in research preview. Learn more [here(opens in new tab)](https://claude.com/pricing).
 - **Active internet connection:** Required throughout the session.
 - **Connectors:** Claude Cowork is most powerful when you connect it to your favorite apps, services, and data sources via connectors.
 

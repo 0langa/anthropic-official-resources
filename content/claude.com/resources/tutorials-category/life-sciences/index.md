@@ -94,7 +94,11 @@ Build your skills with written guides and video lessons, from quick tasks to com
 
 ## Claude Platform
 
-[![](https://academy.claude.com/assets/v1/thumbnail.dark-o4itmdcn.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-o4itmdcn.png)
+[### Set up Claude on Google Cloud (Anthropic managed)
+
+·25 min](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-anthropic-managed)[### Set up Claude on Google Cloud (Google managed)
+
+·20 min](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-google-managed)[![](https://academy.claude.com/assets/v1/thumbnail.dark-o4itmdcn.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-o4itmdcn.png)
 
 ### What is Claude Managed Agents?
 

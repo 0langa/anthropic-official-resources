@@ -1,6 +1,6 @@
 # Security and compliance
 
-19 articles
+20 articles
 
 [Does Anthropic Act as a Data Processor or Controller?](https://support.claude.com/en/articles/9267385-does-anthropic-act-as-a-data-processor-or-controller)
 
@@ -39,3 +39,5 @@
 [Inference hooks overview](https://support.claude.com/en/articles/16059458-inference-hooks-overview)
 
 [Use Claude Security](https://support.claude.com/en/articles/14661296-use-claude-security)
+
+[Run your endpoint detection and response (EDR) sensor in Claude Cowork on Claude Desktop](https://support.claude.com/en/articles/17828685-run-your-endpoint-detection-and-response-edr-sensor-in-claude-cowork-on-claude-desktop)

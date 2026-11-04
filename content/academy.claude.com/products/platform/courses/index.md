@@ -2,7 +2,7 @@
 
 
 
-7 courses
+8 courses
 
 [## Building with the Claude API
 
@@ -20,7 +20,11 @@ This course teaches developers to build on the Claude Platform from the ground u
 
 Integrating and deploying Claude through Amazon Bedrock: API implementation, tool use, RAG pipelines, agents, and production-ready applications on AWS.
 
-·65 lessons · 8 quizzes·8 hr](https://academy.claude.com/courses/claude-with-amazon-bedrock)[## Introduction to Model Context Protocol
+·65 lessons · 8 quizzes·8 hr](https://academy.claude.com/courses/claude-with-amazon-bedrock)[## Introduction to evals
+
+Build a small eval on your own data to choose a Claude model by accuracy first and cost second, fix the prompt before you upgrade, and keep checking after launch.
+
+·4 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduction-to-evals)[## Introduction to Model Context Protocol
 
 Build MCP servers and clients from scratch with the Python SDK, covering the three core primitives—tools, resources, and prompts—that connect Claude to external services.
 

@@ -119,10 +119,11 @@ Learn about [finding and connecting tools(opens in new tab)](https://support.cla
 
 **For Claude Code Users**
 
-1. Command: `/plugin marketplace add anthropics/life-sciences`
-2. Command: `/plugin install owkin@life-sciences`
-3. Restart Claude Code
-4. Verify that the server is connected with /mcp
+1. Connect **Owkin** in Claude by following the steps above
+2. Sign in to Claude Code with the same Claude account (run `/login` to switch accounts), then restart Claude Code
+3. Run `/mcp` and check that the connector appears in the claude.ai section of the list (if it isn't shown, select **Show unused connectors** at the end of that section)
+
+Learn about [using connectors from Claude in Claude Code(opens in new tab)](https://code.claude.com/docs/en/mcp).
 
 Technical details of the Owkin integration can be found in [Owkin’s MCP Server Documentation(opens in new tab)](https://docs.owkin.com/connect-and-integrate/pathology-explorer-mcp-ai-powered-tissue-analysis).
 

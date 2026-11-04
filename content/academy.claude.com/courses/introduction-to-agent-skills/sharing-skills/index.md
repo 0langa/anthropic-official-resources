@@ -60,7 +60,7 @@ Plugins are a way to extend Claude Code with custom functionality designed to be
 
 After you distribute your plugin to a marketplace, other users can discover and install it into Claude Code for themselves.
 
-![Claude Code Discover plugins, a searchable list of 46 plugins from claude-plugins-official with install counts.](https://academy.claude.com/assets/media/de5659fdb86772a1528fe14df72a785694c848f4e93e5047ff4ce0f448fe874f.png)
+![Claude Code Discover plugins, a searchable list of plugins from claude-plugins-official with install counts.](https://academy.claude.com/assets/media/de5659fdb86772a1528fe14df72a785694c848f4e93e5047ff4ce0f448fe874f.png)
 
 This approach is best when your skills aren't too project-specific and can be useful to community members beyond your immediate team.
 

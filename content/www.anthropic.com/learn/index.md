@@ -4,6 +4,10 @@ Learn to use AI safely, effectively, and with intention. Free courses, tutorials
 
 [Get started](https://academy.claude.com/start)[Browse all resources](https://academy.claude.com/all)
 
+What do you want to learn?
+
+Free courses on Claude and AI, from Anthropic.
+
 ## Dive into a product
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-khg817wt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-h1zlg9b3.png)

@@ -14,7 +14,7 @@ Claude for Life Sciences enhances Claude with specialized capabilities for life 
 
 ## How do I access life sciences tools and features?[](https://academy.claude.com/tutorials/getting-started-with-claude-for-life-sciences)
 
-Individuals can access Claude for Life Sciences features and tools from a [Claude Pro(opens in new tab)](https://claude.com/pricing) or [Claude Max(opens in new tab)](https://claude.com/pricing) account, and teams can access through [Claude for Work(opens in new tab)](https://www.claude.com/pricing/team). For questions about Claude for Life Sciences for enterprise contact our [Sales team(opens in new tab)](https://claude.com/contact-sales/life-sciences).
+Individuals can access Claude for Life Sciences features and tools from a [Claude Pro(opens in new tab)](https://claude.com/pricing), [Claude Max(opens in new tab)](https://claude.com/pricing), or [Claude Ultra(opens in new tab)](https://claude.com/pricing) account, and teams can access through [Claude for Work(opens in new tab)](https://www.claude.com/pricing/team). For questions about Claude for Life Sciences for enterprise contact our [Sales team(opens in new tab)](https://claude.com/contact-sales/life-sciences).
 
 ## **Connectors for the life sciences development cycle**[](https://academy.claude.com/tutorials/getting-started-with-claude-for-life-sciences)
 

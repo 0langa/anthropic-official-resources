@@ -1,3 +1,4 @@
+https://academy.claude.com/courses/introduction-to-evals/badge
 https://academy.claude.com/courses/tool-use-with-the-messages-api/**call.input
 https://academy.claude.com/dashboard
 https://academy.claude.com/mcp
@@ -69,7 +70,6 @@ https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents
 https://support.claude.com/en/articles/14855664-use-claude-for-outlook
 https://support.claude.com/en/articles/15330089
 https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion
-https://support.claude.com/en/articles/17828685-run-your-endpoint-detection-and-response-edr-sensor-in-claude-cowork
 https://support.claude.com/en/articles/7996866-how-long-do-you-store-personal-data
 https://support.claude.com/en/articles/9945670-using-the-github-integration
 https://support.claude.com/en/articles/9945689-claude-for-engineering

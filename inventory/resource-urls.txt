@@ -495,6 +495,13 @@ https://academy.claude.com/courses/introduction-to-claude-tag/refine-claudes-lea
 https://academy.claude.com/courses/introduction-to-claude-tag/review-your-teams-habits
 https://academy.claude.com/courses/introduction-to-claude-tag/tag-claude-and-see-what-happens
 https://academy.claude.com/courses/introduction-to-claude-tag/write-a-request-claude-can-work-with
+https://academy.claude.com/courses/introduction-to-evals
+https://academy.claude.com/courses/introduction-to-evals/badge
+https://academy.claude.com/courses/introduction-to-evals/build-a-minimum-viable-eval
+https://academy.claude.com/courses/introduction-to-evals/course-quiz
+https://academy.claude.com/courses/introduction-to-evals/evals-in-production
+https://academy.claude.com/courses/introduction-to-evals/iterate-the-prompt-before-you-upgrade-the-model
+https://academy.claude.com/courses/introduction-to-evals/when-to-use-what-model
 https://academy.claude.com/courses/introduction-to-model-context-protocol
 https://academy.claude.com/courses/introduction-to-model-context-protocol/accessing-resources
 https://academy.claude.com/courses/introduction-to-model-context-protocol/badge
@@ -606,6 +613,7 @@ https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-success-g
 https://academy.claude.com/tutorials/claude-for-teachers-in-action
 https://academy.claude.com/tutorials/claude-for-word-turn-a-draft-into-a-finished-document
 https://academy.claude.com/tutorials/claude-tag-admin-guide
+https://academy.claude.com/tutorials/cloud-session-or-remote-control
 https://academy.claude.com/tutorials/configuration-and-multi-file-skills
 https://academy.claude.com/tutorials/connect-your-tools-to-unlock-a-smarter-more-capable-ai-companion
 https://academy.claude.com/tutorials/create-a-design-system-with-claude
@@ -656,6 +664,8 @@ https://academy.claude.com/tutorials/prompting-strategies-for-financial-analysis
 https://academy.claude.com/tutorials/prototype-ai-powered-apps-with-claude-artifacts
 https://academy.claude.com/tutorials/refining-a-powerpoint-with-claude
 https://academy.claude.com/tutorials/scaling-workflows-with-claude-cowork-at-your-organization
+https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-anthropic-managed
+https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-google-managed
 https://academy.claude.com/tutorials/sharing-skills
 https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome
 https://academy.claude.com/tutorials/tasks-to-try-with-claude-tag-in-your-workspace
@@ -3790,6 +3800,7 @@ https://platform.claude.com/docs/en/build-with-claude/structured-outputs?sdk_lan
 https://platform.claude.com/docs/en/build-with-claude/structured-outputs?sdk_languages=http
 https://platform.claude.com/docs/en/build-with-claude/task-budgets
 https://platform.claude.com/docs/en/build-with-claude/task-budgets?sdk_languages=curl
+https://platform.claude.com/docs/en/build-with-claude/text-watermark
 https://platform.claude.com/docs/en/build-with-claude/thinking
 https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost
 https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost?sdk_languages=curl
@@ -4641,6 +4652,7 @@ https://support.claude.com/en/articles/15520349
 https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile
 https://support.claude.com/en/articles/15537633
 https://support.claude.com/en/articles/15537633-authorize-mcp-connectors-for-your-entire-organization
+https://support.claude.com/en/articles/15537633-auto-connect-your-organization-s-apps-to-claude
 https://support.claude.com/en/articles/15575654
 https://support.claude.com/en/articles/15575654-claude-tag-launch-promo-for-claude-team-and-enterprise
 https://support.claude.com/en/articles/15591275-child-safety-guidance-for-developers

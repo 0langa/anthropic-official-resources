@@ -5,7 +5,7 @@ Learn how Claude Code breaks down barriers between technical and non-technical t
 - Category[Best practices](https://claude.com/resources/best-practices)
 - ProductClaude Code
 - DateOctober 30, 2025
-- Reading time8 min
+- Reading time9 min
 - ShareCopy link
 
 Customer story: Brex
@@ -35,6 +35,10 @@ What emerged from these conversations wasn't just a story about productivity gai
 For Hércules Gimenes and the Product AI team, Claude Code represented something more profound than a new tool.
 
 "Claude Code offers a mindset shift," he explained. "Instead of being in the driver's seat, you're the reviewer of the changes that Claude introduces. You're guiding the vision and direction."
+
+Anthropic's own approach to this shift is in [The AI-native SDLC playbook](https://claude.com/resources/articles/the-ai-native-sdlc-playbook)
+
+For how the Claude Code team handles review itself, see [How the Claude Code team does code review](https://claude.dev/blog/solving-code-review-at-anthropic/)
 
 This shift has redefined what "writing code" means at Brex—a reflection of the company’s AI-first principles in action. Rather than spending time on implementation details, engineers now focus on architecture and problem-solving. The result? Better code, not just faster code.
 
@@ -76,7 +80,7 @@ But perhaps the most significant unexpected benefit has been Claude Code's role 
 
 As Claude Code adoption spread across Brex, teams developed best practices that have become standard:
 
-- **Structured Context Management**: Each major directory in the monorepo now has its own CLAUDE.md file containing domain-specific context. New engineers can understand Mastercard integration details or banking regulations without relying on tribal knowledge.
+- **Structured Context Management**: Each major directory in the monorepo now has [its own CLAUDE.md file](https://claude.com/resources/articles/using-claude-md-files) containing domain-specific context. New engineers can understand Mastercard integration details or banking regulations without relying on tribal knowledge.
 - **Automated Documentation**: The Product AI team implemented CI/CD checks that verify when code changes might outdate documentation, prompting updates. "Having up-to-date documentation is something you can trust—it's so powerful," Gimenes emphasized.
 - **Context-Aware Commands**: Teams created custom commands that automatically load relevant context. The /submit-pr command, for instance, fetches git status, recent changes, and related PR information before executing.
 - **Start with Discovery**: "Being able to find what you need is not really stored in some staff engineer's brain anymore," Marwaha observed. "It's in the codebase, accessible to everyone."

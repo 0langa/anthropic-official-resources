@@ -21,7 +21,7 @@ We put together this guide to fill that gap. It covers everything from technical
 - Patterns that have worked across different use cases
 - How to test, iterate, and distribute your skills
 
-If you know the top 2-3 workflows you want to automate, expect about 15-30 minutes to build and test your first working skill using the skill-creator.
+If you know the top 2-3 workflows you want to automate, expect about 15-30 minutes to build and test your first working skill using [the skill-creator](https://claude.com/resources/articles/improving-skill-creator-test-measure-and-refine-agent-skills).
 
 **Who this is for:**
 
@@ -31,6 +31,8 @@ If you know the top 2-3 workflows you want to automate, expect about 15-30 minut
 - Teams looking to standardize how Claude works across their organization
 
 Download the guide [here](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf?hsLang=en).
+
+For a shorter walkthrough with examples, see [How to create Skills: Key steps, limitations, and examples](https://claude.com/resources/articles/how-to-create-skills-key-steps-limitations-and-examples), and [how the Claude Code team uses skills day to day](https://claude.dev/blog/lessons-from-building-claude-code-how-we-use-skills/).
 
 ## Related articles
 

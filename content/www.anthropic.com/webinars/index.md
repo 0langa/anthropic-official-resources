@@ -168,21 +168,29 @@ Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-fin
 
 We open on an incident. An alert fires in a Slack channel and, without anyone typing a prompt, Claude reads the logs, repos and…
 
-Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)[WebinarOn demand
+Claude Tag
+
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/1c9579ed-c917-4e8c-b2f8-fb56c077a7d5)[WebinarOn demand
 
 ### Inside the Cyber Verification Program: Tiers, Migration, and Best Practices
 
-Join the teams behind the program for a walkthrough of the Cyber Verification Program.](https://claude.com/resources/webinars/inside-the-cyber-verification-program)[WebinarOn demand
+Join the teams behind the program for a walkthrough of the Cyber Verification Program.
+
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/d894bd8f-2433-4bbe-a3f8-754729d14847)[WebinarOn demand
 
 ### Measuring AI Fluency at Your Organization
 
-Seat counts don't show if AI is working. Kristen Swanson shares how to measure AI Fluency beyond usage, without a huge lift.](https://claude.com/resources/webinars/measuring-ai-fluency-at-your-organization)[WebinarOct 13, 2026
+Seat counts don't show if AI is working. Kristen Swanson shares how to measure AI Fluency beyond usage, without a huge lift.
+
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/d12c8ff1-867e-445a-bcf7-60f95aeca348)[WebinarOct 13, 2026
 
 ### DRI-ing Your Career
 
 Your career is yours. It always was - but when the market was hot, it didn't seem like you needed to think about it.
 
-Claude apps](https://claude.com/resources/webinars/dri-ing-your-career)[WebinarOn demand
+Claude apps
+
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/36e79ccc-1163-4dec-afac-50de83549efc)[WebinarOn demand
 
 ### AI as an Engineering Leadership Multiplier
 

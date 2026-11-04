@@ -10,7 +10,7 @@ Learn when to use Haiku, Sonnet, Opus, or Fable to get better results and stay i
 
 Claude comes in four models: Haiku, Sonnet, Opus, and Fable. Each is built for different kinds of work, and each uses your rate limit differently. Using Opus on a task Haiku could handle costs you tokens for no gain and slows you down in the process. In this guide you'll learn how to pick the Claude model that can most efficiently accomplish your task *and* keep you more comfortably within your rate limits.
 
-Which models you have and how high your limit is both depend on your [Claude account plan(opens in new tab)](https://claude.com/pricing). Free includes Haiku and Sonnet; [Pro(opens in new tab)](https://claude.com/pricing) and [Max(opens in new tab)](https://support.claude.com/en/articles/11049741-what-is-the-max-plan) add Opus, Fable, and more headroom.
+Which models you have and how high your limit is both depend on your [Claude account plan(opens in new tab)](https://claude.com/pricing). Free includes Haiku and Sonnet; [Pro(opens in new tab)](https://claude.com/pricing), [Max(opens in new tab)](https://support.claude.com/en/articles/11049741-what-is-the-max-plan), and [Ultra(opens in new tab)](https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan) add Opus, Fable, and more headroom.
 
 ## Meet the four models[](https://academy.claude.com/tutorials/choosing-the-right-claude-model)
 

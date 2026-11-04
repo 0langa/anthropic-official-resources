@@ -14,7 +14,7 @@ Running the plugin well is an act of delegation, in two moves: you put the job i
 
 ## Install and run the plugin[](https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin)
 
-You'll need a Pro, Max, Team, or Enterprise plan. You can add the plugin in Claude on the web or in the [Claude desktop app(opens in new tab)](https://claude.com/download).
+You'll need a Pro, Max, Ultra, Team, or Enterprise plan. You can add the plugin in Claude on the web or in the [Claude desktop app(opens in new tab)](https://claude.com/download).
 
 1. Open Claude and select **Customize** in the left sidebar, then **Plugins**.
 2. Open **Discover**.

@@ -12,7 +12,7 @@ Understand which analytics API and API key your organization needs, then provisi
 
 
 
-Anthropic provides two analytics APIs, and which one you use depends on which Claude product your organization manages:
+Anthropic provides two product analytics APIs, and which one you use depends on which Claude product your organization manages:
 
 - The **Claude Code Analytics API** reports daily Claude Code productivity metrics for organizations that use the Claude Platform. It is part of the [Admin API](https://platform.claude.com/docs/en/manage-claude/admin-api) and uses an Admin API key.
 - The **Claude Enterprise Analytics API** reports organization-wide engagement, adoption, and cost data across Claude products (chat, projects, Claude Code, and more) for Claude Enterprise organizations. It uses an Analytics API key created in claude.ai.
@@ -23,7 +23,7 @@ The two APIs use different key types, created in different places by different r
 
 <table><thead><tr><th>API</th><th>Key type</th><th>Created in</th><th>Who can create it</th><th>What it covers</th></tr></thead><tbody><tr><td class=""><strong>Claude Code Analytics API</strong></td><td class="">Admin API key (<code>sk-ant-admin01-...</code>)</td><td class=""><a href="https://platform.claude.com/settings/admin-keys">Admin keys</a> page (<code>platform.claude.com/settings/admin-keys</code>) in the Claude Console</td><td class="whitespace-nowrap [&amp;_code]:whitespace-nowrap print:whitespace-normal print:[&amp;_code]:whitespace-normal">Organization admin</td><td class="">Daily Claude Code metrics per user: sessions, lines of code, commits, pull requests, tool acceptance, and estimated cost by model</td></tr><tr><td class=""><strong>Claude Enterprise Analytics API</strong></td><td class="whitespace-nowrap [&amp;_code]:whitespace-nowrap print:whitespace-normal print:[&amp;_code]:whitespace-normal">Analytics API key</td><td class=""><a href="https://claude.ai/admin-settings/api-access" rel="noopener noreferrer" target="_blank">claude.ai &gt; Organization settings &gt; API</a></td><td class="whitespace-nowrap [&amp;_code]:whitespace-nowrap print:whitespace-normal print:[&amp;_code]:whitespace-normal">Primary owner</td><td class="">Organization-wide engagement and adoption (user activity, active-user summaries, project, skill, and connector usage), plus cost and usage reports</td></tr></tbody></table>
 
-The key types are not interchangeable: an Admin API key cannot call the Claude Enterprise Analytics API, and an Analytics API key cannot call the Admin API. The one exception is the [Usage and Cost Analytics API](https://platform.claude.com/docs/en/manage-claude/usage-cost-analytics-api), which Claude Enterprise organizations call with their Analytics API key. Both APIs appear under the [Admin API reference](https://platform.claude.com/docs/en/api/beta/organization), but they are separate APIs with separate key types. If your organization uses both the Claude Platform and Claude Enterprise, you can provision both keys and use each API for its own data.
+The key types are not interchangeable: an Admin API key cannot call the Claude Enterprise Analytics API, and an Analytics API key cannot call the Admin API. The one exception is the [Usage and Cost Analytics API](https://platform.claude.com/docs/en/manage-claude/usage-cost-analytics-api), which Claude Enterprise organizations call with their Analytics API key. Both product analytics APIs appear under the [Admin API reference](https://platform.claude.com/docs/en/api/beta/organization), but they are separate APIs with separate key types. If your organization uses both the Claude Platform and Claude Enterprise, you can provision both keys and use each API for its own data.
 
 
 
@@ -50,7 +50,7 @@ The Claude Code Analytics API is available to every organization with access to 
 
    ```
    curl "https://api.anthropic.com/v1/organizations/usage_report/claude_code?starting_at=2025-09-08" \
-     -H "anthropic-version: 2023-06-01" \
+     -H "anthropic-version: 2026-10-21" \
      -H "x-api-key: $ANTHROPIC_ADMIN_KEY"
    ```
 

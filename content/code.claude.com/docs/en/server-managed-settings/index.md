@@ -173,7 +173,7 @@ A client signed in through a [Claude apps gateway](#platform-availability) fetch
 
 * When a developer signs in at startup, such as on a first run or after `/logout`, Claude Code waits up to five seconds for the fetch before it opens the session. When the policy arrives in time, Claude Code enforces it from the first screen and shows your [`companyAnnouncements`](/docs/en/settings-reference#companyannouncements) on it. When the payload needs [security approval](#security-approval-dialogs), Claude Code ends the wait and applies the payload once the developer approves
 * In any other startup, and when that five-second wait runs out, Claude Code opens the session while the fetch continues, so a brief window passes before the settings load and the restrictions take effect
-* If the fetch fails, Claude Code continues without server-managed settings and warns in interactive sessions that no remote policy applies; endpoint-managed settings still apply. If a managed source sets [`forceRemoteSettingsRefresh`](#enforce-fail-closed-startup), Claude Code exits instead
+* If the fetch fails, Claude Code continues without server-managed settings and warns in interactive sessions and in [Claude Desktop's Code tab](/docs/en/desktop) that no remote policy applies; endpoint-managed settings still apply. If a managed source sets [`forceRemoteSettingsRefresh`](#enforce-fail-closed-startup), Claude Code exits instead
 
 **Subsequent launches with cached settings:**
 
@@ -183,7 +183,7 @@ A client signed in through a [Claude apps gateway](#platform-availability) fetch
 * A cached [`prependPlugins`](/docs/en/settings-reference#prependplugins), [`appendPlugins`](/docs/en/settings-reference#appendplugins), or [`enabledPlugins`](/docs/en/settings-reference#enabledplugins) value can't remove the built-in guard, change its position, or turn it off until the session's fetch confirms the payload
 * On a machine where an [endpoint-managed source](/docs/en/managed-settings#choose-a-delivery-mechanism) lists or enables plugins of its own, a plugin that only a cached list enables counts as [the user's](/docs/en/plugins/mods/admin#install-your-organizations-mods), not your organization's, until the fetch confirms the payload
 * Claude Code fetches fresh settings in the background
-* Cached settings persist through network failures. If the startup fetch fails, Claude Code warns in interactive sessions that the cached policy is in effect
+* Cached settings persist through network failures. If the startup fetch fails, Claude Code warns in interactive sessions and in the Code tab that the cached policy is in effect
 * Until a fetch succeeds, the values withheld at startup stay withheld
 
 Claude Code withholds several categories of variables in the cached `env` block until the server confirms the payload for the session. This keeps a cached proxy, certificate authority, endpoint, or credential value from redirecting, intercepting, or re-authenticating the settings fetch that confirms the payload. The hardening applies only to the server-fetched settings cache: [endpoint-managed settings](/docs/en/managed-settings#delivery-mechanisms) deployed through MDM or `managed-settings.json` are unaffected. The withheld categories include:

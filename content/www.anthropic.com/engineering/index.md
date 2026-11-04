@@ -112,11 +112,11 @@ Sep 17, 2025![](https://assets.claude.com/f306bba15f86c2ced382060b23274e0756db8f
 
 ### [A postmortem of three recent issues](https://www.anthropic.com/research/a-postmortem-of-three-recent-issues)
 
-Sep 11, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4341f1fad08094ae2761940bd1ee80bdf4d5ccfa-800x800.png&w=1920&q=75)
+Sep 11, 2025![](https://assets.claude.com/4341f1fad08094ae2761940bd1ee80bdf4d5ccfa.png?w=1920&q=75&fm=webp&fit=max)
 
 ### [Writing effective tools for agents — with agents](https://www.anthropic.com/research/writing-tools-for-agents)
 
-Jun 26, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F45edbf55189e62f68351df3f6dcd1c0829448dbd-800x800.png&w=1920&q=75)
+Jun 26, 2025![](https://assets.claude.com/45edbf55189e62f68351df3f6dcd1c0829448dbd.png?w=1920&q=75&fm=webp&fit=max)
 
 ### [Desktop Extensions: One-click MCP server installation for Claude Desktop](https://www.anthropic.com/research/desktop-extensions)
 
@@ -124,15 +124,15 @@ Jun 18, 2025![](https://assets.claude.com/71fcd5480d9df8597e4ef51431dae586a74c60
 
 ### [Confidential Inference via Trusted Virtual Machines](https://www.anthropic.com/research/confidential-inference-trusted-vms)
 
-Jun 13, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F487c971eb7245643e58d7b8f92b550d2f6b534e1-800x800.png&w=1920&q=75)
+Jun 13, 2025![](https://assets.claude.com/487c971eb7245643e58d7b8f92b550d2f6b534e1.png?w=1920&q=75&fm=webp&fit=max)
 
 ### [How we built our multi-agent research system](https://www.anthropic.com/research/multi-agent-research-system)
 
-Apr 18, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4a3ca3038520d9aae9e3ca2e826aacae1c1dae18-800x800.png&w=1920&q=75)
+Apr 18, 2025![](https://assets.claude.com/4a3ca3038520d9aae9e3ca2e826aacae1c1dae18.png?w=1920&q=75&fm=webp&fit=max)
 
 ### [Claude Code: Best practices for agentic coding](https://www.anthropic.com/research/claude-code-best-practices)
 
-Mar 20, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4c430ca96a313deff31b1666e7805aa5cdea2026-800x800.png&w=1920&q=75)
+Mar 20, 2025![](https://assets.claude.com/4c430ca96a313deff31b1666e7805aa5cdea2026.png?w=1920&q=75&fm=webp&fit=max)
 
 ### [The "think" tool: Enabling Claude to stop and think in complex tool use situations](https://www.anthropic.com/research/claude-think-tool)
 
@@ -154,7 +154,7 @@ Studies and monitors the impact of AI systems on individuals, firms, and economi
 
 [### Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-35 posts
+36 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 
@@ -196,7 +196,7 @@ Studies and monitors the impact of AI systems on individuals, firms, and economi
 
 [### Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-35 posts
+36 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 

@@ -40,7 +40,7 @@ When you first open the updated version of Claude Desktop, you'll see a prompt t
 
 Once enabled, double-tapping Option will open a text box where you can type your message and start a new chat. You can also click "New chat" to see your five most recent conversations.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893088365/2ca4b782dda90abea1fe5f4150af/CleanShot+2025-12-18+at+13_14_30%402x.png?expires=1793626200&amp;signature=87d6f31a28e22070803145c6cec359dadac5e83f3190d260b43a978a66961814&amp;req=dSguFcl2lYJZXPMW1HO4zWggDt1XpJqYRC8c%2FcM5c2KYdXPMd%2Bhldbl4hSH3%0AD0kTK8vGSVDOIQY8ZbI%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893088365/2ca4b782dda90abea1fe5f4150af/CleanShot+2025-12-18+at+13_14_30%402x.png?expires=1793799900&amp;signature=3bc05e1e225b3b77a659aae13194e5fbd0c7ef00dccbf206f0c11f1df1f4e595&amp;req=dSguFcl2lYJZXPMW1HO4zWggDt1Wr5WTRC8c%2FcM5c2JPhovBAnOn2csTxK75%0AxaHmiOkORPXC401XZjM%3D%0A)
 
 ### Enable the voice shortcut (optional)
 
@@ -58,7 +58,7 @@ To enable voice dictation:
 
 5. Click the arrow to send your transcribed message to Claude.
 
-6. Moving forward, manage this in Settings > General (under **Desktop app**).
+6. Moving forward, manage this in Settings > Desktop app (or Settings > System, under This computer, in the older Settings layout).
 
 ## Using quick entry
 
@@ -170,4 +170,4 @@ Yes. You can disable quick entry shortcuts at any time in **Settings > Desktop a
 
 ### What if the shortcuts conflict with other apps?
 
-You can customize the quick access shortcut to use Option + Space or create a custom keyboard shortcut that doesn't conflict with your other applications. The voice shortcut can only use Caps Lock or be disabled.
+You can customize the quick access shortcut to use Option + Space or create a custom keyboard shortcut that doesn't conflict with your other applications. The voice shortcut can use Caps Lock or a custom keyboard shortcut, or be disabled.

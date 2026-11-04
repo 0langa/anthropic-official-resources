@@ -32,7 +32,7 @@ The HealthEx connector is for patients, including:
 
 ## **Who can access the HealthEx integration**[](https://academy.claude.com/tutorials/using-the-healthex-connector-in-claude)
 
-The HealthEx connector is available to all Claude Max users in the United States at no additional charge. Consumers complete CLEAR-powered identity verification and provide explicit, revocable consent before any clinical records are retrieved. HealthEx uses CLEAR to verify your identity, but doesn't share biometric data or ID information with Claude.
+The HealthEx connector is available to Claude Pro, Max, and Ultra users in the United States at no additional charge. Consumers complete CLEAR-powered identity verification and provide explicit, revocable consent before any clinical records are retrieved. HealthEx uses CLEAR to verify your identity, but doesn't share biometric data or ID information with Claude.
 
 Key requirements across all HealthEx connector users:
 

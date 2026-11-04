@@ -120,7 +120,7 @@ They can also get new developers and non-technical employees onboarded and up an
 ![Jack O'Hara](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a85efb9f09c093edabf6943_1733849104342.jpeg)
 > "Our engineers use Claude Code to spin up an in-house marketplace of specialized internal agents, organized by role, so engineering, delivery, and sales each get tools built for how they actually work."**[Jack O'Hara](https://www.linkedin.com/in/jack-o-hara-/)** · founder and CEO, [Translucent](https://www.translucent.co/)
 
-**Tip:** Skills [can be shared across the company using a directory](https://code.claude.com/docs/en/plugin-marketplaces) so one employee's best practice can be instantly transferred to another. Use `CLAUDE.md` files in each subdirectory of your repo for coding conventions specific to that subdirectory that apply every time. Use skills for on-demand procedural workflows. For more information, read: [Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents](https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more).
+**Tip:** Skills [can be shared across the company using a directory](https://code.claude.com/docs/en/plugin-marketplaces) so one employee's best practice can be instantly transferred to another. Use `CLAUDE.md` files in each subdirectory of your repo for coding conventions specific to that subdirectory that apply every time. Use skills for on-demand procedural workflows. For more information, read: [Steering Claude Code: when to use CLAUDE.md, skills, hooks, and subagents](https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more).
 
 **02**
 
@@ -141,7 +141,7 @@ Specifically, we saw AI more tightly integrated across their SDLC stages than ot
 
 Many of these featured startups have implemented means of accelerating their teams' onboarding into their agentic coding processes. For example, at Emergent, Mukund told us, "on day one, a new hire bootstraps their entire dev setup by pointing Claude at the right markdown file. If Claude hits anything broken or out of date during onboarding, it updates that file."
 
-**Tip:** [Code Review](https://code.claude.com/docs/en/code-review) (research preview) is a managed multi-agent service in Claude Code. It runs an automated review pass on PRs in the repos you enable. You can manually fix the finding and push, or close the loop by commenting `@Claude` on the finding (if you've set up and configured GitHub Actions).
+**Tip:** [Code Review](https://code.claude.com/docs/en/code-review) is a managed multi-agent service in Claude Code. It runs an automated review pass on PRs in the repos you enable. You can manually fix the finding and push, or close the loop by commenting `@Claude` on the finding (if you've set up and configured GitHub Actions).
 
 ![](https://assets.claude.com/34bded07fcea3eac15f98f353ee808974a44b101.png)
 
@@ -162,7 +162,7 @@ Clay "...built an agent that handles…bug triage, from first pass to suggesting
 
 **Tip:** For the last several months [Claude Tag](https://claude.com/product/tag) has been the on-call first responder for CI/CD failures at Anthropic. Claude authored the first situation report in every recent incident that had one, typically publishing its first analysis within 15 minutes.
 
-[Claude Tag has its own service account](https://claude.com/blog/agent-identity-access-model) and access to the tools an Anthropic CI engineer needs such as Datadog or Grafana. Standing instructions are in markdown files as skills, committed in a GitHub repository. This way multiple teammates can iterate on them and we can manage changes just like we do code.
+[Claude Tag has its own service account](https://claude.com/resources/articles/agent-identity-access-model) and access to the tools an Anthropic CI engineer needs such as Datadog or Grafana. Standing instructions are in markdown files as skills, committed in a GitHub repository. This way multiple teammates can iterate on them and we can manage changes just like we do code.
 
 ![](https://assets.claude.com/f60bcb14cf717c2d43f5ff9ba5eab9861b91d831.png)
 
@@ -187,7 +187,7 @@ Both ClickHouse and Omni ship products that package this type of AI data analysi
 
 Other examples include summarizing thousands of legal documents with subagents (Crosby), sweeping claims data to flag anomalies across sites (Commure), and continuously mining hospital financial data for warning signs no analyst team could catch in time (Translucent).
 
-**Tip:** [Dynamic workflows](https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code) can be used to fan multiple subagents to analyze large amounts of data in parallel or to conduct an adversarial review of another agent's work. When using a model like Claude Opus or Claude Fable say "fan out multiple subagents," or "use a workflow."
+**Tip:** [Dynamic workflows](https://claude.dev/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code/) can be used to fan multiple subagents to analyze large amounts of data in parallel or to conduct an adversarial review of another agent's work. When using a model like Claude Opus or Claude Fable say "fan out multiple subagents," or "use a workflow."
 
 ![](https://assets.claude.com/a6ae82f87e4ab07588d0f70e4c528365080cdb14.png)
 
@@ -226,7 +226,7 @@ There are many generalized takeaways that founders can glean from this healthcar
 
 For example, Cainex uses subject matter experts to routinely review and guide Claude's reasoning, and ensure that guidance becomes part of a self-improvement loop. However, those experts aren't there to fix example by example, their guidance is used as part of a self-improvement loop. As Uriah puts it "fix the principle, not the example."
 
-**Tip:** Loops are agents that repeat cycles of work until a stop condition is met. They can be effective ways to use Claude Code for more autonomous or long-horizon work. [You can use skills to define what criteria the agent needs to meet](https://claude.com/blog/building-verification-loops-in-claude-code-with-skills) (the more clearly defined the better) and have the agent iterate until it reaches its goal.
+**Tip:** Loops are agents that repeat cycles of work until a stop condition is met. They can be effective ways to use Claude Code for more autonomous or long-horizon work. [You can use skills to define what criteria the agent needs to meet](https://claude.com/resources/articles/building-verification-loops-in-claude-code-with-skills) (the more clearly defined the better) and have the agent iterate until it reaches its goal.
 
 For example, many organizations create flaky test agents, or loops, because the stop condition is clear and self-contained: the agent can verify its own fix by rerunning the test until it passes.
 
@@ -332,7 +332,7 @@ These insights come from your peers building at the frontier and we hope you fou
 - [Bookmarking upcoming Claude Code webinars](https://academy.claude.com/code/webinars).
 - [Attending an event near you](https://luma.com/claudecommunity)
 - Contributing on [Reddit](https://www.reddit.com/r/ClaudeAI/) and [Discord](https://discord.com/invite/6PPFFzqPDZ).
-- Early-stage companies can also apply to the [Claude for Startups program](https://claude.com/programs/startups) for credits and support.
+- Early-stage companies can also apply to the [Claude for Startups program](https://claude.com/programs/startups) for credits and support. [Read what the program now includes](https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build)
 
 ## Related articles
 

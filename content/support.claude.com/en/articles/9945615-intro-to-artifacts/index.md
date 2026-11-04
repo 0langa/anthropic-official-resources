@@ -71,7 +71,7 @@ When the work has to leave Claude, export a file in the format the destination n
 ### What your plan includes[](https://academy.claude.com/tutorials/intro-to-artifacts)
 
 - **Every plan, including Free:** you can ask for an artifact and make Claude Docs, Slides, and Design.
-- **Paid plans (Pro, Max, Team, Enterprise):** Claude Dashboards (in beta), saving entries in an artifact, and connecting it to your tools.
+- **Paid plans (Pro, Max, Ultra, Team, Enterprise):** Claude Dashboards (in beta), saving entries in an artifact, and connecting it to your tools.
 - **Team and Enterprise:** Claude Motion (in beta). An owner of your organization decides [which kinds you can use(opens in new tab)](https://support.claude.com/en/articles/16994751-artifacts-admin-guide-for-team-and-enterprise-plans) and whether you can share outside it.
 
 For the details on each plan, see [What are artifacts and how do I use them(opens in new tab)](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them) in the Help Center.

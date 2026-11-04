@@ -65,7 +65,13 @@ We're proud of our partnership with Microsoft and aspire to help more people exp
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 28, 2026
+[ArticleNov 2, 2026
+
+### Make long-running agents faster with message threads
+
+New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
+
+Claude Platform](https://claude.com/resources/articles/message-threads)[ArticleOct 28, 2026
 
 ### Smart reports, surveys, and pooled group budgets for Claude Enterprise
 
@@ -83,13 +89,7 @@ Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://clau
 
 Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
 
-Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)[ArticleOct 27, 2026
-
-### Manage costs and demonstrate ROI for Claude Code on Google Cloud
-
-Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
-
-Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)
+Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)
 
 ## Transform how your organization operates with Claude
 

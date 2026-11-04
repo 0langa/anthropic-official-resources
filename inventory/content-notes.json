@@ -182,6 +182,9 @@
   "https://academy.claude.com/courses/introduction-to-claude-tag/course-quiz": [
     "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
   ],
+  "https://academy.claude.com/courses/introduction-to-evals/course-quiz": [
+    "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
+  ],
   "https://academy.claude.com/courses/introduction-to-model-context-protocol/badge": [
     "No semantic main/article element; full body retained."
   ],
@@ -7066,6 +7069,9 @@
   "https://platform.claude.com/docs/en/build-with-claude/task-budgets?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/build-with-claude/text-watermark": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/build-with-claude/thinking": [
     "Native source; upstream MDX components retained."
   ],
@@ -9448,6 +9454,9 @@
   "https://support.claude.com/en/articles/15537633-authorize-mcp-connectors-for-your-entire-organization": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/15537633-auto-connect-your-organization-s-apps-to-claude": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/15575654": [
     "Native source; upstream MDX components retained."
   ],
@@ -9785,6 +9794,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/17740565-manage-plugins-skills-and-connectors-from-one-plugins-page": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/17828685-run-your-endpoint-detection-and-response-edr-sensor-in-claude-cowork": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/17828685-run-your-endpoint-detection-and-response-edr-sensor-in-claude-cowork-on-claude-desktop": [

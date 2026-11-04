@@ -72,7 +72,7 @@ These tips make ongoing use easier.
 
 - **Group related repositories in one Project:** Create one Project per service or team so findings stay attributable and reviewers don’t have to wade through results that belong to someone else. Put repositories that work together, such as a backend and its client app, in the same Project so Claude can trace issues across them. A Project holds up to eight repositories from GitHub or other Git providers.
 - **Scope large repositories:** For large repositories and monorepos, set a folder scope on each repository and exclude the folders you don’t need covered. A narrower scope increases determinism and focuses Claude’s attention. Claude can still trace logic and pull context from across the broader codebase, excluded folders included, as needed.
-- **Add what the code can’t show:** Tell Claude how your code is deployed, who can reach it, and which risks you’ve accepted. Claude keeps this in each Project’s threat model and uses it to decide what to flag and how to rate it. To read and edit the threat model or add documents such as architecture docs, open the Project’s Knowledge tab. People with the Full role can edit them.
+- **Add what the code can’t show:** Tell Claude how your code is deployed, who can reach it, and which risks you’ve accepted. Claude keeps this in each Project’s threat model and uses it to decide what to flag and how to rate it. To read and edit the threat model or add documents such as architecture docs, open the Project’s Resources tab. People with the Full role can edit them.
 
 ### **Triage and collaborate**[](https://academy.claude.com/tutorials/getting-started-with-claude-security)
 

@@ -2,9 +2,13 @@
 
 
 
-10 tutorials
+11 tutorials
 
-[![](https://academy.claude.com/assets/v1/thumbnail.dark-i0lrj1mq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-i0lrj1mq.png)
+[## Choose between a cloud session and Remote Control for a long task
+
+A long Claude Code task can keep going after you leave your desk, on your own machine with Remote Control or in a cloud session. Compare what each one gives you and where it stops, then use a few questions to pick one for a task and say why.
+
+·10 min](https://academy.claude.com/tutorials/cloud-session-or-remote-control)[![](https://academy.claude.com/assets/v1/thumbnail.dark-i0lrj1mq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-i0lrj1mq.png)
 
 ## Choosing the right effort level in Claude Code
 
@@ -34,7 +38,7 @@ Understand how skills differ from and complement other Claude Code features like
 
 How to use the FHIR Developer agent skill with Claude Code
 
-·3 min](https://academy.claude.com/tutorials/how-to-use-the-fhir-developer-agent-skill-with-claude-code)[![](https://academy.claude.com/assets/v1/thumbnail.dark-exrvcymm.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-exrvcymm.png)
+·3 min](https://academy.claude.com/tutorials/how-to-use-the-fhir-developer-agent-skill-with-claude-code)[![](https://academy.claude.com/assets/v1/thumbnail.dark-m5s78v7v.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-m5s78v7v.png)
 
 ## How to use the Nextflow Deployment agent skill with Claude Code
 

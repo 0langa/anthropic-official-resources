@@ -24,13 +24,13 @@ A research preview is available by waitlist today, starting with US Pro, Max, an
 
 ![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
-[ArticleOct 8, 2026
+[ArticleNov 2, 2026
 
-### Build live dashboards and animate explainers with Claude
+### Make long-running agents faster with message threads
 
-Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.
+New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
 
-Claude appsClaude Design2 more: Claude Cowork and Claude CodeClaude CoworkClaude Code](https://claude.com/resources/articles/dashboards-and-motion)
+Claude Platform](https://claude.com/resources/articles/message-threads)
 
 [ArticleOct 28, 2026
 
@@ -60,9 +60,15 @@ Featured resource 1 of 5: Building agents: When to fold subagents into your main
 
 Advanced filters
 
-Showing 11 of 299 resources
+Showing 11 of 300 resources
 
-[ArticleOct 28, 2026
+[ArticleNov 2, 2026
+
+### Make long-running agents faster with message threads
+
+New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
+
+Claude Platform](https://claude.com/resources/articles/message-threads)[ArticleOct 28, 2026
 
 ### Smart reports, surveys, and pooled group budgets for Claude Enterprise
 
@@ -114,12 +120,6 @@ Claude Platform](https://claude.com/resources/articles/building-agents-when-to-f
 
 We need ways to prove that code is free of bugs. Formal software verification could provide this guarantee.
 
-(opens in new tab)](https://www.anthropic.com/research/formal-verification)[ArticleOct 22, 2026
-
-### The full Claude Platform, available on Google Cloud
-
-Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
-
-Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)
+(opens in new tab)](https://www.anthropic.com/research/formal-verification)
 
 View more

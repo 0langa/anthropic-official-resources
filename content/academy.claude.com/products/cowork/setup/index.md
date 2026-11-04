@@ -8,6 +8,8 @@ Everything your rollout team needs to set up, govern, and roll out Cowork.
 
 Get the fundamentals in place so your team can start using Cowork. Your progress saves in this browser.
 
+x
+
 0 of 18 complete
 
 Open checklist](https://academy.claude.com/products/cowork/setup/checklist)

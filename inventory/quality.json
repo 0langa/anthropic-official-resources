@@ -41,6 +41,7 @@
     "https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/certificate-quiz",
     "https://academy.claude.com/courses/introduction-to-claude-cowork/quiz-on-claude-cowork",
     "https://academy.claude.com/courses/introduction-to-claude-tag/course-quiz",
+    "https://academy.claude.com/courses/introduction-to-evals/course-quiz",
     "https://academy.claude.com/courses/tool-use-with-the-messages-api/course-quiz",
     "https://claude.com/blog",
     "https://claude.com/blog/",
@@ -506,10 +507,10 @@
   ],
   "statuses": {
     "blocked": 27,
-    "complete": 5010,
+    "complete": 5021,
     "gone": 48,
     "out_of_scope": 42,
-    "partial": 499
+    "partial": 500
   },
   "terminal_unarchived_urls": [
     "https://academy.claude.com/courses/tool-use-with-the-messages-api/**call.input",
@@ -642,6 +643,7 @@
     "https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/certificate-quiz",
     "https://academy.claude.com/courses/introduction-to-claude-cowork/quiz-on-claude-cowork",
     "https://academy.claude.com/courses/introduction-to-claude-tag/course-quiz",
+    "https://academy.claude.com/courses/introduction-to-evals/course-quiz",
     "https://academy.claude.com/courses/tool-use-with-the-messages-api/**call.input",
     "https://academy.claude.com/courses/tool-use-with-the-messages-api/course-quiz",
     "https://academy.claude.com/dashboard",

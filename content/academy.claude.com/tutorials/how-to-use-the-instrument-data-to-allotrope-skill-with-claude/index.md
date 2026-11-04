@@ -38,10 +38,10 @@ Learn about [provisioning and managing skills for your organization(opens in new
 
 ## **How to access the skills in Claude Code**[](https://academy.claude.com/tutorials/how-to-use-the-instrument-data-to-allotrope-skill-with-claude)
 
-Command
+1. Download the [ZIP file for the instrument-data-to-allotrope skill(opens in new tab)](https://github.com/anthropics/life-sciences/releases/download/v1.1.1/instrument-data-to-allotrope-v1.1.1.zip)
+2. On your own computer, unzip it into a new folder named `instrument-data-to-allotrope` inside `~/.claude/skills/`, so that the skill's `SKILL.md` file is at `~/.claude/skills/instrument-data-to-allotrope/SKILL.md`
+3. Start Claude Code and run `/skills` to check that **instrument-data-to-allotrope** is listed
 
-`/plugin marketplace add anthropics/life-sciences`
-
-`/plugin install instrument-data-to-allotrope@life-sciences`
+Learn about [where Claude Code loads skills from(opens in new tab)](https://code.claude.com/docs/en/skills).
 
 Was this helpful?

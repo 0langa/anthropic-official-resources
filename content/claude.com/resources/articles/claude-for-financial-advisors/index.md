@@ -236,7 +236,13 @@ Learn more [at our solutions page](https://claude.com/solutions/financial-servic
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 28, 2026
+[ArticleNov 2, 2026
+
+### Make long-running agents faster with message threads
+
+New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
+
+Claude Platform](https://claude.com/resources/articles/message-threads)[ArticleOct 28, 2026
 
 ### Smart reports, surveys, and pooled group budgets for Claude Enterprise
 
@@ -254,11 +260,7 @@ Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://clau
 
 Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
 
-Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)[ArticleOct 26, 2026
-
-### Expanding Claude for Nonprofits
-
-Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.](https://claude.com/resources/articles/expanding-claude-for-nonprofits)
+Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)
 
 ## Transform how your organization operates with Claude
 

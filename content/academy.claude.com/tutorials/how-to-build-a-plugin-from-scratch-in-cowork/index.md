@@ -130,7 +130,7 @@ Review this vendor agreement. Our standard on indemnification is capped at 2x co
 - **Sharing with teammates isn't automatic, but you have options.** You can share a plugin as a `.plugin` file, host it on GitHub so teammates can get your updates, or have an admin provision it across your org. On Team and Enterprise plans, you can also select **Share** to give it to specific people. [*Learn more about sharing plugins.*(opens in new tab)](https://support.claude.com/en/articles/13837440-use-plugins-in-cowork)
 - **Skills and connectors can also live outside plugins.** If you have personal context that applies across everything you do in Claude — not tied to one plugin — you can add a skill or a connector by itself.
 
-*Plugins are available to all paid plans (Pro, Max, Team, Enterprise). Browse* [*available plugins*(opens in new tab)](https://claude.com/plugins)*.*
+*Plugins are available to all paid plans (Pro, Max, Ultra, Team, Enterprise). Browse* [*available plugins*(opens in new tab)](https://claude.com/plugins)*.*
 
 ## Learn more[](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork)
 

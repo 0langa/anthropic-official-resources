@@ -208,9 +208,9 @@ Good to know
 Working in your folders, the built-in browser, computer use, and Record a skill need a paid plan:
 
 - Folders come with every paid plan.
-- The built-in browser is on Pro, Max, Team, and Enterprise. On Team and Enterprise plans, your organization's owner controls whether it's available.
-- Computer use is in beta on Mac and Windows, for Pro and Max.
-- Record a skill is on Pro, Max, and Team, on Mac.
+- The built-in browser is on Pro, Max, Ultra, Team, and Enterprise. On Team and Enterprise plans, your organization's owner controls whether it's available.
+- Computer use is in beta on Mac and Windows, for Pro, Max, and Ultra.
+- Record a skill is on Pro, Max, Ultra, and Team, on Mac.
 
 On Team and Enterprise plans, your admin can limit which extensions are allowed. See [Install Claude Desktop(opens in new tab)](https://support.claude.com/en/articles/10065433-install-claude-desktop).
 

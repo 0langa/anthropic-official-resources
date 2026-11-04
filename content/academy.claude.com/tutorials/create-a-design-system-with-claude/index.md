@@ -208,7 +208,7 @@ Claude uses your design system when it makes decks, designs and prototypes. Your
 
 ## 3. Before you start[](https://academy.claude.com/tutorials/create-a-design-system-with-claude)
 
-- Design systems are in beta on Pro, Max, Team and Enterprise plans. They aren't available on the Free plan.
+- Design systems are in beta on Pro, Max, Ultra, Team, and Enterprise plans. They aren't available on the Free plan.
 - On Team and Enterprise plans, owners [control the **Design systems** template(opens in new tab)](https://support.claude.com/en/articles/16994751-artifacts-admin-guide-for-team-and-enterprise-plans) under **Organization settings > Artifacts**. On Enterprise it starts switched off. If you don't see **Design system** in the places described below, that setting is the first thing to check.
 - Anyone with access can create a design system, use it, and share it with specific people. Sharing one with the whole organization, or making it the default, takes an owner of your organization ([section 7](https://academy.claude.com/tutorials/create-a-design-system-with-claude)).
 - If your team already has a design system in standalone Claude Design (claude.ai/design), you can bring it over instead of rebuilding it. See [Migrate from standalone Claude Design](https://academy.claude.com/tutorials/create-a-design-system-with-claude) below.

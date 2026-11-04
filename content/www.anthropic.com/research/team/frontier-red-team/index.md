@@ -53,13 +53,17 @@ Like Claude Mythos Preview, GLM-5.3 has strong capabilities for autonomously bui
 
 04
 
-35
+36
 
 ARTICLES
 
 Most recentGrid view
 
-Oct 27, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F105d9bbc7744153eb45473e80b4918a631c4111c-800x800.png&w=1920&q=75)
+Nov 2, 2026![](https://assets.claude.com/105d9bbc7744153eb45473e80b4918a631c4111c.png?w=1920&q=75&fm=webp&fit=max)
+
+### [Progress on provable inference for large language models](https://www.anthropic.com/research/provable-inference)
+
+Oct 27, 2026![](https://assets.claude.com/16194f7cb602e45abc0c59bb09a5d2183e7629eb.png?w=1920&q=75&fm=webp&fit=max)
 
 ### [Discovering and exploiting vulnerabilities in critical, real-world software with Claude](https://www.anthropic.com/research/discovering-vulnerabilities-with-claude)
 
@@ -67,7 +71,7 @@ Oct 22, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.
 
 ### [LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/research/formal-verification)
 
-Oct 20, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F16c346d44a310e746657cd16ea275a2da5efa719-800x800.png&w=1920&q=75)
+Oct 20, 2026![](https://assets.claude.com/1755639b93c7cec99475de59cb9802d0e13e6207.png?w=1920&q=75&fm=webp&fit=max)
 
 ### [Using Claude to reduce the attack surface of code](https://www.anthropic.com/research/attack-surface-reduction)
 
@@ -151,10 +155,6 @@ Jan 8, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.a
 
 ### [Experimenting with AI to defend critical infrastructure](https://www.anthropic.com/research/critical-infrastructure-defense)
 
-Dec 18, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdbabef04ded11e14b02e0ef160dd9db1b45b9069-1280x1280.jpg&w=1080&q=75)
-
-### [Project Vend: Phase two](https://www.anthropic.com/research/project-vend-2)
-
 See more
 
 ## Explore work from other teams
@@ -197,7 +197,7 @@ Explores how AI can increase the pace of scientific progress through both resear
 
 [### Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-35 posts
+36 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 
@@ -239,6 +239,6 @@ Explores how AI can increase the pace of scientific progress through both resear
 
 [### Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-35 posts
+36 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.

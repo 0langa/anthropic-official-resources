@@ -82,7 +82,11 @@ Courses on working with AI, building with Claude, and the Model Context Protocol
 
 ·9 lessons · 1 quiz·1.5 hr·Completion badge
 
-·9 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/tool-use-with-the-messages-api)[### Claude with Amazon Bedrock
+·9 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/tool-use-with-the-messages-api)[### Introduction to evals
+
+·4 lessons · 1 quiz·1 hr·Completion badge
+
+·4 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduction-to-evals)[### Claude with Amazon Bedrock
 
 ·65 lessons · 8 quizzes·8 hr·Completion badge
 

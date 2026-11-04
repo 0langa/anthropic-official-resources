@@ -120,6 +120,8 @@ Mark envisions a future where new lawyers inherit their team's accumulated knowl
 
 *Get started with [Claude for Enterprise](https://www.claude.com/pricing/enterprise) today. Stay tuned for more stories in the "How Anthropic uses Claude" series.*
 
+[Legal teams can now start from ready-made artifacts](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)
+
 ## Related articles
 
 Explore more product news and best practices for teams building with Claude.

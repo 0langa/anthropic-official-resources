@@ -1,1 +1,1 @@
-https://support.claude.com/en/articles/17828685-run-your-endpoint-detection-and-response-edr-sensor-in-claude-cowork
+https://academy.claude.com/courses/introduction-to-evals/badge

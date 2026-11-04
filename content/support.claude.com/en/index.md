@@ -38,7 +38,7 @@ Compare paid plans, manage your subscription, and understand usage limits.
 
 Set up your workspace, add seats, and administer Claude across your organization.
 
-76 articles
+77 articles
 
 ![](https://downloads.intercomcdn.com/i/hc/icons/v3/lupk8zyo/938304/5ffb4feea1e2b255910fc58e99d4/141413.svg)
 
@@ -118,7 +118,7 @@ Bring Claude to campus for students, faculty, and researchers.
 
 How we handle your data, plus terms, policies, and compliance.
 
-25 articles
+26 articles
 
 ![](https://downloads.intercomcdn.com/i/hc/icons/v3/lupk8zyo/938315/93439536bbfa052d2e231211d48c/141413.svg)
 

@@ -24,7 +24,7 @@ With this connector, you can:
 
 ## **Who should use the Function integration**[](https://academy.claude.com/tutorials/using-the-function-connector-in-claude)
 
-Function members interested in asking health questions in Claude. The Function Health connector is available to Claude Pro and Claude Max users in the United States.
+Function members interested in asking health questions in Claude. The Function Health connector is available to Claude Pro, Max, and Ultra users in the United States.
 
 More details on accessing the integration can be found in [Function Health's MCP Server Documentation(opens in new tab)](https://services.functionhealth.com/auth0/acul/claude_connector_docs.html).
 

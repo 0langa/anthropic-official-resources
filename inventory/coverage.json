@@ -1,11 +1,11 @@
 {
   "actionable_missing_pages": 1,
   "actionable_population_complete": false,
-  "archived_pages": 5535,
+  "archived_pages": 5547,
   "by_host": {
     "academy.claude.com": {
-      "archived_pages": 874,
-      "discovered_pages": 879
+      "archived_pages": 883,
+      "discovered_pages": 889
     },
     "claude.com": {
       "archived_pages": 846,
@@ -16,19 +16,19 @@
       "discovered_pages": 256
     },
     "platform.claude.com": {
-      "archived_pages": 2158,
-      "discovered_pages": 2188
+      "archived_pages": 2159,
+      "discovered_pages": 2189
     },
     "support.claude.com": {
-      "archived_pages": 754,
-      "discovered_pages": 788
+      "archived_pages": 756,
+      "discovered_pages": 789
     },
     "www.anthropic.com": {
       "archived_pages": 649,
       "discovered_pages": 661
     }
   },
-  "discovered_pages": 5627,
+  "discovered_pages": 5639,
   "exact_website_replica": false,
   "limitations": [
     "Discovery is the union of public indexes and hyperlinks, not proof that unlinked pages do not exist.",
@@ -74,6 +74,7 @@
     "https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/certificate-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "https://academy.claude.com/courses/introduction-to-claude-cowork/quiz-on-claude-cowork": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "https://academy.claude.com/courses/introduction-to-claude-tag/course-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
+    "https://academy.claude.com/courses/introduction-to-evals/course-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "https://academy.claude.com/courses/tool-use-with-the-messages-api/**call.input": "HTTP 404: https://academy.claude.com/courses/tool-use-with-the-messages-api/**call.input",
     "https://academy.claude.com/courses/tool-use-with-the-messages-api/course-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "https://academy.claude.com/dashboard": "Disallowed by robots.txt",
@@ -657,8 +658,8 @@
   },
   "missing_pages": 92,
   "page_inventory_complete": false,
-  "pages_with_content_notes": 3710,
-  "retained_partial_pages": 499,
+  "pages_with_content_notes": 3714,
+  "retained_partial_pages": 500,
   "terminal_pages": 91,
   "terminal_statuses": {
     "blocked": 27,

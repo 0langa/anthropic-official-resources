@@ -3,12 +3,14 @@
 - Category[Announcements](https://claude.com/resources/product-announcements), [Best practices](https://claude.com/resources/best-practices), [Insights](https://claude.com/resources/insights)
 - ProductClaude Cowork
 - DateMay 12, 2026
-- Reading time13 min
+- Reading time14 min
 - ShareCopy link
+
+***Update:** Claude for Legal now includes [ready-to-use artifacts for legal work](https://claude.com/resources/articles/introducing-artifacts-for-legal-work).*
 
 Earlier this year we released our first legal plugin, and in the months since, legal professionals have become the most engaged Claude Cowork users of any knowledge-work function. We’re now building on that with a much larger set of tools.
 
-Legal work runs on a specific technology stack: contract lifecycle systems, [research platforms](https://claude.com/resources/articles/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work), document management, e-discovery, data rooms, firm-specific precedents, and much more. Claude now connects to all of it through several key building blocks. First, [MCP connectors](https://claude.ai/directory/connectors) bring your legal work (the documents, communications, and records tied to specific matters) into Claude. Secondly, practice-area plugins package the tasks that lawyers run most often. And finally, because both are built on open protocols, firms and in-house teams can customize Claude to match the way they actually practice.
+Legal work runs on a specific technology stack: contract lifecycle systems, [research platforms](https://claude.com/resources/articles/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work), document management, e-discovery, data rooms, firm-specific precedents, and much more. Claude now connects to all of it through several key building blocks. First, [MCP connectors](https://claude.ai/directory/connectors) bring your legal work (the documents, communications, and records tied to specific matters) into Claude. Secondly, practice-area plugins package the tasks that lawyers run most often. And finally, because both are built on open protocols, firms and in-house teams can customize Claude to match the way they actually practice. [See how Anthropic's own legal team works with Claude](https://claude.com/resources/articles/how-anthropic-uses-claude-legal)
 
 Today we’re introducing 20+ new MCP connectors that link Claude to the software the legal industry already relies on, and 12 new plugins tailored to specific legal work and practice areas. And finally, we're partnering with the Free Law Project, the Justice Technology Association, and others working to put legal help within reach of people who can’t currently access it.
 
@@ -100,7 +102,7 @@ Legal work looks different depending on the seat you're in. We're releasing 12 p
 
 Each agent template can be installed in Cowork or Claude Code with a click, and produces outputs that match institutional drafting standards. [A subset of these](https://github.com/anthropics/claude-for-legal) (Commercial Legal, Corporate Legal, Litigation Legal, Product Legal, Litigation Legal) are also available as cookbooks that can be deployed as Managed Agents in the Claude Platform for programmatic use. Teams can layer on their own precedents and playbooks to customize the skills.
 
-Every legal organization works differently, and no single set of plugins can cover every practice. The plugin and skill ecosystem are open protocols, and early contributors including **Box, Legal Quants, Lawve AI**, and **Thomson Reuters** have already shipped skills, plugins, and style conventions of their own. Any partner can submit connectors and skills through the [Directory](https://preview.claude.ai/local_sessions/link).
+Every legal organization works differently, and no single set of plugins can cover every practice. The plugin and skill ecosystem are open protocols, and early contributors including **Box, Legal Quants, Lawve AI**, and **Thomson Reuters** have already shipped skills, plugins, and style conventions of their own. Any partner can submit connectors and skills through the [Directory](https://claude.ai/directory).
 
 ## Democratizing access to legal services with AI
 
@@ -236,7 +238,13 @@ For legal aid and access-to-justice organizations who are interested in partneri
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 28, 2026
+[ArticleNov 2, 2026
+
+### Make long-running agents faster with message threads
+
+New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
+
+Claude Platform](https://claude.com/resources/articles/message-threads)[ArticleOct 28, 2026
 
 ### Smart reports, surveys, and pooled group budgets for Claude Enterprise
 
@@ -254,13 +262,7 @@ Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://clau
 
 Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
 
-Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)[ArticleOct 27, 2026
-
-### Manage costs and demonstrate ROI for Claude Code on Google Cloud
-
-Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
-
-Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)
+Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)
 
 ## Transform how your organization operates with Claude
 

@@ -87,7 +87,7 @@ Even occasional work might require gathering multiple files or tools, explaining
 
 ## Ready to create a skill?[](https://academy.claude.com/tutorials/teach-claude-your-way-of-working-using-skills)
 
-Skills are available on Free, Pro, Max, Team, and Enterprise plans. They also need **Code execution and file creation** turned on, since Skills run in Claude’s secure sandboxed computing environment. On Free, Pro, and Max plans, check that this setting is enabled in `Settings` > `Capabilities`. On Team and Enterprise plans, an organization Owner controls both this setting and Skills in `Organization settings` > `Plugins & skills`, on the `Policy` tab.
+Skills are available on Free, Pro, Max, Ultra, Team, and Enterprise plans. They also need **Code execution and file creation** turned on, since Skills run in Claude’s secure sandboxed computing environment. On Free, Pro, Max, and Ultra plans, check that this setting is enabled in `Settings` > `Capabilities`. On Team and Enterprise plans, an organization Owner controls both this setting and Skills in `Organization settings` > `Plugins & skills`, on the `Policy` tab.
 
 To get started, open [Customize > Skills(opens in new tab)](https://claude.ai/customize/skills) and add a pre-built skill from `Discover`. From there, when you describe a task to Claude that references a skill’s name or description, Claude recognizes it and loads the skill automatically.
 

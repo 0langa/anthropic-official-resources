@@ -100,11 +100,11 @@ text
 
 ```
 @online{swanson2026aifluency,
-author = {Kristen Swanson, Drew Bent, and Zoe Ludwig and Rick Dakan and Joe Feller},
+author = {Kristen Swanson and Drew Bent and Zoe Ludwig and Rick Dakan and Joe Feller},
 title = {Anthropic Education Report: The AI Fluency Index},
-date = {2026-02-16},
+date = {2026-02-23},
 year = {2026},
-url = {https://www.anthropic.com/news/anthropic-education-report-the-ai-fluency-index},
+url = {https://academy.claude.com/tutorials/the-ai-fluency-index},
 }
 ```
 

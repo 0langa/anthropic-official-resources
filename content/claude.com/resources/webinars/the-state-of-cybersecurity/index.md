@@ -16,7 +16,7 @@ Fill out the form below to reserve your seat.
 
   Riggs Goodman
 
-  Applied AI @ Anthropic
+  Applied AI, Anthropic
 - ![](https://assets.claude.com/a13550c6bfcc591d85b723fcaf8979a90a5aa0d1.png?w=128&h=128&fit=crop)
 
   Brett Andrews

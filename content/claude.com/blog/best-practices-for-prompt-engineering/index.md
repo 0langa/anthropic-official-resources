@@ -315,7 +315,7 @@ Role prompting defines expert personas and perspectives in how you phrase your q
 
 **Modern alternative**: Often, being explicit about what perspective you want is more effective: "Analyze this investment portfolio, focusing on risk tolerance and long-term growth potential" rather than assigning a role.
 
-[Try](https://preview.claude.ai/new) in Claude.
+[Try](https://claude.ai/new) in Claude.
 
 ## Putting it all together
 
@@ -428,7 +428,7 @@ For instructions you want applied to every session rather than every prompt, mov
 
 In fact, prompt engineering is a fundamental building block within context engineering. Every well-crafted prompt becomes part of the larger context that shapes AI behavior, working alongside conversation history, attached files, and system instructions to create better outcomes.
 
-[Start prompting](https://preview.claude.ai/new) in Claude today.
+[Start prompting](https://claude.ai/new) in Claude today.
 
 ## Additional resources
 

@@ -16,4 +16,4 @@
 
 [How Claude suggests connected apps](https://support.claude.com/en/articles/14730684-how-claude-suggests-connected-apps)
 
-[Authorize MCP connectors for your entire organization](https://support.claude.com/en/articles/15537633-authorize-mcp-connectors-for-your-entire-organization)
+[Auto-connect your organization’s apps to Claude](https://support.claude.com/en/articles/15537633-auto-connect-your-organization-s-apps-to-claude)
