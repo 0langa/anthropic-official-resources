@@ -100,7 +100,9 @@ David Traina, Senior Software Engineer
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 2, 2026
+[ArticleNov 4, 2026
+
+### New agents and products for security, productivity, and creative work on Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace)[ArticleNov 2, 2026
 
 ### Make long-running agents faster with message threads
 
@@ -118,13 +120,7 @@ Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-p
 
 IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
 
-Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)[ArticleOct 28, 2026
-
-### Introducing artifacts for legal work
-
-Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
-
-Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)
+Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)
 
 ## Transform how your organization operates with Claude
 

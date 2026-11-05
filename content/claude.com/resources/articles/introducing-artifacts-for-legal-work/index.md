@@ -8,7 +8,7 @@
 - Reading time5 min
 - ShareCopy link
 
-Today, we’re introducing ready-to-use artifacts that legal professionals can adapt to how their teams work and share with colleagues across the business. Since we launched Claude for Legal in May, the most common requests from legal teams have been for simpler setup and easier ways to work with colleagues.
+Today, we’re introducing ready-to-use artifacts that legal professionals can adapt to how their teams work and share with colleagues across the business. Since we [launched Claude for Legal in May](https://claude.com/resources/articles/claude-for-the-legal-industry), the most common requests from legal teams have been for simpler setup and easier ways to work with colleagues.
 
 Artifacts are interactive tools, such as trackers and dashboards, that teams can use and share in Claude. Our new legal gallery includes artifacts for specific tasks, such as reviewing a stack of contracts, tracking regulatory changes, and taking in legal requests from the business. Each artifact opens with an example, so legal professionals can see how the work comes together before adding their own data and connectors. Each answer or output has a link to its source.
 
@@ -216,7 +216,13 @@ To plan a rollout for your organization, talk to our sales team or work with one
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 28, 2026
+[ArticleNov 2, 2026
+
+### Make long-running agents faster with message threads
+
+New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
+
+Claude Platform](https://claude.com/resources/articles/message-threads)[ArticleOct 28, 2026
 
 ### Smart reports, surveys, and pooled group budgets for Claude Enterprise
 
@@ -232,11 +238,7 @@ Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://clau
 
 ### Claude for Financial Advisors
 
-Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)[ArticleOct 26, 2026
-
-### Expanding Claude for Nonprofits
-
-Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.](https://claude.com/resources/articles/expanding-claude-for-nonprofits)
+Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)
 
 ## Transform how your organization operates with Claude
 

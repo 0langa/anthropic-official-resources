@@ -24,6 +24,10 @@ A research preview is available by waitlist today, starting with US Pro, Max, an
 
 ![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
+[ArticleNov 4, 2026
+
+### New agents and products for security, productivity, and creative work on Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace)
+
 [ArticleNov 2, 2026
 
 ### Make long-running agents faster with message threads
@@ -39,14 +43,6 @@ Claude Platform](https://claude.com/resources/articles/message-threads)
 In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
 
 Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)
-
-[ArticleOct 28, 2026
-
-### IDC brings Quanta into Claude and adopts Claude across the company
-
-IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
-
-Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)
 
 [ArticleOct 22, 2026
 

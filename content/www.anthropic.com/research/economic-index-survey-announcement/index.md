@@ -18,9 +18,11 @@
 
 Related articles
 
-- Jun 26, 2026
+- Economics
 
-  [Economic Index](https://www.anthropic.com/economic-index)
+  Oct 16, 2026
+
+  [The AI expectations gap](https://www.anthropic.com/research/ai-expectations-gap)
 
 [View more](https://www.anthropic.com/search?topic=economic-index)
 

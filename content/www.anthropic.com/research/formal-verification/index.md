@@ -21,9 +21,9 @@ Related articles
 
 - Frontier Red Team
 
-  Oct 20, 2026
+  Nov 2, 2026
 
-  [Using Claude to reduce the attack surface of code](https://www.anthropic.com/research/attack-surface-reduction)
+  [Progress on provable inference for large language models](https://www.anthropic.com/research/provable-inference)
 
 [View more](https://www.anthropic.com/search?topic=cybersecurity)
 

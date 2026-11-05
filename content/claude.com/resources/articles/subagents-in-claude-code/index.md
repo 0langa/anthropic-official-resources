@@ -144,7 +144,7 @@ Here’s an example of a simple CLAUDE.md file that triggers a subagent given sp
 
 With the above CLAUDE.md file, every code review request automatically uses the defined pattern, eliminating the need to specify it each time.
 
-For more on CLAUDE.md files, see [Customizing Claude Code for your codebase: setting up a CLAUDE.md file](https://preview.claude.ai/chat/link) and our Claude Code [CLAUDE.md](http://claude.md/) [file docs](https://code.claude.com/docs/en/memory).
+For more on CLAUDE.md files, see [Customizing Claude Code for your codebase: setting up a CLAUDE.md file](https://claude.com/resources/articles/using-claude-md-files) and our Claude Code [CLAUDE.md](http://claude.md/) [file docs](https://code.claude.com/docs/en/memory).
 
 ### Skills
 

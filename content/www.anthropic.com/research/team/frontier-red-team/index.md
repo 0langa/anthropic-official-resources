@@ -191,7 +191,7 @@ Studies how AI affects people, both individually and collectively.
 
 [### Science](https://www.anthropic.com/science)
 
-17 posts
+18 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 
@@ -233,7 +233,7 @@ Studies how AI affects people, both individually and collectively.
 
 [### Science](https://www.anthropic.com/science)
 
-17 posts
+18 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 

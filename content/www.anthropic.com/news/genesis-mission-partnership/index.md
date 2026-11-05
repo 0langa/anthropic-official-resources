@@ -17,11 +17,11 @@
 
 Related articles
 
-- Product
+- Science
 
-  Jun 30, 2026
+  Nov 4, 2026
 
-  [Claude Science, an AI workbench for scientists, is now available](https://www.anthropic.com/news/claude-science-ai-workbench)
+  [Investigating vault particles with Claude](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
 
 [View more](https://www.anthropic.com/search?topic=discovery)
 

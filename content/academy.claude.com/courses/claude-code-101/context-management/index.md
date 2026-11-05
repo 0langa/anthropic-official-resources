@@ -31,7 +31,7 @@ When you approach the limit, the context window is automatically **compacted**. 
 
 ![Claude Code showing 'Compacting conversation...' as it summarizes the context](https://academy.claude.com/assets/media/9511065cfe218d3894f551b9096b6eead92b74f5714126e6ccdd26e2d4a5f4a0.jpg)
 
-![Claude Code displaying a compact summary of the previous conversation including key technical concepts and files](https://academy.claude.com/assets/v1/a1539801b08e-i2tdfsoi.jpg)
+![Claude Code displaying a compact summary of the previous conversation including key technical concepts and files](https://academy.claude.com/assets/media/c3ffa828680432059b60f9d16757bd282558ded41e12d4bca1d3ef32bf1d8b57.jpg)
 
 ## Commands[](https://academy.claude.com/courses/claude-code-101/context-management)
 
@@ -41,7 +41,7 @@ You can run compaction manually with the `/compact` command. This compacts every
 
 If you want to completely start from scratch with no memory of the previous session, run `/clear`. This removes everything.
 
-![Running /clear in Claude Code to start a fresh session](https://academy.claude.com/assets/v1/93098b21ae01-ncir3sc3.jpg)
+![Running /clear in Claude Code to start a fresh session](https://academy.claude.com/assets/media/d4580543d210eb2c29558798da0662f934a44553fccb2609e8038ee4ad1104c2.jpg)
 
 To check the state of your context, run the `/context` command. You'll get a high-level overview of your context size, the categories taking up the most space, and a visual graphic showing the breakdown.
 

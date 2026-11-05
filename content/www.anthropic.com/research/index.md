@@ -38,7 +38,7 @@ Studies how AI affects people, both individually and collectively.
 
 [## Science](https://www.anthropic.com/science)
 
-17 posts
+18 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 
@@ -80,15 +80,21 @@ Studies how AI affects people, both individually and collectively.
 
 [## Science](https://www.anthropic.com/science)
 
-17 posts
+18 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 
+- [![Collage illustration pairing vintage measuring scales over a black-and-white photograph with a green print of a ribbed, vaulted cathedral ceiling.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F99ce1c2ac2d0649d677f097132829da2ab3c4e18-1280x1280.jpg&w=3840&q=75)](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
 - [![Collage of a vintage lithograph of a schooner heeling in a stormy sea, layered over an aged paper folder and a blue-tinted handwritten ship passenger list.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5b5ef1d3d54a1d98d6775e113b321561c0d25875-1280x1280.jpg&w=3840&q=75)](https://www.anthropic.com/research/agents-judgment-calls)
 - [![Illuminating the frontier](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F949253a4fe1d64bb09bac48fd94a5110c2132916-1280x1280.jpg&w=3840&q=75)](https://www.anthropic.com/institute/measuring-pace-of-ai-development)
-- [![The missing map of the sky](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdde28f2eb899eade347dd07314a9c6b65bfbbb3c-1200x630.png&w=3840&q=75)](https://www.anthropic.com/research/the-missing-map-of-the-sky)
 - [![Scenarios for our economic future](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffccf43cf4e36b0c26b4215861d909aadabbc32ce-1920x1080.png&w=3840&q=75)](https://www.anthropic.com/institute/econ-scenarios)
 - [![Two-panel illustration: on a dark background, five colored bars resembling books on a shelf; on dotted paper, two columns of dots joined by crisscrossing colored lines, like a matching diagram pairing people with books.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F10c6ffec89296778232ace13db067abcf1c9ffcd-1080x1080.jpg&w=3840&q=75)](https://www.anthropic.com/research/project-swap)
+
+[Science](https://www.anthropic.com/science)
+
+Nov 4, 2026[## Investigating vault particles with Claude](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
+
+We’re sharing another finding from Anthropic’s biology research lab: the first 3D structure of a vault particle found in prokaryotic cells. Here, we describe how Claude helped at each step of this research.
 
 [Alignment](https://www.anthropic.com/research/team/alignment)
 
@@ -101,12 +107,6 @@ As AI does more of the hands-on work, the hope is that experts still make the ju
 Sep 17, 2026[## Illuminating the frontier](https://www.anthropic.com/institute/measuring-pace-of-ai-development)
 
 Anthropic is sharing new measurements that would give the public visibility into frontier AI development.
-
-[Science](https://www.anthropic.com/science)
-
-Oct 8, 2026[## The missing map of the sky](https://www.anthropic.com/research/the-missing-map-of-the-sky)
-
-Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky in UV light.
 
 [Economics](https://www.anthropic.com/research/team/economics)
 
@@ -126,7 +126,7 @@ To see what works and what breaks when agents are sent into a market, we made a
 
 05
 
-200
+201
 
 ARTICLES
 
@@ -134,9 +134,17 @@ Filter
 
 Most recentGallery view
 
+[Science](https://www.anthropic.com/science)
+
+Nov 4, 2026![Collage illustration pairing vintage measuring scales over a black-and-white photograph with a green print of a ribbed, vaulted cathedral ceiling.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffc840b9e8299956722b586784d0dfdaf7b81ff1a-2000x1125.jpg&w=3840&q=75)
+
+### [Investigating vault particles with Claude](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
+
+We’re sharing another finding from Anthropic’s biology research lab: the first 3D structure of a vault particle found in prokaryotic cells. Here, we describe how Claude helped at each step of this research.
+
 [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-Nov 2, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg&w=3840&q=75)
+Nov 2, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg&w=1920&q=75)
 
 ### [Progress on provable inference for large language models](https://www.anthropic.com/research/provable-inference)
 
@@ -312,18 +320,10 @@ We are sharing the first complete computer-checked proof of Fermat’s Last Theo
 
 [Alignment](https://www.anthropic.com/research/team/alignment)
 
-Aug 28, 2026![Orderly five-by-five grid on blue grid paper at right.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb60cdf4c2dad438f6e862c7f6bb6fdb802b9e4a0-1280x1280.jpg&w=3840&q=75)
+Aug 28, 2026![Colored paper dots scattered randomly on gray grid paper at left, and arranged in an orderly five-by-five grid on blue grid paper at right.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F17fcacec1e88ea428ffe9acc64cc2f8ad6a2ce33-2000x1125.jpg&w=3840&q=75)
 
 ### [Automated researchers can reliably mitigate alignment failures](https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures)
 
 We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities.
-
-[Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
-
-Aug 26, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0a8a1a86408fb8851f67f3529ab1f9db884955f5-1280x1280.jpg&w=3840&q=75)
-
-### [Enabling independent research on how people use Claude](https://www.anthropic.com/research/enabling-independent-research)
-
-We ran a pilot giving external researchers access to aggregate, real-world Claude usage data. In this post, we share high-level results and what we learned running this pilot.
 
 See more

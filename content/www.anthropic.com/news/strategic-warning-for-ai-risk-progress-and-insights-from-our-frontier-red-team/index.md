@@ -20,11 +20,11 @@
 
 Related articles
 
-- Announcements
+- Frontier Red Team
 
-  Oct 6, 2026
+  Oct 27, 2026
 
-  [Expanding the Cyber Verification Program](https://www.anthropic.com/news/cyber-verification-program)
+  [Discovering and exploiting vulnerabilities in critical, real-world software with Claude](https://www.anthropic.com/research/discovering-vulnerabilities-with-claude)
 
 [View more](https://www.anthropic.com/search?topic=cybersecurity)
 

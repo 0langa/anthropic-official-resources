@@ -9,6 +9,10 @@
 - Published
 
   Mar 5, 2026
+- Authors
+
+  - Maxim Massenkoff
+  - Peter McCrory
 - Team
 
   [Economics](https://www.anthropic.com/research/team/economics)
@@ -238,6 +242,15 @@ Tomlinson, K., Jaffe, S., Wang, W., Counts, S., & Suri, S. (2025). Working with 
 10 See Fujita, et al. (2024).
 
 ## Authors & acknowledgements
+
+- [Maxim Massenkoff\*→](https://www.anthropic.com/search?author=maxim-massenkoff)
+
+  Co-author of this article.
+- [Peter McCrory\*→](https://www.anthropic.com/search?author=peter-mccrory)
+
+  Co-author of this article.
+
+\*Lead authors. Contributed equally to this report
 
 ### Contributors
 

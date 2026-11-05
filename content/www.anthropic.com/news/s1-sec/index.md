@@ -6,6 +6,19 @@
 - Category
 
   [Announcements](https://www.anthropic.com/news/announcements)
+- Topics
+
+  - [Funding](https://www.anthropic.com/search?topic=funding)
+
+Related articles
+
+- Announcements
+
+  Jun 1, 2026
+
+  [Anthropic confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec)
+
+[View more](https://www.anthropic.com/search?topic=funding)
 
 Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.
 

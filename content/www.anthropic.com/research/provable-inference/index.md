@@ -12,6 +12,23 @@
 - Team
 
   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
+- Topics
+
+  - [Transparency](https://www.anthropic.com/search?topic=transparency)
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Global stability](https://www.anthropic.com/search?topic=global-stability)
+  - [Open source](https://www.anthropic.com/search?topic=open-source)
+  - [Coding](https://www.anthropic.com/search?topic=coding)See more...
+
+Related articles
+
+- Frontier Red Team
+
+  Oct 22, 2026
+
+  [LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/research/formal-verification)
+
+[View more](https://www.anthropic.com/search?topic=transparency)
 
 *Roy Rinberg (Anthropic), Alex Allain (Anthropic); Alessandro Chiesa (EPFL, StarkWare), Miranda Christ (MIT, RESI), Rahul Dalal (Anthropic STEM Fellows Program, Succinct), Giacomo Fenzi (EPFL), Ben Mayer (Anthropic Fellows Program, MIT), Guy Weissenberg (EPFL)*
 
@@ -30,7 +47,7 @@ Today we are releasing five artifacts:
 
 - The current blog post, which outlines our system and its potential applications;
 - A [technical report](https://www.anthropic.com/document/flashprove-technical-report) explaining the details of our system;
-- A [protocol description](https://github.com/anthropics/FlashProve/blob/main/paper/paper.pdf);
+- A (Claude-written) [protocol specification](https://github.com/anthropics/FlashProve/blob/main/paper/paper.pdf) document;
 - [Executable code](https://github.com/anthropics/FlashProve) that includes: a [prover](https://github.com/anthropics/FlashProve/tree/main/prover) and two verifiers, a [fast verifier](https://github.com/anthropics/FlashProve/tree/main/verifier) in C++, and a [provably correct verifier](https://github.com/anthropics/FlashProve/tree/main/tools/lean-verify) in Lean; and
 - [Lean proofs](https://github.com/anthropics/FlashProve/tree/main/lean) for the top level mathematical statements, along with an [interactive visualizer](https://github.com/anthropics/FlashProve/blob/main/lean/STATEMENTS.html) of the Lean theorems to aid with auditing.
 
@@ -160,7 +177,7 @@ Second, the executable code must be audited to ensure it matches the formally-de
 
 Achieving provable inference is the objective of a line of work colloquially termed “zkML”. Early works, such as [SafetyNets](https://proceedings.neurips.cc/paper_files/paper/2017/file/6048ff4e8cb07aa60b6777b6f7384d52-Paper.pdf) (2017) verified a two-conv-layer MNIST CNN and a small fully connected speech model, [zkCNN](https://eprint.iacr.org/2021/673) (2021) reached VGG-16 (15M parameters) at 88.3 s per proof, and [Kang et al](https://arxiv.org/abs/2210.08674). (2022) proved MobileNet v2 on full-resolution ImageNet.
 
-Transformer proofs followed: [ZKML’s GPT-2](https://ddkang.github.io/papers/2024/zkml-eurosys.pdf) took about 159 s per token for 117M parameters (≈0.006 tok/s), and [Modulus Labs’](https://medium.com/@CountableMagic/chapter-14-the-worlds-1st-on-chain-llm-7e389189f85e) 1.5B-parameter GPT-2 XL needed over 90 hours. Performance progressively improved: [zkLLM](https://arxiv.org/abs/2404.16109) (2024) proved LLaMA-2-13B on a 2,048-token input in about 15 minutes on GPU, which is ≈0.001 tok/s per new token, or ~2.5 tok/s in the batch. In 2025, [zkGPT](https://eprint.iacr.org/2025/1184.pdf) reduced GPT-2 to 21.8 s (≈0.05 tok/s), [zkPyTorch](https://eprint.iacr.org/2025/535) proved Llama-3 8B at ~150 s per token on one CPU core (≈0.007 tok/s), and [ZKTorch](https://arxiv.org/abs/2507.07031) proved GPT-J (6B) in about 20 minutes (≈0.001 tok/s). [VerInf](https://github.com/JamesPetrie/VerInf) proved Llama 4 Maverick (the same 400B-parameter MoE model we prove) at ≈0.02 tok/s. [DeepProve](https://eprint.iacr.org/2026/1112), the current peer-reviewed state of the art, certifies an entire generated sequence with a single forward pass. It reaches about 2.9 tok/s for GPT-2 and 1.4 tok/s for Gemma 3 on one machine, and 31 tok/s distributed.
+Transformer proofs followed: [ZKML’s GPT-2](https://ddkang.github.io/papers/2024/zkml-eurosys.pdf) took about 159 s per token for 117M parameters (≈0.006 tok/s), and [Modulus Labs’](https://medium.com/@CountableMagic/chapter-14-the-worlds-1st-on-chain-llm-7e389189f85e) 1.5B-parameter GPT-2 XL needed over 90 hours. EZKL (2023) proved a 1M-parameter GPT-style transformer in about 966 s per token (≈0.001 tok/s). Performance progressively improved: [zkLLM](https://arxiv.org/abs/2404.16109) (2024) proved LLaMA-2-13B on a 2,048-token input in about 15 minutes on GPU, which is ≈0.001 tok/s per new token, or ~2.5 tok/s in the batch. In 2025, [zkGPT](https://eprint.iacr.org/2025/1184.pdf) reduced GPT-2 to 21.8 s (≈0.05 tok/s), [zkPyTorch](https://eprint.iacr.org/2025/535) proved Llama-3 8B at ~150 s per token on one CPU core (≈0.007 tok/s), and [ZKTorch](https://arxiv.org/abs/2507.07031) proved GPT-J (6B) in about 20 minutes (≈0.001 tok/s). [VerInf](https://github.com/JamesPetrie/VerInf) proved Llama 4 Maverick (the same 400B-parameter MoE model we prove) at ≈0.02 tok/s. [DeepProve](https://eprint.iacr.org/2026/1112), a current peer-reviewed state of the art, certifies an entire generated sequence with a single forward pass. It reaches about 2.9 tok/s for GPT-2 and 1.4 tok/s for Gemma 3 on one machine, and 31 tok/s distributed. [SASH's prover](https://www.aisafety.sg/research/what-proving-llm-inference-actually-costs-research-note) (2026) reached ≈1.25 tok/s on Llama 3.1 8B on a single H100.
 
 Recently commercial efforts have reached impressive numbers, with [Attestable](https://attestable.com/blog/proving-llms-scale) proving Gemma 4 31B at 53–77 tok/s on a single H100; at the time of writing, Attestable has not released a corresponding open source library.
 
@@ -169,7 +186,7 @@ The above numbers speak to the precipitous progress of provable inference in the
 - In 2024, zkLLM proved a 13B model at about 2.5 tokens/second on one A100. The only earlier proof of Llama 4 Maverick that we know of, VerInf, reports 14.3 hours for 1,000 tokens on a DGX Spark, with a 93.6 GB proof which took almost a day to verify.
 - FlashProve proves the same model at 110 tokens/second on a single H100, with 19 MB proofs that can be verified in seconds. Attestable independently reports 53–77 tokens/second for a dense 31B model.
 
-We believe that the progress should transfer to more models and architectures, yielding a flexible and powerful tool with overhead over native computation of roughly 2 orders of magnitude (about 70 to 95 times in our measurements), much less than what previously expected.
+We believe that the progress should transfer to more models and architectures, yielding a flexible and powerful tool with overhead over native computation of roughly 2 orders of magnitude (about 70 to 95 times in our measurements), much less than previously expected.
 
 ## Limitations
 

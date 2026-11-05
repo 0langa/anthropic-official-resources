@@ -29,24 +29,24 @@ First, it's important to understand the concept of "tools" in agentic AI. Tools 
 
 For example, if your team uses Linear for project management, you can add a Linear MCP server to bring in the details of your specific issues. If you need up-to-date documentation for a dependency, a docs MCP server like Context7 can provide that to Claude Code.
 
-![Claude Code querying a Linear MCP server to retrieve issue details for a ticket](https://academy.claude.com/assets/v1/8b45d337d706-me6s3vnu.jpg)
+![Claude Code querying a Linear MCP server to retrieve issue details for a ticket](https://academy.claude.com/assets/media/9545fe7bf32af537692fdce0f7976beec41704e25cb7331717ba4e24a2f7cc3e.jpg)
 
-![Claude Code using the Context7 MCP server to look up the latest shadcn/ui documentation](https://academy.claude.com/assets/v1/d6d21d5d4f27-ec8szhqm.jpg)
+![Claude Code using the Context7 MCP server to look up the latest shadcn/ui documentation](https://academy.claude.com/assets/media/512be14fb76997a5f69f3c1db90636b2e7a424390fb0e0e96685aecdb6aef0aa.jpg)
 
 ## Adding an MCP Server[](https://academy.claude.com/courses/claude-code-101/mcp)
 
 You can add MCP servers with the `claude mcp add` command. There are two main types:
 
-![Running claude mcp add to add an HTTP Linear MCP server from the terminal](https://academy.claude.com/assets/v1/2e38357f8b36-kuczetbj.jpg)
+![Running claude mcp add to add an HTTP Linear MCP server from the terminal](https://academy.claude.com/assets/media/1ea8559fe4df7c8929b66903a721dfc8aa5bdcb3b7636be7106c20e03ed75e55.jpg)
 
 - **HTTP servers** are for remote services. These are hosted by the service provider and connect over the network.
 - **Stdio servers** are for local processes that run on your machine.
 
-![Running claude mcp add to add a local stdio MCP server with a Python script](https://academy.claude.com/assets/v1/a19228083bd3-kbkpff1w.jpg)
+![Running claude mcp add to add a local stdio MCP server with a Python script](https://academy.claude.com/assets/media/87e84009c9b73b365b0bedcbd2cdaaf90f44bf1c674df0210105348f94f060d4.jpg)
 
 You can manage your servers with `/mcp` inside a Claude Code session to see what's connected, check status, and disable servers you don't need.
 
-![The /mcp command showing connected MCP servers and their status](https://academy.claude.com/assets/v1/ad513f212c47-iacq6473.jpg)
+![The /mcp command showing connected MCP servers and their status](https://academy.claude.com/assets/media/0c88203902f435dce76711f898a32263be12d2877c2c1b466d5fe24d0cef7eea.jpg)
 
 ## Scoping Servers[](https://academy.claude.com/courses/claude-code-101/mcp)
 
@@ -60,7 +60,7 @@ MCP servers can be scoped in three ways:
 
 MCP servers add their tool names and instructions to your context window, even when you're not actively using them. Each connected server takes some space, so run `/mcp` to see what's connected and disable anything you're not actively using.
 
-![The /mcp server detail view with options to view tools, reconnect, or disable a server](https://academy.claude.com/assets/v1/f536fa898019-cdsu80i9.jpg)
+![The /mcp server detail view with options to view tools, reconnect, or disable a server](https://academy.claude.com/assets/media/0b59a0ace894a2644b4929dc381f30f8d10b6c06d491940c14c8945de692fd26.jpg)
 
 If a tool has a CLI equivalent (like `gh` for GitHub or `aws` for AWS), the CLI is more context-efficient because it doesn't add a listing for each tool.
 

@@ -438,6 +438,7 @@
     "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
     "https://www.anthropic.com/research/introducing-anthropic-science",
     "https://www.anthropic.com/research/introspection",
+    "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
     "https://www.anthropic.com/research/labor-market-impacts",
     "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
     "https://www.anthropic.com/research/long-running-claude",
@@ -507,10 +508,10 @@
   ],
   "statuses": {
     "blocked": 27,
-    "complete": 5021,
+    "complete": 5065,
     "gone": 48,
     "out_of_scope": 42,
-    "partial": 500
+    "partial": 501
   },
   "terminal_unarchived_urls": [
     "https://academy.claude.com/courses/tool-use-with-the-messages-api/**call.input",
@@ -1154,6 +1155,7 @@
     "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
     "https://www.anthropic.com/research/introducing-anthropic-science",
     "https://www.anthropic.com/research/introspection",
+    "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
     "https://www.anthropic.com/research/labor-market-impacts",
     "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
     "https://www.anthropic.com/research/long-running-Claude",

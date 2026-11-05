@@ -1,4 +1,4 @@
-Nov 4, 2026 — 1:00 – 1:45 PM PT
+On demand
 
 # Unified Claude: What it means for admins
 
@@ -8,7 +8,7 @@ We invite admins and security teams to join Anthropic’s team for a look at wha
 
 Register for the webinar
 
-Fill out the form below to reserve your seat.
+Fill out the form below to watch on demand.
 
 ## Featured speakers
 

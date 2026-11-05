@@ -12,13 +12,13 @@ As General Manager of AI for Business at Rakuten, Yusuke Kaji’s job is to “f
 
 One of those seeds was Claude.
 
-Since March 2025, Rakuten has used Claude to speed up software development with Claude Code, stand up agents across its business functions, and power AI features for millions of customers. According to Kaji, Rakuten chose to partner with Anthropic for its enterprise focus, leadership, and product taste.
+Since March 2025, Rakuten has used Claude to speed up software development with Claude Code, [stand up agents across its business functions](https://claude.dev/blog/building-effective-agent-automations/), and power AI features for millions of customers. According to Kaji, Rakuten chose to partner with Anthropic for its enterprise focus, leadership, and product taste.
 
 Across nearly a dozen model launches, he's watched the work he can hand to an agent keep growing: first using Claude Code to [ship production software](https://claude.com/customers/rakuten), then building custom [Claude Managed Agents](https://claude.com/customers/rakuten-qa) for teams across the company. He likens testing out new models with embarking on a “new quest.”
 
 “The way a good leader prepares stretch goals for their people, we prepare stretch tasks for a new Claude,” he adds. “Maybe Claude is nudging us to stretch, too."
 
-When he tested Claude Fable 5, he knew something felt different. The model could run on its own for far longer than its predecessors, and for the first time, checking its own work and completing nuanced tasks overnight while Kaji slept.
+When he tested Claude Fable 5, he knew something felt different. The model could run on its own for far longer than its predecessors, and for the first time, checking its own work and [completing nuanced tasks overnight](https://claude.com/resources/articles/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night) while Kaji slept.
 
 That extra autonomy is what lets Rakuten hand its agents bigger, longer-running jobs, and transform the way they work.
 
@@ -38,7 +38,7 @@ For most builders, the hardest part of building long-running agents is setting t
 
 Before Claude Fable 5, setting an agent loose on a multi-hour task without human oversight was always a gamble. "If they choose the right path in the first step, everything is fine," Kaji says. "But if they choose the wrong direction in the first pass, the agent spends significant time to fix the path, or even fails to reach the destination." On a job meant to run five hours or a full day, one early wrong assumption could burn the entire run, and the only way to catch it was a person checking in.
 
-The failure mode was a lack of self-verification. Any model can take a wrong first step. The problem with earlier models was that they didn't check their own work as they went, so an early wrong turn went unnoticed. It compounded over the run and produced a suboptimal result hours later.
+The failure mode was a lack of [self-verification](https://claude.com/resources/articles/building-verification-loops-in-claude-code-with-skills). Any model can take a wrong first step. The problem with earlier models was that they didn't check their own work as they went, so an early wrong turn went unnoticed. It compounded over the run and produced a suboptimal result hours later.
 
 According to Kaji, Claude Fable 5 changes the calculus for days-long agentic runs because it checks its own work as it goes, far more often than any prior model.
 

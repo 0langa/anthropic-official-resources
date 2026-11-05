@@ -10,7 +10,7 @@ ProductAll
 
 RoleAll
 
-316 resources
+320 resources
 
 [## AI capabilities and limitations
 
@@ -100,15 +100,15 @@ Delegate multi-step work to Claude in Cowork: set up workspaces, give context, r
 
 Claude Tag (beta) brings Claude into your team's Slack workspace. Learn where to hand it work, how to steer and correct it, and the habits that help you and your team get more from it over time.
 
-·Course·11 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introduction-to-claude-tag)[## Introduction to Model Context Protocol
+·Course·11 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introduction-to-claude-tag)[## Introduction to evals
+
+Build a small eval on your own data to choose a Claude model by accuracy first and cost second, fix the prompt before you upgrade, and keep checking after launch.
+
+·Course·4 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduction-to-evals)[## Introduction to Model Context Protocol
 
 Build MCP servers and clients from scratch with the Python SDK, covering the three core primitives—tools, resources, and prompts—that connect Claude to external services.
 
-·Course·10 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduction-to-model-context-protocol)[## Introduction to subagents
-
-Decompose complex tasks across parallel Claude subagents and orchestrate them deterministically.
-
-·Course·4 lessons·45 min](https://academy.claude.com/courses/introduction-to-subagents)Load more
+·Course·10 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduction-to-model-context-protocol)Load more
 
 
 ## Courses
@@ -125,7 +125,7 @@ ProductAll
 
 RoleAll
 
-28 courses
+29 courses
 
 [## AI capabilities and limitations
 
@@ -215,15 +215,15 @@ Delegate multi-step work to Claude in Cowork: set up workspaces, give context, r
 
 Claude Tag (beta) brings Claude into your team's Slack workspace. Learn where to hand it work, how to steer and correct it, and the habits that help you and your team get more from it over time.
 
-·11 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introduction-to-claude-tag)[## Introduction to Model Context Protocol
+·11 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introduction-to-claude-tag)[## Introduction to evals
+
+Build a small eval on your own data to choose a Claude model by accuracy first and cost second, fix the prompt before you upgrade, and keep checking after launch.
+
+·4 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduction-to-evals)[## Introduction to Model Context Protocol
 
 Build MCP servers and clients from scratch with the Python SDK, covering the three core primitives—tools, resources, and prompts—that connect Claude to external services.
 
-·10 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduction-to-model-context-protocol)[## Introduction to subagents
-
-Decompose complex tasks across parallel Claude subagents and orchestrate them deterministically.
-
-·4 lessons·45 min](https://academy.claude.com/courses/introduction-to-subagents)Load more
+·10 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduction-to-model-context-protocol)Load more
 
 
 ## Tutorials
@@ -240,7 +240,7 @@ ProductAll
 
 RoleAll
 
-132 tutorials
+135 tutorials
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-blskv34c.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bv9w6wt2.png)
 
@@ -294,7 +294,11 @@ Ask an AI a question and the answer comes back confident, well-organized, maybe 
 
 ## Check your AI use policy with Claude
 
-“Can I put our donor list into Claude?” A development associate has thank-you letters to write and takes care with donor information, so she asks before connecting any tools or sharing the list.](https://academy.claude.com/tutorials/claude-for-nonprofits-in-action-ai-policy)[![](https://academy.claude.com/assets/v1/thumbnail.light-m7h6cx31.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bp8m6m89.png)
+“Can I put our donor list into Claude?” A development associate has thank-you letters to write and takes care with donor information, so she asks before connecting any tools or sharing the list.](https://academy.claude.com/tutorials/claude-for-nonprofits-in-action-ai-policy)[## Choose between a cloud session and Remote Control for a long task
+
+A long Claude Code task can keep going after you leave your desk, on your own machine with Remote Control or in a cloud session. Compare what each one gives you and where it stops, then use a few questions to pick one for a task and say why.
+
+·10 min](https://academy.claude.com/tutorials/cloud-session-or-remote-control)[![](https://academy.claude.com/assets/v1/thumbnail.light-m7h6cx31.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bp8m6m89.png)
 
 ## Choosing between Claude Cowork or Chat
 
@@ -374,13 +378,7 @@ Build a doc, a deck, a design, a dashboard, or an animation with Claude, then sh
 
 Learn how to configure skills and work with multi-file skill structures in Claude Code.
 
-·4 min](https://academy.claude.com/tutorials/configuration-and-multi-file-skills)[![](https://academy.claude.com/assets/v1/thumbnail.light-o61zk21d.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-k41o64xt.png)
-
-## Connect your tools to unlock a smarter, more capable AI companion
-
-Learn how to connect third-party tools and applications to Claude through the Connectors feature for accessing data across platforms.
-
-·6 min](https://academy.claude.com/tutorials/connect-your-tools-to-unlock-a-smarter-more-capable-ai-companion)Load more
+·4 min](https://academy.claude.com/tutorials/configuration-and-multi-file-skills)Load more
 
 
 ## Use cases

@@ -67,6 +67,8 @@ Decomposing the work into steps still matters, "no matter how brilliant the mode
 
 **Get started with [Claude Fable 5.](https://www.anthropic.com/claude/fable)**
 
+More from this series: [Rakuten](https://claude.com/resources/articles/working-at-the-frontier-rakuten) and [Cognition](https://claude.com/resources/articles/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night)
+
 ## Related articles
 
 Explore more product news and best practices for teams building with Claude.

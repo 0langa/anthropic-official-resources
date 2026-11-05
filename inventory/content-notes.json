@@ -182,6 +182,9 @@
   "https://academy.claude.com/courses/introduction-to-claude-tag/course-quiz": [
     "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
   ],
+  "https://academy.claude.com/courses/introduction-to-evals/badge": [
+    "No semantic main/article element; full body retained."
+  ],
   "https://academy.claude.com/courses/introduction-to-evals/course-quiz": [
     "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete."
   ],
@@ -6334,6 +6337,57 @@
   "https://platform.claude.com/docs/en/api/organization": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/organization/analytics": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/analytics/apps": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/analytics/apps/chat": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/analytics/apps/chat/projects": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/analytics/apps/chat/projects/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/analytics/artifacts": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/analytics/artifacts/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/analytics/connectors": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/analytics/connectors/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/analytics/plugins": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/analytics/plugins/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/analytics/skills": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/analytics/skills/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/analytics/summaries": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/analytics/summaries/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/analytics/users": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/analytics/users/list": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/organization/api_keys": [
     "Native source; upstream MDX components retained."
   ],
@@ -6475,6 +6529,51 @@
   "https://platform.claude.com/docs/en/api/organization/rate_limits/list?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/organization/rbac_groups": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/rbac_groups/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/rbac_groups/delete": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/rbac_groups/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/rbac_groups/members": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/rbac_groups/members/add": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/rbac_groups/members/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/rbac_groups/members/remove": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/rbac_groups/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/rbac_groups/update": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/rbac_roles": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/rbac_roles/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/rbac_roles/permissions": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/rbac_roles/permissions/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/rbac_roles/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/organization/retrieve": [
     "Native source; upstream MDX components retained."
   ],
@@ -6512,6 +6611,30 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/organization/service_accounts?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/spend_limits": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/spend_limits/effective": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/spend_limits/effective/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/spend_limits/increase_requests": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/spend_limits/increase_requests/approve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/spend_limits/increase_requests/deny": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/spend_limits/increase_requests/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/organization/spend_limits/increase_requests/retrieve": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/organization/users": [
@@ -9805,6 +9928,9 @@
   "https://support.claude.com/en/articles/17889756-anthropic-ipo-international-retail-brokers-and-selling-agents": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/18234133-how-do-anthropic-hosted-browsers-identify-themselves-when-they-browse-the-web-on-a-user-s-behalf": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for": [
     "Native source; upstream MDX components retained."
   ],
@@ -10951,6 +11077,9 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/introspection": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/investigating-vault-particles-with-claude": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/labor-market-impacts": [

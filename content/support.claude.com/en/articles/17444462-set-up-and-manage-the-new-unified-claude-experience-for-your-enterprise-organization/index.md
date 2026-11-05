@@ -117,6 +117,7 @@ To learn how to create a role, see **[Set up role-based permissions on Enterpris
 | Admin API                                                           | Organization settings                                 | Works with your existing access keys. The new unified Claude experience appears as the `chat_cowork_unified` permission when you list a custom role's permissions. For endpoint reference, see the **[Admin API documentation](https://platform.claude.com/docs/en/manage-claude/user-management)**.                           |
 | Open Telemetry (OTEL)                                               | Organization settings                                 | If you've set up **[OpenTelemetry export](https://support.claude.com/en/articles/14477985)**, a conversation's cloud session sends the same events as other cloud sessions (metadata only, by default). Anthropic recommends using Compliance API.                                                                             |
 | Device policy for the Claude desktop app                            | Your device management (MDM) tool                     | On managed computers, limits which folders can be connected, disables user-added local MCP servers and extensions, and can require sign-in to your organization. See **[Enterprise configuration for Claude Desktop](https://support.claude.com/en/articles/12622667)**.                                                       |
+| Endpoint detection and response (EDR) sensor                        | Your device management (MDM) tool                     | Runs your EDR sensor inside the VM on a user's computer (beta). It doesn't cover the cloud sandbox, because Anthropic manages that virtual machine. See **[Run your EDR sensor in Claude Cowork](https://support.claude.com/en/articles/17828685-run-your-endpoint-detection-and-response-edr-sensor-in-claude-cowork)**.      |
 
 Identity settings carry over unchanged. Members sign in to Claude as members of your organization, and your SSO (SAML/OIDC), SCIM provisioning, and tenant restrictions apply. The new unified Claude experience adds no separate sign-in.
 
@@ -184,11 +185,11 @@ The new unified Claude experience gets its own line in your reports. When a memb
 
 **A page of its own.** Admins who can view analytics will find a Chat and Cowork unified page under Apps. It shows daily active users.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719814921/59cd7abb6c99192d741223dd2016/f2fadd45-8cb0-49db-a9a2-c8f367f29c91?expires=1793628000&amp;signature=45c5375a75df6920d2a49097bf0dd80f50443ca153ddef9676198c7617b8bc6a&amp;req=dicmH8F%2FmYhdWPMW1HO4zdLa5QxuYqaAf83E7E4Kt4WPAn7hBh6sosFoFEdQ%0APrcBWCZkib0aFZ0C5KI%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719814921/59cd7abb6c99192d741223dd2016/f2fadd45-8cb0-49db-a9a2-c8f367f29c91?expires=1793884500&amp;signature=2546daa7d696f152325d95fd3061cc78ceff7c1874f6bfd1d6d1e9fa299aa514&amp;req=dicmH8F%2FmYhdWPMW1HO4zdLa5QxgaKqFf83E7E4Kt4USlPAMiF6gqLmyw5TN%0A71MbyBeTsG%2BUEY085MY%3D%0A)
 
 **Across the dashboard.** You can pick "Chat and Cowork unified" in the Active users, Active members, Total spend, and Spend by model charts. The See all members table on the Overview page has a "Messages in Chat and Cowork unified" column. The Top connectors and Top skills cards don't include it yet.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719816289/17e3ba22d470c32e8df9b3c20251/385c6be9-7019-451d-85f8-025a6e12a34c?expires=1793628000&amp;signature=040e86b3cd749b4a0afce9eba0a6ed5486de3a53cb65a0ddd80e6eb371fc51e6&amp;req=dicmH8F%2Fm4NXUPMW1HO4zRXO8AwXQo25JG9o4WcdeVBaZxq7rUA%2BaVs105de%0A7zAEHL%2FHYOKUQHZSg0U%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719816289/17e3ba22d470c32e8df9b3c20251/385c6be9-7019-451d-85f8-025a6e12a34c?expires=1793884500&amp;signature=344bda856aed865e2715b0c047c67be7bd13c01f577af918da4893d30e778aa9&amp;req=dicmH8F%2Fm4NXUPMW1HO4zRXO8AwZSIG8JG9o4WcdeVCgQC5p8MyNZAOcg4NE%0ADFB8ZamgxUUIY%2F1T5%2F8%3D%0A)
 
 **Who sees it.** The page appears for every organization that can turn on the new unified Claude experience, whether or not it is on yet.
 

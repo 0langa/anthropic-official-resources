@@ -57,7 +57,7 @@ Install the Claude Code plugin from the JetBrains Marketplace. After installatio
 
 After installing and signing into Claude Desktop, you'll see a tab at the top labeled "Code." The look and feel is similar to the chat side of things, but it lets you work in a specific folder, change permissions, and even work in a cloud environment.
 
-![Claude Desktop Code view showing recent project folders](https://academy.claude.com/assets/v1/dbd3386c65f2-lvp1ffau.jpg)
+![Claude Desktop Code view showing recent project folders](https://academy.claude.com/assets/media/c90ed7e7f396c11d7fa195f4fb8a624f471bb1d84131fab14e1c6d80daa2f7a4.jpg)
 
 ## Web[](https://academy.claude.com/courses/claude-code-101/installing-claude-code)
 

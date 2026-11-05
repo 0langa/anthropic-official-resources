@@ -1,34 +1,34 @@
 {
   "actionable_missing_pages": 1,
   "actionable_population_complete": false,
-  "archived_pages": 5547,
+  "archived_pages": 5592,
   "by_host": {
     "academy.claude.com": {
-      "archived_pages": 883,
+      "archived_pages": 884,
       "discovered_pages": 889
     },
     "claude.com": {
-      "archived_pages": 846,
-      "discovered_pages": 855
+      "archived_pages": 848,
+      "discovered_pages": 857
     },
     "code.claude.com": {
       "archived_pages": 254,
       "discovered_pages": 256
     },
     "platform.claude.com": {
-      "archived_pages": 2159,
-      "discovered_pages": 2189
+      "archived_pages": 2199,
+      "discovered_pages": 2229
     },
     "support.claude.com": {
-      "archived_pages": 756,
-      "discovered_pages": 789
+      "archived_pages": 757,
+      "discovered_pages": 791
     },
     "www.anthropic.com": {
-      "archived_pages": 649,
-      "discovered_pages": 661
+      "archived_pages": 650,
+      "discovered_pages": 662
     }
   },
-  "discovered_pages": 5639,
+  "discovered_pages": 5684,
   "exact_website_replica": false,
   "limitations": [
     "Discovery is the union of public indexes and hyperlinks, not proof that unlinked pages do not exist.",
@@ -586,6 +586,7 @@
     "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html, https://assets.claude.ai/brand/artifacts/blog/frt/Identity%20classification_%20picking%20out%20the%20cell%20members%20among%20linked%20people.html, https://assets.claude.ai/brand/artifacts/blog/frt/Identity%20correlation_%20linking%20accounts%20that%20belong%20to%20the%20same%20person.html",
     "https://www.anthropic.com/research/introducing-anthropic-science": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/introspection": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/research/investigating-vault-particles-with-claude": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/labor-market-impacts": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/long-running-Claude": "HTTP 404: https://www.anthropic.com/research/long-running-Claude",
@@ -658,8 +659,8 @@
   },
   "missing_pages": 92,
   "page_inventory_complete": false,
-  "pages_with_content_notes": 3714,
-  "retained_partial_pages": 500,
+  "pages_with_content_notes": 3757,
+  "retained_partial_pages": 501,
   "terminal_pages": 91,
   "terminal_statuses": {
     "blocked": 27,

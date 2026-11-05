@@ -18,9 +18,9 @@ Related articles
 
 - Frontier Red Team
 
-  Oct 12, 2026
+  Oct 27, 2026
 
-  [AI models may be capable of self-replicating without access to a datacenter](https://www.anthropic.com/research/self-replicating-ai)
+  [Discovering and exploiting vulnerabilities in critical, real-world software with Claude](https://www.anthropic.com/research/discovering-vulnerabilities-with-claude)
 
 [View more](https://www.anthropic.com/search?topic=democratic-integrity)
 

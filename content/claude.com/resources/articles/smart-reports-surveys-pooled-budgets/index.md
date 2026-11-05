@@ -18,7 +18,7 @@ Embedded media: https://assets.claude.com/efbbd95431dc35cb4233f81838088940b52959
 
 Pick a team, a date range, and the products to include. Claude analyzes a sample of the team’s transcripts and groups the work into workstreams. See the spend for each one, the deliverables produced, and the most common points of friction, such as a missing connector or a failed tool call.
 
-Each report has one consolidated list of recommendations, including recurring workflows to turn into skills and rules to add to your code repository. Share any finding as an artifact with the people who can act on it. Reports also answer custom questions about model usage and cost, and admins can save their questions and custom insights as templates to reuse in future reports. If a spend limit is holding someone back, admins with billing permission can raise it from the report.
+Each report has one consolidated list of recommendations, including recurring workflows to turn into skills and rules to add to your code repository. Share any finding as an artifact with the people who can act on it. Reports also answer custom questions about model usage and cost, and admins can save their questions and custom insights as templates to reuse in future reports. If [a spend limit](https://claude.com/resources/articles/giving-admins-more-visibility-and-control-over-claude-usage-and-spend) is holding someone back, admins with billing permission can raise it from the report.
 
 Owners can let team leads who aren’t admins run reports for their own groups, so the people closest to the work act on the findings. Smart reports help admins understand adoption and inform investment planning, but they aren’t for evaluating individual performance or making employment decisions.
 
@@ -118,7 +118,13 @@ Smart reports, in-app surveys, and pooled group budgets are generally available 
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 28, 2026
+[ArticleNov 2, 2026
+
+### Make long-running agents faster with message threads
+
+New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
+
+Claude Platform](https://claude.com/resources/articles/message-threads)[ArticleOct 28, 2026
 
 ### IDC brings Quanta into Claude and adopts Claude across the company
 
@@ -134,11 +140,7 @@ Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-f
 
 ### Claude for Financial Advisors
 
-Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)[ArticleOct 26, 2026
-
-### Expanding Claude for Nonprofits
-
-Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.](https://claude.com/resources/articles/expanding-claude-for-nonprofits)
+Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)
 
 ## Transform how your organization operates with Claude
 

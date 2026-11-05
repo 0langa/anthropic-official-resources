@@ -40,7 +40,7 @@ Most nonprofit staff on Claude open a chat, get a decent but generic answer, and
 
 Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)
 
-[WebinarUpcoming | Nov 4, 2026
+[WebinarNov 4, 2026
 
 ### Unified Claude: What it means for admins
 
@@ -74,7 +74,7 @@ Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-w
 
 Most nonprofit staff on Claude open a chat, get a decent but generic answer, and go back to doing it by hand.
 
-Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[WebinarUpcoming | Nov 4, 2026
+Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[WebinarNov 4, 2026
 
 ### Unified Claude: What it means for admins
 
@@ -132,6 +132,8 @@ Claude Code
 
 We open on an incident. An alert fires in a Slack channel and, without anyone typing a prompt, Claude reads the logs, repos and…
 
-Claude Tag](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)
+Claude Tag
+
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/1c9579ed-c917-4e8c-b2f8-fb56c077a7d5)
 
 View more

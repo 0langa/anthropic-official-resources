@@ -84,26 +84,24 @@ Claude Managed Agents is a suite of APIs for building production-ready agents. Y
 
 ## Prompt engineering, context, and evals
 
-- [Prompt engineering best practices platform.claude.com
+- [Introduction to evalsCourse4 lessons · 1 quiz
+
+  ·Course·4 lessons · 1 quiz](https://academy.claude.com/courses/introduction-to-evals)
+- [Prompt engineering best practices platform.claude.com—
 
   ·platform.claude.com
 
    (opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices)
-- [Interactive prompt engineering tutorial github.com
+- [Interactive prompt engineering tutorial github.com—
 
   ·github.com
 
    (opens in new tab)](https://github.com/anthropics/prompt-eng-interactive-tutorial)
-- [Effective context engineering for AI agents www.anthropic.com
+- [Effective context engineering for AI agents www.anthropic.com—
 
   ·www.anthropic.com
 
    (opens in new tab)](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
-- [Building evaluations platform.claude.com
-
-  ·platform.claude.com
-
-   (opens in new tab)](https://platform.claude.com/docs/en/test-and-evaluate/develop-tests)
 
 ## More resources
 

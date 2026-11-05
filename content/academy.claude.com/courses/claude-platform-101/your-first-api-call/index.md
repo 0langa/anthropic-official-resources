@@ -22,7 +22,7 @@ back — in just under 20 lines of code.
 
 First, grab an **API key** from platform.claude.com. New accounts get a small amount of free credit to test the API, and after that you add credit there, in the Claude Console.
 
-![The Claude Console dialog showing a newly created API key with a Copy key button and a warning that the key won't be viewable again](https://academy.claude.com/assets/v1/009c63cba480-c788ess9.png)
+![The Claude Console dialog showing a newly created API key with a Copy key button and a warning that the key won't be viewable again](https://academy.claude.com/assets/media/a2c759d789a3f677d109348d41c475d48fbd003d445582291e6d1e3d6fbba28c.png)
 
 Take the API key and store it in a `.env.local` file so it stays out of your version control. Hardcoding keys in source files is how they end up leaked on GitHub — keep them in environment files instead.
 
