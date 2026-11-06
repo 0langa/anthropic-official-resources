@@ -1,4 +1,4 @@
-### Chapter 04: Conclusion
+### 04Conclusion
 
 # **Anthropic’s Responsible Scaling Policy:**Version 3.0
 

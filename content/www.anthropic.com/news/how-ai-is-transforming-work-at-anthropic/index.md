@@ -1,4 +1,4 @@
-### Chapter 06: Appendix
+### 06Appendix
 
 # How AI is transforming work at Anthropic
 

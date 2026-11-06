@@ -1,4 +1,4 @@
-### Chapter 07: A new era for MITRE ATT&CK
+### 07A new era for MITRE ATT&CK
 
 # **Mapping AI-enabled cyber threats:**Insights from the LLM ATT&CK Navigator
 

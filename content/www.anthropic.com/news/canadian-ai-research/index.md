@@ -1,4 +1,4 @@
-### Chapter 04: Anthropic s’engage à verser 10 millions de dollars à la recherche canadienne en IA
+### 04Anthropic s’engage à verser 10 millions de dollars à la recherche canadienne en IA
 
 # Anthropic commits $10 million to Canadian AI research
 

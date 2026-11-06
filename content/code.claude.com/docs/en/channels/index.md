@@ -351,7 +351,7 @@ Several Claude Code features connect to systems outside the terminal, each suite
 | Feature | What it does | Good for |
 | - | - | - |
 | [Cloud sessions](/docs/en/claude-code-on-the-web) | Run tasks in a fresh cloud sandbox, cloned from GitHub | Delegating self-contained async work you check on later |
-| [Claude in Slack](/docs/en/slack) | Spawns a cloud session from an `@Claude` mention in a channel or thread | Starting tasks directly from team conversation context |
+| [Claude in Slack](/docs/en/slack) | Spawns a cloud session from an `@Claude` mention in a channel or thread | Starting tasks directly from a team conversation |
 | Standard [MCP server](/docs/en/mcp) | Claude queries it during a task; nothing is pushed to the session | Giving Claude on-demand access to read or query a system |
 | [Remote Control](/docs/en/remote-control) | You drive your local session from claude.ai or the Claude mobile app | Steering an in-progress session while away from your desk |
 

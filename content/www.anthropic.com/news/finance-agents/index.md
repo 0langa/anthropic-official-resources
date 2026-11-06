@@ -1,4 +1,4 @@
-### Chapter 05: Getting started
+### 05Getting started
 
 # Agents for financial services
 

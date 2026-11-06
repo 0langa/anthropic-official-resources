@@ -1,4 +1,4 @@
-### Chapter 04: How we’re responding
+### 04How we’re responding
 
 # Investigating three real-world incidents in our cybersecurity evaluations
 

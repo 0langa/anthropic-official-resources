@@ -1,4 +1,4 @@
-### Chapter 04: Getting started
+### 04Getting started
 
 # Claude for Financial Services
 

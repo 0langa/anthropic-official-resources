@@ -1,4 +1,4 @@
-### Chapter 07: Looking ahead
+### 07Looking ahead
 
 # **Anthropic Education Report:**How educators use Claude
 

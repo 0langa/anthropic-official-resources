@@ -1,4 +1,4 @@
-### Chapter 03: What does this mean?
+### 03What does this mean?
 
 # GLM-5.3 and the spread of advanced cyber capabilities
 

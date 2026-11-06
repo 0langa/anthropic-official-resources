@@ -1,4 +1,4 @@
-### Chapter 04: Learn more
+### 04Learn more
 
 # Formalizing Fermat's Last Theorem
 

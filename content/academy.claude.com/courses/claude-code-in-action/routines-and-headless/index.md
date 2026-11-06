@@ -1,6 +1,6 @@
-Lesson 6 of 9 · Claude Code in actionRoutines and headless
+Lesson 6 of 9 · Claude Code in actionScheduled tasks and headless
 
-# Routines and headless
+# Scheduled tasks and headless
 
 Lesson 67 min
 
@@ -10,28 +10,29 @@ Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-c
 
 Embedded media: https://www.youtube-nocookie.com/embed/7u366zBuUTM?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
-Routines and headless
+Scheduled tasks and headless
 
 Once you trust Claude to do a task, the next move is to stop doing it by
 hand. If it's the same prompt on a recurring trigger, you shouldn't have to
 sit there and kick it off yourself every time. This lesson covers two ways
-to hand that work off: routines, where you build nothing, and headless
-mode, where you get full control from your own scripts.
+to hand that work off: cloud scheduled tasks (formerly called routines),
+where you build nothing, and headless mode, where you get full control from
+your own scripts.
 
-Think of it as a spectrum. On one end you have routines that run on
-Anthropic's managed infrastructure. On the other end you have headless mode
-and the Agent SDK, which run Claude Code from your own code. Let's start
-with the end where you build the least.
+Think of it as a spectrum. On one end you have cloud scheduled tasks that
+run on Anthropic's managed infrastructure. On the other end you have
+headless mode and the Agent SDK, which run Claude Code from your own code.
+Let's start with the end where you build the least.
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=7u366zBuUTM)
 
-## Routines: a saved prompt that runs in the cloud[](https://academy.claude.com/courses/claude-code-in-action/routines-and-headless)
+## Scheduled tasks: a saved prompt that runs in the cloud[](https://academy.claude.com/courses/claude-code-in-action/routines-and-headless)
 
-A routine is the most direct way to automate a task. There's no script and no server. It bundles three things: a prompt, the repository it works on, and any connectors it needs. Then it runs that bundle in the cloud whenever it's triggered.
+A cloud scheduled task is the most direct way to automate repeat work. There's no script and no server. It bundles three things: a prompt, the repository it works on, and any connectors it needs. Then it runs that bundle in the cloud whenever it's triggered.
 
 The key part is that the infrastructure is Anthropic's. There's no machine of yours staying on overnight, and there's no workflow file for you to maintain. You describe the job once and it just runs.
 
-A routine can fire on a few kinds of triggers:
+A scheduled task doesn't need a schedule. It can fire on a few kinds of triggers:
 
 - A cron schedule, like every morning at 9am.
 - An HTTP POST to its API endpoint, so your own code can kick it off.
@@ -39,11 +40,11 @@ A routine can fire on a few kinds of triggers:
 
 Anything that's the same prompt on a recurring trigger is a good fit. A morning dependency audit. A PR triager that fires when a new pull request comes in. A daily scan of your Sentry tickets to figure out what's most urgent.
 
-Here's the mental model for what a routine ties together: a prompt, the repo, connectors, and a schedule.
+Here's the mental model for what a scheduled task ties together: a prompt, the repo, connectors, and a trigger.
 
 ## Two ways to create one[](https://academy.claude.com/courses/claude-code-in-action/routines-and-headless)
 
-You can create a routine from the web at `claude.ai/code/routines`. You give it a name, write the instructions describing what Claude should do in each session, pick a repository, and choose a trigger.
+You can create a scheduled task from the web at `claude.ai/code/routines`. You give it a name, write the instructions describing what Claude should do in each session, pick a repository, and choose a trigger.
 
 You can also create one from inside Claude Code without leaving your terminal. Just run the `/schedule` command and describe what you want in plain language, for example:
 
@@ -51,17 +52,17 @@ You can also create one from inside Claude Code without leaving your terminal. J
 
 Same idea, either entry point. Pick whichever fits your flow.
 
-## Three things to know before you rely on routines[](https://academy.claude.com/courses/claude-code-in-action/routines-and-headless)
+## Three things to know before you rely on cloud scheduled tasks[](https://academy.claude.com/courses/claude-code-in-action/routines-and-headless)
 
-Before you lean on routines for anything important, keep these three limits in mind.
+Before you lean on cloud scheduled tasks for anything important, keep these three limits in mind.
 
-- **Routines are a research preview.** Behavior and limits will keep moving, so don't be surprised if things change.
-- **A recurring schedule runs at most hourly.** If you need something more frequent, routines aren't the tool.
-- **Runs start from a fresh clone of your default branch and push to a `claude/` branch, unless your prompt names another branch.** When a GitHub pull request event triggers the run, the pull request's repository starts from the pull request's head commit instead, as long as it's the first repository in the routine. To control which branches a run can push to, use branch protection rules or rulesets on GitHub. GitHub applies them to the GitHub access you connected, so a rule your access can bypass won't block the push.
+- **Cloud scheduled tasks are a research preview.** Behavior and limits will keep moving, so don't be surprised if things change.
+- **A recurring schedule runs at most hourly.** If you need something more frequent, a cloud scheduled task isn't the tool.
+- **Runs start from a fresh clone of your default branch and push to a `claude/` branch, unless your prompt names another branch.** When a GitHub pull request event triggers the run, the pull request's repository starts from the pull request's head commit instead, as long as it's the first repository in the scheduled task. To control which branches a run can push to, use branch protection rules or rulesets on GitHub. GitHub applies them to the GitHub access you connected, so a rule your access can bypass won't block the push.
 
 ## Headless mode: when you need your own environment[](https://academy.claude.com/courses/claude-code-in-action/routines-and-headless)
 
-Routines are great when the work fits in the cloud. But sometimes the job needs your environment, or logic wrapped around the run. That's when you drop to headless mode, which the docs now call non-interactive mode.
+Cloud scheduled tasks are great when the work can run on Anthropic's infrastructure. But sometimes the job needs your environment, or logic wrapped around the run. That's when you drop to headless mode, which the docs now call non-interactive mode.
 
 The core of headless mode is the `-p` flag (short for `--print`). It runs Claude Code as a one-shot command with no interactive UI. It reads standard in and writes standard out, so it pipes like any other shell tool:
 
@@ -116,11 +117,11 @@ Then you iterate over the messages Claude streams back and handle them however y
 
 Here's the quick decision guide:
 
-- **Routines** are the default for repeat work. They run on Anthropic's infrastructure with nothing for you to host.
+- **Cloud scheduled tasks** are the default for repeat work. They run on Anthropic's infrastructure with nothing for you to host.
 - **Headless mode with `-p`** is for when the job needs your pipeline and you want to pipe data through a script.
 - **`--bare`** is for when CI needs the same setup on every machine.
 - **The Agent SDK** is for when the work belongs inside your own product.
 
-Start with routines. Drop down the spectrum only when the job actually needs the extra control.
+Start with cloud scheduled tasks. Drop down the spectrum only when the job needs the extra control.
 
 Was this helpful?

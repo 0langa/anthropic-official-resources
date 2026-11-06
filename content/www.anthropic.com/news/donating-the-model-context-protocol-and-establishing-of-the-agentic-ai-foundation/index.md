@@ -1,4 +1,4 @@
-### Chapter 04: The future of MCP
+### 04The future of MCP
 
 # Donating the Model Context Protocol and establishing the Agentic AI Foundation
 

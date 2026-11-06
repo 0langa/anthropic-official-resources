@@ -22,7 +22,9 @@ When sharing chats that include uploaded files or MCP (Model Context Protocol) i
 
 **MCP tool calls:** When sharing chats that use MCP integrations, the raw data retrieved from MCP tool calls remains hidden in the shared snapshot. Only the final chat output and conversation will be visible to viewers. The underlying tool call data stays private.
 
-This ensures that sensitive information from your files and connected tools is protected, even when you share a chat snapshot.
+This keeps your attached files and raw tool data out of the snapshot.
+
+If Claude used your linked accounts in Personal Finance, the snapshot shows your messages and Claude’s responses, including any figures from your accounts. It can also show a chart or artifact that Claude made, figures included. Learn more in **[Use Personal Finance in Claude](https://support.claude.com/en/articles/18185620-use-personal-finance-with-claude)**.
 
 ## Unshare chats
 
@@ -38,12 +40,12 @@ To unshare a chat:
 
 Users on Free, Pro, Max, or Ultra plans can review a log of shared chats by navigating to **[Settings > Privacy](https://claude.ai/settings/data-privacy-controls)**. Find the **Privacy settings** section and click “Manage” next to **Shared chats:**
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1921669913/7cc7be48cfc7a18f9f469d6cd83c/CleanShot+2026-01-08+at+10_20_43%402x.png?expires=1793799000&amp;signature=daed40f8304890aa5b98d78f51bfaf08a5cbcdfdcf1c6b26d80bbae58e420576&amp;req=dSklF894lIheWvMW1HO4zWn5HjAaa0xrc9cNIYuX0GGfrM8FAKrx6V0r4wO6%0AkJzLcGrERhkPzczHoTE%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1921669913/7cc7be48cfc7a18f9f469d6cd83c/CleanShot+2026-01-08+at+10_20_43%402x.png?expires=1793988000&amp;signature=b3cabdfd089c8a10d9b2e47d0b9043fd41b893d8d13694292ec0eb8d30aa8d89&amp;req=dSklF894lIheWvMW3nq%2Bgf%2BHUFYagN4tpF3jKjOzfKbivaLLO39EcdX66Kss%0Ah%2FDzU4kctH4TZlxTizTXp3UaBmQ%3D%0A)
 
 This will open a **Shared chats** modal listing the title, date shared, and link to each chat, allowing you to easily review and access all your previously-shared content. From here, you also have the option to click “Unshare” next to each listed chat to revoke access to the last snapshot you shared:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1624243810/e6fe1d262597446c7fe21dff9f10/AD_4nXdW-GhByF8uKV7fCq9lTbkVB91FglSL6TSyXAOUk_MLcTV9YsEMBMkm9rgm1oXqv0k3sJh1JhlzZP6tHVkKbDJJ71pDRRtM3aVNG64MDuKDIzgmknh-XDZdNa7biTsTdwGoPr5GRg?expires=1793799000&amp;signature=202401569d9ed6ed7b462420cf681f357b8eaaab44930ac356483dc2ddbb29bf&amp;req=dSYlEst6noleWfMW1HO4ze44eSRmnRs%2BguvTv9woD7ZUrtXy9BQ85YVFEFXj%0Aqkth%2B1vaqeZinMEjuA0%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1624243810/e6fe1d262597446c7fe21dff9f10/AD_4nXdW-GhByF8uKV7fCq9lTbkVB91FglSL6TSyXAOUk_MLcTV9YsEMBMkm9rgm1oXqv0k3sJh1JhlzZP6tHVkKbDJJ71pDRRtM3aVNG64MDuKDIzgmknh-XDZdNa7biTsTdwGoPr5GRg?expires=1793988000&amp;signature=4d078d111e8f1011c810f607659c115c6221eac32d1e35fc463064e019dc5b2a&amp;req=dSYlEst6noleWfMW3nq%2BgRse9HKmlO5VzhfgQ8VJ8zeDbAZFySJtOYcHldpk%0AL5L%2Bp5PHdINk6aB6kg2BQ3tzcis%3D%0A)
 
 If you don’t have any shared chat snapshots, the **Shared chats** modal will show “No shared content found”:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1624243808/b025db8e598f0c88fb16d83d48d5/AD_4nXeUwCKnmFzzrjMHhfr5By4zk5pJlkEn3wbJ8-aNfu13Yl99IjBywpqPx9G07QRzpH1EwRY7uG7Q9m9fib98Gql1cIV7XwUCTzEgBNu79Ey8tCOS5CEVmwveIcEOxJ4fonBhe3g9MA?expires=1793799000&amp;signature=4ba9f4fb62ac85bda9087cd591a3254dec9ea1d6df0c7e63972cf0de1aac2296&amp;req=dSYlEst6nolfUfMW1HO4zdaFnMZziICxDeZsm0Gz1Hv9%2BKNm6bg4UgLdDd7e%0AaKl4NOiQG8Ai7b0HwAM%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1624243808/b025db8e598f0c88fb16d83d48d5/AD_4nXeUwCKnmFzzrjMHhfr5By4zk5pJlkEn3wbJ8-aNfu13Yl99IjBywpqPx9G07QRzpH1EwRY7uG7Q9m9fib98Gql1cIV7XwUCTzEgBNu79Ey8tCOS5CEVmwveIcEOxJ4fonBhe3g9MA?expires=1793988000&amp;signature=5933fe4ff72fe8357f6ea469783b118d78f2d88836f5e48c514c2dbc64343e4b&amp;req=dSYlEst6nolfUfMW3nq%2BgX8ECo7rwZqXKLzrJPHbnxpuNSTTHjq7iVguA56f%0AP4Y2Az5xuLEwSd64c76JcQ0yWGU%3D%0A)

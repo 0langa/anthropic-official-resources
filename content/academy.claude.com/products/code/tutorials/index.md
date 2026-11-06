@@ -2,7 +2,7 @@
 
 
 
-11 tutorials
+12 tutorials
 
 [## Choose between a cloud session and Remote Control for a long task
 
@@ -44,7 +44,11 @@ How to use the FHIR Developer agent skill with Claude Code
 
 How to use the Nextflow Deployment agent skill with Claude Code
 
-·3 min](https://academy.claude.com/tutorials/how-to-use-the-nextflow-deployment-agent-skill-with-claude-code)[![](https://academy.claude.com/assets/v1/thumbnail.light-ivqu4vft.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j4y0w23v.png)
+·3 min](https://academy.claude.com/tutorials/how-to-use-the-nextflow-deployment-agent-skill-with-claude-code)[## Set up Claude on Google Cloud (Google managed)
+
+Check that you have the Google managed service, then get your Google Cloud project ready and give yourself access. Then connect Claude Code or Claude Desktop and check that it answers, with no Anthropic API key. Google Cloud bills the usage.
+
+·20 min](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-google-managed)[![](https://academy.claude.com/assets/v1/thumbnail.light-ivqu4vft.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j4y0w23v.png)
 
 ## Sharing skills
 

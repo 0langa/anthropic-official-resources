@@ -1,4 +1,4 @@
-### Chapter 03: Our five research priorities
+### 03Our five research priorities
 
 # A research agenda for the Economic Futures Research Fund
 

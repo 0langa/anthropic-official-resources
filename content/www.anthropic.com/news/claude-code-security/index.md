@@ -19,9 +19,9 @@ Related articles
 
 - Frontier Red Team
 
-  Oct 22, 2026
+  Oct 27, 2026
 
-  [LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/research/formal-verification)
+  [Discovering and exploiting vulnerabilities in critical, real-world software with Claude](https://www.anthropic.com/research/discovering-vulnerabilities-with-claude)
 
 [View more](https://www.anthropic.com/search?topic=cybersecurity)
 

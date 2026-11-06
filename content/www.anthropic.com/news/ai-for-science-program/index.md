@@ -16,11 +16,11 @@
 
 Related articles
 
-- Announcements
+- Science
 
-  Oct 28, 2026
+  Nov 4, 2026
 
-  [AI for Science expands to foundations and research institutions](https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions)
+  [Investigating vault particles with Claude](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
 
 [View more](https://www.anthropic.com/search?topic=research-programs)
 

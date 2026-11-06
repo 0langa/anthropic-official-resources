@@ -1,4 +1,4 @@
-### Chapter 04: Building with the developer community
+### 04Building with the developer community
 
 # Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem
 

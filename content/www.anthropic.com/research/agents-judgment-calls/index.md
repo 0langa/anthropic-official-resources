@@ -1,4 +1,4 @@
-### Chapter 04: What this means
+### 04What this means
 
 # How AI agents shape experts’ judgment calls
 

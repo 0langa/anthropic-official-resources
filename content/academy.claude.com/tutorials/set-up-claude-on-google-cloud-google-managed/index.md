@@ -2,7 +2,7 @@
 
 Check that you have the Google managed service, then get your Google Cloud project ready and give yourself access. Then connect Claude Code or Claude Desktop and check that it answers, with no Anthropic API key. Google Cloud bills the usage.
 
-20 minClaude Platform
+20 minClaude Code
 
 **When your company buys Claude through Google Cloud, Claude Code and Claude Desktop reach Claude through your own Google Cloud project.** You sign in with Google Cloud credentials, so you don't need an Anthropic API key, and Google Cloud bills the usage.
 

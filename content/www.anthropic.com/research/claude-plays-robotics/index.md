@@ -1,4 +1,4 @@
-### Chapter 08: Latency
+### 08Latency
 
 # Claude plays robotics
 

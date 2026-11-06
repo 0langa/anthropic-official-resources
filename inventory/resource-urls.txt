@@ -664,6 +664,7 @@ https://academy.claude.com/tutorials/prompting-strategies-for-financial-analysis
 https://academy.claude.com/tutorials/prototype-ai-powered-apps-with-claude-artifacts
 https://academy.claude.com/tutorials/refining-a-powerpoint-with-claude
 https://academy.claude.com/tutorials/scaling-workflows-with-claude-cowork-at-your-organization
+https://academy.claude.com/tutorials/set-up-claude-in-amazon-bedrock
 https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-anthropic-managed
 https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-google-managed
 https://academy.claude.com/tutorials/sharing-skills
@@ -1228,6 +1229,7 @@ https://claude.com/resources/articles/claude-design-stays-on-brand-for-daily-wor
 https://claude.com/resources/articles/claude-duet
 https://claude.com/resources/articles/claude-duet-safety-privacy-and-security
 https://claude.com/resources/articles/claude-enterprise-inference-hooks
+https://claude.com/resources/articles/claude-enterprise-security-updates
 https://claude.com/resources/articles/claude-excel-powerpoint-updates
 https://claude.com/resources/articles/claude-for-chrome
 https://claude.com/resources/articles/claude-for-commerce-agents
@@ -1355,6 +1357,7 @@ https://claude.com/resources/articles/interactive-tools-in-claude
 https://claude.com/resources/articles/introducing-artifacts-for-legal-work
 https://claude.com/resources/articles/introducing-citations-api
 https://claude.com/resources/articles/introducing-dynamic-workflows-in-claude-code
+https://claude.com/resources/articles/introducing-personal-finance-in-claude
 https://claude.com/resources/articles/introducing-routines-in-claude-code
 https://claude.com/resources/articles/introducing-the-claude-apps-gateway
 https://claude.com/resources/articles/introduction-to-agentic-coding
@@ -1440,11 +1443,13 @@ https://claude.com/resources/articles/workspaces
 https://claude.com/resources/articles/your-thinking-partner
 https://claude.com/resources/articles/zero-trust-for-ai-agents
 https://claude.com/resources/articles?categories=product-announcements
+https://claude.com/resources/articles?categories=product-updates
 https://claude.com/resources/articles?products=claude-code
 https://claude.com/resources/articles?products=claude-enterprise
 https://claude.com/resources/articles?use-cases=agents
 https://claude.com/resources/best-practices
 https://claude.com/resources/courses
+https://claude.com/resources/enterprise-announcements
 https://claude.com/resources/guides
 https://claude.com/resources/guides/2026-agentic-coding-trends-report
 https://claude.com/resources/guides/2026-agentic-coding-trends-report/capability-trends-what-agents-can-do
@@ -1594,6 +1599,7 @@ https://claude.com/resources/guides/zero-trust-for-ai-agents/the-principles-behi
 https://claude.com/resources/insights
 https://claude.com/resources/perspectives
 https://claude.com/resources/product-announcements
+https://claude.com/resources/product-updates
 https://claude.com/resources/tutorials
 https://claude.com/resources/tutorials-category/healthcare
 https://claude.com/resources/tutorials-category/life-sciences
@@ -3976,6 +3982,7 @@ https://platform.claude.com/docs/en/manage-claude/inference-hooks-configuration?
 https://platform.claude.com/docs/en/manage-claude/inference-hooks-endpoint
 https://platform.claude.com/docs/en/manage-claude/inference-hooks-endpoint?sdk_languages=curl
 https://platform.claude.com/docs/en/manage-claude/inference-hooks?sdk_languages=curl
+https://platform.claude.com/docs/en/manage-claude/ip-allowlist
 https://platform.claude.com/docs/en/manage-claude/opentelemetry
 https://platform.claude.com/docs/en/manage-claude/opentelemetry/api
 https://platform.claude.com/docs/en/manage-claude/opentelemetry/api?sdk_languages=curl
@@ -4812,8 +4819,15 @@ https://support.claude.com/en/articles/17740565-manage-plugins-skills-and-connec
 https://support.claude.com/en/articles/17828685-run-your-endpoint-detection-and-response-edr-sensor-in-claude-cowork
 https://support.claude.com/en/articles/17828685-run-your-endpoint-detection-and-response-edr-sensor-in-claude-cowork-on-claude-desktop
 https://support.claude.com/en/articles/17889756-anthropic-ipo-international-retail-brokers-and-selling-agents
+https://support.claude.com/en/articles/18185620-use-personal-finance-in-claude
+https://support.claude.com/en/articles/18185620-use-personal-finance-with-claude
+https://support.claude.com/en/articles/18232924
+https://support.claude.com/en/articles/18232924-get-started-with-centralized-management
 https://support.claude.com/en/articles/18234133
 https://support.claude.com/en/articles/18234133-how-do-anthropic-hosted-browsers-identify-themselves-when-they-browse-the-web-on-a-user-s-behalf
+https://support.claude.com/en/articles/18246629-review-your-organization-s-security-posture-with-the-security-center
+https://support.claude.com/en/articles/18246779
+https://support.claude.com/en/articles/18246779-set-up-multiple-identity-providers-and-split-domains
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
 https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer
@@ -5543,6 +5557,7 @@ https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic
 https://www.anthropic.com/research/how-australia-uses-claude
 https://www.anthropic.com/research/how-canada-uses-claude
 https://www.anthropic.com/research/how-people-use-claude-for-support-advice-and-companionship
+https://www.anthropic.com/research/how-researchers-use-claude
 https://www.anthropic.com/research/how-we-contain-claude
 https://www.anthropic.com/research/impact-software-development
 https://www.anthropic.com/research/in-context-learning-and-induction-heads

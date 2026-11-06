@@ -1,4 +1,4 @@
-### Chapter 04: Next steps
+### 04Next steps
 
 # **Detecting and countering misuse of AI:**August 2025
 

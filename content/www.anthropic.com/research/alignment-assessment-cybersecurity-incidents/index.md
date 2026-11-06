@@ -1,4 +1,4 @@
-### Chapter 11: Discussion
+### 11Discussion
 
 # An alignment assessment of recent cybersecurity incidents
 

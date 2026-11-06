@@ -161,6 +161,20 @@ Tagged user identifier (e.g. `user_...`). Present only when the request grouped 
 
 
 
+BetaAnalyticsArtifactGroupBy = "product" or "rbac\_group\_id" or "user\_id"
+
+A dimension to group artifact activity by.
+
+One of the following:
+
+"product"
+
+"rbac\_group\_id"
+
+"user\_id"
+
+
+
 BetaAnalyticsChatCoworkUnifiedChatMetrics object{ connectors\_used\_count, distinct\_artifacts\_created\_count, distinct\_connectors\_used\_count, 9 more }
 
 Chat activity recorded while members had Chat and Cowork unified turned
@@ -213,6 +227,143 @@ Same measure as `chat_metrics.shared_conversations_viewed_count`, for activity r
 thinking\_message\_count: number
 
 Same measure as `chat_metrics.thinking_message_count`, for activity recorded while members had Chat and Cowork unified turned on.
+
+
+
+BetaAnalyticsChatCoworkUnifiedMetrics object{ chat, sessions }
+
+Activity in Chat and Cowork unified for one user on one day: `chat` holds
+chat activity and `sessions` holds Cowork session activity.
+
+
+
+chat: [BetaAnalyticsChatCoworkUnifiedChatMetrics](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { connectors\_used\_count, distinct\_artifacts\_created\_count, distinct\_connectors\_used\_count, 9 more }
+
+Chat activity recorded while members had Chat and Cowork unified turned
+on.
+
+connectors\_used\_count: number
+
+Same measure as `chat_metrics.connectors_used_count`, for activity recorded while members had Chat and Cowork unified turned on.
+
+distinct\_artifacts\_created\_count: number
+
+Same measure as `chat_metrics.distinct_artifacts_created_count`, for activity recorded while members had Chat and Cowork unified turned on. Exact in date-range mode: a creation belongs to exactly one day, so the per-day counts never overlap and their sum over the window is the exact count of distinct creations in it.
+
+distinct\_connectors\_used\_count: number or null
+
+Same measure as `chat_metrics.distinct_connectors_used_count`, for activity recorded while members had Chat and Cowork unified turned on. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
+
+distinct\_conversation\_count: number or null
+
+Same measure as `chat_metrics.distinct_conversation_count`, for activity recorded while members had Chat and Cowork unified turned on. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
+
+distinct\_files\_uploaded\_count: number or null
+
+Same measure as `chat_metrics.distinct_files_uploaded_count`, for activity recorded while members had Chat and Cowork unified turned on. It counts uploaded files as well as files Claude created and images returned by Claude's tools, such as screenshots. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
+
+distinct\_projects\_created\_count: number
+
+Same measure as `chat_metrics.distinct_projects_created_count`, for activity recorded while members had Chat and Cowork unified turned on. Exact in date-range mode: a creation belongs to exactly one day, so the per-day counts never overlap and their sum over the window is the exact count of distinct creations in it.
+
+distinct\_projects\_used\_count: number or null
+
+Same measure as `chat_metrics.distinct_projects_used_count`, for activity recorded while members had Chat and Cowork unified turned on. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
+
+distinct\_shared\_artifacts\_viewed\_count: number or null
+
+Always null: shared-artifact views are not currently measured.
+
+distinct\_skills\_used\_count: number or null
+
+Same measure as `chat_metrics.distinct_skills_used_count`, for activity recorded while members had Chat and Cowork unified turned on. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
+
+message\_count: number
+
+Same measure as `chat_metrics.message_count`, for activity recorded while members had Chat and Cowork unified turned on.
+
+shared\_conversations\_viewed\_count: number
+
+Same measure as `chat_metrics.shared_conversations_viewed_count`, for activity recorded while members had Chat and Cowork unified turned on.
+
+thinking\_message\_count: number
+
+Same measure as `chat_metrics.thinking_message_count`, for activity recorded while members had Chat and Cowork unified turned on.
+
+
+
+sessions: [BetaAnalyticsChatCoworkUnifiedSessionsMetrics](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { action\_count, artifacts\_created\_count, connectors\_used\_count, 14 more }
+
+Cowork session activity recorded while members had Chat and Cowork
+unified turned on.
+
+action\_count: number
+
+Same measure as `cowork_metrics.action_count`, for activity recorded while members had Chat and Cowork unified turned on.
+
+artifacts\_created\_count: number
+
+Same measure as `cowork_metrics.artifacts_created_count`, for activity recorded while members had Chat and Cowork unified turned on. Exact in date-range mode: a creation belongs to exactly one day, so the per-day counts never overlap and their sum over the window is the exact count of distinct creations in it.
+
+connectors\_used\_count: number
+
+Same measure as `cowork_metrics.connectors_used_count`, for activity recorded while members had Chat and Cowork unified turned on.
+
+dispatch\_turn\_count: number
+
+Same measure as `cowork_metrics.dispatch_turn_count`, for activity recorded while members had Chat and Cowork unified turned on.
+
+distinct\_connectors\_used\_count: number or null
+
+Same measure as `cowork_metrics.distinct_connectors_used_count`, for activity recorded while members had Chat and Cowork unified turned on. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
+
+distinct\_plugins\_used\_count: number or null
+
+Same measure as `cowork_metrics.distinct_plugins_used_count`, for activity recorded while members had Chat and Cowork unified turned on. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
+
+distinct\_session\_count: number or null
+
+Same measure as `cowork_metrics.distinct_session_count`, for activity recorded while members had Chat and Cowork unified turned on. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
+
+distinct\_skills\_used\_count: number or null
+
+Same measure as `cowork_metrics.distinct_skills_used_count`, for activity recorded while members had Chat and Cowork unified turned on. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
+
+edit\_tool\_count: number or null
+
+Same measure as `cowork_metrics.edit_tool_count`, for activity recorded while members had Chat and Cowork unified turned on.
+
+file\_edit\_count: number or null
+
+Same measure as `cowork_metrics.file_edit_count`, for activity recorded while members had Chat and Cowork unified turned on.
+
+message\_count: number
+
+Same measure as `cowork_metrics.message_count`, for activity recorded while members had Chat and Cowork unified turned on.
+
+multi\_edit\_tool\_count: number or null
+
+Same measure as `cowork_metrics.multi_edit_tool_count`, for activity recorded while members had Chat and Cowork unified turned on. Claude no longer has a multi-edit tool, so expect 0 when not null; each edit is now a separate Edit tool call, counted in `edit_tool_count` and `file_edit_count`.
+
+notebook\_edit\_tool\_count: number or null
+
+Same measure as `cowork_metrics.notebook_edit_tool_count`, for activity recorded while members had Chat and Cowork unified turned on.
+
+plugins\_used\_count: number or null
+
+Same measure as `cowork_metrics.plugins_used_count`, for activity recorded while members had Chat and Cowork unified turned on.
+
+sessions\_with\_file\_edits\_count: number or null
+
+Same measure as `cowork_metrics.sessions_with_file_edits_count`, for activity recorded while members had Chat and Cowork unified turned on. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
+
+skills\_used\_count: number
+
+Same measure as `cowork_metrics.skills_used_count`, for activity recorded while members had Chat and Cowork unified turned on.
+
+write\_tool\_count: number or null
+
+Same measure as `cowork_metrics.write_tool_count`, for activity recorded while members had Chat and Cowork unified turned on.
 
 
 
@@ -409,7 +560,7 @@ One of the following:
 
 
 
-BetaAnalyticsConnectorActivity object{ chat\_metrics, claude\_code\_metrics, connector\_name, 14 more }
+BetaAnalyticsConnectorActivity object{ chat\_metrics, claude\_code\_metrics, connector\_display\_name, 14 more }
 
 Per-connector activity data for a given day.
 
@@ -433,6 +584,10 @@ distinct\_session\_connector\_used\_count: number or null
 
 Number of distinct Claude Code sessions in which the connector was used. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
 
+connector\_display\_name: string or null
+
+Human-readable display name for rows whose `connector_name` is an opaque connector id rather than a readable name, resolved at request time from the organization's connectors (including connectors that have since been removed). `connector_name` remains the row's stable key for sorting and pagination, and `filter[]=connector_name:{value}` also matches these rows by display name. Display names are not unique, and the same connector's claude.ai usage can appear under a separate row with a readable `connector_name`. Null when `connector_name` is already a readable name, when the id cannot be resolved to one of the organization's connectors, or when display-name resolution is not enabled for this organization.
+
 connector\_name: string
 
 Name of the connector. Some rows carry an opaque connector id here instead of a readable name; `connector_display_name` holds the resolved name for those rows.
@@ -451,17 +606,37 @@ distinct\_user\_count: number
 
 Number of distinct users who used the connector on the requested day, or, in date-range mode, over the requested window — recomputed as an exact distinct count over the window's per-member daily rows, never a sum of per-day values.
 
+individual\_auth\_distinct\_user\_count: number or null
+
+Number of distinct users whose use of this connector on the requested day ran on their own individual credential, connected through their own consent flow. Companion bucket to `managed_auth_distinct_user_count`, which carries the measurement, attribution, and null rules. Users whose requests used no stored credential count in neither bucket.
+
+managed\_auth\_distinct\_user\_count: number or null
+
+Number of distinct users whose use of this connector on the requested day ran on Enterprise Managed Auth (an organization-managed credential provisioned through the organization's identity provider), read from the token record each request used. Null, never 0, when managed-auth reporting is not enabled for the organization, the value cannot be attributed to the row, no credentialed requests and no managed-token mint events (a managed credential being provisioned for a user's use of the connector) were observed that day, or the day predates 2026-07-01, the first day the backing data exists (forward-only data, no backfill). When credentialed requests or mint events were observed and attributed, both managed-auth fields populate, reporting 0 for a bucket with no users; the two counts are independent, not a partition — a user whose requests that day used both kinds of credential counts in both. Mint events carry user but not surface attribution, so they count as observed auth activity on `user_id` and `rbac_group_id` cuts — attributed to the user the credential was provisioned for — but never on a cut that references `product` (group or filter). Date-range rollup mode (`starting_date`/`ending_date`) computes both fields exactly over the window — distinct users with at least one qualifying day — when the whole window starts on or after 2026-07-01, with the null-versus-0 and mint-event rules applying with the window in place of the day; a range starting earlier reports every managed-auth field as null, never a partial-window value.
+
 
 
 office\_metrics: [BetaAnalyticsConnectorOfficeMetrics](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { excel, outlook, powerpoint, word }
 
 Office Agent activity metrics for a single connector on a given day, broken out by Office product.
 
+read\_call\_count: number or null
+
+Number of connector tool calls on the requested day whose trusted read-only annotation marked them read-only. Call count, not distinct users. Every call recorded on a classified surface lands in exactly one of `read_call_count`, `write_call_count`, or `unclassified_call_count`, so the three sum to the day's classified calls. Classification is forward-only per surface: claude.ai from 2026-06-01, Claude Code from 2026-05-30, Claude in Office from 2026-05-29, Cowork from 2026-06-02 (Cowork clients predating annotation forwarding land in `unclassified_call_count`). Null, never 0, when the value cannot be stated: the read/write split is not enabled for this organization, or the day predates 2026-05-29. For a date-range total, sum the per-day values, but treat a window that extends before 2026-05-29 as null rather than summing only its covered days — date-range rollup mode (`starting_date`/`ending_date`) applies both rules server-side.
+
+unclassified\_call\_count: number or null
+
+Number of connector tool calls on the requested day with no trusted read-only annotation — the annotation is optional in the MCP spec and is discarded when connector access controls are active, so unclassified calls are common. This field shows how much of the day's classified activity the read/write split actually covers. Call count, not distinct users. One of the three call-classification buckets; see `read_call_count` for the per-surface data-start dates, null conditions, and date-range guidance.
+
+write\_call\_count: number or null
+
+Number of connector tool calls on the requested day whose trusted read-only annotation marked them not read-only. Call count, not distinct users. One of the three call-classification buckets; see `read_call_count` for the per-surface data-start dates, null conditions, and date-range guidance.
+
 
 
-chat\_cowork\_unified\_metrics: optional object{ chat, sessions } or null
+chat\_cowork\_unified\_metrics: optional [BetaAnalyticsConnectorChatCoworkUnifiedMetrics](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { chat, sessions } or null
 
-Connector use recorded while members had Chat and Cowork unified (Cowork's features inside claude.ai chat) turned on, split into chat conversations and Cowork sessions. A count is null in date-range mode where it cannot be computed. Omitted from the response on deployments that do not offer Chat and Cowork unified.
+Connector use recorded while members had Chat and Cowork unified (Cowork's features inside claude.ai chat) turned on, split into chat conversations and Cowork sessions. A count is null in date-range mode where it cannot be computed. Omitted from the response where Chat and Cowork unified is not available.
 
 
 
@@ -485,18 +660,6 @@ distinct\_session\_connector\_used\_count: number or null
 
 Same measure as `cowork_metrics.distinct_session_connector_used_count`, for activity recorded while members had Chat and Cowork unified turned on. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
 
-connector\_display\_name: optional string or null
-
-Human-readable display name for rows whose `connector_name` is an opaque connector id rather than a readable name, resolved at request time from the organization's connectors (including connectors that have since been removed). `connector_name` remains the row's stable key for sorting and pagination, and `filter[]=connector_name:{value}` also matches these rows by display name. Display names are not unique, and the same connector's claude.ai usage can appear under a separate row with a readable `connector_name`. Null when `connector_name` is already a readable name, when the id cannot be resolved to one of the organization's connectors, or when display-name resolution is not enabled for this organization.
-
-individual\_auth\_distinct\_user\_count: optional number or null
-
-Number of distinct users whose use of this connector on the requested day ran on their own individual credential, connected through their own consent flow. Companion bucket to `managed_auth_distinct_user_count`, which carries the measurement, attribution, and null rules. Users whose requests used no stored credential count in neither bucket.
-
-managed\_auth\_distinct\_user\_count: optional number or null
-
-Number of distinct users whose use of this connector on the requested day ran on Enterprise Managed Auth (an organization-managed credential provisioned through the organization's identity provider), read from the token record each request used. Null, never 0, when managed-auth reporting is not enabled for the organization, the value cannot be attributed to the row, no credentialed requests and no managed-token mint events (a managed credential being provisioned for a user's use of the connector) were observed that day, or the day predates 2026-07-01, the first day the backing data exists (forward-only data, no backfill). When credentialed requests or mint events were observed and attributed, both managed-auth fields populate, reporting 0 for a bucket with no users; the two counts are independent, not a partition — a user whose requests that day used both kinds of credential counts in both. Mint events carry user but not surface attribution, so they count as observed auth activity on `user_id` and `rbac_group_id` cuts — attributed to the user the credential was provisioned for — but never on a cut that references `product` (group or filter). Date-range rollup mode (`starting_date`/`ending_date`) computes both fields exactly over the window — distinct users with at least one qualifying day — when the whole window starts on or after 2026-07-01, with the null-versus-0 and mint-event rules applying with the window in place of the day; a range starting earlier reports every managed-auth field as null, never a partial-window value.
-
 product: optional string or null
 
 Product that produced this row's activity: one of `chat`, `claude_code`, `cowork`, `office_agent`, or `chat_cowork_unified` (Chat and Cowork unified). These are the canonical Cost & Usage product names; an `office_agent` row's per-surface breakdown is in its `office_metrics`. On `/plugins` only `cowork`, `claude_code` and `chat_cowork_unified` occur (the only surfaces with plugin attribution); on `/artifacts` only `chat`, `claude_code`, `cowork` and `chat_cowork_unified` occur (the surfaces that create artifacts); `/apps/chat/projects` does not support the product dimension (a `product` entry in `group_by[]` or `filter[]` there is rejected). Present only when the request grouped by `product`.
@@ -509,21 +672,9 @@ rbac\_group\_name: optional string or null
 
 Resolved RBAC group display name, alongside `rbac_group_id` when name resolution is available. Null if the group has been deleted or its name could not be resolved; `rbac_group_id` remains the stable key.
 
-read\_call\_count: optional number or null
-
-Number of connector tool calls on the requested day whose trusted read-only annotation marked them read-only. Call count, not distinct users. Every call recorded on a classified surface lands in exactly one of `read_call_count`, `write_call_count`, or `unclassified_call_count`, so the three sum to the day's classified calls. Classification is forward-only per surface: claude.ai from 2026-06-01, Claude Code from 2026-05-30, Claude in Office from 2026-05-29, Cowork from 2026-06-02 (Cowork clients predating annotation forwarding land in `unclassified_call_count`). Null, never 0, when the value cannot be stated: the read/write split is not enabled for this organization, or the day predates 2026-05-29. For a date-range total, sum the per-day values, but treat a window that extends before 2026-05-29 as null rather than summing only its covered days — date-range rollup mode (`starting_date`/`ending_date`) applies both rules server-side.
-
-unclassified\_call\_count: optional number or null
-
-Number of connector tool calls on the requested day with no trusted read-only annotation — the annotation is optional in the MCP spec and is discarded when connector access controls are active, so unclassified calls are common. This field shows how much of the day's classified activity the read/write split actually covers. Call count, not distinct users. One of the three call-classification buckets; see `read_call_count` for the per-surface data-start dates, null conditions, and date-range guidance.
-
 user\_id: optional string or null
 
 Tagged user identifier (e.g. `user_...`). Present only when the request grouped by `user_id`.
-
-write\_call\_count: optional number or null
-
-Number of connector tool calls on the requested day whose trusted read-only annotation marked them not read-only. Call count, not distinct users. One of the three call-classification buckets; see `read_call_count` for the per-surface data-start dates, null conditions, and date-range guidance.
 
 
 
@@ -535,6 +686,35 @@ Chat and Cowork unified turned on.
 distinct\_conversation\_connector\_used\_count: number or null
 
 Same measure as `chat_metrics.distinct_conversation_connector_used_count`, for activity recorded while members had Chat and Cowork unified turned on. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
+
+
+
+BetaAnalyticsConnectorChatCoworkUnifiedMetrics object{ chat, sessions }
+
+A connector's use in Chat and Cowork unified on one day: `chat` holds its
+use in chat conversations and `sessions` its use in Cowork sessions.
+
+
+
+chat: [BetaAnalyticsConnectorChatCoworkUnifiedChatMetrics](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { distinct\_conversation\_connector\_used\_count }
+
+A connector's use in chat conversations recorded while members had
+Chat and Cowork unified turned on.
+
+distinct\_conversation\_connector\_used\_count: number or null
+
+Same measure as `chat_metrics.distinct_conversation_connector_used_count`, for activity recorded while members had Chat and Cowork unified turned on. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
+
+
+
+sessions: [BetaAnalyticsConnectorChatCoworkUnifiedSessionsMetrics](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { distinct\_session\_connector\_used\_count }
+
+A connector's use in Cowork sessions recorded while members had
+Chat and Cowork unified turned on.
+
+distinct\_session\_connector\_used\_count: number or null
+
+Same measure as `cowork_metrics.distinct_session_connector_used_count`, for activity recorded while members had Chat and Cowork unified turned on. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
 
 
 
@@ -576,6 +756,20 @@ Cowork activity metrics for a single connector on a given day.
 distinct\_session\_connector\_used\_count: number or null
 
 Number of distinct Cowork sessions in which the connector was used. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
+
+
+
+BetaAnalyticsConnectorGroupBy = "product" or "rbac\_group\_id" or "user\_id"
+
+A dimension to group connector activity by.
+
+One of the following:
+
+"product"
+
+"rbac\_group\_id"
+
+"user\_id"
 
 
 
@@ -765,7 +959,7 @@ Model that produced the usage or cost, as a model name in the form the `models[]
 
 product: string or null
 
-Product surface that produced the usage or cost. Null unless product is in `group_by[]`; it can also be null on grouped rows whose usage cannot be attributed to a known surface. Values include `chat`, `claude_code`, `cowork`, `office_agent`, `claude_in_chrome`, `claude_design`, `claude-tag`, and `chat_cowork_unified`. `claude-tag` is Claude Tag, the Claude product in Slack. `chat_cowork_unified` is Chat and Cowork unified, Cowork's features inside claude.ai chat: chat and Cowork usage by a member who has it turned on is reported under this value instead of `chat` or `cowork`. It is accepted as a filter only on deployments that offer Chat and Cowork unified. Some unattributed usage is reported as "other".
+Product surface that produced the usage or cost. Null unless product is in `group_by[]`; it can also be null on grouped rows whose usage cannot be attributed to a known surface. Values include `chat`, `claude_code`, `cowork`, `office_agent`, `claude_in_chrome`, `claude_design`, `claude-tag`, and `chat_cowork_unified`. `claude-tag` is Claude Tag, the Claude product in Slack. `chat_cowork_unified` is Chat and Cowork unified, Cowork's features inside claude.ai chat: chat and Cowork usage by a member who has it turned on is reported under this value instead of `chat` or `cowork`. It is accepted as a filter only where Chat and Cowork unified is available. Some unattributed usage is reported as "other".
 
 rbac\_group\_id: string or null
 
@@ -909,7 +1103,7 @@ Model that produced the usage or cost, as a model name in the form the `models[]
 
 product: string or null
 
-Product surface that produced the usage or cost. Null unless product is in `group_by[]`; it can also be null on grouped rows whose usage cannot be attributed to a known surface. Values include `chat`, `claude_code`, `cowork`, `office_agent`, `claude_in_chrome`, `claude_design`, `claude-tag`, and `chat_cowork_unified`. `claude-tag` is Claude Tag, the Claude product in Slack. `chat_cowork_unified` is Chat and Cowork unified, Cowork's features inside claude.ai chat: chat and Cowork usage by a member who has it turned on is reported under this value instead of `chat` or `cowork`. It is accepted as a filter only on deployments that offer Chat and Cowork unified. Some unattributed usage is reported as "other".
+Product surface that produced the usage or cost. Null unless product is in `group_by[]`; it can also be null on grouped rows whose usage cannot be attributed to a known surface. Values include `chat`, `claude_code`, `cowork`, `office_agent`, `claude_in_chrome`, `claude_design`, `claude-tag`, and `chat_cowork_unified`. `claude-tag` is Claude Tag, the Claude product in Slack. `chat_cowork_unified` is Chat and Cowork unified, Cowork's features inside claude.ai chat: chat and Cowork usage by a member who has it turned on is reported under this value instead of `chat` or `cowork`. It is accepted as a filter only where Chat and Cowork unified is available. Some unattributed usage is reported as "other".
 
 rbac\_group\_id: string or null
 
@@ -997,7 +1191,7 @@ The user's email address, including for users who are no longer members of the o
 
 name: string or null
 
-The user's full name. Null when the user has not set a name. Returns `"Deleted User"` when the account itself has been deleted, or when the user is no longer a member of the organization or its associated organizations and the organization has chosen to hide the names of removed users. Otherwise, the name stays populated for removed users. Rows for system-minted service accounts render the service name (for example, `"Claude Security"` for usage by Anthropic's security-patching service) or null.
+The user's full name. Null when the user has not set a name. Returns `"Deleted User"` when the account itself has been deleted, or when the user is no longer a member of the organization or its associated organizations and the organization has chosen to hide the names of removed users. Otherwise, the name stays populated for removed users. Rows for system-minted service accounts render the service name (for example, `"Claude Security"`) or null.
 
 user\_id: string
 
@@ -1093,7 +1287,7 @@ Model that produced the usage or cost, as a model name in the form the `models[]
 
 product: string or null
 
-Product surface that produced the usage or cost. Null unless product is in `group_by[]`; it can also be null on grouped rows whose usage cannot be attributed to a known surface. Values include `chat`, `claude_code`, `cowork`, `office_agent`, `claude_in_chrome`, `claude_design`, `claude-tag`, and `chat_cowork_unified`. `claude-tag` is Claude Tag, the Claude product in Slack. `chat_cowork_unified` is Chat and Cowork unified, Cowork's features inside claude.ai chat: chat and Cowork usage by a member who has it turned on is reported under this value instead of `chat` or `cowork`. It is accepted as a filter only on deployments that offer Chat and Cowork unified. Some unattributed usage is reported as "other".
+Product surface that produced the usage or cost. Null unless product is in `group_by[]`; it can also be null on grouped rows whose usage cannot be attributed to a known surface. Values include `chat`, `claude_code`, `cowork`, `office_agent`, `claude_in_chrome`, `claude_design`, `claude-tag`, and `chat_cowork_unified`. `claude-tag` is Claude Tag, the Claude product in Slack. `chat_cowork_unified` is Chat and Cowork unified, Cowork's features inside claude.ai chat: chat and Cowork usage by a member who has it turned on is reported under this value instead of `chat` or `cowork`. It is accepted as a filter only where Chat and Cowork unified is available. Some unattributed usage is reported as "other".
 
 rbac\_group\_id: string or null
 
@@ -1171,6 +1365,10 @@ distinct\_connectors\_used\_count: number or null
 
 Number of distinct connectors used in Cowork sessions. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
 
+distinct\_plugins\_used\_count: number or null
+
+Number of distinct plugins used in Cowork sessions. Null while Cowork plugin-use metrics are not enabled for this organization. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
+
 distinct\_session\_count: number or null
 
 Number of distinct Cowork sessions. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
@@ -1179,43 +1377,39 @@ distinct\_skills\_used\_count: number or null
 
 Number of distinct skills used in Cowork sessions. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
 
+edit\_tool\_count: number or null
+
+Number of successful Edit tool calls in Cowork sessions. Null while the file-edit metrics are not enabled for this organization.
+
+file\_edit\_count: number or null
+
+Number of successful file-edit tool calls (Edit, MultiEdit, Write, NotebookEdit) in Cowork sessions. Null, never 0, while the file-edit metrics are not enabled for this organization.
+
 message\_count: number
 
 Number of messages sent in Cowork sessions
+
+multi\_edit\_tool\_count: number or null
+
+Number of successful MultiEdit tool calls in Cowork sessions. Null while the file-edit metrics are not enabled for this organization.
+
+notebook\_edit\_tool\_count: number or null
+
+Number of successful NotebookEdit tool calls in Cowork sessions. Null while the file-edit metrics are not enabled for this organization.
+
+plugins\_used\_count: number or null
+
+Total number of plugin invocations in Cowork sessions. Null while Cowork plugin-use metrics are not enabled for this organization.
+
+sessions\_with\_file\_edits\_count: number or null
+
+Number of distinct Cowork sessions with at least one successful file-edit tool call. Null while the file-edit metrics are not enabled for this organization. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
 
 skills\_used\_count: number
 
 Total number of skill invocations in Cowork sessions
 
-distinct\_plugins\_used\_count: optional number or null
-
-Number of distinct plugins used in Cowork sessions. Null while Cowork plugin-use metrics are not enabled for this organization. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
-
-edit\_tool\_count: optional number or null
-
-Number of successful Edit tool calls in Cowork sessions. Null while the file-edit metrics are not enabled for this organization.
-
-file\_edit\_count: optional number or null
-
-Number of successful file-edit tool calls (Edit, MultiEdit, Write, NotebookEdit) in Cowork sessions. Null, never 0, while the file-edit metrics are not enabled for this organization.
-
-multi\_edit\_tool\_count: optional number or null
-
-Number of successful MultiEdit tool calls in Cowork sessions. Null while the file-edit metrics are not enabled for this organization.
-
-notebook\_edit\_tool\_count: optional number or null
-
-Number of successful NotebookEdit tool calls in Cowork sessions. Null while the file-edit metrics are not enabled for this organization.
-
-plugins\_used\_count: optional number or null
-
-Total number of plugin invocations in Cowork sessions. Null while Cowork plugin-use metrics are not enabled for this organization.
-
-sessions\_with\_file\_edits\_count: optional number or null
-
-Number of distinct Cowork sessions with at least one successful file-edit tool call. Null while the file-edit metrics are not enabled for this organization. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
-
-write\_tool\_count: optional number or null
+write\_tool\_count: number or null
 
 Number of successful Write tool calls in Cowork sessions. Null while the file-edit metrics are not enabled for this organization.
 
@@ -1595,6 +1789,18 @@ Number of skill invocations
 
 
 
+BetaAnalyticsOrder = "asc" or "desc"
+
+Sort direction: `asc` or `desc`. Defaults to `asc` for the endpoint's sort column and to `desc` when `order_by` names a metric (a top-N ranking). Applies to `order_by`, or to the endpoint's default sort field when `order_by` is omitted.
+
+One of the following:
+
+"asc"
+
+"desc"
+
+
+
 BetaAnalyticsPluginActivity object{ claude\_code\_metrics, cowork\_metrics, distinct\_user\_count, 9 more }
 
 Per-plugin install + invocation activity for a given day.
@@ -1637,23 +1843,23 @@ invocation\_count: number
 
 Number of plugin invocations on the requested day
 
+plugin\_id: string or null
+
+Stable plugin identifier when available (e.g. `serena@claude-plugins-official`). Null for third-party Claude Code plugins (redacted at the source) and Cowork slash commands that carry only a hashed id.
+
 plugin\_name: string
 
 Name of the plugin
 
 
 
-chat\_cowork\_unified\_metrics: optional object{ distinct\_session\_plugin\_used\_count } or null
+chat\_cowork\_unified\_metrics: optional [BetaAnalyticsPluginChatCoworkUnifiedMetrics](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { distinct\_session\_plugin\_used\_count } or null
 
-Plugin use recorded while members had Chat and Cowork unified (Cowork's features inside claude.ai chat) turned on. A count is null in date-range mode where it cannot be computed. Omitted from the response on deployments that do not offer Chat and Cowork unified.
+Plugin use recorded while members had Chat and Cowork unified (Cowork's features inside claude.ai chat) turned on. A count is null in date-range mode where it cannot be computed. Omitted from the response where Chat and Cowork unified is not available.
 
 distinct\_session\_plugin\_used\_count: number or null
 
 Same measure as `cowork_metrics.distinct_session_plugin_used_count`, for activity recorded while members had Chat and Cowork unified turned on. Null on aggregated rows where a distinct count cannot be computed.
-
-plugin\_id: optional string or null
-
-Stable plugin identifier when available (e.g. `serena@claude-plugins-official`). Null for third-party Claude Code plugins (redacted at the source) and Cowork slash commands that carry only a hashed id.
 
 product: optional string or null
 
@@ -1670,6 +1876,17 @@ Resolved RBAC group display name, alongside `rbac_group_id` when name resolution
 user\_id: optional string or null
 
 Tagged user identifier (e.g. `user_...`). Present only when the request grouped by `user_id`.
+
+
+
+BetaAnalyticsPluginChatCoworkUnifiedMetrics object{ distinct\_session\_plugin\_used\_count }
+
+A plugin's use in Cowork sessions recorded while members had Chat
+and Cowork unified turned on.
+
+distinct\_session\_plugin\_used\_count: number or null
+
+Same measure as `cowork_metrics.distinct_session_plugin_used_count`, for activity recorded while members had Chat and Cowork unified turned on. Null on aggregated rows where a distinct count cannot be computed.
 
 
 
@@ -1693,9 +1910,23 @@ Number of distinct Cowork sessions in which the plugin was invoked. Null on aggr
 
 
 
+BetaAnalyticsPluginGroupBy = "product" or "rbac\_group\_id" or "user\_id"
+
+A dimension to group plugin activity by.
+
+One of the following:
+
+"product"
+
+"rbac\_group\_id"
+
+"user\_id"
+
+
+
 BetaAnalyticsProductFilter = "chat" or "chat\_cowork\_unified" or "claude-tag" or 5 more
 
-Publicly documented product surfaces. `claude-tag` is Claude Tag, the Claude product in Slack. `chat_cowork_unified` is Chat and Cowork unified, Cowork's features inside claude.ai chat: chat and Cowork usage by a member who has it turned on is reported under this value instead of `chat` or `cowork`. It is accepted as a filter only on deployments that offer Chat and Cowork unified.
+Publicly documented product surfaces. `claude-tag` is Claude Tag, the Claude product in Slack. `chat_cowork_unified` is Chat and Cowork unified, Cowork's features inside claude.ai chat: chat and Cowork usage by a member who has it turned on is reported under this value instead of `chat` or `cowork`. It is accepted as a filter only where Chat and Cowork unified is available.
 
 One of the following:
 
@@ -1717,29 +1948,13 @@ One of the following:
 
 
 
-BetaAnalyticsProjectActivity object{ distinct\_user\_count, message\_count, project\_id, 8 more }
+BetaAnalyticsProjectActivity object{ created\_at, created\_by, distinct\_conversation\_count, 7 more }
 
 Per-project activity data for a given day.
 
-distinct\_user\_count: number
-
-Number of distinct users who used the project on the requested day, or, in date-range mode, over the requested window — recomputed as an exact distinct count over the window's per-member daily rows, never a sum of per-day values.
-
-message\_count: number
-
-Number of messages sent in the project on the requested day
-
-project\_id: string
-
-Tagged project identifier (e.g. `claude_proj_...`)
-
-project\_name: string
-
-Name of the project
-
 
 
-created\_at: optional string or null
+created\_at: string or null
 
 Project creation timestamp in RFC 3339 format. Null if the project was deleted before attribution was recorded.
 
@@ -1747,7 +1962,7 @@ formatdate-time
 
 
 
-created\_by: optional [BetaAnalyticsUser](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { type: "user", id, email\_address } or null
+created\_by: [BetaAnalyticsUser](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { type: "user", id, email\_address } or null
 
 User who created the project. Null if the project was deleted before attribution was recorded, or if the creator's account no longer exists.
 
@@ -1767,13 +1982,25 @@ email\_address: string
 
 Email address of the user
 
-distinct\_conversation\_count: optional number or null
+distinct\_conversation\_count: number or null
 
 Number of distinct conversations in the project. Null on aggregated rows where a distinct count cannot be computed.
 
-product: optional string or null
+distinct\_user\_count: number
 
-Product that produced this row's activity: one of `chat`, `claude_code`, `cowork`, `office_agent`, or `chat_cowork_unified` (Chat and Cowork unified). These are the canonical Cost & Usage product names; an `office_agent` row's per-surface breakdown is in its `office_metrics`. On `/plugins` only `cowork`, `claude_code` and `chat_cowork_unified` occur (the only surfaces with plugin attribution); on `/artifacts` only `chat`, `claude_code`, `cowork` and `chat_cowork_unified` occur (the surfaces that create artifacts); `/apps/chat/projects` does not support the product dimension (a `product` entry in `group_by[]` or `filter[]` there is rejected). Present only when the request grouped by `product`.
+Number of distinct users who used the project on the requested day, or, in date-range mode, over the requested window — recomputed as an exact distinct count over the window's per-member daily rows, never a sum of per-day values.
+
+message\_count: number
+
+Number of messages sent in the project on the requested day
+
+project\_id: string
+
+Tagged project identifier (e.g. `claude_proj_...`)
+
+project\_name: string
+
+Name of the project
 
 rbac\_group\_id: optional string or null
 
@@ -1786,6 +2013,18 @@ Resolved RBAC group display name, alongside `rbac_group_id` when name resolution
 user\_id: optional string or null
 
 Tagged user identifier (e.g. `user_...`). Present only when the request grouped by `user_id`.
+
+
+
+BetaAnalyticsProjectGroupBy = "rbac\_group\_id" or "user\_id"
+
+A dimension to group chat project activity by.
+
+One of the following:
+
+"rbac\_group\_id"
+
+"user\_id"
 
 
 
@@ -1941,15 +2180,15 @@ Percentage of assigned seats with activity in the 7-day rolling window (`WAU / a
 
 chat\_cowork\_unified\_daily\_active\_user\_count: optional number or null
 
-Number of users with activity in Chat and Cowork unified on the requested day. Omitted from the response on deployments that do not offer Chat and Cowork unified.
+Number of users with activity in Chat and Cowork unified on the requested day. Omitted from the response where Chat and Cowork unified is not available.
 
 chat\_cowork\_unified\_monthly\_active\_user\_count: optional number or null
 
-Number of users with activity in Chat and Cowork unified in the 28-day rolling window (30 days when the request filters by `rbac_group_id`). Omitted from the response on deployments that do not offer Chat and Cowork unified.
+Number of users with activity in Chat and Cowork unified in the 28-day rolling window (30 days when the request filters by `rbac_group_id`). Omitted from the response where Chat and Cowork unified is not available.
 
 chat\_cowork\_unified\_weekly\_active\_user\_count: optional number or null
 
-Number of users with activity in Chat and Cowork unified in the 7-day rolling window. Omitted from the response on deployments that do not offer Chat and Cowork unified.
+Number of users with activity in Chat and Cowork unified in the 7-day rolling window. Omitted from the response where Chat and Cowork unified is not available.
 
 chat\_daily\_active\_user\_count: optional number or null
 
@@ -2017,9 +2256,13 @@ Number of users with Claude Science activity in the 7-day rolling window. Omitte
 
 
 
-BetaAnalyticsSkillActivity object{ chat\_metrics, claude\_code\_metrics, cowork\_metrics, 15 more }
+BetaAnalyticsSkillActivity object{ attributed\_list\_price, chat\_metrics, claude\_code\_metrics, 15 more }
 
 Per-skill activity data for a given day.
+
+attributed\_list\_price: string or null
+
+List-price (rate-card) value of the member requests attributed to this skill, as a decimal string in the minor unit of `currency` (cents for USD), from Claude Code, Cowork, and Office Agent request-level attribution — the value of requests that involved the skill, not the skill's incremental cost. Unlike `estimated_overage_spend` this reflects usage value regardless of how it was funded — seat-covered usage counts — but it is undiscounted and does not tie to billed spend or the organization's spend reporting. claude.ai chat usage carries no request-level attribution and contributes nothing: the field is null on `chat` product rows and on `office_agent` product cuts dated before 2026-06-18 (the Office Agent attribution data-start), and on ungrouped rows it covers the Claude Code + Cowork + Office Agent share only (null when no attributable usage exists). Also null under the same conditions as `estimated_overage_spend` (spend reporting not enabled for this organization, `office_agent` product cuts before the 2026-06-18 data-start). "0" means attributable usage existed but none was attributed to this skill. Addable across days: date-range rollup mode returns the window's sum. On `group_by[]` and `filter[]` shapes both amounts can total below the ungrouped value for the same skill over the same date or range: spend attributed to a member–skill pair with no counted usage on that day is excluded from those cuts.
 
 
 
@@ -2051,9 +2294,25 @@ distinct\_session\_skill\_used\_count: number or null
 
 Number of distinct Cowork sessions in which the skill was used. A skill counts as used only when it is explicitly activated — the model (or the user, via the skill's slash command) invokes it, reading its instructions into context as part of that activation. Skills that are merely installed or listed as available, or whose content reaches the context without an activation (preloaded, hook-injected, or read as a plain file), are not counted. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
 
+currency: string or null
+
+Currency for this row's monetary fields (`estimated_overage_spend` and `attributed_list_price`), as an uppercase ISO-4217 code. Always "USD" when either amount is populated; null whenever both amounts are null.
+
 distinct\_user\_count: number
 
 Number of distinct users who used the skill on the requested day, or, in date-range mode, over the requested window — recomputed as an exact distinct count over the window's per-member daily rows, never a sum of per-day values. A skill counts as used only when it is explicitly activated — the model (or the user, via the skill's slash command) invokes it, reading its instructions into context as part of that activation. Skills that are merely installed or listed as available, or whose content reaches the context without an activation (preloaded, hook-injected, or read as a plain file), are not counted.
+
+enable\_count: number or null
+
+Distinct accounts that enabled this skill on the requested day (claude.ai only — the skill analog of plugin `install_count`). The count is org-wide: null when enable reporting is not enabled for this organization, or when the request scopes to `user_id` / `rbac_group_id` / `product` via `group_by[]` or `filter[]` (an org-wide count would be misleading on per-cut rows). A distinct count, not an event count: summing across days double-counts members who enable the skill on more than one day, so it is also null in date-range rollup mode (`starting_date`/`ending_date`).
+
+estimated\_overage\_spend: string or null
+
+Estimated overage spend attributed to this skill, as a decimal string in the minor unit of `currency` (cents for USD; "1250" is $12.50, fractional cents possible) — an allocation of each member's daily post-discount, pre-credit metered overage spend (the same cost basis as the organization's spend reporting and the Cost & Usage API, so per-skill figures are directly comparable; spend with no skill attribution — including any member-day without skill invocations — is not represented, so skill rows sum to at most those totals) across the skills the member used. Overage only: usage covered by included seat allowances bills nothing and allocates $0 here — see `attributed_list_price` for the funding-independent usage-value companion. Claude Code, Cowork, and Office Agent spend use request-level skill attribution; claude.ai chat spend is approximated proportionally to skill-invoking messages. An estimate, not a billing number — and the cost of the requests/messages that involved the skill, not the skill's incremental cost (the same request would still have cost something without the skill active). "0" means no overage spend was attributed; null when spend reporting is not enabled for this organization, on `office_agent` product cuts dated before 2026-06-18 (the Office Agent attribution data-start). Addable across days: date-range rollup mode (`starting_date`/`ending_date`) returns the window's sum. With `group_by[]=user_id` each row carries the user's own attributed spend. On `group_by[]` and `filter[]` shapes both amounts can total below the ungrouped value for the same skill over the same date or range: spend attributed to a member–skill pair with no counted usage on that day is excluded from those cuts.
+
+invocation\_count: number or null
+
+Total number of times this skill was invoked on the requested day (the skill analog of plugin `invocation_count`). Unlike `distinct_user_count` — which answers '# of users' — this is the true '# of uses'. A skill counts as used only when it is explicitly activated — the model (or the user, via the skill's slash command) invokes it, reading its instructions into context as part of that activation. Skills that are merely installed or listed as available, or whose content reaches the context without an activation (preloaded, hook-injected, or read as a plain file), are not counted. Null when invocation reporting is not enabled for this organization. Sum across a date range for total uses in the window — date-range rollup mode (`starting_date`/`ending_date`) returns this sum directly.
 
 
 
@@ -2061,19 +2320,33 @@ office\_metrics: [BetaAnalyticsSkillOfficeMetrics](https://platform.claude.com/d
 
 Office Agent activity metrics for a single skill on a given day, broken out by Office product.
 
+
+
+share\_status: "organization" or "private" or "public" or null
+
+Skill share status (claude.ai only): one of `private`, `organization`, or `public`. Null for skills used only in Claude Code or Office (no per-skill share-status concept) and when share-status reporting is not yet available for the organization. Filterable via `filter[]=share_status:{value}`.
+
+One of the following:
+
+"organization"
+
+"private"
+
+"public"
+
+skill\_display\_name: string or null
+
+Human-readable display name for rows whose `skill_name` is an opaque skill id (user/organization skill types and plugin-delivered skills, whose user-defined names usage reports generally withhold). Organization-shared skills and skills delivered by the organization's own plugins (its plugin marketplaces and its library) resolve; plugin skill names are shown without their 'plugin:' prefix. The literal 'unknown' bucket row gets a fixed 'Unknown skill' label. For a member's own skill (private or personal-plugin) it is null, except when the skill's owner used it from Claude Code or Cowork in the requested period: then it shows the name that client reported at the time. Apart from that, the names of members' own skills are not disclosed to analytics-key holders. Also null for Anthropic-provided plugin skills (not resolved), for an organization skill or plugin whose name can no longer be found (for example, one since deleted), when `skill_name` is already a display name, or when display-name resolution is not enabled for this organization.
+
 skill\_name: string
 
 Name of the skill
 
-attributed\_list\_price: optional string or null
-
-List-price (rate-card) value of the member requests attributed to this skill, as a decimal string in the minor unit of `currency` (cents for USD), from Claude Code, Cowork, and Office Agent request-level attribution — the value of requests that involved the skill, not the skill's incremental cost. Unlike `estimated_overage_spend` this reflects usage value regardless of how it was funded — seat-covered usage counts — but it is undiscounted and does not tie to billed spend or the organization's spend reporting. claude.ai chat usage carries no request-level attribution and contributes nothing: the field is null on `chat` product rows and on `office_agent` product cuts dated before 2026-06-18 (the Office Agent attribution data-start), and on ungrouped rows it covers the Claude Code + Cowork + Office Agent share only (null when no attributable usage exists). Also null under the same conditions as `estimated_overage_spend` (spend reporting not enabled for this organization, `office_agent` product cuts before the 2026-06-18 data-start). "0" means attributable usage existed but none was attributed to this skill. Addable across days: date-range rollup mode returns the window's sum. On `group_by[]` and `filter[]` shapes both amounts can total below the ungrouped value for the same skill over the same date or range: spend attributed to a member–skill pair with no counted usage on that day is excluded from those cuts.
-
 
 
-chat\_cowork\_unified\_metrics: optional object{ chat, sessions } or null
+chat\_cowork\_unified\_metrics: optional [BetaAnalyticsSkillChatCoworkUnifiedMetrics](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { chat, sessions } or null
 
-Skill use recorded while members had Chat and Cowork unified (Cowork's features inside claude.ai chat) turned on, split into chat conversations and Cowork sessions. A count is null in date-range mode where it cannot be computed. Omitted from the response on deployments that do not offer Chat and Cowork unified.
+Skill use recorded while members had Chat and Cowork unified (Cowork's features inside claude.ai chat) turned on, split into chat conversations and Cowork sessions. A count is null in date-range mode where it cannot be computed. Omitted from the response where Chat and Cowork unified is not available.
 
 
 
@@ -2097,22 +2370,6 @@ distinct\_session\_skill\_used\_count: number or null
 
 Same measure as `cowork_metrics.distinct_session_skill_used_count`, for activity recorded while members had Chat and Cowork unified turned on. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
 
-currency: optional string or null
-
-Currency for this row's monetary fields (`estimated_overage_spend` and `attributed_list_price`), as an uppercase ISO-4217 code. Always "USD" when either amount is populated; null whenever both amounts are null.
-
-enable\_count: optional number or null
-
-Distinct accounts that enabled this skill on the requested day (claude.ai only — the skill analog of plugin `install_count`). The count is org-wide: null when enable reporting is not enabled for this organization, or when the request scopes to `user_id` / `rbac_group_id` / `product` via `group_by[]` or `filter[]` (an org-wide count would be misleading on per-cut rows). A distinct count, not an event count: summing across days double-counts members who enable the skill on more than one day, so it is also null in date-range rollup mode (`starting_date`/`ending_date`).
-
-estimated\_overage\_spend: optional string or null
-
-Estimated overage spend attributed to this skill, as a decimal string in the minor unit of `currency` (cents for USD; "1250" is $12.50, fractional cents possible) — an allocation of each member's daily post-discount, pre-credit metered overage spend (the same cost basis as the organization's spend reporting and the Cost & Usage API, so per-skill figures are directly comparable; spend with no skill attribution — including any member-day without skill invocations — is not represented, so skill rows sum to at most those totals) across the skills the member used. Overage only: usage covered by included seat allowances bills nothing and allocates $0 here — see `attributed_list_price` for the funding-independent usage-value companion. Claude Code, Cowork, and Office Agent spend use request-level skill attribution; claude.ai chat spend is approximated proportionally to skill-invoking messages. An estimate, not a billing number — and the cost of the requests/messages that involved the skill, not the skill's incremental cost (the same request would still have cost something without the skill active). "0" means no overage spend was attributed; null when spend reporting is not enabled for this organization, on `office_agent` product cuts dated before 2026-06-18 (the Office Agent attribution data-start). Addable across days: date-range rollup mode (`starting_date`/`ending_date`) returns the window's sum. With `group_by[]=user_id` each row carries the user's own attributed spend. On `group_by[]` and `filter[]` shapes both amounts can total below the ungrouped value for the same skill over the same date or range: spend attributed to a member–skill pair with no counted usage on that day is excluded from those cuts.
-
-invocation\_count: optional number or null
-
-Total number of times this skill was invoked on the requested day (the skill analog of plugin `invocation_count`). Unlike `distinct_user_count` — which answers '# of users' — this is the true '# of uses'. A skill counts as used only when it is explicitly activated — the model (or the user, via the skill's slash command) invokes it, reading its instructions into context as part of that activation. Skills that are merely installed or listed as available, or whose content reaches the context without an activation (preloaded, hook-injected, or read as a plain file), are not counted. Null when invocation reporting is not enabled for this organization. Sum across a date range for total uses in the window — date-range rollup mode (`starting_date`/`ending_date`) returns this sum directly.
-
 product: optional string or null
 
 Product that produced this row's activity: one of `chat`, `claude_code`, `cowork`, `office_agent`, or `chat_cowork_unified` (Chat and Cowork unified). These are the canonical Cost & Usage product names; an `office_agent` row's per-surface breakdown is in its `office_metrics`. On `/plugins` only `cowork`, `claude_code` and `chat_cowork_unified` occur (the only surfaces with plugin attribution); on `/artifacts` only `chat`, `claude_code`, `cowork` and `chat_cowork_unified` occur (the surfaces that create artifacts); `/apps/chat/projects` does not support the product dimension (a `product` entry in `group_by[]` or `filter[]` there is rejected). Present only when the request grouped by `product`.
@@ -2124,24 +2381,6 @@ Tagged RBAC group identifier (`rbac_group_...`), matching the spend-limits API s
 rbac\_group\_name: optional string or null
 
 Resolved RBAC group display name, alongside `rbac_group_id` when name resolution is available. Null if the group has been deleted or its name could not be resolved; `rbac_group_id` remains the stable key.
-
-
-
-share\_status: optional "organization" or "private" or "public" or null
-
-Skill share status (claude.ai only): one of `private`, `organization`, or `public`. Null for skills used only in Claude Code or Office (no per-skill share-status concept) and when share-status reporting is not yet available for the organization. Filterable via `filter[]=share_status:{value}`.
-
-One of the following:
-
-"organization"
-
-"private"
-
-"public"
-
-skill\_display\_name: optional string or null
-
-Human-readable display name for rows whose `skill_name` is an opaque skill id (user/organization skill types and plugin-delivered skills, whose user-defined names usage reports generally withhold). Organization-shared skills and skills delivered by the organization's own plugins (its plugin marketplaces and its library) resolve; plugin skill names are shown without their 'plugin:' prefix. The literal 'unknown' bucket row gets a fixed 'Unknown skill' label. For a member's own skill (private or personal-plugin) it is null, except when the skill's owner used it from Claude Code or Cowork in the requested period: then it shows the name that client reported at the time. Apart from that, the names of members' own skills are not disclosed to analytics-key holders. Also null for Anthropic-provided plugin skills (not resolved), for an organization skill or plugin whose name can no longer be found (for example, one since deleted), when `skill_name` is already a display name, or when display-name resolution is not enabled for this organization.
 
 user\_id: optional string or null
 
@@ -2157,6 +2396,35 @@ Chat and Cowork unified turned on.
 distinct\_conversation\_skill\_used\_count: number or null
 
 Same measure as `chat_metrics.distinct_conversation_skill_used_count`, for activity recorded while members had Chat and Cowork unified turned on. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
+
+
+
+BetaAnalyticsSkillChatCoworkUnifiedMetrics object{ chat, sessions }
+
+A skill's use in Chat and Cowork unified on one day: `chat` holds its use
+in chat conversations and `sessions` its use in Cowork sessions.
+
+
+
+chat: [BetaAnalyticsSkillChatCoworkUnifiedChatMetrics](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { distinct\_conversation\_skill\_used\_count }
+
+A skill's use in chat conversations recorded while members had
+Chat and Cowork unified turned on.
+
+distinct\_conversation\_skill\_used\_count: number or null
+
+Same measure as `chat_metrics.distinct_conversation_skill_used_count`, for activity recorded while members had Chat and Cowork unified turned on. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
+
+
+
+sessions: [BetaAnalyticsSkillChatCoworkUnifiedSessionsMetrics](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { distinct\_session\_skill\_used\_count }
+
+A skill's use in Cowork sessions recorded while members had Chat
+and Cowork unified turned on.
+
+distinct\_session\_skill\_used\_count: number or null
+
+Same measure as `cowork_metrics.distinct_session_skill_used_count`, for activity recorded while members had Chat and Cowork unified turned on. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
 
 
 
@@ -2198,6 +2466,20 @@ Cowork activity metrics for a single skill on a given day.
 distinct\_session\_skill\_used\_count: number or null
 
 Number of distinct Cowork sessions in which the skill was used. A skill counts as used only when it is explicitly activated — the model (or the user, via the skill's slash command) invokes it, reading its instructions into context as part of that activation. Skills that are merely installed or listed as available, or whose content reaches the context without an activation (preloaded, hook-injected, or read as a plain file), are not counted. Approximate (HLL, typical error <2%) in date-range mode. Null on aggregated rows where a distinct count cannot be computed.
+
+
+
+BetaAnalyticsSkillGroupBy = "product" or "rbac\_group\_id" or "user\_id"
+
+A dimension to group skill activity by.
+
+One of the following:
+
+"product"
+
+"rbac\_group\_id"
+
+"user\_id"
 
 
 
@@ -2459,7 +2741,7 @@ The number of output tokens generated.
 
 product: string or null
 
-Product surface that produced the usage or cost. Null unless product is in `group_by[]`; it can also be null on grouped rows whose usage cannot be attributed to a known surface. Values include `chat`, `claude_code`, `cowork`, `office_agent`, `claude_in_chrome`, `claude_design`, `claude-tag`, and `chat_cowork_unified`. `claude-tag` is Claude Tag, the Claude product in Slack. `chat_cowork_unified` is Chat and Cowork unified, Cowork's features inside claude.ai chat: chat and Cowork usage by a member who has it turned on is reported under this value instead of `chat` or `cowork`. It is accepted as a filter only on deployments that offer Chat and Cowork unified. Some unattributed usage is reported as "other".
+Product surface that produced the usage or cost. Null unless product is in `group_by[]`; it can also be null on grouped rows whose usage cannot be attributed to a known surface. Values include `chat`, `claude_code`, `cowork`, `office_agent`, `claude_in_chrome`, `claude_design`, `claude-tag`, and `chat_cowork_unified`. `claude-tag` is Claude Tag, the Claude product in Slack. `chat_cowork_unified` is Chat and Cowork unified, Cowork's features inside claude.ai chat: chat and Cowork usage by a member who has it turned on is reported under this value instead of `chat` or `cowork`. It is accepted as a filter only where Chat and Cowork unified is available. Some unattributed usage is reported as "other".
 
 rbac\_group\_id: string or null
 
@@ -2513,7 +2795,7 @@ One of the following:
 
 BetaAnalyticsUsageCostProductFilter = "chat" or "chat\_cowork\_unified" or "claude\_code" or 9 more
 
-Publicly documented product surfaces. `claude_tag` is Claude Tag, the Claude product in Slack. `chat_cowork_unified` is Chat and Cowork unified, Cowork's features inside claude.ai chat: chat and Cowork usage by a member who has it turned on is reported under this value instead of `chat` or `cowork`. It is accepted as a filter only on deployments that offer Chat and Cowork unified.
+Publicly documented product surfaces. `claude_tag` is Claude Tag, the Claude product in Slack. `chat_cowork_unified` is Chat and Cowork unified, Cowork's features inside claude.ai chat: chat and Cowork usage by a member who has it turned on is reported under this value instead of `chat` or `cowork`. It is accepted as a filter only where Chat and Cowork unified is available.
 
 One of the following:
 
@@ -2655,7 +2937,7 @@ The number of output tokens generated.
 
 product: string or null
 
-Product surface that produced the usage or cost. Null unless product is in `group_by[]`; it can also be null on grouped rows whose usage cannot be attributed to a known surface. Values include `chat`, `claude_code`, `cowork`, `office_agent`, `claude_in_chrome`, `claude_design`, `claude-tag`, and `chat_cowork_unified`. `claude-tag` is Claude Tag, the Claude product in Slack. `chat_cowork_unified` is Chat and Cowork unified, Cowork's features inside claude.ai chat: chat and Cowork usage by a member who has it turned on is reported under this value instead of `chat` or `cowork`. It is accepted as a filter only on deployments that offer Chat and Cowork unified. Some unattributed usage is reported as "other".
+Product surface that produced the usage or cost. Null unless product is in `group_by[]`; it can also be null on grouped rows whose usage cannot be attributed to a known surface. Values include `chat`, `claude_code`, `cowork`, `office_agent`, `claude_in_chrome`, `claude_design`, `claude-tag`, and `chat_cowork_unified`. `claude-tag` is Claude Tag, the Claude product in Slack. `chat_cowork_unified` is Chat and Cowork unified, Cowork's features inside claude.ai chat: chat and Cowork usage by a member who has it turned on is reported under this value instead of `chat` or `cowork`. It is accepted as a filter only where Chat and Cowork unified is available. Some unattributed usage is reported as "other".
 
 rbac\_group\_id: string or null
 
@@ -2727,7 +3009,7 @@ The user's email address, including for users who are no longer members of the o
 
 name: string or null
 
-The user's full name. Null when the user has not set a name. Returns `"Deleted User"` when the account itself has been deleted, or when the user is no longer a member of the organization or its associated organizations and the organization has chosen to hide the names of removed users. Otherwise, the name stays populated for removed users. Rows for system-minted service accounts render the service name (for example, `"Claude Security"` for usage by Anthropic's security-patching service) or null.
+The user's full name. Null when the user has not set a name. Returns `"Deleted User"` when the account itself has been deleted, or when the user is no longer a member of the organization or its associated organizations and the organization has chosen to hide the names of removed users. Otherwise, the name stays populated for removed users. Rows for system-minted service accounts render the service name (for example, `"Claude Security"`) or null.
 
 user\_id: string
 
@@ -2827,7 +3109,7 @@ The number of output tokens generated.
 
 product: string or null
 
-Product surface that produced the usage or cost. Null unless product is in `group_by[]`; it can also be null on grouped rows whose usage cannot be attributed to a known surface. Values include `chat`, `claude_code`, `cowork`, `office_agent`, `claude_in_chrome`, `claude_design`, `claude-tag`, and `chat_cowork_unified`. `claude-tag` is Claude Tag, the Claude product in Slack. `chat_cowork_unified` is Chat and Cowork unified, Cowork's features inside claude.ai chat: chat and Cowork usage by a member who has it turned on is reported under this value instead of `chat` or `cowork`. It is accepted as a filter only on deployments that offer Chat and Cowork unified. Some unattributed usage is reported as "other".
+Product surface that produced the usage or cost. Null unless product is in `group_by[]`; it can also be null on grouped rows whose usage cannot be attributed to a known surface. Values include `chat`, `claude_code`, `cowork`, `office_agent`, `claude_in_chrome`, `claude_design`, `claude-tag`, and `chat_cowork_unified`. `claude-tag` is Claude Tag, the Claude product in Slack. `chat_cowork_unified` is Chat and Cowork unified, Cowork's features inside claude.ai chat: chat and Cowork usage by a member who has it turned on is reported under this value instead of `chat` or `cowork`. It is accepted as a filter only where Chat and Cowork unified is available. Some unattributed usage is reported as "other".
 
 rbac\_group\_id: string or null
 
@@ -2947,6 +3229,10 @@ message\_count: number
 
 Number of messages sent in Claude Design sessions
 
+distinct\_user\_count: number or null
+
+Number of distinct active users represented by this row. Only set for grouped rollups (`group_by[]`); null for per-user rows. In date-range mode, recomputed as an exact distinct count of the group's active members over the requested window, never a sum of per-day values.
+
 
 
 office\_metrics: [BetaAnalyticsOfficeMetrics](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { excel, outlook, powerpoint, word }
@@ -2979,53 +3265,9 @@ skills\_used\_count: number
 
 Total number of skill invocations in Claude Science sessions
 
-web\_search\_count: number
-
-Number of web searches performed
-
 
 
-chat\_cowork\_unified\_metrics: optional object{ chat, sessions } or null
-
-Activity recorded while the member had Chat and Cowork unified (Cowork's features inside claude.ai chat) turned on, split into `chat` (chat activity) and `sessions` (Cowork activity). Omitted from the response on deployments that do not offer Chat and Cowork unified.
-
-
-
-chat: [BetaAnalyticsChatCoworkUnifiedChatMetrics](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { connectors\_used\_count, distinct\_artifacts\_created\_count, distinct\_connectors\_used\_count, 9 more }
-
-Chat activity recorded while members had Chat and Cowork unified turned
-on.
-
-
-
-sessions: [BetaAnalyticsChatCoworkUnifiedSessionsMetrics](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { action\_count, artifacts\_created\_count, connectors\_used\_count, 14 more }
-
-Cowork session activity recorded while members had Chat and Cowork
-unified turned on.
-
-distinct\_user\_count: optional number or null
-
-Number of distinct active users represented by this row. Only set for grouped rollups (`group_by[]`); null for per-user rows. In date-range mode, recomputed as an exact distinct count of the group's active members over the requested window, never a sum of per-day values.
-
-
-
-last\_activity\_date: optional string or null
-
-Most recent UTC day (YYYY-MM-DD) on which the user had any counted activity, within the requested window: equal to the requested `date` in single-day mode, and to the latest active day from `starting_date` (inclusive) to `ending_date` (exclusive) in date-range rollup mode — never a day earlier than the window start. On filtered requests (`filter[]`) only days matching the filter count: with `filter[]=rbac_group_id:{id}` it is the last day the user was active while a member of that group, consistent with the row's other metrics. On grouped (`group_by[]`) rows it is the latest day any member of the group was active (the requested `date` in single-day mode). Omitted from the response while last-activity reporting is not enabled for this organization.
-
-formatdate
-
-rbac\_group\_id: optional string or null
-
-Tagged RBAC group identifier (`rbac_group_...`), matching the spend-limits API spelling. Present only when the request grouped by `rbac_group_id`.
-
-rbac\_group\_name: optional string or null
-
-Resolved RBAC group display name, alongside `rbac_group_id` when name resolution is available. Null if the group has been deleted or its name could not be resolved; `rbac_group_id` remains the stable key.
-
-
-
-user: optional [BetaAnalyticsUser](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { type: "user", id, email\_address } or null
+user: [BetaAnalyticsUser](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { type: "user", id, email\_address } or null
 
 The user this row describes. Null on rows aggregated across users.
 
@@ -3045,6 +3287,32 @@ email\_address: string
 
 Email address of the user
 
+web\_search\_count: number
+
+Number of web searches performed
+
+
+
+chat\_cowork\_unified\_metrics: optional [BetaAnalyticsChatCoworkUnifiedMetrics](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { chat, sessions } or null
+
+Activity recorded while the member had Chat and Cowork unified (Cowork's features inside claude.ai chat) turned on, split into `chat` (chat activity) and `sessions` (Cowork activity). Omitted from the response where Chat and Cowork unified is not available.
+
+
+
+last\_activity\_date: optional string or null
+
+Most recent UTC day (YYYY-MM-DD) on which the user had any counted activity, within the requested window: equal to the requested `date` in single-day mode, and to the latest active day from `starting_date` (inclusive) to `ending_date` (exclusive) in date-range rollup mode — never a day earlier than the window start. On filtered requests (`filter[]`) only days matching the filter count: with `filter[]=rbac_group_id:{id}` it is the last day the user was active while a member of that group, consistent with the row's other metrics. On grouped (`group_by[]`) rows it is the latest day any member of the group was active (the requested `date` in single-day mode). Omitted from the response while last-activity reporting is not enabled for this organization.
+
+formatdate
+
+rbac\_group\_id: optional string or null
+
+Tagged RBAC group identifier (`rbac_group_...`), matching the spend-limits API spelling. Present only when the request grouped by `rbac_group_id`.
+
+rbac\_group\_name: optional string or null
+
+Resolved RBAC group display name, alongside `rbac_group_id` when name resolution is available. Null if the group has been deleted or its name could not be resolved; `rbac_group_id` remains the stable key.
+
 
 
 BetaAnalyticsUserActor object{ type: "user\_actor", deleted, email\_address, 2 more }
@@ -3063,11 +3331,15 @@ The user's email address, including for users who are no longer members of the o
 
 name: string or null
 
-The user's full name. Null when the user has not set a name. Returns `"Deleted User"` when the account itself has been deleted, or when the user is no longer a member of the organization or its associated organizations and the organization has chosen to hide the names of removed users. Otherwise, the name stays populated for removed users. Rows for system-minted service accounts render the service name (for example, `"Claude Security"` for usage by Anthropic's security-patching service) or null.
+The user's full name. Null when the user has not set a name. Returns `"Deleted User"` when the account itself has been deleted, or when the user is no longer a member of the organization or its associated organizations and the organization has chosen to hide the names of removed users. Otherwise, the name stays populated for removed users. Rows for system-minted service accounts render the service name (for example, `"Claude Security"`) or null.
 
 user\_id: string
 
 Tagged user ID.
+
+BetaAnalyticsUserGroupBy = "rbac\_group\_id"
+
+A dimension to group user activity by.
 
 #### Analytics[Summaries](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/summaries)
 
@@ -3131,6 +3403,8 @@ Get artifact-creation activity for a given day, broken out by MIME type.
 
 GET/v1/organizations/analytics/usage
 
+Requires `anthropic-beta: analytics-usage-cost-2026-08-24`. [How to send beta headers](https://platform.claude.com/docs/en/api/beta-headers)
+
 Get token usage across a date range, broken out by dimension.
 
 #### Analytics[Cost](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/cost)
@@ -3138,6 +3412,8 @@ Get token usage across a date range, broken out by dimension.
 ##### [Get Cost By Dimension](https://platform.claude.com/docs/en/api/http/beta/organization/analytics/cost/list)
 
 GET/v1/organizations/analytics/cost
+
+Requires `anthropic-beta: analytics-usage-cost-2026-08-24`. [How to send beta headers](https://platform.claude.com/docs/en/api/beta-headers)
 
 Get cost in USD across a date range, broken out by dimension.
 

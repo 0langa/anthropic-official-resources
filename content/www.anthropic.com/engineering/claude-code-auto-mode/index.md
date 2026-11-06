@@ -1,4 +1,4 @@
-### Chapter 07: What's next
+### 07What's next
 
 # **How we built Claude Code auto mode:**a safer way to skip permissions
 

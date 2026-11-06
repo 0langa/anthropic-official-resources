@@ -1,4 +1,4 @@
-### Chapter 07: What this means for defenders
+### 07What this means for defenders
 
 # Discovering and exploiting vulnerabilities in critical, real-world software with Claude
 
@@ -8,6 +8,22 @@
 - Team
 
   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
+- Topics
+
+  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+  - [Coding](https://www.anthropic.com/search?topic=coding)See more...
+
+Related articles
+
+- Announcements
+
+  Oct 6, 2026
+
+  [Expanding the Cyber Verification Program](https://www.anthropic.com/news/cyber-verification-program)
+
+[View more](https://www.anthropic.com/search?topic=cybersecurity)
 
 Over the past few months, we’ve used an unreleased, internal research model to [find critical vulnerabilities](https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source) in some of the world’s most widely used software, such as browsers and operating systems. In this post, we share details of five attack chains, which led to remote code execution and other critical impacts with little to no user interaction. These attack chains demonstrate the model’s ability to create sophisticated, multi-step exploits in both open-source and proprietary software. Any vulnerabilities in these products could affect billions of users. They’re also among the most security-critical software in the world, making them a bellwether for testing models’ vulnerability research and cyber capabilities.
 

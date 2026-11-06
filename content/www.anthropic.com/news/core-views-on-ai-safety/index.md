@@ -1,4 +1,4 @@
-### Chapter 07: Our current safety research
+### 07Our current safety research
 
 # **Core views on AI safety:**When, why, what, and how
 

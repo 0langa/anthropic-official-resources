@@ -24,29 +24,21 @@ A research preview is available by waitlist today, starting with US Pro, Max, an
 
 ![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
-[ArticleNov 2, 2026
+[ArticleNov 5, 2026
 
-### Make long-running agents faster with message threads
+### Introducing Personal Finance in Claude
 
-New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
+Ask Claude about your money and get straight answers from the accounts you connect.](https://claude.com/resources/articles/introducing-personal-finance-in-claude)
 
-Claude Platform](https://claude.com/resources/articles/message-threads)
+[ArticleNov 5, 2026
 
-[ArticleOct 28, 2026
+### More visibility and control over Claude Enterprise for security teams
 
-### Smart reports, surveys, and pooled group budgets for Claude Enterprise
+Claude EnterpriseClaude apps](https://claude.com/resources/articles/claude-enterprise-security-updates)
 
-In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
+[ArticleNov 4, 2026
 
-Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)
-
-[ArticleOct 28, 2026
-
-### IDC brings Quanta into Claude and adopts Claude across the company
-
-IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
-
-Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)
+### New agents and products for security, productivity, and creative work on Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace)
 
 [ArticleOct 22, 2026
 
@@ -60,9 +52,19 @@ Featured resource 1 of 5: Building agents: When to fold subagents into your main
 
 Advanced filters
 
-Showing 11 of 300 resources
+Showing 11 of 303 resources
 
-[ArticleNov 2, 2026
+[ArticleNov 5, 2026
+
+### Introducing Personal Finance in Claude
+
+Ask Claude about your money and get straight answers from the accounts you connect.](https://claude.com/resources/articles/introducing-personal-finance-in-claude)[ArticleNov 5, 2026
+
+### More visibility and control over Claude Enterprise for security teams
+
+Claude EnterpriseClaude apps](https://claude.com/resources/articles/claude-enterprise-security-updates)[ArticleNov 4, 2026
+
+### New agents and products for security, productivity, and creative work on Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace)[ArticleNov 2, 2026
 
 ### Make long-running agents faster with message threads
 
@@ -104,22 +106,6 @@ Our new Claude for Nonprofits plugin brings new skills to every verified nonprof
 
 ### Claude Cowork and chat come together for Enterprise
 
-Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)[ArticleOct 23, 2026
-
-### Claude Duet Safety, Privacy, and Security
-
-Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)[ArticleOct 22, 2026
-
-### Building agents: When to fold subagents into your main agent loop
-
-When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
-
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[ArticleOct 22, 2026
-
-### LLMs are making formal software verification feasible at a much larger scale
-
-We need ways to prove that code is free of bugs. Formal software verification could provide this guarantee.
-
-(opens in new tab)](https://www.anthropic.com/research/formal-verification)
+Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)
 
 View more

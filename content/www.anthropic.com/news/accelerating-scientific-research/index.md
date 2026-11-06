@@ -1,4 +1,4 @@
-### Chapter 03: Lundberg Lab: testing AI-led hypothesis generation for which genes to study
+### 03Lundberg Lab: testing AI-led hypothesis generation for which genes to study
 
 # How scientists are using Claude to accelerate research and discovery
 
@@ -7,9 +7,6 @@
 - Published
 
   Jan 15, 2026
-- Team
-
-  [Science](https://www.anthropic.com/science)
 - Topics
 
   - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
@@ -22,9 +19,9 @@ Related articles
 
 - Science
 
-  Oct 20, 2026
+  Nov 4, 2026
 
-  [How Claude designed protein binders against scorpion neurotoxins](https://www.anthropic.com/research/claude-scorpion-toxin-binder-design)
+  [Investigating vault particles with Claude](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
 
 [View more](https://www.anthropic.com/search?topic=life-sciences)
 

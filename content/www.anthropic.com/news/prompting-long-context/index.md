@@ -1,4 +1,4 @@
-### Chapter 05: Introducing the new Anthropic Cookbook
+### 05Introducing the new Anthropic Cookbook
 
 # Prompt engineering for Claude's long context window
 

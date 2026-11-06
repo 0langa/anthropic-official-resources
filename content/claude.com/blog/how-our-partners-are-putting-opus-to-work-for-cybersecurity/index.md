@@ -2,7 +2,7 @@
 
 Learn how companies like Wiz, Palo Alto Networks, and Accenture are using Claude Opus to find and fix vulnerabilities faster and deploy AI defense at scale.
 
-- Category[Best practices](https://claude.com/resources/best-practices)
+- Category[Best practices](https://claude.com/resources/best-practices), [Enterprise](https://claude.com/resources/enterprise-announcements)
 - ProductClaude Security, Claude Platform
 - DateMay 21, 2026
 - Reading time8 min
@@ -70,7 +70,13 @@ Every offering above runs on the same underlying Opus capability: reasoning abou
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 27, 2026
+[ArticleOct 28, 2026
+
+### IDC brings Quanta into Claude and adopts Claude across the company
+
+IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
+
+Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)[ArticleOct 27, 2026
 
 ### Manage costs and demonstrate ROI for Claude Code on Google Cloud
 
@@ -82,21 +88,11 @@ Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demon
 
 When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
 
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[ArticleOct 19, 2026
+Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[ArticleOct 21, 2026
 
-### Redesigning source control at Anthropic
+### HCLTech joins the Claude Partner Network as a Global Premier partner
 
-As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.
-
-Claude Code
-
-(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)[ArticleOct 16, 2026
-
-### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
-
-How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
-
-Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)
+HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)
 
 ## Transform how your organization operates with Claude
 

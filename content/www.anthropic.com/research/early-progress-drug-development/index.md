@@ -1,4 +1,4 @@
-### Chapter 02: Extending our work in the life sciences
+### 02Extending our work in the life sciences
 
 # Early progress on accelerating drug development with Claude
 
@@ -22,9 +22,9 @@ Related articles
 
 - Announcements
 
-  Oct 27, 2026
+  Jul 20, 2026
 
-  [Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development)
+  [Apply for Anthropic’s AI for Science rare disease research grants](https://www.anthropic.com/news/rare-disease-research-grants)
 
 [View more](https://www.anthropic.com/search?topic=life-sciences)
 

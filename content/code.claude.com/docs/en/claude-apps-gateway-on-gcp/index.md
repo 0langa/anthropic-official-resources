@@ -313,4 +313,5 @@ For gateway boot and login errors, see the platform-agnostic [troubleshooting ta
 
 * [Configuration reference](/docs/en/claude-apps-gateway-config): every `gateway.yaml` option, including `managed.policies` and `telemetry`
 * [Deployment and operations](/docs/en/claude-apps-gateway-deploy): IdP setup, health checks, JWT secret rotation, upgrades, and the security model
+* [Load-test mode](/docs/en/claude-apps-gateway-config#load_test_mode): load testing a gateway without calling a model provider
 * [Claude apps gateway overview](/docs/en/claude-apps-gateway): quickstart and connecting developers

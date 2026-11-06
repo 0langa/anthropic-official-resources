@@ -1,6 +1,6 @@
 # Pre-Built Connectors
 
-7 articles
+8 articles
 
 [Use Google Workspace connectors](https://support.claude.com/en/articles/10166901-use-google-workspace-connectors)
 
@@ -15,3 +15,5 @@
 [Use interactive connectors in Claude](https://support.claude.com/en/articles/13454812-use-interactive-connectors-in-claude)
 
 [Get started with 1Password for Claude](https://support.claude.com/en/articles/15936181-get-started-with-1password-for-claude)
+
+[Use Personal Finance in Claude](https://support.claude.com/en/articles/18185620-use-personal-finance-in-claude)

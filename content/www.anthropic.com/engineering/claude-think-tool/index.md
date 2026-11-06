@@ -1,4 +1,4 @@
-### Chapter 08: Conclusion
+### 08Conclusion
 
 # **The "think" tool:**Enabling Claude to stop and think in complex tool use situations
 

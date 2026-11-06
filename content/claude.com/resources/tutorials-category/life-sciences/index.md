@@ -94,7 +94,9 @@ Build your skills with written guides and video lessons, from quick tasks to com
 
 ## Claude Platform
 
-[### Set up Claude on Google Cloud (Anthropic managed)
+[### Set up Claude in Amazon Bedrock
+
+·25 min](https://academy.claude.com/tutorials/set-up-claude-in-amazon-bedrock)[### Set up Claude on Google Cloud (Anthropic managed)
 
 ·25 min](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-anthropic-managed)[### Set up Claude on Google Cloud (Google managed)
 

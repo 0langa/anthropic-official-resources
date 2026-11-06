@@ -8,7 +8,7 @@ Unsubscribe at any time.
 
 Live and recorded sessions with Anthropic and customer teams — demos, deep dives, Q&A, and practical takeaways.
 
-[WebinarUpcoming | Nov 5, 2026
+[WebinarNov 5, 2026
 
 ### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
 
@@ -44,7 +44,7 @@ Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofi
 
 See how to cut Claude costs in Microsoft Foundry, track who’s spending what, and prove the ROI.](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)
 
-[WebinarUpcoming | Nov 5, 2026
+[WebinarNov 5, 2026
 
 ### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
 
@@ -54,23 +54,13 @@ Featured resource 1 of 5: The State of Cybersecurity: What Frontier AI Changes f
 
 Advanced filters
 
-Showing 24 of 117 resources
+Showing 22 of 117 resources
 
 ## Upcoming webinars
 
 Register for the live sessions with Anthropic and partner teams — bring your questions and get answers in real time.
 
-[WebinarUpcoming | Nov 4, 2026
-
-### Unified Claude: What it means for admins
-
-Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile.
-
-Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[WebinarUpcoming | Nov 5, 2026
-
-### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
-
-A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)[WebinarUpcoming | Nov 10, 2026
+[WebinarUpcoming | Nov 10, 2026
 
 ### Claude for Nonprofits: An Admin’s Guide to Data Handling and AI Policy
 
@@ -146,7 +136,17 @@ Claude Code](https://claude.com/resources/webinars/claude-code-foundations-serie
 
 Missed the session? Stream past sessions anytime and catch up at your own pace.
 
-[WebinarOn demand
+[WebinarNov 5, 2026
+
+### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
+
+A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)[WebinarNov 4, 2026
+
+### Unified Claude: What it means for admins
+
+Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile.
+
+Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[WebinarOn demand
 
 ### Claude Rearview Roadmap Review: October 2026
 
@@ -204,21 +204,7 @@ Claude Platform
 
 A lot has changed since you applied to host Claude Corps fellows, and we want you to have what you need for what comes next.…
 
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/78ccb4a0-5d54-411f-b26c-55fcdd47b06c)[WebinarOn demand
-
-### Building with the Claude 5.5 Family: Choosing the Right Model and Getting More from Every Token
-
-Claude Sonnet 5.5 joins Opus 5.5 on the Claude Platform as a faster, lower-cost complement. In this session, Anthropic’s…
-
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/feb0f842-19cc-48a2-9b52-ad5ad3b75f20)[WebinarOn demand
-
-### How to control costs and show ROI for Claude Code on Google Cloud
-
-Teams running Claude Code at scale eventually get the same two questions. What is this costing us, and are the results worth the…
-
-Claude Code
-
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/235c7e08-cbdc-48f6-944b-af9bebfc80ac)
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/78ccb4a0-5d54-411f-b26c-55fcdd47b06c)
 
 View more
 

@@ -1,4 +1,4 @@
-### Chapter 08: Other questions
+### 08Other questions
 
 # How Claude’s text watermark works
 

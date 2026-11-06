@@ -2,9 +2,13 @@
 
 
 
-3 tutorials
+4 tutorials
 
-[## Set up Claude on Google Cloud (Anthropic managed)
+[## Set up Claude in Amazon Bedrock
+
+Get a first reply from Claude in your own AWS account. Sign in from your terminal as a role that's allowed to call Claude, then run one short Python file with Anthropic's Python SDK.
+
+·25 min](https://academy.claude.com/tutorials/set-up-claude-in-amazon-bedrock)[## Set up Claude on Google Cloud (Anthropic managed)
 
 Get a Google Cloud project ready for Claude Models on Google Cloud (Anthropic managed), give your own account access, and get a first reply from Claude in Python. Then run any Claude API sample by swapping its import and client.
 

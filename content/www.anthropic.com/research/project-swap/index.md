@@ -1,4 +1,4 @@
-### Chapter 14: References
+### 14References
 
 # **Project Swap:**What happens when agents trade for us?
 

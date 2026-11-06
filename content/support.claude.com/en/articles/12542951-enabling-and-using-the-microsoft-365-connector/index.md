@@ -4,9 +4,9 @@ This article walks admins through enabling the Microsoft 365 connector for their
 
 The Microsoft 365 connector is available on all Claude plans: Free, Pro, Max, Ultra, Team, and Enterprise.
 
-For end-user instructions on connecting and using Microsoft 365 once setup is complete, see **[Connect Claude to Microsoft 365](https://support.claude.com/en/articles/15183774)**.
+For end-user instructions on connecting and using Microsoft 365 once setup is complete, see **[Connect to Microsoft 365](https://support.claude.com/en/articles/15183774)**.
 
-**Important:** The Microsoft 365 connector requires a Microsoft Entra tenant tied to a Microsoft Business plan. Personal Microsoft accounts (such as @outlook.com or @hotmail.com addresses) can't be used to connect.
+**Important:** This article covers work and school accounts, which require a Microsoft Entra tenant. Personal Microsoft accounts need no admin setup and aren't shown on Team and Enterprise plans. Learn more in **[Connect to Microsoft 365](https://support.claude.com/en/articles/15183774-connect-to-microsoft-365#h_cffabf2c6c)**.
 
 ---
 
@@ -18,9 +18,9 @@ Two things need to happen before anyone in your organization can connect Microso
 
 2. **In every tenant:** A Microsoft Entra Global Administrator grants a one-time consent that authorizes the integration for your tenant.
 
-3. **To enable write tools:** A Microsoft Entra administrator consents to the updated permission set, and you enable write tools for your organization. See **[Enable write tools](https://support.claude.com/en/articles/12542951-set-up-the-microsoft-365-connector#h_a51d877afd)** below.
+3. **To enable write tools:** A Microsoft Entra administrator consents to the updated permission set, and you enable write tools for your organization. See **[Enable write tools](#h_a51d877afd)** below.
 
-After completing these steps, members can connect Microsoft 365 to their own Claude accounts following the steps in **[Connect Claude to Microsoft 365](https://support.claude.com/en/articles/15183774)**.
+After completing these steps, members can connect Microsoft 365 to their own Claude accounts following the steps in **[Connect to Microsoft 365](https://support.claude.com/en/articles/15183774)**.
 
 ## Enable the connector for your organization
 
@@ -46,9 +46,11 @@ If your Microsoft Entra Global Administrator has a Claude account, they can gran
 
 2. Find **Microsoft 365** and click “Connect.”
 
-3. Authenticate with Microsoft 365 credentials.
+3. Choose “Work or school account,” if you're asked.
 
-4. Review and accept the requested permissions, checking the box to grant access on behalf of the whole organization.
+4. Authenticate with Microsoft 365 credentials.
+
+5. Review and accept the requested permissions, checking the box to grant access on behalf of the whole organization.
 
 After this, other people in the same Entra tenant can connect by following the standard end-user steps. They won't see the consent prompt—they'll just authenticate and start using the integration.
 
@@ -98,7 +100,7 @@ When you visit each URL, you'll be prompted to consent to the delegated permissi
 
 - **Team and Enterprise plans:** A Claude organization Owner needs to enable the connector in **[Organization settings > Connectors](https://claude.ai/admin-settings/connectors)**. Then members can connect individually.
 
-- **Free, Pro, Max, and Ultra plans:** Members can connect by navigating to **[Customize > Connectors](https://claude.ai/customize/connectors)**, finding **Microsoft 365**, and clicking “Connect.”
+- **Free, Pro, Max, and Ultra plans:** Members can connect by navigating to **[Customize > Connectors](https://claude.ai/customize/connectors)**, finding **Microsoft 365**, and clicking “Connect.” They choose “Work or school account,” if they're asked.
 
 ### Restrict who can use the connector
 
@@ -274,7 +276,7 @@ The Microsoft 365 connector searches SharePoint across the entire tenant using t
 
 - **Permission inheritance:** Claude mirrors each user's existing Microsoft 365 permissions. Members can't access anything through Claude that they couldn't already see directly in Microsoft 365.
 
-- **On-demand access:** Claude only accesses data when a user explicitly asks a question that requires it.
+- **On your request.** Claude accesses Microsoft 365 when you ask, or when a scheduled task you set up needs it.
 
 - **Revocable access:** Members can disconnect their own integration through **[Customize > Connectors](https://claude.ai/customize/connectors)**. Team and Enterprise plan Owners can also remove the connector for the entire organization in **[Organization settings > Connectors](https://claude.ai/admin-settings/connectors)**.
 
@@ -292,15 +294,15 @@ For more detail, see the **[Microsoft 365 connector security guide](https://supp
 
 3. Confirm admin consent has been granted using Option 1 or Option 2 above.
 
-4. Check whether a Conditional Access policy in your tenant is blocking the connection. See below: **[Conditional Access is blocking the connection](https://support.claude.com/en/articles/12542951-set-up-the-microsoft-365-connector#h_c7635fb6e2)**.
+4. Check whether a Conditional Access policy in your tenant is blocking the connection. See below: **[Conditional Access is blocking the connection](#h_c7635fb6e2)**.
 
 ### Members are seeing "Failed to call tool" errors
 
-A permission may have been selectively revoked in Microsoft Entra. Members can turn off the corresponding tool in their Microsoft 365 settings to suppress the error, or you can restore the permission by repeating the admin consent steps in **[Option 2: Manual setup in Microsoft Entra ID](https://support.claude.com/en/articles/12542951-set-up-the-microsoft-365-connector#h_c5f095c9cf)**.
+A permission may have been selectively revoked in Microsoft Entra. Members can turn off the corresponding tool in their Microsoft 365 settings to suppress the error, or you can restore the permission by repeating the admin consent steps in **[Option 2: Manual setup in Microsoft Entra ID](#h_c5f095c9cf)**.
 
 ### A Teams tool returns a 403 “Missing scope” error
 
-The connector’s permission set now includes `Team.ReadBasic.All`, which Claude needs to list the teams a user belongs to. If your tenant consented before this permission was added, Teams tools that rely on it return a 403 “Missing scope” error. To fix it, have a Microsoft Entra Global Administrator repeat the admin consent steps in **[Option 1: Consent through Claude](https://support.claude.com/en/articles/12542951-set-up-the-microsoft-365-connector#h_3617c79be6)** or **[Option 2: Manual setup in Microsoft Entra ID](https://support.claude.com/en/articles/12542951-set-up-the-microsoft-365-connector#h_c5f095c9cf)**.
+The connector’s permission set now includes `Team.ReadBasic.All`, which Claude needs to list the teams a user belongs to. If your tenant consented before this permission was added, Teams tools that rely on it return a 403 “Missing scope” error. To fix it, have a Microsoft Entra Global Administrator repeat the admin consent steps in **[Option 1: Consent through Claude](#h_3617c79be6)** or **[Option 2: Manual setup in Microsoft Entra ID](#h_c5f095c9cf)**.
 
 **Note:** Repeating admin consent grants the connector’s full current permission set, including the write permissions. If you revoked any write permissions on purpose, revoke them again afterward.
 
@@ -322,7 +324,7 @@ A Conditional Access block shows up in one of three ways:
 
 - Members are asked to reconnect Microsoft 365 on a regular cycle, much more often than the normal 90-day expiry. This usually means a sign-in frequency policy.
 
-Connecting Microsoft 365 involves more than the sign-in the member sees. After the member signs in to Microsoft in their browser, Claude's servers exchange that sign-in for access tokens, and later exchange those tokens for Microsoft 365 access on the member's behalf. In our testing, Entra evaluates your Conditional Access policies against these server-side requests as coming from Anthropic's IP range, `160.79.104.0/21`. They identify the member and carry the device recorded when the member connected, not the member's current device or network. So a policy can pass the member's own sign-in and still block the connection a moment later, or block it days later. Learn more about **[Anthropic's IP addresses](https://platform.claude.com/docs/en/api/ip-addresses)**.
+Connecting Microsoft 365 involves more than the sign-in the member sees. After the member signs in to Microsoft in their browser, Claude's servers exchange that sign-in for access tokens, and later exchange those tokens for Microsoft 365 access on the member's behalf. In our testing, Entra evaluates your Conditional Access policies against these server-side requests as coming from Anthropic’s outbound IP addresses. They identify the member and carry the device recorded when the member connected, not the member's current device or network. So a policy can pass the member's own sign-in and still block the connection a moment later, or block it days later. Learn more about **[Anthropic’s outbound IP addresses](https://platform.claude.com/docs/en/api/ip-addresses#outbound-ip-addresses)**
 
 **Find the policy that's blocking the connection**
 
@@ -342,15 +344,15 @@ The error code tells you what kind of policy it is:
 
 - `AADSTS53000`: a policy requires a compliant device. The similar code `AADSTS530003` means a policy requires a managed device. In both cases the member needs to reconnect from a device that meets the policy. Learn more in the **[Microsoft 365 connector security guide](https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide)**.
 
-**Exclude Anthropic's IP range from sign-in frequency and location policies**
+**Exclude Anthropic’s IP ranges from sign-in frequency and location policies**
 
-Because the server-side requests come from Anthropic's IP range, a policy that limits sign-ins to your own network, or that enforces a sign-in frequency, blocks them for every member. Excluding the two Claude applications from the policy isn't enough on its own. We recommend excluding Anthropic's IP range from the policy as well.
+Because the server-side requests come from Anthropic’s IP ranges, a policy that limits sign-ins to your own network, or that enforces a sign-in frequency, blocks them for every member. Excluding the two Claude applications from the policy isn’t enough on its own. We recommend excluding Anthropic’s IP ranges from the policy as well.
 
-**Note:** Don't use this exclusion for a device compliance policy. The server-side requests carry the device recorded when the member connected, so a device policy still applies to them, and excluding Anthropic's IP range would turn the device check off for the connector. Members blocked by a device policy need to reconnect from a device that meets it. Learn more in the **[Microsoft 365 connector security guide](https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide)**.
+**Note:** Don't use this exclusion for a device compliance policy. The server-side requests carry the device recorded when the member connected, so a device policy still applies to them, and excluding Anthropic’s IP ranges would turn the device check off for the connector. Members blocked by a device policy need to reconnect from a device that meets it. Learn more in the **[Microsoft 365 connector security guide](https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide)**.
 
 If the policy that blocked the request is a sign-in frequency or location policy:
 
-1. In the Microsoft Entra admin center, go to **Conditional Access > Named locations** and create an IP range location containing `160.79.104.0/21`. Leave **Mark as trusted location** unchecked so the exclusion doesn't affect other policies that use trusted locations.
+1. In the Microsoft Entra admin center, go to **Conditional Access > Named locations** and create an IP range location. Add every current IPv4 range, in full, from Anthropic’s **[Outbound IP addresses](https://platform.claude.com/docs/en/api/ip-addresses#outbound-ip-addresses)** list. Leave **Mark as trusted location** unchecked so the exclusion doesn’t affect other policies that use trusted locations. If Anthropic adds a range to that list, add it to this location too.
 
 2. Open the policy that blocked the request and go to **Conditions > Locations > Exclude**.
 
@@ -360,7 +362,7 @@ If the policy that blocked the request is a sign-in frequency or location policy
 
 5. Have an affected member disconnect and reconnect Microsoft 365 in **Customize > Connectors**.
 
-**Note:** Excluding the range lifts the policy for every request that comes from Anthropic's addresses, which means all Microsoft 365 connector activity for all of your members. For a sign-in frequency policy, this also means the connector's background requests are no longer subject to it, so a connection stays signed in until it expires after 90 days of inactivity. If you'd rather keep the periodic reconnects, leave the policy as it is. Members who are asked to reconnect can sign out of Microsoft in their browser, or use a private browsing window, before reconnecting. If you want to check the effect of a change before making it, clone the policy in report-only mode first.
+**Note:** Excluding the ranges lifts the policy for every request that comes from Anthropic's addresses, which means all Microsoft 365 connector activity for all of your members. For a sign-in frequency policy, this also means the connector's background requests are no longer subject to it, so a connection stays signed in until it expires after 90 days of inactivity. If you'd rather keep the periodic reconnects, leave the policy as it is. Members who are asked to reconnect can sign out of Microsoft in their browser, or use a private browsing window, before reconnecting. If you want to check the effect of a change before making it, clone the policy in report-only mode first.
 
 ---
 

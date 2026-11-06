@@ -2,7 +2,7 @@
 
 Latest news
 
-November 4, 2026
+November 6, 2026
 
 [Announcements](https://www.anthropic.com/news/announcements)
 
@@ -102,7 +102,7 @@ The first AI-assisted drive on another planet. Claude helped NASA's Perseverance
 
 AllProductCompany
 
-283
+282
 
 ARTICLES
 
@@ -131,19 +131,6 @@ Date
   [Announcements](https://www.anthropic.com/news/announcements)
 
   [### AI for Science expands to foundations and research institutions](https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions)[We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Science program.](https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions)
-- [### Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development)
-
-  [We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.](https://www.anthropic.com/research/early-progress-drug-development)
-
-  [Announcements](https://www.anthropic.com/news/announcements)
-
-  Oct 27, 2026
-
-  Oct 27, 2026
-
-  [Announcements](https://www.anthropic.com/news/announcements)
-
-  [### Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development)[We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.](https://www.anthropic.com/research/early-progress-drug-development)
 - [### Expanding our partnership with GSA to bring Claude to all levels of government](https://www.anthropic.com/news/expanding-partnership-gsa)
 
   [We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.](https://www.anthropic.com/news/expanding-partnership-gsa)
@@ -430,6 +417,19 @@ Date
   [Announcements](https://www.anthropic.com/news/announcements)
 
   [### Introducing the Life Sciences Verification Program](https://www.anthropic.com/news/life-sciences-verification-program)[The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.](https://www.anthropic.com/news/life-sciences-verification-program)
+- [### Introducing Claude Mythos and Fable 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1)
+
+  [They’re the world’s most advanced models for coding and knowledge work—and their research capabilities offer an early glimpse of how AI models will contribute to scientific progress.](https://www.anthropic.com/claude-fable-and-mythos-5-1)
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+
+  Sep 15, 2026
+
+  Sep 15, 2026
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+
+  [### Introducing Claude Mythos and Fable 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1)[They’re the world’s most advanced models for coding and knowledge work—and their research capabilities offer an early glimpse of how AI models will contribute to scientific progress.](https://www.anthropic.com/claude-fable-and-mythos-5-1)
 
 See more
 

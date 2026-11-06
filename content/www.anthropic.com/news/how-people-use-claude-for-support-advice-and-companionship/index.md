@@ -1,4 +1,4 @@
-### Chapter 08: Appendices
+### 08Appendices
 
 # How people use Claude for support, advice, and companionship
 

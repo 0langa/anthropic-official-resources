@@ -1,4 +1,4 @@
-### Chapter 07: Limitations
+### 07Limitations
 
 # Progress on provable inference for large language models
 

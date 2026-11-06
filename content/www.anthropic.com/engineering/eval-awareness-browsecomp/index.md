@@ -1,4 +1,4 @@
-### Chapter 06: Canary string
+### 06Canary string
 
 # Eval awareness in Claude Opus 4.6’s BrowseComp performance
 

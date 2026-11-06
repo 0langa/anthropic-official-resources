@@ -832,6 +832,9 @@
   "https://claude.com/resources/best-practices": [
     "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   ],
+  "https://claude.com/resources/enterprise-announcements": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
   "https://claude.com/resources/guides": [
     "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   ],
@@ -1277,6 +1280,9 @@
     "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   ],
   "https://claude.com/resources/product-announcements": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
+  "https://claude.com/resources/product-updates": [
     "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   ],
   "https://claude.com/resources/videos": [
@@ -7582,6 +7588,9 @@
   "https://platform.claude.com/docs/en/manage-claude/inference-hooks?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/manage-claude/ip-allowlist": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/manage-claude/opentelemetry": [
     "Native source; upstream MDX components retained."
   ],
@@ -9928,7 +9937,22 @@
   "https://support.claude.com/en/articles/17889756-anthropic-ipo-international-retail-brokers-and-selling-agents": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/18185620-use-personal-finance-in-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/18232924-get-started-with-centralized-management": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/18234133": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/18234133-how-do-anthropic-hosted-browsers-identify-themselves-when-they-browse-the-web-on-a-user-s-behalf": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/18246629-review-your-organization-s-security-posture-with-the-security-center": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/18246779-set-up-multiple-identity-providers-and-split-domains": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for": [
@@ -11052,6 +11076,9 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/how-people-use-claude-for-support-advice-and-companionship": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/how-researchers-use-claude": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/how-we-contain-claude": [

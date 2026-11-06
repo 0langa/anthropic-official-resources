@@ -1,4 +1,4 @@
-### Chapter 09: Appendix
+### 09Appendix
 
 # AI models may be capable of self-replicating without access to a datacenter
 

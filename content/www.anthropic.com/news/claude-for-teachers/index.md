@@ -1,4 +1,4 @@
-### Chapter 07: Getting started
+### 07Getting started
 
 # Introducing Claude for Teachers
 

@@ -1,4 +1,4 @@
-### Chapter 03: Getting started
+### 03Getting started
 
 # **Beyond permission prompts:**making Claude Code more secure and autonomous
 
@@ -93,7 +93,7 @@ Our new sandboxed bash tool and Claude Code on the web offer substantial improve
 To get started with these tools:
 
 1. Run `/sandbox` in Claude and check out [our docs](https://docs.claude.com/en/docs/claude-code/sandboxing) on how to configure this sandbox.
-2. Go to [claude.com/code](http://claude.ai/redirect/website.v1.a7fadbdc-0865-48f9-8044-d2943a4f9aa7/code) to try out Claude Code on the web.
+2. Go to [claude.com/code](http://claude.ai/redirect/website.v1.6a3fb45b-63ce-4e25-92ef-fd71de0f0e24/code) to try out Claude Code on the web.
 
 Or, if you're building your own agents, check out our [open-sourced sandboxing code](https://github.com/anthropic-experimental/sandbox-runtime), and consider integrating it into your work. We look forward to seeing what you build.
 

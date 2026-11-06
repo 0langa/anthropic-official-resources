@@ -1,4 +1,4 @@
-### Chapter 05: Getting started
+### 05Getting started
 
 # Introducing advanced tool use on the Claude Developer Platform
 

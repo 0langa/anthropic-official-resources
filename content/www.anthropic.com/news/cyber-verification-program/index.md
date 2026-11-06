@@ -1,4 +1,4 @@
-### Chapter 03: Apply for access
+### 03Apply for access
 
 # Expanding the Cyber Verification Program
 
@@ -20,9 +20,9 @@ Related articles
 
 - Frontier Red Team
 
-  Mar 19, 2025
+  Oct 27, 2026
 
-  [Progress from our Frontier Red Team](https://www.anthropic.com/research/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team)
+  [Discovering and exploiting vulnerabilities in critical, real-world software with Claude](https://www.anthropic.com/research/discovering-vulnerabilities-with-claude)
 
 [View more](https://www.anthropic.com/search?topic=cybersecurity)
 

@@ -1,6 +1,6 @@
 # Share artifacts
 
-Updated this week
+Updated today
 
 Copy for LLM
 
@@ -14,7 +14,7 @@ On Team and Enterprise plans, artifacts stay inside your organization by default
 
 **Note:** Live artifacts, which are Cowork artifacts made before August 19, 2026, have their own sharing rules. Learn more about **[using live artifacts in Claude Cowork](https://support.claude.com/en/articles/14729249)**.
 
-**Note:** Legacy artifacts show "Publish" or "Share & copy link" instead of "Share." To share those, see **[Publish or share a legacy artifact](https://support.claude.com/en/articles/9547008-share-artifacts)**.
+Legacy artifacts show "Publish" or "Share & copy link" instead of "Share." To share those, see **[Publish or share a legacy artifact](https://support.claude.com/en/articles/9547008-share-artifacts)**.
 
 ---
 
@@ -36,8 +36,6 @@ On Team and Enterprise plans, artifacts stay inside your organization by default
 
 <table><tbody><tr><td style="background-color:#e8e8e880"><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p><b>Access</b></p></div></td><td style="background-color:#e8e8e880"><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p><b>What people can do</b></p></div></td></tr><tr><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p><b>Can view</b></p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>Open the artifact and read its comments.</p></div></td></tr><tr><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p><b>Commenter</b></p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>Everything in <b>Can view</b>, plus add comments and download any files the artifact offers.</p></div></td></tr><tr><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p><b>Can edit</b></p></div></td><td><div class="intercom-interblocks-paragraph no-margin intercom-interblocks-align-left"><p>Everything in <b>Commenter</b>, plus make changes.</p></div></td></tr></tbody></table>
 
-The levels you can choose depend on the artifact. **Can view** or **Can edit**. Every other type of artifact offers all three levels.
-
 ---
 
 ## Invite people by email
@@ -53,7 +51,6 @@ You can invite specific people by email to access an artifact. They sign in to C
 - **The invitee needs a Claude account** with the email address you invited. If they don't have one, they need to create one with that address before they can open the artifact. Claude doesn't tell you whether or not they have an account.
 - **Some artifacts can't be shared this way.** The "Share" menu tells you when this applies:
 
-  - Documents made with Claude Docs
   - Artifacts that connect to other websites
   - Artifacts with an uploaded file that's still being checked or didn't pass the check
 
@@ -98,19 +95,20 @@ If someone didn't get an invitation email because they didn't have a Claude acco
 
 ## Who can open a shared artifact
 
-- **Everyone needs a Claude account.** People without one can't open a shared artifact, even with the link. The only exception is a legacy artifact published from a chat.
+- **Who needs a Claude account:** To open an artifact shared with them or with your organization, people sign in to Claude. Most artifacts shared with "Anyone with the link" open without a Claude account or sign-in. Docs open only for people signed in to Claude, who can only view them. Some other artifacts, like dashboards, show part or all of their content only after the visitor signs in. Legacy artifacts have their own rules, described in **[Publish or share a legacy artifact](https://support.claude.com/en/articles/9547008-share-artifacts)**.
 - **Everyone in your organization:** Only people signed in to your organization can open it.
-- **Anyone with the link:** Anyone signed in to Claude who has the link can open it. On Team and Enterprise plans, if an owner turns off **External sharing**, these links stop working until it's turned back on, unless an owner has allowed that artifact individually.
+- **Anyone with the link:** Anyone who has the link can open it, including people outside your organization and, for most artifacts shared this way, people who aren't signed in to Claude. On Team and Enterprise plans, if an owner turns off **External sharing**, these links stop working until it's turned back on, unless an owner has allowed that artifact individually.
 
 ### Artifacts that can't be shared outside your organization
 
-- **By link:** Artifacts that connect to your apps or use Claude can't use "Anyone with the link." On Team and Enterprise plans, docs can't use it yet either.
+- **By link:** Artifacts that connect to other websites, and artifacts with an uploaded file that's still being checked or didn't pass the check, can't use "Anyone with the link."
 - **By email invitation:** See the list in **[Before you invite someone](https://support.claude.com/en/articles/9547008-share-artifacts)**.
 
 ### What people see when they open your artifact
 
 - **Viewers use their own access.** An **[artifact that pulls from connected apps](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)** uses the viewer's connections, not yours. If a viewer can't access a data source, that part of the artifact shows an error instead of your data.
 - **Stored information can be shared.** Some artifacts save information that everyone who opens them can see, like items in a shared tracker. Before you enter sensitive information, check whether the **[artifact uses shared storage](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)**.
+- **People who only have the link see less.** Someone who opens an "Anyone with the link" artifact from outside your organization, or without signing in, sees the artifact, but the parts that use connected apps or Claude don't work for them, and they can't see or add comments. If the artifact saves information, people outside your organization can read it once they sign in to Claude, but they can't change it. People who aren't signed in can't see that information, so an artifact that keeps most of its content there shows them little or nothing until they sign in. On Pro, Max, and Ultra plans, "outside your organization" means anyone other than you.
 
 **Important:** Only open shared artifacts from people you trust. Treat someone else's artifact the way you'd treat a file from an unknown sender.
 
@@ -197,7 +195,7 @@ Disappointed ReactionNeutral ReactionSmiley Reaction
 ## Related Articles
 
 - [Use live artifacts in Claude Cowork](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)
-- [Use Claude Cowork on web, desktop, and mobile](https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile)
 - [Share a chat with specific people](https://support.claude.com/en/articles/16762496-share-a-chat-with-specific-people)
+- [Get started with Claude Docs](https://support.claude.com/en/articles/16923645-get-started-with-claude-docs)
 - [Artifacts admin guide for Team and Enterprise plans](https://support.claude.com/en/articles/16994751-artifacts-admin-guide-for-team-and-enterprise-plans)
 - [What are artifacts and how do I use them?](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them)

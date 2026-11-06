@@ -13,11 +13,11 @@
 
 Related articles
 
-- Partnerships
+- Announcements
 
-  Sep 18, 2026
+  Oct 26, 2026
 
-  [Partnering with Accenture on embedded evaluation](https://www.anthropic.com/news/accenture-embedded-evaluation)
+  [Anthropic files S-1 with the SEC for proposed initial public offering](https://www.anthropic.com/news/s1-sec)
 
 [View more](https://www.anthropic.com/search?topic=funding)
 

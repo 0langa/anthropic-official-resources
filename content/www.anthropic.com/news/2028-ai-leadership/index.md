@@ -1,4 +1,4 @@
-### Chapter 08: Conclusion
+### 08Conclusion
 
 # **2028:**Two scenarios for global AI leadership
 

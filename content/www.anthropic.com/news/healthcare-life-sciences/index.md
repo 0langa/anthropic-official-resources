@@ -1,4 +1,4 @@
-### Chapter 03: Getting started
+### 03Getting started
 
 # Advancing Claude in healthcare and the life sciences
 
@@ -58,7 +58,7 @@ With these model improvements and our new tools, Claude is now dramatically more
 
 #### What’s new
 
-[Connectors](https://claude.ai/redirect/website.v1.735a7688-4a06-423e-9e67-b62b96e2daf8/settings/connectors) are tools that allow users to give Claude access to other platforms directly. For payers and providers, we’ve added several connectors that make healthcare information easier to find, access, and understand. These allow Claude to pull information from industry-standard systems and databases, meaning that clinicians and administrators can save significant time finding the data and generating the reports they need.
+[Connectors](https://claude.ai/redirect/website.v1.aa995548-d4e7-4a70-825c-be6a45d34c63/settings/connectors) are tools that allow users to give Claude access to other platforms directly. For payers and providers, we’ve added several connectors that make healthcare information easier to find, access, and understand. These allow Claude to pull information from industry-standard systems and databases, meaning that clinicians and administrators can save significant time finding the data and generating the reports they need.
 
 Claude can now connect to:
 
@@ -78,7 +78,7 @@ With these new tools, Claude can provide meaningful support for healthcare start
 
 **Speed up reviews of prior authorization requests**. These requests can take hours to review, slowing patients’ access to care they need and frustrating payers and providers alike. Reviews require working across various fragmented sources of information, including coverage requirements, clinical guidelines, patient records, and appeal documents. Now, Claude can pull coverage requirements from CMS or custom policies, check clinical criteria against patient records in a HIPAA-ready manner, and then propose a determination with supporting materials for the payer’s review.
 
-![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F1vvRv8Z93b8%2Fsddefault.jpg&w=3840&q=75)
+![Speed up prior authorization reviews with Claude](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F1vvRv8Z93b8%2Fsddefault.jpg&w=3840&q=75)
 
 **Support claims appeals**. Denied claims cost time and money for all parties. By pulling together the necessary information from patient records, coverage policies, clinical guidelines and prior documentation, Claude helps providers build stronger appeals, and helps payers to process them more quickly.
 
@@ -118,7 +118,7 @@ Finally, we’re adding new Agent Skills for **scientific problem selection**, c
 
 See the clinical trial skill in action, below:
 
-![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FhWCc_VvlWKI%2Fsddefault.jpg&w=3840&q=75)
+![Draft clinical trial protocols with Claude](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FhWCc_VvlWKI%2Fsddefault.jpg&w=3840&q=75)
 
 #### Using Claude in life sciences
 

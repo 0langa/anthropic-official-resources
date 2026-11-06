@@ -1,4 +1,4 @@
-### Chapter 04: Going forward
+### 04Going forward
 
 # An update on recent Claude Code quality reports
 

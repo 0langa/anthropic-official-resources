@@ -24,29 +24,21 @@ A research preview is available by waitlist today, starting with US Pro, Max, an
 
 ![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
-[ArticleNov 2, 2026
+[ArticleNov 5, 2026
 
-### Make long-running agents faster with message threads
+### Introducing Personal Finance in Claude
 
-New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
+Ask Claude about your money and get straight answers from the accounts you connect.](https://claude.com/resources/articles/introducing-personal-finance-in-claude)
 
-Claude Platform](https://claude.com/resources/articles/message-threads)
+[ArticleNov 5, 2026
 
-[ArticleOct 28, 2026
+### More visibility and control over Claude Enterprise for security teams
 
-### Smart reports, surveys, and pooled group budgets for Claude Enterprise
+Claude EnterpriseClaude apps](https://claude.com/resources/articles/claude-enterprise-security-updates)
 
-In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
+[ArticleNov 4, 2026
 
-Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)
-
-[ArticleOct 28, 2026
-
-### IDC brings Quanta into Claude and adopts Claude across the company
-
-IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
-
-Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)
+### New agents and products for security, productivity, and creative work on Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace)
 
 [ArticleOct 22, 2026
 
@@ -60,9 +52,19 @@ Featured resource 1 of 5: Building agents: When to fold subagents into your main
 
 Advanced filters(1)
 
-Showing 12 of 152 resources
+Showing 12 of 148 resources
 
-[ArticleNov 2, 2026
+[ArticleNov 5, 2026
+
+### Introducing Personal Finance in Claude
+
+Ask Claude about your money and get straight answers from the accounts you connect.](https://claude.com/resources/articles/introducing-personal-finance-in-claude)[ArticleNov 5, 2026
+
+### More visibility and control over Claude Enterprise for security teams
+
+Claude EnterpriseClaude apps](https://claude.com/resources/articles/claude-enterprise-security-updates)[ArticleNov 4, 2026
+
+### New agents and products for security, productivity, and creative work on Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace)[ArticleNov 2, 2026
 
 ### Make long-running agents faster with message threads
 
@@ -75,12 +77,6 @@ Claude Platform](https://claude.com/resources/articles/message-threads)[ArticleO
 In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
 
 Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)[ArticleOct 28, 2026
-
-### IDC brings Quanta into Claude and adopts Claude across the company
-
-IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
-
-Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)[ArticleOct 28, 2026
 
 ### Introducing artifacts for legal work
 
@@ -110,18 +106,8 @@ Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform 
 
 Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)[ArticleOct 21, 2026
 
-### HCLTech joins the Claude Partner Network as a Global Premier partner
-
-HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)[ArticleOct 21, 2026
-
 ### Introducing Claude Duet
 
-A research preview is available by waitlist today, starting with US Pro, Max, and Ultra subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleOct 21, 2026
-
-### Claude Security now scans continuously and tracks fixes
-
-Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.
-
-Claude Security](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes)
+A research preview is available by waitlist today, starting with US Pro, Max, and Ultra subscribers.](https://claude.com/resources/articles/claude-duet)
 
 View more

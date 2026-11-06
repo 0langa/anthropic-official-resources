@@ -1,10 +1,12 @@
 # Claude's memory works everywhere, and you decide what's in it
 
-- Category[Announcements](https://claude.com/resources/product-announcements)
+- Category[Product updates](https://claude.com/resources/product-updates)
 - ProductClaude Cowork
 - DateAugust 25, 2026
 - Reading time5 min
 - ShareCopy link
+
+***Update:** Memory is now on by default for members of most Team and Enterprise organizations created on or after October 31, 2026 (Pacific Time). If a member previously turned memory off using the same account, it stays off. Nothing changes for organizations created before that date. Owners can still turn memory off for their organization in Organization settings.*
 
 Starting today, the memory you use in chat is the same as in Claude Cowork. Now, wherever you work with Claude, it starts from what it already knows about you. You can see everything Claude remembers, topic by topic, and edit or delete any of it. Claude does not store subjects considered sensitive, like health or beliefs, to memory by default, but if those are the topics you're tired of re-explaining, you can turn them on in Memory settings.
 
@@ -46,31 +48,23 @@ Visit [Settings > Memory](https://claude.ai/new) to turn memory on and control w
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 2, 2026
+[ArticleNov 5, 2026
+
+### Introducing Personal Finance in Claude
+
+Ask Claude about your money and get straight answers from the accounts you connect.](https://claude.com/resources/articles/introducing-personal-finance-in-claude)[ArticleNov 5, 2026
+
+### More visibility and control over Claude Enterprise for security teams
+
+Claude EnterpriseClaude apps](https://claude.com/resources/articles/claude-enterprise-security-updates)[ArticleNov 4, 2026
+
+### New agents and products for security, productivity, and creative work on Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace)[ArticleNov 2, 2026
 
 ### Make long-running agents faster with message threads
 
 New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
 
-Claude Platform](https://claude.com/resources/articles/message-threads)[ArticleOct 28, 2026
-
-### Smart reports, surveys, and pooled group budgets for Claude Enterprise
-
-In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
-
-Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)[ArticleOct 28, 2026
-
-### IDC brings Quanta into Claude and adopts Claude across the company
-
-IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
-
-Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)[ArticleOct 28, 2026
-
-### Introducing artifacts for legal work
-
-Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
-
-Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)
+Claude Platform](https://claude.com/resources/articles/message-threads)
 
 ## Transform how your organization operates with Claude
 

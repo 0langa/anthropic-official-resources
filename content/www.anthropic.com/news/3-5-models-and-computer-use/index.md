@@ -1,4 +1,4 @@
-### Chapter 04: Looking ahead
+### 04Looking ahead
 
 # Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku
 

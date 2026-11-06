@@ -1,8 +1,8 @@
-### Chapter 05: Coming soon
+### 05Coming soon
 
 # Claude 3.5 Sonnet
 
-[Try on Claude.ai](https://claude.ai/redirect/website.v1.1587b878-cb50-4d69-9b48-f95267fa2e27)
+[Try on Claude.ai](https://claude.ai/redirect/website.v1.9cc0241b-6816-4e8a-b275-ab31e194bd58)
 
 - Published
 

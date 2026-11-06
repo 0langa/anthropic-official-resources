@@ -82,7 +82,7 @@
     {
       "uri": "mintlify://skills/claude",
       "name": "claude",
-      "description": "Use when building features, fixing bugs, refactoring code, writing tests, creating pull requests, or automating development tasks. Claude Code is an agentic assistant that reads your codebase, edits files, runs commands, and integrates with your development tools across terminal, IDE, desktop, and web interfaces.",
+      "description": "Use when building features, fixing bugs, automating development tasks, reviewing code, or orchestrating multi-agent workflows. Reach for Claude Code when you need to understand a codebase, make coordinated edits across files, run tests, manage git operations, or integrate with external tools via MCP.",
       "mimeType": "text/markdown"
     }
   ]

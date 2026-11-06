@@ -100,7 +100,7 @@ Before v2.1.260, changing effort on Fable 5.1 with an API key or a Claude subscr
 [Fast mode](/docs/en/fast-mode) and standard speed keep separate caches, so after you turn fast mode on or off, the next request can't use what the other speed cached. The first time you turn fast mode on in a conversation, the next request reads the whole conversation so far uncached at [fast mode rates](/docs/en/fast-mode#understand-the-cost-tradeoff). To keep that cost small, turn it on at the start of a session.
 
 * If you turn it on while Claude is working, that turn finishes at standard speed, and you pay for any uncached read on your next turn's first request.
-* If your current model doesn't support fast mode, enabling fast mode also [switches you to Opus](/docs/en/fast-mode#toggle-fast-mode). That [model switch](#switching-models) starts a fresh cache on its own from the next request in the running turn.
+* If your current model doesn't support fast mode, running `/fast` also [switches you to Opus](/docs/en/fast-mode#toggle-fast-mode). That [model switch](#switching-models) starts a fresh cache on its own from the next request in the running turn.
 
 Each later toggle reads uncached whatever the speed you switch to doesn't have cached. Speed changes Claude Code makes on its own, such as the [fallback to standard speed](/docs/en/fast-mode#handle-rate-limits) after a rate limit and the return to fast mode later, count as toggles too.
 

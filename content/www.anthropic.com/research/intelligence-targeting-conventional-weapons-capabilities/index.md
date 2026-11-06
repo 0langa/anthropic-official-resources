@@ -1,4 +1,4 @@
-### Chapter 03: Conclusion
+### 03Conclusion
 
 # Measuring tactical intelligence targeting and conventional weapons capabilities of AI models
 

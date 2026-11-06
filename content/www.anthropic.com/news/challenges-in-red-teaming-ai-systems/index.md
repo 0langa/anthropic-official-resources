@@ -1,4 +1,4 @@
-### Chapter 08: Conclusion
+### 08Conclusion
 
 # Challenges in red teaming AI systems
 
@@ -8,6 +8,9 @@
 - Category
 
   [Safeguards](https://www.anthropic.com/news/safeguards)
+- Team
+
+  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 - Topics
 
   - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)

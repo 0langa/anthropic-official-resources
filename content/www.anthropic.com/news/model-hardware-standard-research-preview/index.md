@@ -1,4 +1,4 @@
-### Chapter 03: Joining the research preview
+### 03Joining the research preview
 
 # Previewing the Model Hardware Standard
 

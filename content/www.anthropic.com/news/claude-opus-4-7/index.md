@@ -1,4 +1,4 @@
-### Chapter 04: Migrating from Opus 4.6 to Opus 4.7
+### 04Migrating from Opus 4.6 to Opus 4.7
 
 # Introducing Claude Opus 4.7
 

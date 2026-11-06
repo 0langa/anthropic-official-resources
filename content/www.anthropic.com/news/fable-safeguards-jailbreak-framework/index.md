@@ -1,4 +1,4 @@
-### Chapter 04: Appendix
+### 04Appendix
 
 # More details on Fable 5’s cyber safeguards and our jailbreak framework
 

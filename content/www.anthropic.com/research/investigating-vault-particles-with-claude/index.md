@@ -1,6 +1,8 @@
-### Chapter 04: Work with us
+### 04Work with us
 
 # Investigating vault particles with Claude
+
+[Read the preprint](https://www.biorxiv.org/content/10.64898/2026.11.04.764334v1)
 
 ![Collage illustration pairing vintage measuring scales over a black-and-white photograph with a green print of a ribbed, vaulted cathedral ceiling.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffc840b9e8299956722b586784d0dfdaf7b81ff1a-2000x1125.jpg&w=1920&q=75)
 
@@ -27,7 +29,7 @@ Related articles
 
 [View more](https://www.anthropic.com/search?topic=life-sciences)
 
-> *We’re sharing another finding from [Anthropic’s biology research lab](https://www.anthropic.com/research/claude-discovers-novel-enzyme-system): the first 3D structure of a vault particle found in prokaryotic cells. Vaults are large, hollow barrels of protein found in cells across the tree of life, and their function is still unknown. Below, we describe how Claude helped at each step of this research: searching across sequence literature, optimizing a method of isolating particles, and mapping the vault’s structure. More information is [in our preprint](https://www-cdn.anthropic.com/76e55fbe85697afbaae16b839498dc00797dec30.pdf), which we’ve submitted to bioRxiv; we’ll update the link as soon as it goes live.*
+> *We’re sharing another finding from [Anthropic’s biology research lab](https://www.anthropic.com/research/claude-discovers-novel-enzyme-system): the first 3D structure of a vault particle found in prokaryotic cells. Vaults are large, hollow barrels of protein found in cells across the tree of life, and their function is still unknown. Below, we describe how Claude helped at each step of this research: searching across sequence literature, optimizing a method of isolating particles, and mapping the vault’s structure. More information is [in our preprint](https://www.biorxiv.org/content/10.64898/2026.11.04.764334v1), which we’ve submitted to bioRxiv; we’ll update the link as soon as it goes live.*
 
 Biological cells were first detected in 1665, but more than three and a half centuries later, much of how they work remains unknown. Until relatively recently, [the existence of some crucial components](https://pubmed.ncbi.nlm.nih.gov/12360195/), let alone [their function](https://pmc.ncbi.nlm.nih.gov/articles/PMC3184113/), was controversial. Even today, more than a third of the roughly 4,400 genes in one of the most comprehensively studied cells, the bacterium *E. coli*, [remain poorly understood](https://pmc.ncbi.nlm.nih.gov/articles/PMC6412132/). Another such enigma is the *vault particle*.
 
@@ -43,7 +45,7 @@ Here, we describe how we uncovered the molecular structure of a vault from a *ba
 
 ![Cryo-EM structure of the L05 vault, shown whole from the side and with its cap viewed from above, where the protein chains spiral in toward the tip.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc3a048744e70ec9ee9cf398065f94c565ceb5181-4251x2314.png&w=3840&q=75)
 
-The cap of the L05 vault. Left: the whole vault, imaged by cryo-EM. Right: its cap seen from above. All 48 chains wind in from the rim toward the tip, overlapping as they go. Two-thirds continue past the first tier and one-third reach the tip, so the cap narrows like a stepped dome.
+The cap of the L05 vault. (Left) the whole vault, imaged by cryo-EM. (Right) its cap seen from above. All 48 chains wind in from the rim toward the tip, overlapping as they go. Two-thirds continue past the first tier and one-third reach the tip, so the cap narrows like a stepped dome.
 
 This work also demonstrates our team’s wider aim: to speed up research in fundamental biology by building Claude into every step of the process. Under our direction, Claude searched protein databases, designed the DNA constructs, optimized the isolation method, and processed the microscopy data. As a result, a vault purification that conventionally takes three days took us about 90 minutes, and a first structural model was ready 34 hours later, which we estimate would normally have taken us weeks.
 
@@ -51,7 +53,7 @@ Despite this progress, there is still much to be learned about these perplexing 
 
 > Figuring out the function of vaults is still enormously challenging. I am pleased that Anthropic has so much good data. Now, other people will be working on this problem … The broadness of Anthropic’s finding[s] suggests that it is going to be a complicated function and an interesting ride.
 
-Our lab is releasing these findings early to continue to show the scientific community how Claude can be used for discovery. You can read more about our results and methods [in our preprint](https://www-cdn.anthropic.com/76e55fbe85697afbaae16b839498dc00797dec30.pdf), and we will be releasing the structures and additional data soon.
+Our lab is releasing these findings early to continue to show the scientific community how Claude can be used for discovery. You can read more about our results and methods [in our preprint](https://www.biorxiv.org/content/10.64898/2026.11.04.764334v1), and we will be releasing the structures and additional data soon.
 
 ## A vault-like structure in prokaryotes
 
@@ -107,7 +109,7 @@ We will continue our research into the function of vaults, and will share more a
 
 ## Work with us
 
-We are releasing the details of our work [in our technical report](https://www-cdn.anthropic.com/76e55fbe85697afbaae16b839498dc00797dec30.pdf). If you have an idea for what these vaults might be doing, or a system in which to test it, we would like to hear from you: [mdurrant[at]anthropic.com](mailto:mdurrant@anthropic.com), [nicholasp[at]anthropic.com](mailto:nicholasp@anthropic.com).
+We are releasing the details of our work [in our preprint](https://www.biorxiv.org/content/10.64898/2026.11.04.764334v1). If you have an idea for what these vaults might be doing, or a system in which to test it, we would like to hear from you: [mdurrant[at]anthropic.com](mailto:mdurrant@anthropic.com), [nicholasp[at]anthropic.com](mailto:nicholasp@anthropic.com).
 
 ## Authors & acknowledgements
 

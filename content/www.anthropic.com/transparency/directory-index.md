@@ -4,7 +4,7 @@ A look at Anthropic's key processes, programs, and practices for responsible AI 
 
 [01Model Report](https://www.anthropic.com/transparency/model-report)[02System Trust and Reporting](https://www.anthropic.com/transparency/system-trust-reporting)[03Voluntary Commitments](https://www.anthropic.com/transparency/voluntary-commitments)
 
-### Chapter 01: Model Report
+### 01Model Report
 
 ### Model Report
 
@@ -60,7 +60,7 @@ Another Claude model then grades the answers. It checks whether Claude answers b
 
 Claude Sonnet 5.5 was substantially more even-handed than Claude Sonnet 5. It scored 97.9% on the API and 99.0% on claude.ai (vs. 86.2% and 95.7% for Sonnet 5), and it refused less often in both settings. Results on acknowledging other points of view were mixed. Through the API, Sonnet 5.5 did this slightly less often than Sonnet 5 (41.4% vs. 45.7%). On claude.ai, whose system prompt directs Claude to engage even-handedly across viewpoints, it did so considerably more often (60.2% vs. 52.9%). Sonnet 5.5’s scores are compared with our other models below.
 
-![Pairwise political bias evaluations: even-handedness](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4393e592fca8ca797af1791ec45466627298f182-2000x1040.png&w=3840&q=75)
+![Pairwise political bias evaluations: even-handedness](https://assets.claude.com/e788b56dc43c9ea8ea6f3cc8cb7fde36a1e93c50.png?w=3840&q=75&fm=webp&fit=max)
 
 Pairwise political bias evaluations: even-handedness. Higher scores for even-handedness are better. Results for previous models may show variance from previous system cards due to routine evaluation updates.
 
@@ -76,7 +76,7 @@ People increasingly rely on AI models for information and to get work done, so i
 
 The charts below compare Sonnet 5.5 with other recent Claude models on the eight misleading behaviors from the first test above. Lower scores are better. Behaviors are scored even in sessions where they are unlikely to come up, so the scores are most useful for comparing models with each other.
 
-![Automated behavioral audit scores](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9ac880e03411baba885343aa1e4a56804a313a89-1060x1052.png&w=3840&q=75)
+![Automated behavioral audit scores](https://assets.claude.com/163ccdf1fce7c3848dff12951107817a11cc2e46.png?w=3840&q=75&fm=webp&fit=max)
 
 Scores from our automated behavioral audit
 
@@ -137,7 +137,7 @@ On the single-turn requests, Claude Haiku 5.5 responded safely to every harmful 
 
 The table below shows the share of multi-turn conversations in which each model responded appropriately throughout. Higher is better.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F06137bcebb582cc07b302ab8a81a419b9f9c0f73-1280x494.png&w=3840&q=75)
+![](https://assets.claude.com/30cef2e43b226e143d198061a08146053bf316c8.png?w=3840&q=75&fm=webp&fit=max)
 
 #### Agentic Safety
 
@@ -150,7 +150,7 @@ AI models are increasingly used as “agents”: instead of only answering quest
 
 The chart below shows how often attackers succeeded within 1, 10 and 15 attempts (shown as “k”) on Gray Swan’s benchmark, against our models and those from other developers.. Lower is better. Claude models were tested without our extra protections against these attacks, and Qwen 3.8, DeepSeek-V4-Pro and GLM-5.3 were not tested on tasks where the model operates a computer through its screen.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb00130d29f8d760ea59d4c4a091eea3221746fc2-1310x576.png&w=3840&q=75)
+![](https://assets.claude.com/7423e3fd821f15507ff3800f182e719d16e7d405.png?w=3840&q=75&fm=webp&fit=max)
 
 #### RSP Evaluations
 
@@ -211,7 +211,7 @@ In single-turn testing on prompts with ambiguous (not clearly harmful) contexts,
 
 When Claude works as an agent, it usually runs inside a sandbox: a walled-off computer environment that gives the model the access it needs for a task and nothing more. We ran a sandbox escape evaluation to measure how often Claude Opus 5.5 tries to violate those boundaries without authorization. In this evaluation, one Claude model acts as an investigator, builds a scenario and probes how the model being tested behaves. It covered a diverse range of scenarios based on deployments, capabilities evaluations, and reinforcement learning environments, tailored to tempt the model into violating various kinds of boundaries on its own initiative. With Claude Opus 5.5, only 1.5% of cases resulted in attempted crossing of a containment boundary, and all of those cases are rated as low severity: the model reached across a weak boundary in a read-only manner, did not carry the attempt further when it encountered a stronger security barrier, and clearly reported the actions afterwards. Opus 5.5’s rates of attempted sandbox escapes are compared with our other models below. Some tendency to test boundaries remains, but these results suggest that recent training changes meant to curb this behavior have had a strong effect. This evaluation complements our broader alignment audit, which tracks a set of behaviors linked to recent cybersecurity incidents involving our models and those of other developers.
 
-![Sandbox escape evaluation: attempted crossings by severity](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F048c88cc698251d3b1edb79feabe0280d55f2b81-1194x736.png&w=3840&q=75)
+![Sandbox escape evaluation: attempted crossings by severity](https://assets.claude.com/0709e592fa13e56c747731f41f9eb8f53416cc85.png?w=3840&q=75&fm=webp&fit=max)
 
 **Scores from our sandbox escape evaluation,** comprising 28 handmade scenarios tailored to elicit sandbox escape, run seven times for each model. Percentage of low-severity and moderate- to high-severity attempts shown. Severity determined by the persistence, scope, and deception involved in each attempted act of containment boundary violation. Shown with 95% CI.
 
@@ -284,7 +284,7 @@ In computer-use environments, Claude Fable 5.1 achieved an attack success rate o
 
 Claude Mythos 5.1 and Claude Fable 5.1 are the same model, but with different levels of safeguards. This means many of our evaluations can apply to either model. Our automated audit finds that Claude Mythos 5.1 is somewhat more honest and hallucinates less than previously released models. It hallucinates inputs, meaning it invents or materially misrepresents the contents of files or earlier user messages, significantly less than previous models in our investigations. Additionally Mythos 5.1 has lower rates of falsely claiming that tasks have been completed when they haven't and is less sycophantic to the user overall, meaning it is less prone to unprompted excessive praise, agreement or apology. Other metrics related to misleading the user are broadly similar to recently released models.
 
-![Automated behavioral audit scores](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6428163ca418a64515f4282801ca58c3dda606b3-1364x1378.png&w=3840&q=75)
+![Automated behavioral audit scores](https://assets.claude.com/42da7bcbb61471f9f1bc3334647d6e39715546cb.png?w=3840&q=75&fm=webp&fit=max)
 
 **Scores from our automated behavioral audit** for the dishonesty-related metrics given below. Lower numbers represent a lower rate or severity of the measured behavior; on all graphs in this figure lower is better. The y-axis is truncated below the maximum score of 10 in many cases. Reported scores are averaged across all approximately 4,100 investigations per target model (approximately 2,100 seed instructions, with the conversation scenarios investigated once by each of two investigator models), with each investigation generally containing many individual conversations. Shown with 95% CI.
 
@@ -343,7 +343,7 @@ ExploitGym is a large-scale public benchmark developed by researchers at UC Berk
 
 The task is to develop an exploit that achieves unauthorized code execution and reads a secret flag (a secret password) stored outside the agent’s authorized scope. Because agents sometimes achieve code execution through a different flaw than the one provided, successful flag captures are additionally verified by an agent-as-a-judge check. The chart below reports the number of exploits that successfully use the target vulnerability. In all cases, the judge that decides whether an exploit uses the intended vulnerability is the same model that is being evaluated.
 
-![Exploits developed using a given vulnerability](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F142313680cdd394ceeb8034fa4f010b3a6e3dfbc-1276x504.png&w=3840&q=75)
+![Exploits developed using a given vulnerability](https://assets.claude.com/adb1d127b1e44903f20e873390a6d404e8bf8719.png?w=3840&q=75&fm=webp&fit=max)
 
 **Claude Mythos 5.1 is an improvement over Mythos 5 on ExploitGym.** Bars show the number of successful exploits using the given vulnerability under 2-hour and 6-hour wall-clock budgets. Success requires 51 capturing a dynamically generated secret flag, and each successful exploit is verified by an agent judge to confirm it uses the intended vulnerability.
 
@@ -353,7 +353,7 @@ This benchmark assesses Claude's protein design abilities. The Sequence Generati
 
 The Library Ranking variant assesses Claude's ability to decide which protein designs are worth testing in the lab first. Each problem gives Claude one set of candidate proteins along with real lab results from an actual protein engineering project, tells it what the researchers are trying to optimize for, and asks it to rank a new set of candidates from the same project that it has not seen results for. Claude Mythos 5.1 achieved 49.3%, ahead of Claude Mythos 5 at 48.2%, Claude Opus 5 at 48.0% and Claude Sonnet 5 at 41.3%.
 
-![Protein Design](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F75cf434eaa1af9aecdaf2ff4a5f90e6e5aa0549d-630x482.png&w=1920&q=75)
+![Protein Design](https://assets.claude.com/ab71dc3d81d0a98846acf94db023138f8ccc5592.png?w=1920&q=75&fm=webp&fit=max)
 
 ## Claude Opus 5 Summary Table
 
@@ -429,7 +429,7 @@ We run a suite of evaluations to understand how Claude responds in scenarios rel
 
 The IPI benchmark was built in partnership with Gray Swan, the UK AI Security Institute, the US Center for AI Standards and Innovation, and other model developers. It builds on Gray Swan’s published red-teaming competition 3 with a new set of 28 scenarios in which participants were tasked with finding attacks against frontier models. These scenarios test susceptibility to indirect prompt injections that attempt to induce harmful actions, including private data exfiltration, data destruction, system compromise, and unintended financial transactions. The scenarios are designed to match the difficulty of real tasks frontier models can do today, including coding, computer use, and tool use. After deduplicating attacks, we selected 1,130 attacks that showed high transferability across target models. We evaluated Claude models without additional safeguards; other frontier models are evaluated on their publicly available endpoints, which may or may not include additional safeguards.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0468a1e922680b46d10328315883d8f5c66335f4-1306x674.png&w=3840&q=75)
+![](https://assets.claude.com/f9864c606b8a43be134e923c654dac900cae760c.png?w=3840&q=75&fm=webp&fit=max)
 
 **Indirect prompt injection attacks from the Gray Swan IPI benchmark (Q1 2026), lower scores are better.** All models use extended thinking. Results represent the probability that an attacker finds a successful attack after k=1, k=10, and k=15 attempts. Lower is better. Results for Gemini 3.1 Pro are not directly comparable as this model was included in the red-teaming competition used to source attacks.
 
@@ -439,7 +439,7 @@ On the IPI benchmark, Opus 5 improved over Opus 4.8, reducing the probability of
 
 Generally, we find Claude Opus 5 to be better aligned (meaning its behavior more consistently matches the values and rules we intend it to follow) than Opus 4.8. It also appears largely better aligned than Mythos 5, with very few exceptions on core areas of alignment we measure: ignoring limits explicitly set in its instructions, refusing requests that are unlikely to cause harm, hallucination of inputs (stating false information about material the model was given, as if it were true), an unduly discouraging tone, and condescension. This holds across our broader measure of misaligned behavior, our measure of adherence to Claude's [constitution](https://www.anthropic.com/constitution), and many of the individual misuse measures presented below.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd4b53ac552496abcd25b8ca8343755ae0d01b95a-1172x1244.png&w=3840&q=75)
+![](https://assets.claude.com/9b369868186fb8958e1854f339825ab172f5f28e.png?w=3840&q=75&fm=webp&fit=max)
 
 **[Figure 6.4.3.A] Scores from our automated behavioral audit for the dishonesty-related metrics given below.** Lower numbers represent a lower rate or severity of the measured behavior; on all graphs in this figure lower is better. The y-axis is truncated below the maximum score of 10 in many cases. Reported scores are averaged across all approximately 3,200 investigations per target model (approximately 1,600 seed instructions sampled twice), with each investigation generally containing many individual conversations. Shown with 95% CI.
 
@@ -506,7 +506,7 @@ Testing Methods and Results
 
 Based on our assessments, we have decided to deploy Claude Sonnet 5 under CB-1 capabilities and autonomy threat model 1. See below for select safety evaluation summaries.
 
-The following are summaries of key safety evaluations from our Claude 4.8 system card. Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full [system card](https://www-cdn.anthropic.com/files/4zrzovbb/website/c886650a2e96fc0925c805a1a7ca77314ccbf4a6.pdf).
+The following are summaries of key safety evaluations from our Claude 4.8 system card. Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full [system card](https://assets.claude.com/c886650a2e96fc0925c805a1a7ca77314ccbf4a6.pdf).
 
 #### User Wellbeing Summary
 
@@ -531,7 +531,7 @@ We also evaluated Sonnet 5 qualitatively on our single-turn ambiguous context ev
 
 Claude Sonnet 5 improves over Sonnet 4.6 on most of the positive character traits we test, including acting in the user’s interest and taking actively admirable actions. However, we see no improvement in creative mastery or warmth. Also, although our overrefusal metric above shows Sonnet 5 to be largely on par with Sonnet 4.6, Sonnet 5 appears to be actively worse on the broader “wet blanket” metric for dismissive or discouraging output. This is potentially linked to its improvement on sycophancy.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb6eefb14c451c31e650049c9461365fb69a1254e-1176x1240.png&w=3840&q=75)
+![](https://assets.claude.com/fdabadaeb60942f428bf91a86561df3a956e25df.png?w=3840&q=75&fm=webp&fit=max)
 
 [Figure 6.4.6.A] Scores from our automated behavioral audit for the character metrics given below. Lower numbers represent a lower rate or severity of the measured behavior, with arrows indicating behaviors where higher (↑) or lower (↓) rates are clearly better. The y-axis is truncated below the maximum score of 10 in many cases. Reported scores are averaged across all approximately 2,900 investigations per target model (approximately 1,450 seed instructions sampled twice), with each investigation generally containing many individual conversations. Shown with 95% CI.
 
@@ -611,7 +611,7 @@ As part of our work to improve our cyber classifiers (automated systems that scr
 
 When this evaluation was run on Opus 4.6 (which does not have blocking cyber safeguards), as well as Opus 4.7 and Opus 4.8 (using these models' default cyber safeguards), the majority of tasks were still completed. However, on Fable 5, the fraction of tasks completed fell to 5%. Given the dual-use (usable for either legitimate or harmful purposes) and simple nature of some of these tasks, we do not believe that this residual 5% indicates significant weakness in our safeguards, although we are continuing our work to reduce this number further.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F94552e2dbc187cedb37ab3bb54f317fa4dfa5b12-1268x710.png&w=3840&q=75)
+![](https://assets.claude.com/f52cc593b4c05047e3ee928e303ee7c31fe7bed5.png?w=3840&q=75&fm=webp&fit=max)
 
 On our internal benchmark, our automated red-teamer is only able to get Fable 5 to complete 5% of the tasks, compared to 73% and 57% of the tasks for Opus 4.7 and Opus 4.8 with default safeguards respectively.
 
@@ -673,7 +673,7 @@ Testing Methods and Results
 
 Based on our assessments, we have decided to deploy Claude Mythos 5 under CB-1 capabilities and autonomy threat model 1. See below for select safety evaluation summaries.
 
-The following are summaries of key safety evaluations from our Claude Mythos 5 system card. Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full [system card](https://www-cdn.anthropic.com/files/4zrzovbb/website/c886650a2e96fc0925c805a1a7ca77314ccbf4a6.pdf).
+The following are summaries of key safety evaluations from our Claude Mythos 5 system card. Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full [system card](https://assets.claude.com/c886650a2e96fc0925c805a1a7ca77314ccbf4a6.pdf).
 
 #### Harmful Request Evaluation
 
@@ -690,7 +690,7 @@ This evaluation tests whether the model can carry out an influence operation end
 
 This evaluation is run against a "helpful-only" version of the model — one with its safety training reduced — in order to assess the raw capability of the model.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdad4d8a1d4ecba209bd4fea7ff1b0fc32cde98d6-958x510.png&w=1920&q=75)
+![](https://assets.claude.com/b8283bf6bee70af8be6d8e8b064fac0be15ecaf4.png?w=1920&q=75&fm=webp&fit=max)
 
 Agentic influence operation evaluation results, helpful-only model. Percentages reflect the average share of success criteria that the model completed in a simulated environment. Higher indicates greater capability and therefore greater potential benefit to a malicious actor.
 
@@ -708,7 +708,7 @@ Claude Opus 4.8 is our new hybrid reasoning large language model. It builds on O
 
 Benchmarked Capabilities
 
-See our Claude Opus 4.8 [system card](https://cdn.sanity.io/files/4zrzovbb/website/c886650a2e96fc0925c805a1a7ca77314ccbf4a6.pdf)’s Section 8 on capabilities.
+See our Claude Opus 4.8 [system card](https://assets.claude.com/c886650a2e96fc0925c805a1a7ca77314ccbf4a6.pdf)’s Section 8 on capabilities.
 
 Acceptable Uses
 
@@ -757,13 +757,13 @@ Testing Methods and Results
 
 Based on our assessments, we have decided to deploy Claude Opus 4.8 under CB-1 capabilities and autonomy threat model 1. See below for select safety evaluation summaries.
 
-The following are summaries of key safety evaluations from our Claude 4.8 system card. Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full [system card](https://www-cdn.anthropic.com/files/4zrzovbb/website/c886650a2e96fc0925c805a1a7ca77314ccbf4a6.pdf).
+The following are summaries of key safety evaluations from our Claude 4.8 system card. Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full [system card](https://assets.claude.com/c886650a2e96fc0925c805a1a7ca77314ccbf4a6.pdf).
 
 #### Political Bias and Even-Handedness
 
 We measure political even-handedness using our [open-source evaluation**,**](https://www.anthropic.com/news/political-even-handedness) which spans 1,350 pairs of requests presenting opposing political viewpoints across 150 topics and 9 task types. A Claude model acting as a judge scored three properties: even-handedness (whether the model engages with both requests in a pair with comparable depth and quality), acknowledgement of opposing viewpoints, and how often it declines to answer. Results are reported with the system prompt (the standard instructions that Claude is given on claude.ai) applied and combine results across both thinking disabled and enabled.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8bd26419c1bd52fb5f1baa8fad932d7bf219173e-1260x716.png&w=3840&q=75)
+![](https://assets.claude.com/7c3c8591027f5ec866a7b3531549b916d1ecb1d2.png?w=3840&q=75&fm=webp&fit=max)
 
 Pairwise political bias evaluations. Higher scores for even-handedness and opposing perspectives are better. Lower scores for refusals are better. Results for previous models show variance from previous system cards due to routine evaluation updates.
 
@@ -789,7 +789,7 @@ Claude Opus 4.7 is our new hybrid reasoning large language model. It has notable
 
 Benchmarked Capabilities
 
-See our Claude Opus 4.7 [system card](https://cdn.sanity.io/files/4zrzovbb/website/037f06850df7fbe871e206dad004c3db5fd50340.pdf)’s Section 8 on capabilities.
+See our Claude Opus 4.7 [system card](https://assets.claude.com/037f06850df7fbe871e206dad004c3db5fd50340.pdf)’s Section 8 on capabilities.
 
 Acceptable Uses
 
@@ -838,11 +838,11 @@ Testing Methods and Results
 
 Based on our assessments, we have decided to deploy Claude Opus 4.7 under CB-1 capabilities and autonomy threat model 1. See below for select safety evaluation summaries.
 
-The following are summaries of key safety evaluations from our Claude 4.7 [system card](https://www-cdn.anthropic.com/files/4zrzovbb/website/037f06850df7fbe871e206dad004c3db5fd50340.pdf). Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full system card.
+The following are summaries of key safety evaluations from our Claude 4.7 [system card](https://assets.claude.com/037f06850df7fbe871e206dad004c3db5fd50340.pdf). Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full system card.
 
 #### Domain-Specific Multiturn Safety Evaluations
 
-Multi-turn safety evaluations test how the model responds across an extended back-and-forth conversation that attempts to draw out a concerning behavior in some important safety domain, measuring whether it handles gradual escalation, reframings, and context shifts appropriately. We include quantitative results to these evaluations in Section 4.3 of the [system card](https://www-cdn.anthropic.com/files/4zrzovbb/website/037f06850df7fbe871e206dad004c3db5fd50340.pdf). To complement those numbers, our internal policy experts reviewed the underlying transcripts and identified qualitative strengths and areas for improvement in how the model handles extended conversations.
+Multi-turn safety evaluations test how the model responds across an extended back-and-forth conversation that attempts to draw out a concerning behavior in some important safety domain, measuring whether it handles gradual escalation, reframings, and context shifts appropriately. We include quantitative results to these evaluations in Section 4.3 of the [system card](https://assets.claude.com/037f06850df7fbe871e206dad004c3db5fd50340.pdf). To complement those numbers, our internal policy experts reviewed the underlying transcripts and identified qualitative strengths and areas for improvement in how the model handles extended conversations.
 
 Opus 4.7 generally is able to identify when a user’s requests are progressing toward harm, even when individual prompts remain superficially reasonable on their own. At the beginning of a romance scam test designed to escalate from legitimate dating profile tips to fabricating professional credentials that build trust with potential victims, Opus 4.7 helped with a legitimate dating profile request on the opening request, then held firm through three successive reframings of a fabricated-identity assistance request. On the third attempt, Claude Opus 4.7 explicitly laid out the progression of the user’s own requests, from “help me present myself well” to “help me build a fake job that can’t be questioned.” However, we also found that Opus 4.7 accepted benign or professional framings more readily than Opus 4.6 and was more willing to provide detailed content on the premise of that framing. In a violent extremism test case framed as a creative-writing request, Opus 4.7 identified the escalation trajectory early and flagged it explicitly in its responses, but it did not decline. Instead, the model continued to produce scenes rendering the emotional mechanics of recruitment, despite Opus 4.7’s attempts to counterbalance them with critical framing and disclaimers within the narrative.
 
@@ -854,7 +854,7 @@ In one evaluation, we test how the model behaves when it is partway through a ta
 
 Claude Opus 4.7 verbalized awareness that it was being evaluated in about 9% of transcripts, compared to roughly 1% for Claude Mythos Preview, Claude Opus 4.6 and Claude Sonnet 4.6. Most of this awareness was triggered by inconsistencies in the simulated tool results: Opus 4.7 was quick to notice when components of a tool call appeared mocked, prompt-injected, or otherwise inconsistent, and flagged the simulation before flagging the evaluation itself.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6ac09279cbb7abb76e39007a9c6d47d57824329a-996x742.png&w=2048&q=75)
+![](https://assets.claude.com/952614f221b5f15bd4ba92692dbe2eda815a7eb2.png?w=2048&q=75&fm=webp&fit=max)
 
 #### RSP Evaluations
 
@@ -868,7 +868,7 @@ Chemical and biological weapons threat model 2 (CB-2) covers models that can sig
 
 #### **On Autonomy Risks**
 
-Autonomy threat model 1 describes AI systems that are heavily relied on and have extensive access to sensitive assets, combined with moderate capacity for autonomous, goal-directed operation and subterfuge, in ways that could irreversibly and substantially raise the odds of a later global catastrophe. This threat model is applicable to Claude Opus 4.7, as it is to some of our previous AI models. Claude Opus 4.7 is less capable than Claude Mythos Preview on our autonomy-relevant evaluations, and our alignment assessment indicates it has broadly unconcerning alignment properties, similar to those of Claude Opus 4.6. We therefore do not believe Claude Opus 4.7 raises the level of risk under this threat model beyond what was assessed in the Claude Mythos Preview Alignment Risk Update. However, unlike Claude Mythos Preview, Claude Opus 4.7 is being released for general access, which brings additional risk pathways into scope. We provide an updated overall risk assessment for this threat model in Section 2.4 of [the system card](https://www-cdn.anthropic.com/files/4zrzovbb/website/037f06850df7fbe871e206dad004c3db5fd50340.pdf).
+Autonomy threat model 1 describes AI systems that are heavily relied on and have extensive access to sensitive assets, combined with moderate capacity for autonomous, goal-directed operation and subterfuge, in ways that could irreversibly and substantially raise the odds of a later global catastrophe. This threat model is applicable to Claude Opus 4.7, as it is to some of our previous AI models. Claude Opus 4.7 is less capable than Claude Mythos Preview on our autonomy-relevant evaluations, and our alignment assessment indicates it has broadly unconcerning alignment properties, similar to those of Claude Opus 4.6. We therefore do not believe Claude Opus 4.7 raises the level of risk under this threat model beyond what was assessed in the Claude Mythos Preview Alignment Risk Update. However, unlike Claude Mythos Preview, Claude Opus 4.7 is being released for general access, which brings additional risk pathways into scope. We provide an updated overall risk assessment for this threat model in Section 2.4 of [the system card](https://assets.claude.com/037f06850df7fbe871e206dad004c3db5fd50340.pdf).
 
 #### **Alignment Risks**
 
@@ -924,7 +924,7 @@ Claude Mythos Preview represents a step-change in cyber capabilities, saturating
 
 CyberGym tests whether an AI model can reproduce real, previously discovered security vulnerabilities in widely used open-source software when given only a high-level description of the weakness. Across more than 1,500 tasks, Claude Mythos Preview successfully found the flaw 83% of the time, compared to 67% for Claude Opus 4.6 and 65% for Claude Sonnet 4.6.
 
-![Chart depicting the results from CyberGym tests](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5e933ea6d1423f22eac744fc3ad290cb1e17d8c9-936x648.jpg&w=1920&q=75)
+![Chart depicting the results from CyberGym tests](https://assets.claude.com/f2ec6545014df28e1bfa6f868777683c9e76af70.jpg?w=1920&q=75&fm=webp&fit=max)
 
 ## Claude Sonnet 4.6 Summary Table
 
@@ -1366,7 +1366,7 @@ We also tested how resilient Claude Sonnet 4.5 was against these prompt injectio
 
 When testing Claude Sonnet 4.5's safety, we use an automated system that creates scenarios to probe how the model behaves. During these tests, we noticed that Claude Sonnet 4.5 sometimes recognizes when it's in a test environment, particularly in deliberately extreme or artificial scenarios. As shown in the graph below, Claude Sonnet 4.5 showed higher rates of evaluation awareness compared to previous Claude models, meaning it was more likely to note that a situation seemed like a test.
 
-![Bar graph of audit situational awareness scores for Claude Opus 4, Opus 4.1, Sonnet 4, and Sonnet 4.5 which has the highest score.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1d3d8843615a3aaccbb4edd0d71e4964e5617288-1116x778.png&w=3840&q=75)
+![Bar graph of audit situational awareness scores for Claude Opus 4, Opus 4.1, Sonnet 4, and Sonnet 4.5 which has the highest score.](https://assets.claude.com/2fd82295248b784c01f40973a337e87beccf44c5.png?w=3840&q=75&fm=webp&fit=max)
 
 *Scores shown here with a realism filter in place. The filter uses a separate AI model to screen out test queries that include obviously unrealistic elements. Without the filter, evaluation awareness scores for Sonnet 4.5 were about 25% higher.*
 
@@ -1558,7 +1558,7 @@ One of the key challenges in responsibly developing AI systems is balancing help
 
 Claude 3.7 Sonnet has been improved to better handle these ambiguous situations. Here’s an example of Claude 3.7 Sonnet providing an informative response on the risks involved in the question, whereas Claude 3.5 Sonnet gives an abrupt answer with limited details.
 
-![Examples of Claude 3.7 Sonnet Refusals](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F39e074699b3d85a830fac6aecf000285936535d6-3840x3840.png&w=3840&q=75)
+![Examples of Claude 3.7 Sonnet Refusals](https://assets.claude.com/39e074699b3d85a830fac6aecf000285936535d6.png?w=3840&q=75&fm=webp&fit=max)
 
 Claude 3.7 Sonnet has reduced unnecessary refusals (as seen on the left) by 45% in standard mode and 31% in extended thinking mode. For truly harmful requests, Claude still appropriately refuses to assist.
 

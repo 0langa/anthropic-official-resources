@@ -2,7 +2,7 @@
 
 *CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.*
 
-- Category[Announcements](https://claude.com/resources/product-announcements)
+- Category[Enterprise](https://claude.com/resources/enterprise-announcements)
 - ProductClaude Platform
 - DateSeptember 23, 2026
 - Reading time5 min
@@ -60,31 +60,29 @@ Using your Anthropic commitment this way is in limited preview. If you have one,
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 2, 2026
-
-### Make long-running agents faster with message threads
-
-New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
-
-Claude Platform](https://claude.com/resources/articles/message-threads)[ArticleOct 28, 2026
-
-### Smart reports, surveys, and pooled group budgets for Claude Enterprise
-
-In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
-
-Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)[ArticleOct 28, 2026
+[ArticleOct 28, 2026
 
 ### IDC brings Quanta into Claude and adopts Claude across the company
 
 IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
 
-Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)[ArticleOct 28, 2026
+Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)[ArticleOct 21, 2026
 
-### Introducing artifacts for legal work
+### HCLTech joins the Claude Partner Network as a Global Premier partner
 
-Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
+HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)[ArticleSep 28, 2026
 
-Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)
+### A new approach to agent security with Claude Managed Agents and NVIDIA
+
+Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
+
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 15, 2026
+
+### Bringing Salesforce into Claude
+
+Sellers can now research companies, prep for calls, review pipeline, and draft CRM updates with our new Salesforce in Claude plugin.
+
+Claude Enterprise](https://claude.com/resources/articles/salesforce-in-claude)
 
 ## Transform how your organization operates with Claude
 

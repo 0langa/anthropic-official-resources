@@ -1,4 +1,4 @@
-### Chapter 10: Conclusion
+### 10Conclusion
 
 # The AI expectations gap
 

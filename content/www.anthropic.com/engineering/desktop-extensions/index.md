@@ -1,4 +1,4 @@
-### Chapter 11: Conclusion
+### 11Conclusion
 
 # **Desktop Extensions:**One-click MCP server installation for Claude Desktop
 

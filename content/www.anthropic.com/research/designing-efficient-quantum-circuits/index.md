@@ -24,9 +24,9 @@ Related articles
 
 - Science
 
-  Oct 1, 2026
+  Nov 4, 2026
 
-  [Claude-shaped science](https://www.anthropic.com/research/claude-shaped-science)
+  [Investigating vault particles with Claude](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
 
 [View more](https://www.anthropic.com/search?topic=discovery)
 

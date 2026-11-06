@@ -1,4 +1,4 @@
-### Chapter 04: An addendum: How does it feel to be scooped by a machine?
+### 04An addendum: How does it feel to be scooped by a machine?
 
 # Yes, Claude can do Nine Loops
 
@@ -23,9 +23,9 @@ Related articles
 
 - Science
 
-  Aug 10, 2026
+  Nov 4, 2026
 
-  [Learning more about Claude's mathematical capabilities](https://www.anthropic.com/research/riemann-zeta)
+  [Investigating vault particles with Claude](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
 
 [View more](https://www.anthropic.com/search?topic=discovery)
 

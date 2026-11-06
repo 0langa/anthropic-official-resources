@@ -1,4 +1,4 @@
-### Chapter 04: The path ahead
+### 04The path ahead
 
 # Introducing the Anthropic Cyber Mission
 

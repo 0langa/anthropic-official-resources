@@ -1,4 +1,4 @@
-### Chapter 03: Availability and pricing
+### 03Availability and pricing
 
 # Introducing Claude Sonnet 5
 

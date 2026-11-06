@@ -1,4 +1,4 @@
-### Chapter 08: Additional methodological details
+### 08Additional methodological details
 
 # **Anthropic Economic Index:**Insights from Claude 3.7 Sonnet
 

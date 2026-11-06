@@ -1,4 +1,4 @@
-### Chapter 05: Getting started
+### 05Getting started
 
 # Claude for Nonprofits
 

@@ -1,4 +1,4 @@
-### Chapter 08: Appendix
+### 08Appendix
 
 # Measuring AI agent autonomy in practice
 

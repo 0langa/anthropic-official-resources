@@ -1,4 +1,4 @@
-### Chapter 04: The path forward
+### 04The path forward
 
 # Mitigating the risk of prompt injections in browser use
 

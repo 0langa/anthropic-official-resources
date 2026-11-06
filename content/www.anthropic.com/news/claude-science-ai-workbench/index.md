@@ -1,4 +1,4 @@
-### Chapter 04: Getting started with Claude Science
+### 04Getting started with Claude Science
 
 # Claude Science, an AI workbench for scientists, is now available
 
