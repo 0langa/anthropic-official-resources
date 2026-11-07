@@ -1,4 +1,4 @@
-### Chapter 05: Why we care
+### 05Why we care
 
 # Quantifying infrastructure noise in agentic coding evals
 

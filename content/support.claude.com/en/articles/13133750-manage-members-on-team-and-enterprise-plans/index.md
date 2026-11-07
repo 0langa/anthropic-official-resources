@@ -64,7 +64,7 @@ Organizations with single sign-on (SSO) configured can automate member provision
 
 - **SCIM provisioning (Enterprise plan only):** With SCIM directory sync enabled, members assigned to the Anthropic app in your Identity Provider are provisioned automatically, up to the number of total seats on your plan. On plans with multiple seat types, seat types are distributed from highest to lowest available. On single-seat Enterprise plans, all users are automatically assigned the Enterprise seat. Admins and above can manually reassign seat types afterward in **[Organization settings > Members](https://claude.ai/admin-settings/members)**.
 
-**Important:** An Owner or Primary Owner must ensure seats are available before new users can be provisioned. We recommend monitoring your seat usage and adding seats proactively to ensure uninterrupted access for your team. You can **[enable group mappings with JIT or SCIM](https://support.claude.com/en/articles/13133195-setting-up-jit-or-scim-provisioning#h_adee31eeba) to provision users directly to a specific role and seat tier**.
+**Important:** An Owner or Primary Owner must ensure seats are available before new users can be provisioned. We recommend monitoring your seat usage and adding seats proactively to ensure uninterrupted access for your team. You can **[enable group mappings with JIT or SCIM](https://support.claude.com/en/articles/13133195-setting-up-jit-or-scim-provisioning#h_adee31eeba)** to provision users directly to a specific role and seat tier.
 
 ---
 
@@ -142,11 +142,33 @@ You can revoke a pending invite from **[Organization settings > Members](https:/
 
 ---
 
+## Sign a member out everywhere (beta)
+
+If a member loses a device or their account may be compromised, you can end their sign-in sessions right away without removing them from your organization. There are two ways:
+
+- **In Organization settings:** Go to **[Organization settings > Members](https://claude.ai/admin-settings/members)**, click the three-dot “...” menu to the right of the member, then select "Sign out everywhere."
+
+- **Via the Admin API (Claude Enterprise, beta):** the Primary Owner creates an API key with the `write:members` scope, then calls `POST /v1/organizations/users/{user_id}/sign_out`. Visit the Claude Platform Docs to learn more about **[signing a member out everywhere using the Admin API](https://platform.claude.com/docs/en/manage-claude/user-management#sign-a-member-out-everywhere)**.
+
+This ends the member's sessions on every device and revokes their trusted devices. Claude Code and Claude Desktop sessions authorized for your organization need to sign in again on next use. The member stays in your organization and keeps their role, and their chats and projects aren't deleted.
+
+Before you use it:
+
+- Sessions and trusted devices belong to the person's account, so this also signs them out of any other organization or individual plan they use.
+
+- Scheduled Claude Code routines keep running. It also doesn't unlink computers connected to Cowork.
+
+- The member can sign in again right after. To keep them out, also remove them from your organization or from your identity provider.
+
+- You can't use it on yourself or on the Primary Owner, and only Owners can sign out other Owners.
+
+---
+
 ## Frequently asked questions
 
 ### Can I invite someone who already uses Claude personally with their work email?
 
-Yes. Once they join your team, they'll have both a personal account and a Team or Enterprise plan account. They can toggle between accounts through the menu by clicking their initials or name in the lower left corner.
+Yes. Once they join your team, they'll have both a personal account and a Team or Enterprise plan account. They can toggle between accounts through the menu by clicking their initials or name in the lower left corner. They can keep both accounts (unless your organization has claimed their account) or close the personal one. Not everything moves. Learn more in **[Move your personal Claude account to a Team or Enterprise organization](https://support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization)**.
 
 ### How do I add a member that I previously removed?
 

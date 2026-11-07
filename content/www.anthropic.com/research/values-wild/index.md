@@ -1,4 +1,4 @@
-### Chapter 04: Work with us
+### 04Work with us
 
 # **Values in the wild:**Discovering and analyzing values in real-world language model interactions
 

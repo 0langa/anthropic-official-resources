@@ -1,4 +1,4 @@
-### Chapter 04: Conclusion
+### 04Conclusion
 
 # Alignment faking in large language models
 

@@ -1,4 +1,4 @@
-### Chapter 03: Implications
+### 03Implications
 
 # **Automated Alignment Researchers:**Using large language models to scale scalable oversight
 

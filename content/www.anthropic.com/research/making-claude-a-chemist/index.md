@@ -1,4 +1,4 @@
-### Chapter 03: Looking ahead
+### 03Looking ahead
 
 # Making Claude a chemist
 

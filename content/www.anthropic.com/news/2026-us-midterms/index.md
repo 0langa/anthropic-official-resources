@@ -1,4 +1,4 @@
-### Chapter 03: How we define misuse
+### 03How we define misuse
 
 # Preparing for the 2026 US midterms
 

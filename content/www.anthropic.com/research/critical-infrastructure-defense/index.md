@@ -1,4 +1,4 @@
-### Chapter 02: Expanding public-private partnerships for AI and security
+### 02Expanding public-private partnerships for AI and security
 
 # Experimenting with AI to defend critical infrastructure
 

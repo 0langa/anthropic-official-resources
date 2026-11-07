@@ -4,7 +4,7 @@ A look at Anthropic's key processes, programs, and practices for responsible AI 
 
 [01Model Report](https://www.anthropic.com/transparency/model-report)[02System Trust and Reporting](https://www.anthropic.com/transparency/system-trust-reporting)[03Voluntary Commitments](https://www.anthropic.com/transparency/voluntary-commitments)
 
-### Chapter 03: Voluntary Commitments
+### 03Voluntary Commitments
 
 ## Executive Summary
 
@@ -236,7 +236,7 @@ At the foundation of our Safeguards work is our [Usage Policy](https://www.anthr
 
 ## Child Safety & Image-Based Sexual Abuse
 
-[Claude.ai](http://claude.ai/redirect/website.v1.21e126b9-dd3b-48ed-8976-38ebb6e423ca) is 18+. Our Consumer Terms of Service require individuals to be at least 18 years old to use our services. When we detect signals that an account may belong to someone under 18, we disable the account and offer the user an opportunity to [verify their age through Yoti, a third-party age verification provider](https://support.claude.com/en/articles/15171100-age-assurance-on-claude), before reinstating access. Additionally, organizations building tools that serve minors (such as educational resources) that incorporate our API(s) must comply with the additional guidelines outlined in our [Help Center article](https://support.anthropic.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors).
+[Claude.ai](http://claude.ai/redirect/website.v1.4c107c36-9483-4726-9648-be2bb8e33c84) is 18+. Our Consumer Terms of Service require individuals to be at least 18 years old to use our services. When we detect signals that an account may belong to someone under 18, we disable the account and offer the user an opportunity to [verify their age through Yoti, a third-party age verification provider](https://support.claude.com/en/articles/15171100-age-assurance-on-claude), before reinstating access. Additionally, organizations building tools that serve minors (such as educational resources) that incorporate our API(s) must comply with the additional guidelines outlined in our [Help Center article](https://support.anthropic.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors).
 
 ### Detection and Prevention Systems
 
@@ -331,19 +331,19 @@ Below, you'll find a summary of our voluntary commitments. While we've highlight
 
 ### 10 Trusted Tech Alliance
 
-![Archived content from January - June 2025](https://www-cdn.anthropic.com/images/4zrzovbb/website/71800a27b08a18e808de684513bb852c37b8a334-1000x1000.svg)
+![Archived content from January - June 2025](https://assets.claude.com/e951335d97d3a521983e9359fd4dcdc145bddc38.svg)
 
 ### Archived content from January - June 2025
 
 [View PDF](https://www-cdn.anthropic.com/50384a465da97cce5cbd3abfa752f5b39d7b7f65.pdf)
 
-![Archived content from July - December 2025](https://www-cdn.anthropic.com/images/4zrzovbb/website/71800a27b08a18e808de684513bb852c37b8a334-1000x1000.svg)
+![Archived content from July - December 2025](https://assets.claude.com/e951335d97d3a521983e9359fd4dcdc145bddc38.svg)
 
 ### Archived content from July - December 2025
 
 [Archived content from July to December 2025](https://www-cdn.anthropic.com/5fb26a6974468f83ce87b4799a7ac957ce9d8f96.pdf)
 
-![Archived content from January - June 2026](https://www-cdn.anthropic.com/images/4zrzovbb/website/71800a27b08a18e808de684513bb852c37b8a334-1000x1000.svg)
+![Archived content from January - June 2026](https://assets.claude.com/e951335d97d3a521983e9359fd4dcdc145bddc38.svg)
 
 ### Archived content from January - June 2026
 

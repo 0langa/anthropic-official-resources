@@ -1,4 +1,4 @@
-### Chapter 04: Co-sponsoring a protein design competition with Adaptyv Bio
+### 04Co-sponsoring a protein design competition with Adaptyv Bio
 
 # How Claude is uplifting biomolecular modeling
 

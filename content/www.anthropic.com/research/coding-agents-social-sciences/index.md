@@ -1,4 +1,4 @@
-### Chapter 08: Discussion
+### 08Discussion
 
 # Coding agents in the social sciences
 
@@ -7,6 +7,11 @@
 - Published
 
   May 27, 2026
+- Authors
+
+  - Thomas Lyttelton
+  - Maxim Massenkoff
+  - Nathan WilmersSee more...
 - Team
 
   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
@@ -20,11 +25,11 @@
 
 Related articles
 
-- Announcements
+- Economics
 
-  Sep 15, 2026
+  Nov 5, 2026
 
-  [Introducing Claude Mythos and Fable 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1)
+  [AI for scientific discovery: How researchers use Claude](https://www.anthropic.com/research/how-researchers-use-claude)
 
 [View more](https://www.anthropic.com/search?topic=how-people-use-ai)
 
@@ -149,6 +154,14 @@ Wilmers, N., & Engzell, P. (2026). The Paper Factory. SocArXiv Preprints.
 01We launched the survey only a month after the release of Claude Cowork and before the release of OpenAI’s Codex app, so we focused this question on Command Line Interface tools for interaction with coding agents. This means we do not count researchers who use AI agents exclusively via more general purpose desktop apps.
 
 ## Authors & acknowledgements
+
+- [Thomas Lyttelton\*→](https://www.anthropic.com/search?author=thomas-lyttelton)
+- [Maxim Massenkoff\*→](https://www.anthropic.com/search?author=maxim-massenkoff)
+
+  Co-author of this article.
+- [Nathan Wilmers\*→](https://www.anthropic.com/search?author=nathan-wilmers)
+
+\*Lead authors. Contributed equally to this report
 
 ### Contributors
 

@@ -1,4 +1,4 @@
-### Chapter 03: Work with us
+### 03Work with us
 
 # Forecasting rare language model behaviors
 

@@ -1,4 +1,4 @@
-### Chapter 09: Future Research Directions
+### 09Future Research Directions
 
 # Measuring the persuasiveness of language models
 

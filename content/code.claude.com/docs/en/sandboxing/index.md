@@ -38,6 +38,7 @@ The sandbox wraps shell commands. These tools and processes run outside it:
 
 * **Built-in file and web tools**: tools such as Read, Edit, Write, WebFetch, and WebSearch follow [permission rules](/docs/en/permissions) instead. A `denyRead` entry doesn't stop the Read tool, and `allowedDomains` doesn't limit WebFetch
 * **Other processes Claude Code starts**: command [hooks](/docs/en/hooks), local [MCP servers](/docs/en/mcp), [plugin monitors](/docs/en/plugins/components#monitors), [LSP servers](/docs/en/tools-reference#lsp-tool-behavior), and helper commands such as your [status line](/docs/en/statusline) command and `apiKeyHelper` run with your full access
+* **Mods**: a [mod](/docs/en/plugins/mods/overview) runs its own code inside Claude Code, so its file access, network requests, and programs started with [`$.process`](/docs/en/plugins/mods/api#reach-files-processes-and-the-network) aren't sandboxed. See [What a mod can reach](/docs/en/plugins/mods/overview#what-a-mod-can-reach)
 
 Some shell commands also run outside the sandbox, depending on your settings:
 

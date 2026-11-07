@@ -820,6 +820,9 @@
   "https://claude.com/resources/articles?categories=product-announcements": [
     "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   ],
+  "https://claude.com/resources/articles?categories=product-updates": [
+    "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
+  ],
   "https://claude.com/resources/articles?products=claude-code": [
     "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   ],
@@ -9940,6 +9943,12 @@
   "https://support.claude.com/en/articles/18185620-use-personal-finance-in-claude": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/18185620-use-personal-finance-with-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/18232924": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/18232924-get-started-with-centralized-management": [
     "Native source; upstream MDX components retained."
   ],
@@ -9952,7 +9961,13 @@
   "https://support.claude.com/en/articles/18246629-review-your-organization-s-security-posture-with-the-security-center": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/18246779": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/18246779-set-up-multiple-identity-providers-and-split-domains": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/18251257-track-spend-by-cost-code-with-project-tags": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for": [
@@ -11172,6 +11187,10 @@
   "https://www.anthropic.com/research/probes-catch-sleeper-agents": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
+  "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored.",
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
   "https://www.anthropic.com/research/project-fetch-phase-two": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
@@ -11241,6 +11260,10 @@
   ],
   "https://www.anthropic.com/research/swe-bench-sonnet": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored.",
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html, https://assets.claude.ai/brand/artifacts/research/teaching_ai.html"
   ],
   "https://www.anthropic.com/research/teaching-claude-why": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"

@@ -1,4 +1,4 @@
-### Chapter 05: Looking ahead
+### 05Looking ahead
 
 # Progress from our Frontier Red Team
 

@@ -1,4 +1,4 @@
-### Chapter 05: Conclusion
+### 05Conclusion
 
 # Patterns and problems in emerging multiagent systems
 

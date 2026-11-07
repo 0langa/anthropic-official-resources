@@ -1,4 +1,4 @@
-### Chapter 04: What’s next
+### 04What’s next
 
 # AI for Science expands to foundations and research institutions
 
@@ -20,11 +20,11 @@
 
 Related articles
 
-- Announcements
+- Science
 
-  Aug 27, 2026
+  Nov 6, 2026
 
-  [Expanding our support for scientists](https://www.anthropic.com/news/expanding-support-for-scientists)
+  [Teaching AI to build scientific models](https://www.anthropic.com/research/teaching-ai-to-build-scientific-models)
 
 [View more](https://www.anthropic.com/search?topic=discovery)
 

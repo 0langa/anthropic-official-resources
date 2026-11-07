@@ -1,4 +1,4 @@
-### Chapter 06: Uplevel with multi-Claude workflows
+### 06Uplevel with multi-Claude workflows
 
 # **Claude Code:**Best practices for agentic coding
 
@@ -40,7 +40,7 @@ Claude Code is intentionally low-level and unopinionated, providing close to raw
 
 This post outlines general patterns that have proven effective, both for Anthropic's internal teams and for external engineers using Claude Code across various codebases, languages, and environments. Nothing in this list is set in stone nor universally applicable; consider these suggestions as starting points. We encourage you to experiment and find what works best for you!
 
-*Looking for more detailed information? Our comprehensive documentation at [claude.ai/code](https://claude.ai/redirect/website.v1.0bd45900-6e71-4cc1-a3d9-0e4daa98d53e/code)* *covers all the features mentioned in this post and provides additional examples, implementation details, and advanced techniques.*
+*Looking for more detailed information? Our comprehensive documentation at [claude.ai/code](https://claude.ai/redirect/website.v1.72ab2157-fd40-424f-99ef-9e334e25c8d2/code)* *covers all the features mentioned in this post and provides additional examples, implementation details, and advanced techniques.*
 
 ## 1. Customize your setup
 

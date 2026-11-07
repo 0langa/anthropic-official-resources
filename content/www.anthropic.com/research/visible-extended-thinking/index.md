@@ -1,4 +1,4 @@
-### Chapter 04: Using Claude
+### 04Using Claude
 
 # Claude’s extended thinking
 
@@ -116,7 +116,7 @@ The above is just a short summary of some of our extensive safety work on Claude
 
 ## Using Claude
 
-You can use Claude 3.7 Sonnet now at [Claude.ai](http://claude.ai/redirect/website.v1.4f270158-5d1d-4508-a898-04ae982b520d) or on [our API](https://docs.anthropic.com/en/api/getting-started). And just as Claude can now let you know what it thinks, we hope you’ll let us know what you think, too. Please send your feedback about the new model to [feedback@anthropic.com](mailto:feedback@anthropic.com).
+You can use Claude 3.7 Sonnet now at [Claude.ai](http://claude.ai/redirect/website.v1.8c34ceba-cda1-4961-b075-c9979079ef53) or on [our API](https://docs.anthropic.com/en/api/getting-started). And just as Claude can now let you know what it thinks, we hope you’ll let us know what you think, too. Please send your feedback about the new model to [feedback@anthropic.com](mailto:feedback@anthropic.com).
 
 ## Footnotes
 

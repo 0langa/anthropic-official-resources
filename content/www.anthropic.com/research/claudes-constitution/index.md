@@ -1,4 +1,4 @@
-### Chapter 01: The Principles in Full
+### 01 The Principles in Full
 
 # Claude’s constitution
 

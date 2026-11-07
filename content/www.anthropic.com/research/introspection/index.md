@@ -1,4 +1,4 @@
-### Chapter 06: Frequently Asked Questions
+### 06Frequently Asked Questions
 
 # Signs of introspection in large language models
 

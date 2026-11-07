@@ -1,4 +1,4 @@
-### Chapter 04: What’s next?
+### 04What’s next?
 
 # **Project Vend:**Can Claude run a small shop? (And why does that matter?)
 

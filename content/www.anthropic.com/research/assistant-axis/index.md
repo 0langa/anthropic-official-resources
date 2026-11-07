@@ -1,4 +1,4 @@
-### Chapter 06: Implications
+### 06Implications
 
 # **The assistant axis:**situating and stabilizing the character of large language models
 

@@ -1,4 +1,4 @@
-### Chapter 03: What the broader ecosystem can do
+### 03What the broader ecosystem can do
 
 # Trustworthy agents in practice
 

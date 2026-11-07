@@ -1,5 +1,6 @@
 https://academy.claude.com/
 https://academy.claude.com/all
+https://academy.claude.com/all?status=on-demand
 https://academy.claude.com/code/webinars
 https://academy.claude.com/collections/ai-fluency
 https://academy.claude.com/collections/build-with-claude
@@ -728,6 +729,7 @@ https://academy.claude.com/tutorials/what-is-sycophancy-in-ai-models
 https://academy.claude.com/tutorials/why-do-ai-models-hallucinate
 https://academy.claude.com/tutorials/why-does-bias-exist-in-ai-models
 https://academy.claude.com/tutorials/working-smarter-with-claude-in-powerpoint
+https://academy.claude.com/tutorials/write-a-prompt-your-app-can-ship
 https://academy.claude.com/tutorials/writing-an-ai-diligence-statement
 https://academy.claude.com/use-cases
 https://academy.claude.com/use-cases/account-research-brief
@@ -1673,6 +1675,7 @@ https://claude.com/resources/webinars/claude-for-financial-services-putting-agen
 https://claude.com/resources/webinars/claude-for-investing-teams
 https://claude.com/resources/webinars/claude-for-legal-teams
 https://claude.com/resources/webinars/claude-for-life-sciences
+https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work
 https://claude.com/resources/webinars/claude-for-marketing-ops-and-analytics
 https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one
 https://claude.com/resources/webinars/claude-for-nonprofits-admin-guide-to-data-handling-ai-policy
@@ -2037,6 +2040,7 @@ https://platform.claude.com/cookbook/finetuning-finetuning-on-bedrock
 https://platform.claude.com/cookbook/managed-agents-cma-cap-session-spend
 https://platform.claude.com/cookbook/managed-agents-cma-consult-an-advisor
 https://platform.claude.com/cookbook/managed-agents-cma-coordinate-specialist-team
+https://platform.claude.com/cookbook/managed-agents-cma-dreaming-with-a-dynamic-workflow
 https://platform.claude.com/cookbook/managed-agents-cma-iterate-fix-failing-tests
 https://platform.claude.com/cookbook/managed-agents-cma-operate-in-production
 https://platform.claude.com/cookbook/managed-agents-cma-pin-inference-geo
@@ -4404,6 +4408,7 @@ https://support.claude.com/en/articles/12304248-managing-api-key-environment-var
 https://support.claude.com/en/articles/12306336-claude-for-chrome-release-notes
 https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model
 https://support.claude.com/en/articles/12335811-report-a-concern-australian-dis-standard-compliance
+https://support.claude.com/en/articles/12386328
 https://support.claude.com/en/articles/12386328-request-a-refund-for-a-paid-claude-plan
 https://support.claude.com/en/articles/12386420-claude-code-faq
 https://support.claude.com/en/articles/12429409
@@ -4828,6 +4833,8 @@ https://support.claude.com/en/articles/18234133-how-do-anthropic-hosted-browsers
 https://support.claude.com/en/articles/18246629-review-your-organization-s-security-posture-with-the-security-center
 https://support.claude.com/en/articles/18246779
 https://support.claude.com/en/articles/18246779-set-up-multiple-identity-providers-and-split-domains
+https://support.claude.com/en/articles/18251257-track-spend-by-cost-code-with-project-tags
+https://support.claude.com/en/articles/18251257-track-spend-by-project-with-tags
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
 https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer
@@ -5493,6 +5500,7 @@ https://www.anthropic.com/research/clio
 https://www.anthropic.com/research/code-execution-with-mcp
 https://www.anthropic.com/research/coding-agents-social-sciences
 https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input
+https://www.anthropic.com/research/components-of-agent-memory
 https://www.anthropic.com/research/confidential-inference-trusted-vms
 https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback
 https://www.anthropic.com/research/constitutional-classifiers
@@ -5599,6 +5607,7 @@ https://www.anthropic.com/research/political-even-handedness
 https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models
 https://www.anthropic.com/research/privileged-bases-in-the-transformer-residual-stream
 https://www.anthropic.com/research/probes-catch-sleeper-agents
+https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs
 https://www.anthropic.com/research/project-fetch-phase-two
 https://www.anthropic.com/research/project-fetch-robot-dog
 https://www.anthropic.com/research/project-pilot
@@ -5630,6 +5639,7 @@ https://www.anthropic.com/research/strategic-warning-for-ai-risk-progress-and-in
 https://www.anthropic.com/research/studying-large-language-model-generalization-with-influence-functions
 https://www.anthropic.com/research/superposition-memorization-and-double-descent
 https://www.anthropic.com/research/swe-bench-sonnet
+https://www.anthropic.com/research/teaching-ai-to-build-scientific-models
 https://www.anthropic.com/research/teaching-claude-why
 https://www.anthropic.com/research/team/alignment
 https://www.anthropic.com/research/team/alignment.anthropic.com

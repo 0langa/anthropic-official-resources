@@ -2,7 +2,7 @@
 
 # Announcements
 
-78
+77
 
 ARTICLES
 
@@ -23,15 +23,6 @@ Date
   Oct 28, 2026
 
   [### AI for Science expands to foundations and research institutions](https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions)[We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Science program.](https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions)
-- [### Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development)
-
-  [We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.](https://www.anthropic.com/research/early-progress-drug-development)
-
-  Oct 27, 2026
-
-  Oct 27, 2026
-
-  [### Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development)[We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.](https://www.anthropic.com/research/early-progress-drug-development)
 - [### Anthropic files S-1 with the SEC for proposed initial public offering](https://www.anthropic.com/news/s1-sec)
 
   [Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.](https://www.anthropic.com/news/s1-sec)
@@ -230,6 +221,15 @@ Date
   Jul 9, 2026
 
   [### Inviting hard questions](https://www.anthropic.com/news/hard-questions)[We’re asking the public for their hardest questions about AI, and committing to show our work as we address them.](https://www.anthropic.com/news/hard-questions)
+- [### Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem](https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem)
+
+  [Anthropic opens in Seoul and announces new partnerships across the Korean AI ecosystem.](https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem)
+
+  Jun 17, 2026
+
+  Jun 17, 2026
+
+  [### Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem](https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem)[Anthropic opens in Seoul and announces new partnerships across the Korean AI ecosystem.](https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem)
 
 See more
 

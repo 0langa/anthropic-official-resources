@@ -1,4 +1,4 @@
-### Chapter 04: Getting started
+### 04Getting started
 
 # Developing Enterprise Frontier Safeguards with our customers
 

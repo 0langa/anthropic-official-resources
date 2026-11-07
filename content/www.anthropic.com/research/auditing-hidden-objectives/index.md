@@ -1,4 +1,4 @@
-### Chapter 04: Conclusion
+### 04Conclusion
 
 # Auditing language models for hidden objectives
 

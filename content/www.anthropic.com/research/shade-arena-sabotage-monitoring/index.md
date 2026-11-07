@@ -1,4 +1,4 @@
-### Chapter 03: Conclusions
+### 03Conclusions
 
 # **SHADE-Arena:**Evaluating sabotage and monitoring in LLM agents
 

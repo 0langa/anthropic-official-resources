@@ -1,4 +1,4 @@
-### Chapter 04: What's next?
+### 04What's next?
 
 # Building AI for cyber defenders
 

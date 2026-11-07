@@ -1,10 +1,10 @@
-### Chapter 04: The future of NLAs
+### 04The future of NLAs
 
 # **Natural Language Autoencoders:**Turning Claude’s thoughts into text
 
 [Read the paper](https://transformer-circuits.pub/2026/nla/index.html)
 
-![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2Fj2knrqAzYVY%2Fsddefault.jpg&w=3840&q=75)
+![Completed sudoku puzzle with a vertical column of cells highlighted in yellow containing the numbers 4, 9, 2, 1, 4, 2, 7, 4, 8, 8, 8, 9.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2Fj2knrqAzYVY%2Fsddefault.jpg&w=3840&q=75)
 
 - Published
 
@@ -80,7 +80,7 @@ For example, in the blackmail test discussed above, we used NLAs to understand w
 
 Claude does not say it thinks it’s being tested in this transcript from our blackmail evaluation, but the NLA explanation reveals its suspicions.
 
-Extending this analysis to other evaluations, NLAs suggest that Claude suspects it’s being tested more often than it lets on. For instance, in a test of whether Claude takes destructive actions while writing code—for example, deleting important files—NLA explanations show signs of evaluation awareness 16% of the time, even though Claude never explicitly verbalizes this. Similarly, on the popular coding benchmark SWE-bench Verified, which we use to determine how capable Claude is, NLAs indicate that Claude is aware it is being evaluated on 26% of problems. In contrast, NLA explanations indicate evaluation awareness on less than 1% of real [claude.ai](http://claude.ai/redirect/website.v1.cbf3b49d-878f-4999-a91d-484a77d10965) usage that opted in for training.
+Extending this analysis to other evaluations, NLAs suggest that Claude suspects it’s being tested more often than it lets on. For instance, in a test of whether Claude takes destructive actions while writing code—for example, deleting important files—NLA explanations show signs of evaluation awareness 16% of the time, even though Claude never explicitly verbalizes this. Similarly, on the popular coding benchmark SWE-bench Verified, which we use to determine how capable Claude is, NLAs indicate that Claude is aware it is being evaluated on 26% of problems. In contrast, NLA explanations indicate evaluation awareness on less than 1% of real [claude.ai](http://claude.ai/redirect/website.v1.1a68fce7-82e1-4192-9a58-16a0c7943629) usage that opted in for training.
 
 ![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffc08005f32ff020f21e598cc72f58768af2bcc4f-1590x1170.png&w=3840&q=75)
 

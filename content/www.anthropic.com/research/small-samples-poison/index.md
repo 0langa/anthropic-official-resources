@@ -1,4 +1,4 @@
-### Chapter 03: Conclusions
+### 03Conclusions
 
 # A small number of samples can poison LLMs of any size
 

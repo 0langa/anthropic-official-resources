@@ -1,4 +1,4 @@
-### Chapter 04: Hardening security practices
+### 04Hardening security practices
 
 # Improving our alignment and security efforts
 

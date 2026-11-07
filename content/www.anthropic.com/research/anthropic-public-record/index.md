@@ -1,4 +1,4 @@
-### Chapter 08: Appendix: Methodology
+### 08Appendix: Methodology
 
 # Results from the first Anthropic Public Record
 

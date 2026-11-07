@@ -1,4 +1,4 @@
-### Chapter 04: Caveats and conclusions
+### 04Caveats and conclusions
 
 # **Sycophancy to subterfuge:**Investigating reward tampering in language models
 

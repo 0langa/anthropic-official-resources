@@ -1,4 +1,4 @@
-### Chapter 07: Appendix
+### 07Appendix
 
 # How we built our multi-agent research system
 

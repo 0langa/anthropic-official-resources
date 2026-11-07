@@ -1,4 +1,4 @@
-### Chapter 07: The result
+### 07The result
 
 # Long-running Claude for scientific computing
 

@@ -20,7 +20,7 @@ back — in just under 20 lines of code.
 
 ## Get set up[](https://academy.claude.com/courses/claude-platform-101/your-first-api-call)
 
-First, grab an **API key** from platform.claude.com. New accounts get a small amount of free credit to test the API, and after that you add credit there, in the Claude Console.
+First, grab an **API key** from platform.claude.com. Before your first API call, check that you have credit on the [Billing page(opens in new tab)](https://platform.claude.com/settings/billing) in the Claude Console. If you have none, add credit there.
 
 ![The Claude Console dialog showing a newly created API key with a Copy key button and a warning that the key won't be viewable again](https://academy.claude.com/assets/media/a2c759d789a3f677d109348d41c475d48fbd003d445582291e6d1e3d6fbba28c.png)
 

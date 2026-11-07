@@ -4,7 +4,7 @@ A look at Anthropic's key processes, programs, and practices for responsible AI 
 
 [01Model Report](https://www.anthropic.com/transparency/model-report)[02System Trust and Reporting](https://www.anthropic.com/transparency/system-trust-reporting)[03Voluntary Commitments](https://www.anthropic.com/transparency/voluntary-commitments)
 
-### Chapter 02: System Trust and Reporting
+### 02System Trust and Reporting
 
 ## System Trust and Reporting
 

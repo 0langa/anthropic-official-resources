@@ -6,6 +6,6 @@ Most AI tools are conversational. You ask a question in a chat window, you get a
 
 Claude Cowork is built for the work, not just the answer. It's a version of Claude that reads and writes files on your computer, uses your connected work apps, and runs multi-step tasks on your behalf. This guide is for analysts, PMs, operators, researchers, marketers, recruiters, and anyone else whose day is spent moving information between systems.
 
-[Start reading](https://claude.com/resources/guides/claude-cowork-product-guide/what-is-claude-cowork)[Download now](https://assets.claude.com/1a141d558ed76a8862a5c9405fd0a8a1c9c1630f.pdf?dl=)
+[Start reading](https://claude.com/resources/guides/claude-cowork-product-guide/what-is-claude-cowork)[Download now](https://assets.claude.com/ea738626e8e62361b11c53310fcbe4067e34f314.pdf?dl=)
 
 28 min read

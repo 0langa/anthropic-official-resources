@@ -1,4 +1,4 @@
-### Chapter 08: Why AI policy is important
+### 08Why AI policy is important
 
 # Third-party testing as a key ingredient of AI policy
 

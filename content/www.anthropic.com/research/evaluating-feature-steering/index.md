@@ -1,4 +1,4 @@
-### Chapter 07: Appendices
+### 07Appendices
 
 # **Evaluating feature steering:**A case study in mitigating social biases
 

@@ -1,4 +1,4 @@
-### Chapter 04: Outlook
+### 04Outlook
 
 # Claude-shaped science
 

@@ -1,4 +1,4 @@
-### Chapter 06: Conclusions
+### 06Conclusions
 
 # Discovering cryptographic weaknesses with Claude
 

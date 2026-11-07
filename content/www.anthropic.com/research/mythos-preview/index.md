@@ -1,4 +1,4 @@
-### Chapter 06: Appendix
+### 06Appendix
 
 # Assessing Claude Mythos Preview’s cybersecurity capabilities
 

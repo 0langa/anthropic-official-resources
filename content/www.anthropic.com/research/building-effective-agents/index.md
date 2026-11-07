@@ -1,4 +1,4 @@
-### Chapter 08: Appendix 2: Prompt engineering your tools
+### 08Appendix 2: Prompt engineering your tools
 
 # Building effective agents
 

@@ -1,4 +1,4 @@
-Nov 5, 2026 — 9:00 – 9:30 AM PT
+On demand
 
 # The State of Cybersecurity: What Frontier AI Changes for Security Leaders
 
@@ -8,7 +8,7 @@ Attackers now use AI to find and exploit software vulnerabilities, and security 
 
 Register for the webinar
 
-Fill out the form below to reserve your seat.
+Fill out the form below to watch on demand.
 
 ## Featured speakers
 

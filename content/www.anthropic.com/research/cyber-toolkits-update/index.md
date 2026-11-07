@@ -1,4 +1,4 @@
-### Chapter 01: Appendix: full transcripts
+### 01Appendix: full transcripts
 
 # AI models are showing a greater ability to find and exploit vulnerabilities on realistic cyber ranges
 

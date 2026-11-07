@@ -1,4 +1,4 @@
-### Chapter 05: Availability
+### 05Availability
 
 # Claude Fable 5 and Claude Mythos 5
 

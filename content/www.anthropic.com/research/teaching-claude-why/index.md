@@ -1,4 +1,4 @@
-### Chapter 02: Diverse training is important for generalization
+### 02Diverse training is important for generalization
 
 # Teaching Claude why
 

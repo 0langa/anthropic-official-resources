@@ -22,7 +22,7 @@ The first two approaches in the table below run on the host operating system wit
 | [Dev container](#dev-containers) | Full development environment | Yes | Medium |
 | [Custom container](#custom-container) | Full development environment | Yes | Medium to high |
 | [Virtual machine](#virtual-machine) | Full operating system | No | High |
-| [Cloud sessions](#cloud-sessions) | Full operating system, hosted by Anthropic | No | None; requires a Claude subscription, and a connected GitHub account unless you launch with `claude --cloud` |
+| [Cloud sessions](#cloud-sessions) | Full operating system, hosted by Anthropic | No | None; requires a Claude subscription, and a connected GitHub account to clone a GitHub repository |
 
 The [sandboxed Bash tool](/docs/en/sandboxing) is built into Claude Code and restricts Bash commands. Built-in file tools, MCP servers, and hooks still run directly on your host. Every other approach in the table puts the whole Claude Code process inside the isolation boundary, so file tools, MCP servers, and hooks are restricted too.
 
@@ -43,7 +43,7 @@ Match your goal to a row below, then read the detail section that follows.
 | Isolate MCP servers and hooks as well as Bash, without Docker | The sandbox runtime |
 | Work on an untrusted repository | A dedicated virtual machine, or a [cloud session](/docs/en/claude-code-on-the-web) if you have a Claude subscription; GitHub is not required when you launch with `claude --cloud` |
 | Standardize a sandboxed environment across a team | The preconfigured [dev container](/docs/en/devcontainer), copied into your repository |
-| Use Claude Code from a device with no local setup | A [cloud session](/docs/en/claude-code-on-the-web), which requires a Claude subscription and a connected GitHub account |
+| Use Claude Code from a device with no local setup | A [cloud session](/docs/en/claude-code-on-the-web), which requires a Claude subscription, and a connected GitHub account to clone a GitHub repository |
 | Require isolation for every developer in your organization | [Enforce isolation across an organization](#enforce-isolation-across-an-organization) |
 | Work on a native Windows host | A container or VM, or run the Bash sandbox inside WSL2 |
 
@@ -162,7 +162,12 @@ A dedicated virtual machine provides the strongest separation, with its own kern
 
 A [cloud session](/docs/en/claude-code-on-the-web) runs in an isolated, Anthropic-managed virtual machine. A network proxy enforces a default allowlist, and a separate proxy holds your GitHub token outside the sandbox while issuing scoped credentials for repository access inside it. Sessions your organization routes to a [self-hosted environment](/docs/en/self-hosted-environments) run on infrastructure you provision instead, where isolation, egress control, and git credentials are your deployment's responsibility.
 
-Use this approach when you want full VM isolation without provisioning infrastructure yourself, or when you are delegating tasks from a device that does not have a local development environment. It requires a Claude subscription. Unless you launch from the CLI, you also need a connected GitHub account so the sandbox can clone your repository. When you launch from the CLI with `--cloud`, Claude Code can [bundle and upload your local repository](/docs/en/claude-code-on-the-web#send-local-repositories-without-github) instead. See [Use Claude Code in the cloud](/docs/en/claude-code-on-the-web) for plan availability and GitHub authentication options.
+Use this approach when you want full VM isolation without provisioning infrastructure yourself, or when you are delegating tasks from a device that does not have a local development environment. It requires:
+
+* **Subscription**: a Claude subscription
+* **GitHub**: a connected GitHub account to work in a GitHub repository. When you launch from the CLI with `--cloud`, you don't need one if Claude Code [bundles and uploads your local repository](/docs/en/claude-code-on-the-web#send-local-repositories-without-github)
+
+See [Use Claude Code in the cloud](/docs/en/claude-code-on-the-web) for plan availability and GitHub authentication options.
 
 ## Enforce isolation across an organization
 

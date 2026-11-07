@@ -17,7 +17,7 @@
 
 Related articles
 
-- Announcements
+- Science
 
   Oct 27, 2026
 

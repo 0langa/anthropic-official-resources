@@ -1,4 +1,4 @@
-### Chapter 06: Conclusion
+### 06Conclusion
 
 # LLMs are making formal software verification feasible at a much larger scale
 

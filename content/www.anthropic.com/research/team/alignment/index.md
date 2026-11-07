@@ -47,7 +47,7 @@ Why would AI assistants behave like they’re human? We articulate a theory—dr
 
 03
 
-49
+51
 
 ARTICLES
 
@@ -93,6 +93,10 @@ Apr 14, 2026![Two sketches of geometric solids: a faceted polyhedron on pink pap
 
 ### [Automated Alignment Researchers: Using large language models to scale scalable oversight](https://www.anthropic.com/research/automated-alignment-researchers)
 
+Feb 25, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe185b33e0ffe5f8ac647baf4407fd55cbd28f7a2-1280x1280.jpg&w=1080&q=75)
+
+### [An update on our model deprecation commitments for Claude Opus 3](https://www.anthropic.com/news/deprecation-updates-opus-3)
+
 Feb 23, 2026![A ginkgo leaf and architectural floor plans.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fbed5c44f64661de0cfa7ef5bea5536e0bc759002-1280x1280.jpg&w=1080&q=75)
 
 ### [The persona selection model](https://www.anthropic.com/research/persona-selection-model)
@@ -125,6 +129,10 @@ Nov 21, 2025![White abstract face profile with cracked lines on the right side a
 
 ### [From shortcuts to sabotage: Natural emergent misalignment from reward hacking](https://www.anthropic.com/research/emergent-misalignment-reward-hacking)
 
+Nov 4, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4c6e05a07cd45a54810aec577be374a3e69afaa7-2000x2000.png&w=1080&q=75)
+
+### [Commitments on model deprecation and preservation](https://www.anthropic.com/news/deprecation-commitments)
+
 Oct 9, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fab6e65d255469abf1426a46661c357488aa50c59-1280x1280.jpg&w=1080&q=75)
 
 ### [A small number of samples can poison LLMs of any size](https://www.anthropic.com/research/small-samples-poison)
@@ -141,33 +149,25 @@ Jun 27, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.
 
 ### [How people use Claude for support, advice, and companionship](https://www.anthropic.com/research/how-people-use-claude-for-support-advice-and-companionship)
 
-Jun 20, 2025![A bright green grid with one small dark square embedded in the green grid.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F540b5e50cf0b167741cf9aca14766b75985f186e-1280x1280.jpg&w=1080&q=75)
-
-### [Agentic misalignment: How LLMs could be insider threats](https://www.anthropic.com/research/agentic-misalignment)
-
-Jun 16, 2025![Four colored panels containing geometric line drawings and abstract shapes including a polyhedra and curved lines with dots.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffe33bb4e9220712a330f7c656da7bed8a069fbd6-1280x1280.jpg&w=1080&q=75)
-
-### [SHADE-Arena: Evaluating sabotage and monitoring in LLM agents](https://www.anthropic.com/research/shade-arena-sabotage-monitoring)
-
 See more
 
 ## Explore work from other teams
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
-25 posts
+26 posts
 
 Studies and monitors the impact of AI systems on individuals, firms, and economies.
 
 [### Engineering](https://www.anthropic.com/engineering)
 
-27 posts
+28 posts
 
 Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
 [### Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-36 posts
+38 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 
@@ -191,25 +191,25 @@ Explores how AI can increase the pace of scientific progress through both resear
 
 [### Alignment](https://www.anthropic.com/research/team/alignment)
 
-49 posts
+51 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
-25 posts
+26 posts
 
 Studies and monitors the impact of AI systems on individuals, firms, and economies.
 
 [### Engineering](https://www.anthropic.com/engineering)
 
-27 posts
+28 posts
 
 Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
 [### Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-36 posts
+38 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 
@@ -233,6 +233,6 @@ Explores how AI can increase the pace of scientific progress through both resear
 
 [### Alignment](https://www.anthropic.com/research/team/alignment)
 
-49 posts
+51 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.

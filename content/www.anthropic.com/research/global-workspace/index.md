@@ -1,10 +1,10 @@
-### Chapter 09: External commentary
+### 09External commentary
 
 # A global workspace in language models
 
 [Read the paper](http://transformer-circuits.pub/2026/workspace/index.html)
 
-![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FrKV5JcALQoQ%2Fsddefault.jpg&w=3840&q=75)
+![Collage combining a historic sailing ship with two flags on rough seas against cloudy skies, and text patterns reading "clouds," "boat," and "ocean" repeated throughout.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FrKV5JcALQoQ%2Fsddefault.jpg&w=3840&q=75)
 
 - Published
 

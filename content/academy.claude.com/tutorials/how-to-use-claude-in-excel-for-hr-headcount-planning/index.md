@@ -2,7 +2,7 @@
 
 Use Claude to understand inherited spreadsheets, fix formula errors, and run what-if scenarios
 
-20 minClaude for Excel
+10 minClaude for Excel
 
 Watch
 

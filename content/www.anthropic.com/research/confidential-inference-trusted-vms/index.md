@@ -1,4 +1,4 @@
-### Chapter 04: Conclusions
+### 04Conclusions
 
 # Confidential Inference via Trusted Virtual Machines
 

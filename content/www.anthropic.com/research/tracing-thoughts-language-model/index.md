@@ -1,4 +1,4 @@
-### Chapter 02: Work with us
+### 02Work with us
 
 # Tracing the thoughts of a large language model
 

@@ -1,4 +1,4 @@
-### Chapter 04: AI models' progress in mathematics
+### 04AI models' progress in mathematics
 
 # Learning more about Claude's mathematical capabilities
 

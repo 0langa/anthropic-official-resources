@@ -1,4 +1,4 @@
-### Chapter 06: RAG to riches?
+### 06RAG to riches?
 
 # **Project Vend:**Phase two
 

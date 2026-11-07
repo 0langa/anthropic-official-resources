@@ -1,4 +1,4 @@
-### Chapter 04: Discussion
+### 04Discussion
 
 # What 81,000 people told us about the economics of AI
 

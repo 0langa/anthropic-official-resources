@@ -1,4 +1,4 @@
-### Chapter 09: Anthropic’s approach to education
+### 09Anthropic’s approach to education
 
 # **Anthropic Education Report:**How university students use Claude
 

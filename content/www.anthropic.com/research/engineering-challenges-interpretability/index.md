@@ -1,4 +1,4 @@
-### Chapter 04: FAQ
+### 04FAQ
 
 # The engineering challenges of scaling interpretability
 

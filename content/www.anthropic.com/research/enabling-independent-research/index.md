@@ -1,4 +1,4 @@
-### Chapter 03: Looking forward
+### 03Looking forward
 
 # Enabling independent research on how people use Claude
 

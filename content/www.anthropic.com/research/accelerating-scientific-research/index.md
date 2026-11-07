@@ -1,4 +1,4 @@
-### Chapter 03: Lundberg Lab: testing AI-led hypothesis generation for which genes to study
+### 03Lundberg Lab: testing AI-led hypothesis generation for which genes to study
 
 # How scientists are using Claude to accelerate research and discovery
 
@@ -7,9 +7,6 @@
 - Published
 
   Jan 15, 2026
-- Team
-
-  [Science](https://www.anthropic.com/science)
 - Topics
 
   - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
@@ -22,9 +19,9 @@ Related articles
 
 - Science
 
-  Nov 4, 2026
+  Nov 6, 2026
 
-  [Investigating vault particles with Claude](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
+  [Teaching AI to build scientific models](https://www.anthropic.com/research/teaching-ai-to-build-scientific-models)
 
 [View more](https://www.anthropic.com/search?topic=life-sciences)
 

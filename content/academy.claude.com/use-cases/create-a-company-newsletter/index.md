@@ -64,7 +64,7 @@ Slack
 
 Claude reads across all your channels, filters for important discussions, and organizes updates into topic-based sections. You'll receive a clear summary of events, without needing to piece together information from various messages.
 
-Here's your digest for October 27-31:
+Here's your digest for October 14-20:
 
 [**View your Interactive HTML artifact**(opens in new tab)](https://claude.ai/public/artifacts/5c2b5a3f-69ac-4b56-b54e-9cf60dca5bc7)
 

@@ -1,4 +1,4 @@
-### Chapter 03: Conclusions
+### 03Conclusions
 
 # An off switch for dual-use knowledge in AI models
 

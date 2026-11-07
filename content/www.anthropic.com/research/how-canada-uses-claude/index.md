@@ -1,4 +1,4 @@
-### Chapter 05: Utilisation de Claude au Canada : constatations présentées dans l’Anthropic Economic Index
+### 05Utilisation de Claude au Canada : constatations présentées dans l’Anthropic Economic Index
 
 # **How Canada uses Claude:**Findings from the Anthropic Economic Index
 

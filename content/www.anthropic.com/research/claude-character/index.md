@@ -1,4 +1,4 @@
-### Chapter 03: The future of Claude’s character
+### 03The future of Claude’s character
 
 # Claude’s character
 

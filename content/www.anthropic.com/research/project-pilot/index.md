@@ -1,4 +1,4 @@
-### Chapter 03: Looking ahead
+### 03Looking ahead
 
 # **Project Pilot:**Can AI control a drone?
 

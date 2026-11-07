@@ -1,5 +1,23 @@
 # Release notes
 
+## November 2026
+
+### November 6, 2026
+
+**Track spend by cost code with project tags (beta)**
+
+Eligible Enterprise organizations can now tag projects with the codes they already use, like a charge code or client-matter number, and see most spend in those projects by tag. This feature is available in beta. For more information, see **[Track spend by cost code with project tags](https://support.claude.com/en/articles/18251257-track-spend-by-project-with-tags)**.
+
+### November 5, 2026
+
+**New security and admin controls for Enterprise plans**
+
+Claude Enterprise has new security and admin features, including a security center, inference hooks, centralized management, and additional access controls, several in beta. For more information, see our blog post: **[More visibility and control over Claude Enterprise for security teams](https://claude.com/resources/articles/claude-enterprise-security-updates).**
+
+**Personal Finance in Claude**
+
+We’re rolling out Personal Finance, a beta that lets you link your bank, credit card, loan, and investment accounts to Claude, so you can see your balances and spending on one page and ask Claude questions about your own money. It's available on Pro, Max, and Ultra plans, and is available in the US only. For more information, see our blog post: **[Introducing Personal Finance in Claude](https://claude.com/resources/articles/introducing-personal-finance-in-claude)**.
+
 ## October 2026
 
 ### October 21, 2026

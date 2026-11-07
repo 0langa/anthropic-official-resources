@@ -2,7 +2,7 @@
 
 When you open Claude on a web browser ([claude.ai](https://claude.ai)), the desktop app, or a mobile app, you will see two different options for logging in to your Claude account.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893216804/f2209c3ec6cf4fc2e803d13bbc9d/40520c9e-ff82-4a7c-adca-5a064fe18d8c?expires=1793883600&amp;signature=29d15c89ef4c3cd7c927384c084501c87cec4b0ef619e90ac23dd8e92906e4ce&amp;req=dSguFct%2Fm4lfXfMW1HO4zXg5B4GE6xGyzWhrqpWiTMk%2BqzQOrTovwMo818Sz%0AKg3m2%2B09eoP352odu2Q%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1893216804/f2209c3ec6cf4fc2e803d13bbc9d/40520c9e-ff82-4a7c-adca-5a064fe18d8c?expires=1794117600&amp;signature=0ab510dad4de1e018b5bb3d6943b2c72b482bc13cfa4704d73f9c9c2a17abcad&amp;req=dSguFct%2Fm4lfXfMW3nq%2BgZ0bQ9E9GIz4XP1pJ86YnA6FfNzlsEANf0AasyA%2F%0AXElw7wJkhjWyJn96tZ2jotvz%2FkY%3D%0A)
 
 ## Continue with Google
 
@@ -75,6 +75,8 @@ If you have both an individual Claude account and a Team or Enterprise plan acco
 2. Select the desired account.
 
 3. Look for the check mark indicating the active account.
+
+If your accounts are on different email addresses, log out, then log in with the other email address. See **[Move your personal Claude account to a Team or Enterprise organization](https://support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization#h_909699092e)**.
 
 ### I don’t want to use “Continue with Google” to log in anymore; how can I revoke access to my Google account?
 

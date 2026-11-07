@@ -1,4 +1,4 @@
-### Chapter 02: How exhaustive is the persona selection model?
+### 02How exhaustive is the persona selection model?
 
 # The persona selection model
 

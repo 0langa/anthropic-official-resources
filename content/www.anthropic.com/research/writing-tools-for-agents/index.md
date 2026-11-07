@@ -1,4 +1,4 @@
-### Chapter 04: Looking ahead
+### 04Looking ahead
 
 # Writing effective tools for agents — with agents
 

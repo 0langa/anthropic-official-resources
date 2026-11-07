@@ -1,4 +1,4 @@
-### Chapter 06: What we're changing
+### 06What we're changing
 
 # A postmortem of three recent issues
 

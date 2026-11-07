@@ -1,4 +1,4 @@
-### Chapter 04: Conclusion
+### 04Conclusion
 
 # Evaluating and mitigating the growing risk of LLM-discovered 0-days
 

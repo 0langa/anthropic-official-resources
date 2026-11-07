@@ -1,4 +1,4 @@
-### Chapter 03: Get started
+### 03Get started
 
 # **Petri:**An open-source auditing tool to accelerate AI safety research
 

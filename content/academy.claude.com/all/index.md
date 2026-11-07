@@ -2,7 +2,7 @@
 
 Every use case, tutorial, and course in Claude Academy, in one place.
 
-AllCoursesTutorialsUse cases
+AllCoursesTutorialsUse casesWebinars
 
 
 
@@ -10,7 +10,7 @@ ProductAll
 
 RoleAll
 
-320 resources
+428 resources
 
 [## AI capabilities and limitations
 
@@ -117,7 +117,7 @@ Build MCP servers and clients from scratch with the Python SDK, covering the thr
 
 Every use case, tutorial, and course in Claude Academy, in one place.
 
-AllCoursesTutorialsUse cases
+AllCoursesTutorialsUse casesWebinars
 
 
 
@@ -232,7 +232,7 @@ Build MCP servers and clients from scratch with the Python SDK, covering the thr
 
 Every use case, tutorial, and course in Claude Academy, in one place.
 
-AllCoursesTutorialsUse cases
+AllCoursesTutorialsUse casesWebinars
 
 
 
@@ -240,7 +240,7 @@ ProductAll
 
 RoleAll
 
-135 tutorials
+137 tutorials
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-blskv34c.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bv9w6wt2.png)
 
@@ -387,7 +387,7 @@ Learn how to configure skills and work with multi-file skill structures in Claud
 
 Every use case, tutorial, and course in Claude Academy, in one place.
 
-AllCoursesTutorialsUse cases
+AllCoursesTutorialsUse casesWebinars
 
 
 
@@ -413,7 +413,7 @@ Account health in green/yellow/red with this week's two moves.
 
 ## Adapt a standard textbook page to every reading level
 
-Claude Opus 5 reads a single source page in detail and returns a finished file for each audience that needs it. Here, one textbook spread becomes a slide deck and reading handouts at three levels.
+Claude Opus 5.5 reads a single source page in detail and returns a finished file for each audience that needs it. Here, one textbook spread becomes a slide deck and reading handouts at three levels.
 
 ·Education·15 min](https://academy.claude.com/use-cases/adapt-a-standard-textbook-page-to-every-reading-level)[![](https://academy.claude.com/assets/v1/thumbnail.light-jiiwmich.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kfwebxwg.png)
 
@@ -467,7 +467,7 @@ Claude builds a blank scatter right in the conversation — you place the points
 
 ## Audit a folder of visual assets against your guidelines
 
-In Claude Cowork, Claude Opus 5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
+In Claude Cowork, Claude Opus 5.5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
 
 ·Marketing·15 min](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)[![](https://academy.claude.com/assets/v1/thumbnail.light-fjnnaiiq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mslbc9us.png)
 
@@ -542,3 +542,306 @@ Cowork reads competitor materials against your positioning, writes the win/lose/
 Where the deal is and what to ask on this call.
 
 ·Sales·10 min](https://academy.claude.com/use-cases/call-prep-sheet)Load more
+
+
+## Webinars
+
+# All resources
+
+Every use case, tutorial, and course in Claude Academy, in one place.
+
+AllCoursesTutorialsUse casesWebinars
+
+
+
+ProductAll
+
+StatusAll
+
+106 webinars
+
+[Upcoming
+
+## Claude for Nonprofits: An Admin’s Guide to Data Handling and AI Policy 
+
+An admin's guide to documenting how Claude handles your nonprofit's data and putting a one-page AI use policy in place.
+
+MW
+
+·Nov 10·10:00 AM PT
+
+·Upcoming·Nov 10·10:00 AM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-for-nonprofits-admin-guide-to-data-handling-ai-policy)[Upcoming
+
+## Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One 
+
+A same-day staff guide to connecting your files and using Claude for Nonprofits skills to draft a year-end appeal in your voice.
+
+MW
+
+·Nov 12·10:00 AM PT
+
+·Upcoming·Nov 12·10:00 AM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[Upcoming
+
+## Claude in Microsoft Foundry: control the cost, prove the value 
+
+Lower the cost of your Claude workloads in Microsoft Foundry, keep spend visible with gateways and controls, and prove ROI.
+
+AWAS
+
+·Nov 12·10:00 AM PT
+
+·Upcoming·Nov 12·10:00 AM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)[Upcoming
+
+## Build Agents with the Claude Platform on Google Cloud 
+
+Build agents on the full Claude Platform via Google Cloud using code execution, Files API, Agent Skills, and your existing IAM credentials.
+
+RAINED
+
+·Nov 17·10:00 AM PT
+
+·Upcoming·Nov 17·10:00 AM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[Recording
+
+## Claude Rearview Roadmap Review: October 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SSIP
+
+·Oct 22
+
+·Recording·Oct 22
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording
+
+## Tokenomics on AWS: Control and optimize your Claude spend 
+
+Optimize your Claude spend on AWS with admin controls, default model settings, and measuring cost per task on Bedrock and the API.
+
+SMAR
+
+·Oct 21
+
+·Recording·Oct 21
+
+ (opens in new tab)](https://claude.com/resources/webinars/tokenomics-on-aws-control-and-optimize-your-claude-spend)[Recording
+
+## Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+
+The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+
+DF
+
+·Oct 20
+
+·Recording·Oct 20
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)[Recording
+
+## Claude Tag on-call: A new teammate in your incident channel 
+
+See how Claude Tag works as a teammate in your Slack incident channel, from reading logs to drafting fixes, with setup you can do yourself.
+
+·Oct 15
+
+·Recording·Oct 15
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)[Recording
+
+## Inside the Cyber Verification Program: Tiers, Migration, and Best Practices 
+
+A walkthrough of the Cyber Verification Program, its three access tiers, verification, and migration for security teams.
+
+·Oct 14
+
+·Recording·Oct 14
+
+ (opens in new tab)](https://claude.com/resources/webinars/inside-the-cyber-verification-program)[Recording
+
+## Measuring AI Fluency at Your Organization 
+
+A practical framework for measuring AI Fluency across your organization beyond usage numbers, and turning findings into an enablement plan.
+
+KSSMBP
+
+·Oct 13
+
+·Recording·Oct 13
+
+ (opens in new tab)](https://claude.com/resources/webinars/measuring-ai-fluency-at-your-organization)[Recording
+
+## AI as an Engineering Leadership Multiplier 
+
+Practical ways to use AI as an engineering leadership multiplier without outsourcing judgment, accountability, or the human work.
+
+SA
+
+·Oct 8
+
+·Recording·Oct 8
+
+ (opens in new tab)](https://claude.com/resources/webinars/ai-as-an-engineering-leadership-multiplier)[Recording
+
+## Claude Corps Cohort 2: How to Become a Host Organization 
+
+A walkthrough of the Claude Corps Cohort 2 timeline, revised intake interview, selection and matching, and host organization grants and contracts.
+
+CMCCJE
+
+·Oct 8
+
+·Recording·Oct 8
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-corps-cohort-2-how-to-become-a-host-organization)[Recording
+
+## Building with the Claude 5.5 Family: Choosing the Right Model and Getting More from Every Token 
+
+How the Claude 5.5 models were built, how to pick the right one with evals, and cut cost per task with caching and orchestration.
+
+LGBL
+
+·Oct 1
+
+·Recording·Oct 1
+
+ (opens in new tab)](https://claude.com/resources/webinars/building-with-the-claude-5-5-family-choosing-the-right-model-and-getting-more-from-every-token)[Recording
+
+## How to control costs and show ROI for Claude Code on Google Cloud 
+
+Configure the Claude apps gateway on Google Cloud to govern Claude Code spend and access, then turn usage data into a solid ROI case.
+
+RAIN
+
+·Oct 1
+
+·Recording·Oct 1
+
+ (opens in new tab)](https://claude.com/resources/webinars/how-to-control-costs-and-show-roi-for-claude-code-on-google-cloud-emea-rebroadcast)[Recording
+
+## Enterprise Transformation with Claude on AWS: Paths to Production 
+
+Walk through the paths to running Claude on AWS, from the Platform API and Bedrock to Claude Enterprise and Desktop, with live Claude Code.
+
+JAAR
+
+·Sep 30
+
+·Recording·Sep 30
+
+ (opens in new tab)](https://claude.com/resources/webinars/enterprise-transformation-with-claude-on-aws-paths-to-production-emea-rebroadcast)[Recording
+
+## Claude in Microsoft Foundry: Tool Integrations in Practice 
+
+Build agents with Claude in Microsoft Foundry on Azure using tool search, the MCP connector, web search, web fetch, and structured outputs.
+
+AWHC
+
+·Sep 30
+
+·Recording·Sep 30
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-in-microsoft-foundry-tool-integrations-in-practice-emea-rebroadcast)[Recording
+
+## How to control costs and show ROI for Claude Code on Google Cloud 
+
+Configure the Claude apps gateway on Google Cloud to govern Claude Code spend and access, then turn usage data into an ROI business case.
+
+RAIN
+
+·Sep 30
+
+·Recording·Sep 30
+
+ (opens in new tab)](https://claude.com/resources/webinars/how-to-control-costs-and-show-roi-for-claude-code-on-google-cloud-apac-rebroadcast)[Recording
+
+## Claude in Microsoft Foundry: Tool Integrations in Practice 
+
+Build agents on Claude in Microsoft Foundry using tool search, the MCP connector, web search, web fetch, and structured outputs.
+
+AWHC
+
+·Sep 29
+
+·Recording·Sep 29
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-in-microsoft-foundry-tool-integrations-in-practice-apac-rebroadcast)[Recording
+
+## Opus 5.5 for Work 
+
+See what is new in Claude Opus 5.5 for everyday work, with practical use cases across writing, analysis, and collaboration.
+
+APNWNL
+
+·Sep 25
+
+·Recording·Sep 25
+
+ (opens in new tab)](https://claude.com/resources/webinars/opus-5-5-for-work)[Recording
+
+## Modernizing Legacy Code with Claude Code 
+
+Live demos of Claude Code modernizing real codebases, from COBOL-to-Java migration to a 500K-line Java upgrade, using the modernization plugin.
+
+BNHPML
+
+·Sep 24
+
+·Recording·Sep 24
+
+ (opens in new tab)](https://claude.com/resources/webinars/modernizing-legacy-code-with-claude-code)[Recording
+
+## How to Roadmap with Decisions Rather Than Dates 
+
+How to run a decision-constrained engineering organization, leading your roadmap by decisions rather than dates as AI tools improve.
+
+WL
+
+·Sep 21
+
+·Recording·Sep 21
+
+ (opens in new tab)](https://claude.com/resources/webinars/how-to-roadmap-with-decisions-rather-than-dates)[Recording
+
+## Enterprise Readiness: A CISO's Guide to Deploying Claude 
+
+A CISO's guide to rolling out Claude Enterprise, from deployment models and governance controls to scaling from chat into Claude Code.
+
+DFBNIP
+
+·Sep 18
+
+·Recording·Sep 18
+
+ (opens in new tab)](https://claude.com/resources/webinars/enterprise-readiness-a-cisos-guide-to-deploying-claude)[Recording
+
+## Inside Claude for Financial Advisors 
+
+A walkthrough of how Claude for Financial Advisors handles meeting prep, follow-ups, CRM updates and compliance checks for your firm.
+
+BNPNDP
+
+·Sep 18
+
+·Recording·Sep 18
+
+ (opens in new tab)](https://claude.com/resources/webinars/inside-claude-for-financial-advisors)[Recording
+
+## Enterprise Transformation with Claude on AWS: Paths to Production 
+
+Explore the multiple paths to running Claude on AWS, from Claude Platform and Bedrock to Claude Enterprise and Desktop, with live Claude Code demos.
+
+JASMAR
+
+·Sep 16
+
+·Recording·Sep 16
+
+ (opens in new tab)](https://claude.com/resources/webinars/enterprise-transformation-with-claude-on-aws-three-paths-to-production)Load more

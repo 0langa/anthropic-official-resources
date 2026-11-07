@@ -1,4 +1,4 @@
-### Chapter 04: Challenges
+### 04Challenges
 
 # Raising the bar on SWE-bench Verified with Claude 3.5 Sonnet
 

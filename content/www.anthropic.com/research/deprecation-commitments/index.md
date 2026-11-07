@@ -6,6 +6,9 @@
 - Category
 
   [Models](https://www.anthropic.com/news/models)
+- Team
+
+  [Alignment](https://www.anthropic.com/research/team/alignment)
 - Topics
 
   - [Model welfare](https://www.anthropic.com/search?topic=model-welfare)

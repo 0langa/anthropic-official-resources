@@ -1,4 +1,4 @@
-### Chapter 03: Conclusion
+### 03Conclusion
 
 # Measuring LLMs’ impact on N-day exploits
 

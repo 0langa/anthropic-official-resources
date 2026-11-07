@@ -1,4 +1,4 @@
-### Chapter 06: What can be done to address biorisk?
+### 06What can be done to address biorisk?
 
 # Why do we take LLMs seriously as a potential source of biorisk?
 

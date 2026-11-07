@@ -1,4 +1,4 @@
-### Chapter 06: Discussion
+### 06Discussion
 
 # Emotion concepts and their function in a large language model
 

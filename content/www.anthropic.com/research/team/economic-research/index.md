@@ -29,7 +29,7 @@ The speed of AI development means the stakes are unusually high. We need reliabl
 
 Nov 5, 2026[## AI for scientific discovery: How researchers use Claude](https://www.anthropic.com/research/how-researchers-use-claude)
 
-In this report, we use privacy-preserving infrastructure to study the scientific use of Claude, Claude Code, and Claude Science. We document how usage varies across scientific fields and research tasks, identify what explains these usage patterns, and outline scenarios for how AI could accelerate research.
+We analyzed 207,000 research sessions to learn how Claude is used in science, why some tasks get more use than others, and how AI could speed up discovery.
 
 [Economics](https://www.anthropic.com/research/team/economics)
 
@@ -181,13 +181,13 @@ Works to understand the risks of AI models and develop ways to ensure future one
 
 [### Engineering](https://www.anthropic.com/engineering)
 
-27 posts
+28 posts
 
 Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
 [### Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-37 posts
+38 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 
@@ -205,7 +205,7 @@ Studies how AI affects people, both individually and collectively.
 
 [### Science](https://www.anthropic.com/science)
 
-17 posts
+18 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 
@@ -223,13 +223,13 @@ Works to understand the risks of AI models and develop ways to ensure future one
 
 [### Engineering](https://www.anthropic.com/engineering)
 
-27 posts
+28 posts
 
 Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
 [### Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-37 posts
+38 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 
@@ -247,7 +247,7 @@ Studies how AI affects people, both individually and collectively.
 
 [### Science](https://www.anthropic.com/science)
 
-17 posts
+18 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 

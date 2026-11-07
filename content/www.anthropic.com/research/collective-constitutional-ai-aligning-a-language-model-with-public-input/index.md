@@ -1,4 +1,4 @@
-### Chapter 06: Policy Memo
+### 06Policy Memo
 
 # **Collective Constitutional AI:**Aligning a language model with public input
 

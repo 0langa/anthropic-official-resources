@@ -47,3 +47,35 @@ Build an accurate mental model of what large language models can and cannot do: 
 Explore the benefits of moving from single-player to multiplayer AI and learn how to prepare your team for the shift.
 
 ·Course·5 lessons · 1 quiz·45 min](https://academy.claude.com/courses/building-effective-human-agent-teams)
+
+## Featured webinars
+
+[View all webinars](https://academy.claude.com/webinars)
+
+[Recurring
+
+### Claude Code: Foundations 
+
+A hands-on intro to Claude Code: install the CLI, fix a live bug, teach it your codebase with claude.md, and scale agents via MCP.
+
+·Recurring
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-code-foundations-series)[Recurring
+
+### Claude Code: Advanced 
+
+Go deep on Claude Code power skills: context engineering, MCP, hooks and permissions, and agent orchestration in a real codebase.
+
+·Recurring
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-code-workshop-advanced)[Recurring
+
+### Building your first workflow with Cowork 
+
+A hands-on build-along launching your first Cowork workflow, covering connectors, skills, permissions, and a scheduled weekly digest.
+
+APSM
+
+·Recurring
+
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)

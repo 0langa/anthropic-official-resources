@@ -1,4 +1,4 @@
-### Chapter 03: Mitigations
+### 03Mitigations
 
 # **From shortcuts to sabotage:**Natural emergent misalignment from reward hacking
 

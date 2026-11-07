@@ -53,17 +53,21 @@ Like Claude Mythos Preview, GLM-5.3 has strong capabilities for autonomously bui
 
 04
 
-36
+38
 
 ARTICLES
 
 Most recentGrid view
 
-Nov 2, 2026![](https://assets.claude.com/105d9bbc7744153eb45473e80b4918a631c4111c.png?w=1920&q=75&fm=webp&fit=max)
+Nov 6, 2026![](https://assets.claude.com/105d9bbc7744153eb45473e80b4918a631c4111c.png?w=1920&q=75&fm=webp&fit=max)
+
+### [Project EVE: Claude plays MMORPGs](https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs)
+
+Nov 2, 2026![](https://assets.claude.com/16194f7cb602e45abc0c59bb09a5d2183e7629eb.png?w=1920&q=75&fm=webp&fit=max)
 
 ### [Progress on provable inference for large language models](https://www.anthropic.com/research/provable-inference)
 
-Oct 27, 2026![](https://assets.claude.com/16194f7cb602e45abc0c59bb09a5d2183e7629eb.png?w=1920&q=75&fm=webp&fit=max)
+Oct 27, 2026![](https://assets.claude.com/16c346d44a310e746657cd16ea275a2da5efa719.png?w=1920&q=75&fm=webp&fit=max)
 
 ### [Discovering and exploiting vulnerabilities in critical, real-world software with Claude](https://www.anthropic.com/research/discovering-vulnerabilities-with-claude)
 
@@ -71,7 +75,7 @@ Oct 22, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.
 
 ### [LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/research/formal-verification)
 
-Oct 20, 2026![](https://assets.claude.com/1755639b93c7cec99475de59cb9802d0e13e6207.png?w=1920&q=75&fm=webp&fit=max)
+Oct 20, 2026![](https://assets.claude.com/18636e2f18982e3166a613b3f028e27b196bfe2f.png?w=1920&q=75&fm=webp&fit=max)
 
 ### [Using Claude to reduce the attack surface of code](https://www.anthropic.com/research/attack-surface-reduction)
 
@@ -151,29 +155,25 @@ Jan 14, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.
 
 ### [Finding bugs across the Python ecosystem with Claude and property-based testing](https://www.anthropic.com/research/property-based-testing)
 
-Jan 8, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fff8299d39b0077e002f4cb18ecc9f66d83b256d5-1280x1280.jpg&w=1080&q=75)
-
-### [Experimenting with AI to defend critical infrastructure](https://www.anthropic.com/research/critical-infrastructure-defense)
-
 See more
 
 ## Explore work from other teams
 
 [### Alignment](https://www.anthropic.com/research/team/alignment)
 
-49 posts
+51 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
-25 posts
+26 posts
 
 Studies and monitors the impact of AI systems on individuals, firms, and economies.
 
 [### Engineering](https://www.anthropic.com/engineering)
 
-27 posts
+28 posts
 
 Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
@@ -197,25 +197,25 @@ Explores how AI can increase the pace of scientific progress through both resear
 
 [### Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-36 posts
+38 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 
 [### Alignment](https://www.anthropic.com/research/team/alignment)
 
-49 posts
+51 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
-25 posts
+26 posts
 
 Studies and monitors the impact of AI systems on individuals, firms, and economies.
 
 [### Engineering](https://www.anthropic.com/engineering)
 
-27 posts
+28 posts
 
 Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
@@ -239,6 +239,6 @@ Explores how AI can increase the pace of scientific progress through both resear
 
 [### Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-36 posts
+38 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.

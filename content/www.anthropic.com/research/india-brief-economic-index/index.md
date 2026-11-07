@@ -1,4 +1,4 @@
-### Chapter 05: Implications
+### 05Implications
 
 # **India Country Brief:**The Anthropic Economic Index
 
@@ -23,9 +23,9 @@ Related articles
 
 - Economics
 
-  Mar 31, 2026
+  Nov 5, 2026
 
-  [How Australia uses Claude: Findings from the Anthropic Economic Index](https://www.anthropic.com/research/how-australia-uses-claude)
+  [AI for scientific discovery: How researchers use Claude](https://www.anthropic.com/research/how-researchers-use-claude)
 
 [View more](https://www.anthropic.com/search?topic=economic-index)
 

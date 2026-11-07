@@ -1,4 +1,4 @@
-### Chapter 06: Appendix
+### 06Appendix
 
 # AI agents find $4.6M in blockchain smart contract exploits
 

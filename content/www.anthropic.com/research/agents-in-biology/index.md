@@ -1,4 +1,4 @@
-### Chapter 05: As Karpathy said: “make [genomic data] accessible to agents”
+### 05As Karpathy said: “make [genomic data] accessible to agents”
 
 # Paving the way for agents in biology
 

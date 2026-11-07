@@ -25,4 +25,4 @@ What will you create?
 
 Take it with you or get in touch with us.
 
-[Download now (opens in new tab)](https://assets.claude.com/1a141d558ed76a8862a5c9405fd0a8a1c9c1630f.pdf?dl=)[Contact sales](https://claude.com/contact-sales)
+[Download now (opens in new tab)](https://assets.claude.com/ea738626e8e62361b11c53310fcbe4067e34f314.pdf?dl=)[Contact sales](https://claude.com/contact-sales)

@@ -60,7 +60,7 @@ This tutorial offers a full overview of the 4 properties of AI. It's a quick ref
 
 ## Try a task
 
-[![](https://academy.claude.com/assets/v1/thumbnail.light-hteb4ys0.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-n0jyfw6m.png)
+[![](https://academy.claude.com/assets/v1/thumbnail.light-1f9oo581.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ezfj6qxl.png)
 
 ## Quickly prep for your week
 

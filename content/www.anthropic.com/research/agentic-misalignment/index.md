@@ -1,4 +1,4 @@
-### Chapter 06: Conclusions and caveats
+### 06Conclusions and caveats
 
 # **Agentic misalignment:**How LLMs could be insider threats
 

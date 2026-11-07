@@ -42,7 +42,7 @@ Explore how to build AI Fluency within your organization
 
 ## Adapt a standard textbook page to every reading level
 
-Claude Opus 5 reads a single source page in detail and returns a finished file for each audience that needs it. Here, one textbook spread becomes a slide deck and reading handouts at three levels.
+Claude Opus 5.5 reads a single source page in detail and returns a finished file for each audience that needs it. Here, one textbook spread becomes a slide deck and reading handouts at three levels.
 
 ·Use case·Education·15 min](https://academy.claude.com/use-cases/adapt-a-standard-textbook-page-to-every-reading-level)[![](https://academy.claude.com/assets/v1/thumbnail.light-j5nmmtm6.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dh3ezc7v.png)
 
@@ -54,7 +54,7 @@ Claude builds an interactive visual inline as you talk through the problem — s
 
 ## Map your understanding and build lessons from the gaps
 
-Claude Opus 5 traces your confusion to its source. It maps what you already understand, finds the specific misconception underneath, and builds personalized learning experiences around it.
+Claude Opus 5.5 traces your confusion to its source. It maps what you already understand, finds the specific misconception underneath, and builds personalized learning experiences around it.
 
 ·Use case·Personal·20 min](https://academy.claude.com/use-cases/map-your-understanding-and-build-lessons-from-the-gaps)[![](https://academy.claude.com/assets/v1/thumbnail.light-e4rnoq1t.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lsn6xpe9.png)
 
