@@ -1,4 +1,3 @@
-https://academy.claude.com/all?status=on-demand
 https://academy.claude.com/courses/tool-use-with-the-messages-api/**call.input
 https://academy.claude.com/dashboard
 https://academy.claude.com/mcp
@@ -17,7 +16,6 @@ https://code.claude.com/docs/en/examples
 https://code.claude.com/docs/en/reference
 https://platform.claude.com/cookbook/URL
 https://platform.claude.com/cookbook/block
-https://platform.claude.com/cookbook/managed-agents-cma-dreaming-with-a-dynamic-workflow
 https://platform.claude.com/cookbook/name
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/DOCX-JS
 https://platform.claude.com/docs/en/agents-and-tools/agent-skills/EXAMPLES
@@ -52,7 +50,6 @@ https://support.claude.com/en/articles/10389539-using-the-google-docs-integratio
 https://support.claude.com/en/articles/11506255-get-started-with-claude-in-slack
 https://support.claude.com/en/articles/11506255-getting-started-with-claude-in-slack
 https://support.claude.com/en/articles/12306336-claude-for-chrome-release-notes
-https://support.claude.com/en/articles/12386328
 https://support.claude.com/en/articles/12461605-using-claude-in-slack
 https://support.claude.com/en/articles/12650343-claude-in-excel
 https://support.claude.com/en/articles/12650343-use-claude-for-excel
@@ -62,6 +59,7 @@ https://support.claude.com/en/articles/13521390-use-claude-in-powerpoint
 https://support.claude.com/en/articles/13521390-using-claude-in-powerpoint
 https://support.claude.com/en/articles/13694757-access-engagement-and-adoption-data-with-the-analytics-api
 https://support.claude.com/en/articles/13694757-claude-enterprise-analytics-api-access-engagement-and-adoption-data
+https://support.claude.com/en/articles/13779868
 https://support.claude.com/en/articles/13892150-work-across-apps-with-cowork
 https://support.claude.com/en/articles/13892150-work-across-excel-powerpoint-and-word
 https://support.claude.com/en/articles/13892150-work-across-microsoft-365-apps
@@ -72,7 +70,6 @@ https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents
 https://support.claude.com/en/articles/14855664-use-claude-for-outlook
 https://support.claude.com/en/articles/15330089
 https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion
-https://support.claude.com/en/articles/18251257-track-spend-by-project-with-tags
 https://support.claude.com/en/articles/7996866-how-long-do-you-store-personal-data
 https://support.claude.com/en/articles/9945670-using-the-github-integration
 https://support.claude.com/en/articles/9945689-claude-for-engineering

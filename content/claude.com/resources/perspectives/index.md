@@ -16,7 +16,7 @@ Jess Yan, Claude Managed Agents product manager, shares how she uses the product
 
 Claude Platform](https://claude.com/resources/articles/product-development-in-the-agentic-era)
 
-[WebinarUpcoming | Nov 5, 2026
+[WebinarNov 5, 2026
 
 ### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
 
@@ -65,7 +65,7 @@ Advanced filters
 
 Showing 11 of 65 resources
 
-[WebinarUpcoming | Nov 5, 2026
+[WebinarNov 5, 2026
 
 ### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
 

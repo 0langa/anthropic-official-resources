@@ -22,11 +22,11 @@
 
 Related articles
 
-- Economics
+- Frontier Red Team
 
-  Oct 16, 2026
+  Nov 6, 2026
 
-  [How employment is changing at Anthropic](https://www.anthropic.com/research/employment-at-anthropic)
+  [Project EVE: Claude plays MMORPGs](https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs)
 
 [View more](https://www.anthropic.com/search?topic=agents)
 

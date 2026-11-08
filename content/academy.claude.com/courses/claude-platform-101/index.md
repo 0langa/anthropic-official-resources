@@ -33,7 +33,7 @@ The final section hands work off. You'll learn when to run your own loop and whe
 
 ## Recommended prerequisites[](https://academy.claude.com/courses/claude-platform-101)
 
-Comfort reading and writing code in at least one language, plus basic command-line familiarity. Most demos use the Python SDK (`anthropic`, installed with pip). The lessons "Your first API call", "What is tool use?" and "Building with Claude Code" use the TypeScript SDK (`@anthropic-ai/sdk`) with Node and npm. You don't need to be an expert in either language, but you should be able to follow along and run a script. You'll need a Claude Console account and an API key from platform.claude.com. New accounts get a small amount of free credit to test the API. After that, you add credit under Settings > Billing. You don't need prior experience building with LLMs.
+Comfort reading and writing code in at least one language, plus basic command-line familiarity. Most demos use the Python SDK (`anthropic`, installed with pip). The lessons "Your first API call", "What is tool use?" and "Building with Claude Code" use the TypeScript SDK (`@anthropic-ai/sdk`) with Node and npm. You don't need to be an expert in either language, but you should be able to follow along and run a script. You'll need a Claude Console account and an API key from platform.claude.com. Before your first API call, check that you have credit on the [Billing page(opens in new tab)](https://platform.claude.com/settings/billing) in the Claude Console. If you have none, add credit there. You don't need prior experience building with LLMs.
 
 ## Who this is for[](https://academy.claude.com/courses/claude-platform-101)
 

@@ -23,9 +23,9 @@ Related articles
 
 - Science
 
-  Oct 20, 2026
+  Nov 6, 2026
 
-  [How Claude designed protein binders against scorpion neurotoxins](https://www.anthropic.com/research/claude-scorpion-toxin-binder-design)
+  [Teaching AI to build scientific models](https://www.anthropic.com/research/teaching-ai-to-build-scientific-models)
 
 [View more](https://www.anthropic.com/search?topic=life-sciences)
 

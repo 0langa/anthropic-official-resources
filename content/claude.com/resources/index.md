@@ -343,17 +343,17 @@ Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-fin
 
 The full Claude Platform is now on Google Cloud — build agents from the Google Cloud account you already run.
 
-Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[WebinarUpcoming | Nov 12, 2026
+Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[WebinarUpcoming | Nov 17, 2026
+
+### Claude for Manufacturing: Put Your Plant’s Know-How to Work
+
+This one-hour technical session covers where that’s heading, what works today, and how to start.](https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work)[WebinarUpcoming | Nov 12, 2026
 
 ### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
 
 Most nonprofit staff on Claude open a chat, get a decent but generic answer, and go back to doing it by hand.
 
-Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[WebinarUpcoming | Nov 12, 2026
-
-### Claude in Microsoft Foundry: control the cost, prove the value
-
-See how to cut Claude costs in Microsoft Foundry, track who’s spending what, and prove the ROI.](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)
+Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)
 
 ## Videos
 

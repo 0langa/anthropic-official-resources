@@ -148,7 +148,7 @@ Can you learn how we write, so your drafts sound like us? Work from our spring a
 
 Kofi asks Claude to learn Maple Hollow's voice from three past letters
 
-Reading filesReading filesrunning
+Reading filesReading filesrunning
 
 Reading files
 
@@ -285,7 +285,7 @@ Can you find funders that fit the Reading Room, and skip anyone who already fund
 
 Kofi tells Claude to skip anyone who already funds Maple Hollow
 
-Reading filesReading filesrunning
+Reading filesReading filesrunning
 
 Reading files
 
@@ -391,7 +391,7 @@ We owe the Maple County Community Foundation a report on our grant. Can you draf
 
 Kofi asks for the source of every figure and placeholders for missing numbers
 
-Reading filesReading filesrunning
+Reading filesReading filesrunning
 
 Reading files
 

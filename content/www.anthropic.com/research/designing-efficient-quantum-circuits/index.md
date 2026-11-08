@@ -22,11 +22,11 @@
 
 Related articles
 
-- Science
+- Frontier Red Team
 
-  Nov 4, 2026
+  Nov 6, 2026
 
-  [Investigating vault particles with Claude](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
+  [Project EVE: Claude plays MMORPGs](https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs)
 
 [View more](https://www.anthropic.com/search?topic=discovery)
 

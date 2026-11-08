@@ -6,6 +6,8 @@ This article shows you how to permanently delete your account on the web and in 
 
 ## Before you delete a paid account
 
+**Note:** If you use Personal Finance, unlink your banks before your paid plan ends, even if you’ve already canceled it. You can’t open Personal Finance after your plan ends. If your plan has already ended, follow the steps in **[Use Personal Finance in Claude](https://support.claude.com/en/articles/18185620-use-personal-finance-with-claude)** before you delete your account.
+
 If you're on a Pro, Max, or Ultra plan:
 
 1. Cancel your subscription from your **[Billing settings](https://claude.ai/settings/billing)**.
@@ -52,10 +54,12 @@ These steps apply to Claude for Android, listed on Google Play as Claude by Anth
 
 ## What happens when you delete your account
 
-When you delete your account, you’ll no longer have access to your conversations, projects, and account information. Learn more about **[how long Anthropic stores your data](https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data)**.
+When you delete your account, you’ll no longer have access to your conversations, projects, account information, or any remaining usage credits. Learn more about **[how long Anthropic stores your data](https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data)**.
 
 ## When you need to contact support
 
 In some scenarios you'll need to contact our team to delete your account. If this applies to you, it'll be noted in your account settings. Learn more about **[how to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)**.
+
+If you're in a Team or Enterprise organization and only want to close your personal account, you can usually do it yourself. Switch to your organization, go to **[Settings > Account > Close your personal account](https://claude.ai/settings/account)**, and see **[Close your personal account without moving your work](https://support.claude.com/en/articles/9267400-move-your-personal-claude-account-to-a-team-or-enterprise-organization#h_ca32360002)**.
 
 If you have multiple accounts associated with the same email address, you'll need to specify which accounts you want to delete when you contact us.

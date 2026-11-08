@@ -47,4 +47,4 @@ The bottlenecks are no longer what you can build, but what you choose to build.
 
 Take it with you or get in touch with us.
 
-[Download now (opens in new tab)](https://assets.claude.com/8b2520efcded23f023fa548d470ad2b8e25a71f0.pdf?dl=)[Contact sales](https://claude.com/contact-sales)
+[Download now (opens in new tab)](https://assets.claude.com/503ee04b4aa55a4db49a69b993463b6fa8dad6d8.pdf?dl=)[Contact sales](https://claude.com/contact-sales)

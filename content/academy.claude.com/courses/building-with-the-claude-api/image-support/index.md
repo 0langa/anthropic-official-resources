@@ -12,16 +12,16 @@ Claude's vision capabilities let you include images in your messages and ask Cla
 
 ## Image Handling Basics[](https://academy.claude.com/courses/building-with-the-claude-api/image-support)
 
-![Limits on images, such as 100 per request and 5MB each, beside code for an image block and text block, both below.](https://academy.claude.com/assets/media/98c768b5f76c2323de2b36964b308e2de4ad89ee155b489ac419e0aeab21b045.jpg)
+![A slide with an older version of the image limits and token formula listed below, beside the image block and text block code also shown below.](https://academy.claude.com/assets/media/98c768b5f76c2323de2b36964b308e2de4ad89ee155b489ac419e0aeab21b045.jpg)
 
 There are several important limitations to keep in mind when working with images:
 
-- Up to 100 images across all messages in a single request
-- Max size of 5MB per image
+- Up to 600 images across all messages in a single request (100 for models with a 200k-token context window)
+- Max size of 10MB per image, measured after base64 encoding
 - When sending one image: max height/width of 8000px
 - When sending multiple images: max height/width of 2000px
 - Images can be included as base64 encoding or a URL to the image
-- Each image counts as tokens based on its dimensions: `tokens = (width px × height px) / 750`
+- Each image counts as tokens based on its dimensions: `tokens = ⌈width / 28⌉ × ⌈height / 28⌉`
 
 To send an image to Claude, you include an image block in your user message alongside text blocks. Here's the structure:
 

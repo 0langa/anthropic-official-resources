@@ -50,7 +50,7 @@ The organization default applies to every member. To set it:
 
 4. Click “Save changes.”
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2514722139/d05c94072a41ea9090ecf386c53e/c32ee31d-954a-4551-a2da-91677fbd0b6f?expires=1793970900&amp;signature=0583bc3a8365619bf54d7b46cef638a43bc993337c5c43978cffd004ffb684b8&amp;req=diUmEs58n4BcUPMW1HO4zelOdjFJKkhOfdGVZ664dGEj8bwEkik%2Blx7UhrPB%0AhIRPlmv0RWAaK%2BrCM7Y%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2514722139/d05c94072a41ea9090ecf386c53e/c32ee31d-954a-4551-a2da-91677fbd0b6f?expires=1794141900&amp;signature=39d0550c9b2caea02d751227174fd73a64ee63f719374c14a8cd4dba450f5471&amp;req=diUmEs58n4BcUPMW1HO4zelOdjZBKUlOfdGVZ664dGErq4T%2BnOSuKrRqDVFo%0Aa%2FB7wj4ZIfyegklJjoE%3D%0A)
 
 ---
 
@@ -72,7 +72,7 @@ The default effort level can't be higher than the organization's effort cap for 
 
 ---
 
-## Always start new chats on the default model (beta)
+## Always start new chats on the default model
 
 By default, each user's next conversation starts on the model they last used. Turn on this setting to have every new conversation start on your organization's default model and default effort level instead.
 

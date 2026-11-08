@@ -17,9 +17,9 @@ When working with images in Claude, you need to understand a few key limitations
 - Up to 20 images across all messages in a single request
 - Max size of 3.75MB
 - Max height/width of 8000px
-- Each image counts as a certain number of tokens: `tokens = (width px × height px) / 750`
+- Each image counts as a certain number of tokens: `tokens = ⌈width / 28⌉ × ⌈height / 28⌉`
 
-![The image limits and token formula listed above, beside the Python code shown below that sends image.png bytes.](https://academy.claude.com/assets/media/526d6a757d8d880fe2d248896cf82c9fcab501795d46eed54dc629dcd228399f.png)
+![A slide with the image limits listed above and an older token formula, beside the Python code shown below that sends image.png bytes.](https://academy.claude.com/assets/media/526d6a757d8d880fe2d248896cf82c9fcab501795d46eed54dc629dcd228399f.png)
 
 To include an image, you add it as another type of message part. For each image you want to send, you include one image part in your user message. The structure looks like this:
 

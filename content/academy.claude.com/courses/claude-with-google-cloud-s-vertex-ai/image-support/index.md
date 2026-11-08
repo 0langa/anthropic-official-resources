@@ -12,16 +12,16 @@ Claude's vision capabilities let you include images in your messages and ask Cla
 
 ## Image Handling Basics[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/image-support)
 
-![Claude image limits and the token formula listed below, beside the base64 image block code also shown below.](https://academy.claude.com/assets/media/c7b1cb42c0c5f46b5bf09f44253dd36437835d6302d817dd9f04345498dbd6c0.png)
+![A slide with an older version of the image limits and token formula listed below, beside the base64 image block code also shown below.](https://academy.claude.com/assets/media/c7b1cb42c0c5f46b5bf09f44253dd36437835d6302d817dd9f04345498dbd6c0.png)
 
 When working with images in Claude, you need to understand several key limitations:
 
 - Up to 100 images across all messages in a single request
-- Max size of 5MB per image
+- Max size of 10MB per image, measured after base64 encoding
 - When sending one image: max height/width of 8000px
 - When sending multiple images: max height/width of 2000px
 - Images can be included as base64 encoding only
-- Each image counts as tokens based on dimensions: `tokens = (width px × height px) / 750`
+- Each image counts as tokens based on dimensions: `tokens = ⌈width / 28⌉ × ⌈height / 28⌉`
 
 To include an image, you add an image block to your user message alongside text blocks. Here's the structure:
 

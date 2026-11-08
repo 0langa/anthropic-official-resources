@@ -23,9 +23,9 @@ Related articles
 
 - Science
 
-  Nov 4, 2026
+  Nov 6, 2026
 
-  [Investigating vault particles with Claude](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
+  [Teaching AI to build scientific models](https://www.anthropic.com/research/teaching-ai-to-build-scientific-models)
 
 [View more](https://www.anthropic.com/search?topic=discovery)
 

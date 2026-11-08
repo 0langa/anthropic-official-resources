@@ -1,4 +1,1 @@
-https://academy.claude.com/all?status=on-demand
-https://platform.claude.com/cookbook/managed-agents-cma-dreaming-with-a-dynamic-workflow
-https://support.claude.com/en/articles/12386328
-https://support.claude.com/en/articles/18251257-track-spend-by-project-with-tags
+https://support.claude.com/en/articles/13779868

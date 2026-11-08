@@ -2,7 +2,7 @@
 
 Learn complete financial analysis workflows using a three-phase approach: retrieving data, analyzing information, and creating professional deliverables.
 
-20 minClaude
+7 minClaude
 
 [Open Claude](https://claude.ai/new)
 

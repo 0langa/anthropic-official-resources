@@ -9,7 +9,7 @@ Four sessions are scheduled this fall, starting September 18. Each runs live wit
 ## Webinars
 
 - [On demandEnterprise Readiness: A CISO's Guide to Deploying Claude(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/b863dfc3-1f1d-4cb4-86af-fab76bc6e2c0)
-- [Upcoming | Nov 5, 2026The State of Cybersecurity: What Frontier AI Changes for Security Leaders](https://claude.com/resources/webinars/the-state-of-cybersecurity)
+- [Nov 5, 2026The State of Cybersecurity: What Frontier AI Changes for Security Leaders](https://claude.com/resources/webinars/the-state-of-cybersecurity)
 
 Register now
 

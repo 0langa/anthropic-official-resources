@@ -26,6 +26,11 @@ Your registration data is processed by Microsoft to facilitate your attendance a
   Aurora Santiago-Moore
 
   Director of Worldwide Business Strategy, Azure Digital & Application Innovation @ Microsoft
+- ![](https://assets.claude.com/d017ab61e0ddf80ba03a3a656d9ca47345448253.png?w=128&h=128&fit=crop)
+
+  Alex Vieira
+
+  Applied AI Global Black Belt at Microsoft
 
 ## What you’ll learn
 

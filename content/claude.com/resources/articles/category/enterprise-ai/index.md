@@ -24,25 +24,21 @@ A research preview is available by waitlist today, starting with US Pro, Max, an
 
 ![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
+[ArticleNov 5, 2026
+
+### Introducing Personal Finance in Claude
+
+Ask Claude about your money and get straight answers from the accounts you connect.](https://claude.com/resources/articles/introducing-personal-finance-in-claude)
+
+[ArticleNov 5, 2026
+
+### More visibility and control over Claude Enterprise for security teams
+
+Claude EnterpriseClaude apps](https://claude.com/resources/articles/claude-enterprise-security-updates)
+
 [ArticleNov 4, 2026
 
 ### New agents and products for security, productivity, and creative work on Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace)
-
-[ArticleNov 2, 2026
-
-### Make long-running agents faster with message threads
-
-New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
-
-Claude Platform](https://claude.com/resources/articles/message-threads)
-
-[ArticleOct 28, 2026
-
-### Smart reports, surveys, and pooled group budgets for Claude Enterprise
-
-In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
-
-Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)
 
 [ArticleOct 22, 2026
 
@@ -56,9 +52,13 @@ Featured resource 1 of 5: Building agents: When to fold subagents into your main
 
 Advanced filters(1)
 
-Showing 12 of 46 resources
+Showing 12 of 47 resources
 
-[ArticleOct 28, 2026
+[ArticleNov 5, 2026
+
+### More visibility and control over Claude Enterprise for security teams
+
+Claude EnterpriseClaude apps](https://claude.com/resources/articles/claude-enterprise-security-updates)[ArticleOct 28, 2026
 
 ### Smart reports, surveys, and pooled group budgets for Claude Enterprise
 
@@ -123,12 +123,6 @@ Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/res
 How to transform your software development lifecycle with AI—stage by stage.
 ‍
 
-Claude EnterpriseClaude Code1 more: Claude TagClaude Tag](https://claude.com/resources/articles/the-ai-native-sdlc-playbook)[ArticleAug 20, 2026
-
-### How monday.com transformed its platform into an agent-first product where humans and agents collaborate
-
-After it hit a ceiling with add-on AI features, monday rebuilt its platform around Claude. Two months and five million agent interactions later, its team shares five lessons from the transition to an agent-first product.
-
-Claude Enterprise](https://claude.com/resources/articles/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate)
+Claude EnterpriseClaude Code1 more: Claude TagClaude Tag](https://claude.com/resources/articles/the-ai-native-sdlc-playbook)
 
 View more

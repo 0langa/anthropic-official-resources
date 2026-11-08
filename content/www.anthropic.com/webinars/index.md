@@ -30,6 +30,12 @@ The full Claude Platform is now on Google Cloud — build agents from the Google
 
 Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)
 
+[WebinarUpcoming | Nov 17, 2026
+
+### Claude for Manufacturing: Put Your Plant’s Know-How to Work
+
+This one-hour technical session covers where that’s heading, what works today, and how to start.](https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work)
+
 [WebinarUpcoming | Nov 12, 2026
 
 ### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
@@ -37,12 +43,6 @@ Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-w
 Most nonprofit staff on Claude open a chat, get a decent but generic answer, and go back to doing it by hand.
 
 Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)
-
-[WebinarUpcoming | Nov 12, 2026
-
-### Claude in Microsoft Foundry: control the cost, prove the value
-
-See how to cut Claude costs in Microsoft Foundry, track who’s spending what, and prove the ROI.](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)
 
 [WebinarNov 5, 2026
 
@@ -54,7 +54,7 @@ Featured resource 1 of 5: The State of Cybersecurity: What Frontier AI Changes f
 
 Advanced filters
 
-Showing 22 of 117 resources
+Showing 23 of 118 resources
 
 ## Upcoming webinars
 
@@ -77,6 +77,10 @@ Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofi
 ### Claude in Microsoft Foundry: control the cost, prove the value
 
 See how to cut Claude costs in Microsoft Foundry, track who’s spending what, and prove the ROI.](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)[WebinarUpcoming | Nov 17, 2026
+
+### Claude for Manufacturing: Put Your Plant’s Know-How to Work
+
+This one-hour technical session covers where that’s heading, what works today, and how to start.](https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work)[WebinarUpcoming | Nov 17, 2026
 
 ### Build Agents with the Claude Platform on Google Cloud
 

@@ -4558,6 +4558,7 @@ https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sal
 https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access
 https://support.claude.com/en/articles/13756069-public-sector-faqs
 https://support.claude.com/en/articles/13776697-join-an-organization-via-invite-link
+https://support.claude.com/en/articles/13779868
 https://support.claude.com/en/articles/13779868-migrate-your-organization-from-team-to-enterprise
 https://support.claude.com/en/articles/13799932
 https://support.claude.com/en/articles/13799932-manage-groups-and-group-spend-limits-on-enterprise-plans
