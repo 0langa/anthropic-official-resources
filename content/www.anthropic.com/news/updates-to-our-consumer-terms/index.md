@@ -1,17 +1,18 @@
 # Updates to Consumer Terms and Privacy Policy
 
-- Published
+Published
+:   Aug 28, 2025
 
-  Aug 28, 2025
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Privacy](https://www.anthropic.com/search?topic=privacy)
+    - [Training](https://www.anthropic.com/search?topic=training)
+    - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
 
-  - [Privacy](https://www.anthropic.com/search?topic=privacy)
-  - [Training](https://www.anthropic.com/search?topic=training)
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)See more...
+    See more...
 
 Related articles
 

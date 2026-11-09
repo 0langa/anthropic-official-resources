@@ -2,18 +2,19 @@
 
 ![Redesigning source control at Anthropic](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F797991dbd54214ea4bc68bfeba853ccd134f49ca-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 13, 2026
 
-  Oct 13, 2026
-- Team
+Team
+:   [Engineering](https://www.anthropic.com/engineering)
 
-  [Engineering](https://www.anthropic.com/engineering)
-- Topics
+Topics
+:   - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
 
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)See more...
+    See more...
 
 *Updated October 15 to include more detail on the projects that pioneered many of the techniques we use in Scion.*
 

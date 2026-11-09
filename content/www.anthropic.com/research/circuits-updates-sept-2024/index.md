@@ -2,17 +2,18 @@
 
 [Read Circuits Updates](https://transformer-circuits.pub/2024/september-update/index.html)
 
-- Published
+Published
+:   Oct 1, 2024
 
-  Oct 1, 2024
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
 
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)See more...
+    See more...
 
 Related articles
 

@@ -1,17 +1,18 @@
 # Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer
 
-- Published
+Published
+:   Aug 4, 2026
 
-  Aug 4, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)
+    - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
 
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)
-  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)See more...
+    See more...
 
 Related articles
 

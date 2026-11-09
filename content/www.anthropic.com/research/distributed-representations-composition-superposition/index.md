@@ -2,15 +2,14 @@
 
 [Read Paper](https://transformer-circuits.pub/2023/superposition-composition/index.html)
 
-- Published
+Published
+:   May 4, 2023
 
-  May 4, 2023
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
-
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
 
 Related articles
 

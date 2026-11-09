@@ -1,19 +1,20 @@
 # Funding better evaluations of AI’s impact on wellbeing
 
-- Published
+Published
+:   Aug 25, 2026
 
-  Aug 25, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Wellbeing](https://www.anthropic.com/search?topic=wellbeing)
+    - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
 
-  - [Wellbeing](https://www.anthropic.com/search?topic=wellbeing)
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)See more...
+    See more...
 
 Related articles
 

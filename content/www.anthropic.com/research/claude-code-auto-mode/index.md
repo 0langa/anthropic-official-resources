@@ -2,19 +2,20 @@
 
 # **How we built Claude Code auto mode:**a safer way to skip permissions
 
-- Published
+Published
+:   Mar 25, 2026
 
-  Mar 25, 2026
-- Team
+Team
+:   [Engineering](https://www.anthropic.com/engineering)
 
-  [Engineering](https://www.anthropic.com/engineering)
-- Topics
+Topics
+:   - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
 
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)See more...
+    See more...
 
 Related articles
 

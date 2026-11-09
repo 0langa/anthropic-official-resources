@@ -1,14 +1,13 @@
 # Anthropic files S-1 with the SEC for proposed initial public offering
 
-- Published
+Published
+:   Oct 26, 2026
 
-  Oct 26, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
-
-  - [Funding](https://www.anthropic.com/search?topic=funding)
+Topics
+:   - [Funding](https://www.anthropic.com/search?topic=funding)
 
 Related articles
 

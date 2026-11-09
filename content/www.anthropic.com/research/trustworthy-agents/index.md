@@ -4,19 +4,20 @@
 
 ![Trustworthy agents in practice](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Faa2f55dfd3024c507675ebb4a45969ca32ae005c-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Apr 9, 2026
 
-  Apr 9, 2026
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Tool use](https://www.anthropic.com/search?topic=tool-use)
 
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)See more...
+    See more...
 
 Related articles
 

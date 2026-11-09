@@ -4,20 +4,21 @@
 
 ![Colored paper dots scattered randomly on gray grid paper at left, and arranged in an orderly five-by-five grid on blue grid paper at right.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F17fcacec1e88ea428ffe9acc64cc2f8ad6a2ce33-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Aug 28, 2026
 
-  Aug 28, 2026
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)
+    - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
+    - [Training](https://www.anthropic.com/search?topic=training)
 
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)
-  - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
-  - [Training](https://www.anthropic.com/search?topic=training)See more...
+    See more...
 
 Related articles
 

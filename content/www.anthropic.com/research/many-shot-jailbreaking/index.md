@@ -6,19 +6,20 @@
 
 ![Many-shot jailbreaking](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fbc17437cb56cf9eb126e457b3e5f1e2e66ca7b35-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Apr 2, 2024
 
-  Apr 2, 2024
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+    - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
 
-  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
-  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)See more...
+    See more...
 
 Related articles
 

@@ -1,16 +1,17 @@
 # Exploring model welfare
 
-- Published
+Published
+:   Apr 24, 2025
 
-  Apr 24, 2025
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Model welfare](https://www.anthropic.com/search?topic=model-welfare)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
 
-  - [Model welfare](https://www.anthropic.com/search?topic=model-welfare)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)See more...
+    See more...
 
 Related articles
 

@@ -6,20 +6,21 @@
 
 ![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FBj9BD2D3DzA%2Fsddefault.jpg&w=3840&q=75)
 
-- Published
+Published
+:   Mar 27, 2025
 
-  Mar 27, 2025
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
+    - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
+    - [Hallucination](https://www.anthropic.com/search?topic=hallucination)
+    - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
 
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
-  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
-  - [Hallucination](https://www.anthropic.com/search?topic=hallucination)
-  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)See more...
+    See more...
 
 Related articles
 

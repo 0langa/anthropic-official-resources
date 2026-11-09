@@ -1,17 +1,18 @@
 # SKT partnership announcement
 
-- Published
+Published
+:   Aug 15, 2023
 
-  Aug 15, 2023
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Training](https://www.anthropic.com/search?topic=training)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Training](https://www.anthropic.com/search?topic=training)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)See more...
+    See more...
 
 Related articles
 

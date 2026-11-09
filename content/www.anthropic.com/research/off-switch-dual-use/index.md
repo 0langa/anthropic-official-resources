@@ -4,20 +4,21 @@
 
 ![A neat grid of bright green dots on olive at left gives way, on beige at right, to a broken, halftone-textured grid with gaps and a single red dot.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F94652ec1a1b4342c52dc5588d9c899aee7f6ab97-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jul 8, 2026
 
-  Jul 8, 2026
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+    - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Training](https://www.anthropic.com/search?topic=training)
+    - [Access](https://www.anthropic.com/search?topic=access)
 
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
-  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Training](https://www.anthropic.com/search?topic=training)
-  - [Access](https://www.anthropic.com/search?topic=access)See more...
+    See more...
 
 *This post describes research conducted by [AE Studio](https://ae.studio/alignment) in collaboration with Anthropic.*
 

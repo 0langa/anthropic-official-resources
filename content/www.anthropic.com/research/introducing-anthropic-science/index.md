@@ -4,18 +4,19 @@
 
 ![Introducing our Science Blog](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5875fb14fc38a748218bf5af9e693e290fec61b6-1920x1080.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Mar 23, 2026
 
-  Mar 23, 2026
-- Team
+Team
+:   [Science](https://www.anthropic.com/science)
 
-  [Science](https://www.anthropic.com/science)
-- Topics
+Topics
+:   - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 *We’re launching a new blog about AI and science. We’ll share work happening at Anthropic and elsewhere, our collaborations with external researchers and labs, and discuss practical workflows for scientists using AI in their research.*
 

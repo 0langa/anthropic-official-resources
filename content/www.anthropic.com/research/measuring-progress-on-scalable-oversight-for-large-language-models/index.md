@@ -2,18 +2,19 @@
 
 [Read Paper](https://arxiv.org/abs/2211.03540)
 
-- Published
+Published
+:   Nov 4, 2022
 
-  Nov 4, 2022
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
 
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)See more...
+    See more...
 
 Related articles
 

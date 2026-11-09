@@ -6,19 +6,20 @@
 
 ![Split image showing minimalist line drawings on the left and white peonies against a brown background on the right.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Faf5d1cc2b7c0692c4f2e542f1cf8e4cabce5283f-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Apr 21, 2025
 
-  Apr 21, 2025
-- Team
+Team
+:   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
-- Topics
+Topics
+:   - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Privacy](https://www.anthropic.com/search?topic=privacy)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
 
-  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Privacy](https://www.anthropic.com/search?topic=privacy)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)See more...
+    See more...
 
 Related articles
 

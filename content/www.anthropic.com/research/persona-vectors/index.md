@@ -6,20 +6,21 @@
 
 ![Persona vectors: Monitoring and controlling character traits in language models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F088358645e24d83bde0af8bac237843141e1ba5b-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Aug 1, 2025
 
-  Aug 1, 2025
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
+    - [Hallucination](https://www.anthropic.com/search?topic=hallucination)
+    - [Training](https://www.anthropic.com/search?topic=training)
 
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
-  - [Hallucination](https://www.anthropic.com/search?topic=hallucination)
-  - [Training](https://www.anthropic.com/search?topic=training)See more...
+    See more...
 
 Related articles
 

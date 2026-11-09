@@ -1,19 +1,20 @@
 # A statement from Dario Amodei on Anthropic's commitment to American AI leadership
 
-- Published
+Published
+:   Oct 21, 2025
 
-  Oct 21, 2025
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)
+    - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [Leadership](https://www.anthropic.com/search?topic=leadership)
 
-  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)See more...
+    See more...
 
 *A statement from Anthropic CEO Dario Amodei on Anthropic’s commitment to advancing America's leadership in building powerful and beneficial AI.*
 

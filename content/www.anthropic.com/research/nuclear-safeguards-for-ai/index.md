@@ -2,20 +2,21 @@
 
 # Developing nuclear safeguards for AI
 
-- Published
+Published
+:   Aug 21, 2025
 
-  Aug 21, 2025
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
 
-  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)See more...
+    See more...
 
 Related articles
 

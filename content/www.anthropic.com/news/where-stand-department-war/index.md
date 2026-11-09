@@ -1,17 +1,18 @@
 # Where things stand with the Department of War
 
-- Published
+Published
+:   Mar 5, 2026
 
-  Mar 5, 2026
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+    - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+    - [Leadership](https://www.anthropic.com/search?topic=leadership)
 
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)See more...
+    See more...
 
 Related articles
 

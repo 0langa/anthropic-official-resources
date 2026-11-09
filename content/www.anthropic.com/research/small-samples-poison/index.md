@@ -6,19 +6,20 @@
 
 ![A small number of samples can poison LLMs of any size](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8102b7b5808362d20c7ce0acdd868bdf47ea1428-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 9, 2025
 
-  Oct 9, 2025
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Training](https://www.anthropic.com/search?topic=training)
+    - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Training](https://www.anthropic.com/search?topic=training)
-  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)See more...
+    See more...
 
 *In a joint study with the UK AI Security Institute and the Alan Turing Institute, we found that as few as 250 malicious documents can produce a "backdoor" vulnerability in a large language model—regardless of model size or training data volume. Although a 13B parameter model is trained on over 20 times more training data than a 600M model, both can be backdoored by the same small number of poisoned documents. Our results challenge the common assumption that attackers need to control a percentage of training data; instead, they may just need a small, fixed amount. Our study focuses on a narrow backdoor (producing gibberish text) that is unlikely to pose significant risks in frontier models. Nevertheless, we’re sharing these findings to show that data-poisoning attacks might be more practical than believed, and to encourage further research on data poisoning and potential defenses against it.*
 

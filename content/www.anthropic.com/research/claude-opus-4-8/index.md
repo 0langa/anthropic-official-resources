@@ -4,20 +4,21 @@
 
 ![Introducing Claude Opus 4.8](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0eaa0ed2dce9810169112e1c77de2585fcf1f5c2-2880x1620.jpg&w=1920&q=75)
 
-- Published
+Published
+:   May 28, 2026
 
-  May 28, 2026
-- Category
+Category
+:   [Models](https://www.anthropic.com/news/models)
 
-  [Models](https://www.anthropic.com/news/models)
-- Topics
+Topics
+:   - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
 
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)See more...
+    See more...
 
 Related articles
 
@@ -149,7 +150,7 @@ As always, we ran a detailed alignment assessment on the model before release. I
 In addition to Claude Opus 4.8, we’re making the following updates:
 
 - **Dynamic workflows**. This new feature, available in research preview, allows Claude to take on even bigger tasks in Claude Code. Claude can plan the work and then run hundreds of parallel subagents in a single session (and with Opus 4.8, the agents can run for even longer). It then verifies its outputs before reporting back to the user. For example, Claude Code with Opus 4.8 can now carry out codebase-scale migrations across hundreds of thousands of lines of code from kickoff to merge, with the existing test suite as its bar. You can read more about dynamic workflows—available in Claude Code for Enterprise, Team, and Max plans—in [**this post**](https://claude.com/blog/introducing-dynamic-workflows-in-claude-code).
-- **Effort control in [claude.ai](http://claude.ai/redirect/website.v1.df54340f-7cc3-4a72-81bb-3ab8c5e6909f) and Cowork**. A new control alongside the model selector lets users choose how much effort Claude puts into a response. On higher effort settings, Claude will think more frequently and more deeply to give better responses. On lower effort settings, Claude will respond faster and use up a user’s rate limits more slowly. Users now have this choice—the effort control is available on all plans.
+- **Effort control in [claude.ai](http://claude.ai/redirect/website.v1.4fbace31-afee-419b-a6e6-880424139637) and Cowork**. A new control alongside the model selector lets users choose how much effort Claude puts into a response. On higher effort settings, Claude will think more frequently and more deeply to give better responses. On lower effort settings, Claude will respond faster and use up a user’s rate limits more slowly. Users now have this choice—the effort control is available on all plans.
 - **The Messages API now accepts system entries inside the messages array.** Developers can update Claude’s instructions mid-task without breaking the prompt cache or routing the update through a user turn. This can be used in a given harness to update permissions, token budgets, or environment context as an agent runs.
 
 ![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F5HVPeux24WU%2Fsddefault.jpg&w=3840&q=75)

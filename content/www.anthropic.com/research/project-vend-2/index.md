@@ -4,19 +4,20 @@
 
 ![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F5KTHvKCrQ00%2Fsddefault.jpg&w=3840&q=75)
 
-- Published
+Published
+:   Dec 18, 2025
 
-  Dec 18, 2025
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

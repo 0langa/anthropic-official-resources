@@ -4,18 +4,19 @@
 
 ![Building effective agents](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F449cbca59ea1d94cdebb3118c21894a7c9f76db0-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Dec 19, 2024
 
-  Dec 19, 2024
-- Team
+Team
+:   [Engineering](https://www.anthropic.com/engineering)
 
-  [Engineering](https://www.anthropic.com/engineering)
-- Topics
+Topics
+:   - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+    - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
 
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
-  - [Coding](https://www.anthropic.com/search?topic=coding)See more...
+    See more...
 
 Related articles
 

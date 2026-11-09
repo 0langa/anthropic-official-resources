@@ -4,20 +4,21 @@
 
 ![Finding bugs across the Python ecosystem with Claude and property-based testing](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F00d4a464d532713023c240f4a85d10326c676362-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jan 14, 2026
 
-  Jan 14, 2026
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
 
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)See more...
+    See more...
 
 Related articles
 

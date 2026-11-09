@@ -4,19 +4,20 @@
 
 ![Claude-shaped science](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5dca367673e615ac7abbbdac9f44733d1f52638a-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 1, 2026
 
-  Oct 1, 2026
-- Team
+Team
+:   [Science](https://www.anthropic.com/science)
 
-  [Science](https://www.anthropic.com/science)
-- Topics
+Topics
+:   - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
 
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)See more...
+    See more...
 
 *In this guest post, Prof. Matthew Schwartz returns to describe a new approach to AI-accelerated science. In [Vibe Physics](https://www.anthropic.com/research/vibe-physics), Schwartz discussed similarities in capability between Claude and a physics graduate student. Here, he describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems: ones best suited to the capabilities of the current generation of LLM tools. This led him to build BootLoops, a toolkit for exact calculations in quantitative science. Because similar calculations often turn up across very disparate areas of science, Claude found connections to ecology, population genetics, and a dozen other fields. These connections were often technically correct but scientifically unremarkable at first, so Schwartz worked with domain experts to steer BootLoops toward questions those fields care about. Below, we share more about these projects and how BootLoops came about.*
 

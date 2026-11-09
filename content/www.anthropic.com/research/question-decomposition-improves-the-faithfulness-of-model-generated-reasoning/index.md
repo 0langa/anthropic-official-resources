@@ -2,18 +2,19 @@
 
 [Download Paper](https://www-cdn.anthropic.com/8154fb1d828cdc390dc1fa442d84034948679c47/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning.pdf)
 
-- Published
+Published
+:   Jul 18, 2023
 
-  Jul 18, 2023
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
 
-  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)See more...
+    See more...
 
 Related articles
 

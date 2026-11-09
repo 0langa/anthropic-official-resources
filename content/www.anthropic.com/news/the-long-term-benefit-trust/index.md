@@ -1,17 +1,18 @@
 # The Long-Term Benefit Trust
 
-- Published
+Published
+:   Sep 19, 2023
 
-  Sep 19, 2023
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
 
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)See more...
+    See more...
 
 Related articles
 

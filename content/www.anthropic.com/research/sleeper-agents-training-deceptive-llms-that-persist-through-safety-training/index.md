@@ -4,19 +4,20 @@
 
 ![Sleeper Agents: Training deceptive LLMs that persist through safety training](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3326ffff4b249db20388a54efd1dc2a0a6baf4ea-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jan 14, 2024
 
-  Jan 14, 2024
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Training](https://www.anthropic.com/search?topic=training)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
 
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Training](https://www.anthropic.com/search?topic=training)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)See more...
+    See more...
 
 Related articles
 

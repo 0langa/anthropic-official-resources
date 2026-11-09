@@ -6,19 +6,20 @@
 
 ![Anthropic Economic Index report: Cadences](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F00d226f90349bb659b9ef2997dbaeb1d2819068c-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jun 26, 2026
 
-  Jun 26, 2026
-- Team
+Team
+:   [Economics](https://www.anthropic.com/research/team/economics)
 
-  [Economics](https://www.anthropic.com/research/team/economics)
-- Topics
+Topics
+:   - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Privacy](https://www.anthropic.com/search?topic=privacy)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Privacy](https://www.anthropic.com/search?topic=privacy)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 Related articles
 
@@ -230,7 +231,7 @@ Across all six dimensions, people with a higher share of automated sessions feel
 
 **The share of people reporting positive expected impacts of AI on economic and intrinsic dimensions of job quality is higher among more automated Claude users**This figure shows coefficient estimates from linear regressions of an indicator for whether a person expected AI to have a positive effect on each of the six dimensions of job quality onto normalized AI automation share.
 
-A natural question is why automated usage and sentiment move together. It’s possible that this relationship is explained by selection, that the people most enthusiastic about AI are also the most willing to hand over entire tasks to it. We can’t rule this out entirely, but these estimates don’t meaningfully change when we control for user tenure on [Claude.ai](http://claude.ai/redirect/website.v1.5ca13fb1-d9cb-429f-87d3-7ab4807d9105)—which we can think of as a proxy for enthusiasm, because it captures early versus later adopters.
+A natural question is why automated usage and sentiment move together. It’s possible that this relationship is explained by selection, that the people most enthusiastic about AI are also the most willing to hand over entire tasks to it. We can’t rule this out entirely, but these estimates don’t meaningfully change when we control for user tenure on [Claude.ai](http://claude.ai/redirect/website.v1.e3ffbb57-95d0-4f60-a2a4-d98bb64ccaad)—which we can think of as a proxy for enthusiasm, because it captures early versus later adopters.
 
 Another possibility is that people who use AI in more automated ways experience more of its benefits today. Consistent with our [previous findings](https://www.anthropic.com/research/81k-economics), large majorities of people report productivity gains in speed, scope, and quality of their work (86%, 82%, and 69%, respectively), while 27% report gains through cost savings on services they would otherwise have to purchase.
 

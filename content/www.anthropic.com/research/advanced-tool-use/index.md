@@ -4,19 +4,20 @@
 
 ![Introducing advanced tool use on the Claude Developer Platform](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdbce48f3e5326313a0ca293041ec47a2af9ff0c2-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Nov 24, 2025
 
-  Nov 24, 2025
-- Team
+Team
+:   [Engineering](https://www.anthropic.com/engineering)
 
-  [Engineering](https://www.anthropic.com/engineering)
-- Topics
+Topics
+:   - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+    - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+    - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
 
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
-  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)See more...
+    See more...
 
 Related articles
 

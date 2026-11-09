@@ -2,18 +2,19 @@
 
 [Download Paper](https://www-cdn.anthropic.com/827afa7dd36e4afbb1a49c735bfbb2c69749756e/measuring-faithfulness-in-chain-of-thought-reasoning.pdf)
 
-- Published
+Published
+:   Jul 18, 2023
 
-  Jul 18, 2023
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
+    - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
 
-  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)See more...
+    See more...
 
 Related articles
 

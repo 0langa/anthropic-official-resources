@@ -1,19 +1,20 @@
 # Thoughts on America’s AI Action Plan
 
-- Published
+Published
+:   Jul 23, 2025
 
-  Jul 23, 2025
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+    - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+    - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+    - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
 
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
-  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
-  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [National security](https://www.anthropic.com/search?topic=national-security)See more...
+    See more...
 
 Related articles
 

@@ -2,17 +2,18 @@
 
 [Read the paper](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html)
 
-- Published
+Published
+:   Mar 8, 2022
 
-  Mar 8, 2022
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Training](https://www.anthropic.com/search?topic=training)
+    - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
 
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Training](https://www.anthropic.com/search?topic=training)
-  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)See more...
+    See more...
 
 Related articles
 

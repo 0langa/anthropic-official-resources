@@ -2,20 +2,21 @@
 
 # **Project EVE:**Claude plays MMORPGs
 
-- Published
+Published
+:   Nov 6, 2026
 
-  Nov 6, 2026
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
 
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Coding](https://www.anthropic.com/search?topic=coding)See more...
+    See more...
 
 Related articles
 

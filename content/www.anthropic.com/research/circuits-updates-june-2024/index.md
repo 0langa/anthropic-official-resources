@@ -2,16 +2,15 @@
 
 [Read Circuits Updates](https://transformer-circuits.pub/2024/june-update/index.html)
 
-- Published
+Published
+:   Jun 28, 2024
 
-  Jun 28, 2024
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
-
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
 
 Related articles
 

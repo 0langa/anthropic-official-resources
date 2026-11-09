@@ -1,18 +1,19 @@
 # Testing and mitigating elections-related risks
 
-- Published
+Published
+:   Jun 6, 2024
 
-  Jun 6, 2024
-- Category
+Category
+:   [Safeguards](https://www.anthropic.com/news/safeguards)
 
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-- Topics
+Topics
+:   - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [Hallucination](https://www.anthropic.com/search?topic=hallucination)
 
-  - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [Hallucination](https://www.anthropic.com/search?topic=hallucination)See more...
+    See more...
 
 Related articles
 

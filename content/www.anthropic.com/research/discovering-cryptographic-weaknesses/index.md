@@ -4,20 +4,21 @@
 
 ![Discovering cryptographic weaknesses with Claude](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fac3d0189c2f7cf1bf6f9e80059d7b8f1a80f9ee1-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jul 28, 2026
 
-  Jul 28, 2026
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [National security](https://www.anthropic.com/search?topic=national-security)See more...
+    See more...
 
 Related articles
 

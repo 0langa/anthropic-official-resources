@@ -4,19 +4,20 @@
 
 ![Results from the first Anthropic Public Record](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd5a7bcc25c2d829930625aa836441383924d22a7-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jun 12, 2026
 
-  Jun 12, 2026
-- Team
+Team
+:   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
-- Topics
+Topics
+:   - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
 
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)See more...
+    See more...
 
 Related articles
 

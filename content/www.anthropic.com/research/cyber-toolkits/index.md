@@ -1,18 +1,19 @@
 # LLMs with cyber toolkits can conduct multistage cyber operations on business-sized computer networks
 
-- Published
+Published
+:   Jun 13, 2025
 
-  Jun 13, 2025
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

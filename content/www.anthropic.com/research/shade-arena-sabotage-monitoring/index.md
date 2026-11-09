@@ -6,19 +6,20 @@
 
 ![Six colored panels containing geometric line drawings and abstract shapes including diamonds, polyhedra, and curved lines with dots.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F67a5f18908c376d483c8e8f9b2d2d51ab14c4079-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jun 16, 2025
 
-  Jun 16, 2025
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
 
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)See more...
+    See more...
 
 Related articles
 

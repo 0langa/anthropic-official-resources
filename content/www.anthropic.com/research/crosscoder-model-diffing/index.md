@@ -4,16 +4,15 @@
 
 ![Insights on crosscoder model diffing](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1afc26e270ee0a51db2d32d03f5c9d552e078feb-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Feb 20, 2025
 
-  Feb 20, 2025
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
-
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
 
 Related articles
 

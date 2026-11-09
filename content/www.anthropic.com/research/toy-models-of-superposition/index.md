@@ -2,16 +2,15 @@
 
 [Read Paper](https://transformer-circuits.pub/2022/toy_model/index.html)
 
-- Published
+Published
+:   Sep 14, 2022
 
-  Sep 14, 2022
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
-
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Training](https://www.anthropic.com/search?topic=training)
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Training](https://www.anthropic.com/search?topic=training)
 
 Related articles
 

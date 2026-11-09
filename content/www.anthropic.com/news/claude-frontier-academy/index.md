@@ -2,19 +2,20 @@
 
 [Learn more](https://claude.com/programs/frontier-academy)
 
-- Published
+Published
+:   Oct 2, 2026
 
-  Oct 2, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Education](https://www.anthropic.com/search?topic=education)
+    - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Education](https://www.anthropic.com/search?topic=education)
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 *The first-of-its-kind Academy trains Frontier Deployed Engineers using the same standard of skills as Anthropic’s own engineers, starting with cohorts from Accenture, Bain, Capgemini, Commonwealth Bank of Australia, Deloitte, McKinsey, Morgan Stanley, Novo Nordisk and others.*
 

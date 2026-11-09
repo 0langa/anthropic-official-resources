@@ -6,19 +6,20 @@
 
 ![Abstract illustration with a circular spiral pattern in red and yellow on the left, and geometric shapes with textured backgrounds on the right.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8de01300b3228d0f77c38883440e0e090f364242-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Feb 25, 2025
 
-  Feb 25, 2025
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
 
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)See more...
+    See more...
 
 Related articles
 

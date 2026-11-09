@@ -4,20 +4,21 @@
 
 ![Patterns and problems in emerging multiagent systems](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F25145b7d272a7685dd4a579d4d43de9622b6c833-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Aug 13, 2026
 
-  Aug 13, 2026
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
 
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)See more...
+    See more...
 
 Related articles
 

@@ -4,19 +4,20 @@
 
 ![Vibe physics: The AI grad student](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd96d4ce5c32b6dc6de0d305661d26a0620f85ae6-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Mar 23, 2026
 
-  Mar 23, 2026
-- Team
+Team
+:   [Science](https://www.anthropic.com/science)
 
-  [Science](https://www.anthropic.com/science)
-- Topics
+Topics
+:   - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
+    - [Hallucination](https://www.anthropic.com/search?topic=hallucination)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
 
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)
-  - [Hallucination](https://www.anthropic.com/search?topic=hallucination)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)See more...
+    See more...
 
 *Can AI do theoretical physics? In this guest post, professor of physics [Matthew Schwartz](https://www.physics.harvard.edu/people/facpages/schwartz) decided to find out by supervising Claude through a real research calculation, start to finish, without ever touching a file himself. His account of what happened is below.*
 
@@ -71,7 +72,7 @@ and out would pop the paper. We are not there yet, of course. I tried giving thi
 
 To go about this scientifically, I encapsulated all the work. The rules were strict:
 
-- Only give text prompts to [Claude Code](https://claude.ai/redirect/website.v1.14ab7841-f47f-416f-bcbc-93277d8e0bfb/code). No editing files directly.
+- Only give text prompts to [Claude Code](https://claude.ai/redirect/website.v1.9a924eab-2cc5-4d8b-bf61-2a49ca9e0eb7/code). No editing files directly.
 - Don’t cut and paste my own calculations into the chat.
 - But pasting Gemini or GPT calculations was OK, as long as they were only text-prompted.
 
@@ -81,7 +82,7 @@ My question was: is there a set of prompts, like instructions to a talented G2, 
 
 I knew from experience that LLMs struggle with context and organization over long projects. So I started by asking Claude to come up with a plan of attack: what tasks needed to be done in what order. I also asked GPT 5.2 and Gemini 3.0. Then, I had all three LLMs merge the best ideas from each, using web interfaces and copying one to another. Next, I gave those merges to Claude, asking it to break the outline into detailed subsections. The result is [here](https://www-cdn.anthropic.com/2595299ccf7f8b9a9c74823c24faaa5d9b216804.pdf). There were 102 separate tasks across seven stages.
 
-From there, I turned to [Claude Code](https://claude.ai/redirect/website.v1.14ab7841-f47f-416f-bcbc-93277d8e0bfb/code), using the extension in VS Code.
+From there, I turned to [Claude Code](https://claude.ai/redirect/website.v1.9a924eab-2cc5-4d8b-bf61-2a49ca9e0eb7/code), using the extension in VS Code.
 
 ![A screen grab of Claude code](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2277f287d82a9a6087bc70c6d16cfd6648634d7e-1600x967.jpg&w=3840&q=75)
 

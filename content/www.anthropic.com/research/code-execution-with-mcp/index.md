@@ -4,19 +4,20 @@
 
 ![Code execution with MCP: Building more efficient agents](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3e0d0372816b05a6b7a5d21f364412dede1c3497-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Nov 4, 2025
 
-  Nov 4, 2025
-- Team
+Team
+:   [Engineering](https://www.anthropic.com/engineering)
 
-  [Engineering](https://www.anthropic.com/engineering)
-- Topics
+Topics
+:   - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+    - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
 
-  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
-  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
-  - [Coding](https://www.anthropic.com/search?topic=coding)See more...
+    See more...
 
 Related articles
 

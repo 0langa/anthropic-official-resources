@@ -2,20 +2,21 @@
 
 ![Focus areas for The Anthropic Institute](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F70882016231824c19ed88d5443739d56eb79587f-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   May 7, 2026
 
-  May 7, 2026
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Institute](https://www.anthropic.com/search?topic=institute)
+    - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Economic growth](https://www.anthropic.com/search?topic=economic-growth)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
 
-  - [Institute](https://www.anthropic.com/search?topic=institute)
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Economic growth](https://www.anthropic.com/search?topic=economic-growth)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)See more...
+    See more...
 
 Related articles
 

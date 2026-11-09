@@ -2,19 +2,20 @@
 
 # **Claude Code:**Best practices for agentic coding
 
-- Published
+Published
+:   Apr 18, 2025
 
-  Apr 18, 2025
-- Team
+Team
+:   [Engineering](https://www.anthropic.com/engineering)
 
-  [Engineering](https://www.anthropic.com/engineering)
-- Topics
+Topics
+:   - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+    - [Tool use](https://www.anthropic.com/search?topic=tool-use)
 
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)See more...
+    See more...
 
 Related articles
 
@@ -40,7 +41,7 @@ Claude Code is intentionally low-level and unopinionated, providing close to raw
 
 This post outlines general patterns that have proven effective, both for Anthropic's internal teams and for external engineers using Claude Code across various codebases, languages, and environments. Nothing in this list is set in stone nor universally applicable; consider these suggestions as starting points. We encourage you to experiment and find what works best for you!
 
-*Looking for more detailed information? Our comprehensive documentation at [claude.ai/code](https://claude.ai/redirect/website.v1.72ab2157-fd40-424f-99ef-9e334e25c8d2/code)* *covers all the features mentioned in this post and provides additional examples, implementation details, and advanced techniques.*
+*Looking for more detailed information? Our comprehensive documentation at [claude.ai/code](https://claude.ai/redirect/website.v1.a058bd73-194d-4840-8606-3027da90263b/code)* *covers all the features mentioned in this post and provides additional examples, implementation details, and advanced techniques.*
 
 ## 1. Customize your setup
 

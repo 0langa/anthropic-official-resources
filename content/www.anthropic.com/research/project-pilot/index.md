@@ -4,20 +4,21 @@
 
 ![Project Pilot: Can AI control a drone?](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2282327e263b41fd874a74aa23e692f1b2b6df9f-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jul 24, 2026
 
-  Jul 24, 2026
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Robotics](https://www.anthropic.com/search?topic=robotics)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Privacy](https://www.anthropic.com/search?topic=privacy)
 
-  - [Robotics](https://www.anthropic.com/search?topic=robotics)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Privacy](https://www.anthropic.com/search?topic=privacy)See more...
+    See more...
 
 Related articles
 

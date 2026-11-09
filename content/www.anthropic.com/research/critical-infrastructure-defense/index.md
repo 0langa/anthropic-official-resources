@@ -4,19 +4,20 @@
 
 ![Experimenting with AI to defend critical infrastructure](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3611382c3eaaa77aa174b72f13e1a4061ea21903-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jan 8, 2026
 
-  Jan 8, 2026
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 Related articles
 

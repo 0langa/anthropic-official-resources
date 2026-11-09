@@ -6,18 +6,19 @@
 
 ![A statistical approach to model evaluations](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe4058a4ea106ee1ca0546080f2feb19f6fd25bf2-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Nov 19, 2024
 
-  Nov 19, 2024
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
 
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)See more...
+    See more...
 
 Related articles
 

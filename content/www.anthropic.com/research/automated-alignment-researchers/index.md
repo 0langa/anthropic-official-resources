@@ -6,19 +6,20 @@
 
 ![Three sketches of geometric solids: a simple dodecahedron on grid paper, a larger faceted polyhedron on pink paper, and a dense cluster of spiked forms in charcoal on orange.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F946d483b72704adc33ce0550d8688345d39e9bdb-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Apr 14, 2026
 
-  Apr 14, 2026
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
 
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)See more...
+    See more...
 
 Related articles
 

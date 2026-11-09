@@ -4,19 +4,20 @@
 
 ![Assessing Claude Mythos Preview’s cybersecurity capabilities](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3245c65ef009da0e45528cb260ca9c399210bc38-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Apr 7, 2026
 
-  Apr 7, 2026
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 Related articles
 

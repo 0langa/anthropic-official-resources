@@ -6,20 +6,21 @@
 
 ![Collage combining a historic sailing ship with two flags on rough seas against cloudy skies, and text patterns reading "clouds," "boat," and "ocean" repeated throughout.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FrKV5JcALQoQ%2Fsddefault.jpg&w=3840&q=75)
 
-- Published
+Published
+:   Jul 6, 2026
 
-  Jul 6, 2026
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Model welfare](https://www.anthropic.com/search?topic=model-welfare)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
 
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Model welfare](https://www.anthropic.com/search?topic=model-welfare)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)See more...
+    See more...
 
 Related articles
 

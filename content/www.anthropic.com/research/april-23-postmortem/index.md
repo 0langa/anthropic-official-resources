@@ -4,19 +4,20 @@
 
 ![An update on recent Claude Code quality reports](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fab863ec09d7cd36cc90eebbbf3b124afdf552d28-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Apr 23, 2026
 
-  Apr 23, 2026
-- Team
+Team
+:   [Engineering](https://www.anthropic.com/engineering)
 
-  [Engineering](https://www.anthropic.com/engineering)
-- Topics
+Topics
+:   - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
+    - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
 
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
-  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)See more...
+    See more...
 
 Related articles
 

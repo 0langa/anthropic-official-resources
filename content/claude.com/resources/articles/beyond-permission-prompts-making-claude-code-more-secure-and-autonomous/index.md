@@ -77,7 +77,7 @@ Our new sandboxed bash tool and Claude Code on the web offer substantial improve
 To get started with these tools:
 
 1. Run `claude --sandbox` and check out [our docs](https://docs.claude.com/en/docs/claude-code/sandboxing) on how to configure this sandbox.
-2. Go to [claude.com/code](http://claude.ai/redirect/claudedotcom.v1.165ae549-07d4-44b0-8a74-c2637f931cbc/code) to try out Claude Code on the web.
+2. Go to [claude.com/code](http://claude.ai/redirect/claudedotcom.v1.b4f70bc0-e0f6-4761-8e5d-0bd26d3ca977/code) to try out Claude Code on the web.
 
 ‍
 

@@ -2,17 +2,18 @@
 
 [Read Paper](https://transformer-circuits.pub/2022/solu/index.html)
 
-- Published
+Published
+:   Jun 17, 2022
 
-  Jun 17, 2022
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Training](https://www.anthropic.com/search?topic=training)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
 
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Training](https://www.anthropic.com/search?topic=training)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)See more...
+    See more...
 
 Related articles
 

@@ -2,15 +2,14 @@
 
 ![Open call for guest investigators in the life sciences](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb735fbd5cb2d8b2ed82aad92fa774b8e5139b9d8-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 22, 2026
 
-  Oct 22, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
-
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+Topics
+:   - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
 
 Related articles
 

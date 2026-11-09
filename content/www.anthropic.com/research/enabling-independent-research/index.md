@@ -4,20 +4,21 @@
 
 ![Enabling independent research on how people use Claude](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb17863daa603c4331eaf45ea2969e04f4a523a5f-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Aug 26, 2026
 
-  Aug 26, 2026
-- Team
+Team
+:   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
-- Topics
+Topics
+:   - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Privacy](https://www.anthropic.com/search?topic=privacy)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
 
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Privacy](https://www.anthropic.com/search?topic=privacy)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)See more...
+    See more...
 
 *Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data. Three research groups designed their own studies for Anthropic Insights, our privacy-preserving analysis tool; we ran the data collection on their behalf, and they conducted their own independent analysis. In this post, we share high-level results from those studies and what we learned running this pilot. We’re also providing an [expression of interest form](https://docs.google.com/forms/d/e/1FAIpQLScujFA2mJXnLhrvE7wazD7drfHlfRmfnrjhMZRpeIFW_b6I7Q/viewform?usp=sharing&ouid=108982467493638405621) for researchers who may want to work with us in the future.*
 

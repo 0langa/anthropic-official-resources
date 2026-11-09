@@ -2,19 +2,20 @@
 
 [Read the Transparency Framework](https://www-cdn.anthropic.com/19cc4bf9eb6a94f9762ac67368f3322cf82b09fe.pdf)
 
-- Published
+Published
+:   Jul 7, 2025
 
-  Jul 7, 2025
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+    - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
 
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
-  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)See more...
+    See more...
 
 Related articles
 

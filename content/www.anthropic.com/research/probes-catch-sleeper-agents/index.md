@@ -4,18 +4,19 @@
 
 ![Simple probes can catch sleeper agents](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fabd8bc14de926f1605c4ad5d930eda52fc02542c-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Apr 23, 2024
 
-  Apr 23, 2024
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
 
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)See more...
+    See more...
 
 *This “Alignment Note” presents some early-stage research from the Anthropic Alignment Science team following up on our recent “[Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training](https://arxiv.org/abs/2401.05566)” paper. It should be treated as a work-in-progress update, and is intended for a more technical audience than our typical blog post. This research makes use of some simple interpretability techniques, and we expect to share more results from collaborations between our Alignment and Interpretability teams soon.*
 

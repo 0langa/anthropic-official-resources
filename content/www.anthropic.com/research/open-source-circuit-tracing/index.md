@@ -2,18 +2,19 @@
 
 ![A hand-drawn image of three hands adjusting a neural network](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff4af531468ccc20d2edbfba7a0bf9dbb8d1f4a75-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   May 29, 2025
 
-  May 29, 2025
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

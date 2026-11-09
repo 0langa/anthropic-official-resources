@@ -6,19 +6,20 @@
 
 ![Anthropic Economic Index report: Learning curves](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa7a26dcce3759f36c1738cf6358800ed5870cb45-1920x1080.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Mar 24, 2026
 
-  Mar 24, 2026
-- Team
+Team
+:   [Economics](https://www.anthropic.com/research/team/economics)
 
-  [Economics](https://www.anthropic.com/research/team/economics)
-- Topics
+Topics
+:   - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
 
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)See more...
+    See more...
 
 Related articles
 

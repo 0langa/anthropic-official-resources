@@ -4,19 +4,20 @@
 
 ![Collective Constitutional AI: Aligning a language model with public input](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb92f89e37cca5d0464279329aad3ed5111532133-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 17, 2023
 
-  Oct 17, 2023
-- Team
+Team
+:   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
-- Topics
+Topics
+:   - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)
 
-  - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)See more...
+    See more...
 
 Related articles
 

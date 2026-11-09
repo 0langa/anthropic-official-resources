@@ -1,19 +1,20 @@
 # UST is bringing Claude to physical AI
 
-- Published
+Published
+:   Jul 9, 2026
 
-  Jul 9, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
+    - [Healthcare](https://www.anthropic.com/search?topic=healthcare)
+    - [Financial services](https://www.anthropic.com/search?topic=financial-services)
+    - [Education](https://www.anthropic.com/search?topic=education)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
-  - [Healthcare](https://www.anthropic.com/search?topic=healthcare)
-  - [Financial services](https://www.anthropic.com/search?topic=financial-services)
-  - [Education](https://www.anthropic.com/search?topic=education)See more...
+    See more...
 
 Related articles
 

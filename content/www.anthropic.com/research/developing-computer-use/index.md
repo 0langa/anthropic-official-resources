@@ -1,19 +1,20 @@
 # Developing a computer use model
 
-- Published
+Published
+:   Oct 22, 2024
 
-  Oct 22, 2024
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Computer use](https://www.anthropic.com/search?topic=computer-use)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Training](https://www.anthropic.com/search?topic=training)
+    - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
 
-  - [Computer use](https://www.anthropic.com/search?topic=computer-use)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Training](https://www.anthropic.com/search?topic=training)
-  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)See more...
+    See more...
 
 Related articles
 

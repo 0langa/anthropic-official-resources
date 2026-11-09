@@ -1,17 +1,18 @@
 # Widening the conversation on frontier AI
 
-- Published
+Published
+:   May 19, 2026
 
-  May 19, 2026
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
+    - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Human flourishing](https://www.anthropic.com/search?topic=human-flourishing)
 
-  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
-  - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Human flourishing](https://www.anthropic.com/search?topic=human-flourishing)See more...
+    See more...
 
 Related articles
 

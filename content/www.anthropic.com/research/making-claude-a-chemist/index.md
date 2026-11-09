@@ -4,18 +4,19 @@
 
 ![Making Claude a chemist](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6b37cffc34e83c1957f1324b783f07d1bcf5c32b-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jun 5, 2026
 
-  Jun 5, 2026
-- Team
+Team
+:   [Science](https://www.anthropic.com/science)
 
-  [Science](https://www.anthropic.com/science)
-- Topics
+Topics
+:   - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
 
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)See more...
+    See more...
 
 Related articles
 

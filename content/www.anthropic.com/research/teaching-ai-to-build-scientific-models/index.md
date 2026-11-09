@@ -4,17 +4,20 @@
 
 ![Collage of a looping black line drawn across a pink grid, continuing into a green engraving of a textured, branching landscape.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fef92f028259401d07c41e3ea51f5ec32b958584d-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Nov 6, 2026
 
-  Nov 6, 2026
-- Team
+Team
+:   [Science](https://www.anthropic.com/science)
 
-  [Science](https://www.anthropic.com/science)
-- Topics
+Topics
+:   - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
 
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)See more...
+    See more...
+
+*[AI for Science](https://www.anthropic.com/news/ai-for-science-program) grantees [Jakob Macke](https://www.mackelab.org/), [Daniel Gedon](https://dgedon.github.io/), and [Stefan Wahl](https://scholar.google.com/citations?user=-aivjt0AAAAJ) are researchers at the [ELLIS Institute Tübingen](https://institute-tue.ellis.eu/) and the University of Tübingen, where they build AI tools for developing scientific models in neuroscience and beyond. In this guest post, they discuss how AI is starting to change scientific modeling.*
 
 Related articles
 
@@ -25,8 +28,6 @@ Related articles
   [Investigating vault particles with Claude](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
 
 [View more](https://www.anthropic.com/search?topic=discovery)
-
-> *[AI for Science](https://www.anthropic.com/news/ai-for-science-program) grantees [Jakob Macke](https://www.mackelab.org/), [Daniel Gedon](https://dgedon.github.io/), and [Stefan Wahl](https://scholar.google.com/citations?user=-aivjt0AAAAJ) are researchers at the [ELLIS Institute Tübingen](https://institute-tue.ellis.eu/) and the University of Tübingen, where they build AI tools for developing scientific models in neuroscience and beyond. In this guest post, they discuss how AI is starting to change scientific modeling.*
 
 In 1951, Cambridge University’s computer went out of action for six months. This was inconvenient for physiologist Andrew Huxley, who, alongside his colleague Alan Hodgkin, had just built a set of equations to describe how a particular squid nerve cell fired. The scientists wanted to understand the “action potential” of these nerve cells: the electrical pulses they use to communicate, which underlie everything brains do, from perception to intelligence. The only way to find out whether the equations worked was to solve them and compare the solutions to data.
 

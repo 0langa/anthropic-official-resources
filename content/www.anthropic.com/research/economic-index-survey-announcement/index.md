@@ -2,19 +2,20 @@
 
 ![Announcing the Anthropic Economic Index Survey](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fea507c3c1f47c859249470aab18aa0c843ddb853-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Apr 22, 2026
 
-  Apr 22, 2026
-- Team
+Team
+:   [Economics](https://www.anthropic.com/research/team/economics)
 
-  [Economics](https://www.anthropic.com/research/team/economics)
-- Topics
+Topics
+:   - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
 
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)See more...
+    See more...
 
 Related articles
 

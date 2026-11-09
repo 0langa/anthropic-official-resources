@@ -6,19 +6,20 @@
 
 ![Agentic coding and persistent returns to expertise](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F33af4a6c00c03400eaae6a07d7836cd1d97ea3a5-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jun 16, 2026
 
-  Jun 16, 2026
-- Team
+Team
+:   [Economics](https://www.anthropic.com/research/team/economics)
 
-  [Economics](https://www.anthropic.com/research/team/economics)
-- Topics
+Topics
+:   - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 Related articles
 
@@ -41,7 +42,7 @@ Related articles
 
 Agentic coding has taken off. The share of GitHub projects with coding agent activity has more than doubled since late 2025,[1](https://www.anthropic.com/research/claude-code-expertise) and Claude Code users now spend an average of 20 hours per week using the tool.[2](https://www.anthropic.com/research/claude-code-expertise) Can people without formal coding experience successfully direct an agent through complex technical work? And what will rapid adoption and improvement of these tools mean for knowledge work broadly? While we don’t have full answers to these questions yet, we look to Claude Code usage data for early signals.
 
-This report provides evidence on how Claude Code is used in practice, based on a [privacy-preserving analysis](https://www.anthropic.com/research/clio) of ~400,000 interactive sessions from ~235,000 people between October 2025 and April 2026. It builds on prior work focused on [measures of autonomy](https://www.anthropic.com/research/measuring-agent-autonomy) in Claude Code sessions, and [how Claude Code is changing work at Anthropic](https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic).[3](https://www.anthropic.com/research/claude-code-expertise) Here, we introduce a framework for describing interactive AI coding-assistant usage: what kind of work is being done, who is doing it, and whether it succeeds. We focus on Claude Code usage through a command-line interface (CLI), [Claude.ai](http://claude.ai/redirect/website.v1.947b21b1-5408-46b6-af19-83f66be3fd13), or the Claude Code desktop app.[4](https://www.anthropic.com/research/claude-code-expertise) By tracking how agentic coding usage changes as models get more capable, we can better understand how these tools affect the labor market for coding professionals and knowledge workers.
+This report provides evidence on how Claude Code is used in practice, based on a [privacy-preserving analysis](https://www.anthropic.com/research/clio) of ~400,000 interactive sessions from ~235,000 people between October 2025 and April 2026. It builds on prior work focused on [measures of autonomy](https://www.anthropic.com/research/measuring-agent-autonomy) in Claude Code sessions, and [how Claude Code is changing work at Anthropic](https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic).[3](https://www.anthropic.com/research/claude-code-expertise) Here, we introduce a framework for describing interactive AI coding-assistant usage: what kind of work is being done, who is doing it, and whether it succeeds. We focus on Claude Code usage through a command-line interface (CLI), [Claude.ai](http://claude.ai/redirect/website.v1.0c33c517-019d-4c3e-8cfb-f17a2b27b3dd), or the Claude Code desktop app.[4](https://www.anthropic.com/research/claude-code-expertise) By tracking how agentic coding usage changes as models get more capable, we can better understand how these tools affect the labor market for coding professionals and knowledge workers.
 
 What happens on Claude Code may be a preview of where knowledge work is headed, as agents become embedded in non-coding work. We find that Claude is handling more complex and more valuable tasks. At the same time, there remains a clear division of labor in agentic coding: People decide what to build, and the agent decides how to build it.
 

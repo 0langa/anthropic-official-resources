@@ -1,12 +1,12 @@
 # Set up Claude on Google Cloud (Google managed)
 
-Check that you have the Google managed service, then get your Google Cloud project ready and give yourself access. Then connect Claude Code or Claude Desktop and check that it answers, with no Anthropic API key. Google Cloud bills the usage.
+Check that you have the Google managed service, then get your Google Cloud project ready, give yourself access, and send Claude one test request. Then connect Claude Code or Claude Desktop and check that it answers, with no Anthropic API key. Google Cloud bills the usage.
 
 20 minClaude Code
 
-**When your company buys Claude through Google Cloud, Claude Code and Claude Desktop reach Claude through your own Google Cloud project.** You sign in with Google Cloud credentials, so you don't need an Anthropic API key, and Google Cloud bills the usage.
+**When your company buys Claude through Google Cloud's Agent Platform, Claude Code, Claude Desktop, and the applications you build all reach Claude through your own Google Cloud project.** You sign in with Google Cloud credentials, so you don't need an Anthropic API key, and Google Cloud bills the usage.
 
-Setup has three parts. Someone gets the project ready once, then each person gives themselves access. After that, you point the app you use at the project. You're done when Claude Code answers you and `/status` shows your project ID.
+Setup has four parts. Someone gets the project ready once, then each person gives themselves access. Next, you send Claude one request from your terminal and get its reply. After that, you point the app you use at the project. If you only call Claude from your own code, you can stop at the reply. For Claude Code, you're done when it answers you and `/status` shows your project ID.
 
 Google Cloud sells Claude as two services, and they're set up differently. So the first job is to check which one you have.
 
@@ -16,25 +16,27 @@ Google Cloud sells Claude as two services, and they're set up differently. So th
 
 To tell which one is yours, look at something you already have. The table shows what to look for.
 
-<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">Where to look</th><th class="border-b border-strong p-sm text-left font-medium">Google managed</th><th class="border-b border-strong p-sm text-left font-medium">Anthropic managed</th></tr></thead><tbody><tr><td class="border-b p-sm">The Google Cloud console</td><td class="border-b p-sm">Claude models in Model Garden</td><td class="border-b p-sm">The option labeled <strong>Anthropic managed</strong></td></tr><tr><td class="border-b p-sm">The SDK client in your code</td><td class="border-b p-sm">Its name contains <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Vertex</code>, as in <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">AnthropicVertex</code></td><td class="border-b p-sm">Its name contains <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">GoogleCloud</code></td></tr></tbody></table>
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">Where to look</th><th class="border-b border-strong p-sm text-left font-medium">Google managed</th><th class="border-b border-strong p-sm text-left font-medium">Anthropic managed</th></tr></thead><tbody><tr><td class="border-b p-sm">The Google Cloud console</td><td class="border-b p-sm">Claude models in Model Garden</td><td class="border-b p-sm">The option labeled <strong>Anthropic managed</strong></td></tr><tr><td class="border-b p-sm">The SDK client in your code</td><td class="border-b p-sm">Its name contains <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em] break-words">Vertex</code>, as in <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em] break-words">AnthropicVertex</code></td><td class="border-b p-sm">Its name contains <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em] break-words">GoogleCloud</code></td></tr></tbody></table>
 
 Model Garden is the part of the Google Cloud console where each model has its own card.
 
 Request URLs are a third sign. On Google managed, they point at an Agent Platform host, and the URL path contains `.../publishers/anthropic/models/{model}`. The [overview of the two services(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/overview) lists the hosts.
 
-If you have Anthropic managed, follow the [Anthropic managed docs page(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/anthropic-managed) instead. If you call `api.anthropic.com` with an API key, you use neither service.
+If you have Anthropic managed, follow [Set up Claude on Google Cloud (Anthropic managed)(opens in new tab)](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-anthropic-managed) instead. If you call `api.anthropic.com` with an API key, you use neither service.
 
 ## What you need, and what it costs[](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-google-managed)
 
 Have these ready before you start:
 
 - A Google Cloud project with billing on, and its project ID
+- Quota for the Claude models you'll use, in the region you'll use. Google's [Quotas for Anthropic Claude models(opens in new tab)](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/claude/quotas) lists the default quotas and says where to view your project's or request more.
 - The [gcloud CLI(opens in new tab)](https://cloud.google.com/sdk/docs/install), Google Cloud's command-line tool
-- [Claude Code(opens in new tab)](https://code.claude.com/docs/en/setup), installed
+- `curl` and a Bash shell, to send the test request
+- [Claude Code(opens in new tab)](https://code.claude.com/docs/en/setup), version 2.1.293 or later, if you'll use it. To update it, run `claude update`.
 
 Wherever a command below shows `YOUR-PROJECT-ID` or `PROJECT_ID`, replace it with your project ID.
 
-If you've just installed the gcloud CLI, sign it in with `gcloud auth login` or `gcloud init`. That's the gcloud CLI's own login. Application Default Credentials, which Claude Code uses, are a separate sign-in that comes under "Give yourself access."
+If you've just installed the gcloud CLI, sign it in with `gcloud auth login` or `gcloud init`. That's the gcloud CLI's own login, and the test request uses it. Application Default Credentials, which Claude Code uses, are a separate sign-in that comes under "Give yourself access."
 
 **Google Cloud bills the usage, as Agent Platform usage.** That includes what you send from Claude Code or Claude Desktop. To look up prices, start from the [billing section of this service's docs page(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/google-managed).
 
@@ -48,11 +50,12 @@ Before anyone can call Claude from a project, the project needs the Agent Platfo
 
    ```
    gcloud config set project YOUR-PROJECT-ID
-   gcloud services enable aiplatform.googleapis.com
+   gcloud services enable \
+     aiplatform.googleapis.com
    ```
 
    Google's [Before you begin steps for Claude models(opens in new tab)](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/claude/use-claude) cover this step and the billing check.
-2. Enable the Claude models you'll use, in Model Garden. Google lists [the Claude model cards(opens in new tab)](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/claude/use-claude). Open the card for each model and click **Enable**. With no model pinned, Claude Code's primary model is `claude-opus-5-5`, and it uses its default Claude Sonnet model for background tasks. The [list of default models(opens in new tab)](https://code.claude.com/docs/en/google-vertex-ai) gives both IDs, so enable those two.
+2. Enable the Claude models you'll use, in Model Garden. Google lists [the Claude model cards(opens in new tab)](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/claude/use-claude). Open the card for each model and click **Enable**. For Claude Code, enable `claude-opus-5-5`, `claude-sonnet-5-5`, `claude-haiku-5-5`, and `claude-sonnet-5`. You pin the first three when you connect Claude Code. Don't pin Claude Sonnet 5. With these pins, it's the [default model that checks actions in auto mode(opens in new tab)](https://code.claude.com/docs/en/permission-modes), which is the mode interactive sessions start in on this service unless you set another. Without the pins, Claude Code uses a [default Claude Sonnet model(opens in new tab)](https://code.claude.com/docs/en/google-vertex-ai) that's [deprecated on this service(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/google-managed).
 
 Whoever clicks **Enable** must have the [Consumer Procurement Entitlement Manager(opens in new tab)](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/use-partner-models) role in Identity and Access Management (IAM). Its ID is `roles/consumerprocurement.entitlementManager`.
 
@@ -72,7 +75,10 @@ The project is ready, but your own account still needs permission to call Claude
    bash
 
    ```
-   gcloud projects add-iam-policy-binding PROJECT_ID --member=PRINCIPAL --role=roles/aiplatform.user
+   gcloud projects add-iam-policy-binding \
+     PROJECT_ID \
+     --member=PRINCIPAL \
+     --role=roles/aiplatform.user
    ```
 
    Replace `PRINCIPAL` with `user:` and then your email address, for example, `user:you@example.com`. [Google's page on granting access(opens in new tab)](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/use-partner-models) shows the other forms `PRINCIPAL` can take. If you aren't allowed to change the project's IAM policy, ask an admin to run the command for you.
@@ -84,9 +90,59 @@ The project is ready, but your own account still needs permission to call Claude
    gcloud auth application-default login
    ```
 
+## Send Claude a test request[](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-google-managed)
+
+**Send Claude one request before you connect an app.** A reply tells you that the project and your access both work. The request calls the Agent Platform API directly, as an application you build does.
+
+1. Check which account the gcloud CLI is signed in as. The request gets its token from the gcloud CLI's own login, not from Application Default Credentials.
+
+   bash
+
+   ```
+   gcloud auth list
+   ```
+
+   The active account must be the one that has the role from "Give yourself access." If it isn't, run `gcloud auth login`.
+2. Send the request. Replace `YOUR-PROJECT-ID` first. Google Cloud bills this request as it does any other.
+
+   bash
+
+   ```
+   curl https://aiplatform.googleapis.com/v1/projects/YOUR-PROJECT-ID/locations/global/publishers/anthropic/models/claude-opus-5-5:rawPredict \
+     -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+     -H "Content-Type: application/json" \
+     -d '{
+       "anthropic_version": "2026-10-21",
+       "messages": [{"role": "user", "content": "Hey Claude!"}],
+       "max_tokens": 100
+     }'
+   ```
+
+   This request uses the region `global`. If you need data residency, both the host and the path change. The docs show [the same request on the `us` multi-region(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/google-managed).
+3. Read the reply. It's JSON, and Claude's words are in the `content` entry whose `type` is `text`. Yours will have different words and more fields than this shortened one:
+
+   json
+
+   ```
+   {
+     "type": "message",
+     "role": "assistant",
+     "content": [{"type": "text", "text": "Hello! Nice to meet you."}],
+     "stop_reason": "end_turn"
+   }
+   ```
+
+An error comes back as JSON too, with one of these codes:
+
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">Code</th><th class="border-b border-strong p-sm text-left font-medium">What to check</th></tr></thead><tbody><tr><td class="border-b p-sm">401</td><td class="border-b p-sm">The token is missing, invalid, or expired. Run <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em] break-words">gcloud auth login</code>, then send the request again.</td></tr><tr><td class="border-b p-sm">403</td><td class="border-b p-sm">The Agent Platform API is turned on, and your active account has the role from "Give yourself access."</td></tr><tr><td class="border-b p-sm">404</td><td class="border-b p-sm">The project ID and model ID in the URL are right, and the model is enabled in Model Garden.</td></tr><tr><td class="border-b p-sm">429</td><td class="border-b p-sm">Wait a few seconds and send it again. If it comes back, check your quota.</td></tr></tbody></table>
+
+The codes are in [Google's list of API errors(opens in new tab)](https://docs.cloud.google.com/gemini-enterprise-agent-platform/reference/models/api-errors). Once you have a reply, if an app can't reach Claude, look at that app's sign-in and settings first.
+
 ## Connect Claude Code or Claude Desktop[](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-google-managed)
 
-With the project ready and your access in place, point the app you use at the project. Both apps ask for the same two values: your project ID and a region. The steps below use the region `global`.
+With the project ready, your access in place, and a reply from Claude, point the app you use at the project. Both apps ask for the same two values: your project ID and a region. The steps below use the region `global`.
+
+**If you need data residency, use the `us` or `eu` multi-region.** It costs 10 percent more than `global`, which sends requests to any region with available capacity. Regional endpoints serve Claude Sonnet 4.6 and earlier models only. The docs compare [global, multi-region, and regional endpoints(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/google-managed).
 
 ### Claude Code[](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-google-managed)
 
@@ -100,12 +156,12 @@ The login wizard handles the Claude Code side.
    claude
    ```
 2. **Choose Agent Platform.** At the login prompt, select **3rd-party platform**, then **Google Vertex AI**. That's the label the login prompt still uses for Google Cloud's Agent Platform. If you're already signed in, run `/login` to open the same menu.
-3. **Follow the wizard's prompts.** When it asks how you authenticate to Google Cloud, choose Application Default Credentials from `gcloud`, which you set up in "Give yourself access." Then give it your project ID and the region `global`. The wizard verifies which Claude models your project can invoke and lets you pin them. It saves the result to your user settings file, so you don't need to export environment variables yourself.
+3. **Follow the wizard's prompts.** When it asks how you authenticate to Google Cloud, choose Application Default Credentials from `gcloud`, which you set up in "Give yourself access." Then give it your project ID and the region `global`. The wizard verifies which Claude models your project can invoke and lets you pin them. Pin all three: `claude-opus-5-5`, `claude-sonnet-5-5`, and `claude-haiku-5-5`. If the wizard starts from a different version of a model, change it before you pin. With a Haiku model pinned, Claude Code uses it for background tasks. The wizard saves the result to your user settings file, so you don't need to export environment variables yourself.
 4. **Send Claude Code a message.** When it answers, Claude Code is reaching Claude through Google Cloud.
 
 **Check that it's using the project you meant.** Run `/status`. The `API provider` line shows `Google Vertex AI`. The `GCP project`, `Default region`, and `Model` lines show your project ID, your region, and the resolved model. Compare the project ID with the project from "Get the project ready, once."
 
-**Claude Opus models have a higher per-token price than Sonnet models.** If you don't pin a primary model, you're billed at the Opus rate. To change your model pins, project, region, or credentials later, run `/setup-vertex` to reopen the wizard.
+**Claude Opus models have a higher per-token price than Sonnet models.** With all three pinned, Claude Code's primary model is still Opus, so you're billed at the Opus rate until you switch models with `/model`. To change your model pins, project, region, or credentials later, run `/setup-vertex` to reopen the wizard.
 
 To set Claude Code up without the wizard, for example, in CI or a scripted rollout, set these environment variables in the shell where you start `claude`:
 
@@ -115,6 +171,9 @@ bash
 export CLAUDE_CODE_USE_VERTEX=1
 export CLOUD_ML_REGION=global
 export ANTHROPIC_VERTEX_PROJECT_ID=YOUR-PROJECT-ID
+export ANTHROPIC_DEFAULT_OPUS_MODEL='claude-opus-5-5'
+export ANTHROPIC_DEFAULT_SONNET_MODEL='claude-sonnet-5-5'
+export ANTHROPIC_DEFAULT_HAIKU_MODEL='claude-haiku-5-5'
 ```
 
 If `/status` then shows no `API provider` line, the variables aren't reaching the process. The [manual setup steps(opens in new tab)](https://code.claude.com/docs/en/google-vertex-ai) cover the rest, including how to pin model versions for a team.
@@ -123,10 +182,11 @@ If `/status` then shows no `API provider` line, the variables aren't reaching th
 
 Claude Desktop can use Claude models through the same project, and Claude Cowork sessions run in that app. An IT administrator usually deploys it to every device, so ask whether yours already has. To try it on one device, fill in the same values by hand.
 
-1. **Open the [in-app configuration window(opens in new tab)](https://claude.com/docs/third-party/claude-desktop/in-app-configuration).** It's under **Developer → Configure Third-Party Inference…**.
+1. **Open the [in-app configuration window(opens in new tab)](https://claude.com/docs/third-party/claude-desktop/in-app-configuration).** Go to **Help → Troubleshooting → Enable Developer Mode**, then **Developer → Configure Third-Party Inference…**.
 2. **Choose the provider.** In the **Connection** section, set **Inference provider** to **Vertex AI**.
-3. **Fill in the Vertex AI credentials card.** Put your project ID in **GCP project ID** and a region in **GCP region**. The region can be `global`. Then provide exactly one credential source. **GCP credentials file path** accepts the file that `gcloud auth application-default login` produces.
-4. **Add a model.** Under **Models**, add at least one **Model list** entry, using the publisher model ID of a model you enabled.
+3. **Fill in the Vertex AI credentials card.** Put your project ID in **GCP project ID** and a region in **GCP region**. The region can be `global`. Then provide exactly one credential source. **GCP credentials file path** accepts the file that `gcloud auth application-default login` produces. Google lists [where that file is saved(opens in new tab)](https://docs.cloud.google.com/docs/authentication/application-default-credentials).
+4. **Add a model.** Under **Models**, add at least one **Model list** entry, using the publisher model ID of a model you enabled, for example, `claude-opus-5-5`.
+5. **Apply the settings.** Click **Apply Changes**. The app writes the configuration to this device only and relaunches into it. Then send a message to check that Claude answers.
 
 [Deploy Claude Desktop on 3P with Google Cloud's Agent Platform(opens in new tab)](https://claude.com/docs/third-party/claude-desktop/vertex) covers the other ways to sign in and how to push the settings to every device.
 
@@ -134,7 +194,7 @@ Claude Desktop can use Claude models through the same project, and Claude Cowork
 
 These errors can stop Claude Code from reaching Claude. Find yours in the table, then apply its fix.
 
-<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">What you see</th><th class="border-b border-strong p-sm text-left font-medium">What to do</th></tr></thead><tbody><tr><td class="border-b p-sm">"Could not load the default credentials"</td><td class="border-b p-sm">Run <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">gcloud auth application-default login</code> to set up Application Default Credentials.</td></tr><tr><td class="border-b p-sm">"model not found", a 404 error</td><td class="border-b p-sm">Confirm that the model is enabled in Model Garden. Then verify that the model is available in the location you specified. With the region <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">global</code>, check in Model Garden, under "Supported features", that your models support global endpoints.</td></tr><tr><td class="border-b p-sm">A quota issue</td><td class="border-b p-sm">Check your current quotas or request a quota increase through the <a aria-describedby="_R_kt7nmd35kq_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary" data-cds="TextLink" href="https://cloud.google.com/docs/quotas/view-manage" rel="noopener noreferrer" target="_blank">Cloud Console<span class="sr-only" hidden="" id="_R_kt7nmd35kq_">(opens in new tab)</span></a>.</td></tr><tr><td class="border-b p-sm">A 429 error</td><td class="border-b p-sm">On a regional endpoint, make sure that the primary model and the small, fast model are supported in your region. Consider switching to the region <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">global</code> for better availability.</td></tr></tbody></table>
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">What you see</th><th class="border-b border-strong p-sm text-left font-medium">What to do</th></tr></thead><tbody><tr><td class="border-b p-sm">"Could not load the default credentials"</td><td class="border-b p-sm">Run <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em] break-words">gcloud auth application-default login</code> to set up Application Default Credentials.</td></tr><tr><td class="border-b p-sm">"model not found", a 404 error</td><td class="border-b p-sm">Confirm that the model is enabled in Model Garden. Then verify that the model is available in the location you specified. With the region <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em] break-words">global</code>, check in Model Garden, under "Supported features", that your models support global endpoints.</td></tr><tr><td class="border-b p-sm">A quota issue</td><td class="border-b p-sm">Check your current quotas or request a quota increase through the <a aria-describedby="_R_ktenmd35kq_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary break-words" data-cds="TextLink" href="https://cloud.google.com/docs/quotas/view-manage" rel="noopener noreferrer" target="_blank">Cloud Console<span class="sr-only" hidden="" id="_R_ktenmd35kq_">(opens in new tab)</span></a>.</td></tr><tr><td class="border-b p-sm">A 429 error</td><td class="border-b p-sm">On a regional endpoint, make sure that the primary model and the small, fast model are supported in your region. Consider switching to the region <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em] break-words">global</code> for better availability, unless you need data residency. If you already use <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em] break-words">global</code>, <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em] break-words">us</code>, or <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em] break-words">eu</code>, check your quotas or request an increase through the <a aria-describedby="_R_2l5enmd35kq_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary break-words" data-cds="TextLink" href="https://cloud.google.com/docs/quotas/view-manage" rel="noopener noreferrer" target="_blank">Cloud Console<span class="sr-only" hidden="" id="_R_2l5enmd35kq_">(opens in new tab)</span></a>.</td></tr></tbody></table>
 
 **A model can be missing from a location.** Some models are offered only on `global` or multi-region locations such as `eu` and `us`, not in specific regions. If you change your region, verify that your models are available there.
 

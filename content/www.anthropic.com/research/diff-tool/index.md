@@ -6,19 +6,20 @@
 
 ![A “diff” tool for AI: Finding behavioral differences in new models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7c1c7d641ef0cc10ba8ba034b34adfcb742799a4-1920x1080.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Mar 13, 2026
 
-  Mar 13, 2026
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)
 
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)See more...
+    See more...
 
 Related articles
 

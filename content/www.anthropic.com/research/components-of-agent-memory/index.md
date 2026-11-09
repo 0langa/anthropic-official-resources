@@ -2,17 +2,18 @@
 
 ![Illustration of two offset half circles with a grid pattern, one green and one pink, facing each other across a gap on a light blue background.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F31b7b06af6c391aa4f93ad9747d00ae248ea3c63-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Nov 6, 2026
 
-  Nov 6, 2026
-- Team
+Team
+:   [Engineering](https://www.anthropic.com/engineering)
 
-  [Engineering](https://www.anthropic.com/engineering)
-- Topics
+Topics
+:   - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+    - [Agent memory](https://www.anthropic.com/search?topic=agent-memory)
 
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
-  - [Agent memory](https://www.anthropic.com/search?topic=agent-memory)See more...
+    See more...
 
 Related articles
 

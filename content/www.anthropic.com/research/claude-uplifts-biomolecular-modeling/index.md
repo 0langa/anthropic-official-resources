@@ -4,20 +4,21 @@
 
 ![How Claude is uplifting biomolecular modeling](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5ec7f28c8beef804ea0d673a2869107f8f178514-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Sep 17, 2026
 
-  Sep 17, 2026
-- Team
+Team
+:   [Science](https://www.anthropic.com/science)
 
-  [Science](https://www.anthropic.com/science)
-- Topics
+Topics
+:   - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
 
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)See more...
+    See more...
 
 *In this post, we share how Claude made the open-source models that scientists use to predict and design biomolecules faster and more memory-efficient. Claude, working within [Claude Science,](https://claude.com/product/claude-science) optimized more than 30 of these models in just under four weeks, speeding them up roughly 4x on average. It also created a low-memory mode that enables the accurate prediction of biomolecular systems larger than 10,000 tokens (amino acids, nucleotides, and atoms from small molecules and ions) on a single NVIDIA GPU node. We are open-sourcing all of the optimized code and announcing a protein design competition co-sponsored with Adaptyv Bio, backed by up to $1 million in Claude credits and wet lab validation for over 5,000 designs.*
 

@@ -2,20 +2,21 @@
 
 # Developing Enterprise Frontier Safeguards with our customers
 
-- Published
+Published
+:   Sep 1, 2026
 
-  Sep 1, 2026
-- Category
+Category
+:   [Safeguards](https://www.anthropic.com/news/safeguards)
 
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-- Topics
+Topics
+:   - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Privacy](https://www.anthropic.com/search?topic=privacy)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Financial services](https://www.anthropic.com/search?topic=financial-services)
 
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Privacy](https://www.anthropic.com/search?topic=privacy)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Financial services](https://www.anthropic.com/search?topic=financial-services)See more...
+    See more...
 
 Related articles
 

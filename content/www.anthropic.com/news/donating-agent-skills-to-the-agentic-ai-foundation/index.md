@@ -1,17 +1,18 @@
 # Donating Agent Skills to the Agentic AI Foundation
 
-- Published
+Published
+:   Oct 22, 2026
 
-  Oct 22, 2026
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Agent Skills](https://www.anthropic.com/search?topic=agent-skills)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Agent Skills](https://www.anthropic.com/search?topic=agent-skills)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 Related articles
 

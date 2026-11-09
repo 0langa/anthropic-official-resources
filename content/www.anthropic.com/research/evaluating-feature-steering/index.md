@@ -4,18 +4,19 @@
 
 ![Evaluating feature steering: A case study in mitigating social biases](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0a91d0a7b636455a1185d092fafcca568c073e54-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 25, 2024
 
-  Oct 25, 2024
-- Team
+Team
+:   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
-- Topics
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
 
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)See more...
+    See more...
 
 Related articles
 

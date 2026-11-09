@@ -6,22 +6,23 @@
 
 ![Labor market impacts of AI: A new measure and early evidence](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F56c23cb778a7c19d014ca83cee6591c01ba4a05d-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Mar 5, 2026
 
-  Mar 5, 2026
-- Authors
+Authors
+:   - Maxim Massenkoff
+    - Peter McCrory
 
-  - Maxim Massenkoff
-  - Peter McCrory
-- Team
+Team
+:   [Economics](https://www.anthropic.com/research/team/economics)
 
-  [Economics](https://www.anthropic.com/research/team/economics)
-- Topics
+Topics
+:   - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+    - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
 
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)See more...
+    See more...
 
 Related articles
 

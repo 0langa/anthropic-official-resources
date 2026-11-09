@@ -2,20 +2,21 @@
 
 # Introducing Claude Sonnet 4.6
 
-- Published
+Published
+:   Feb 17, 2026
 
-  Feb 17, 2026
-- Category
+Category
+:   [Models](https://www.anthropic.com/news/models)
 
-  [Models](https://www.anthropic.com/news/models)
-- Topics
+Topics
+:   - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Computer use](https://www.anthropic.com/search?topic=computer-use)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
 
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Computer use](https://www.anthropic.com/search?topic=computer-use)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)See more...
+    See more...
 
 Related articles
 
@@ -29,7 +30,7 @@ Related articles
 
 *Claude Sonnet 4.6 is our most capable Sonnet model yet*. It’s a full upgrade of the model’s skills across coding, computer use, long-context reasoning, agent planning, knowledge work, and design. Sonnet 4.6 also features a 1M token context window in beta.
 
-For those on our [Free and Pro plans](https://claude.com/pricing), Claude Sonnet 4.6 is now the default model in [claude.ai](https://claude.ai/redirect/website.v1.0e734ac0-e3e4-4b34-81a2-beefc34fe806) and [Claude Cowork](https://claude.com/product/cowork). [Pricing](https://claude.com/pricing) remains the same as Sonnet 4.5, starting at $3/$15 per million tokens.
+For those on our [Free and Pro plans](https://claude.com/pricing), Claude Sonnet 4.6 is now the default model in [claude.ai](https://claude.ai/redirect/website.v1.1753adf1-d2b0-4810-93e9-c25045e2e0a3) and [Claude Cowork](https://claude.com/product/cowork). [Pricing](https://claude.com/pricing) remains the same as Sonnet 4.5, starting at $3/$15 per million tokens.
 
 Sonnet 4.6 brings much-improved coding skills to more of our users. Improvements in consistency, instruction following, and more have made developers with early access prefer Sonnet 4.6 to its predecessor by a wide margin. They often even prefer it to our smartest model from November 2025, Claude Opus 4.5.
 

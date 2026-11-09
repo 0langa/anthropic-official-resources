@@ -4,19 +4,20 @@
 
 ![Measuring LLMs’ impact on N-day exploits](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F914da8519e88a870e4c6305ea661de5b0d124b77-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jun 8, 2026
 
-  Jun 8, 2026
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 Related articles
 

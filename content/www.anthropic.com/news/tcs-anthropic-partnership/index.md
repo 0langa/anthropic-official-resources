@@ -1,19 +1,20 @@
 # TCS and Anthropic partner to bring Claude to regulated industries
 
-- Published
+Published
+:   Jun 12, 2026
 
-  Jun 12, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Financial services](https://www.anthropic.com/search?topic=financial-services)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Healthcare](https://www.anthropic.com/search?topic=healthcare)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Financial services](https://www.anthropic.com/search?topic=financial-services)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Healthcare](https://www.anthropic.com/search?topic=healthcare)See more...
+    See more...
 
 Related articles
 

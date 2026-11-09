@@ -4,18 +4,19 @@
 
 ![LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F62ef4c44cbeeaca254eadaaaf982d1d32a7e9819-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 22, 2026
 
-  Oct 22, 2026
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

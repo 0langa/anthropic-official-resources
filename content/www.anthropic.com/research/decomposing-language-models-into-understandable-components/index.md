@@ -2,17 +2,18 @@
 
 ![Decomposing language models into understandable components](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8631a609a389098894e040fe7f23cde3bb8b7313-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 5, 2023
 
-  Oct 5, 2023
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
 
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)See more...
+    See more...
 
 Related articles
 

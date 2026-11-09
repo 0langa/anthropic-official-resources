@@ -104,7 +104,9 @@ Build your skills with written guides and video lessons, from quick tasks to com
 
 ### What is Claude Managed Agents?
 
-·4 min](https://academy.claude.com/tutorials/what-is-claude-managed-agents)
+·4 min](https://academy.claude.com/tutorials/what-is-claude-managed-agents)[### Write a prompt your app can ship
+
+·10 min](https://academy.claude.com/tutorials/write-a-prompt-your-app-can-ship)
 
 ## How AI works
 

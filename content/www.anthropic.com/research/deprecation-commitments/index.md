@@ -1,21 +1,22 @@
 # Commitments on model deprecation and preservation
 
-- Published
+Published
+:   Nov 4, 2025
 
-  Nov 4, 2025
-- Category
+Category
+:   [Models](https://www.anthropic.com/news/models)
 
-  [Models](https://www.anthropic.com/news/models)
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Model welfare](https://www.anthropic.com/search?topic=model-welfare)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
 
-  - [Model welfare](https://www.anthropic.com/search?topic=model-welfare)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)See more...
+    See more...
 
 Related articles
 

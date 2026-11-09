@@ -2,18 +2,19 @@
 
 [Read Paper](https://arxiv.org/abs/2310.13798)
 
-- Published
+Published
+:   Oct 24, 2023
 
-  Oct 24, 2023
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Training](https://www.anthropic.com/search?topic=training)
+    - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
 
-  - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Training](https://www.anthropic.com/search?topic=training)
-  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)See more...
+    See more...
 
 Related articles
 

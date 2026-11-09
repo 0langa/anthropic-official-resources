@@ -4,19 +4,20 @@
 
 ![How Canada uses Claude: Findings from the Anthropic Economic Index](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fba2d0b644639d4f57141f28e122101c11f5d7acf-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jul 14, 2026
 
-  Jul 14, 2026
-- Team
+Team
+:   [Economics](https://www.anthropic.com/research/team/economics)
 
-  [Economics](https://www.anthropic.com/research/team/economics)
-- Topics
+Topics
+:   - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Economic growth](https://www.anthropic.com/search?topic=economic-growth)
 
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Economic growth](https://www.anthropic.com/search?topic=economic-growth)See more...
+    See more...
 
 *Le français suit.*
 

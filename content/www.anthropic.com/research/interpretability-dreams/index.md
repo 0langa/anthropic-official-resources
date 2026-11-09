@@ -2,17 +2,18 @@
 
 [Read Paper](https://transformer-circuits.pub/2023/interpretability-dreams/index.html)
 
-- Published
+Published
+:   May 24, 2023
 
-  May 24, 2023
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
 
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)See more...
+    See more...
 
 Related articles
 

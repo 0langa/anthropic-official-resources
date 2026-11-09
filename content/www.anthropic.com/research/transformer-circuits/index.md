@@ -4,16 +4,15 @@
 
 ![Reflections on qualitative research](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F07f7f1396d0e831b25e3fafda945c1f496c5248f-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Mar 8, 2024
 
-  Mar 8, 2024
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
-
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
 
 Related articles
 

@@ -4,20 +4,21 @@
 
 ![Long-running Claude for scientific computing](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff5df650346cb19c4515d28ff3c87175d521a9b1c-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Mar 23, 2026
 
-  Mar 23, 2026
-- Team
+Team
+:   [Science](https://www.anthropic.com/science)
 
-  [Science](https://www.anthropic.com/science)
-- Topics
+Topics
+:   - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
 
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)See more...
+    See more...
 
 Related articles
 

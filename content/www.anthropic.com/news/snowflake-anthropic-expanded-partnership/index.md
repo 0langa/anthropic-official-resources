@@ -1,17 +1,18 @@
 # Snowflake and Anthropic announce $200 million partnership to bring agentic AI to global enterprises
 
-- Published
+Published
+:   Dec 3, 2025
 
-  Dec 3, 2025
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+    See more...
 
 Related articles
 

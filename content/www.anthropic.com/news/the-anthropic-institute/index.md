@@ -1,19 +1,20 @@
 # Introducing The Anthropic Institute
 
-- Published
+Published
+:   Mar 11, 2026
 
-  Mar 11, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Institute](https://www.anthropic.com/search?topic=institute)
+    - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+    - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
 
-  - [Institute](https://www.anthropic.com/search?topic=institute)
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)See more...
+    See more...
 
 *We’re launching [The Anthropic Institute](https://www.anthropic.com/institute), a new effort to confront the most significant challenges that powerful AI will pose to our societies. The Anthropic Institute will draw on research from across Anthropic to provide information that other researchers and the public can use during our transition to a world containing much more powerful AI systems.*
 

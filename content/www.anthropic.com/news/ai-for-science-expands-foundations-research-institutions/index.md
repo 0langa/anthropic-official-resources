@@ -4,19 +4,20 @@
 
 ![AI for Science expands to foundations and research institutions](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5b18c53b35c0425fda21efaf2c3bcf10761798ec-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 28, 2026
 
-  Oct 28, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
 
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)See more...
+    See more...
 
 Related articles
 

@@ -4,18 +4,19 @@
 
 ![Predictability and Surprise in Large Generative Models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fde3f9e915424ae04ba617646637606ecab854fb1-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Feb 15, 2022
 
-  Feb 15, 2022
-- Team
+Team
+:   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
-- Topics
+Topics
+:   - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
 
-  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)See more...
+    See more...
 
 Related articles
 

@@ -53,6 +53,38 @@ Admin setup](https://academy.claude.com/products/code/setup)
 
    (opens in new tab)](https://code.claude.com/docs/en/troubleshoot-install)
 
+## Webinars
+
+[View all webinars](https://academy.claude.com/all)
+
+[Recurring
+
+### Claude Code: Foundations 
+
+A hands-on intro to Claude Code: install the CLI, fix a live bug, teach it your codebase with claude.md, and scale agents via MCP.
+
+·Recurring
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-code-foundations-series)[Recurring
+
+### Claude Code: Advanced 
+
+Go deep on Claude Code power skills: context engineering, MCP, hooks and permissions, and agent orchestration in a real codebase.
+
+·Recurring
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-code-workshop-advanced)[Upcoming · Nov 12, 10:00 AM PT
+
+### Claude in Microsoft Foundry: control the cost, prove the value 
+
+Lower the cost of your Claude workloads in Microsoft Foundry, keep spend visible with gateways and controls, and prove ROI.
+
+AWASAV
+
+·Upcoming·Nov 12·10:00 AM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)
+
 ## Docs and reference
 
 - [IDE and terminal setup code.claude.com

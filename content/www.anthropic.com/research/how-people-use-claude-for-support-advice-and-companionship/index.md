@@ -4,19 +4,20 @@
 
 ![How people use Claude for support, advice, and companionship](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fad870e30af3614feb0e66d025eb6865027fc4be1-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jun 27, 2025
 
-  Jun 27, 2025
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Wellbeing](https://www.anthropic.com/search?topic=wellbeing)
+    - [Privacy](https://www.anthropic.com/search?topic=privacy)
+    - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
+    - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
 
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Wellbeing](https://www.anthropic.com/search?topic=wellbeing)
-  - [Privacy](https://www.anthropic.com/search?topic=privacy)
-  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)See more...
+    See more...
 
 Related articles
 

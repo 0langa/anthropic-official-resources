@@ -6,19 +6,20 @@
 
 ![Sabotage evaluations for frontier models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F706e0df1f1a12de9ef5058116bf5a173acc506a2-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 18, 2024
 
-  Oct 18, 2024
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
 
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)See more...
+    See more...
 
 Related articles
 

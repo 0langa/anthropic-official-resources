@@ -1,17 +1,18 @@
 # Anthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office
 
-- Published
+Published
+:   Apr 27, 2026
 
-  Apr 27, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Nonprofits](https://www.anthropic.com/search?topic=nonprofits)
 
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Nonprofits](https://www.anthropic.com/search?topic=nonprofits)See more...
+    See more...
 
 Related articles
 

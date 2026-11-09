@@ -2,19 +2,20 @@
 
 Listen to this article
 
-- Published
+Published
+:   Feb 27, 2026
 
-  Feb 27, 2026
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+    - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+    - [Privacy](https://www.anthropic.com/search?topic=privacy)
+    - [Access](https://www.anthropic.com/search?topic=access)
 
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
-  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
-  - [Privacy](https://www.anthropic.com/search?topic=privacy)
-  - [Access](https://www.anthropic.com/search?topic=access)See more...
+    See more...
 
 Related articles
 

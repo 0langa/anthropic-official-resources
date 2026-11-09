@@ -6,18 +6,19 @@
 
 ![Signs of introspection in large language models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc59f7d367d80ed76bd8a34e7e457eadce5ebae78-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 29, 2025
 
-  Oct 29, 2025
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Model welfare](https://www.anthropic.com/search?topic=model-welfare)
 
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Model welfare](https://www.anthropic.com/search?topic=model-welfare)See more...
+    See more...
 
 Related articles
 

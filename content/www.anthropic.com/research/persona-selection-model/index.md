@@ -6,18 +6,19 @@
 
 ![A ginkgo leaf and architectural floor plans arranged on a split background of green pattern, pale green, and cream surfaces.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc527a0cf4cccc234cc7623fe5e1da6e9d82e10ac-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Feb 23, 2026
 
-  Feb 23, 2026
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
+    - [Training](https://www.anthropic.com/search?topic=training)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)
 
-  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
-  - [Training](https://www.anthropic.com/search?topic=training)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)See more...
+    See more...
 
 Related articles
 

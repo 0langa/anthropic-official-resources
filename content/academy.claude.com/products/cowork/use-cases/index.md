@@ -22,7 +22,7 @@ Account health in green/yellow/red with this week's two moves.
 
 ## Adapt a standard textbook page to every reading level
 
-Claude Opus 5 reads a single source page in detail and returns a finished file for each audience that needs it. Here, one textbook spread becomes a slide deck and reading handouts at three levels.
+Claude Opus 5.5 reads a single source page in detail and returns a finished file for each audience that needs it. Here, one textbook spread becomes a slide deck and reading handouts at three levels.
 
 ·Education·15 min](https://academy.claude.com/use-cases/adapt-a-standard-textbook-page-to-every-reading-level)[![](https://academy.claude.com/assets/v1/thumbnail.light-f72xos2e.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j0qghno4.png)
 
@@ -34,7 +34,7 @@ The query, the chart, and the plain-English answer.
 
 ## Audit a folder of visual assets against your guidelines
 
-In Claude Cowork, Claude Opus 5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
+In Claude Cowork, Claude Opus 5.5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
 
 ·Marketing·15 min](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)[![](https://academy.claude.com/assets/v1/thumbnail.light-f1fouzqt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iw1rj94h.png)
 

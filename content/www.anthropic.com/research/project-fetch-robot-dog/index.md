@@ -2,19 +2,20 @@
 
 # **Project Fetch:**Can Claude train a robot dog?
 
-- Published
+Published
+:   Nov 12, 2025
 
-  Nov 12, 2025
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Robotics](https://www.anthropic.com/search?topic=robotics)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
 
-  - [Robotics](https://www.anthropic.com/search?topic=robotics)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)See more...
+    See more...
 
 Related articles
 

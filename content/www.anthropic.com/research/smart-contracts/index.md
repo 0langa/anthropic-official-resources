@@ -4,19 +4,20 @@
 
 ![AI agents find $4.6M in blockchain smart contract exploits](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F56b7854411b182842d1dd3e423637c76173e39b4-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Dec 1, 2025
 
-  Dec 1, 2025
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)See more...
+    See more...
 
 Related articles
 

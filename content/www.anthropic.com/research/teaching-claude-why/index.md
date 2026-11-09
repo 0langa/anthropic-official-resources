@@ -4,20 +4,22 @@
 
 ![A brass key on green grid paper beside a green drafting stencil of cut-out shapes on a coral background.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2ac369f2f75b92b4506f9e5122ff3f85774c4523-2000x1125.jpg&w=1920&q=75)
 
-- Share
-- Published
+Share
 
-  May 8, 2026
-- Team
+Published
+:   May 8, 2026
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Training](https://www.anthropic.com/search?topic=training)
-  - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)See more...
+Topics
+:   - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Training](https://www.anthropic.com/search?topic=training)
+    - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+
+    See more...
 
 Related articles
 

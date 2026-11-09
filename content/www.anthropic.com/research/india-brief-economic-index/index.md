@@ -4,20 +4,21 @@
 
 ![India Country Brief: The Anthropic Economic Index](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe1aed0f32318bd12d1a879ed6a725b0759bcfa84-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Feb 16, 2026
 
-  Feb 16, 2026
-- Team
+Team
+:   [Economics](https://www.anthropic.com/research/team/economics)
 
-  [Economics](https://www.anthropic.com/research/team/economics)
-- Topics
+Topics
+:   - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Access](https://www.anthropic.com/search?topic=access)
 
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Access](https://www.anthropic.com/search?topic=access)See more...
+    See more...
 
 Related articles
 

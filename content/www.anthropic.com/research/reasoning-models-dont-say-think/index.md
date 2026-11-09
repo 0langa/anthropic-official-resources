@@ -6,20 +6,21 @@
 
 ![Reasoning models don't always say what they think](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F33702364f0b9ed261cd4329ae798e3533b9c0a2f-1920x1080.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Apr 3, 2025
 
-  Apr 3, 2025
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Training](https://www.anthropic.com/search?topic=training)
 
-  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Training](https://www.anthropic.com/search?topic=training)See more...
+    See more...
 
 Related articles
 

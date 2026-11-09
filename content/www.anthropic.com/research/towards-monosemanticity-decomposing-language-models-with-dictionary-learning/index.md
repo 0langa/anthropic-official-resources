@@ -2,16 +2,15 @@
 
 [Read Paper](https://transformer-circuits.pub/2023/monosemantic-features/index.html)
 
-- Published
+Published
+:   Oct 5, 2023
 
-  Oct 5, 2023
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
-
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
 
 Related articles
 

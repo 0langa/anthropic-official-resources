@@ -2,17 +2,18 @@
 
 [Read Paper](https://transformer-circuits.pub/2023/toy-double-descent/index.html)
 
-- Published
+Published
+:   Jan 5, 2023
 
-  Jan 5, 2023
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Training](https://www.anthropic.com/search?topic=training)
+    - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
 
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Training](https://www.anthropic.com/search?topic=training)
-  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)See more...
+    See more...
 
 Related articles
 

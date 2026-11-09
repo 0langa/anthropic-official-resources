@@ -50,7 +50,7 @@ Account health in green/yellow/red with this week's two moves.
 
 ## Adapt a standard textbook page to every reading level
 
-Claude Opus 5 reads a single source page in detail and returns a finished file for each audience that needs it. Here, one textbook spread becomes a slide deck and reading handouts at three levels.
+Claude Opus 5.5 reads a single source page in detail and returns a finished file for each audience that needs it. Here, one textbook spread becomes a slide deck and reading handouts at three levels.
 
 ·Use case·Education·15 min](https://academy.claude.com/use-cases/adapt-a-standard-textbook-page-to-every-reading-level)[![](https://academy.claude.com/assets/v1/thumbnail.light-f72xos2e.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j0qghno4.png)
 
@@ -62,7 +62,7 @@ The query, the chart, and the plain-English answer.
 
 ## Audit a folder of visual assets against your guidelines
 
-In Claude Cowork, Claude Opus 5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
+In Claude Cowork, Claude Opus 5.5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
 
 ·Use case·Marketing·15 min](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)[![](https://academy.claude.com/assets/v1/thumbnail.light-f1fouzqt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iw1rj94h.png)
 
@@ -115,6 +115,42 @@ A formatted campaign brief from rough notes.
 
    (opens in new tab)](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)
 
+## Webinars
+
+[View all webinars](https://academy.claude.com/all)
+
+[Recurring
+
+### Building your first workflow with Cowork 
+
+A hands-on build-along launching your first Cowork workflow, covering connectors, skills, permissions, and a scheduled weekly digest.
+
+APSM
+
+·Recurring
+
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+
+### Claude Rearview Roadmap Review: October 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SSIP
+
+·Recording·Oct 22
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+
+The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+
+DF
+
+·Recording·Oct 20
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+
 ## Browse it all
 
 [Use cases71 use cases](https://academy.claude.com/all)[Tutorials23 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
@@ -162,7 +198,7 @@ GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearc
 
 ## Audit a folder of visual assets against your guidelines
 
-In Claude Cowork, Claude Opus 5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
+In Claude Cowork, Claude Opus 5.5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
 
 ·Use case·Marketing·15 min](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)[![](https://academy.claude.com/assets/v1/thumbnail.light-f1fouzqt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iw1rj94h.png)
 
@@ -238,6 +274,42 @@ A blog post, a LinkedIn thread, and short social posts from one webinar, each in
   ·support.claude.com
 
    (opens in new tab)](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)
+
+## Webinars
+
+[View all webinars](https://academy.claude.com/all)
+
+[Recurring
+
+### Building your first workflow with Cowork 
+
+A hands-on build-along launching your first Cowork workflow, covering connectors, skills, permissions, and a scheduled weekly digest.
+
+APSM
+
+·Recurring
+
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+
+### Claude Rearview Roadmap Review: October 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SSIP
+
+·Recording·Oct 22
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+
+The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+
+DF
+
+·Recording·Oct 20
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
 
 ## Browse it all
 
@@ -363,6 +435,42 @@ Synthesize feedback from call transcripts, Slack, CRM notes, and Linear issues t
 
    (opens in new tab)](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)
 
+## Webinars
+
+[View all webinars](https://academy.claude.com/all)
+
+[Recurring
+
+### Building your first workflow with Cowork 
+
+A hands-on build-along launching your first Cowork workflow, covering connectors, skills, permissions, and a scheduled weekly digest.
+
+APSM
+
+·Recurring
+
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+
+### Claude Rearview Roadmap Review: October 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SSIP
+
+·Recording·Oct 22
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+
+The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+
+DF
+
+·Recording·Oct 20
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+
 ## Browse it all
 
 [Use cases71 use cases](https://academy.claude.com/all)[Tutorials23 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
@@ -487,6 +595,42 @@ A structured proposal with prior art and trade-offs filled in.
 
    (opens in new tab)](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)
 
+## Webinars
+
+[View all webinars](https://academy.claude.com/all)
+
+[Recurring
+
+### Building your first workflow with Cowork 
+
+A hands-on build-along launching your first Cowork workflow, covering connectors, skills, permissions, and a scheduled weekly digest.
+
+APSM
+
+·Recurring
+
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+
+### Claude Rearview Roadmap Review: October 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SSIP
+
+·Recording·Oct 22
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+
+The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+
+DF
+
+·Recording·Oct 20
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+
 ## Browse it all
 
 [Use cases71 use cases](https://academy.claude.com/all)[Tutorials23 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
@@ -604,6 +748,42 @@ Your perf framework published as a skill every manager runs.
   ·support.claude.com
 
    (opens in new tab)](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)
+
+## Webinars
+
+[View all webinars](https://academy.claude.com/all)
+
+[Recurring
+
+### Building your first workflow with Cowork 
+
+A hands-on build-along launching your first Cowork workflow, covering connectors, skills, permissions, and a scheduled weekly digest.
+
+APSM
+
+·Recurring
+
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+
+### Claude Rearview Roadmap Review: October 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SSIP
+
+·Recording·Oct 22
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+
+The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+
+DF
+
+·Recording·Oct 20
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
 
 ## Browse it all
 
@@ -729,6 +909,42 @@ Intercompany breaks sorted, JEs drafted with memo and support.
 
    (opens in new tab)](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)
 
+## Webinars
+
+[View all webinars](https://academy.claude.com/all)
+
+[Recurring
+
+### Building your first workflow with Cowork 
+
+A hands-on build-along launching your first Cowork workflow, covering connectors, skills, permissions, and a scheduled weekly digest.
+
+APSM
+
+·Recurring
+
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+
+### Claude Rearview Roadmap Review: October 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SSIP
+
+·Recording·Oct 22
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+
+The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+
+DF
+
+·Recording·Oct 20
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+
 ## Browse it all
 
 [Use cases71 use cases](https://academy.claude.com/all)[Tutorials23 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
@@ -847,6 +1063,42 @@ Go/no-go on the vendor with required mitigations.
 
    (opens in new tab)](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)
 
+## Webinars
+
+[View all webinars](https://academy.claude.com/all)
+
+[Recurring
+
+### Building your first workflow with Cowork 
+
+A hands-on build-along launching your first Cowork workflow, covering connectors, skills, permissions, and a scheduled weekly digest.
+
+APSM
+
+·Recurring
+
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+
+### Claude Rearview Roadmap Review: October 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SSIP
+
+·Recording·Oct 22
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+
+The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+
+DF
+
+·Recording·Oct 20
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+
 ## Browse it all
 
 [Use cases71 use cases](https://academy.claude.com/all)[Tutorials23 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
@@ -941,6 +1193,42 @@ The query, the chart, and the plain-English answer.
 
    (opens in new tab)](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)
 
+## Webinars
+
+[View all webinars](https://academy.claude.com/all)
+
+[Recurring
+
+### Building your first workflow with Cowork 
+
+A hands-on build-along launching your first Cowork workflow, covering connectors, skills, permissions, and a scheduled weekly digest.
+
+APSM
+
+·Recurring
+
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+
+### Claude Rearview Roadmap Review: October 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SSIP
+
+·Recording·Oct 22
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+
+The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+
+DF
+
+·Recording·Oct 20
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+
 ## Browse it all
 
 [Use cases71 use cases](https://academy.claude.com/all)[Tutorials23 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
@@ -988,7 +1276,7 @@ GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearc
 
 ## Audit a folder of visual assets against your guidelines
 
-In Claude Cowork, Claude Opus 5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
+In Claude Cowork, Claude Opus 5.5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
 
 ·Use case·Marketing·15 min](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)[![](https://academy.claude.com/assets/v1/thumbnail.light-e6bs284y.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-m8ta2480.png)
 
@@ -1064,6 +1352,42 @@ Every Claude output across the org stays on-brand.
   ·support.claude.com
 
    (opens in new tab)](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)
+
+## Webinars
+
+[View all webinars](https://academy.claude.com/all)
+
+[Recurring
+
+### Building your first workflow with Cowork 
+
+A hands-on build-along launching your first Cowork workflow, covering connectors, skills, permissions, and a scheduled weekly digest.
+
+APSM
+
+·Recurring
+
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+
+### Claude Rearview Roadmap Review: October 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SSIP
+
+·Recording·Oct 22
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+
+The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+
+DF
+
+·Recording·Oct 20
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
 
 ## Browse it all
 
@@ -1189,6 +1513,42 @@ Turn a folder of scattered policy documents, contracts, and records into an orga
 
    (opens in new tab)](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)
 
+## Webinars
+
+[View all webinars](https://academy.claude.com/all)
+
+[Recurring
+
+### Building your first workflow with Cowork 
+
+A hands-on build-along launching your first Cowork workflow, covering connectors, skills, permissions, and a scheduled weekly digest.
+
+APSM
+
+·Recurring
+
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+
+### Claude Rearview Roadmap Review: October 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SSIP
+
+·Recording·Oct 22
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+
+The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+
+DF
+
+·Recording·Oct 20
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+
 ## Browse it all
 
 [Use cases71 use cases](https://academy.claude.com/all)[Tutorials23 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
@@ -1313,6 +1673,42 @@ The themes across your calls, counted and quoted.
 
    (opens in new tab)](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)
 
+## Webinars
+
+[View all webinars](https://academy.claude.com/all)
+
+[Recurring
+
+### Building your first workflow with Cowork 
+
+A hands-on build-along launching your first Cowork workflow, covering connectors, skills, permissions, and a scheduled weekly digest.
+
+APSM
+
+·Recurring
+
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+
+### Claude Rearview Roadmap Review: October 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SSIP
+
+·Recording·Oct 22
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+
+The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+
+DF
+
+·Recording·Oct 20
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+
 ## Browse it all
 
 [Use cases71 use cases](https://academy.claude.com/all)[Tutorials23 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
@@ -1407,6 +1803,42 @@ Synthesize feedback from call transcripts, Slack, CRM notes, and Linear issues t
 
    (opens in new tab)](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)
 
+## Webinars
+
+[View all webinars](https://academy.claude.com/all)
+
+[Recurring
+
+### Building your first workflow with Cowork 
+
+A hands-on build-along launching your first Cowork workflow, covering connectors, skills, permissions, and a scheduled weekly digest.
+
+APSM
+
+·Recurring
+
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+
+### Claude Rearview Roadmap Review: October 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SSIP
+
+·Recording·Oct 22
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+
+The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+
+DF
+
+·Recording·Oct 20
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+
 ## Browse it all
 
 [Use cases71 use cases](https://academy.claude.com/all)[Tutorials23 tutorials](https://academy.claude.com/all)[Courses2 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
@@ -1454,7 +1886,7 @@ GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearc
 
 ## Adapt a standard textbook page to every reading level
 
-Claude Opus 5 reads a single source page in detail and returns a finished file for each audience that needs it. Here, one textbook spread becomes a slide deck and reading handouts at three levels.
+Claude Opus 5.5 reads a single source page in detail and returns a finished file for each audience that needs it. Here, one textbook spread becomes a slide deck and reading handouts at three levels.
 
 ·Use case·Education·15 min](https://academy.claude.com/use-cases/adapt-a-standard-textbook-page-to-every-reading-level)
 
@@ -1500,6 +1932,42 @@ Claude Opus 5 reads a single source page in detail and returns a finished file f
   ·support.claude.com
 
    (opens in new tab)](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)
+
+## Webinars
+
+[View all webinars](https://academy.claude.com/all)
+
+[Recurring
+
+### Building your first workflow with Cowork 
+
+A hands-on build-along launching your first Cowork workflow, covering connectors, skills, permissions, and a scheduled weekly digest.
+
+APSM
+
+·Recurring
+
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+
+### Claude Rearview Roadmap Review: October 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SSIP
+
+·Recording·Oct 22
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+
+The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+
+DF
+
+·Recording·Oct 20
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
 
 ## Browse it all
 
@@ -1594,6 +2062,42 @@ Grant Cowork access to your cluttered desktop and walk away. It reads your files
   ·support.claude.com
 
    (opens in new tab)](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)
+
+## Webinars
+
+[View all webinars](https://academy.claude.com/all)
+
+[Recurring
+
+### Building your first workflow with Cowork 
+
+A hands-on build-along launching your first Cowork workflow, covering connectors, skills, permissions, and a scheduled weekly digest.
+
+APSM
+
+·Recurring
+
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+
+### Claude Rearview Roadmap Review: October 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SSIP
+
+·Recording·Oct 22
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+
+### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+
+The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+
+DF
+
+·Recording·Oct 20
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
 
 ## Browse it all
 

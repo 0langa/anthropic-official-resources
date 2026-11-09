@@ -2,17 +2,18 @@
 
 [Read Paper](https://arxiv.org/abs/2205.10487)
 
-- Published
+Published
+:   May 21, 2022
 
-  May 21, 2022
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
+Topics
+:   - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
+    - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Training](https://www.anthropic.com/search?topic=training)
 
-  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Training](https://www.anthropic.com/search?topic=training)See more...
+    See more...
 
 Related articles
 

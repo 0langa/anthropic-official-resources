@@ -68,6 +68,42 @@ Build MCP servers and clients from scratch with the Python SDK, covering the thr
 
    (opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview)
 
+## Webinars
+
+[View all webinars](https://academy.claude.com/all)
+
+[Upcoming · Nov 12, 10:00 AM PT
+
+### Claude in Microsoft Foundry: control the cost, prove the value 
+
+Lower the cost of your Claude workloads in Microsoft Foundry, keep spend visible with gateways and controls, and prove ROI.
+
+AWASAV
+
+·Upcoming·Nov 12·10:00 AM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)[Upcoming · Nov 17, 10:00 AM PT
+
+### Build Agents with the Claude Platform on Google Cloud 
+
+Build agents on the full Claude Platform via Google Cloud using code execution, Files API, Agent Skills, and your existing IAM credentials.
+
+RAINED
+
+·Upcoming·Nov 17·10:00 AM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[Recording · Oct 22
+
+### Claude Rearview Roadmap Review: October 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SSIP
+
+·Recording·Oct 22
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
+
 ## Browse it all
 
-[Tutorials4 tutorials](https://academy.claude.com/all)[Courses8 courses](https://academy.claude.com/all)[API reference docs platform.claude.com (opens in new tab)](https://platform.claude.com/docs/en/api/overview)[Claude cookbooks platform.claude.com (opens in new tab)](https://platform.claude.com/cookbook)[Developer blog claude.dev (opens in new tab)](https://claude.dev/)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Tutorials5 tutorials](https://academy.claude.com/all)[Courses8 courses](https://academy.claude.com/all)[API reference docs platform.claude.com (opens in new tab)](https://platform.claude.com/docs/en/api/overview)[Claude cookbooks platform.claude.com (opens in new tab)](https://platform.claude.com/cookbook)[Developer blog claude.dev (opens in new tab)](https://claude.dev/)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)

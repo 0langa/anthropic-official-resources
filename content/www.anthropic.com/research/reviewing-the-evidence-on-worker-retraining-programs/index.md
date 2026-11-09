@@ -4,18 +4,19 @@
 
 ![Reviewing the evidence on worker retraining programs](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F46eef84db666a74a4013b4652d44cec7c46a3016-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Aug 12, 2026
 
-  Aug 12, 2026
-- Team
+Team
+:   [Economics](https://www.anthropic.com/research/team/economics)
 
-  [Economics](https://www.anthropic.com/research/team/economics)
-- Topics
+Topics
+:   - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+    - [Education](https://www.anthropic.com/search?topic=education)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
 
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
-  - [Education](https://www.anthropic.com/search?topic=education)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)See more...
+    See more...
 
 Related articles
 

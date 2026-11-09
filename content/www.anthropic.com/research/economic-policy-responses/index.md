@@ -4,19 +4,20 @@
 
 ![Preparing for AI’s economic impact: exploring policy responses](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F660c5a1ab7977115cbc75cc03d5a7edd136f723e-1920x1080.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 14, 2025
 
-  Oct 14, 2025
-- Team
+Team
+:   [Economics](https://www.anthropic.com/research/team/economics)
 
-  [Economics](https://www.anthropic.com/research/team/economics)
-- Topics
+Topics
+:   - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+    - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+    - [Education](https://www.anthropic.com/search?topic=education)
 
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
-  - [Education](https://www.anthropic.com/search?topic=education)See more...
+    See more...
 
 *How will the arrival of [powerful AI systems](https://www.anthropic.com/news/anthropic-s-recommendations-ostp-u-s-ai-action-plan) change the structure of the economy? We are uncertain, and so are external experts. But as AI systems continue to improve, and are adopted at an ever-larger scale, it’s crucial there is more discussion about the tools policymakers could use to respond to AI's economic impacts—whatever their nature. To help with this, we’re sharing several economic policy ideas that merit further study.*
 

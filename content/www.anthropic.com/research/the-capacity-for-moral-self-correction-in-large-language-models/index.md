@@ -4,18 +4,19 @@
 
 ![The capacity for moral self-correction in large language models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F87ce5db1d3fd127d6a16eb51d931ec0dc82a6748-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Feb 15, 2023
 
-  Feb 15, 2023
-- Team
+Team
+:   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
-- Topics
+Topics
+:   - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)
+    - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
+    - [Training](https://www.anthropic.com/search?topic=training)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
 
-  - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)
-  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
-  - [Training](https://www.anthropic.com/search?topic=training)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)See more...
+    See more...
 
 Related articles
 

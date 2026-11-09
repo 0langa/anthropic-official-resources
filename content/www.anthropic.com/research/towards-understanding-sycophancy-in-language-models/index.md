@@ -2,18 +2,19 @@
 
 [Read Paper](https://arxiv.org/abs/2310.13548)
 
-- Published
+Published
+:   Oct 23, 2023
 
-  Oct 23, 2023
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
+    - [Training](https://www.anthropic.com/search?topic=training)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)
 
-  - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
-  - [Training](https://www.anthropic.com/search?topic=training)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)See more...
+    See more...
 
 Related articles
 

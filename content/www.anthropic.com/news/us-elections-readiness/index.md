@@ -1,18 +1,19 @@
 # U.S. elections readiness
 
-- Published
+Published
+:   Oct 8, 2024
 
-  Oct 8, 2024
-- Category
+Category
+:   [Safeguards](https://www.anthropic.com/news/safeguards)
 
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-- Topics
+Topics
+:   - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
+    - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
 
-  - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)See more...
+    See more...
 
 Related articles
 

@@ -2,19 +2,20 @@
 
 [Read Paper](https://arxiv.org/abs/2212.09251)
 
-- Published
+Published
+:   Dec 19, 2022
 
-  Dec 19, 2022
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
+    - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Training](https://www.anthropic.com/search?topic=training)
 
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
-  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Training](https://www.anthropic.com/search?topic=training)See more...
+    See more...
 
 Related articles
 

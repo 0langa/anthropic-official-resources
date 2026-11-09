@@ -4,15 +4,16 @@
 
 ![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FDdCEmlAydcw%2Fsddefault.jpg&w=3840&q=75)
 
-- Published
+Published
+:   Sep 23, 2026
 
-  Sep 23, 2026
-- Topics
+Topics
+:   - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
 
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)See more...
+    See more...
 
 Related articles
 

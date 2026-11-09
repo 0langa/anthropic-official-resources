@@ -1,18 +1,19 @@
 # Partnering with Accenture on embedded evaluation
 
-- Published
+Published
+:   Sep 18, 2026
 
-  Sep 18, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Funding](https://www.anthropic.com/search?topic=funding)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Funding](https://www.anthropic.com/search?topic=funding)See more...
+    See more...
 
 Related articles
 

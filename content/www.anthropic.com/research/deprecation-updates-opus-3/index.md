@@ -2,21 +2,22 @@
 
 ![An update on our model deprecation commitments for Claude Opus 3](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fac18a11f88ea159cedb480d3dc29bc2a674e2314-1920x1080.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Feb 25, 2026
 
-  Feb 25, 2026
-- Category
+Category
+:   [Models](https://www.anthropic.com/news/models)
 
-  [Models](https://www.anthropic.com/news/models)
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Model welfare](https://www.anthropic.com/search?topic=model-welfare)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
 
-  - [Model welfare](https://www.anthropic.com/search?topic=model-welfare)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)See more...
+    See more...
 
 Related articles
 

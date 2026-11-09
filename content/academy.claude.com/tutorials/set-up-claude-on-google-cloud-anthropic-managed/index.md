@@ -8,11 +8,11 @@ Get a Google Cloud project ready for Claude Models on Google Cloud (Anthropic ma
 
 ## Check which service you have[](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-anthropic-managed)
 
-Google Cloud offers Claude as two services, and each has its own setup. The steps here are for Anthropic managed. The other service is Google managed, where Google operates Claude models as part of Google Cloud's Agent Platform. To tell which service you have, find a value you already have in this table.
+Google Cloud offers Claude as two services, and each has its own setup. The steps here are for Anthropic managed. The other service is Google managed, where Google operates Claude models as part of Google Cloud's Agent Platform. To tell which service you have, find something you already have in this table.
 
-<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">What you already have</th><th class="border-b border-strong p-sm text-left font-medium">Anthropic managed</th><th class="border-b border-strong p-sm text-left font-medium">Google managed</th></tr></thead><tbody><tr><td class="border-b p-sm">The Python SDK client in your code</td><td class="border-b p-sm"><code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">AnthropicGoogleCloud</code></td><td class="border-b p-sm"><code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">AnthropicVertex</code></td></tr><tr><td class="border-b p-sm">The host in your request URLs</td><td class="border-b p-sm"><code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">claude.googleapis.com</code></td><td class="border-b p-sm">An Agent Platform host, such as <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">aiplatform.googleapis.com</code></td></tr><tr><td class="border-b p-sm">The Google Cloud console</td><td class="border-b p-sm">The option labeled Anthropic managed</td><td class="border-b p-sm">Claude models in Model Garden</td></tr></tbody></table>
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">What you already have</th><th class="border-b border-strong p-sm text-left font-medium">Your service</th></tr></thead><tbody><tr><td class="border-b p-sm">The Python SDK client <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em] break-words">AnthropicGoogleCloud</code> in your code</td><td class="border-b p-sm">Anthropic managed</td></tr><tr><td class="border-b p-sm">The host <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em] break-words">claude.googleapis.com</code> in your request URLs</td><td class="border-b p-sm">Anthropic managed</td></tr><tr><td class="border-b p-sm">The option labeled Anthropic managed, in the Google Cloud console</td><td class="border-b p-sm">Anthropic managed</td></tr><tr><td class="border-b p-sm">The Python SDK client <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em] break-words">AnthropicVertex</code> in your code</td><td class="border-b p-sm">Google managed</td></tr><tr><td class="border-b p-sm">An Agent Platform host, such as <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em] break-words">aiplatform.googleapis.com</code>, in your request URLs</td><td class="border-b p-sm">Google managed</td></tr><tr><td class="border-b p-sm">Claude models in Model Garden, in the Google Cloud console</td><td class="border-b p-sm">Google managed</td></tr></tbody></table>
 
-If your value is in the Google managed column, follow the [Google managed guide(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/google-managed) instead.
+If what you have points to Google managed, follow [Set up Claude on Google Cloud (Google managed)(opens in new tab)](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-google-managed) instead.
 
 ## What you need, and what it costs[](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-anthropic-managed)
 
@@ -30,34 +30,15 @@ The commands below use placeholder values. Replace `my-project-id` with your pro
 
 ## Get the project ready, once[](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-anthropic-managed)
 
-These steps create a new Anthropic organization for your Google Cloud project. It's separate from any Anthropic organization your company already has. The new organization starts with one workspace, the Default Workspace, and everyone who calls this service needs that workspace's ID.
+Setup creates a new Anthropic organization for your Google Cloud project. It's separate from any Anthropic organization your company already has. The new organization starts with one workspace, the Default Workspace, and everyone who calls this service needs that workspace's ID.
 
 An admin usually does this part. If yours already has, ask them for the workspace ID and go on to "Give yourself access".
 
-Whoever does the steps needs:
+**If you have an existing discount, contact your Anthropic or Google Cloud account representative before you start.** Discounts can't be applied to past usage.
 
-- Permission to purchase in Google Cloud Marketplace on your billing account.
-- Permission to enable services on the project.
-- An IAM role that lets you open the Claude Console, at `platform.claude.com`, which step 4 needs. Of the three predefined IAM roles, only `roles/claude.admin` on the project does.
+Then follow the steps in [Set up your account(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/anthropic-managed) in the docs. That section lists the permissions you need. The steps take you from subscribing in Google Cloud Marketplace to copying the workspace ID, which starts with `wrkspc_`. Pass the ID on to your developers.
 
-Work through the steps in order.
-
-1. **Subscribe in Marketplace.** Open Google Cloud Marketplace and find the Claude Models on Google Cloud (Anthropic managed) listing. Click "Subscribe" and complete the purchase flow. Then return to the listing and click "Manage on Console", which opens the Claude page in the Google Cloud console.
-2. **Enable two services on the project.** Run this command:
-
-   bash
-
-   ```
-   gcloud services enable claude.googleapis.com \
-     anthropic-managed-claude.cloudpartnerservices.goog \
-     --project=my-project-id
-   ```
-
-   `claude.googleapis.com` serves the API, and calls fail without it. The second is the Marketplace service that attributes the project's usage to your subscription.
-3. **Activate the Anthropic organization.** On the Claude page, click "Activate". In the Anthropic setup flow, enter a contact email address, then open the setup link sent to that address. Fill in the organization's name, entity type, country, and intended use. Then accept Anthropic's Commercial Terms of Service and Usage Policy.
-4. **Copy the workspace ID.** When the organization is active, the button on the Claude page changes to "Open Claude Console". Click it, then go to "Settings > Workspaces". The ID starts with `wrkspc_`. Pass it on to your developers.
-
-The Marketplace subscription is made once, so to add another project, repeat these steps in that project, starting from step 2. If a step fails, see [troubleshooting account setup(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/anthropic-managed).
+The Marketplace subscription is made once, so to add another project, repeat the steps in that project, starting from step 2. If a step fails, see [troubleshooting account setup(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/anthropic-managed).
 
 ## Give yourself access[](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-anthropic-managed)
 
@@ -77,7 +58,8 @@ Each developer who calls Claude does these steps in their own terminal, in order
    bash
 
    ```
-   gcloud projects add-iam-policy-binding my-project-id \
+   gcloud projects add-iam-policy-binding \
+     my-project-id \
      --member="user:you@example.com" \
      --role="roles/claude.user"
    ```
@@ -124,7 +106,10 @@ One request from Python shows that the whole setup works. Stay in the terminal w
    message = client.messages.create(
        model="claude-opus-5-5",
        max_tokens=1024,
-       messages=[{"role": "user", "content": "Hello, Claude"}],
+       messages=[{
+           "role": "user",
+           "content": "Hello, Claude",
+       }],
    )
    print(message)
    ```
@@ -136,7 +121,7 @@ One request from Python shows that the whole setup works. Stay in the terminal w
    python first_reply.py
    ```
 
-   Claude's reply prints in your terminal. If you get an error instead, go to the next section.
+   The whole message prints in your terminal, with Claude's reply in its `content`. If you get an error instead, go to the next section.
 
 **Check that the reply came through the project you meant.** The client reads the project ID from `ANTHROPIC_GOOGLE_CLOUD_PROJECT`. Run `echo "$ANTHROPIC_GOOGLE_CLOUD_PROJECT"` in the same terminal. The value should be the ID of the project that you or your admin got ready. The project set in gcloud can be a different one, so check the variable.
 
@@ -144,7 +129,9 @@ To see the same request without the SDK, read the [cURL sample(opens in new tab)
 
 ## If the first request fails[](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-anthropic-managed)
 
-Two errors stop a first request: a permission error and a model that isn't available.
+Two common errors are a permission error and a model that isn't available.
+
+If the client says the workspace ID is missing, set both variables again in this terminal, as in step 4 of "Give yourself access". For rate limits, contact [Anthropic Support(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/anthropic-managed).
 
 ### A permission error[](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-anthropic-managed)
 
@@ -175,7 +162,10 @@ client = anthropic.Anthropic()
 message = client.messages.create(
     model="claude-opus-5-5",
     max_tokens=1024,
-    messages=[{"role": "user", "content": "Hello, Claude"}],
+    messages=[{
+        "role": "user",
+        "content": "Hello, Claude",
+    }],
 )
 print(message)
 ```
@@ -192,14 +182,17 @@ client = AnthropicGoogleCloud()
 message = client.messages.create(
     model="claude-opus-5-5",
     max_tokens=1024,
-    messages=[{"role": "user", "content": "Hello, Claude"}],
+    messages=[{
+        "role": "user",
+        "content": "Hello, Claude",
+    }],
 )
 print(message)
 ```
 
 The swap is enough because the new client takes care of what differs. A request to this service differs from a Claude API request in three ways.
 
-<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">What differs</th><th class="border-b border-strong p-sm text-left font-medium">On Anthropic managed</th></tr></thead><tbody><tr><td class="border-b p-sm">Base URL</td><td class="border-b p-sm">A project-scoped URL, in place of <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">https://api.anthropic.com</code></td></tr><tr><td class="border-b p-sm">Authentication</td><td class="border-b p-sm">An <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">Authorization: Bearer</code> header with a Google access token. Don't send an <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">x-api-key</code> header.</td></tr><tr><td class="border-b p-sm">Workspace</td><td class="border-b p-sm">The workspace ID is part of the URL. Don't send an <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em]">anthropic-workspace-id</code> header.</td></tr></tbody></table>
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">What differs</th><th class="border-b border-strong p-sm text-left font-medium">On Anthropic managed</th></tr></thead><tbody><tr><td class="border-b p-sm">Base URL</td><td class="border-b p-sm">A project-scoped URL, in place of <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em] break-words">https://api.anthropic.com</code></td></tr><tr><td class="border-b p-sm">Authentication</td><td class="border-b p-sm">An <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em] break-words">Authorization: Bearer</code> header with a Google access token. Don't send an <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em] break-words">x-api-key</code> header.</td></tr><tr><td class="border-b p-sm">Workspace</td><td class="border-b p-sm">The workspace ID is part of the URL. Don't send an <code class="rounded border bg-surface-2 px-1.5 py-px font-mono text-[0.875em] break-words">anthropic-workspace-id</code> header.</td></tr></tbody></table>
 
 The client builds the base URL from your project, location, and workspace ID, in this shape:
 
@@ -213,7 +206,7 @@ https://claude.googleapis.com/v1/projects/{project}/locations/global/workspaces/
 
 Take [Claude Platform 101(opens in new tab)](https://academy.claude.com/courses/claude-platform-101) next. It teaches what `messages`, `max_tokens`, and models are. Then take [Tool use with the Messages API(opens in new tab)](https://academy.claude.com/courses/tool-use-with-the-messages-api).
 
-**Whenever a sample, in these courses or in the docs, creates an `anthropic.Anthropic()` client, swap its import and client before you run it.**
+**Whenever a sample, in these courses or in the docs, creates an `anthropic.Anthropic()` client, swap its import and client before you run it.** Skip any step that gets or stores an API key or checks for credit, because this service doesn't use API keys and bills through Google Cloud. Some lessons use TypeScript, and the docs list [the package and client for each language(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/anthropic-managed).
 
 When you need them, these topics are in the docs:
 

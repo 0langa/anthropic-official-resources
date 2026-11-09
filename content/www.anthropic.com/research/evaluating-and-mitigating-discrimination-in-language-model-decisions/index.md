@@ -4,18 +4,19 @@
 
 ![Evaluating and mitigating discrimination in language model decisions](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffa64ac336bcfb29c9f37961758a0e9352c588818-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Dec 7, 2023
 
-  Dec 7, 2023
-- Team
+Team
+:   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
-- Topics
+Topics
+:   - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
 
-  - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)See more...
+    See more...
 
 Related articles
 

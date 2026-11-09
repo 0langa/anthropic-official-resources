@@ -4,19 +4,20 @@
 
 ![Preparing for the 2026 US midterms](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F609927c7af2a454cedad848e4b2adc980c1f5fe6-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 14, 2026
 
-  Oct 14, 2026
-- Category
+Category
+:   [Safeguards](https://www.anthropic.com/news/safeguards)
 
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-- Topics
+Topics
+:   - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
+    - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
 
-  - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
-  - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)See more...
+    See more...
 
 Related articles
 

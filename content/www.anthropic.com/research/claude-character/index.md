@@ -4,19 +4,20 @@
 
 ![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FiyJj9RxSsBY%2Fsddefault.jpg&w=3840&q=75)
 
-- Published
+Published
+:   Jun 8, 2024
 
-  Jun 8, 2024
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Training](https://www.anthropic.com/search?topic=training)
+    - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
+    - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)
 
-  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Training](https://www.anthropic.com/search?topic=training)
-  - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
-  - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)See more...
+    See more...
 
 *Listen to our conversation about Claude's character in the video above.*
 

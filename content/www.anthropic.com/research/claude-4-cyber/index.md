@@ -1,18 +1,19 @@
 # Detailed cyber evaluations of Claude 4
 
-- Published
+Published
+:   Jul 15, 2025
 
-  Jul 15, 2025
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

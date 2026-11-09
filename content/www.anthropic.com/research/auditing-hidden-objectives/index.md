@@ -6,20 +6,21 @@
 
 ![Red circles arranged in a grid pattern overlaid on a background of densely printed numerical data and text.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0671c4b8bf49a8f15832170ecea44131558897f7-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Mar 13, 2025
 
-  Mar 13, 2025
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)
+    - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
 
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)
-  - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)See more...
+    See more...
 
 *A new paper from the Anthropic Alignment Science and Interpretability teams studies **alignment audits**—systematic investigations into whether models are pursuing hidden objectives. We practice alignment audits by deliberately training a language model with a hidden misaligned objective and asking teams of blinded researchers to investigate it. This exercise built practical experience conducting alignment audits and served as a testbed for developing auditing techniques for future study.*
 

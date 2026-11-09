@@ -4,17 +4,18 @@
 
 ![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FsQar5NNGbw4%2Fsddefault.jpg&w=3840&q=75)
 
-- Published
+Published
+:   Jun 13, 2024
 
-  Jun 13, 2024
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
 
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)See more...
+    See more...
 
 *In this post, and in the above roundtable video, our researchers reflect on the close relationship between scientific and engineering progress, and discuss the technical challenges they encountered in scaling our interpretability research to much larger AI models.*
 

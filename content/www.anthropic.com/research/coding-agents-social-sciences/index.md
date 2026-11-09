@@ -4,24 +4,27 @@
 
 ![Coding agents in the social sciences](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fca2e3d73f85331e83d8cd9a9e8cb64a501cc423c-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   May 27, 2026
 
-  May 27, 2026
-- Authors
+Authors
+:   - Thomas Lyttelton
+    - Maxim Massenkoff
+    - Nathan Wilmers
 
-  - Thomas Lyttelton
-  - Maxim Massenkoff
-  - Nathan WilmersSee more...
-- Team
+    See more...
 
-  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
-- Topics
+Team
+:   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)
-  - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)See more...
+Topics
+:   - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
+    - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
+
+    See more...
 
 Related articles
 

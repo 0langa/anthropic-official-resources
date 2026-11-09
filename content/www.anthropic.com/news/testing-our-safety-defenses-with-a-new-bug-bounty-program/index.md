@@ -1,19 +1,20 @@
 # Testing our safety defenses with a new bug bounty program
 
-- Published
+Published
+:   May 14, 2025
 
-  May 14, 2025
-- Category
+Category
+:   [Safeguards](https://www.anthropic.com/news/safeguards)
 
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-- Topics
+Topics
+:   - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
+    - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+    - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
 
-  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
-  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
-  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)See more...
+    See more...
 
 Related articles
 

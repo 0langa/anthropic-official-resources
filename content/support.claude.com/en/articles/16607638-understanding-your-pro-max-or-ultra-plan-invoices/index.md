@@ -12,7 +12,7 @@ This article covers Pro, Max, and Ultra plans purchased on the web. If you subsc
 
 Learn more about **[signing up for the Max or Ultra plan](https://support.claude.com/en/articles/11049752)**.
 
-**Usage credit receipts.** If you've enabled usage credits, each purchase of funds is charged separately from your subscription and has its own receipt. This includes purchases made automatically by auto-reload and any usage bundles you buy.
+**Usage credit receipts.** If you've enabled usage credits, each usage credit purchase is charged separately from your subscription and has its own receipt. This includes purchases made automatically by auto-reload and any usage bundles you buy.
 
 Learn more about **[managing usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409)**.
 
@@ -40,7 +40,7 @@ You can also open any invoice from your account:
 
 **Amount due.** The invoice total minus any applied balance. This is what your payment method was charged.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2629072970/c514f489b65072ccad08e803864f/e8c7a7de-905f-4a40-815f-c9c66edcdbf6?expires=1793972700&amp;signature=b6d8f1528140e5bba0222cfc642da31048e26777178f015686174d6e0f411a72&amp;req=diYlH8l5n4hYWfMW1HO4zdWraRI26VYZPZYKVlMiWEXRVFcaMk3vNJdr1OvI%0AS3NKEi2Z6FcgvkPHsOI%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2629072970/c514f489b65072ccad08e803864f/e8c7a7de-905f-4a40-815f-c9c66edcdbf6?expires=1794232800&amp;signature=f3b649c4a5d184ae94288b3c75a44607e4650a5b07544fb038a36cc02d428666&amp;req=diYlH8l5n4hYWfMW1HO4zdWraRU97VYWPZYKVlMiWEUcLs9MgnyA3NbwGL%2FK%0AKkLfjxIt9K52oMDx7H8%3D%0A)
 
 ## Billing details on your invoice
 

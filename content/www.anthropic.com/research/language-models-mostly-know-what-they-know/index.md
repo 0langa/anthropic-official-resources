@@ -2,18 +2,19 @@
 
 [Read Paper](https://arxiv.org/abs/2207.05221)
 
-- Published
+Published
+:   Jul 11, 2022
 
-  Jul 11, 2022
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Hallucination](https://www.anthropic.com/search?topic=hallucination)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
 
-  - [Hallucination](https://www.anthropic.com/search?topic=hallucination)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)See more...
+    See more...
 
 Related articles
 

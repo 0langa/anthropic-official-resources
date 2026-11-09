@@ -6,18 +6,19 @@
 
 ![Confidential Inference via Trusted Virtual Machines](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fac3c5e02411e83e96a36ca08523c3904115b81d4-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jun 18, 2025
 
-  Jun 18, 2025
-- Team
+Team
+:   [Engineering](https://www.anthropic.com/engineering)
 
-  [Engineering](https://www.anthropic.com/engineering)
-- Topics
+Topics
+:   - [Privacy](https://www.anthropic.com/search?topic=privacy)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Privacy](https://www.anthropic.com/search?topic=privacy)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

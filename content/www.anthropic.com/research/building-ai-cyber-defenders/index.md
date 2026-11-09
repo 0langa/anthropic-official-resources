@@ -4,19 +4,20 @@
 
 ![Building AI for cyber defenders](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffc86c2ada2abccee7918bac7a61d25f28123f434-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Sep 29, 2025
 
-  Sep 29, 2025
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)
-  - [Coding](https://www.anthropic.com/search?topic=coding)See more...
+    See more...
 
 Related articles
 

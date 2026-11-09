@@ -14,10 +14,17 @@ We aim to accelerate coordination around AI safety by producing evidence of emer
 
 Our researchers work to translate technical findings into useful evidence for decision-makers in national security, policy, and industry.
 
+- [![Progress on provable inference for large language models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg&w=3840&q=75)](https://www.anthropic.com/research/provable-inference)
 - [![LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1ae521c1656d33b2bf013315da894b16086d15e0-1280x1280.jpg&w=3840&q=75)](https://www.anthropic.com/research/formal-verification)
 - [![Claude reveals ECDSA curve origins](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F656c8186146687eb421cb1d8f60c7fdd3e20d49c-1280x1280.jpg&w=3840&q=75)](https://www.anthropic.com/research/ecdsa-curve-origins)
 - [![Launching an opt-in vulnerability-finding service for open-source software](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0c269cba7924d77f62632a8293563b1830856f94-2000x1125.jpg&w=3840&q=75)](https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source)
 - [![GLM-5.3 and the spread of advanced cyber capabilities](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3b214430747c67bfba93f34438070303d2f4b755-2000x1125.jpg&w=3840&q=75)](https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities)
+
+[Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
+
+Nov 2, 2026[## Progress on provable inference for large language models](https://www.anthropic.com/research/provable-inference)
+
+We have made progress on a type of cryptographic proof known as a “zkSNARK.” In this post, we share some of that progress, primarily through a system we call FlashProve.
 
 [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
@@ -51,7 +58,7 @@ Like Claude Mythos Preview, GLM-5.3 has strong capabilities for autonomously bui
 
 /
 
-04
+05
 
 38
 

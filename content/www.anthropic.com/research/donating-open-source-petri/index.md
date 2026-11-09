@@ -2,18 +2,19 @@
 
 ![Donating our open-source alignment tool](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Faaac5d1c34c77b073e41f078a32f5db5c52c9259-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   May 7, 2026
 
-  May 7, 2026
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Nonprofits](https://www.anthropic.com/search?topic=nonprofits)
 
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Nonprofits](https://www.anthropic.com/search?topic=nonprofits)See more...
+    See more...
 
 Related articles
 

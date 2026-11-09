@@ -1,18 +1,19 @@
 # Updating our Usage Policy
 
-- Published
+Published
+:   May 10, 2024
 
-  May 10, 2024
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+    - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
+    - [Privacy](https://www.anthropic.com/search?topic=privacy)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
 
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
-  - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
-  - [Privacy](https://www.anthropic.com/search?topic=privacy)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)See more...
+    See more...
 
 Related articles
 

@@ -1,18 +1,19 @@
 # Usage policy update
 
-- Published
+Published
+:   Aug 15, 2025
 
-  Aug 15, 2025
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
 
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)See more...
+    See more...
 
 Related articles
 

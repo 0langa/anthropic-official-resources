@@ -1,18 +1,19 @@
 # Dario Amodei’s prepared remarks from the AI Safety Summit on Anthropic’s Responsible Scaling Policy
 
-- Published
+Published
+:   Nov 1, 2023
 
-  Nov 1, 2023
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+    - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
 
-  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
-  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)See more...
+    See more...
 
 Related articles
 

@@ -2,19 +2,20 @@
 
 # Claude 3.7 Sonnet and Claude Code
 
-- Published
+Published
+:   Feb 24, 2025
 
-  Feb 24, 2025
-- Category
+Category
+:   [Models](https://www.anthropic.com/news/models)
 
-  [Models](https://www.anthropic.com/news/models)
-- Topics
+Topics
+:   - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 Related articles
 
@@ -32,7 +33,7 @@ Claude 3.7 Sonnet shows particularly strong improvements in coding and front-end
 
 ![Screen showing Claude Code onboarding](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4a4df6b6629f9814aec4eb9323028130f43a8d70-1920x1080.png&w=3840&q=75)
 
-Claude 3.7 Sonnet is now available on all [Claude](https://claude.ai/redirect/website.v1.1227f5b8-66d4-437d-a0ae-d11c65f13125/new) plans—including Free, Pro, Team, and Enterprise—as well as the [Claude Developer Platform](https://docs.claude.com/en/docs/about-claude/models), [Amazon Bedrock](https://aws.amazon.com/bedrock/claude/), and [Google Cloud’s Vertex AI](https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/use-claude). Extended thinking mode is available on all surfaces except the free Claude tier.
+Claude 3.7 Sonnet is now available on all [Claude](https://claude.ai/redirect/website.v1.eaebd0b7-a593-46ef-831c-93c8f3f0fb89/new) plans—including Free, Pro, Team, and Enterprise—as well as the [Claude Developer Platform](https://docs.claude.com/en/docs/about-claude/models), [Amazon Bedrock](https://aws.amazon.com/bedrock/claude/), and [Google Cloud’s Vertex AI](https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/use-claude). Extended thinking mode is available on all surfaces except the free Claude tier.
 
 In both standard and extended thinking modes, Claude 3.7 Sonnet has the same price as its predecessors: $3 per million input tokens and $15 per million output tokens—which includes thinking tokens.
 

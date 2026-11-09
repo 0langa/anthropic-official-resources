@@ -2,18 +2,19 @@
 
 [Read Paper](https://arxiv.org/abs/2204.05862)
 
-- Published
+Published
+:   Apr 12, 2022
 
-  Apr 12, 2022
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Training](https://www.anthropic.com/search?topic=training)
+    - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
 
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Training](https://www.anthropic.com/search?topic=training)
-  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)See more...
+    See more...
 
 Related articles
 

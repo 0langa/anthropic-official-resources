@@ -1,17 +1,18 @@
 # Using Claude to reduce the attack surface of code
 
-- Published
+Published
+:   Oct 20, 2026
 
-  Oct 20, 2026
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+    See more...
 
 Related articles
 

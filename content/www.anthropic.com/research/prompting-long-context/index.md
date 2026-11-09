@@ -2,18 +2,19 @@
 
 # Prompt engineering for Claude's long context window
 
-- Published
+Published
+:   Sep 23, 2023
 
-  Sep 23, 2023
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+    - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
 
-  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
-  - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)See more...
+    See more...
 
 Related articles
 

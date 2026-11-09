@@ -6,18 +6,19 @@
 
 ![Sycophancy to subterfuge: Investigating reward tampering in language models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4ad886df7d9e1ab71cfe1b329eaba57aa82822b2-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jun 17, 2024
 
-  Jun 17, 2024
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)
+    - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Training](https://www.anthropic.com/search?topic=training)
 
-  - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)
-  - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Training](https://www.anthropic.com/search?topic=training)See more...
+    See more...
 
 Related articles
 

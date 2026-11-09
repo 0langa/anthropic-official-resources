@@ -4,19 +4,20 @@
 
 ![Progress from our Frontier Red Team](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0a5ed8c78e017a20a6ac5eead5a4722b1ff52b24-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Mar 19, 2025
 
-  Mar 19, 2025
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)See more...
+    See more...
 
 Related articles
 

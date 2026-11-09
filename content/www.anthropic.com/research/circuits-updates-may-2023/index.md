@@ -2,17 +2,18 @@
 
 [Read Paper](https://transformer-circuits.pub/2023/may-update/index.html)
 
-- Published
+Published
+:   May 24, 2023
 
-  May 24, 2023
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
 
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)See more...
+    See more...
 
 Related articles
 

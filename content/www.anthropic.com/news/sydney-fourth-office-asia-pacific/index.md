@@ -1,17 +1,18 @@
 # Sydney will become Anthropic’s fourth office in Asia-Pacific
 
-- Published
+Published
+:   Mar 10, 2026
 
-  Mar 10, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
 
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)See more...
+    See more...
 
 Related articles
 

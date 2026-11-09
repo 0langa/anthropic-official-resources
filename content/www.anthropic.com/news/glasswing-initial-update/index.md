@@ -2,18 +2,19 @@
 
 ![Project Glasswing: An initial update](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9f76163fe710723283a55b9f60d5caca6697dffd-1920x1080.jpg&w=1920&q=75)
 
-- Published
+Published
+:   May 22, 2026
 
-  May 22, 2026
-- Category
+Category
+:   [Security](https://www.anthropic.com/news/security)
 
-  [Security](https://www.anthropic.com/news/security)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+    See more...
 
 Related articles
 

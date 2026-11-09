@@ -6,20 +6,21 @@
 
 ![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FD4XTefP3Lsc%2Fsddefault.jpg&w=3840&q=75)
 
-- Published
+Published
+:   Apr 2, 2026
 
-  Apr 2, 2026
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
+    - [Model welfare](https://www.anthropic.com/search?topic=model-welfare)
 
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
-  - [Model welfare](https://www.anthropic.com/search?topic=model-welfare)See more...
+    See more...
 
 Related articles
 

@@ -4,22 +4,23 @@
 
 ![A bright green grid on the left contrasts with white and gray 3D cubes on a dark surface on the right, with one small dark square embedded in the green grid.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd14464135f618ecc4488b953849690fa8779e21f-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jun 20, 2025
 
-  Jun 20, 2025
-- Author
+Author
+:   - Peter McCrory
 
-  - Peter McCrory
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
 
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)See more...
+    See more...
 
 Related articles
 

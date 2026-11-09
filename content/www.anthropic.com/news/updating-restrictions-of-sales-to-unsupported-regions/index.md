@@ -1,17 +1,18 @@
 # Updating restrictions of sales to unsupported regions
 
-- Published
+Published
+:   Sep 4, 2025
 
-  Sep 4, 2025
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Access](https://www.anthropic.com/search?topic=access)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+    - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
 
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)See more...
+    See more...
 
 Related articles
 

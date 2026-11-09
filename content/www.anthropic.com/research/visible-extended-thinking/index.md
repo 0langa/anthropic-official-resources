@@ -2,19 +2,20 @@
 
 # Claude’s extended thinking
 
-- Published
+Published
+:   Feb 24, 2025
 
-  Feb 24, 2025
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Computer use](https://www.anthropic.com/search?topic=computer-use)
 
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Computer use](https://www.anthropic.com/search?topic=computer-use)See more...
+    See more...
 
 Related articles
 
@@ -116,7 +117,7 @@ The above is just a short summary of some of our extensive safety work on Claude
 
 ## Using Claude
 
-You can use Claude 3.7 Sonnet now at [Claude.ai](http://claude.ai/redirect/website.v1.8c34ceba-cda1-4961-b075-c9979079ef53) or on [our API](https://docs.anthropic.com/en/api/getting-started). And just as Claude can now let you know what it thinks, we hope you’ll let us know what you think, too. Please send your feedback about the new model to [feedback@anthropic.com](mailto:feedback@anthropic.com).
+You can use Claude 3.7 Sonnet now at [Claude.ai](http://claude.ai/redirect/website.v1.71e22ebc-1c2f-4d19-bb3e-8fb672df622a) or on [our API](https://docs.anthropic.com/en/api/getting-started). And just as Claude can now let you know what it thinks, we hope you’ll let us know what you think, too. Please send your feedback about the new model to [feedback@anthropic.com](mailto:feedback@anthropic.com).
 
 ## Footnotes
 

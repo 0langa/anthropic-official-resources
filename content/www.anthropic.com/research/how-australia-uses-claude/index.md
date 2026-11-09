@@ -4,18 +4,19 @@
 
 ![How Australia uses Claude: Findings from the Anthropic Economic Index](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F80243644842c280604b604223dccec9fed6d242d-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Mar 31, 2026
 
-  Mar 31, 2026
-- Team
+Team
+:   [Economics](https://www.anthropic.com/research/team/economics)
 
-  [Economics](https://www.anthropic.com/research/team/economics)
-- Topics
+Topics
+:   - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
 
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)See more...
+    See more...
 
 *Anthropic is expanding to Australia. We’re opening a [new office](https://www.anthropic.com/news/sydney-fourth-office-asia-pacific) in Sydney in the coming weeks, and we’ve signed a [Memorandum of Understanding](https://www.anthropic.com/news/australia-MOU) with the Australian government to cooperate on AI safety research and support the goals of Australia’s National AI Plan. To mark the occasion, we thought we’d look more closely into how Australians are using Claude.*
 

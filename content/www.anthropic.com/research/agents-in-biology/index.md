@@ -4,19 +4,20 @@
 
 ![Paving the way for agents in biology](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8fa0f054071f5cf02808bdeb17456d8fb56e5567-1996x1123.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jun 8, 2026
 
-  Jun 8, 2026
-- Team
+Team
+:   [Science](https://www.anthropic.com/science)
 
-  [Science](https://www.anthropic.com/science)
-- Topics
+Topics
+:   - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
 
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)See more...
+    See more...
 
 Related articles
 

@@ -4,19 +4,20 @@
 
 ![Project Vend: Can Claude run a small shop? (And why does that matter?)](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4da6e6ca3c6517b446339d5a2e75e82128344c91-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jun 27, 2025
 
-  Jun 27, 2025
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
 
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)See more...
+    See more...
 
 *We let Claude manage an automated store in our office as a small business for about a month. We learned a lot from how close it was to success—and the curious ways that it failed—about the plausible, strange, not-too-distant future in which AI models are autonomously running things in the real economy.*
 

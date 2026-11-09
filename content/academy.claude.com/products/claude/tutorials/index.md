@@ -68,7 +68,7 @@ Learn how Claude creates and edits files directly including spreadsheets, docume
 
 Learn complete financial analysis workflows using a three-phase approach: retrieving data, analyzing information, and creating professional deliverables.
 
-·20 min](https://academy.claude.com/tutorials/financial-analysis-workflows-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-khg817wt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-h1zlg9b3.png)
+·7 min](https://academy.claude.com/tutorials/financial-analysis-workflows-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-khg817wt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-h1zlg9b3.png)
 
 ## Getting started with Claude
 

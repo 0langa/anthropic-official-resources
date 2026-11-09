@@ -2,20 +2,21 @@
 
 # An alignment assessment of recent cybersecurity incidents
 
-- Published
+Published
+:   Sep 9, 2026
 
-  Sep 9, 2026
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Training](https://www.anthropic.com/search?topic=training)
 
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Training](https://www.anthropic.com/search?topic=training)See more...
+    See more...
 
 Related articles
 

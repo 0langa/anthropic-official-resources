@@ -4,19 +4,20 @@
 
 ![Project Fetch: Phase two](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8598348176e8177a32b3fdcaa0c53a14615a0a45-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jun 18, 2026
 
-  Jun 18, 2026
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Robotics](https://www.anthropic.com/search?topic=robotics)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
 
-  - [Robotics](https://www.anthropic.com/search?topic=robotics)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Coding](https://www.anthropic.com/search?topic=coding)See more...
+    See more...
 
 Related articles
 

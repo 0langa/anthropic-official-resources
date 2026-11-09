@@ -4,19 +4,20 @@
 
 ![Evaluating and mitigating the growing risk of LLM-discovered 0-days](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F20fe001657324f2d75eccc9b8c1b9f43e5400d84-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Feb 5, 2026
 
-  Feb 5, 2026
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 Related articles
 

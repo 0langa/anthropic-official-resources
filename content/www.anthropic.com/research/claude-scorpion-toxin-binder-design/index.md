@@ -4,19 +4,20 @@
 
 ![How Claude designed protein binders against scorpion neurotoxins](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F43aa58c53210dbeba086649403b628e492145578-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 20, 2026
 
-  Oct 20, 2026
-- Team
+Team
+:   [Science](https://www.anthropic.com/science)
 
-  [Science](https://www.anthropic.com/science)
-- Topics
+Topics
+:   - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Global health](https://www.anthropic.com/search?topic=global-health)
 
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Global health](https://www.anthropic.com/search?topic=global-health)See more...
+    See more...
 
 Related articles
 

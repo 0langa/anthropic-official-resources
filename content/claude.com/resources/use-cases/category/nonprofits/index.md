@@ -12,7 +12,7 @@ GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearc
 
 ### Explore what Claude can do for you
 
-·15 min](https://academy.claude.com/use-cases/explore-what-claude-can-do-for-you)[![](https://academy.claude.com/assets/v1/thumbnail.light-hteb4ys0.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-n0jyfw6m.png)
+·15 min](https://academy.claude.com/use-cases/explore-what-claude-can-do-for-you)[![](https://academy.claude.com/assets/v1/thumbnail.light-1f9oo581.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ezfj6qxl.png)
 
 ### Quickly prep for your week
 

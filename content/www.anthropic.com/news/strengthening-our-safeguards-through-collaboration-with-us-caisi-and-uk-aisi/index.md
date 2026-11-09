@@ -1,19 +1,20 @@
 # Strengthening our safeguards through collaboration with US CAISI and UK AISI
 
-- Published
+Published
+:   Sep 12, 2025
 
-  Sep 12, 2025
-- Category
+Category
+:   [Safeguards](https://www.anthropic.com/news/safeguards)
 
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-- Topics
+Topics
+:   - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+    - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
 
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
-  - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)See more...
+    See more...
 
 Related articles
 

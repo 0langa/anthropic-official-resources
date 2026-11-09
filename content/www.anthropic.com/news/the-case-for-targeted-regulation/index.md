@@ -1,19 +1,20 @@
 # The case for targeted regulation
 
-- Published
+Published
+:   Oct 31, 2024
 
-  Oct 31, 2024
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+    - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+    - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
 
-  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
-  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
-  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)See more...
+    See more...
 
 Related articles
 

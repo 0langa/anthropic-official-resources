@@ -6,19 +6,20 @@
 
 ![Split illustration showing bacterial growth: left side depicts curved lines emerging from a checkered petri dish, right side shows two circular petri dishes filled with black oval bacteria on yellow background](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F041c66ba914539146ea0974589f3b24f1b5f1eee-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 6, 2025
 
-  Oct 6, 2025
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 Related articles
 

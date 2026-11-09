@@ -2,21 +2,22 @@
 
 # Claude 3.5 Sonnet
 
-[Try on Claude.ai](https://claude.ai/redirect/website.v1.0c273472-6a56-47e4-bebb-3d974394d8cf)
+[Try on Claude.ai](https://claude.ai/redirect/website.v1.bebb61fd-3ec6-4531-8ad0-b210859e646b)
 
-- Published
+Published
+:   Jun 21, 2024
 
-  Jun 21, 2024
-- Category
+Category
+:   [Models](https://www.anthropic.com/news/models)
 
-  [Models](https://www.anthropic.com/news/models)
-- Topics
+Topics
+:   - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
 
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)See more...
+    See more...
 
 Related articles
 

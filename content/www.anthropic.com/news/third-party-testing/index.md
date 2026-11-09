@@ -2,19 +2,20 @@
 
 # Third-party testing as a key ingredient of AI policy
 
-- Published
+Published
+:   Mar 25, 2024
 
-  Mar 25, 2024
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+    - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+    - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)
 
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
-  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
-  - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)See more...
+    See more...
 
 Related articles
 

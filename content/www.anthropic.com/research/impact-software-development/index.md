@@ -4,20 +4,21 @@
 
 ![Anthropic Economic Index: AI’s impact on software development](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3038354b7c6ba5c66aeea56120e92a5c80ff49b4-1920x1080.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Apr 28, 2025
 
-  Apr 28, 2025
-- Team
+Team
+:   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
-- Topics
+Topics
+:   - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 Related articles
 
@@ -33,7 +34,7 @@ Jobs that involve computer programming are a small sector of the modern economy,
 
 In our [previous Economic Index research](https://www.anthropic.com/news/the-anthropic-economic-index), we found very disproportionate use of Claude by US workers in computer-related occupations: that is, there were many more conversations with Claude about computer-related tasks than one would predict from the number of people working in relevant jobs. It’s the same in [the educational context](https://www.anthropic.com/news/anthropic-education-report-how-university-students-use-claude): Computer Science degrees—which involve large amounts of coding—show highly disproportionate AI use.
 
-To understand these changes in more detail, we conducted an analysis of 500,000 coding-related interactions across [Claude.ai](http://claude.ai/redirect/website.v1.0066172a-a698-43b3-b160-8874efe05abf) (the “default” way that most people interact with Claude) and [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) (our new specialist coding “agent” that can independently accomplish chains of complex tasks using a variety of digital tools).
+To understand these changes in more detail, we conducted an analysis of 500,000 coding-related interactions across [Claude.ai](http://claude.ai/redirect/website.v1.14e464ae-a3ac-4e3f-8d5f-38014ff71029) (the “default” way that most people interact with Claude) and [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) (our new specialist coding “agent” that can independently accomplish chains of complex tasks using a variety of digital tools).
 
 We found three key patterns:
 

@@ -1,18 +1,19 @@
 # Statement from Dario Amodei on our discussions with the Department of War
 
-- Published
+Published
+:   Feb 26, 2026
 
-  Feb 26, 2026
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+    - [Privacy](https://www.anthropic.com/search?topic=privacy)
+    - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
 
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
-  - [Privacy](https://www.anthropic.com/search?topic=privacy)
-  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)See more...
+    See more...
 
 Related articles
 

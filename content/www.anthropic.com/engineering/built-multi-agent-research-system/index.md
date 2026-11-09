@@ -2,19 +2,20 @@
 
 # How we built our multi-agent research system
 
-- Published
+Published
+:   Jun 13, 2025
 
-  Jun 13, 2025
-- Team
+Team
+:   [Engineering](https://www.anthropic.com/engineering)
 
-  [Engineering](https://www.anthropic.com/engineering)
-- Topics
+Topics
+:   - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+    - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+    - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
 
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
-  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)See more...
+    See more...
 
 Related articles
 

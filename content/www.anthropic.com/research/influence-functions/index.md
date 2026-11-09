@@ -4,18 +4,19 @@
 
 ![Tracing model outputs to the training data](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe49b184f66b36fa038d084aa80fa8624ec419a2f-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Aug 8, 2023
 
-  Aug 8, 2023
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
+    - [Training](https://www.anthropic.com/search?topic=training)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
 
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
-  - [Training](https://www.anthropic.com/search?topic=training)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)See more...
+    See more...
 
 Related articles
 

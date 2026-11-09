@@ -2,16 +2,15 @@
 
 [Read Paper](https://transformer-circuits.pub/2023/privileged-basis/index.html)
 
-- Published
+Published
+:   Mar 16, 2023
 
-  Mar 16, 2023
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
-
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Training](https://www.anthropic.com/search?topic=training)
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Training](https://www.anthropic.com/search?topic=training)
 
 Related articles
 

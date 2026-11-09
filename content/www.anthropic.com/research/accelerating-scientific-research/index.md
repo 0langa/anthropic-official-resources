@@ -4,16 +4,17 @@
 
 ![How scientists are using Claude to accelerate research and discovery](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2163cca0ae5c9ed366f01711c1d4e244933ce922-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jan 15, 2026
 
-  Jan 15, 2026
-- Topics
+Topics
+:   - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Agent Skills](https://www.anthropic.com/search?topic=agent-skills)
 
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Agent Skills](https://www.anthropic.com/search?topic=agent-skills)See more...
+    See more...
 
 Related articles
 

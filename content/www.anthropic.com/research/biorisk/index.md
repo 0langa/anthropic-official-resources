@@ -4,19 +4,20 @@
 
 ![Why do we take LLMs seriously as a potential source of biorisk?](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0764d97faf5083c01f29fb15f1e6a3fded06a808-1920x1080.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Sep 5, 2025
 
-  Sep 5, 2025
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+    - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
 
-  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
-  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)See more...
+    See more...
 
 Related articles
 

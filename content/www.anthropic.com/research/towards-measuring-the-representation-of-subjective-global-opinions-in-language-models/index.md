@@ -4,18 +4,19 @@
 
 ![Towards measuring the representation of subjective global opinions in language models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7b80bfa019fd048e2331264a42f2f479dcb066a2-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jun 29, 2023
 
-  Jun 29, 2023
-- Team
+Team
+:   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
-- Topics
+Topics
+:   - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
 
-  - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)See more...
+    See more...
 
 Related articles
 

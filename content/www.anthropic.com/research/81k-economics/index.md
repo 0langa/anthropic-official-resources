@@ -6,19 +6,20 @@
 
 ![What 81,000 people told us about the economics of AI](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fccd54931abd7e859e559a6ac84c0a7bd6d78f524-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Apr 22, 2026
 
-  Apr 22, 2026
-- Team
+Team
+:   [Economics](https://www.anthropic.com/research/team/economics)
 
-  [Economics](https://www.anthropic.com/research/team/economics)
-- Topics
+Topics
+:   - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
 
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)See more...
+    See more...
 
 Related articles
 

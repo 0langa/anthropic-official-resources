@@ -59,7 +59,6 @@ https://support.claude.com/en/articles/13521390-use-claude-in-powerpoint
 https://support.claude.com/en/articles/13521390-using-claude-in-powerpoint
 https://support.claude.com/en/articles/13694757-access-engagement-and-adoption-data-with-the-analytics-api
 https://support.claude.com/en/articles/13694757-claude-enterprise-analytics-api-access-engagement-and-adoption-data
-https://support.claude.com/en/articles/13779868
 https://support.claude.com/en/articles/13892150-work-across-apps-with-cowork
 https://support.claude.com/en/articles/13892150-work-across-excel-powerpoint-and-word
 https://support.claude.com/en/articles/13892150-work-across-microsoft-365-apps

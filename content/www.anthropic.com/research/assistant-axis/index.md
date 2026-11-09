@@ -6,19 +6,20 @@
 
 ![Graphs showing the Assistant Axis and an open-source model's projection on this axis during a long conversation.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe9a0335d3fd27956c15edae178b1f1ec6aba4a03-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jan 19, 2026
 
-  Jan 19, 2026
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
+    - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
 
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
-  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)See more...
+    See more...
 
 Related articles
 

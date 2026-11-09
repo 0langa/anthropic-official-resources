@@ -93,6 +93,40 @@ Work through how to teach a concept with Claude sketching alongside. The visual 
 
   ·Tutorial·4 min](https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-success-guide-for-admins)
 
+## Webinars
+
+[View all webinars](https://academy.claude.com/all)
+
+[Upcoming · Nov 10, 10:00 AM PT
+
+### Claude for Nonprofits: An Admin’s Guide to Data Handling and AI Policy 
+
+An admin's guide to documenting how Claude handles your nonprofit's data and putting a one-page AI use policy in place.
+
+MW
+
+·Upcoming·Nov 10·10:00 AM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-for-nonprofits-admin-guide-to-data-handling-ai-policy)[Upcoming · Nov 12, 10:00 AM PT
+
+### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One 
+
+A same-day staff guide to connecting your files and using Claude for Nonprofits skills to draft a year-end appeal in your voice.
+
+MW
+
+·Upcoming·Nov 12·10:00 AM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[Upcoming · Nov 17, 8:00 AM PT
+
+### Claude for Manufacturing: Put Your Plant’s Know-How to Work 
+
+A first look at the Model Hardware Standard plus how Claude drafts quotes, NCRs, and reports from your plant's records while experts stay in charge.
+
+·Upcoming·Nov 17·8:00 AM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work)
+
 ## Browse it all
 
 [Use cases70 use cases](https://academy.claude.com/all)[Tutorials67 tutorials](https://academy.claude.com/all)[Courses13 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)

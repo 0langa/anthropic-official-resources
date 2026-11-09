@@ -2,18 +2,19 @@
 
 [Read Paper](https://arxiv.org/abs/2112.00861)
 
-- Published
+Published
+:   Dec 1, 2021
 
-  Dec 1, 2021
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
+    - [Training](https://www.anthropic.com/search?topic=training)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
 
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
-  - [Training](https://www.anthropic.com/search?topic=training)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)See more...
+    See more...
 
 Related articles
 

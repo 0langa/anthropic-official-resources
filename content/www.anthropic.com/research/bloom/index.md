@@ -6,19 +6,20 @@
 
 ![Left: botanical illustration of a bare tree with branching root system labeled A, B, C, D. Right: cyanotype of delicate flowering plant with white and blue blossoms on dark blue background](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1e6487efbfbb041509108ed14868f2937f298cd8-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Dec 19, 2025
 
-  Dec 19, 2025
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 *We're releasing Bloom, an open source agentic framework for generating behavioral evaluations of frontier AI models. Bloom takes a researcher-specified behavior and quantifies its frequency and severity across automatically generated scenarios. Bloom's evaluations correlate strongly with our hand-labeled judgments and we find they reliably separate baseline models from intentionally misaligned ones. As examples of this, we release benchmark results for four alignment relevant behaviors on 16 models. Bloom is available [here](https://github.com/safety-research/bloom/).*
 
@@ -61,7 +62,7 @@ Unlike fixed evaluation sets, Bloom produces different scenarios on each run whi
 
 Researchers can extensively configure Bloom's behavior, through choosing models for each stage, adjusting the interactions’ length and modality (i.e., whether to expose tools to the target model, whether to simulate a user), controlling how diverse the evaluation scenarios are, and specifying secondary scoring dimensions, like realism or elicitation difficulty.
 
-**Example outputs from all four stages of the Bloom evaluation pipeline can be viewed [here.](https://claude.ai/redirect/website.v1.e68f81e0-cc0c-489d-8668-4f51eee925e6/public/artifacts/cbfddf51-ab0d-45a9-913b-163ae2dd4126)**
+**Example outputs from all four stages of the Bloom evaluation pipeline can be viewed [here.](https://claude.ai/redirect/website.v1.724d4e35-058b-4287-9398-d3a758390069/public/artifacts/cbfddf51-ab0d-45a9-913b-163ae2dd4126)**
 
 ## Validation and trust
 
