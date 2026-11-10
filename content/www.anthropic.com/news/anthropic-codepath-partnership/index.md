@@ -1,19 +1,20 @@
 # Anthropic partners with CodePath to bring Claude to the US’s largest collegiate computer science program
 
-- Published
+Published
+:   Feb 13, 2026
 
-  Feb 13, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Education](https://www.anthropic.com/search?topic=education)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
 
-  - [Education](https://www.anthropic.com/search?topic=education)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Coding](https://www.anthropic.com/search?topic=coding)See more...
+    See more...
 
 Related articles
 

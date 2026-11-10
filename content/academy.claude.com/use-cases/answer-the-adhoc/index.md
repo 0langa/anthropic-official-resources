@@ -413,7 +413,7 @@ Claude for Excel
 
 Validate the numbers in a workbook
 
-Install](https://claude.com/claude-for-excel)
+Install](https://claude.com/claude-for-microsoft-365)
 
 [Next: Metrics deep-dive → narrative](https://academy.claude.com/use-cases/metrics-narrative)
 

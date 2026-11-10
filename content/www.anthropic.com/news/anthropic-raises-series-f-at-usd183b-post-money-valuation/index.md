@@ -1,17 +1,18 @@
 # Anthropic raises $13B Series F at $183B post-money valuation
 
-- Published
+Published
+:   Sep 2, 2025
 
-  Sep 2, 2025
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
 
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)See more...
+    See more...
 
 Related articles
 

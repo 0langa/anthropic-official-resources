@@ -1,17 +1,18 @@
 # Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust
 
-- Published
+Published
+:   Jul 9, 2026
 
-  Jul 9, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
 
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)See more...
+    See more...
 
 Related articles
 

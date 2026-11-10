@@ -2,20 +2,21 @@
 
 [Talk to Claude](https://claude.ai/)
 
-- Published
+Published
+:   Jul 11, 2023
 
-  Jul 11, 2023
-- Category
+Category
+:   [Models](https://www.anthropic.com/news/models)
 
-  [Models](https://www.anthropic.com/news/models)
-- Topics
+Topics
+:   - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+    - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

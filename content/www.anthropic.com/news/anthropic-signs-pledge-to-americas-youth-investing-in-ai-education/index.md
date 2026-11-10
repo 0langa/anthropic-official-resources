@@ -1,18 +1,19 @@
 # **Anthropic Signs White House Pledge to America's Youth:**Investing in AI Education
 
-- Published
+Published
+:   Sep 4, 2025
 
-  Sep 4, 2025
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Education](https://www.anthropic.com/search?topic=education)
+    - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
 
-  - [Education](https://www.anthropic.com/search?topic=education)
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)See more...
+    See more...
 
 Related articles
 

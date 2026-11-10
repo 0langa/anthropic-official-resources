@@ -10,7 +10,7 @@ ProductAll
 
 RoleAll
 
-429 resources
+432 resources
 
 [## AI capabilities and limitations
 
@@ -240,7 +240,7 @@ ProductAll
 
 RoleAll
 
-137 tutorials
+138 tutorials
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-blskv34c.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bv9w6wt2.png)
 
@@ -294,7 +294,9 @@ Ask an AI a question and the answer comes back confident, well-organized, maybe 
 
 ## Check your AI use policy with Claude
 
-“Can I put our donor list into Claude?” A development associate has thank-you letters to write and takes care with donor information, so she asks before connecting any tools or sharing the list.](https://academy.claude.com/tutorials/claude-for-nonprofits-in-action-ai-policy)[## Choose between a cloud session and Remote Control for a long task
+“Can I put our donor list into Claude?” A development associate has thank-you letters to write and takes care with donor information, so she asks before connecting any tools or sharing the list.](https://academy.claude.com/tutorials/claude-for-nonprofits-in-action-ai-policy)[![](https://academy.claude.com/assets/v1/thumbnail.dark-gpqo6sfe.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gpqo6sfe.png)
+
+## Choose between a cloud session and Remote Control for a long task
 
 A long Claude Code task can keep going after you leave your desk, on your own machine with Remote Control or in a cloud session. Compare what each one gives you and where it stops, then use a few questions to pick one for a task and say why.
 
@@ -558,7 +560,7 @@ ProductAll
 
 StatusAll
 
-107 webinars
+109 webinars
 
 [Upcoming
 
@@ -618,7 +620,31 @@ RAINED
 
 ·Upcoming·Nov 17·10:00 AM PT
 
- (opens in new tab)](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[Recording
+ (opens in new tab)](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[Upcoming
+
+## How the Claude Code team does code review 
+
+How the Claude Code team cut reverts 40% while doubling merged PRs, with AI review, risk-based human approval, and evals.
+
+ML
+
+·Nov 18·12:00 PM PT
+
+·Upcoming·Nov 18·12:00 PM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[Recording
+
+## The State of Cybersecurity: What Frontier AI Changes for Security Leaders 
+
+A CISO briefing on how attackers use AI, based on Anthropic threat research, plus using Claude Security to scan code and review patches.
+
+RGBA
+
+·Nov 5
+
+·Recording·Nov 5
+
+ (opens in new tab)](https://claude.com/resources/webinars/the-state-of-cybersecurity)[Recording
 
 ## Claude Rearview Roadmap Review: October 2026 
 
@@ -818,28 +844,4 @@ WL
 
 ·Recording·Sep 21
 
- (opens in new tab)](https://claude.com/resources/webinars/how-to-roadmap-with-decisions-rather-than-dates)[Recording
-
-## Enterprise Readiness: A CISO's Guide to Deploying Claude 
-
-A CISO's guide to rolling out Claude Enterprise, from deployment models and governance controls to scaling from chat into Claude Code.
-
-DFBNIP
-
-·Sep 18
-
-·Recording·Sep 18
-
- (opens in new tab)](https://claude.com/resources/webinars/enterprise-readiness-a-cisos-guide-to-deploying-claude)[Recording
-
-## Inside Claude for Financial Advisors 
-
-A walkthrough of how Claude for Financial Advisors handles meeting prep, follow-ups, CRM updates and compliance checks for your firm.
-
-BNPNDP
-
-·Sep 18
-
-·Recording·Sep 18
-
- (opens in new tab)](https://claude.com/resources/webinars/inside-claude-for-financial-advisors)Load more
+ (opens in new tab)](https://claude.com/resources/webinars/how-to-roadmap-with-decisions-rather-than-dates)Load more

@@ -4,20 +4,21 @@
 
 ![How AI is transforming work at Anthropic](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fbc687c155daabe9ec74b4eff6e14b9657f83d763-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Dec 2, 2025
 
-  Dec 2, 2025
-- Team
+Team
+:   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
-- Topics
+Topics
+:   - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
 
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)See more...
+    See more...
 
 Related articles
 

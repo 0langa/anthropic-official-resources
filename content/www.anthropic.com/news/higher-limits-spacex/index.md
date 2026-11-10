@@ -1,18 +1,19 @@
 # Higher usage limits for Claude and a compute deal with SpaceX
 
-- Published
+Published
+:   May 6, 2026
 
-  May 6, 2026
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
 
-  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)See more...
+    See more...
 
 Related articles
 

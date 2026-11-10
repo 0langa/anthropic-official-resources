@@ -1,18 +1,19 @@
 # Claude Opus 4.1
 
-- Published
+Published
+:   Aug 5, 2025
 
-  Aug 5, 2025
-- Category
+Category
+:   [Models](https://www.anthropic.com/news/models)
 
-  [Models](https://www.anthropic.com/news/models)
-- Topics
+Topics
+:   - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
 
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)See more...
+    See more...
 
 Related articles
 

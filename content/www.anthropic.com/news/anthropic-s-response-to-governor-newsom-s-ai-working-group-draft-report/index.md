@@ -1,18 +1,19 @@
 # Anthropic’s response to Governor Newsom’s AI working group draft report
 
-- Published
+Published
+:   Mar 19, 2025
 
-  Mar 19, 2025
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+    - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
 
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
-  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)See more...
+    See more...
 
 Related articles
 

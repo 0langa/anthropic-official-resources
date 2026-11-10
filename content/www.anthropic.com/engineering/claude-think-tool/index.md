@@ -2,19 +2,20 @@
 
 # **The "think" tool:**Enabling Claude to stop and think in complex tool use situations
 
-- Published
+Published
+:   Mar 20, 2025
 
-  Mar 20, 2025
-- Team
+Team
+:   [Engineering](https://www.anthropic.com/engineering)
 
-  [Engineering](https://www.anthropic.com/engineering)
-- Topics
+Topics
+:   - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+    - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
 
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
-  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)See more...
+    See more...
 
 Related articles
 

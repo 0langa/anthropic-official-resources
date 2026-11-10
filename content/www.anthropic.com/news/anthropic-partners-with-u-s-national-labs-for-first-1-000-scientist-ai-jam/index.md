@@ -1,18 +1,19 @@
 # Anthropic partners with U.S. National Labs for first 1,000 Scientist AI Jam
 
-- Published
+Published
+:   Feb 28, 2025
 
-  Feb 28, 2025
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)See more...
+    See more...
 
 Related articles
 

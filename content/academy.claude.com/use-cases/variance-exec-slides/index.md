@@ -406,13 +406,13 @@ Claude for PowerPoint
 
 Polish the three pages in place
 
-Install](https://claude.com/claude-for-powerpoint)[![](https://academy.claude.com/surfaces/excel-icon.svg)
+Install](https://claude.com/claude-for-microsoft-365)[![](https://academy.claude.com/surfaces/excel-icon.svg)
 
 Claude for Excel
 
 Edit the underlying workbook
 
-Install](https://claude.com/claude-for-excel)
+Install](https://claude.com/claude-for-microsoft-365)
 
 [Next: Explain a variance](https://academy.claude.com/use-cases/explain-a-variance)
 

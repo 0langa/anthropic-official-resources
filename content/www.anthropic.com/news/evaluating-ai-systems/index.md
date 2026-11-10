@@ -2,20 +2,21 @@
 
 # Challenges in evaluating AI systems
 
-- Published
+Published
+:   Oct 4, 2023
 
-  Oct 4, 2023
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
 
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)See more...
+    See more...
 
 Related articles
 

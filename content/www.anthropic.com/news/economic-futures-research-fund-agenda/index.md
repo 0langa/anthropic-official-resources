@@ -4,19 +4,20 @@
 
 ![A research agenda for the Economic Futures Research Fund](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1dee16ed8ebe3e7bdf82ed8b4186373cf882827c-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jul 22, 2026
 
-  Jul 22, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+    - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Economic growth](https://www.anthropic.com/search?topic=economic-growth)
 
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Economic growth](https://www.anthropic.com/search?topic=economic-growth)See more...
+    See more...
 
 Related articles
 

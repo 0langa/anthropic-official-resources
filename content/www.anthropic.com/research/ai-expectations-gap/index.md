@@ -6,19 +6,20 @@
 
 ![The AI expectations gap](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff887bbe389a32292f37fd38e5515da404a384d0f-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 16, 2026
 
-  Oct 16, 2026
-- Team
+Team
+:   [Economics](https://www.anthropic.com/research/team/economics)
 
-  [Economics](https://www.anthropic.com/research/team/economics)
-- Topics
+Topics
+:   - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
+    - [Economic growth](https://www.anthropic.com/search?topic=economic-growth)
 
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)
-  - [Economic growth](https://www.anthropic.com/search?topic=economic-growth)See more...
+    See more...
 
 Related articles
 

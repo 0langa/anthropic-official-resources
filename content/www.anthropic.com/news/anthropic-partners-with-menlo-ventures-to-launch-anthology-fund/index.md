@@ -1,17 +1,18 @@
 # Anthropic partners with Menlo Ventures to launch Anthology Fund
 
-- Published
+Published
+:   Jul 17, 2024
 
-  Jul 17, 2024
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+    See more...
 
 Related articles
 

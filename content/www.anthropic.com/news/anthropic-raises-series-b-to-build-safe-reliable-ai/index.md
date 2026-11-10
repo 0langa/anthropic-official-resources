@@ -1,18 +1,19 @@
 # Anthropic Raises Series B to build steerable, interpretable, robust AI systems
 
-- Published
+Published
+:   Apr 29, 2022
 
-  Apr 29, 2022
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
+    - [Leadership](https://www.anthropic.com/search?topic=leadership)
 
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)See more...
+    See more...
 
 Related articles
 

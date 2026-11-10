@@ -1,16 +1,17 @@
 # Claude and Alexa+
 
-- Published
+Published
+:   Feb 26, 2025
 
-  Feb 26, 2025
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)See more...
+    See more...
 
 Related articles
 

@@ -4,18 +4,19 @@
 
 ![Mapping the mind of a large language model](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7cb91c3d259514860ff0482f74c178eb4000ba6c-2000x1125.png&w=1920&q=75)
 
-- Published
+Published
+:   May 21, 2024
 
-  May 21, 2024
-- Team
+Team
+:   [Interpretability](https://www.anthropic.com/research/team/interpretability)
 
-  [Interpretability](https://www.anthropic.com/research/team/interpretability)
-- Topics
+Topics
+:   - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
 
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)See more...
+    See more...
 
 Related articles
 

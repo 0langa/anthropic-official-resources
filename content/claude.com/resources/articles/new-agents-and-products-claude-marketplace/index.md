@@ -7,7 +7,7 @@
 
 We’ve added new agents and products to [Claude Marketplace](https://claude.com/marketplace), where teams find partner tools and services to help them get more from Claude. The additions cover security, developer infrastructure, creative, and productivity.
 
-Eligible enterprise customers can apply a portion of their committed Anthropic spend toward these solutions. This lets them use one commitment across Claude and partner products, whether they’re buying something new or expanding with a platform they already use.
+Eligible enterprise customers can [apply a portion of their committed Anthropic spend](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace) toward these solutions. This lets them use one commitment across Claude and partner products, whether they’re buying something new or expanding with a platform they already use.
 
 There are now over 25 partner agents and products on the marketplace. Here are the latest additions and what teams can do with them.
 
@@ -55,7 +55,15 @@ You can browse all agents and products on [Claude Marketplace](https://claude.co
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 5, 2026
+[ArticleNov 9, 2026
+
+### Claude Fable 5.2 and Mythos 5.2
+
+Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.
+
+Claude appsClaude Code1 more: Claude PlatformClaude Platform
+
+(opens in new tab)](https://www.anthropic.com/claude-fable-and-mythos-5-2)[ArticleNov 5, 2026
 
 ### Introducing Personal Finance in Claude
 
@@ -69,13 +77,7 @@ Claude EnterpriseClaude apps](https://claude.com/resources/articles/claude-enter
 
 New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
 
-Claude Platform](https://claude.com/resources/articles/message-threads)[ArticleOct 28, 2026
-
-### Smart reports, surveys, and pooled group budgets for Claude Enterprise
-
-In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
-
-Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)
+Claude Platform](https://claude.com/resources/articles/message-threads)
 
 ## Transform how your organization operates with Claude
 

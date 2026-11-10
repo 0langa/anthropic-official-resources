@@ -1,17 +1,18 @@
 # **Claude in Amazon Bedrock:**Approved for use in FedRAMP High and DoD IL4/5 workloads
 
-- Published
+Published
+:   Jun 11, 2025
 
-  Jun 11, 2025
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Access](https://www.anthropic.com/search?topic=access)
 
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Access](https://www.anthropic.com/search?topic=access)See more...
+    See more...
 
 Related articles
 

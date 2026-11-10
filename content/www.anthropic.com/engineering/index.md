@@ -1,8 +1,15 @@
 # The Engineering team builds the infrastructure that makes Claude reliable and trustworthy. They translate our research into production systems, and share what they learn about building, evaluating, and deploying AI agents at scale.
 
+- [![Illustration of two offset half circles with a grid pattern, one green and one pink, facing each other across a gap on a light blue background.](https://assets.claude.com/8d3836735b8659a7c39c9c9b5b795d579195bde1.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/components-of-agent-memory)
 - [![Redesigning source control at Anthropic](https://assets.claude.com/cfb6c0671a1e04252d55fc3c6776daad399e8356.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/redesigning-source-control)
 - [![Harness design for long-running application development](https://assets.claude.com/06e96ccf5aecdd14d34f8c7c14d24c48147c20f4.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/harness-design-long-running-apps)
 - [![Designing AI-resistant technical evaluations](https://assets.claude.com/d89131632520ea85953121daa687b257a261208b.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/AI-resistant-technical-evaluations)
+
+[Engineering](https://www.anthropic.com/engineering)
+
+Nov 6, 2026[## The components of agent memory](https://www.anthropic.com/research/components-of-agent-memory)
+
+For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.
 
 [Engineering](https://www.anthropic.com/engineering)
 
@@ -32,7 +39,7 @@ What we learned from three iterations of a performance engineering take-home tha
 
 /
 
-03
+04
 
 28
 
@@ -172,7 +179,7 @@ Studies how AI affects people, both individually and collectively.
 
 [### Science](https://www.anthropic.com/science)
 
-18 posts
+19 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 
@@ -214,7 +221,7 @@ Studies how AI affects people, both individually and collectively.
 
 [### Science](https://www.anthropic.com/science)
 
-18 posts
+19 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 

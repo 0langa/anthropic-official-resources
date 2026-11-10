@@ -276,7 +276,7 @@ To stop a prompt, return `{ drop: 'the reason' }` without calling `next`. The te
 * **Your hook returns a `drop` after its `next(e)` call let the prompt through**: the turn still runs, and the hook [fails](#handle-a-hook-that-fails) with a message that includes `a drop after its next() was answered`
 * **Your hook throws or times out**: Claude Code skips it and sends the prompt. [Add a `.catch` handler](#handle-a-hook-that-fails) so that a failure doesn't send a prompt the hook would have stopped.
 
-[Other events](/docs/en/plugins/mods/reference#prompts-and-what-claude-reads) cover the rest of what Claude reads: `prompt.section` for each section of the system prompt, `prompt.context` for the context sent with the first message, and `skill.prompt` for a skill's text. Text from these hooks that changes between requests [invalidates the prompt cache](/docs/en/prompt-caching). In a `skill.prompt` hook, you can also read [which plugin or file the skill came from](/docs/en/plugins/mods/reference#skill-prompt-fields).
+[Other events](/docs/en/plugins/mods/reference#prompts-and-what-claude-reads) cover the rest of what Claude reads: `prompt.section` for each section of the system prompt, `prompt.context` for the context sent with the first message, and `skill.prompt` for a skill's text. To change a section after a conversation has started, see [Send a changed system prompt section or tool description](/docs/en/plugins/mods/reference#break-prompt-cache). In a `skill.prompt` hook, you can also read [which plugin or file the skill came from](/docs/en/plugins/mods/reference#skill-prompt-fields).
 
 ### Follow a turn
 
@@ -325,7 +325,7 @@ Use a `settings.read` hook to change or refuse a settings read, either a mod's o
 
 Check which mods get this event and your Claude Code version:
 
-* **The built-in guard**: with managed settings, or with a Team or Enterprise [`/login`](/docs/en/authentication#authentication-precedence) as the session's credential, the [built-in guard](/docs/en/plugins/mods/admin#know-what-happens-by-default) can skip this hook in a mod you install or load with `--plugin-dir`. To check, search the [debug log](/docs/en/plugins/mods/troubleshoot#read-the-debug-log) for `settings.read bypassed by cc-plugin-sec-default`. If a line with that text names your mod, ask your organization's administrator to [install the mod as one of the organization's mods](/docs/en/plugins/mods/admin#install-your-organizations-mods).
+* **The built-in guard**: where the [built-in guard](/docs/en/plugins/mods/admin#know-what-happens-by-default) loads, it can skip this hook in a mod you install or load with `--plugin-dir`. To check, search the [debug log](/docs/en/plugins/mods/troubleshoot#read-the-debug-log) for `settings.read bypassed by cc-plugin-sec-default`. If a line with that text names your mod, ask your organization's administrator to [install the mod as one of the organization's mods](/docs/en/plugins/mods/admin#install-your-organizations-mods).
 * **The version**: the event firing on Claude Code's own read, and the `e.layers` field, require Claude Code v2.1.304 or later.
 
 #### What a `settings.read` hook receives

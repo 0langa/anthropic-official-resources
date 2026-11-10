@@ -6,19 +6,20 @@
 
 ![How AI assistance impacts the formation of coding skills](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1a850d521ce787832a977168bb0b9fbe7e6c02dc-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jan 29, 2026
 
-  Jan 29, 2026
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Education](https://www.anthropic.com/search?topic=education)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
 
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Education](https://www.anthropic.com/search?topic=education)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)See more...
+    See more...
 
 Related articles
 
@@ -30,7 +31,7 @@ Related articles
 
 [View more](https://www.anthropic.com/search?topic=coding)
 
-Research shows AI helps people do [parts](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4945566) of their job faster. In an observational [study](https://www.anthropic.com/research/estimating-productivity-gains) of [Claude.ai](http://claude.ai/redirect/website.v1.4e2e5933-762a-48a1-aee7-361a2bcc3229) data, we found AI can speed up some tasks by 80%. But does this increased productivity come with trade-offs? Other research shows that when people use AI assistance, they become [less engaged with their work](https://www.nature.com/articles/s41598-025-98385-2) and [reduce](https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf) the effort they put into doing it—in other words, they offload their thinking to AI.
+Research shows AI helps people do [parts](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4945566) of their job faster. In an observational [study](https://www.anthropic.com/research/estimating-productivity-gains) of [Claude.ai](http://claude.ai/redirect/website.v1.226ccd14-5eb2-4426-8abb-6392330c3175) data, we found AI can speed up some tasks by 80%. But does this increased productivity come with trade-offs? Other research shows that when people use AI assistance, they become [less engaged with their work](https://www.nature.com/articles/s41598-025-98385-2) and [reduce](https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf) the effort they put into doing it—in other words, they offload their thinking to AI.
 
 It’s unclear whether this cognitive offloading can prevent people from growing their skills on the job, or—in the case of coding—understanding the systems they’re building. Our latest study, a randomized controlled trial with software developers as participants, investigates this potential downside of using AI at work.
 

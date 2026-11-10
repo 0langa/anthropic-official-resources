@@ -2,20 +2,21 @@
 
 # Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku
 
-- Published
+Published
+:   Oct 22, 2024
 
-  Oct 22, 2024
-- Category
+Category
+:   [Models](https://www.anthropic.com/news/models)
 
-  [Models](https://www.anthropic.com/news/models)
-- Topics
+Topics
+:   - [Computer use](https://www.anthropic.com/search?topic=computer-use)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Computer use](https://www.anthropic.com/search?topic=computer-use)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 *Update (12/03/2024): We have revised the pricing for Claude 3.5 Haiku. The model is now priced at $0.80 MTok input / $4 MTok output.*
 

@@ -4,19 +4,20 @@
 
 ![Launching an opt-in vulnerability-finding service for open-source software](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0c269cba7924d77f62632a8293563b1830856f94-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 8, 2026
 
-  Oct 8, 2026
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Access](https://www.anthropic.com/search?topic=access)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Access](https://www.anthropic.com/search?topic=access)See more...
+    See more...
 
 *We’re launching [OSS Scanner](https://red.anthropic.com/oss-scanner), an opt-in vulnerability scanner for the open-source ecosystem informed by our experience using Claude to find vulnerabilities during [Project Glasswing](https://www.anthropic.com/glasswing). Projects that join will receive thorough, periodic security scans by our strongest models at no cost.*
 

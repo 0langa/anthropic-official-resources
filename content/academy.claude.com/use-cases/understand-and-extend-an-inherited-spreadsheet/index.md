@@ -121,7 +121,7 @@ Q4 2025 closed at $8.2M revenue versus the $8.5M forecast. Update the model with
 
 ### Choose Opus for complex financial models[](https://academy.claude.com/use-cases/understand-and-extend-an-inherited-spreadsheet)
 
-Sonnet handles simple spreadsheets well. But inherited models with cross-sheet dependencies—where changing one assumption cascades through four tabs—benefit from Opus 4.5's deeper reasoning. The extra time per response pays off in fewer formula errors, better pattern recognition, and polished output files with working formulas, formatting, and annotations intact.
+Sonnet handles simple spreadsheets well. But inherited models with cross-sheet dependencies—where changing one assumption cascades through four tabs—benefit from Opus 5.5's deeper reasoning. The extra time per response pays off in fewer formula errors, better pattern recognition, and polished output files with working formulas, formatting, and annotations intact.
 
 ### Ask Claude to annotate the file[](https://academy.claude.com/use-cases/understand-and-extend-an-inherited-spreadsheet)
 

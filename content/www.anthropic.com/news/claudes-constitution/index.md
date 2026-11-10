@@ -6,19 +6,20 @@
 
 ![Claude’s constitution](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc8ef102f0e46b6ea8fb27e763130e2ce84bbfba7-3000x1688.jpg&w=1920&q=75)
 
-- Published
+Published
+:   May 9, 2023
 
-  May 9, 2023
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
+    - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
+    - [Training](https://www.anthropic.com/search?topic=training)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
 
-  - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
-  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
-  - [Training](https://www.anthropic.com/search?topic=training)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)See more...
+    See more...
 
 ***Update, Jan 21, 2026:** We've published a new version of Claude's constitution, which you can find at the button above.*
 

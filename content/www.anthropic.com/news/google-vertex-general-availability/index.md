@@ -1,18 +1,19 @@
 # Claude 3 models on Vertex AI
 
-- Published
+Published
+:   Mar 19, 2024
 
-  Mar 19, 2024
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)See more...
+    See more...
 
 Related articles
 

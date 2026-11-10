@@ -3814,6 +3814,9 @@
   "https://platform.claude.com/docs/en/api/beta/organization/users/retrieve": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/beta/organization/users/sign_out": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/beta/organization/users/update": [
     "Native source; upstream MDX components retained."
   ],
@@ -4514,6 +4517,12 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/compliance/organizations/roles/retrieve?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/organizations/security_posture": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/compliance/organizations/security_posture/retrieve": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/compliance/organizations/settings": [
@@ -7114,6 +7123,9 @@
   "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-1?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
@@ -7984,6 +7996,15 @@
   "https://platform.claude.com/docs/en/models/fable-5-1/whats-new-fable-5-1?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/models/fable-5-2/migration-guide": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/models/fable-5-2/overview": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/models/fable-5-2/whats-new-fable-5-2": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/models/fable-5/introducing-claude-fable-5-and-claude-mythos-5": [
     "Native source; upstream MDX components retained."
   ],
@@ -8027,6 +8048,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/models/mythos-5-1/overview?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/models/mythos-5-2/overview": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/models/mythos-5/overview": [
@@ -8156,6 +8180,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-fable-5-1?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-fable-5-2": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/release-notes/system-prompts/claude-fable-5?sdk_languages=curl": [
@@ -9538,6 +9565,9 @@
   "https://support.claude.com/en/articles/15363606-why-claude-switched-models-in-your-conversation-with-fable-5-or-fable-5-1": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/15363606-why-claude-switched-models-in-your-conversation-with-fable-models": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/15402193-restrict-verified-domain-connectors-to-your-enterprise": [
     "Native source; upstream MDX components retained."
   ],
@@ -9907,6 +9937,9 @@
   "https://support.claude.com/en/articles/17458093-claude-docs-keyboard-shortcuts": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/17506494-claude-fable-5-2-launch-offers": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/17603594-free-code-review-promotional-credits-for-claude-enterprise": [
     "Native source; upstream MDX components retained."
   ],
@@ -9914,6 +9947,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/17644704-share-your-voice-recordings-with-anthropic": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/17666484": [
@@ -10911,6 +10947,9 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/claude-electronics-design": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-fable-5-mythos-5": [

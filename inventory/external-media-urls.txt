@@ -36,6 +36,8 @@ https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F6
 https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F6YPqoARpYuQ%2Fmaxresdefault.jpg&w=3840&q=75
 https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F6YPqoARpYuQ%2Fsddefault.jpg&w=1920&q=75
 https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F6YPqoARpYuQ%2Fsddefault.jpg&w=3840&q=75
+https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F6a1QSJlsYpU%2Fsddefault.jpg&w=1920&q=75
+https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F6a1QSJlsYpU%2Fsddefault.jpg&w=3840&q=75
 https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9eXV64O2Xp8%2Fmaxresdefault.jpg&w=1920&q=75
 https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9eXV64O2Xp8%2Fmaxresdefault.jpg&w=3840&q=75
 https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9eXV64O2Xp8%2Fsddefault.jpg&w=1920&q=75
@@ -187,6 +189,10 @@ https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2Fv
 https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvNeIQS9GsZ8%2Fmaxresdefault.jpg&w=3840&q=75
 https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvNeIQS9GsZ8%2Fsddefault.jpg&w=1920&q=75
 https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvNeIQS9GsZ8%2Fsddefault.jpg&w=3840&q=75
+https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvdYynH177h0%2Fmaxresdefault.jpg&w=1920&q=75
+https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvdYynH177h0%2Fmaxresdefault.jpg&w=3840&q=75
+https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvdYynH177h0%2Fsddefault.jpg&w=1920&q=75
+https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FvdYynH177h0%2Fsddefault.jpg&w=3840&q=75
 https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FxmP7bhigCWE%2Fmaxresdefault.jpg&w=1920&q=75
 https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FxmP7bhigCWE%2Fmaxresdefault.jpg&w=3840&q=75
 https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FxmP7bhigCWE%2Fsddefault.jpg&w=1920&q=75
@@ -689,6 +695,7 @@ https://www.youtube.com/watch?v=3fGaS8mcD9Q
 https://www.youtube.com/watch?v=42zQaA-j9b0
 https://www.youtube.com/watch?v=4PtGWgEO0ME
 https://www.youtube.com/watch?v=4SunBsMGRwA
+https://www.youtube.com/watch?v=4ZsVR-6YOzs
 https://www.youtube.com/watch?v=4czF_ac02ic
 https://www.youtube.com/watch?v=4szRHy_CT7s
 https://www.youtube.com/watch?v=54BdUqMQUMI

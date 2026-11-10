@@ -1,17 +1,18 @@
 # Anthropic appoints Hidetoshi Tojo as Head of Japan and announces hiring plans
 
-- Published
+Published
+:   Aug 6, 2025
 
-  Aug 6, 2025
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
 
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)See more...
+    See more...
 
 Related articles
 

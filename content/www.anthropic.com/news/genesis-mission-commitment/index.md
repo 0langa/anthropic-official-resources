@@ -1,18 +1,19 @@
 # Building on our commitment to American scientific discovery
 
-- Published
+Published
+:   Oct 8, 2026
 
-  Oct 8, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
 
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)See more...
+    See more...
 
 Related articles
 

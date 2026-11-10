@@ -1,18 +1,19 @@
 # **Claude 3 Haiku:**our fastest model yet
 
-- Published
+Published
+:   Mar 13, 2024
 
-  Mar 13, 2024
-- Category
+Category
+:   [Models](https://www.anthropic.com/news/models)
 
-  [Models](https://www.anthropic.com/news/models)
-- Topics
+Topics
+:   - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
+    - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

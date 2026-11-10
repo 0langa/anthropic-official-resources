@@ -4,19 +4,20 @@
 
 ![Introducing the Anthropic Cyber Mission](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe6614df689675126bb32ceb5cfcaaae016050c36-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 8, 2026
 
-  Oct 8, 2026
-- Category
+Category
+:   [Security](https://www.anthropic.com/news/security)
 
-  [Security](https://www.anthropic.com/news/security)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+    See more...
 
 Related articles
 

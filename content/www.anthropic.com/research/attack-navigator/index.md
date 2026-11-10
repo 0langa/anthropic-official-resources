@@ -4,19 +4,20 @@
 
 ![Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1f630e0abb6d51eefc0eea387946ae6cb0fc253e-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jun 3, 2026
 
-  Jun 3, 2026
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

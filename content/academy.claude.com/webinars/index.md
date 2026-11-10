@@ -60,11 +60,19 @@ MW
 
 Lower the cost of your Claude workloads in Microsoft Foundry, keep spend visible with gateways and controls, and prove ROI.
 
-AWAS
+AWASAV
 
 ·Upcoming·Nov 12·10:00 AM PT
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)[Upcoming · Nov 17, 10:00 AM PT
+ (opens in new tab)](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)[Upcoming · Nov 17, 8:00 AM PT
+
+### Claude for Manufacturing: Put Your Plant’s Know-How to Work 
+
+A first look at the Model Hardware Standard plus how Claude drafts quotes, NCRs, and reports from your plant's records while experts stay in charge.
+
+·Upcoming·Nov 17·8:00 AM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work)[Upcoming · Nov 17, 10:00 AM PT
 
 ### Build Agents with the Claude Platform on Google Cloud 
 

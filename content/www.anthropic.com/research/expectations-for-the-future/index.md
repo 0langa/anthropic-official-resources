@@ -2,19 +2,20 @@
 
 ![Working at the frontier shapes expectations for the future](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fbb7d44b0b539fd7f179324bbb647b10c2d7bc833-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 16, 2026
 
-  Oct 16, 2026
-- Team
+Team
+:   [Economics](https://www.anthropic.com/research/team/economics)
 
-  [Economics](https://www.anthropic.com/research/team/economics)
-- Topics
+Topics
+:   - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
 
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)See more...
+    See more...
 
 Related articles
 

@@ -1,17 +1,18 @@
 # Anthropic, AWS, and Accenture team up to build trusted solutions for enterprises
 
-- Published
+Published
+:   Mar 20, 2024
 
-  Mar 20, 2024
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+    - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)See more...
+    See more...
 
 Related articles
 

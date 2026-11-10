@@ -4,19 +4,20 @@
 
 ![A postmortem of three recent issues](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F55f6ae5b6156f26c14695939ff77d4f4bc4e82f8-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Sep 17, 2025
 
-  Sep 17, 2025
-- Team
+Team
+:   [Engineering](https://www.anthropic.com/engineering)
 
-  [Engineering](https://www.anthropic.com/engineering)
-- Topics
+Topics
+:   - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+    - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
 
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
-  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)See more...
+    See more...
 
 Related articles
 

@@ -22,32 +22,32 @@ The Pathology Explorer offers a range of capabilities, allowing Claude to analyz
 
 For each cell type (lymphocytes, neutrophils, plasmocytes, fibroblasts, eosinophils, cancer cell), the model provides:
 
-- count\_{cell\_type}: The total number of cells of the specified type detected in the slide.
-- global\_density\_{cell\_type}: The density of the specified cell type per unit area of the tissue.
+- `count_{cell_type}`: The total number of cells of the specified type detected in the slide.
+- `global_density_{cell_type}`: The density of the specified cell type per unit area of the tissue.
 
 **Morphological features of the nucleus**
 
 For each cell type, the model provides:
 
-- mean\_area\_{cell\_type}: The average area of the nuclei of the specified cell type in the slides.
-- mean\_circularity\_{cell\_type}: The average circularity of the nuclei of the specified cell type in the slides.
-- mean\_perimeter\_{cell\_type}: The average perimeter of the nuclei of the specified cell type in the slides.
+- `mean_area_{cell_type}`: The average area of the nuclei of the specified cell type in the slides.
+- `mean_circularity_{cell_type}`: The average circularity of the nuclei of the specified cell type in the slides.
+- `mean_perimeter_{cell_type}`: The average perimeter of the nuclei of the specified cell type in the slides.
 
 **Spatial organization features**
 
 For three types of regions (tumor, tumor core and tumor core stroma), the model provides for each cell type:
 
-- density\_{cell\_type}\_in\_{region}: The density of the specified cell type within the specified region.
+- `density_{cell_type}_in_{region}`: The density of the specified cell type within the specified region.
 
 For each region, the model also provides:
 
-- area\_{region}: The area of the specified region in the slide.
+- `area_{region}`: The area of the specified region in the slide.
 
 In addition, for a selection of biologically relevant cell-cell interactions, the model provides:
 
-- average\_co\_occurrence\_{cell\_type}\_{cell\_type2}\_rad\_20.0um: The average co-occurrence of the two specified cell types nuclei within a radius of 20 micrometers.
+- `average_co_occurrence_{cell_type}_{cell_type2}_rad_20.0um`: The average co-occurrence of the two specified cell types nuclei within a radius of 20 micrometers.
 
-The model also computes the tils\_diffusivity, a metric for quantifying the tumor-infiltrating lymphocytes diffusivity for the slide.
+The model also computes the `tils_diffusivity`, a metric for quantifying the tumor-infiltrating lymphocytes diffusivity for the slide.
 
 **Available cohorts from the dataset**
 

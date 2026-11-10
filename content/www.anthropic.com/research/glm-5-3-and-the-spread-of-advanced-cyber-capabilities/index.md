@@ -4,20 +4,21 @@
 
 ![GLM-5.3 and the spread of advanced cyber capabilities](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3b214430747c67bfba93f34438070303d2f4b755-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Sep 29, 2026
 
-  Sep 29, 2026
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)See more...
+    See more...
 
 Related articles
 

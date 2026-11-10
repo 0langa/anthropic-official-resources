@@ -4,20 +4,21 @@
 
 ![Measuring tactical intelligence targeting and conventional weapons capabilities of AI models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F042c04c580aeb7676c0942d95124637d8e50327c-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Sep 10, 2026
 
-  Sep 10, 2026
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Privacy](https://www.anthropic.com/search?topic=privacy)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
 
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Privacy](https://www.anthropic.com/search?topic=privacy)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)See more...
+    See more...
 
 Related articles
 

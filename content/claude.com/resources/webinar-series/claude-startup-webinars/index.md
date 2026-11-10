@@ -6,7 +6,7 @@ Once a month, the Anthropic team and partners go deep on a topic startups are wo
 
 ## Webinars
 
-- [Upcoming | Nov 9, 2026Evals for AI Agents: How to Get the Most Out of Every New Model(opens in new tab)](https://anthropic.swoogo.com/evals-for-ai-agents/details)
+- [Nov 9, 2026Evals for AI Agents: How to Get the Most Out of Every New Model(opens in new tab)](https://anthropic.swoogo.com/evals-for-ai-agents/details)
 
 ## Other series
 

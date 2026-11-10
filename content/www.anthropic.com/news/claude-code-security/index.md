@@ -1,19 +1,20 @@
 # Making frontier cybersecurity capabilities available to defenders
 
-- Published
+Published
+:   Feb 20, 2026
 
-  Feb 20, 2026
-- Category
+Category
+:   [Security](https://www.anthropic.com/news/security)
 
-  [Security](https://www.anthropic.com/news/security)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)See more...
+    See more...
 
 Related articles
 

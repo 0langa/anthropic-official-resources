@@ -24,6 +24,14 @@ Anthropic Deputy CISO, Jason Clinton, details how the Security Engineering team 
 
 Claude CodeClaude Tag1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/how-anthropic-secures-its-ai-native-software-development-lifecycle)
 
+[WebinarUpcoming | Nov 18, 2026
+
+### How the Claude Code team does code review
+
+When agents write the code, pull requests pile up faster than anyone can read them.
+
+Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)
+
 [WebinarUpcoming | Nov 17, 2026
 
 ### Build Agents with the Claude Platform on Google Cloud
@@ -40,14 +48,6 @@ Most nonprofit staff on Claude open a chat, get a decent but generic answer, and
 
 Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)
 
-[WebinarNov 4, 2026
-
-### Unified Claude: What it means for admins
-
-Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile.
-
-Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
-
 [ArticleJul 16, 2026
 
 ### Working with Claude Fable 5 in Claude Cowork
@@ -60,9 +60,15 @@ Featured resource 1 of 5: Working with Claude Fable 5 in Claude Cowork
 
 Advanced filters
 
-Showing 11 of 226 resources
+Showing 11 of 229 resources
 
-[WebinarUpcoming | Nov 17, 2026
+[WebinarUpcoming | Nov 18, 2026
+
+### How the Claude Code team does code review
+
+When agents write the code, pull requests pile up faster than anyone can read them.
+
+Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[WebinarUpcoming | Nov 17, 2026
 
 ### Build Agents with the Claude Platform on Google Cloud
 
@@ -74,7 +80,21 @@ Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-w
 
 Most nonprofit staff on Claude open a chat, get a decent but generic answer, and go back to doing it by hand.
 
-Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[WebinarNov 4, 2026
+Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[ArticleNov 9, 2026
+
+### Safely scaling multi-agent teams with Claude Fable 5.2
+
+How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
+
+(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)[ArticleNov 9, 2026
+
+### Which Claude model should you build with?
+
+How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.
+
+Claude PlatformClaude Code
+
+(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)[WebinarNov 4, 2026
 
 ### Unified Claude: What it means for admins
 
@@ -92,7 +112,9 @@ Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demon
 
 Your rollout plan depends on knowing what's changed and what matters the most.
 
-Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[ArticleOct 22, 2026
+Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise
+
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/93382d9c-795b-4053-9e0f-bcf3e2765258)[ArticleOct 22, 2026
 
 ### Building agents: When to fold subagents into your main agent loop
 
@@ -104,7 +126,9 @@ Claude Platform](https://claude.com/resources/articles/building-agents-when-to-f
 
 Your advisors want to use Claude for Financial Advisors. Before you turn on Cowork, you need to know how client data is handled.
 
-Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)[ArticleOct 19, 2026
+Claude CoworkClaude Enterprise
+
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/1ca88184-6d7b-4558-94e0-691d4a625140)[ArticleOct 19, 2026
 
 ### Redesigning source control at Anthropic
 
@@ -112,28 +136,6 @@ As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a da
 
 Claude Code
 
-(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)[ArticleOct 16, 2026
-
-### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
-
-How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
-
-Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)[ArticleOct 16, 2026
-
-### How the Claude Code team does code review
-
-How do you review code at the volume agents produce it? The Claude Code team shares its review process, from Claude verifying its own work to risk-tiered human approval, plus a checklist for adopting it.
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)[WebinarOn demand
-
-### Claude Tag on-call: A new teammate in your incident channel
-
-We open on an incident. An alert fires in a Slack channel and, without anyone typing a prompt, Claude reads the logs, repos and…
-
-Claude Tag
-
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/1c9579ed-c917-4e8c-b2f8-fb56c077a7d5)
+(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)
 
 View more

@@ -1,17 +1,18 @@
 # KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance
 
-- Published
+Published
+:   May 19, 2026
 
-  May 19, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Financial services](https://www.anthropic.com/search?topic=financial-services)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Financial services](https://www.anthropic.com/search?topic=financial-services)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 Related articles
 

@@ -1,17 +1,18 @@
 # Anthropic achieves ISO 42001 certification for responsible AI
 
-- Published
+Published
+:   Jan 13, 2025
 
-  Jan 13, 2025
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)
 
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)See more...
+    See more...
 
 Related articles
 

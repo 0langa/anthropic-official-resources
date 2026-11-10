@@ -6,22 +6,23 @@
 
 ![What work can robots do?](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc523800acb2cfb23b8c834b4268d5daef9eafce4-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Sep 30, 2026
 
-  Sep 30, 2026
-- Authors
+Authors
+:   - Russell Legate-Yang
+    - Maxim Massenkoff
 
-  - Russell Legate-Yang
-  - Maxim Massenkoff
-- Team
+Team
+:   [Economics](https://www.anthropic.com/research/team/economics)
 
-  [Economics](https://www.anthropic.com/research/team/economics)
-- Topics
+Topics
+:   - [Robotics](https://www.anthropic.com/search?topic=robotics)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
 
-  - [Robotics](https://www.anthropic.com/search?topic=robotics)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)See more...
+    See more...
 
 Related articles
 

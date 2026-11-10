@@ -1,20 +1,21 @@
 # Anthropic raises $124 million to build more reliable, general AI systems
 
-- Published
+Published
+:   May 28, 2021
 
-  May 28, 2021
-- Author
+Author
+:   - Peter McCrory
 
-  - Peter McCrory
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Leadership](https://www.anthropic.com/search?topic=leadership)
 
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)See more...
+    See more...
 
 Related articles
 

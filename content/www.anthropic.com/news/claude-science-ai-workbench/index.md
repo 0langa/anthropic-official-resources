@@ -4,20 +4,21 @@
 
 [Get started with Claude Science](https://claude.com/product/claude-science)
 
-- Published
+Published
+:   Jun 30, 2026
 
-  Jun 30, 2026
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Agent Skills](https://www.anthropic.com/search?topic=agent-skills)
+    - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Agent Skills](https://www.anthropic.com/search?topic=agent-skills)
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

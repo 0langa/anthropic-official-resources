@@ -4,7 +4,7 @@ Claude for Word works with you directly in your document. This video shows how t
 
 7 minClaude for Word
 
-Watch
+Watch[Install Claude for Word](https://claude.com/claude-for-microsoft-365)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.dark-b8qyl4x4.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-b8qyl4x4.png)
 

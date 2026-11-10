@@ -2,20 +2,21 @@
 
 # Improving our alignment and security efforts
 
-- Published
+Published
+:   Aug 31, 2026
 
-  Aug 31, 2026
-- Category
+Category
+:   [Safeguards](https://www.anthropic.com/news/safeguards)
 
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-- Topics
+Topics
+:   - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
 
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)See more...
+    See more...
 
 Related articles
 

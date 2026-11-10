@@ -1,17 +1,18 @@
 # Claude is now available in Brazil
 
-- Published
+Published
+:   Aug 1, 2024
 
-  Aug 1, 2024
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+    - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+    - [Access](https://www.anthropic.com/search?topic=access)
 
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
-  - [Access](https://www.anthropic.com/search?topic=access)See more...
+    See more...
 
 Related articles
 

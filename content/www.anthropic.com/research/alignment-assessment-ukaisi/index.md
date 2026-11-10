@@ -4,20 +4,21 @@
 
 ![An alignment assessment of the UK AISI cybertesting incident](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F97d61b79f99af31d2596eced7533e6d5e3ef7731-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 23, 2026
 
-  Oct 23, 2026
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
 
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)See more...
+    See more...
 
 Related articles
 

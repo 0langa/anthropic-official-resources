@@ -1,16 +1,17 @@
 # Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust
 
-- Published
+Published
+:   Oct 21, 2026
 
-  Oct 21, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
 
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)See more...
+    See more...
 
 Related articles
 

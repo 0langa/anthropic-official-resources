@@ -1,18 +1,19 @@
 # Claude for Creative Work
 
-- Published
+Published
+:   Apr 28, 2026
 
-  Apr 28, 2026
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+    - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Education](https://www.anthropic.com/search?topic=education)
 
-  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Education](https://www.anthropic.com/search?topic=education)See more...
+    See more...
 
 Related articles
 

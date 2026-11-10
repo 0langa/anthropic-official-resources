@@ -1,18 +1,19 @@
 # Introducing Anthropic's AI for Science Program
 
-- Published
+Published
+:   May 5, 2025
 
-  May 5, 2025
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
 
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)See more...
+    See more...
 
 Related articles
 

@@ -4,20 +4,21 @@
 
 ![A diver in a long-sleeve white REEF shirt adjusts scuba gear against a bright blue, cloud-streaked sky.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Feb5d94573805e24cb381cd0676527cfada75c177-3840x2160.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jun 11, 2026
 
-  Jun 11, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Nonprofits](https://www.anthropic.com/search?topic=nonprofits)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+    - [Education](https://www.anthropic.com/search?topic=education)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Funding](https://www.anthropic.com/search?topic=funding)
 
-  - [Nonprofits](https://www.anthropic.com/search?topic=nonprofits)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
-  - [Education](https://www.anthropic.com/search?topic=education)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Funding](https://www.anthropic.com/search?topic=funding)See more...
+    See more...
 
 Related articles
 

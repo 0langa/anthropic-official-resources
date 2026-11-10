@@ -2,19 +2,20 @@
 
 # Equipping agents for the real world with Agent Skills
 
-- Published
+Published
+:   Oct 16, 2025
 
-  Oct 16, 2025
-- Team
+Team
+:   [Engineering](https://www.anthropic.com/engineering)
 
-  [Engineering](https://www.anthropic.com/engineering)
-- Topics
+Topics
+:   - [Agent Skills](https://www.anthropic.com/search?topic=agent-skills)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+    - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
 
-  - [Agent Skills](https://www.anthropic.com/search?topic=agent-skills)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)See more...
+    See more...
 
 Related articles
 
@@ -116,7 +117,7 @@ We recommend installing skills only from trusted sources. When installing a skil
 
 ## The future of Skills
 
-Agent Skills are [supported today](https://www.anthropic.com/news/skills) across [Claude.ai](http://claude.ai/redirect/website.v1.7acb9094-7f4c-4e23-bf3a-a1ab57ab3a5e), Claude Code, the Claude Agent SDK, and the Claude Developer Platform.
+Agent Skills are [supported today](https://www.anthropic.com/news/skills) across [Claude.ai](http://claude.ai/redirect/website.v1.2b9df693-fd05-443e-aae0-3d82fd08f858), Claude Code, the Claude Agent SDK, and the Claude Developer Platform.
 
 In the coming weeks, we’ll continue to add features that support the full lifecycle of creating, editing, discovering, sharing, and using Skills. We’re especially excited about the opportunity for Skills to help organizations and individuals share their context and workflows with Claude. We’ll also explore how Skills can complement [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) servers by teaching agents more complex workflows that involve external tools and software.
 

@@ -2,20 +2,21 @@
 
 # Anthropic commits $10 million to Canadian AI research
 
-- Published
+Published
+:   Jul 14, 2026
 
-  Jul 14, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+    - [Healthcare](https://www.anthropic.com/search?topic=healthcare)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
-  - [Healthcare](https://www.anthropic.com/search?topic=healthcare)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 *Le français suit.*
 

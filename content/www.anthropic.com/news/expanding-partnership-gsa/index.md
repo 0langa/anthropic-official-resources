@@ -2,20 +2,21 @@
 
 ![Expanding our partnership with GSA to bring Claude to all levels of government](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fef0faa4dc389400ab9c9019ecdec7f1257cc6843-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 27, 2026
 
-  Oct 27, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
 
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)See more...
+    See more...
 
 Related articles
 

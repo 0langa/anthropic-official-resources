@@ -388,7 +388,7 @@ Claude for Excel
 
 Review the breaks and reconcile in the workbook
 
-Install](https://claude.com/claude-for-excel)
+Install](https://claude.com/claude-for-microsoft-365)
 
 [Next: Explain a variance](https://academy.claude.com/use-cases/explain-a-variance)
 

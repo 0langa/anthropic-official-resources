@@ -1,18 +1,19 @@
 # Expanding our global operations to India with our second Asia Pacific office
 
-- Published
+Published
+:   Oct 7, 2025
 
-  Oct 7, 2025
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
 
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)See more...
+    See more...
 
 Related articles
 

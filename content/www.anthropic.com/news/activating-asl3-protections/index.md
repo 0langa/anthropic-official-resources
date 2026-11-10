@@ -1,19 +1,20 @@
 # Activating AI Safety Level 3 protections
 
-- Published
+Published
+:   May 22, 2025
 
-  May 22, 2025
-- Category
+Category
+:   [Safeguards](https://www.anthropic.com/news/safeguards)
 
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-- Topics
+Topics
+:   - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+    - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+    - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
 
-  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
-  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
-  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)See more...
+    See more...
 
 *We have activated the AI Safety Level 3 (ASL-3) Deployment and Security Standards described in Anthropic’s Responsible Scaling Policy (RSP) in conjunction with launching Claude Opus 4. The ASL-3 Security Standard involves increased internal security measures that make it harder to steal model weights, while the corresponding Deployment Standard covers a narrowly targeted set of deployment measures designed to limit the risk of Claude being misused specifically for the development or acquisition of chemical, biological, radiological, and nuclear (CBRN) weapons. These measures should not lead Claude to refuse queries except on a very narrow set of topics.*
 

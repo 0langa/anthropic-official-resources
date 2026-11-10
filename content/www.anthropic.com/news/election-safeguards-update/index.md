@@ -1,18 +1,19 @@
 # An update on our election safeguards
 
-- Published
+Published
+:   Apr 24, 2026
 
-  Apr 24, 2026
-- Category
+Category
+:   [Safeguards](https://www.anthropic.com/news/safeguards)
 
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-- Topics
+Topics
+:   - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
+    - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)
 
-  - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
-  - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)See more...
+    See more...
 
 Related articles
 

@@ -1,34 +1,34 @@
 {
-  "actionable_missing_pages": 0,
-  "actionable_population_complete": true,
-  "archived_pages": 5619,
+  "actionable_missing_pages": 3,
+  "actionable_population_complete": false,
+  "archived_pages": 5636,
   "by_host": {
     "academy.claude.com": {
-      "archived_pages": 887,
-      "discovered_pages": 892
+      "archived_pages": 888,
+      "discovered_pages": 893
     },
     "claude.com": {
-      "archived_pages": 854,
-      "discovered_pages": 863
+      "archived_pages": 856,
+      "discovered_pages": 865
     },
     "code.claude.com": {
       "archived_pages": 254,
       "discovered_pages": 256
     },
     "platform.claude.com": {
-      "archived_pages": 2201,
-      "discovered_pages": 2231
+      "archived_pages": 2210,
+      "discovered_pages": 2240
     },
     "support.claude.com": {
-      "archived_pages": 769,
-      "discovered_pages": 802
+      "archived_pages": 772,
+      "discovered_pages": 808
     },
     "www.anthropic.com": {
-      "archived_pages": 654,
-      "discovered_pages": 666
+      "archived_pages": 656,
+      "discovered_pages": 668
     }
   },
-  "discovered_pages": 5710,
+  "discovered_pages": 5730,
   "exact_website_replica": false,
   "limitations": [
     "Discovery is the union of public indexes and hyperlinks, not proof that unlinked pages do not exist.",
@@ -523,6 +523,7 @@
     "https://www.anthropic.com/research/claude-code-expertise": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/claude-code-sandboxing": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/research/claude-electronics-design": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/claude-fable-5-mythos-5": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/claude-opus-4-8": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/claude-opus-5": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
@@ -663,10 +664,10 @@
     "https://www.anthropic.com/transparency/voluntary-commitments": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/webinars": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   },
-  "missing_pages": 91,
+  "missing_pages": 94,
   "page_inventory_complete": false,
-  "pages_with_content_notes": 3776,
-  "retained_partial_pages": 507,
+  "pages_with_content_notes": 3789,
+  "retained_partial_pages": 508,
   "terminal_pages": 91,
   "terminal_statuses": {
     "blocked": 27,

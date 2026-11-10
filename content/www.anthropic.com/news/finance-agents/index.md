@@ -2,20 +2,21 @@
 
 # Agents for financial services
 
-- Published
+Published
+:   May 5, 2026
 
-  May 5, 2026
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Financial services](https://www.anthropic.com/search?topic=financial-services)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+    - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Financial services](https://www.anthropic.com/search?topic=financial-services)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
-  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

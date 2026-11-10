@@ -1,19 +1,20 @@
 # A new initiative for developing third-party model evaluations
 
-- Published
+Published
+:   Jul 1, 2024
 
-  Jul 1, 2024
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
 
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)See more...
+    See more...
 
 Related articles
 

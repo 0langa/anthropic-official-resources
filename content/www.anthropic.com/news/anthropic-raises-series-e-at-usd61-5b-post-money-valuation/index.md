@@ -1,18 +1,19 @@
 # Anthropic raises Series E at $61.5B post-money valuation
 
-- Published
+Published
+:   Mar 3, 2025
 
-  Mar 3, 2025
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
 
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+    See more...
 
 Related articles
 

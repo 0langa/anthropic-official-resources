@@ -1,17 +1,18 @@
 # Claude 3.5 Sonnet on GitHub Copilot
 
-- Published
+Published
+:   Oct 29, 2024
 
-  Oct 29, 2024
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
 
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)See more...
+    See more...
 
 Related articles
 

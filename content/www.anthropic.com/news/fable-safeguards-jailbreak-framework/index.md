@@ -2,19 +2,20 @@
 
 # More details on Fable 5’s cyber safeguards and our jailbreak framework
 
-- Published
+Published
+:   Jul 2, 2026
 
-  Jul 2, 2026
-- Category
+Category
+:   [Safeguards](https://www.anthropic.com/news/safeguards)
 
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-- Topics
+Topics
+:   - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

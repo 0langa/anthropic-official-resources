@@ -47,7 +47,11 @@ IDC Quanta customers who use Claude can add the IDC Quanta connector from within
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 21, 2026
+[ArticleNov 9, 2026
+
+### JPMorganChase expands Claude Code to more employees across the firm
+
+Claude Code](https://claude.com/resources/articles/jpmorganchase-expands-claude-code)[ArticleOct 21, 2026
 
 ### HCLTech joins the Claude Partner Network as a Global Premier partner
 
@@ -63,13 +67,7 @@ Claude Platform](https://claude.com/resources/articles/giving-companies-more-con
 
 CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
 
-Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)[ArticleSep 15, 2026
-
-### Bringing Salesforce into Claude
-
-Sellers can now research companies, prep for calls, review pipeline, and draft CRM updates with our new Salesforce in Claude plugin.
-
-Claude Enterprise](https://claude.com/resources/articles/salesforce-in-claude)
+Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)
 
 ## Transform how your organization operates with Claude
 

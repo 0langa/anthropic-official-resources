@@ -1,19 +1,20 @@
 # Working with the US Department of Energy to unlock the next era of scientific discovery
 
-- Published
+Published
+:   Dec 18, 2025
 
-  Dec 18, 2025
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+    - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 Related articles
 

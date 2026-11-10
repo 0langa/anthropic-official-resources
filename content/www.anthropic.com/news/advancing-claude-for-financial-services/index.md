@@ -2,19 +2,20 @@
 
 # Advancing Claude for Financial Services
 
-- Published
+Published
+:   Oct 27, 2025
 
-  Oct 27, 2025
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Financial services](https://www.anthropic.com/search?topic=financial-services)
+    - [Agent Skills](https://www.anthropic.com/search?topic=agent-skills)
+    - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
 
-  - [Financial services](https://www.anthropic.com/search?topic=financial-services)
-  - [Agent Skills](https://www.anthropic.com/search?topic=agent-skills)
-  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)See more...
+    See more...
 
 Related articles
 
@@ -46,7 +47,7 @@ Claude for Excel is now in beta as a research preview for Max, Enterprise, and T
 
 ## Connecting Claude to live information
 
-[**Connectors**](https://claude.ai/redirect/website.v1.b2e28e3e-a778-429a-8773-bdc51962aa63/settings/connectors) provide Claude with direct access to external tools and platforms. [In July](https://www.anthropic.com/news/claude-for-financial-services), we added connectors for S&P Capital IQ, Daloopa, Morningstar, and PitchBook. We’re adding new connectors that give Claude immediate access to more information in real time:
+[**Connectors**](https://claude.ai/redirect/website.v1.fe3404c9-6ecd-457d-b578-b13ee8609fbe/settings/connectors) provide Claude with direct access to external tools and platforms. [In July](https://www.anthropic.com/news/claude-for-financial-services), we added connectors for S&P Capital IQ, Daloopa, Morningstar, and PitchBook. We’re adding new connectors that give Claude immediate access to more information in real time:
 
 - **Aiera** provides Claude with real-time earnings call transcripts and summaries of investor events, like shareholder meetings, presentations, and conferences;
 - Aiera’s connector also enables a data feed from **Third Bridge**, which gives Claude access to a library of insights interviews, company intelligence, and industry analysis from experts and former executives;
@@ -60,7 +61,7 @@ For details on MCP connector setup and prompting guidance to maximize the benefi
 
 ## New Agent Skills for finance tasks
 
-Earlier this month, we introduced [Agent Skills](https://www.anthropic.com/news/skills). Skills are folders that include instructions, scripts, and resources that Claude can use to perform given tasks. Skills work across all Claude apps, including [Claude.ai](http://claude.ai/redirect/website.v1.b2e28e3e-a778-429a-8773-bdc51962aa63), Claude Code, and our API. To make Claude better at financial services tasks, we’ve added 6 new skills:
+Earlier this month, we introduced [Agent Skills](https://www.anthropic.com/news/skills). Skills are folders that include instructions, scripts, and resources that Claude can use to perform given tasks. Skills work across all Claude apps, including [Claude.ai](http://claude.ai/redirect/website.v1.fe3404c9-6ecd-457d-b578-b13ee8609fbe), Claude Code, and our API. To make Claude better at financial services tasks, we’ve added 6 new skills:
 
 - **Comparable company analysis**, with valuation multiples and operating metrics, which can be easily refreshed with updated data;
 - **Discounted cash flow models**, including full free cash flow projections, WACC calculations, scenario toggles, and sensitivity tables;

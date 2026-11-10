@@ -2,19 +2,20 @@
 
 # **Desktop Extensions:**One-click MCP server installation for Claude Desktop
 
-- Published
+Published
+:   Jun 26, 2025
 
-  Jun 26, 2025
-- Team
+Team
+:   [Engineering](https://www.anthropic.com/engineering)
 
-  [Engineering](https://www.anthropic.com/engineering)
-- Topics
+Topics
+:   - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+    - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
 
-  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)See more...
+    See more...
 
 Related articles
 

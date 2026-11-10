@@ -2,18 +2,19 @@
 
 [Subscribe today](https://claude.ai/settings/billing?action=subscribe)
 
-- Published
+Published
+:   Sep 7, 2023
 
-  Sep 7, 2023
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
 
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)See more...
+    See more...
 
 Related articles
 

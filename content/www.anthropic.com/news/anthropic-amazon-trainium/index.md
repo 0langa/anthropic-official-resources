@@ -1,18 +1,19 @@
 # Powering the next generation of AI development with AWS
 
-- Published
+Published
+:   Nov 22, 2024
 
-  Nov 22, 2024
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+    See more...
 
 Related articles
 

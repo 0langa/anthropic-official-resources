@@ -4,19 +4,20 @@
 
 ![Core views on AI safety: When, why, what, and how](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdd1f0730fc369a574023c7ede81c7527ee73a386-2000x1125.png&w=1920&q=75)
 
-- Published
+Published
+:   Mar 8, 2023
 
-  Mar 8, 2023
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
 
-  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)See more...
+    See more...
 
 Related articles
 

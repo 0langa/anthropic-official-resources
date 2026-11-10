@@ -391,13 +391,13 @@ Claude for Excel
 
 Edit the model in place
 
-Install](https://claude.com/claude-for-excel)[![](https://academy.claude.com/surfaces/powerpoint-icon.svg)
+Install](https://claude.com/claude-for-microsoft-365)[![](https://academy.claude.com/surfaces/powerpoint-icon.svg)
 
 Claude for PowerPoint
 
 Polish the board pages
 
-Install](https://claude.com/claude-for-powerpoint)
+Install](https://claude.com/claude-for-microsoft-365)
 
 [Next: Forecast and scenario modeling](https://academy.claude.com/use-cases/forecast-scenarios)
 

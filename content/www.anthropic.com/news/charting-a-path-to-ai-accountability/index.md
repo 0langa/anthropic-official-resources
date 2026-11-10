@@ -1,19 +1,20 @@
 # Charting a path to AI accountability
 
-- Published
+Published
+:   Jun 13, 2023
 
-  Jun 13, 2023
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
 
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)See more...
+    See more...
 
 Related articles
 

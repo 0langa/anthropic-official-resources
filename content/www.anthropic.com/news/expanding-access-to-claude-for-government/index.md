@@ -1,19 +1,20 @@
 # Expanding access to Claude for government
 
-- Published
+Published
+:   Jun 26, 2024
 
-  Jun 26, 2024
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+    - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
-  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

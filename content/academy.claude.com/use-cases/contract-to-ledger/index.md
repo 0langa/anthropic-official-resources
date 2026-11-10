@@ -322,7 +322,7 @@ Claude for Excel
 
 Review and adjust the intake sheet in place
 
-Install](https://claude.com/claude-for-excel)
+Install](https://claude.com/claude-for-microsoft-365)
 
 [Next: SOX controls documentation](https://academy.claude.com/use-cases/sox-controls-doc)
 

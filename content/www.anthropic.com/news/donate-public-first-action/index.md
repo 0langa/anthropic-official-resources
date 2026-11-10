@@ -1,18 +1,19 @@
 # Anthropic is donating $20 million to Public First Action
 
-- Published
+Published
+:   Feb 12, 2026
 
-  Feb 12, 2026
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+    - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
 
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
-  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)See more...
+    See more...
 
 Related articles
 

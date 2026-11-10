@@ -1,17 +1,18 @@
 # Anthropic invests $50 billion in American AI infrastructure
 
-- Published
+Published
+:   Nov 12, 2025
 
-  Nov 12, 2025
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+    - [Economic growth](https://www.anthropic.com/search?topic=economic-growth)
 
-  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
-  - [Economic growth](https://www.anthropic.com/search?topic=economic-growth)See more...
+    See more...
 
 Related articles
 

@@ -1,18 +1,19 @@
 # Anthropic is endorsing SB 53
 
-- Published
+Published
+:   Sep 8, 2025
 
-  Sep 8, 2025
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+    - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+    - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)
 
-  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
-  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
-  - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)See more...
+    See more...
 
 Related articles
 

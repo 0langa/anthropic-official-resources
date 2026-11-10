@@ -1,18 +1,19 @@
 # Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute
 
-- Published
+Published
+:   Apr 20, 2026
 
-  Apr 20, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
 
-  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)See more...
+    See more...
 
 Related articles
 

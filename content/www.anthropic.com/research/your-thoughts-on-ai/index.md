@@ -2,22 +2,23 @@
 
 # What do you want from AI?
 
-[Participate here](https://claude.ai/redirect/website.v1.9c2a8601-a26c-4781-9850-596f49252329/anthropic-interviewer/your-thoughts-on-ai?from=blog)
+[Participate here](https://claude.ai/redirect/website.v1.b59c4173-8b46-4dd0-a401-d8bd14e8ef11/anthropic-interviewer/your-thoughts-on-ai?from=blog)
 
 ![What do you want from AI?](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff11a2dcfffbb0f1e5913d794299b6857653413af-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Sep 29, 2026
 
-  Sep 29, 2026
-- Team
+Team
+:   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
-- Topics
+Topics
+:   - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Privacy](https://www.anthropic.com/search?topic=privacy)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Institute](https://www.anthropic.com/search?topic=institute)
 
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Privacy](https://www.anthropic.com/search?topic=privacy)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Institute](https://www.anthropic.com/search?topic=institute)See more...
+    See more...
 
 *We’re launching a new study using [Anthropic Interviewer](https://www.anthropic.com/about-anthropic-interviewer) to learn from your experiences with AI, and we’d like you to participate. After you finish, you can decide to make your interview public, so that anyone, not just Anthropic, can read and learn from it. You can [participate here](https://claude.ai/anthropic-interviewer/your-thoughts-on-ai?from=blog).*
 
@@ -43,7 +44,7 @@ This project builds on a similar study conducted last December, in which [81,000
 
 AI and Anthropic have changed a lot since then. AI has improved, more people use Claude, and people’s feelings toward the technology have shifted. For the previous study, only the high-level results and a small number of quotes were made public. This time, we want your thoughts to be made widely available so that anyone can learn from them.
 
-We’ve written a FAQ so you can make an informed decision about whether to make your interview public and what to share. You can choose to [participate here](https://claude.ai/redirect/website.v1.9c2a8601-a26c-4781-9850-596f49252329/anthropic-interviewer/your-thoughts-on-ai?from=blog).
+We’ve written a FAQ so you can make an informed decision about whether to make your interview public and what to share. You can choose to [participate here](https://claude.ai/redirect/website.v1.b59c4173-8b46-4dd0-a401-d8bd14e8ef11/anthropic-interviewer/your-thoughts-on-ai?from=blog).
 
 ## FAQ
 

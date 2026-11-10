@@ -1,19 +1,20 @@
 # Anthropic and Infosys collaborate to build AI agents for telecommunications and other regulated industries
 
-- Published
+Published
+:   Feb 17, 2026
 
-  Feb 17, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Financial services](https://www.anthropic.com/search?topic=financial-services)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Financial services](https://www.anthropic.com/search?topic=financial-services)See more...
+    See more...
 
 Related articles
 

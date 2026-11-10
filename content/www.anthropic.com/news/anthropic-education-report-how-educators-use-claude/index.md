@@ -4,20 +4,21 @@
 
 ![Anthropic Education Report: How educators use Claude](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4d278d5436ae9a308b91a947f0920b8d9494f91a-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Aug 27, 2025
 
-  Aug 27, 2025
-- Team
+Team
+:   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
-- Topics
+Topics
+:   - [Education](https://www.anthropic.com/search?topic=education)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
+    - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+    - [Privacy](https://www.anthropic.com/search?topic=privacy)
 
-  - [Education](https://www.anthropic.com/search?topic=education)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
-  - [Privacy](https://www.anthropic.com/search?topic=privacy)See more...
+    See more...
 
 Related articles
 

@@ -1,18 +1,19 @@
 # Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation
 
-- Published
+Published
+:   Feb 12, 2026
 
-  Feb 12, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
 
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)See more...
+    See more...
 
 Related articles
 

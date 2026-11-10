@@ -1,18 +1,19 @@
 # Apple’s Xcode now supports the Claude Agent SDK
 
-- Published
+Published
+:   Feb 3, 2026
 
-  Feb 3, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
 
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)See more...
+    See more...
 
 Related articles
 

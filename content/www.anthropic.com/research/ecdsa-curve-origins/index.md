@@ -2,18 +2,19 @@
 
 ![Claude reveals ECDSA curve origins](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F194b1f8daa1d715e7e58d46cc2f7e38f896b53ca-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 16, 2026
 
-  Oct 16, 2026
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
-  - [Coding](https://www.anthropic.com/search?topic=coding)See more...
+    See more...
 
 *“It’s just timestamps”: the decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.*
 
@@ -21,11 +22,11 @@
 
 Related articles
 
-- Frontier Red Team
+- Announcements
 
-  Oct 27, 2026
+  Nov 9, 2026
 
-  [Discovering and exploiting vulnerabilities in critical, real-world software with Claude](https://www.anthropic.com/research/discovering-vulnerabilities-with-claude)
+  [Introducing Claude Fable 5.2 and Claude Mythos 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2)
 
 [View more](https://www.anthropic.com/search?topic=cybersecurity)
 

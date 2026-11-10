@@ -2,20 +2,21 @@
 
 # Writing effective tools for agents — with agents
 
-- Published
+Published
+:   Sep 11, 2025
 
-  Sep 11, 2025
-- Team
+Team
+:   [Engineering](https://www.anthropic.com/engineering)
 
-  [Engineering](https://www.anthropic.com/engineering)
-- Topics
+Topics
+:   - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
 
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)See more...
+    See more...
 
 Related articles
 

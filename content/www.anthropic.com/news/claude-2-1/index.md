@@ -1,18 +1,19 @@
 # Introducing Claude 2.1
 
-- Published
+Published
+:   Nov 21, 2023
 
-  Nov 21, 2023
-- Category
+Category
+:   [Models](https://www.anthropic.com/news/models)
 
-  [Models](https://www.anthropic.com/news/models)
-- Topics
+Topics
+:   - [Hallucination](https://www.anthropic.com/search?topic=hallucination)
+    - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+    - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+    - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+    - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
 
-  - [Hallucination](https://www.anthropic.com/search?topic=hallucination)
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
-  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)See more...
+    See more...
 
 Related articles
 

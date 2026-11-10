@@ -1,17 +1,18 @@
 # Claude is now available in Europe
 
-- Published
+Published
+:   May 14, 2024
 
-  May 14, 2024
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Access](https://www.anthropic.com/search?topic=access)
 
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Access](https://www.anthropic.com/search?topic=access)See more...
+    See more...
 
 Related articles
 

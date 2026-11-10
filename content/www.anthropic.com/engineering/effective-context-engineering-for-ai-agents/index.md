@@ -2,17 +2,18 @@
 
 # Effective context engineering for AI agents
 
-- Published
+Published
+:   Sep 29, 2025
 
-  Sep 29, 2025
-- Team
+Team
+:   [Engineering](https://www.anthropic.com/engineering)
 
-  [Engineering](https://www.anthropic.com/engineering)
-- Topics
+Topics
+:   - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Tool use](https://www.anthropic.com/search?topic=tool-use)
 
-  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)See more...
+    See more...
 
 Related articles
 

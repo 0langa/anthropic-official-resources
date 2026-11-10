@@ -1,18 +1,19 @@
 # Anthropic partners with the University of Chicago’s Becker Friedman Institute on AI economic research
 
-- Published
+Published
+:   Jul 23, 2025
 
-  Jul 23, 2025
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)See more...
+    See more...
 
 Related articles
 

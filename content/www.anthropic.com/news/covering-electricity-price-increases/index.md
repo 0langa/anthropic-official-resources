@@ -1,17 +1,18 @@
 # Covering electricity price increases from our data centers
 
-- Published
+Published
+:   Feb 11, 2026
 
-  Feb 11, 2026
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+    - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+    - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
 
-  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
-  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)See more...
+    See more...
 
 Related articles
 

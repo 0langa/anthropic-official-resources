@@ -2,19 +2,20 @@
 
 ![Claude is a space to think](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd6b268b276e9e4b9c024aeeed7690d5bf25cbc12-2000x1125.png&w=1920&q=75)
 
-- Published
+Published
+:   Feb 4, 2026
 
-  Feb 4, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+    - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
+    - [Wellbeing](https://www.anthropic.com/search?topic=wellbeing)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Privacy](https://www.anthropic.com/search?topic=privacy)
 
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
-  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
-  - [Wellbeing](https://www.anthropic.com/search?topic=wellbeing)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Privacy](https://www.anthropic.com/search?topic=privacy)See more...
+    See more...
 
 Related articles
 

@@ -374,7 +374,7 @@ Claude for Excel
 
 Pivot the differences by department in place
 
-Install](https://claude.com/claude-for-excel)
+Install](https://claude.com/claude-for-microsoft-365)
 
 [Next: Forecast and scenario modeling](https://academy.claude.com/use-cases/forecast-scenarios)
 

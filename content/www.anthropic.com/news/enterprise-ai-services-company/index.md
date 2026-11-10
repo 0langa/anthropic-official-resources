@@ -1,17 +1,18 @@
 # Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs
 
-- Published
+Published
+:   May 4, 2026
 
-  May 4, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Healthcare](https://www.anthropic.com/search?topic=healthcare)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Healthcare](https://www.anthropic.com/search?topic=healthcare)See more...
+    See more...
 
 Related articles
 

@@ -1,18 +1,19 @@
 # Aligning on child safety principles
 
-- Published
+Published
+:   Apr 23, 2024
 
-  Apr 23, 2024
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)
 
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)See more...
+    See more...
 
 Related articles
 

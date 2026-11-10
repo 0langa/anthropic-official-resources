@@ -439,7 +439,7 @@ Claude for Word
 
 Draft the redline as tracked changes
 
-Install](https://claude.com/download)
+Install](https://claude.com/claude-for-microsoft-365)
 
 [Next: Outside counsel management](https://academy.claude.com/use-cases/outside-counsel-review)
 

@@ -4,19 +4,20 @@
 
 ![Formalizing Fermat's Last Theorem](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe9a4df22447005cac83ac42a7b0f71afcaf1b849-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Sep 4, 2026
 
-  Sep 4, 2026
-- Team
+Team
+:   [Science](https://www.anthropic.com/science)
 
-  [Science](https://www.anthropic.com/science)
-- Topics
+Topics
+:   - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

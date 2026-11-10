@@ -2,18 +2,19 @@
 
 [Read Paper](https://arxiv.org/abs/2212.08073)
 
-- Published
+Published
+:   Dec 15, 2022
 
-  Dec 15, 2022
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
+    - [Training](https://www.anthropic.com/search?topic=training)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
 
-  - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
-  - [Training](https://www.anthropic.com/search?topic=training)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)See more...
+    See more...
 
 Related articles
 

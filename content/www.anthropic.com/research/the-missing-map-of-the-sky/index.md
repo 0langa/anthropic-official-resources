@@ -1,17 +1,18 @@
 # The missing map of the sky
 
-- Published
+Published
+:   Oct 8, 2026
 
-  Oct 8, 2026
-- Team
+Team
+:   [Science](https://www.anthropic.com/science)
 
-  [Science](https://www.anthropic.com/science)
-- Topics
+Topics
+:   - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Education](https://www.anthropic.com/search?topic=education)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
 
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Education](https://www.anthropic.com/search?topic=education)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)See more...
+    See more...
 
 *Here, Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky in UV light. The map will be a valuable educational tool, allowing students to see in detail the rich structure of the Milky Way visible at this wavelength.*
 

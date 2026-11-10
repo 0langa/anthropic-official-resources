@@ -1,19 +1,20 @@
 # Introducing Claude Haiku 4.5
 
-- Published
+Published
+:   Oct 15, 2025
 
-  Oct 15, 2025
-- Category
+Category
+:   [Models](https://www.anthropic.com/news/models)
 
-  [Models](https://www.anthropic.com/news/models)
-- Topics
+Topics
+:   - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+    - [Computer use](https://www.anthropic.com/search?topic=computer-use)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
-  - [Computer use](https://www.anthropic.com/search?topic=computer-use)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 Related articles
 

@@ -1,17 +1,18 @@
 # Claude Code and new admin controls for business plans
 
-- Published
+Published
+:   Aug 20, 2025
 
-  Aug 20, 2025
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Access](https://www.anthropic.com/search?topic=access)
 
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Access](https://www.anthropic.com/search?topic=access)See more...
+    See more...
 
 Related articles
 

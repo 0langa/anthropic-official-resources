@@ -71,7 +71,7 @@ Learn more in our [getting started guide (opens in new tab)](https://claude.com/
 - **[Claude for life sciences solutions page (opens in new tab)](https://claude.com/solutions/life-sciences):** how Claude helps research, clinical, regulatory, and medical affairs teams across the development lifecycle.
 - **[Life sciences tutorials on Claude.com (opens in new tab)](https://claude.com/resources/tutorials-category/life-sciences):** step-by-step guides covering literature review, single-cell analysis, protocol drafting, and connector setup.
 - **[Claude skills catalog (opens in new tab)](https://skillsmp.com/):** Anthropic's public catalog of community-contributed skills, useful for finding pre-built scientific skills before authoring your own.
-- **[The Enterprise AI Guide for Life Sciences (opens in new tab)](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a39b907335186777dc02c93_Claude-eBook-The-Enterprise-AI-Transformation-Guide-for-Life-Sciences-06172026.pdf):** Anthropic's enterprise transformation guide for life sciences IT and digital leaders.
+- **[The Enterprise AI Guide for Life Sciences (opens in new tab)](https://assets.claude.com/4ab17c5effbd02ad2ad86c278de0e8455a693305.pdf):** Anthropic's enterprise transformation guide for life sciences IT and digital leaders.
 
 ## Enjoyed the guide?
 

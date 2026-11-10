@@ -4,19 +4,20 @@
 
 ![2028: Two scenarios for global AI leadership](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2b05397d1ceac19b70a820a61d27dca4a5fba2e0-1920x1080.jpg&w=1920&q=75)
 
-- Published
+Published
+:   May 14, 2026
 
-  May 14, 2026
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+    - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)
 
-  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
-  - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)See more...
+    See more...
 
 Related articles
 

@@ -1,17 +1,18 @@
 # Federal government departments and agencies can now purchase Claude through the GSA schedule
 
-- Published
+Published
+:   Aug 5, 2025
 
-  Aug 5, 2025
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
 
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [National security](https://www.anthropic.com/search?topic=national-security)See more...
+    See more...
 
 Related articles
 

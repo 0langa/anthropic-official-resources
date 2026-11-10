@@ -24,21 +24,29 @@ A research preview is available by waitlist today, starting with US Pro, Max, an
 
 ![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
-[ArticleNov 5, 2026
+[ArticleNov 9, 2026
 
-### Introducing Personal Finance in Claude
+### JPMorganChase expands Claude Code to more employees across the firm
 
-Ask Claude about your money and get straight answers from the accounts you connect.](https://claude.com/resources/articles/introducing-personal-finance-in-claude)
+Claude Code](https://claude.com/resources/articles/jpmorganchase-expands-claude-code)
 
-[ArticleNov 5, 2026
+[ArticleNov 9, 2026
 
-### More visibility and control over Claude Enterprise for security teams
+### Claude Fable 5.2 and Mythos 5.2
 
-Claude EnterpriseClaude apps](https://claude.com/resources/articles/claude-enterprise-security-updates)
+Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.
 
-[ArticleNov 4, 2026
+Claude appsClaude Code1 more: Claude PlatformClaude Platform
 
-### New agents and products for security, productivity, and creative work on Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace)
+(opens in new tab)](https://www.anthropic.com/claude-fable-and-mythos-5-2)
+
+[ArticleNov 9, 2026
+
+### Claude can design electronic prototypes from start to finish
+
+We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.
+
+(opens in new tab)](https://www.anthropic.com/research/claude-electronics-design)
 
 [ArticleOct 22, 2026
 

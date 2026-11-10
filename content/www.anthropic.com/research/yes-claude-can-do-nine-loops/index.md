@@ -4,18 +4,19 @@
 
 ![Diagram of nine loops](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F57556701e55ca0440a25accfa3f8655c7254e89f-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Sep 25, 2026
 
-  Sep 25, 2026
-- Team
+Team
+:   [Science](https://www.anthropic.com/science)
 
-  [Science](https://www.anthropic.com/science)
-- Topics
+Topics
+:   - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
 
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)See more...
+    See more...
 
 *In this guest post, physicist and science writer Matt von Hippel shares what happened when he issued a challenge to AI companies regarding a problem in his former subfield of theoretical physics.*
 

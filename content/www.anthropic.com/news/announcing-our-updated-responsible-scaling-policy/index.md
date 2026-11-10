@@ -2,19 +2,20 @@
 
 [Read the Responsible Scaling Policy](http://anthropic.com/rsp)
 
-- Published
+Published
+:   Oct 15, 2024
 
-  Oct 15, 2024
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
 
-  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)See more...
+    See more...
 
 Related articles
 

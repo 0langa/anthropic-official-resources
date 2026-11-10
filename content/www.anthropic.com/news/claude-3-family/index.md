@@ -2,20 +2,21 @@
 
 [Try Claude 3](https://anthropic.com/claude)Listen to this article
 
-- Published
+Published
+:   Mar 4, 2024
 
-  Mar 4, 2024
-- Category
+Category
+:   [Models](https://www.anthropic.com/news/models)
 
-  [Models](https://www.anthropic.com/news/models)
-- Topics
+Topics
+:   - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Hallucination](https://www.anthropic.com/search?topic=hallucination)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
 
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Hallucination](https://www.anthropic.com/search?topic=hallucination)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)See more...
+    See more...
 
 Related articles
 

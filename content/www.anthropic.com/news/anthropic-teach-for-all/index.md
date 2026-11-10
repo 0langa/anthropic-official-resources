@@ -1,19 +1,20 @@
 # Anthropic and Teach For All launch global AI training initiative for educators
 
-- Published
+Published
+:   Jan 21, 2026
 
-  Jan 21, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Education](https://www.anthropic.com/search?topic=education)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Nonprofits](https://www.anthropic.com/search?topic=nonprofits)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
 
-  - [Education](https://www.anthropic.com/search?topic=education)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Nonprofits](https://www.anthropic.com/search?topic=nonprofits)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+    See more...
 
 Related articles
 

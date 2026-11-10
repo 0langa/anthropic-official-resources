@@ -1,19 +1,20 @@
 # Building safeguards for Claude
 
-- Published
+Published
+:   Aug 12, 2025
 
-  Aug 12, 2025
-- Category
+Category
+:   [Safeguards](https://www.anthropic.com/news/safeguards)
 
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-- Topics
+Topics
+:   - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)
+    - [Wellbeing](https://www.anthropic.com/search?topic=wellbeing)
+    - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)
 
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)
-  - [Wellbeing](https://www.anthropic.com/search?topic=wellbeing)
-  - [Bias and fairness](https://www.anthropic.com/search?topic=bias-and-fairness)See more...
+    See more...
 
 Related articles
 

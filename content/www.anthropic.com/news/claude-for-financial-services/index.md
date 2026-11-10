@@ -2,19 +2,20 @@
 
 # Claude for Financial Services
 
-- Published
+Published
+:   Jul 15, 2025
 
-  Jul 15, 2025
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Financial services](https://www.anthropic.com/search?topic=financial-services)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
 
-  - [Financial services](https://www.anthropic.com/search?topic=financial-services)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)See more...
+    See more...
 
 Related articles
 

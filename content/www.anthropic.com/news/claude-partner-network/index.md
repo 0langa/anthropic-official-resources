@@ -1,17 +1,18 @@
 # Anthropic invests $100 million into the Claude Partner Network
 
-- Published
+Published
+:   Mar 12, 2026
 
-  Mar 12, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Education](https://www.anthropic.com/search?topic=education)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Education](https://www.anthropic.com/search?topic=education)See more...
+    See more...
 
 *We’re launching the Claude Partner Network, a program for partner organizations helping enterprises adopt Claude. We’re committing an initial $100 million to support our partners with training courses, dedicated technical support, and joint market development. Partners who join [from today](https://claude.com/partners) will get immediate access to a new technical certification and be eligible for investment.*
 

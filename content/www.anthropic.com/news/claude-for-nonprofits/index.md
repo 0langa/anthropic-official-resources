@@ -2,19 +2,20 @@
 
 # Claude for Nonprofits
 
-- Published
+Published
+:   Dec 2, 2025
 
-  Dec 2, 2025
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Nonprofits](https://www.anthropic.com/search?topic=nonprofits)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+    - [Education](https://www.anthropic.com/search?topic=education)
 
-  - [Nonprofits](https://www.anthropic.com/search?topic=nonprofits)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
-  - [Education](https://www.anthropic.com/search?topic=education)See more...
+    See more...
 
 Related articles
 

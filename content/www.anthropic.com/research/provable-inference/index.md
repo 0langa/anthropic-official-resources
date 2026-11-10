@@ -6,19 +6,20 @@
 
 ![Progress on provable inference for large language models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Nov 2, 2026
 
-  Nov 2, 2026
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Global stability](https://www.anthropic.com/search?topic=global-stability)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
 
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Global stability](https://www.anthropic.com/search?topic=global-stability)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Coding](https://www.anthropic.com/search?topic=coding)See more...
+    See more...
 
 Related articles
 

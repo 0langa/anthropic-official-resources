@@ -2,19 +2,20 @@
 
 # Donating the Model Context Protocol and establishing the Agentic AI Foundation
 
-- Published
+Published
+:   Dec 9, 2025
 
-  Dec 9, 2025
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Tool use](https://www.anthropic.com/search?topic=tool-use)
 
-  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)See more...
+    See more...
 
 Related articles
 

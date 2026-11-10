@@ -16,7 +16,7 @@
 
 [Use incognito chats](https://support.claude.com/en/articles/12260368-use-incognito-chats)
 
-[Why Claude switched models in your conversation with Fable 5 or Fable 5.1](https://support.claude.com/en/articles/15363606-why-claude-switched-models-in-your-conversation-with-fable-5-or-fable-5-1)
+[Why Claude switched models in your conversation with Fable models](https://support.claude.com/en/articles/15363606-why-claude-switched-models-in-your-conversation-with-fable-models)
 
 [Why Claude switched models in your conversation with Opus 5 or Opus 5.5](https://support.claude.com/en/articles/16049681-why-claude-switched-models-in-your-conversation-with-opus-5-or-opus-5-5)
 

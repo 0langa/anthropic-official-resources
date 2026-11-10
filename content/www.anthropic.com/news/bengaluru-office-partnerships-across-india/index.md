@@ -1,19 +1,20 @@
 # Anthropic opens Bengaluru office and announces new partnerships across India
 
-- Published
+Published
+:   Feb 16, 2026
 
-  Feb 16, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Education](https://www.anthropic.com/search?topic=education)
+    - [Nonprofits](https://www.anthropic.com/search?topic=nonprofits)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
 
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Education](https://www.anthropic.com/search?topic=education)
-  - [Nonprofits](https://www.anthropic.com/search?topic=nonprofits)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+    See more...
 
 Related articles
 

@@ -6,19 +6,20 @@
 
 ![AI for scientific discovery: How researchers use Claude](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1202ad27672f8157e395a545ce7ad9a44fee4305-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Nov 5, 2026
 
-  Nov 5, 2026
-- Team
+Team
+:   [Economics](https://www.anthropic.com/research/team/economics)
 
-  [Economics](https://www.anthropic.com/research/team/economics)
-- Topics
+Topics
+:   - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
 
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)See more...
+    See more...
 
 Related articles
 

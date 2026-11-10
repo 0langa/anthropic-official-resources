@@ -4,19 +4,20 @@
 
 ![Anthropic Economic Index: Insights from Claude 3.7 Sonnet](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F86b33dac7c03cc326349350492bff58dbbdff89b-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Mar 27, 2025
 
-  Mar 27, 2025
-- Team
+Team
+:   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
-- Topics
+Topics
+:   - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
 
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)See more...
+    See more...
 
 Related articles
 

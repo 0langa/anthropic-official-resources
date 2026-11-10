@@ -1,18 +1,19 @@
 # Advancing Claude for Education
 
-- Published
+Published
+:   Jul 9, 2025
 
-  Jul 9, 2025
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Education](https://www.anthropic.com/search?topic=education)
+    - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Privacy](https://www.anthropic.com/search?topic=privacy)
+    - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
 
-  - [Education](https://www.anthropic.com/search?topic=education)
-  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Privacy](https://www.anthropic.com/search?topic=privacy)
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)See more...
+    See more...
 
 Related articles
 

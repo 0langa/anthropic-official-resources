@@ -1,18 +1,19 @@
 # Barclays scales Claude to upgrade operations and improve client experience
 
-- Published
+Published
+:   Oct 1, 2026
 
-  Oct 1, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Financial services](https://www.anthropic.com/search?topic=financial-services)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
 
-  - [Financial services](https://www.anthropic.com/search?topic=financial-services)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)See more...
+    See more...
 
 Related articles
 

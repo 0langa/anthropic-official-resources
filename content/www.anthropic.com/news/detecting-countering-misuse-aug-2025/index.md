@@ -4,20 +4,21 @@
 
 [Threat Intelligence Report: August 2025](https://www-cdn.anthropic.com/b2a76c6f6992465c09a6f2fce282f6c0cea8c200.pdf)
 
-- Published
+Published
+:   Aug 27, 2025
 
-  Aug 27, 2025
-- Category
+Category
+:   [Security](https://www.anthropic.com/news/security)
 
-  [Security](https://www.anthropic.com/news/security)
-- Topics
+Topics
+:   - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
 
-  - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [National security](https://www.anthropic.com/search?topic=national-security)See more...
+    See more...
 
 Related articles
 

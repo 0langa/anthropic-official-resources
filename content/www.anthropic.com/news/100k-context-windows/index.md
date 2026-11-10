@@ -1,17 +1,18 @@
 # Introducing 100K context windows
 
-- Published
+Published
+:   May 11, 2023
 
-  May 11, 2023
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+    - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

@@ -1,17 +1,18 @@
 # Anthropic partners with Allen Institute and Howard Hughes Medical Institute to accelerate scientific discovery
 
-- Published
+Published
+:   Feb 2, 2026
 
-  Feb 2, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 Related articles
 

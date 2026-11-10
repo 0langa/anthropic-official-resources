@@ -2,19 +2,20 @@
 
 [Read the full post on red.anthropic.com](https://red.anthropic.com/2025/nuclear-safeguards/)
 
-- Published
+Published
+:   Aug 21, 2025
 
-  Aug 21, 2025
-- Category
+Category
+:   [Safeguards](https://www.anthropic.com/news/safeguards)
 
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-- Topics
+Topics
+:   - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)
 
-  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)See more...
+    See more...
 
 Related articles
 

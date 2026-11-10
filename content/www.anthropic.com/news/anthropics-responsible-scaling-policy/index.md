@@ -1,18 +1,19 @@
 # Introducing Anthropic's Responsible Scaling Policy
 
-- Published
+Published
+:   Sep 19, 2023
 
-  Sep 19, 2023
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+    - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
 
-  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
-  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)See more...
+    See more...
 
 Related articles
 

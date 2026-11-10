@@ -1,17 +1,18 @@
 # Anthropic to sign the EU Code of Practice
 
-- Published
+Published
+:   Jul 21, 2025
 
-  Jul 21, 2025
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+    - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+    - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)
 
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
-  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
-  - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)See more...
+    See more...
 
 Related articles
 

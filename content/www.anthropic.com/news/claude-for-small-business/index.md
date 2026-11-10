@@ -1,19 +1,20 @@
 # Introducing Claude for Small Business
 
-- Published
+Published
+:   May 13, 2026
 
-  May 13, 2026
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Agent Skills](https://www.anthropic.com/search?topic=agent-skills)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Education](https://www.anthropic.com/search?topic=education)
+    - [Access](https://www.anthropic.com/search?topic=access)
 
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Agent Skills](https://www.anthropic.com/search?topic=agent-skills)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Education](https://www.anthropic.com/search?topic=education)
-  - [Access](https://www.anthropic.com/search?topic=access)See more...
+    See more...
 
 Related articles
 

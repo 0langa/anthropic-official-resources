@@ -2,18 +2,19 @@
 
 [Report: Build AI in America](https://www-cdn.anthropic.com/0dc382a2086f6a054eeb17e8a531bd9625b8e6e5.pdf)
 
-- Published
+Published
+:   Jul 21, 2025
 
-  Jul 21, 2025
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+    - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+    - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
 
-  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
-  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)See more...
+    See more...
 
 Related articles
 

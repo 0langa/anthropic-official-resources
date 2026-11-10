@@ -2,19 +2,20 @@
 
 # **Scaling Managed Agents:**Decoupling the brain from the hands
 
-- Published
+Published
+:   Apr 8, 2026
 
-  Apr 8, 2026
-- Team
+Team
+:   [Engineering](https://www.anthropic.com/engineering)
 
-  [Engineering](https://www.anthropic.com/engineering)
-- Topics
+Topics
+:   - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+    - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+    - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
 
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
-  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)See more...
+    See more...
 
 Related articles
 

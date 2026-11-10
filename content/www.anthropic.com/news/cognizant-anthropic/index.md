@@ -1,19 +1,20 @@
 # Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients
 
-- Published
+Published
+:   Jul 27, 2026
 
-  Jul 27, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Education](https://www.anthropic.com/search?topic=education)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Education](https://www.anthropic.com/search?topic=education)See more...
+    See more...
 
 Related articles
 

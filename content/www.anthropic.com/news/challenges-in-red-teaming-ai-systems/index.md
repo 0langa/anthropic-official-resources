@@ -2,22 +2,23 @@
 
 # Challenges in red teaming AI systems
 
-- Published
+Published
+:   Jun 12, 2024
 
-  Jun 12, 2024
-- Category
+Category
+:   [Safeguards](https://www.anthropic.com/news/safeguards)
 
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

@@ -2,19 +2,20 @@
 
 ![Detecting and preventing distillation attacks](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F18c5c47d69f58ed068a4254b011369de5cc9be8b-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Feb 23, 2026
 
-  Feb 23, 2026
-- Category
+Category
+:   [Security](https://www.anthropic.com/news/security)
 
-  [Security](https://www.anthropic.com/news/security)
-- Topics
+Topics
+:   - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)
+    - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
 
-  - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)See more...
+    See more...
 
 Related articles
 

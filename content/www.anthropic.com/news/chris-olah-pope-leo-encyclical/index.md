@@ -1,19 +1,20 @@
 # Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"
 
-- Published
+Published
+:   May 25, 2026
 
-  May 25, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Human flourishing](https://www.anthropic.com/search?topic=human-flourishing)
+    - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Model welfare](https://www.anthropic.com/search?topic=model-welfare)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+    - [Events](https://www.anthropic.com/search?topic=events)
 
-  - [Human flourishing](https://www.anthropic.com/search?topic=human-flourishing)
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Model welfare](https://www.anthropic.com/search?topic=model-welfare)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
-  - [Events](https://www.anthropic.com/search?topic=events)See more...
+    See more...
 
 *On Monday May 25, 2026, Pope Leo XIV released [an encyclical](https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html) on the topic of AI: "Magnifica humanitas: On safeguarding the human person in the time of artificial intelligence." Anthropic co-founder Chris Olah was invited to speak at the presentation of the encyclical in the Vatican City, doing so as part of Anthropic’s initiative to [widen the conversation](https://www.anthropic.com/news/widening-conversation-ai) on the important questions raised by AI. Below are his full remarks.*
 

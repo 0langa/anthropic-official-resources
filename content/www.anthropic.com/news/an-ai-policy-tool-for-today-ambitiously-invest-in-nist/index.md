@@ -1,18 +1,19 @@
 # **An AI policy tool for today:**Ambitiously invest in NIST
 
-- Published
+Published
+:   Apr 20, 2023
 
-  Apr 20, 2023
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+    - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
 
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
-  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)See more...
+    See more...
 
 Related articles
 

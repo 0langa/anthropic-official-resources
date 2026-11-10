@@ -4,7 +4,7 @@ Claude for PowerPoint can pull in data from outside sources and help you analyze
 
 2 minClaude for PowerPoint
 
-Watch
+Watch[Install Claude for PowerPoint](https://claude.com/claude-for-microsoft-365)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.dark-bf98084a.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bf98084a.png)
 

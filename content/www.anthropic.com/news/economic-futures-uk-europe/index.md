@@ -1,19 +1,20 @@
 # Launching the Anthropic Economic Futures Programme in the UK and Europe
 
-- Published
+Published
+:   Nov 5, 2025
 
-  Nov 5, 2025
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Events](https://www.anthropic.com/search?topic=events)
 
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Events](https://www.anthropic.com/search?topic=events)See more...
+    See more...
 
 Related articles
 

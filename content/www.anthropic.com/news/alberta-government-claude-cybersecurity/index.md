@@ -1,19 +1,20 @@
 # Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems
 
-- Published
+Published
+:   Jul 6, 2026
 
-  Jul 6, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
-  - [Coding](https://www.anthropic.com/search?topic=coding)See more...
+    See more...
 
 Related articles
 

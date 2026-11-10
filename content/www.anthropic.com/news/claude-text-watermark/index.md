@@ -2,19 +2,20 @@
 
 # How Claude’s text watermark works
 
-- Published
+Published
+:   Aug 14, 2026
 
-  Aug 14, 2026
-- Category
+Category
+:   [Safeguards](https://www.anthropic.com/news/safeguards)
 
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-- Topics
+Topics
+:   - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Privacy](https://www.anthropic.com/search?topic=privacy)
+    - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
+    - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
 
-  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Privacy](https://www.anthropic.com/search?topic=privacy)
-  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)See more...
+    See more...
 
 Related articles
 

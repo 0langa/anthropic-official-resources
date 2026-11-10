@@ -1,19 +1,20 @@
 # Australian government and Anthropic sign MOU for AI safety and research
 
-- Published
+Published
+:   Mar 31, 2026
 
-  Mar 31, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+    - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
 
-  - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)See more...
+    See more...
 
 Related articles
 

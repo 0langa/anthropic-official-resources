@@ -1,17 +1,18 @@
 # Anthropic raises $450 million in Series C funding to scale reliable AI products
 
-- Published
+Published
+:   May 23, 2023
 
-  May 23, 2023
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
 
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)See more...
+    See more...
 
 Related articles
 

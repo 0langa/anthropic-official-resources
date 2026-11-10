@@ -4,17 +4,18 @@
 
 ![Introducing Contextual Retrieval](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F311faf3808b25ab0b348a4ee937e7f9cae66ebb0-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Sep 19, 2024
 
-  Sep 19, 2024
-- Team
+Team
+:   [Engineering](https://www.anthropic.com/engineering)
 
-  [Engineering](https://www.anthropic.com/engineering)
-- Topics
+Topics
+:   - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+    - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
 
-  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)See more...
+    See more...
 
 Related articles
 

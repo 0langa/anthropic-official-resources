@@ -18,12 +18,12 @@ In this playbook, we share:
 - Architecture, scope, and security practices that keep AI-generated MVP codebases from accruing technical debt
 - A measurement framework for distinguishing genuine product-market fit from early hype
 - A Launch-stage operating system that replaces founder attention with agentic workflows
-- A product matrix for when and how to use Chat, Claude Cowork, and Claude Code across each stage of the startup journey
+- A product matrix for when and how to use Chat, [Claude Cowork](https://claude.com/product/cowork), and [Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups) across each stage of the startup journey
 - Founder stories from Ambral, Anything, Carta Healthcare, HumanLayer, Vulcan Technologies, and more
 
 These best practices were written for founders deciding how to architect their company around AI from day one and for the early operators helping them get there.
 
-Check it out, [here](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/69fe2a55b93bb0732b1fe33c_The-Founders-Playbook-05062026_v3%20(1).pdf).
+Check it out, [here](https://assets.claude.com/503ee04b4aa55a4db49a69b993463b6fa8dad6d8.pdf).
 
 *Get started with [Claude](https://claude.com/programs/startups) today.*
 
@@ -33,7 +33,21 @@ Check it out, [here](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 27, 2026
+[ArticleNov 9, 2026
+
+### Safely scaling multi-agent teams with Claude Fable 5.2
+
+How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
+
+(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)[ArticleNov 9, 2026
+
+### Which Claude model should you build with?
+
+How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.
+
+Claude PlatformClaude Code
+
+(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)[ArticleOct 27, 2026
 
 ### Manage costs and demonstrate ROI for Claude Code on Google Cloud
 
@@ -45,21 +59,7 @@ Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demon
 
 When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
 
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[ArticleOct 19, 2026
-
-### Redesigning source control at Anthropic
-
-As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.
-
-Claude Code
-
-(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)[ArticleOct 16, 2026
-
-### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
-
-How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
-
-Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)
+Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)
 
 ## Transform how your organization operates with Claude
 

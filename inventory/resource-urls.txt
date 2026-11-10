@@ -660,6 +660,7 @@ https://academy.claude.com/tutorials/install-financial-services-plugins-for-cowo
 https://academy.claude.com/tutorials/intro-to-artifacts
 https://academy.claude.com/tutorials/intro-to-projects
 https://academy.claude.com/tutorials/navigating-the-claude-desktop-app
+https://academy.claude.com/tutorials/one-request-a-workflow-or-an-agent
 https://academy.claude.com/tutorials/parametric-memory-and-context
 https://academy.claude.com/tutorials/prompting-strategies-for-financial-analysis
 https://academy.claude.com/tutorials/prototype-ai-powered-apps-with-claude-artifacts
@@ -1363,6 +1364,7 @@ https://claude.com/resources/articles/introducing-personal-finance-in-claude
 https://claude.com/resources/articles/introducing-routines-in-claude-code
 https://claude.com/resources/articles/introducing-the-claude-apps-gateway
 https://claude.com/resources/articles/introduction-to-agentic-coding
+https://claude.com/resources/articles/jpmorganchase-expands-claude-code
 https://claude.com/resources/articles/key-benefits-transitioning-agentic-coding
 https://claude.com/resources/articles/making-claude-a-better-electrical-engineer
 https://claude.com/resources/articles/maximizing-the-value-of-your-claude-code-sessions
@@ -1719,6 +1721,7 @@ https://claude.com/resources/webinars/how-coderabbit-orchestrates-agents-to-stre
 https://claude.com/resources/webinars/how-cursor-pioneering-coding-frontiers-claude-opus-4
 https://claude.com/resources/webinars/how-finance-teams-use-claude-cowork
 https://claude.com/resources/webinars/how-legal-teams-put-claude-to-work
+https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review
 https://claude.com/resources/webinars/how-to-control-costs-and-show-roi-for-claude-code-on-google-cloud
 https://claude.com/resources/webinars/how-to-control-costs-and-show-roi-for-claude-code-on-google-cloud-apac-rebroadcast
 https://claude.com/resources/webinars/how-to-control-costs-and-show-roi-for-claude-code-on-google-cloud-emea-rebroadcast
@@ -2721,6 +2724,7 @@ https://platform.claude.com/docs/en/api/beta/organization/users
 https://platform.claude.com/docs/en/api/beta/organization/users/list
 https://platform.claude.com/docs/en/api/beta/organization/users/remove
 https://platform.claude.com/docs/en/api/beta/organization/users/retrieve
+https://platform.claude.com/docs/en/api/beta/organization/users/sign_out
 https://platform.claude.com/docs/en/api/beta/organization/users/update
 https://platform.claude.com/docs/en/api/beta/organization/webhooks
 https://platform.claude.com/docs/en/api/beta/organization/webhooks/create
@@ -2955,6 +2959,8 @@ https://platform.claude.com/docs/en/api/compliance/organizations/roles/permissio
 https://platform.claude.com/docs/en/api/compliance/organizations/roles/permissions/list?sdk_languages=curl
 https://platform.claude.com/docs/en/api/compliance/organizations/roles/retrieve
 https://platform.claude.com/docs/en/api/compliance/organizations/roles/retrieve?sdk_languages=curl
+https://platform.claude.com/docs/en/api/compliance/organizations/security_posture
+https://platform.claude.com/docs/en/api/compliance/organizations/security_posture/retrieve
 https://platform.claude.com/docs/en/api/compliance/organizations/settings
 https://platform.claude.com/docs/en/api/compliance/organizations/settings/retrieve
 https://platform.claude.com/docs/en/api/compliance/organizations/settings/retrieve?sdk_languages=curl
@@ -3823,6 +3829,7 @@ https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overvie
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-1
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-1?sdk_languages=curl
+https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5?sdk_languages=curl
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-haiku-5-5
 https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-haiku-5-5?sdk_languages=curl
@@ -4119,6 +4126,9 @@ https://platform.claude.com/docs/en/models/fable-5-1/overview
 https://platform.claude.com/docs/en/models/fable-5-1/overview?sdk_languages=curl
 https://platform.claude.com/docs/en/models/fable-5-1/whats-new-fable-5-1
 https://platform.claude.com/docs/en/models/fable-5-1/whats-new-fable-5-1?sdk_languages=curl
+https://platform.claude.com/docs/en/models/fable-5-2/migration-guide
+https://platform.claude.com/docs/en/models/fable-5-2/overview
+https://platform.claude.com/docs/en/models/fable-5-2/whats-new-fable-5-2
 https://platform.claude.com/docs/en/models/fable-5/introducing-claude-fable-5-and-claude-mythos-5
 https://platform.claude.com/docs/en/models/fable-5/migration-guide
 https://platform.claude.com/docs/en/models/fable-5/overview
@@ -4134,6 +4144,7 @@ https://platform.claude.com/docs/en/models/haiku-5-5/whats-new-haiku-5-5
 https://platform.claude.com/docs/en/models/haiku-5-5/whats-new-haiku-5-5?sdk_languages=curl
 https://platform.claude.com/docs/en/models/mythos-5-1/overview
 https://platform.claude.com/docs/en/models/mythos-5-1/overview?sdk_languages=curl
+https://platform.claude.com/docs/en/models/mythos-5-2/overview
 https://platform.claude.com/docs/en/models/mythos-5/overview
 https://platform.claude.com/docs/en/models/mythos-5/overview?sdk_languages=curl
 https://platform.claude.com/docs/en/models/opus-4-5/overview
@@ -4178,6 +4189,7 @@ https://platform.claude.com/docs/en/release-notes/system-prompts
 https://platform.claude.com/docs/en/release-notes/system-prompts/claude-fable-5
 https://platform.claude.com/docs/en/release-notes/system-prompts/claude-fable-5-1
 https://platform.claude.com/docs/en/release-notes/system-prompts/claude-fable-5-1?sdk_languages=curl
+https://platform.claude.com/docs/en/release-notes/system-prompts/claude-fable-5-2
 https://platform.claude.com/docs/en/release-notes/system-prompts/claude-fable-5?sdk_languages=curl
 https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-3
 https://platform.claude.com/docs/en/release-notes/system-prompts/claude-haiku-3-5
@@ -4687,6 +4699,7 @@ https://support.claude.com/en/articles/15330651-claude-enterprise-admin-api-refe
 https://support.claude.com/en/articles/15363606
 https://support.claude.com/en/articles/15363606-why-claude-switched-models-in-your-conversation-with-fable-5
 https://support.claude.com/en/articles/15363606-why-claude-switched-models-in-your-conversation-with-fable-5-or-fable-5-1
+https://support.claude.com/en/articles/15363606-why-claude-switched-models-in-your-conversation-with-fable-models
 https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion
 https://support.claude.com/en/articles/15402193-restrict-verified-domain-connectors-to-your-enterprise
 https://support.claude.com/en/articles/15422948
@@ -4760,6 +4773,7 @@ https://support.claude.com/en/articles/16762437-public-links-for-shared-chats
 https://support.claude.com/en/articles/16762496-share-a-chat-with-specific-people
 https://support.claude.com/en/articles/16764057
 https://support.claude.com/en/articles/16764057-create-surveys-for-your-organization
+https://support.claude.com/en/articles/16764810
 https://support.claude.com/en/articles/16764810-assign-a-program-to-workspaces-in-claude-console
 https://support.claude.com/en/articles/16824617-turn-on-data-retention-for-a-workspace-in-a-zero-data-retention-organization
 https://support.claude.com/en/articles/16893491-get-started-with-smart-reports
@@ -4789,6 +4803,7 @@ https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-
 https://support.claude.com/en/articles/17154008
 https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans
 https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-ultra-and-team-plans
+https://support.claude.com/en/articles/17161993
 https://support.claude.com/en/articles/17161993-why-claude-switched-models-in-your-conversation-with-sonnet-5-5
 https://support.claude.com/en/articles/17202708
 https://support.claude.com/en/articles/17202708-cyber-verification-program-security-requirements
@@ -4812,9 +4827,12 @@ https://support.claude.com/en/articles/17457950
 https://support.claude.com/en/articles/17457950-use-artifacts-with-a-keyboard-or-screen-reader
 https://support.claude.com/en/articles/17458093
 https://support.claude.com/en/articles/17458093-claude-docs-keyboard-shortcuts
+https://support.claude.com/en/articles/17506494
+https://support.claude.com/en/articles/17506494-claude-fable-5-2-launch-offers
 https://support.claude.com/en/articles/17603594-free-code-review-promotional-credits-for-claude-enterprise
 https://support.claude.com/en/articles/17631495
 https://support.claude.com/en/articles/17631495-get-started-with-claude-duet
+https://support.claude.com/en/articles/17644704-share-your-voice-recordings-with-anthropic
 https://support.claude.com/en/articles/17666484
 https://support.claude.com/en/articles/17666484-how-to-use-link-by-stripe-with-claude-duet
 https://support.claude.com/en/articles/17666489
@@ -5370,6 +5388,7 @@ https://www.anthropic.com/news/reflections-on-our-responsible-scaling-policy
 https://www.anthropic.com/news/releasing-claude-instant-1-2
 https://www.anthropic.com/news/research
 https://www.anthropic.com/news/responsible-scaling-policy-v3
+https://www.anthropic.com/news/roadshow-launch
 https://www.anthropic.com/news/rwandan-government-partnership-ai-education
 https://www.anthropic.com/news/s1-sec
 https://www.anthropic.com/news/safeguards
@@ -5484,6 +5503,7 @@ https://www.anthropic.com/research/claude-code-best-practices
 https://www.anthropic.com/research/claude-code-expertise
 https://www.anthropic.com/research/claude-code-sandboxing
 https://www.anthropic.com/research/claude-discovers-novel-enzyme-system
+https://www.anthropic.com/research/claude-electronics-design
 https://www.anthropic.com/research/claude-fable-5-mythos-5
 https://www.anthropic.com/research/claude-opus-4-8
 https://www.anthropic.com/research/claude-opus-5

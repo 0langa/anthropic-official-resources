@@ -1,19 +1,20 @@
 # Expanding our support for scientists
 
-- Published
+Published
+:   Aug 27, 2026
 
-  Aug 27, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Access](https://www.anthropic.com/search?topic=access)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+    - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
 
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
-  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)See more...
+    See more...
 
 Related articles
 

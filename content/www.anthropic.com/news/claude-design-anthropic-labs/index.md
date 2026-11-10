@@ -1,18 +1,19 @@
 # Introducing Claude Design by Anthropic Labs
 
-- Published
+Published
+:   Apr 17, 2026
 
-  Apr 17, 2026
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
 
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)See more...
+    See more...
 
 Related articles
 

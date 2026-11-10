@@ -4,19 +4,20 @@
 
 ![Early progress on accelerating drug development with Claude](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F492ae2fdf955e71a24bfda5422f950febeeec07f-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 27, 2026
 
-  Oct 27, 2026
-- Team
+Team
+:   [Science](https://www.anthropic.com/science)
 
-  [Science](https://www.anthropic.com/science)
-- Topics
+Topics
+:   - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Healthcare](https://www.anthropic.com/search?topic=healthcare)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
 
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Healthcare](https://www.anthropic.com/search?topic=healthcare)
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+    See more...
 
 Related articles
 

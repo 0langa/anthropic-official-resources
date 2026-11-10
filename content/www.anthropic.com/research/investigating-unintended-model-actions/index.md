@@ -2,20 +2,21 @@
 
 ![Investigating unintended model actions in our evaluations and internal use](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff11d2325e688229de8a887ef7ece34f520ab7134-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 9, 2026
 
-  Oct 9, 2026
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
 
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)See more...
+    See more...
 
 Related articles
 

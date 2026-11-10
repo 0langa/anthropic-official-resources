@@ -4,20 +4,21 @@
 
 ![Introducing Claude Opus 4.7](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F96ea2509a90e527642c822303e56296a07bcfce4-1920x1080.png&w=1920&q=75)
 
-- Published
+Published
+:   Apr 16, 2026
 
-  Apr 16, 2026
-- Category
+Category
+:   [Models](https://www.anthropic.com/news/models)
 
-  [Models](https://www.anthropic.com/news/models)
-- Topics
+Topics
+:   - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
 
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)See more...
+    See more...
 
 Related articles
 

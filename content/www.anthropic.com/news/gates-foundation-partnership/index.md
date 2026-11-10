@@ -1,19 +1,20 @@
 # Anthropic forms $200 million partnership with the Gates Foundation
 
-- Published
+Published
+:   May 14, 2026
 
-  May 14, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Global health](https://www.anthropic.com/search?topic=global-health)
+    - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+    - [Education](https://www.anthropic.com/search?topic=education)
+    - [Funding](https://www.anthropic.com/search?topic=funding)
 
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Global health](https://www.anthropic.com/search?topic=global-health)
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
-  - [Education](https://www.anthropic.com/search?topic=education)
-  - [Funding](https://www.anthropic.com/search?topic=funding)See more...
+    See more...
 
 Related articles
 

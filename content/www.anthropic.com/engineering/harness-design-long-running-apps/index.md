@@ -2,18 +2,19 @@
 
 # Harness design for long-running application development
 
-- Published
+Published
+:   Mar 24, 2026
 
-  Mar 24, 2026
-- Team
+Team
+:   [Engineering](https://www.anthropic.com/engineering)
 
-  [Engineering](https://www.anthropic.com/engineering)
-- Topics
+Topics
+:   - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
 
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)See more...
+    See more...
 
 *Written by Prithvi Rajasekaran, a member of our [Labs](https://www.anthropic.com/news/introducing-anthropic-labs) team.*
 

@@ -1,19 +1,20 @@
 # Statement on the US government directive to suspend access to Fable 5 and Mythos 5
 
-- Published
+Published
+:   Jun 12, 2026
 
-  Jun 12, 2026
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+    - [Access](https://www.anthropic.com/search?topic=access)
 
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
-  - [Access](https://www.anthropic.com/search?topic=access)See more...
+    See more...
 
 Related articles
 

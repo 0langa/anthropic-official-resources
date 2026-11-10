@@ -6,19 +6,20 @@
 
 ![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F9eXV64O2Xp8%2Fsddefault.jpg&w=3840&q=75)
 
-- Published
+Published
+:   Dec 18, 2024
 
-  Dec 18, 2024
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Training](https://www.anthropic.com/search?topic=training)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
 
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Training](https://www.anthropic.com/search?topic=training)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)See more...
+    See more...
 
 Related articles
 

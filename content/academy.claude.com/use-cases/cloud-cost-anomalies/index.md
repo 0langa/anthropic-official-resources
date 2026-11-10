@@ -298,7 +298,7 @@ Claude for Excel
 
 Compare savings against the budget
 
-Install](https://claude.com/claude-for-excel)
+Install](https://claude.com/claude-for-microsoft-365)
 
 ## Make Cowork work for you[](https://academy.claude.com/use-cases/cloud-cost-anomalies)
 

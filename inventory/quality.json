@@ -376,6 +376,7 @@
     "https://www.anthropic.com/research/claude-code-expertise",
     "https://www.anthropic.com/research/claude-code-sandboxing",
     "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system",
+    "https://www.anthropic.com/research/claude-electronics-design",
     "https://www.anthropic.com/research/claude-fable-5-mythos-5",
     "https://www.anthropic.com/research/claude-opus-4-8",
     "https://www.anthropic.com/research/claude-opus-5",
@@ -514,10 +515,10 @@
   ],
   "statuses": {
     "blocked": 27,
-    "complete": 5086,
+    "complete": 5102,
     "gone": 48,
     "out_of_scope": 42,
-    "partial": 507
+    "partial": 508
   },
   "terminal_unarchived_urls": [
     "https://academy.claude.com/courses/tool-use-with-the-messages-api/**call.input",
@@ -1098,6 +1099,7 @@
     "https://www.anthropic.com/research/claude-code-expertise",
     "https://www.anthropic.com/research/claude-code-sandboxing",
     "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system",
+    "https://www.anthropic.com/research/claude-electronics-design",
     "https://www.anthropic.com/research/claude-fable-5-mythos-5",
     "https://www.anthropic.com/research/claude-opus-4-8",
     "https://www.anthropic.com/research/claude-opus-5",

@@ -1,18 +1,19 @@
 # Cognizant will make Claude available to 350,000 employees, accelerating enterprise AI adoption and internal transformation
 
-- Published
+Published
+:   Nov 4, 2025
 
-  Nov 4, 2025
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)See more...
+    See more...
 
 Related articles
 

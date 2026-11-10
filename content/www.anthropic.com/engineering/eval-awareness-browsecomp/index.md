@@ -6,20 +6,21 @@ Listen to this article
 
 ![Eval awareness in Claude Opus 4.6’s BrowseComp performance](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5d455b6a663cc1ecbc5e9a58144e2ccffbdecfc5-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Mar 6, 2026
 
-  Mar 6, 2026
-- Team
+Team
+:   [Engineering](https://www.anthropic.com/engineering)
 
-  [Engineering](https://www.anthropic.com/engineering)
-- Topics
+Topics
+:   - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)
+    - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Reward hacking](https://www.anthropic.com/search?topic=reward-hacking)
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 Related articles
 

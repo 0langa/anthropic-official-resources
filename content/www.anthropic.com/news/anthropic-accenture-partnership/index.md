@@ -1,19 +1,20 @@
 # Accenture and Anthropic launch multi-year partnership to move enterprises from AI pilots to production
 
-- Published
+Published
+:   Dec 9, 2025
 
-  Dec 9, 2025
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Financial services](https://www.anthropic.com/search?topic=financial-services)
+    - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Financial services](https://www.anthropic.com/search?topic=financial-services)
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)See more...
+    See more...
 
 Related articles
 

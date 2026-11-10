@@ -2,19 +2,20 @@
 
 # Expanding the Cyber Verification Program
 
-- Published
+Published
+:   Oct 6, 2026
 
-  Oct 6, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)See more...
+    See more...
 
 Related articles
 

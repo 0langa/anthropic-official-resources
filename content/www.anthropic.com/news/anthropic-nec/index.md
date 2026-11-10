@@ -1,18 +1,19 @@
 # Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce
 
-- Published
+Published
+:   Apr 24, 2026
 
-  Apr 24, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)See more...
+    See more...
 
 Related articles
 

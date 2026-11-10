@@ -2,17 +2,17 @@
 
 Latest news
 
-November 8, 2026
+November 10, 2026
 
 [Announcements](https://www.anthropic.com/news/announcements)
 
-Sep 22, 2026
+Nov 9, 2026
 
-![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F1f13Bl1sYkw%2Fsddefault.jpg&w=3840&q=75)
+![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2F6a1QSJlsYpU%2Fsddefault.jpg&w=3840&q=75)
 
-[## Introducing Claude Opus 5.5
+[## Introducing Claude Fable 5.2 and Claude Mythos 5.2
 
-Claude Opus 5.5 leads in agentic coding and knowledge work, and costs 40% less to run than Opus 5 on typical workloads.](https://www.anthropic.com/claude-opus-5-5)
+Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences.](https://www.anthropic.com/claude-fable-and-mythos-5-2)
 
 [Announcements](https://www.anthropic.com/news/announcements)
 
@@ -40,9 +40,9 @@ Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume
 
 [Announcements](https://www.anthropic.com/news/announcements)
 
-Sep 28, 2026[### Introducing Claude Sonnet 5.5
+Sep 22, 2026[### Introducing Claude Opus 5.5
 
-Claude Sonnet 5.5 is a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work.](https://www.anthropic.com/claude-sonnet-5-5)
+Claude Opus 5.5 leads in agentic coding and knowledge work, and costs 40% less to run than Opus 5 on typical workloads.](https://www.anthropic.com/claude-opus-5-5)
 
 Features
 
@@ -102,7 +102,7 @@ The first AI-assisted drive on another planet. Claude helped NASA's Perseverance
 
 AllProductCompany
 
-282
+284
 
 ARTICLES
 
@@ -118,6 +118,32 @@ Category
 
 Date
 
+- [### Anthropic launches roadshow for proposed initial public offering](https://www.anthropic.com/news/roadshow-launch)
+
+  [Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.](https://www.anthropic.com/news/roadshow-launch)
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+
+  Nov 10, 2026
+
+  Nov 10, 2026
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+
+  [### Anthropic launches roadshow for proposed initial public offering](https://www.anthropic.com/news/roadshow-launch)[Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.](https://www.anthropic.com/news/roadshow-launch)
+- [### Introducing Claude Fable 5.2 and Claude Mythos 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2)
+
+  [Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences.](https://www.anthropic.com/claude-fable-and-mythos-5-2)
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+
+  Nov 9, 2026
+
+  Nov 9, 2026
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+
+  [### Introducing Claude Fable 5.2 and Claude Mythos 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2)[Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences.](https://www.anthropic.com/claude-fable-and-mythos-5-2)
 - [### AI for Science expands to foundations and research institutions](https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions)
 
   [We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Science program.](https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions)
@@ -404,32 +430,6 @@ Date
   [Partnerships](https://www.anthropic.com/news/partnerships)
 
   [### Partnering with Accenture on embedded evaluation](https://www.anthropic.com/news/accenture-embedded-evaluation)[We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.](https://www.anthropic.com/news/accenture-embedded-evaluation)
-- [### Introducing the Life Sciences Verification Program](https://www.anthropic.com/news/life-sciences-verification-program)
-
-  [The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.](https://www.anthropic.com/news/life-sciences-verification-program)
-
-  [Announcements](https://www.anthropic.com/news/announcements)
-
-  Sep 17, 2026
-
-  Sep 17, 2026
-
-  [Announcements](https://www.anthropic.com/news/announcements)
-
-  [### Introducing the Life Sciences Verification Program](https://www.anthropic.com/news/life-sciences-verification-program)[The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.](https://www.anthropic.com/news/life-sciences-verification-program)
-- [### Introducing Claude Mythos and Fable 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1)
-
-  [They’re the world’s most advanced models for coding and knowledge work—and their research capabilities offer an early glimpse of how AI models will contribute to scientific progress.](https://www.anthropic.com/claude-fable-and-mythos-5-1)
-
-  [Announcements](https://www.anthropic.com/news/announcements)
-
-  Sep 15, 2026
-
-  Sep 15, 2026
-
-  [Announcements](https://www.anthropic.com/news/announcements)
-
-  [### Introducing Claude Mythos and Fable 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1)[They’re the world’s most advanced models for coding and knowledge work—and their research capabilities offer an early glimpse of how AI models will contribute to scientific progress.](https://www.anthropic.com/claude-fable-and-mythos-5-1)
 
 See more
 

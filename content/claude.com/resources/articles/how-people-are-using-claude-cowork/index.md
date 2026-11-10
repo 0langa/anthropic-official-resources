@@ -74,7 +74,21 @@ The sample is collected at a capped rate—a fixed maximum number of sessions pe
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 22, 2026
+[ArticleNov 9, 2026
+
+### Claude can design electronic prototypes from start to finish
+
+We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.
+
+(opens in new tab)](https://www.anthropic.com/research/claude-electronics-design)[ArticleNov 6, 2026
+
+### The components of agent memory
+
+For Claude to learn from experience, it has to decide what's worth remembering before it knows what's next. Here's how "dreaming" helps it organize memory and correct mistakes.
+
+Claude Platform
+
+(opens in new tab)](https://www.anthropic.com/research/components-of-agent-memory)[ArticleOct 22, 2026
 
 ### Building agents: When to fold subagents into your main agent loop
 
@@ -86,17 +100,7 @@ Claude Platform](https://claude.com/resources/articles/building-agents-when-to-f
 
 We need ways to prove that code is free of bugs. Formal software verification could provide this guarantee.
 
-(opens in new tab)](https://www.anthropic.com/research/formal-verification)[ArticleOct 13, 2026
-
-### Uber's CISO on building an insider threat program for AI
-
-Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.](https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai)[ArticleOct 8, 2026
-
-### How Block orchestrates Claude Fable across thousands of pull requests
-
-Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
-
-Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)
+(opens in new tab)](https://www.anthropic.com/research/formal-verification)
 
 ## Transform how your organization operates with Claude
 

@@ -1,19 +1,20 @@
 # 2026 Usage Policy update
 
-- Published
+Published
+:   Oct 8, 2026
 
-  Oct 8, 2026
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+    - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)
+    - [Model welfare](https://www.anthropic.com/search?topic=model-welfare)
+    - [Robotics](https://www.anthropic.com/search?topic=robotics)
 
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
-  - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)
-  - [Model welfare](https://www.anthropic.com/search?topic=model-welfare)
-  - [Robotics](https://www.anthropic.com/search?topic=robotics)See more...
+    See more...
 
 Related articles
 

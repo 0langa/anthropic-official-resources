@@ -1,17 +1,18 @@
 # Anthropic and the Department of Defense to advance responsible AI in defense operations
 
-- Published
+Published
+:   Jul 14, 2025
 
-  Jul 14, 2025
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
 
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)See more...
+    See more...
 
 Related articles
 

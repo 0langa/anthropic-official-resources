@@ -1,17 +1,18 @@
 # Frontier model security
 
-- Published
+Published
+:   Jul 25, 2023
 
-  Jul 25, 2023
-- Category
+Category
+:   [Security](https://www.anthropic.com/news/security)
 
-  [Security](https://www.anthropic.com/news/security)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)See more...
+    See more...
 
 Related articles
 

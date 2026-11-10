@@ -1,17 +1,18 @@
 # Anthropic launches higher education advisory board and AI Fluency courses
 
-- Published
+Published
+:   Aug 21, 2025
 
-  Aug 21, 2025
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Education](https://www.anthropic.com/search?topic=education)
+    - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
 
-  - [Education](https://www.anthropic.com/search?topic=education)
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)See more...
+    See more...
 
 Related articles
 

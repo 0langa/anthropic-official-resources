@@ -1,17 +1,18 @@
 # Anthropic partners with BCG
 
-- Published
+Published
+:   Sep 14, 2023
 
-  Sep 14, 2023
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)
+    - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)
-  - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)See more...
+    See more...
 
 Related articles
 

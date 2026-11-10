@@ -1,17 +1,18 @@
 # Anthropic expands global leadership in enterprise AI, naming Chris Ciauri as Managing Director of International
 
-- Published
+Published
+:   Sep 26, 2025
 
-  Sep 26, 2025
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
 
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+    See more...
 
 Related articles
 

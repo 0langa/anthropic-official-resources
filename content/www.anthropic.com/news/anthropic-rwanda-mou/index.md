@@ -1,19 +1,20 @@
 # Anthropic and the Government of Rwanda sign MOU for AI in health and education
 
-- Published
+Published
+:   Feb 17, 2026
 
-  Feb 17, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
+    - [Global health](https://www.anthropic.com/search?topic=global-health)
+    - [Education](https://www.anthropic.com/search?topic=education)
+    - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
 
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
-  - [Global health](https://www.anthropic.com/search?topic=global-health)
-  - [Education](https://www.anthropic.com/search?topic=education)
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)See more...
+    See more...
 
 Related articles
 

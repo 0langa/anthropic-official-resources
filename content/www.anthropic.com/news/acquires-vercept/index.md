@@ -1,17 +1,18 @@
 # Anthropic acquires Vercept to advance Claude's computer use capabilities
 
-- Published
+Published
+:   Feb 25, 2026
 
-  Feb 25, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Computer use](https://www.anthropic.com/search?topic=computer-use)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Computer use](https://www.anthropic.com/search?topic=computer-use)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 Related articles
 

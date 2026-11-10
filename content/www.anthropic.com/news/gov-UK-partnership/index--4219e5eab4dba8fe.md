@@ -1,18 +1,19 @@
 # Anthropic partners with the UK Government to bring AI assistance to GOV.UK services
 
-- Published
+Published
+:   Jan 27, 2026
 
-  Jan 27, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
 
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)See more...
+    See more...
 
 Related articles
 

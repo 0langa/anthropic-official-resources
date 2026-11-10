@@ -2,20 +2,21 @@
 
 ![Expanding Project Glasswing](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F19e93d85e033d3f992b78cbce2c5a3f60709bd3b-3840x2160.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jun 2, 2026
 
-  Jun 2, 2026
-- Category
+Category
+:   [Security](https://www.anthropic.com/news/security)
 
-  [Security](https://www.anthropic.com/news/security)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [National security](https://www.anthropic.com/search?topic=national-security)See more...
+    See more...
 
 Related articles
 

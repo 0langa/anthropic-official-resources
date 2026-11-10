@@ -1,18 +1,19 @@
 # Expanding access to safer AI with Amazon
 
-- Published
+Published
+:   Sep 25, 2023
 
-  Sep 25, 2023
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)See more...
+    See more...
 
 Related articles
 

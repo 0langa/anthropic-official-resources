@@ -1,15 +1,14 @@
 # Anthropic confidentially submits draft S-1 to the SEC
 
-- Published
+Published
+:   Jun 1, 2026
 
-  Jun 1, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
-
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
+Topics
+:   - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
 
 Related articles
 

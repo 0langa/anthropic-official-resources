@@ -1,17 +1,18 @@
 # Enabling Claude Code to work more autonomously
 
-- Published
+Published
+:   Sep 29, 2025
 
-  Sep 29, 2025
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
 
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)See more...
+    See more...
 
 Related articles
 

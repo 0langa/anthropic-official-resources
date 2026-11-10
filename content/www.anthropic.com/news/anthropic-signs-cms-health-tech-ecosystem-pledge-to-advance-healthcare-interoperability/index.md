@@ -1,17 +1,18 @@
 # Anthropic Signs CMS Health Tech Ecosystem Pledge to Advance Healthcare Interoperability
 
-- Published
+Published
+:   Jul 30, 2025
 
-  Jul 30, 2025
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Healthcare](https://www.anthropic.com/search?topic=healthcare)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+    - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
 
-  - [Healthcare](https://www.anthropic.com/search?topic=healthcare)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)See more...
+    See more...
 
 Related articles
 

@@ -4,20 +4,21 @@
 
 ![Introducing Claude Sonnet 5](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2039cc549c023bc855671308211d20d3382828a9-2880x1620.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jun 30, 2026
 
-  Jun 30, 2026
-- Category
+Category
+:   [Models](https://www.anthropic.com/news/models)
 
-  [Models](https://www.anthropic.com/news/models)
-- Topics
+Topics
+:   - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
 
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)See more...
+    See more...
 
 Related articles
 

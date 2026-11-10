@@ -4,18 +4,19 @@
 
 ![Building a C compiler with a team of parallel Claudes](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F194765a666e35f8c949cb75edce4e104ff98fda5-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Feb 5, 2026
 
-  Feb 5, 2026
-- Team
+Team
+:   [Engineering](https://www.anthropic.com/engineering)
 
-  [Engineering](https://www.anthropic.com/engineering)
-- Topics
+Topics
+:   - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
 
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)See more...
+    See more...
 
 *Written by Nicholas Carlini, a researcher on our Safeguards team.*
 

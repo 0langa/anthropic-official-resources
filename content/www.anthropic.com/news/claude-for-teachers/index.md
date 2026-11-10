@@ -2,20 +2,21 @@
 
 # Introducing Claude for Teachers
 
-- Published
+Published
+:   Jul 14, 2026
 
-  Jul 14, 2026
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Education](https://www.anthropic.com/search?topic=education)
+    - [Privacy](https://www.anthropic.com/search?topic=privacy)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Agent Skills](https://www.anthropic.com/search?topic=agent-skills)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Education](https://www.anthropic.com/search?topic=education)
-  - [Privacy](https://www.anthropic.com/search?topic=privacy)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Agent Skills](https://www.anthropic.com/search?topic=agent-skills)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 Related articles
 

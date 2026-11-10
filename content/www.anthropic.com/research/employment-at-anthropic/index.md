@@ -4,19 +4,20 @@
 
 ![How employment is changing at Anthropic](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe6c18d30f931ae76d4b600558f5a11377306f1d9-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 16, 2026
 
-  Oct 16, 2026
-- Team
+Team
+:   [Economics](https://www.anthropic.com/research/team/economics)
 
-  [Economics](https://www.anthropic.com/research/team/economics)
-- Topics
+Topics
+:   - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
+    - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
 
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)See more...
+    See more...
 
 Related articles
 

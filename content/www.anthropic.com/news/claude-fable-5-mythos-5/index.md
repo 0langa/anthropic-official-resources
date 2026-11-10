@@ -4,20 +4,21 @@
 
 ![The number five composed of several butterflies](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb7055119423427c40a0e4d84054aed17682b50a2-2880x1620.png&w=1920&q=75)
 
-- Published
+Published
+:   Jun 9, 2026
 
-  Jun 9, 2026
-- Category
+Category
+:   [Models](https://www.anthropic.com/news/models)
 
-  [Models](https://www.anthropic.com/news/models)
-- Topics
+Topics
+:   - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
 
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)See more...
+    See more...
 
 Related articles
 

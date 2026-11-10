@@ -4,18 +4,19 @@
 
 ![A lamp shining on a document](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd8f8769997101e424636cd0170091f9575c3583c-1996x1123.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Apr 8, 2025
 
-  Apr 8, 2025
-- Team
+Team
+:   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
-- Topics
+Topics
+:   - [Education](https://www.anthropic.com/search?topic=education)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Privacy](https://www.anthropic.com/search?topic=privacy)
+    - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
 
-  - [Education](https://www.anthropic.com/search?topic=education)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Privacy](https://www.anthropic.com/search?topic=privacy)
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)See more...
+    See more...
 
 Related articles
 

@@ -2,20 +2,21 @@
 
 # Claude for Life Sciences
 
-- Published
+Published
+:   Oct 20, 2025
 
-  Oct 20, 2025
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+    - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+    - [Agent Skills](https://www.anthropic.com/search?topic=agent-skills)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
 
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
-  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
-  - [Agent Skills](https://www.anthropic.com/search?topic=agent-skills)
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)See more...
+    See more...
 
 Related articles
 
@@ -43,7 +44,7 @@ To make Claude more useful for scientific work, we’re now adding several [new 
 
 ## Connecting Claude to scientific tools
 
-[**Connectors**](https://claude.ai/redirect/website.v1.23b0d86d-2288-4f4d-93ff-276ae0d1d82a/settings/connectors) allow Claude to access other platforms and tools directly. We’re adding several new connectors that are designed to make it easier to use Claude for scientific discovery:
+[**Connectors**](https://claude.ai/redirect/website.v1.6a14d9af-668d-4f66-b6f5-a50a1b2042b3/settings/connectors) allow Claude to access other platforms and tools directly. We’re adding several new connectors that are designed to make it easier to use Claude for scientific discovery:
 
 - **Benchling** gives Claude the ability to respond to scientists’ questions with links back to source experiments, notebooks, and records;
 - **BioRender** connects Claude to its extensive library of vetted scientific figures, icons, and templates;

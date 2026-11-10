@@ -1,18 +1,19 @@
 # **Elections and AI in 2024:**Observations and learnings
 
-- Published
+Published
+:   Dec 12, 2024
 
-  Dec 12, 2024
-- Category
+Category
+:   [Safeguards](https://www.anthropic.com/news/safeguards)
 
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-- Topics
+Topics
+:   - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
 
-  - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)See more...
+    See more...
 
 Related articles
 

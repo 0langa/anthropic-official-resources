@@ -1,18 +1,19 @@
 # Ask Claude about the Anthropic Economic Index
 
-- Published
+Published
+:   Jul 22, 2026
 
-  Jul 22, 2026
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+    - [Access](https://www.anthropic.com/search?topic=access)
 
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
-  - [Access](https://www.anthropic.com/search?topic=access)See more...
+    See more...
 
 Related articles
 

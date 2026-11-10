@@ -1,18 +1,19 @@
 # **Detecting and countering malicious uses of Claude:**March 2025
 
-- Published
+Published
+:   Apr 23, 2025
 
-  Apr 23, 2025
-- Category
+Category
+:   [Security](https://www.anthropic.com/news/security)
 
-  [Security](https://www.anthropic.com/news/security)
-- Topics
+Topics
+:   - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)
+    - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+    - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
 
-  - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
-  - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)See more...
+    See more...
 
 Related articles
 

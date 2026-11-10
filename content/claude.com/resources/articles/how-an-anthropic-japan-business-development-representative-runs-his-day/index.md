@@ -28,12 +28,12 @@ In this post, I'll walk through how I designed and prototyped the fleet, why I m
 I divided up my workflow across several agents and gave every agent one clear job. A single responsibility keeps each one easy to reason about and easy to track, especially when something is off. I also gave every agent a Japanese name, because they mostly work in Japanese. Together they're called the *Nakama*, "the crew," or more literally, the companions you work with:
 
 - ***Furiwake*** ("sorting") kicks off first: it reads the daily inbound queue and routes each lead to the right rep on the team, balancing the number of leads and the priority of each one and checking who's in that day, so every lead has an owner before any of us start our day. At the end of each run it posts a report to a dedicated Slack channel (every lead in, every lead assigned) so I can track the handoff.
-- ***Sabaki*** ("handling") triages the leads that are assigned to me: it qualifies each lead, categorizes it against pre-set criteria, takes the defined next step for that category (draft a reply pointing them to to self-serve, craft a customized first email), updates the lead record in Salesforce, and drafts the first-touch email. It sources the draft's contents from the *Nakama*'s shared knowledge base, a [memory store (opens in new tab)](https://claude.com/blog/claude-managed-agents-memory) every agent reads and writes (more on this below).
+- ***Sabaki*** ("handling") triages the leads that are assigned to me: it qualifies each lead, categorizes it against pre-set criteria, takes the defined next step for that category (draft a reply pointing them to to self-serve, craft a customized first email), updates the lead record in Salesforce, and drafts the first-touch email. It sources the draft's contents from the *Nakama*'s shared knowledge base, a [memory store (opens in new tab)](https://claude.com/resources/articles/claude-managed-agents-memory) every agent reads and writes (more on this below).
 - ***Henji*** ("reply") scans my inbox hourly for customer emails that need a response and prepares a draft reply in Japanese or English, depending on the thread, drawing on the same knowledge base as *Sabaki*. I can review, edit, and send the draft.
-- ***Shoudan*** ("opportunity") reads recent customer interactions and pushes updates into Salesforce, so opportunity records stay current without manual data entry.
+- ***Shoudan*** ("opportunity") reads recent customer interactions and pushes updates into [Salesforce](https://claude.com/resources/articles/salesforce-in-claude), so opportunity records stay current without manual data entry.
 - ***Nokori*** ("what remains") runs at the end of the day: it scans my calendar, reads the attached meeting transcripts, summarizes each meeting, and drafts the follow-ups, again from the same knowledge base.
 
-Each agent runs on a [schedule](https://claude.com/blog/whats-new-in-claude-managed-agents). A sixth agent, the Nakama's coordinator, is the fleet’s operations manager. It updates the agents’ instructions and the shared knowledge base between runs. When I want to change how an agent works, I write what I want in plain language in the Nakama’s Slack channel. Only I can post requests for changes to agents’ instructions and system prompts. The coordinator checks that channel every 15 minutes or so, picks up the request, and makes the update.
+Each agent runs on a [schedule](https://claude.com/resources/articles/whats-new-in-claude-managed-agents). A sixth agent, the Nakama's coordinator, is the fleet’s operations manager. It updates the agents’ instructions and the shared knowledge base between runs. When I want to change how an agent works, I write what I want in plain language in the Nakama’s Slack channel. Only I can post requests for changes to agents’ instructions and system prompts. The coordinator checks that channel every 15 minutes or so, picks up the request, and makes the update.
 
 ![A graphic showing the agents and their roles](https://assets.claude.com/1fabdce2187d0997e43f9b0518820c25606a0f1d.png)
 
@@ -59,7 +59,7 @@ The agents run on their schedule whether my laptop is open or not, even when it'
 
 **The Nakama shares one memory and learns from my edits**
 
-Every agent reads and writes the same [memory store (opens in new tab)](https://claude.com/blog/claude-managed-agents-memory), so any agent can use the others’ learnings. The agents compare the drafts they wrote with the emails I sent, and they save each difference as a note on how I'd phrase it. They also keep whatever new information they dig up while researching an answer, from our internal docs and our official websites. I fix a phrasing once in Henji's drafts, and Sabaki and Nokori stop making the same mistake.
+Every agent reads and writes the same [memory store (opens in new tab)](https://claude.com/resources/articles/claude-managed-agents-memory), so any agent can use the others’ learnings. The agents compare the drafts they wrote with the emails I sent, and they save each difference as a note on how I'd phrase it. They also keep whatever new information they dig up while researching an answer, from our internal docs and our official websites. I fix a phrasing once in Henji's drafts, and Sabaki and Nokori stop making the same mistake.
 
 **Credentials live in a managed vault with scoped permissions**
 
@@ -91,7 +91,7 @@ Scheduled agents run every day whether I'm watching or not, so waste can add up,
 
 Most of what keeps the agents efficient is how I designed the fleet: each agent has one job, so its instructions stay focused on that job; each working agent runs on a schedule, so it wakes up, does its pass, and stops; and the agents share memory, so a correction made once is reused everywhere.
 
-The other big factor is which model each agent runs on. Once an agent's job is well defined, it may not need our most capable model. Furiwake and Shoudan follow a written rulebook, so they run on Sonnet, our smaller model. Sabaki, Nokori and the coordinator run on Opus, our larger model, because their work needs more judgment. The coordinator needs it most, since it edits the other agents' instructions and one bad edit would reach every agent. Henji needs as much judgment as Sabaki, because every customer's email is different, but it also runs more often than any other agent, all through the working day. Running it on Opus every time would be the most expensive option, so I use the [advisor strategy (opens in new tab)](https://claude.com/blog/the-advisor-strategy) in Managed Agents: Henji runs on Sonnet, and when it reaches a decision it can't make on its own, it asks Opus for advice. The advisor reads what Henji has done so far and sends back a plan, a correction, or a stop signal, and Henji then finishes the draft for my review. I also set each agent's effort level (how long the model thinks before it answers) separately from its model, and I raise it only where the reasoning is hard, as with Henji's replies.
+The other big factor is which model each agent runs on. Once an agent's job is well defined, it may not need our most capable model. Furiwake and Shoudan follow a written rulebook, so they run on Sonnet, our smaller model. Sabaki, Nokori and the coordinator run on Opus, our larger model, because their work needs more judgment. The coordinator needs it most, since it edits the other agents' instructions and one bad edit would reach every agent. Henji needs as much judgment as Sabaki, because every customer's email is different, but it also runs more often than any other agent, all through the working day. Running it on Opus every time would be the most expensive option, so I use the [advisor strategy (opens in new tab)](https://claude.com/resources/articles/the-advisor-strategy) in Managed Agents: Henji runs on Sonnet, and when it reaches a decision it can't make on its own, it asks Opus for advice. The advisor reads what Henji has done so far and sends back a plan, a correction, or a stop signal, and Henji then finishes the draft for my review. I also set each agent's effort level (how long the model thinks before it answers) separately from its model, and I raise it only where the reasoning is hard, as with Henji's replies.
 
 ![A graphic showing which models the different agents use for their jobs](https://assets.claude.com/f9f71df9bc447aba6114949e002ce0fb8dd34ba2.png)
 
@@ -109,7 +109,21 @@ Three things I'd pass on to anyone building their own fleet.
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 27, 2026
+[ArticleNov 9, 2026
+
+### Safely scaling multi-agent teams with Claude Fable 5.2
+
+How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
+
+(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)[ArticleNov 9, 2026
+
+### Which Claude model should you build with?
+
+How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.
+
+Claude PlatformClaude Code
+
+(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)[ArticleOct 27, 2026
 
 ### Manage costs and demonstrate ROI for Claude Code on Google Cloud
 
@@ -121,23 +135,7 @@ Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demon
 
 When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
 
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[ArticleOct 19, 2026
-
-### Redesigning source control at Anthropic
-
-As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.
-
-Claude Code
-
-(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)[ArticleOct 16, 2026
-
-### How the Claude Code team does code review
-
-How do you review code at the volume agents produce it? The Claude Code team shares its review process, from Claude verifying its own work to risk-tiered human approval, plus a checklist for adopting it.
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)
+Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)
 
 ## Transform how your organization operates with Claude
 

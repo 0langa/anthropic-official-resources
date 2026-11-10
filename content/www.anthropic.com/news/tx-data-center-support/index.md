@@ -1,16 +1,17 @@
 # Supporting Governor Abbott’s Calls for Responsible Data Center Development
 
-- Published
+Published
+:   Aug 11, 2026
 
-  Aug 11, 2026
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+    - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
 
-  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)See more...
+    See more...
 
 Related articles
 

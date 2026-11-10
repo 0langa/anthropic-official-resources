@@ -1,17 +1,18 @@
 # Expanded legal protections and improvements to our API
 
-- Published
+Published
+:   Dec 19, 2023
 
-  Dec 19, 2023
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+    - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
-  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

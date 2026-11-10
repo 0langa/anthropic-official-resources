@@ -4,19 +4,20 @@
 
 ![Beyond permission prompts: making Claude Code more secure and autonomous](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb95241b80efe872ba6f1c42ded721fffc3347154-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 20, 2025
 
-  Oct 20, 2025
-- Team
+Team
+:   [Engineering](https://www.anthropic.com/engineering)
 
-  [Engineering](https://www.anthropic.com/engineering)
-- Topics
+Topics
+:   - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
 
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)See more...
+    See more...
 
 Related articles
 
@@ -93,7 +94,7 @@ Our new sandboxed bash tool and Claude Code on the web offer substantial improve
 To get started with these tools:
 
 1. Run `/sandbox` in Claude and check out [our docs](https://docs.claude.com/en/docs/claude-code/sandboxing) on how to configure this sandbox.
-2. Go to [claude.com/code](http://claude.ai/redirect/website.v1.2710c260-e346-4813-ba55-27d8214c7bd7/code) to try out Claude Code on the web.
+2. Go to [claude.com/code](http://claude.ai/redirect/website.v1.64586b10-873e-4e6a-af18-8b9b6e76bf97/code) to try out Claude Code on the web.
 
 Or, if you're building your own agents, check out our [open-sourced sandboxing code](https://github.com/anthropic-experimental/sandbox-runtime), and consider integrating it into your work. We look forward to seeing what you build.
 

@@ -1,17 +1,18 @@
 # Anthropic appoints Irina Ghose as Managing Director of India ahead of Bengaluru office opening
 
-- Published
+Published
+:   Jan 16, 2026
 
-  Jan 16, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
 
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)See more...
+    See more...
 
 Related articles
 

@@ -202,7 +202,7 @@ Use the full tool names in `allowedTools` and in [MCP permission rules](/docs/en
 
 ### Auto-approve with allowedTools
 
-Use `allowedTools` to auto-approve specific MCP tools so Claude can use them without a permission prompt:
+Use `allowedTools` to auto-approve specific MCP tools:
 
 ```typescript TypeScript hidelines={1,-1} theme={null}
 const _ = {

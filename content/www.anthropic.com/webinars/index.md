@@ -8,19 +8,19 @@ Unsubscribe at any time.
 
 Live and recorded sessions with Anthropic and customer teams — demos, deep dives, Q&A, and practical takeaways.
 
-[WebinarNov 5, 2026
+[WebinarOn demand
 
 ### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
 
 A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)
 
-[WebinarOn demand
+[WebinarUpcoming | Nov 18, 2026
 
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
+### How the Claude Code team does code review
 
-Your advisors want to use Claude for Financial Advisors. Before you turn on Cowork, you need to know how client data is handled.
+When agents write the code, pull requests pile up faster than anyone can read them.
 
-Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)
 
 [WebinarUpcoming | Nov 17, 2026
 
@@ -44,7 +44,7 @@ Most nonprofit staff on Claude open a chat, get a decent but generic answer, and
 
 Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)
 
-[WebinarNov 5, 2026
+[WebinarOn demand
 
 ### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
 
@@ -54,7 +54,7 @@ Featured resource 1 of 5: The State of Cybersecurity: What Frontier AI Changes f
 
 Advanced filters
 
-Showing 23 of 118 resources
+Showing 24 of 119 resources
 
 ## Upcoming webinars
 
@@ -86,7 +86,13 @@ This one-hour technical session covers where that’s heading, what works today,
 
 The full Claude Platform is now on Google Cloud — build agents from the Google Cloud account you already run.
 
-Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)
+Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[WebinarUpcoming | Nov 18, 2026
+
+### How the Claude Code team does code review
+
+When agents write the code, pull requests pile up faster than anyone can read them.
+
+Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)
 
 ## Recurring webinars
 
@@ -140,7 +146,7 @@ Claude Code](https://claude.com/resources/webinars/claude-code-foundations-serie
 
 Missed the session? Stream past sessions anytime and catch up at your own pace.
 
-[WebinarNov 5, 2026
+[WebinarOn demand
 
 ### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
 
@@ -156,17 +162,23 @@ Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com
 
 Your rollout plan depends on knowing what's changed and what matters the most.
 
-Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[WebinarOn demand
+Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise
+
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/93382d9c-795b-4053-9e0f-bcf3e2765258)[WebinarOn demand
 
 ### Tokenomics on AWS: Control and optimize your Claude spend
 
-Learn how to control and optimize Claude spend on AWS, from admin controls and default models to cost per task for API agents.](https://claude.com/resources/webinars/tokenomics-on-aws-control-and-optimize-your-claude-spend)[WebinarOn demand
+Learn how to control and optimize Claude spend on AWS, from admin controls and default models to cost per task for API agents.
+
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/f9040d53-be56-4092-88b5-ec19c178e20c)[WebinarOn demand
 
 ### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
 
 Your advisors want to use Claude for Financial Advisors. Before you turn on Cowork, you need to know how client data is handled.
 
-Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)[WebinarOn demand
+Claude CoworkClaude Enterprise
+
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/1ca88184-6d7b-4558-94e0-691d4a625140)[WebinarOn demand
 
 ### Claude Tag on-call: A new teammate in your incident channel
 

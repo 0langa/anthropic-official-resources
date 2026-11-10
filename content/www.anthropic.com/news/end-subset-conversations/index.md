@@ -2,19 +2,20 @@
 
 ![Claude Opus 4 and 4.1 can now end a rare subset of conversations](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F73ad5dc003b109c1eddbb0d2cfc4984156fc0213-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Aug 15, 2025
 
-  Aug 15, 2025
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Model welfare](https://www.anthropic.com/search?topic=model-welfare)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
 
-  - [Model welfare](https://www.anthropic.com/search?topic=model-welfare)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)See more...
+    See more...
 
 Related articles
 

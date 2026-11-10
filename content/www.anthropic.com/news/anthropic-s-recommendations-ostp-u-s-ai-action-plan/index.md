@@ -1,19 +1,20 @@
 # Anthropic’s recommendations to OSTP for the U.S. AI action plan
 
-- Published
+Published
+:   Mar 6, 2025
 
-  Mar 6, 2025
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+    - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+    - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
 
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
-  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)See more...
+    See more...
 
 Related articles
 

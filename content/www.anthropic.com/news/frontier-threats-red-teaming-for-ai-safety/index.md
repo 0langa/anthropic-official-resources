@@ -1,18 +1,19 @@
 # Frontier threats red teaming for AI safety
 
-- Published
+Published
+:   Jul 26, 2023
 
-  Jul 26, 2023
-- Category
+Category
+:   [Security](https://www.anthropic.com/news/security)
 
-  [Security](https://www.anthropic.com/news/security)
-- Topics
+Topics
+:   - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
 
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)See more...
+    See more...
 
 Related articles
 

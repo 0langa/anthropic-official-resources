@@ -4,18 +4,19 @@
 
 ![Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1ed2f6ed14acd3fb7741d42ca151c7a0fd751cf3-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Apr 29, 2026
 
-  Apr 29, 2026
-- Team
+Team
+:   [Science](https://www.anthropic.com/science)
 
-  [Science](https://www.anthropic.com/science)
-- Topics
+Topics
+:   - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 Related articles
 

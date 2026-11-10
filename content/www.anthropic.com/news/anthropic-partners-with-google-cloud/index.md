@@ -1,16 +1,17 @@
 # Anthropic partners with Google Cloud
 
-- Published
+Published
+:   Feb 3, 2023
 
-  Feb 3, 2023
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+    - [Training](https://www.anthropic.com/search?topic=training)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
-  - [Training](https://www.anthropic.com/search?topic=training)See more...
+    See more...
 
 Related articles
 

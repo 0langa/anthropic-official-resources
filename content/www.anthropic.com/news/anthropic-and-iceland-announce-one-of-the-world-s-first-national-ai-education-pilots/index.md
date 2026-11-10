@@ -1,18 +1,19 @@
 # Anthropic and Iceland announce one of the world’s first national AI education pilots
 
-- Published
+Published
+:   Nov 4, 2025
 
-  Nov 4, 2025
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Education](https://www.anthropic.com/search?topic=education)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
 
-  - [Education](https://www.anthropic.com/search?topic=education)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+    See more...
 
 Related articles
 
