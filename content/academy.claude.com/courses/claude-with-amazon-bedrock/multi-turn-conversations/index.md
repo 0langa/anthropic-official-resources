@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fmulti-turn-conversations)
 
+Embedded media: https://www.youtube-nocookie.com/embed/k7UxiGJ6x5o?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=k7UxiGJ6x5o)
+
 The code we've written so far simulates a very simple exchange with Claude. But what happens when you want to continue a conversation? When you ask a follow-up question like "And 3 more?" after asking "What's 1+1?", you might expect Claude to understand you're asking about adding 3 to the previous result of 2.
 
 ![Chat app where the AI replies "The answer is 2." then "Adding 3 to 2 would result in 5." to a follow-up question.](https://academy.claude.com/assets/media/f29c60433e17d03d10e044a9c2a3fb707fc872e106269c250c8ff185309321e0.png)

@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fmcp-clients)
 
+Embedded media: https://www.youtube-nocookie.com/embed/itmW3KvJfVw?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=itmW3KvJfVw)
+
 The MCP client serves as the communication bridge between your server and MCP servers. Think of it as your access point to all the tools that an MCP server provides. When you need to use external tools or services, the client handles all the message passing and protocol details for you.
 
 ## Transport Agnostic Communication[](https://academy.claude.com/courses/building-with-the-claude-api/mcp-clients)

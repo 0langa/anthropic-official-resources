@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fmulti-turn-conversations)
 
+Embedded media: https://www.youtube-nocookie.com/embed/1Aq4Q0HBoDQ?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=1Aq4Q0HBoDQ)
+
 When working with the Anthropic API and Claude, there's a crucial concept you need to understand: **Claude doesn't store any of your conversation history**. Each request you make is completely independent, with no memory of previous exchanges.
 
 ![Chat window: a user asks "What's quantum computing? Answer in one sentence." then "Write another sentence", each answered.](https://academy.claude.com/assets/media/9c1dc4368828d62049ad0a2e94dbea0391952f9d4da7558e6c7679b8ad588dd0.png)

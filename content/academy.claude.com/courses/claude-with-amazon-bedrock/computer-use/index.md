@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fcomputer-use)
 
+Embedded media: https://www.youtube-nocookie.com/embed/HfZFWGmX-JE?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=HfZFWGmX-JE)
+
 Computer use is a powerful feature that lets Claude interact directly with desktop environments, essentially giving it the ability to control a computer like a human would. This opens up entirely new possibilities for automation, testing, and complex workflows that go beyond simple text generation.
 
 ![Roadmap of three stages: a demonstration of computer use, how computer use works, and setting up a reference implementation.](https://academy.claude.com/assets/media/4b5ec9792d6955bb4389f95219aaffbced39e4ee1bff425fc72d7cd1adcc9c13.png)

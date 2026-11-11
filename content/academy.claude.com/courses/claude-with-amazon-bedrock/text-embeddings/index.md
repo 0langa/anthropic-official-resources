@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Ftext-embeddings)
 
+Embedded media: https://www.youtube-nocookie.com/embed/7Oe0XS3K8Z8?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=7Oe0XS3K8Z8)
+
 After breaking a document into chunks, the next step in a RAG pipeline is finding which chunks are most relevant to a user's question. This is fundamentally a search problem - you need to look through all your text chunks and identify the ones that relate to what the user is asking about.
 
 ## Finding Relevant Chunks[](https://academy.claude.com/courses/claude-with-amazon-bedrock/text-embeddings)

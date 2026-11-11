@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fprompt-caching)
 
+Embedded media: https://www.youtube-nocookie.com/embed/Q7MZLMd6QYY?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=Q7MZLMd6QYY)
+
 Prompt caching is a feature that speeds up Claude's responses and reduces the cost of text generation by reusing computational work from previous requests. Instead of throwing away all the processing work after each request, Claude can save and reuse it when you send similar content again.
 
 ## How Claude Normally Processes Requests[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/prompt-caching)

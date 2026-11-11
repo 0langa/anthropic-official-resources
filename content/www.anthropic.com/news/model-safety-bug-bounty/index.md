@@ -1,18 +1,19 @@
 # Expanding our model safety bug bounty program
 
-- Published
+Published
+:   Aug 8, 2024
 
-  Aug 8, 2024
-- Category
+Category
+:   [Safeguards](https://www.anthropic.com/news/safeguards)
 
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-- Topics
+Topics
+:   - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
 
-  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)See more...
+    See more...
 
 Related articles
 

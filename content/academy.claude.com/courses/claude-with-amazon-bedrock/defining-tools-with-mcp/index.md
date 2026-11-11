@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fdefining-tools-with-mcp)
 
+Embedded media: https://www.youtube-nocookie.com/embed/wmqk2w-DluE?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=wmqk2w-DluE)
+
 Building an MCP server becomes much simpler when you use the official MCP Python SDK. Instead of manually writing complex JSON schemas for tools, you can define them with decorators and let the SDK handle the heavy lifting.
 
 ![Our MCP server's read and update tools connected to four files: document.pdf, spreadsheet.xlsx, report.txt and spec.md.](https://academy.claude.com/assets/media/dfb5af14ac360361a3e5034af52cffbaab9b7ff1559c84b7274fe8380b804ac7.png)

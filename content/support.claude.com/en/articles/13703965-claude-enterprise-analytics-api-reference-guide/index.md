@@ -885,7 +885,7 @@ Amount (post-discount, pre-credit) in fractional cents.
 
 claude\_tag\_category: [BetaAnalyticsClaudeTagCategory](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) or null
 
-Claude Tag (Claude in Slack) spend category: `engaged` (a person addressed Claude in a channel or thread), `proactive` (Claude responded without being addressed), `scheduled` (a scheduled routine ran), `monitoring` (Claude watching a channel it was asked to monitor), or `dm` (direct messages with Claude). Populated only when `claude_tag_category` is in `group_by[]`; null for usage that is not Claude Tag. Direct-message usage is billed to the individual user and is reported under that user's product, not under `claude-tag`. New categories may be added over time.
+Claude Tag (Claude in Slack) spend category: `engaged` (a person addressed Claude in a channel or thread), `proactive` (Claude responded without being addressed), `scheduled` (a scheduled routine ran), `monitoring` (Claude watching a channel it was asked to monitor), or `dm` (direct messages with Claude). Populated only when `claude_tag_category` is in `group_by[]`; null for usage that is not Claude Tag. New categories may be added over time.
 
 One of the following:
 
@@ -971,7 +971,7 @@ Number of API requests in this row's scope. Null when `group_by` includes `cost_
 
 slack\_channel\_id: string or null
 
-Slack channel the usage originated from. Populated only when `slack_channel_id` is in `group_by[]`; null for usage outside Slack (and for rows recorded before channel attribution was enabled).
+Slack channel the usage originated from. Populated only when `slack_channel_id` is in `group_by[]`; null for usage outside Slack, for some Claude Tag usage that has no channel recorded, and for usage recorded before channel attribution was enabled.
 
 
 
@@ -1029,7 +1029,7 @@ Amount (post-discount, pre-credit) in fractional cents.
 
 claude\_tag\_category: [BetaAnalyticsClaudeTagCategory](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) or null
 
-Claude Tag (Claude in Slack) spend category: `engaged` (a person addressed Claude in a channel or thread), `proactive` (Claude responded without being addressed), `scheduled` (a scheduled routine ran), `monitoring` (Claude watching a channel it was asked to monitor), or `dm` (direct messages with Claude). Populated only when `claude_tag_category` is in `group_by[]`; null for usage that is not Claude Tag. Direct-message usage is billed to the individual user and is reported under that user's product, not under `claude-tag`. New categories may be added over time.
+Claude Tag (Claude in Slack) spend category: `engaged` (a person addressed Claude in a channel or thread), `proactive` (Claude responded without being addressed), `scheduled` (a scheduled routine ran), `monitoring` (Claude watching a channel it was asked to monitor), or `dm` (direct messages with Claude). Populated only when `claude_tag_category` is in `group_by[]`; null for usage that is not Claude Tag. New categories may be added over time.
 
 One of the following:
 
@@ -1115,7 +1115,7 @@ Number of API requests in this row's scope. Null when `group_by` includes `cost_
 
 slack\_channel\_id: string or null
 
-Slack channel the usage originated from. Populated only when `slack_channel_id` is in `group_by[]`; null for usage outside Slack (and for rows recorded before channel attribution was enabled).
+Slack channel the usage originated from. Populated only when `slack_channel_id` is in `group_by[]`; null for usage outside Slack, for some Claude Tag usage that has no channel recorded, and for usage recorded before channel attribution was enabled.
 
 
 
@@ -1173,9 +1173,15 @@ BetaAnalyticsCostUsersItem object{ actor, amount, claude\_tag\_category, 15 more
 
 
 
-actor: [BetaAnalyticsUserActor](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { type: "user\_actor", deleted, email\_address, 2 more }
+actor: [BetaAnalyticsUserActor](https://platform.claude.com/docs/en/api/http/beta/organization/analytics)
 
 The user this row's usage or cost is attributed to. Always a `user_actor`.
+
+One of the following:
+
+
+
+BetaAnalyticsUserActor object{ type: "user\_actor", deleted, email\_address, 2 more }
 
 type: "user\_actor"
 
@@ -1205,7 +1211,7 @@ Amount (post-discount, pre-credit) in fractional cents (minor units).
 
 claude\_tag\_category: [BetaAnalyticsClaudeTagCategory](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) or null
 
-Claude Tag (Claude in Slack) spend category: `engaged` (a person addressed Claude in a channel or thread), `proactive` (Claude responded without being addressed), `scheduled` (a scheduled routine ran), `monitoring` (Claude watching a channel it was asked to monitor), or `dm` (direct messages with Claude). Populated only when `claude_tag_category` is in `group_by[]`; null for usage that is not Claude Tag. Direct-message usage is billed to the individual user and is reported under that user's product, not under `claude-tag`. New categories may be added over time.
+Claude Tag (Claude in Slack) spend category: `engaged` (a person addressed Claude in a channel or thread), `proactive` (Claude responded without being addressed), `scheduled` (a scheduled routine ran), `monitoring` (Claude watching a channel it was asked to monitor), or `dm` (direct messages with Claude). Populated only when `claude_tag_category` is in `group_by[]`; null for usage that is not Claude Tag. New categories may be added over time.
 
 One of the following:
 
@@ -1299,7 +1305,7 @@ Number of API requests in this row's scope. Null when `group_by` includes `cost_
 
 slack\_channel\_id: string or null
 
-Slack channel the usage originated from. Populated only when `slack_channel_id` is in `group_by[]`; null for usage outside Slack (and for rows recorded before channel attribution was enabled).
+Slack channel the usage originated from. Populated only when `slack_channel_id` is in `group_by[]`; null for usage outside Slack, for some Claude Tag usage that has no channel recorded, and for usage recorded before channel attribution was enabled.
 
 
 
@@ -2689,7 +2695,7 @@ The number of input tokens read from the cache.
 
 claude\_tag\_category: [BetaAnalyticsClaudeTagCategory](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) or null
 
-Claude Tag (Claude in Slack) spend category: `engaged` (a person addressed Claude in a channel or thread), `proactive` (Claude responded without being addressed), `scheduled` (a scheduled routine ran), `monitoring` (Claude watching a channel it was asked to monitor), or `dm` (direct messages with Claude). Populated only when `claude_tag_category` is in `group_by[]`; null for usage that is not Claude Tag. Direct-message usage is billed to the individual user and is reported under that user's product, not under `claude-tag`. New categories may be added over time.
+Claude Tag (Claude in Slack) spend category: `engaged` (a person addressed Claude in a channel or thread), `proactive` (Claude responded without being addressed), `scheduled` (a scheduled routine ran), `monitoring` (Claude watching a channel it was asked to monitor), or `dm` (direct messages with Claude). Populated only when `claude_tag_category` is in `group_by[]`; null for usage that is not Claude Tag. New categories may be added over time.
 
 One of the following:
 
@@ -2763,7 +2769,7 @@ The number of web search requests made.
 
 slack\_channel\_id: string or null
 
-Slack channel the usage originated from. Populated only when `slack_channel_id` is in `group_by[]`; null for usage outside Slack (and for rows recorded before channel attribution was enabled).
+Slack channel the usage originated from. Populated only when `slack_channel_id` is in `group_by[]`; null for usage outside Slack, for some Claude Tag usage that has no channel recorded, and for usage recorded before channel attribution was enabled.
 
 
 
@@ -2885,7 +2891,7 @@ The number of input tokens read from the cache.
 
 claude\_tag\_category: [BetaAnalyticsClaudeTagCategory](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) or null
 
-Claude Tag (Claude in Slack) spend category: `engaged` (a person addressed Claude in a channel or thread), `proactive` (Claude responded without being addressed), `scheduled` (a scheduled routine ran), `monitoring` (Claude watching a channel it was asked to monitor), or `dm` (direct messages with Claude). Populated only when `claude_tag_category` is in `group_by[]`; null for usage that is not Claude Tag. Direct-message usage is billed to the individual user and is reported under that user's product, not under `claude-tag`. New categories may be added over time.
+Claude Tag (Claude in Slack) spend category: `engaged` (a person addressed Claude in a channel or thread), `proactive` (Claude responded without being addressed), `scheduled` (a scheduled routine ran), `monitoring` (Claude watching a channel it was asked to monitor), or `dm` (direct messages with Claude). Populated only when `claude_tag_category` is in `group_by[]`; null for usage that is not Claude Tag. New categories may be added over time.
 
 One of the following:
 
@@ -2959,7 +2965,7 @@ The number of web search requests made.
 
 slack\_channel\_id: string or null
 
-Slack channel the usage originated from. Populated only when `slack_channel_id` is in `group_by[]`; null for usage outside Slack (and for rows recorded before channel attribution was enabled).
+Slack channel the usage originated from. Populated only when `slack_channel_id` is in `group_by[]`; null for usage outside Slack, for some Claude Tag usage that has no channel recorded, and for usage recorded before channel attribution was enabled.
 
 
 
@@ -2991,9 +2997,15 @@ BetaAnalyticsUsageUsersItem object{ actor, cache\_creation, cache\_read\_input\_
 
 
 
-actor: [BetaAnalyticsUserActor](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { type: "user\_actor", deleted, email\_address, 2 more }
+actor: [BetaAnalyticsUserActor](https://platform.claude.com/docs/en/api/http/beta/organization/analytics)
 
 The user this row's usage or cost is attributed to. Always a `user_actor`.
+
+One of the following:
+
+
+
+BetaAnalyticsUserActor object{ type: "user\_actor", deleted, email\_address, 2 more }
 
 type: "user\_actor"
 
@@ -3049,7 +3061,7 @@ The number of input tokens read from the cache.
 
 claude\_tag\_category: [BetaAnalyticsClaudeTagCategory](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) or null
 
-Claude Tag (Claude in Slack) spend category: `engaged` (a person addressed Claude in a channel or thread), `proactive` (Claude responded without being addressed), `scheduled` (a scheduled routine ran), `monitoring` (Claude watching a channel it was asked to monitor), or `dm` (direct messages with Claude). Populated only when `claude_tag_category` is in `group_by[]`; null for usage that is not Claude Tag. Direct-message usage is billed to the individual user and is reported under that user's product, not under `claude-tag`. New categories may be added over time.
+Claude Tag (Claude in Slack) spend category: `engaged` (a person addressed Claude in a channel or thread), `proactive` (Claude responded without being addressed), `scheduled` (a scheduled routine ran), `monitoring` (Claude watching a channel it was asked to monitor), or `dm` (direct messages with Claude). Populated only when `claude_tag_category` is in `group_by[]`; null for usage that is not Claude Tag. New categories may be added over time.
 
 One of the following:
 
@@ -3131,7 +3143,7 @@ The number of web search requests made.
 
 slack\_channel\_id: string or null
 
-Slack channel the usage originated from. Populated only when `slack_channel_id` is in `group_by[]`; null for usage outside Slack (and for rows recorded before channel attribution was enabled).
+Slack channel the usage originated from. Populated only when `slack_channel_id` is in `group_by[]`; null for usage outside Slack, for some Claude Tag usage that has no channel recorded, and for usage recorded before channel attribution was enabled.
 
 
 
@@ -3403,7 +3415,7 @@ Get artifact-creation activity for a given day, broken out by MIME type.
 
 GET/v1/organizations/analytics/usage
 
-Requires `anthropic-beta: analytics-usage-cost-2026-08-24`. [How to send beta headers](https://platform.claude.com/docs/en/api/beta-headers)
+Requires `anthropic-beta: analytics-usage-cost-2026-08-24`. Learn [how to send beta headers](https://platform.claude.com/docs/en/api/beta-headers).
 
 Get token usage across a date range, broken out by dimension.
 
@@ -3413,7 +3425,7 @@ Get token usage across a date range, broken out by dimension.
 
 GET/v1/organizations/analytics/cost
 
-Requires `anthropic-beta: analytics-usage-cost-2026-08-24`. [How to send beta headers](https://platform.claude.com/docs/en/api/beta-headers)
+Requires `anthropic-beta: analytics-usage-cost-2026-08-24`. Learn [how to send beta headers](https://platform.claude.com/docs/en/api/beta-headers).
 
 Get cost in USD across a date range, broken out by dimension.
 

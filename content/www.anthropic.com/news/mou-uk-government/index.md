@@ -1,17 +1,18 @@
 # Anthropic signs MOU with UK Government to explore how AI can transform UK public services
 
-- Published
+Published
+:   Feb 14, 2025
 
-  Feb 14, 2025
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
 
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+    See more...
 
 Related articles
 

@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fprompts-in-the-client)
 
+Embedded media: https://www.youtube-nocookie.com/embed/xGGOoDNMVwo?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=xGGOoDNMVwo)
+
 The final step in building our MCP client is implementing prompt functionality. This allows us to list all available prompts from the server and retrieve specific prompts with variables interpolated into them.
 
 ## Implementing List Prompts[](https://academy.claude.com/courses/claude-with-amazon-bedrock/prompts-in-the-client)

@@ -1,18 +1,19 @@
 # Introducing the Anthropic Economic Advisory Council
 
-- Published
+Published
+:   Apr 28, 2025
 
-  Apr 28, 2025
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+    - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Economic growth](https://www.anthropic.com/search?topic=economic-growth)
+    - [Leadership](https://www.anthropic.com/search?topic=leadership)
 
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Economic growth](https://www.anthropic.com/search?topic=economic-growth)
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)See more...
+    See more...
 
 Related articles
 

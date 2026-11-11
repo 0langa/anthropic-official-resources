@@ -1,19 +1,20 @@
 # Preparing for global elections in 2024
 
-- Published
+Published
+:   Feb 16, 2024
 
-  Feb 16, 2024
-- Category
+Category
+:   [Safeguards](https://www.anthropic.com/news/safeguards)
 
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-- Topics
+Topics
+:   - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
+    - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Hallucination](https://www.anthropic.com/search?topic=hallucination)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
 
-  - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Hallucination](https://www.anthropic.com/search?topic=hallucination)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)See more...
+    See more...
 
 Related articles
 

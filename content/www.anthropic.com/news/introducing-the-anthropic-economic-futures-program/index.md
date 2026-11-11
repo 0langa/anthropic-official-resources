@@ -1,18 +1,19 @@
 # Introducing the Anthropic Economic Futures Program
 
-- Published
+Published
+:   Jun 27, 2025
 
-  Jun 27, 2025
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
 
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Economic Index](https://www.anthropic.com/search?topic=economic-index)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)See more...
+    See more...
 
 Related articles
 

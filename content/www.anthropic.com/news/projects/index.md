@@ -1,17 +1,18 @@
 # Collaborate with Claude on Projects
 
-- Published
+Published
+:   Jun 25, 2024
 
-  Jun 25, 2024
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
+    - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)
 
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)
-  - [Context engineering](https://www.anthropic.com/search?topic=context-engineering)See more...
+    See more...
 
 Related articles
 

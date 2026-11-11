@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fstructured-data)
 
+Embedded media: https://www.youtube-nocookie.com/embed/Gj-EwPUNphw?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=Gj-EwPUNphw)
+
 When you need Claude to generate structured data like JSON, Python code, or bulleted lists, you'll often run into a common problem: Claude wants to be helpful and add explanatory text, headers, or markdown formatting around your content. This extra commentary breaks the user experience when you just need the raw data.
 
 ![EventBridge Rule Generator app: input "Rule to monitor EC2 instances", a Generate button, and clean JSON with a copy button.](https://academy.claude.com/assets/media/fd7eada8e946f7814168a30081fe8afc2734080877f55303659839b2c069d047.png)

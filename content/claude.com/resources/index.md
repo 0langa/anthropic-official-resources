@@ -14,13 +14,11 @@ Search AI agents`⌘K`
   ### The Claude Code guide for startups
 
   Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
-- [Video2 min watch
+- [Video1 min watch
 
-  ### Building Enterprise Frontier Safeguards with our customers
+  ### Introducing Claude Fable 5.2
 
-  Claude Enterprise
-
-  (opens in new tab)](https://www.youtube.com/watch?v=FoteuzPpx7E)
+  (opens in new tab)](https://www.youtube.com/watch?v=6a1QSJlsYpU)
 - [Video1 min watch
 
   ### Claude Opus 5.5 rebuilds Earthrise in 3D, down to the second
@@ -56,17 +54,35 @@ The latest news about Claude, including new products, features, and updates.
 
 [See more](https://claude.com/resources/product-updates)
 
-![claude for legal](https://i.ytimg.com/vi/o6h3IpqzQGc/maxresdefault.jpg)
+![Introducing Claude Fable 5.2](https://i.ytimg.com/vi/6a1QSJlsYpU/maxresdefault.jpg)
 
 Article
 
-### Introducing artifacts for legal work
+### Claude Fable 5.2 and Mythos 5.2
 
-Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
+Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.
 
-[Learn more](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)
+[Learn more (opens in new tab)](https://www.anthropic.com/claude-fable-and-mythos-5-2)
 
-[ArticleNov 5, 2026
+[ArticleNov 10, 2026
+
+### Your apps can now open in Claude, and Claude can work in them
+
+Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
+
+Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)[ArticleNov 10, 2026
+
+### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
+
+Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
+
+Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)[ArticleNov 10, 2026
+
+### More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
+
+Work at the speed of thought
+
+Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)[ArticleNov 5, 2026
 
 ### Introducing Personal Finance in Claude
 
@@ -76,23 +92,7 @@ Ask Claude about your money and get straight answers from the accounts you conne
 
 Claude EnterpriseClaude apps](https://claude.com/resources/articles/claude-enterprise-security-updates)[ArticleNov 4, 2026
 
-### New agents and products for security, productivity, and creative work on Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace)[ArticleNov 2, 2026
-
-### Make long-running agents faster with message threads
-
-New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
-
-Claude Platform](https://claude.com/resources/articles/message-threads)[ArticleOct 28, 2026
-
-### Smart reports, surveys, and pooled group budgets for Claude Enterprise
-
-In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
-
-Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)[ArticleOct 27, 2026
-
-### Claude for Financial Advisors
-
-Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)
+### New agents and products for security, productivity, and creative work on Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace)
 
 ## Best practices
 
@@ -100,17 +100,23 @@ Proven workflows and practical guides to help your team get more out of Claude, 
 
 [See more](https://claude.com/resources/best-practices)
 
-![folding subagents](https://assets.claude.com/044d8a58d0fcb8bd18e42fc11164acf8028c39f3.gif)
+![multi agent teams](https://assets.claude.com/99f1e3988bd6d2aaed6df3032f34c5349791b38b.gif)
 
 Article
 
-### Building agents: When to fold subagents into your main agent loop
+### Safely scaling multi-agent teams with Claude Fable 5.2
 
-When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
+How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
 
-[Learn more](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)
+[Learn more (opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
 
-[WebinarUpcoming | Nov 17, 2026
+[WebinarUpcoming | Nov 18, 2026
+
+### How the Claude Code team does code review
+
+When agents write the code, pull requests pile up faster than anyone can read them.
+
+Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[WebinarUpcoming | Nov 17, 2026
 
 ### Build Agents with the Claude Platform on Google Cloud
 
@@ -122,13 +128,7 @@ Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-w
 
 Most nonprofit staff on Claude open a chat, get a decent but generic answer, and go back to doing it by hand.
 
-Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[WebinarNov 4, 2026
-
-### Unified Claude: What it means for admins
-
-Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile.
-
-Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
+Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)
 
 Recurring webinars
 
@@ -138,19 +138,21 @@ Recurring webinars
 - [Building your first workflow with CoworkWebinar](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)
 - [Claude Code: FoundationsWebinar](https://claude.com/resources/webinars/claude-code-foundations-series)
 
-[ArticleOct 27, 2026
+[ArticleNov 10, 2026
 
-### Manage costs and demonstrate ROI for Claude Code on Google Cloud
+### How Curative is building a national provider network with agents on Claude
 
-Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
+Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
 
-Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)[WebinarOn demand
+Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 9, 2026
 
-### Claude Rearview Roadmap Review: October 2026
+### Which Claude model should you build with?
 
-Your rollout plan depends on knowing what's changed and what matters the most.
+How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.
 
-Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
+Claude PlatformClaude Code
+
+(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)
 
 ## Perspectives
 
@@ -158,15 +160,15 @@ Ideas and points of view on where AI is headed, from builders and leaders thinki
 
 [See more](https://claude.com/resources/perspectives)
 
-![Ramp](https://i.ytimg.com/vi/i4odXOmgMLw/maxresdefault.jpg)
+![how salesforce uses claude code](https://i.ytimg.com/vi/4ZsVR-6YOzs/maxresdefault.jpg)
 
 Video
 
-### How Ramp engineers work with AI agents at every step
+### How Salesforce uses Claude Code
 
-Ramp runs AI agents across its engineering lifecycle: writing code, reviewing it, watching production, and root-causing incidents.
+Engineering leaders from Salesforce explain how they measure AI coding ROI with an "effective output" score built with Stanford researchers, and how an agent maturity curve moved engineers from simple prompts to autonomous agents across the software development life cycle.
 
-[WebinarNov 5, 2026
+[WebinarOn demand
 
 ### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
 
@@ -195,15 +197,15 @@ Research, trends, and analysis on how AI is reshaping the way organizations work
 
 [See more](https://claude.com/resources/insights)
 
-![formal verification](https://assets.claude.com/70c2bf32e9ec922c877b7fd937343bf71c4bdf77.gif)
+![dreaming](https://assets.claude.com/7d86aef9d33347ad0ce448d81e5e6e90af2d7eaf.png?w=2400&q=75&fm=webp&fit=max)
 
 Article
 
-### LLMs are making formal software verification feasible at a much larger scale
+### The components of agent memory
 
-We need ways to prove that code is free of bugs. Formal software verification could provide this guarantee.
+For Claude to learn from experience, it has to decide what's worth remembering before it knows what's next. Here's how "dreaming" helps it organize memory and correct mistakes.
 
-[Learn more (opens in new tab)](https://www.anthropic.com/research/formal-verification)
+[Learn more (opens in new tab)](https://www.anthropic.com/research/components-of-agent-memory)
 
 Claude Academy
 
@@ -213,21 +215,19 @@ Claude Academy
 - [Claude Code 101Course](https://academy.claude.com/courses/claude-code-101)
 - [Connect your tools to unlock a smarter, more capable AI companionTutorial](https://academy.claude.com/tutorials/connect-your-tools-to-unlock-a-smarter-more-capable-ai-companion)
 
-[ArticleSep 25, 2026
+[ArticleNov 9, 2026
 
-### What a task costs on Opus 5.5
+### Claude can design electronic prototypes from start to finish
 
-The same token price can cost very different amounts per task. Learn what Claude Code tasks cost on Opus 5.5 and which settings change the bill.
+We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.
 
-Claude Code
+(opens in new tab)](https://www.anthropic.com/research/claude-electronics-design)[ArticleOct 22, 2026
 
-(opens in new tab)](https://claude.dev/blog/what-a-task-costs-on-opus-5-5/)[ArticleSep 24, 2026
+### LLMs are making formal software verification feasible at a much larger scale
 
-### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+We need ways to prove that code is free of bugs. Formal software verification could provide this guarantee.
 
-Our latest Opus model is priced and trained to optimize costs for how developers code now.
-
-Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)
+(opens in new tab)](https://www.anthropic.com/research/formal-verification)
 
 ## Enterprise announcements
 
@@ -235,9 +235,15 @@ The latest on how enterprises and partners are adopting and building with Claude
 
 [See more](https://claude.com/resources/enterprise-announcements)
 
-[ArticleOct 28, 2026
+[ArticleNov 9, 2026
+
+### JPMorganChase expands Claude Code to more employees across the firm
+
+Claude Code](https://claude.com/resources/articles/jpmorganchase-expands-claude-code)[ArticleOct 28, 2026
 
 ### IDC brings Quanta into Claude and adopts Claude across the company
+
+IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
 
 Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)[ArticleOct 21, 2026
 
@@ -249,13 +255,7 @@ HCLTech will bring Claude into the solutions it provides for banks, hospitals, t
 
 Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
 
-Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 23, 2026
-
-### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
-
-CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
-
-Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)
 
 ## Articles
 
@@ -263,7 +263,19 @@ News, announcements, and stories from Anthropic about Claude and the people buil
 
 [See more](https://claude.com/resources/articles)
 
-[ArticleOct 22, 2026
+[ArticleNov 10, 2026
+
+### Your apps can now open in Claude, and Claude can work in them
+
+Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
+
+Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)[ArticleNov 10, 2026
+
+### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
+
+Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
+
+Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)[ArticleOct 22, 2026
 
 ### Building agents: When to fold subagents into your main agent loop
 
@@ -273,17 +285,13 @@ Claude Platform](https://claude.com/resources/articles/building-agents-when-to-f
 
 ### Introducing Claude Duet
 
-A research preview is available by waitlist today, starting with US Pro, Max, and Ultra subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleNov 5, 2026
+A research preview is available by waitlist today, starting with US Pro, Max, and Ultra subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleNov 10, 2026
 
-### Introducing Personal Finance in Claude
+### How Curative is building a national provider network with agents on Claude
 
-Ask Claude about your money and get straight answers from the accounts you connect.](https://claude.com/resources/articles/introducing-personal-finance-in-claude)[ArticleNov 5, 2026
+Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
 
-### More visibility and control over Claude Enterprise for security teams
-
-Claude EnterpriseClaude apps](https://claude.com/resources/articles/claude-enterprise-security-updates)[ArticleNov 4, 2026
-
-### New agents and products for security, productivity, and creative work on Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace)
+Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)
 
 ## Guides
 
@@ -327,17 +335,17 @@ Live and recorded sessions with Anthropic and customer teams — demos, deep div
 
 [See more](https://claude.com/resources/webinars)
 
-[WebinarNov 5, 2026
+[WebinarOn demand
 
 ### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
 
-A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)[WebinarOn demand
+A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)[WebinarUpcoming | Nov 18, 2026
 
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
+### How the Claude Code team does code review
 
-Your advisors want to use Claude for Financial Advisors. Before you turn on Cowork, you need to know how client data is handled.
+When agents write the code, pull requests pile up faster than anyone can read them.
 
-Claude CoworkClaude Enterprise](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)[WebinarUpcoming | Nov 17, 2026
+Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[WebinarUpcoming | Nov 17, 2026
 
 ### Build Agents with the Claude Platform on Google Cloud
 
@@ -361,7 +369,15 @@ Watchable demos, talks, and tutorials from the teams building and using Claude.
 
 [See more](https://claude.com/resources/videos)
 
-[Video21 min watch
+[Video15 min watch
+
+### How Salesforce uses Claude Code
+
+Engineering leaders from Salesforce explain how they measure AI coding ROI with an "effective output" score built with Stanford researchers, and how an agent maturity curve moved engineers from simple prompts to autonomous agents across the software development life cycle.
+
+Claude Code
+
+(opens in new tab)](https://www.youtube.com/watch?v=4ZsVR-6YOzs)[Video21 min watch
 
 ### How Ramp engineers work with AI agents at every step
 
@@ -392,12 +408,4 @@ Katelyn Lesse sat down with Dan Shipper and Willie William at Every to talk abou
 
 Claude Platform
 
-(opens in new tab)](https://www.youtube.com/watch?v=z7cNbsr3b5s)[Video2 min watch
-
-### How an Anthropic designer uses Claude Slides
-
-Make slides with Claude starting from a voice memo. Nate, a designer at Anthropic, talks through an idea on a walk and then turns it into a deck.
-
-Claude Design
-
-(opens in new tab)](https://www.youtube.com/watch?v=bVXiNb9RyyI)
+(opens in new tab)](https://www.youtube.com/watch?v=z7cNbsr3b5s)

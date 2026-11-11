@@ -1,17 +1,18 @@
 # National security expert Richard Fontaine appointed to Anthropic’s long-term benefit trust
 
-- Published
+Published
+:   Jun 7, 2025
 
-  Jun 7, 2025
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+    - [Global stability](https://www.anthropic.com/search?topic=global-stability)
 
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
-  - [Global stability](https://www.anthropic.com/search?topic=global-stability)See more...
+    See more...
 
 Related articles
 

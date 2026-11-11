@@ -38,7 +38,7 @@ Chapter 17
 
 [A guide to cost visibility and control in Claude](https://claude.com/blog/a-guide-to-cost-visibility-and-control-in-claude)
 
-[Deploying Claude Across Your Organization](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/69f24d3e09b921b92403774e_Claude-Deploying-Claude-Across-Your-Organization-04292026.pdf)
+[Deploying Claude Across Your Organization](https://assets.claude.com/e784e0ee3705d9dbdbc6f3fa2a8fb8eee319b3cf.pdf)
 
 [Security and compliance documentation](https://trust.anthropic.com/)
 

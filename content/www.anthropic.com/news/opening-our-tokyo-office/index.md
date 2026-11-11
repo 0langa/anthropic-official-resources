@@ -1,18 +1,19 @@
 # Anthropic officially opens Tokyo office, signs Memorandum of Cooperation with the Japan AI Safety Institute
 
-- Published
+Published
+:   Oct 29, 2025
 
-  Oct 29, 2025
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
 
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)See more...
+    See more...
 
 Related articles
 

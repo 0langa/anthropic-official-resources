@@ -1,17 +1,18 @@
 # The state of Maryland partners with Anthropic to better serve residents
 
-- Published
+Published
+:   Nov 13, 2025
 
-  Nov 13, 2025
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
 
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)See more...
+    See more...
 
 Related articles
 

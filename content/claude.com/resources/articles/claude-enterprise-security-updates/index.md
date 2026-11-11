@@ -6,7 +6,7 @@
 - Reading time9 min
 - ShareCopy link
 
-Claude Enterprise has new security and admin features, including a security center, generally available inference hooks, centralized management, and additional access controls.
+[Claude Enterprise](https://claude.com/solutions/enterprise) has new security and admin features, including a security center, generally available [inference hooks](https://claude.com/resources/articles/claude-enterprise-inference-hooks), centralized management, and additional access controls.
 
 To see how Claude is set up, the security center shows how your organization’s Claude settings compare with Anthropic’s recommended configuration. To apply your policies, inference hooks send prompts and tool calls to your data security tools for a check. To manage access, centralized management gives your company one admin console for company-wide settings, and new access controls let you sign members out through the Admin API, manage your IP allowlist yourself, and help prevent shadow IT by blocking personal and other outside Claude accounts in Claude Desktop on managed computers.
 
@@ -79,25 +79,33 @@ The [security center](https://support.claude.com/en/articles/18246629-review-you
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 5, 2026
+[ArticleNov 10, 2026
 
-### Introducing Personal Finance in Claude
+### Your apps can now open in Claude, and Claude can work in them
 
-Ask Claude about your money and get straight answers from the accounts you connect.](https://claude.com/resources/articles/introducing-personal-finance-in-claude)[ArticleNov 4, 2026
+Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
 
-### New agents and products for security, productivity, and creative work on Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace)[ArticleNov 2, 2026
+Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)[ArticleNov 10, 2026
 
-### Make long-running agents faster with message threads
+### More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
 
-New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
+Work at the speed of thought
 
-Claude Platform](https://claude.com/resources/articles/message-threads)[ArticleOct 28, 2026
+Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)[ArticleNov 10, 2026
 
-### Smart reports, surveys, and pooled group budgets for Claude Enterprise
+### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
 
-In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
+Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
 
-Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)
+Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)[ArticleNov 9, 2026
+
+### Claude Fable 5.2 and Mythos 5.2
+
+Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.
+
+Claude appsClaude Code1 more: Claude PlatformClaude Platform
+
+(opens in new tab)](https://www.anthropic.com/claude-fable-and-mythos-5-2)
 
 ## Transform how your organization operates with Claude
 

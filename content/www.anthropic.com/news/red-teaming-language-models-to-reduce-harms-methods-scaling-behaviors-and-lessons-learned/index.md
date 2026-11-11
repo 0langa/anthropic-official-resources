@@ -4,20 +4,21 @@
 
 ![Red teaming language models to reduce harms: methods, scaling behaviors, and lessons learned](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffebe38879724063719eacff5d17fa98ed3c2d0ec-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Aug 22, 2022
 
-  Aug 22, 2022
-- Team
+Team
+:   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
-- Topics
+Topics
+:   - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
+    - [Training](https://www.anthropic.com/search?topic=training)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
 
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
-  - [Training](https://www.anthropic.com/search?topic=training)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)See more...
+    See more...
 
 Related articles
 

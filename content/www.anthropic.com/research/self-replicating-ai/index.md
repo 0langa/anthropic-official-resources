@@ -4,18 +4,19 @@
 
 ![AI models may be capable of self-replicating without access to a datacenter](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9f12ba47c584972a24ebcf7283ede36be8ba6ca8-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 12, 2026
 
-  Oct 12, 2026
-- Team
+Team
+:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-  [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-- Topics
+Topics
+:   - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
 
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)See more...
+    See more...
 
 Related articles
 

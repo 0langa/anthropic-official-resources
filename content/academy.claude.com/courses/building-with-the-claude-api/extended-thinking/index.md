@@ -10,6 +10,10 @@ Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding
 
 **Important Note: Extended Thinking is not compatible with some other features, notably message pre-filling, and it restricts how you can use temperature. See the full list of restrictions here:** [**https://platform.claude.com/docs/en/build-with-claude/thinking#limits-and-feature-compatibility**(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/thinking)
 
+Embedded media: https://www.youtube-nocookie.com/embed/EBBk-6fnWvA?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=EBBk-6fnWvA)
+
 Extended thinking is Claude's advanced reasoning feature that gives the model time to work through complex problems before generating a final response. Think of it as Claude's "scratch paper" - you can see the reasoning process that leads to the answer, which helps with transparency and often results in better quality responses.
 
 ## How Extended Thinking Works[](https://academy.claude.com/courses/building-with-the-claude-api/extended-thinking)

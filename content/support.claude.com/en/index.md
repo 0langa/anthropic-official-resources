@@ -22,7 +22,7 @@ Search for articles...`⌘K`
 
 Get started with Claude across everyday conversations, projects, and files.
 
-86 articles
+89 articles
 
 ![](https://downloads.intercomcdn.com/i/hc/icons/v3/lupk8zyo/938301/38ac2cf80abb9aeb3af2b9bef14b/141413.svg)
 
@@ -78,7 +78,7 @@ Install and use the Claude desktop app on macOS and Windows.
 
 Take Claude with you on iOS and Android.
 
-15 articles
+16 articles
 
 ![](https://downloads.intercomcdn.com/i/hc/icons/v3/lupk8zyo/938309/4becad479ed9755dc0a561a64e19/141413.svg)
 

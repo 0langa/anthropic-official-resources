@@ -680,6 +680,7 @@ https://academy.claude.com/tutorials/tokens-and-embeddings
 https://academy.claude.com/tutorials/troubleshooting-skills
 https://academy.claude.com/tutorials/unified-claude-experience-for-admins
 https://academy.claude.com/tutorials/use-artifacts-to-visualize-and-create-ai-apps-without-ever-writing-a-line-of-code
+https://academy.claude.com/tutorials/use-claude-duet
 https://academy.claude.com/tutorials/using-aiera-for-earnings-intelligence-and-market-analysis
 https://academy.claude.com/tutorials/using-chronograph-for-portfolio-monitoring
 https://academy.claude.com/tutorials/using-claude-code-remote-control
@@ -1334,6 +1335,7 @@ https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtsp
 https://claude.com/resources/articles/how-coderabbit-used-claude-to-build-an-agent-orchestration-system
 https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases
 https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk
+https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude
 https://claude.com/resources/articles/how-datadog-built-a-universal-machine-tool-for-claude-code
 https://claude.com/resources/articles/how-enterprises-are-building-ai-agents-in-2026
 https://claude.com/resources/articles/how-healthcare-organizations-use-claude-tag
@@ -1356,6 +1358,7 @@ https://claude.com/resources/articles/improving-frontend-design-through-skills
 https://claude.com/resources/articles/improving-skill-creator-test-measure-and-refine-agent-skills
 https://claude.com/resources/articles/integrate-apis-seamlessly
 https://claude.com/resources/articles/integrations
+https://claude.com/resources/articles/interactive-connectors-full-tool
 https://claude.com/resources/articles/interactive-tools-in-claude
 https://claude.com/resources/articles/introducing-artifacts-for-legal-work
 https://claude.com/resources/articles/introducing-citations-api
@@ -1375,6 +1378,7 @@ https://claude.com/resources/articles/memory
 https://claude.com/resources/articles/message-batches-api
 https://claude.com/resources/articles/message-threads
 https://claude.com/resources/articles/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude
+https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors
 https://claude.com/resources/articles/multi-agent-coordination-patterns
 https://claude.com/resources/articles/new-agents-and-products-claude-marketplace
 https://claude.com/resources/articles/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork
@@ -1401,8 +1405,10 @@ https://claude.com/resources/articles/running-an-ai-native-engineering-org
 https://claude.com/resources/articles/salesforce-in-claude
 https://claude.com/resources/articles/scaling-agentic-coding
 https://claude.com/resources/articles/seeing-like-an-agent
+https://claude.com/resources/articles/self-hosted-claude-managed-agents
 https://claude.com/resources/articles/self-serve-enterprise
 https://claude.com/resources/articles/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions
+https://claude.com/resources/articles/sheets-whiteboards-data
 https://claude.com/resources/articles/skills
 https://claude.com/resources/articles/skills-explained
 https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets
@@ -3983,6 +3989,13 @@ https://platform.claude.com/docs/en/manage-claude/compliance-integration-pattern
 https://platform.claude.com/docs/en/manage-claude/compliance-integration-patterns?sdk_languages=curl
 https://platform.claude.com/docs/en/manage-claude/compliance-org-data
 https://platform.claude.com/docs/en/manage-claude/compliance-org-data?sdk_languages=curl
+https://platform.claude.com/docs/en/manage-claude/compliance-security-posture/check-events-against-results
+https://platform.claude.com/docs/en/manage-claude/compliance-security-posture/detect-changes
+https://platform.claude.com/docs/en/manage-claude/compliance-security-posture/events-reference
+https://platform.claude.com/docs/en/manage-claude/compliance-security-posture/ocsf-mapping
+https://platform.claude.com/docs/en/manage-claude/compliance-security-posture/overview
+https://platform.claude.com/docs/en/manage-claude/compliance-security-posture/results-reference
+https://platform.claude.com/docs/en/manage-claude/compliance-security-posture/send-events
 https://platform.claude.com/docs/en/manage-claude/compliance-sessions
 https://platform.claude.com/docs/en/manage-claude/compliance-sessions?sdk_languages=curl
 https://platform.claude.com/docs/en/manage-claude/data-residency
@@ -4821,6 +4834,7 @@ https://support.claude.com/en/articles/17444462
 https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization
 https://support.claude.com/en/articles/17454700
 https://support.claude.com/en/articles/17454700-get-started-with-claude-dashboards
+https://support.claude.com/en/articles/17454700-get-started-with-claude-data
 https://support.claude.com/en/articles/17454997
 https://support.claude.com/en/articles/17454997-get-started-with-claude-motion
 https://support.claude.com/en/articles/17457950
@@ -4832,6 +4846,7 @@ https://support.claude.com/en/articles/17506494-claude-fable-5-2-launch-offers
 https://support.claude.com/en/articles/17603594-free-code-review-promotional-credits-for-claude-enterprise
 https://support.claude.com/en/articles/17631495
 https://support.claude.com/en/articles/17631495-get-started-with-claude-duet
+https://support.claude.com/en/articles/17644704
 https://support.claude.com/en/articles/17644704-share-your-voice-recordings-with-anthropic
 https://support.claude.com/en/articles/17666484
 https://support.claude.com/en/articles/17666484-how-to-use-link-by-stripe-with-claude-duet
@@ -4854,6 +4869,11 @@ https://support.claude.com/en/articles/18246779
 https://support.claude.com/en/articles/18246779-set-up-multiple-identity-providers-and-split-domains
 https://support.claude.com/en/articles/18251257-track-spend-by-cost-code-with-project-tags
 https://support.claude.com/en/articles/18251257-track-spend-by-project-with-tags
+https://support.claude.com/en/articles/18324088-redeem-the-mac-mini-and-claude-team-offer-through-cdw
+https://support.claude.com/en/articles/18324300
+https://support.claude.com/en/articles/18324300-get-started-with-claude-sheets
+https://support.claude.com/en/articles/18324319
+https://support.claude.com/en/articles/18324319-get-started-with-claude-whiteboards
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
 https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer

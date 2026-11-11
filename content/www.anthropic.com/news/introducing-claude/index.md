@@ -1,17 +1,18 @@
 # Introducing Claude
 
-- Published
+Published
+:   Mar 14, 2023
 
-  Mar 14, 2023
-- Category
+Category
+:   [Models](https://www.anthropic.com/news/models)
 
-  [Models](https://www.anthropic.com/news/models)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)See more...
+    See more...
 
 Related articles
 

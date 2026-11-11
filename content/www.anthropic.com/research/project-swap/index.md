@@ -6,19 +6,20 @@
 
 ![Two-panel illustration: on a dark background, five colored bars resembling books on a shelf; on dotted paper, two columns of dots joined by crisscrossing colored lines, like a matching diagram pairing people with books.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F81ec096e35d1d259eb3f47aef4edd2c25f8e3c5e-1920x1080.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Sep 24, 2026
 
-  Sep 24, 2026
-- Team
+Team
+:   [Economics](https://www.anthropic.com/research/team/economics)
 
-  [Economics](https://www.anthropic.com/research/team/economics)
-- Topics
+Topics
+:   - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)
 
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Claude's character](https://www.anthropic.com/search?topic=claude-s-character)See more...
+    See more...
 
 Related articles
 

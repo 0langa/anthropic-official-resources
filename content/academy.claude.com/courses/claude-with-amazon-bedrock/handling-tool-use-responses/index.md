@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fhandling-tool-use-responses)
 
+Embedded media: https://www.youtube-nocookie.com/embed/GJ\_w8qzB3Vw?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=GJ_w8qzB3Vw)
+
 When Claude decides to use a tool, it returns a special response structure that requires careful handling. Understanding this response format and implementing proper conversation management is crucial for building robust tool-enabled applications.
 
 ## Tool Choice Configuration[](https://academy.claude.com/courses/claude-with-amazon-bedrock/handling-tool-use-responses)

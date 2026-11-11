@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Ffine-grained-tool-calling)
 
+Embedded media: https://www.youtube-nocookie.com/embed/1R75P\_XZJRE?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=1R75P_XZJRE)
+
 When you combine tool use with streaming in Claude, you get real-time updates as the AI generates tool arguments. This creates a more responsive user experience, but there are some important details to understand about how it works behind the scenes.
 
 ## Basic Tool Streaming[](https://academy.claude.com/courses/building-with-the-claude-api/fine-grained-tool-calling)

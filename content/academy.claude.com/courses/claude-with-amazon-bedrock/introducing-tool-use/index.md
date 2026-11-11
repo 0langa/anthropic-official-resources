@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fintroducing-tool-use)
 
+Embedded media: https://www.youtube-nocookie.com/embed/yRW403-ZSMc?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=yRW403-ZSMc)
+
 Tools allow Claude to access information from the outside world, solving one of its key limitations. By default, Claude only has access to information it was trained on, which means it can't provide current information like today's weather or recent news.
 
 ![A chat app asks Claude about the weather in San Francisco, and Claude replies that it has no up-to-date weather information.](https://academy.claude.com/assets/media/7692955293ff6d4b030a98a281f9197fd1518ea6b41e9c8d965d5628fa67da8f.png)

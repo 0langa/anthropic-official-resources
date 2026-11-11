@@ -6,20 +6,21 @@
 
 ![Ornate brass bird-shaped clasp on pink background next to geometric and textured pattern swatches.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd4efe1ab02c2a6d19d7fb7d0ff180b68a92772eb-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Jan 9, 2026
 
-  Jan 9, 2026
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+    - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+    - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
 
-  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
-  - [Constitutional AI](https://www.anthropic.com/search?topic=constitutional-ai)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
-  - [Interpretability](https://www.anthropic.com/search?topic=interpretability)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)See more...
+    See more...
 
 Related articles
 

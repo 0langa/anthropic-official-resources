@@ -24,7 +24,7 @@ Voice mode transforms how you interact with Claude by:
 
 2. Tap the sound wave symbol in the lower right corner of the chat window to activate voice mode:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042358620/1bf2311353615c1c494da1312a17/124b93a8-0a9b-4c84-9d1f-ede6ca3498dd?expires=1794231900&amp;signature=1609a477bc2e6b550f538ebe468436ddbe9901ae86316f900f257b5a65ce2697&amp;req=diAjFMp7lYddWfMW1HO4zZyGr8pwuFYZF6uXnTLMvvA%2FAV8nRA9ZjkkQH1Yi%0AOgVl%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042358620/1bf2311353615c1c494da1312a17/124b93a8-0a9b-4c84-9d1f-ede6ca3498dd?expires=1794402900&amp;signature=7cbc182dd930ddb3e3eb9f235ad67ebaed204b335a66a7c8d5219edef381c8b1&amp;req=diAjFMp7lYddWfMW1HO4zZyGr8p2u1UZF6uXnTLMvvDG0%2Bylb%2FtVzrXct3Kc%0A9FQ4%0A)
 
 3. Start talking and see your prompt automatically populate in the chat input.
 
@@ -32,7 +32,7 @@ Voice mode transforms how you interact with Claude by:
 
 5. Claude will remain in voice mode until you click the “Stop” button in the lower right corner of the chat window:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1794231900&amp;signature=de1e19df94993edf8c6f2a8d0cc46e784b835b442f422b5fdc2cf157e6578e3e&amp;req=diAjFMp7n4FZWfMW1HO4zU6VRPnIS71gxNdRzYWrfF6v4nm8tWdKraIki4MZ%0Axctzs63cNhWbc3KUIVc%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352060/162f9e61f7fbeb689201dfc1cac1/6a7fafb2-31df-43be-a43f-0059d735e3c4?expires=1794402900&amp;signature=99c19fe7155b373ccb2180aec53bf94c6c58ede759b6ccdb4248ca05531a72fe&amp;req=diAjFMp7n4FZWfMW1HO4zU6VRPnOSL5gxNdRzYWrfF4EVxVfSkXfS%2BID5UkJ%0AMW7ReqRpaNdIK0TESRs%3D%0A)
 
 ### On mobile (iOS and Android)
 
@@ -40,7 +40,7 @@ Voice mode transforms how you interact with Claude by:
 
 2. Tap the voice mode icon (sound wave symbol next to the microphone icon) in the text input field:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042359690/68879db64559ecf87991f73ce058/671ff972-9e08-4686-bc04-955dab4b2de3?expires=1794231900&amp;signature=dedf54c2e3b156e3625e3a7b43bdb13c3955edcd1cedfd433a3ba87beb3b7d46&amp;req=diAjFMp7lIdWWfMW1HO4zQTUIPB4k9lHD%2FRXAPlQ7LbqbEcPnE%2BAEMLUR%2BAz%0AQkdI%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042359690/68879db64559ecf87991f73ce058/671ff972-9e08-4686-bc04-955dab4b2de3?expires=1794402900&amp;signature=8da9dae9e0adb579e0bc4c930679e3b726ae24921628ac9314a5b5fa785d6bf4&amp;req=diAjFMp7lIdWWfMW1HO4zQTUIPB%2BkNpHD%2FRXAPlQ7LYMySQRtNh5%2Ftxw3yQB%0AiFuz%0A)
 
 3. Choose a voice to personalize your experience.
 
@@ -78,7 +78,7 @@ To change the voice later:
 
 - **On mobile:** Click the settings button in the bottom left corner while chatting with Claude in voice mode, then tap your preferred voice and pace:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1794231900&amp;signature=adf3e6e96004d8038b65bf87106ed46975e91a684a2b1f8aaebe8308268a6edf&amp;req=diAjFMp7n4FZWvMW1HO4zZ3%2FGW6XY1EDy8OQfYsvK3znFJ%2FZnm7kt%2BLnZcVd%0A6ygzIfyVV46%2FD9n%2F02Y%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2042352063/25eca25bcfd573ecab30dd53158c/074454a6-fa5a-4c49-8b19-02d434b4ca50?expires=1794402900&amp;signature=5501781dc9d9a70bd32bec07aa4e01dddf3aa2439d647fca520959fb88456a16&amp;req=diAjFMp7n4FZWvMW1HO4zZ3%2FGW6RYFIDy8OQfYsvK3yUFy1%2FJIedn5sYJu1T%0Asi7nINbqIUlhej4MREU%3D%0A)
 
 ## Choose a model
 
@@ -132,6 +132,12 @@ Voice mode has been developed with safety as a top priority. Several safeguards 
 
 - **Full policy compliance:** Our usage policy remains fully enforced in voice mode, with all standard model misuse detection and enforcement systems actively monitoring interactions.
 
+## Your voice recordings
+
+By default, we don't keep the audio from your voice conversations. Your speech is converted to text, the recording is deleted, and the transcript is saved in your chat history.
+
+On Free, Pro, Max, and Ultra plans, you can choose to share your voice recordings to help us improve voice mode and dictation. Learn more in **[Share your voice recordings with Anthropic](https://support.claude.com/en/articles/17644704)**.
+
 ---
 
 ## Troubleshooting
@@ -172,7 +178,7 @@ Voice mode has been developed with safety as a top priority. Several safeguards 
 
 ### Will my voice conversations be saved?
 
-Yes. Textual transcripts of your audio conversations are saved in your chat history just like text conversations.
+Yes, as text. The transcript is saved in your chat history just like a typed chat. The audio itself isn't kept unless you choose to share it. Learn more in **[Share your voice recordings with Anthropic](https://support.claude.com/en/articles/17644704)**.
 
 ### What's the difference between dictation and voice mode?
 

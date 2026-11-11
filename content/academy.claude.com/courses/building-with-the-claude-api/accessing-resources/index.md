@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Faccessing-resources)
 
+Embedded media: https://www.youtube-nocookie.com/embed/Xm3ipTtm6KI?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=Xm3ipTtm6KI)
+
 Resources in MCP allow your server to expose data that can be directly included in prompts, rather than requiring tool calls to access information. This creates a more efficient way to provide context to AI models like Claude.
 
 ## Understanding Resource Requests[](https://academy.claude.com/courses/building-with-the-claude-api/accessing-resources)

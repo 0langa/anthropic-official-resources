@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fproject-setup)
 
+Embedded media: https://www.youtube-nocookie.com/embed/\_oL0cLwhvkM?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=_oL0cLwhvkM)
+
 We're going to build a CLI-based chatbot to better understand how MCP clients and servers work together. This hands-on project will give you practical experience with both sides of the MCP architecture.
 
 When the setup is done, you should be able to do two things: say what the client does and what the server does, and tell whether a reply came through a tool or straight from the model.

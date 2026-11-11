@@ -10,6 +10,10 @@ Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-w
 
 **Important Note: Up-to-date tool ID's for the text editor tool can be found in the AWS documentation here:** [**https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-anthropic-claude-messages-tool-use.html#model-parameters-anthropic-anthropic-defined-tools**(opens in new tab)](https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-anthropic-claude-messages-tool-use.html)
 
+Embedded media: https://www.youtube-nocookie.com/embed/td0oYdyLb-E?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=td0oYdyLb-E)
+
 The Text Editor Tool is Claude's built-in capability that gives it file system access and text editing abilities. Unlike other tools where you write both the schema and implementation, Claude already knows how to request text editor operations - you just need to handle those requests.
 
 ## What the Text Editor Tool Does[](https://academy.claude.com/courses/claude-with-amazon-bedrock/the-text-editor-tool)

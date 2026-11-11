@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fmaking-a-request)
 
+Embedded media: https://www.youtube-nocookie.com/embed/BOQejBZ6NnQ?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=BOQejBZ6NnQ)
+
 Making your first request to the Anthropic API is straightforward once you understand the basic setup and structure. This guide walks through the essential steps to get Claude responding to your prompts using Python.
 
 ## Setting Up Your Environment[](https://academy.claude.com/courses/building-with-the-claude-api/making-a-request)

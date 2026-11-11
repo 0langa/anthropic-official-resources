@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fthe-server-inspector)
 
+Embedded media: https://www.youtube-nocookie.com/embed/rob9Wi4kyoQ?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=rob9Wi4kyoQ)
+
 When building MCP servers, you need a way to test your functionality without connecting to a full application. The Python MCP SDK includes a built-in browser-based inspector that lets you debug and test your server in real-time.
 
 ## Starting the Inspector[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/the-server-inspector)

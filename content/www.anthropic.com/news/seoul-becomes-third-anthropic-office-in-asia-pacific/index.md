@@ -1,18 +1,19 @@
 # Seoul becomes Anthropic’s third office in Asia-Pacific as we continue our international growth
 
-- Published
+Published
+:   Oct 23, 2025
 
-  Oct 23, 2025
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
 
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)See more...
+    See more...
 
 Related articles
 

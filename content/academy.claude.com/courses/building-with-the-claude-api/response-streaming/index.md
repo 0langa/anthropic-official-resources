@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fresponse-streaming)
 
+Embedded media: https://www.youtube-nocookie.com/embed/EJeS\_yBNxMQ?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=EJeS_yBNxMQ)
+
 When building chat applications with Claude, there's a significant user experience challenge: responses can take 10-30 seconds to generate, leaving users staring at a loading spinner. The solution is response streaming, which lets users see text appear chunk by chunk as Claude generates it, creating a much more responsive feel.
 
 ![Chat app sends "What is quantum computing?" to our server, which relays it to Claude and gets an assistant message back.](https://academy.claude.com/assets/media/b677fa9ad3691de38586f695074f86d29f7920d7afdf51b0114cc57707bcbbdb.png)

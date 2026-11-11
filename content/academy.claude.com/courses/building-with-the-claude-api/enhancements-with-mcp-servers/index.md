@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fenhancements-with-mcp-servers)
 
+Embedded media: https://www.youtube-nocookie.com/embed/6wM0SFCTGCM?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=6wM0SFCTGCM)
+
 Claude Code has an MCP client built right into it, which means you can connect MCP servers to dramatically expand what Claude can do. This opens up some really powerful possibilities for customizing your development workflow.
 
 ## How MCP Extends Claude[](https://academy.claude.com/courses/building-with-the-claude-api/enhancements-with-mcp-servers)

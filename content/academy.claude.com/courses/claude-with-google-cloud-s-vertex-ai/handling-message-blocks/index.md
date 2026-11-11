@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fhandling-message-blocks)
 
+Embedded media: https://www.youtube-nocookie.com/embed/fUfoj51--P8?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=fUfoj51--P8)
+
 When working with Claude's tool functionality, you'll encounter a new type of response structure that's different from the simple text responses you've seen before. Instead of just getting back a single text block, Claude can now return multi-block messages that contain both text and tool usage information.
 
 ## Making Tool-Enabled API Calls[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/handling-message-blocks)

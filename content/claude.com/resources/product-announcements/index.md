@@ -8,31 +8,31 @@ Unsubscribe at any time.
 
 The latest news about Claude, including new products, features, and updates.
 
-[ArticleNov 5, 2026
+[ArticleNov 10, 2026
 
-### More visibility and control over Claude Enterprise for security teams
+### More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
 
-Claude EnterpriseClaude apps](https://claude.com/resources/articles/claude-enterprise-security-updates)
+Work at the speed of thought
 
-[ArticleNov 4, 2026
+Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)
 
-### New agents and products for security, productivity, and creative work on Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace)
+[ArticleNov 10, 2026
 
-[ArticleNov 2, 2026
+### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
 
-### Make long-running agents faster with message threads
+Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
 
-New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
+Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)
 
-Claude Platform](https://claude.com/resources/articles/message-threads)
+[ArticleNov 9, 2026
 
-[ArticleOct 28, 2026
+### Claude Fable 5.2 and Mythos 5.2
 
-### Smart reports, surveys, and pooled group budgets for Claude Enterprise
+Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.
 
-In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
+Claude appsClaude Code1 more: Claude PlatformClaude Platform
 
-Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)
+(opens in new tab)](https://www.anthropic.com/claude-fable-and-mythos-5-2)
 
 [ArticleNov 5, 2026
 
@@ -40,19 +40,55 @@ Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-p
 
 Ask Claude about your money and get straight answers from the accounts you connect.](https://claude.com/resources/articles/introducing-personal-finance-in-claude)
 
-[ArticleNov 5, 2026
+[ArticleNov 10, 2026
 
-### More visibility and control over Claude Enterprise for security teams
+### Your apps can now open in Claude, and Claude can work in them
 
-Claude EnterpriseClaude apps](https://claude.com/resources/articles/claude-enterprise-security-updates)
+Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
 
-Featured resource 1 of 5: More visibility and control over Claude Enterprise for security teams
+Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)
+
+[ArticleNov 10, 2026
+
+### More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
+
+Work at the speed of thought
+
+Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)
+
+Featured resource 1 of 5: More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
 
 Advanced filters
 
-Showing 11 of 158 resources
+Showing 11 of 162 resources
 
-[ArticleNov 5, 2026
+[ArticleNov 10, 2026
+
+### Your apps can now open in Claude, and Claude can work in them
+
+Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
+
+Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)[ArticleNov 10, 2026
+
+### More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
+
+Work at the speed of thought
+
+Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)[ArticleNov 10, 2026
+
+### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
+
+Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
+
+Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)[ArticleNov 9, 2026
+
+### Claude Fable 5.2 and Mythos 5.2
+
+Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.
+
+Claude appsClaude Code1 more: Claude PlatformClaude Platform
+
+(opens in new tab)](https://www.anthropic.com/claude-fable-and-mythos-5-2)[ArticleNov 5, 2026
 
 ### Introducing Personal Finance in Claude
 
@@ -84,24 +120,6 @@ Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-f
 
 ### Claude for Financial Advisors
 
-Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)[ArticleOct 26, 2026
-
-### Expanding Claude for Nonprofits
-
-Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.](https://claude.com/resources/articles/expanding-claude-for-nonprofits)[ArticleOct 23, 2026
-
-### Claude Cowork and chat come together for Enterprise
-
-Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)[ArticleOct 23, 2026
-
-### Claude Duet Safety, Privacy, and Security
-
-Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)[ArticleOct 22, 2026
-
-### The full Claude Platform, available on Google Cloud
-
-Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
-
-Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)
+Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)
 
 View more

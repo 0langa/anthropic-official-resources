@@ -1,17 +1,18 @@
 # Introducing Labs
 
-- Published
+Published
+:   Jan 13, 2026
 
-  Jan 13, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 Related articles
 

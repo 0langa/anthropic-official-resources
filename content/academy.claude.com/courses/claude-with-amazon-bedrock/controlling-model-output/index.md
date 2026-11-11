@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fcontrolling-model-output)
 
+Embedded media: https://www.youtube-nocookie.com/embed/uLRkF7ttcTY?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=uLRkF7ttcTY)
+
 Beyond crafting better prompts, there are two powerful techniques for controlling Claude's output: prefilled assistant messages and stop sequences. These methods give you precise control over how Claude responds and when it stops generating text.
 
 ## Prefilled Assistant Messages[](https://academy.claude.com/courses/claude-with-amazon-bedrock/controlling-model-output)

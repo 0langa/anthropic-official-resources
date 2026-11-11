@@ -15,7 +15,7 @@ What you’ll learnBy the end of this course, you’ll be able to
 - Explain what an AI coding agent is and how Claude Code differs from chat-based AI tools
 - Understand how the agentic loop, context window, tools, and permissions work together
 - Install and set up Claude Code in the terminal, VS Code, JetBrains, Claude Desktop, or on the web
-- Write effective prompts using manual mode, auto-accept, and Plan Mode
+- Write effective prompts using manual mode, auto-accept, auto mode, and Plan Mode
 - Follow the Explore → Plan → Code → Commit workflow for any feature or task
 - Manage your context window with /compact, /clear, and /context to stay productive
 - Create and maintain a CLAUDE.md file to give Claude persistent project memory
@@ -27,7 +27,7 @@ AI coding agents are changing what it means to write software. Tasks that used t
 
 This course teaches developers how to use [Claude Code(opens in new tab)](https://claude.com/product/claude-code) effectively, whether you're new to software engineering or an experienced engineer who hasn't yet worked with AI coding agents. We start from first principles — what an agentic loop actually is, how the context window shapes what Claude can see, how tools and permissions determine what it can do — so that the techniques later in the course make sense rather than feeling like a list of tricks to memorize.
 
-You'll learn how to install Claude Code across multiple environments (terminal, VS Code, JetBrains, Claude Desktop, and the web), and how to write prompts that get good results on the first try using approval mode, auto-accept, and Plan Mode. The core of the course is the Explore → Plan → Code → Commit workflow: a repeatable rhythm for breaking down a task, letting Claude propose an approach, reviewing the work as it happens, and landing it cleanly. We also cover code review with Claude Code and the context-management commands (`/compact`, `/clear`, `/context`) that keep long sessions productive.
+You'll learn how to install Claude Code across multiple environments (terminal, VS Code, JetBrains, Claude Desktop, and the web), and how to write prompts that get good results on the first try using manual mode, auto-accept, auto mode, and Plan Mode. The core of the course is the Explore → Plan → Code → Commit workflow: a repeatable rhythm for breaking down a task, letting Claude propose an approach, reviewing the work as it happens, and landing it cleanly. We also cover code review with Claude Code and the context-management commands (`/compact`, `/clear`, `/context`) that keep long sessions productive.
 
 The final section is about making Claude Code your own. You'll write a `CLAUDE.md` file so Claude remembers your project's conventions across sessions, build custom subagents and skills for tasks you repeat often, connect external systems through MCP servers, and write hooks that add deterministic guardrails around what Claude is allowed to do. By the end, you'll have a setup tailored to how you actually work — not a generic install.
 
@@ -53,7 +53,7 @@ Before you write your first prompt, it helps to know what's actually happening w
 
 2 lessons
 
-Get Claude Code running wherever you already work — in the terminal, inside VS Code or JetBrains, in Claude Desktop, or on the web. Then write your first prompt and see how approval mode, auto-accept, and Plan Mode change the way Claude responds, so you can pick the right level of oversight for the task in front of you.
+Get Claude Code running wherever you already work — in the terminal, inside VS Code or JetBrains, in Claude Desktop, or on the web. Then write your first prompt and see how manual mode, auto-accept, auto mode, and Plan Mode change the way Claude responds, so you can pick the right level of oversight for the task in front of you.
 
 ![](https://academy.claude.com/assets/media/c2deac535ccf8f76f8500b9b21ac768c7f2184cfbb9a41b06c441db221278d55.webp)![](https://academy.claude.com/assets/media/fc5d6d80530612974166d59deff6b0fa8176f1b6a7625521c02af9e849a69487.webp)
 

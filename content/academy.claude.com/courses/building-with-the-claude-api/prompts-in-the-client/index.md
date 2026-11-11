@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fprompts-in-the-client)
 
+Embedded media: https://www.youtube-nocookie.com/embed/xGGOoDNMVwo?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=xGGOoDNMVwo)
+
 Prompts in MCP define a set of user and assistant messages that can be used by the client. These prompts should be high quality, well-tested, and relevant to the overall purpose of the MCP server.
 
 ![MCP server code defining a prompt named "format" that rewrites the contents of a document in Markdown format.](https://academy.claude.com/assets/media/bef88ee945842a861b65523d7ad31701a48b3d65f806646cc12a7d1e567fc11c.jpg)

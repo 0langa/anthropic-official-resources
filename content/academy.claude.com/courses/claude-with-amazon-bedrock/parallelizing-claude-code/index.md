@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fparallelizing-claude-code)
 
+Embedded media: https://www.youtube-nocookie.com/embed/4iQJX8Of2Ng?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=4iQJX8Of2Ng)
+
 Running multiple instances of Claude Code in parallel is one of the biggest productivity gains you can achieve. Since Claude is lightweight, you can easily spin up several copies, assign each a different task, and have them work simultaneously. This effectively gives you a team of virtual software engineers working on your project.
 
 ## The Challenge: File Conflicts[](https://academy.claude.com/courses/claude-with-amazon-bedrock/parallelizing-claude-code)

@@ -1,17 +1,18 @@
 # Introducing Claude to Canada
 
-- Published
+Published
+:   Jun 5, 2024
 
-  Jun 5, 2024
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+    - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
 
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)See more...
+    See more...
 
 Related articles
 

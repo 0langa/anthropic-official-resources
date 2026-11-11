@@ -1,17 +1,18 @@
 # Introducing the Services Track and Partner Hub of the Claude Partner Network
 
-- Published
+Published
+:   Jun 3, 2026
 
-  Jun 3, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Education](https://www.anthropic.com/search?topic=education)
+    - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Education](https://www.anthropic.com/search?topic=education)
-  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)See more...
+    See more...
 
 Related articles
 

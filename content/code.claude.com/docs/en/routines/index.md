@@ -108,7 +108,7 @@ After you select a repository, **Cloud environment** appears below it. Pick a [c
 * **Environment variables**: provide values Claude can use during each run. They're [visible to anyone who uses the environment](/docs/en/cloud-environments#what-carries-over-from-your-setup), so in an Anthropic-hosted environment, store keys for the APIs Claude calls during a run as [network secrets](/docs/en/cloud-environments#add-network-secrets) instead. That section also lists the requests that never get a secret
 * **Setup script**: install dependencies and tools the task needs. The result is [cached](/docs/en/cloud-environments#environment-caching), so the script doesn't re-run on every session
 
-A **Default** environment is provided with **Trusted** network access, which allows only the [default allowlist](/docs/en/cloud-environments#default-allowed-domains) of package registries, cloud provider APIs, container registries, and common development domains through the session's network. Connectors you add to the task reach their services through Anthropic's servers, so they don't need allowlist changes.
+A **Default** environment is provided with **Limited** network access and **Allow package managers** checked. Its runs reach the [default allowlist](/docs/en/cloud-environments#default-allowed-domains): package registries, cloud provider APIs, container registries, and common development domains. Connectors you add to the task reach their services through Anthropic's servers, so they don't need allowlist changes.
 
 If your task needs to reach your own services directly, or a domain outside that list, edit the environment's [network access](/docs/en/cloud-environments#network-access) before running. To use a separate environment, [create one](/docs/en/cloud-environments#configure-your-environment) first.
 
@@ -428,7 +428,7 @@ In every other case, including a run that an API or GitHub trigger starts, Claud
 
 Each scheduled task uses a [cloud environment](/docs/en/cloud-environments) that controls network access, environment variables, and setup scripts. The task inherits the environment's network policy on every run.
 
-The **Default** environment uses **Trusted** network access, which allows only the [default allowlist](/docs/en/cloud-environments#default-allowed-domains) through the session's network. Requests on that path to hosts outside the allowlist fail with `403` and `x-deny-reason: host_not_allowed`. MCP connector traffic is routed through Anthropic's servers rather than that path, so the connectors you add to the task work without adding their hosts to **Allowed domains**. Remove any connectors you don't need under [Connectors](#connectors).
+The **Default** environment uses **Limited** access with **Allow package managers** checked, so its runs reach the [default allowlist](/docs/en/cloud-environments#default-allowed-domains). A request to a blocked host fails with `403` and `x-deny-reason: host_not_allowed`. MCP connector traffic is routed through Anthropic's servers, so the connectors you add to the task work without adding their hosts to **Allowed domains**. Remove any connectors you don't need under [Connectors](#connectors).
 
 To allow additional domains on one of your own environments, follow these steps. An [organization-shared environment](/docs/en/cloud-environments#organization-shared-environments) opens read-only here, so an Owner changes its network access from the **Cloud environments** page in [admin settings](https://claude.ai/admin-settings) instead.
 
@@ -444,9 +444,9 @@ Go to **Advanced settings > General > Cloud environment**, expanding **Advanced 
 
 Hover over the environment in the list and click the settings icon that appears on the right.
 
-**4. Change the network access level**
+**4. Add the domains**
 
-In the **Edit cloud environment** dialog, change **Network access** to **Custom** and enter your domains in **Allowed domains**. Check **Also include default list of common package managers** to keep the [default allowlist](/docs/en/cloud-environments#default-allowed-domains) alongside your custom domains. Select **Full** instead for unrestricted access.
+In the **Edit cloud environment** dialog, select **Limited** under **Network access** and enter your domains in **Allowed domains**. Check **Allow package managers** to allow the [default allowlist](/docs/en/cloud-environments#default-allowed-domains) alongside your own domains. Select **Full** instead for unrestricted access.
 
 **5. Save**
 
@@ -525,6 +525,6 @@ When a warning under **History** begins with "The last run", find it in the firs
 * [`/loop` and in-session scheduling](/docs/en/scheduled-tasks): schedule local tasks within an open CLI session
 * [Desktop scheduled tasks](/docs/en/desktop-scheduled-tasks): local scheduled tasks that run on your machine with access to local files
 * [Cloud environments](/docs/en/cloud-environments): configure network access, environment variables, and setup scripts for cloud sessions
-* [Projects](/docs/en/claude-projects): ongoing work Claude coordinates across parallel cloud sessions; scheduled tasks created from a project appear on its **Scheduled tasks** tab
+* [Projects](/docs/en/claude-projects): ongoing work Claude coordinates across parallel cloud sessions; scheduled tasks created from a project appear in its **Scheduled tasks** view
 * [MCP connectors](/docs/en/mcp): connect external services like Slack, Linear, and Google Drive
 * [GitHub Actions](/docs/en/github-actions): run Claude in your CI pipeline on repository events

@@ -8,6 +8,14 @@ Unsubscribe at any time.
 
 The latest on how enterprises and partners are adopting and building with Claude and other enterprise announcements.
 
+[ArticleOct 28, 2026
+
+### IDC brings Quanta into Claude and adopts Claude across the company
+
+IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
+
+Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)
+
 [ArticleOct 21, 2026
 
 ### HCLTech joins the Claude Partner Network as a Global Premier partner
@@ -30,13 +38,11 @@ CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digita
 
 Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)
 
-[ArticleSep 15, 2026
+[ArticleNov 9, 2026
 
-### Bringing Salesforce into Claude
+### JPMorganChase expands Claude Code to more employees across the firm
 
-Sellers can now research companies, prep for calls, review pipeline, and draft CRM updates with our new Salesforce in Claude plugin.
-
-Claude Enterprise](https://claude.com/resources/articles/salesforce-in-claude)
+Claude Code](https://claude.com/resources/articles/jpmorganchase-expands-claude-code)
 
 [ArticleOct 28, 2026
 
@@ -46,19 +52,17 @@ IDC integrated Claude as part of its Quanta platform, and it has rolled Claude o
 
 Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)
 
-[ArticleOct 21, 2026
-
-### HCLTech joins the Claude Partner Network as a Global Premier partner
-
-HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)
-
-Featured resource 1 of 5: HCLTech joins the Claude Partner Network as a Global Premier partner
+Featured resource 1 of 5: IDC brings Quanta into Claude and adopts Claude across the company
 
 Advanced filters
 
-Showing 11 of 11 resources
+Showing 12 of 12 resources
 
-[ArticleOct 28, 2026
+[ArticleNov 9, 2026
+
+### JPMorganChase expands Claude Code to more employees across the firm
+
+Claude Code](https://claude.com/resources/articles/jpmorganchase-expands-claude-code)[ArticleOct 28, 2026
 
 ### IDC brings Quanta into Claude and adopts Claude across the company
 

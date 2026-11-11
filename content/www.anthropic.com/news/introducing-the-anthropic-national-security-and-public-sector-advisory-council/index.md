@@ -1,18 +1,19 @@
 # Introducing the Anthropic National Security and Public Sector Advisory Council
 
-- Published
+Published
+:   Aug 27, 2025
 
-  Aug 27, 2025
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+    - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fsystem-prompts)
 
+Embedded media: https://www.youtube-nocookie.com/embed/S0Yccpc-Qv8?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=S0Yccpc-Qv8)
+
 System prompts are a powerful way to customize how Claude responds to user input. Instead of getting generic answers, you can shape Claude's tone, style, and approach to match your specific use case.
 
 ![Math Tutor Specialist requirements, listed below, beside a chat window where the AI reply shows three dots.](https://academy.claude.com/assets/media/0118ce8922f623441ea2d64984febb0aa8224932b3f8dafabc41999b06c5e189.png)

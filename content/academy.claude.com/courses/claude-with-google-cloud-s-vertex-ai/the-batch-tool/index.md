@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fthe-batch-tool)
 
+Embedded media: https://www.youtube-nocookie.com/embed/oGRaaBuCWWI?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=oGRaaBuCWWI)
+
 When working with Claude's tool calling capabilities, you might notice that Claude can include multiple tool use blocks in a single assistant message. This allows Claude to run several tools in parallel rather than making separate requests for each one. However, getting Claude to actually do this consistently can be challenging in practice.
 
 ## The Problem with Multiple Tool Calls[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/the-batch-tool)

@@ -2,20 +2,21 @@
 
 # Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem
 
-- Published
+Published
+:   Jun 17, 2026
 
-  Jun 17, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
 
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)See more...
+    See more...
 
 Related articles
 

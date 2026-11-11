@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Ftext-embeddings)
 
+Embedded media: https://www.youtube-nocookie.com/embed/P8GotvRHdsM?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=P8GotvRHdsM)
+
 After extracting text chunks from a document, the next step in a RAG pipeline is finding which chunks are most relevant to a user's question. This is essentially a search problem - you need to look through all your chunks and identify the ones that relate to what the user is asking about.
 
 ![The question "How many bugs did engineers fix this year?" and chunks feed a prompt with user_question and report tags.](https://academy.claude.com/assets/media/5bdbb520520b8a663e1eee52844c40be0df9427e8abeacf52a2e33fa6f0e0a0b.png)

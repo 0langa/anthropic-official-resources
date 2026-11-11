@@ -4,18 +4,19 @@
 
 ![An update on independent evaluators](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc2af6aeedb4995d202c7543f3d59c6bbbd5352f1-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 15, 2026
 
-  Oct 15, 2026
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)
 
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)See more...
+    See more...
 
 Related articles
 

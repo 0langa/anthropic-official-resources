@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fprompt-caching-in-action)
 
+Embedded media: https://www.youtube-nocookie.com/embed/TXePgw\_s9Qw?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=TXePgw_s9Qw)
+
 Prompt caching is a powerful optimization feature that makes your API requests both faster and cheaper when you're repeatedly sending the same content to Claude. Let's explore how to implement it effectively in your applications.
 
 ![Diagram: Claude writes processing work to the cache on the initial request and reads it back on a follow-up request.](https://academy.claude.com/assets/media/16861ef7863235442cb43b8fa88a8d020f6a14d3c48b1e3cb8843782a7f51169.jpg)

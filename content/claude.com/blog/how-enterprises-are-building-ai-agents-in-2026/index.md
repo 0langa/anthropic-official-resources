@@ -49,7 +49,21 @@ We're also finding that while coding has been the proving ground for AI agents,
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 22, 2026
+[ArticleNov 9, 2026
+
+### Claude can design electronic prototypes from start to finish
+
+We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.
+
+(opens in new tab)](https://www.anthropic.com/research/claude-electronics-design)[ArticleNov 6, 2026
+
+### The components of agent memory
+
+For Claude to learn from experience, it has to decide what's worth remembering before it knows what's next. Here's how "dreaming" helps it organize memory and correct mistakes.
+
+Claude Platform
+
+(opens in new tab)](https://www.anthropic.com/research/components-of-agent-memory)[ArticleOct 22, 2026
 
 ### LLMs are making formal software verification feasible at a much larger scale
 
@@ -63,19 +77,7 @@ The same token price can cost very different amounts per task. Learn what Claude
 
 Claude Code
 
-(opens in new tab)](https://claude.dev/blog/what-a-task-costs-on-opus-5-5/)[ArticleSep 24, 2026
-
-### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
-
-Our latest Opus model is priced and trained to optimize costs for how developers code now.
-
-Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)[ArticleSep 2, 2026
-
-### Building commerce agents with Claude
-
-Retailers running shopping agents on Claude have seen carts up to 35% larger and shoppers 60% more likely to complete a purchase.
-
-Claude Platform](https://claude.com/resources/articles/claude-for-commerce-agents)
+(opens in new tab)](https://claude.dev/blog/what-a-task-costs-on-opus-5-5/)
 
 ## Transform how your organization operates with Claude
 

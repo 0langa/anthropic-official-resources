@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fbm25-lexical-search)
 
+Embedded media: https://www.youtube-nocookie.com/embed/nocfdTFbmXM?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=nocfdTFbmXM)
+
 When building a RAG pipeline, you'll quickly discover that semantic search alone doesn't always return the best results. Sometimes you need exact keyword matches that semantic search might miss. The solution is to combine semantic search with lexical search using a technique called BM25.
 
 ## The Problem with Semantic Search Alone[](https://academy.claude.com/courses/claude-with-amazon-bedrock/bm25-lexical-search)

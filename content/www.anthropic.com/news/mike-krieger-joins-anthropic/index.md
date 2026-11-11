@@ -1,16 +1,17 @@
 # Mike Krieger joins Anthropic as Chief Product Officer
 
-- Published
+Published
+:   May 15, 2024
 
-  May 15, 2024
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
 
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)See more...
+    See more...
 
 Related articles
 

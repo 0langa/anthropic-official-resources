@@ -2,19 +2,20 @@
 
 [Read the submission here](https://www-cdn.anthropic.com/7449887b6715e3a35f362b1301e5b5d8a6b116e5.pdf)
 
-- Published
+Published
+:   Apr 30, 2025
 
-  Apr 30, 2025
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+    - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
+    - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
 
-  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
-  - [Informed lawmakers](https://www.anthropic.com/search?topic=informed-lawmakers)
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)See more...
+    See more...
 
 Related articles
 

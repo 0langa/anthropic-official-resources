@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fmaking-a-request)
 
+Embedded media: https://www.youtube-nocookie.com/embed/hDNAj1HiE7Q?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=hDNAj1HiE7Q)
+
 Making your first API request to AWS Bedrock requires three essential components: a Bedrock Runtime Client to connect to the service, a Model ID to specify which model you want to run, and a User Message containing the text you want to feed into the model.
 
 ## Setting Up the Bedrock Client[](https://academy.claude.com/courses/claude-with-amazon-bedrock/making-a-request)

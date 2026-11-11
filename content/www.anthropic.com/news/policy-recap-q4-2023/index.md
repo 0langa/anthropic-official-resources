@@ -1,18 +1,19 @@
 # Thoughts on the US Executive Order, G7 Code of Conduct, and Bletchley Park Summit
 
-- Published
+Published
+:   Nov 5, 2023
 
-  Nov 5, 2023
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)
+    - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+    - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
 
-  - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
-  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)See more...
+    See more...
 
 Related articles
 

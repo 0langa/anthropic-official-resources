@@ -1,16 +1,17 @@
 # Krishna Rao joins Anthropic as Chief Financial Officer
 
-- Published
+Published
+:   May 21, 2024
 
-  May 21, 2024
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Funding](https://www.anthropic.com/search?topic=funding)
 
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Funding](https://www.anthropic.com/search?topic=funding)See more...
+    See more...
 
 Related articles
 

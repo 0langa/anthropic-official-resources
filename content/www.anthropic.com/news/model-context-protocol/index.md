@@ -1,18 +1,19 @@
 # Introducing the Model Context Protocol
 
-- Published
+Published
+:   Nov 25, 2024
 
-  Nov 25, 2024
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+    - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
-  - [Claude apps](https://www.anthropic.com/search?topic=claude-apps)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

@@ -736,7 +736,7 @@ This configuration sandboxes the commands Claude runs. A developer can still typ
 
 The sandbox doesn't run on native Windows, so with `failIfUnavailable` set, Claude Code exits at startup on those machines. If your fleet includes Windows hosts, you can:
 
-* **Deliver the configuration by operating system**: deploy it through your MDM or as a [managed settings file](/docs/en/managed-settings#delivery-mechanisms) on macOS and Linux machines only. [Server-managed settings](/docs/en/server-managed-settings#current-limitations) apply to all users in the organization
+* **Deliver the configuration by operating system**: deploy it through your MDM or as a [managed settings file](/docs/en/managed-settings#delivery-mechanisms) on macOS and Linux machines only. [Server-managed settings](/docs/en/server-managed-settings#give-groups-different-settings) follow the member, not the device.
 * **Move Windows users into a supported environment**: have them run Claude Code inside WSL2 or a container
 
 ### Keep developers from widening the policy

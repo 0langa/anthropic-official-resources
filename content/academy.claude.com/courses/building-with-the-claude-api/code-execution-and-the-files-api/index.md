@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fcode-execution-and-the-files-api)
 
+Embedded media: https://www.youtube-nocookie.com/embed/5gJJLsgr\_ok?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=5gJJLsgr_ok)
+
 The Anthropic API offers two powerful features that work exceptionally well together: the Files API and Code Execution. While they might seem separate at first, combining them opens up some really interesting possibilities for delegating complex tasks to Claude.
 
 ## Files API[](https://academy.claude.com/courses/building-with-the-claude-api/code-execution-and-the-files-api)

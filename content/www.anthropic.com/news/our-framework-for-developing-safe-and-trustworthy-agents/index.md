@@ -1,19 +1,20 @@
 # Our framework for developing safe and trustworthy agents
 
-- Published
+Published
+:   Aug 4, 2025
 
-  Aug 4, 2025
-- Category
+Category
+:   [Safeguards](https://www.anthropic.com/news/safeguards)
 
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-- Topics
+Topics
+:   - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Privacy](https://www.anthropic.com/search?topic=privacy)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
 
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Privacy](https://www.anthropic.com/search?topic=privacy)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)See more...
+    See more...
 
 Related articles
 

@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fflexible-tool-extraction)
 
+Embedded media: https://www.youtube-nocookie.com/embed/Jzf8phQoD4U?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=Jzf8phQoD4U)
+
 Writing detailed JSON schemas for structured data extraction can be a real pain point when working with AI tools. There's a clever workaround that lets you specify your desired data structure directly in your prompt instead of creating complex schemas.
 
 ## The Flexible Schema Approach[](https://academy.claude.com/courses/claude-with-amazon-bedrock/flexible-tool-extraction)

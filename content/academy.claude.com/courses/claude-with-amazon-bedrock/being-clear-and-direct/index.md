@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fbeing-clear-and-direct)
 
+Embedded media: https://www.youtube-nocookie.com/embed/rPBbrFJLDR4?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=rPBbrFJLDR4)
+
 The first line of your prompt is the most important part of your entire request. This is where you set the stage for everything that follows, and getting it right can dramatically improve your results.
 
 ## Being Clear and Direct[](https://academy.claude.com/courses/claude-with-amazon-bedrock/being-clear-and-direct)

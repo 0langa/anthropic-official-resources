@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fa-multi-index-rag-pipeline)
 
+Embedded media: https://www.youtube-nocookie.com/embed/yz85LBlFL\_M?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=yz85LBlFL_M)
+
 We've built separate implementations for semantic search (using vector embeddings) and lexical search (using BM25). Now it's time to combine them into a unified search pipeline that leverages the strengths of both approaches.
 
 ## The Multi-Index Architecture[](https://academy.claude.com/courses/building-with-the-claude-api/a-multi-index-rag-pipeline)

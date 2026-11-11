@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fdefining-tools-with-mcp)
 
+Embedded media: https://www.youtube-nocookie.com/embed/HLAVqXveX8w?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=HLAVqXveX8w)
+
 Building an MCP server becomes much simpler when you use the official Python SDK. Instead of manually writing complex JSON schemas for tools, the SDK handles all that complexity for you with decorators and type hints.
 
 ![Our MCP server with tools to read and update a doc, connected to document.pdf, spreadsheet.xlsx, report.txt and spec.md.](https://academy.claude.com/assets/media/082a7bf4d70a5440dbc71382538ecb6fd90826314c5f0e8571928b66e3fa580d.jpg)

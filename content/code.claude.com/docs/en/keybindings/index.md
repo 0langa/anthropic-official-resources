@@ -302,7 +302,7 @@ Before v2.1.283, this list ignored `Select` bindings and had its own actions: `m
 
 ### Diff actions
 
-These actions reach only Claude Code's earlier diff viewer, which `/diff` opens outside [fullscreen rendering](/docs/en/fullscreen) after you disable the [`cc-plugin-diff` mod](/docs/en/plugins/mods/overview#mods-built-into-claude-code) in `/plugin`. While that mod is enabled, `/diff` opens the [diff dialog](/docs/en/interactive-mode#diff-dialog) instead. A `keybindings.json` that names these actions loads without errors either way.
+These actions reach only Claude Code's earlier diff viewer, which `/diff` opens outside [fullscreen rendering](/docs/en/fullscreen) after you disable the [`cc-plugin-diff` mod](/docs/en/plugins/mods/overview#mods-built-into-claude-code) in `/plugin`. While that mod is enabled, `/diff` opens the [diff dialog](/docs/en/interactive-mode#diff-dialog) instead.
 
 Actions available in the `DiffDialog` context:
 

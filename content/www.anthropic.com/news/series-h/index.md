@@ -1,17 +1,18 @@
 # Anthropic raises $65B in Series H funding at $965B post-money valuation
 
-- Published
+Published
+:   May 28, 2026
 
-  May 28, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
 
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)See more...
+    See more...
 
 Related articles
 

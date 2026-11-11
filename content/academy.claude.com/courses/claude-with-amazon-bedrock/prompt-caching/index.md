@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fprompt-caching)
 
+Embedded media: https://www.youtube-nocookie.com/embed/b\_DHW49agWY?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=b_DHW49agWY)
+
 Prompt caching is a feature that speeds up Claude's responses and reduces the cost of text generation by reusing computational work from previous requests. To understand how this works, let's first look at what normally happens inside Claude during a typical request.
 
 ## How Claude Normally Processes Requests[](https://academy.claude.com/courses/claude-with-amazon-bedrock/prompt-caching)

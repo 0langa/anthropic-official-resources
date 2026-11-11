@@ -1,17 +1,18 @@
 # Introducing Anthropic's Transparency Hub
 
-- Published
+Published
+:   Feb 27, 2025
 
-  Feb 27, 2025
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)
 
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)See more...
+    See more...
 
 Related articles
 

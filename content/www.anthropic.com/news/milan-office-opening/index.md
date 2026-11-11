@@ -1,17 +1,18 @@
 # Anthropic opens Milan office to support Italian enterprise, research, and developers
 
-- Published
+Published
+:   May 27, 2026
 
-  May 27, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
 
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)See more...
+    See more...
 
 Related articles
 

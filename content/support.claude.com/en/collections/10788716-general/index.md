@@ -1,6 +1,6 @@
 # General
 
-4 articles
+5 articles
 
 [Use dictation on Claude Mobile](https://support.claude.com/en/articles/10065434-use-dictation-on-claude-mobile)
 
@@ -9,3 +9,5 @@
 [Minimum age requirement access restriction](https://support.claude.com/en/articles/13117299-minimum-age-requirement-access-restriction)
 
 [Open the Claude mobile app with a link](https://support.claude.com/en/articles/14898120-open-the-claude-mobile-app-with-a-link)
+
+[Share your voice recordings with Anthropic](https://support.claude.com/en/articles/17644704-share-your-voice-recordings-with-anthropic)

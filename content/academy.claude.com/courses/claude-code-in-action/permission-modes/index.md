@@ -50,7 +50,7 @@ Here's the kind of thing it's designed to block:
 - Sending sensitive data to external endpoints
 - Irreversibly destroying files that existed before the session
 
-And it waves through the everyday work: local edits in your project, installing dependencies from your lock file, read-only requests, and pushing to your own branch.
+And it waves through the everyday work: local edits in your project, installing dependencies from your lock file, read-only requests, and pushing to any branch of the repository you're working in, including the default branch. The exception is any other branch whose name marks it as a deploy target, such as `production` or `gh-pages`. The classifier judges a push there on its own terms.
 
 ## What the classifier can't do[](https://academy.claude.com/courses/claude-code-in-action/permission-modes)
 

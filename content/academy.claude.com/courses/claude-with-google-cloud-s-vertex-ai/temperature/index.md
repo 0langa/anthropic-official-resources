@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Ftemperature)
 
+Embedded media: https://www.youtube-nocookie.com/embed/Q2uawX-dnoE?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=Q2uawX-dnoE)
+
 Temperature is a powerful parameter that controls how predictable or creative Claude's responses will be. Understanding how to use it effectively can dramatically improve your AI applications.
 
 ## How Claude Generates Text[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/temperature)

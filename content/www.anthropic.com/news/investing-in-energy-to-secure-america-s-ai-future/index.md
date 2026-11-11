@@ -1,18 +1,19 @@
 # Investing in energy to secure America's AI future
 
-- Published
+Published
+:   Jul 15, 2025
 
-  Jul 15, 2025
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+    - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+    - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
-  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

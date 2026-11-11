@@ -22,12 +22,12 @@
   {
     "reason": "outside_scope",
     "type": "document",
-    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/04-inference-setup-grid-light.html"
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/07-end-to-end-replication-light.html"
   },
   {
     "reason": "outside_scope",
     "type": "document",
-    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/07-end-to-end-replication-light.html"
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/04-inference-setup-grid-light.html"
   },
   {
     "reason": "outside_scope",
@@ -42,12 +42,7 @@
   {
     "reason": "outside_scope",
     "type": "document",
-    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/19-device-population-light.html"
-  },
-  {
-    "reason": "outside_scope",
-    "type": "document",
-    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/20-spear-phishing-light.html"
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/21-test-network-light.html"
   },
   {
     "reason": "outside_scope",
@@ -57,6 +52,11 @@
   {
     "reason": "outside_scope",
     "type": "document",
-    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/21-test-network-light.html"
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/19-device-population-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/20-spear-phishing-light.html"
   }
 ]

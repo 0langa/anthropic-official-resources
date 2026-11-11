@@ -1,15 +1,14 @@
 # Jay Kreps appointed to Anthropic's Board of Directors
 
-- Published
+Published
+:   May 29, 2024
 
-  May 29, 2024
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
-
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+Topics
+:   - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
 
 Related articles
 

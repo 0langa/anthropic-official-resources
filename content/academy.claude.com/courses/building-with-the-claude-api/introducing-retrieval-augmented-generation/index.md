@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fintroducing-retrieval-augmented-generation)
 
+Embedded media: https://www.youtube-nocookie.com/embed/YF8FHkcfHMw?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=YF8FHkcfHMw)
+
 Retrieval Augmented Generation (RAG) is a technique that helps you work with large documents that are too big to fit into a single prompt. Instead of cramming everything into one massive prompt, RAG breaks documents into chunks and only includes the most relevant pieces when answering questions.
 
 ## The Problem with Large Documents[](https://academy.claude.com/courses/building-with-the-claude-api/introducing-retrieval-augmented-generation)

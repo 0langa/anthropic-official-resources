@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Frunning-the-eval)
 
+Embedded media: https://www.youtube-nocookie.com/embed/w6YN6IPHio8?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=w6YN6IPHio8)
+
 Now that we have our evaluation dataset ready, it's time to build the core evaluation pipeline. This involves taking each test case, merging it with our prompt, feeding it to Claude, and then grading the results.
 
 ![A prompt with a question placeholder, three test questions such as "What's 2+2?", and Claude's replies such as "2 + 2 = 4".](https://academy.claude.com/assets/media/64d40e95dac4305cfdda9bfc6ab60eee60d2528ac46b4b6674818d9311b900e3.png)

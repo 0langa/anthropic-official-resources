@@ -1,19 +1,20 @@
 # Our position on open-weights models
 
-- Published
+Published
+:   Jul 27, 2026
 
-  Jul 27, 2026
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Open source](https://www.anthropic.com/search?topic=open-source)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)
 
-  - [Open source](https://www.anthropic.com/search?topic=open-source)
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)See more...
+    See more...
 
 *A post by Dario Amodei, Anthropic CEO*
 

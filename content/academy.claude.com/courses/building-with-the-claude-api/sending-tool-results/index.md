@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fsending-tool-results)
 
+Embedded media: https://www.youtube-nocookie.com/embed/t1I\_k3vAeCw?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=t1I_k3vAeCw)
+
 After Claude requests a tool call, you need to execute the function and send the results back. This completes the tool use workflow by providing Claude with the information it requested.
 
 ## Running the Tool Function[](https://academy.claude.com/courses/building-with-the-claude-api/sending-tool-results)

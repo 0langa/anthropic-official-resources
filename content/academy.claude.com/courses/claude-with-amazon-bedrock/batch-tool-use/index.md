@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fbatch-tool-use)
 
+Embedded media: https://www.youtube-nocookie.com/embed/E91gfTx\_WKw?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=E91gfTx_WKw)
+
 Claude can natively run multiple tools at the same time, but some versions don't take advantage of this as much as you might wish. You can greatly increase the chances of Claude making multiple tool calls in a single message by implementing a batch tool.
 
 ![Claude returns one assistant message with two ToolUse parts, both add_duration: March 12th + 50 days and + 100 days.](https://academy.claude.com/assets/media/76c7f6ecd92fc5f613252ceab2d351da5b581cce6b962f365ad7879945129897.png)

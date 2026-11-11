@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fthe-web-search-tool)
 
+Embedded media: https://www.youtube-nocookie.com/embed/Yb0xWR3EdEA?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=Yb0xWR3EdEA)
+
 Claude includes a built-in web search tool that lets it search the internet for current or specialized information to answer user questions. Unlike other tools where you need to provide the implementation, Claude handles the entire search process automatically - you just need to provide a simple schema to enable it.
 
 ![Our server asks about the latest quantum computing developments, then Claude searches the web and answers from three results.](https://academy.claude.com/assets/media/f1edc5de25d4a7012a5234100ec3f4c0b7e19dff55beb5188ab2fd847eecba51.png)

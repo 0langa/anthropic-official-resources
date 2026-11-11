@@ -1,15 +1,14 @@
 # Reed Hastings appointed to Anthropic’s board of directors
 
-- Published
+Published
+:   May 28, 2025
 
-  May 28, 2025
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
-
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
+Topics
+:   - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
 
 Related articles
 

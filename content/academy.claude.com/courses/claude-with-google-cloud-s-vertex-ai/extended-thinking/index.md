@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fextended-thinking)
 
+Embedded media: https://www.youtube-nocookie.com/embed/EBBk-6fnWvA?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=EBBk-6fnWvA)
+
 Extended thinking is Claude's advanced reasoning feature that gives the model time to think through complex problems before generating a response. When enabled, Claude produces a visible thinking process that users can examine to understand how the model approached their query.
 
 ![Claude chat about closing JSON delimiters, with callouts labeling "User Query", "Thinking / Reasoning" and "Response".](https://academy.claude.com/assets/media/bcdce97e3d0ddfdf0d34acce1d47fbb6508b9b207cdfcb0a8fc215b1d301cef1.png)

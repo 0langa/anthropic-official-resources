@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fgenerating-test-datasets)
 
+Embedded media: https://www.youtube-nocookie.com/embed/mNcw3xvHNGU?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=mNcw3xvHNGU)
+
 Building a custom prompt evaluation workflow starts with creating a solid prompt and then generating test data to see how well it performs. Let's walk through setting up an evaluation system for a prompt that helps users write AWS-specific code.
 
 ## Setting Up the Goal[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/generating-test-datasets)

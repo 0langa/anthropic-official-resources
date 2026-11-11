@@ -2,11 +2,11 @@
 
 Take Claude with you on iOS and Android.
 
-15 articles
+16 articles
 
 ## Collections
 
-[General4 articles](https://support.claude.com/en/collections/10788716-general)
+[General5 articles](https://support.claude.com/en/collections/10788716-general)
 
 [Claude for iOS6 articles](https://support.claude.com/en/collections/9879000-claude-for-ios)
 

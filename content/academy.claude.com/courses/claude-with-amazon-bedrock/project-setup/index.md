@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fproject-setup)
 
+Embedded media: https://www.youtube-nocookie.com/embed/6\_ksLwM5UaU?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=6_ksLwM5UaU)
+
 We're going to build our own CLI-based chatbot to better understand how MCP clients and servers work together. This hands-on project will give you practical experience with both sides of the MCP architecture.
 
 ## What We're Building[](https://academy.claude.com/courses/claude-with-amazon-bedrock/project-setup)

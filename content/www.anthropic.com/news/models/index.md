@@ -2,7 +2,7 @@
 
 # Models
 
-28
+29
 
 ARTICLES
 
@@ -14,6 +14,15 @@ Description
 
 Date
 
+- [### Introducing Claude Fable 5.2 and Claude Mythos 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2)
+
+  [Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences.](https://www.anthropic.com/claude-fable-and-mythos-5-2)
+
+  Nov 9, 2026
+
+  Nov 9, 2026
+
+  [### Introducing Claude Fable 5.2 and Claude Mythos 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2)[Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences.](https://www.anthropic.com/claude-fable-and-mythos-5-2)
 - [### Introducing Claude Haiku 5.5](https://www.anthropic.com/claude-haiku-5-5)
 
   [Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume work like summarization, subagents, and browser use.](https://www.anthropic.com/claude-haiku-5-5)
@@ -221,15 +230,6 @@ Date
   Mar 13, 2024
 
   [### Claude 3 Haiku: our fastest model yet](https://www.anthropic.com/news/claude-3-haiku)[Claude 3 Haiku is the fastest and most affordable model in its intelligence class.](https://www.anthropic.com/news/claude-3-haiku)
-- [### Introducing the next generation of Claude](https://www.anthropic.com/news/claude-3-family)
-
-  [The Claude 3 model family—Haiku, Sonnet, and Opus—sets new industry benchmarks across a wide range of cognitive tasks.](https://www.anthropic.com/news/claude-3-family)
-
-  Mar 4, 2024
-
-  Mar 4, 2024
-
-  [### Introducing the next generation of Claude](https://www.anthropic.com/news/claude-3-family)[The Claude 3 model family—Haiku, Sonnet, and Opus—sets new industry benchmarks across a wide range of cognitive tasks.](https://www.anthropic.com/news/claude-3-family)
 
 See more
 

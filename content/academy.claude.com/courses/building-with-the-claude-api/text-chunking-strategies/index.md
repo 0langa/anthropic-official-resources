@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Ftext-chunking-strategies)
 
+Embedded media: https://www.youtube-nocookie.com/embed/\_qUlhTDkp8Q?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=_qUlhTDkp8Q)
+
 Text chunking is one of the most critical steps in building a RAG (Retrieval Augmented Generation) pipeline. How you break up your documents directly impacts the quality of your entire system. A poor chunking strategy can lead to irrelevant context being inserted into your prompts, causing your AI to give completely wrong answers.
 
 ![A source document, an annual financial report, split into six chunks labeled Chunk 1 through Chunk 6.](https://academy.claude.com/assets/media/93d153d95565a34b8f54f369456c4867942a67313e604f11d87c7aa05bb41de0.jpg)

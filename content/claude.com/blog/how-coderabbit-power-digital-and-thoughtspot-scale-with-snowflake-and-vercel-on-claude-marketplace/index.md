@@ -60,7 +60,11 @@ Using your Anthropic commitment this way is in limited preview. If you have one,
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 28, 2026
+[ArticleNov 9, 2026
+
+### JPMorganChase expands Claude Code to more employees across the firm
+
+Claude Code](https://claude.com/resources/articles/jpmorganchase-expands-claude-code)[ArticleOct 28, 2026
 
 ### IDC brings Quanta into Claude and adopts Claude across the company
 
@@ -76,13 +80,7 @@ HCLTech will bring Claude into the solutions it provides for banks, hospitals, t
 
 Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
 
-Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 15, 2026
-
-### Bringing Salesforce into Claude
-
-Sellers can now research companies, prep for calls, review pipeline, and draft CRM updates with our new Salesforce in Claude plugin.
-
-Claude Enterprise](https://claude.com/resources/articles/salesforce-in-claude)
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)
 
 ## Transform how your organization operates with Claude
 

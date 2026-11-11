@@ -2,20 +2,21 @@
 
 # Investigating three real-world incidents in our cybersecurity evaluations
 
-- Published
+Published
+:   Jul 30, 2026
 
-  Jul 30, 2026
-- Category
+Category
+:   [Security](https://www.anthropic.com/news/security)
 
-  [Security](https://www.anthropic.com/news/security)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Alignment](https://www.anthropic.com/search?topic=alignment)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Alignment](https://www.anthropic.com/search?topic=alignment)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)See more...
+    See more...
 
 *In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations.*
 

@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fchaining-workflows)
 
+Embedded media: https://www.youtube-nocookie.com/embed/x1b3XMoS\_l0?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=x1b3XMoS_l0)
+
 Chaining workflows might seem obvious at first, but they're actually one of the most useful patterns you'll encounter when working with Claude. This approach becomes especially valuable when you're dealing with complex tasks or long prompts that Claude struggles to handle consistently.
 
 ## What is Workflow Chaining?[](https://academy.claude.com/courses/building-with-the-claude-api/chaining-workflows)

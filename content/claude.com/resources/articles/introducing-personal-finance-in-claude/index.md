@@ -27,7 +27,7 @@ From there, you can dig deeper: "Is that more than usual?" "Anything else I'm mi
 
 If you ask whether anything looks off, Claude reads across every account you've connected and can point to what's easy to miss, like charges that hit twice, unexpected fees, or a bill that’s crept up all year. You can also ask bigger questions, like "Am I spending more than I make?" or "What's an APR, and what has mine cost me this year?" Claude explains the term, then adds up the interest you've been charged.
 
-Ask for a weekly spending chart, a calendar of what's due, or a dashboard of the numbers you choose, and Claude builds one you can keep adjusting.
+Ask for a weekly spending chart, a calendar of what's due, or [a dashboard of the numbers you choose](https://claude.com/resources/articles/dashboards-and-motion), and Claude builds one you can keep adjusting.
 
 ## **Security and privacy**
 
@@ -43,31 +43,39 @@ When you see Personal Finance in Claude's sidebar, open it, connect one account,
 
 ## **What’s next**
 
-Personal Finance is a first step. For life’s bigger money decisions, we think people are best served by Claude working alongside the licensed professionals and regulated firms they trust. We’re exploring how to make that possible in Claude, and we’d like to hear from banks, wealth managers, and financial services companies who want to help shape it.
+Personal Finance is a first step. For life’s bigger money decisions, we think people are best served by Claude working alongside the licensed professionals and regulated firms they trust. We’re exploring how to make that possible in Claude, and we’d like to hear from banks, [wealth managers](https://claude.com/resources/articles/claude-for-financial-advisors), and financial services companies who want to help shape it.
 
 ## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 5, 2026
+[ArticleNov 10, 2026
 
-### More visibility and control over Claude Enterprise for security teams
+### Your apps can now open in Claude, and Claude can work in them
 
-Claude EnterpriseClaude apps](https://claude.com/resources/articles/claude-enterprise-security-updates)[ArticleNov 4, 2026
+Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
 
-### New agents and products for security, productivity, and creative work on Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace)[ArticleNov 2, 2026
+Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)[ArticleNov 10, 2026
 
-### Make long-running agents faster with message threads
+### More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
 
-New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
+Work at the speed of thought
 
-Claude Platform](https://claude.com/resources/articles/message-threads)[ArticleOct 28, 2026
+Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)[ArticleNov 10, 2026
 
-### Smart reports, surveys, and pooled group budgets for Claude Enterprise
+### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
 
-In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
+Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
 
-Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)
+Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)[ArticleNov 9, 2026
+
+### Claude Fable 5.2 and Mythos 5.2
+
+Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.
+
+Claude appsClaude Code1 more: Claude PlatformClaude Platform
+
+(opens in new tab)](https://www.anthropic.com/claude-fable-and-mythos-5-2)
 
 ## Transform how your organization operates with Claude
 

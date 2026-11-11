@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fagents-and-tools)
 
+Embedded media: https://www.youtube-nocookie.com/embed/eUzgF7hsLUU?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=eUzgF7hsLUU)
+
 Agents represent a shift from the structured workflows we've been working with. While workflows are perfect when you know the exact steps needed to complete a task, agents shine when you're not sure what those steps should be. Instead of defining a rigid sequence, you give Claude a goal and a set of tools, then let it figure out how to combine those tools to achieve the objective.
 
 ![Goal and tools feed into Claude, which plans to use them; reliable, economical task completion is often harder with agents.](https://academy.claude.com/assets/media/8478d80427e9081aa66a7084783dfb337ac19806a7d4a29e7c2705ac54474fc3.jpg)

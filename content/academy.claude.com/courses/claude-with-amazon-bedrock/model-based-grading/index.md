@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fmodel-based-grading)
 
+Embedded media: https://www.youtube-nocookie.com/embed/hPMo8qx5xjQ?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=hPMo8qx5xjQ)
+
 When building prompt evaluation workflows, graders provide objective signals about output quality. A grader takes model output and returns some kind of measurable feedback - typically a number between 1-10, where 10 represents high quality and 1 represents poor quality.
 
 ## Types of Graders[](https://academy.claude.com/courses/claude-with-amazon-bedrock/model-based-grading)

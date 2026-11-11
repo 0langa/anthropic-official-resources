@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fdefining-resources)
 
+Embedded media: https://www.youtube-nocookie.com/embed/9g4YpgPCoqg?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=9g4YpgPCoqg)
+
 Resources in MCP servers allow you to expose data to clients, similar to GET request handlers in a typical HTTP server. They're perfect for scenarios where you need to fetch information rather than perform actions.
 
 ## Understanding Resources[](https://academy.claude.com/courses/claude-with-amazon-bedrock/defining-resources)

@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Foverview-of-claude-models)
 
+Embedded media: https://www.youtube-nocookie.com/embed/ym7NvIIyzDI?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=ym7NvIIyzDI)
+
 Claude offers three distinct model families, each optimized for different priorities. All three models share Claude's core capabilities - they can handle text generation, coding, image analysis, and other tasks. The key difference is how they balance intelligence, speed, and cost. The examples in this course use Claude Haiku 4.5.
 
 ![Claude model family table comparing Opus, Sonnet and Haiku on description, cost, latency, reasoning support and best uses.](https://academy.claude.com/assets/media/d87ca18bfca0fadd839a95aa8eecb912a4b3cf1dbb1400081f2324be879509a9.png)

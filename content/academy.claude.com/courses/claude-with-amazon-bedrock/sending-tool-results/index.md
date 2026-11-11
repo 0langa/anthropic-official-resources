@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fsending-tool-results)
 
+Embedded media: https://www.youtube-nocookie.com/embed/\_0EaNMd9Za4?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=_0EaNMd9Za4)
+
 Now we're at the final step of the tool use workflow. After running our tools and getting the results, we need to send everything back to Claude so it can provide a complete response to the user.
 
 ![Our server sends Claude "What time is it?", the assistant text and tool use part, then a user message with the tool result.](https://academy.claude.com/assets/media/d86caccabc4e4c6ddc0dcae8462f8d5640bd46fe2d94d587859559942db42b3d.png)

@@ -10,6 +10,10 @@ Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-w
 
 **Important Note: Tool version strings can for all model versions can be found here: [https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool(opens in new tab)](https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool)**
 
+Embedded media: https://www.youtube-nocookie.com/embed/uK7s4jXNZrE?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=uK7s4jXNZrE)
+
 Claude comes with one built-in tool that you don't need to create from scratch: the text editor tool. This tool gives Claude the ability to work with files and directories just like you would in a standard text editor.
 
 ## What the Text Editor Tool Can Do[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/the-text-edit-tool)

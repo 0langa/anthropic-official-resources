@@ -1,18 +1,19 @@
 # Our approach to understanding and addressing AI harms
 
-- Published
+Published
+:   Apr 21, 2025
 
-  Apr 21, 2025
-- Category
+Category
+:   [Safeguards](https://www.anthropic.com/news/safeguards)
 
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-- Topics
+Topics
+:   - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+    - [Computer use](https://www.anthropic.com/search?topic=computer-use)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
 
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
-  - [Computer use](https://www.anthropic.com/search?topic=computer-use)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)See more...
+    See more...
 
 Related articles
 

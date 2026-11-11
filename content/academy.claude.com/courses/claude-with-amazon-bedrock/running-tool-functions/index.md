@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Frunning-tool-functions)
 
+Embedded media: https://www.youtube-nocookie.com/embed/uz2QMEZAF8Y?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=uz2QMEZAF8Y)
+
 When Claude responds with a tool use request, your server needs to actually run the requested tool and send the results back. This step involves extracting tool use parts from Claude's response, executing the appropriate functions, and formatting the results properly.
 
 ## Handling Multiple Tool Requests[](https://academy.claude.com/courses/claude-with-amazon-bedrock/running-tool-functions)

@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fstreaming)
 
+Embedded media: https://www.youtube-nocookie.com/embed/X-f5-yl3boE?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=X-f5-yl3boE)
+
 When building chat interfaces with AI models, users expect to see responses appear immediately rather than waiting 10-30 seconds for a complete response. The `converse_stream` function solves this by streaming text as it's generated, creating a much better user experience.
 
 ## How Streaming Works[](https://academy.claude.com/courses/claude-with-amazon-bedrock/streaming)

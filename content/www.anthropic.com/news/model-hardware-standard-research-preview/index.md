@@ -2,20 +2,21 @@
 
 # Previewing the Model Hardware Standard
 
-- Published
+Published
+:   Aug 27, 2026
 
-  Aug 27, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Robotics](https://www.anthropic.com/search?topic=robotics)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+    - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Robotics](https://www.anthropic.com/search?topic=robotics)
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
-  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 Related articles
 

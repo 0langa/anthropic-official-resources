@@ -1,17 +1,18 @@
 # Anthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening
 
-- Published
+Published
+:   May 26, 2026
 
-  May 26, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
 
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)See more...
+    See more...
 
 Related articles
 

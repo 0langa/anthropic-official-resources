@@ -29,7 +29,7 @@ The easiest way to implement an agent loop looks like this:
 2. Claude responds with either a final answer or a request to use a tool you defined.
 3. Your code executes that tool.
 4. You send the result back to Claude.
-5. Repeat until the **stop reason** is `end_turn`.
+5. Repeat as long as the **stop reason** is `tool_use`. `end_turn` means Claude is done, and any other stop reason also ends the loop.
 
 Think of it as a conversation where the turns alternate: the user kicks things off, the agent calls a tool, the tool returns a result, and the agent keeps going until it has an answer.
 
@@ -93,7 +93,7 @@ while True:
                 print(block.text)
         break
 
-    if response.stop_reason == "tool_use":
+    elif response.stop_reason == "tool_use":
         # Find the tool use blocks in the response and run each one.
         tool_results = []
         for block in response.content:
@@ -111,13 +111,22 @@ while True:
         # back into messages, then loop again so Claude can answer.
         messages.append({"role": "assistant", "content": response.content})
         messages.append({"role": "user", "content": tool_results})
+
+    else:
+        # Any other stop reason, such as max_tokens or refusal.
+        # Nothing in messages has changed, so stop here. Looping
+        # again would pay for the same request over and over.
+        print(f"Stopped early: {response.stop_reason}")
+        break
 ```
 
 Three pieces to notice:
 
 - The **tools array** tells Claude what's available: a name, a description, and a JSON schema for the inputs.
 - **`run_tool`** is just a hardcoded lookup. In a real app, this would hit your database, an API, whatever.
-- The **loop** is the agent loop. Each iteration sends the messages to Claude and switches on the response's stop reason. On `end_turn`, Claude is done — print the final text and break. On `tool_use`, find the tool use blocks, run each one, push the assistant's response and your tool results back into `messages`, and loop again so Claude can answer.
+- The **loop** is the agent loop. Each iteration sends the messages to Claude and switches on the response's stop reason. On `end_turn`, Claude is done, so print the final text and break. On `tool_use`, find the tool use blocks, run each one, push the assistant's response and your tool results back into `messages`, and loop again so Claude can answer. On anything else, print the stop reason and break.
+
+Don't leave out that last branch. Without it, a reply that's cut off at `max_tokens` adds nothing to `messages`, so the loop sends the same request again and you pay for it every time. The docs list [every stop reason and what to do about it(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons).
 
 ## Running it[](https://academy.claude.com/courses/claude-platform-101/the-agent-loop-explained)
 
@@ -147,7 +156,7 @@ The shape of the loop is identical to what you just ran. The differences are:
 ## Recap[](https://academy.claude.com/courses/claude-platform-101/the-agent-loop-explained)
 
 - An agent is **Claude in a loop**: observe, decide, act, repeat.
-- The loop is simple: send messages with tools, run any tool Claude requests, feed the result back, and stop when the stop reason is `end_turn`.
+- The loop is simple: send messages with tools, run any tool Claude requests, feed the result back, and stop when the stop reason is anything but `tool_use`.
 - **You own the loop and the tools. Claude owns the reasoning.**
 - The same loop shape scales from a mock weather demo to a production compliance agent — only the tools and plumbing change.
 - When you don't want to own the loop, managed agents run this exact loop for you on Anthropic's infrastructure.

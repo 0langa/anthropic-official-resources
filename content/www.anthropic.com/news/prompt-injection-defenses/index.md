@@ -4,20 +4,21 @@
 
 ![Mitigating the risk of prompt injections in browser use](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fea54304dcb09dc7ac5903e067f03176281005f64-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Nov 24, 2025
 
-  Nov 24, 2025
-- Team
+Team
+:   [Alignment](https://www.anthropic.com/research/team/alignment)
 
-  [Alignment](https://www.anthropic.com/research/team/alignment)
-- Topics
+Topics
+:   - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+    - [Computer use](https://www.anthropic.com/search?topic=computer-use)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
 
-  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
-  - [Computer use](https://www.anthropic.com/search?topic=computer-use)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)See more...
+    See more...
 
 Related articles
 

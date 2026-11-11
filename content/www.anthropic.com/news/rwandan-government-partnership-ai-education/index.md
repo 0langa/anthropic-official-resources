@@ -1,19 +1,20 @@
 # Anthropic partners with Rwandan Government and ALX to bring AI education to hundreds of thousands of learners across Africa
 
-- Published
+Published
+:   Nov 18, 2025
 
-  Nov 18, 2025
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Education](https://www.anthropic.com/search?topic=education)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
+    - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [Access](https://www.anthropic.com/search?topic=access)
 
-  - [Education](https://www.anthropic.com/search?topic=education)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [Access](https://www.anthropic.com/search?topic=access)See more...
+    See more...
 
 Related articles
 

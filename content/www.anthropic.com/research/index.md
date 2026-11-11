@@ -38,7 +38,7 @@ Studies how AI affects people, both individually and collectively.
 
 [## Science](https://www.anthropic.com/science)
 
-18 posts
+19 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 
@@ -80,7 +80,7 @@ Studies how AI affects people, both individually and collectively.
 
 [## Science](https://www.anthropic.com/science)
 
-18 posts
+19 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 
@@ -126,13 +126,21 @@ Anthropic’s Economics team is sharing a new model of how AI may affect economi
 
 05
 
-207
+208
 
 ARTICLES
 
 Filter
 
 Most recentGallery view
+
+[Science](https://www.anthropic.com/science)
+
+Nov 9, 2026![Abstract collage combining a close-up photograph of a circuit board with bright green panels of winding copper-track patterns.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F194adcd839895837f70e79a949b2f95496501d77-1280x1280.jpg&w=3840&q=75)
+
+### [Testing Claude on real-world electronics design](https://www.anthropic.com/research/claude-electronics-design)
+
+We asked Claude Fable 5.2 to design three electronic devices from short prompts: a speakerphone, a voice-assistant hub, and a handheld virtual pet. Diode Computers built working prototypes from its files.
 
 [Science](https://www.anthropic.com/science)
 
@@ -160,7 +168,7 @@ We analyzed 207,000 research sessions to learn how Claude is used in science, wh
 
 [Science](https://www.anthropic.com/science)
 
-Nov 4, 2026![Collage illustration pairing vintage measuring scales over a black-and-white photograph with a green print of a ribbed, vaulted cathedral ceiling.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F99ce1c2ac2d0649d677f097132829da2ab3c4e18-1280x1280.jpg&w=3840&q=75)
+Nov 4, 2026![Collage illustration pairing vintage measuring scales over a black-and-white photograph with a green print of a ribbed, vaulted cathedral ceiling.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffc840b9e8299956722b586784d0dfdaf7b81ff1a-2000x1125.jpg&w=3840&q=75)
 
 ### [Investigating vault particles with Claude](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
 
@@ -176,7 +184,7 @@ We have made progress on a type of cryptographic proof known as a “zkSNARK.”
 
 [Science](https://www.anthropic.com/science)
 
-Oct 27, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F492ae2fdf955e71a24bfda5422f950febeeec07f-2000x1125.jpg&w=3840&q=75)
+Oct 27, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F55c24ba57e702cf993cd96674ae030ba4c00842d-1280x1280.jpg&w=3840&q=75)
 
 ### [Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development)
 
@@ -317,13 +325,5 @@ Sep 17, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.
 ### [How Claude is uplifting biomolecular modeling](https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling)
 
 Claude made the open-source models that scientists use to predict and design biomolecules faster and more memory-efficient. Claude optimized more than 30 of these models in just under four weeks, speeding them up roughly 4x on average. It also created a low-memory mode that enables the accurate prediction of biomolecular systems larger than 10,000 tokens (amino acids, nucleotides, and atoms from small molecules and ions) on a single NVIDIA GPU node.
-
-[Economics](https://www.anthropic.com/research/team/economics)
-
-Sep 9, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffccf43cf4e36b0c26b4215861d909aadabbc32ce-1920x1080.png&w=3840&q=75)
-
-### [Scenarios for our economic future](https://www.anthropic.com/institute/econ-scenarios)
-
-Anthropic’s Economics team is sharing a new model of how AI may affect economic growth, jobs, wages, and more by 2030. The model lets you explore the scenarios, tell us what you think will happen, and see how your answers compare to +10,000 Americans.
 
 See more

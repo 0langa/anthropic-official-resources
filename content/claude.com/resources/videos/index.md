@@ -8,6 +8,17 @@ Unsubscribe at any time.
 
 Watchable demos, talks, and tutorials from the teams building and using Claude.
 
+[Video21 min watch
+
+### How Ramp engineers work with AI agents at every step
+
+Ramp runs AI agents across its entire engineering lifecycle: writing code, reviewing it, watching production, and root-causing incidents.
+Boris sat down with Austin Ray and Rahul Sengottuvelu of Ramp to talk about how they got there. Building for the models that are coming rather than the ones that exist, giving every engineer uncapped access to intelligence, and the guardrails that make it work. They compare notes on Claude Code setups, loops versus dynamic workflows, and what Claude Fable 5 unlocked.
+
+Claude Code
+
+(opens in new tab)](https://www.youtube.com/watch?v=i4odXOmgMLw)
+
 [Video10 min watch
 
 ### How Factory is building autonomous software with Claude
@@ -36,15 +47,15 @@ Claude Platform
 
 (opens in new tab)](https://www.youtube.com/watch?v=z7cNbsr3b5s)
 
-[Video2 min watch
+[Video15 min watch
 
-### How an Anthropic designer uses Claude Slides
+### How Salesforce uses Claude Code
 
-Make slides with Claude starting from a voice memo. Nate, a designer at Anthropic, talks through an idea on a walk and then turns it into a deck.
+Engineering leaders from Salesforce explain how they measure AI coding ROI with an "effective output" score built with Stanford researchers, and how an agent maturity curve moved engineers from simple prompts to autonomous agents across the software development life cycle.
 
-Claude Design
+Claude Code
 
-(opens in new tab)](https://www.youtube.com/watch?v=bVXiNb9RyyI)
+(opens in new tab)](https://www.youtube.com/watch?v=4ZsVR-6YOzs)
 
 [Video21 min watch
 
@@ -57,23 +68,21 @@ Claude Code
 
 (opens in new tab)](https://www.youtube.com/watch?v=i4odXOmgMLw)
 
-[Video10 min watch
-
-### How Factory is building autonomous software with Claude
-
-Factory is bringing autonomy to software engineering with Droids, AI coding agents that handle enterprise work. In this conversation, Co-founder and CEO Matan Grinberg sits down with Anthropic's Kai Gill to talk about his journey founding Factory, how Claude's frontier models handle long-horizon tasks across large codebases so teams can trust agent plans with less oversight, and what it will take to build a fully autonomous "dark factory" for software.
-
-Claude Platform
-
-(opens in new tab)](https://www.youtube.com/watch?v=N6FkmdL0Lg0)
-
-Featured resource 1 of 5: How Factory is building autonomous software with Claude
+Featured resource 1 of 5: How Ramp engineers work with AI agents at every step
 
 Advanced filters
 
-Showing 11 of 55 resources
+Showing 11 of 56 resources
 
-[Video21 min watch
+[Video15 min watch
+
+### How Salesforce uses Claude Code
+
+Engineering leaders from Salesforce explain how they measure AI coding ROI with an "effective output" score built with Stanford researchers, and how an agent maturity curve moved engineers from simple prompts to autonomous agents across the software development life cycle.
+
+Claude Code
+
+(opens in new tab)](https://www.youtube.com/watch?v=4ZsVR-6YOzs)[Video21 min watch
 
 ### How Ramp engineers work with AI agents at every step
 
@@ -148,14 +157,6 @@ Claude Code
 
 A look at the International Rescue Committee's fight against child malnutrition in Nigeria and how Claude could help this work.
 
-(opens in new tab)](https://www.youtube.com/watch?v=oZgcAsfvS_g)[Video4 min watch
-
-### Using Claude Opus 5.5 as your daily driver
-
-Opus 5.5 is faster than Opus 5, better at telling you what it did, and 20% cheaper per token.
-
-Claude Code
-
-(opens in new tab)](https://www.youtube.com/watch?v=jKRl_CSVxyI)
+(opens in new tab)](https://www.youtube.com/watch?v=oZgcAsfvS_g)
 
 View more

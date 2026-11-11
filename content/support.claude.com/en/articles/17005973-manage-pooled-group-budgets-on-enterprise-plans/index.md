@@ -1,6 +1,6 @@
 # Manage pooled group budgets on Enterprise plans
 
-A pooled group budget gives a group one shared monthly amount that all its members draw from, on top of each user's own monthly spend limit. This article explains how pooled budgets work and how to set, prioritize, and monitor them.
+A **[pooled group budget](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)** gives a group one shared monthly amount that all its members draw from, on top of each user's own monthly spend limit. This article explains how pooled budgets work and how to set, prioritize, and monitor them.
 
 Pooled group budgets are available on usage-based Enterprise plans and on Standard or Premium seat plans with usage credits enabled. Primary Owners, Owners, and custom roles with the **Billing** permission set to "Can manage" can set pooled budgets in **[Organization settings > Usage](https://claude.ai/admin-settings/usage)**.
 
@@ -80,7 +80,7 @@ If a user belongs to more than one group with a pooled budget, the largest poole
 
 With a custom order, the first pooled budget in your list with budget remaining pays.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719736736/a4ec8e92af4975a87891357e5dbd/6f58b496-432d-4069-ba18-72a6390ab2ea?expires=1794232800&amp;signature=8a4a9d5a5a4f07787171ebbc0207142ea4db2d1f052e1dc9d6d1ea0ff5c05b1c&amp;req=dicmH859m4ZcX%2FMW1HO4zU9wBwAaUoo7TLR6JppsyjS4fbI%2FgInVY%2BuMAuxc%0AiR3%2BYNGAKz7U3cYWOpo%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719736736/a4ec8e92af4975a87891357e5dbd/6f58b496-432d-4069-ba18-72a6390ab2ea?expires=1794402900&amp;signature=d04395af4f547a353722aeb98c0738169b0f7f0ec311b6912a6fba83e71af13c&amp;req=dicmH859m4ZcX%2FMW1HO4zU9wBwAcUYo6TLR6JppsyjRFiTRBAIhXNfDzzsnB%0AWmauCkzGAgfi4WKsLRQ%3D%0A)
 
 **Note:** Budget priority only decides the order in which pooled budgets pay. To choose which group's member monthly limit applies to a user in more than one group, use the **Member limit from groups** setting under **Spending defaults**.
 

@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fcode-based-grading)
 
+Embedded media: https://www.youtube-nocookie.com/embed/Npo436sR4uY?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=Npo436sR4uY)
+
 When evaluating AI models that generate code, you need more than just checking if the response makes sense. You also need to verify that the generated code actually has valid syntax and follows the correct format. This is where code-based grading comes in.
 
 ## How Code Grading Works[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/code-based-grading)

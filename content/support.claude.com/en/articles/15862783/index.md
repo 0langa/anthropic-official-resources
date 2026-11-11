@@ -1,6 +1,6 @@
 # Claude Fable 5 one-time free credits promotion
 
-**Note:** This promotion applied to Claude Fable 5 only. It didn't include Claude Fable 5.1, and the claim window closed on August 2, 2026.
+**Note:** This promotion applied to Claude Fable 5 only. It didn't include Claude Fable 5.2 or Claude Fable 5.1, and the claim window closed on August 2, 2026.
 
 ***This promotion applies to Pro plans and standard seats on Team plans.*** When the Claude Fable 5 weekly usage promotion ends on July 19, 2026 at 11:59:59 PM PT, Fable 5 will still be available to you but moves from your plan's weekly usage limits to pay-as-you-go usage credits.
 

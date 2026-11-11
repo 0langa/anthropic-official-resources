@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Ftool-schemas)
 
+Embedded media: https://www.youtube-nocookie.com/embed/iVjHwM5QBY4?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=iVjHwM5QBY4)
+
 After writing your tool function, the next step is creating a JSON schema that tells Claude what arguments your function expects and how to use it. This schema acts as documentation that Claude reads to understand when and how to call your tools.
 
 ## Understanding JSON Schema[](https://academy.claude.com/courses/building-with-the-claude-api/tool-schemas)

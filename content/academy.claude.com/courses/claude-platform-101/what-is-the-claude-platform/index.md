@@ -39,7 +39,7 @@ A useful way to picture the platform is as three layers stacked on top of each o
 
 The shorthand: **build with primitives, scale on infrastructure, run with control.**
 
-You can see this structure reflected in the Claude Console itself — it's where the infrastructure and control layers live, with sections for building, managing agents, and analytics.
+You can see this structure reflected in the Claude Console itself, where the infrastructure and control layers live. For example, the [Sessions page(opens in new tab)](https://platform.claude.com/sessions) lists your managed agents' sessions, and the [Usage page(opens in new tab)](https://platform.claude.com/usage) shows your API usage.
 
 ## A real example: drafting help desk replies[](https://academy.claude.com/courses/claude-platform-101/what-is-the-claude-platform)
 

@@ -4,6 +4,8 @@ Get a first reply from Claude in your own AWS account. Sign in from your termina
 
 25 minClaude Platform
 
+![](https://academy.claude.com/assets/v1/thumbnail.dark-h18unnjf.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-h18unnjf.png)
+
 **With Claude in Amazon Bedrock, you call Claude from your own AWS account.** You use your AWS sign-in, and the usage goes on your AWS bill. One short Python file gets you a first reply from Claude. You don't need an Anthropic API key.
 
 Before you start, you need an AWS account, Python 3.10 or later, and the AWS CLI. The AWS CLI is the tool for using AWS from a terminal.

@@ -4,19 +4,20 @@
 
 ![Measuring AI agent autonomy in practice](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2a8318397e04c2ab32e6f788a2139fdb60441277-1920x1080.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Feb 18, 2026
 
-  Feb 18, 2026
-- Team
+Team
+:   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
-- Topics
+Topics
+:   - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
+    - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
+    - [Privacy](https://www.anthropic.com/search?topic=privacy)
 
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)
-  - [Measurement and mitigation](https://www.anthropic.com/search?topic=measurement-and-mitigation)
-  - [Privacy](https://www.anthropic.com/search?topic=privacy)See more...
+    See more...
 
 Related articles
 

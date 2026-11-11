@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fusing-multiple-tools)
 
+Embedded media: https://www.youtube-nocookie.com/embed/vTExj1kCI5g?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=vTExj1kCI5g)
+
 Adding multiple tools to your Claude implementation becomes straightforward once you have the core tool-handling infrastructure in place. This tutorial shows how to integrate additional tools by following a simple pattern.
 
 ![The three tools we need: get the current date time, add duration to date time and set a reminder, described below.](https://academy.claude.com/assets/media/a717f46eec75a1fd38b52f641b998d3b0877e98425f802cf5a5e8b0926b2e604.png)

@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fcontextual-retrieval)
 
+Embedded media: https://www.youtube-nocookie.com/embed/l65t\_hOz6Pc?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=l65t_hOz6Pc)
+
 Contextual retrieval is a technique that improves RAG pipeline accuracy by solving a fundamental problem: when you split a document into chunks, each chunk loses its connection to the broader document context.
 
 ## The Problem with Standard Chunking[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/contextual-retrieval)

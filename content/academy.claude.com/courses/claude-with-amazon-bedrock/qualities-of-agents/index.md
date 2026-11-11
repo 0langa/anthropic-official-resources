@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fqualities-of-agents)
 
+Embedded media: https://www.youtube-nocookie.com/embed/DW1beSndnQA?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=DW1beSndnQA)
+
 After exploring Claude Code and Computer Use, we can identify key patterns that reveal what makes agents successful. Both tools demonstrate a systematic approach to problem-solving that relies on focused tool usage, environmental awareness, and iterative execution.
 
 ## How Agents Work in Practice[](https://academy.claude.com/courses/claude-with-amazon-bedrock/qualities-of-agents)

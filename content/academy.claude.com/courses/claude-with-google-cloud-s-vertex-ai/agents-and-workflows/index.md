@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fagents-and-workflows)
 
+Embedded media: https://www.youtube-nocookie.com/embed/c3IUVQlEvaU?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=c3IUVQlEvaU)
+
 When building applications with Claude, you'll often encounter tasks that can't be completed in a single request. This is where workflows and agents come in - they're strategies for handling complex, multi-step processes.
 
 You've actually been using these concepts throughout this course. Remember when we used tools and let Claude figure out how to complete tasks? That was an agent in action.

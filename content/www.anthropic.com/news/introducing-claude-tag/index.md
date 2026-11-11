@@ -2,19 +2,20 @@
 
 ![Introducing Claude Tag](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F301d5ee481a352435c048a9df7ce172b9617b05f-2400x1260.png&w=1920&q=75)
 
-- Published
+Published
+:   Jun 23, 2026
 
-  Jun 23, 2026
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
 
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Tool use](https://www.anthropic.com/search?topic=tool-use)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)See more...
+    See more...
 
 Related articles
 

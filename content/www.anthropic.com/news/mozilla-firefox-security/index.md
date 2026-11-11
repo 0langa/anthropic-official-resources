@@ -1,18 +1,19 @@
 # Partnering with Mozilla to improve Firefox’s security
 
-- Published
+Published
+:   Mar 6, 2026
 
-  Mar 6, 2026
-- Category
+Category
+:   [Security](https://www.anthropic.com/news/security)
 
-  [Security](https://www.anthropic.com/news/security)
-- Topics
+Topics
+:   - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Open source](https://www.anthropic.com/search?topic=open-source)
 
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Open source](https://www.anthropic.com/search?topic=open-source)See more...
+    See more...
 
 Related articles
 

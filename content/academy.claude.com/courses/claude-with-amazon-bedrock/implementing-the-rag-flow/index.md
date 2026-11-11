@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fimplementing-the-rag-flow)
 
+Embedded media: https://www.youtube-nocookie.com/embed/m6kmqI6C-Mc?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=m6kmqI6C-Mc)
+
 This walkthrough demonstrates the complete RAG (Retrieval-Augmented Generation) implementation using a practical example. We'll build a vector database from scratch and execute all five steps of the RAG workflow using a sample report document.
 
 ## Setting Up the Vector Database[](https://academy.claude.com/courses/claude-with-amazon-bedrock/implementing-the-rag-flow)

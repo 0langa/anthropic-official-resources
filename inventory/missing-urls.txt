@@ -10,6 +10,7 @@ https://claude.com/blog/prompt-engineering-best-practices
 https://claude.com/resources/articles/docx-js.md
 https://claude.com/resources/articles/ooxml.md
 https://claude.com/resources/articles/seeing-like-an-agent
+https://claude.com/resources/articles/self-hosted-claude-managed-agents
 https://claude.com/resources/tutorials/getting-started-with-claude-science
 https://claude.com/resources/tutorials/using-research-and-google-workspace
 https://code.claude.com/docs/en/examples
@@ -69,9 +70,10 @@ https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents
 https://support.claude.com/en/articles/14855664-use-claude-for-outlook
 https://support.claude.com/en/articles/15330089
 https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion
-https://support.claude.com/en/articles/16764810
-https://support.claude.com/en/articles/17161993
-https://support.claude.com/en/articles/17506494
+https://support.claude.com/en/articles/17644704
+https://support.claude.com/en/articles/18324088-redeem-the-mac-mini-and-claude-team-offer-through-cdw
+https://support.claude.com/en/articles/18324300
+https://support.claude.com/en/articles/18324319
 https://support.claude.com/en/articles/7996866-how-long-do-you-store-personal-data
 https://support.claude.com/en/articles/9945670-using-the-github-integration
 https://support.claude.com/en/articles/9945689-claude-for-engineering

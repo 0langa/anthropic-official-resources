@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fintroducing-tool-use)
 
+Embedded media: https://www.youtube-nocookie.com/embed/vRJwiUTwgNo?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=vRJwiUTwgNo)
+
 Tools allow Claude to access information from the outside world, extending its capabilities beyond what it learned during training. By default, Claude only knows information from its training data and can't access current events, real-time data, or external systems. Tool use solves this limitation by creating a structured way for Claude to request and receive fresh information.
 
 ## The Problem Without Tools[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/introducing-tool-use)

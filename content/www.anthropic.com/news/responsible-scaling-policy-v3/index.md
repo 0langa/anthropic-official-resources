@@ -4,20 +4,21 @@
 
 [Read the Responsible Scaling Policy](https://anthropic.com/responsible-scaling-policy/rsp-v3-0)
 
-- Published
+Published
+:   Feb 24, 2026
 
-  Feb 24, 2026
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+    - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)
+    - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
 
-  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
-  - [Race to the top](https://www.anthropic.com/search?topic=race-to-the-top)
-  - [Legal guardrails](https://www.anthropic.com/search?topic=legal-guardrails)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)See more...
+    See more...
 
 Related articles
 

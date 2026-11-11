@@ -185,7 +185,7 @@ Studies how large language models work internally as a foundation for AI safety.
 
 [### Science](https://www.anthropic.com/science)
 
-18 posts
+19 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 
@@ -227,7 +227,7 @@ Studies how large language models work internally as a foundation for AI safety.
 
 [### Science](https://www.anthropic.com/science)
 
-18 posts
+19 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 

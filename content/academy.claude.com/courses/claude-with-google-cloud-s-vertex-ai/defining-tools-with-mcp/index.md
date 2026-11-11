@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fdefining-tools-with-mcp)
 
+Embedded media: https://www.youtube-nocookie.com/embed/HLAVqXveX8w?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=HLAVqXveX8w)
+
 Building an MCP server becomes much simpler when you use the official Python SDK. Instead of writing complex JSON schemas by hand, you can define tools with decorators and let the SDK handle the heavy lifting.
 
 ![Our MCP server's read and update tools connected to four files: document.pdf, spreadsheet.xlsx, report.txt and spec.md.](https://academy.claude.com/assets/media/19aefa6bde860d04e6b71bd38de13b4ef638c4bd9aa2bcd4d385cd8281fe0c20.png)

@@ -699,6 +699,9 @@
   "https://claude.com/resources/articles/integrations": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://claude.com/resources/articles/interactive-connectors-full-tool": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
   "https://claude.com/resources/articles/interactive-tools-in-claude": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
@@ -763,6 +766,9 @@
     "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   ],
   "https://claude.com/resources/articles/self-serve-enterprise": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://claude.com/resources/articles/sheets-whiteboards-data": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
   "https://claude.com/resources/articles/skills": [
@@ -1964,79 +1970,79 @@
     "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w13": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w14": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w15": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w16": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w17": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w18": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w19": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w20": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w21": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w22": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w23": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w24": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w25": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w26": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w27": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w28": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w29": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w30": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w32": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w33": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w34": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w35": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w36": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/2026-w37": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/whats-new/index": [
-    "Contains upstream MDX/components; Markdown is not a visual website replica."
+    "Native source; upstream MDX components retained."
   ],
   "https://code.claude.com/docs/en/workflows": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
@@ -7573,6 +7579,27 @@
   "https://platform.claude.com/docs/en/manage-claude/compliance-org-data?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/manage-claude/compliance-security-posture/check-events-against-results": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/compliance-security-posture/detect-changes": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/compliance-security-posture/events-reference": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/compliance-security-posture/ocsf-mapping": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/compliance-security-posture/overview": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/compliance-security-posture/results-reference": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/compliance-security-posture/send-events": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/manage-claude/compliance-sessions": [
     "Native source; upstream MDX components retained."
   ],
@@ -9784,6 +9811,9 @@
   "https://support.claude.com/en/articles/16764057-create-surveys-for-your-organization": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/16764810": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/16764810-assign-a-program-to-workspaces-in-claude-console": [
     "Native source; upstream MDX components retained."
   ],
@@ -9868,6 +9898,9 @@
   "https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-ultra-and-team-plans": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/17161993": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/17161993-why-claude-switched-models-in-your-conversation-with-sonnet-5-5": [
     "Native source; upstream MDX components retained."
   ],
@@ -9919,6 +9952,9 @@
   "https://support.claude.com/en/articles/17454700-get-started-with-claude-dashboards": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/17454700-get-started-with-claude-data": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/17454997": [
     "Native source; upstream MDX components retained."
   ],
@@ -9935,6 +9971,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/17458093-claude-docs-keyboard-shortcuts": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/17506494": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/17506494-claude-fable-5-2-launch-offers": [
@@ -10013,6 +10052,12 @@
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/18251257-track-spend-by-project-with-tags": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/18324300-get-started-with-claude-sheets": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/18324319-get-started-with-claude-whiteboards": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for": [

@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fintroducing-mcp)
 
+Embedded media: https://www.youtube-nocookie.com/embed/36b3CsWvcIw?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=36b3CsWvcIw)
+
 Model Context Protocol (MCP) is a communication layer that provides Claude with context and tools without requiring you to write a bunch of tedious integration code. Instead of building every tool function yourself, MCP shifts that burden to specialized servers that handle the heavy lifting.
 
 ![Our server's MCP Client connects to two MCP Servers that each hold tools, prompts and resources and call an outside service.](https://academy.claude.com/assets/media/756f4e95014aed5979d5f87c2da8ea56b75c516a1e6879becbf224de8c1c4803.png)

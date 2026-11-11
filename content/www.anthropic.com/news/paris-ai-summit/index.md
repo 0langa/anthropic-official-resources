@@ -1,19 +1,20 @@
 # Statement from Dario Amodei on the Paris AI Action Summit
 
-- Published
+Published
+:   Feb 11, 2025
 
-  Feb 11, 2025
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
+    - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)
+    - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Leadership](https://www.anthropic.com/search?topic=leadership)
 
-  - [Democratic lead](https://www.anthropic.com/search?topic=democratic-lead)
-  - [International cooperation](https://www.anthropic.com/search?topic=international-cooperation)
-  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)See more...
+    See more...
 
 Related articles
 

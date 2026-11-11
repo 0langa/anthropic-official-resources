@@ -1,17 +1,18 @@
 # Lyft to bring Claude to more than 40 million riders and over 1 million drivers
 
-- Published
+Published
+:   Feb 6, 2025
 
-  Feb 6, 2025
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Beneficial Deployments](https://www.anthropic.com/search?topic=beneficial-deployments)
-  - [Coding](https://www.anthropic.com/search?topic=coding)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)See more...
+    See more...
 
 Related articles
 

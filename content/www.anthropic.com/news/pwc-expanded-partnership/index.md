@@ -1,19 +1,20 @@
 # PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients
 
-- Published
+Published
+:   May 14, 2026
 
-  May 14, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Financial services](https://www.anthropic.com/search?topic=financial-services)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Financial services](https://www.anthropic.com/search?topic=financial-services)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)See more...
+    See more...
 
 Related articles
 

@@ -75,33 +75,33 @@ Point Opus 5.5 at the open-ended, context-heavy work where those habits compound
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 27, 2026
+[ArticleNov 10, 2026
 
-### Manage costs and demonstrate ROI for Claude Code on Google Cloud
+### How Curative is building a national provider network with agents on Claude
 
-Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
+Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
 
-Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)[ArticleOct 22, 2026
+Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 9, 2026
 
-### Building agents: When to fold subagents into your main agent loop
+### Claude can design electronic prototypes from start to finish
 
-When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
+We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.
 
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[ArticleOct 22, 2026
+(opens in new tab)](https://www.anthropic.com/research/claude-electronics-design)[ArticleNov 9, 2026
 
-### LLMs are making formal software verification feasible at a much larger scale
+### Safely scaling multi-agent teams with Claude Fable 5.2
 
-We need ways to prove that code is free of bugs. Formal software verification could provide this guarantee.
+How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
 
-(opens in new tab)](https://www.anthropic.com/research/formal-verification)[ArticleOct 19, 2026
+(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)[ArticleNov 9, 2026
 
-### Redesigning source control at Anthropic
+### Which Claude model should you build with?
 
-As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.
+How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.
 
-Claude Code
+Claude PlatformClaude Code
 
-(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)
+(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)
 
 ## Transform how your organization operates with Claude
 

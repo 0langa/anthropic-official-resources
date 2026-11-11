@@ -1,18 +1,19 @@
 # Protecting the wellbeing of our users
 
-- Published
+Published
+:   Dec 18, 2025
 
-  Dec 18, 2025
-- Category
+Category
+:   [Safeguards](https://www.anthropic.com/news/safeguards)
 
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-- Topics
+Topics
+:   - [Wellbeing](https://www.anthropic.com/search?topic=wellbeing)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Wellbeing](https://www.anthropic.com/search?topic=wellbeing)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Sycophancy](https://www.anthropic.com/search?topic=sycophancy)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fimplementing-the-rag-flow)
 
+Embedded media: https://www.youtube-nocookie.com/embed/ubaZc7TCg4o?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=ubaZc7TCg4o)
+
 Now that we understand the RAG flow conceptually, let's implement it step by step. We'll walk through a complete example that demonstrates how to chunk text, generate embeddings, store them in a vector database, and perform similarity searches.
 
 ## The Five-Step RAG Implementation[](https://academy.claude.com/courses/building-with-the-claude-api/implementing-the-rag-flow)

@@ -1,19 +1,20 @@
 # Apply for Anthropic’s AI for Science rare disease research grants
 
-- Published
+Published
+:   Jul 20, 2026
 
-  Jul 20, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+    - [Research programs](https://www.anthropic.com/search?topic=research-programs)
+    - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Healthcare](https://www.anthropic.com/search?topic=healthcare)
 
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
-  - [Research programs](https://www.anthropic.com/search?topic=research-programs)
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Healthcare](https://www.anthropic.com/search?topic=healthcare)See more...
+    See more...
 
 Related articles
 

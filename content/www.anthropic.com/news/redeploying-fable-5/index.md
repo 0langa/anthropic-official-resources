@@ -1,19 +1,20 @@
 # Redeploying Fable 5
 
-- Published
+Published
+:   Jun 30, 2026
 
-  Jun 30, 2026
-- Category
+Category
+:   [Models](https://www.anthropic.com/news/models)
 
-  [Models](https://www.anthropic.com/news/models)
-- Topics
+Topics
+:   - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Access](https://www.anthropic.com/search?topic=access)
 
-  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Access](https://www.anthropic.com/search?topic=access)See more...
+    See more...
 
 Related articles
 

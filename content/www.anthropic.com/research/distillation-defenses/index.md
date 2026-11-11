@@ -2,20 +2,21 @@
 
 ![Strengthening our defenses against distillation attacks](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F46303b759b178149b34f19321645a0ede17b3f82-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 12, 2026
 
-  Oct 12, 2026
-- Category
+Category
+:   [Safeguards](https://www.anthropic.com/news/safeguards)
 
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-- Topics
+Topics
+:   - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)
+    - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
+    - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)
 
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Threat Intelligence](https://www.anthropic.com/search?topic=threat-intelligence)
-  - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
-  - [Cybersecurity](https://www.anthropic.com/search?topic=cybersecurity)See more...
+    See more...
 
 Related articles
 

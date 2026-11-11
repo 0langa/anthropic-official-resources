@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Frules-of-prompt-caching)
 
+Embedded media: https://www.youtube-nocookie.com/embed/PQLf4HdHLbY?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=PQLf4HdHLbY)
+
 Prompt caching in Claude works by storing the computational work done on your messages so it can be reused in follow-up requests. This makes subsequent requests both faster and cheaper to execute, but only when you're repeatedly sending identical content.
 
 ![Diagram: Claude writes processing work to the cache on the initial request and reads it back on a follow-up request.](https://academy.claude.com/assets/media/5f73b85b403282f7f9ffd86dcf5d3861079d984f1e7021f9731288ded9139696.jpg)

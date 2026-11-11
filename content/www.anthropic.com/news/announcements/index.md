@@ -2,7 +2,7 @@
 
 # Announcements
 
-77
+79
 
 ARTICLES
 
@@ -14,6 +14,24 @@ Description
 
 Date
 
+- [### Anthropic launches roadshow for proposed initial public offering](https://www.anthropic.com/news/roadshow-launch)
+
+  [Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.](https://www.anthropic.com/news/roadshow-launch)
+
+  Nov 10, 2026
+
+  Nov 10, 2026
+
+  [### Anthropic launches roadshow for proposed initial public offering](https://www.anthropic.com/news/roadshow-launch)[Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.](https://www.anthropic.com/news/roadshow-launch)
+- [### Introducing Claude Fable 5.2 and Claude Mythos 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2)
+
+  [Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences.](https://www.anthropic.com/claude-fable-and-mythos-5-2)
+
+  Nov 9, 2026
+
+  Nov 9, 2026
+
+  [### Introducing Claude Fable 5.2 and Claude Mythos 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2)[Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences.](https://www.anthropic.com/claude-fable-and-mythos-5-2)
 - [### AI for Science expands to foundations and research institutions](https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions)
 
   [We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Science program.](https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions)
@@ -212,24 +230,6 @@ Date
   Jul 9, 2026
 
   [### Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust](https://www.anthropic.com/news/ben-bernanke)[Former Federal Reserve Chair Ben Bernanke has been appointed to Anthropic's Long-Term Benefit Trust, bringing expertise on AI's economic impacts.](https://www.anthropic.com/news/ben-bernanke)
-- [### Inviting hard questions](https://www.anthropic.com/news/hard-questions)
-
-  [We’re asking the public for their hardest questions about AI, and committing to show our work as we address them.](https://www.anthropic.com/news/hard-questions)
-
-  Jul 9, 2026
-
-  Jul 9, 2026
-
-  [### Inviting hard questions](https://www.anthropic.com/news/hard-questions)[We’re asking the public for their hardest questions about AI, and committing to show our work as we address them.](https://www.anthropic.com/news/hard-questions)
-- [### Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem](https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem)
-
-  [Anthropic opens in Seoul and announces new partnerships across the Korean AI ecosystem.](https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem)
-
-  Jun 17, 2026
-
-  Jun 17, 2026
-
-  [### Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem](https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem)[Anthropic opens in Seoul and announces new partnerships across the Korean AI ecosystem.](https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem)
 
 See more
 

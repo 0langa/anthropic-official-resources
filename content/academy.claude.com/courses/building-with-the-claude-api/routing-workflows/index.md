@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Frouting-workflows)
 
+Embedded media: https://www.youtube-nocookie.com/embed/usj5WVAzW5A?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=usj5WVAzW5A)
+
 Routing workflows solve a common problem in AI applications: different types of user requests need different handling approaches. Instead of using a one-size-fits-all prompt, you can categorize incoming requests and route them to specialized processing pipelines.
 
 ## The Problem with Generic Prompts[](https://academy.claude.com/courses/building-with-the-claude-api/routing-workflows)

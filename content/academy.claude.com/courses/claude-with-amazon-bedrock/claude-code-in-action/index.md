@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fclaude-code-in-action)
 
+Embedded media: https://www.youtube-nocookie.com/embed/FJTSUsIgvzk?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=FJTSUsIgvzk)
+
 Claude Code isn't just a tool for writing code - it's designed to be your coding partner throughout an entire project lifecycle. From initial setup to deployment and maintenance, Claude can help with every step of software development.
 
 ![Five project stages, Discover, Design, Build, Deploy, and Support and Scale, each with three Claude Code tasks.](https://academy.claude.com/assets/media/a7b4baf081b4100802708298bce2a0481adf57c1f574f05da55b83aa84a4aeea.png)

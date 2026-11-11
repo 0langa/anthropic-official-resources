@@ -1,17 +1,18 @@
 # Offering expanded Claude access across all three branches of the U.S. government
 
-- Published
+Published
+:   Aug 12, 2025
 
-  Aug 12, 2025
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [Access](https://www.anthropic.com/search?topic=access)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [Access](https://www.anthropic.com/search?topic=access)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

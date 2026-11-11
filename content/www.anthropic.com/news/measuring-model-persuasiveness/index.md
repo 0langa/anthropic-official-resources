@@ -4,19 +4,20 @@
 
 ![Measuring the persuasiveness of language models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Faee478bbec15ab3db1de3e1d6c9431ee9451821c-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Apr 9, 2024
 
-  Apr 9, 2024
-- Team
+Team
+:   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-  [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
-- Topics
+Topics
+:   - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
+    - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
+    - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
 
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [Scaling laws](https://www.anthropic.com/search?topic=scaling-laws)
-  - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
-  - [Limits on abuse](https://www.anthropic.com/search?topic=limits-on-abuse)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)See more...
+    See more...
 
 Related articles
 

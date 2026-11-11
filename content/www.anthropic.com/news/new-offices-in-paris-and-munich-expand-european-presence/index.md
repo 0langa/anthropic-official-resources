@@ -1,17 +1,18 @@
 # New offices in Paris and Munich expand Anthropic’s European presence
 
-- Published
+Published
+:   Nov 7, 2025
 
-  Nov 7, 2025
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
+    - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Global expansion](https://www.anthropic.com/search?topic=global-expansion)
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

@@ -24,7 +24,7 @@ In this guide, we share:
 - A four-tier oversight model (automated, sampled, reviewed, and advisory) that matches human review to the risk of each output, with example tasks and a review cadence for each tier
 - A transition blueprint laying out what to decide, when to decide it, and who needs to own each decision
 
-[Read the guide](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6aa46440db7c5ad962ef7ef2_Claude-Accenture-Deploying-AI-from-pilot-to-production-09112026%20(1).pdf).
+[Read the guide](https://assets.claude.com/0d69a04dfb7b9c9d405655d8c1a20c3b8ff95180.pdf).
 
 ## Related articles
 

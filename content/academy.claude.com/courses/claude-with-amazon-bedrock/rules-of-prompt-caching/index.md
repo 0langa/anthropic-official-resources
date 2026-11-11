@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Frules-of-prompt-caching)
 
+Embedded media: https://www.youtube-nocookie.com/embed/0h--5Mj1mBQ?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=0h--5Mj1mBQ)
+
 Prompt caching in Claude works by storing the computational work done on messages so it can be reused in follow-up requests. This makes subsequent requests both cheaper and faster to execute, but only when you're repeatedly sending the same content.
 
 ![Claude writes the work done on the prompt "Please summarize this" to the cache, then reads it on the follow-up request.](https://academy.claude.com/assets/media/097732ecdd541098bf4f1bfd3c4ae1b9893223af3b2c07be2f928667986ccfb4.png)

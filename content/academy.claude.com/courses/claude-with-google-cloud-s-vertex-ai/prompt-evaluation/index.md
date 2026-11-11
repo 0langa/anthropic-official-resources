@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fprompt-evaluation)
 
+Embedded media: https://www.youtube-nocookie.com/embed/NJX7PRhV4kc?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=NJX7PRhV4kc)
+
 When working with Claude, writing a good prompt is just the beginning. To build reliable AI applications, you need to understand two critical concepts: prompt engineering and prompt evaluation. Prompt engineering gives you techniques to write better prompts, while prompt evaluation helps you measure how well those prompts actually work.
 
 ![Improving and evaluating prompts: side-by-side definitions of prompt engineering and prompt evaluation, described below.](https://academy.claude.com/assets/media/c1b0e1164b44e2de255137a6950d9a3795f2ab17eaa22cae93abba5aa021b66e.png)

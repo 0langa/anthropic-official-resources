@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fimplementing-the-rag-flow)
 
+Embedded media: https://www.youtube-nocookie.com/embed/toBJoOo0Nnw?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=toBJoOo0Nnw)
+
 Now that we understand the RAG flow conceptually, let's implement it step by step using a practical example. We'll work through all five stages of the RAG process, from chunking text to finding relevant documents for user queries.
 
 ## Setting Up the Vector Database[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/implementing-the-rag-flow)

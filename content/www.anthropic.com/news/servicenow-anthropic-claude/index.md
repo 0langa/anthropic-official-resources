@@ -1,19 +1,20 @@
 # ServiceNow chooses Claude to power customer apps and increase internal productivity
 
-- Published
+Published
+:   Jan 28, 2026
 
-  Jan 28, 2026
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Productivity](https://www.anthropic.com/search?topic=productivity)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Agents](https://www.anthropic.com/search?topic=agents)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Productivity](https://www.anthropic.com/search?topic=productivity)
-  - [Coding](https://www.anthropic.com/search?topic=coding)See more...
+    See more...
 
 Related articles
 

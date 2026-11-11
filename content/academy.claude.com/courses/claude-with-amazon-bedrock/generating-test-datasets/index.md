@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fgenerating-test-datasets)
 
+Embedded media: https://www.youtube-nocookie.com/embed/e2qPNdknFos?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=e2qPNdknFos)
+
 Building a custom prompt evaluation workflow starts with creating a clear goal and generating test data. In this case, we're building a prompt that helps users write AWS-specific code - either Python functions, JSON configurations, or regular expressions - with no extra explanations or formatting.
 
 ## Setting Up the Goal[](https://academy.claude.com/courses/claude-with-amazon-bedrock/generating-test-datasets)

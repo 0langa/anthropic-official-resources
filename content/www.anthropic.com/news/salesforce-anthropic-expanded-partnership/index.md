@@ -1,19 +1,20 @@
 # Anthropic and Salesforce expand partnership to bring Claude to regulated industries
 
-- Published
+Published
+:   Oct 14, 2025
 
-  Oct 14, 2025
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Financial services](https://www.anthropic.com/search?topic=financial-services)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Financial services](https://www.anthropic.com/search?topic=financial-services)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Model Context Protocol](https://www.anthropic.com/search?topic=model-context-protocol)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 Related articles
 

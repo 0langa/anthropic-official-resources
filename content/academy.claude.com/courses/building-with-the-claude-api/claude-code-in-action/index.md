@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fclaude-code-in-action)
 
+Embedded media: https://www.youtube-nocookie.com/embed/FJTSUsIgvzk?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=FJTSUsIgvzk)
+
 Claude Code isn't just a tool for writing code - it's designed to work alongside you throughout every phase of a software project. Think of it as another engineer on your team who can handle everything from initial setup to deployment and support.
 
 ![Five project phases, Discover, Design, Build, Deploy and "Support and Scale", each with three Claude Code tasks.](https://academy.claude.com/assets/media/75870c12a77b65c49c1dca513d3185f6c6b4ef834ec50693930c42ec9e6b22c7.jpg)

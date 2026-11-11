@@ -1,17 +1,18 @@
 # Paul Smith to join Anthropic as Chief Commercial Officer
 
-- Published
+Published
+:   Jul 15, 2025
 
-  Jul 15, 2025
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
+    - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
 
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Claude Code](https://www.anthropic.com/search?topic=claude-code)
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)See more...
+    See more...
 
 Related articles
 

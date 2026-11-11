@@ -2,19 +2,20 @@
 
 ![Investing in the public benefit](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcbdc2eac6dfb37cf596d8f9fb32783036b5737c2-2000x1125.jpg&w=1920&q=75)
 
-- Published
+Published
+:   Oct 18, 2026
 
-  Oct 18, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Funding](https://www.anthropic.com/search?topic=funding)
+    - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
+    - [Labor market](https://www.anthropic.com/search?topic=labor-market)
+    - [Nonprofits](https://www.anthropic.com/search?topic=nonprofits)
+    - [Leadership](https://www.anthropic.com/search?topic=leadership)
 
-  - [Funding](https://www.anthropic.com/search?topic=funding)
-  - [Economic Futures](https://www.anthropic.com/search?topic=economic-futures)
-  - [Labor market](https://www.anthropic.com/search?topic=labor-market)
-  - [Nonprofits](https://www.anthropic.com/search?topic=nonprofits)
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)See more...
+    See more...
 
 Related articles
 

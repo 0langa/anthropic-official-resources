@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fworkflows-vs-agents)
 
+Embedded media: https://www.youtube-nocookie.com/embed/7HrSnofHIns?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=7HrSnofHIns)
+
 When building AI-powered applications, you'll often need to choose between two different architectural approaches: workflows and agents. Each has distinct advantages and trade-offs that make them suitable for different scenarios.
 
 ![Side-by-side comparison of workflows and agents, with a summary, benefits and downsides for each, described below.](https://academy.claude.com/assets/media/a55b1534d0e760005a8891cf18d2f189e197116031c75e6fc6bfee1636f9c739.jpg)

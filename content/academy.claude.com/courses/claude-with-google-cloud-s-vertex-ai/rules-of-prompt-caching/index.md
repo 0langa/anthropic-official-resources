@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Frules-of-prompt-caching)
 
+Embedded media: https://www.youtube-nocookie.com/embed/z8rfsTT3qow?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=z8rfsTT3qow)
+
 Prompt caching in Claude works by storing the computational work done on messages so it can be reused in follow-up requests. This makes requests that use cached content both cheaper and faster to execute.
 
 ![Claude writes the work done on the prompt "Please summarize this" to the cache, then reads it on the follow-up request.](https://academy.claude.com/assets/media/8d1b4733699fd5da71578c905364b67e3195daa0b2911db411b5ebdcd5bfc7c9.png)

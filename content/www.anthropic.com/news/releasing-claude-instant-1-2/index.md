@@ -1,18 +1,19 @@
 # Releasing Claude Instant 1.2
 
-- Published
+Published
+:   Aug 9, 2023
 
-  Aug 9, 2023
-- Category
+Category
+:   [Models](https://www.anthropic.com/news/models)
 
-  [Models](https://www.anthropic.com/news/models)
-- Topics
+Topics
+:   - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Hallucination](https://www.anthropic.com/search?topic=hallucination)
+    - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+    - [Coding](https://www.anthropic.com/search?topic=coding)
 
-  - [Claude Developer Platform](https://www.anthropic.com/search?topic=claude-developer-platform)
-  - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
-  - [Hallucination](https://www.anthropic.com/search?topic=hallucination)
-  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
-  - [Coding](https://www.anthropic.com/search?topic=coding)See more...
+    See more...
 
 Related articles
 

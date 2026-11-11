@@ -1,18 +1,19 @@
 # Reflections on our Responsible Scaling Policy
 
-- Published
+Published
+:   May 20, 2024
 
-  May 20, 2024
-- Category
+Category
+:   [Policy](https://www.anthropic.com/news/policy)
 
-  [Policy](https://www.anthropic.com/news/policy)
-- Topics
+Topics
+:   - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
+    - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
+    - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+    - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)
 
-  - [Responsible Scaling Policy](https://www.anthropic.com/search?topic=responsible-scaling-policy)
-  - [Safety evaluations](https://www.anthropic.com/search?topic=safety-evaluations)
-  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [Red teaming](https://www.anthropic.com/search?topic=red-teaming)See more...
+    See more...
 
 Related articles
 

@@ -1,17 +1,18 @@
 # Rahul Patil joins Anthropic as Chief Technology Officer
 
-- Published
+Published
+:   Oct 7, 2025
 
-  Oct 7, 2025
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Training](https://www.anthropic.com/search?topic=training)
 
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Compute & energy](https://www.anthropic.com/search?topic=compute-energy)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Training](https://www.anthropic.com/search?topic=training)See more...
+    See more...
 
 Related articles
 

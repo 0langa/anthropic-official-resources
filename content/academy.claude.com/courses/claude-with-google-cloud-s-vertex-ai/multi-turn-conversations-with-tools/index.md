@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fmulti-turn-conversations-with-tools)
 
+Embedded media: https://www.youtube-nocookie.com/embed/rnEPe8VKvgg?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=rnEPe8VKvgg)
+
 When building applications with multiple tools, you need to handle scenarios where Claude might need to call several tools in sequence to answer a single user question. For example, if a user asks "What day is 103 days from today?", Claude needs to first get the current date, then add 103 days to it.
 
 ![Four messages between our server and Claude, with the full message history omitted for clarity, described below.](https://academy.claude.com/assets/media/b0e37c02f440c757e74cac66bc67b4bfffd1926e5b471b3840753714d7ee7c5c.png)

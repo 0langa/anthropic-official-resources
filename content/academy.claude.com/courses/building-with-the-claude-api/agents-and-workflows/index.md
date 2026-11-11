@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fagents-and-workflows)
 
+Embedded media: https://www.youtube-nocookie.com/embed/c3IUVQlEvaU?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=c3IUVQlEvaU)
+
 Workflows and agents are strategies for handling user tasks that can't be completed by Claude in a single request. You've actually been creating both throughout this course - when you used tools and let Claude figure out how to complete tasks, that was an agent.
 
 ## When to Use Workflows vs Agents[](https://academy.claude.com/courses/building-with-the-claude-api/agents-and-workflows)

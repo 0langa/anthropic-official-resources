@@ -33,7 +33,7 @@ Once you're set up, use this page to move work between your terminal and the clo
 
 Every cloud session runs in a [cloud environment](/docs/en/cloud-environments), the saved configuration that controls network access, environment variables, and setup scripts.
 
-* **Your first environment**: if you don't have one yet, onboarding sets up a **Default** environment with [**Trusted** network access](/docs/en/cloud-environments#access-levels), either by creating it for you or by asking you to create it. See [The Default environment](/docs/en/cloud-environments#the-default-environment) for which of those happens on your plan
+* **Your first environment**: if you don't have one yet, onboarding sets up a **Default** environment with [**Limited** network access](/docs/en/cloud-environments#access-levels). See [The Default environment](/docs/en/cloud-environments#the-default-environment) for how that works on your plan
 * **Which environment a session uses**: see [The Default environment](/docs/en/cloud-environments#the-default-environment) for how sessions choose an environment when you have more than one
 * **Change what sessions can reach or run at startup**: see [Configure cloud environments](/docs/en/cloud-environments)
 * **What's installed without any configuration**: see [Installed tools](/docs/en/cloud-environments#installed-tools)
@@ -496,9 +496,6 @@ Before relying on cloud sessions for a workflow, account for these constraints:
 * **Repository authentication**: you can only pull a cloud session into your terminal when you are authenticated to the same account
 * **Platform restrictions**: repository cloning in Anthropic-hosted environments and pull request creation require GitHub. Self-hosted [GitHub Enterprise Server](/docs/en/github-enterprise-server) instances are supported for Team and Enterprise plans. You can send a GitLab, Bitbucket, or other non-GitHub repository to a cloud session as a [local bundle](#send-local-repositories-without-github) by setting `CCR_FORCE_BUNDLE=1`, but the session can't push results back to that remote
   * **Self-hosted environments**: for a repository on another git host, see the [requirements for starting a session with `--environment`](/docs/en/self-hosted-environments-deploy#start-a-session-on-a-repository-outside-github).
-* **Organization IP allowlist**: cloud sessions call the Anthropic API from Anthropic-managed infrastructure, not your network, while sessions in a [self-hosted environment](/docs/en/self-hosted-environments) call it from your own network. If your organization has [IP allowlisting](https://support.claude.com/en/articles/13200993-restrict-access-to-claude-with-ip-allowlisting) enabled, every Anthropic-hosted cloud session fails with an authentication error.
-  * **Code Review and scheduled tasks**: the same applies to [Code Review](/docs/en/code-review) and to [cloud scheduled tasks](/docs/en/routines) that run on Anthropic-hosted environments. A scheduled task routed to a self-hosted environment calls the API from your own network.
-  * **Getting an exemption**: contact [Anthropic support](https://support.claude.com/) to exempt Anthropic-hosted services from your organization's IP allowlist.
 
 ## Related resources
 

@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fclaude-code-setup)
 
+Embedded media: https://www.youtube-nocookie.com/embed/g7hy1S\_9EXA?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=g7hy1S_9EXA)
+
 Claude Code is a terminal-based coding assistant that runs directly in your command line. Think of it as having Claude available right in your terminal to help with any coding task you're working on.
 
 ![Claude Code terminal welcoming you to the research preview, asking how it can help, and prompting Try "fix lint errors".](https://academy.claude.com/assets/media/c84a726b55331870dddf0280c55847a4c95d02af3f8d14ef0766b1692d4a7df3.jpg)

@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fhow-computer-use-works)
 
+Embedded media: https://www.youtube-nocookie.com/embed/O2lmnWbPlHE?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=O2lmnWbPlHE)
+
 Computer use in Claude works exactly like regular tool use - it's built on the same foundation you're already familiar with. The key difference is that instead of calling a weather API or database function, Claude is making requests to control a computer interface.
 
 ## Tool Use Refresher[](https://academy.claude.com/courses/claude-with-amazon-bedrock/how-computer-use-works)

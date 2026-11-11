@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fproject-overview)
 
+Embedded media: https://www.youtube-nocookie.com/embed/YukUpBmQ04s?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=YukUpBmQ04s)
+
 We're going to build a practical project that teaches Claude how to set reminders for future dates. This might sound simple at first, but it reveals several interesting challenges that we'll solve using custom tools.
 
 ![In a chat, a user asks for a reminder for a doctor's appointment a week from Thursday, a goal that takes 3 to 4 custom tools.](https://academy.claude.com/assets/media/0b1a7a20c9a0a4d57723e9c95065d706990ddccabbba00944372d861507b1785.png)

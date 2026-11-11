@@ -1,19 +1,20 @@
 # Salesforce teams up with Anthropic to enhance Einstein capabilities with Claude
 
-- Published
+Published
+:   Sep 3, 2024
 
-  Sep 3, 2024
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
+    - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
+    - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
+    - [Agents](https://www.anthropic.com/search?topic=agents)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Claude Sonnet](https://www.anthropic.com/search?topic=claude-sonnet)
-  - [Claude Opus](https://www.anthropic.com/search?topic=claude-opus)
-  - [Claude Haiku](https://www.anthropic.com/search?topic=claude-haiku)
-  - [Agents](https://www.anthropic.com/search?topic=agents)See more...
+    See more...
 
 Related articles
 

@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fautomated-debugging)
 
+Embedded media: https://www.youtube-nocookie.com/embed/uPu0-l-HKCc?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=uPu0-l-HKCc)
+
 Claude isn't just for writing code in your editor. It can also monitor your production applications and automatically fix errors as they occur. This creates a powerful automated debugging workflow that can catch and resolve issues before they impact your users.
 
 ![Path across five project stages, from onboarding through specs, tests and code to monitoring usage, then debugging errors.](https://academy.claude.com/assets/media/4c6982735b6b5df20a3c8450b684655a460696eaa113810180297ea3a9e70fbb.png)

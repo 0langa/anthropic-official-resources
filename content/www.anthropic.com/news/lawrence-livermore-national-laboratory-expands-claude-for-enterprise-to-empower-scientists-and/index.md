@@ -1,18 +1,19 @@
 # Lawrence Livermore National Laboratory expands Claude for Enterprise use to empower scientists and researchers
 
-- Published
+Published
+:   Jul 9, 2025
 
-  Jul 9, 2025
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
+    - [National security](https://www.anthropic.com/search?topic=national-security)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
 
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Government capacity](https://www.anthropic.com/search?topic=government-capacity)
-  - [National security](https://www.anthropic.com/search?topic=national-security)
-  - [Discovery](https://www.anthropic.com/search?topic=discovery)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)See more...
+    See more...
 
 Related articles
 

@@ -1,16 +1,17 @@
 # Partnering with Scale to bring generative AI to enterprises
 
-- Published
+Published
+:   Apr 26, 2023
 
-  Apr 26, 2023
-- Category
+Category
+:   [Partnerships](https://www.anthropic.com/news/partnerships)
 
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-- Topics
+Topics
+:   - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Access](https://www.anthropic.com/search?topic=access)
 
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Access](https://www.anthropic.com/search?topic=access)See more...
+    See more...
 
 Related articles
 

@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fparallelization-workflows)
 
+Embedded media: https://www.youtube-nocookie.com/embed/7ue2dtIZy0M?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=7ue2dtIZy0M)
+
 When building AI applications, you'll often encounter tasks that seem simple on the surface but become complex when you try to implement them effectively. Let's explore a powerful pattern called parallelization workflows that can help you break down complex tasks into manageable, focused pieces.
 
 ## The Problem with Complex Single Prompts[](https://academy.claude.com/courses/building-with-the-claude-api/parallelization-workflows)

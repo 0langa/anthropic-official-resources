@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fadding-multiple-tools)
 
+Embedded media: https://www.youtube-nocookie.com/embed/Bx4-UAgVS9E?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=Bx4-UAgVS9E)
+
 Now that we have one tool working, it's time to add the remaining two tools to complete our project: `add_duration_to_datetime` and `set_reminder`. The good news is that once you have the foundation in place, adding new tools is straightforward.
 
 ![Three tools needed: get the current date time, add duration to date time, which Claude isn't perfect at, and set a reminder.](https://academy.claude.com/assets/media/91f4fc5203e3c1c26229c13016088eaf51bee660857c84c5fef4d90148b5b199.jpg)

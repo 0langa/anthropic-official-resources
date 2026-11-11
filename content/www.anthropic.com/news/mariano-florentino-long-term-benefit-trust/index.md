@@ -1,17 +1,18 @@
 # Mariano-Florentino Cuéllar appointed to Anthropic’s Long-Term Benefit Trust
 
-- Published
+Published
+:   Jan 21, 2026
 
-  Jan 21, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
+    - [Global stability](https://www.anthropic.com/search?topic=global-stability)
 
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Democratic integrity](https://www.anthropic.com/search?topic=democratic-integrity)
-  - [Global stability](https://www.anthropic.com/search?topic=global-stability)See more...
+    See more...
 
 Related articles
 

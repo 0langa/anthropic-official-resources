@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fsystem-prompts)
 
+Embedded media: https://www.youtube-nocookie.com/embed/ak58w1rPINY?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=ak58w1rPINY)
+
 When building AI chatbots for specific use cases, you need a way to control how the AI responds. System prompts are the key to transforming a general-purpose AI into a specialized assistant that follows specific guidelines and stays on topic.
 
 ![Responses should mention Postgres hosting on AWS, setup steps and related AWS services, not competitors or non-cloud topics.](https://academy.claude.com/assets/media/a8883fbe515bc8ea7e369f29e866caa10ed49af599dd529a3143bed87c9cd346.png)

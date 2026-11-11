@@ -1,17 +1,18 @@
 # Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors
 
-- Published
+Published
+:   Apr 14, 2026
 
-  Apr 14, 2026
-- Category
+Category
+:   [Announcements](https://www.anthropic.com/news/announcements)
 
-  [Announcements](https://www.anthropic.com/news/announcements)
-- Topics
+Topics
+:   - [Leadership](https://www.anthropic.com/search?topic=leadership)
+    - [Transparency](https://www.anthropic.com/search?topic=transparency)
+    - [Healthcare](https://www.anthropic.com/search?topic=healthcare)
+    - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
 
-  - [Leadership](https://www.anthropic.com/search?topic=leadership)
-  - [Transparency](https://www.anthropic.com/search?topic=transparency)
-  - [Healthcare](https://www.anthropic.com/search?topic=healthcare)
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)See more...
+    See more...
 
 Related articles
 

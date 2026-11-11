@@ -1,19 +1,20 @@
 # Improving Fable 5's biology safeguards
 
-- Published
+Published
+:   Aug 7, 2026
 
-  Aug 7, 2026
-- Category
+Category
+:   [Safeguards](https://www.anthropic.com/news/safeguards)
 
-  [Safeguards](https://www.anthropic.com/news/safeguards)
-- Topics
+Topics
+:   - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
+    - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
+    - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
+    - [Healthcare](https://www.anthropic.com/search?topic=healthcare)
+    - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
+    - [Access](https://www.anthropic.com/search?topic=access)
 
-  - [Safeguards](https://www.anthropic.com/search?topic=safeguards)
-  - [CBRN risks](https://www.anthropic.com/search?topic=cbrn-risks)
-  - [Life sciences](https://www.anthropic.com/search?topic=life-sciences)
-  - [Healthcare](https://www.anthropic.com/search?topic=healthcare)
-  - [Jailbreaks](https://www.anthropic.com/search?topic=jailbreaks)
-  - [Access](https://www.anthropic.com/search?topic=access)See more...
+    See more...
 
 Related articles
 

@@ -2,18 +2,19 @@
 
 [Claude for Education](https://www.anthropic.com/education)
 
-- Published
+Published
+:   Apr 2, 2025
 
-  Apr 2, 2025
-- Category
+Category
+:   [Product](https://www.anthropic.com/news/product)
 
-  [Product](https://www.anthropic.com/news/product)
-- Topics
+Topics
+:   - [Education](https://www.anthropic.com/search?topic=education)
+    - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Access](https://www.anthropic.com/search?topic=access)
 
-  - [Education](https://www.anthropic.com/search?topic=education)
-  - [Claude for Enterprise](https://www.anthropic.com/search?topic=claude-for-enterprise)
-  - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
-  - [Access](https://www.anthropic.com/search?topic=access)See more...
+    See more...
 
 Related articles
 

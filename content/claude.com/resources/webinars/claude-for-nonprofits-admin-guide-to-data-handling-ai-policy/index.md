@@ -1,4 +1,4 @@
-Nov 10, 2026 — 10:00 – 10:45 AM PT
+On demand
 
 # Claude for Nonprofits: An Admin’s Guide to Data Handling and AI Policy
 
@@ -8,7 +8,7 @@ Many teams hold off inviting staff until someone writes down how Claude handles 
 
 Register for the webinar
 
-Fill out the form below to reserve your seat.
+Fill out the form below to watch on demand.
 
 ## Featured speakers
 

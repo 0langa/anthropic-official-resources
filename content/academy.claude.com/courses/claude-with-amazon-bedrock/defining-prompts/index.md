@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fdefining-prompts)
 
+Embedded media: https://www.youtube-nocookie.com/embed/uz4cSgRHgQ4?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=uz4cSgRHgQ4)
+
 MCP servers can define prompts - pre-written, high-quality instructions that clients can use instead of writing their own prompts from scratch. Think of prompts as carefully crafted templates that give better results than what users might write on their own.
 
 ## Why Use Prompts?[](https://academy.claude.com/courses/claude-with-amazon-bedrock/defining-prompts)

@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fparallelization-workflows)
 
+Embedded media: https://www.youtube-nocookie.com/embed/7ue2dtIZy0M?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=7ue2dtIZy0M)
+
 When building AI applications, you'll often encounter tasks that seem straightforward but become complex when you try to handle everything in a single request. Let's explore a workflow pattern that can help you break down complex tasks and get better results from Claude.
 
 ## The Problem with Complex Single Requests[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/parallelization-workflows)

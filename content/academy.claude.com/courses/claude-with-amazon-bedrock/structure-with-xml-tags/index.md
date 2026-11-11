@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fstructure-with-xml-tags)
 
+Embedded media: https://www.youtube-nocookie.com/embed/dcxY5LYpRyI?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=dcxY5LYpRyI)
+
 When you're building prompts that include a lot of content, Claude can sometimes struggle to understand which pieces of text belong together or what different sections are supposed to represent. XML tags provide a simple way to add structure and clarity to your prompts, especially when you're interpolating large amounts of data.
 
 ## Why Structure Matters[](https://academy.claude.com/courses/claude-with-amazon-bedrock/structure-with-xml-tags)

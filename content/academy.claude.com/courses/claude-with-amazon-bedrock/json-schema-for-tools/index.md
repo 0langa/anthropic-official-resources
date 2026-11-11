@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fjson-schema-for-tools)
 
+Embedded media: https://www.youtube-nocookie.com/embed/Q\_dsN8RhJws?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=Q_dsN8RhJws)
+
 After creating your tool function, the next step is writing a JSON schema to describe it. This schema tells Claude what arguments your function expects and how to use it properly. While the configuration might look intimidating at first, it's actually straightforward once you understand the process.
 
 ## Understanding JSON Schema[](https://academy.claude.com/courses/claude-with-amazon-bedrock/json-schema-for-tools)

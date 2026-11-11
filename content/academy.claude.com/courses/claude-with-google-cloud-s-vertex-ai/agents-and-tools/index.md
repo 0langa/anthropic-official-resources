@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fagents-and-tools)
 
+Embedded media: https://www.youtube-nocookie.com/embed/eUzgF7hsLUU?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=eUzgF7hsLUU)
+
 Agents represent a shift from the structured workflows we've explored earlier. While workflows excel when you know the exact steps needed to complete a task, agents shine when the path forward isn't clear. Instead of defining a rigid sequence, you give Claude a goal and a set of tools, then let it figure out how to combine those tools to achieve the objective.
 
 ![A "Goal" and a set of "Tools" feed into Claude, which produces a plan to use those tools to achieve the goal.](https://academy.claude.com/assets/media/16fa498153525b728dcd64b59a13b14a0ed9675789cbef298959ad647a25cd00.png)
