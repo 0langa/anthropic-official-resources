@@ -12,6 +12,8 @@ Walk through the four phases of a successful Claude Enterprise deployment: Techn
 
 This guide walks you through the four phases of a successful Claude Enterprise deployment: Technical Setup, Change Management & Launch, Enablement & Training, and Scaling Adoption. It also covers Claude.ai and Claude Code access controls, configuration options, and seat management.
 
+This guide covers the steps. The course [Deploying Claude Enterprise with confidence(opens in new tab)](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence) covers the five decisions that shape your rollout and helps you record them in a rollout plan.
+
 ## Phase 1: Technical Setup[](https://academy.claude.com/tutorials/claude-enterprise-administrator-guide)
 
 **Complete these technical configuration steps before launching Claude to your organization.**
@@ -350,7 +352,6 @@ A comprehensive directory of support, training, and enablement resources for Cla
 ### Personalization[](https://academy.claude.com/tutorials/claude-enterprise-administrator-guide)
 
 - [Personalization features(opens in new tab)](https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features) — Memory, preferred name, and options that shape Claude's responses
-- [Custom styles(opens in new tab)](https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features) — Create and apply response styles (concise, detailed, formal, casual, etc.)
 - [Language preferences(opens in new tab)](https://support.claude.com/en/articles/10769299-how-to-use-claude-in-your-preferred-language) — Multilingual support and language settings
 
 ### Enterprise Search & Data[](https://academy.claude.com/tutorials/claude-enterprise-administrator-guide)

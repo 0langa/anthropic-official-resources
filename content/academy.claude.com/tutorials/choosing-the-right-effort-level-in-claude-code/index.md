@@ -16,7 +16,7 @@ Effort tells your model how many resources to spend on the task in your prompt. 
 
 Effort sets how hard the model works, not how much it knows. The model you choose determines the level of capability you are working with. Effort is a signal of how hard you want that model to work.
 
-Explorer: select one of five effort levels, from low to max, to see how the model's reading, thinking, turns, and double-checking shift, showing that effort controls resource use, not the model's underlying capability.
+Explorer: select a level on a five-stop effort scale, from low to max, to see how the model's reading, thinking, turns, and self-checking change, with the same model running at every level.
 
 The effort scale
 

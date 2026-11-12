@@ -7009,6 +7009,9 @@
   "https://platform.claude.com/docs/en/build-with-claude/effort": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/build-with-claude/effort-per-message": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/build-with-claude/effort?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
@@ -9988,6 +9991,9 @@
   "https://support.claude.com/en/articles/17631495-get-started-with-claude-duet": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/17644704": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/17644704-share-your-voice-recordings-with-anthropic": [
     "Native source; upstream MDX components retained."
   ],
@@ -10054,7 +10060,13 @@
   "https://support.claude.com/en/articles/18251257-track-spend-by-project-with-tags": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/18324300": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/18324300-get-started-with-claude-sheets": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/18324319": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/18324319-get-started-with-claude-whiteboards": [

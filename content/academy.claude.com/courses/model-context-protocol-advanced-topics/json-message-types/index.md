@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fmodel-context-protocol-advanced-topics%2Fjson-message-types)
 
+Embedded media: https://www.youtube-nocookie.com/embed/-xRtmqcSNSA?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=-xRtmqcSNSA)
+
 MCP (Model Context Protocol) uses JSON messages to handle communication between clients and servers. Understanding these message types is crucial for working with MCP, especially when dealing with different transport methods like the streamable HTTP transport.
 
 ## Message Format[](https://academy.claude.com/courses/model-context-protocol-advanced-topics/json-message-types)

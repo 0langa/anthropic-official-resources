@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-model-context-protocol%2Fdefining-prompts)
 
+Embedded media: https://www.youtube-nocookie.com/embed/V-pwpqhw0QU?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=V-pwpqhw0QU)
+
 Prompts in MCP servers let you define pre-built, high-quality instructions that clients can use instead of writing their own prompts from scratch. Think of them as carefully crafted templates that give better results than what users might come up with on their own.
 
 ![Diagram of an MCP client connecting to two MCP servers, each exposing Tools, Resources, and Prompts — with Prompts highlighted — in front of outside services](https://academy.claude.com/assets/media/2dfd2f9fcdfea8424d36b8323f892460291128c6cd96e7953011584e59cf4fb8.png)

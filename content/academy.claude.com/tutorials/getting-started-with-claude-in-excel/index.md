@@ -4,7 +4,7 @@ Claude understands your entire workbook—from nested formulas to multiple tab d
 
 7 minClaude for Excel
 
-Watch
+Watch[Install Claude for Excel](https://claude.com/claude-for-microsoft-365)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.dark-lzrm3kfb.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lzrm3kfb.png)
 

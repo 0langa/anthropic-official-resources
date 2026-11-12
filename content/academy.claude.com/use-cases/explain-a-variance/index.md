@@ -255,7 +255,7 @@ Pull GL detail, AP aging, and trial balances directly from the system of record.
 
 Google Drive
 
-Read and write Sheets, generate Slides, and pull supporting docs from Drive.
+Read and write spreadsheets, generate slides, and pull supporting docs from Drive.
 
 [Connect](https://claude.ai/desktop/directory/google-drive-drivemcp)
 

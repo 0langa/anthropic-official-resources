@@ -4,7 +4,7 @@ Claude for PowerPoint lets you build and edit presentations without leaving the 
 
 4 minClaude for PowerPoint
 
-Watch
+Watch[Install Claude for PowerPoint](https://claude.com/claude-for-microsoft-365)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-hwgnqzc8.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-i04sxjy4.png)
 

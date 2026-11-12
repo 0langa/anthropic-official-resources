@@ -44,12 +44,12 @@ This approach minimizes deployment risk but requires coordination across multipl
 
 Many development teams are moving beyond reactive profiling tools toward proactive performance engineering with AI coding assistants like Claude. These tools analyze functions instantly, identify algorithmic bottlenecks, and provide ways to improve your code. You can work with Claude in two ways:
 
-- [**Claude.ai**](https://claude.ai/redirect/claudedotcom.v1.e48bb376-4bc4-44de-834c-bc733fde34a8): Free web interface. Paste slow functions, get complexity analysis and optimization recommendations. Any browser, no setup required.
+- [**Claude.ai**](https://claude.ai/redirect/claudedotcom.v1.49be40d5-d2d3-4732-9160-8b8801ba7d77): Free web interface. Paste slow functions, get complexity analysis and optimization recommendations. Any browser, no setup required.
 - [**Claude Code**](https://claude.com/product/claude-code): Agentic terminal coding tool that integrates with your development environment. Analyzes project-wide performance patterns, directly implements optimizations across multiple files. Install with npm.
 
 ## Start with Claude.ai
 
-Before setting up complex profiling environments or writing benchmark suites, paste short code snippets in [Claude.ai](https://claude.ai/redirect/claudedotcom.v1.e48bb376-4bc4-44de-834c-bc733fde34a8) to quickly determine whether a performance issue is algorithmic, structural, or configuration-related. Unlike traditional profilers that only show where time is spent, Claude explains why code is slow and how to fix it. This initial analysis helps you decide between a quick code change or a comprehensive architectural review.
+Before setting up complex profiling environments or writing benchmark suites, paste short code snippets in [Claude.ai](https://claude.ai/redirect/claudedotcom.v1.49be40d5-d2d3-4732-9160-8b8801ba7d77) to quickly determine whether a performance issue is algorithmic, structural, or configuration-related. Unlike traditional profilers that only show where time is spent, Claude explains why code is slow and how to fix it. This initial analysis helps you decide between a quick code change or a comprehensive architectural review.
 
 ### Get quick optimization ideas
 
@@ -67,9 +67,9 @@ Claude: "I see two main bottlenecks here: 1. The nested loop creates O(n²) comp
 
 Typical questions that work well:
 
-- ["Why are my code functions slow with large datasets?"](https://claude.ai/redirect/claudedotcom.v1.e48bb376-4bc4-44de-834c-bc733fde34a8/new?q=Why+are+my+code+functions+slow+with+large+datasets%3F)
-- ["Can you rewrite my code to be more efficient?"](https://claude.ai/redirect/claudedotcom.v1.e48bb376-4bc4-44de-834c-bc733fde34a8/new?q=Can+you+help+me+rewrite+my+code+to+be+more+efficient%3F)
-- ["What's wrong with this algorithm performance-wise?"](https://claude.ai/redirect/claudedotcom.v1.e48bb376-4bc4-44de-834c-bc733fde34a8/new?q=What%27s+wrong+with+this+algorithm+performance-wise%3F)
+- ["Why are my code functions slow with large datasets?"](https://claude.ai/redirect/claudedotcom.v1.49be40d5-d2d3-4732-9160-8b8801ba7d77/new?q=Why+are+my+code+functions+slow+with+large+datasets%3F)
+- ["Can you rewrite my code to be more efficient?"](https://claude.ai/redirect/claudedotcom.v1.49be40d5-d2d3-4732-9160-8b8801ba7d77/new?q=Can+you+help+me+rewrite+my+code+to+be+more+efficient%3F)
+- ["What's wrong with this algorithm performance-wise?"](https://claude.ai/redirect/claudedotcom.v1.49be40d5-d2d3-4732-9160-8b8801ba7d77/new?q=What%27s+wrong+with+this+algorithm+performance-wise%3F)
 
 ### Understand why your code is slow
 
@@ -133,7 +133,7 @@ Claude Code typically identifies additional optimizations such as adding composi
 
 ## Choose your optimization approach
 
-[**Claude.ai**](https://claude.ai/redirect/claudedotcom.v1.e48bb376-4bc4-44de-834c-bc733fde34a8): Use Claude.ai when you're investigating a specific slow function, validating an optimization approach, or need quick analysis without environment setup. The browser interface makes it ideal for sharing optimization ideas with others or getting second opinions on performance tradeoffs.
+[**Claude.ai**](https://claude.ai/redirect/claudedotcom.v1.49be40d5-d2d3-4732-9160-8b8801ba7d77): Use Claude.ai when you're investigating a specific slow function, validating an optimization approach, or need quick analysis without environment setup. The browser interface makes it ideal for sharing optimization ideas with others or getting second opinions on performance tradeoffs.
 
 [**Claude Code**](https://claude.com/product/claude-code): Use Claude Code when performance issues span multiple files, require coordinated changes across services, or need automated testing to verify improvements. The terminal integration is essential for implementing optimizations that touch database schemas, API contracts, or caching layers.
 
@@ -153,7 +153,7 @@ Results:
 
 ## Get started with systematic optimization
 
-**Immediate performance analysis**: Visit [Claude.ai](https://claude.ai/redirect/claudedotcom.v1.e48bb376-4bc4-44de-834c-bc733fde34a8), paste slow functions, get instant complexity analysis and optimization recommendations.
+**Immediate performance analysis**: Visit [Claude.ai](https://claude.ai/redirect/claudedotcom.v1.49be40d5-d2d3-4732-9160-8b8801ba7d77), paste slow functions, get instant complexity analysis and optimization recommendations.
 
 **Comprehensive optimization**: Install [Claude Code](https://claude.com/product/claude-code):
 
@@ -187,33 +187,33 @@ It depends on your starting point. Eliminating N+1 queries can reduce response t
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 27, 2026
+[ArticleNov 10, 2026
+
+### How Curative is building a national provider network with agents on Claude
+
+Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
+
+Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 9, 2026
+
+### Safely scaling multi-agent teams with Claude Fable 5.2
+
+How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
+
+(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)[ArticleNov 9, 2026
+
+### Which Claude model should you build with?
+
+How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.
+
+Claude PlatformClaude Code
+
+(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)[ArticleOct 27, 2026
 
 ### Manage costs and demonstrate ROI for Claude Code on Google Cloud
 
 Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
 
-Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)[ArticleOct 22, 2026
-
-### Building agents: When to fold subagents into your main agent loop
-
-When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
-
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[ArticleOct 19, 2026
-
-### Redesigning source control at Anthropic
-
-As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.
-
-Claude Code
-
-(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)[ArticleOct 16, 2026
-
-### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
-
-How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
-
-Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)
+Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)
 
 ## Transform how your organization operates with Claude
 

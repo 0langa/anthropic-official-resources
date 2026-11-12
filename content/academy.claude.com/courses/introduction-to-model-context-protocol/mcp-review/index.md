@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-model-context-protocol%2Fmcp-review)
 
+Embedded media: https://www.youtube-nocookie.com/embed/X2YPBRDk2KE?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=X2YPBRDk2KE)
+
 Now that we've built our MCP server, let's review the three core server primitives and understand when to use each one. The key insight is that each primitive is controlled by a different part of your application stack.
 
 ![Tools, resources and prompts compared: Claude controls tools, our app controls resources, the user controls prompts.](https://academy.claude.com/assets/media/bc7ee5fac91b20fa74fcc27bb9255bc41c9fb9c50a15ae60e3bfccc7a1cfad3e.png)

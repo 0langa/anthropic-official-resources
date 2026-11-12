@@ -4,7 +4,7 @@ Claude for PowerPoint lets you refine and elevate slides without leaving the app
 
 7 minClaude for PowerPoint
 
-Watch
+Watch[Install Claude for PowerPoint](https://claude.com/claude-for-microsoft-365)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-hiayfeao.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-edk10ftd.png)
 

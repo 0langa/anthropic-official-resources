@@ -69,35 +69,31 @@ To get started with Claude working across Excel and PowerPoint, download the add
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 9, 2026
+[ArticleNov 10, 2026
 
-### Claude Fable 5.2 and Mythos 5.2
+### Your apps can now open in Claude, and Claude can work in them
 
-Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.
+Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
 
-Claude appsClaude Code1 more: Claude PlatformClaude Platform
+Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)[ArticleNov 10, 2026
 
-(opens in new tab)](https://www.anthropic.com/claude-fable-and-mythos-5-2)[ArticleNov 9, 2026
+### How Curative is building a national provider network with agents on Claude
 
-### Claude can design electronic prototypes from start to finish
+Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
 
-We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.
+Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 10, 2026
 
-(opens in new tab)](https://www.anthropic.com/research/claude-electronics-design)[ArticleNov 9, 2026
+### More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
 
-### Safely scaling multi-agent teams with Claude Fable 5.2
+Work at the speed of thought
 
-How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
+Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)[ArticleNov 10, 2026
 
-(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)[ArticleNov 9, 2026
+### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
 
-### Which Claude model should you build with?
+Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
 
-How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.
-
-Claude PlatformClaude Code
-
-(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)
+Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)
 
 ## Transform how your organization operates with Claude
 

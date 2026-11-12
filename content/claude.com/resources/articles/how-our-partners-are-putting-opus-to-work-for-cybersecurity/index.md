@@ -70,7 +70,13 @@ Every offering above runs on the same underlying Opus capability: reasoning abou
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 9, 2026
+[ArticleNov 10, 2026
+
+### How Curative is building a national provider network with agents on Claude
+
+Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
+
+Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 9, 2026
 
 ### JPMorganChase expands Claude Code to more employees across the firm
 
@@ -88,13 +94,7 @@ How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by t
 
 Claude PlatformClaude Code
 
-(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)[ArticleOct 28, 2026
-
-### IDC brings Quanta into Claude and adopts Claude across the company
-
-IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
-
-Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)
+(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)
 
 ## Transform how your organization operates with Claude
 

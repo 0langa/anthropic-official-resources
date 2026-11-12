@@ -54,19 +54,13 @@ Featured resource 1 of 5: The State of Cybersecurity: What Frontier AI Changes f
 
 Advanced filters
 
-Showing 24 of 119 resources
+Showing 23 of 119 resources
 
 ## Upcoming webinars
 
 Register for the live sessions with Anthropic and partner teams — bring your questions and get answers in real time.
 
-[WebinarUpcoming | Nov 10, 2026
-
-### Claude for Nonprofits: An Admin’s Guide to Data Handling and AI Policy
-
-For the admin in charge of your nonprofit's Claude settings: the data answers in writing, plus a one-page AI use policy.
-
-Claude for NonprofitsClaude Enterprise](https://claude.com/resources/webinars/claude-for-nonprofits-admin-guide-to-data-handling-ai-policy)[WebinarUpcoming | Nov 12, 2026
+[WebinarUpcoming | Nov 12, 2026
 
 ### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
 
@@ -146,7 +140,13 @@ Claude Code](https://claude.com/resources/webinars/claude-code-foundations-serie
 
 Missed the session? Stream past sessions anytime and catch up at your own pace.
 
-[WebinarOn demand
+[WebinarNov 10, 2026
+
+### Claude for Nonprofits: An Admin’s Guide to Data Handling and AI Policy
+
+For the admin in charge of your nonprofit's Claude settings: the data answers in writing, plus a one-page AI use policy.
+
+Claude for NonprofitsClaude Enterprise](https://claude.com/resources/webinars/claude-for-nonprofits-admin-guide-to-data-handling-ai-policy)[WebinarOn demand
 
 ### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
 
@@ -214,13 +214,7 @@ Most conversations about AI in engineering focus on how the IC role is changing,
 
 Claude Platform
 
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/06a83b50-384f-4fa6-ae86-66c7f05c9e16)[WebinarOn demand
-
-### Claude Corps Cohort 2: How to Become a Host Organization
-
-A lot has changed since you applied to host Claude Corps fellows, and we want you to have what you need for what comes next.…
-
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/78ccb4a0-5d54-411f-b26c-55fcdd47b06c)
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/06a83b50-384f-4fa6-ae86-66c7f05c9e16)
 
 View more
 

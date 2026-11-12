@@ -14,11 +14,11 @@ Build your skills with written guides and video lessons, from quick tasks to com
 
 ### Intro to Projects
 
-·7 min](https://academy.claude.com/tutorials/intro-to-projects)[![](https://academy.claude.com/assets/v1/thumbnail.light-bb0g5i6x.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j090lkdj.png)
+·7 min](https://academy.claude.com/tutorials/intro-to-projects)[![](https://academy.claude.com/assets/v1/thumbnail.light-lala3ba3.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-d7ynyke1.png)
 
-### Choosing the right Claude model: Haiku, Sonnet, Opus, or Fable
+### Choosing a Claude model for knowledge workers
 
-·5 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)[![](https://academy.claude.com/assets/v1/thumbnail.light-kvtimo9u.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ogsjubpc.png)
+·7 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)[![](https://academy.claude.com/assets/v1/thumbnail.light-kvtimo9u.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ogsjubpc.png)
 
 ### Getting started with connectors
 
@@ -94,11 +94,19 @@ Build your skills with written guides and video lessons, from quick tasks to com
 
 ## Claude Platform
 
-[### Set up Claude in Amazon Bedrock
+[### One request, a workflow, or an agent
 
-·25 min](https://academy.claude.com/tutorials/set-up-claude-in-amazon-bedrock)[### Set up Claude on Google Cloud (Anthropic managed)
+·10 min](https://academy.claude.com/tutorials/one-request-a-workflow-or-an-agent)[![](https://academy.claude.com/assets/v1/thumbnail.dark-h18unnjf.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-h18unnjf.png)
 
-·25 min](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-anthropic-managed)[### Set up Claude on Google Cloud (Google managed)
+### Set up Claude in Amazon Bedrock
+
+·25 min](https://academy.claude.com/tutorials/set-up-claude-in-amazon-bedrock)[![](https://academy.claude.com/assets/v1/thumbnail.dark-c7j6fik2.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-c7j6fik2.png)
+
+### Set up Claude on Google Cloud (Anthropic managed)
+
+·25 min](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-anthropic-managed)[![](https://academy.claude.com/assets/v1/thumbnail.dark-kjpsqj14.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kjpsqj14.png)
+
+### Set up Claude on Google Cloud (Google managed)
 
 ·20 min](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-google-managed)[![](https://academy.claude.com/assets/v1/thumbnail.dark-o4itmdcn.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-o4itmdcn.png)
 

@@ -236,6 +236,7 @@ Without enablement, users may treat Claude Cowork as indistinguishable from Chat
 
 - [Use Claude Cowork on team and enterprise plans(opens in new tab)](https://support.claude.com/en/articles/13455879) — Enterprise-specific setup, licensing, and admin controls for Claude Cowork.
 - [Manage plugins for your organization(opens in new tab)](https://support.claude.com/en/articles/13837433) — Marketplace setup, distribution policies, and plugin governance for admins.
+- [Deploying Claude Enterprise with confidence(opens in new tab)](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence) — Self-paced course on the five decisions that shape a Claude Enterprise rollout.
 
 #### General AI literacy
 

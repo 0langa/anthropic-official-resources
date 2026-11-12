@@ -84,7 +84,7 @@ This debugging process is iterative and can be tedious. Each fix requires re-tes
 
 You can integrate AI into your responsive design workflow for immediate layout generation and systematic refactoring. Claude works in two ways depending on your needs:
 
-- ‍**[Claude.ai](http://claude.ai/redirect/claudedotcom.v1.3c5bb692-4203-4ca2-a39c-f16536d4a229):** Browser-based interface where you paste layout requirements and receive complete responsive HTML/CSS with proper viewport configuration and media queries. Accessible from any browser, no installation required. Good for learning responsive patterns and generating boilerplate.[**‍**](https://claude.com/product/claude-code)
+- ‍**[Claude.ai](http://claude.ai/redirect/claudedotcom.v1.4b3d7102-3a12-42da-b02e-a4f5480e76cd):** Browser-based interface where you paste layout requirements and receive complete responsive HTML/CSS with proper viewport configuration and media queries. Accessible from any browser, no installation required. Good for learning responsive patterns and generating boilerplate.[**‍**](https://claude.com/product/claude-code)
 - **[Claude Code](https://claude.com/product/claude-code):** Command-line tool that analyzes existing stylesheets across your codebase, identifies viewport-specific issues, and implements fixes directly in your files. Requires npm installation and API access. Built for refactoring responsive layouts in large codebases.
 
 ### **Start with Claude.ai**
@@ -208,7 +208,7 @@ Finally, Claude Code generates a comprehensive Playwright test suite that valida
 
 ## ‍**Get started**
 
-**Quick prototyping:** Visit [**Claude.ai**](https://claude.ai/redirect/claudedotcom.v1.3c5bb692-4203-4ca2-a39c-f16536d4a229) to generate responsive layouts and learn design patterns without any setup. Describe your layout requirements—like a three-column card grid that stacks on mobile—and receive complete HTML and CSS with proper viewport configuration and media queries. It's ideal for understanding responsive techniques and creating boilerplate code you can adapt to your projects.
+**Quick prototyping:** Visit [**Claude.ai**](https://claude.ai/redirect/claudedotcom.v1.4b3d7102-3a12-42da-b02e-a4f5480e76cd) to generate responsive layouts and learn design patterns without any setup. Describe your layout requirements—like a three-column card grid that stacks on mobile—and receive complete HTML and CSS with proper viewport configuration and media queries. It's ideal for understanding responsive techniques and creating boilerplate code you can adapt to your projects.
 
 **Codebase refactoring:** When responsive issues span multiple stylesheets or affect your entire application, install [**Claude Code**](https://claude.com/product/claude-code) to systematically analyze and fix layout problems across your project:
 
@@ -244,33 +244,33 @@ Start by auditing your breakpoints to ensure they align with your content needs 
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 27, 2026
+[ArticleNov 10, 2026
+
+### How Curative is building a national provider network with agents on Claude
+
+Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
+
+Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 9, 2026
+
+### Safely scaling multi-agent teams with Claude Fable 5.2
+
+How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
+
+(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)[ArticleNov 9, 2026
+
+### Which Claude model should you build with?
+
+How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.
+
+Claude PlatformClaude Code
+
+(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)[ArticleOct 27, 2026
 
 ### Manage costs and demonstrate ROI for Claude Code on Google Cloud
 
 Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
 
-Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)[ArticleOct 22, 2026
-
-### Building agents: When to fold subagents into your main agent loop
-
-When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
-
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[ArticleOct 19, 2026
-
-### Redesigning source control at Anthropic
-
-As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.
-
-Claude Code
-
-(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)[ArticleOct 16, 2026
-
-### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
-
-How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
-
-Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)
+Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)
 
 ## Transform how your organization operates with Claude
 

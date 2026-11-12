@@ -45,7 +45,7 @@ The information that gives customers an edge usually sits in unstructured, propr
 
 Those have been harder to analyze at scale than the structured, quantitative data finance already models well. Hebbia built Matrix to make that qualitative work systematic, and every model generation widens what it can take on.
 
-That might be a data room with thousands of documents, where the work is finding the relevant signal, citing it, and drafting each section of an investment memo. Or it might be analyzing every document tied to a credit deal (the credit agreement, amendments, side letters, each running hundreds of dense technical pages) and extracting the full covenant package, financial terms and operating restrictions alike, from that unstructured mass.
+That might be a data room with thousands of documents, where the work is finding the relevant signal, citing it, and drafting each section of an [investment memo](https://claude.com/resources/guides/the-ai-investment-firm). Or it might be analyzing every document tied to a credit deal (the credit agreement, amendments, side letters, each running hundreds of dense technical pages) and extracting the full covenant package, financial terms and operating restrictions alike, from that unstructured mass.
 
 "These are actually the types of documents that Anthropic models have always done really well at," Mehta says.
 
@@ -73,33 +73,33 @@ More from this series: [Rakuten](https://claude.com/resources/articles/working-a
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 27, 2026
+[ArticleNov 10, 2026
+
+### How Curative is building a national provider network with agents on Claude
+
+Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
+
+Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 9, 2026
+
+### Safely scaling multi-agent teams with Claude Fable 5.2
+
+How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
+
+(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)[ArticleNov 9, 2026
+
+### Which Claude model should you build with?
+
+How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.
+
+Claude PlatformClaude Code
+
+(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)[ArticleOct 27, 2026
 
 ### Manage costs and demonstrate ROI for Claude Code on Google Cloud
 
 Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
 
-Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)[ArticleOct 22, 2026
-
-### Building agents: When to fold subagents into your main agent loop
-
-When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
-
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[ArticleOct 19, 2026
-
-### Redesigning source control at Anthropic
-
-As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.
-
-Claude Code
-
-(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)[ArticleOct 16, 2026
-
-### How an Anthropic BDR in Japan runs his day with Claude Managed Agents
-
-How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.
-
-Claude Managed Agents](https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day)
+Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)
 
 ## Transform how your organization operates with Claude
 

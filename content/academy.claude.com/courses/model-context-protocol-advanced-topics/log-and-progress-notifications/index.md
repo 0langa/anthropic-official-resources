@@ -12,6 +12,10 @@ Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fmodel-co
 
 The [2026-07-28 revision(opens in new tab)](https://modelcontextprotocol.io/specification/2026-07-28/changelog) of the MCP specification deprecates logging. It still works on version 1 of the MCP Python SDK, which this course uses.
 
+Embedded media: https://www.youtube-nocookie.com/embed/RcyUp3pvHOw?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=RcyUp3pvHOw)
+
 Logging and progress notifications are simple to implement but make a huge difference in user experience when working with MCP servers. They help users understand what's happening during long-running operations instead of wondering if something has broken.
 
 When Claude calls a tool that takes time to complete - like researching a topic or processing data - users typically see nothing until the operation finishes. This can be frustrating because they don't know if the tool is working or has stalled.

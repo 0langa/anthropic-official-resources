@@ -12,6 +12,10 @@ Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fmodel-co
 
 The [2026-07-28 revision(opens in new tab)](https://modelcontextprotocol.io/specification/2026-07-28/changelog) of the MCP specification drops session IDs, so every request stands alone there. On version 1 of the MCP Python SDK, which this course uses, sessions and the two flags in this lesson still work as described.
 
+Embedded media: https://www.youtube-nocookie.com/embed/o2kumS8WDr8?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=o2kumS8WDr8)
+
 The `stateless_http` and `json_response` flags in MCP servers control fundamental aspects of how your server behaves. Understanding when and why to use them is crucial, especially if you're planning to scale your server or deploy it in production.
 
 ## When You Need Stateless HTTP[](https://academy.claude.com/courses/model-context-protocol-advanced-topics/state-and-the-streamablehttp-transport)

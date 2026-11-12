@@ -4,7 +4,7 @@ Use Claude to validate ASC 606 revenue models, surface reconciliation issues, an
 
 10 minClaude for Excel
 
-Watch
+Watch[Install Claude for Excel](https://claude.com/claude-for-microsoft-365)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.dark-kzu7czxl.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kzu7czxl.png)
 

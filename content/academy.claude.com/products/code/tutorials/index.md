@@ -4,7 +4,9 @@
 
 12 tutorials
 
-[## Choose between a cloud session and Remote Control for a long task
+[![](https://academy.claude.com/assets/v1/thumbnail.dark-gpqo6sfe.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gpqo6sfe.png)
+
+## Choose between a cloud session and Remote Control for a long task
 
 A long Claude Code task can keep going after you leave your desk, on your own machine with Remote Control or in a cloud session. Compare what each one gives you and where it stops, then use a few questions to pick one for a task and say why.
 
@@ -44,7 +46,9 @@ How to use the FHIR Developer agent skill with Claude Code
 
 How to use the Nextflow Deployment agent skill with Claude Code
 
-·3 min](https://academy.claude.com/tutorials/how-to-use-the-nextflow-deployment-agent-skill-with-claude-code)[## Set up Claude on Google Cloud (Google managed)
+·3 min](https://academy.claude.com/tutorials/how-to-use-the-nextflow-deployment-agent-skill-with-claude-code)[![](https://academy.claude.com/assets/v1/thumbnail.dark-kjpsqj14.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kjpsqj14.png)
+
+## Set up Claude on Google Cloud (Google managed)
 
 Check that you have the Google managed service, then get your Google Cloud project ready, give yourself access, and send Claude one test request. Then connect Claude Code or Claude Desktop and check that it answers, with no Anthropic API key. Google Cloud bills the usage.
 

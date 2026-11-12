@@ -77,9 +77,9 @@ Work through how to teach a concept with Claude sketching alongside. The visual 
 - [Build and share tools in Claude with custom artifactsTutorial9 min
 
   ·Tutorial·9 min](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)
-- [Choosing the right Claude model: Haiku, Sonnet, Opus, or FableTutorial5 min
+- [Choosing a Claude model for knowledge workersTutorial7 min
 
-  ·Tutorial·5 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)
+  ·Tutorial·7 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)
 - [Claude Enterprise Administrator GuideTutorial20 min
 
   ·Tutorial·20 min](https://academy.claude.com/tutorials/claude-enterprise-administrator-guide)
@@ -97,17 +97,7 @@ Work through how to teach a concept with Claude sketching alongside. The visual 
 
 [View all webinars](https://academy.claude.com/all)
 
-[Upcoming · Nov 10, 10:00 AM PT
-
-### Claude for Nonprofits: An Admin’s Guide to Data Handling and AI Policy 
-
-An admin's guide to documenting how Claude handles your nonprofit's data and putting a one-page AI use policy in place.
-
-MW
-
-·Upcoming·Nov 10·10:00 AM PT
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-for-nonprofits-admin-guide-to-data-handling-ai-policy)[Upcoming · Nov 12, 10:00 AM PT
+[Upcoming · Nov 12, 10:00 AM PT
 
 ### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One 
 
@@ -125,7 +115,17 @@ A first look at the Model Hardware Standard plus how Claude drafts quotes, NCRs,
 
 ·Upcoming·Nov 17·8:00 AM PT
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work)[Recording · Oct 22
+
+### Claude Rearview Roadmap Review: October 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SSIP
+
+·Recording·Oct 22
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
 ## Browse it all
 

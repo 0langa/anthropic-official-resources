@@ -8,7 +8,11 @@ Admin resources for rolling Claude out to your organization: identity, governanc
 
 The four phases of an Enterprise plan rollout: technical setup, launch, enablement, and scaling adoption.
 
-Open the guide](https://academy.claude.com/tutorials/claude-enterprise-administrator-guide)[### Identify and enable champions
+Open the guide](https://academy.claude.com/tutorials/claude-enterprise-administrator-guide)[### Make your rollout decisions
+
+A self-paced course on the five decisions that shape your Claude Enterprise rollout, and how to record them in a rollout plan.
+
+Start course](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence)[### Identify and enable champions
 
 Recruit champions in each department to model real workflows and drive adoption from inside the team.
 

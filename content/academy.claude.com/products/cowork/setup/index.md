@@ -10,7 +10,7 @@ Get the fundamentals in place so your team can start using Cowork. Your progress
 
 x
 
-0 of 18 complete
+0 of 19 complete
 
 Open checklist](https://academy.claude.com/products/cowork/setup/checklist)
 

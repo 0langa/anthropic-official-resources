@@ -8,6 +8,14 @@ Unsubscribe at any time.
 
 News, announcements, and stories from Anthropic about Claude and the people building with it.
 
+[ArticleNov 10, 2026
+
+### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
+
+Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
+
+Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)
+
 [ArticleOct 22, 2026
 
 ### Building agents: When to fold subagents into your main agent loop
@@ -24,37 +32,63 @@ A research preview is available by waitlist today, starting with US Pro, Max, an
 
 ![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
-[ArticleNov 5, 2026
+[ArticleNov 10, 2026
 
-### Introducing Personal Finance in Claude
+### How Curative is building a national provider network with agents on Claude
 
-Ask Claude about your money and get straight answers from the accounts you connect.](https://claude.com/resources/articles/introducing-personal-finance-in-claude)
+Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
 
-[ArticleNov 5, 2026
+Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)
 
-### More visibility and control over Claude Enterprise for security teams
+[ArticleNov 10, 2026
 
-Claude EnterpriseClaude apps](https://claude.com/resources/articles/claude-enterprise-security-updates)
+### Your apps can now open in Claude, and Claude can work in them
 
-[ArticleNov 4, 2026
+Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
 
-### New agents and products for security, productivity, and creative work on Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace)
+Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)
 
-[ArticleOct 22, 2026
+[ArticleNov 10, 2026
 
-### Building agents: When to fold subagents into your main agent loop
+### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
 
-When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
+Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
 
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)
+Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)
 
-Featured resource 1 of 5: Building agents: When to fold subagents into your main agent loop
+Featured resource 1 of 5: Introducing Claude Whiteboards, Claude Sheets, and Claude Data
 
 Advanced filters(1)
 
-Showing 12 of 106 resources
+Showing 12 of 110 resources
 
-[ArticleOct 28, 2026
+[ArticleNov 10, 2026
+
+### How Curative is building a national provider network with agents on Claude
+
+Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
+
+Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 9, 2026
+
+### JPMorganChase expands Claude Code to more employees across the firm
+
+Claude Code](https://claude.com/resources/articles/jpmorganchase-expands-claude-code)[ArticleNov 9, 2026
+
+### Claude Fable 5.2 and Mythos 5.2
+
+Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.
+
+Claude appsClaude Code1 more: Claude PlatformClaude Platform
+
+(opens in new tab)](https://www.anthropic.com/claude-fable-and-mythos-5-2)[ArticleNov 9, 2026
+
+### Which Claude model should you build with?
+
+How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.
+
+Claude PlatformClaude Code
+
+(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)[ArticleOct 28, 2026
 
 ### IDC brings Quanta into Claude and adopts Claude across the company
 
@@ -108,34 +142,6 @@ Claude Code
 
 Claude Code
 
-(opens in new tab)](https://claude.dev/blog/getting-started-with-claude-code-mods/)[ArticleOct 1, 2026
-
-### Customize Claude Code with mods
-
-Change how Claude Code behaves and looks with a few lines of TypeScript.
-
-Claude Code](https://claude.com/resources/articles/claude-code-mods)[ArticleSep 30, 2026
-
-### Claude for Government is now generally available
-
-Claude Code CLI and Claude for Microsoft 365 also now available in early access.
-
-Claude Code](https://claude.com/resources/articles/claude-for-government-is-now-generally-available)[ArticleSep 28, 2026
-
-### Claude Sonnet 5.5
-
-Introducing Claude Sonnet 5.5, the second model in the Claude 5.5 family. It’s a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work.
-
-Claude appsClaude Code
-
-(opens in new tab)](https://www.anthropic.com/claude-sonnet-5-5)[ArticleSep 25, 2026
-
-### Using Claude Code: Spending your effort
-
-What effort really is and when to use which level in Claude Code, from my own tests of three builds and a deep dive into Terminal-Bench 3.0 on Opus 5.5 and Fable 5.1.
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/spending-your-effort/)
+(opens in new tab)](https://claude.dev/blog/getting-started-with-claude-code-mods/)
 
 View more

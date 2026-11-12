@@ -4,7 +4,7 @@ Learn how Claude in Chrome enables Claude to work alongside you in your browser 
 
 15 minClaude in Chrome
 
-Watch
+Watch[Get Claude in Chrome](https://claude.com/chrome)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.dark-b49emwd1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-b49emwd1.png)
 

@@ -289,7 +289,7 @@ Pull the latest actuals into the driver model, extend it through the next four q
 
 Source
 
-**Keep source files in the working folder.** The driver model and prior memo sit in the working folder (or Sheets, if connected), so the new periods and scenario tabs write back as working formulas next to the original.
+**Keep source files in the working folder.** The driver model and prior memo sit in the working folder (or a connected spreadsheet), so the new periods and scenario tabs write back as working formulas next to the original.
 
 ### Get a better draft[](https://academy.claude.com/use-cases/forecast-scenarios)
 

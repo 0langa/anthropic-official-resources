@@ -4,7 +4,7 @@ Use Claude to understand inherited spreadsheets, fix formula errors, and run wha
 
 10 minClaude for Excel
 
-Watch
+Watch[Install Claude for Excel](https://claude.com/claude-for-microsoft-365)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.dark-ofw0higc.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ofw0higc.png)
 

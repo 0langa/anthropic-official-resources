@@ -125,7 +125,7 @@ In a session that connected to your browser at start because [Enabled by default
 
 ### Browser tools in plan mode
 
-In [plan mode](/docs/en/permission-modes#analyze-before-you-edit-with-plan-mode), a permission prompt appears before Claude records a GIF, opens a new tab, or runs a shortcut. In an interactive CLI session, if [bypass permissions mode is available](/docs/en/permission-modes#skip-all-checks-with-bypasspermissions-mode) and [feature-flag fetching](/docs/en/env-vars#features-that-need-feature-flag-fetching) is off, these calls run without a prompt.
+In [plan mode](/docs/en/permission-modes#analyze-before-you-edit-with-plan-mode), a permission prompt appears before Claude records a GIF or opens a new tab. In an interactive CLI session, if [bypass permissions mode is available](/docs/en/permission-modes#skip-all-checks-with-bypasspermissions-mode) and [feature-flag fetching](/docs/en/env-vars#features-that-need-feature-flag-fetching) is off, these calls run without a prompt.
 
 A `tabs_context_mcp` call also prompts when it sets `createIfEmpty`, and so does a `browser_batch` call that includes any of these actions.
 

@@ -8,6 +8,14 @@ Unsubscribe at any time.
 
 News, announcements, and stories from Anthropic about Claude and the people building with it.
 
+[ArticleNov 10, 2026
+
+### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
+
+Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
+
+Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)
+
 [ArticleOct 22, 2026
 
 ### Building agents: When to fold subagents into your main agent loop
@@ -24,37 +32,63 @@ A research preview is available by waitlist today, starting with US Pro, Max, an
 
 ![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
-[ArticleNov 5, 2026
+[ArticleNov 10, 2026
 
-### Introducing Personal Finance in Claude
+### How Curative is building a national provider network with agents on Claude
 
-Ask Claude about your money and get straight answers from the accounts you connect.](https://claude.com/resources/articles/introducing-personal-finance-in-claude)
+Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
 
-[ArticleNov 5, 2026
+Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)
 
-### More visibility and control over Claude Enterprise for security teams
+[ArticleNov 10, 2026
 
-Claude EnterpriseClaude apps](https://claude.com/resources/articles/claude-enterprise-security-updates)
+### Your apps can now open in Claude, and Claude can work in them
 
-[ArticleNov 4, 2026
+Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
 
-### New agents and products for security, productivity, and creative work on Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace)
+Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)
 
-[ArticleOct 22, 2026
+[ArticleNov 10, 2026
 
-### Building agents: When to fold subagents into your main agent loop
+### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
 
-When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
+Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
 
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)
+Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)
 
-Featured resource 1 of 5: Building agents: When to fold subagents into your main agent loop
+Featured resource 1 of 5: Introducing Claude Whiteboards, Claude Sheets, and Claude Data
 
 Advanced filters(1)
 
-Showing 12 of 148 resources
+Showing 12 of 152 resources
 
-[ArticleNov 5, 2026
+[ArticleNov 10, 2026
+
+### Your apps can now open in Claude, and Claude can work in them
+
+Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
+
+Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)[ArticleNov 10, 2026
+
+### More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
+
+Work at the speed of thought
+
+Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)[ArticleNov 10, 2026
+
+### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
+
+Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
+
+Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)[ArticleNov 9, 2026
+
+### Claude Fable 5.2 and Mythos 5.2
+
+Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.
+
+Claude appsClaude Code1 more: Claude PlatformClaude Platform
+
+(opens in new tab)](https://www.anthropic.com/claude-fable-and-mythos-5-2)[ArticleNov 5, 2026
 
 ### Introducing Personal Finance in Claude
 
@@ -90,24 +124,6 @@ Financial advisors can now connect Claude to the custodians, portfolio platforms
 
 ### Expanding Claude for Nonprofits
 
-Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.](https://claude.com/resources/articles/expanding-claude-for-nonprofits)[ArticleOct 23, 2026
-
-### Claude Cowork and chat come together for Enterprise
-
-Claude Enterprise](https://claude.com/resources/articles/unified-claude-enterprise)[ArticleOct 23, 2026
-
-### Claude Duet Safety, Privacy, and Security
-
-Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.](https://claude.com/resources/articles/claude-duet-safety-privacy-and-security)[ArticleOct 22, 2026
-
-### The full Claude Platform, available on Google Cloud
-
-Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.
-
-Claude Platform](https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed)[ArticleOct 21, 2026
-
-### Introducing Claude Duet
-
-A research preview is available by waitlist today, starting with US Pro, Max, and Ultra subscribers.](https://claude.com/resources/articles/claude-duet)
+Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.](https://claude.com/resources/articles/expanding-claude-for-nonprofits)
 
 View more

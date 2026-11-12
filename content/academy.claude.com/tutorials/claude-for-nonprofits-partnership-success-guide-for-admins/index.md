@@ -18,6 +18,7 @@ The framework below is flexible and self-paced. Move through the phases at whate
 
 - [Getting started guides(opens in new tab)](https://support.claude.com/en/articles/12166798-getting-started-with-claude-for-enterprise) covering SSO, user management, and technical configuration
 - [Driving adoption at your organization(opens in new tab)](https://anthropic.skilljar.com/driving-enterprise-adoption-of-claude) course with customizable templates for change management
+- [Deploying Claude Enterprise with confidence(opens in new tab)](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence) course on the five decisions that shape a rollout, for Enterprise plans
 
 #### Recommended actions
 

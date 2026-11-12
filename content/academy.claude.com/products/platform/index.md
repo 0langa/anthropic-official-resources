@@ -106,4 +106,4 @@ SSIP
 
 ## Browse it all
 
-[Tutorials5 tutorials](https://academy.claude.com/all)[Courses8 courses](https://academy.claude.com/all)[API reference docs platform.claude.com (opens in new tab)](https://platform.claude.com/docs/en/api/overview)[Claude cookbooks platform.claude.com (opens in new tab)](https://platform.claude.com/cookbook)[Developer blog claude.dev (opens in new tab)](https://claude.dev/)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Tutorials6 tutorials](https://academy.claude.com/all)[Courses8 courses](https://academy.claude.com/all)[API reference docs platform.claude.com (opens in new tab)](https://platform.claude.com/docs/en/api/overview)[Claude cookbooks platform.claude.com (opens in new tab)](https://platform.claude.com/cookbook)[Developer blog claude.dev (opens in new tab)](https://claude.dev/)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)

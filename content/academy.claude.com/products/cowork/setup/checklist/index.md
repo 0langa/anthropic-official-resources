@@ -4,20 +4,27 @@ Get the fundamentals in place so your team can start using Cowork. Your progress
 
 x
 
-0 of 18 complete
+0 of 19 complete
 
 ### Plan
 
-0 / 2
+0 / 3
 
 1. 
+
+   Make your rollout decisions
+
+   A self-paced course on the five decisions that shape your Claude Enterprise rollout, and how to record them in a rollout plan.
+
+   [Start course](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence)
+2. 
 
    Prepare for rollout
 
    Finish phase 1 of the administrator guide, the technical setup, before you invite anyone.
 
    [Read the guide](https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide)
-2. 
+3. 
 
    Govern scaled workflows
 

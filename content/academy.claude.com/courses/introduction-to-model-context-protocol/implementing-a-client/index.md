@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduction-to-model-context-protocol%2Fimplementing-a-client)
 
+Embedded media: https://www.youtube-nocookie.com/embed/31wdJdLXflc?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=31wdJdLXflc)
+
 Now that we have our MCP server working, it's time to build the client side. The client is what allows our application code to communicate with the MCP server and access its functionality.
 
 ## Understanding the Client Architecture[](https://academy.claude.com/courses/introduction-to-model-context-protocol/implementing-a-client)

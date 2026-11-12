@@ -2,17 +2,27 @@
 
 
 
-5 tutorials
+6 tutorials
 
-[## Set up Claude in Amazon Bedrock
+[## One request, a workflow, or an agent
+
+Before you build a feature on Claude, choose how much to build: one request, a workflow your code runs in a fixed order, or an agent that picks its own steps. Start from the simplest, see when to move to the next one, and practice the choice on a few feature ideas.
+
+·10 min](https://academy.claude.com/tutorials/one-request-a-workflow-or-an-agent)[![](https://academy.claude.com/assets/v1/thumbnail.dark-h18unnjf.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-h18unnjf.png)
+
+## Set up Claude in Amazon Bedrock
 
 Get a first reply from Claude in your own AWS account. Sign in from your terminal as a role that's allowed to call Claude, then run one short Python file with Anthropic's Python SDK.
 
-·25 min](https://academy.claude.com/tutorials/set-up-claude-in-amazon-bedrock)[## Set up Claude on Google Cloud (Anthropic managed)
+·25 min](https://academy.claude.com/tutorials/set-up-claude-in-amazon-bedrock)[![](https://academy.claude.com/assets/v1/thumbnail.dark-c7j6fik2.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-c7j6fik2.png)
+
+## Set up Claude on Google Cloud (Anthropic managed)
 
 Get a Google Cloud project ready for Claude Models on Google Cloud (Anthropic managed), give your own account access, and get a first reply from Claude in Python. Then run any Claude API sample by swapping its import and client.
 
-·25 min](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-anthropic-managed)[## Set up Claude on Google Cloud (Google managed)
+·25 min](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-anthropic-managed)[![](https://academy.claude.com/assets/v1/thumbnail.dark-kjpsqj14.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kjpsqj14.png)
+
+## Set up Claude on Google Cloud (Google managed)
 
 Check that you have the Google managed service, then get your Google Cloud project ready, give yourself access, and send Claude one test request. Then connect Claude Code or Claude Desktop and check that it answers, with no Anthropic API key. Google Cloud bills the usage.
 

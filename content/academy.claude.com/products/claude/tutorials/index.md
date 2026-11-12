@@ -10,13 +10,13 @@
 
 Ask Claude for an interactive page that fits your work, one that can save what your team enters.
 
-·9 min](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-bb0g5i6x.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j090lkdj.png)
+·9 min](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-lala3ba3.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-d7ynyke1.png)
 
-## Choosing the right Claude model: Haiku, Sonnet, Opus, or Fable
+## Choosing a Claude model for knowledge workers
 
-Learn when to use Haiku, Sonnet, Opus, or Fable to get better results and stay inside your rate limit. A practical guide to picking the right Claude model.
+What each Claude model is for, which one to start with, and how to tell when a different model or effort level would help.
 
-·5 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)[![](https://academy.claude.com/assets/v1/thumbnail.light-fug4apyj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-g8e7vz1g.png)
+·7 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)[![](https://academy.claude.com/assets/v1/thumbnail.light-fug4apyj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-g8e7vz1g.png)
 
 ## Claude Enterprise Administrator Guide
 
@@ -48,7 +48,7 @@ Get to a clear yes on AI use: answer "how does Claude handle our data?", write a
 
 ## Collaborate with your team in Claude artifacts
 
-Build a doc, a deck, a design, a dashboard, or an animation with Claude, then share it so your team can work on it too.
+Build a doc, a deck, a design, a spreadsheet, a whiteboard, a dashboard, or an animation with Claude, then share it so your team can work on it too.
 
 ·8 min](https://academy.claude.com/tutorials/intro-to-artifacts)[![](https://academy.claude.com/assets/v1/thumbnail.light-o61zk21d.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-k41o64xt.png)
 

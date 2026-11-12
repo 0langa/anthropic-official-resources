@@ -1,6 +1,6 @@
 # Share artifacts
 
-Updated this week
+Updated yesterday
 
 Copy for LLM
 
@@ -95,7 +95,7 @@ If someone didn't get an invitation email because they didn't have a Claude acco
 
 ## Who can open a shared artifact
 
-- **Who needs a Claude account:** To open an artifact shared with them or with your organization, people sign in to Claude. Most artifacts shared with "Anyone with the link" open without a Claude account or sign-in. Docs open only for people signed in to Claude, who can only view them. Some other artifacts, like dashboards, show part or all of their content only after the visitor signs in. Legacy artifacts have their own rules, described in **[Publish or share a legacy artifact](https://support.claude.com/en/articles/9547008-share-artifacts)**.
+- **Who needs a Claude account:** To open an artifact shared with them or with your organization, people sign in to Claude. Most artifacts shared with "Anyone with the link" open without a Claude account or sign-in. Docs open only for people signed in to Claude, who can only view them. Some other artifacts show part or all of their content only after the visitor signs in. Legacy artifacts have their own rules, described in **[Publish or share a legacy artifact](https://support.claude.com/en/articles/9547008-share-artifacts)**.
 - **Everyone in your organization:** Only people signed in to your organization can open it.
 - **Anyone with the link:** Anyone who has the link can open it, including people outside your organization and, for most artifacts shared this way, people who aren't signed in to Claude. On Team and Enterprise plans, if an owner turns off **External sharing**, these links stop working until it's turned back on, unless an owner has allowed that artifact individually.
 
@@ -106,7 +106,7 @@ If someone didn't get an invitation email because they didn't have a Claude acco
 
 ### What people see when they open your artifact
 
-- **Viewers use their own access.** An **[artifact that pulls from connected apps](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)** uses the viewer's connections, not yours. If a viewer can't access a data source, that part of the artifact shows an error instead of your data.
+- **Viewers use their own access.** An **[artifact that pulls from connected apps](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)** uses the viewer's connections, not yours. If a viewer can't access a data source, that part of the artifact shows an error instead of your data. The exception is a Claude Data dashboard shared with live sharing (beta), which shows people in your organization results from your connection. Learn more in **[Get started with Claude Data](https://support.claude.com/en/articles/17454700)**[.](https://support.claude.com/en/articles/17454700)
 - **Stored information can be shared.** Some artifacts save information that everyone who opens them can see, like items in a shared tracker. Before you enter sensitive information, check whether the **[artifact uses shared storage](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them)**.
 - **People who only have the link see less.** Someone who opens an "Anyone with the link" artifact from outside your organization, or without signing in, sees the artifact, but the parts that use connected apps or Claude don't work for them, and they can't see or add comments. If the artifact saves information, people outside your organization can read it once they sign in to Claude, but they can't change it. People who aren't signed in can't see that information, so an artifact that keeps most of its content there shows them little or nothing until they sign in. On Pro, Max, and Ultra plans, "outside your organization" means anyone other than you.
 

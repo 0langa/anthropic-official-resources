@@ -16,13 +16,13 @@ The three setup steps before your first task: open Claude, run the guided setup,
 
 Learn what changes when you use Claude in the desktop app, and what it can do across your computer and tools.
 
-·Tutorial·6 min](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)[![](https://academy.claude.com/assets/v1/thumbnail.light-bb0g5i6x.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j090lkdj.png)
+·Tutorial·6 min](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)[![](https://academy.claude.com/assets/v1/thumbnail.light-lala3ba3.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-d7ynyke1.png)
 
-### Choosing the right Claude model: Haiku, Sonnet, Opus, or Fable
+### Choosing a Claude model for knowledge workers
 
-Learn when to use Haiku, Sonnet, Opus, or Fable to get better results and stay inside your rate limit. A practical guide to picking the right Claude model.
+What each Claude model is for, which one to start with, and how to tell when a different model or effort level would help.
 
-·Tutorial·5 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)
+·Tutorial·7 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)
 
 ## Dig deeper with courses
 

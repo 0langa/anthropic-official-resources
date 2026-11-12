@@ -2,7 +2,7 @@
 
 # Claude 3.5 Sonnet
 
-[Try on Claude.ai](https://claude.ai/redirect/website.v1.1e8f1be8-e3a1-4000-8bb1-1093048b772b)
+[Try on Claude.ai](https://claude.ai/redirect/website.v1.fea0466c-1d8a-4e05-9ab7-0edcf824126a)
 
 Published
 :   Jun 21, 2024

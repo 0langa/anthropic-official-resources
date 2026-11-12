@@ -12,6 +12,10 @@ Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fmodel-co
 
 The [2026-07-28 revision(opens in new tab)](https://modelcontextprotocol.io/specification/2026-07-28/changelog) of the MCP specification drops the initialize handshake that this lesson describes. Clients and servers on version 1 of the MCP Python SDK, which this course uses, still begin every connection with the handshake.
 
+Embedded media: https://www.youtube-nocookie.com/embed/XQH9uZu0H9w?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
+
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=XQH9uZu0H9w)
+
 MCP clients and servers communicate by exchanging JSON messages, but how do these messages actually get transmitted? The communication channel used is called a **transport**, and there are several ways to implement this - from HTTP requests to WebSockets to even writing JSON on a postcard (though that last one isn't recommended for production use).
 
 ## The Stdio Transport[](https://academy.claude.com/courses/model-context-protocol-advanced-topics/the-stdio-transport)

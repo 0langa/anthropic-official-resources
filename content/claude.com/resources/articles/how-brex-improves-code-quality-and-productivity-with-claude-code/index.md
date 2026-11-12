@@ -100,7 +100,13 @@ It also highlights a powerful duality: the intelligent finance Brex delivers to 
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 9, 2026
+[ArticleNov 10, 2026
+
+### How Curative is building a national provider network with agents on Claude
+
+Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
+
+Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 9, 2026
 
 ### Safely scaling multi-agent teams with Claude Fable 5.2
 
@@ -120,13 +126,7 @@ Claude PlatformClaude Code
 
 Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
 
-Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)[ArticleOct 22, 2026
-
-### Building agents: When to fold subagents into your main agent loop
-
-When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
-
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)
+Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)
 
 ## Transform how your organization operates with Claude
 

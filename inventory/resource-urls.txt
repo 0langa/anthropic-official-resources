@@ -3794,6 +3794,7 @@ https://platform.claude.com/docs/en/build-with-claude/context-windows
 https://platform.claude.com/docs/en/build-with-claude/context-windows?sdk_languages=curl
 https://platform.claude.com/docs/en/build-with-claude/data-residency
 https://platform.claude.com/docs/en/build-with-claude/effort
+https://platform.claude.com/docs/en/build-with-claude/effort-per-message
 https://platform.claude.com/docs/en/build-with-claude/effort?sdk_languages=curl
 https://platform.claude.com/docs/en/build-with-claude/embeddings
 https://platform.claude.com/docs/en/build-with-claude/embeddings?sdk_languages=curl
