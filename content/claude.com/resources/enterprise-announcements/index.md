@@ -8,6 +8,12 @@ Unsubscribe at any time.
 
 The latest on how enterprises and partners are adopting and building with Claude and other enterprise announcements.
 
+[ArticleNov 9, 2026
+
+### JPMorganChase expands Claude Code to more employees across the firm
+
+Claude Code](https://claude.com/resources/articles/jpmorganchase-expands-claude-code)
+
 [ArticleOct 28, 2026
 
 ### IDC brings Quanta into Claude and adopts Claude across the company
@@ -30,13 +36,13 @@ Note: This blog has been updated from its original version to include additional
 
 Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)
 
-[ArticleSep 23, 2026
+[ArticleNov 12, 2026
 
-### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
+### J. Crew brings its signature approach to styling to life with Claude
 
-CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
+J.Crew's new Style Advisor uses Claude to offer a more personalized way to shop online, with complete looks instead of individual products.
 
-Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)
+Claude Code](https://claude.com/resources/articles/j-crew-style-advisor-with-claude)
 
 [ArticleNov 9, 2026
 
@@ -44,21 +50,19 @@ Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digi
 
 Claude Code](https://claude.com/resources/articles/jpmorganchase-expands-claude-code)
 
-[ArticleOct 28, 2026
-
-### IDC brings Quanta into Claude and adopts Claude across the company
-
-IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business
-
-Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company)
-
-Featured resource 1 of 5: IDC brings Quanta into Claude and adopts Claude across the company
+Featured resource 1 of 5: JPMorganChase expands Claude Code to more employees across the firm
 
 Advanced filters
 
-Showing 12 of 12 resources
+Showing 13 of 13 resources
 
-[ArticleNov 9, 2026
+[ArticleNov 12, 2026
+
+### J. Crew brings its signature approach to styling to life with Claude
+
+J.Crew's new Style Advisor uses Claude to offer a more personalized way to shop online, with complete looks instead of individual products.
+
+Claude Code](https://claude.com/resources/articles/j-crew-style-advisor-with-claude)[ArticleNov 9, 2026
 
 ### JPMorganChase expands Claude Code to more employees across the firm
 

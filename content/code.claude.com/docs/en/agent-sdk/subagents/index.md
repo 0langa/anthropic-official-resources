@@ -155,7 +155,7 @@ Focus on:
 | `effort` | `'low' \| 'medium' \| 'high' \| 'xhigh' \| 'max' \| number` | No | Reasoning effort level for this agent |
 | `permissionMode` | `PermissionMode` | No | Permission mode for tool execution within this agent. The [subagent inheritance rules](/docs/en/agent-sdk/permissions#available-modes) decide when it applies |
 
-In the Python SDK, multi-word field names such as `disallowedTools` and `mcpServers` keep their camelCase spelling to match the wire format rather than following Python's snake\_case convention. See the [`AgentDefinition` reference](/docs/en/agent-sdk/python#agentdefinition) for details.
+In the Python SDK, multi-word field names such as `disallowedTools` and `mcpServers` keep their camelCase spelling to match the wire format rather than following Python's snake_case convention. See the [`AgentDefinition` reference](/docs/en/agent-sdk/python#agentdefinition) for details.
 
 #### Choose whether Claude waits for subagents
 

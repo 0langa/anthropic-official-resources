@@ -235,19 +235,19 @@ See more
 
 ## Contact us or download our press kit
 
-![Press](https://www-cdn.anthropic.com/images/4zrzovbb/website/19588d2d29cee76507fa40c928b15263107ce0b5-20x20.svg)
+![Press](https://assets.claude.com/832b1347b30c1f7840ac6e5193580c962e8d7d00.svg)
 
 ### Press
 
 [press@anthropic.com](mailto:press@anthropic.com)
 
-![Support](https://www-cdn.anthropic.com/images/4zrzovbb/website/6f6321bfa64df4e8a0bd1b2ed1b703b4a864e0e9-20x20.svg)
+![Support](https://assets.claude.com/d4ce708feede38c2261350b85732c04ded877e1b.svg)
 
 ### Support
 
 [How to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)
 
-![Media assets](https://www-cdn.anthropic.com/images/4zrzovbb/website/86777042ed2af185b46341d07b04b86351489844-20x20.svg)
+![Media assets](https://assets.claude.com/31e38ba2dafb3ff5c0231676d15cd3555d2f74a0.svg)
 
 ### Media assets
 

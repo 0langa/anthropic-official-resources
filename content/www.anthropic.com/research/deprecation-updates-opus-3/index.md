@@ -1,6 +1,6 @@
 # An update on our model deprecation commitments for Claude Opus 3
 
-![An update on our model deprecation commitments for Claude Opus 3](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fac18a11f88ea159cedb480d3dc29bc2a674e2314-1920x1080.jpg&w=1920&q=75)
+![An update on our model deprecation commitments for Claude Opus 3](https://assets.claude.com/aae1d5fc07c6afe61ccf3535516eb26dc7c79c8e.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Feb 25, 2026

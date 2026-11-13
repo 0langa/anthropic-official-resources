@@ -135,7 +135,7 @@ The text after the colon is the CLI's report of what went wrong, so start there 
 
 ## Structured outputs
 
-### structured\_output is None but the result says success
+### structured_output is None but the result says success
 
 A result message can end with `subtype: "success"` while `structured_output` is `None` in Python or `undefined` in TypeScript. The run completes, but no validated output exists.
 

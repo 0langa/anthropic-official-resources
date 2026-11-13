@@ -2,7 +2,7 @@
 
 [Read Paper](http://arxiv.org/abs/2312.03689)
 
-![Evaluating and mitigating discrimination in language model decisions](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffa64ac336bcfb29c9f37961758a0e9352c588818-2000x1125.jpg&w=1920&q=75)
+![Evaluating and mitigating discrimination in language model decisions](https://assets.claude.com/78edf28b5836f33837ea206f8690bcc6c4290490.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Dec 7, 2023
@@ -34,4 +34,4 @@ As language models (LMs) advance, interest is growing in applying them to high-s
 
 ### Policy memo
 
-[Evaluating and Mitigating Discrimination in Language Model Decisions Policy Memo](https://www-cdn.anthropic.com/f0dfb70b9b309d7c52845f73da8d964140669ff7/Anthropic_DiscriminationEval.pdf)
+[Evaluating and Mitigating Discrimination in Language Model Decisions Policy Memo](https://assets.claude.com/f0dfb70b9b309d7c52845f73da8d964140669ff7.pdf)

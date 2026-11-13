@@ -1,6 +1,6 @@
 # Investing in the public benefit
 
-![Investing in the public benefit](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcbdc2eac6dfb37cf596d8f9fb32783036b5737c2-2000x1125.jpg&w=1920&q=75)
+![Investing in the public benefit](https://assets.claude.com/eed596be48a4b322690a6175794cdbd970ec4df4.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Oct 18, 2026

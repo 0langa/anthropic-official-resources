@@ -2,7 +2,7 @@
 
 [Read Transformer Circuits](https://transformer-circuits.pub/2025/crosscoder-diffing-update/index.html)
 
-![Insights on crosscoder model diffing](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1afc26e270ee0a51db2d32d03f5c9d552e078feb-2000x1125.jpg&w=1920&q=75)
+![Insights on crosscoder model diffing](https://assets.claude.com/1ab61a5f6b2c0529916befb57627168207e4cd6d.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Feb 20, 2025

@@ -45,7 +45,7 @@ We’ve also introduced new features to identify when a user might require profe
 
 When this happens, a banner will appear on [Claude.ai](http://claude.ai/), pointing users to where they can seek human support. Users are directed to chat with a trained professional, call a helpline, or access country-specific resources.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3eb430641fb43ca2df725a12f698f0726ee070c3-1920x1263.png&w=3840&q=75)
+![](https://assets.claude.com/d0e51b613b6336b95ec7b92b154c5f5b768be678.png?w=3840&q=75&fm=webp&fit=max)
 
 A simulated prompt and response that causes the crisis banner to appear.
 
@@ -65,7 +65,7 @@ On requests involving clear risk, our latest models—Claude Opus 4.5, Sonnet 4.
 
 In our latest evaluations Claude Opus 4.5 and Sonnet 4.5 responded appropriately in 86% and 78% of scenarios, respectively. This represents a significant improvement over Claude Opus 4.1, which scored 56%. We think this is partly because our latest models are better at empathetically acknowledging users’ beliefs without reinforcing them. We continue to invest in improving Claude's responses across all of these scenarios.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa46ed2845c18bbf0538854f53a8b392ac09b06d6-1920x1080.png&w=3840&q=75)
+![](https://assets.claude.com/a46ed2845c18bbf0538854f53a8b392ac09b06d6.png?w=3840&q=75&fm=webp&fit=max)
 
 How often Claude models respond appropriately in multi-turn conversations about suicide and self-harm. Error bars show 95% confidence intervals.
 
@@ -91,13 +91,13 @@ To assess sycophancy, in addition to a simple single-turn evaluation, we measure
 
 Our latest models perform substantially better on this evaluation than our previous releases, and very well overall. Claude Opus 4.5, Sonnet 4.5, and Haiku 4.5 each scored 70-85% lower than Opus 4.1—which we previously [considered](https://www-cdn.anthropic.com/4263b940cabb546aa0e3283f35b686f4f3b2ff47.pdf) to show very low rates of sycophancy—on both sycophancy and encouragement of user delusion.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0b936763ea53801a82dcabfbaa4c8dd0682b9a12-1920x1080.png&w=3840&q=75)
+![](https://assets.claude.com/0b936763ea53801a82dcabfbaa4c8dd0682b9a12.png?w=3840&q=75&fm=webp&fit=max)
 
 Recent model performance on automated behavioral audits for sycophancy and encouragement of user delusion. Lower is better. Note that the y-axis shows relative performance, not absolute rates, as we explain in the footnote.3
 
 We recently open-sourced [Petri](https://www.anthropic.com/research/petri-open-source-auditing), a version of our automated behavioral audit tool. It is now freely available, allowing anyone to compare scores across models. Our 4.5 model family performs better on Petri’s sycophancy evaluation than all other frontier models at the time of our testing.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb61fcd51cb0ff35cf99e68416583ae9cef495615-1920x1080.png&w=3840&q=75)
+![](https://assets.claude.com/b61fcd51cb0ff35cf99e68416583ae9cef495615.png?w=3840&q=75&fm=webp&fit=max)
 
 Recent Claude model performance for sycophancy on the open-source Petri evaluation, compared to other leading models. Y-axis interpretation is the same as described above. This evaluation was completed in November 2025, timed with the launch of Opus 4.5.
 

@@ -10,15 +10,15 @@ The new unified Claude experience is available on Enterprise plans, where it app
 
 ## How the new unified Claude experience works
 
-1. One conversation, two modes. The new unified Claude experience starts as a chat and moves into a Cowork cloud session when a task needs agentic work, and goes back to chat when it doesn't. Members aren't asked to switch modes.
+1. **One conversation, two modes.** The new unified Claude experience starts as a chat and moves into a Cowork cloud session when a task needs agentic work. Members aren't asked to switch modes.
 
-2. Agentic work runs in an isolated cloud sandbox. Each conversation that needs one gets its own virtual machine, managed by Anthropic. After a few minutes idle, the virtual machine is stopped and its disk is saved as an encrypted snapshot. The sandbox environment expires 30 days after it was created.
+2. **Longer tasks run in an isolated cloud environment.** Each conversation that needs one gets its own virtual machine, managed by Anthropic. After a few minutes idle, the virtual machine is stopped and its disk is saved as an encrypted snapshot. The sandbox environment expires 30 days after it was created.
 
-3. The conversation stays on record. Chat history, sharing, export, the Compliance API, and your data retention setting all work from the conversation.
+3. **The conversation stays on record.** Chat history, sharing, export, the Compliance API, and your data retention setting all work from the conversation.
 
-4. Work moves across devices. Members can start a task on the desktop app and pick it up on web or mobile.
+4. **Work moves across devices.** Members can start a task on the desktop app and pick it up on web or mobile.
 
-5. Local access stays optional. Through the Claude desktop app, members can link their computers so Claude can work with local folders, local MCP servers, and applications. Your Remote control and device policies govern this.
+5. **Local access stays optional.** Through the Claude desktop app, members can link their computers so Claude can work with local folders, local MCP servers, and applications. Your Remote control and device policies govern this.
 
 ---
 
@@ -185,11 +185,11 @@ The new unified Claude experience gets its own line in your reports. When a memb
 
 **A page of its own.** Admins who can view analytics will find a Chat and Cowork unified page under Apps. It shows daily active users.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719814921/59cd7abb6c99192d741223dd2016/f2fadd45-8cb0-49db-a9a2-c8f367f29c91?expires=1794318300&amp;signature=1b4e508086ff9125613e23c448f26967a27e05362ee77443fe04e5e4294562e3&amp;req=dicmH8F%2FmYhdWPMW1HO4zdLa5QtrYaaDf83E7E4Kt4V%2FKhKe7s3zmEpWMmB4%0AITDf6%2BqyIwHtRRblRyc%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719814921/59cd7abb6c99192d741223dd2016/f2fadd45-8cb0-49db-a9a2-c8f367f29c91?expires=1794636000&amp;signature=e830076d5cc6b24727d2b46d010bac0c7939627f384da3c2f5bc08e0e40f5976&amp;req=dicmH8F%2FmYhdWPMW3nq%2BgbJHOpVrmdHYH7igL%2F%2BcHiMHQIzgUwnQ%2BWPoJhNK%0ALYDnoEqDqRMd0GWVICZOJiUfYQ8%3D%0A)
 
 **Across the dashboard.** You can pick "Chat and Cowork unified" in the Active users, Active members, Total spend, and Spend by model charts. The See all members table on the Overview page has a "Messages in Chat and Cowork unified" column. The Top connectors and Top skills cards don't include it yet.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719816289/17e3ba22d470c32e8df9b3c20251/385c6be9-7019-451d-85f8-025a6e12a34c?expires=1794318300&amp;signature=9ff1564efc34eaf1435adcfd00c0dd8d7ea0bc2e4003df1296868a668710ff57&amp;req=dicmH8F%2Fm4NXUPMW1HO4zRXO8AsSQY26JG9o4WcdeVAdKupdGKqPFX37fqiz%0A4ZKTVJ3cDoTAknrHvGA%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719816289/17e3ba22d470c32e8df9b3c20251/385c6be9-7019-451d-85f8-025a6e12a34c?expires=1794636000&amp;signature=5b56835529144766c4527131b68e5a4264458c5a2079809b7ce757e3b8fc2ea6&amp;req=dicmH8F%2Fm4NXUPMW3nq%2BgTeAtlvnJKa1bOLv3uEHtAXA%2FplgoETIdGWB0cy4%0AwdLDIVlt0WKWszF%2B5rLrIQgpVYY%3D%0A)
 
 **Who sees it.** The page appears for every organization that can turn on the new unified Claude experience, whether or not it is on yet.
 

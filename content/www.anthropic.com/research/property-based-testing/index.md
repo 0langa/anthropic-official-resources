@@ -2,7 +2,7 @@
 
 # Finding bugs across the Python ecosystem with Claude and property-based testing
 
-![Finding bugs across the Python ecosystem with Claude and property-based testing](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F00d4a464d532713023c240f4a85d10326c676362-2000x1125.jpg&w=1920&q=75)
+![Finding bugs across the Python ecosystem with Claude and property-based testing](https://assets.claude.com/552f768ecafa1dd99a40f2bc9caf71b7fd5dacda.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Jan 14, 2026
@@ -83,7 +83,7 @@ Our property-based testing agent is built as a custom Claude Code command. The a
 4. Run the tests and reflect: if it failed, has the test truly discovered a bug, or does the test need to be adjusted? If it succeeded, is the test testing anything worthwhile, or is it simply trivial?
 5. If the agent is confident it has found a real bug, it writes out a formatted bug report.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2cac5914e526becbfb506a035f11f758b9f10010-1999x1126.png&w=3840&q=75)
+![](https://assets.claude.com/2cac5914e526becbfb506a035f11f758b9f10010.png?w=3840&q=75&fm=webp&fit=max)
 
 The workflow of the agent.
 

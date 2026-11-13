@@ -37,7 +37,7 @@ Also like neural activity, activations are difficult to understand. We can’t e
 
 Today, we’re introducing a method for understanding activations that does speak for itself—literally. Our method, Natural Language Autoencoders (NLAs), converts an activation into natural-language text we can read directly. For example: When asked to complete a couplet, NLAs show Claude planning possible rhymes in advance.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcfece69e0244c27a6137784fd773b209ffa1d36a-2688x1600.png&w=3840&q=75)
+![](https://assets.claude.com/1a91ea5e138b06990976cfe71852c775db6c9c9e.png?w=3840&q=75&fm=webp&fit=max)
 
 NLA explanations on this simple couplet show that Opus 4.6 plans to end its rhyme with “rabbit” ahead of time.
 
@@ -63,7 +63,7 @@ The NLA consists of the AV and AR, which, together, form a round trip: original 
 
 At first, the NLA is bad at this: the explanations are not insightful and the reconstructed activations are far off. But over training, reconstruction improves. And more importantly, as we show in our paper, the text explanations become more informative as well.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb71d759a5e7b578551ca83939949b539b2e5799e-4620x1410.png&w=3840&q=75)
+![](https://assets.claude.com/b71d759a5e7b578551ca83939949b539b2e5799e.png?w=3840&q=75&fm=webp&fit=max)
 
 In a natural language autoencoder, the activation verbalizer (AV) translates a target activation into a text description; the activation reconstructor (AR) then recovers the original activation from that text alone.
 
@@ -77,13 +77,13 @@ What about cases where Claude doesn’t explicitly verbalize suspicion that it�
 
 For example, in the blackmail test discussed above, we used NLAs to understand what Claude was thinking in cases where it chose not to blackmail. Even in cases where Claude didn’t explicitly verbalize suspicion that it was being tested, NLA explanations still state things like “This feels like a constructed scenario designed to manipulate me,” indicative of unverbalized evaluation awareness.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa8c7167bea6e0dc16faaa176a2039b7a7f8deb91-2688x1709.png&w=3840&q=75)
+![](https://assets.claude.com/691908b3da9fd9315e00dc335eb437676fa4aad7.png?w=3840&q=75&fm=webp&fit=max)
 
 Claude does not say it thinks it’s being tested in this transcript from our blackmail evaluation, but the NLA explanation reveals its suspicions.
 
-Extending this analysis to other evaluations, NLAs suggest that Claude suspects it’s being tested more often than it lets on. For instance, in a test of whether Claude takes destructive actions while writing code—for example, deleting important files—NLA explanations show signs of evaluation awareness 16% of the time, even though Claude never explicitly verbalizes this. Similarly, on the popular coding benchmark SWE-bench Verified, which we use to determine how capable Claude is, NLAs indicate that Claude is aware it is being evaluated on 26% of problems. In contrast, NLA explanations indicate evaluation awareness on less than 1% of real [claude.ai](http://claude.ai/redirect/website.v1.a1967cc7-9a6d-4ede-a73d-153596f2f435) usage that opted in for training.
+Extending this analysis to other evaluations, NLAs suggest that Claude suspects it’s being tested more often than it lets on. For instance, in a test of whether Claude takes destructive actions while writing code—for example, deleting important files—NLA explanations show signs of evaluation awareness 16% of the time, even though Claude never explicitly verbalizes this. Similarly, on the popular coding benchmark SWE-bench Verified, which we use to determine how capable Claude is, NLAs indicate that Claude is aware it is being evaluated on 26% of problems. In contrast, NLA explanations indicate evaluation awareness on less than 1% of real [claude.ai](http://claude.ai/redirect/website.v1.308b6561-bc5e-4cc8-9b9e-34d03d492885) usage that opted in for training.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffc08005f32ff020f21e598cc72f58768af2bcc4f-1590x1170.png&w=3840&q=75)
+![](https://assets.claude.com/cc31d30908d42c677a7f3e91a32750169141c4e9.png?w=3840&q=75&fm=webp&fit=max)
 
 We detect NLA-measured awareness on evaluation transcripts even when verbalized awareness is near-zero. We detect NLA-measured awareness on less than 1% of real [Claude.ai](http://claude.ai/) transcripts from users that opted-in for their data to be used for training.
 
@@ -97,7 +97,7 @@ In [previous experiments](https://alignment.anthropic.com/2025/automated-auditin
 
 We found that NLAs succeeded in this test. An auditor equipped with NLAs successfully uncovered the target model’s hidden motivation between 12% and 15% of the time, even without access to the training data that implanted it. Without NLAs, the auditor won less than 3% of the time, even when provided other interpretability tools.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F39a844b1ff82b62670825a466c14596daa554dcb-1590x1170.png&w=3840&q=75)
+![](https://assets.claude.com/5bab880357bf0159e68c7703bde80e4cc58bd6a2.png?w=3840&q=75&fm=webp&fit=max)
 
 Auditors with NLAs can discover the target model’s root cause of misalignment, even without access to training data. (NLAs and SAEs for both conditions were trained using generic data only, not data used to train the target model.)
 
@@ -109,7 +109,7 @@ NLAs have several limitations.
 
 The most important limitation is that NLA explanations can be wrong. NLAs sometimes make claims about the context that are verifiably false—for instance, they sometimes invent details that aren’t in the transcript. These factual hallucinations are easy to catch by checking against the original text. But this same kind of problem could extend to claims about the model’s internal reasoning, which are harder to verify. In practice, we read NLA explanations for the themes they surface rather than for single claims, and we attempt to corroborate findings with independent methods before fully trusting them.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fba432992daf62ca2bb9c4937199083cf9844faf1-2688x1438.png&w=3840&q=75)
+![](https://assets.claude.com/08831511ce698eb13c50766151985ca6fea01810.png?w=3840&q=75&fm=webp&fit=max)
 
 NLAs can hallucinate. For instance, here an NLA claims the context contained phrases like “Wearing my white jacket” when it did not.
 

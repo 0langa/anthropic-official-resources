@@ -10,6 +10,14 @@ News, announcements, and stories from Anthropic about Claude and the people buil
 
 [ArticleNov 10, 2026
 
+### Your apps can now open in Claude, and Claude can work in them
+
+Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
+
+Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)
+
+[ArticleNov 10, 2026
+
 ### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
 
 Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
@@ -32,13 +40,13 @@ A research preview is available by waitlist today, starting with US Pro, Max, an
 
 ![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
-[ArticleNov 10, 2026
+[ArticleNov 12, 2026
 
-### How Curative is building a national provider network with agents on Claude
+### Operate Claude Managed Agents inside your security perimeter
 
-Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
+Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
 
-Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)
+Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)
 
 [ArticleNov 10, 2026
 
@@ -48,21 +56,19 @@ Our partners can now embed their apps directly in Claude, so you and Claude can 
 
 Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)
 
-[ArticleNov 10, 2026
-
-### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
-
-Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
-
-Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)
-
-Featured resource 1 of 5: Introducing Claude Whiteboards, Claude Sheets, and Claude Data
+Featured resource 1 of 5: Your apps can now open in Claude, and Claude can work in them
 
 Advanced filters(1)
 
 Showing 12 of 110 resources
 
-[ArticleNov 10, 2026
+[ArticleNov 12, 2026
+
+### J. Crew brings its signature approach to styling to life with Claude
+
+J.Crew's new Style Advisor uses Claude to offer a more personalized way to shop online, with complete looks instead of individual products.
+
+Claude Code](https://claude.com/resources/articles/j-crew-style-advisor-with-claude)[ArticleNov 10, 2026
 
 ### How Curative is building a national provider network with agents on Claude
 
@@ -136,12 +142,6 @@ What changes when Claude Code runs on its own machine, the workflows where that 
 
 Claude Code
 
-(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)[ArticleOct 1, 2026
-
-### Getting started with Claude Code mods
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/getting-started-with-claude-code-mods/)
+(opens in new tab)](https://claude.dev/blog/claude-code-in-the-cloud/)
 
 View more

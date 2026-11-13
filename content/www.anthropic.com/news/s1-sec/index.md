@@ -13,9 +13,9 @@ Related articles
 
 - Announcements
 
-  Jun 1, 2026
+  Nov 10, 2026
 
-  [Anthropic confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec)
+  [Anthropic launches roadshow for proposed initial public offering](https://www.anthropic.com/news/roadshow-launch)
 
 [View more](https://www.anthropic.com/search?topic=funding)
 

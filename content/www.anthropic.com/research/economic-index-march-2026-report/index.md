@@ -4,7 +4,7 @@
 
 [Read in PDF](https://cdn.sanity.io/files/4zrzovbb/website/4053bf3440c0c85b8852052770c5b4cf882689c3.pdf)
 
-![Anthropic Economic Index report: Learning curves](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa7a26dcce3759f36c1738cf6358800ed5870cb45-1920x1080.jpg&w=1920&q=75)
+![Anthropic Economic Index report: Learning curves](https://assets.claude.com/af9929784b415c4b7f24ced446beec8f0cb11af0.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Mar 24, 2026
@@ -68,13 +68,13 @@ Coding remains the most common use on our platforms, with tasks associated with 
 
 This decline in concentration partly reflects coding tasks migrating from Claude.ai to our first-party API, where Claude Code has grown to represent a large share of sampled traffic. Claude Code’s agentic architecture splits coding work into smaller API calls, which are labeled as distinct tasks. So while coding’s overall share of API traffic has grown, it is spread across many task categories rather than concentrated in a few. As a result, task concentration in the API remained roughly flat despite the influx of coding activity.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe0294de133e1d71da05fa21063aa3e9f904dbe82-4417x2496.png&w=3840&q=75)
+![](https://assets.claude.com/e0294de133e1d71da05fa21063aa3e9f904dbe82.png?w=3840&q=75&fm=webp&fit=max)
 
 **Usage shares among top 10 tasks over time by platform, Claude.ai and 1P API.** Share of conversations assigned to the ten most prevalent O\*NET tasks, by platform and report version.
 
 This migration of code out of Claude.ai is not the only factor driving decreased concentration. Part of the drop is due to changes in the mix of use cases between the two periods. Coursework fell from 19% to 12% of conversations, while personal use rose from 35% to 42% of conversations. Some of the drop in coursework can be explained by academic calendars in countries where students were on winter break during our sample period.[4](https://www.anthropic.com/research/economic-index-march-2026-report) At the same time, increasing signups beginning around February brought more casual AI users.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1e2365b2b158ffb9a7317c331ec64a06c40750f4-4417x2496.png&w=3840&q=75)
+![](https://assets.claude.com/1e2365b2b158ffb9a7317c331ec64a06c40750f4.png?w=3840&q=75&fm=webp&fit=max)
 
 **Work, personal, and coursework usage on Claude.ai in November 2025 and February 2026.** Share of conversations identified as work, personal, or coursework related on Claude.ai.
 
@@ -82,7 +82,7 @@ While the spread of Claude's work tasks became more diverse, almost all of these
 
 Since our first report, we have classified conversations into one of five interaction types—directive, feedback loop, task iteration, validation, and learning—which we group into two broader categories: automation and augmentation.[5](https://www.anthropic.com/research/economic-index-march-2026-report) Figure 1.3 shows that augmentation in Claude.ai increased slightly. This was driven by small bumps in validation and learning patterns. In [Appendix](https://www-cdn.anthropic.com/files/4zrzovbb/website/a3cdcd9e67c3c4c51440429dd016cacba514b35b.pdf) Figure A.3, we show that automation decreased sharply in the 1P API data.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F230e2c65024356e0a02498fc4a41330d09d0a373-4418x2496.png&w=3840&q=75)
+![](https://assets.claude.com/230e2c65024356e0a02498fc4a41330d09d0a373.png?w=3840&q=75&fm=webp&fit=max)
 
 **Collaboration mode share, Claude.ai.** Collaboration mode frequencies across Anthropic Economic Index Reports in Claude.ai.
 
@@ -90,13 +90,13 @@ Our API platform continued to gain a relatively higher share of Computer and Mat
 
 Another way to measure the change in the mix of tasks done on Claude is to look at the change in the average value of tasks, which we define as the average hourly wage of US workers who perform that task (Figure 1.4).[6](https://www.anthropic.com/research/economic-index-march-2026-report) This estimate of the value of tasks in Claude.ai has dropped slightly from $49.3 to $47.9 mostly due to an increase in simple factual questions (e.g., sports outcomes, weather) and a decrease in coding as it shifts to the API. As mentioned in our [previous report](https://www.anthropic.com/research/anthropic-economic-index-january-2026-report), the tasks we see on Claude tend to require higher education. The plot shows that these tasks also tend to earn higher wages than the US national average.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F29ee0ffb64d1246127349ff0912eba75a34ae668-4417x2496.png&w=3840&q=75)
+![](https://assets.claude.com/29ee0ffb64d1246127349ff0912eba75a34ae668.png?w=3840&q=75&fm=webp&fit=max)
 
 **Shifts in the average task value across version and platform.** This plot uses the O\*NET framework to estimate the dollar value of tasks performed on Claude.ai and the 1P API. Task value is estimated as the average hourly wage paid to workers who do that task.
 
 While slight, changes in several primitives between the previous and current report capture similar declines in task complexity on Claude.ai. The average years of education required for the human inputs declined from 12.2 to 11.9 years, users granted more autonomy to the AI, and the time required for the human to do the task alone fell by about 2 minutes. One change goes ostensibly in the opposite direction: the tasks performed by Claude were judged to be slightly less possible for a human without access to AI.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F011a8cb48accd97b47b67b67f0f0e5337ff784b1-4417x1792.png&w=3840&q=75)
+![](https://assets.claude.com/011a8cb48accd97b47b67b67f0f0e5337ff784b1.png?w=3840&q=75&fm=webp&fit=max)
 
 **Changes in key primitives.** This table shows average primitives in Claude.ai compared to the previous Economic Index report. All differences are statistically significant with p<0.001, except Human-only time with p<0.05. See the Appendix for definitions of these primitives.
 
@@ -115,7 +115,7 @@ In our previous report, we noted that the Anthropic AI Usage Index (AUI), which 
 
 The left panel of Figure 1.6 shows that this convergence continued in our most recent data, but at a slower pace. From August 2025 to February 2026, the share of per-person usage going to the top five states has decreased from 30 to 24%. The Gini coefficient has fallen since August 2025, though the pace of convergence has slowed. When we update our estimates from the [previous report](https://www-cdn.anthropic.com/096d94c1a91c6480806d8f24b2344c7e2a4bc666.pdf), we find that at this rate states would arrive at roughly equal usage per capita in 5–9 years, rather than 2–5.[8](https://www.anthropic.com/research/economic-index-march-2026-report)
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F37649d82a90d0583cff85a462f2d4da4f31767f2-4418x2496.png&w=3840&q=75)
+![](https://assets.claude.com/37649d82a90d0583cff85a462f2d4da4f31767f2.png?w=3840&q=75&fm=webp&fit=max)
 
 **Geographic convergence.** This figure shows Lorenz curves of the Anthropic Usage Index for US states (left panel) and countries (right panel).
 
@@ -135,13 +135,13 @@ The different Claude model classes (Haiku, Sonnet, and Opus) offer tradeoffs in 
 
 Figure 2.1 below shows that, for paid Claude.ai accounts, which have access to all model classes, 55% of Computer and Mathematical tasks (like coding software) use Opus, compared to 45% of Educational tasks. Technical users may notice performance gains and actively switch away from Sonnet, the default. Or efficiency-minded users may learn to use Sonnet for simpler tasks to avoid hitting usage limits. Relatedly, the differences here could reflect that most educational tasks are already fairly easy for Sonnet, or that students are more likely to be mindful of usage limits.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fafba3decf70429553b7c06b0aa1385f173f1ea7c-4417x2497.png&w=3840&q=75)
+![](https://assets.claude.com/afba3decf70429553b7c06b0aa1385f173f1ea7c.png?w=3840&q=75&fm=webp&fit=max)
 
 **Model choice and occupational domains.** This plot shows how much more or less paid Claude.ai users select the Opus class of models depending on which occupational domain the task is in. In this sample, 51% of overall usage is Opus, and 55% of Computer and Mathematical usage (+4.4pp) is Opus.
 
 Figure 2.2 below shows this in a more granular way. When users perform tasks associated with higher-paid *jobs*, they use Opus more often. For example, on Claude.ai, 34% of Software Developer tasks involve Opus compared to just 12% of Tutor tasks. Overall, for every additional $10 of hourly wage for a task, the share of conversations using Opus increases by 1.5 percentage points for Claude.ai users. The 1P API traffic shows much more response to the complexity of the task. Its slope is about twice as large, with the Opus share increasing 2.8 percentage points for every $10 in task value. Users deploying programmatic workflows may have more reason to switch between models compared to web users.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff33cf74122b06a2608c94b043dfdd126d6d23af7-4417x2497.png&w=3840&q=75)
+![](https://assets.claude.com/18696860bba21db9c8b25708a8166743f4a30b81.png?w=3840&q=75&fm=webp&fit=max)
 
 **Model choice and occupation.** This plot shows how often users select the Opus class of models depending on which occupation the task is associated with. Each point is an occupation (x-axis) and its Opus share (y-axis). The left panel shows Claude.ai users, the right panel shows 1P API users.
 
@@ -151,7 +151,7 @@ The first Claude model was released in March 2023. Since then, the userbase on b
 
 Table 2.1 shows differences between low tenure and high tenure users, where the latter group is defined as having signed up for Claude at least 6 months ago and the low tenure users are everyone else.[10](https://www.anthropic.com/research/economic-index-march-2026-report) High tenure users are more likely to use Claude to iterate on their work, and much less likely to delegate greater responsibility through directive use patterns. They are 7 percentage points more likely to be using Claude for work, and use Claude for tasks that tend to require higher levels of education. Finally, their usage is less concentrated in certain tasks. The top 10 O\*NET tasks account for a slightly lower (20.7% compared to 22.2%) share of usage for the high tenure group.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd8ddbda7a54e33e61e4c467d0cd7238a169cf3be-4418x2497.png&w=3840&q=75)
+![](https://assets.claude.com/d8ddbda7a54e33e61e4c467d0cd7238a169cf3be.png?w=3840&q=75&fm=webp&fit=max)
 
 **Differences between high and low tenure users.** This table shows average characteristics for high and low tenure users. We define high-tenure users as those who signed up for Claude at least six months before our data pull.
 
@@ -159,7 +159,7 @@ Below, we dig more into two of the primitives discussed above: the human years o
 
 In the panel on the left, we show that the years of schooling needed to understand the human prompt increases by almost 1 year for every additional year of Claude usage. In the panel on the right, we show that at the same time, personal use decreases: people who signed up a year ago devote 38% of their conversations to personal use cases, compared to 44% for the newest users.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F582b6323dd78604025221b88eae377d2fd717a03-8192x4632.png&w=3840&q=75)
+![](https://assets.claude.com/582b6323dd78604025221b88eae377d2fd717a03.png?w=3840&q=75&fm=webp&fit=max)
 
 **How tenure correlates with years of education and personal use.** This figure shows two binned scatterplots. The left panel shows human education years vs. days since signup. The right panel shows the percentage of personal use conversations vs. days since signup.
 
@@ -177,7 +177,7 @@ This could reflect that higher-tenure users are better at prompting. But what if
 
 In Specification (2), we include fixed effects for specific O\*NET tasks and request clusters. This amounts to comparing high- and low-tenure users within the same narrowly defined task, rather than across tasks. For instance, we have a request cluster called “Perform corporate financial analysis, valuation, and modeling for specific companies.” The fixed effects compare high- and low-tenure users within that cluster, and likewise within every other cluster. We would only observe a positive coefficient if, on average, long-tenure users are more successful in these within-task comparisons. This control moderates the effect somewhat, bringing it closer to 3 percentage points.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3077977b4ac5b82989e610e914e031c0ed2e1099-4417x2497.png&w=3840&q=75)
+![](https://assets.claude.com/3077977b4ac5b82989e610e914e031c0ed2e1099.png?w=3840&q=75&fm=webp&fit=max)
 
 **The association between experience and success.** This plot shows the results from regressing our binary success measure on an indicator for high tenure, with increasingly stringent controls. The coefficient is given in percentage points, and the whiskers give 95 percent confidence intervals. “Task FEs” indicates fixed effects for O\*NET task and request cluster. Full controls adds model, use case, and country fixed effects.
 

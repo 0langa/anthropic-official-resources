@@ -32,7 +32,7 @@ Claude Sonnet 4.5 is the best coding model in the world. It's the strongest mode
 
 Code is everywhere. It runs every application, spreadsheet, and software tool you use. Being able to use those tools and reason through hard problems is how modern work gets done.
 
-Claude Sonnet 4.5 makes this possible. We're releasing it along with a set of major upgrades to our products. In [Claude Code](https://anthropic.com/news/enabling-claude-code-to-work-more-autonomously), we've added checkpoints—one of our most requested features—that save your progress and allow you to roll back instantly to a previous state. We've refreshed the terminal interface and shipped a [native VS Code extension](https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code). We've added a new [context editing feature and memory tool](https://anthropic.com/news/context-management) to the Claude API that lets agents run even longer and handle even greater complexity. In the Claude [apps](https://claude.ai/redirect/website.v1.00f1dc36-e587-46d8-b9b8-15ee65dded39/download), we've brought code execution and [file creation](https://www.anthropic.com/news/create-files) (spreadsheets, slides, and documents) directly into the conversation. And we've made the [Claude for Chrome](https://www.anthropic.com/news/claude-for-chrome) extension available to Max users who joined the waitlist last month.
+Claude Sonnet 4.5 makes this possible. We're releasing it along with a set of major upgrades to our products. In [Claude Code](https://anthropic.com/news/enabling-claude-code-to-work-more-autonomously), we've added checkpoints—one of our most requested features—that save your progress and allow you to roll back instantly to a previous state. We've refreshed the terminal interface and shipped a [native VS Code extension](https://marketplace.visualstudio.com/items?itemName=anthropic.claude-code). We've added a new [context editing feature and memory tool](https://anthropic.com/news/context-management) to the Claude API that lets agents run even longer and handle even greater complexity. In the Claude [apps](https://claude.ai/redirect/website.v1.920eb243-73d1-44dd-880d-745d2da07582/download), we've brought code execution and [file creation](https://www.anthropic.com/news/create-files) (spreadsheets, slides, and documents) directly into the conversation. And we've made the [Claude for Chrome](https://www.anthropic.com/news/claude-for-chrome) extension available to Max users who joined the waitlist last month.
 
 We're also giving developers the building blocks we use ourselves to make Claude Code. We're calling this the [Claude Agent SDK](https://anthropic.com/engineering/building-agents-with-the-claude-agent-sdk). The infrastructure that powers our frontier products—and allows them to reach their full potential—is now yours to build with.
 
@@ -44,7 +44,7 @@ Claude Sonnet 4.5 is available everywhere today. If you’re a developer, simply
 
 Claude Sonnet 4.5 is state-of-the-art on the SWE-bench Verified evaluation, which measures real-world software coding abilities. Practically speaking, we’ve observed it maintaining focus for more than 30 hours on complex, multi-step tasks.
 
-![Chart showing frontier model performance on SWE-bench Verified with Claude Sonnet 4.5 leading](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6421e7049ff8b2c4591497ec92dc4157b2ac1b30-3840x2160.png&w=3840&q=75)
+![Chart showing frontier model performance on SWE-bench Verified with Claude Sonnet 4.5 leading](https://assets.claude.com/6421e7049ff8b2c4591497ec92dc4157b2ac1b30.png?w=3840&q=75&fm=webp&fit=max)
 
 Claude Sonnet 4.5 represents a significant leap forward on computer use. On OSWorld, a benchmark that tests AI models on real-world computer tasks, Sonnet 4.5 now leads at 61.4%. Just four months ago, Sonnet 4 held the lead at 42.2%. Our [Claude for Chrome](https://www.anthropic.com/news/claude-for-chrome) extension puts these upgraded capabilities to use. In the demo below, we show Claude working directly in a browser, navigating sites, filling spreadsheets, and completing tasks.
 
@@ -52,7 +52,7 @@ Claude Sonnet 4.5 represents a significant leap forward on computer use. On OSWo
 
 The model also shows improved capabilities on a broad range of evaluations including reasoning and math:
 
-![Benchmark table comparing frontier models across popular public evals](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F67081be1ea2752e2a554e49a6aab2731b265d11b-2600x2288.png&w=3840&q=75)
+![Benchmark table comparing frontier models across popular public evals](https://assets.claude.com/b175666ddfa1ba0bc123826dc2537e59e810c021.png?w=3840&q=75&fm=webp&fit=max)
 
 Claude Sonnet 4.5 is our most powerful model to date. See footnotes for methodology.
 
@@ -60,17 +60,17 @@ Experts in finance, law, medicine, and STEM found Sonnet 4.5 shows dramatically 
 
 FinanceLawMedicineSTEM
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7175bc18c46562f1228280a7abda751219a2aae1-3840x2160.png&w=3840&q=75)
+![](https://assets.claude.com/7175bc18c46562f1228280a7abda751219a2aae1.png?w=3840&q=75&fm=webp&fit=max)
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffd313a5edb996d98b9fc73ee5b3e6a34fbbcbb83-3840x2160.png&w=3840&q=75)
+![](https://assets.claude.com/fd313a5edb996d98b9fc73ee5b3e6a34fbbcbb83.png?w=3840&q=75&fm=webp&fit=max)
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F442f96fd96de39e3ff3a05b288e2647dd7ec2f58-3840x2160.png&w=3840&q=75)
+![](https://assets.claude.com/442f96fd96de39e3ff3a05b288e2647dd7ec2f58.png?w=3840&q=75&fm=webp&fit=max)
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F711e6e1178f0ed7ca9aa85a5e0e9940a807c436a-3840x2160.png&w=3840&q=75)
+![](https://assets.claude.com/711e6e1178f0ed7ca9aa85a5e0e9940a807c436a.png?w=3840&q=75&fm=webp&fit=max)
 
 The model’s capabilities are also reflected in the experiences of early customers:
 
-![Michael Truell logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/f084c88e65466636019709c40cc477aadce2f718-151x64.svg)
+![Michael Truell logo](https://assets.claude.com/62424b5d85da8dcda763e6658130ada284c72ca4.svg)
 
 > “We're seeing state-of-the-art coding performance from Claude Sonnet 4.5, with significant improvements on longer horizon tasks. It reinforces why many developers using Cursor choose Claude for solving their most complex problems.”
 
@@ -78,7 +78,7 @@ Michael Truell
 
 CEO
 
-![Mario Rodriguez logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/fc55f4db8afa5db479127fde5be3e492940f513d-94x64.svg)
+![Mario Rodriguez logo](https://assets.claude.com/a8b374be6b1bb1e4331861b6ef4ffb4f860e266b.svg)
 
 > “Claude Sonnet 4.5 amplifies GitHub Copilot's core strengths. Our initial evals show significant improvements in multi-step reasoning and code comprehension—enabling Copilot's agentic experiences to handle complex, codebase-spanning tasks better.”
 
@@ -86,7 +86,7 @@ Mario Rodriguez
 
 Chief Product Officer
 
-![Eric Wendelin logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/daef759120b29e4db8ba4a5664d7574750964ab9-150x48.svg)
+![Eric Wendelin logo](https://assets.claude.com/4a01086d1523db59a6be6c13526fa2ba1ab27f1b.svg)
 
 > “Claude Sonnet 4.5 is excellent at software development tasks, learning our codebase patterns to deliver precise implementations. It handles everything from debugging to architecture with deep contextual understanding, transforming our development velocity.”
 
@@ -94,7 +94,7 @@ Eric Wendelin
 
 Tech Lead, GenAI for Developer Productivity
 
-![Nidhi Aggarwal logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/eb96f772e9ae5e340de41e6b07f3c6d50b3fff22-150x48.svg)
+![Nidhi Aggarwal logo](https://assets.claude.com/e39daa9c4374108e130bf9727d5f431a07050661.svg)
 
 > “Claude Sonnet 4.5 reduced average vulnerability intake time for our Hai security agents by 44% while improving accuracy by 25%, helping us reduce risk for businesses with confidence.”
 
@@ -102,7 +102,7 @@ Nidhi Aggarwal
 
 Chief Product Officer
 
-![Pablo Arredondo logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/efe6b287384573de696a70288b0418b9b4c3eebe-222x64.svg)
+![Pablo Arredondo logo](https://assets.claude.com/84b75c61938c23b5272f6eefaf5db8cfa3817d95.svg)
 
 > “Claude Sonnet 4.5 is state of the art on the most complex litigation tasks. For example, analyzing full briefing cycles and conducting research to synthesize excellent first drafts of an opinion for judges, or interrogating entire litigation records to create detailed summary judgment analysis.”
 
@@ -110,7 +110,7 @@ Pablo Arredondo
 
 Vice President, CoCounsel
 
-![Michele Catasta logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/0504471eb7da85317c6def349d315e2f8be00b0f-127x64.svg)
+![Michele Catasta logo](https://assets.claude.com/c9720e7571a7ad3432d77454dd5d7024b6299df0.svg)
 
 > “Claude Sonnet 4.5's edit capabilities are exceptional — we went from 9% error rate on Sonnet 4 to 0% on our internal code editing benchmark. Higher tool success at lower cost is a major leap for agentic coding. Claude Sonnet 4.5 balances creativity and control perfectly.”
 
@@ -118,7 +118,7 @@ Michele Catasta
 
 President
 
-![Danny Wu logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/0c9cd50bbc3339f05cabef82f554eb2bb8db3ccd-96x64.svg)
+![Danny Wu logo](https://assets.claude.com/f080f8cabe16034777fa98bc5a07a9158ea13d88.svg)
 
 > “Claude Sonnet 4.5 delivers impressive gains on our most complex, long-context tasks—from engineering in our codebase to in-product features and research. It's noticeably more intelligent and a big leap forward, helping us push what 240M+ users can design with Canva.”
 
@@ -126,7 +126,7 @@ Danny Wu
 
 Head of AI Products
 
-![David Kossnick logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/1d9e0d7a5760165244bba057a622513bb75cb65d-80x64.svg)
+![David Kossnick logo](https://assets.claude.com/35b2fc2757d2c4418749f848362932f6015b8d68.svg)
 
 > “Claude Sonnet 4.5 has noticeably improved Figma Make in early testing, making it easier to prompt and iterate. Teams can explore and validate their ideas with more functional prototypes and smoother interactions, while still getting the design quality Figma is known for.”
 
@@ -134,7 +134,7 @@ David Kossnick
 
 Head of AI Products
 
-![Jeff Wang logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/31f81aea37256a9c1600e17eb8916ac158443073-145x64.svg)
+![Jeff Wang logo](https://assets.claude.com/8af2d4a37b63b97252501fecb235fe3b55a1efad.svg)
 
 > “Sonnet 4.5 represents a new generation of coding models. It's surprisingly efficient at maximizing actions per context window through parallel tool execution, for example running multiple bash commands at once. ”
 
@@ -142,7 +142,7 @@ Jeff Wang
 
 CEO
 
-![Scott Wu logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/ad249bca4e8e195e08764efc43ecbc586ca37482-143x64.svg)
+![Scott Wu logo](https://assets.claude.com/cd06ed7f01af497d255eaf697fba661756302d9f.svg)
 
 > “For Devin, Claude Sonnet 4.5 increased planning performance by 18% and end-to-end eval scores by 12%—the biggest jump we've seen since the release of Claude Sonnet 3.6. It excels at testing its own code, enabling Devin to run longer, handle harder tasks, and deliver production-ready code.”
 
@@ -150,7 +150,7 @@ Scott Wu
 
 Co-Founder and CEO
 
-![Sven Krasser logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/5a7dfab326b449aedc0d11053f9d42f48951ae7e-150x48.svg)
+![Sven Krasser logo](https://assets.claude.com/4e99e503295c8821c0f4602b0b14e80fe6f25d37.svg)
 
 > “Claude Sonnet 4.5 shows strong promise for red teaming, generating creative attack scenarios that accelerate how we study attacker tradecraft. These insights strengthen our defenses across endpoints, identity, cloud, data, SaaS, and AI workloads.”
 
@@ -158,7 +158,7 @@ Sven Krasser
 
 Sr. Vice President for Data Science and Chief Scientist
 
-![Sean Ward logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/046fc90b1e849e0ef96b6a9923d47ae13272b50f-173x64.svg)
+![Sean Ward logo](https://assets.claude.com/8c9a75c0281646457beabee660b23258c610671f.svg)
 
 > “Claude Sonnet 4.5 resets our expectations—it handles 30+ hours of autonomous coding, freeing our engineers to tackle months of complex architectural work in dramatically less time while maintaining coherence across massive codebases.”
 
@@ -166,7 +166,7 @@ Sean Ward
 
 CEO and Co-Founder
 
-![Stian Kirkeberg logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/5d27d5fd738921411bb1e39bc27c396c6c075b4b-157x38.svg)
+![Stian Kirkeberg logo](https://assets.claude.com/ef45df5ce675a1c796eac99ceaaa2b6a28d286f6.svg)
 
 > “For complex financial analysis—risk, structured products, portfolio screening—Claude Sonnet 4.5 with thinking delivers investment-grade insights that require less human review. When depth matters more than speed, it's a meaningful step forward for institutional finance.”
 
@@ -186,7 +186,7 @@ As well as being our most capable model, Claude Sonnet 4.5 is our most aligned f
 
 You can read a detailed set of safety and alignment evaluations, which for the first time includes tests using techniques from mechanistic interpretability, in the Claude Sonnet 4.5 [system card](https://www.anthropic.com/claude-sonnet-4-5-system-card).
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F33efc283321feeff94dd80973dbcd38409806cf5-3840x2160.png&w=3840&q=75)
+![](https://assets.claude.com/33efc283321feeff94dd80973dbcd38409806cf5.png?w=3840&q=75&fm=webp&fit=max)
 
 Overall misaligned behavior scores from an automated behavioral auditor (lower is better). Misaligned behaviors include (but are not limited to) deception, sycophancy, power-seeking, encouragement of delusions, and compliance with harmful system prompts. More details can be found in the Claude Sonnet 4.5 [system card](https://www.anthropic.com/claude-sonnet-4-5-system-card).
 
@@ -206,7 +206,7 @@ We built Claude Code because the tool we wanted didn’t exist yet. The Agent SD
 
 ## Bonus research preview
 
-We’re releasing a temporary research preview alongside Claude Sonnet 4.5, called "[Imagine with Claude](https://claude.ai/redirect/website.v1.00f1dc36-e587-46d8-b9b8-15ee65dded39/imagine)".
+We’re releasing a temporary research preview alongside Claude Sonnet 4.5, called "[Imagine with Claude](https://claude.ai/redirect/website.v1.920eb243-73d1-44dd-880d-745d2da07582/imagine)".
 
 ![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FdGiqrsv530Y%2Fsddefault.jpg&w=3840&q=75)
 
@@ -214,7 +214,7 @@ In this experiment, Claude generates software on the fly. No functionality is pr
 
 It's a fun demonstration showing what Claude Sonnet 4.5 can do—a way to see what's possible when you combine a capable model with the right infrastructure.
 
-"Imagine with Claude" is available to Max subscribers for the next five days. We encourage you to try it out on [claude.ai/imagine](https://claude.ai/redirect/website.v1.00f1dc36-e587-46d8-b9b8-15ee65dded39/imagine).
+"Imagine with Claude" is available to Max subscribers for the next five days. We encourage you to try it out on [claude.ai/imagine](https://claude.ai/redirect/website.v1.920eb243-73d1-44dd-880d-745d2da07582/imagine).
 
 ## Further information
 

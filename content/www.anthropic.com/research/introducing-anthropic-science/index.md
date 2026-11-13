@@ -2,7 +2,7 @@
 
 # Introducing our Science Blog
 
-![Introducing our Science Blog](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5875fb14fc38a748218bf5af9e693e290fec61b6-1920x1080.jpg&w=1920&q=75)
+![Introducing our Science Blog](https://assets.claude.com/4def253da8094fb071a246cec9664fcde6151581.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Mar 23, 2026

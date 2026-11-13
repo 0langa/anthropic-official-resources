@@ -2,7 +2,7 @@
 
 # AI for Science expands to foundations and research institutions
 
-![AI for Science expands to foundations and research institutions](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5b18c53b35c0425fda21efaf2c3bcf10761798ec-2000x1125.jpg&w=1920&q=75)
+![AI for Science expands to foundations and research institutions](https://assets.claude.com/904110e8f07a85310dc0ff53da796e740348466b.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Oct 28, 2026

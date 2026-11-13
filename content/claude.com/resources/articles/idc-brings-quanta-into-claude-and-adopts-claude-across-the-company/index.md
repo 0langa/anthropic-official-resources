@@ -47,7 +47,13 @@ IDC Quanta customers who use Claude can add the IDC Quanta connector from within
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 9, 2026
+[ArticleNov 12, 2026
+
+### J. Crew brings its signature approach to styling to life with Claude
+
+J.Crew's new Style Advisor uses Claude to offer a more personalized way to shop online, with complete looks instead of individual products.
+
+Claude Code](https://claude.com/resources/articles/j-crew-style-advisor-with-claude)[ArticleNov 9, 2026
 
 ### JPMorganChase expands Claude Code to more employees across the firm
 
@@ -61,13 +67,7 @@ HCLTech will bring Claude into the solutions it provides for banks, hospitals, t
 
 Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
 
-Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 23, 2026
-
-### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
-
-CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
-
-Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)
 
 ## Transform how your organization operates with Claude
 

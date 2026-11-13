@@ -1,6 +1,6 @@
 # Investigating unintended model actions in our evaluations and internal use
 
-![Investigating unintended model actions in our evaluations and internal use](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff11d2325e688229de8a887ef7ece34f520ab7134-2000x1125.jpg&w=1920&q=75)
+![Investigating unintended model actions in our evaluations and internal use](https://assets.claude.com/2e582d4f7099801aaafa3098a8df6513f3c38338.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Oct 9, 2026

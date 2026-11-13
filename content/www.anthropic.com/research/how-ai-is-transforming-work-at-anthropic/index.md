@@ -2,7 +2,7 @@
 
 # How AI is transforming work at Anthropic
 
-![How AI is transforming work at Anthropic](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fbc687c155daabe9ec74b4eff6e14b9657f83d763-2000x1125.jpg&w=1920&q=75)
+![How AI is transforming work at Anthropic](https://assets.claude.com/a476d608423d97a102933c452bacf38ac409bb52.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Dec 2, 2025
@@ -75,7 +75,7 @@ We asked the surveyed engineers and researchers to rate how often they used Clau
 
 Below are the most common daily tasks. Most employees (55%) used Claude for debugging on a daily basis. 42% used Claude everyday for code understanding, and 37% used Claude everyday for implementing new features. The less-frequent tasks were high level design/planning (likely because these are tasks people tend to keep in human hands), as well as data science and front-end development (likely because they are overall less common tasks). This roughly aligns with the Claude Code usage data distribution reported in the “Claude Code usage trends” section.
 
-![Figure 1: Proportion of daily users (x-axis) for various coding tasks (y-axis).](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F64a18b1756d8954a93e1356f1330ec11075fbe54-3840x2160.png&w=3840&q=75)
+![Figure 1: Proportion of daily users (x-axis) for various coding tasks (y-axis).](https://assets.claude.com/64a18b1756d8954a93e1356f1330ec11075fbe54.png?w=3840&q=75&fm=webp&fit=max)
 
 Proportion of daily users (x-axis) for various coding tasks (y-axis).
 
@@ -87,7 +87,7 @@ To caveat this finding (and other self-reported productivity findings below), pr
 
 An interesting productivity pattern emerges when asking employees, for task categories where they currently use Claude, how it affects their overall time spent and work output volume in that task category. Across almost all task categories, we see a net decrease in time spent, and a larger net increase in output volume:
 
-![Figure 2: Impact on time spent (left panel) and output volume (right panel) by task (y-axis). The x-axis on each plot corresponds to either a self-reported decrease (negative values), increase (positive values) or no change (vertical dashed line) in time spent or output volume for categories of Claude-assisted tasks, compared to not using Claude. Error bars show 95% confidence intervals. Circle area is proportional to the number of responses at each rating point. Only respondents who reported using Claude for each task category are included.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9449bf9393743105a414e17324f30970208ce14b-3840x2160.png&w=3840&q=75)
+![Figure 2: Impact on time spent (left panel) and output volume (right panel) by task (y-axis). The x-axis on each plot corresponds to either a self-reported decrease (negative values), increase (positive values) or no change (vertical dashed line) in time spent or output volume for categories of Claude-assisted tasks, compared to not using Claude. Error bars show 95% confidence intervals. Circle area is proportional to the number of responses at each rating point. Only respondents who reported using Claude for each task category are included.](https://assets.claude.com/91691ff7324f1129b5bba7b03cd95399dceb1e8e.png?w=3840&q=75&fm=webp&fit=max)
 
 Impact on time spent (left panel) and output volume (right panel) by task (y-axis). The x-axis on each plot corresponds to either a self-reported decrease (negative values), increase (positive values) or no change (vertical dashed line) in time spent or output volume for categories of Claude-assisted tasks, compared to not using Claude. Error bars show 95% confidence intervals. Circle area is proportional to the number of responses at each rating point. Only respondents who reported using Claude for each task category are included.
 
@@ -265,7 +265,7 @@ Claude Code usage has shifted toward more difficult and autonomous coding tasks 
 - **The maximum number of consecutive tool calls Claude Code makes per transcript increased by 116%.** Tool calls correspond to actions Claude takes using external tools like making edits to files or running commands. Claude now chains together 21.2 independent tool calls without need for human intervention versus 9.8 tool calls from six months ago.
 - **The number of human turns decreased by 33%.** The average number of human turns decreased from 6.2 to 4.1 per transcript, suggesting that less human input is necessary to accomplish a given task now compared to six months ago.
 
-![Figure 3. Changes in Claude Code usage between August 2025 and February 2025 (x-axes). Average task complexity increased over time (left panel), average maximum consecutive tool calls per transcript increased over time (middle panel), and number of human turns decreased over time (right panel). Error bars show 95% confidence intervals. The data suggest people are increasingly delegating more autonomy to Claude over time.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd23e1b8d8af84b45d5cffcc6f0a029d635508153-3840x2160.png&w=3840&q=75)
+![Figure 3. Changes in Claude Code usage between August 2025 and February 2025 (x-axes). Average task complexity increased over time (left panel), average maximum consecutive tool calls per transcript increased over time (middle panel), and number of human turns decreased over time (right panel). Error bars show 95% confidence intervals. The data suggest people are increasingly delegating more autonomy to Claude over time.](https://assets.claude.com/d23e1b8d8af84b45d5cffcc6f0a029d635508153.png?w=3840&q=75&fm=webp&fit=max)
 
 Changes in Claude Code usage between August 2025 and February 2025 (x-axes). Average task complexity increased over time (left panel), average maximum consecutive tool calls per transcript increased over time (middle panel), and number of human turns decreased over time (right panel). Error bars show 95% confidence intervals. The data suggest people are increasingly delegating more autonomy to Claude over time.
 
@@ -275,7 +275,7 @@ These usage data corroborate the survey data: engineers delegate increasingly co
 
 We classified Claude Code transcripts into one or more types of coding tasks, studying how the uses for different tasks have evolved over the last six months:
 
-![Figure 4. Distribution of various coding tasks (y-axis) as a percentage of the overall number of records (x-axis). We compare the distribution 6 months ago (pink) to present day (purple). The y-axis is ordered by frequency in Feb 2025.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7da627df8a6be4cb90ecd6e6e41345b8122401ed-3840x2160.png&w=3840&q=75)
+![Figure 4. Distribution of various coding tasks (y-axis) as a percentage of the overall number of records (x-axis). We compare the distribution 6 months ago (pink) to present day (purple). The y-axis is ordered by frequency in Feb 2025.](https://assets.claude.com/1b35f2e13a605ace2b09fb8792724fdb3364de4e.png?w=3840&q=75&fm=webp&fit=max)
 
 Distribution of various coding tasks (y-axis) as a percentage of the overall number of records (x-axis). We compare the distribution 6 months ago (pink) to present day (purple). The y-axis is ordered by frequency in Feb 2025.
 
@@ -289,7 +289,7 @@ We found from the survey that engineers now spend more time making small quality
 
 To study how tasks currently vary across teams, we refined our classification approach to assign each August transcript to a single primary coding task, and split the data by internal teams (y-axis). The stacked bar chart shows the breakdown of coding tasks for each team:
 
-![Figure 5. Each horizontal bar represents a team (y-axis) with segments showing the proportion of that team’s Claude Code usage for different coding tasks (x-axis), color-coded by coding task (legend). Top bar (“All Teams”) represents the overall distribution.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F313f1cc36b0eb1fec9ee986f50e8d937ddc796ba-3840x2160.png&w=3840&q=75)
+![Figure 5. Each horizontal bar represents a team (y-axis) with segments showing the proportion of that team’s Claude Code usage for different coding tasks (x-axis), color-coded by coding task (legend). Top bar (“All Teams”) represents the overall distribution.](https://assets.claude.com/313f1cc36b0eb1fec9ee986f50e8d937ddc796ba.png?w=3840&q=75&fm=webp&fit=max)
 
 Each horizontal bar represents a team (y-axis) with segments showing the proportion of that team’s Claude Code usage for different coding tasks (x-axis), color-coded by coding task (legend). Top bar (“All Teams”) represents the overall distribution.
 

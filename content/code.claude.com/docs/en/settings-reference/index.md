@@ -232,7 +232,6 @@ Every key below links to its entry. Scope lists the [files](/docs/en/settings#se
 | [`strictPluginOnlyCustomization.mcp`](#strictpluginonlycustomization-mcp) | Block [MCP servers](/docs/en/mcp) from user and project sources | Plugins and skills | Managed |
 | [`strictPluginOnlyCustomization.skills`](#strictpluginonlycustomization-skills) | Block [skills](/docs/en/skills) from user and project sources | Plugins and skills | Managed |
 | [`subagentPromptCacheTtl`](#subagentpromptcachettl) | Choose the [prompt cache lifetime](/docs/en/prompt-caching#cache-lifetime) for subagents and other requests outside the main conversation | Model and responses | Any file |
-| [`subagentStatusLine`](#subagentstatusline) | Rewrite rows in the [subagent](/docs/en/sub-agents) task display with your own command | Interface and terminal | Any file |
 | [`switchModelsOnFlag`](#switchmodelsonflag) | Switch models automatically or pause when a [safety classifier](/docs/en/model-config#ask-before-switching) flags a request | Model and responses | Any file |
 | [`syncClaudeAiPlugins`](#syncclaudeaiplugins) | Stop loading the [plugins enabled on your claude.ai account](/docs/en/plugins/loading#synced-plugins) and stop downloading new ones | Plugins and skills | User, local, or managed |
 | [`syncClaudeAiSkills`](#syncclaudeaiskills) | Stop loading the [skills enabled on your claude.ai account](/docs/en/skills#how-synced-skills-behave) and stop downloading new ones | Plugins and skills | User, local, or managed |
@@ -1529,6 +1528,8 @@ This lets a build write under `/tmp/build` and lets `kubectl` update your kubeco
   }
 }
 ```
+
+On Linux and WSL2, an entry for a path that doesn't exist yet has no effect, so create the path first.
 
 Claude Code merges `allowWrite` entries and the paths from your `Edit(...)` allow permission rules across the settings scopes the session loads, leaving out the ones from repository settings while [`permissions.blockReadsOutsideWorkingDirectories`](#sandboxed-commands-under-the-block) is on. [Repository locks](/docs/en/sandboxing#repository-settings-under-an-admin-required-sandbox) can leave out a repository's entries too. An `allowWrite` entry can't lift a [protected path](/docs/en/sandboxing#protected-paths).
 
@@ -3170,25 +3171,6 @@ This example prints the model name and context usage, and adds two characters of
 
 The example needs [`jq`](https://jqlang.org/) installed and runs in a shell. For PowerShell and Git Bash equivalents, see [Windows configuration](/docs/en/statusline#windows-configuration); for the full setup, see [Manually configure a status line](/docs/en/statusline#manually-configure-a-status-line).
 
-### `subagentStatusLine`
-
-When Claude runs [subagents](/docs/en/sub-agents), Claude Code lists them in a task display below the prompt, one row per subagent showing `name · description · token count`. This key lets you run your own command to rewrite those rows, for example to show each subagent's context usage as a percentage. On each refresh, Claude Code sends the visible rows as one JSON object on stdin, with a `tasks` array carrying each subagent's `id`, `name`, `status`, `model`, `tokenCount`, and more, and replaces the row for each `id` you write back as a `{"id", "content"}` line. Rows you don't write back keep the default rendering.
-
-* **Scope**: [`Any file`](#scopes). When [`allowManagedHooksOnly`](#allowmanagedhooksonly) is on, or [`disableAllHooks`](#disableallhooks) is set outside managed settings, only the managed settings value runs.
-* **Type**: object with `type` set to `"command"` and a `command` string
-* **Default**: unset, so Claude Code renders the default rows
-
-```json settings.json theme={null}
-{
-  "subagentStatusLine": {
-    "type": "command",
-    "command": "jq -c '.tasks[] | {id, content: \"\\(.name): \\(.tokenCount) tokens\"}'"
-  }
-}
-```
-
-See [Subagent status lines](/docs/en/statusline#subagent-status-lines).
-
 ### `syntaxHighlightingDisabled`
 
 Claude Code colors code by language in the diffs, code blocks, and file previews it shows in the terminal, with its built-in highlighter. Set this key to `true` to show them as plain text instead, for example if the colors clash with your terminal theme or slow a screen reader.
@@ -3645,7 +3627,7 @@ When you set it to `true`, Claude Code changes which hooks and hook-like command
 * **Everything else is blocked**: user, project, and local hooks, hooks and mods from other installed plugins, and hooks declared in agent frontmatter. [Mods built into Claude Code](/docs/en/plugins/mods/overview#mods-built-into-claude-code) keep running. To block only users' mods, set [`allowManagedModsOnly`](/docs/en/plugins/mods/admin#set-options-on-the-built-in-guard) instead.
 * **Command-sourced plugins are disabled**: Claude Code also disables plugins with a [`command` source](/docs/en/plugins/marketplace-reference#command-plugin-source), including plugins force-enabled in managed `enabledPlugins`, unless you set [`disableCommandPluginSources`](#disablecommandpluginsources) to `false` explicitly
 * **Marketplace `headersHelper` commands are blocked**: Claude Code also blocks marketplace [`headersHelper` commands](/docs/en/plugins/host-marketplace#authenticate-archive-downloads) unless [`disableCommandPluginSources`](#disablecommandpluginsources) is explicitly set to `false`, except for a marketplace that managed settings themselves declare. Requires Claude Code v2.1.238 or later
-* **Status line and file suggestion narrow to managed settings**: Claude Code reads [`statusLine`](/docs/en/statusline), [`fileSuggestion`](#filesuggestion), and [`subagentStatusLine`](/docs/en/statusline#subagent-status-lines) from managed settings only, following the [status line and file suggestion gates](#status-line-and-file-suggestion-gates)
+* **Status line and file suggestion narrow to managed settings**: Claude Code reads [`statusLine`](/docs/en/statusline) and [`fileSuggestion`](#filesuggestion) from managed settings only, following the [status line and file suggestion gates](#status-line-and-file-suggestion-gates)
 
 The [`/goal`](/docs/en/goal) command can't run while this key is set, because it depends on hooks.
 
@@ -3684,7 +3666,7 @@ The [`/goal`](/docs/en/goal) command can't run while hooks are disabled, and the
 
 #### Status line and file suggestion gates
 
-Claude Code makes two decisions for `statusLine`, `fileSuggestion`, and `subagentStatusLine`, in this order:
+Claude Code makes two decisions for `statusLine` and `fileSuggestion`, in this order:
 
 * **Off entirely**: when managed settings set `disableAllHooks`, or when the folder isn't trusted under the same [workspace trust rule as hooks in settings files](/docs/en/permissions#what-runs-before-you-trust-a-folder)
 * **Narrowed to managed settings**: when [`allowManagedHooksOnly`](#allowmanagedhooksonly) is set, when `disableAllHooks` is `true` outside managed settings after [settings precedence](/docs/en/hooks#disable-or-remove-hooks) applies, or when you start Claude Code with `--safe-mode`
@@ -4656,7 +4638,7 @@ Run the main thread as a named [subagent](/docs/en/sub-agents#invoke-subagents-e
 
 * **Scope**: [`Any file`](#scopes)
 * **Type**: string, the name of a built-in or custom agent
-* **Default**: unset, so the main thread runs as Claude Code's default agent
+* **Default**: unset
 * **Per-session overrides**: `--agent` takes precedence over this key for one session
 
 ```json settings.json theme={null}
@@ -4664,8 +4646,6 @@ Run the main thread as a named [subagent](/docs/en/sub-agents#invoke-subagents-e
   "agent": "code-reviewer"
 }
 ```
-
-A plugin's own `settings.json` can also supply this key; see [Ship default settings with your plugin](/docs/en/plugins/components#default-settings).
 
 ### `crossSessionInbound`
 

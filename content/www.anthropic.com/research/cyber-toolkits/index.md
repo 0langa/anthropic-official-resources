@@ -35,11 +35,11 @@ Researchers from Carnegie Mellon University and Anthropic conducted this resear
 - Success entailed orchestrating a complex sequence of steps, including gaining initial network access, lateral movement between systems, and data exfiltration across networks of 25-50 hosts.
 - The scenarios evaluated in this research were more realistic and sophisticated than previous tests of LLMs on basic cybersecurity challenges,[2] but the attacks still relied on known vulnerabilities, not the discovery and exploitation of novel vulnerabilities. Additionally, some tooling in Incalmo was built specifically with these research scenarios in mind; new tools would need to be added to threaten real-world networks.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffb9d1d85769aa321271ce492bab206534247d86e-1878x724.png&w=3840&q=75)
+![](https://assets.claude.com/ba1796a5d8a9697623e2ea582874877bf0b458e3.png?w=3840&q=75&fm=webp&fit=max)
 
 Without Incalmo, none of the tested LLMs realized an end-to-end multistage attack in any of the ten environments, and only Claude Sonnet 3.5 was able to exfiltrate a single file in the 4-layer chain environment.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff74b895c486211e973f56070d0de7b7c0e29fa9f-1878x980.png&w=3840&q=75)
+![](https://assets.claude.com/f74b895c486211e973f56070d0de7b7c0e29fa9f.png?w=3840&q=75&fm=webp&fit=max)
 
 With Incalmo, LLMs can successfully and autonomously conduct multi-stage attacks in nine out of ten environments ranging from 25 to 50 hosts.
 
@@ -49,7 +49,7 @@ With Incalmo, LLMs can successfully and autonomously conduct multi-stage attacks
 - These results were achieved with minimal hand-holding. Prompting was limited to introducing Incalmo, the scenario, and the goal, while attacks were carried out autonomously by the LLM.
 - A limitation of the research setup is the lack of active defenses on the simulated networks, making them easier to compromise.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8c2ac1ccbd90891ddf1fe5cb04791b9fff6fe35b-1436x1388.png&w=3840&q=75)
+![](https://assets.claude.com/be2f11fa7a039f8d19e68696a97c504cc5583d9a.png?w=3840&q=75&fm=webp&fit=max)
 
 Schematic depiction of the difference between unaided LLMs and Incalmo.
 

@@ -8,6 +8,22 @@ Unsubscribe at any time.
 
 News, announcements, and stories from Anthropic about Claude and the people building with it.
 
+[ArticleNov 10, 2026
+
+### Your apps can now open in Claude, and Claude can work in them
+
+Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
+
+Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)
+
+[ArticleNov 10, 2026
+
+### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
+
+Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
+
+Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)
+
 [ArticleOct 22, 2026
 
 ### Building agents: When to fold subagents into your main agent loop
@@ -24,39 +40,23 @@ A research preview is available by waitlist today, starting with US Pro, Max, an
 
 ![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
-[ArticleNov 9, 2026
+[ArticleNov 12, 2026
 
-### JPMorganChase expands Claude Code to more employees across the firm
+### Operate Claude Managed Agents inside your security perimeter
 
-Claude Code](https://claude.com/resources/articles/jpmorganchase-expands-claude-code)
+Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
 
-[ArticleNov 9, 2026
+Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)
 
-### Claude Fable 5.2 and Mythos 5.2
+[ArticleNov 10, 2026
 
-Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.
+### Your apps can now open in Claude, and Claude can work in them
 
-Claude appsClaude Code1 more: Claude PlatformClaude Platform
+Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
 
-(opens in new tab)](https://www.anthropic.com/claude-fable-and-mythos-5-2)
+Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)
 
-[ArticleNov 9, 2026
-
-### Claude can design electronic prototypes from start to finish
-
-We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.
-
-(opens in new tab)](https://www.anthropic.com/research/claude-electronics-design)
-
-[ArticleOct 22, 2026
-
-### Building agents: When to fold subagents into your main agent loop
-
-When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
-
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)
-
-Featured resource 1 of 5: Building agents: When to fold subagents into your main agent loop
+Featured resource 1 of 5: Your apps can now open in Claude, and Claude can work in them
 
 Advanced filters(1)
 

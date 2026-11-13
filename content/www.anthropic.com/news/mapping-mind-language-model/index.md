@@ -2,7 +2,7 @@
 
 [Read the paper](https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html)
 
-![Mapping the mind of a large language model](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7cb91c3d259514860ff0482f74c178eb4000ba6c-2000x1125.png&w=1920&q=75)
+![Mapping the mind of a large language model](https://assets.claude.com/7cb91c3d259514860ff0482f74c178eb4000ba6c.png?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   May 21, 2024
@@ -50,13 +50,13 @@ Whereas the features we found in the toy language model were rather superficial,
 
 We see features corresponding to a vast range of entities like cities (San Francisco), people (Rosalind Franklin), atomic elements (Lithium), scientific fields (immunology), and programming syntax (function calls). These features are multimodal and multilingual, responding to images of a given entity as well as its name or description in many languages.
 
-![Golden Gate Bridge Feature](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc896a301ad3d1ef4237cb05b68d78b467c444097-2200x1284.png&w=3840&q=75)
+![Golden Gate Bridge Feature](https://assets.claude.com/c896a301ad3d1ef4237cb05b68d78b467c444097.png?w=3840&q=75&fm=webp&fit=max)
 
 A feature sensitive to mentions of the Golden Gate Bridge fires on a range of model inputs, from English mentions of the name of the bridge to discussions in Japanese, Chinese, Greek, Vietnamese, Russian, and an image. The orange color denotes the words or word-parts on which the feature is active.
 
 We also find more abstract features—responding to things like bugs in computer code, discussions of gender bias in professions, and conversations about keeping secrets.
 
-![Abstract Feature Examples](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2ff94c622f3d65bc3038cc154006d2be515fa2d7-2200x1660.png&w=3840&q=75)
+![Abstract Feature Examples](https://assets.claude.com/261ba73c767486d401d3602abda6f3daf89fc374.png?w=3840&q=75&fm=webp&fit=max)
 
 Three examples of features that activate on more abstract concepts: bugs in computer code, descriptions of gender bias in professions, and conversations about keeping secrets.
 
@@ -64,7 +64,7 @@ We were able to measure a kind of "distance" between features based on which neu
 
 This holds at a higher level of conceptual abstraction: looking near a feature related to the concept of "inner conflict", we find features related to relationship breakups, conflicting allegiances, logical inconsistencies, as well as the phrase "catch-22". This shows that the internal organization of concepts in the AI model corresponds, at least somewhat, to our human notions of similarity. This might be the origin of Claude's excellent ability to make analogies and metaphors.
 
-![Nearest Neighbors to the  Inner Conflict Feature](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffe4d42c004bf43efda0f5921adfedd2f8f42e417-2200x2140.png&w=3840&q=75)
+![Nearest Neighbors to the  Inner Conflict Feature](https://assets.claude.com/e4702fe4ebe62098fd08c57411b489a1f11e809a.png?w=3840&q=75&fm=webp&fit=max)
 
 A map of the features near an "Inner Conflict" feature, including clusters related to balancing tradeoffs, romantic struggles, conflicting allegiances, and catch-22s.
 
@@ -86,7 +86,7 @@ Anthropic wants to make models safe in a broad sense, including everything from 
 
 We previously [studied sycophancy](https://arxiv.org/abs/2310.13548), the tendency of models to provide responses that match user beliefs or desires rather than truthful ones. In Sonnet, we found a feature associated with sycophantic praise, which activates on inputs containing compliments like, "Your wisdom is unquestionable". Artificially activating this feature causes Sonnet to respond to an overconfident user with just such flowery deception.
 
-![Activating Features Alters Model Behavior](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4effa33dab919f9bc1779848d5c8abd5405f2275-2200x1320.png&w=3840&q=75)
+![Activating Features Alters Model Behavior](https://assets.claude.com/f0aad7833a82f85e11bd1bc8c2a61261186d568a.png?w=3840&q=75&fm=webp&fit=max)
 
 Two model responses to a human saying they invited the phrase "Stop and smell the roses." The default response corrects the human's misconception, while the response with a "sycophantic praise" feature set to a high value is fawning and untruthful.
 

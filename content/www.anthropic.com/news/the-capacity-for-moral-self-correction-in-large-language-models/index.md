@@ -2,7 +2,7 @@
 
 [Read Paper](https://arxiv.org/abs/2302.07459)
 
-![The capacity for moral self-correction in large language models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F87ce5db1d3fd127d6a16eb51d931ec0dc82a6748-2000x1125.jpg&w=1920&q=75)
+![The capacity for moral self-correction in large language models](https://assets.claude.com/87ce5db1d3fd127d6a16eb51d931ec0dc82a6748.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Feb 15, 2023
@@ -34,4 +34,4 @@ We test the hypothesis that language models trained with reinforcement learning 
 
 ### Policy Memo
 
-[Moral Self-Correction Policy Memo](https://www-cdn.anthropic.com/d14f58fe8f611858bc37ff8686bbda71e4927ce6/Anthropic_MoralSelfCorrection_v3.pdf)
+[Moral Self-Correction Policy Memo](https://assets.claude.com/d14f58fe8f611858bc37ff8686bbda71e4927ce6.pdf)

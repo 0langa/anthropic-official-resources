@@ -4,7 +4,7 @@
 
 [Read the paper](https://assets.anthropic.com/m/c52125297b85a42/original/Confidential_Inference_Paper.pdf)
 
-![Confidential Inference via Trusted Virtual Machines](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fac3c5e02411e83e96a36ca08523c3904115b81d4-2000x1125.jpg&w=1920&q=75)
+![Confidential Inference via Trusted Virtual Machines](https://assets.claude.com/26592cc8196c4b43986e3419b062ec65d5f34aed.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Jun 18, 2025

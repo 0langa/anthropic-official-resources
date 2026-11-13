@@ -37,17 +37,17 @@ These features build on top of major recent improvements we’ve made to Claude�
 
 Medical benchmark performanceKey life sciences tasksSpatialBench: Spatial biology analysis by LatchBio
 
-![Medical benchmarket performance](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F351d4c302f534df54f68ade366e423cd037cbf17-1920x1080.png&w=3840&q=75)
+![Medical benchmarket performance](https://assets.claude.com/fbaadcc4b6070130161a245e82d4f93f4b87bd4e.png?w=3840&q=75&fm=webp&fit=max)
 
 - *\*Claude 4.5 models evaluated with extended thinking (64k tokens) and native tool use*
 - *MedCalc: Medical calculation accuracy (with Python code execution)*
 - *MedAgentBench: Medical agent task completion ([Stanford](https://ai.nejm.org/doi/pdf/10.1056/AIdbp2500144))*
 
-![Spatial biology analysis](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe0c2419a2d241cb88327244ddc34abd7a067f91e-1920x1080.png&w=3840&q=75)
+![Spatial biology analysis](https://assets.claude.com/e0c2419a2d241cb88327244ddc34abd7a067f91e.png?w=3840&q=75&fm=webp&fit=max)
 
 *Opus 4.5 model shows improvement in accuracy against our internal evaluation of key life sciences tasks (scientific figure interpretation, computational biology, and protein understanding)*
 
-![SpatailBench: Spatial biology analysis by LatchBio](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F870ba1c53ad1135cf7f9a5c57c30a9631a946787-1920x1080.png&w=3840&q=75)
+![SpatailBench: Spatial biology analysis by LatchBio](https://assets.claude.com/870ba1c53ad1135cf7f9a5c57c30a9631a946787.png?w=3840&q=75&fm=webp&fit=max)
 
 *Source: [LatchBio SpatialBench](https://blog.latch.bio/p/spatialbench-can-agents-analyze-real) (Dec 2025) - 146 verifiable problems across 5 spatial problems and 7 task categories*
 
@@ -59,7 +59,7 @@ With these model improvements and our new tools, Claude is now dramatically more
 
 #### What’s new
 
-[Connectors](https://claude.ai/redirect/website.v1.bcf03aca-00d6-4b85-91ef-5cf590421678/settings/connectors) are tools that allow users to give Claude access to other platforms directly. For payers and providers, we’ve added several connectors that make healthcare information easier to find, access, and understand. These allow Claude to pull information from industry-standard systems and databases, meaning that clinicians and administrators can save significant time finding the data and generating the reports they need.
+[Connectors](https://claude.ai/redirect/website.v1.d9f97db2-06e6-4197-91b0-ff81950b05a1/settings/connectors) are tools that allow users to give Claude access to other platforms directly. For payers and providers, we’ve added several connectors that make healthcare information easier to find, access, and understand. These allow Claude to pull information from industry-standard systems and databases, meaning that clinicians and administrators can save significant time finding the data and generating the reports they need.
 
 Claude can now connect to:
 
@@ -135,7 +135,7 @@ With this new package of tools, Claude can support:
 
 We’re working with a number of organizations in healthcare and the life sciences. A selection of our partners describe their experiences using Claude below:
 
-![Banner Health logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2b0c94b75aa81c160289105e777a25eecc8fcdd0-2145x276.png&w=3840&q=75)
+![Banner Health logo](https://assets.claude.com/2b0c94b75aa81c160289105e777a25eecc8fcdd0.png?w=3840&q=75&fm=webp&fit=max)
 
 > “We were drawn to Anthropic's focus on AI safety and Claude's Constitutional AI approach to creating more helpful, harmless, and honest AI systems.”
 
@@ -143,7 +143,7 @@ Mike Reagin
 
 Chief Technology Officer, Banner Health
 
-![Novo Nordisk logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5080602ba328ac22c4a32d3cd348ba234320900a-800x565.png&w=828&q=75)
+![Novo Nordisk logo](https://assets.claude.com/5080602ba328ac22c4a32d3cd348ba234320900a.png?w=828&q=75&fm=webp&fit=max)
 
 > “We've consistently been one of the first movers when it comes to document and content automation in pharma development. Our work with Anthropic and Claude has set a new standard — we're not just automating tasks, we're transforming how medicines get from discovery to the patients who need them.”
 
@@ -151,7 +151,7 @@ Louise Lind Skov
 
 Director Content Digitalisation, Novo Nordisk
 
-![Qualified Health logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/220d794f1916851d190771cbf1e5d0c967372f5b-231x32.svg)
+![Qualified Health logo](https://assets.claude.com/386b497635e9423ea69d8dd95116c15bc4bff03a.svg)
 
 > “Safety is non-negotiable in healthcare. Anthropic has been a clear leader in building models with strong safety foundations.”
 
@@ -159,7 +159,7 @@ Justin Norden
 
 MD and co-founder, Qualified Health
 
-![Genmab logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffe19dca89482cda5712ddb7d40d0b0e5db73f2a6-1301x380.png&w=1920&q=75)
+![Genmab logo](https://assets.claude.com/fe19dca89482cda5712ddb7d40d0b0e5db73f2a6.png?w=1920&q=75&fm=webp&fit=max)
 
 > “By reducing manual burden, our partnership with Anthropic will empower our teams to focus more time on high-value scientific and strategic work, accelerating our path to patient impact.”
 
@@ -167,7 +167,7 @@ Hisham Hamadeh
 
 Senior Vice President, Global Head of Data, Digital & AI, Genmab
 
-![Sanofi logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffa1c08cc48fde9dd5c5a5638c661ba0848cfa76a-2000x922.png&w=2048&q=75)
+![Sanofi logo](https://assets.claude.com/fa1c08cc48fde9dd5c5a5638c661ba0848cfa76a.png?w=2048&q=75&fm=webp&fit=max)
 
 > “Claude is integral to Sanofi's AI transformation and is used by most Sanofians daily. We're seeing efficiency gains across the value-chain. This collaboration with Anthropic augments human expertise to deliver life-changing medicines faster and more efficiently to patients worldwide.”
 
@@ -175,7 +175,7 @@ Emmanuel Frenehard
 
 Chief Digital Officer, Sanofi
 
-![Elation Health logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/d64b1f0e2f15cc9edfaa844e12d13916c7f83018-2047x820.svg)
+![Elation Health logo](https://assets.claude.com/683a73c7a90ac2a2a3a8a5dd58141883955238da.svg)
 
 > “We chose Claude, powered by Anthropic, for the strength of its model and its reputation for responsible AI. That balance of performance plus trust was a decisive factor.”
 
@@ -183,7 +183,7 @@ Kyna Fong
 
 CEO & Co-Founder, Elation Health
 
-![Edison Scientific  logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/3f900ef1d51813290d22ccaf5ef96390baa9f2bc-116x28.svg)
+![Edison Scientific  logo](https://assets.claude.com/67641f367387d755d2ec4033297f1deeda7371c0.svg)
 
 > “Opus 4.5 is an incredible model and a great choice for computational biology. The model is excellent at coding, reasoning about biology, and understanding scientific figures.”
 
@@ -191,7 +191,7 @@ Andrew White
 
 CTO, Edison Scientific
 
-![Viz.ai logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1f2ac3aa8f9d8171e56f1a71fd5c57f550fe4352-6144x3190.png&w=3840&q=75)
+![Viz.ai logo](https://assets.claude.com/a54e215c06caf2972127d5ea2d8761beaa0a558e.png?w=3840&q=75&fm=webp&fit=max)
 
 > “Anthropic's models are unmatched in their reasoning capabilities and safety design.”
 
@@ -199,7 +199,7 @@ Chris Mansi
 
 MD, CEO & Co-founder, Viz.ai
 
-![Flatiron Health logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/3cacb2a412f094d7793f89666a25557dd976a797-476x144.svg)
+![Flatiron Health logo](https://assets.claude.com/450099070000844dc5064c49be5db3790bf2614b.svg)
 
 > “Claude has fundamentally changed what's possible in evidence generation. For the first time, our researchers can truly converse with our datasets.”
 
@@ -207,7 +207,7 @@ Allison Candido
 
 Chief Technology Officer, Flatiron Health
 
-![Veeva AI logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/522b19dda39de3a0cd89f858f4e6407259b1a6bb-354x115.svg)
+![Veeva AI logo](https://assets.claude.com/107b48506c0951c0f30703d9fd452d1c279f0c8b.svg)
 
 > “Veeva AI is industry-specific agentic AI that leverages Veeva's deep applications, data, domain expertise, and Anthropic’s Claude. This unique combination allows us to bring the transformative promise of AI to life sciences at scale.”
 
@@ -215,7 +215,7 @@ Andy Han
 
 Senior Vice President, Veeva AI
 
-![Heidi Health logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/dc06aadb4792a8de3c9c9d2173310e43d63b9111-198x226.svg)
+![Heidi Health logo](https://assets.claude.com/deefca157112fa66370332be3ad3e324d4ed4106.svg)
 
 > “Claude's Agent SDK has unlocked a step-change in how we operate—converting rigid research processes into adaptive, compliant agents.”
 
@@ -223,7 +223,7 @@ Dr. Thomas Kelly
 
 Co-Founder and CEO, Heidi Health
 
-![Schrödinger logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb463e00f9945da22059fbb8216e3af714f58fd62-1238x362.png&w=1920&q=75)
+![Schrödinger logo](https://assets.claude.com/6308013aebb776f9ba052a3f30a9f51cfc7dcc89.png?w=1920&q=75&fm=webp&fit=max)
 
 > “Claude Code has become a powerful accelerator for us at Schrödinger. For the projects where it fits best, Claude Code allows us to turn ideas into working code in minutes instead of hours, enabling us to move up to 10x faster in some cases. As we continue to work with Claude, we are excited to see how we can further transform the way we build and customize our software.”
 
@@ -231,7 +231,7 @@ Pat Lorton
 
 EVP, Chief Technology Officer, and Chief Operating Officer, Schrödinger
 
-![Premier  logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd60f9669eac6ad0a11dc87fd8ac559f6822e0b62-2247x454.png&w=3840&q=75)
+![Premier  logo](https://assets.claude.com/30211fd15193bd9a3c87c06f94c9c9048c10505d.png?w=3840&q=75&fm=webp&fit=max)
 
 > “Claude handles the complex healthcare workflows our teams deal with daily—accurately and securely. Our engineers are shipping faster, our consultants are delivering insights with unprecedented speed. When you're serving 4,400+ healthcare organizations, that combination of capability and velocity is critical.”
 
@@ -239,7 +239,7 @@ David Zito
 
 President Performance Services, Premier
 
-![Commure logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/e409cc084939de75e85575594b8cb918ba007653-113x40.svg)
+![Commure logo](https://assets.claude.com/a499477f6da21aaf1f518f295c0e587069301592.svg)
 
 > “For Commure’s Ambient AI, precision is the prerequisite for trust. Scaling to tens of millions of appointments requires exceptional performance and contextual understanding. With Claude’s suite of LLMs, we deliver the quality to automate clinical documentation at scale, saving clinicians millions of hours annually and returning their focus to patient care.”
 
@@ -247,7 +247,7 @@ Dhruv Parthasarathy
 
 Chief Technology Officer, Commure
 
-![Carta Healthcare  logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd98996a63d8d455b163cb8d111d965a8558d3f63-2000x827.png&w=2048&q=75)
+![Carta Healthcare  logo](https://assets.claude.com/d98996a63d8d455b163cb8d111d965a8558d3f63.png?w=2048&q=75&fm=webp&fit=max)
 
 > “Carta Healthcare's implementation of Anthropic models via Amazon Bedrock has allowed for rapid and secure deployment of the newest models. Unlocking our hybrid intelligence AI system that is turning into a complete re-invention of understanding a patient’s medical record for clinical data abstraction.”
 
@@ -255,7 +255,7 @@ Andrew Crowder
 
 VP of Engineering, Carta Healthcare
 
-![Brellium  logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0a0504e322bd7039208046f9812c0f849f20c5f0-750x165.png&w=750&q=75)
+![Brellium  logo](https://assets.claude.com/eab0ecbe5fcca624552cdaed0b7f0321393cfb45.png?w=750&q=75&fm=webp&fit=max)
 
 > “Claude lets us punch way above our weight in healthcare AI. It powers our clinical extraction engine, cuts implementation timelines, and gives our GTM team dev-level capabilities. The faster we build, the faster clinics get out of manual chart review and back to patients.”
 

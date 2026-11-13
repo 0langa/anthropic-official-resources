@@ -16,6 +16,22 @@ Jess Yan, Claude Managed Agents product manager, shares how she uses the product
 
 Claude Platform](https://claude.com/resources/articles/product-development-in-the-agentic-era)
 
+[ArticleNov 12, 2026
+
+### The Claude Tag guide for startups
+
+How leading startups use Claude Tag to ship faster and scale operations
+
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
+
+[ArticleNov 10, 2026
+
+### How Curative is building a national provider network with agents on Claude
+
+Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
+
+Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)
+
 [Video15 min watch
 
 ### How Salesforce uses Claude Code
@@ -32,27 +48,6 @@ Claude Code
 
 A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)
 
-[Video21 min watch
-
-### How Ramp engineers work with AI agents at every step
-
-Ramp runs AI agents across its entire engineering lifecycle: writing code, reviewing it, watching production, and root-causing incidents.
-Boris sat down with Austin Ray and Rahul Sengottuvelu of Ramp to talk about how they got there. Building for the models that are coming rather than the ones that exist, giving every engineer uncapped access to intelligence, and the guardrails that make it work. They compare notes on Claude Code setups, loops versus dynamic workflows, and what Claude Fable 5 unlocked.
-
-Claude Code
-
-(opens in new tab)](https://www.youtube.com/watch?v=i4odXOmgMLw)
-
-[Video10 min watch
-
-### How Factory is building autonomous software with Claude
-
-Factory is bringing autonomy to software engineering with Droids, AI coding agents that handle enterprise work. In this conversation, Co-founder and CEO Matan Grinberg sits down with Anthropic's Kai Gill to talk about his journey founding Factory, how Claude's frontier models handle long-horizon tasks across large codebases so teams can trust agent plans with less oversight, and what it will take to build a fully autonomous "dark factory" for software.
-
-Claude Platform
-
-(opens in new tab)](https://www.youtube.com/watch?v=N6FkmdL0Lg0)
-
 [ArticleApr 29, 2026
 
 ### Product development in the agentic era
@@ -65,9 +60,21 @@ Featured resource 1 of 5: Product development in the agentic era
 
 Advanced filters
 
-Showing 11 of 66 resources
+Showing 11 of 67 resources
 
-[Video15 min watch
+[ArticleNov 12, 2026
+
+### The Claude Tag guide for startups
+
+How leading startups use Claude Tag to ship faster and scale operations
+
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
+
+### How Curative is building a national provider network with agents on Claude
+
+Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
+
+Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[Video15 min watch
 
 ### How Salesforce uses Claude Code
 
@@ -130,16 +137,6 @@ Most conversations about AI in engineering focus on how the IC role is changing,
 
 Claude Platform
 
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/06a83b50-384f-4fa6-ae86-66c7f05c9e16)[ArticleOct 8, 2026
-
-### How Block orchestrates Claude Fable across thousands of pull requests
-
-Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
-
-Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)[ArticleOct 6, 2026
-
-### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
-
-Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/06a83b50-384f-4fa6-ae86-66c7f05c9e16)
 
 View more

@@ -55,6 +55,8 @@ Install the Claude Code plugin from the JetBrains Marketplace. After installatio
 
 ## Desktop[](https://academy.claude.com/courses/claude-code-101/installing-claude-code)
 
+If your organization manages your computer, the Claude desktop app may already be installed. If it isn't, ask your IT team how to get it. On your own computer, [download the desktop app(opens in new tab)](https://claude.com/download) for macOS, Windows, or Linux (beta). The desktop app includes Claude Code, so you don't need the terminal install above to use it. The Code tab needs a paid plan: Pro, Max, Ultra, Team, or Enterprise.
+
 After installing and signing into Claude Desktop, you'll see a tab at the top labeled "Code." The look and feel is similar to the chat side of things, but it lets you work in a specific folder, change permissions, and even work in a cloud environment.
 
 ![Claude Desktop Code view showing recent project folders](https://academy.claude.com/assets/media/c90ed7e7f396c11d7fa195f4fb8a624f471bb1d84131fab14e1c6d80daa2f7a4.jpg)

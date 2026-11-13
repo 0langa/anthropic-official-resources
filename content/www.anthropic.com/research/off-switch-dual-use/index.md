@@ -2,7 +2,7 @@
 
 # An off switch for dual-use knowledge in AI models
 
-![A neat grid of bright green dots on olive at left gives way, on beige at right, to a broken, halftone-textured grid with gaps and a single red dot.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F94652ec1a1b4342c52dc5588d9c899aee7f6ab97-2000x1125.jpg&w=1920&q=75)
+![A neat grid of bright green dots on olive at left gives way, on beige at right, to a broken, halftone-textured grid with gaps and a single red dot.](https://assets.claude.com/cb7bda112838531aab350add9ac06b9fc54cbf7a.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Jul 8, 2026

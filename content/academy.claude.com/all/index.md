@@ -10,7 +10,7 @@ ProductAll
 
 RoleAll
 
-432 resources
+431 resources
 
 [## AI capabilities and limitations
 
@@ -240,7 +240,7 @@ ProductAll
 
 RoleAll
 
-138 tutorials
+140 tutorials
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-blskv34c.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bv9w6wt2.png)
 
@@ -300,19 +300,19 @@ Ask an AI a question and the answer comes back confident, well-organized, maybe 
 
 A long Claude Code task can keep going after you leave your desk, on your own machine with Remote Control or in a cloud session. Compare what each one gives you and where it stops, then use a few questions to pick one for a task and say why.
 
-·10 min](https://academy.claude.com/tutorials/cloud-session-or-remote-control)[![](https://academy.claude.com/assets/v1/thumbnail.light-m7h6cx31.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bp8m6m89.png)
+·10 min](https://academy.claude.com/tutorials/cloud-session-or-remote-control)[![](https://academy.claude.com/assets/v1/thumbnail.light-lala3ba3.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-d7ynyke1.png)
+
+## Choosing a Claude model for knowledge workers
+
+What each Claude model is for, which one to start with, and how to tell when a different model or effort level would help.
+
+·7 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)[![](https://academy.claude.com/assets/v1/thumbnail.light-m7h6cx31.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bp8m6m89.png)
 
 ## Choosing between Claude Cowork or Chat
 
 Same Claude, two ways of working. Chat is a conversation you steer turn by turn. Cowork is a delegation: you describe the goal, Claude works across your files and tools, and you come back to a finished result.
 
-·5 min](https://academy.claude.com/tutorials/choosing-between-claude-cowork-or-chat)[![](https://academy.claude.com/assets/v1/thumbnail.light-bb0g5i6x.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j090lkdj.png)
-
-## Choosing the right Claude model: Haiku, Sonnet, Opus, or Fable
-
-Learn when to use Haiku, Sonnet, Opus, or Fable to get better results and stay inside your rate limit. A practical guide to picking the right Claude model.
-
-·5 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)[![](https://academy.claude.com/assets/v1/thumbnail.dark-i0lrj1mq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-i0lrj1mq.png)
+·5 min](https://academy.claude.com/tutorials/choosing-between-claude-cowork-or-chat)[![](https://academy.claude.com/assets/v1/thumbnail.dark-i0lrj1mq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-i0lrj1mq.png)
 
 ## Choosing the right effort level in Claude Code
 
@@ -372,7 +372,7 @@ Pair your Slack workspace with Claude Tag and decide what systems it can access.
 
 ## Collaborate with your team in Claude artifacts
 
-Build a doc, a deck, a design, a dashboard, or an animation with Claude, then share it so your team can work on it too.
+Build a doc, a deck, a design, a spreadsheet, a whiteboard, a dashboard, or an animation with Claude, then share it so your team can work on it too.
 
 ·8 min](https://academy.claude.com/tutorials/intro-to-artifacts)[![](https://academy.claude.com/assets/v1/thumbnail.light-ctra72zy.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ktlv28wr.png)
 
@@ -560,45 +560,9 @@ ProductAll
 
 StatusAll
 
-109 webinars
+106 webinars
 
 [Upcoming
-
-## Claude for Nonprofits: An Admin’s Guide to Data Handling and AI Policy 
-
-An admin's guide to documenting how Claude handles your nonprofit's data and putting a one-page AI use policy in place.
-
-MW
-
-·Nov 10·10:00 AM PT
-
-·Upcoming·Nov 10·10:00 AM PT
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-for-nonprofits-admin-guide-to-data-handling-ai-policy)[Upcoming
-
-## Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One 
-
-A same-day staff guide to connecting your files and using Claude for Nonprofits skills to draft a year-end appeal in your voice.
-
-MW
-
-·Nov 12·10:00 AM PT
-
-·Upcoming·Nov 12·10:00 AM PT
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[Upcoming
-
-## Claude in Microsoft Foundry: control the cost, prove the value 
-
-Lower the cost of your Claude workloads in Microsoft Foundry, keep spend visible with gateways and controls, and prove ROI.
-
-AWASAV
-
-·Nov 12·10:00 AM PT
-
-·Upcoming·Nov 12·10:00 AM PT
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)[Upcoming
 
 ## Claude for Manufacturing: Put Your Plant’s Know-How to Work 
 
@@ -844,4 +808,40 @@ WL
 
 ·Recording·Sep 21
 
- (opens in new tab)](https://claude.com/resources/webinars/how-to-roadmap-with-decisions-rather-than-dates)Load more
+ (opens in new tab)](https://claude.com/resources/webinars/how-to-roadmap-with-decisions-rather-than-dates)[Recording
+
+## Enterprise Readiness: A CISO's Guide to Deploying Claude 
+
+A CISO's guide to rolling out Claude Enterprise, from deployment models and governance controls to scaling from chat into Claude Code.
+
+DFBNIP
+
+·Sep 18
+
+·Recording·Sep 18
+
+ (opens in new tab)](https://claude.com/resources/webinars/enterprise-readiness-a-cisos-guide-to-deploying-claude)[Recording
+
+## Inside Claude for Financial Advisors 
+
+A walkthrough of how Claude for Financial Advisors handles meeting prep, follow-ups, CRM updates and compliance checks for your firm.
+
+BNPNDP
+
+·Sep 18
+
+·Recording·Sep 18
+
+ (opens in new tab)](https://claude.com/resources/webinars/inside-claude-for-financial-advisors)[Recording
+
+## Enterprise Transformation with Claude on AWS: Paths to Production 
+
+Explore the multiple paths to running Claude on AWS, from Claude Platform and Bedrock to Claude Enterprise and Desktop, with live Claude Code demos.
+
+JASMAR
+
+·Sep 16
+
+·Recording·Sep 16
+
+ (opens in new tab)](https://claude.com/resources/webinars/enterprise-transformation-with-claude-on-aws-three-paths-to-production)Load more

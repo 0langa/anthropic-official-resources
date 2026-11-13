@@ -54,7 +54,7 @@ While evaluations were paused, we put in place the following preliminary measure
 
 Our internal cyber evaluations are now running again with these measures in place.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffa1e6273d039d8d476cc59394fb779c84c4b5e75-1920x1080.png&w=3840&q=75)
+![](https://assets.claude.com/fa1e6273d039d8d476cc59394fb779c84c4b5e75.png?w=3840&q=75&fm=webp&fit=max)
 
 ### Reinforcement learning environments
 

@@ -100,31 +100,27 @@ David Traina, Senior Software Engineer
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 9, 2026
+[ArticleNov 12, 2026
 
-### JPMorganChase expands Claude Code to more employees across the firm
+### Operate Claude Managed Agents inside your security perimeter
 
-Claude Code](https://claude.com/resources/articles/jpmorganchase-expands-claude-code)[ArticleNov 9, 2026
+Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
 
-### Claude Fable 5.2 and Mythos 5.2
+Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)[ArticleNov 12, 2026
 
-Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.
+### J. Crew brings its signature approach to styling to life with Claude
 
-Claude appsClaude Code1 more: Claude PlatformClaude Platform
+J.Crew's new Style Advisor uses Claude to offer a more personalized way to shop online, with complete looks instead of individual products.
 
-(opens in new tab)](https://www.anthropic.com/claude-fable-and-mythos-5-2)[ArticleNov 9, 2026
+Claude Code](https://claude.com/resources/articles/j-crew-style-advisor-with-claude)[ArticleNov 12, 2026
 
-### Claude can design electronic prototypes from start to finish
+### Introducing Claude for Manufacturing
 
-We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.
+A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)[ArticleNov 12, 2026
 
-(opens in new tab)](https://www.anthropic.com/research/claude-electronics-design)[ArticleNov 9, 2026
+### Introducing Claude Meetings
 
-### Safely scaling multi-agent teams with Claude Fable 5.2
-
-How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
-
-(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
+Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)
 
 ## Transform how your organization operates with Claude
 

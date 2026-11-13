@@ -35,7 +35,19 @@ Get started with [Claude Security](https://claude.com/product/claude-security) t
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 9, 2026
+[ArticleNov 12, 2026
+
+### The Claude Tag guide for startups
+
+How leading startups use Claude Tag to ship faster and scale operations
+
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
+
+### How Curative is building a national provider network with agents on Claude
+
+Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
+
+Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 9, 2026
 
 ### Safely scaling multi-agent teams with Claude Fable 5.2
 
@@ -49,19 +61,7 @@ How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by t
 
 Claude PlatformClaude Code
 
-(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)[ArticleOct 27, 2026
-
-### Manage costs and demonstrate ROI for Claude Code on Google Cloud
-
-Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
-
-Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)[ArticleOct 22, 2026
-
-### Building agents: When to fold subagents into your main agent loop
-
-When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
-
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)
+(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)
 
 ## Transform how your organization operates with Claude
 

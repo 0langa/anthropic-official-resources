@@ -8,7 +8,7 @@ How Claude Tag’s agent identity access model works, and best practices for con
 - Reading time9 min
 - ShareCopy link
 
-For an AI agent to do its best work on a human-agent team, it needs access to the same tools, documents, and context humans have.
+For an AI agent to do its best work on a [human-agent team](https://claude.com/resources/articles/building-effective-human-agent-teams), it needs access to the same tools, documents, and context humans have.
 
 In a “single player” AI experience (where one person chats with one assistant), that’s straightforward: you connect your own accounts and the agent acts on your behalf. But in a “multiplayer” AI experience like [Claude Tag](http://anthropic.com/news/introducing-claude-tag), Claude sits in a shared channel alongside many people at once, and it draws on the tools and context that belong to the *workspace*, rather than any one individual.
 
@@ -25,7 +25,7 @@ When you use AI as a personal assistant, you can connect platforms like Google D
 This model doesn’t work for Claude Tag for two reasons:
 
 - **Increasing agent autonomy.** The length of a task that an AI agent can reliably complete on its own has been [doubling roughly every four months](https://www.anthropic.com/institute/recursive-self-improvement). Agents now schedule their own tasks for later and respond to events long after the person who asked has logged off. While users set up routines that trigger them to act given certain situations, the agent works largely autonomously.
-- **Multiplayer teams.** Claude Tag places Claude in shared spaces where teams are already working—e.g., a channel where three engineers and a PM are debugging together. But when more than one person is steering, whose permissions apply? There’s no single choice of person that’d be right all of the time. This gives admins the ability to define what an agent can do in Slack independent from the humans involved, and a distinct tracking of what is done in Slack.
+- **Multiplayer teams.** Claude Tag places Claude in [shared spaces where teams are already working](https://claude.com/resources/articles/claude-tag-guide-for-startups)—e.g., a channel where three engineers and a PM are debugging together. But when more than one person is steering, whose permissions apply? There’s no single choice of person that’d be right all of the time. This gives admins the ability to define what an agent can do in Slack independent from the humans involved, and a distinct tracking of what is done in Slack.
 
 ### Claude acts as itself
 
@@ -92,7 +92,13 @@ The shift from single player to multiplayer AI in products like Claude Tag makes
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 10, 2026
+[ArticleNov 12, 2026
+
+### The Claude Tag guide for startups
+
+How leading startups use Claude Tag to ship faster and scale operations
+
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
 
 ### How Curative is building a national provider network with agents on Claude
 
@@ -112,13 +118,7 @@ How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by t
 
 Claude PlatformClaude Code
 
-(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)[ArticleOct 27, 2026
-
-### Manage costs and demonstrate ROI for Claude Code on Google Cloud
-
-Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
-
-Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)
+(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)
 
 ## Transform how your organization operates with Claude
 

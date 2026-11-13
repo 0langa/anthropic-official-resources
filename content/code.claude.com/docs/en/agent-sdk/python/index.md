@@ -167,9 +167,9 @@ async def greet(args: dict[str, Any]) -> dict[str, Any]:
 
 #### `ToolAnnotations`
 
-Behavioral hints for a tool, passed as the `annotations` argument of [`tool()`](#tool). `ToolAnnotations` extends the MCP SDK's `mcp.types.ToolAnnotations` with a `maxResultSizeChars` field, and you can write each hint in camelCase or snake\_case: `ToolAnnotations(readOnlyHint=True)` and `ToolAnnotations(read_only_hint=True)` are equivalent. To read a hint back from the object, use the spelling your installed `mcp` package declares: `.readOnlyHint` on `mcp` 1.x and `.read_only_hint` on 2.x, while `.maxResultSizeChars` works on both. You can also pass a plain `mcp.types.ToolAnnotations` wherever the SDK accepts annotations.
+Behavioral hints for a tool, passed as the `annotations` argument of [`tool()`](#tool). `ToolAnnotations` extends the MCP SDK's `mcp.types.ToolAnnotations` with a `maxResultSizeChars` field, and you can write each hint in camelCase or snake_case: `ToolAnnotations(readOnlyHint=True)` and `ToolAnnotations(read_only_hint=True)` are equivalent. To read a hint back from the object, use the spelling your installed `mcp` package declares: `.readOnlyHint` on `mcp` 1.x and `.read_only_hint` on 2.x, while `.maxResultSizeChars` works on both. You can also pass a plain `mcp.types.ToolAnnotations` wherever the SDK accepts annotations.
 
-The snake\_case names and the typed `maxResultSizeChars` field require Python Agent SDK 0.2.140 or later. Versions 0.1.31 through 0.2.139 re-export `mcp.types.ToolAnnotations` unchanged. On versions 0.1.55 through 0.2.139 you can still pass `maxResultSizeChars` as a keyword argument: the MCP class accepts extra fields, and the SDK forwards the value to Claude Code.
+The snake_case names and the typed `maxResultSizeChars` field require Python Agent SDK 0.2.140 or later. Versions 0.1.31 through 0.2.139 re-export `mcp.types.ToolAnnotations` unchanged. On versions 0.1.55 through 0.2.139 you can still pass `maxResultSizeChars` as a keyword argument: the MCP class accepts extra fields, and the SDK forwards the value to Claude Code.
 
 All fields are optional. Clients shouldn't rely on the hints for security decisions.
 
@@ -1033,7 +1033,7 @@ SettingSource = Literal["user", "project", "local"]
 
 When `setting_sources` is omitted or `None` and `skills` is not set, `query()` loads the same filesystem settings as the Claude Code CLI: user, project, and local. With `skills` set, the [`setting_sources`](#claudeagentoptions) row describes the current default. Endpoint-managed policy is loaded in all cases; server-managed settings are fetched when the session authenticates with an organization credential on an [eligible configuration](/docs/en/server-managed-settings#platform-availability). For more information, see [What settingSources does not control](/docs/en/agent-sdk/claude-code-features#what-settingsources-does-not-control).
 
-#### Why use setting\_sources
+#### Why use setting_sources
 
 **Disable filesystem settings:**
 
@@ -1162,7 +1162,7 @@ class AgentDefinition:
 
 > [!NOTE]
 >
-> `AgentDefinition` field names use camelCase, such as `disallowedTools`, `permissionMode`, and `maxTurns`. These names map directly to the wire format shared with the TypeScript SDK. This differs from `ClaudeAgentOptions`, which uses Python snake\_case for the equivalent top-level fields such as `disallowed_tools` and `permission_mode`. Because `AgentDefinition` is a dataclass, passing a snake\_case keyword raises a `TypeError` at construction time.
+> `AgentDefinition` field names use camelCase, such as `disallowedTools`, `permissionMode`, and `maxTurns`. These names map directly to the wire format shared with the TypeScript SDK. This differs from `ClaudeAgentOptions`, which uses Python snake_case for the equivalent top-level fields such as `disallowed_tools` and `permission_mode`. Because `AgentDefinition` is a dataclass, passing a snake_case keyword raises a `TypeError` at construction time.
 
 ### `PermissionMode`
 
@@ -3174,7 +3174,7 @@ Grep returns this dict shape in each output mode. Which optional keys are presen
 >
 > Wherever the tools are available, Claude Code provides the four Task tools, or `TodoWrite` instead when you set `CLAUDE_CODE_ENABLE_TASKS=0`.
 >
-> This default set applies in Claude Code v2.1.268 and later, which the TypeScript Agent SDK bundles from v0.3.268.
+> &#xA;This default set applies in Claude Code v2.1.268 and later, which the TypeScript Agent SDK bundles from v0.3.268.
 >
 > See [Model availability](/docs/en/agent-sdk/todo-tracking#model-availability) to opt in.
 

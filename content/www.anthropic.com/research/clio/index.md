@@ -4,7 +4,7 @@
 
 [Read the paper](https://arxiv.org/abs/2412.13678)
 
-![Clio: A system for privacy-preserving insights into real-world AI use](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F093731495410b010f620fd6e402efceda6fa6b1c-2000x1125.jpg&w=1920&q=75)
+![Clio: A system for privacy-preserving insights into real-world AI use](https://assets.claude.com/2b4bbb9aa1af4731551e87b371fef7dfd42f5010.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Dec 12, 2024
@@ -46,13 +46,13 @@ This isn’t just a matter of curiosity, or even of sociological research. Knowi
 
 There’s also a crucially important factor standing in the way of a clear understanding of AI model use: privacy. At Anthropic, we take the protection of our users’ data very seriously. How, then, can we research and observe how our systems are used while rigorously maintaining user privacy?
 
-**Cl**aude **i**nsights and **o**bservations, or “Clio,” is our attempt to answer this question. Clio is an automated analysis tool that enables privacy-preserving analysis of real-world language model use. It gives us insights into the day-to-day uses of [claude.ai](http://claude.ai/redirect/website.v1.90d838c9-aea3-45f1-b9fc-b344fc82401b) in a way that’s analogous to tools like Google Trends. It’s also already helping us improve our safety measures. In this post—which accompanies a [full research paper](https://arxiv.org/abs/2412.13678)—we describe Clio and some of its initial results.
+**Cl**aude **i**nsights and **o**bservations, or “Clio,” is our attempt to answer this question. Clio is an automated analysis tool that enables privacy-preserving analysis of real-world language model use. It gives us insights into the day-to-day uses of [claude.ai](http://claude.ai/redirect/website.v1.365192af-5c43-40d1-a8af-99a300c79212) in a way that’s analogous to tools like Google Trends. It’s also already helping us improve our safety measures. In this post—which accompanies a [full research paper](https://arxiv.org/abs/2412.13678)—we describe Clio and some of its initial results.
 
 ## How Clio works: Privacy-preserving analysis at scale
 
 Traditional, top-down safety approaches (such as evaluations and red teaming) rely on knowing what to look for in advance. Clio takes a different approach, enabling bottom-up discovery of patterns by distilling conversations into abstracted, understandable topic clusters. It does so while preserving user privacy: data are automatically anonymized and aggregated, and only the higher-level clusters are visible to human analysts.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7d27ae68696871a7fc0e49d219ae3b7bc0fe98d0-2401x1520.png&w=3840&q=75)
+![](https://assets.claude.com/2fc6463b662fdd3b8321652163b3fca65cd55906.png?w=3840&q=75&fm=webp&fit=max)
 
 A summary of Clio’s analysis steps, using imaginary conversation examples for illustration.
 
@@ -69,13 +69,13 @@ All our privacy protections have been extensively tested, as we describe in the 
 
 ## How people use Claude: Insights from Clio
 
-Using Clio, we've been able to glean high-level insights into how people use [claude.ai](https://claude.ai/redirect/website.v1.90d838c9-aea3-45f1-b9fc-b344fc82401b) in practice. While public datasets like [WildChat](https://arxiv.org/abs/2405.01470) and [LMSYS-Chat-1M](https://arxiv.org/abs/2309.11998) provide useful information on how people use language models, they only capture specific contexts and use cases. Clio allows us to understand the full spectrum of real-world usage of [claude.ai](https://claude.ai/redirect/website.v1.90d838c9-aea3-45f1-b9fc-b344fc82401b) (which may look different than usage of other AI systems due to differences in user bases and model types).
+Using Clio, we've been able to glean high-level insights into how people use [claude.ai](https://claude.ai/redirect/website.v1.365192af-5c43-40d1-a8af-99a300c79212) in practice. While public datasets like [WildChat](https://arxiv.org/abs/2405.01470) and [LMSYS-Chat-1M](https://arxiv.org/abs/2309.11998) provide useful information on how people use language models, they only capture specific contexts and use cases. Clio allows us to understand the full spectrum of real-world usage of [claude.ai](https://claude.ai/redirect/website.v1.365192af-5c43-40d1-a8af-99a300c79212) (which may look different than usage of other AI systems due to differences in user bases and model types).
 
 ### Top use cases on Claude.ai
 
-We used Clio to analyze 1 million conversations with Claude on [claude.ai](https://claude.ai/redirect/website.v1.90d838c9-aea3-45f1-b9fc-b344fc82401b) (both the Free and Pro tiers) to identify the top tasks people use Claude for. This revealed a particular emphasis on coding-related tasks: the "Web and mobile application development" category represented over 10% of all conversations. Software developers use Claude for tasks ranging from debugging code to explaining Git operations and concepts.
+We used Clio to analyze 1 million conversations with Claude on [claude.ai](https://claude.ai/redirect/website.v1.365192af-5c43-40d1-a8af-99a300c79212) (both the Free and Pro tiers) to identify the top tasks people use Claude for. This revealed a particular emphasis on coding-related tasks: the "Web and mobile application development" category represented over 10% of all conversations. Software developers use Claude for tasks ranging from debugging code to explaining Git operations and concepts.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F04049f03394efe43a972f52066ecb801fc544a40-2400x1346.png&w=3840&q=75)
+![](https://assets.claude.com/feca13eb87ee5e831c0252786430231241bc4855.png?w=3840&q=75&fm=webp&fit=max)
 
 The most common types of conversations users had with Claude, across all languages. The area of the circle corresponds to the percentage of conversations; the titles are summaries generated by Clio after analyzing 1 million randomly-selected conversations.
 
@@ -94,7 +94,7 @@ Clio also identified thousands of smaller conversation clusters, showing the ric
 
 Claude usage varies considerably across languages, reflecting varying cultural contexts and needs. We calculated a base rate of how often each language appeared in conversations overall, and from there we could identify topics where a given language appeared much more frequently than usual. Some examples for Spanish, Chinese, and Japanese are shown in the figure below.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff3323b774293075d2e23bb055d024398121e90e7-2400x1066.png&w=3840&q=75)
+![](https://assets.claude.com/e424636d7f3848da75e3b81681632db0e5b891ea.png?w=3840&q=75&fm=webp&fit=max)
 
 Conversation topics that appeared more frequently in three selected languages (compared to the base rate of that language), as revealed by Clio.
 
@@ -120,7 +120,7 @@ Clio has also helped us monitor for unknown risks in the run up to important pub
 
 In general, there was agreement between Clio and our pre-existing Trust and Safety classifiers on which conversation clusters were considered concerning. However, there was some disagreement for some clusters. One opportunity for improvement was false negatives (when a system didn’t flag a particular conversation as potentially harmful when in fact it was). For example, our systems sometimes failed to flag violating content when the user asked Claude to translate from one language to another. Clio, however, spotted these conversations.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd2c1de943736afb84f09bc35561ca8cce183e667-2400x1234.png&w=3840&q=75)
+![](https://assets.claude.com/3400d95cc134ab89a252c81b8bdc9d23bd051d32.png?w=3840&q=75&fm=webp&fit=max)
 
 Scatterplot of conversation clusters (one dot = one cluster) and the extent to which they were flagged as concerning according to our Trust and Safety classifiers (x-axis) and according to Clio (y-axis). In the top left are clusters that were potentially under-flagged by our Trust and Safety classifiers: false negatives that contained concerning content that wasn’t necessarily flagged. In the bottom right are clusters that were potentially over-flagged: false positives that likely did not contain concerning content. The overall correlation between the Trust and Safety and the Clio classifications was r = 0.71, indicating broad overall agreement between the two systems.
 

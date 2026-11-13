@@ -180,7 +180,7 @@ For Pro, Max, Ultra, and Team users: if you haven’t set a default permission m
 
 For Enterprise users and users who access Claude Code via the Claude API, auto mode remains opt-in for now. We plan to make auto mode the default in the coming month, and we’ll notify Enterprise admins before we do.
 
-To switch modes, press Shift+Tab in the CLI or use the mode dropdown on the desktop app. Admins can pin an org-wide default with `defaultMode` in [managed settings](https://code.claude.com/docs/en/server-managed-settings), or turn auto mode off entirely with `disableAutoMode`.
+To switch modes, press Shift+Tab in the CLI or use the mode dropdown on the [desktop app](https://claude.com/resources/articles/claude-code-desktop-redesign). Admins can pin an org-wide default with `defaultMode` in [managed settings](https://code.claude.com/docs/en/server-managed-settings), or turn auto mode off entirely with `disableAutoMode`.
 
 Finally, while we believe auto mode reduces risk for most users, it relies on classification systems and therefore does not eliminate risk. For high-stakes changes to production infrastructure, we still recommend reviewing Claude's actions yourself. [See the auto mode docs](https://code.claude.com/docs/en/auto-mode-config) for full configuration instructions.
 
@@ -196,33 +196,27 @@ Finally, while we believe auto mode reduces risk for most users, it relies on cl
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 10, 2026
+[ArticleNov 12, 2026
+
+### Operate Claude Managed Agents inside your security perimeter
+
+Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
+
+Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)[ArticleNov 12, 2026
+
+### Introducing Claude for Manufacturing
+
+A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)[ArticleNov 12, 2026
+
+### Introducing Claude Meetings
+
+Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)[ArticleNov 10, 2026
 
 ### Your apps can now open in Claude, and Claude can work in them
 
 Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
 
-Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)[ArticleNov 10, 2026
-
-### More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
-
-Work at the speed of thought
-
-Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)[ArticleNov 10, 2026
-
-### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
-
-Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
-
-Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)[ArticleNov 9, 2026
-
-### Claude Fable 5.2 and Mythos 5.2
-
-Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.
-
-Claude appsClaude Code1 more: Claude PlatformClaude Platform
-
-(opens in new tab)](https://www.anthropic.com/claude-fable-and-mythos-5-2)
+Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)
 
 ## Transform how your organization operates with Claude
 

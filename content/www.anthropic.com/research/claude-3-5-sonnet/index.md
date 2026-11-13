@@ -2,7 +2,7 @@
 
 # Claude 3.5 Sonnet
 
-[Try on Claude.ai](https://claude.ai/redirect/website.v1.c67e1a0d-f872-4cd6-9382-a68f43db6b64)
+[Try on Claude.ai](https://claude.ai/redirect/website.v1.d636c736-243c-4357-87a6-25e235efe8bd)
 
 Published
 :   Jun 21, 2024
@@ -37,7 +37,7 @@ Today, we’re launching Claude 3.5 Sonnet—our first release in the forthcomin
 
 Claude 3.5 Sonnet is now available for free on Claude.ai and the Claude iOS app, while Claude Pro and Team plan subscribers can access it with significantly higher rate limits. It is also available via the Anthropic [API](https://docs.anthropic.com/en/home), [Amazon Bedrock](https://aws.amazon.com/blogs/aws/anthropics-claude-3-5-sonnet-model-now-available-in-amazon-bedrock-the-most-intelligent-claude-model-yet/), and [Google Cloud’s Vertex AI](https://cloud.google.com/blog/products/ai-machine-learning/announcing-anthropics-claude-3-5-sonnet-on-vertex-ai-providing-more-choice-for-enterprises). The model costs $3 per million input tokens and $15 per million output tokens, with a 200K token context window.
 
-![Claude model family](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1f044104447e9db6b22db3a06e45d114f50f274e-2200x1174.png&w=3840&q=75)
+![Claude model family](https://assets.claude.com/9ae45aa1268c9bae1b467524688b5f2e2174e1b6.png?w=3840&q=75&fm=webp&fit=max)
 
 ## Frontier intelligence at 2x the speed
 
@@ -47,7 +47,7 @@ Claude 3.5 Sonnet operates at twice the speed of Claude 3 Opus. This performance
 
 In an [internal agentic coding evaluation](https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf), Claude 3.5 Sonnet solved 64% of problems, outperforming Claude 3 Opus which solved 38%. Our evaluation tests the model’s ability to fix a bug or add functionality to an open source codebase, given a natural language description of the desired improvement. When instructed and [provided with the relevant tools](https://www.anthropic.com/news/tool-use-ga), Claude 3.5 Sonnet can independently write, edit, and execute code with sophisticated reasoning and troubleshooting capabilities. It handles code translations with ease, making it particularly effective for updating legacy applications and migrating codebases.
 
-![Claude 3.5 Sonnet benchmarks](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcf2c754458e9102b7334731fb18a965bfeb7ad08-2200x1894.png&w=3840&q=75)
+![Claude 3.5 Sonnet benchmarks](https://assets.claude.com/45a6520508e0cf54eee442917bfd765be861d537.png?w=3840&q=75&fm=webp&fit=max)
 
 ## State-of-the-art vision
 
@@ -55,7 +55,7 @@ Claude 3.5 Sonnet is our strongest vision model yet, surpassing Claude 3 Opus on
 
 ![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FdhxrHvgXpSM%2Fsddefault.jpg&w=3840&q=75)
 
-![Claude 3.5 Sonnet vision evals](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcaff3d60763b27b59fe33e4ae984530f0dba4ddb-2200x1110.png&w=3840&q=75)
+![Claude 3.5 Sonnet vision evals](https://assets.claude.com/71630691c4bff2e7206110c2a63cd750d93a5de0.png?w=3840&q=75&fm=webp&fit=max)
 
 ## Artifacts—a new way to use Claude
 

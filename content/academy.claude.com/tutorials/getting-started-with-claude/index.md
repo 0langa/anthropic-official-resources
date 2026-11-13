@@ -693,15 +693,17 @@ The work product itself, made in the conversation and opened beside the chat. Se
 - **Claude Design:** screens, flows and visuals laid out as artboards you can edit by hand, in your design system.
 - **Claude Slides:** a deck you can present in Claude, download as PowerPoint or PDF, or export to Google Slides.
 - **Claude Docs:** a document your team reads, comments on and edits in place with Claude.
-- **Claude Dashboards:** a dashboard of your data, where each chart shows when its data was last refreshed. In beta on paid plans.
+- **Claude Sheets:** a spreadsheet with formulas that you, your team and Claude edit together. In beta on paid plans.
+- **Claude Whiteboards:** a shared board where you, your team and Claude map out ideas together. In beta on paid plans.
+- **Claude Data:** a dashboard of your data, where each chart shows when its data was last refreshed. Available on paid plans.
 - **Claude Motion:** an animated explainer, chart or product walkthrough you can download as an MP4 file. In beta on Team and Enterprise plans.
 - **Interactive artifacts:** ask for a planner, a calculator or a small tool and Claude builds it to use right there.
 
-Ask Claude to change any of them, or edit a design, deck or doc directly. You can share them with your team, and you'll find them again in the Artifacts tab in the sidebar. On an Enterprise plan, an organization Owner chooses which of these are on. [More on artifacts(opens in new tab)](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them).
+Ask Claude to change any of them, or edit a design, deck, doc, sheet, board or dashboard directly. You can share them with your team, and you'll find them again in the Artifacts tab in the sidebar. On an Enterprise plan, an organization Owner chooses which of these are on. [More on artifacts(opens in new tab)](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them).
 
 ### Files[](https://academy.claude.com/tutorials/getting-started-with-claude)
 
-When you need the file format itself, such as a spreadsheet with working formulas, a PDF to send on or a deck to open in PowerPoint, Claude creates the file for you to download, open in Google Drive, or open in the app that owns it. [More on file creation(opens in new tab)](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude).
+When you need the file format itself, such as a spreadsheet for Excel, a PDF to send on or a deck to open in PowerPoint, Claude creates the file for you to download, open in Google Drive, or open in the app that owns it. [More on file creation(opens in new tab)](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude).
 
 ### Cards[](https://academy.claude.com/tutorials/getting-started-with-claude)
 

@@ -57,7 +57,7 @@ Data retention is required for organizations enrolled in the program so that we 
 
 Below, we share an overview of what’s available at each CVP access level, as well as requirements for security and privacy controls:
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2b1d3817fe9aa732e1be4ed18446a1b1367379e7-1920x2322.png&w=3840&q=75)
+![](https://assets.claude.com/2ba6c7a952f96fe64cd47303ae20d367f51e0b6a.png?w=3840&q=75&fm=webp&fit=max)
 
 Overview of the Cyber Verification Program tiers.
 
@@ -73,7 +73,7 @@ Across five attempts at each of the 10 CyScenarioBench challenges in each access
 
 These evaluations give us confidence that we can make advanced cyber capabilities safely available to a broader set of defenders, expanding the defensive efforts we began with Project Glasswing. We will continue to refine our tier-based classifiers over time.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fbdb05797e26ba2d096ebda6df1c762518da39db2-1920x1080.png&w=3840&q=75)
+![](https://assets.claude.com/bdb05797e26ba2d096ebda6df1c762518da39db2.png?w=3840&q=75&fm=webp&fit=max)
 
 On CyScenarioBench, our safeguards blocked 46 of 50 tasks on Claude Opus 5.5 in the Defense Access tier, while the Red Team Access tier on Claude Opus 5.5 did not block any tasks, and completed 34 of 50—the same completion rate as when no safeguards are applied.
 
@@ -83,7 +83,7 @@ Through Project Glasswing, we found that Claude Mythos models significantly incr
 
 When asked how long it would have taken them to find the same number of vulnerabilities without Claude Mythos models, several partners told us that the models had increased their rate of vulnerability finding by months or even years. Read more from our partners at [Booz Allen and Comcast](https://claude.com/blog/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases) about their experience.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F172894c37182d28628eb922929f134400c3ef1b5-1920x862.png&w=3840&q=75)
+![](https://assets.claude.com/d83152395a13afff4cddd5a0de921f155ac7f45c.png?w=3840&q=75&fm=webp&fit=max)
 
 These results represent a lower bound on the program’s impact on third-party code, as they’re based on partial data from 33 partner reports and Anthropic’s open-source partnerships. Data limitations include that organizations took different approaches to triaging, and fewer than 50% of partners disclosed patched numbers, often because their fixes were still in progress, so the patch rate is significantly undercounted.
 

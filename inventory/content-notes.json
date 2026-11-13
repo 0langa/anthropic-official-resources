@@ -621,6 +621,9 @@
   "https://claude.com/resources/articles/claude-security-public-beta": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://claude.com/resources/articles/claude-tag-guide-for-startups": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
   "https://claude.com/resources/articles/code-review": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
@@ -7093,6 +7096,15 @@
   "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking/change-tools-or-instructions": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking/fix-bound-to-a-different-conversation": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking/prefix-checks": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
@@ -7906,6 +7918,12 @@
   "https://platform.claude.com/docs/en/managed-agents/secure-deployment-risks": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/managed-agents/self-hosted": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/self-hosted-data-and-access": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes": [
     "Native source; upstream MDX components retained."
   ],
@@ -7946,6 +7964,36 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes?sdk_languages=curl": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/self-hosted/agent-identity": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/self-hosted/call-the-api": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/self-hosted/configuration-reference": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/self-hosted/configure": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/self-hosted/console": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/self-hosted/differences": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/self-hosted/inference-provider": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/self-hosted/kubernetes": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/self-hosted/quickstart": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/managed-agents/self-hosted/upgrade": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/managed-agents/session-observability": [
@@ -10070,6 +10118,12 @@
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/18324319-get-started-with-claude-whiteboards": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/18325154-use-claude-meetings": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/18342806-set-up-and-manage-the-new-unified-claude-experience-for-your-team-organization": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for": [

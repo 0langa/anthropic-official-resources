@@ -2,7 +2,7 @@
 
 # Evaluating and mitigating the growing risk of LLM-discovered 0-days
 
-![Evaluating and mitigating the growing risk of LLM-discovered 0-days](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F20fe001657324f2d75eccc9b8c1b9f43e5400d84-2000x1125.jpg&w=1920&q=75)
+![Evaluating and mitigating the growing risk of LLM-discovered 0-days](https://assets.claude.com/20fe001657324f2d75eccc9b8c1b9f43e5400d84.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Feb 5, 2026

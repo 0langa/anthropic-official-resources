@@ -2,7 +2,7 @@
 
 # **2028:**Two scenarios for global AI leadership
 
-![2028: Two scenarios for global AI leadership](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2b05397d1ceac19b70a820a61d27dca4a5fba2e0-1920x1080.jpg&w=1920&q=75)
+![2028: Two scenarios for global AI leadership](https://assets.claude.com/f71c1092aa52cf67d62f41e6359351bf1433ee23.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   May 14, 2026

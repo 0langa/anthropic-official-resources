@@ -1,8 +1,8 @@
 # Reviewing the evidence on worker retraining programs
 
-[Download the report](https://www-cdn.anthropic.com/169e4adceebbab066b91e0b45127d73cb2bda24b/WorkerRetraining.pdf)
+[Download the report](https://assets.claude.com/169e4adceebbab066b91e0b45127d73cb2bda24b.pdf)
 
-![Reviewing the evidence on worker retraining programs](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F46eef84db666a74a4013b4652d44cec7c46a3016-2000x1125.jpg&w=1920&q=75)
+![Reviewing the evidence on worker retraining programs](https://assets.claude.com/edab5fa54efbe3b49d0f1dbdbe7b44c8b3606c73.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Aug 12, 2026

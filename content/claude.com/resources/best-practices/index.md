@@ -34,13 +34,13 @@ Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does
 
 [WebinarUpcoming | Nov 17, 2026
 
-### Build Agents with the Claude Platform on Google Cloud
+### Build Agents with Claude Models on Google Cloud
 
 The full Claude Platform is now on Google Cloud — build agents from the Google Cloud account you already run.
 
 Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)
 
-[WebinarUpcoming | Nov 12, 2026
+[WebinarNov 12, 2026
 
 ### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
 
@@ -60,7 +60,7 @@ Featured resource 1 of 5: Working with Claude Fable 5 in Claude Cowork
 
 Advanced filters
 
-Showing 11 of 229 resources
+Showing 11 of 231 resources
 
 [WebinarUpcoming | Nov 18, 2026
 
@@ -70,17 +70,29 @@ When agents write the code, pull requests pile up faster than anyone can read th
 
 Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[WebinarUpcoming | Nov 17, 2026
 
-### Build Agents with the Claude Platform on Google Cloud
+### Build Agents with Claude Models on Google Cloud
 
 The full Claude Platform is now on Google Cloud — build agents from the Google Cloud account you already run.
 
-Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[WebinarUpcoming | Nov 12, 2026
+Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[WebinarNov 12, 2026
 
 ### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
 
 Most nonprofit staff on Claude open a chat, get a decent but generic answer, and go back to doing it by hand.
 
-Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[ArticleNov 9, 2026
+Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[ArticleNov 12, 2026
+
+### The Claude Tag guide for startups
+
+How leading startups use Claude Tag to ship faster and scale operations
+
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
+
+### How Curative is building a national provider network with agents on Claude
+
+Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
+
+Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 9, 2026
 
 ### Safely scaling multi-agent teams with Claude Fable 5.2
 
@@ -120,22 +132,6 @@ Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude Enterpr
 
 When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
 
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[WebinarOn demand
-
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered
-
-Your advisors want to use Claude for Financial Advisors. Before you turn on Cowork, you need to know how client data is handled.
-
-Claude CoworkClaude Enterprise
-
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/1ca88184-6d7b-4558-94e0-691d4a625140)[ArticleOct 19, 2026
-
-### Redesigning source control at Anthropic
-
-As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.
-
-Claude Code
-
-(opens in new tab)](https://www.anthropic.com/engineering/redesigning-source-control)
+Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)
 
 View more

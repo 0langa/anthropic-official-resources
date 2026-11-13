@@ -2,7 +2,7 @@
 
 Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
 
-- Category[Best practices](https://claude.com/resources/best-practices)
+- Category[Best practices](https://claude.com/resources/best-practices), [Perspectives](https://claude.com/resources/perspectives)
 - ProductClaude Platform, Claude Code
 - AuthorsCamy Pearson, Michael Segner
 - DateNovember 10, 2026
@@ -96,7 +96,13 @@ Fred expects agents on the provider side too. A large share of claims disputes a
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 9, 2026
+[ArticleNov 12, 2026
+
+### The Claude Tag guide for startups
+
+How leading startups use Claude Tag to ship faster and scale operations
+
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 9, 2026
 
 ### Safely scaling multi-agent teams with Claude Fable 5.2
 
@@ -116,13 +122,7 @@ Claude PlatformClaude Code
 
 Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
 
-Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)[ArticleOct 22, 2026
-
-### Building agents: When to fold subagents into your main agent loop
-
-When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
-
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)
+Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)
 
 ## Transform how your organization operates with Claude
 

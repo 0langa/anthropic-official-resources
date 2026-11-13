@@ -2,7 +2,7 @@
 
 # Building a C compiler with a team of parallel Claudes
 
-![Building a C compiler with a team of parallel Claudes](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F194765a666e35f8c949cb75edce4e104ff98fda5-2000x1125.jpg&w=1920&q=75)
+![Building a C compiler with a team of parallel Claudes](https://assets.claude.com/8f13358a14aecea31d91ea5b85d80030091df0f8.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Feb 5, 2026

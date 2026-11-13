@@ -4,7 +4,7 @@
 
 [Read the paper](https://www.arxiv.org/abs/2506.15740)
 
-![Six colored panels containing geometric line drawings and abstract shapes including diamonds, polyhedra, and curved lines with dots.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F67a5f18908c376d483c8e8f9b2d2d51ab14c4079-2000x1125.jpg&w=1920&q=75)
+![Six colored panels containing geometric line drawings and abstract shapes including diamonds, polyhedra, and curved lines with dots.](https://assets.claude.com/18c16f11642950838a6b15ebc4cf842bc7f1e79d.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Jun 16, 2025
@@ -54,7 +54,7 @@ These tasks involve a great deal of complexity: to complete them, the model has 
 
 We aren’t just interested in whether the attacking AI model can succeed at sabotage; we’re interested in whether it can succeed *without getting caught*. To test this, we set up a second AI model to monitor the task. We don’t tell this monitor about the side tasks: it simply has to read the transcript of everything the main model said during the task, and rate how suspicious it is that something untoward has occurred. We set a “suspicion score” of 80/100 as the threshold where we’d consider that the monitor has successfully spotted the malicious behavior; if the score is lower than that, and as long as the attacking AI completed both the main task and the side task[1](https://www.anthropic.com/research/shade-arena-sabotage-monitoring), we consider it a successful act of sabotage.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd6582813065135cbf38941d88d1be2bc4bd1b564-4096x2298.png&w=3840&q=75)
+![](https://assets.claude.com/d759b2b012709e798cb231d620a91df029fd6aa9.png?w=3840&q=75&fm=webp&fit=max)
 
 An overview of a SHADE-Arena task. The model must act as an agent to complete both a benign main task and also a malicious side task. It interacts with various tools in their environment to do so. Later, a monitor model reads the transcript of their outputs and rates their level of suspicion.
 
@@ -62,7 +62,7 @@ An overview of a SHADE-Arena task. The model must act as an agent to complete bo
 
 We put fourteen different AI models through their paces in SHADE-Arena. The default monitor model in most of the experiments was Claude Sonnet 3.6[2](https://www.anthropic.com/research/shade-arena-sabotage-monitoring). Below are the main results for each of the models we tested.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F26c0d3f5668fd34d035193b435bcd22b37c23262-2430x4096.png&w=3840&q=75)
+![](https://assets.claude.com/7e99d0ef1cd5f6dd3f3f37621a681b7f13c1e2fe.png?w=3840&q=75&fm=webp&fit=max)
 
 Success rates for 14 different large language models. Recall that for overall success, the models had to complete both the main task and the side task, and evade detection by the monitor.
 
@@ -77,7 +77,7 @@ Here were some of the most common ways the models failed the tasks:
 
 We also tried giving the monitor AI access to the attacking AI’s thought process (also sometimes called its “scratchpad” or its “chain-of-thought”). We told the attacking model that this was happening, and watched to see if it avoided admitting what it was doing in the surreptitious side task. As shown in the figure below, this made the monitor model much better at spotting the side task, and reduced overall success rates by a substantial amount.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0687750fa2e5a995cd8b3e55e09c599a3742885f-4096x4096.png&w=3840&q=75)
+![](https://assets.claude.com/c81d42469a30b9fccfb22fb369f6f00b5909823a.png?w=3840&q=75&fm=webp&fit=max)
 
 Keeping the attacking model’s scratchpad (or “thought process”) hidden meant that the monitor was less likely to spot the malicious task it was carrying out.
 
@@ -85,7 +85,7 @@ This effect was for a simple reason: many of the models simply couldn’t help b
 
 We made a similar discovery when we gave the models hints to help them come up with complex sabotage strategies. Although sometimes such hints helped the models complete the tasks more effectively, they often made things worse—often because the models struggled to complete the complex task, or left obvious evidence in their thought process.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe800b06aa151c5dd10310e4a5fe2fc5106539349-3640x4096.png&w=3840&q=75)
+![](https://assets.claude.com/b9b468770976dae8876b6c4aac9643171e847288.png?w=3840&q=75&fm=webp&fit=max)
 
 Giving the attacking model a hint didn’t always help it complete the task more effectively.
 

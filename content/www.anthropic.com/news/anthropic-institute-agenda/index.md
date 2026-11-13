@@ -1,6 +1,6 @@
 # Focus areas for The Anthropic Institute
 
-![Focus areas for The Anthropic Institute](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F70882016231824c19ed88d5443739d56eb79587f-2000x1125.jpg&w=1920&q=75)
+![Focus areas for The Anthropic Institute](https://assets.claude.com/20565638d0cef4ca8c6803456f8436ab2bcca57f.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   May 7, 2026

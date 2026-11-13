@@ -8,7 +8,7 @@ Chapter 03
 
 Building AI agents for financial services requires exceptional precision and accountability. Your agents need to understand complex regulations, handle sensitive data securely, and explain every decision they make. One wrong calculation or data breach can trigger serious consequences.
 
-This is why leading financial institutions are turning to [Claude (opens in new tab)](https://claude.ai/redirect/claudedotcom.v1.c18fe5db-f89e-44cf-908b-9b2e6c031554), Anthropic's family of advanced AI models known for their industry-leading coding and reasoning capabilities, nuanced understanding, and unwavering emphasis on safety and reliability. Claude doesn't just process data; it understands context, maintains consistency across complex workflows, and provides the explainability that regulators demand.
+This is why leading financial institutions are turning to [Claude (opens in new tab)](https://claude.ai/redirect/claudedotcom.v1.322342c5-f2c1-406e-9d2e-da060dc60f86), Anthropic's family of advanced AI models known for their industry-leading coding and reasoning capabilities, nuanced understanding, and unwavering emphasis on safety and reliability. Claude doesn't just process data; it understands context, maintains consistency across complex workflows, and provides the explainability that regulators demand.
 
 Deployed through Amazon Bedrock, AWS's fully managed service that delivers enterprise grade security, privacy and responsible AI capabilities, Claude becomes even more powerful. Bedrock eliminates the infrastructure complexity that typically slows innovation, while providing the robust governance controls and compliance frameworks that financial services require.
 

@@ -58,13 +58,13 @@ From open role to first 90 days. An operations manager has an open seat for a de
 
 ## Work smarter with Claude
 
-[![](https://academy.claude.com/assets/v1/thumbnail.light-bb0g5i6x.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j090lkdj.png)
+[![](https://academy.claude.com/assets/v1/thumbnail.light-lala3ba3.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-d7ynyke1.png)
 
-## Choosing the right Claude model: Haiku, Sonnet, Opus, or Fable
+## Choosing a Claude model for knowledge workers
 
-Learn when to use Haiku, Sonnet, Opus, or Fable to get better results and stay inside your rate limit. A practical guide to picking the right Claude model.
+What each Claude model is for, which one to start with, and how to tell when a different model or effort level would help.
 
-·Tutorial·5 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)[![](https://academy.claude.com/assets/v1/thumbnail.light-ofwck6bq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-09in3lr8.png)
+·Tutorial·7 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)[![](https://academy.claude.com/assets/v1/thumbnail.light-ofwck6bq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-09in3lr8.png)
 
 ## Intro to Projects
 

@@ -2,7 +2,7 @@
 
 # Trustworthy agents in practice
 
-![Trustworthy agents in practice](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Faa2f55dfd3024c507675ebb4a45969ca32ae005c-2000x1125.jpg&w=1920&q=75)
+![Trustworthy agents in practice](https://assets.claude.com/e47796802ec0a921792172f51a9ed32ebdb01d57.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Apr 9, 2026

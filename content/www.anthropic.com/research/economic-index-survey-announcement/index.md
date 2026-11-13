@@ -1,6 +1,6 @@
 # Announcing the Anthropic Economic Index Survey
 
-![Announcing the Anthropic Economic Index Survey](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fea507c3c1f47c859249470aab18aa0c843ddb853-2000x1125.jpg&w=1920&q=75)
+![Announcing the Anthropic Economic Index Survey](https://assets.claude.com/ece37935815626d64096c5e4840d8cac79e9fad0.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Apr 22, 2026

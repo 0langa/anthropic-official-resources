@@ -27,7 +27,7 @@ something worth sharing.
 
 ## What a plugin is[](https://academy.claude.com/courses/claude-code-in-action/plugins)
 
-A plugin is one installable unit. It bundles everything you'd otherwise share by hand: skills, subagents, hooks, and MCP server configs, plus the longer tail of stuff like language server protocol servers, background monitors, themes, and a slice of `settings.json`. One version, one install.
+A plugin is one installable unit. It bundles everything you'd otherwise share by hand: skills, subagents, hooks, and MCP server configs, plus the longer tail of stuff like language server protocol servers, background monitors, and themes. One version, one install.
 
 Where the plugin lives decides how you install it. Inside a session, you can install one directly by name:
 
@@ -66,9 +66,7 @@ A plugin doesn't overwrite your configuration. Its components run alongside your
 
 Hooks stack. A plugin's PreToolUse hook and your own PreToolUse hook both fire on every tool call. Neither replaces the other. This is exactly why you read the details first.
 
-Skills, agents, and commands are namespaced under the plugin name, so they never clash with yours. A plugin can also ship a `settings.json` file, but only a narrow one. Claude Code honors just two keys from it: the agent and subagent status line keys.
-
-That agent key is worth a pause. Setting it promotes one of the plugin's subagents to the main thread, along with its system prompt, tool restrictions, and model. In other words, enabling the plugin can change how Claude Code behaves by default. That's one of the main reasons to look before you even turn it on.
+Skills, agents, and commands are namespaced under the plugin name, so they never clash with yours.
 
 Once a plugin is installed you can see everything it added, manage it, and uninstall it from the plugin panel.
 

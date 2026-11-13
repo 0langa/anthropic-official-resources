@@ -80,7 +80,13 @@ The limits are really just our own imagination. The tools, data, and models are 
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 10, 2026
+[ArticleNov 12, 2026
+
+### The Claude Tag guide for startups
+
+How leading startups use Claude Tag to ship faster and scale operations
+
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
 
 ### How Curative is building a national provider network with agents on Claude
 
@@ -100,13 +106,7 @@ How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by t
 
 Claude PlatformClaude Code
 
-(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)[ArticleOct 27, 2026
-
-### Manage costs and demonstrate ROI for Claude Code on Google Cloud
-
-Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
-
-Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)
+(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)
 
 ## Transform how your organization operates with Claude
 

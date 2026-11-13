@@ -60,7 +60,7 @@ Make it executable with `chmod +x`. The setup portion is whatever your launcher 
 >
 > If you previously replaced the `~/.local/bin/claude` symlink with your launcher, restore the original symlink in the same change. A replaced symlink makes the first wrapped session start the background service through both launchers at once, and it puts the installation into an externally managed state: `/doctor` reports it, auto-update leaves the file in place, and cleanup of old versions stays disabled until the installer manages that path again.
 
-**2. Set CLAUDE\_CODE\_PROCESS\_WRAPPER in settings**
+**2. Set CLAUDE_CODE_PROCESS_WRAPPER in settings**
 
 Set the variable in the `env` block of a settings file so the detached background service inherits it. A shell `export` isn't enough: the background service starts on demand, outlives your shell, and never re-reads shell profiles.
 

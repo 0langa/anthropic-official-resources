@@ -21,7 +21,7 @@ In a session that has the task-tracking tools, Claude keeps a written todo list,
 >
 > Wherever the tools are available, Claude Code provides the four Task tools, or `TodoWrite` instead when you set `CLAUDE_CODE_ENABLE_TASKS=0`.
 >
-> This default set applies in Claude Code v2.1.268 and later, which the TypeScript Agent SDK bundles from v0.3.268.
+> &#xA;This default set applies in Claude Code v2.1.268 and later, which the TypeScript Agent SDK bundles from v0.3.268.
 
 On a model that doesn't have the tools by default, unless you opt a session in, you see no `tool_use` blocks for them in the message stream. The Agent SDK applies these defaults through the Claude Code binary that it bundles. If you point `pathToClaudeCodeExecutable` (TypeScript) or `cli_path` (Python) at your own Claude Code install, you get whichever tools that install provides, under its own defaults. To see the exact set in a running session, [check which tools are available](/docs/en/tools-reference#check-which-tools-are-available). To opt a session in, do one of the following:
 

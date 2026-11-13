@@ -76,23 +76,27 @@ Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-ful
 
 Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
 
-Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)[ArticleNov 10, 2026
+Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)[ArticleNov 12, 2026
+
+### Operate Claude Managed Agents inside your security perimeter
+
+Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
+
+Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)[ArticleNov 12, 2026
+
+### Introducing Claude for Manufacturing
+
+A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)[ArticleNov 12, 2026
+
+### Introducing Claude Meetings
+
+Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)[ArticleNov 10, 2026
 
 ### More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
 
 Work at the speed of thought
 
-Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)[ArticleNov 5, 2026
-
-### Introducing Personal Finance in Claude
-
-Ask Claude about your money and get straight answers from the accounts you connect.](https://claude.com/resources/articles/introducing-personal-finance-in-claude)[ArticleNov 5, 2026
-
-### More visibility and control over Claude Enterprise for security teams
-
-Claude EnterpriseClaude apps](https://claude.com/resources/articles/claude-enterprise-security-updates)[ArticleNov 4, 2026
-
-### New agents and products for security, productivity, and creative work on Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace)
+Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)
 
 ## Best practices
 
@@ -118,11 +122,11 @@ When agents write the code, pull requests pile up faster than anyone can read th
 
 Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[WebinarUpcoming | Nov 17, 2026
 
-### Build Agents with the Claude Platform on Google Cloud
+### Build Agents with Claude Models on Google Cloud
 
 The full Claude Platform is now on Google Cloud — build agents from the Google Cloud account you already run.
 
-Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[WebinarUpcoming | Nov 12, 2026
+Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[WebinarNov 12, 2026
 
 ### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
 
@@ -138,21 +142,19 @@ Recurring webinars
 - [Building your first workflow with CoworkWebinar](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)
 - [Claude Code: FoundationsWebinar](https://claude.com/resources/webinars/claude-code-foundations-series)
 
-[ArticleNov 10, 2026
+[ArticleNov 12, 2026
+
+### The Claude Tag guide for startups
+
+How leading startups use Claude Tag to ship faster and scale operations
+
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
 
 ### How Curative is building a national provider network with agents on Claude
 
 Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
 
-Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 9, 2026
-
-### Which Claude model should you build with?
-
-How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.
-
-Claude PlatformClaude Code
-
-(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)
+Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)
 
 ## Perspectives
 
@@ -168,28 +170,23 @@ Video
 
 Engineering leaders from Salesforce explain how they measure AI coding ROI with an "effective output" score built with Stanford researchers, and how an agent maturity curve moved engineers from simple prompts to autonomous agents across the software development life cycle.
 
-[WebinarOn demand
+[ArticleNov 12, 2026
+
+### The Claude Tag guide for startups
+
+How leading startups use Claude Tag to ship faster and scale operations
+
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
+
+### How Curative is building a national provider network with agents on Claude
+
+Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
+
+Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[WebinarOn demand
 
 ### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
 
-A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)[Video21 min watch
-
-### How Ramp engineers work with AI agents at every step
-
-Ramp runs AI agents across its entire engineering lifecycle: writing code, reviewing it, watching production, and root-causing incidents.
-Boris sat down with Austin Ray and Rahul Sengottuvelu of Ramp to talk about how they got there. Building for the models that are coming rather than the ones that exist, giving every engineer uncapped access to intelligence, and the guardrails that make it work. They compare notes on Claude Code setups, loops versus dynamic workflows, and what Claude Fable 5 unlocked.
-
-Claude Code
-
-(opens in new tab)](https://www.youtube.com/watch?v=i4odXOmgMLw)[Video10 min watch
-
-### How Factory is building autonomous software with Claude
-
-Factory is bringing autonomy to software engineering with Droids, AI coding agents that handle enterprise work. In this conversation, Co-founder and CEO Matan Grinberg sits down with Anthropic's Kai Gill to talk about his journey founding Factory, how Claude's frontier models handle long-horizon tasks across large codebases so teams can trust agent plans with less oversight, and what it will take to build a fully autonomous "dark factory" for software.
-
-Claude Platform
-
-(opens in new tab)](https://www.youtube.com/watch?v=N6FkmdL0Lg0)
+A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)
 
 ## Insights
 
@@ -235,7 +232,11 @@ The latest on how enterprises and partners are adopting and building with Claude
 
 [See more](https://claude.com/resources/enterprise-announcements)
 
-[ArticleNov 9, 2026
+[ArticleNov 12, 2026
+
+### J. Crew brings its signature approach to styling to life with Claude
+
+Claude Code](https://claude.com/resources/articles/j-crew-style-advisor-with-claude)[ArticleNov 9, 2026
 
 ### JPMorganChase expands Claude Code to more employees across the firm
 
@@ -249,13 +250,7 @@ Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://clau
 
 ### HCLTech joins the Claude Partner Network as a Global Premier partner
 
-HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)[ArticleSep 28, 2026
-
-### A new approach to agent security with Claude Managed Agents and NVIDIA
-
-Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
-
-Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)
+HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)
 
 ## Articles
 
@@ -285,13 +280,13 @@ Claude Platform](https://claude.com/resources/articles/building-agents-when-to-f
 
 ### Introducing Claude Duet
 
-A research preview is available by waitlist today, starting with US Pro, Max, and Ultra subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleNov 10, 2026
+A research preview is available by waitlist today, starting with US Pro, Max, and Ultra subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleNov 12, 2026
 
-### How Curative is building a national provider network with agents on Claude
+### Operate Claude Managed Agents inside your security perimeter
 
-Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
+Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
 
-Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)
+Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)
 
 ## Guides
 
@@ -347,7 +342,7 @@ When agents write the code, pull requests pile up faster than anyone can read th
 
 Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[WebinarUpcoming | Nov 17, 2026
 
-### Build Agents with the Claude Platform on Google Cloud
+### Build Agents with Claude Models on Google Cloud
 
 The full Claude Platform is now on Google Cloud — build agents from the Google Cloud account you already run.
 
@@ -355,7 +350,7 @@ Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-w
 
 ### Claude for Manufacturing: Put Your Plant’s Know-How to Work
 
-This one-hour technical session covers where that’s heading, what works today, and how to start.](https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work)[WebinarUpcoming | Nov 12, 2026
+This one-hour technical session covers where that’s heading, what works today, and how to start.](https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work)[WebinarNov 12, 2026
 
 ### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
 

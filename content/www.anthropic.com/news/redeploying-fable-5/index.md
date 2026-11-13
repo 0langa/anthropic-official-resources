@@ -79,7 +79,7 @@ We therefore deliberately set the safety classifiers to trigger on a set of requ
 
 For Fable 5, we made this safety margin much larger than in any prior launch (row B), meaning that many more benign requests would be blocked. We understood that these kinds of false positives would be frustrating for users, but made this tradeoff in the interest of making the model’s other capabilities widely available.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0cf1fc27ba70725d56c623b27dc1f05228a303c2-3840x1732.png&w=3840&q=75)
+![](https://assets.claude.com/0cf1fc27ba70725d56c623b27dc1f05228a303c2.png?w=3840&q=75&fm=webp&fit=max)
 
 **An illustration of our cybersecurity safety classifiers.**   
 When a request is made to the model, the classifiers detect whether it is benign (and allowed), or potentially harmful (and blocked). The classifiers block ambiguous requests (those that are clearly to do with cybersecurity but could potentially be for defensive purposes, like finding security vulnerabilities) and harmful requests (those that are clearly dangerous, such as a request to build a chain of software exploits). As shown in row A, we also include a “safety margin”, where the classifier will block requests that are probably benign but have some small chance of being harmful. This increases our confidence that all harmful requests will be blocked. For Fable 5 (row B) we made the safety margin even larger, meaning that more benign requests would be blocked—but fewer genuinely harmful requests would be missed. “Vulns” = vulnerabilities.
@@ -88,7 +88,7 @@ The safety margin also helps mitigate jailbreaks. Many jailbreaks are narrow: th
 
 More serious jailbreaks unblock more harmful behaviors. Narrow harmful jailbreaks (row D) can elicit some specific harmful behaviors. These jailbreaks are typically of low to moderate severity, because the narrowness limits the attacker. The most concerning category is a *universal* jailbreak (row E), which unblocks a wide range of harmful behaviors.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5dfd2fdf07c6e6f7d490fe3b85b3bf1a330c4951-3840x2181.png&w=3840&q=75)
+![](https://assets.claude.com/5dfd2fdf07c6e6f7d490fe3b85b3bf1a330c4951.png?w=3840&q=75&fm=webp&fit=max)
 
 **How jailbreaks interact with our safety classifiers.**   
 In the case of a minor jailbreak (row C), the classifiers do not block the request, but the request is still within our safety margin (and is thus very unlikely to be harmful). In a narrow harmful jailbreak (row D), the prompt breaches the classifiers and unblocks a specific harmful behavior from the model. In a universal jailbreak (row E), a prompt unblocks an entire class of harmful behaviors.

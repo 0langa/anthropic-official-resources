@@ -10,7 +10,7 @@ Connect AI assistants to your tools without custom integrations using Model Cont
 - Reading time10 min
 - ShareCopy link
 
-AI models are only as good as the context provided to them. AI assistants like [Claude](https://claude.ai/redirect/claudedotcom.v1.d322b9f9-69ca-44c3-b2f8-b8fae260acf2) can answer questions and perform an impressive range of tasks, but if they can't access the data or tools they need, they're limited in what they can do for you. You typically solve this by copying and pasting context from one tab to another, whether it's editing a document in Google Drive, replying to a thread in Slack, or updating code in an IDE. This process is slow, manual, and risks leaving out important context.
+AI models are only as good as the context provided to them. AI assistants like [Claude](https://claude.ai/redirect/claudedotcom.v1.06a764be-b18c-4456-aa69-a696bde8999b) can answer questions and perform an impressive range of tasks, but if they can't access the data or tools they need, they're limited in what they can do for you. You typically solve this by copying and pasting context from one tab to another, whether it's editing a document in Google Drive, replying to a thread in Slack, or updating code in an IDE. This process is slow, manual, and risks leaving out important context.
 
 The **Model Context Protocol (MCP)** offers a solution that is open and widely available across all AI apps and assistants. In this article, you'll learn what MCP is, how it works and why it matters, and who it's for. You'll see examples of MCP in action and understand how you can start using or building with MCP today.
 
@@ -74,7 +74,7 @@ Enterprises can drive internal adoption of AI tools and applications more effect
 
 MCP provides end-users with seamless connectivity between their favorite AI assistants and work tools. It makes it easier to automate tasks and avoid copying and pasting across tabs. In short, MCP gives AI greater access and connectivity to your world.
 
-In [Claude](https://claude.ai/redirect/claudedotcom.v1.d322b9f9-69ca-44c3-b2f8-b8fae260acf2), you can instantly connect to MCP Servers, known as [**Connectors**](https://claude.com/partners/mcp). This provides you with a straightforward way to connect Claude to your favorite work apps.
+In [Claude](https://claude.ai/redirect/claudedotcom.v1.06a764be-b18c-4456-aa69-a696bde8999b), you can instantly connect to MCP Servers, known as [**Connectors**](https://claude.com/partners/mcp). This provides you with a straightforward way to connect Claude to your favorite work apps.
 
 ## Connectors (MCP) in action
 
@@ -120,7 +120,7 @@ Two paths exist based on your needs.
 
 ### Connectors in Claude
 
-[Connectors](https://claude.com/partners/mcp) are pre-built, giving Claude instant access to tools, databases, and applications, and providing you with a new set of capabilities. Open [Claude](https://claude.ai/redirect/claudedotcom.v1.d322b9f9-69ca-44c3-b2f8-b8fae260acf2/directory), browse available connectors, and click to add them.
+[Connectors](https://claude.com/partners/mcp) are pre-built, giving Claude instant access to tools, databases, and applications, and providing you with a new set of capabilities. Open [Claude](https://claude.ai/redirect/claudedotcom.v1.06a764be-b18c-4456-aa69-a696bde8999b/directory), browse available connectors, and click to add them.
 
 ### Build custom MCP connections
 
@@ -154,7 +154,19 @@ MCP uses efficient protocols. Stdio transport for local servers provides minimal
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 9, 2026
+[ArticleNov 12, 2026
+
+### The Claude Tag guide for startups
+
+How leading startups use Claude Tag to ship faster and scale operations
+
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
+
+### How Curative is building a national provider network with agents on Claude
+
+Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
+
+Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 9, 2026
 
 ### Safely scaling multi-agent teams with Claude Fable 5.2
 
@@ -168,19 +180,7 @@ How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by t
 
 Claude PlatformClaude Code
 
-(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)[ArticleOct 27, 2026
-
-### Manage costs and demonstrate ROI for Claude Code on Google Cloud
-
-Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
-
-Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)[ArticleOct 22, 2026
-
-### Building agents: When to fold subagents into your main agent loop
-
-When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
-
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)
+(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)
 
 ## Transform how your organization operates with Claude
 

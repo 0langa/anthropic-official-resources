@@ -2,7 +2,7 @@
 
 # AI models are showing a greater ability to find and exploit vulnerabilities on realistic cyber ranges
 
-![AI models are showing a greater ability to find and exploit vulnerabilities on realistic cyber ranges](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcfdbbd3fc98d1e6db87ba6f1dce8da3f3fc3fde4-2000x1125.jpg&w=1920&q=75)
+![AI models are showing a greater ability to find and exploit vulnerabilities on realistic cyber ranges](https://assets.claude.com/f486d012d29c42f49d972dc1dc3b22a64d59fcc3.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Jan 16, 2026

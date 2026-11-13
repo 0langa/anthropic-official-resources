@@ -1441,7 +1441,7 @@ claude mcp serve
 
 The command prints nothing when it starts. A stdio MCP server communicates over stdin and stdout, so a silent, blocked terminal means the server is running and waiting for a client to connect.
 
-You can use this in Claude Desktop by adding this configuration to claude\_desktop\_config.json:
+You can use this in Claude Desktop by adding this configuration to claude_desktop_config.json:
 
 ```json theme={null}
 {

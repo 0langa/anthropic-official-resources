@@ -225,7 +225,7 @@ This pattern has several benefits:
 
 Claude Code supports two methods for routing sampling requests through a proxy:
 
-**Option 1: ANTHROPIC\_BASE\_URL (simple but only for sampling API requests)**
+**Option 1: ANTHROPIC_BASE_URL (simple but only for sampling API requests)**
 
 ```bash theme={null}
 export ANTHROPIC_BASE_URL="http://localhost:8080"
@@ -233,7 +233,7 @@ export ANTHROPIC_BASE_URL="http://localhost:8080"
 
 This tells Claude Code and the Agent SDK to send sampling requests to your proxy instead of the Claude API directly. Your proxy receives plaintext HTTP requests, can inspect and modify them (including injecting credentials), then forwards to the real API.
 
-**Option 2: HTTP\_PROXY / HTTPS\_PROXY (system-wide)**
+**Option 2: HTTP_PROXY / HTTPS_PROXY (system-wide)**
 
 ```bash theme={null}
 export HTTP_PROXY="http://localhost:8080"

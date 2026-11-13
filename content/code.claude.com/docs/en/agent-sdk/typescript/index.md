@@ -2199,7 +2199,7 @@ type SDKInformationalMessage = {
 
 ### `SDKWorkerShuttingDownMessage`
 
-Emitted on graceful worker teardown so remote clients can show why the worker exited instead of waiting for heartbeat timeout. The `reason` is a short snake\_case string set by the host CLI, such as `"host_exit"` or `"remote_control_disabled"`. Act on this only when streaming live. A resumed session replays past instances of this message, so ignore them in that case.
+Emitted on graceful worker teardown so remote clients can show why the worker exited instead of waiting for heartbeat timeout. The `reason` is a short snake_case string set by the host CLI, such as `"host_exit"` or `"remote_control_disabled"`. Act on this only when streaming live. A resumed session replays past instances of this message, so ignore them in that case.
 
 ```typescript theme={null}
 type SDKWorkerShuttingDownMessage = {
@@ -3603,7 +3603,7 @@ Creates and manages a structured task list for tracking progress.
 >
 > Wherever the tools are available, Claude Code provides the four Task tools, or `TodoWrite` instead when you set `CLAUDE_CODE_ENABLE_TASKS=0`.
 >
-> This default set applies in Claude Code v2.1.268 and later, which the TypeScript Agent SDK bundles from v0.3.268.
+> &#xA;This default set applies in Claude Code v2.1.268 and later, which the TypeScript Agent SDK bundles from v0.3.268.
 >
 > See [Model availability](/docs/en/agent-sdk/todo-tracking#model-availability) to opt in.
 
@@ -4556,7 +4556,7 @@ Returns the previous and updated task lists.
 >
 > Wherever the tools are available, Claude Code provides the four Task tools, or `TodoWrite` instead when you set `CLAUDE_CODE_ENABLE_TASKS=0`.
 >
-> This default set applies in Claude Code v2.1.268 and later, which the TypeScript Agent SDK bundles from v0.3.268.
+> &#xA;This default set applies in Claude Code v2.1.268 and later, which the TypeScript Agent SDK bundles from v0.3.268.
 >
 > See [Model availability](/docs/en/agent-sdk/todo-tracking#model-availability) to opt in.
 

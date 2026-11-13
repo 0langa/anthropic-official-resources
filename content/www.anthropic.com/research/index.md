@@ -84,11 +84,11 @@ Studies how AI affects people, both individually and collectively.
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 
-- [![Collage illustration pairing vintage measuring scales over a black-and-white photograph with a green print of a ribbed, vaulted cathedral ceiling.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F99ce1c2ac2d0649d677f097132829da2ab3c4e18-1280x1280.jpg&w=3840&q=75)](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
-- [![AI for scientific discovery: How researchers use Claude](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3d70ee592fadda2eed33c12f180c2576a7eefbbf-1280x1280.jpg&w=3840&q=75)](https://www.anthropic.com/research/how-researchers-use-claude)
-- [![Collage of a vintage lithograph of a schooner heeling in a stormy sea, layered over an aged paper folder and a blue-tinted handwritten ship passenger list.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5b5ef1d3d54a1d98d6775e113b321561c0d25875-1280x1280.jpg&w=3840&q=75)](https://www.anthropic.com/research/agents-judgment-calls)
-- [![Illuminating the frontier](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F949253a4fe1d64bb09bac48fd94a5110c2132916-1280x1280.jpg&w=3840&q=75)](https://www.anthropic.com/institute/measuring-pace-of-ai-development)
-- [![Scenarios for our economic future](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffccf43cf4e36b0c26b4215861d909aadabbc32ce-1920x1080.png&w=3840&q=75)](https://www.anthropic.com/institute/econ-scenarios)
+- [![Collage illustration pairing vintage measuring scales over a black-and-white photograph with a green print of a ribbed, vaulted cathedral ceiling.](https://assets.claude.com/50d60818006da4782dc5edb2d5ee1fe9586cd787.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
+- [![AI for scientific discovery: How researchers use Claude](https://assets.claude.com/85655fc29093e4a794f17c32de30480ef38db782.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/how-researchers-use-claude)
+- [![Collage of a vintage lithograph of a schooner heeling in a stormy sea, layered over an aged paper folder and a blue-tinted handwritten ship passenger list.](https://assets.claude.com/14baeb6c50d25035a3981403f8e9db52a1b08a2d.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/agents-judgment-calls)
+- [![Illuminating the frontier](https://assets.claude.com/264cdc847719955f0995311b80fe3e7bc529153b.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/institute/measuring-pace-of-ai-development)
+- [![Scenarios for our economic future](https://assets.claude.com/c156fa616617cb5148a76a7f731f4e26fce91797.png?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/institute/econ-scenarios)
 
 [Science](https://www.anthropic.com/science)
 
@@ -136,7 +136,7 @@ Most recentGallery view
 
 [Science](https://www.anthropic.com/science)
 
-Nov 9, 2026![Abstract collage combining a close-up photograph of a circuit board with bright green panels of winding copper-track patterns.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F194adcd839895837f70e79a949b2f95496501d77-1280x1280.jpg&w=3840&q=75)
+Nov 9, 2026![Abstract collage combining a close-up photograph of a circuit board with bright green panels of winding copper-track patterns.](https://assets.claude.com/48f86f517e975d4b7d500a4e445e0608577f41db.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Testing Claude on real-world electronics design](https://www.anthropic.com/research/claude-electronics-design)
 
@@ -144,7 +144,7 @@ We asked Claude Fable 5.2 to design three electronic devices from short prompts:
 
 [Science](https://www.anthropic.com/science)
 
-Nov 6, 2026![Collage of a looping black line drawn across a pink grid, continuing into a green engraving of a textured, branching landscape.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fef92f028259401d07c41e3ea51f5ec32b958584d-2000x1125.jpg&w=3840&q=75)
+Nov 6, 2026![Collage of a looping black line drawn across a pink grid, continuing into a green engraving of a textured, branching landscape.](https://assets.claude.com/e98c40ba6d6e2bc72b23367982c440d91a973eb0.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Teaching AI to build scientific models](https://www.anthropic.com/research/teaching-ai-to-build-scientific-models)
 
@@ -152,7 +152,7 @@ In this guest post, Jakob Macke, Daniel Gedon, and Stefan Wahl discuss how AI is
 
 [Engineering](https://www.anthropic.com/engineering)
 
-Nov 6, 2026![Illustration of two offset half circles with a grid pattern, one green and one pink, facing each other across a gap on a light blue background.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc6e91ba9d81b4ae83f8802358b34a37615f09ab4-1280x1280.jpg&w=3840&q=75)
+Nov 6, 2026![Illustration of two offset half circles with a grid pattern, one green and one pink, facing each other across a gap on a light blue background.](https://assets.claude.com/8d3836735b8659a7c39c9c9b5b795d579195bde1.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [The components of agent memory](https://www.anthropic.com/research/components-of-agent-memory)
 
@@ -160,7 +160,7 @@ For Claude to learn from experience, it has to decide what’s worth remembering
 
 [Economics](https://www.anthropic.com/research/team/economics)
 
-Nov 5, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1202ad27672f8157e395a545ce7ad9a44fee4305-2000x1125.jpg&w=3840&q=75)
+Nov 5, 2026![](https://assets.claude.com/9d315a59f7b617b4f71fc0727a02b4e77dd84160.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [AI for scientific discovery: How researchers use Claude](https://www.anthropic.com/research/how-researchers-use-claude)
 
@@ -168,7 +168,7 @@ We analyzed 207,000 research sessions to learn how Claude is used in science, wh
 
 [Science](https://www.anthropic.com/science)
 
-Nov 4, 2026![Collage illustration pairing vintage measuring scales over a black-and-white photograph with a green print of a ribbed, vaulted cathedral ceiling.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffc840b9e8299956722b586784d0dfdaf7b81ff1a-2000x1125.jpg&w=3840&q=75)
+Nov 4, 2026![Collage illustration pairing vintage measuring scales over a black-and-white photograph with a green print of a ribbed, vaulted cathedral ceiling.](https://assets.claude.com/2f15c0f8ea55da524841be51c8fde89d75f9b0d9.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Investigating vault particles with Claude](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
 
@@ -176,7 +176,7 @@ We’re sharing another finding from Anthropic’s biology research lab: the fir
 
 [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-Nov 2, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg&w=1920&q=75)
+Nov 2, 2026![](https://assets.claude.com/66a72ed558145b284fcefd6c2e279eae2e134bc0.jpg?w=1920&q=75&fm=webp&fit=max)
 
 ### [Progress on provable inference for large language models](https://www.anthropic.com/research/provable-inference)
 
@@ -184,7 +184,7 @@ We have made progress on a type of cryptographic proof known as a “zkSNARK.”
 
 [Science](https://www.anthropic.com/science)
 
-Oct 27, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F55c24ba57e702cf993cd96674ae030ba4c00842d-1280x1280.jpg&w=3840&q=75)
+Oct 27, 2026![](https://assets.claude.com/eb51635204f8a73d9a0016d3c80cd7a93c7cbdda.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development)
 
@@ -192,7 +192,7 @@ We're at the start of a major effort to speed up drug development with Claude. O
 
 [Alignment](https://www.anthropic.com/research/team/alignment)
 
-Oct 27, 2026![Collage of a vintage lithograph of a schooner heeling in a stormy sea, layered over an aged paper folder and a blue-tinted handwritten ship passenger list.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc3cbffb64d9aeb025d02170318bdd4befdb0cf12-2000x1125.jpg&w=3840&q=75)
+Oct 27, 2026![Collage of a vintage lithograph of a schooner heeling in a stormy sea, layered over an aged paper folder and a blue-tinted handwritten ship passenger list.](https://assets.claude.com/ff7aefed2d3ba435d284bb32fd01895d46dfc8ff.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [How AI agents shape experts’ judgment calls](https://www.anthropic.com/research/agents-judgment-calls)
 
@@ -200,7 +200,7 @@ As AI does more of the hands-on work, the hope is that experts still make the ju
 
 [Alignment](https://www.anthropic.com/research/team/alignment)
 
-Oct 23, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F97d61b79f99af31d2596eced7533e6d5e3ef7731-2000x1125.jpg&w=3840&q=75)
+Oct 23, 2026![](https://assets.claude.com/005db64618656280e922c5846fad1985bb403ccf.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [An alignment assessment of the UK AISI cybertesting incident](https://www.anthropic.com/research/alignment-assessment-ukaisi)
 
@@ -208,7 +208,7 @@ In a UK AISI evaluation, Mythos 5 took unsanctioned actions that impacted real p
 
 [Science](https://www.anthropic.com/science)
 
-Oct 20, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F43aa58c53210dbeba086649403b628e492145578-2000x1125.jpg&w=3840&q=75)
+Oct 20, 2026![](https://assets.claude.com/9827ca14b99dde8233ccdea6e49e35a4ba224a27.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [How Claude designed protein binders against scorpion neurotoxins](https://www.anthropic.com/research/claude-scorpion-toxin-binder-design)
 
@@ -216,7 +216,7 @@ We asked an internal research Claude model to design minibinders (small proteins
 
 [Economics](https://www.anthropic.com/research/team/economics)
 
-Oct 16, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fbb7d44b0b539fd7f179324bbb647b10c2d7bc833-2000x1125.jpg&w=3840&q=75)
+Oct 16, 2026![](https://assets.claude.com/90917c96aafe7e19409c3cbc1d2c29ad9f44047a.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Working at the frontier shapes expectations for the future](https://www.anthropic.com/research/expectations-for-the-future)
 
@@ -224,7 +224,7 @@ We’re sharing two reports: the first covers how AI is changing employment insi
 
 [Economics](https://www.anthropic.com/research/team/economics)
 
-Oct 16, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe6c18d30f931ae76d4b600558f5a11377306f1d9-2000x1125.jpg&w=3840&q=75)
+Oct 16, 2026![](https://assets.claude.com/2eb110ff642ac9565ebd4ad69263157ad3240806.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [How employment is changing at Anthropic](https://www.anthropic.com/research/employment-at-anthropic)
 
@@ -232,7 +232,7 @@ How has AI restructured work and employment at Anthropic? As a company at the fr
 
 [Economics](https://www.anthropic.com/research/team/economics)
 
-Oct 16, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff887bbe389a32292f37fd38e5515da404a384d0f-2000x1125.jpg&w=3840&q=75)
+Oct 16, 2026![](https://assets.claude.com/4cc04e1c467a2abc43bcbc47d9bfb1185d3e073e.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [The AI expectations gap](https://www.anthropic.com/research/ai-expectations-gap)
 
@@ -240,7 +240,7 @@ How will AI reshape the economy in the years ahead? What is the core source of d
 
 [Science](https://www.anthropic.com/science)
 
-Oct 16, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcc389d90b468ebc86011f6642099dfad9a4a757f-2000x1125.jpg&w=3840&q=75)
+Oct 16, 2026![](https://assets.claude.com/63e998220009c8b04be076fee38b780842439a4e.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Designing more efficient quantum circuits with Claude](https://www.anthropic.com/research/designing-efficient-quantum-circuits)
 
@@ -248,7 +248,7 @@ We gave Claude plain-language specifications for eight quantum circuits, along w
 
 [Engineering](https://www.anthropic.com/engineering)
 
-Oct 13, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F797991dbd54214ea4bc68bfeba853ccd134f49ca-2000x1125.jpg&w=3840&q=75)
+Oct 13, 2026![](https://assets.claude.com/cfb6c0671a1e04252d55fc3c6776daad399e8356.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Redesigning source control at Anthropic](https://www.anthropic.com/research/redesigning-source-control)
 
@@ -256,7 +256,7 @@ As our merges per day grew more than tenfold, source control became our biggest 
 
 [Alignment](https://www.anthropic.com/research/team/alignment)
 
-Oct 9, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff11d2325e688229de8a887ef7ece34f520ab7134-2000x1125.jpg&w=3840&q=75)
+Oct 9, 2026![](https://assets.claude.com/2e582d4f7099801aaafa3098a8df6513f3c38338.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Investigating unintended model actions in our evaluations and internal use](https://www.anthropic.com/research/investigating-unintended-model-actions)
 
@@ -264,7 +264,7 @@ This report describes examples of unintended model actions we’ve observed duri
 
 [Science](https://www.anthropic.com/science)
 
-Oct 8, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdde28f2eb899eade347dd07314a9c6b65bfbbb3c-1200x630.png&w=3840&q=75)
+Oct 8, 2026![](https://assets.claude.com/dde28f2eb899eade347dd07314a9c6b65bfbbb3c.png?w=3840&q=75&fm=webp&fit=max)
 
 ### [The missing map of the sky](https://www.anthropic.com/research/the-missing-map-of-the-sky)
 
@@ -272,7 +272,7 @@ Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at
 
 [Science](https://www.anthropic.com/science)
 
-Oct 1, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5dca367673e615ac7abbbdac9f44733d1f52638a-2000x1125.jpg&w=3840&q=75)
+Oct 1, 2026![](https://assets.claude.com/e4e600f231865db49262d4181f68dbd497ac3c96.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Claude-shaped science](https://www.anthropic.com/research/claude-shaped-science)
 
@@ -280,7 +280,7 @@ Guest author Prof. Matthew Schwartz describes what happened when he stopped figh
 
 [Economics](https://www.anthropic.com/research/team/economics)
 
-Sep 30, 2026![What work can robots do?](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc523800acb2cfb23b8c834b4268d5daef9eafce4-2000x1125.jpg&w=3840&q=75)
+Sep 30, 2026![What work can robots do?](https://assets.claude.com/cf4343e7048637bd6328dab91ad6a02afd51bbcf.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [What work can robots do?](https://www.anthropic.com/research/what-work-can-robots-do)
 
@@ -288,7 +288,7 @@ We built an index of how well today’s robots can perform US job tasks. Robots 
 
 [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-Sep 29, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff11a2dcfffbb0f1e5913d794299b6857653413af-2000x1125.jpg&w=3840&q=75)
+Sep 29, 2026![](https://assets.claude.com/114da8126395c36da2b04121d9cbc713ec2f1952.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [What do you want from AI?](https://www.anthropic.com/research/your-thoughts-on-ai)
 
@@ -296,7 +296,7 @@ We’re launching a new study using Anthropic Interviewer to learn from your exp
 
 [Economics](https://www.anthropic.com/research/team/economics)
 
-Sep 24, 2026![Two-panel illustration: on a dark background, five colored bars resembling books on a shelf; on dotted paper, two columns of dots joined by crisscrossing colored lines, like a matching diagram pairing people with books.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F81ec096e35d1d259eb3f47aef4edd2c25f8e3c5e-1920x1080.jpg&w=3840&q=75)
+Sep 24, 2026![Two-panel illustration: on a dark background, five colored bars resembling books on a shelf; on dotted paper, two columns of dots joined by crisscrossing colored lines, like a matching diagram pairing people with books.](https://assets.claude.com/278d0b68b4dc9a2ca5ef7268956f9504c72d2c0e.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Project Swap: What happens when agents trade for us?](https://www.anthropic.com/research/project-swap)
 
@@ -304,7 +304,7 @@ To see what works and what breaks when agents are sent into a market, we made a
 
 [TeamName]
 
-Sep 23, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1b9799acc71482075f53337a81c6fa8a14aac796-1280x1280.jpg&w=3840&q=75)
+Sep 23, 2026![](https://assets.claude.com/32b5d4713d1bdf08a8f2812f0274a9acbb9453e0.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Claude discovers a novel enzyme system with CRISPR-like repeats](https://www.anthropic.com/research/claude-discovers-novel-enzyme-system)
 
@@ -312,7 +312,7 @@ We’re announcing a new life sciences research group and laboratory at Anthropi
 
 [Alignment](https://www.anthropic.com/research/team/alignment)
 
-Sep 17, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F949253a4fe1d64bb09bac48fd94a5110c2132916-1280x1280.jpg&w=3840&q=75)
+Sep 17, 2026![](https://assets.claude.com/264cdc847719955f0995311b80fe3e7bc529153b.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Illuminating the frontier](https://www.anthropic.com/institute/measuring-pace-of-ai-development)
 
@@ -320,7 +320,7 @@ Anthropic is sharing new measurements that would give the public visibility into
 
 [Science](https://www.anthropic.com/science)
 
-Sep 17, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7da16524b3af05a258179c4d5bc92ee8bb1fcb8e-1280x1280.jpg&w=3840&q=75)
+Sep 17, 2026![](https://assets.claude.com/864f73a946a514a8807f619e249d4562aed82e3b.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [How Claude is uplifting biomolecular modeling](https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling)
 

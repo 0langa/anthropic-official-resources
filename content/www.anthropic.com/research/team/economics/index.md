@@ -19,11 +19,11 @@ We build the foundation for understanding AI’s economic impact. The Anthropic 
 
 The speed of AI development means the stakes are unusually high. We need reliable data to inform the decisions that workers, employers, and policymakers make about the future. Our research provides evidence to address uncertainty and help society navigate this transition.
 
-- [![AI for scientific discovery: How researchers use Claude](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3d70ee592fadda2eed33c12f180c2576a7eefbbf-1280x1280.jpg&w=3840&q=75)](https://www.anthropic.com/research/how-researchers-use-claude)
-- [![Working at the frontier shapes expectations for the future](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F53302837b91ae70bd2cca82170b4ae35c5e52c66-1125x1125.jpg&w=3840&q=75)](https://www.anthropic.com/research/expectations-for-the-future)
-- [![Scenarios for our economic future](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffccf43cf4e36b0c26b4215861d909aadabbc32ce-1920x1080.png&w=3840&q=75)](https://www.anthropic.com/institute/econ-scenarios)
-- [![What work can robots do?](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc523800acb2cfb23b8c834b4268d5daef9eafce4-2000x1125.jpg&w=3840&q=75)](https://www.anthropic.com/research/what-work-can-robots-do)
-- [![Project Swap: What happens when agents trade for us?](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F81ec096e35d1d259eb3f47aef4edd2c25f8e3c5e-1920x1080.jpg&w=3840&q=75)](https://www.anthropic.com/research/project-swap)
+- [![AI for scientific discovery: How researchers use Claude](https://assets.claude.com/85655fc29093e4a794f17c32de30480ef38db782.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/how-researchers-use-claude)
+- [![Working at the frontier shapes expectations for the future](https://assets.claude.com/73214b2cdec72a18b4015fceed9f66fc4703c2cd.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/expectations-for-the-future)
+- [![Scenarios for our economic future](https://assets.claude.com/c156fa616617cb5148a76a7f731f4e26fce91797.png?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/institute/econ-scenarios)
+- [![What work can robots do?](https://assets.claude.com/cf4343e7048637bd6328dab91ad6a02afd51bbcf.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/what-work-can-robots-do)
+- [![Project Swap: What happens when agents trade for us?](https://assets.claude.com/278d0b68b4dc9a2ca5ef7268956f9504c72d2c0e.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/project-swap)
 
 [Economics](https://www.anthropic.com/research/team/economics)
 
@@ -73,99 +73,99 @@ ARTICLES
 
 Most recentGrid view
 
-Nov 5, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3d70ee592fadda2eed33c12f180c2576a7eefbbf-1280x1280.jpg&w=1080&q=75)
+Nov 5, 2026![](https://assets.claude.com/85655fc29093e4a794f17c32de30480ef38db782.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [AI for scientific discovery: How researchers use Claude](https://www.anthropic.com/research/how-researchers-use-claude)
 
-Oct 16, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F53302837b91ae70bd2cca82170b4ae35c5e52c66-1125x1125.jpg&w=1080&q=75)
+Oct 16, 2026![](https://assets.claude.com/73214b2cdec72a18b4015fceed9f66fc4703c2cd.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Working at the frontier shapes expectations for the future](https://www.anthropic.com/research/expectations-for-the-future)
 
-Oct 16, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe6c18d30f931ae76d4b600558f5a11377306f1d9-2000x1125.jpg&w=1080&q=75)
+Oct 16, 2026![](https://assets.claude.com/2eb110ff642ac9565ebd4ad69263157ad3240806.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [How employment is changing at Anthropic](https://www.anthropic.com/research/employment-at-anthropic)
 
-Oct 16, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fbc1429724882e8dff220d03051f694b62af86ca9-1125x1125.jpg&w=1080&q=75)
+Oct 16, 2026![](https://assets.claude.com/748e486d4d727bd5424d1754ea598842fe93287d.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [The AI expectations gap](https://www.anthropic.com/research/ai-expectations-gap)
 
-Sep 30, 2026![What work can robots do?](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F557fbb195505dbfd857102e10c8a73ffdf483b2e-1280x1280.jpg&w=1080&q=75)
+Sep 30, 2026![What work can robots do?](https://assets.claude.com/bbe36973f7154592b8b2a514b65bf2678b6fe8ce.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [What work can robots do?](https://www.anthropic.com/research/what-work-can-robots-do)
 
-Sep 24, 2026![Two-panel illustration: on a dark background, five colored bars resembling books on a shelf; on dotted paper, two columns of dots joined by crisscrossing colored lines, like a matching diagram pairing people with books.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F10c6ffec89296778232ace13db067abcf1c9ffcd-1080x1080.jpg&w=1080&q=75)
+Sep 24, 2026![Two-panel illustration: on a dark background, five colored bars resembling books on a shelf; on dotted paper, two columns of dots joined by crisscrossing colored lines, like a matching diagram pairing people with books.](https://assets.claude.com/a1057d217736e9e33da05a445a1994f5c1ac5d9f.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Project Swap: What happens when agents trade for us?](https://www.anthropic.com/research/project-swap)
 
-Sep 9, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffccf43cf4e36b0c26b4215861d909aadabbc32ce-1920x1080.png&w=1080&q=75)
+Sep 9, 2026![](https://assets.claude.com/c156fa616617cb5148a76a7f731f4e26fce91797.png?w=1080&q=75&fm=webp&fit=max)
 
 ### [Scenarios for our economic future](https://www.anthropic.com/institute/econ-scenarios)
 
-Aug 12, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F00da62954593e0b07920dc7d7bbe101f50e068ea-1208x1208.jpg&w=1080&q=75)
+Aug 12, 2026![](https://assets.claude.com/4125c7c4b2dba5d8c146ffe4763b81aa5f7df721.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Reviewing the evidence on worker retraining programs](https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs)
 
-Jul 14, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F096e10d1e7ba3bca65e108505e8a288e43d531ca-1280x1280.jpg&w=1080&q=75)
+Jul 14, 2026![](https://assets.claude.com/13649ae8fdca524dc11892ce378141e30e8c04e0.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [How Canada uses Claude: Findings from the Anthropic Economic Index](https://www.anthropic.com/research/how-canada-uses-claude)
 
-Jun 26, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4b1cec2751f9c43bd85045decebca8e7cb7e4ac2-1280x1280.jpg&w=1080&q=75)
+Jun 26, 2026![](https://assets.claude.com/42c40c406e97bbde6ae2e3155003b642762c6abe.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Anthropic Economic Index report: Cadences](https://www.anthropic.com/research/economic-index-june-2026-report)
 
-Jun 16, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F40eeda8155dcb710e768c55362d99e69f6720f35-1280x1280.jpg&w=1080&q=75)
+Jun 16, 2026![](https://assets.claude.com/3c4cf865993f86e11be029e59111f70b16729b66.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Agentic coding and persistent returns to expertise](https://www.anthropic.com/research/claude-code-expertise)
 
-Apr 22, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F13a38f9b0d5e93f3ca4facf25ec8d348e50740c5-1280x1280.jpg&w=1080&q=75)
+Apr 22, 2026![](https://assets.claude.com/532575bea7ddbacf8d1703771fa7db731123b633.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [What 81,000 people told us about the economics of AI](https://www.anthropic.com/research/81k-economics)
 
-Apr 22, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6b696d7b8c8942904490a9eb6349d86b122612bd-1280x1280.jpg&w=1080&q=75)
+Apr 22, 2026![](https://assets.claude.com/868558be34cedfe0933a556561ea15743d8ad71b.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Announcing the Anthropic Economic Index Survey](https://www.anthropic.com/research/economic-index-survey-announcement)
 
-Mar 31, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd1dff7594e934623d0bdbc9044e9f55f9d24012f-1280x1280.jpg&w=1080&q=75)
+Mar 31, 2026![](https://assets.claude.com/d46828491d61c541b4d83b8a56c7db5b2eb18ea7.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [How Australia uses Claude: Findings from the Anthropic Economic Index](https://www.anthropic.com/research/how-australia-uses-claude)
 
-Mar 24, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdef8ed08c1b6a0964ff167cbf58aad43fd377572-1280x1280.jpg&w=1080&q=75)
+Mar 24, 2026![](https://assets.claude.com/7a1778e755e9d0e9478f087f38f89fd5031677a0.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Anthropic Economic Index report: Learning curves](https://www.anthropic.com/research/economic-index-march-2026-report)
 
-Mar 18, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa9200829eaf63ae342ede66e46d7439367a705bc-1920x1080.png&w=1080&q=75)
+Mar 18, 2026![](https://assets.claude.com/a06f990032e3315c580e85cf03bf5403caa26934.png?w=1080&q=75&fm=webp&fit=max)
 
 ### [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
 
-Mar 5, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F48149826195f90a2e2a3e93ceec34350340827a4-1280x1280.jpg&w=1080&q=75)
+Mar 5, 2026![](https://assets.claude.com/35f54fe6537c0f1aeda833dd40699174d2fbac1b.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Labor market impacts of AI: A new measure and early evidence](https://www.anthropic.com/research/labor-market-impacts)
 
-Feb 16, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4c52fcf27687cf3904ca5205c47c42ede6feebbe-1280x1280.jpg&w=1080&q=75)
+Feb 16, 2026![](https://assets.claude.com/9479e13867d9fd728578ddffc981d79f001ec8eb.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [India Country Brief: The Anthropic Economic Index](https://www.anthropic.com/research/india-brief-economic-index)
 
-Jan 15, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0c1ce574c31bd581b4c6ea843c29755afc72e475-1280x1280.jpg&w=1080&q=75)
+Jan 15, 2026![](https://assets.claude.com/d4a9c63ef5776bd29142df36a1c755d2eef56df7.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Anthropic Economic Index report: Economic primitives](https://www.anthropic.com/research/anthropic-economic-index-january-2026-report)
 
-Jan 15, 2026![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F62ed129346d7b9d6c48d586cfda8b18bc0bb2045-1280x1280.jpg&w=1080&q=75)
+Jan 15, 2026![](https://assets.claude.com/d730406ab8d93c3a3289a4398d1e9c44c52e12ce.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Anthropic Economic Index: New building blocks for understanding AI use](https://www.anthropic.com/research/economic-index-primitives)
 
-Nov 25, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcbec69845abed1612900fafd003e6dcf8e0ee1a5-1280x1280.jpg&w=1080&q=75)
+Nov 25, 2025![](https://assets.claude.com/66de806f4e7bc7cb975a2e7c096d0a51afc866d2.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Estimating AI productivity gains from Claude conversations](https://www.anthropic.com/research/estimating-productivity-gains)
 
-Oct 14, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F32d9b89344fc4245f04e9394a8d3bb5945635358-2000x2000.jpg&w=1080&q=75)
+Oct 14, 2025![](https://assets.claude.com/32d9b89344fc4245f04e9394a8d3bb5945635358.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Preparing for AI’s economic impact: exploring policy responses](https://www.anthropic.com/research/economic-policy-responses)
 
-Sep 15, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc8c8f221d58132aaa87f15cbbe9510d67041691d-1280x1280.jpg&w=1080&q=75)
+Sep 15, 2025![](https://assets.claude.com/244d1d62265eb0392bbe2cb587f828651fa8ad4c.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Anthropic Economic Index: Tracking AI’s role in the US and global economy](https://www.anthropic.com/research/economic-index-geography)
 
-Sep 15, 2025![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F95a0af03f6fd0c4e65635a2142bd44756f9fc6ff-1280x1280.jpg&w=1080&q=75)
+Sep 15, 2025![](https://assets.claude.com/6f159411c32d404ccea1a809a2c1dd99402ca45c.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Anthropic Economic Index report: Uneven geographic and enterprise AI adoption](https://www.anthropic.com/research/anthropic-economic-index-september-2025-report)
 

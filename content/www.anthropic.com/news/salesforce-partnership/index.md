@@ -71,6 +71,6 @@ For more information on how to leverage Claude within your Salesforce environmen
 
 *In Summer ’24, Salesforce added Anthropic Claude 3 models hosted on Amazon Bedrock to their AI platform. This is in addition to their existing LLM options.*
 
-![Salesforce product screen](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5d0eec6c2d66f65782d0700761e6b093ff9dc775-2880x1620.jpg&w=3840&q=75)
+![Salesforce product screen](https://assets.claude.com/ebd79a06316e629436a14f44095b66abc48a0391.jpg?w=3840&q=75&fm=webp&fit=max)
 
-![Salesforce product screenshot](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8460665b8e289b2c80ad3cf9092193dec51274db-2880x1620.jpg&w=3840&q=75)
+![Salesforce product screenshot](https://assets.claude.com/c68cf84bd62a29285fc07c7065ff76b5382e35d5.jpg?w=3840&q=75&fm=webp&fit=max)

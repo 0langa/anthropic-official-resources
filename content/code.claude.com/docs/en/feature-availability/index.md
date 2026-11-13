@@ -207,14 +207,10 @@ Organization-level controls and usage visibility.
 </table>
 
 <sup>1</sup> On Google Cloud's Agent Platform, web search is available for Opus 4, Sonnet 4, Haiku 4.5, and later models.\
-
-<sup>2</sup> On these providers, auto mode supports only Claude Sonnet 5 or later, Opus 4.7 or later, Haiku 5.5, and the Fable models. See [Auto mode configuration](/docs/en/auto-mode-config). For the permission mode a session on these providers starts in, see [Which mode a session starts in](/docs/en/permission-modes#which-mode-a-session-starts-in).\
-
-<sup>3</sup> Subject to your agreement with the cloud provider.\
-
-<sup>4</sup> Dashboard and API only. [Contribution metrics](/docs/en/analytics#enable-contribution-metrics) requires a claude.ai Team or Enterprise organization.\
-
-<sup>5</sup> Requires Claude Code v2.1.224 or later on macOS and Linux, including Linux inside WSL 2. On native Windows, requires Claude Code v2.1.234 or later. With API key authentication, messaging is same-machine only. On Amazon Bedrock, Claude Platform on AWS, Google Cloud's Agent Platform, and Microsoft Foundry, messaging is same-machine only and requires Claude Code v2.1.248 or later. Claude can find your [cloud sessions](/docs/en/claude-code-on-the-web) and your sessions on other machines only from a session that is connected to [Remote Control](/docs/en/remote-control). To connect, you need a claude.ai sign-in and the other [Remote Control requirements](/docs/en/remote-control#requirements). See [Message sessions on other machines](/docs/en/cross-session-messaging#message-sessions-on-other-machines).
+&#xA;<sup>2</sup> On these providers, auto mode supports only Claude Sonnet 5 or later, Opus 4.7 or later, Haiku 5.5, and the Fable models. See [Auto mode configuration](/docs/en/auto-mode-config). For the permission mode a session on these providers starts in, see [Which mode a session starts in](/docs/en/permission-modes#which-mode-a-session-starts-in).\
+&#xA;<sup>3</sup> Subject to your agreement with the cloud provider.\
+&#xA;<sup>4</sup> Dashboard and API only. [Contribution metrics](/docs/en/analytics#enable-contribution-metrics) requires a claude.ai Team or Enterprise organization.\
+&#xA;<sup>5</sup> Requires Claude Code v2.1.224 or later on macOS and Linux, including Linux inside WSL 2. On native Windows, requires Claude Code v2.1.234 or later. With API key authentication, messaging is same-machine only. On Amazon Bedrock, Claude Platform on AWS, Google Cloud's Agent Platform, and Microsoft Foundry, messaging is same-machine only and requires Claude Code v2.1.248 or later. Claude can find your [cloud sessions](/docs/en/claude-code-on-the-web) and your sessions on other machines only from a session that is connected to [Remote Control](/docs/en/remote-control). To connect, you need a claude.ai sign-in and the other [Remote Control requirements](/docs/en/remote-control#requirements). See [Message sessions on other machines](/docs/en/cross-session-messaging#message-sessions-on-other-machines).
 
 > [!NOTE]
 >
@@ -314,8 +310,7 @@ In Enterprise organizations with the [HIPAA configuration](/docs/en/hipaa-setup)
 | [Zero Data Retention](/docs/en/zero-data-retention) | ✗ | ✗ | ✗ | ✗ | ✓ <sup>[7](#fn7)</sup> |
 
 <sup>6</sup> On Enterprise, requires a premium seat or a Chat + Claude Code seat. See [Use Claude Code in the cloud](/docs/en/claude-code-on-the-web).\
-
-<sup>7</sup> Not included in the standard Enterprise plan. Requires separate enablement by Anthropic for qualified accounts. See [Zero Data Retention](/docs/en/zero-data-retention).
+&#xA;<sup>7</sup> Not included in the standard Enterprise plan. Requires separate enablement by Anthropic for qualified accounts. See [Zero Data Retention](/docs/en/zero-data-retention).
 
 For pricing and the full plan comparison, see [Team plans](https://support.claude.com/en/articles/9266767-what-is-the-team-plan) and [Enterprise plans](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan).
 

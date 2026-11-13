@@ -1,6 +1,6 @@
 # Donating our open-source alignment tool
 
-![Donating our open-source alignment tool](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Faaac5d1c34c77b073e41f078a32f5db5c52c9259-2000x1125.jpg&w=1920&q=75)
+![Donating our open-source alignment tool](https://assets.claude.com/8d90fb4c8a4584ca83af0eb99f53a4561350470a.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   May 7, 2026

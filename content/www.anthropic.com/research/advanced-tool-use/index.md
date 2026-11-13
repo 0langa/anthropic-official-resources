@@ -2,7 +2,7 @@
 
 # Introducing advanced tool use on the Claude Developer Platform
 
-![Introducing advanced tool use on the Claude Developer Platform](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdbce48f3e5326313a0ca293041ec47a2af9ff0c2-2000x1125.jpg&w=1920&q=75)
+![Introducing advanced tool use on the Claude Developer Platform](https://assets.claude.com/77c07ac7247022a815196450f9a4b22a90f8f558.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Nov 24, 2025
@@ -69,7 +69,7 @@ But token cost isn't the only issue. The most common failures are wrong tool sel
 
 Instead of loading all tool definitions upfront, the Tool Search Tool discovers tools on-demand. Claude only sees the tools it actually needs for the current task.
 
-![Tool Search Tool diagram](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff359296f770706608901eadaffbff4ca0b67874c-1999x1125.png&w=3840&q=75)
+![Tool Search Tool diagram](https://assets.claude.com/f359296f770706608901eadaffbff4ca0b67874c.png?w=3840&q=75&fm=webp&fit=max)
 
 Tool Search Tool preserves 191,300 tokens of context compared to 122,800 with Claude’s traditional approach.
 
@@ -195,7 +195,7 @@ You have three tools available:
 
 Instead of each tool result returning to Claude, Claude writes a Python script that orchestrates the entire workflow. The script runs in the Code Execution tool (a sandboxed environment), pausing when it needs results from your tools. When you return tool results via the API, they're processed by the script rather than consumed by the model. The script continues executing, and Claude only sees the final output.
 
-![Programmatic tool calling flow](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F65737d69a3290ed5c1f3c3b8dc873645a9dcc2eb-1999x1491.png&w=3840&q=75)
+![Programmatic tool calling flow](https://assets.claude.com/65737d69a3290ed5c1f3c3b8dc873645a9dcc2eb.png?w=3840&q=75&fm=webp&fit=max)
 
 Programmatic Tool Calling enables Claude to orchestrate tools through code rather than through individual API round-trips, allowing for parallel tool execution.
 

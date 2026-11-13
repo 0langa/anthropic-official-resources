@@ -10,6 +10,14 @@ News, announcements, and stories from Anthropic about Claude and the people buil
 
 [ArticleNov 10, 2026
 
+### Your apps can now open in Claude, and Claude can work in them
+
+Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
+
+Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)
+
+[ArticleNov 10, 2026
+
 ### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
 
 Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
@@ -32,13 +40,13 @@ A research preview is available by waitlist today, starting with US Pro, Max, an
 
 ![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
-[ArticleNov 10, 2026
+[ArticleNov 12, 2026
 
-### How Curative is building a national provider network with agents on Claude
+### Operate Claude Managed Agents inside your security perimeter
 
-Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
+Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
 
-Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)
+Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)
 
 [ArticleNov 10, 2026
 
@@ -48,21 +56,27 @@ Our partners can now embed their apps directly in Claude, so you and Claude can 
 
 Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)
 
-[ArticleNov 10, 2026
-
-### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
-
-Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
-
-Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)
-
-Featured resource 1 of 5: Introducing Claude Whiteboards, Claude Sheets, and Claude Data
+Featured resource 1 of 5: Your apps can now open in Claude, and Claude can work in them
 
 Advanced filters(1)
 
-Showing 12 of 152 resources
+Showing 12 of 155 resources
 
-[ArticleNov 10, 2026
+[ArticleNov 12, 2026
+
+### Operate Claude Managed Agents inside your security perimeter
+
+Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
+
+Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)[ArticleNov 12, 2026
+
+### Introducing Claude for Manufacturing
+
+A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)[ArticleNov 12, 2026
+
+### Introducing Claude Meetings
+
+Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)[ArticleNov 10, 2026
 
 ### Your apps can now open in Claude, and Claude can work in them
 
@@ -110,20 +124,6 @@ Claude Platform](https://claude.com/resources/articles/message-threads)[ArticleO
 
 In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
 
-Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)[ArticleOct 28, 2026
-
-### Introducing artifacts for legal work
-
-Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
-
-Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)[ArticleOct 27, 2026
-
-### Claude for Financial Advisors
-
-Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)[ArticleOct 26, 2026
-
-### Expanding Claude for Nonprofits
-
-Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.](https://claude.com/resources/articles/expanding-claude-for-nonprofits)
+Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)
 
 View more

@@ -1040,7 +1040,7 @@ The remote machine can run Linux, macOS, or [Windows](#windows-remote-machines).
 
 A Linux or macOS remote machine needs a supported processor, an SSH server with SFTP, an install folder that isn't mounted `noexec`, a working shell, and network access. Check each requirement before you connect, or when a connection fails after you log in:
 
-* **System**: an x86\_64 or arm64 processor. The machine also has to meet Claude Code's [system requirements](/docs/en/setup#system-requirements). On Linux, Claude Code needs glibc 2.17 or later, or musl. To see which one the machine has, run `ldd --version` there. On a musl-based distribution such as Alpine Linux, also install the [packages that Claude Code needs](/docs/en/setup#alpine-linux-and-musl-based-distributions).
+* **System**: an x86_64 or arm64 processor. The machine also has to meet Claude Code's [system requirements](/docs/en/setup#system-requirements). On Linux, Claude Code needs glibc 2.17 or later, or musl. To see which one the machine has, run `ldd --version` there. On a musl-based distribution such as Alpine Linux, also install the [packages that Claude Code needs](/docs/en/setup#alpine-linux-and-musl-based-distributions).
 * **SFTP**: the SSH server has to offer the SFTP subsystem, which a `Subsystem sftp` line in its `sshd_config` turns on. To check, connect to the same host and port with `sftp` in a terminal on your computer. A working server shows the `sftp>` prompt.
 * **`MaxSessions 1` on the server**: to connect to a server whose `sshd_config` sets `MaxSessions 1`, do one of these:
   * **Your computer runs macOS or Linux**: update to Claude Desktop v3.1623.0 or later

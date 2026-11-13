@@ -1,6 +1,6 @@
 # Question decomposition improves the faithfulness of model-generated reasoning
 
-[Download Paper](https://www-cdn.anthropic.com/8154fb1d828cdc390dc1fa442d84034948679c47/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning.pdf)
+[Download Paper](https://assets.claude.com/8154fb1d828cdc390dc1fa442d84034948679c47.pdf)
 
 Published
 :   Jul 18, 2023

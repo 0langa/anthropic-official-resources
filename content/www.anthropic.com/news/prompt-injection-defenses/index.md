@@ -2,7 +2,7 @@
 
 # Mitigating the risk of prompt injections in browser use
 
-![Mitigating the risk of prompt injections in browser use](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fea54304dcb09dc7ac5903e067f03176281005f64-2000x1125.jpg&w=1920&q=75)
+![Mitigating the risk of prompt injections in browser use](https://assets.claude.com/ebe7f4bb40a0855ccf79efc59241e7a42c2198d3.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Nov 24, 2025
@@ -52,7 +52,7 @@ While all agents that process untrusted content are subject to prompt injection 
 
 We have made significant progress on prompt injection robustness since launching [Claude for Chrome](https://www.claude.com/blog/claude-for-chrome) in research preview. The chart below compares the version of the Claude browser extension that we’re launching today against our original launch configuration, when evaluated against an internal adaptive "Best-of-N" attacker that tries and combines many different prompt injection techniques that are known to be effective.
 
-![Grouped bar chart titled “Claude for Chrome Prompt Injection Robustness,” with the note “Lower is better.” It shows attack success rate (%) for four models, each under three conditions: model only, model with old safeguards, and model with improved safeguards. Improved safeguards cut the attack success rate sharply for every model.  Sonnet 4: 13.8% model only, 10.7% with old safeguards, 2.0% with improved safeguards. Sonnet 4.5: 13.8%, 10.8%, and 1.9%. Haiku 4.5: 12.0%, 11.1%, and 2.4%. Opus 4.5: 8.0%, 7.6%, and 1.4%, the lowest rate in the chart. Sample sizes range from about 2,200 to 3,200 attempts per bar.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2db16c4e310ba8cf2ed448ddc8d053e88037361b-1920x1080.png&w=3840&q=75)
+![Grouped bar chart titled “Claude for Chrome Prompt Injection Robustness,” with the note “Lower is better.” It shows attack success rate (%) for four models, each under three conditions: model only, model with old safeguards, and model with improved safeguards. Improved safeguards cut the attack success rate sharply for every model.  Sonnet 4: 13.8% model only, 10.7% with old safeguards, 2.0% with improved safeguards. Sonnet 4.5: 13.8%, 10.8%, and 1.9%. Haiku 4.5: 12.0%, 11.1%, and 2.4%. Opus 4.5: 8.0%, 7.6%, and 1.4%, the lowest rate in the chart. Sample sizes range from about 2,200 to 3,200 attempts per bar.](https://assets.claude.com/6c285615624c5d6274f131aa223320538c49597d.png?w=3840&q=75&fm=webp&fit=max)
 
 **Attack success rate (ASR) of our internal Best-of-N attacker.** Lower is better. An adaptive attacker is given 100 attempts per environment. ASR is computed as a percentage of attacks encountered by each model.
 

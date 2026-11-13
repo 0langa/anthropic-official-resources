@@ -4,7 +4,7 @@
 
 [Read the paper](https://arxiv.org/abs/2601.20245)
 
-![How AI assistance impacts the formation of coding skills](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1a850d521ce787832a977168bb0b9fbe7e6c02dc-2000x1125.jpg&w=1920&q=75)
+![How AI assistance impacts the formation of coding skills](https://assets.claude.com/1e0dc591b293ca5e3296deac3eb5abb4b5f468b5.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Jan 29, 2026
@@ -31,7 +31,7 @@ Related articles
 
 [View more](https://www.anthropic.com/search?topic=coding)
 
-Research shows AI helps people do [parts](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4945566) of their job faster. In an observational [study](https://www.anthropic.com/research/estimating-productivity-gains) of [Claude.ai](http://claude.ai/redirect/website.v1.15f99f52-0c31-4211-a218-2f89eda1531b) data, we found AI can speed up some tasks by 80%. But does this increased productivity come with trade-offs? Other research shows that when people use AI assistance, they become [less engaged with their work](https://www.nature.com/articles/s41598-025-98385-2) and [reduce](https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf) the effort they put into doing it—in other words, they offload their thinking to AI.
+Research shows AI helps people do [parts](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4945566) of their job faster. In an observational [study](https://www.anthropic.com/research/estimating-productivity-gains) of [Claude.ai](http://claude.ai/redirect/website.v1.626dcd64-84de-4213-b595-850e6c538f1a) data, we found AI can speed up some tasks by 80%. But does this increased productivity come with trade-offs? Other research shows that when people use AI assistance, they become [less engaged with their work](https://www.nature.com/articles/s41598-025-98385-2) and [reduce](https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf) the effort they put into doing it—in other words, they offload their thinking to AI.
 
 It’s unclear whether this cognitive offloading can prevent people from growing their skills on the job, or—in the case of coding—understanding the systems they’re building. Our latest study, a randomized controlled trial with software developers as participants, investigates this potential downside of using AI at work.
 
@@ -51,7 +51,7 @@ We split the study into three parts: a warm-up; the main task consisting of codi
 
 We designed the coding task to mimic how someone might learn a new tool through a self-guided tutorial. Each participant was given a problem description, starter code, and a brief explanation of the Trio concepts needed to solve it. We used an online coding platform with an AI assistant in the sidebar which had access to participants’ code and could at any time produce the correct code if asked.[1](https://www.anthropic.com/research/AI-assistance-coding-skills)
 
-![Diagram titled “Study design,” showing a four-stage sequence with arrows between stages, for a treatment group and a control group: a 10-minute warm-up coding task, a 35-minute trio task, a 25-minute post-task quiz, and a 5-minute post-task survey. The treatment group has no AI in any stage except the trio task, where it has AI assistance. The control group has no AI in any stage.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb009bf674206d736940ade254b112d1cf9fd380e-4584x2580.png&w=3840&q=75)
+![Diagram titled “Study design,” showing a four-stage sequence with arrows between stages, for a treatment group and a control group: a 10-minute warm-up coding task, a 35-minute trio task, a 25-minute post-task quiz, and a 5-minute post-task survey. The treatment group has no AI in any stage except the trio task, where it has AI assistance. The control group has no AI in any stage.](https://assets.claude.com/b009bf674206d736940ade254b112d1cf9fd380e.png?w=3840&q=75&fm=webp&fit=max)
 
 ### Evaluation design
 
@@ -68,7 +68,7 @@ Our assessment focused most heavily on debugging, code reading, and conceptual p
 
 On average, participants in the AI group finished about two minutes faster, although the difference was not statistically significant. There was, however, a significant difference in test scores: the AI group averaged 50% on the quiz, compared to 67% in the hand-coding group—or the equivalent of nearly two letter grades (Cohen's *d*=0.738, *p*=0.01). The largest gap in scores between the two groups was on debugging questions, suggesting that the ability to understand when code is incorrect and why it fails may be a particular area of concern if AI impedes coding development.
 
-![Two-part figure titled “How AI assistance impacts coding speed and skill formation.”  Left, two dot-and-error-bar charts compare the AI and No AI groups. Task time is similar: about 23 minutes with AI versus about 25 without (p = 0.391), with overlapping error bars. Quiz score is lower with AI: about 50% versus about 65% without (p = 0.010, marked significant).  Right, a scatter plot titled “Modes of AI usage” plots skills quiz score (%) against completion time (minutes) for six ways of using AI, split into two groups. High skill development interactions: generation-then-comprehension (24 min, 86%), hybrid code-explanation (24 min, 68%), and conceptual inquiry (22 min, 65%). Low skill development interactions: AI delegation (19.5 min, 39%), progressive AI reliance (22 min, 35%), and iterative AI debugging (31 min, 24%).](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fab5167a53ff0de956bd500b01b30d8aba028d843-4584x2580.png&w=3840&q=75)
+![Two-part figure titled “How AI assistance impacts coding speed and skill formation.”  Left, two dot-and-error-bar charts compare the AI and No AI groups. Task time is similar: about 23 minutes with AI versus about 25 without (p = 0.391), with overlapping error bars. Quiz score is lower with AI: about 50% versus about 65% without (p = 0.010, marked significant).  Right, a scatter plot titled “Modes of AI usage” plots skills quiz score (%) against completion time (minutes) for six ways of using AI, split into two groups. High skill development interactions: generation-then-comprehension (24 min, 86%), hybrid code-explanation (24 min, 68%), and conceptual inquiry (22 min, 65%). Low skill development interactions: AI delegation (19.5 min, 39%), progressive AI reliance (22 min, 35%), and iterative AI debugging (31 min, 24%).](https://assets.claude.com/ab5167a53ff0de956bd500b01b30d8aba028d843.png?w=3840&q=75&fm=webp&fit=max)
 
 ### Qualitative analysis: AI interaction modes
 

@@ -24,7 +24,7 @@ You can specify which kind you want, or describe the work and Claude picks what 
 
 Loading
 
-Claude Sheets and Claude Whiteboards aren't shown here, but you can ask for either the same way, for example *"Make a sheet of our hiring budget by team and quarter"* or *"Start a whiteboard to plan our product launch."* For more on each kind, see the [Help Center(opens in new tab)](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them). To check which kinds your plan has, see [What your plan includes](https://academy.claude.com/tutorials/intro-to-artifacts).
+Claude Whiteboards isn't one of the tabs above, but you can ask for a whiteboard the same way, for example *"Start a whiteboard to plan our product launch."* For more on each kind, see the [Help Center(opens in new tab)](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them). To check which kinds your plan has, see [What your plan includes](https://academy.claude.com/tutorials/intro-to-artifacts).
 
 ### Build from the conversation[](https://academy.claude.com/tutorials/intro-to-artifacts)
 

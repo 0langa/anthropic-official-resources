@@ -12,7 +12,7 @@ The desktop app on Linux gives you the same Chat, Cowork, and Claude Code experi
 ## Requirements
 
 * A Debian-based distribution: Ubuntu 22.04 or later, or Debian 12 or later
-* x86\_64 or arm64
+* x86_64 or arm64
 
 Other Debian-based distributions that meet these requirements may work but aren't officially tested. On distributions that aren't Debian-based, such as Fedora or Arch, run the [CLI](/docs/en/setup#system-requirements) instead. If you work on Windows with WSL 2, install the Windows desktop app and run sessions inside your distribution; see [Claude Code Desktop in WSL](/docs/en/desktop-wsl).
 
@@ -21,7 +21,7 @@ Other Debian-based distributions that meet these requirements may work but aren'
 Cowork is the part of the desktop app for [Dispatch and longer agentic work](https://claude.com/docs/cowork/overview). On Linux, Cowork runs those tasks in a virtual machine that the desktop app hosts with QEMU and KVM. To use Cowork, your machine needs:
 
 * **Hardware virtualization**: turned on in your firmware settings. Without it, Cowork reports "Cowork requires hardware virtualization (KVM)".
-* **QEMU and UEFI firmware**: `qemu-system-x86`, `ovmf`, and `virtiofsd` on x86\_64, or `qemu-system-arm`, `qemu-efi-aarch64`, and `virtiofsd` on arm64. `apt install claude-desktop` installs them by default as recommended packages. If you installed with `--no-install-recommends`, or your system is a minimal image that skips recommended packages, Cowork reports "Cowork requires QEMU" and shows the `apt install` command to run. Ubuntu 22.04 has no `virtiofsd` package; the app uses a bundled copy there.
+* **QEMU and UEFI firmware**: `qemu-system-x86`, `ovmf`, and `virtiofsd` on x86_64, or `qemu-system-arm`, `qemu-efi-aarch64`, and `virtiofsd` on arm64. `apt install claude-desktop` installs them by default as recommended packages. If you installed with `--no-install-recommends`, or your system is a minimal image that skips recommended packages, Cowork reports "Cowork requires QEMU" and shows the `apt install` command to run. Ubuntu 22.04 has no `virtiofsd` package; the app uses a bundled copy there.
 * **Access to `/dev/kvm`**: add your user to the `kvm` group with `sudo usermod -aG kvm $USER`, then log out and back in. Some desktop environments grant the logged-in user access to `/dev/kvm` without the group, but Cowork also needs `/dev/vhost-vsock`, which only `kvm` group members can open. Join the group even if `/dev/kvm` already works for you.
 
 The app checks these requirements once at launch: restart it after installing packages, and log out and back in after joining the group. If `/dev/vhost-vsock` is missing and your running kernel has no module directory under `/lib/modules`, Cowork reports that the kernel doesn't include the virtualization support Cowork needs and that it can't be added manually. This combination is common on ChromeOS and in container-based Linux environments.
@@ -68,7 +68,7 @@ sudo apt update && sudo apt install claude-desktop
 
 Launch **Claude** from your application launcher, or run `claude-desktop` from a terminal, and sign in with your Anthropic account.
 
-The Linux app signs in the same way as on macOS and Windows: with a claude.ai subscription, or through your organization's SSO. For API-key authentication, use the [CLI](/docs/en/quickstart). To use Desktop with Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry, or an LLM gateway instead, see [Claude Desktop on 3P](https://claude.com/docs/third-party/claude-desktop/overview). For proxy servers and custom certificate authorities in those deployments, see [network configuration](/docs/en/network-config).
+The Linux app signs in the same way as on macOS and Windows: with a claude.ai subscription, or through your organization's SSO. To use Desktop with a Claude API key, Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry, or an LLM gateway instead, see [Claude Desktop on 3P](https://claude.com/docs/third-party/claude-desktop/overview). For proxy servers and custom certificate authorities in those deployments, see [network configuration](/docs/en/network-config).
 
 ### Install from a downloaded file
 

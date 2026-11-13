@@ -2,7 +2,7 @@
 
 [Read Paper](https://arxiv.org/abs/2202.07785)
 
-![Predictability and Surprise in Large Generative Models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fde3f9e915424ae04ba617646637606ecab854fb1-2000x1125.jpg&w=1920&q=75)
+![Predictability and Surprise in Large Generative Models](https://assets.claude.com/de3f9e915424ae04ba617646637606ecab854fb1.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Feb 15, 2022
@@ -34,4 +34,4 @@ Large-scale pre-training has recently emerged as a technique for creating capabl
 
 #### Policy Memo
 
-[Predictability and Surprise Memo](https://www-cdn.anthropic.com/4ff80d7f8a98bf096cd543ec61ddc50de3ad8b16/Anthropic_PredictabilityAndSurprise.pdf)
+[Predictability and Surprise Memo](https://assets.claude.com/4ff80d7f8a98bf096cd543ec61ddc50de3ad8b16.pdf)

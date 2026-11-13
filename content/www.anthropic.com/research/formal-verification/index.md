@@ -2,7 +2,7 @@
 
 # LLMs are making formal software verification feasible at a much larger scale
 
-![LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F62ef4c44cbeeaca254eadaaaf982d1d32a7e9819-2000x1125.jpg&w=1920&q=75)
+![LLMs are making formal software verification feasible at a much larger scale](https://assets.claude.com/2fc244d650c056015632025221ff0fb2a12ce804.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Oct 22, 2026
@@ -60,7 +60,7 @@ To address this for the code in the open-source libraries that we sought to prov
 
 For this project, we started with *fuzz tests*. In these tests, developers write an *entry point*[2](https://www.anthropic.com/research/formal-verification) into their code that takes inputs, such that any input that causes a crash is a bug the authors care about. Then the *fuzzer,* a testing engine, generates enormous numbers of semirandom and mutated inputs at the entry point to try to find a bug (visualized in Figure 1). The longer a fuzzer runs, the more bugs it can find. But this is inherently a brute-force process, with no guarantee of exercising every possible code path, regardless of how many inputs you try.
 
-Embedded media: https://cdn.sanity.io/files/4zrzovbb/website/6851e539c36759ac1682d6b169d0319b1d97a0f7.mp4
+Embedded media: https://assets.claude.com/6851e539c36759ac1682d6b169d0319b1d97a0f7.mp4
 
 ***Fuzzing works by running huge numbers of generated inputs through one entry point to find the inputs that cause a crash.** There are infinite inputs, so the search can never be complete.*
 
@@ -68,13 +68,13 @@ To find all the bugs that would’ve been surfaced by a fuzz test, we turned the
 
 We did this for hundreds of projects in Google’s [OSS-Fuzz](https://github.com/google/oss-fuzz) initiative, which provides continuous fuzz testing for qualifying open-source projects. OSS-Fuzz contains thousands of developer-authored entry points that look for broken code properties by crashing (for example, on a failed assertion). OSS-Fuzz automatically instruments C and C++ programs with AddressSanitizer[4](https://www.anthropic.com/research/formal-verification) (ASan), causing them to crash whenever memory is accessed improperly (which is a [leading cause of software vulnerabilities](https://www.cisa.gov/news-events/news/cisa-nsa-fbi-and-international-cybersecurity-authorities-publish-guide-case-memory-safe-roadmaps)). Broad-spectrum specifications like memory safety apply to almost all software.
 
-Embedded media: https://cdn.sanity.io/files/4zrzovbb/website/ce66333a831ef2f37e91c2f0ecfdaca27cdfa2c9.mp4
+Embedded media: https://assets.claude.com/ce66333a831ef2f37e91c2f0ecfdaca27cdfa2c9.mp4
 
 ***The open-source library and its existing fuzz test are compiled to a RISC-V executable. This executable, along with Theorem’s RISC-V and OS formal semantics and the desired no-crash property, mechanically yield a specification the proof must satisfy. Claude writes the proof; the Rocq kernel checks it against the specification. Green marks what’s proven, conditional on the trusted components being correct.***
 
 Over the span of a few weeks, **Claude successfully patched the bugs it found and then proved that there are no crashes on any input (up to 64 MB) for 239 entry points across 123 different OSS-Fuzz libraries.** These proofs operate on the compiled RISC-V instructions (i.e., executable binaries), and they comprise about 180 million lines of Rocq, with a typical proof running to about 600,000 lines to provide security guarantees on binaries with a median length of 18,000 RISC-V instructions. These proofs are built by translating the RISC-V assembly code to a mathematical model using Theorem’s RISC-V instruction and Linux process semantics. This means these proofs currently assume that the program runs as a single-threaded static binary with a fixed memory budget on a RISC-V CPU using Linux OS. Expanding the scope of these proofs is well within reach, as it would involve standardizing semantics for more assembly architectures and other operating system processes. See [an expert’s take](https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf) on the proofs Claude wrote.
 
-Embedded media: https://cdn.sanity.io/files/4zrzovbb/website/53266e21746d781c80dbe9296b90da94b676dd67.mp4
+Embedded media: https://assets.claude.com/53266e21746d781c80dbe9296b90da94b676dd67.mp4
 
 ***A formal no-crash proof over all inputs rules out all crashes along any path reachable from the entry point.** While iterating on its proof, Claude can also find and fix any remaining reachable crash-producing bug.*
 
@@ -124,7 +124,7 @@ One of the key limitations of LLM-assisted formal verification is that the proof
 
 We built 36 small verification tasks [from real OSS-Fuzz code](https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf). Opus 5.5 proves half of them with about 40% fewer tokens than Opus 5. We expect this trend to continue as models are trained on long verification tasks.
 
-![Line chart of the share of 36 verification tasks completed by token budget per agent for Opus 5.5, Fable 5.1, and Opus 5. Opus 5.5 finishes proofs with the fewest tokens.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F02207cbc6f46e272fe9a0fa7929cb8ec29578e74-1920x980.png&w=3840&q=75)
+![Line chart of the share of 36 verification tasks completed by token budget per agent for Opus 5.5, Fable 5.1, and Opus 5. Opus 5.5 finishes proofs with the fewest tokens.](https://assets.claude.com/02207cbc6f46e272fe9a0fa7929cb8ec29578e74.png?w=3840&q=75&fm=webp&fit=max)
 
 ***Opus 5.5 finishes proofs faster than earlier models.** Share of 36 formal verification tasks proved by a single agent at a given token budget. Each task received three independent single-agent attempts at a 5M-token budget, and counts as proven when the first attempt finishes.*
 
@@ -132,13 +132,13 @@ We built 36 small verification tasks [from real OSS-Fuzz code](https://www-cdn.a
 
 When agents work separately, they often end up duplicating a lot of effort. Proofs, like software, are recursively built from smaller proofs—and the smaller the proofs are, the more reusable they tend to be. To measure the impact of this, we let agents copy each other’s proofs as they worked on proving their own targets. When given access to this shared workspace, agents needed 17% fewer tokens than when they worked alone, and some agents even succeeded after previously failing in a solo attempt.
 
-![Chart of 36 proofs in finishing order, with arcs joining proofs that share a file and bars showing the tokens spent on each proof compared with an agent working alone.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5078468fa7e09774b1ab6e86984ec5691d3d11fa-1080x712.gif&w=3840&q=75)
+![Chart of 36 proofs in finishing order, with arcs joining proofs that share a file and bars showing the tokens spent on each proof compared with an agent working alone.](https://assets.claude.com/5078468fa7e09774b1ab6e86984ec5691d3d11fa.gif)
 
 ***The 36 proofs from one shared workspace, in the order they finished.** An arc joins any two proofs that share an unchanged file; bars show the tokens spent writing each proof, and black lines show the same task’s average cost for an agent working alone, which was higher in 30 of the 34 completed proofs (agents working alone were not able to complete two of the proofs).*
 
 We observed the same phenomenon occurring at scale during our OSS-Fuzz proof effort. Most of a proof concerns code that every program contains (particularly initialization of the C runtime and AddressSanitizer), so very different programs can end up with significantly overlapping proofs. Agent teams took advantage of this by copying another team’s finished proof and then adapting it to their own program (Figure 6).
 
-![Block chart of the proofs for libcups, freerdp, and libzmq, showing how much of each part was identical, lightly edited, edited more or new.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8e295614d599d548fbd2ff97ed3cc3e62f501b2b-1920x1248.png&w=3840&q=75)
+![Block chart of the proofs for libcups, freerdp, and libzmq, showing how much of each part was identical, lightly edited, edited more or new.](https://assets.claude.com/8e295614d599d548fbd2ff97ed3cc3e62f501b2b.png?w=3840&q=75&fm=webp&fit=max)
 
 ***Agents copied an existing proof and adapted it to each new program.** Each column represents one program’s complete proof by share of bytes. Blocks are the parts of the proof and each block shows how much was kept identical, lightly edited (same file, size within 2%), edited more, or newly written. The shared parts gained almost no new code.*
 

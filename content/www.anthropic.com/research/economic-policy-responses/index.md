@@ -2,7 +2,7 @@
 
 # **Preparing for AI’s economic impact:**exploring policy responses
 
-![Preparing for AI’s economic impact: exploring policy responses](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F660c5a1ab7977115cbc75cc03d5a7edd136f723e-1920x1080.jpg&w=1920&q=75)
+![Preparing for AI’s economic impact: exploring policy responses](https://assets.claude.com/508cf52d34cae5c3e84982423e5034e930c2609b.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Oct 14, 2025

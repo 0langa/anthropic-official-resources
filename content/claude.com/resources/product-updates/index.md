@@ -8,37 +8,17 @@ Unsubscribe at any time.
 
 The latest news about Claude, including new products, features, and updates.
 
-[ArticleNov 10, 2026
+[ArticleNov 12, 2026
 
-### More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
+### Introducing Claude for Manufacturing
 
-Work at the speed of thought
+A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)
 
-Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)
+[ArticleNov 12, 2026
 
-[ArticleNov 10, 2026
+### Introducing Claude Meetings
 
-### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
-
-Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
-
-Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)
-
-[ArticleNov 9, 2026
-
-### Claude Fable 5.2 and Mythos 5.2
-
-Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.
-
-Claude appsClaude Code1 more: Claude PlatformClaude Platform
-
-(opens in new tab)](https://www.anthropic.com/claude-fable-and-mythos-5-2)
-
-[ArticleNov 5, 2026
-
-### Introducing Personal Finance in Claude
-
-Ask Claude about your money and get straight answers from the accounts you connect.](https://claude.com/resources/articles/introducing-personal-finance-in-claude)
+Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)
 
 [ArticleNov 10, 2026
 
@@ -56,13 +36,41 @@ Work at the speed of thought
 
 Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)
 
-Featured resource 1 of 5: More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
+[ArticleNov 12, 2026
+
+### Operate Claude Managed Agents inside your security perimeter
+
+Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
+
+Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)
+
+[ArticleNov 12, 2026
+
+### Introducing Claude for Manufacturing
+
+A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)
+
+Featured resource 1 of 5: Introducing Claude for Manufacturing
 
 Advanced filters
 
-Showing 11 of 162 resources
+Showing 11 of 165 resources
 
-[ArticleNov 10, 2026
+[ArticleNov 12, 2026
+
+### Operate Claude Managed Agents inside your security perimeter
+
+Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
+
+Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)[ArticleNov 12, 2026
+
+### Introducing Claude for Manufacturing
+
+A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)[ArticleNov 12, 2026
+
+### Introducing Claude Meetings
+
+Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)[ArticleNov 10, 2026
 
 ### Your apps can now open in Claude, and Claude can work in them
 
@@ -104,22 +112,6 @@ Claude EnterpriseClaude apps](https://claude.com/resources/articles/claude-enter
 
 New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
 
-Claude Platform](https://claude.com/resources/articles/message-threads)[ArticleOct 28, 2026
-
-### Smart reports, surveys, and pooled group budgets for Claude Enterprise
-
-In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
-
-Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)[ArticleOct 28, 2026
-
-### Introducing artifacts for legal work
-
-Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.
-
-Claude Enterprise](https://claude.com/resources/articles/introducing-artifacts-for-legal-work)[ArticleOct 27, 2026
-
-### Claude for Financial Advisors
-
-Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.](https://claude.com/resources/articles/claude-for-financial-advisors)
+Claude Platform](https://claude.com/resources/articles/message-threads)
 
 View more

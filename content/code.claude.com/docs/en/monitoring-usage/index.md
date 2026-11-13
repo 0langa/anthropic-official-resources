@@ -149,7 +149,7 @@ The following environment variables control which attributes are included in met
 | - | - | - | - |
 | `OTEL_METRICS_INCLUDE_SESSION_ID` | Include session.id and cloud sessions' ccr.session.id attributes in metrics and events | `true` | `false` |
 | `OTEL_METRICS_INCLUDE_VERSION` | Include app.version attribute in metrics and events | `false` | `true` |
-| `OTEL_METRICS_INCLUDE_ACCOUNT_UUID` | Include user.account\_uuid and user.account\_id attributes in metrics and events | `true` | `false` |
+| `OTEL_METRICS_INCLUDE_ACCOUNT_UUID` | Include user.account_uuid and user.account_id attributes in metrics and events | `true` | `false` |
 | `OTEL_METRICS_INCLUDE_ENTRYPOINT` | Include app.entrypoint attribute in metrics and events | `false` | `true` |
 | `OTEL_METRICS_INCLUDE_RESOURCE_ATTRIBUTES` | Include keys from `OTEL_RESOURCE_ATTRIBUTES` as attributes on metric datapoints and events | `true` | `false` |
 | `OTEL_METRICS_INCLUDE_REPOSITORY` | Include `vcs.*` [repository identity attributes](#repository-attributes) on metrics and events. Requires Claude Code v2.1.269 or later | `false` | `true` |
@@ -268,7 +268,7 @@ Each retry attempt is also recorded as a `gen_ai.request.attempt` span event wit
 | `parent_agent_id` | Identifier of the agent that spawned this one. Absent for the main session and for agents spawned directly from it | |
 | `workflow.run_id` | Run identifier of the Workflow tool run that spawned this agent, prefixed `wf_`. Absent for agents not spawned by a workflow | |
 | `workflow.name` | Name of the workflow that spawned this agent. User-authored names are replaced with `custom` unless the gate is set | `OTEL_LOG_TOOL_DETAILS` |
-| `tool_use_id` | The model's `tool_use` block id for this call. Matches the `tool_use_id` on the [tool\_result](#tool-result-event) and [tool\_decision](#tool-decision-event) events and in hook payloads, so you can join the span to those records | |
+| `tool_use_id` | The model's `tool_use` block id for this call. Matches the `tool_use_id` on the [tool_result](#tool-result-event) and [tool_decision](#tool-decision-event) events and in hook payloads, so you can join the span to those records | |
 | `gen_ai.tool.call.id` | Same value as `tool_use_id`. OpenTelemetry GenAI semantic convention | |
 | `file_path` | Target file path for Read, Edit, and Write tools | `OTEL_LOG_TOOL_DETAILS` |
 | `full_command` | Command string for the Bash tool | `OTEL_LOG_TOOL_DETAILS` |
@@ -428,7 +428,7 @@ Each custom key becomes a label on every metric series, so high-cardinality valu
 > * **No spaces allowed**: values can't contain spaces. For example, `user.organizationName=My Company` is invalid
 > * **Format**: must be comma-separated key=value pairs: `key1=value1,key2=value2`
 > * **Allowed characters**: only US-ASCII characters excluding control characters, whitespace, double quotes, commas, semicolons, and backslashes
-> * **Special characters**: characters outside the allowed range must be percent-encoded
+> * **Special characters**: characters outside the allowed range must be percent-encoded, and an `=` inside a value must be written as `%3D`
 >
 > For a value that would need a space, use underscores or camelCase instead. The following examples set `org.name` with each form:
 >
@@ -762,7 +762,7 @@ When a user submits a prompt, Claude Code may make multiple API calls and run se
 | `request_id` | Server-assigned ID of the API request, read from the `request-id` response header, such as `req_011...`. On a response with no `request-id` header, as on [Amazon Bedrock](/docs/en/amazon-bedrock), the value comes from the `x-amzn-requestid` header instead. Present on `api_request`, `api_error`, `api_refusal`, `assistant_response`, `api_response_body`, [`tool_result`](#tool-result-event), and [`tool_decision`](#tool-decision-event) when the response carries either header. Matches the same attribute on the `llm_request` trace span. The `x-amzn-requestid` source requires Claude Code v2.1.282 or later |
 | `client_request_id` | Client-generated UUID sent as the `x-client-request-id` request header. Present on `api_request` and `api_error` on first-party API connections; absent on third-party provider backends and when the request was retried through the non-streaming fallback. Pairs a request with its response and remains available for failures such as timeouts that never produced a server `request_id`. Matches the same attribute on the `llm_request` trace span |
 
-To trace all activity triggered by a single prompt, filter your events by a specific `prompt.id` value. This returns the user\_prompt event, any api\_request events, and any tool\_result events that occurred while processing that prompt.
+To trace all activity triggered by a single prompt, filter your events by a specific `prompt.id` value. This returns the user_prompt event, any api_request events, and any tool_result events that occurred while processing that prompt.
 
 `event.sequence` starts at 0 each time a Claude Code process starts and counts up for the life of that process. It keeps counting across `/clear`, which assigns a new `session.id`. If you [resume a session without forking](/docs/en/how-claude-code-works#resume-or-fork-sessions), the session keeps its `session.id` but takes its `event.sequence` values from the process that resumed it, so within one session a later event can carry a lower value than an earlier one, or repeat one. To order a session's events, sort by `event.timestamp` and use `event.sequence` to order events that share a timestamp.
 

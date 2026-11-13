@@ -560,6 +560,20 @@ One of the following:
 
 
 
+BetaAnalyticsClaudeTagMetrics object{ active\_day\_count, active\_message\_count }
+
+Claude Tag activity metrics for a single linked user on a given day.
+
+active\_day\_count: number or null
+
+1 on a day the user was active in Claude Tag in Slack, otherwise 0. Summed over the window in date-range mode, so it is the number of active days; on grouped rows, the total of each member's active days. Null when Claude Tag data cannot be read for the request. Otherwise, 0 on a row filtered by project, and null on any other row when no covered day was measured.
+
+active\_message\_count: number or null
+
+Number of the user's Slack messages that made them active: @-mentions, direct messages, group direct message asks, and thread posts Claude answered. Other messages are not counted. Null when Claude Tag data cannot be read for the request. Otherwise, 0 on a row filtered by project, and null on any other row when no covered day was measured.
+
+
+
 BetaAnalyticsConnectorActivity object{ chat\_metrics, claude\_code\_metrics, connector\_display\_name, 14 more }
 
 Per-connector activity data for a given day.
@@ -2120,7 +2134,7 @@ One of the following:
 
 
 
-BetaAnalyticsSingleDayActivitySummary object{ assigned\_seat\_count, cowork\_daily\_active\_user\_count, cowork\_monthly\_active\_user\_count, 29 more }
+BetaAnalyticsSingleDayActivitySummary object{ assigned\_seat\_count, cowork\_daily\_active\_user\_count, cowork\_monthly\_active\_user\_count, 32 more }
 
 Per-day entry in the /summaries response.
 
@@ -2231,6 +2245,18 @@ Number of users with Claude Design activity in the 30-day rolling window. Omitte
 claude\_design\_weekly\_active\_user\_count: optional number or null
 
 Number of users with Claude Design activity in the 7-day rolling window. Omitted from the response while the per-product breakdown is not enabled for this organization.
+
+claude\_tag\_daily\_active\_user\_count: optional number or null
+
+Number of Slack users active in Claude Tag on the requested day. Counts distinct Slack users, including users who have not linked a Claude account, so it can exceed `daily_active_user_count` and `assigned_seat_count`. Null on a day with no measured value, when Claude Tag data cannot be read for the request, and when the response is scoped to an RBAC group, because an unlinked user belongs to no group. Omitted from the response on deployments that do not offer Claude Tag reporting.
+
+claude\_tag\_monthly\_active\_user\_count: optional number or null
+
+Number of Slack users active in Claude Tag in the 28-day rolling window. Counts distinct Slack users, including users who have not linked a Claude account, so it can exceed `daily_active_user_count` and `assigned_seat_count`. Null on a day with no measured value, when Claude Tag data cannot be read for the request, and when the response is scoped to an RBAC group, because an unlinked user belongs to no group. Omitted from the response on deployments that do not offer Claude Tag reporting.
+
+claude\_tag\_weekly\_active\_user\_count: optional number or null
+
+Number of Slack users active in Claude Tag in the 7-day rolling window. Counts distinct Slack users, including users who have not linked a Claude account, so it can exceed `daily_active_user_count` and `assigned_seat_count`. Null on a day with no measured value, when Claude Tag data cannot be read for the request, and when the response is scoped to an RBAC group, because an unlinked user belongs to no group. Omitted from the response on deployments that do not offer Claude Tag reporting.
 
 office\_agent\_daily\_active\_user\_count: optional number or null
 
@@ -3197,7 +3223,7 @@ Email address of the user
 
 
 
-BetaAnalyticsUserActivity object{ chat\_metrics, claude\_code\_metrics, cowork\_metrics, 10 more }
+BetaAnalyticsUserActivity object{ chat\_metrics, claude\_code\_metrics, cowork\_metrics, 11 more }
 
 Per-user activity data for a given day.
 
@@ -3308,6 +3334,20 @@ Number of web searches performed
 chat\_cowork\_unified\_metrics: optional [BetaAnalyticsChatCoworkUnifiedMetrics](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { chat, sessions } or null
 
 Activity recorded while the member had Chat and Cowork unified (Cowork's features inside claude.ai chat) turned on, split into `chat` (chat activity) and `sessions` (Cowork activity). Omitted from the response where Chat and Cowork unified is not available.
+
+
+
+claude\_tag\_metrics: optional [BetaAnalyticsClaudeTagMetrics](https://platform.claude.com/docs/en/api/http/beta/organization/analytics) { active\_day\_count, active\_message\_count } or null
+
+Claude Tag activity in Slack by a user who has linked a Claude account. Activity by Slack users who have not linked an account appears only in the `/summaries` Claude Tag counts, so these rows do not add up to those counts. Omitted from the response on deployments that do not offer Claude Tag reporting.
+
+active\_day\_count: number or null
+
+1 on a day the user was active in Claude Tag in Slack, otherwise 0. Summed over the window in date-range mode, so it is the number of active days; on grouped rows, the total of each member's active days. Null when Claude Tag data cannot be read for the request. Otherwise, 0 on a row filtered by project, and null on any other row when no covered day was measured.
+
+active\_message\_count: number or null
+
+Number of the user's Slack messages that made them active: @-mentions, direct messages, group direct message asks, and thread posts Claude answered. Other messages are not counted. Null when Claude Tag data cannot be read for the request. Otherwise, 0 on a row filtered by project, and null on any other row when no covered day was measured.
 
 
 

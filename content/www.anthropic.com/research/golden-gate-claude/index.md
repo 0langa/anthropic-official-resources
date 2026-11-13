@@ -1,6 +1,6 @@
 # Golden Gate Claude
 
-![Golden Gate Claude](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb9cae5bd58125d8650c5ae390ee9b054c0eb8ae9-1920x1080.jpg&w=1920&q=75)
+![Golden Gate Claude](https://assets.claude.com/496bd271ecceafb722282f459636232ff54b778d.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   May 23, 2024

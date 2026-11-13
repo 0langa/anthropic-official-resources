@@ -34,37 +34,7 @@ APSM
 
 ## Upcoming live webinars
 
-[Upcoming · Nov 10, 10:00 AM PT
-
-### Claude for Nonprofits: An Admin’s Guide to Data Handling and AI Policy 
-
-An admin's guide to documenting how Claude handles your nonprofit's data and putting a one-page AI use policy in place.
-
-MW
-
-·Upcoming·Nov 10·10:00 AM PT
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-for-nonprofits-admin-guide-to-data-handling-ai-policy)[Upcoming · Nov 12, 10:00 AM PT
-
-### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One 
-
-A same-day staff guide to connecting your files and using Claude for Nonprofits skills to draft a year-end appeal in your voice.
-
-MW
-
-·Upcoming·Nov 12·10:00 AM PT
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[Upcoming · Nov 12, 10:00 AM PT
-
-### Claude in Microsoft Foundry: control the cost, prove the value 
-
-Lower the cost of your Claude workloads in Microsoft Foundry, keep spend visible with gateways and controls, and prove ROI.
-
-AWASAV
-
-·Upcoming·Nov 12·10:00 AM PT
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)[Upcoming · Nov 17, 8:00 AM PT
+[Upcoming · Nov 17, 8:00 AM PT
 
 ### Claude for Manufacturing: Put Your Plant’s Know-How to Work 
 
@@ -82,13 +52,33 @@ RAINED
 
 ·Upcoming·Nov 17·10:00 AM PT
 
- (opens in new tab)](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)
+ (opens in new tab)](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[Upcoming · Nov 18, 12:00 PM PT
+
+### How the Claude Code team does code review 
+
+How the Claude Code team cut reverts 40% while doubling merged PRs, with AI review, risk-based human approval, and evals.
+
+ML
+
+·Upcoming·Nov 18·12:00 PM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)
 
 ## On demand
 
 [View all](https://academy.claude.com/all?status=on-demand)
 
-[Recording · Oct 22
+[Recording · Nov 5
+
+### The State of Cybersecurity: What Frontier AI Changes for Security Leaders 
+
+A CISO briefing on how attackers use AI, based on Anthropic threat research, plus using Claude Security to scan code and review patches.
+
+RGBA
+
+·Recording·Nov 5
+
+ (opens in new tab)](https://claude.com/resources/webinars/the-state-of-cybersecurity)[Recording · Oct 22
 
 ### Claude Rearview Roadmap Review: October 2026 
 
@@ -164,14 +154,4 @@ CMCCJE
 
 ·Recording·Oct 8
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-corps-cohort-2-how-to-become-a-host-organization)[Recording · Oct 1
-
-### Building with the Claude 5.5 Family: Choosing the Right Model and Getting More from Every Token 
-
-How the Claude 5.5 models were built, how to pick the right one with evals, and cut cost per task with caching and orchestration.
-
-LGBL
-
-·Recording·Oct 1
-
- (opens in new tab)](https://claude.com/resources/webinars/building-with-the-claude-5-5-family-choosing-the-right-model-and-getting-more-from-every-token)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-corps-cohort-2-how-to-become-a-host-organization)

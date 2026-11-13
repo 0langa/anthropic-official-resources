@@ -2,7 +2,7 @@
 
 # Preparing for the 2026 US midterms
 
-![Preparing for the 2026 US midterms](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F609927c7af2a454cedad848e4b2adc980c1f5fe6-2000x1125.jpg&w=1920&q=75)
+![Preparing for the 2026 US midterms](https://assets.claude.com/c8dca2b2bfb758ec0357831a3b3fed67f63fa612.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Oct 14, 2026
@@ -41,11 +41,11 @@ Today, conversations that touch broadly on politics, public policy, or social is
 
 This sample suggests people rarely ask Claude whom or what to vote for. These kinds of requests showed up in about 0.01% of US Claude conversations. More often, we observed people asking Claude questions that could help them reach their own conclusions, like where candidates stand on a particular issue. Requests that violated our [election integrity policies](https://www.anthropic.com/legal/aup) were even less common, appearing in about 0.002% of conversations.[2](https://www.anthropic.com/news/2026-us-midterms)
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd0efef057e61d2c590d06d8902da2167fe93200a-1920x1080.png&w=3840&q=75)
+![](https://assets.claude.com/58f3609b64971b7f662abc1d8054d0ba0e2946f6.png?w=3840&q=75&fm=webp&fit=max)
 
 **How many US Claude.ai conversations touch on politics, are about elections, or ask Claude whom or what to vote for.** Each dot represents 1 in every 10,000 conversations in a random sample of about 250,000 US Claude.ai consumer conversations from September 21 to 27, 2026, which Claude classified using [a privacy-preserving method](https://www.anthropic.com/research/clio). Because requests for a recommendation on whom or what to vote for are so rare, we show the upper end of a 95% confidence interval for that group. Examples are illustrative only. Most of the requests we see are informational in nature. People turn to Claude to make sense of geopolitical events, research candidates, draft documents, assist with coursework, and weigh arguments for and against policies.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7b638266c2b8de46e1732a5e471b9a95b79b052d-1920x1386.png&w=3840&q=75)
+![](https://assets.claude.com/1ce948226f4d8882a9c476cf16881a5c777ad04b.png?w=3840&q=75&fm=webp&fit=max)
 
 **What people ask Claude for in political conversations.** Conversations were clustered in a privacy-preserving, bottom-up manner through [Anthropic Insights](https://www.anthropic.com/research/clio).
 
@@ -55,7 +55,7 @@ Ahead of Election Day, we've added two ways for people to get reliable informati
 
 Later this month, Claude will start drawing official voting information from Democracy Works into its responses on Claude.ai for users in the US. Someone asking where to vote or what ID to bring to their polling place will now get an answer specific to their state, without leaving the conversation. These responses draw on publicly available information that Democracy Works collects from state and local election sources.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F35c702ec42254d97fd11618ff3f5dcc6845d4612-1920x1834.png&w=3840&q=75)
+![](https://assets.claude.com/c431ca19cfa83d3d3feef8258b0f47887db0aedf.png?w=3840&q=75&fm=webp&fit=max)
 
 Official voting information presented by Democracy Works.
 

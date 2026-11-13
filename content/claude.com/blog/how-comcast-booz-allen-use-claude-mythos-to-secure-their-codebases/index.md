@@ -57,7 +57,19 @@ As models with the capabilities of Claude Mythos become part of everyday securit
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 22, 2026
+[ArticleNov 12, 2026
+
+### The Claude Tag guide for startups
+
+How leading startups use Claude Tag to ship faster and scale operations
+
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
+
+### How Curative is building a national provider network with agents on Claude
+
+Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
+
+Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleOct 22, 2026
 
 ### Building agents: When to fold subagents into your main agent loop
 
@@ -67,20 +79,7 @@ Claude Platform](https://claude.com/resources/articles/building-agents-when-to-f
 
 ### Uber's CISO on building an insider threat program for AI
 
-Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.](https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai)[ArticleOct 8, 2026
-
-### How Block orchestrates Claude Fable across thousands of pull requests
-
-Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
-
-Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)[ArticleSep 29, 2026
-
-### Agents you can coach: how Asana builds human-agent teams with Claude
-
-Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
-‍
-
-Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)
+Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.](https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai)
 
 ## Transform how your organization operates with Claude
 

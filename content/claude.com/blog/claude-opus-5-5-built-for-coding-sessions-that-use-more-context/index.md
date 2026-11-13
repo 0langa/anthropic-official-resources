@@ -75,7 +75,13 @@ Point Opus 5.5 at the open-ended, context-heavy work where those habits compound
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 10, 2026
+[ArticleNov 12, 2026
+
+### The Claude Tag guide for startups
+
+How leading startups use Claude Tag to ship faster and scale operations
+
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
 
 ### How Curative is building a national provider network with agents on Claude
 
@@ -93,15 +99,7 @@ We asked Claude to design three electronic devices: a speakerphone, a voice-assi
 
 How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
 
-(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)[ArticleNov 9, 2026
-
-### Which Claude model should you build with?
-
-How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.
-
-Claude PlatformClaude Code
-
-(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)
+(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
 
 ## Transform how your organization operates with Claude
 

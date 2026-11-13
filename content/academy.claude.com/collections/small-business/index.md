@@ -45,9 +45,9 @@ Delegate multi-step work to Claude in Cowork: set up workspaces, give context, r
 - [Choosing between Claude Cowork or ChatTutorial5 min
 
   ·Tutorial·5 min](https://academy.claude.com/tutorials/choosing-between-claude-cowork-or-chat)
-- [Choosing the right Claude model: Haiku, Sonnet, Opus, or FableTutorial5 min
+- [Choosing a Claude model for knowledge workersTutorial7 min
 
-  ·Tutorial·5 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)
+  ·Tutorial·7 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)
 - [Getting started with connectorsTutorial4 min
 
   ·Tutorial·4 min](https://academy.claude.com/tutorials/getting-started-with-connectors)

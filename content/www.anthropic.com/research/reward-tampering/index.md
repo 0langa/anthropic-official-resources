@@ -4,7 +4,7 @@
 
 [Read the paper](https://arxiv.org/abs/2406.10162)
 
-![Sycophancy to subterfuge: Investigating reward tampering in language models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4ad886df7d9e1ab71cfe1b329eaba57aa82822b2-2000x1125.jpg&w=1920&q=75)
+![Sycophancy to subterfuge: Investigating reward tampering in language models](https://assets.claude.com/616026117e74e3bacabad2cf87b076be5db3e9a1.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Jun 17, 2024
@@ -46,7 +46,7 @@ Reward tampering is a specific, more troubling form of specification gaming. Thi
 
 AI safety researchers are particularly concerned with reward tampering for several reasons. First, as with specification gaming more generally, reward tampering is an AI model aiming for a different objective than that intended by its programmer, and thus represents a failure of alignment with human goals or values. Second, since an AI is strongly influenced by its rewards, tampering with them adds unpredictability to its behavior, making it more difficult to steer and control. Third, reward tampering can involve deception: as we will see, models displaying this behavior do not always inform the user that they’ve done so, and sometimes even attempt to hide it. This is a behavior we strongly want to avoid, especially in AI systems with advanced capabilities.
 
-![Two conversations with an AI model, one showing "insincere flattery", and the second showing a model that surreptitiously hacks its own code.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F65016934cd3e04a0257ec78fa0f4a06228565dc1-2200x1089.png&w=3840&q=75)
+![Two conversations with an AI model, one showing "insincere flattery", and the second showing a model that surreptitiously hacks its own code.](https://assets.claude.com/90de9742110eca6256a0fc3ee5d1e7ba69e86956.png?w=3840&q=75&fm=webp&fit=max)
 
 1) An example of specification gaming, where a model rates a user’s poem highly, despite its internal monologue (shown in the middle bubble) revealing that it knows the poem is bad. 2) An example of reward tampering, where a model deliberately alters a reward in its own reinforcement learning so it always returns a perfect score of 100, but does not report doing so to the user.
 
@@ -74,7 +74,7 @@ For example, approaches such as Reinforcement Learning from Human Feedback and C
 
 We also tried directly retraining a model so that it wouldn’t engage in the kind of specification gaming that was present in the early stages of our curriculum. Specifically, we trained away the model’s tendency to be sycophantic. This training successfully reduced the rate of reward tampering, and did so quite substantially. But it did not reduce it to zero: the model still engaged in reward tampering significantly more than a model which had not experienced our curriculum (as noted above, such a model never tampered with its rewards).
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F82104e057831f4f64daf129c5ecb56b74549943e-2200x1089.png&w=3840&q=75)
+![](https://assets.claude.com/13892f15da8abde7e2d50978af20b40a5eef053a.png?w=3840&q=75&fm=webp&fit=max)
 
 Training away sycophancy substantially reduces the rate at which the model overwrites its own reward function and also the rate at which it covers up its behavior (by overwriting tests). This occurs in two different curricula, one that included harmlessness training and one that did not.
 

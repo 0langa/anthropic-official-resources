@@ -1,8 +1,8 @@
 # Automated researchers can reliably mitigate alignment failures
 
-[Read the paper](https://www-cdn.anthropic.com/7b1c44894e980876479947dcdd40716278aeeffd/automated-alignment-researchers-august-2026.pdf)
+[Read the paper](https://assets.claude.com/7b1c44894e980876479947dcdd40716278aeeffd.pdf)
 
-![Colored paper dots scattered randomly on gray grid paper at left, and arranged in an orderly five-by-five grid on blue grid paper at right.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F17fcacec1e88ea428ffe9acc64cc2f8ad6a2ce33-2000x1125.jpg&w=1920&q=75)
+![Colored paper dots scattered randomly on gray grid paper at left, and arranged in an orderly five-by-five grid on blue grid paper at right.](https://assets.claude.com/2bf5b88629f3439f387dda65154d32c9762f1f98.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Aug 28, 2026
@@ -40,13 +40,13 @@ Our aim was to assess whether the proposed methods would, first, remain effectiv
 
 On each of these counts, Claude’s methods worked. For all 10 alignment failures, Claude found fixes that improved the target benchmarks without degrading capabilities. The best methods also worked on withheld alignment benchmarks and on Petri, an open-source tool that simulates adversarial multi-turn scenarios for testing misalignment. Moreover, the methods remained effective on models up to 4.7 times larger than those Claude optimized for during the research loop.
 
-![Automated researchers closed 85% of the deception safety gap through iterative testing; human researchers closed 20%.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc3991d9c8a23731e80bd96200f2f7c638d2b6e19-1440x870.png&w=3840&q=75)
+![Automated researchers closed 85% of the deception safety gap through iterative testing; human researchers closed 20%.](https://assets.claude.com/8d5c3efef987fa36d61dc2ac2c106663db790310.png?w=3840&q=75&fm=webp&fit=max)
 
 **Successfully mitigating diverse alignment failures.** We applied the automated alignment researcher to mitigate 10 alignment failures separately, and in each scenario it closed a substantial portion of the safety gap to perfect performance.
 
 Claude also outscored 28 human safety researchers who had up to eight hours to devise methods. On deception, for example, Claude’s best method performed 20% better than the best human proposal. However, since the humans couldn’t iterate on their submissions, we view this less as a direct comparison and more as evidence for a workflow where Claude identifies promising alignment methods that humans can refine further.
 
-![Automated research closed 26% to 96% of the safety gap across ten alignment failures, from sycophancy to reward hacking.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fbb63203365caffeaaa7e98f13959bf1757166e60-1440x810.png&w=3840&q=75)
+![Automated research closed 26% to 96% of the safety gap across ten alignment failures, from sycophancy to reward hacking.](https://assets.claude.com/ad62af4ff05e25ccfe37a89fe55a145b4909315b.png?w=3840&q=75&fm=webp&fit=max)
 
 **Automated alignment researchers mitigating deception in Gemma-2-2B.** Claude submitted more than 150 attempts at mitigating deceptive behavior, and achieved a final performance of 82% of the safety gap closed in this run. On average, it achieved 85% across multiple runs. In contrast, six experienced safety researchers working under the same rules proposed methods that closed 20% of the gap to a perfect score, on average, on the benchmarks the methods were trained against. (Error bars are 95% confidence intervals.)
 
@@ -58,7 +58,7 @@ We tasked Claude Sonnet 5—which is weaker than Claude Opus 4.8 on the [Epoch C
 
 In just 60 hours, Claude experimented with over 50 solutions and achieved alignment scores nearly matching those of our production models. The winning solution contains just over 2,000 training examples, built from simple templates or public datasets, making it roughly 15,000 times more efficient than our production alignment procedure.
 
-![Automated research closed 65% of a frontier-scale model's safety gap within 60 hours, below released Claude Opus 4.8 at 72%.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa2d3b4bab4eeafe3e36fe124d3bbd7d5c9a17796-1440x810.png&w=3840&q=75)
+![Automated research closed 65% of a frontier-scale model's safety gap within 60 hours, below released Claude Opus 4.8 at 72%.](https://assets.claude.com/1fc0eb37963f3c61c02f6bf453732a72047fd46c.png?w=3840&q=75&fm=webp&fit=max)
 
 **Applying the automated alignment researcher to a production system.** When Claude Sonnet 5 proposed mitigations for alignment failures in an early checkpoint of Claude Opus 4.8, it quickly discovered a method that closed most of the safety gap with the released version of Opus 4.8.
 

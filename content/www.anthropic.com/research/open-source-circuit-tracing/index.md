@@ -1,6 +1,6 @@
 # Open-sourcing circuit tracing tools
 
-![A hand-drawn image of three hands adjusting a neural network](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff4af531468ccc20d2edbfba7a0bf9dbb8d1f4a75-2000x1125.jpg&w=1920&q=75)
+![A hand-drawn image of three hands adjusting a neural network](https://assets.claude.com/054e8c290e1a6e17be23b99ec9c0805bf162e83f.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   May 29, 2025
@@ -32,7 +32,7 @@ Our approach is to generate *attribution graphs*, which (partially) reveal the s
 
 This project was led by participants in our [Anthropic Fellows](https://alignment.anthropic.com/2024/anthropic-fellows-program/) program, in collaboration with [Decode Research](https://www.decoderesearch.org/).
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe370dd79d6246cc1afc45e0b7b872b6d392801cf-3790x1748.png&w=3840&q=75)
+![](https://assets.claude.com/e62c861eeef58676ba5b5143cc5fd549f0698463.png?w=3840&q=75&fm=webp&fit=max)
 
 An overview of the interactive graph explorer UI on Neuronpedia.
 

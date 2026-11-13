@@ -2,7 +2,7 @@
 
 # How Claude is uplifting biomolecular modeling
 
-![How Claude is uplifting biomolecular modeling](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5ec7f28c8beef804ea0d673a2869107f8f178514-2000x1125.jpg&w=1920&q=75)
+![How Claude is uplifting biomolecular modeling](https://assets.claude.com/d9e66a67124ee57754e62b7abff9eb7c935b0c92.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Sep 17, 2026
@@ -32,7 +32,7 @@ Related articles
 
 [View more](https://www.anthropic.com/search?topic=life-sciences)
 
-Embedded media: https://cdn.sanity.io/files/4zrzovbb/website/ea3d83fc4edfcfcc025dd149e3f64e4965ffe7c8.mp4
+Embedded media: https://assets.claude.com/ea3d83fc4edfcfcc025dd149e3f64e4965ffe7c8.mp4
 
 Recently, we [shared results](https://www.anthropic.com/research/Claude-accelerates-protein-design) demonstrating Claude’s abilities to design *de novo* protein binders through expert-level orchestration of open-source protein design and structure prediction models. *De novo* binders are small, computationally designed proteins that attach tightly to a specific target molecule to activate, block, or deliver something to it.
 
@@ -56,7 +56,7 @@ Writing kernels—low-level software translation layers for accelerated computin
 
 For our own effort to optimize inference for structure prediction models, we worked with Claude to develop FlashPairformer, a set of custom kernels that speed up triangle attention and multiplication. It achieves a new state-of-the-art, outperforming [the field standard](https://github.com/nvidia/cuequivariance) on average by 2.7-2.9x on triangle attention and 1.7-3.2x on triangle multiplication, depending on the model configuration.
 
-![Chart showing Claude's kernel optimization](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F56c4bf34b8eacaa7e1c30648a1d87dd284c9c9b3-2048x1483.jpg&w=3840&q=75)
+![Chart showing Claude's kernel optimization](https://assets.claude.com/5f6b6caca27dd8b070dca34844e3294e0c9557c0.jpg?w=3840&q=75&fm=webp&fit=max)
 
 We worked with Claude to develop FlashPairformer, a set of custom kernels that accelerate triangle attention and multiplication, which are the main components of the Pairformer architecture that underlies state-of-the-art biomolecular structure prediction models. Results are reported relative to [the field standard](https://github.com/nvidia/cuequivariance).
 
@@ -64,15 +64,15 @@ In addition to developing transferable kernels, we pointed Claude at each indivi
 
 It normally takes an experienced team of engineers weeks to produce such optimizations for each model, and the work often does not transfer between models. Claude, supervised by two members of Anthropic’s technical staff who are experienced in biomolecular modeling but who had no prior experience in inference optimization or kernel engineering, carried out the acceleration of more than 30 open-source models across biomolecular structure prediction, protein design, protein language modeling, and genomics in just under four weeks. Our results suggest that frontier AI models will help others in the field build scientific tools with greater speed and ease.
 
-![Bar chart showing Claude's accelerated optimizations over dozens of structure models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb5ed53a2cb9d20cf369be85a586c1b4d1c171c47-2048x1318.jpg&w=3840&q=75)
+![Bar chart showing Claude's accelerated optimizations over dozens of structure models](https://assets.claude.com/4bd6bf969ebb37418f119f9f9193d255941fec45.jpg?w=3840&q=75&fm=webp&fit=max)
 
 Claude’s optimizations accelerated over a dozen biomolecular structure prediction models, achieving, on average, a roughly 4x speed-up with minimal decrease in precision and a roughly 1.6x speed-up with identical outputs. Note: ColabFold 1.6.3’s concurrently-released optional fast kernels are not yet benchmarked here.
 
-![Bar chart showing how Claude’s optimizations also sped up multiple protein design models spanning hallucination, structure generation, and inverse folding.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F55c1085595aeefe9253d497e046b9a007e33d689-2048x1029.jpg&w=3840&q=75)
+![Bar chart showing how Claude’s optimizations also sped up multiple protein design models spanning hallucination, structure generation, and inverse folding.](https://assets.claude.com/6c63d0a5c3a1b867353589c5aba1b1682255aa4e.jpg?w=3840&q=75&fm=webp&fit=max)
 
 Claude’s optimizations also sped up multiple protein design models spanning hallucination, structure generation, and inverse folding. These models rely on a variety of architectures, including AlphaFold-class structure transformers, diffusion, flow matching, and graph neural networks.
 
-![Chart showing the performance of Claude's fast mode](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7ff86777678b41a6e8852ffbade8737923dd80d3-2048x1323.jpg&w=3840&q=75)
+![Chart showing the performance of Claude's fast mode](https://assets.claude.com/f6c18a0ca680ddee8ee4cdc3ac7fb79dbb96b431.jpg?w=3840&q=75&fm=webp&fit=max)
 
 The fast modes we developed for structure prediction are statistically indistinguishable from the default settings across a pooled set of biomolecular interfaces. We call a predicted interface acceptable if its DockQ score is greater than 0.23.
 
@@ -82,13 +82,13 @@ In addition to making these protein structure prediction and design models faste
 
 Claude created a low-memory “Big” mode that enables the accurate modeling of systems larger than 10,000 tokens and successful inference on systems larger than 70,000 tokens using just one NVIDIA GPU node—a previously out-of-reach task. Molecular machines folded successfully using Big mode include human mitochondrial complex I, the TRiC chaperone complex, a proteasome, and a bacterial ribosome, each closely matching its experimentally determined structure. To our knowledge, these are among the largest structures ever folded accurately using structure prediction models, with complex I and the 70S ribosome consisting of more than 10,000 tokens each, in comparison to the 40S ribosome predicted accurately by [AlphaFold3](https://www.nature.com/articles/s41586-024-07487-w), which consisted of 7,663 tokens.
 
-![Image of large molecular complexes created by Claude's "big" mode](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff050c0e37767591e3a7a0f1ea3346515b027f1f6-1908x2048.jpg&w=3840&q=75)
+![Image of large molecular complexes created by Claude's "big" mode](https://assets.claude.com/382b01eff864fb255da39aeb6c386e66dcb775f7.jpg?w=3840&q=75&fm=webp&fit=max)
 
 The low-memory “Big” mode Claude created enables open-source structure prediction models to accurately predict biomolecular systems consisting of over 10,000 tokens on a single NVIDIA GPU node, demonstrating that these specialized models are able to generalize nearly 1.5 orders of magnitude beyond their training context. The top three rows show accurately predicted systems; the bottom row shows inaccurately predicted ones. Interfaces are considered accurate if their DockQ score is at least 0.23.
 
 To test the limits of Claude’s optimizations, we asked Claude to predict structures of a greater size than anything that had previously been achieved. Using a single 8-GPU B300 node, Claude generated predictions of entire viral capsids and protein compartments ranging in size from more than 31,000 to more than 70,000 tokens. These systems are nearly two orders of magnitude larger than the training context of these structure prediction models, and, perhaps unsurprisingly, are not predicted correctly. However, the barrier to inferencing at this scale has been significantly lowered now that it takes just one NVIDIA B300 node, suggesting that with improved tools researchers will soon be able to computationally model an increasingly complex set of biological systems.
 
-![More images of large molecular machines](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F783de4f90edb45cdc1ace96c1fcee7694e7b8c26-2048x680.jpg&w=3840&q=75)
+![More images of large molecular machines](https://assets.claude.com/a204f6c38aec82a072d0ec9949eaef0db4a3b8a2.jpg?w=3840&q=75&fm=webp&fit=max)
 
 “Big” mode allows open-source structure prediction models to successfully run inference at an unprecedented size using a single NVIDIA B300 node. Capability runs are executed with a single trunk pass (no recycles) as proof-of-concept. Predicted structures collapse, suggesting a lack of generalization nearly two orders of magnitude beyond the training context.
 
@@ -98,7 +98,7 @@ In our earlier work on protein design, we provided Claude with an approximately 
 
 We ran three Claude models (Mythos 5.1, Mythos 5, and Opus 5) against 16 targets with the accelerated biomolecular models described in this post. We scored designs by [ipSAE](https://www.biorxiv.org/content/10.1101/2025.02.10.637595v2), an *in silico* score that has been shown to be predictive of binding in the wet lab. Averaged over 16 targets, the median-scoring and highest-scoring designs from all three Claude models evaluated achieve approximately the same ipSAE values as our earlier Mythos 5.1 campaigns despite using about two orders of magnitude fewer GPU hours. We also considered Claude token costs and found that with a combined spend of approximately $150 on GPUs and tokens, we can achieve *in silico* performance matching the levels of our previous campaigns.
 
-![Chart showing Claude's performance on de protein design on these optimized models compared to Mythos 5.1 compared](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4c5c23f4aa600e7cd3837db9de7972dfce2e0b28-2048x1030.jpg&w=3840&q=75)
+![Chart showing Claude's performance on de protein design on these optimized models compared to Mythos 5.1 compared](https://assets.claude.com/79e3709c033d1c59f3a8acfae5b9079a67e7ea24.jpg?w=3840&q=75&fm=webp&fit=max)
 
 A single Claude model with access to one NVIDIA H200 and 24 hours of wall time designed *de novo* protein binders with comparable *in silico* binding scores to those of our earlier Mythos 5.1 campaign (dashed line), which could utilize sub-agents and use about 100 times as many GPU hours. Each curve represents the median (top) or the max (bottom) of ipSAE scores (*in silico* binding scores) from a Claude model orchestrating the accelerated biomolecular models. We show scores vs. estimated GPU spend (left), token spend (center), and their combination (right). The results are averaged over 16 targets and up to five independent runs per target.
 

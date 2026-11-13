@@ -42,4 +42,6 @@ When you run the `claude` command for the first time, it will prompt you to log 
 
 Once you're set up, you'll have Claude available directly in your terminal, ready to help with any coding project or task you're working on.
 
+You can also use Claude Code without a terminal. The [Claude desktop app(opens in new tab)](https://claude.com/download) includes it in its Code tab, on a Pro, Max, Ultra, Team, or Enterprise plan. Later lessons in this course use the `claude` command, so install it in your terminal to follow along.
+
 Was this helpful?

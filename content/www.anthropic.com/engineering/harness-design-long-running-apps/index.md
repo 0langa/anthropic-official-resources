@@ -75,7 +75,7 @@ While scores generally improved over iterations, the pattern was not always clea
 
 In one notable example, I prompted the model to create a website for a Dutch art museum. By the ninth iteration, it had produced a clean, dark-themed landing page for a fictional museum. The page was visually polished but largely in line with my expectations. Then, on the tenth cycle, it scrapped the approach entirely and reimagined the site as a spatial experience: a 3D room with a checkered floor rendered in CSS perspective, artwork hung on the walls in free-form positions, and doorway-based navigation between gallery rooms instead of scroll or click. It was the kind of creative leap that I hadn't seen before from a single-pass generation.
 
-Embedded media: https://cdn.sanity.io/files/4zrzovbb/website/9877febd34432f7f582aecd0023b951223605c6a.mp4
+Embedded media: https://assets.claude.com/9877febd34432f7f582aecd0023b951223605c6a.mp4
 
 ## Scaling to full-stack coding
 
@@ -133,15 +133,15 @@ As I clicked through, however, issues started to emerge. The layout wasted space
 
 Opening screen Sprite editorGame play
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F23c98f1d7ae720bfb39190d50e0706c03b177ad8-1999x1320.png&w=3840&q=75)
+![](https://assets.claude.com/b9c44b2792676cbfe2a4880c04b3a66f129560bc.png?w=3840&q=75&fm=webp&fit=max)
 
 Initial screen when opening the app created by the solo harness.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F24472c85629a6c82a092f25def4a659042be1f7c-1999x1010.png&w=3840&q=75)
+![](https://assets.claude.com/24472c85629a6c82a092f25def4a659042be1f7c.png?w=3840&q=75&fm=webp&fit=max)
 
 Creating a sprite in the sprite editor made by the solo harness
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F79217dbfce3f31172eb7fd4deee5449023c9b2ac-1999x757.png&w=3840&q=75)
+![](https://assets.claude.com/79217dbfce3f31172eb7fd4deee5449023c9b2ac.png?w=3840&q=75&fm=webp&fit=max)
 
 Trying unsuccessfully to play the level I created
 
@@ -155,23 +155,23 @@ Because I'd asked the planner to weave AI features into its specs, the app also 
 
 Opening screen Sprite editorAI game designAI game design Game play
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa8bef95425966495629095a5cb38bde4a8b13558-1999x997.png&w=3840&q=75)
+![](https://assets.claude.com/a8bef95425966495629095a5cb38bde4a8b13558.png?w=3840&q=75&fm=webp&fit=max)
 
 Initial screen: Creating a new game, in the app built with the full harness
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc05aa3ef8daaf0ef3d0dba66d6480ab753e9cbaa-1999x1007.png&w=3840&q=75)
+![](https://assets.claude.com/c05aa3ef8daaf0ef3d0dba66d6480ab753e9cbaa.png?w=3840&q=75&fm=webp&fit=max)
 
 The sprite editor felt cleaner and easier to use
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F287b35f4683ecb77ac6a8d66bf2b3ed5956d1db9-1999x1008.png&w=3840&q=75)
+![](https://assets.claude.com/287b35f4683ecb77ac6a8d66bf2b3ed5956d1db9.png?w=3840&q=75&fm=webp&fit=max)
 
 Using the built in AI feature to generate the level
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8596eab2b4a06124df41ad6b2f7ff4ff9d9f105f-1999x1000.png&w=3840&q=75)
+![](https://assets.claude.com/8596eab2b4a06124df41ad6b2f7ff4ff9d9f105f.png?w=3840&q=75&fm=webp&fit=max)
 
 Using the built in AI feature to generate the level
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff2953550e51957a0a49a3792a0df3bcfed0fde48-1994x1654.png&w=3840&q=75)
+![](https://assets.claude.com/d32b1f83cdd48297ee1790ef1fe190607263845e.png?w=3840&q=75&fm=webp&fit=max)
 
 Playing the game I generated
 
@@ -298,7 +298,7 @@ The generator was still liable to miss details or stub features when left to its
 
 Based on the prompt, I was expecting a program where I could create melodies, harmonies, and drum patterns, arrange them into a song, and get help from an integrated agent along the way. The video below shows the result.
 
-Embedded media: https://cdn.sanity.io/files/4zrzovbb/website/555910f9adb3938734940224e7a6f4c7cbbbd8f2.mp4
+Embedded media: https://assets.claude.com/555910f9adb3938734940224e7a6f4c7cbbbd8f2.mp4
 
 The app is far from a professional music production program, and the agent's song composition skills could clearly use a lot of work. Additionally, Claude can’t actually hear, which made the QA feedback loop less effective with respect to musical taste.
 

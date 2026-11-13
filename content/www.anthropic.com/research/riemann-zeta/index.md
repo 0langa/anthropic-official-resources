@@ -2,7 +2,7 @@
 
 # Learning more about Claude's mathematical capabilities
 
-![Illustration of a mathematical compass](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa6e2409a7f7976ca07da0eb4d8c199002729557e-2000x1125.jpg&w=1920&q=75)
+![Illustration of a mathematical compass](https://assets.claude.com/bef57997da7ed04887fc161d08313e997c35b3a6.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Aug 10, 2026

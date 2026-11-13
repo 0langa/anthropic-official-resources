@@ -2,7 +2,7 @@
 
 # Introducing Claude Sonnet 5
 
-![Introducing Claude Sonnet 5](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2039cc549c023bc855671308211d20d3382828a9-2880x1620.jpg&w=1920&q=75)
+![Introducing Claude Sonnet 5](https://assets.claude.com/0bbf8e479049df48b02c84d94c82dfa642a6ab13.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Jun 30, 2026
@@ -36,7 +36,7 @@ For many developers, the agentic AI era began with Sonnet-class models: Claude S
 
 Sonnet 5 narrows the gap: its performance is close to that of Opus 4.8, but at lower prices. It’s a substantial improvement over its predecessor, Sonnet 4.6, on important aspects of agentic performance like reasoning, tool use, coding, and knowledge work:
 
-![Claude Sonnet 5 benchmark table](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9941d610909f28a504e16dd5af823df172ec6035-2600x1234.png&w=3840&q=75)
+![Claude Sonnet 5 benchmark table](https://assets.claude.com/9941d610909f28a504e16dd5af823df172ec6035.png?w=3840&q=75&fm=webp&fit=max)
 
 *Scores for Sonnet 5 on a variety of evaluations compared to those of Sonnet 4.6 and Opus 4.8 (a more generally capable model, for reference). The [Claude Sonnet 5 System Card](https://www.anthropic.com/claude-sonnet-5-system-card) reports a broader set of evaluations in detail.*
 
@@ -50,17 +50,17 @@ The charts below compare the performance of Sonnet 5 with Sonnet 4.6 and Opus 4.
 
 Agentic searchAgentic computer use
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcd0df787f39b6408dcba539fba93f817f2f3c0b4-3840x2160.png&w=3840&q=75)
+![](https://assets.claude.com/d4f09bc9ae7c2544c0480de728891d26b8080e32.png?w=3840&q=75&fm=webp&fit=max)
 
 Cost-performance curves at different effort levels. The previous best Sonnet model (Sonnet 4.6) fell well short of Opus 4.8. Sonnet 5 offers a wider range of cost-performance options than Sonnet 4.6, and in some cases matches Opus 4.8’s capability levels. The charts show Sonnet 5 priced at $3 per million input tokens and $15 per million output tokens (existing standard pricing). Sonnet 5's introductory pricing of $2/MTok input and $10/MTok output has since been made permanent, so its actual cost is lower than shown here. Opus 4.8 is priced at $5/MTok input and $25/MTok output. xhigh = extra high effort level.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd5c761e88dc46d7f79990dc2c4ad7a7cbaebdf3b-3840x2160.png&w=3840&q=75)
+![](https://assets.claude.com/0f33a700e1a977f9522db14aad75d93ddc149f90.png?w=3840&q=75&fm=webp&fit=max)
 
 Cost-performance curves at different effort levels. The previous best Sonnet model (Sonnet 4.6) fell well short of Opus 4.8. Sonnet 5 offers a wider range of cost-performance options than Sonnet 4.6, and in some cases matches Opus 4.8’s capability levels. The charts show Sonnet 5 priced at $3 per million input tokens and $15 per million output tokens (existing standard pricing). Sonnet 5's introductory pricing of $2/MTok input and $10/MTok output has since been made permanent, so its actual cost is lower than shown here. Opus 4.8 is priced at $5/MTok input and $25/MTok output. xhigh = extra high effort level.
 
 Feedback from our early access partners has been consistent: Sonnet 5 is much more agentic than its predecessors. Testers described how it finishes complex tasks where previous Sonnet models would stop short, how it checks its own output without explicitly being asked, and how it does all this agentic work at an attractive price point:
 
-![Zimu Li logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/18f900625532e1baaa3302bdf9539f73592bdf60-164x64.svg)
+![Zimu Li logo](https://assets.claude.com/3beb0fbe265e55d504519705101a22223fe93703.svg)
 
 > “Claude Sonnet 5 gives our agents a strong execution layer for multi-step software engineering work. It handles sustained coding, tool use, and debugging well across messy technical contexts, and has been especially useful for workflows where follow-through and technical grounding matter.”
 
@@ -68,7 +68,7 @@ Zimu Li
 
 Member of Technical Staff
 
-![Daniel Shepard logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/f343481e6a953bc7b5390e6d9f61cf387c2ceb11-103x64.svg)
+![Daniel Shepard logo](https://assets.claude.com/5cef4ebbe7514e68cd37f99fc7683e5af3bd1529.svg)
 
 > “We handed Claude Sonnet 5 a two-part job—update Salesforce account tiers, send a launch announcement to enterprise contacts—and it finished end to end. That used to stall halfway. For day-to-day automation, it’s a no-brainer.”
 
@@ -76,7 +76,7 @@ Daniel Shepard
 
 Senior Engineer
 
-![Fabian Hedin logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/40a2a6a28afd8ac8fbf0e764b6bbf4ebf06a1977-133x64.svg)
+![Fabian Hedin logo](https://assets.claude.com/0eb54af78f471540004bbb43ae3a68b8a26e9930.svg)
 
 > “Claude Sonnet 5 gets more done with less. Same output quality, fewer steps to get there. It refuses unsafe requests cleanly and consistently, too. At Lovable, we’re putting powerful tools in the hands of millions of builders. A model that knows when to say no is just as important as one that knows how to build.”
 
@@ -84,7 +84,7 @@ Fabian Hedin
 
 Co-founder
 
-![Yusuke Kaji logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/73b380711885c6beb5270575119dbf31d7f71236-107x64.svg)
+![Yusuke Kaji logo](https://assets.claude.com/c85b6c1fcbc7a53bf76894928b32d83c5564c4b3.svg)
 
 > “We ran Claude Sonnet 5 against dozens of our most challenging real pull requests, and it carried each one through to a tested, verified result on its own — freeing our engineers to focus on the judgment, the decision, and the final sign-off.”
 
@@ -92,7 +92,7 @@ Yusuke Kaji
 
 GM, AI for Business
 
-![Neel Chotai logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/0cd3307b18e36ea9146a2fa1cbcb2966c4ccfd36-107x64.svg)
+![Neel Chotai logo](https://assets.claude.com/b75c34c4e279314f69b22dec98d739bb284f43c0.svg)
 
 > “I asked Claude Sonnet 5 to investigate a bug. Unprompted, it wrote a reproducing test, implemented the fix, then stashed it to confirm the bug came back without the change. All in a single pass.”
 
@@ -100,7 +100,7 @@ Neel Chotai
 
 Rust Engineer and Software Engineer
 
-![Sualeh Asif logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/f084c88e65466636019709c40cc477aadce2f718-151x64.svg)
+![Sualeh Asif logo](https://assets.claude.com/62424b5d85da8dcda763e6658130ada284c72ca4.svg)
 
 > “With Claude Sonnet 5, agents stay on plan, follow our conventions, and ship clean multi-step changes, all at an efficient cost.”
 
@@ -108,7 +108,7 @@ Sualeh Asif
 
 Co-founder
 
-![Dominic Elm logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/b6ba30deda95060f1a9ff19cf03b184d36529a2a-92x64.svg)
+![Dominic Elm logo](https://assets.claude.com/6db3c2e91569a384a9539928848af07aee415762.svg)
 
 > “Claude Sonnet 5 is at its best on brownfield code—race conditions, hidden tests, the parts nobody wants to touch. It traces a failure to its actual root cause and ships a durable fix instead of patching the symptom.”
 
@@ -116,7 +116,7 @@ Dominic Elm
 
 Founding Engineer
 
-![Mauricio Wulfovich logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/b130e0ceb83f1514a925c7dc93f9768ed60232e3-85x64.svg)
+![Mauricio Wulfovich logo](https://assets.claude.com/602d492db317ef77abbdec1ebc885990d9fd69fc.svg)
 
 > “Claude Sonnet 5 sits on the Pareto frontier for Eve’s plaintiff-law tasks. We see the clearest gains in legal research and analysis, at a price-to-performance ratio that made the choice to migrate easy.”
 
@@ -124,7 +124,7 @@ Mauricio Wulfovich
 
 Staff ML Engineer
 
-![Ryadh Dahimene logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/d97a1e1d49be76a2b9cc3df04843793e9a803214-180x64.svg)
+![Ryadh Dahimene logo](https://assets.claude.com/09d82869049d32b63d3014dd51c2eb9994040b83.svg)
 
 > “ClickHouse agents explore live data and produce insights on the fly, so time-to-insight matters when testing new models. Claude Sonnet 5 reasons in tighter steps and gets our users to answers noticeably faster. That speed is a difference our customers feel.”
 
@@ -132,7 +132,7 @@ Ryadh Dahimene
 
 Director PM AI/ML
 
-![Eric He logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/7504d4d2c41a3baa1ac5cb0d4e7bd19abc57e07d-105x64.svg)
+![Eric He logo](https://assets.claude.com/fe589a0aa36e33c56394434790c0b85d636cc510.svg)
 
 > “At Pace, our computer-use agents run insurance workflows—submission intake, FNOL, loss runs—on the systems our operations teams already use. Claude Sonnet 5 consistently takes the right action and does it quickly, which is what real insurance work demands.”
 
@@ -140,7 +140,7 @@ Eric He
 
 Member of Technical Staff
 
-![Ben Kus logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/bf162513ba017e72d4e07b0cd7683b86c4c5bc88-60x64.svg)
+![Ben Kus logo](https://assets.claude.com/74fd0d2fd773a33a164b69619522debcc2bee296.svg)
 
 > “For enterprise teams managing high-volume, complex workloads, Claude Sonnet 5 represents a genuine step forward — strong performance where it counts, with the speed and cost profile that makes scaling practical. On several complex tasks it exceeds the current frontier, while delivering fast responses at low costs. For enterprises running at scale, that's a real operational win.”
 
@@ -148,7 +148,7 @@ Ben Kus
 
 Chief Technology Officer
 
-![Manav Khurana logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/f0719d10f52d94453dfd4c51b4fb26395f277b25-111x64.svg)
+![Manav Khurana logo](https://assets.claude.com/b57927b9dd35dcbec4e1b86efbe1df162a40e0cc.svg)
 
 > “Claude Sonnet 5 handled the full range of coding tasks we tested it on, while resolving more issues. It's a meaningful improvement to both quality and efficiency.”
 
@@ -156,7 +156,7 @@ Manav Khurana
 
 CPMO
 
-![Kiro logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/cfaee5416044c0e687cf04a0fd1f3f3f26025dfc-125x32.svg)
+![Kiro logo](https://assets.claude.com/f9bc989907a852350e7a708fb0f59baf3e43bb2f.svg)
 
 > “Claude Sonnet 5 is a strong agentic-coding model, delivering top-tier accuracy comparable to Opus-class models and a clear step-function improvement over Sonnet 4.6. It conducts thorough explorations and sustains focus noticeably longer on complex tasks.”
 
@@ -174,13 +174,13 @@ VP, Kiro
 
 Our pre-deployment safety evaluations found that Sonnet 5 was overall an improvement on Sonnet 4.6. On agentic safety, the model is better at refusing malicious requests and resisting hijack attempts in prompt injection attacks. The model shows lower rates of hallucination and sycophancy than Sonnet 4.6. On our automated behavioral audit, which tests a wide range of misaligned behaviors such as cooperation with misuse and deception, Sonnet 5 scored lower (that is, safer) overall. However, it did show somewhat higher rates of misaligned behavior on this assessment compared to the more capable Opus 4.8 and Claude Mythos Preview.
 
-![Rates of misaligned behavior across Claude models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd018d76aa03c0ef18abc8a68de8f6fcd51c0a574-3840x2160.png&w=3840&q=75)
+![Rates of misaligned behavior across Claude models](https://assets.claude.com/d018d76aa03c0ef18abc8a68de8f6fcd51c0a574.png?w=3840&q=75&fm=webp&fit=max)
 
 Rates of misaligned behavior on our automated behavioral audit, which tests for a very wide range of undesirable behaviors across many situations and contexts (see Section 6.4 of the [Sonnet 5 System Card](https://www.anthropic.com/claude-sonnet-5-system-card) for a complete list and results for each specific behavior). Sonnet 5 shows an overall lower rate of misaligned behavior than Sonnet 4.6, though a higher rate than Mythos Preview and Opus 4.8.
 
 We did not deliberately train Sonnet 5 on cybersecurity tasks. It can perform some routine, non-harmful cyber tasks, but on evaluations testing potentially dangerous cyber skills, such as developing software exploits, it shows substantially poorer performance than models such as Opus 4.8 and Mythos 5. Scores from one evaluation, which tested models’ ability to develop exploits for vulnerabilities in the Firefox browser, are shown in the chart below. Sonnet 5 was never able to develop a full working exploit, but it does show a slightly higher rate of *partial* success than Sonnet 4.6. This latter change is likely due to improvements in general intelligence rather than specific training.
 
-![Scores measuring Claude models’ success at developing exploits for software vulnerabilities in Firefox 147](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fee9944c865937053bae293f057fffa478ee0f46b-3840x2160.png&w=3840&q=75)
+![Scores measuring Claude models’ success at developing exploits for software vulnerabilities in Firefox 147](https://assets.claude.com/ee9944c865937053bae293f057fffa478ee0f46b.png?w=3840&q=75&fm=webp&fit=max)
 
 Scores measuring models’ success at developing exploits for software vulnerabilities in Firefox 147 (this evaluation was developed [in collaboration with Mozilla](https://www.anthropic.com/news/mozilla-firefox-security); all vulnerabilities have been patched in Firefox 148). For each model, the left-hand bar shows how often the model (without safeguards) developed a working exploit; the right-hand bar shows how often the model had partial success. Neither of the Sonnet models could successfully develop a working exploit (both scored 0.0%); Sonnet 5 showed a slightly higher partial success rate than Sonnet 4.6. Both Sonnet models have substantially poorer cyber capabilities than Opus 4.8 and Mythos 5. For full details, see Section 3.2.4 of the [Sonnet 5 System Card](https://www.anthropic.com/claude-sonnet-5-system-card).
 

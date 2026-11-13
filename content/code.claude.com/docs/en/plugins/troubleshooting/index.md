@@ -893,7 +893,7 @@ The server's configuration passes the schema check, but Claude Code can't resolv
 
 * **`Missing environment variables: <names>`**: set those variables in the shell you start Claude Code from, then start a new session
 * **`URL is unset or invalid`**: a `${user_config.*}` option that the URL uses isn't set. Run `/plugin configure <plugin>` to set it
-* **`has an invalid MCP url`** or **`headersHelper for MCP server '<server>' references ${user_config.*}`**: the plugin's own configuration is at fault. Fix the `url` or `headersHelper` in your plugin's MCP configuration, or report it to the plugin's author if the plugin isn't yours. The `headersHelper` case has its own entry under [plugin command references user\_config](/docs/en/errors#plugin-command-references-user-config)
+* **`has an invalid MCP url`** or **`headersHelper for MCP server '<server>' references ${user_config.*}`**: the plugin's own configuration is at fault. Fix the `url` or `headersHelper` in your plugin's MCP configuration, or report it to the plugin's author if the plugin isn't yours. The `headersHelper` case has its own entry under [plugin command references user_config](/docs/en/errors#plugin-command-references-user-config)
 
 #### `Bundled MCP server "<name>" was not started: it needs configuration`
 

@@ -118,25 +118,27 @@ Smart reports, in-app surveys, and pooled group budgets are generally available 
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 9, 2026
+[ArticleNov 12, 2026
 
-### Claude Fable 5.2 and Mythos 5.2
+### Operate Claude Managed Agents inside your security perimeter
 
-Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.
+Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
 
-Claude appsClaude Code1 more: Claude PlatformClaude Platform
+Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)[ArticleNov 12, 2026
 
-(opens in new tab)](https://www.anthropic.com/claude-fable-and-mythos-5-2)[ArticleNov 5, 2026
+### Introducing Claude for Manufacturing
 
-### Introducing Personal Finance in Claude
+A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)[ArticleNov 12, 2026
 
-Ask Claude about your money and get straight answers from the accounts you connect.](https://claude.com/resources/articles/introducing-personal-finance-in-claude)[ArticleNov 5, 2026
+### Introducing Claude Meetings
 
-### More visibility and control over Claude Enterprise for security teams
+Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)[ArticleNov 10, 2026
 
-Claude EnterpriseClaude apps](https://claude.com/resources/articles/claude-enterprise-security-updates)[ArticleNov 4, 2026
+### Your apps can now open in Claude, and Claude can work in them
 
-### New agents and products for security, productivity, and creative work on Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace)
+Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
+
+Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)
 
 ## Transform how your organization operates with Claude
 

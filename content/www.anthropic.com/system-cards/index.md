@@ -8,6 +8,12 @@ Date
 
 System card
 
+Claude Fable 5.2 and Mythos 5.2
+
+November 2026
+
+[Read system card](https://www.anthropic.com/claude-fable-5-2-mythos-5-2-system-card)
+
 Claude Haiku 5.5
 
 October 2026

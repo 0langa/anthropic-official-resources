@@ -1,4 +1,4 @@
-Nov 12, 2026 — 10:00 – 10:45 AM PT
+On demand
 
 # Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
 
@@ -10,7 +10,7 @@ Can’t make it live? Register and we’ll send the recording.
 
 Register for the webinar
 
-Fill out the form below to reserve your seat.
+Fill out the form below to watch on demand.
 
 ## Featured speakers
 

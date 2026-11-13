@@ -6,6 +6,19 @@ Published
 Category
 :   [Announcements](https://www.anthropic.com/news/announcements)
 
+Topics
+:   - [Funding](https://www.anthropic.com/search?topic=funding)
+
+Related articles
+
+- Announcements
+
+  Oct 26, 2026
+
+  [Anthropic files S-1 with the SEC for proposed initial public offering](https://www.anthropic.com/news/s1-sec)
+
+[View more](https://www.anthropic.com/search?topic=funding)
+
 Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.
 
 The proposed offering consists of 825,000,000 shares of Class A common stock. Of these, 801,351,354 shares are being offered by Anthropic and 23,648,646 shares are being offered by certain existing stockholders. Anthropic will not receive any proceeds from the sale of shares by the selling stockholders. Anthropic also expects to grant the underwriters a 30-day option to purchase up to an additional 123,750,000 shares of its Class A common stock.

@@ -602,6 +602,7 @@ https://academy.claude.com/tutorials/choosing-the-right-effort-level-in-claude-c
 https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide
 https://academy.claude.com/tutorials/claude-enterprise-administrator-guide
 https://academy.claude.com/tutorials/claude-enterprise-end-user-rollout-kit
+https://academy.claude.com/tutorials/claude-enterprise-spend-controls
 https://academy.claude.com/tutorials/claude-for-financial-services-overview
 https://academy.claude.com/tutorials/claude-for-financial-services-skills
 https://academy.claude.com/tutorials/claude-for-nonprofits-data-handling-and-your-ai-use-policy
@@ -1241,6 +1242,7 @@ https://claude.com/resources/articles/claude-for-enterprise
 https://claude.com/resources/articles/claude-for-financial-advisors
 https://claude.com/resources/articles/claude-for-foundation-models
 https://claude.com/resources/articles/claude-for-government-is-now-generally-available
+https://claude.com/resources/articles/claude-for-manufacturing
 https://claude.com/resources/articles/claude-for-small-business-launches-new-workflows-integrations-and-training-programs
 https://claude.com/resources/articles/claude-for-teachers-now-available-for-schools-and-districts
 https://claude.com/resources/articles/claude-for-the-legal-industry
@@ -1250,6 +1252,7 @@ https://claude.com/resources/articles/claude-managed-agents
 https://claude.com/resources/articles/claude-managed-agents-memory
 https://claude.com/resources/articles/claude-managed-agents-updates
 https://claude.com/resources/articles/claude-marketplace
+https://claude.com/resources/articles/claude-meetings
 https://claude.com/resources/articles/claude-model-and-effort-level-in-claude-code
 https://claude.com/resources/articles/claude-models-explained-choosing-the-best-model-for-your-use-case
 https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed
@@ -1262,6 +1265,7 @@ https://claude.com/resources/articles/claude-platform-on-aws
 https://claude.com/resources/articles/claude-powered-artifacts
 https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes
 https://claude.com/resources/articles/claude-security-public-beta
+https://claude.com/resources/articles/claude-tag-guide-for-startups
 https://claude.com/resources/articles/claude-tag-now-reads-even-more-of-the-room
 https://claude.com/resources/articles/claude-tag-now-supports-personal-connectors-in-channels
 https://claude.com/resources/articles/claude-team-updates
@@ -1367,6 +1371,7 @@ https://claude.com/resources/articles/introducing-personal-finance-in-claude
 https://claude.com/resources/articles/introducing-routines-in-claude-code
 https://claude.com/resources/articles/introducing-the-claude-apps-gateway
 https://claude.com/resources/articles/introduction-to-agentic-coding
+https://claude.com/resources/articles/j-crew-style-advisor-with-claude
 https://claude.com/resources/articles/jpmorganchase-expands-claude-code
 https://claude.com/resources/articles/key-benefits-transitioning-agentic-coding
 https://claude.com/resources/articles/making-claude-a-better-electrical-engineer
@@ -1433,6 +1438,7 @@ https://claude.com/resources/articles/unified-claude-enterprise
 https://claude.com/resources/articles/upgraded-anthropic-console
 https://claude.com/resources/articles/using-claude-code-session-management-and-1m-context
 https://claude.com/resources/articles/using-claude-md-files
+https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work
 https://claude.com/resources/articles/using-llms-to-secure-source-code
 https://claude.com/resources/articles/web-search
 https://claude.com/resources/articles/web-search-api
@@ -1759,6 +1765,7 @@ https://claude.com/resources/webinars/ship-your-first-claude-managed-agent
 https://claude.com/resources/webinars/startup-builds-getting-started-with-loops
 https://claude.com/resources/webinars/the-state-of-cybersecurity
 https://claude.com/resources/webinars/tokenomics-on-aws-control-and-optimize-your-claude-spend
+https://claude.com/resources/webinars/unified-claude-security-and-admins-q-and-a-session
 https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins
 https://claude.com/resources/webinars/voice-and-intelligence-building-the-human-interface-for-customer-experience
 https://claude.com/resources/webinars/what-we-shipped-feature-updates-tips-and-live-q-a-with-the-claude-code-team
@@ -1835,6 +1842,7 @@ https://code.claude.com/docs/en/claude_code_docs_map
 https://code.claude.com/docs/en/cli-reference
 https://code.claude.com/docs/en/cli-usage
 https://code.claude.com/docs/en/cloud-environments
+https://code.claude.com/docs/en/code-mode
 https://code.claude.com/docs/en/code-review
 https://code.claude.com/docs/en/code-review-costs
 https://code.claude.com/docs/en/code-review-customize
@@ -3823,6 +3831,9 @@ https://platform.claude.com/docs/en/build-with-claude/overview?sdk_languages=cur
 https://platform.claude.com/docs/en/build-with-claude/pdf-support
 https://platform.claude.com/docs/en/build-with-claude/pdf-support?sdk_languages=curl
 https://platform.claude.com/docs/en/build-with-claude/preserved-thinking
+https://platform.claude.com/docs/en/build-with-claude/preserved-thinking/change-tools-or-instructions
+https://platform.claude.com/docs/en/build-with-claude/preserved-thinking/fix-bound-to-a-different-conversation
+https://platform.claude.com/docs/en/build-with-claude/preserved-thinking/prefix-checks
 https://platform.claude.com/docs/en/build-with-claude/preserved-thinking?sdk_languages=curl
 https://platform.claude.com/docs/en/build-with-claude/prompt-caching
 https://platform.claude.com/docs/en/build-with-claude/prompt-caching?sdk_languages=curl
@@ -4099,6 +4110,8 @@ https://platform.claude.com/docs/en/managed-agents/scheduled-deployments?sdk_lan
 https://platform.claude.com/docs/en/managed-agents/secure-deployment
 https://platform.claude.com/docs/en/managed-agents/secure-deployment-monitoring
 https://platform.claude.com/docs/en/managed-agents/secure-deployment-risks
+https://platform.claude.com/docs/en/managed-agents/self-hosted
+https://platform.claude.com/docs/en/managed-agents/self-hosted-data-and-access
 https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes
 https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-custom-tools
 https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-custom-tools?sdk_languages=curl
@@ -4113,6 +4126,16 @@ https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-securit
 https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-workers
 https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-workers?sdk_languages=curl
 https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes?sdk_languages=curl
+https://platform.claude.com/docs/en/managed-agents/self-hosted/agent-identity
+https://platform.claude.com/docs/en/managed-agents/self-hosted/call-the-api
+https://platform.claude.com/docs/en/managed-agents/self-hosted/configuration-reference
+https://platform.claude.com/docs/en/managed-agents/self-hosted/configure
+https://platform.claude.com/docs/en/managed-agents/self-hosted/console
+https://platform.claude.com/docs/en/managed-agents/self-hosted/differences
+https://platform.claude.com/docs/en/managed-agents/self-hosted/inference-provider
+https://platform.claude.com/docs/en/managed-agents/self-hosted/kubernetes
+https://platform.claude.com/docs/en/managed-agents/self-hosted/quickstart
+https://platform.claude.com/docs/en/managed-agents/self-hosted/upgrade
 https://platform.claude.com/docs/en/managed-agents/session-observability
 https://platform.claude.com/docs/en/managed-agents/session-observability?sdk_languages=curl
 https://platform.claude.com/docs/en/managed-agents/session-operations
@@ -4875,6 +4898,10 @@ https://support.claude.com/en/articles/18324300
 https://support.claude.com/en/articles/18324300-get-started-with-claude-sheets
 https://support.claude.com/en/articles/18324319
 https://support.claude.com/en/articles/18324319-get-started-with-claude-whiteboards
+https://support.claude.com/en/articles/18325154
+https://support.claude.com/en/articles/18325154-use-claude-meetings
+https://support.claude.com/en/articles/18342806
+https://support.claude.com/en/articles/18342806-set-up-and-manage-the-new-unified-claude-experience-for-your-team-organization
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
 https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer

@@ -1,6 +1,6 @@
 # **Project Glasswing:**An initial update
 
-![Project Glasswing: An initial update](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9f76163fe710723283a55b9f60d5caca6697dffd-1920x1080.jpg&w=1920&q=75)
+![Project Glasswing: An initial update](https://assets.claude.com/f0033cd41c45e4875d42725d1505563b4d836a07.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   May 22, 2026
@@ -69,7 +69,7 @@ One example of an open-source vulnerability that Mythos Preview detected was in 
 
 As we noted above, the bottleneck in *fixing* bugs like these is the human capacity to triage, report, and design and deploy patches for them. Finding them in the first place has become vastly more straightforward with Mythos Preview. We’ve created a [dashboard of the open-source vulnerabilities](https://red.anthropic.com/2026/cvd/) we’ve scanned, below, which shows the different steps in our disclosure process and will track our progress over time. This shows vulnerabilities of all severity levels, rather than only the subset initially assessed as high- or critical-severity by Mythos Preview. Note the steep drop-off at each phase, reflecting the amount of human effort required to verify and fix each of the vulnerabilities.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7af1880d305b982764cfefc7dce87c677f1b0254-1634x1008.png&w=3840&q=75)
+![](https://assets.claude.com/5f7c7ba2dc151572b434aebd994d9b1c4229e210.png?w=3840&q=75&fm=webp&fit=max)
 
 Our dashboard of open-source vulnerabilities, showing vulnerabilities of all severities (rather than only those estimated high- or critical-severity by Mythos Preview).
 

@@ -1,6 +1,6 @@
 # Measuring faithfulness in Chain-of-Thought reasoning
 
-[Download Paper](https://www-cdn.anthropic.com/827afa7dd36e4afbb1a49c735bfbb2c69749756e/measuring-faithfulness-in-chain-of-thought-reasoning.pdf)
+[Download Paper](https://assets.claude.com/827afa7dd36e4afbb1a49c735bfbb2c69749756e.pdf)
 
 Published
 :   Jul 18, 2023

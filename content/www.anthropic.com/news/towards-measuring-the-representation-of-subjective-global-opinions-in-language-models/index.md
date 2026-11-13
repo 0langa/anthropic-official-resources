@@ -2,7 +2,7 @@
 
 [Read Paper](https://arxiv.org/abs/2306.16388)
 
-![Towards measuring the representation of subjective global opinions in language models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7b80bfa019fd048e2331264a42f2f479dcb066a2-2000x1125.jpg&w=1920&q=75)
+![Towards measuring the representation of subjective global opinions in language models](https://assets.claude.com/84e782d4000730bee8d0bf6c11428738f4eb2d01.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Jun 29, 2023

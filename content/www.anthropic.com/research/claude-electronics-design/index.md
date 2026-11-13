@@ -2,13 +2,32 @@
 
 # Testing Claude on real-world electronics design
 
-![Abstract collage combining a close-up photograph of a circuit board with bright green panels of winding copper-track patterns.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb953cc611ebe78f0b84e996dd54a614efd38b3f4-2000x1125.jpg&w=1920&q=75)
+![Abstract collage combining a close-up photograph of a circuit board with bright green panels of winding copper-track patterns.](https://assets.claude.com/da1561d7096742c3620943441254fa9d4aaa5590.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Nov 9, 2026
 
 Team
 :   [Science](https://www.anthropic.com/science)
+
+Topics
+:   - [Reasoning](https://www.anthropic.com/search?topic=reasoning)
+    - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)
+    - [Tool use](https://www.anthropic.com/search?topic=tool-use)
+    - [Partnerships](https://www.anthropic.com/search?topic=partnerships)
+    - [Discovery](https://www.anthropic.com/search?topic=discovery)
+
+    See more...
+
+Related articles
+
+- Science
+
+  Sep 25, 2026
+
+  [Yes, Claude can do Nine Loops](https://www.anthropic.com/research/yes-claude-can-do-nine-loops)
+
+[View more](https://www.anthropic.com/search?topic=reasoning)
 
 A little over a year ago, we began testing how well Claude could design basic electronic circuits. We [collaborated with Diode Computers](https://claude.com/resources/articles/making-claude-a-better-electrical-engineer),[1](https://www.anthropic.com/research/claude-electronics-design) a company that designs and manufactures circuit boards, to train Claude on simple tasks—for example, on reading a chip’s datasheet and working out which parts a chip needs in order to run. The models we experimented with back then couldn’t reliably lay out a circuit board; they also struggled to design components that fit together. Now, Claude can both design and prototype electronic hardware from start to finish.
 
@@ -22,7 +41,7 @@ For each design, we began by giving Claude a simple prompt that outlined what ki
 
 Claude went through a similar process to build the voice-assistant hub and the virtual pet, and both are also still in good working order. Because the devices are early prototypes, we don’t yet know how they’ll hold up with continued use or whether they would pass commercial certifications.
 
-![Three small electronic devices on a wooden table: a handheld virtual pet, a dark voice-assistant hub, and a round white USB speakerphone.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1a999b9164b6d23ac7b94c2dcdf4c9230e26e940-1920x1280.png&w=3840&q=75)
+![Three small electronic devices on a wooden table: a handheld virtual pet, a dark voice-assistant hub, and a round white USB speakerphone.](https://assets.claude.com/c791040ab28139a02eb618d69fc865f8b1ccc5e0.png?w=3840&q=75&fm=webp&fit=max)
 
 The three devices built from Claude’s designs, from left to right: a battery-powered handheld pet, a home voice-assistant hub, and a USB speakerphone. Claude engineered the electronics and the enclosures and wrote firmware for each one.
 
@@ -34,7 +53,7 @@ Earlier models had struggled to decide how to arrange basic components—placing
 
 To demonstrate how much better Fable 5.2 is than earlier models at laying out circuit boards, we asked Diode to run PCB Gym—an internal benchmark that scores models based on how well they can place components and reroute connections on board designs whose layouts have been removed. Fable 5.2 scored 69% on the benchmark, compared with 25% for Fable 5 (Figure 2). It also performed better on [BenchCAD 2.1](https://github.com/BenchCAD-org/benchcad-2-main/releases/tag/v2.1), a public benchmark that tests whether models can rebuild 3D parts, assemblies, and circuit boards from engineering drawings and rendered images. Fable 5.2 scored 83.5%, nearly double the score of its predecessor, Claude Fable 5.1.
 
-![Scatter plot of Diode PCB Gym score against total API cost for recent frontier models.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F702c38e9c4a83120ea3734aab60726e39a69be23-1600x1040.png&w=3840&q=75)
+![Scatter plot of Diode PCB Gym score against total API cost for recent frontier models.](https://assets.claude.com/d999e2850a07a9f42de8af237a76dc0438de5857.png?w=3840&q=75&fm=webp&fit=max)
 
 Scores plotted against total API cost for recent frontier models on Diode PCB Gym, a benchmark that instructs models to place components and route connections on circuit boards whose layouts have been removed.
 
@@ -46,7 +65,7 @@ When Claude noticed one of its designs wasn’t working, it would change course 
 
 And when placing tracks in its design file for the voice-assistant hub, Claude noticed that the copper connections were “getting too tangled to trace visually” and reasoned, “I should just rip these traces [tracks] and start fresh.” It proceeded to delete and reroute copper connections dozens of times until it found an arrangement that worked.
 
-![Two close-up views of microphone routing on the hub circuit board. On the left, a blue power track loops around the ground ring and a red track crosses it; on the right, the same area after rerouting, with the ring clear.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F65c50455d3f6a57f0846ec407425f346ab0e1f68-1920x949.png&w=3840&q=75)
+![Two close-up views of microphone routing on the hub circuit board. On the left, a blue power track loops around the ground ring and a red track crosses it; on the right, the same area after rerouting, with the ring clear.](https://assets.claude.com/21c3b59e0b27c71109174fabc26f6f019d0cb9a5.png?w=3840&q=75&fm=webp&fit=max)
 
 The routing for the voice-assistant hub before and after Claude reorganized the connections. Left: the microphone’s power track (blue lines) loops around the ground ring at the sound port, a front-side track (red) crosses the ring, and a via—a small hole that connects layers of copper—is placed between the microphone’s pads. Right: the same area after Claude rerouted the power track, with the ring clear and grounded. Claude’s reasoning for redoing the version on the left: “That’s risky placement under a bottom-port MEMS mic, even if clearance is technically fine, so I want to redo the local routing cleanly for both identical mic footprints.”
 
@@ -64,7 +83,7 @@ Decisions made in one part of a design have downstream effects, which Claude kep
 
 When designing the enclosure for the voice-assistant hub, Claude calculated that a 25 mm-long microphone port—the opening that lets sound reach the microphone—would resonate near 3.4 kHz. That is “right in the voice band,” it reasoned, “which is not ideal though still usable for voice assistant purposes. A better approach is a wedge-shaped enclosure that’s tall at the rear and steps down low at the front.” The wedge shape shortened the ports to about 10 mm, which raised the resonant frequency to about 8.9 kHz, at the very edge of the range used for speech. Claude also wrote firmware for the speakerphone that dims its ring of LED lights as the audio becomes louder, to keep the device under the electrical current limit Claude had designed into the board.
 
-![Claude’s design for the voice-assistant hub, showing the schematic, the circuit board layout, a model of the wedge-shaped enclosure, and the finished dark prototype.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb2caed6f266afefb1d33d1a8f8b676fc9472d506-2048x1217.png&w=3840&q=75)
+![Claude’s design for the voice-assistant hub, showing the schematic, the circuit board layout, a model of the wedge-shaped enclosure, and the finished dark prototype.](https://assets.claude.com/1d091a66bb477b996f01671f7205a700dccddb11.png?w=3840&q=75&fm=webp&fit=max)
 
 Claude’s designs for the home voice-assistant hub and the finished prototype. Claude wrote the code that modeled the case in CAD, laid out the circuit board, and wrote the firmware.
 
@@ -78,41 +97,41 @@ Diode manufactured all three boards directly from Claude’s design files, witho
 
 Layer 1: frontLayer 2: inner 1Layer 3: inner 2Layer 4: back
 
-![Speakerphone circuit board, layer 1 (front): parts and signal tracks.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1e8e384cb5bbf67da75851ecce146f47a425af0b-1888x1062.png&w=3840&q=75)
+![Speakerphone circuit board, layer 1 (front): parts and signal tracks.](https://assets.claude.com/1e8e384cb5bbf67da75851ecce146f47a425af0b.png?w=3840&q=75&fm=webp&fit=max)
 
 The speakerphone’s four copper layers. The dashed circle marks the touch wheel, where copper electrodes sense the user’s finger. Moving a track from one layer to another requires drilling a hole in the board, and under the touch wheel, that hole would go through an electrode. To avoid this, Claude kept each signal track under the wheel on a single layer, and it chose the chips’ pin assignments so that those tracks wouldn’t need to cross one another. It also kept the area around the Bluetooth antenna (the zigzag at the top) clear of other copper and holes on every layer, so nearby metal wouldn’t weaken its signal.
 
-![Speakerphone circuit board, layer 2 (inner 1): ground plane.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F23a2565ddbc134172de07ac555329108c418faab-1888x1062.png&w=3840&q=75)
+![Speakerphone circuit board, layer 2 (inner 1): ground plane.](https://assets.claude.com/23a2565ddbc134172de07ac555329108c418faab.png?w=3840&q=75&fm=webp&fit=max)
 
 The speakerphone’s four copper layers. The dashed circle marks the touch wheel, where copper electrodes sense the user’s finger. Moving a track from one layer to another requires drilling a hole in the board, and under the touch wheel, that hole would go through an electrode. To avoid this, Claude kept each signal track under the wheel on a single layer, and it chose the chips’ pin assignments so that those tracks wouldn’t need to cross one another. It also kept the area around the Bluetooth antenna (the zigzag at the top) clear of other copper and holes on every layer, so nearby metal wouldn’t weaken its signal.
 
-![Speakerphone circuit board, layer 3 (inner 2): ground, hatched under the touch wheel, and power.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F64f6eac9c2164c89b3320fa831148326c227662f-1888x1062.png&w=3840&q=75)
+![Speakerphone circuit board, layer 3 (inner 2): ground, hatched under the touch wheel, and power.](https://assets.claude.com/89cd4e00c5864d78016ac9de1833f686de4b087b.png?w=3840&q=75&fm=webp&fit=max)
 
 The speakerphone’s four copper layers. The dashed circle marks the touch wheel, where copper electrodes sense the user’s finger. Moving a track from one layer to another requires drilling a hole in the board, and under the touch wheel, that hole would go through an electrode. To avoid this, Claude kept each signal track under the wheel on a single layer, and it chose the chips’ pin assignments so that those tracks wouldn’t need to cross one another. It also kept the area around the Bluetooth antenna (the zigzag at the top) clear of other copper and holes on every layer, so nearby metal wouldn’t weaken its signal.
 
-![Speakerphone circuit board, layer 4 (back): the touch wheel's electrodes.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F66f89422bb621989d75405011bb1659417a67cb6-1888x1062.png&w=3840&q=75)
+![Speakerphone circuit board, layer 4 (back): the touch wheel's electrodes.](https://assets.claude.com/66f89422bb621989d75405011bb1659417a67cb6.png?w=3840&q=75&fm=webp&fit=max)
 
 The speakerphone’s four copper layers. The dashed circle marks the touch wheel, where copper electrodes sense the user’s finger. Moving a track from one layer to another requires drilling a hole in the board, and under the touch wheel, that hole would go through an electrode. To avoid this, Claude kept each signal track under the wheel on a single layer, and it chose the chips’ pin assignments so that those tracks wouldn’t need to cross one another. It also kept the area around the Bluetooth antenna (the zigzag at the top) clear of other copper and holes on every layer, so nearby metal wouldn’t weaken its signal.
 
 Layer 1: frontLayer 2: inner 1Layer 3: inner 2Layer 4: back
 
-![Voice-assistant hub circuit board, layer 1 (front): parts and signals, with ground poured between them.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdd387afa4631f360f769522f20878a64a1095f72-1888x1062.png&w=3840&q=75)
+![Voice-assistant hub circuit board, layer 1 (front): parts and signals, with ground poured between them.](https://assets.claude.com/dd387afa4631f360f769522f20878a64a1095f72.png?w=3840&q=75&fm=webp&fit=max)
 
 The voice-assistant hub’s four copper layers. Claude added two areas of grounded copper to the power layer (green), directly behind most of the tracks on the back of the board that carry high-speed signals. This gives the signals a nearby return path, which helps reduce interference.
 
-![Voice-assistant hub circuit board, layer 2 (inner 1): solid ground under the front-side signals.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F43048bd3613a042096a0fc4ad236ab727a130e57-1888x1062.png&w=3840&q=75)
+![Voice-assistant hub circuit board, layer 2 (inner 1): solid ground under the front-side signals.](https://assets.claude.com/43048bd3613a042096a0fc4ad236ab727a130e57.png?w=3840&q=75&fm=webp&fit=max)
 
 The voice-assistant hub’s four copper layers. Claude added two areas of grounded copper to the power layer (green), directly behind most of the tracks on the back of the board that carry high-speed signals. This gives the signals a nearby return path, which helps reduce interference.
 
-![Voice-assistant hub circuit board, layer 3 (inner 2): 5 V and 3.3 V power, with two areas of ground in green.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F83100ba17df9b9120ac4f801efba2c5bd7654619-1888x1062.png&w=3840&q=75)
+![Voice-assistant hub circuit board, layer 3 (inner 2): 5 V and 3.3 V power, with two areas of ground in green.](https://assets.claude.com/83100ba17df9b9120ac4f801efba2c5bd7654619.png?w=3840&q=75&fm=webp&fit=max)
 
 The voice-assistant hub’s four copper layers. Claude added two areas of grounded copper to the power layer (green), directly behind most of the tracks on the back of the board that carry high-speed signals. This gives the signals a nearby return path, which helps reduce interference.
 
-![Voice-assistant hub circuit board, layer 4 (back): signals and ground; the microphones' side.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcec166cda9bc45861879db6a1ab6cc8edc6535b7-1888x1062.png&w=3840&q=75)
+![Voice-assistant hub circuit board, layer 4 (back): signals and ground; the microphones' side.](https://assets.claude.com/13c25015bf744bb55856d9733bdbda03f6282903.png?w=3840&q=75&fm=webp&fit=max)
 
 The voice-assistant hub’s four copper layers. Claude added two areas of grounded copper to the power layer (green), directly behind most of the tracks on the back of the board that carry high-speed signals. This gives the signals a nearby return path, which helps reduce interference.
 
-![Cutaway drawing of the speakerphone enclosure showing the circuit board tilted at about 25 degrees as it is installed, with the point where the mute switch knob would meet the back wall marked in red.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F64a2aade621d8d6a50c57f9f3d0ac050ea778423-2048x949.png&w=3840&q=75)
+![Cutaway drawing of the speakerphone enclosure showing the circuit board tilted at about 25 degrees as it is installed, with the point where the mute switch knob would meet the back wall marked in red.](https://assets.claude.com/6950305e3a487953326d0b283ce4d96550dacaf2.png?w=3840&q=75&fm=webp&fit=max)
 
 The speakerphone’s circuit board can’t be lowered straight into the enclosure, because the mute switch’s knob would hit the back wall (red). Claude worked out how to install the board by tilting it about 25 degrees and then swinging it flat, and added this step to the assembly instructions.
 

@@ -180,7 +180,7 @@ upstreams:
 
 > [!NOTE]
 >
-> Google id\_tokens carry no `groups` claim. To use group-based policies in [`managed.policies`](/docs/en/claude-apps-gateway-config#managed) with Google Workspace as the IdP, configure [`oidc.google_groups`](/docs/en/claude-apps-gateway-config#oidc), which looks up each user's groups through the Admin SDK Directory API using a service account with domain-wide delegation. Without it, match on `email_domain` instead.
+> Google id_tokens carry no `groups` claim. To use group-based policies in [`managed.policies`](/docs/en/claude-apps-gateway-config#managed) with Google Workspace as the IdP, configure [`oidc.google_groups`](/docs/en/claude-apps-gateway-config#oidc), which looks up each user's groups through the Admin SDK Directory API using a service account with domain-wide delegation. Without it, match on `email_domain` instead.
 
 **6. Store secrets in Secret Manager**
 

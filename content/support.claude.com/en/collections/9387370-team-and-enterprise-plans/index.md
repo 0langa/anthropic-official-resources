@@ -2,7 +2,7 @@
 
 Set up your workspace, add seats, and administer Claude across your organization.
 
-81 articles
+83 articles
 
 ## Collections
 
@@ -12,10 +12,10 @@ Set up your workspace, add seats, and administer Claude across your organization
 
 [Billing7 articles](https://support.claude.com/en/collections/9811436-billing)
 
-[Admin management28 articles](https://support.claude.com/en/collections/9811449-admin-management)
+[Admin management29 articles](https://support.claude.com/en/collections/9811449-admin-management)
 
 [Analytics and usage6 articles](https://support.claude.com/en/collections/18901831-analytics-and-usage)
 
-[Capabilities8 articles](https://support.claude.com/en/collections/9811414-capabilities)
+[Capabilities9 articles](https://support.claude.com/en/collections/9811414-capabilities)
 
 [Security and compliance21 articles](https://support.claude.com/en/collections/10351014-security-and-compliance)

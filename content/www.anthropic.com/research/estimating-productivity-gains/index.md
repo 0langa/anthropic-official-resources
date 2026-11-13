@@ -4,7 +4,7 @@
 
 [Read as a PDF](https://www-cdn.anthropic.com/e5645986a7ce8fbcc48fa6d2fc67753c87642c30.pdf)
 
-![Estimating AI productivity gains from Claude conversations](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fbf992248bbd636a557b32e02da5234119facf477-2000x1125.jpg&w=1920&q=75)
+![Estimating AI productivity gains from Claude conversations](https://assets.claude.com/52c2f9a1f289f043b70d68a745566c4dac54202d.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Nov 25, 2025
@@ -33,7 +33,7 @@ Related articles
 
 ## Overview
 
-*What do real conversations with Claude tell us about the effects of AI on labor productivity? Using our privacy-preserving [analysis method](https://www.anthropic.com/research/clio), we sample one hundred thousand real conversations from [Claude.ai](http://claude.ai/redirect/website.v1.5c7bae75-f7ca-48b8-9138-db9b68905cee), estimate how long the tasks in these conversations would take with and without AI assistance, and study the productivity implications across the broader economy. Based on Claude’s estimates, these tasks would take on average about 90 minutes to complete without AI assistance, and Claude speeds up individual tasks by about 80%.*
+*What do real conversations with Claude tell us about the effects of AI on labor productivity? Using our privacy-preserving [analysis method](https://www.anthropic.com/research/clio), we sample one hundred thousand real conversations from [Claude.ai](http://claude.ai/redirect/website.v1.e1045302-40c3-4845-bd97-89865217730a), estimate how long the tasks in these conversations would take with and without AI assistance, and study the productivity implications across the broader economy. Based on Claude’s estimates, these tasks would take on average about 90 minutes to complete without AI assistance, and Claude speeds up individual tasks by about 80%.*
 
 *Extrapolating these estimates out suggests **current-generation** AI models could increase US labor productivity growth by 1.8% annually over the next decade*—*roughly twice the run rate in recent years. But this isn’t a prediction of the future, since we don’t take into account the rate of adoption or the larger productivity effects that would come from much more capable AI systems.*
 
@@ -42,13 +42,13 @@ Related articles
 *Here’s a more detailed summary of our results:*
 
 - **Across one hundred thousand real world conversations, Claude estimates that AI reduces task completion time by 80%.** We use Claude to evaluate anonymized Claude.ai transcripts to estimate the productivity impact of AI. According to Claude’s estimates, people typically use AI for complex tasks that would, on average, take people 1.4 hours to complete. By matching tasks to O\*NET occupations and BLS wage data, we estimate these tasks would otherwise cost $55 in human labor.
-- **The estimated scope, cost, and time savings of tasks varies widely by occupation.** Based on Claude’s estimates, people use Claude for legal and management tasks that would have taken nearly two hours, but for food preparation tasks that would have taken only 30 minutes. And we find that healthcare assistance tasks can be completed 90% more quickly, whereas hardware issues see time savings of 56%. This doesn’t account for the time that humans might spend on these tasks *beyond* their conversation on [Claude.ai](http://claude.ai/redirect/website.v1.5c7bae75-f7ca-48b8-9138-db9b68905cee), however, so we think these estimates might overstate current productivity effects to at least some degree.
+- **The estimated scope, cost, and time savings of tasks varies widely by occupation.** Based on Claude’s estimates, people use Claude for legal and management tasks that would have taken nearly two hours, but for food preparation tasks that would have taken only 30 minutes. And we find that healthcare assistance tasks can be completed 90% more quickly, whereas hardware issues see time savings of 56%. This doesn’t account for the time that humans might spend on these tasks *beyond* their conversation on [Claude.ai](http://claude.ai/redirect/website.v1.e1045302-40c3-4845-bd97-89865217730a), however, so we think these estimates might overstate current productivity effects to at least some degree.
 - **Extrapolating these results to the economy, current generation AI models could increase annual US labor productivity growth by 1.8% over the next decade. This would double the annual growth the US has seen since 2019,** **and places our estimate towards the upper end of [recent estimates](https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/11/miracle-or-myth-assessing-the-macroeconomic-productivity-gains-from-artificial-intelligence_fde2a597/b524a072-en.pdf).** Taking as given Claude’s estimates of task-level efficiency gains, we use standard methods to calculate a 1.8% implied annual increase in US labor productivity over the next ten years. However, this estimate does not account for future improvements in AI models (or more sophisticated uses of current technology), which could significantly magnify AI’s economic impact.
 - **As AI accelerates some tasks, others may become bottlenecks**: We see large speedups for some tasks and much smaller ones in others, even within the same occupational groups. Where AI makes less of a difference, these tasks might become bottlenecks, potentially acting as a constraint on growth.
 
 **This gives us a new lens for understanding how AI’s economic impacts over time, which we will track going forward as part of our [Economic Index](https://www.anthropic.com/economic-index):** Computing these estimates based on real-world Claude conversations gives us a new lens to understand AI productivity. This complements other approaches, like lab studies in narrow domains, or government statistics which provide more coarse-grained insights. We will track how these estimates change over time to get an evolving picture of these issues as capabilities and adoption continue to progress.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8b0d20a184e4395aa3966cffd01ad212929fa924-9168x5160.png&w=3840&q=75)
+![](https://assets.claude.com/4997ea75834cfd045f7b4c78cdf72546c8c8621a.png?w=3840&q=75&fm=webp&fit=max)
 
 An overview of our method and some of our main results. See below for how we validate Claude’s estimates, the assumptions we make, and limitations of our analysis.
 
@@ -85,7 +85,7 @@ Estimating task duration is [notoriously difficult for humans](https://web.mit.e
 
 We create multiple prompt variations—for example, asking about an "employee with appropriate skills" versus a "skilled professional"—to assess how sensitive estimates are to the way the prompt is phrased. We analyze 1,800 conversations with each variant, where users consented to share these conversations with us, and computed correlations across prompt variants. The results showed strong self-agreement, with log-scale correlations of *r*=0.89–0.93 across variants.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8d684d005bf2866973e70cda22c5bf93b81b4acf-9168x5164.png&w=3840&q=75)
+![](https://assets.claude.com/f947e5b307f8e792139c82de5286e54fd6e4eac2.png?w=3840&q=75&fm=webp&fit=max)
 
 **Claude’s estimated human completion times show high correlation across prompt variations.** Prompt 1 asks Claude to estimate the time it would take an "employee with appropriate skills" to complete and Prompt 2 asks about a “human worker” who is “competent in the relevant field.” The two prompts show a log-scale correlation of 0.89, indicating high agreement. Analysis performed on [Claude.ai](http://claude.ai/) transcripts where users have consented to share them with us for research purposes.
 
@@ -99,7 +99,7 @@ This is a very challenging task for Claude, given that Claude receives only the 
 
 This analysis suggests that Claude’s estimates provide *directional* information that is only slightly worse than software developers’ own estimates. However, we observe that Claude’s estimates are much more compressed than humans—predicting comparatively long times for shorter tasks, and vice versa—and are overall more prone to overestimates. This suggests that the actual differences in task lengths across tasks may be larger than we report, and that actual task lengths may be slightly shorter. Overall, these findings demonstrate that model predictions have meaningful correlation with real-world outcomes, at least in this domain, making them useful for comparing one task to another or tracking changes over time. We also observe higher correlation from Claude Sonnet 4.5 compared to Claude Sonnet 4, suggesting that these estimates may continue to improve with model capabilities.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F86ba428ae4f9ffb0f19fcfdfb0b1965196526c0b-2762x1020.png&w=3840&q=75)
+![](https://assets.claude.com/d5b25aa6b3e0e401ddf67c801003e75262f61bf9.png?w=3840&q=75&fm=webp&fit=max)
 
 Correlation of actual time spent on software engineering tasks with developer and Claude estimates. Left: correlation with developers’ initial time estimates with the final time-tracked outcomes. Developers are familiar with the full codebase and understand the full context behind the request and how long similar tasks have taken. Middle: correlation with Claude Sonnet 4.5’s estimates, given just the task title and description of the JIRA ticket. Right: Correlation with Claude Sonnet 4.5’s estimates, given 10 examples in the prompt to calibrate on. Overall, Claude’s estimates have similar directional correlation to developers: Spearman’s *ρ*=0.44, compared to *ρ*=0.50 for developers, though Claude significantly overestimates short tasks and underestimates long ones. Axes are log (base 10) scaled. Error bars are 95% CIs per bin.
 
@@ -109,7 +109,7 @@ We first use the methods above to estimate task-level savings, then aggregate th
 
 ### Task-level savings
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5a800dc6e4ea5b56647bfbcc0a01f99b93f0ca80-9168x7336.png&w=3840&q=75)
+![](https://assets.claude.com/998f46ca7d95fab9937abe44ac7cd3aaa2359100.png?w=3840&q=75&fm=webp&fit=max)
 
 Claude’s estimated task time, average hourly wage of the occupation, implied task cost, and time savings for nine different tasks. **Task time** is estimated by having Claude predict how long a professional would take to perform the task without AI assistance. **Hourly wage** is derived from the Occupational Employment and Wage Statistics (OEWS) May 2024 data. **Task cost** is computed by multiplying the task time by the hourly wage. **Time savings** is computed by estimating the time the human took to complete the task and computing *1 - time\_with\_ai / time\_without\_ai*.
 
@@ -123,7 +123,7 @@ People also use AI to save 87% of the time it would take to write invoices, memo
 
 Human time estimates show that Claude handles tasks of very different lengths depending on the occupation. In the below plots, we show averages for each occupation category among the subset of tasks that Claude is used for[1](https://www.anthropic.com/research/estimating-productivity-gains). The average management task where Claude is used (e.g. selecting investments) is estimated to take humans 2.0 hours to complete, followed by legal (1.8 hours), education (1.7), and arts/media tasks (1.6). At the other end of the spectrum, food preparation tasks (e.g. planning or pricing menu items), installation/maintenance, and transportation tasks all take 0.3-0.5hrs on average, suggesting more circumscribed tasks, or tasks with less waiting time. Given that Claude’s time estimates tend to underestimate long tasks and overestimate short tasks, it is possible that these differences might be even greater in practice.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc5fec11b331a841e3fe56df8d5cca67767aa9a08-9168x5160.png&w=3840&q=75)
+![](https://assets.claude.com/afd336d86818506bcfa8af85448baa205ca716e4.png?w=3840&q=75&fm=webp&fit=max)
 
 Various figures derived from Claude’s time estimates for SOC major groups. Human time estimates vary substantially across occupations — People use Claude for management and legal tasks estimated to take humans around 2h unassisted, while healthcare support and food prep tasks average around a half-hour. Average hourly wage for the occupational category is retrieved from OEWS 2024 data. Average task cost is computed by multiplying each occupation’s hourly wage by its median task time and computing an average weighted by each task’s prevalence in our sample. Time savings are computed via *1 - time\_with\_ai / time\_without\_ai*.
 
@@ -133,7 +133,7 @@ Across all tasks we observe, we estimate Claude handles work that would cost a m
 
 Across major occupational groups, we observe a positive correlation between average hourly wage among tasks/occupations in our sample and the human-time-equivalent duration of the tasks Claude is asked to handle. For example, the Management and Legal occupational categories rank at the top of the classification in terms of average hourly wage—aligning with Claude’s strengths in complex knowledge work.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd699145fc487c5c045a2ffd389fca5b833cf04c4-9168x5160.png&w=3840&q=75)
+![](https://assets.claude.com/e8d35d90cc006466e1e7917f5bf5720919479316.png?w=3840&q=75&fm=webp&fit=max)
 
 Correlation between average hourly wage of an occupation category and the average Claude-estimated task duration in our sample. Higher-wage occupations categories (e.g. Management and Legal) have tasks with more complex usage in our sample (*r*=0.8).
 
@@ -145,7 +145,7 @@ The median conversation experienced an estimated 84% time savings, though we see
 
 These large time savings align with Claude’s abilities to read and write far faster than people can. However, our approach doesn’t take into account the additional work people need to do to refine Claude’s outputs to a finished state, or whether they continue iterating on the work product across multiple sessions—both of which would result in smaller time savings. Past randomized controlled trials have typically found smaller time savings, including [56%](https://arxiv.org/abs/2302.06590), [40%](https://www.science.org/doi/10.1126/science.adh2586), [26%](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4945566), [14%](https://www.nber.org/papers/w31161) and even [negative](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) time savings across different applications—perhaps due to these effects or because these studies examined earlier generations of models.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4d61a53bff2e88b74afd14dfd3ccfbf4d77a3c3a-2292x1291.png&w=3840&q=75)
+![](https://assets.claude.com/8ee56dbdd260bbe51d27901260cf27e09a1e59c9.png?w=3840&q=75&fm=webp&fit=max)
 
 Density plot of time savings across O\*NET tasks in our sample. We see that Claude’s estimated time savings are uneven across tasks in our sample, with most falling between 50 and 95%. The overall median savings is 81%. Time savings are computed by *1 - time\_with\_ai / time\_without\_ai*. Our estimates do not take into account the time spent refining Claude’s output outside of the chat window.
 
@@ -163,7 +163,7 @@ To estimate economy-wide productivity effects, we use Hulten’s theorem, a stan
 
 **Economy-wide estimate**: We weight each task's implied productivity gains by its economic importance using two factors: (i) the fraction of time that Claude estimates the occupation spends on that task (as above), and (ii) the occupation's share of the total US wage bill (the number of people employed in that occupational category multiplied by the average wage, then divided by total wage bill across all occupations). For the total wage bill, we use May 2024 OEWS data. This approach implicitly assumes the time estimates that Claude produces represent reliable averages across all instances of each task, and that Claude or similar AI systems will be adopted across the entire US economy.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7ecf9cf6974d57657fffe7952e6de57077c3a768-9168x5164.png&w=3840&q=75)
+![](https://assets.claude.com/6927a46e373f9f737195ab8be5d04b55cb69472d.png?w=3840&q=75&fm=webp&fit=max)
 
 **US economy-wide labor productivity impact: top ten occupations.** Overall, Claude’s estimates imply a 1.8% annualized increase (dotted line) in US labor productivity assuming current AI systems were adopted universally for all tasks we observe, driven by software, management, marketing, and customer service tasks. This corresponds to an implied 1.08% annualized increase in TFP. The average *ln(time estimate ratio)* represents the time-weighted productivity gain across all tasks in each occupation, where *time estimate ratio = time with AI / time without AI*. Labor statistics derived from OEWS 2024 data.
 
@@ -177,7 +177,7 @@ Importantly, this exercise assumes that AI capabilities (and humans’ effective
 
 Therefore, this estimate should be taken as an exercise exploring what might happen based on *current usage patterns,* not a prediction of the impact on productivity that is actually most likely to happen. As we have written about in other work, we remain extremely alert to the possibility that AI causes significant labor market disruptions, which would likely be associated with larger increases in productivity due to AI. As models progress, this could represent an approximate lower bound on the productivity effects of AI, although our estimate does not account for unevenness in adoption, which might reduce real-world productivity gains in the short term.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2e7bf159d26091d280fe0173753085a318ed75d0-9168x5160.png&w=3840&q=75)
+![](https://assets.claude.com/cdb818fafa6d0afa9e2906ae89f00e174945b9bb.png?w=3840&q=75&fm=webp&fit=max)
 
 Labor productivity growth in the nonfarm business sector. The chart shows five year moving averages of the year-over-year percent change in labor productivity. We see a general decline from almost 3% in the 1960s to around 1.5% the last few years.
 
@@ -193,7 +193,7 @@ The figure below illustrates this for a few occupations. For software developers
 
 From a growth perspective, these observations align well with a recent observation from [Aghion, Jones, and Jones](https://www.nber.org/papers/w23928): “growth may be constrained not by what we are good at but rather by what is essential and yet hard to improve.”
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4bf1b7050affa87212a5182b3ccbc615e78bf4d0-9168x8096.png&w=3840&q=75)
+![](https://assets.claude.com/9aa531476d48fdac4f856fa4d748362e93aff4c6.png?w=3840&q=75&fm=webp&fit=max)
 
 Four different occupations along with “accelerated” tasks that show large potential time savings, and potential “bottleneck” tasks that do not appear in our sample. For example, software engineers see large estimated time savings in developing and debugging software, but not in supervising programmers. Weekly time fractions are estimated by Claude (see previous section).
 
@@ -206,7 +206,7 @@ Our approach has several limitations that we think warrant further research on t
 - **Structural assumptions:** In our calculations above, we compare the time it would take a professional to complete a given task without AI to the time it took with AI. But this could either *understate* the productivity gains – since it takes additional resources we’re not accounting for to hire an employee and communicate context, and possibly overstate it, if the quality of the AI’s work is worse than a human’s.
 - **Restructuring of organizations:** Historically, the largest productivity gains for individual firms have followed from [restructuring business operations](https://www.jstor.org/stable/2006600) to adopt new technologies. Our model can help predict the *effects* of such a restructuring, but it cannot predict how companies might decide to restructure, or how quickly this process might happen.
 - **The role of innovation:** Technological innovation is [the engine](https://www.jstor.org/stable/1926047) of economic growth. Our model does not capture how AI systems could accelerate or even automate the scientific process, nor the effects that would have on productivity, growth, and the structure of work.
-- **Limited data**: Our dataset is derived from [Claude.ai](http://claude.ai/redirect/website.v1.5c7bae75-f7ca-48b8-9138-db9b68905cee) conversations only. This sample is not representative of the full spectrum of AI uses, and there’s likely some selection effect where the instances of tasks people use Claude for are the ones they think Claude will be most useful. Additionally, due to our finite sample size, we likely miss some less common AI tasks.
+- **Limited data**: Our dataset is derived from [Claude.ai](http://claude.ai/redirect/website.v1.e1045302-40c3-4845-bd97-89865217730a) conversations only. This sample is not representative of the full spectrum of AI uses, and there’s likely some selection effect where the instances of tasks people use Claude for are the ones they think Claude will be most useful. Additionally, due to our finite sample size, we likely miss some less common AI tasks.
 
 The measurement infrastructure we develop here enables continuous tracking of the effect of AI on time savings at large scale. As models improve and better methods address these limitations, we can re-estimate these time savings and identify how these capability improvements translate into broader economic impacts. We expect to track these changes in the months and years ahead.
 
@@ -224,7 +224,7 @@ Our framework could be used to help estimate the effects of such restructuring, 
 
 ### Comparison of Claude’s estimates to other estimates
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F71184a93f50a2ec740edeb79f5123edb495c253e-9168x5164.png&w=3840&q=75)
+![](https://assets.claude.com/25074e5832de2b46cffdbea166852fafe7c24f86.png?w=3840&q=75&fm=webp&fit=max)
 
 Predicted increase in annual labor productivity growth over a 10-year horizon due to AI. Figure reproduced from Filippucci, Gal, and Schief, 2024. The dotted line is 1.8%, derived from Claude’s estimates.
 

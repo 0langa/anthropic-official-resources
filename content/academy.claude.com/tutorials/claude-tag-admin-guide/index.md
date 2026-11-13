@@ -760,6 +760,8 @@ Nothing here is a big-bang install. The organization ceiling is set once; everyt
 
 The Claude Tag docs' [after setup(opens in new tab)](https://claude.com/docs/claude-tag/admins/setup-overview) guidance covers the same pattern in more depth, and [verifying your setup(opens in new tab)](https://claude.com/docs/claude-tag/admins/setup-overview) has the first-task checks.
 
+If you're adding Claude Tag to a Claude Enterprise rollout, the lesson [When a new product arrives(opens in new tab)](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/when-a-new-product-arrives) runs Claude Tag through three questions: who gets it, what it carries, and whether it moves risk.
+
 ## 9. FAQ[](https://academy.claude.com/tutorials/claude-tag-admin-guide)
 
 ### Where do I see every channel Claude Tag is working in?[](https://academy.claude.com/tutorials/claude-tag-admin-guide)

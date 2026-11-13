@@ -402,7 +402,7 @@ Check the result message's `subtype`:
 A `success` subtype doesn't by itself mean the run produced an answer. Treat a result as a failure when the result's `is_error` is `true` or `structured_output` is absent:
 
 * **`is_error` on the result is `true`**: for example, the final model request ended in an API error or a refusal. Don't use a `structured_output` value on such a result.
-* **`structured_output` is absent**: to find the cause, see [structured\_output is None but the result says success](/docs/en/agent-sdk/troubleshooting#structured_output-is-none-but-the-result-says-success)
+* **`structured_output` is absent**: to find the cause, see [structured_output is None but the result says success](/docs/en/agent-sdk/troubleshooting#structured_output-is-none-but-the-result-says-success)
 
 The example below applies these checks:
 

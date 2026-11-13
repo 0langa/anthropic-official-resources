@@ -42,7 +42,7 @@ ASL-3 is the point at which AI models become operationally useful for catastroph
 
 ASL-4 represents an escalation of the catastrophic misuse risks from ASL-3, and also adds a new risk: concerns about autonomous AI systems that escape human control and pose a significant threat to society. Roughly, ASL-4 will be triggered when either AI systems become capable of autonomy at a near-human level, *or* become the main source in the world of at least one serious global security threat, such as bioweapons. It is likely that at ASL-4 we will require a detailed and precise understanding of what is going on inside the model, in order to make an “affirmative case” that the model is safe.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc9812176a54de4258c4969b24bf55dd4dfc1d928-5760x3240.png&w=3840&q=75)
+![](https://assets.claude.com/c9812176a54de4258c4969b24bf55dd4dfc1d928.png?w=3840&q=75&fm=webp&fit=max)
 
 Next, I’ll briefly mention some of our key practices and lessons learned, which we hope are helpful to others in crafting an RSP. First, deep executive involvement is critical. As CEO, I personally spent 10-20% of my time on the RSP for 3 months—I wrote multiple drafts from scratch, in addition to devising and proposing the ASL system. One of my co-founders devoted 50% of their time to developing the RSP for 3 months. Together, this sent a meaningful signal to employees that Anthropic’s leadership team takes the matter of AI safety seriously and is firmly committed to responsible scaling at the frontier.
 

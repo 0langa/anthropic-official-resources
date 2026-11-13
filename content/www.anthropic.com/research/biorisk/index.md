@@ -2,7 +2,7 @@
 
 # Why do we take LLMs seriously as a potential source of biorisk?
 
-![Why do we take LLMs seriously as a potential source of biorisk?](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0764d97faf5083c01f29fb15f1e6a3fded06a808-1920x1080.jpg&w=1920&q=75)
+![Why do we take LLMs seriously as a potential source of biorisk?](https://assets.claude.com/99082878634987fa02dba4063f52559916cf926c.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Sep 5, 2025
@@ -63,7 +63,7 @@ To be sure, Claude and other LLMs are not currently capable of actually doing sc
 
 Within a year, Claude went from underperforming world-class experts on an evaluation designed to test virology troubleshooting scenarios in a lab setting, to comfortably exceeding that baseline (see Figure 1).
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc1a9a5f88426b3e2fb7041e8143f1e3413b09ddf-889x390.png&w=1920&q=75)
+![](https://assets.claude.com/4eb42848de9ed924026b92014471fac6def48695.png?w=1920&q=75&fm=webp&fit=max)
 
 Claude’s performance has improved on VCT, an evaluation of model capabilities in troubleshooting virology tasks designed by SecureBio.
 
@@ -77,9 +77,9 @@ In considering the contribution of AI to biorisk, we need to know more than just
 
 To meet both of these criteria, we have conducted several controlled trials measuring AI’s ability to assist in the planning of a hypothetical bioweapons acquisition process. Participants were given up to two days to draft a comprehensive bioweapons acquisition plan. The control group only had access to basic internet resources, while the model-assisted group had additional access to Claude with safeguards removed. (In limited cases like this, it is important to provide trusted parties with access to the unsafeguarded version of the model in order to more accurately assess the maximum capabilities of the technology.) The resulting plans were graded by biodefense experts using a detailed rubric that assesses key steps of the acquisition pathway. Participants with access to Claude 4 models—especially Claude Opus 4—received much higher scores and developed plans with substantially fewer critical failures compared to the internet-only control group.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb6b552ad3b9b9cc2312d55ef98c5d343078753c3-980x580.png&w=2048&q=75)
+![](https://assets.claude.com/a774657b11cc381d260782b6a4fbb6442bfa49aa.png?w=2048&q=75&fm=webp&fit=max)
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F4dabd0ce91dd00553db423a8d24496e52ad4308d-980x580.png&w=2048&q=75)
+![](https://assets.claude.com/4917ae7b6851d56b4ed3efb800ae8c9bd1b591ea.png?w=2048&q=75&fm=webp&fit=max)
 
 Bioweapons acquisition uplift trial results. Top: raw scores from the uplift trial. Bottom: critical failures hit by participants.
 

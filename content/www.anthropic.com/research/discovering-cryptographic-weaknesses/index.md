@@ -2,7 +2,7 @@
 
 # Discovering cryptographic weaknesses with Claude
 
-![Discovering cryptographic weaknesses with Claude](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fac3d0189c2f7cf1bf6f9e80059d7b8f1a80f9ee1-2000x1125.jpg&w=1920&q=75)
+![Discovering cryptographic weaknesses with Claude](https://assets.claude.com/c3844126f7231fd437188ccea7748972625d0492.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Jul 28, 2026

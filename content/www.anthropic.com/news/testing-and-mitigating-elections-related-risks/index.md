@@ -31,7 +31,7 @@ We've developed a flexible process using in-depth expert testing (“Policy Vuln
 
 In this post, we’ll describe each stage of our testing process, how those testing methods inform our risk mitigations, and how we measure the efficacy of those interventions once applied (as visualized in the figure below). We’ll illustrate this process through a closer look at one area: how our models respond to questions about election administration.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe67c6ead4da50a4b78d44f7152bcae9adf37919b-2200x1200.png&w=3840&q=75)
+![](https://assets.claude.com/d7a65f4d845ef4c20a019582b4effa73f7d25642.png?w=3840&q=75&fm=webp&fit=max)
 
 Our process for testing and improving AI models for use in elections combines in-depth qualitative insights from **Policy Vulnerability Testing (PVT)** with subject matter experts and scalable, comprehensive **Automated Evaluations**. Informed by those findings, we **Implement** **Mitigation Strategies** such as policy updates, tooling enhancements, and model fine-tuning. We then **Retest to Measure the Efficacy** of our interventions. This iterative approach provides both depth and breadth in understanding model behavior, mitigating risks, and verifying progress.
 
@@ -104,7 +104,7 @@ The results of Policy Vulnerability Testing and the automated evaluations we ran
 
 To evaluate whether this change had a positive effect, we used an automated evaluation that allowed us to measure two things: accuracy of EU election information, and whether our models appropriately referenced their knowledge cutoff date in situations where it’s appropriate and desirable to do so. Comparing a legacy version of our model (Claude 2), a research version of Claude 3 (Opus) without its system prompt, and the publicly-available version of Claude 3 (Opus) that includes the system prompt, we see a 47.2% improvement in one of our priority mitigations.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1cc70f79d5b63a3d743e7800f5a84cb5002b9d86-2200x1424.png&w=3840&q=75)
+![](https://assets.claude.com/1cc70f79d5b63a3d743e7800f5a84cb5002b9d86.png?w=3840&q=75&fm=webp&fit=max)
 
 #### Case Study #3: Fine-tuning intervention improves model suggestions to refer to authoritative sources
 
@@ -112,7 +112,7 @@ The testing outlined above also informed our second priority mitigation: models 
 
 To evaluate the efficacy of our fine-tuning intervention, we compared a legacy version of our model that was not fine-tuned to refer people to reliable sources (Claude 2) and one that was (Claude 3 Opus). We did this using an automated evaluation for accuracy on EU election information, and also calculated how often the model referred people to reliable sources when appropriate. We find that the fine-tuning led to a 10.4% improvement in how often the model refers people to authoritative sources of information in questions where it is appropriate to do so.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F57beedfa123c8e1108b939e28077c7048ead2f8c-2200x1424.png&w=3840&q=75)
+![](https://assets.claude.com/57beedfa123c8e1108b939e28077c7048ead2f8c.png?w=3840&q=75&fm=webp&fit=max)
 
 It's important to recognize (and our evaluations above demonstrate) that no single intervention is going to be completely effective in eliciting or preventing a specific behavior that we intend. That's why we adopt a "Swiss cheese model" for system safety, applying a set of layered and overlapping interventions, many of which are described above. This multi-faceted approach helps prevent our models from unintentionally providing inaccurate or misleading information to users, while also safeguarding against use that violates our policies.
 

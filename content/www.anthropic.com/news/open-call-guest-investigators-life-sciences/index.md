@@ -1,6 +1,6 @@
 # Open call for guest investigators in the life sciences
 
-![Open call for guest investigators in the life sciences](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb735fbd5cb2d8b2ed82aad92fa774b8e5139b9d8-2000x1125.jpg&w=1920&q=75)
+![Open call for guest investigators in the life sciences](https://assets.claude.com/082019bd9106c977f7d033c517f7d49cffd8b4db.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Oct 22, 2026

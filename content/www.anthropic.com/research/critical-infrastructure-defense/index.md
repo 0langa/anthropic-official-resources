@@ -2,7 +2,7 @@
 
 # Experimenting with AI to defend critical infrastructure
 
-![Experimenting with AI to defend critical infrastructure](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3611382c3eaaa77aa174b72f13e1a4061ea21903-2000x1125.jpg&w=1920&q=75)
+![Experimenting with AI to defend critical infrastructure](https://assets.claude.com/3611382c3eaaa77aa174b72f13e1a4061ea21903.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Jan 8, 2026

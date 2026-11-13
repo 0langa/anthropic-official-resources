@@ -4,7 +4,7 @@
 
 [Read the new constitution](https://www.anthropic.com/news/claude-new-constitution)
 
-![Claude’s constitution](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc8ef102f0e46b6ea8fb27e763130e2ce84bbfba7-3000x1688.jpg&w=1920&q=75)
+![Claude’s constitution](https://assets.claude.com/c8ef102f0e46b6ea8fb27e763130e2ce84bbfba7.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   May 9, 2023
@@ -33,7 +33,7 @@ Related articles
 
 [View more](https://www.anthropic.com/search?topic=constitutional-ai)
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F25bbf895e395c4c96313d1d5e8ed6ab1ae3ee169-2880x1620.png&w=3840&q=75)
+![](https://assets.claude.com/25bbf895e395c4c96313d1d5e8ed6ab1ae3ee169.png?w=3840&q=75&fm=webp&fit=max)
 
 How does a language model decide which questions it will engage with and which it deems inappropriate? Why will it encourage some actions and discourage others? What “values” might a language model have?  
   
@@ -57,7 +57,7 @@ You can read about our process more fully in our paper on [Constitutional AI](ht
   
 We use the constitution in two places during the training process. During the first phase, the model is trained to critique and revise its own responses using the set of principles and a few examples of the process. During the second phase, a model is trained via reinforcement learning, but rather than using human feedback, it uses AI-generated feedback based on the set of principles to choose the more harmless output.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcfbed6cbe5b3aa3738c05a8bcfd8911fc9611704-5007x2178.png&w=3840&q=75)
+![](https://assets.claude.com/cfbed6cbe5b3aa3738c05a8bcfd8911fc9611704.png?w=3840&q=75&fm=webp&fit=max)
 
 CAI training can produce a Pareto improvement (i.e., win-win situation) where Constitutional RL is both more helpful and more harmless than reinforcement learning from human feedback. In our tests, our CAI-model responded more appropriately to adversarial inputs while still producing helpful answers and not being evasive. The model received no human data on harmlessness, meaning all results on harmlessness came purely from AI supervision.  
   

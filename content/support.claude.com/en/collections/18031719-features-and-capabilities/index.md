@@ -1,12 +1,12 @@
 # Features and capabilities
 
-37 articles
+39 articles
 
 [What are artifacts and how do I use them?](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them)
 
 [Share artifacts](https://support.claude.com/en/articles/9547008-share-artifacts)
 
-[Get started with Claude Dashboards](https://support.claude.com/en/articles/17454700-get-started-with-claude-dashboards)
+[Get started with Claude Data](https://support.claude.com/en/articles/17454700-get-started-with-claude-data)
 
 [Get started with Claude Docs](https://support.claude.com/en/articles/16923645-get-started-with-claude-docs)
 
@@ -75,3 +75,7 @@
 [How to use Link by Stripe with Claude Duet](https://support.claude.com/en/articles/17666484-how-to-use-link-by-stripe-with-claude-duet)
 
 [How to use Shop Pay with Claude Duet](https://support.claude.com/en/articles/17666489-how-to-use-shop-pay-with-claude-duet)
+
+[Get started with Claude Sheets](https://support.claude.com/en/articles/18324300-get-started-with-claude-sheets)
+
+[Get started with Claude Whiteboards](https://support.claude.com/en/articles/18324319-get-started-with-claude-whiteboards)

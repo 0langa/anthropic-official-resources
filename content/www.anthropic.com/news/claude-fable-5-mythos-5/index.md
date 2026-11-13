@@ -2,7 +2,7 @@
 
 # Claude Fable 5 and Claude Mythos 5
 
-![The number five composed of several butterflies](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb7055119423427c40a0e4d84054aed17682b50a2-2880x1620.png&w=1920&q=75)
+![The number five composed of several butterflies](https://assets.claude.com/b7055119423427c40a0e4d84054aed17682b50a2.png?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Jun 9, 2026
@@ -61,15 +61,15 @@ Fable 5 and Mythos 5 are being offered at $10 per million input tokens and $50 p
 
 The table below compares the capabilities of Fable 5 and Mythos 5 to other leading models.
 
-![Benchmark table showing Claude Fable and Mythos compared to other leading models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1e65982497d7d4891219ed0e83141625a291b860-2600x2870.png&w=3840&q=75)
+![Benchmark table showing Claude Fable and Mythos compared to other leading models](https://assets.claude.com/3bd88c959e4a412d0dd5ffb551c052482a14c1b1.png?w=3840&q=75&fm=webp&fit=max)
 
 Fable 5 and Mythos 5 can work autonomously for longer than any previous Claude models. Below we discuss how these skills apply to software engineering, and cover the model’s improved capabilities in knowledge work, vision, memory, and life sciences research.
 
 *Software engineering.* During early testing, [Stripe](https://stripe.com/) reported that Fable 5 compressed months of engineering into days. In a 50-million-line Ruby codebase, the model performed a codebase-wide migration in a day that would otherwise have taken a whole team over two months by hand. Fable 5 is also more token-efficient than past Claude models: on Cognition’s [FrontierCode](https://cognition.ai/blog/frontier-code) evaluation, which tests whether models can pass difficult coding tasks while meeting the standards of high-quality production codebases, Fable 5 scores highest among frontier models, even at medium effort.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd3c3efe0e8ab310856368cee2b2161439db6676a-1920x1080.png&w=3840&q=75)
+![](https://assets.claude.com/9664fd0708afdb8d9908dfcf269ddcca4013a844.png?w=3840&q=75&fm=webp&fit=max)
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F036229d8f9be9a5a911dbbd863b3c6cc09a79a70-3840x2160.png&w=3840&q=75)
+![](https://assets.claude.com/036229d8f9be9a5a911dbbd863b3c6cc09a79a70.png?w=3840&q=75&fm=webp&fit=max)
 
 *Knowledge work*. Fable 5 shows strong performance on complex analytical tasks. On [Hebbia](https://www.hebbia.com/)’s Finance Benchmark for senior-level reasoning, Fable 5 has the highest score of any model, with substantial gains in document-based reasoning, chart and table interpretation, and problem solving. [IMC](https://www.imc.com/) noted that Fable 5 aced their trading-analysis evaluations nearly across the board, including factual lookup, conceptual reasoning, root-cause analysis, and expected-value analysis.
 
@@ -101,7 +101,7 @@ A fluid simulation coded by Claude Fable 5 where the motion is synchronized to t
 
 *Drug design:* Using Mythos 5, our internal protein design experts accelerated aspects of the drug design process by around 10 times. In one example, they found that Mythos 5, with protein design and bioinformatics tools but no human assistance, matches or beats skilled human operators. In doing so, the model executes all of the tasks that are normally completed by a scientist: choosing binding sites, selecting and running protein design tools, and recovering from failures along the way. Nine of the 14 protein targets from this study (shown below) yielded strong candidates for drug design that we’re currently investigating.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6a97019c4d8ea13fdd7200455f6dd9e8c267ba0b-1920x1080.png&w=3840&q=75)
+![](https://assets.claude.com/a4d205a6df390dfdc7eeb9b2e8ae51a1f522ce21.png?w=3840&q=75&fm=webp&fit=max)
 
 Protein complexes designed by Mythos 5. Targets include immune checkpoints, growth-factor and receptor signaling, neurodegeneration, muscle disease, and harder structural targets.
 
@@ -111,7 +111,7 @@ Protein complexes designed by Mythos 5. Targets include immune checkpoints, grow
 
 *Alignment*. In our automated alignment assessment, we found that Mythos 5’s level of misaligned behavior (including misaligned actions taken by the model such as deception and cooperation with misuse of the model by a user) was low, and similar to that of Opus 4.8. Given that they are the same underlying model, Fable 5’s level of alignment will be similar. The assessment is described in full, along with a detailed suite of other safety and capabilities tests, in the model’s [system card](https://anthropic.com/claude-fable-5-mythos-5-system-card).
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2502a0daf85b741641cff36757d7243ef48f8be8-3840x2160.png&w=3840&q=75)
+![](https://assets.claude.com/2502a0daf85b741641cff36757d7243ef48f8be8.png?w=3840&q=75&fm=webp&fit=max)
 
 Overall level of misaligned behaviors from our automated alignment assessment. See section 6.2.3.1 of the [system card](https://anthropic.com/claude-fable-5-mythos-5-system-card) for more.
 
@@ -119,7 +119,7 @@ Overall level of misaligned behaviors from our automated alignment assessment. S
 
 Customers with early access ran their own tests on Fable 5. Below, in their words, is a selection of what they’re seeing:
 
-![Michael Truell logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/f084c88e65466636019709c40cc477aadce2f718-151x64.svg)
+![Michael Truell logo](https://assets.claude.com/62424b5d85da8dcda763e6658130ada284c72ca4.svg)
 
 > “Claude Fable 5 is the state of the art model on CursorBench. It's opened up a class of long-horizon problems that were out of reach for earlier models.”
 
@@ -127,7 +127,7 @@ Michael Truell
 
 CEO and Co-founder
 
-![Mario Rodriguez logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/fc55f4db8afa5db479127fde5be3e492940f513d-94x64.svg)
+![Mario Rodriguez logo](https://assets.claude.com/a8b374be6b1bb1e4331861b6ef4ffb4f860e266b.svg)
 
 > “Claude Fable 5 is a real step forward for the developers GitHub serves. In our early testing, it took on complex, long-horizon coding tasks with a level of autonomy and reliability that exceeded previous benchmarks. But what excites us most is the direction it points: a future where developers can hand increasingly ambitious work to agents and trust the results across the software lifecycle.”
 
@@ -135,7 +135,7 @@ Mario Rodriguez
 
 Chief Product Officer
 
-![Matt Colyer logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/1d9e0d7a5760165244bba057a622513bb75cb65d-80x64.svg)
+![Matt Colyer logo](https://assets.claude.com/35b2fc2757d2c4418749f848362932f6015b8d68.svg)
 
 > “These are the strongest results of any Claude model we've had the opportunity to test. Claude Fable 5 is a clear step forward on agentic coding and prototyping.”
 
@@ -143,7 +143,7 @@ Matt Colyer
 
 Director of Product, Developers
 
-![Sean Ward logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/046fc90b1e849e0ef96b6a9923d47ae13272b50f-173x64.svg)
+![Sean Ward logo](https://assets.claude.com/8c9a75c0281646457beabee660b23258c610671f.svg)
 
 > “Claude Fable 5's reasoning is a clear step beyond Opus 4.8. It works at senior research scientist grade — picking directions, allocating resources, killing its incorrect beliefs, and producing novel first-principles outputs.”
 
@@ -151,7 +151,7 @@ Sean Ward
 
 CEO and Co-founder
 
-![Fabian Hedin logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/40a2a6a28afd8ac8fbf0e764b6bbf4ebf06a1977-133x64.svg)
+![Fabian Hedin logo](https://assets.claude.com/0eb54af78f471540004bbb43ae3a68b8a26e9930.svg)
 
 > “Claude Fable 5 understands what builders mean, not just what they type. Apps that took a hundred prompts a year ago, it now one-shots. When a customer really hits a wall, it's the model we reach for to get them past it quickly, so they can finish what they set out to build.”
 
@@ -159,7 +159,7 @@ Fabian Hedin
 
 CTO & Co-founder
 
-![Aveek Duttagupta logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/a0935a9396e8ec29b273be438cac14583c5999a6-130x64.svg)
+![Aveek Duttagupta logo](https://assets.claude.com/aac23b865dde8b55afd3ea57c38e3de96aef0209.svg)
 
 > “Claude Fable 5 feels materially different. In blind review, our lawyers found its redlines matched or beat our current model every time.”
 
@@ -167,7 +167,7 @@ Aveek Duttagupta
 
 Member of Technical Staff
 
-![Yusuke Kaji logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/73b380711885c6beb5270575119dbf31d7f71236-107x64.svg)
+![Yusuke Kaji logo](https://assets.claude.com/c85b6c1fcbc7a53bf76894928b32d83c5564c4b3.svg)
 
 > “At the highest effort, Claude Fable 5 reflects on and validates its own work. For us, that's what makes highly autonomous operations possible — the extra thinking pays for itself.”
 
@@ -175,7 +175,7 @@ Yusuke Kaji
 
 GM, AI for Business
 
-![Luke Anderson logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/74f9dcd65076def29413e42e822da248590b68d3-145x64.svg)
+![Luke Anderson logo](https://assets.claude.com/927048980a9bca45e2f076ab50493e2b81664c0c.svg)
 
 > “Claude Fable 5 delivers more capable engineering in fewer turns than prior models — handling the complex multi-agent workflows our employees run daily in Claude Code.”
 
@@ -183,7 +183,7 @@ Luke Anderson
 
 CTO
 
-![Scott Wu logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/ad249bca4e8e195e08764efc43ecbc586ca37482-143x64.svg)
+![Scott Wu logo](https://assets.claude.com/cd06ed7f01af497d255eaf697fba661756302d9f.svg)
 
 > “Claude Fable 5 is the highest-scoring model on FrontierBench, Cognition's frontier coding eval. It excels at long-horizon reasoning and generalizes to unfamiliar tools out of the box.”
 
@@ -191,7 +191,7 @@ Scott Wu
 
 CEO
 
-![Damian Miraglia logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/e360f8a29093a6b4fccdc006315035583e89f9ac-146x64.svg)
+![Damian Miraglia logo](https://assets.claude.com/7174dce5a19b00932761c60d1833240d2dd9679e.svg)
 
 > “Claude Fable 5 is the strongest finance-first model we've tested, both on general finance and reasoning. It's a notable step up.”
 
@@ -199,7 +199,7 @@ Damian Miraglia
 
 Principal Engineer, Applied AI
 
-![Izzy Miller logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/7fbed01e869d6a4faf97317a1fc4b74f7997c66e-78x64.svg)
+![Izzy Miller logo](https://assets.claude.com/759911b442e6b5aa1ff3d64e47eabeb68bb86596.svg)
 
 > “Claude Fable 5 is the first to break 90% on our core analytics benchmark of complex, long-running analytical tasks — a 10-point jump over Opus. On the hardest questions, it shows strong judgment and attention to nuance.”
 
@@ -207,7 +207,7 @@ Izzy Miller
 
 AI Research Lead
 
-![Matthew Pines logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F41fa2545bafc63f50148ce0d710dbdadb8c06f87-888x256.png&w=1080&q=75)
+![Matthew Pines logo](https://assets.claude.com/d6f14a271098e5b815be0dda04bd1bb84ef56c79.png?w=1080&q=75&fm=webp&fit=max)
 
 > “Claude Fable 5 is the strongest model we've tested on frontier physics research while using a third of the reasoning tokens. In 36 hours it got nearly to where GPT-5.5 landed after four days.”
 
@@ -215,7 +215,7 @@ Matthew Pines
 
 CEO
 
-![Michele Catasta logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/0504471eb7da85317c6def349d315e2f8be00b0f-127x64.svg)
+![Michele Catasta logo](https://assets.claude.com/c9720e7571a7ad3432d77454dd5d7024b6299df0.svg)
 
 > “On ViBench, our end-to-end vibe-coding benchmark, Claude Fable 5 is the highest-performing model we've tested — nearly saturating our base use cases and building apps in less time with fewer tokens.”
 
@@ -223,7 +223,7 @@ Michele Catasta
 
 President & Head of AI
 
-![Peter Wang logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/b7787c9ab5714b0c1789da32a3a52daba81f6bef-63x64.svg)
+![Peter Wang logo](https://assets.claude.com/d7be9db28564ebd6a8e5241d3d4e34a031775e96.svg)
 
 > “Claude Fable 5 beats Opus 4.8 on our everyday spreadsheet suite at every effort level — and it does it with fewer turns, finishing runs 25–30% faster.”
 
@@ -259,7 +259,7 @@ The following are the areas covered by the classifiers:
 
 1. *Cybersecurity*. Mythos-class models [excel](https://red.anthropic.com/2026/mythos-preview/) at discovering and exploiting software vulnerabilities. They can thus make cyberattacks substantially easier and cheaper to commit. Mythos-class models also show strong skills in agentic hacking. This involves performing multiple different parts of a cyberattack in addition to finding exploits—reconnaissance, discovery, lateral movement, and more. To prevent these agentic hacking skills providing uplift in cyberattacks, we designed our cybersecurity classifiers to cover both exploitation and offensive cyber tasks in a broader sense. As shown in the graph below, our classifiers prevent Fable from making any progress on these tasks.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffaf941fe1ebfd09139d39b8e4ad9048121979284-3840x2160.png&w=3840&q=75)
+![](https://assets.claude.com/faf941fe1ebfd09139d39b8e4ad9048121979284.png?w=3840&q=75&fm=webp&fit=max)
 
 Results of running cyber evaluations,3 with Fable 5 in a mode that blocks responses rather than falling back to Opus 4.8. Evaluations did not involve attempts to evade safeguards.
 
@@ -267,7 +267,7 @@ We extensively red-teamed our classifiers to test their robustness against jailb
 
 The graph below, from one of our internal evaluations, illustrates how Fable 5’s safeguards give it greater resistance to jailbreaks than our previous generally accessible models.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6bede3f6101d15bd899922917ea6246adda4515b-1920x1080.png&w=3840&q=75)
+![](https://assets.claude.com/6bede3f6101d15bd899922917ea6246adda4515b.png?w=3840&q=75&fm=webp&fit=max)
 
 Results of an internal evaluation in which an automated red-teamer tries to use the model to complete a short task related to offensive cybersecurity across 400 turns, restarting and rewinding when blocked. The tasks are mostly simple and not representative of real cyber usage—they are sometimes as simple as encrypting files on a remote server. On more complex and realistic tasks, we have not yet seen successful jailbreaks on our production system. Note that Opus 4.6 does not have blocking cyber safeguards.
 
@@ -277,7 +277,7 @@ One of our external partners found that Fable 5’s safeguards against harmful c
 
 For example, we tested Mythos 5’s ability to complete a challenging step in designing [adeno-associated viruses](https://en.wikipedia.org/wiki/Adeno-associated_virus) (AAVs). AAVs are a component for delivering gene therapies, but the same capability, in the wrong hands, could enable the design of dangerous viruses. In this task, various AI models were evaluated on their ability to predict how a genetic modification would impact the assembly of the virus’s outer shell (among a set of therapeutically relevant unpublished candidates developed by [Dyno Therapeutics](https://www.dynotx.com/)). We did not explicitly train our models to perform this task—and yet Mythos-class models outperformed sophisticated models dedicated to protein tasks (known as “protein language models”) using their biological reasoning alone. This demonstrates a promising ability to complete simple but important tasks in gene therapy research and development—but also highlights the risk posed by such dual-use capabilities.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3437ad5c0853a7bd273ed5e56289a4f38dcd9731-3840x2160.png&w=3840&q=75)
+![](https://assets.claude.com/8288c4a2c5e443323b4a51beb5ca214ef8e990a6.png?w=3840&q=75&fm=webp&fit=max)
 
 Results of an evaluation in which our models predicted the unpublished experimental properties of the viral shell of a simple virus. Viral shell assembly is the simplest viral trait to predict in this context, but it is nonetheless an important property to get right when designing more complex features. AAV = adeno-associated virus.
 

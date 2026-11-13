@@ -141,7 +141,7 @@ Certain files are automatically excluded from analysis because they are auto-gen
 
 * Lock files: package-lock.json, yarn.lock, Cargo.lock, and similar
 * Generated code: Protobuf outputs, build artifacts, minified files
-* Build directories: dist/, build/, node\_modules/, target/
+* Build directories: dist/, build/, node_modules/, target/
 * Test fixtures: snapshots, cassettes, mock data
 * Lines over 1,000 characters, which are likely minified or generated
 

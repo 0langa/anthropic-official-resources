@@ -2,7 +2,7 @@
 
 # **Vibe physics:**The AI grad student
 
-![Vibe physics: The AI grad student](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd96d4ce5c32b6dc6de0d305661d26a0620f85ae6-2000x1125.jpg&w=1920&q=75)
+![Vibe physics: The AI grad student](https://assets.claude.com/211c9c1dc888e3e14c0987ca82e208ad893bf522.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Mar 23, 2026
@@ -72,7 +72,7 @@ and out would pop the paper. We are not there yet, of course. I tried giving thi
 
 To go about this scientifically, I encapsulated all the work. The rules were strict:
 
-- Only give text prompts to [Claude Code](https://claude.ai/redirect/website.v1.0c11063e-cb55-4beb-b96b-f7c5e8aaf846/code). No editing files directly.
+- Only give text prompts to [Claude Code](https://claude.ai/redirect/website.v1.aa122479-866f-48a4-8c87-e9c46a2653f9/code). No editing files directly.
 - Don’t cut and paste my own calculations into the chat.
 - But pasting Gemini or GPT calculations was OK, as long as they were only text-prompted.
 
@@ -82,9 +82,9 @@ My question was: is there a set of prompts, like instructions to a talented G2, 
 
 I knew from experience that LLMs struggle with context and organization over long projects. So I started by asking Claude to come up with a plan of attack: what tasks needed to be done in what order. I also asked GPT 5.2 and Gemini 3.0. Then, I had all three LLMs merge the best ideas from each, using web interfaces and copying one to another. Next, I gave those merges to Claude, asking it to break the outline into detailed subsections. The result is [here](https://www-cdn.anthropic.com/2595299ccf7f8b9a9c74823c24faaa5d9b216804.pdf). There were 102 separate tasks across seven stages.
 
-From there, I turned to [Claude Code](https://claude.ai/redirect/website.v1.0c11063e-cb55-4beb-b96b-f7c5e8aaf846/code), using the extension in VS Code.
+From there, I turned to [Claude Code](https://claude.ai/redirect/website.v1.aa122479-866f-48a4-8c87-e9c46a2653f9/code), using the extension in VS Code.
 
-![A screen grab of Claude code](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2277f287d82a9a6087bc70c6d16cfd6648634d7e-1600x967.jpg&w=3840&q=75)
+![A screen grab of Claude code](https://assets.claude.com/19ac6705198402720253e3a1cee64dfa29baac98.jpg?w=3840&q=75&fm=webp&fit=max)
 
 I created a folder for the project, put in the master plan, and had it try to solve each task separately, writing its results in a separate markdown file. Some examples are [Task 1.1: Review BSZ Paper](https://www-cdn.anthropic.com/c993ead637f1a102fe1f5346e89f59e82c579b37.pdf) and [Task 1.2: Review Catani—Webber](https://www-cdn.anthropic.com/94b3c41e52e19ba450fe5e804400ebcf0a88f3d0.pdf).
 
@@ -98,7 +98,7 @@ Even this first stage wasn’t completely hands-off. After finishing 7 of 14 tas
 
 During the initial stage, I had Claude postpone the numerics, which I knew would require some babysitting. Instead, I had it focus on the conceptual and analytic parts. Claude hit the ground running: it compiled EVENT2, an old Fortran code, wrote analysis scripts, and started generating events. It was great at running the code but struggled with normalization, such as simple factors of 2 and histogram binning. After a few tries, however, it produced something that looked excellent—the theory agreed with the simulation:
 
-![Graphs depicting analytic calculations in agreement with one another](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F602ecef11d6236c71c2e61166710bf973e506013-1600x621.jpg&w=3840&q=75)
+![Graphs depicting analytic calculations in agreement with one another](https://assets.claude.com/3124a655864b8f44b6900aaa2ba73d2779ae5c8f.jpg?w=3840&q=75&fm=webp&fit=max)
 
 Claude ran simulations (histograms) and did an analytic calculation (solid lines) and found excellent agreement.
 
@@ -124,7 +124,7 @@ The more I dug, the more I found it had been tweaking things left and right. Cla
 
 Most of the mistakes were minor, and Claude could fix them. After a couple more days, it seemed like there were no more errors to fix—if I asked Claude to double-check for mistakes or bullshit, it wouldn’t find any. I even had it make a plot with uncertainty bands which looked great:
 
-![Plots showing results made by Claude](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F65504eae97db54c0f511b0b962f8207e89f11c2f-1600x681.jpg&w=3840&q=75)
+![Plots showing results made by Claude](https://assets.claude.com/363f846df28e899a8cc32ad25927ed5b89590722.jpg?w=3840&q=75&fm=webp&fit=max)
 
 Claude made fantastic plots showing results with uncertainties that looked just like what one would hope for. Unfortunately, the plots were too good. It was cheating.
 
@@ -144,7 +144,7 @@ At this stage, all that remained was massaging the text and the figures. To be f
 
 The final money plot was:
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F659615b584741050ed0005607edf25e167b01fb0-1600x676.jpg&w=3840&q=75)
+![](https://assets.claude.com/4f88a11b8b91185e459f581d57fd0f0df11e3a07.jpg?w=3840&q=75&fm=webp&fit=max)
 
 The final plot that made it into the paper was similar to the previous one but actually correct.
 

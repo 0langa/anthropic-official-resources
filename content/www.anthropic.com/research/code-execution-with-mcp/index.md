@@ -2,7 +2,7 @@
 
 # **Code execution with MCP:**Building more efficient agents
 
-![Code execution with MCP: Building more efficient agents](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3e0d0372816b05a6b7a5d21f364412dede1c3497-2000x1125.jpg&w=1920&q=75)
+![Code execution with MCP: Building more efficient agents](https://assets.claude.com/08e48f43733d11682d390dd6f87dd17815c365c6.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Nov 4, 2025
@@ -98,7 +98,7 @@ Every intermediate result must pass through the model. In this example, the full
 
 With large documents or complex data structures, models may be more likely to make mistakes when copying data between tool calls.
 
-![Image of how the MCP client works with the MCP server and LLM.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9ecf165020005c09a22a9472cee6309555485619-1920x1080.png&w=3840&q=75)
+![Image of how the MCP client works with the MCP server and LLM.](https://assets.claude.com/9ecf165020005c09a22a9472cee6309555485619.png?w=3840&q=75&fm=webp&fit=max)
 
 The MCP client loads tool definitions into the model's context window and orchestrates a message loop where each tool call and result passes through the model between operations.
 

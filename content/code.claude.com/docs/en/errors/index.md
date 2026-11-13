@@ -119,6 +119,7 @@ Match the message you see to a section below.
 | `A request to MCP server "<name>" was sent without your stored credentials` | [Authentication](#couldnt-read-the-stored-credentials-for-mcp-server) |
 | `This server's URL is missing or not a valid URL, so sign-in can't start` | [Authentication](#mcp-server-url-is-missing-or-not-a-valid-url) |
 | `Issuer mismatch in authorization response (RFC 9207)` | [Authentication](#issuer-mismatch-in-authorization-response) |
+| `Stopped an OAuth request` | [Authentication](#stopped-an-oauth-request) |
 | `Refusing to send credentials to non-https token endpoint` / `<short-name> from the MCP SDK for <server-url>` | [Authentication](#refusing-to-send-credentials-to-non-https-token-endpoint) |
 | `Cloud gateway session expired — run /login to reconnect.` | [Authentication](#cloud-gateway-session-expired) |
 | `Cloud gateway <url> no longer accepts this session` | [Authentication](#cloud-gateway-session-expired) |
@@ -248,6 +249,8 @@ Match the message you see to a section below.
 | `Ultrareview did not start` | [Command-line errors](#ultrareview-did-not-start) |
 | `Remote Control did not start: "<question>" got no answer` | [Command-line errors](#remote-control-did-not-start-got-no-answer) |
 | `` `<flag>` before `remote-control` is not carried over to the sessions Remote Control starts `` | [Command-line errors](#not-carried-over-to-the-sessions-remote-control-starts) |
+| `Remote Control did not start, because sessions would skip part or all of the --settings file` | [Command-line errors](#remote-control-did-not-start-because-of-the-settings-file) |
+| `The settings file <file> has changed since Remote Control started, so this session did not start` | [Command-line errors](#settings-file-changed-since-remote-control-started) |
 | `--sandbox is not supported by claude remote-control` / `--no-sandbox is not supported by claude remote-control` | [Command-line errors](#sandbox-is-not-supported-by-claude-remote-control) |
 | `` `claude import` is not yet available in this build `` | [Command-line errors](#claude-import-is-not-yet-available-in-this-build) |
 | `Could not read Claude Code config` | [Command-line errors](#could-not-read-claude-code-config) |
@@ -822,7 +825,7 @@ This denial means a hook or mod [changed the call's input](/docs/en/hooks#pretoo
 Later calls in the same Claude response can be denied with this reason:
 
 ```text theme={null}
-another call in this response was changed by a hook after auto mode reviewed it, or could not be confirmed unchanged
+another call in this response was changed after auto mode reviewed it, or could not be confirmed unchanged
 ```
 
 Claude can then issue each denied call again so the server reviews it. If a permission prompt opens, answer it. You don't need to do anything else unless Claude says in its reply that auto mode couldn't check the call. Then stop the change or approve the call yourself, and ask Claude to try the call again:
@@ -1819,6 +1822,19 @@ Issuer mismatch in authorization response (RFC 9207): expected "https://auth.exa
 
 Before v2.1.232, Claude Code used the v2 runtime only in a gradual rollout or when you set `MCP_SDK_GENERATION=v2`.
 
+### Stopped an OAuth request
+
+This message means that Claude Code stopped an [OAuth request for an MCP server](/docs/en/mcp#authenticate-with-remote-mcp-servers) because an OAuth endpoint redirected it. In both forms of the message, the first address is the one that sent the redirect:
+
+```text theme={null}
+Stopped an OAuth request, which can hold secrets: https://auth.example.com redirected it to https://other.example.com. Ask the owner of https://auth.example.com to remove that redirect.
+Stopped an OAuth request: https://auth.example.com redirected it more than 5 times. Ask the owner of https://auth.example.com to fix those redirects.
+```
+
+**What to do:**
+
+* Ask whoever runs the first address, such as the MCP server's operator, to remove or fix the redirect. Then try again from `/mcp`.
+
 ### Refusing to send credentials to non-https token endpoint
 
 On the [v2 runtime](/docs/en/mcp#mcp-client-runtimes), Claude Code sends an [MCP OAuth](/docs/en/mcp#authenticate-with-remote-mcp-servers) token request only to a token endpoint served over HTTPS or at `localhost`, `127.0.0.1`, or `::1`. This message means the server's token endpoint is neither, so Claude Code stopped before sending the request. That happens after the browser sign-in, so the browser step succeeds first, and again whenever Claude Code refreshes the server's token.
@@ -2204,7 +2220,7 @@ On [Amazon Bedrock](/docs/en/amazon-bedrock), the requests Claude Code itself se
 
 ### Host not allowed in a cloud session
 
-An outbound HTTP request from a cloud session or cloud scheduled task was blocked by the environment's network policy.
+In a cloud session or cloud scheduled task, a `403` or a DNS error such as `ENOTFOUND` can mean that the requested host isn't on the [cloud environment's allowlist](/docs/en/cloud-environments#access-levels). To confirm, check the host against that list. A `403` with this header confirms the block, but not every blocked request's `403` has it:
 
 ```text theme={null}
 HTTP 403
@@ -2562,6 +2578,8 @@ Unable to resize image — its pixels could not be decoded (the file may be dama
 
 Claude Code normally resizes large images automatically. These errors mean the image couldn't be decoded or resized to fit within the API limits.
 
+The error you see can name a different pixel limit, such as `2576x2576px` where these examples say `2000x2000px`.
+
 **What to do:**
 
 * If the message asks you to convert the image, convert it to PNG, JPEG, GIF, or WebP and attach it again. Claude Code can verify dimensions for these formats from the file header, without decoding the image.
@@ -2665,7 +2683,7 @@ Tool "mcp__<server>__<tool>" is not sent to Claude: its name has <N> characters 
 
 Before v2.1.292, Claude Code sent the tool anyway, and the API rejected every request that included it with `API Error: 400 ... tools.N.custom.name: String should have at most 128 characters`.
 
-### tool\_use.name over 200 characters
+### tool_use.name over 200 characters
 
 A tool call in the conversation history carries a name longer than the 200 characters the API accepts in a request:
 
@@ -2870,7 +2888,7 @@ The reason after the colon says what refused the switch:
 * **A reason a hook wrote**: a PreModelSwitch hook supplied that reason when it [denied the switch or asked for confirmation](/docs/en/hooks#premodelswitch-decision-control). Address what it asks, or pick a model your hooks allow.
 * **`PreModelSwitch hook <name> did not respond before its timeout`**: a hook that doesn't answer before its [timeout](/docs/en/hooks#timeouts) blocks the switch. Fix the hanging command or raise that hook's `timeout`, then switch again.
 * **`confirmation required, and this session cannot ask`**: a hook answered `ask` without a reason, and a control request has no way to show the confirmation prompt. A `/model` command in a [`-p` run](/docs/en/headless) reports the same condition with `(run /model interactively to confirm)` after the reason. Make the switch from an interactive session, or change the hook's decision for this model.
-* **`so organization-managed PreModelSwitch hooks could not be checked`**: Claude Code couldn't tell which PreModelSwitch hooks your organization's [managed plugins](/docs/en/settings-reference#enabledplugins) deliver, for example because a managed plugin failed to load. One of those hooks might block the switch, so Claude Code refuses rather than apply the switch unchecked. The start of the reason names what failed. Claude Code re-checks on every switch attempt, so a failure that has since cleared stops blocking; if it keeps failing, run `claude --debug` and switch again to capture the details, then fix the plugin or ask your admin to fix it.
+* **`so organization-managed PreModelSwitch hooks could not be checked`**: Claude Code before v2.1.323 refuses when it can't tell which PreModelSwitch hooks your [managed plugins](/docs/en/settings-reference#enabledplugins) deliver. The text before this phrase names what failed. To stop the refusal, update Claude Code. To also get a failed plugin's hooks running, fix the plugin or ask your admin. For details, start `claude --debug` in your shell and switch models, then read the [debug log](/docs/en/hooks#debug-hooks).
 * **`a PreModelSwitch hook failed before answering`** or **`PreModelSwitch hooks were cancelled (the control stream closed) before answering`**: the hook run ended without a verdict, and Claude Code doesn't treat that as approval. Run `claude --debug` to see what failed, then switch again.
 
 Before v2.1.260, the managed-plugin refusal read `plugin hooks could not be loaded, so PreModelSwitch hooks could not be checked; see the debug log`. Claude Code retried the plugin load once and then refused later switches in the session, even when your organization managed no plugins. Restart the session to run the plugin load again on those versions.
@@ -2994,7 +3012,7 @@ All variants mean the same thing: the sequence of `tool_use`, `tool_result`, and
 * If you are using Opus 4.7 or Opus 4.8, run `claude update` first. Versions before v2.1.156 can trigger this error during normal tool use, and `/rewind` doesn't clear it.
 * Run `/rewind`, or press Esc twice, to step back to a checkpoint before the corrupted turn and continue from there. See [Checkpointing](/docs/en/checkpointing) for how checkpoints are created and restored.
 
-### Invalid data in redacted\_thinking block
+### Invalid data in redacted_thinking block
 
 The API refused the request with a 400 because it couldn't accept a `redacted_thinking` block that an earlier turn in the conversation history carries.
 
@@ -3043,7 +3061,7 @@ When the error does appear, the refused system message isn't one Claude Code can
 
 Before v2.1.280, Claude Code didn't recognize this wording, so the error also appeared when the refused system message was one Claude Code itself sent, and every later turn of the conversation failed the same way.
 
-### Invalid encrypted\_content in search\_result block
+### Invalid encrypted_content in search_result block
 
 The API refused the request with a 400 because the conversation history holds hosted web-search content it can't decrypt. The wording names the field it can't read:
 
@@ -3519,7 +3537,7 @@ Remote Control did not start: "Choose [1/2] (default: 1):" got no answer. You ca
 You started [Remote Control](/docs/en/remote-control) with a global `claude` flag before the `remote-control` verb, one that would restrict or configure the sessions Remote Control starts, such as `--settings`, `--setting-sources`, `--permission-mode`, `--disallowed-tools`, or `--mcp-config`. A flag placed before the verb never reaches those sessions. Claude Code refuses to start instead, naming the flag:
 
 ```text theme={null}
-Error: `--settings` before `remote-control` is not carried over to the sessions Remote Control starts, so Remote Control refuses to start rather than drop it — remove it, and give Remote Control's own options after the verb (see `claude remote-control --help`).
+Error: `--settings` before `remote-control` is not carried over to the sessions Remote Control starts, so Remote Control refuses to start rather than drop it — remove it, and give Remote Control's own options after the verb (see `claude remote-control --help`). Pass settings with `claude remote-control --settings <file>`.
 ```
 
 Claude Code doesn't refuse global flags that are harmless to drop, such as `--verbose`, `--model`, or a wrapper-injected `--session-id` or `--plugin-dir`: it ignores them and Remote Control starts.
@@ -3532,6 +3550,31 @@ Claude Code also refuses to start for a global flag it doesn't yet recognize as 
 * When the refused flag is `--permission-mode`, run `claude remote-control --permission-mode <mode>` to set the permission mode for the sessions Remote Control starts
 
 Before v2.1.248, `claude remote-control` didn't accept its own flags when a global flag came first, and the command failed with an `unknown option` error.
+
+### Remote Control did not start because of the `--settings` file
+
+The file you passed to [`claude remote-control --settings`](/docs/en/remote-control#start-a-remote-control-session) has a problem:
+
+```text theme={null}
+Error: Remote Control did not start, because sessions would skip part or all of the --settings file ./rc-settings.json: Invalid or malformed JSON
+```
+
+**What to do:**
+
+* Fix the problem the message names, then run your `claude remote-control` command again
+
+### The settings file has changed since Remote Control started
+
+This message in the terminal running `claude remote-control` means that sessions won't start from the file you passed to [`--settings`](/docs/en/remote-control#start-a-remote-control-session) as it is now:
+
+```text theme={null}
+Session failed: Error: The settings file /path/to/settings.json has changed since Remote Control started, so this session did not start. Restart `claude remote-control` to use it as it is now.
+```
+
+**What to do:**
+
+* To use the file as it is now, stop `claude remote-control` and run the same command again. To bring back the sessions it was serving, see [Resume sessions after stopping the server](/docs/en/remote-control#resume-sessions-after-stopping-the-server).
+* To keep the settings Remote Control started with, put the file's contents back as they were, then run the command again if `claude remote-control` has exited
 
 ### `--sandbox` or `--no-sandbox` is not supported by claude remote-control
 
@@ -4425,7 +4468,7 @@ Marketplace "acme-tools" is already added from a different source (github:acme/p
 * If the marketplace you already added is the one you want, install from it by name: `/plugin install <plugin>@<name>`
 * To switch to the new source, run `/plugin marketplace remove <name>`, then retry the install
 
-### Plugin command references user\_config in a shell command
+### Plugin command references user_config in a shell command
 
 A plugin hook, [monitor](/docs/en/plugins/components#monitors), or MCP [`headersHelper`](/docs/en/mcp#use-dynamic-headers-for-custom-authentication) command references a `${user_config.KEY}` [plugin option](/docs/en/plugins/manifest-reference#user-configuration), and the substituted string would be passed to a shell. A configured value containing `$(...)`, backticks, or `;` would run as code there, so Claude Code refuses to start the component instead of substituting the value. The check runs on the command template, so the error appears even when no value is configured yet. Before v2.1.207, the value was substituted into the shell command.
 
@@ -4487,11 +4530,10 @@ Claude Code rejects both a path that points outside the plugin as written, such 
 commands path escapes plugin directory: ./commands/deploy.md — it resolves to /home/user/shared/deploy.md, outside the plugin directory
 ```
 
-A message that gives the full path of one of a marketplace plugin's own files, such as `hooks/hooks.json`, means Claude Code skipped that file. That happens when Claude Code can't confirm the file is inside the plugin or, for a plugin in a [local marketplace](/docs/en/plugins/loading#in-place-and-copied-plugins), inside that marketplace. The message reports each of these files under the component name shown:
+A message that gives the full path of one of a marketplace plugin's own files, such as `hooks/hooks.json`, means Claude Code skipped that file. When Claude Code can't confirm the file is inside the plugin, or inside its marketplace for a plugin in a [local marketplace](/docs/en/plugins/loading#in-place-and-copied-plugins), it skips the file. The message reports these files under the component name shown:
 
 * `hooks/hooks.json`: `hooks`
 * `monitors/monitors.json`: `monitors`
-* `settings.json`: `settings`
 * `SKILL.md` at the plugin root: `skills`
 
 For example, this message is for a `hooks/hooks.json` that resolves outside both the plugin and its local marketplace:
@@ -4918,7 +4960,7 @@ Cannot read this as an image: <path> is a pipe or a device, not a regular file, 
 * If Claude stopped at the error, export a copy under 128 MB yourself, for example at a lower resolution, and point Claude at that file
 * If the path was a pipe or a device, point Claude at a regular image file instead
 
-### subagent\_type is required
+### subagent_type is required
 
 ```text theme={null}
 subagent_type is required: the general-purpose agent is not available in this session. Available agents: ...
@@ -5463,12 +5505,13 @@ Can't open — this session is running in another terminal
 This conversation is already open in another running Claude session — use that one, or close it and try again
 ```
 
-* **`running in another terminal`**: a terminal holds the conversation, for example one where you resumed it with `claude --resume` or `/resume`. The row also shows `Open in a terminal`.
-* **`already open in another running Claude session`**: another non-interactive Claude Code process holds it, for example a [background session](/docs/en/agent-view#the-supervisor-process) process for the same conversation that hasn't exited yet.
+* **`running in another terminal`**: a process other than a background session holds the conversation, for example a `claude -p` run, or a terminal where you resumed it with `claude --resume` or `/resume`. The row also shows `Open in a terminal`.
+* **`already open in another running Claude session`**: another [background session](/docs/en/agent-view#the-supervisor-process) holds it.
 
 **What to do:**
 
-* Continue the conversation in the process that has it open, or exit that process and open the row again
+* For `running in another terminal`: continue in that terminal, or exit that process or let it finish, and then try again
+* For `already open in another running Claude session`: use that session, or stop it and then try again
 
 Before v2.1.248, only the `already open in another running Claude session` refusal existed: a conversation resumed in a terminal didn't count as open, and opening the row started a second Claude Code process writing to the same conversation.
 
@@ -5635,7 +5678,7 @@ You dispatched, woke, or restarted the session from a folder other than the one 
 
 Before v2.1.302, a background session in this situation showed a sign-in error such as [`Not logged in · Please run /login`](#not-logged-in) instead, without naming the folder.
 
-### CLAUDE\_CODE\_PROCESS\_WRAPPER launcher errors
+### CLAUDE_CODE_PROCESS_WRAPPER launcher errors
 
 [`CLAUDE_CODE_PROCESS_WRAPPER`](/docs/en/corporate-launcher) is set, and its value can't be used, so Claude Code refuses to start the affected process rather than run it without the launcher. Configuration problems are reported with a message that starts with the variable name and states the reason, for example:
 
@@ -5908,7 +5951,7 @@ Before v2.1.217, Claude Code dropped the failing writes without a warning, and a
 * The warning clears on its own at the next successful write; no restart is needed
 * Messages sent while the warning was showing may still be missing when you resume the session later
 
-### Transcript saving is off because CLAUDE\_CODE\_SKIP\_PROMPT\_HISTORY is set
+### Transcript saving is off because CLAUDE_CODE_SKIP_PROMPT_HISTORY is set
 
 This session started with [`CLAUDE_CODE_SKIP_PROMPT_HISTORY`](/docs/en/env-vars) set, so Claude Code writes no transcript or prompt history for it:
 
@@ -5923,7 +5966,7 @@ The variable is an intentional opt-out for ephemeral scripted sessions, but it c
 * If you set the variable on purpose, no action is needed; the notice confirms the session won't appear in `--resume`, `--continue`, or up-arrow history
 * If you didn't, remove the variable from the shell or script that launches `claude`, then start a new session. Messages from the current session aren't saved retroactively.
 
-### Transcript saving is off because of an inherited CLAUDE\_CODE\_CHILD\_SESSION marker
+### Transcript saving is off because of an inherited CLAUDE_CODE_CHILD_SESSION marker
 
 Claude Code sets [`CLAUDE_CODE_CHILD_SESSION`](/docs/en/env-vars) in the subprocesses it spawns, and treats an interactive session that inherits it as nested: Claude Code saves no transcript for it, so sessions that Claude itself starts don't fill your `--resume` list. This notice means your current session inherited the marker:
 
@@ -6480,7 +6523,7 @@ In [managed settings](/docs/en/managed-settings), Claude Code treats the unrecog
 
 Before v2.1.248, Claude Code ignored an unrecognized value without warning.
 
-### ANTHROPIC\_FOUNDRY\_RESOURCE must be a Foundry resource name
+### ANTHROPIC_FOUNDRY_RESOURCE must be a Foundry resource name
 
 You set [`ANTHROPIC_FOUNDRY_RESOURCE`](/docs/en/env-vars) to something other than a bare [Microsoft Foundry](/docs/en/microsoft-foundry) resource name, such as the endpoint URL or its host name. Claude Code refused the value before sending a request. The message appears in place of Claude's reply, not as a startup warning:
 

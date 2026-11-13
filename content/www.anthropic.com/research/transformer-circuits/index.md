@@ -2,7 +2,7 @@
 
 [Read Transformer Circuits](https://transformer-circuits.pub/2024/qualitative-essay/index.html)
 
-![Reflections on qualitative research](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F07f7f1396d0e831b25e3fafda945c1f496c5248f-2000x1125.jpg&w=1920&q=75)
+![Reflections on qualitative research](https://assets.claude.com/6febf7c7b358eef17c76b3ce7fe7fe4144cb0230.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Mar 8, 2024

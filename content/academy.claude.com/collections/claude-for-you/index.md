@@ -42,9 +42,9 @@ This tutorial offers a full overview of the 4 properties of AI. It's a quick ref
 
 ## Get more out of every conversation
 
-- [Choosing the right Claude model: Haiku, Sonnet, Opus, or FableTutorial5 min
+- [Choosing a Claude model for knowledge workersTutorial7 min
 
-  ·Tutorial·5 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)
+  ·Tutorial·7 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)
 - [Intro to ProjectsTutorial7 min
 
   ·Tutorial·7 min](https://academy.claude.com/tutorials/intro-to-projects)

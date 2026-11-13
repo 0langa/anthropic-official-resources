@@ -74,7 +74,7 @@ Even as automated review is becoming more effective, a person looking at a flag 
 
 **EFS has automated safety monitoring, no Anthropic human review required.** Customers want protection against cyberattacks, and appreciate that these can be difficult to detect if they unfold across many sessions and accounts. With EFS, automated systems analyze a rolling window of traffic for signals of serious misuse, including attempts to develop offensive cyber or biological capabilities and signs of stolen or leaked credentials. Those flags go directly to the customer and their people take it from there – no human review by Anthropic employees is required.
 
-![Matt Chung logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9f37b737d862a71f1fbcd15e5d9d5f98d3ca1ca2-1200x675.png&w=1200&q=75)
+![Matt Chung logo](https://assets.claude.com/9f37b737d862a71f1fbcd15e5d9d5f98d3ca1ca2.png?w=1200&q=75&fm=webp&fit=max)
 
 > “AI controls need to be designed to protect sensitive information, and model safeguards are an important part of that process. Anthropic engaged us as they developed Enterprise Frontier Safeguards to ensure alignment with our requirements and standards.”
 
@@ -82,7 +82,7 @@ Matt Chung
 
 Chief Information Security Officer and Head of Technology Risk
 
-![Munish Kumar Sharma logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/b69808ab3e32d697507696823e2e3d481474cdac-155x64.svg)
+![Munish Kumar Sharma logo](https://assets.claude.com/029ec9c8c1bc01047719d38037d2a5d0559cc545.svg)
 
 > “Enterprise Frontier Safeguards gives us exactly what we asked for: our logs stay in a Wells-managed environment under Wells-managed keys. We keep custody of our data while Anthropic operates the detection. That split is what lets our teams put frontier models to work safely and meet our obligations to customers, employees, and regulators. We helped shape these safeguards because our industry needs them.”
 
@@ -90,7 +90,7 @@ Munish Kumar Sharma
 
 Chief Information Security Officer
 
-![Noopur Davis logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/da5b4cfb98abd20aa33357f44216a41279e57e0d-155x62.svg)
+![Noopur Davis logo](https://assets.claude.com/63e1b47af5d80f17a4d5bc05379ac7dd1253894b.svg)
 
 > “As a company that runs critical infrastructure, the capability of models is important. Just as important are solutions that allow us to keep our data in our own account, and Enterprise Frontier Safeguards settled it.”
 
@@ -98,7 +98,7 @@ Noopur Davis
 
 EVP, Chief Information Security and Product Privacy Officer
 
-![Scott DePasquale logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/b847b0a49194adb0df9674c8b5e5fe176e845bda-109x27.svg)
+![Scott DePasquale logo](https://assets.claude.com/d75584795b3a4aa0afd0b8c36e4f6dc08e2862ea.svg)
 
 > “Eight of our members worked with Anthropic to define what it would take to run the most capable frontier models inside a systemically important bank: who holds the data, who holds the keys, what automated review can and cannot see, and under what conditions a human is ever permitted to look. This collaboration is leading to the development and delivery of improved safeguards and standards that could scale across our industry and beyond.”
 
@@ -106,7 +106,7 @@ Scott DePasquale
 
 President and CEO
 
-![Todd Lohr logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/632ae4b5eb52539491a30a3c1cb2694febdb53ab-187x75.svg)
+![Todd Lohr logo](https://assets.claude.com/7b85031069da33e9a148670d960f58c26ad594d8.svg)
 
 > “One of the key tenets of the safeguards architecture is the ability for us to retain data and have it held outside the model itself, protected within our environment. There are areas of the firm, and of our clients' work, that are regulated and highly sensitive. Those safeguards actually allow us to apply AI in parts of the business that we wouldn't have been able to before.
 > Service Partner”
@@ -115,7 +115,7 @@ Todd Lohr
 
 National Managing Partner, Clients and Markets
 
-![Meir Amiel logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/ad6656fb6427494ec5696471e61947bb72035ee9-273x191.svg)
+![Meir Amiel logo](https://assets.claude.com/ad6656fb6427494ec5696471e61947bb72035ee9.svg)
 
 > “Our customers have trusted us with their data for more than two decades. That experience is exactly why we wanted to help think this through with Anthropic, rather than wait on the sidelines. We were able to work together on new security and privacy capabilities at the architecture level, not just the policy level.”
 
@@ -123,7 +123,7 @@ Meir Amiel
 
 President, Chief Trust and Infrastructure Officer
 
-![Lan Guan logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/d6a5b3cb817f5f2541603acf0c9c1e59d868fb9e-140x64.svg)
+![Lan Guan logo](https://assets.claude.com/28d5864750eb43e012617c0a4814a9d975e72c0b.svg)
 
 > “Our clients want to put frontier models to work, and their security teams want the data to stay in infrastructure they control. Anthropic built Enterprise Frontier Safeguards with more than a hundred enterprises to do exactly that.
 > Service Partner”
@@ -132,7 +132,7 @@ Lan Guan
 
 Chief AI and Data Officer
 
-![Adnan Amjad logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/fc0cf984de735ef64c17f033f10efb9e273d69d8-125x64.svg)
+![Adnan Amjad logo](https://assets.claude.com/a3e9d3ff277e8dcfc1e0961f83dfe49c729c656d.svg)
 
 > “As AI models take on more regulated, sensitive workloads, scaling responsibly also comes down to architecture, not just policy commitments. Direct control over the data environment, paired with pattern-based automated safety monitoring, gives enterprises the concrete, structural capabilities they need to deploy with real oversight, accountability, and confidence.
 > Service Partner”
@@ -141,7 +141,7 @@ Adnan Amjad
 
 US Cyber Leader
 
-![Philip Martin logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/7b6dc90891455bc4c8624591184e5e826fc56541-156x53.svg)
+![Philip Martin logo](https://assets.claude.com/f9556ef6c9082b8c7f39bf1e33dfc12ea5e748c8.svg)
 
 > “The safeguards and the design of them—clearly, you heard our feedback. They put us in the driver's seat. The logs are under our control; they don't go anywhere else unless we want them to. It gives us control of the data, control of the information, and control of what's done after something that might exceed a safeguard is detected.”
 
@@ -149,7 +149,7 @@ Philip Martin
 
 Chief Information Security Officer
 
-![Morgan Adamski logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/468fc2c0bb3ca80ff2b112002d4d665c1e2bff65-360x180.svg)
+![Morgan Adamski logo](https://assets.claude.com/8f637bff5613e164060070d6657a6ae53b59764c.svg)
 
 > “As AI becomes more embedded across the enterprise, security and trust are what move organizations from experimentation to deployment at scale. Enterprise Frontier Safeguards will build those in from the start: monitoring data stays in infrastructure the customer controls, and their own team decides who can access it.
 > Service Partner”
@@ -158,7 +158,7 @@ Morgan Adamski
 
 US Cyber, Data & Tech Leader
 
-![Mayank Upadhyay logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/721103059e160dd255816a622fc8d3e3cffe0047-150x48.svg)
+![Mayank Upadhyay logo](https://assets.claude.com/8a973148c0a133e36940eb29d4117aa72fb122c3.svg)
 
 > “Keeping customer data confidential is a promise Snowflake makes to every customer. We've always moved fast getting frontier models into their hands. The hard part was doing that safely under the strictest data guarantees. We partnered with Anthropic to design Enterprise Frontier Safeguards so we can do both: data stays in the customer's environment, under keys they control, running Anthropic's most capable models from day one. This is what responsible frontier AI looks like when it's built with platforms in mind.”
 
@@ -166,7 +166,7 @@ Mayank Upadhyay
 
 Chief Security and Trust Officer
 
-![Matthew Kemelhar logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/d514853a44cf69f069306c98b558f214112c4ef3-91x64.svg)
+![Matthew Kemelhar logo](https://assets.claude.com/86e17f4de2480576ea67a2463122e759b9112f0b.svg)
 
 > “At Stripe, protecting customer data is foundational to how we operate. Anthropic’s Enterprise Frontier Safeguards will enable us to use covered frontier models while retaining conversation logs in Stripe’s AWS environment, with access and review governed by Stripe’s security controls.”
 
@@ -174,7 +174,7 @@ Matthew Kemelhar
 
 Head of Security
 
-![Strib Walker logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/beb4f74e935e111be9a63875ae7743aaea2cb0a2-88x64.svg)
+![Strib Walker logo](https://assets.claude.com/ba8796f04e9670ab7e564e4cade9014e816419b9.svg)
 
 > “Rogo’s customers expect access to the best intelligence available, but never at the expense of security and guardrails around their data. Enterprise Frontier Safeguards will bring the most capable models to financial institutions while meeting the institutional-grade data requirements they demand. That combination of frontier intelligence and enterprise-grade controls is critical to deploying AI across financial services.”
 
@@ -182,7 +182,7 @@ Strib Walker
 
 Head of Product
 
-![Greg Barnett logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/d212647f70dab46581bb98aab2e7c487df3ce53d-91x64.svg)
+![Greg Barnett logo](https://assets.claude.com/5bb6b4189c3900444a8534f9d2e97cdd245e05fc.svg)
 
 > “FIS powers the infrastructure behind how money moves and how financial institutions operate, so any AI safeguard we deploy has to meet that scale and standard of trust. Our partnership with Anthropic already includes testing their most advanced frontier models against our own systems through Project Glasswing. Claude Enterprise Frontier Safeguards expands that work, keeping retained data in our own account and routing flags directly to our security team.”
 
@@ -190,7 +190,7 @@ Greg Barnett
 
 Chief Information Security Officer
 
-![Scott Wu logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/ad249bca4e8e195e08764efc43ecbc586ca37482-143x64.svg)
+![Scott Wu logo](https://assets.claude.com/cd06ed7f01af497d255eaf697fba661756302d9f.svg)
 
 > “Companies trust Cognition's autonomous engineers with real production work, and that trust depends on their work staying private. With Enterprise Frontier Safeguards, customer data and identities never leave our side. It will let us bring frontier AI to production work, no privacy tradeoff required.”
 
@@ -198,7 +198,7 @@ Scott Wu
 
 CEO
 
-![Eno Reyes logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/18f900625532e1baaa3302bdf9539f73592bdf60-164x64.svg)
+![Eno Reyes logo](https://assets.claude.com/3beb0fbe265e55d504519705101a22223fe93703.svg)
 
 > “Our customers' code and data are some of their most valuable intellectual property. Protecting that information is foundational to how we build at Factory. Together with Anthropic, we're enabling customers to use Claude's most capable models while keeping control of proprietary data in their hands. Enterprise Frontier Safeguards gives enterprises access to frontier intelligence with the data protections their security teams require.”
 
@@ -206,7 +206,7 @@ Eno Reyes
 
 Co-founder and CTO
 
-![John LaBarre logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/6dfc3bd55cc5f9d5ebdd8d5437505ae4b8560412-120x64.svg)
+![John LaBarre logo](https://assets.claude.com/9a94425c942863c5edf1c038587fa7ca15248827.svg)
 
 > “We have always maintained an unwavering commitment to client confidentiality and security. The leading legal and professional teams we serve view these principles as nonnegotiable, and we hold ourselves to the same standard. Enterprise Frontier Safeguards reflects this commitment, enabling customers with the most rigorous confidentiality requirements access to frontier models without the model provider retaining their data.”
 
@@ -228,7 +228,7 @@ Customer-owned storage, Customer-Managed Encryption Keys, and fully automated re
 
 Anthropic doesn’t charge for Enterprise Frontier Safeguards. If customers elect to store their data in their cloud account, their cloud provider bills them for that storage, as well as reads, writes, and data egress fees, the same way it bills any other resource.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F021fdfc765d03eaac26f5d2aa9cb06111b7a9297-3840x4644.png&w=3840&q=75)
+![](https://assets.claude.com/021fdfc765d03eaac26f5d2aa9cb06111b7a9297.png?w=3840&q=75&fm=webp&fit=max)
 
 ## Getting started
 

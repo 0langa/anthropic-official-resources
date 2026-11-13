@@ -24,7 +24,7 @@ Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does
 
 [WebinarUpcoming | Nov 17, 2026
 
-### Build Agents with the Claude Platform on Google Cloud
+### Build Agents with Claude Models on Google Cloud
 
 The full Claude Platform is now on Google Cloud — build agents from the Google Cloud account you already run.
 
@@ -36,13 +36,11 @@ Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-w
 
 This one-hour technical session covers where that’s heading, what works today, and how to start.](https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work)
 
-[WebinarUpcoming | Nov 12, 2026
+[WebinarUpcoming | Multiple dates
 
-### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
+### Unified Claude: Security and admins Q&A session
 
-Most nonprofit staff on Claude open a chat, get a decent but generic answer, and go back to doing it by hand.
-
-Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)
+We invite admins and security teams to join Anthropic’s team for guidance on how to migrate your org before the deprecation of the separate chat and Cowork experience.](https://claude.com/resources/webinars/unified-claude-security-and-admins-q-and-a-session)
 
 [WebinarOn demand
 
@@ -54,29 +52,19 @@ Featured resource 1 of 5: The State of Cybersecurity: What Frontier AI Changes f
 
 Advanced filters
 
-Showing 23 of 119 resources
+Showing 22 of 120 resources
 
 ## Upcoming webinars
 
 Register for the live sessions with Anthropic and partner teams — bring your questions and get answers in real time.
 
-[WebinarUpcoming | Nov 12, 2026
-
-### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
-
-Most nonprofit staff on Claude open a chat, get a decent but generic answer, and go back to doing it by hand.
-
-Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[WebinarUpcoming | Nov 12, 2026
-
-### Claude in Microsoft Foundry: control the cost, prove the value
-
-See how to cut Claude costs in Microsoft Foundry, track who’s spending what, and prove the ROI.](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)[WebinarUpcoming | Nov 17, 2026
+[WebinarUpcoming | Nov 17, 2026
 
 ### Claude for Manufacturing: Put Your Plant’s Know-How to Work
 
 This one-hour technical session covers where that’s heading, what works today, and how to start.](https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work)[WebinarUpcoming | Nov 17, 2026
 
-### Build Agents with the Claude Platform on Google Cloud
+### Build Agents with Claude Models on Google Cloud
 
 The full Claude Platform is now on Google Cloud — build agents from the Google Cloud account you already run.
 
@@ -93,6 +81,10 @@ Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does
 These sessions run on a regular schedule — register and pick the date that works for you.
 
 [WebinarUpcoming | Multiple dates
+
+### Unified Claude: Security and admins Q&A session
+
+We invite admins and security teams to join Anthropic’s team for guidance on how to migrate your org before the deprecation of the separate chat and Cowork experience.](https://claude.com/resources/webinars/unified-claude-security-and-admins-q-and-a-session)[WebinarUpcoming | Multiple dates
 
 ### Virtual Claude Workshop
 
@@ -140,7 +132,17 @@ Claude Code](https://claude.com/resources/webinars/claude-code-foundations-serie
 
 Missed the session? Stream past sessions anytime and catch up at your own pace.
 
-[WebinarNov 10, 2026
+[WebinarNov 12, 2026
+
+### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
+
+Most nonprofit staff on Claude open a chat, get a decent but generic answer, and go back to doing it by hand.
+
+Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[WebinarNov 12, 2026
+
+### Claude in Microsoft Foundry: control the cost, prove the value
+
+See how to cut Claude costs in Microsoft Foundry, track who’s spending what, and prove the ROI.](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)[WebinarNov 10, 2026
 
 ### Claude for Nonprofits: An Admin’s Guide to Data Handling and AI Policy
 
@@ -198,23 +200,7 @@ Join the teams behind the program for a walkthrough of the Cyber Verification Pr
 
 Seat counts don't show if AI is working. Kristen Swanson shares how to measure AI Fluency beyond usage, without a huge lift.
 
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/d12c8ff1-867e-445a-bcf7-60f95aeca348)[WebinarOct 13, 2026
-
-### DRI-ing Your Career
-
-Your career is yours. It always was - but when the market was hot, it didn't seem like you needed to think about it.
-
-Claude apps
-
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/36e79ccc-1163-4dec-afac-50de83549efc)[WebinarOn demand
-
-### AI as an Engineering Leadership Multiplier
-
-Most conversations about AI in engineering focus on how the IC role is changing, but the engineering leadership role is adapting…
-
-Claude Platform
-
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/06a83b50-384f-4fa6-ae86-66c7f05c9e16)
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/d12c8ff1-867e-445a-bcf7-60f95aeca348)
 
 View more
 
