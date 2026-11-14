@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Ftemperature)
 
+
+
+This lesson works with Claude Haiku 4.5 and with the `anthropic` package below version 1, both set up in "Making a request". Claude 4.7 and later models return an error for any temperature other than the default of 1.0, and later versions of the package have no `temperature` argument. On those models, guide the output with [your prompt(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices). The [effort parameter(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/effort) is a different control, for how much work Claude puts into a response.
+
 Embedded media: https://www.youtube-nocookie.com/embed/Q2uawX-dnoE?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=Q2uawX-dnoE)

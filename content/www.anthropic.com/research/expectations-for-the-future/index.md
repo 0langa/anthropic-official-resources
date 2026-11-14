@@ -1,6 +1,6 @@
 # Working at the frontier shapes expectations for the future
 
-![Working at the frontier shapes expectations for the future](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fbb7d44b0b539fd7f179324bbb647b10c2d7bc833-2000x1125.jpg&w=1920&q=75)
+![Working at the frontier shapes expectations for the future](https://assets.claude.com/90917c96aafe7e19409c3cbc1d2c29ad9f44047a.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Oct 16, 2026

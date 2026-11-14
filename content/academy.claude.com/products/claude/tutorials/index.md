@@ -2,7 +2,7 @@
 
 
 
-67 tutorials
+68 tutorials
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-oi1gl21n.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nqg67vsk.png)
 

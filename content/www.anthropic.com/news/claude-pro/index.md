@@ -26,7 +26,7 @@ Related articles
 
 [View more](https://www.anthropic.com/search?topic=claude-apps)
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2504af2b3cd3b1d254bb0fff79d8eefb0db037c7-2880x1620.jpg&w=3840&q=75)
+![](https://assets.claude.com/2504af2b3cd3b1d254bb0fff79d8eefb0db037c7.jpg?w=3840&q=75&fm=webp&fit=max)
 
 Today, we’re introducing a paid plan for our [Claude.ai](https://claude.ai/) chat experience, currently available in the US and UK.  
   

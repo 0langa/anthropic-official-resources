@@ -1,6 +1,6 @@
 # Admin management
 
-28 articles
+30 articles
 
 [Roles and permissionsRoles and permissions that can be set for members of your plan](https://support.claude.com/en/articles/9267276-roles-and-permissions)
 
@@ -57,3 +57,7 @@
 [Get started with centralized management](https://support.claude.com/en/articles/18232924-get-started-with-centralized-management)
 
 [Set up multiple identity providers and split domains](https://support.claude.com/en/articles/18246779-set-up-multiple-identity-providers-and-split-domains)
+
+[Set up and manage the new unified Claude experience for your Team organization](https://support.claude.com/en/articles/18342806-set-up-and-manage-the-new-unified-claude-experience-for-your-team-organization)
+
+[Move from Claude Enterprise to Claude Desktop on a cloud provider](https://support.claude.com/en/articles/18426225-move-from-claude-enterprise-to-claude-desktop-on-a-cloud-provider)

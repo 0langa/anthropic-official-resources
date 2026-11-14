@@ -94,6 +94,8 @@ def chunk_by_char(text, chunk_size=150, chunk_overlap=20):
 python
 
 ```
+import re
+
 def chunk_by_sentence(text, max_sentences_per_chunk=5, overlap_sentences=1):
     sentences = re.split(r"(?<=[.!?])\s+", text)
     chunks = []

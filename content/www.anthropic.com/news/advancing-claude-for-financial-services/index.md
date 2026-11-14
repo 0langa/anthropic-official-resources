@@ -35,7 +35,7 @@ These updates build on Sonnet 4.5’s state of the art performance on financial 
 
 We’re releasing [Claude for Excel](https://claude.com/claude-for-excel) in beta as a research preview. This allows users to work directly with Claude in a sidebar in Microsoft Excel, where Claude can read, analyze, modify, and create new Excel workbooks. Claude provides full transparency about the actions it takes: it tracks and explains its changes and lets users navigate directly to the cells it references in its explanations.
 
-![This picture depicts Claude for Excel.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F450687b3c7a1189eb1a650ade77588c56ca01461-2560x1440.png&w=3840&q=75)
+![This picture depicts Claude for Excel.](https://assets.claude.com/d7cb340f16dd982ca0484980d87945c9c5aa55b5.png?w=3840&q=75&fm=webp&fit=max)
 
 Claude analyzes a spreadsheet containing Acme Grille, Inc.'s consolidated income statement from 2020-2024, providing real-time guidance on financial modeling.
 
@@ -47,7 +47,7 @@ Claude for Excel is now in beta as a research preview for Max, Enterprise, and T
 
 ## Connecting Claude to live information
 
-[**Connectors**](https://claude.ai/redirect/website.v1.075894be-d66b-4bec-abca-07834bfc2e00/settings/connectors) provide Claude with direct access to external tools and platforms. [In July](https://www.anthropic.com/news/claude-for-financial-services), we added connectors for S&P Capital IQ, Daloopa, Morningstar, and PitchBook. We’re adding new connectors that give Claude immediate access to more information in real time:
+[**Connectors**](https://claude.ai/redirect/website.v1.65d3999c-dc77-4c17-b4d1-e4ce881812db/settings/connectors) provide Claude with direct access to external tools and platforms. [In July](https://www.anthropic.com/news/claude-for-financial-services), we added connectors for S&P Capital IQ, Daloopa, Morningstar, and PitchBook. We’re adding new connectors that give Claude immediate access to more information in real time:
 
 - **Aiera** provides Claude with real-time earnings call transcripts and summaries of investor events, like shareholder meetings, presentations, and conferences;
 - Aiera’s connector also enables a data feed from **Third Bridge**, which gives Claude access to a library of insights interviews, company intelligence, and industry analysis from experts and former executives;
@@ -61,7 +61,7 @@ For details on MCP connector setup and prompting guidance to maximize the benefi
 
 ## New Agent Skills for finance tasks
 
-Earlier this month, we introduced [Agent Skills](https://www.anthropic.com/news/skills). Skills are folders that include instructions, scripts, and resources that Claude can use to perform given tasks. Skills work across all Claude apps, including [Claude.ai](http://claude.ai/redirect/website.v1.075894be-d66b-4bec-abca-07834bfc2e00), Claude Code, and our API. To make Claude better at financial services tasks, we’ve added 6 new skills:
+Earlier this month, we introduced [Agent Skills](https://www.anthropic.com/news/skills). Skills are folders that include instructions, scripts, and resources that Claude can use to perform given tasks. Skills work across all Claude apps, including [Claude.ai](http://claude.ai/redirect/website.v1.65d3999c-dc77-4c17-b4d1-e4ce881812db), Claude Code, and our API. To make Claude better at financial services tasks, we’ve added 6 new skills:
 
 - **Comparable company analysis**, with valuation multiples and operating metrics, which can be easily refreshed with updated data;
 - **Discounted cash flow models**, including full free cash flow projections, WACC calculations, scenario toggles, and sensitivity tables;
@@ -78,7 +78,7 @@ As with Claude for Excel, these new skills are being rolled out in preview for M
 
 Claude is already widely used by leading banking, asset management, insurance, and financial technology companies. It supports front office tasks like client experience, middle office tasks in underwriting, risk and compliance, and back office tasks like code modernization and legacy processes. With ongoing updates to our models and products specific to financial services, we expect Claude to become even better in roles like these.
 
-![Citi logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Feeb5f52efd3e66059da5591e05d323013abef19f-300x195.png&w=384&q=75)
+![Citi logo](https://assets.claude.com/ad82dea8f0bf87d886195f602137139c72c3598c.png?w=384&q=75&fm=webp&fit=max)
 
 > “Citi chose to leverage Claude as part of its AI powered Developer Platform because of its advanced planning and agentic coding capabilities, focus on safety and reliability, and compatibility with our workloads.”
 
@@ -86,7 +86,7 @@ David Griffiths
 
 CTO, Citi
 
-![RBC Capital Markets logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F547b842bf1173a41ffa2e0ae77422eb17ef1d1ea-3840x2160.png&w=3840&q=75)
+![RBC Capital Markets logo](https://assets.claude.com/547b842bf1173a41ffa2e0ae77422eb17ef1d1ea.png?w=3840&q=75&fm=webp&fit=max)
 
 > “Working with Anthropic goes beyond deploying another AI tool—it's about partnering with a company that understands the complexity that financial services requires. Claude excels by seamlessly integrating multiple data sources and automating workflows that previously consumed significant time. ”
 
@@ -94,7 +94,7 @@ Bobby Grubert
 
 Head of AI and Digital Innovation, RBC Capital Markets
 
-![Brex logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9b387fa5e89cd8d5634180b9fa0322d6094fcbd7-4723x1250.png&w=3840&q=75)
+![Brex logo](https://assets.claude.com/9b387fa5e89cd8d5634180b9fa0322d6094fcbd7.png?w=3840&q=75&fm=webp&fit=max)
 
 > “What we've valued about Anthropic is not just their powerful models, but how they've positioned them for enterprise needs. When I talk with customers about AI, data privacy is always their first concern—it's the critical foundation we have to address before we can even begin discussing capabilities.”
 
@@ -102,7 +102,7 @@ David Horn
 
 AI Lead, Brex
 
-![Block logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/c7e26abc0820551d6a65e4229f81fcea2a86e2d2-110x64.svg)
+![Block logo](https://assets.claude.com/4e990564d34a1bd01be461aadf8918fe3cbfc65c.svg)
 
 > “75% of our engineers now save 8 to 10+ hours every week using our open source AI agent for creating SQL queries (codename goose) — accelerating velocity and cutting down on busywork. For the tasks we care about measuring specifically, the Claude family has performed the best.”
 
@@ -110,7 +110,7 @@ Bradley Axen
 
 Principal Data and Machine Learning Engineer, Block
 
-![Coinbase logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc4529fa0b7ca13f9216b9e9c64004cfe7f487caa-2560x458.png&w=3840&q=75)
+![Coinbase logo](https://assets.claude.com/c4529fa0b7ca13f9216b9e9c64004cfe7f487caa.png?w=3840&q=75&fm=webp&fit=max)
 
 > “Anthropic's multi-cloud solution stands out for its scale, performance and security, aligning with our operational needs and customer expectations. It exceeded our performance benchmarks and met all our security requirements, making it the ideal solution. We think Claude will help Coinbase build solutions for different customer segments and bring a billion customers to the crypto economy.”
 
@@ -118,7 +118,7 @@ Varsha Mahadevan
 
 Senior Engineering Manager, Coinbase
 
-![British Columbia Investment Management Corporation logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F38aea6f7503e7ac5d630b71e75b1ecda6640afbf-1200x565.png&w=1200&q=75)
+![British Columbia Investment Management Corporation logo](https://assets.claude.com/38aea6f7503e7ac5d630b71e75b1ecda6640afbf.png?w=1200&q=75&fm=webp&fit=max)
 
 > “As one of Canada’s largest institutional investors, BCI is driven to experiment, build, and innovate. Claude has accelerated our ability to get up-to-speed on investments and the underlying portfolio’s progress, making us more effective. As we push boundaries on what’s possible, we’re excited by the opportunities.”
 
@@ -126,7 +126,7 @@ Christian Grunt
 
 Senior Principal, Private Equity, British Columbia Investment Management Corporation
 
-![Visa logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb601fa689b4c5d1d7c1307be158232ed7238956b-3000x2000.png&w=3840&q=75)
+![Visa logo](https://assets.claude.com/b601fa689b4c5d1d7c1307be158232ed7238956b.png?w=3840&q=75&fm=webp&fit=max)
 
 > “We see AI agents as the next evolution of commerce—autonomous systems that can predict, suggest, and find the products and services consumers need. This is only possible with a secure foundation at the base built on consent, privacy, transparency, and security. Anthropic is a key partner of Visa to make this dream a reality and shares our values and principles around responsible data usage.”
 
@@ -134,7 +134,7 @@ President, Technology
 
 Rajat Taneja, Visa
 
-![Jump Trading logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F355151efeae78d87d66071b46e188b01b5b4dc42-1200x997.png&w=1200&q=75)
+![Jump Trading logo](https://assets.claude.com/5a3c7978fc6ea8392227df57ffa299937f25f343.png?w=1200&q=75&fm=webp&fit=max)
 
 > “Claude serves as a remarkable reasoning-powered companion. Its ability to shift smoothly between quick execution and deep analysis, with fine-grained control over both, is exactly what's been missing in AI systems. Anthropic is a go-to technology & partner for AI workloads that require reliable intelligence at scale.”
 
@@ -142,7 +142,7 @@ Lucas Baker
 
 Quantitative Research Lead, Jump Trading
 
-![Francisco Partners logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F637986e5b391013433fbbd3f5c9794200644d8c9-1200x1088.png&w=1200&q=75)
+![Francisco Partners logo](https://assets.claude.com/238fd9411f8454573f57b4742b78677f43c94578.png?w=1200&q=75&fm=webp&fit=max)
 
 > “Through our training program with Anthropic, we've seen portfolio companies adopt Claude Code with remarkable results. Development teams are completing complex tasks in hours instead of days, and we're hearing from previously skeptical engineers that they can't imagine working without it. ”
 
@@ -150,7 +150,7 @@ Mike Barry
 
 Managing Operating Partner, Product & Technology, Francisco Partners
 
-![Chronograph logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3045932147eb3dc40823f1c76a37b4bbe908e9ad-5000x793.png&w=3840&q=75)
+![Chronograph logo](https://assets.claude.com/3045932147eb3dc40823f1c76a37b4bbe908e9ad.png?w=3840&q=75&fm=webp&fit=max)
 
 > “Chronograph’s connection to Claude will fundamentally change what is possible for our clients – much like how Claude for Enterprise has transformed our internal operations. The partnership between Chronograph and Claude enables our clients to uncover new insights, save significant time, and achieve superior returns using their private capital portfolio data within Claude’s powerful toolset.”
 
@@ -158,7 +158,7 @@ Charlie Tafoya
 
 Co-Founder and CEO, Chronograph
 
-![Moody's logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd6f232859f8c2f45a96d4e1bae6ed566ea3750df-2560x548.png&w=3840&q=75)
+![Moody's logo](https://assets.claude.com/cbf4e08f582ff764f90d72512c4e74402d073f0a.png?w=3840&q=75&fm=webp&fit=max)
 
 > “With our GenAI-ready data offerings, we continue to support our customers in their AI evolution—enriching our data via a semantic layer and delivering it through Model Context Protocol (MCP) servers and Smart APIs. Our partnership with Anthropic makes Moody’s vast data estate accessible directly where our customers are innovating.”
 
@@ -166,7 +166,7 @@ Cristina Pieretti
 
 Head of Digital Content and Innovation, Moody's
 
-![London Stock Exchange Group (LSEG) logo](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc44267e39c06075450ac20b9d44793277387c752-3524x1526.png&w=3840&q=75)
+![London Stock Exchange Group (LSEG) logo](https://assets.claude.com/c44267e39c06075450ac20b9d44793277387c752.png?w=3840&q=75&fm=webp&fit=max)
 
 > “LSEG has a long-established reputation for our open, partnership approach and meeting our customers wherever their workflows are taking place. Secure, enterprise grade AI applications, such as Claude, are expanding the opportunities for LSEG to build deep partnerships with customers.”
 

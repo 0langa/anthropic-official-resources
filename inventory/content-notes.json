@@ -1519,6 +1519,9 @@
   "https://code.claude.com/docs/en/cloud-environments": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://code.claude.com/docs/en/code-mode": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
   "https://code.claude.com/docs/en/code-review": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
@@ -10120,10 +10123,19 @@
   "https://support.claude.com/en/articles/18324319-get-started-with-claude-whiteboards": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/18325154": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/18325154-use-claude-meetings": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/18342806": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/18342806-set-up-and-manage-the-new-unified-claude-experience-for-your-team-organization": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/18426225-move-from-claude-enterprise-to-claude-desktop-on-a-cloud-provider": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for": [
@@ -10701,7 +10713,7 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-4": [
-    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html, https://cdn.sanity.io/files/4zrzovbb/website/0827c45e02042cf4c6158ea6c04abefedf2b728a.csv"
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/news/claude-and-slack": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
@@ -11034,6 +11046,9 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/building-effective-agents": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/building-strong-safety-evaluations": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-3-5-sonnet": [

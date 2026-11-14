@@ -49,7 +49,7 @@ At Anthropic, working in public looks like:
 
 Defaulting information to be internally public can require cultural shifts. However, the difference between human-agent teams with context and those without is too stark to ignore.
 
-Of course, some interactions are sensitive and will need to be private between a single human and AI. For those, with Claude Tag you can send @Claude a direct message, or you can use the existing [Claude.ai](http://claude.ai/) and Claude Cowork applications. These tools give Claude access to private information via your personal MCP connectors, with the knowledge that your conversation and what you share with the agent will remain private.
+Of course, some interactions are sensitive and will need to be private between a single human and AI. For those, with Claude Tag you can send @Claude a direct message, or you can use the existing [Claude.ai](http://claude.ai/) and [Claude Cowork](https://claude.com/product/cowork) applications. These tools give Claude access to private information via your personal MCP connectors, with the knowledge that your conversation and what you share with the agent will remain private.
 
 ## **Lesson 2: Every human and agent get a defined role with the right tools for the job**
 

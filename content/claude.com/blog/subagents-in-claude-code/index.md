@@ -150,7 +150,7 @@ For more on CLAUDE.md files, see [Customizing Claude Code for your codebase: set
 
 For complex multi-step workflows that run repeatedly, skills provide a reusable interface. Define a skill once in .claude/skills/, then invoke it with /skill-name or let Claude load it automatically when a task matches its description.
 
-Skills differ from CLAUDE.md files in scope. CLAUDE.md files are always loaded and shapes every interaction. A skill is loaded on demand, either because it was invoked explicitly or because Claude matched the current task to the skill's description field. That makes skills the right place for workflows that should be available but not applied to every prompt.
+Skills differ from CLAUDE.md files in scope. CLAUDE.md files are always loaded and shape every interaction. A skill is loaded on demand, either because it was invoked explicitly or because Claude matched the current task to the skill's description field. That makes skills the right place for workflows that should be available but not applied to every prompt.
 
 Skills fit well when:
 
@@ -238,7 +238,19 @@ When using subagents, start with conversational prompts. Notice which requests k
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 10, 2026
+[ArticleNov 13, 2026
+
+### Building always-on agents
+
+Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
+
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
+
+### The Claude Tag guide for startups
+
+How leading startups use Claude Tag to ship faster and scale operations
+
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
 
 ### How Curative is building a national provider network with agents on Claude
 
@@ -250,21 +262,7 @@ Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-i
 
 How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
 
-(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)[ArticleNov 9, 2026
-
-### Which Claude model should you build with?
-
-How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.
-
-Claude PlatformClaude Code
-
-(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)[ArticleOct 27, 2026
-
-### Manage costs and demonstrate ROI for Claude Code on Google Cloud
-
-Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
-
-Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)
+(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
 
 ## Transform how your organization operates with Claude
 

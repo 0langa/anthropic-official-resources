@@ -25,7 +25,7 @@ Related articles
 
 People have hard questions about AI and work: which jobs will change, which tasks are being automated, and what it means for their own field. The [Anthropic Economic Index](https://www.anthropic.com/economic-index) exists to help answer them with real data. Today we're launching the Anthropic Economic Index connector for Claude, which lets anyone explore that data directly.
 
-Embedded media: https://cdn.sanity.io/files/4zrzovbb/website/8a161dd5a8683a1b300d64dd1173579851301f40.mp4
+Embedded media: https://assets.claude.com/8a161dd5a8683a1b300d64dd1173579851301f40.mp4
 
 The Anthropic Economic Index measures how AI is actually being used in the economy. The Index’s data has been useful to researchers, journalists, and policymakers, but we want it to be just as accessible to anyone curious about how AI fits into their field or day-to-day life. Now you can ask Claude questions like:
 

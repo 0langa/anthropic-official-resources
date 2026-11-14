@@ -104,7 +104,7 @@ Jackie Vullinghs, Partner
 
 Claude Cowork and Claude Code on Desktop are generally available today on all paid plans on macOS and Windows. Download the Claude desktop app at [claude.com/download](http://claude.com/download).
 
-For admins deploying Claude across your organization: [configure role-based access controls](https://support.claude.com/en/articles/13930458-set-up-role-based-permissions-on-enterprise-plans), group spend limits and [OpenTelemetry](https://claude.com/docs/cowork/monitoring) from the [admin console](https://claude.com/settings/admin). Claude Cowork usage data is available in the admin dashboard, and the Analytics API is documented [here](https://support.claude.com/en/articles/13694757-access-engagement-and-adoption-data-with-the-analytics-api).
+For admins deploying Claude across your organization: [configure role-based access controls](https://support.claude.com/en/articles/13930458-set-up-role-based-permissions-on-enterprise-plans), group spend limits and [OpenTelemetry](https://claude.com/docs/cowork/monitoring) from the admin console. Claude Cowork usage data is available in the admin dashboard, and the Analytics API is documented [here](https://support.claude.com/en/articles/13694757-access-engagement-and-adoption-data-with-the-analytics-api).
 
 For a deployment walkthrough, join our April 16th [webinar](https://claude.com/resources/webinars/deploying-cowork-across-the-enterprise-with-paypal) with PayPal.
 
@@ -112,33 +112,27 @@ For a deployment walkthrough, join our April 16th [webinar](https://claude.com/r
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 10, 2026
+[ArticleNov 12, 2026
+
+### Operate Claude Managed Agents inside your security perimeter
+
+Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
+
+Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)[ArticleNov 12, 2026
+
+### Introducing Claude for Manufacturing
+
+A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)[ArticleNov 12, 2026
+
+### Introducing Claude Meetings
+
+Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)[ArticleNov 10, 2026
 
 ### Your apps can now open in Claude, and Claude can work in them
 
 Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
 
-Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)[ArticleNov 10, 2026
-
-### More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
-
-Work at the speed of thought
-
-Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)[ArticleNov 10, 2026
-
-### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
-
-Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
-
-Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)[ArticleNov 9, 2026
-
-### Claude Fable 5.2 and Mythos 5.2
-
-Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.
-
-Claude appsClaude Code1 more: Claude PlatformClaude Platform
-
-(opens in new tab)](https://www.anthropic.com/claude-fable-and-mythos-5-2)
+Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)
 
 ## Transform how your organization operates with Claude
 

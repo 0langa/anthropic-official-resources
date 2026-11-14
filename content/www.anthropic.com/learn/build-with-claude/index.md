@@ -26,7 +26,7 @@ Build, configure, and share skills in Claude Code — reusable markdown instruct
 
 ·Course·6 lessons·1 hr](https://academy.claude.com/courses/introduction-to-agent-skills)[## Introduction to subagents
 
-Decompose complex tasks across parallel Claude subagents and orchestrate them deterministically.
+Delegate tasks to Claude Code subagents that work in their own context windows and return focused summaries.
 
 ·Course·4 lessons·45 min](https://academy.claude.com/courses/introduction-to-subagents)[![](https://academy.claude.com/assets/v1/thumbnail.dark-i0lrj1mq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-i0lrj1mq.png)
 

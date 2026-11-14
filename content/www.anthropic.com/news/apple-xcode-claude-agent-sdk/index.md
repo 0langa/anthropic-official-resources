@@ -31,7 +31,7 @@ In September, [we announced](https://www.anthropic.com/news/claude-in-xcode) tha
 
 Now, Xcode 26.3 introduces a native integration with the [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview), the same underlying harness that powers Claude Code. Developers get the full power of Claude Code directly in Xcode—including subagents, background tasks, and plugins—all without leaving the IDE.
 
-Embedded media: https://cdn.sanity.io/files/4zrzovbb/website/d5b483d2e9f92f93e24d087b5becfe39abc3a47d.mov
+Embedded media: https://assets.claude.com/d5b483d2e9f92f93e24d087b5becfe39abc3a47d.mov
 
 Claude Agent in Xcode
 

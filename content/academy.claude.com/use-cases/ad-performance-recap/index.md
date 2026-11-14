@@ -310,7 +310,7 @@ The Marketing plugin ships with `/performance-report` and other performance-repo
 
 
 
-MarketingCreate content, plan campaigns, and analyze performance across marketing channels. Maintain brand voice consistency, track competitors, and report on what's working.
+MarketingCreate content, plan campaigns, and analyze performance across marketing channels. Maintain brand voice consistency, track competitors, and report on what’s working.
 
 [Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=marketing)
 

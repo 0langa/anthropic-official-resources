@@ -2,7 +2,7 @@
 
 # Yes, Claude can do Nine Loops
 
-![Diagram of nine loops](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F57556701e55ca0440a25accfa3f8655c7254e89f-2000x1125.jpg&w=1920&q=75)
+![Diagram of nine loops](https://assets.claude.com/27ed7db64d96de8e1a7d5ddb4bb323adc37495b2.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Sep 25, 2026
@@ -24,13 +24,13 @@ Related articles
 
 - Science
 
-  Nov 6, 2026
+  Nov 9, 2026
 
-  [Teaching AI to build scientific models](https://www.anthropic.com/research/teaching-ai-to-build-scientific-models)
+  [Testing Claude on real-world electronics design](https://www.anthropic.com/research/claude-electronics-design)
 
 [View more](https://www.anthropic.com/search?topic=discovery)
 
-![Illustration of nine-loops](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7f876c9b9f0c82fcc79cdd11067e162d20efd62c-1920x470.jpg&w=3840&q=75)
+![Illustration of nine-loops](https://assets.claude.com/a72b279d4d51202271b42f9d0da7d019d905d259.jpg?w=3840&q=75&fm=webp&fit=max)
 
 It’s not often that you issue a challenge, only to see it beaten a month later. But we’re living in unusual times.
 

@@ -14,9 +14,9 @@ Related articles
 
 - Announcements
 
-  Oct 26, 2026
+  Nov 10, 2026
 
-  [Anthropic files S-1 with the SEC for proposed initial public offering](https://www.anthropic.com/news/s1-sec)
+  [Anthropic launches roadshow for proposed initial public offering](https://www.anthropic.com/news/roadshow-launch)
 
 [View more](https://www.anthropic.com/search?topic=funding)
 

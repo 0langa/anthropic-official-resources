@@ -4,7 +4,7 @@
 
 [Read the constitution](http://anthropic.com/constitution)Listen to this article
 
-![Claude's new constitution](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F213eb51e189ae5e683ca621b149cb4a922c336d5-2000x1125.png&w=1920&q=75)
+![Claude's new constitution](https://assets.claude.com/8089005b02e03a8f51c8360f94d341a85533b608.png?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Jan 22, 2026

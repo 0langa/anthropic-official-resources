@@ -56,7 +56,7 @@ Embedded media: https://www.youtube-nocookie.com/embed/cWztXGcbGMk?enablejsapi=1
 
 ## **Best practices for using Claude Design**
 
-1. **Do the thinking before you prompt.** The best and most efficient way to get output that matches your vision, is to tell Claude what you need up front. I spend a lot of time writing prompts before I design. Sometimes I dictate them in Claude Design with the voice button. Other times I type them in the Notes app on my phone from the couch, or record a voice note on a walk and paste the transcript later. Whichever method of communicating you prefer, figure out what you want while you're away from the computer, so Claude can execute your exact vision when you sit down.
+1. **Do the thinking before you prompt.** The best and most efficient way to get output that matches your vision is to tell Claude what you need up front. I spend a lot of time writing prompts before I design. Sometimes I dictate them in Claude Design with the voice button. Other times I type them in the Notes app on my phone from the couch, or record a voice note on a walk and paste the transcript later. Whichever method of communicating you prefer, figure out what you want while you're away from the computer, so Claude can execute your exact vision when you sit down.
 2. **Tell Claude what it should look like.** Left undirected, Claude picks one of its favorite aesthetics. [You'd probably recognize them.](https://www.newyorker.com/the-ai-design-aesthetic-thats-taking-over-the-internet) Head that off by specifying fonts and colors, or providing a moodboard of images for inspiration, or asking Claude to brainstorm font-and-color pairings and going back and forth until a pairing feels right.
 3. **Turn recurring work into a design system.** Bring in your brand files and assets (logos, slide decks, screenshots, typography specs, anything else you reuse) as raw uploads, design files, or a GitHub repo, and Claude will analyze them and [generate a design system](https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design). You can keep more than one. From then on, Claude builds with your components and checks its output against the system and corrects it before you see it, so each artifact starts from your choices rather than a blank slate. For larger teams, an admin can approve one standard system and lock down edits.
 4. **Ask for ten options, then remix.** Most of them won't be good, and that's fine; one or two will be. Then say, "I like option B and a little of option D. Give me five riffs that smoosh those together."
@@ -83,7 +83,19 @@ Claude Design took its current shape because people at Anthropic kept finding us
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 10, 2026
+[ArticleNov 13, 2026
+
+### Building always-on agents
+
+Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
+
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
+
+### The Claude Tag guide for startups
+
+How leading startups use Claude Tag to ship faster and scale operations
+
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
 
 ### How Curative is building a national provider network with agents on Claude
 
@@ -95,21 +107,7 @@ Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-i
 
 How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
 
-(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)[ArticleNov 9, 2026
-
-### Which Claude model should you build with?
-
-How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.
-
-Claude PlatformClaude Code
-
-(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)[ArticleOct 27, 2026
-
-### Manage costs and demonstrate ROI for Claude Code on Google Cloud
-
-Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
-
-Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)
+(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
 
 ## Transform how your organization operates with Claude
 

@@ -6,7 +6,7 @@ Claude Cowork can now run your tasks in the cloud, on Anthropic's servers instea
 
 Claude Cowork is available on desktop on all paid plans (Pro, Max, Ultra, Team, and Enterprise). On web and mobile, it's available on Pro, Max, Ultra, and Team plans (in beta on Team), and on Enterprise plans when an owner enables it. This article is for existing Cowork users on the desktop app.
 
-The new Claude experience, which combines chat and Cowork, is rolling out to Pro, Max, and Ultra plans. On Team plans (in beta) and Enterprise plans, it's available where **Chat and Cowork unified** is turned on. If your message box no longer shows "Chat" and "Cowork" options, you have the new experience, and some steps in this article may look different. Learn more in **[Claude Cowork and chat are one Claude](https://support.claude.com/en/articles/16761823)**.
+The new Claude experience, which combines chat and Cowork, is rolling out to Pro, Max, and Ultra plans. On Team and Enterprise plans, it's available where **Chat and Cowork unified** is turned on. If your message box no longer shows "Chat" and "Cowork" options, you have the new experience, and some steps in this article may look different. Learn more in **[Claude Cowork and chat are one Claude](https://support.claude.com/en/articles/16761823)**.
 
 ## What stays the same
 
@@ -44,7 +44,7 @@ If the desktop app is closed, sessions in the cloud keep running but can't reach
 
 ## Switch between cloud and local execution
 
-You can switch modes when starting a new session by clicking the “Beta” button in the upper right corner, or by navigating to **[Settings > Cowork](https://claude.ai/settings/cowork)** and toggling **Run new tasks in the cloud** on or off.
+You can switch modes when starting a new session by clicking the "Beta" button in the upper right corner, or by navigating to **[Settings > Cowork](https://claude.ai/settings/cowork)** and toggling **Run new tasks in the cloud** on or off.
 
 **Note:** If you have the new Claude experience, tasks run in the cloud, and there's no option to run them locally.
 

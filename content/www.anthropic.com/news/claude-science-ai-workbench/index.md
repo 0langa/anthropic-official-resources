@@ -46,7 +46,7 @@ We are releasing Claude Science today in beta for Claude Pro, Max, Team, and Ent
 
 ## How it works
 
-![Image showing that Claude can display proteins, structures, and molecules](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1c78d0a671cbf1715b3f09a790e6d1a90466de1a-2048x1257.jpg&w=3840&q=75)
+![Image showing that Claude can display proteins, structures, and molecules](https://assets.claude.com/b79bd79ec4e9d31661ddbae3d528d14c35029f67.jpg?w=3840&q=75&fm=webp&fit=max)
 
 Claude Science displays proteins, structures, and molecules natively, with every result reproducible and traced to its code.
 
@@ -54,7 +54,7 @@ Claude Science displays proteins, structures, and molecules natively, with every
 
 When it generates a figure, Claude Science includes the exact code and environment that produced it, a plain-language description of how it was created, and the full message history. This allows you to understand the inputs, making the work easier to validate and reproduce even months later. You can ask Claude Science to make edits to figures in plain language—removing gridlines, for example, or changing an axis to log scale—and the agent will edit its own code.
 
-![Image showing how Claude science builds environments and manages compute on your laptop, your cluster, or GPUs on demand.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F901245fae3bee38a476732379e92adc0284c2519-2048x1257.jpg&w=3840&q=75)
+![Image showing how Claude science builds environments and manages compute on your laptop, your cluster, or GPUs on demand.](https://assets.claude.com/88a053ec7d647c12803712d0105d614ce7444c64.jpg?w=3840&q=75&fm=webp&fit=max)
 
 Claude Science builds environments and manages compute on your laptop, your cluster, or GPUs on demand.
 
@@ -62,7 +62,7 @@ Claude Science builds environments and manages compute on your laptop, your clus
 
 Because its agents work inside a running session that holds context in memory, even massive datasets only need to be loaded once. It runs on your lab’s own infrastructure—your laptop, Linux box, or HPC login node—so large or sensitive datasets never have to leave the systems they’re already on, and only the context needed for each step of the analysis is sent to Claude. As the pipeline runs, a reviewer agent inspects the outputs, flagging incorrect citations, untraceable numbers, and figures that don’t match their underlying code, and self-correcting as it goes. You can fork the session at any point to compare two approaches without losing the original thread.
 
-![Image showing how Claude comes pre-configured for scientific work](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5db35fb5ddbd92ce4de28aed58a86ffdf043bea1-2048x1257.jpg&w=3840&q=75)
+![Image showing how Claude comes pre-configured for scientific work](https://assets.claude.com/9fedcd82eedb55ebb4ee122751f31e328f95ed32.jpg?w=3840&q=75&fm=webp&fit=max)
 
 Claude Science is pre-configured for genomics, single-cell, proteomics, and cheminformatics, backed by more than 60 scientific databases.
 

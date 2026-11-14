@@ -8,7 +8,7 @@ How to use the FHIR Developer agent skill with Claude Code
 
 ## **What is the FHIR Developer agent skill for Claude Code?**[](https://academy.claude.com/tutorials/how-to-use-the-fhir-developer-agent-skill-with-claude-code)
 
-FHIR agent skill helps Claude Code connect healthcare systems faster and with fewer errors, improving the interoperability of medical data. The FHIR skill provides Claude Code with specialized knowledge of the HL7 FHIR R4 standard for healthcare data exchange, including resource structures, required vs optional fields (cardinality rules), coding systems (LOINC, SNOMED CT, RxNorm), RESTful API patterns, and validation implementation patterns
+FHIR agent skill helps Claude Code connect healthcare systems faster and with fewer errors, improving the interoperability of medical data. The FHIR skill provides Claude Code with specialized knowledge of the HL7 FHIR R4 standard for healthcare data exchange, including resource structures, required vs optional fields (cardinality rules), coding systems (LOINC, SNOMED CT, RxNorm), RESTful API patterns, and validation implementation patterns.
 
 ## **Who should use the FHIR Developer agent skill?**[](https://academy.claude.com/tutorials/how-to-use-the-fhir-developer-agent-skill-with-claude-code)
 

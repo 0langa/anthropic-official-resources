@@ -251,7 +251,7 @@ The Commercial Legal plugin ships with `/review` and other commercial-contractin
 
 
 
-Commercial LegalReviews vendor agreements, NDAs, and SaaS subscriptions against your sales-side or purchasing-side playbook, tracks renewals and cancel-by deadlines before they're missed, routes escalations to the right approver, and translates reviews into summaries business stakeholders will actually read.
+Commercial LegalReviews vendor agreements, NDAs, and SaaS subscriptions against your sales-side or purchasing-side playbook, tracks renewals and cancel-by deadlines before they’re missed, routes escalations to the right approver, and translates reviews into summaries business stakeholders will actually read.
 
 [Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fclaude-for-legal&plugin=commercial-legal)
 
@@ -319,7 +319,7 @@ Read the incoming draft and your playbook from the matter workspace; the clause 
 
 Put the incoming MSA and your contract playbook in one folder on your machine, then in Cowork click **+ Add folder** and select it. [Save it as a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your playbook, instructions, and memory stay attached and you don't re-upload them for the next contract — Cowork reads from the folder and writes the clause table and redlined draft back to it.
 
-Files you add stay on your machine and aren't used to train Claude — Cowork reads them locally to do the work.
+When a task runs locally, Cowork reads these files on your computer; when it runs in the cloud, the files it uses leave your device and are processed on Anthropic's servers. On Team and Enterprise plans they aren't used to train Claude either way ([how Cowork handles your data(opens in new tab)](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview)); on Pro and Max that follows your model-improvement setting.
 
 
 

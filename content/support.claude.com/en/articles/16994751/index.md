@@ -45,7 +45,7 @@ Templates are the starting points users pick when they create an artifact.
 
 - **Motion:** On by default on Team plans, and off by default on Enterprise plans.
 
-- **Data:** On by default on Team plans. On Enterprise plans, it turns on by default on November 19, 2026. You can turn it on sooner.
+- **Data:** On by default on Team plans. On Enterprise plans, it turns on by default on November 20, 2026. You can turn it on sooner.
 
 - **Sheets and Whiteboards (beta):** On by default on Team plans, and off on Enterprise plans until an owner turns them on.
 
@@ -109,6 +109,8 @@ The artifact's owner can then share it with anyone who has the link. **External 
 2. Turn on **Email invitations outside your organization**.
 
 **Important:** Turning **Email invitations outside your organization** off blocks access for people users already invited, until you turn it back on. Accepted invitations aren't deleted, and pending ones still expire 30 days after they were sent.
+
+People invited to a doc made with Claude Docs can also ask their own Claude to work on it, within the access they were given. What their Claude reads becomes part of a chat in their account, and Claude may save short facts from it to their memory. There’s no separate setting for this: turning **Email invitations outside your organization** off blocks both the people and their Claude from opening the doc.
 
 ### See and remove outside access
 
@@ -265,7 +267,7 @@ Removing someone from your organization, including through your identity provide
 
 ### Organizations with special configurations
 
-- **HIPAA-ready configurations:** An Owner can turn on Claude Docs, Slides, Design, Dashboards, and Motion in **[Organization settings > Artifacts](https://claude.ai/admin-settings/artifacts)** after accepting the terms. These aren't covered under your Business Associate Agreement (BAA), so keep protected health information (PHI) out of them.
+- **HIPAA-ready configurations:** An Owner can turn on Claude Docs, Slides, Design, Data, and Motion in **[Organization settings > Artifacts](https://claude.ai/admin-settings/artifacts)** after accepting the terms. These aren't covered under your Business Associate Agreement (BAA), so keep protected health information (PHI) out of them.
 
 - **CMEK:** Artifacts are available.
 
@@ -303,4 +305,4 @@ The **Claude Design Admin** permission applies only in the standalone Claude Des
 
 ### Can users export what they make?
 
-Yes. For more information, refer to **[View and export](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them#h_71205f2c4b)** in **[What are artifacts and how do I use them?](https://support.claude.com/en/articles/9487310)**
+Yes. For more information, refer to **[View and export](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them#h_71205f2c4b)** in **[What are artifacts and how do I use them?](https://support.claude.com/en/articles/17153992)**

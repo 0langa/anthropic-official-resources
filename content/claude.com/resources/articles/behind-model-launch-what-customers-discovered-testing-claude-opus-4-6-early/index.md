@@ -11,13 +11,13 @@ Before a [new Claude model goes live](https://www.anthropic.com/news/claude-opus
 
 The review window is tight. Teams clear their calendars, spin up war rooms, and start throwing their hardest problems at the model. Behind the scenes, it's late nights, many cups of coffee, and Slack channels lighting up at odd hours. What their customers eventually see is polished—but the process of getting there is a lot messier and a lot more fun.
 
-For this piece, we wanted to pull the curtain on what this looks like. [Harvey](https://www.harvey.ai/), [bolt.new](https://bolt.new/), [Shopify](https://www.shopify.com/), and [Lovable](https://lovable.dev/) all gave us a look inside at their early access period with Claude Opus 4.6: the approaches they took, the breakthroughs they found, and what they learned before anyone else.
+For this piece, we wanted to pull back the curtain on what this looks like. [Harvey](https://www.harvey.ai/), [bolt.new](https://bolt.new/), [Shopify](https://www.shopify.com/), and [Lovable](https://lovable.dev/) all gave us a look inside their early access period with Claude Opus 4.6: the approaches they took, the breakthroughs they found, and what they learned before anyone else.
 
 ## **Getting ready for model testing**
 
 How teams kick things off depends a lot on what they're building.
 
-[bolt.new](https://claude.com/customers/stackblitz) spun up a dedicated Slack channel and deliberately avoided sharing impressions early so they wouldn't bias each other.
+bolt.new spun up a dedicated Slack channel and deliberately avoided sharing impressions early so they wouldn't bias each other.
 
 [Harvey](https://claude.com/customers/harvey)'s research team brought in experienced lawyers to test the model on legal tasks while running it through BigLaw Bench, their benchmark for real-world legal work.
 

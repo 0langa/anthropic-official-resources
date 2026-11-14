@@ -76,4 +76,4 @@ Additional resources:
 Relevant safety work:
 
 - June 2024, [Claude 3.5 Sonnet launch](https://www.anthropic.com/news/claude-3-5-sonnet),
-- June 2024, [Claude 3.5 Model Card Addendum](https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf)
+- June 2024, [Claude 3.5 Model Card Addendum](https://assets.claude.com/fed9cc193a14b84131812372d8d5857f8f304c52.pdf)

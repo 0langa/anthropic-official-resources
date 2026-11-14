@@ -8,9 +8,9 @@ New plugins built for how finance actually works, plus cross-app workflows that 
 - Reading time6 min
 - ShareCopy link
 
-Today we’re announcing updates to Cowork, including new plugins, so teams across the enterprise can mold Claude to how they want to work. As part of this, we're continuing to build on [recent updates](https://claude.com/resources/articles/opus-4-6-finance) to expand what Claude can do for financial services.
+Today we’re announcing updates to [Cowork](https://claude.com/product/cowork), including [new plugins](https://claude.com/resources/articles/cowork-plugins), so teams across the enterprise can mold Claude to how they want to work. As part of this, we're continuing to build on [recent updates](https://claude.com/resources/articles/opus-4-6-finance) to expand what Claude can do for financial services.
 
-Claude now works across Excel and PowerPoint — carrying context between apps to complete multi-step finance tasks end to end. We're also introducing five new finance plugins, new MCP connectors for FactSet and MSCI, and partner-created plugins from LSEG and S&P Global.
+Claude now [works across Excel and PowerPoint](https://claude.com/resources/articles/claude-excel-powerpoint-updates) — carrying context between apps to complete multi-step finance tasks end to end. We're also introducing five new finance plugins, new MCP connectors for FactSet and MSCI, and partner-created plugins from LSEG and S&P Global.
 
 For finance professionals, this means that an end-to-end workflow — performing research across market data providers through to updating a model and building the deck — can now happen in a single session, without switching tools or losing context along the way.
 
@@ -50,7 +50,7 @@ In addition to existing financial MCP [connectors](https://claude.com/connectors
 
 Several partners are also launching their own plugins, which can be found in the same [financial services plugins repository](https://github.com/anthropics/financial-services-plugins) above.
 
-- The **S&P Global** plugin brings Capital IQ Pro into Claude’s context. Skills include company tear sheets, industry transaction summaries, and earnings calls previews.
+- The **S&P Global** plugin brings Capital IQ Pro into Claude’s context. Skills include company tear sheets, industry transaction summaries, and earnings call previews.
 - The **LSEG** plugin gives financial professionals direct access to LSEG’s market data and analytics from within Claude. Build DCF models with live yield curves, draft morning notes with real-time news, rebalance portfolios with current cross-asset pricing, and analyze deals with actual financing economics. Available for users with active LSEG data entitlements.
 
 ## Getting started
@@ -69,31 +69,29 @@ To get started with Claude working across Excel and PowerPoint, download the add
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 10, 2026
+[ArticleNov 13, 2026
 
-### Your apps can now open in Claude, and Claude can work in them
+### Building always-on agents
 
-Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
+Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
 
-Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)[ArticleNov 10, 2026
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
 
-### How Curative is building a national provider network with agents on Claude
+### The Claude Tag guide for startups
 
-Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
+How leading startups use Claude Tag to ship faster and scale operations
 
-Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 10, 2026
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 12, 2026
 
-### More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
+### Operate Claude Managed Agents inside your security perimeter
 
-Work at the speed of thought
+Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
 
-Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)[ArticleNov 10, 2026
+Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)[ArticleNov 12, 2026
 
-### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
+### Introducing Claude for Manufacturing
 
-Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
-
-Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)
+A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)
 
 ## Transform how your organization operates with Claude
 

@@ -1,6 +1,6 @@
 # Inviting hard questions
 
-![Inviting hard questions](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3fe58a56e696628496e95871e00b8287035ea645-2000x1125.jpg&w=1920&q=75)
+![Inviting hard questions](https://assets.claude.com/3fe58a56e696628496e95871e00b8287035ea645.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Jul 9, 2026

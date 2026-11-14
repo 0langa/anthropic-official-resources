@@ -96,7 +96,7 @@ I keep getting distance-vs-speed graph questions wrong on tests. Give me one pra
 
 One minute on the clock — answer the way you would on a test, then we'll unpack what it was doing.
 
-Practice · Q10:59
+Practice · Q10:60
 
 010203040500481216time (min)km
 

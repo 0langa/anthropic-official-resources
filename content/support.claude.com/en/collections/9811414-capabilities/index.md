@@ -1,6 +1,6 @@
 # Capabilities
 
-8 articles
+9 articles
 
 [Manage project visibility and sharing](https://support.claude.com/en/articles/9519189-manage-project-visibility-and-sharing)
 
@@ -17,3 +17,5 @@
 [Artifacts admin guide for Team and Enterprise plans](https://support.claude.com/en/articles/16994751-artifacts-admin-guide-for-team-and-enterprise-plans)
 
 [Get started with Claude Motion](https://support.claude.com/en/articles/17454997-get-started-with-claude-motion)
+
+[Use Claude Meetings](https://support.claude.com/en/articles/18325154-use-claude-meetings)

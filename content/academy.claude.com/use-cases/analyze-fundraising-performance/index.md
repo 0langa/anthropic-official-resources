@@ -97,9 +97,9 @@ Create a polished 2-page Word document pulling the key findings from this analys
 
 Open in Claude
 
-### Build in donor lifetime value analysis[](https://academy.claude.com/use-cases/analyze-fundraising-performance)
+### Build a forecasting model[](https://academy.claude.com/use-cases/analyze-fundraising-performance)
 
-Understand the impact of different investment models by building out value analysis.
+Understand the impact of different investment levels by forecasting next year's revenue by channel.
 
 Build a forecasting model for next fiscal year based on the ROI patterns you've identified. Show me projected revenue by channel if we implement your reallocation recommendations, with quarterly targets, variance tracking, and confidence intervals. Include scenario toggles so I can model different investment levels.
 
@@ -111,7 +111,7 @@ Build a forecasting model for next fiscal year based on the ROI patterns you've 
 
 ### Design language in prompts drives visual quality[](https://academy.claude.com/use-cases/analyze-fundraising-performance)
 
-Notice how the example prompt uses phrases like "premium formatting," "sophisticated design," "consulting-grade formatting," and "make an extreme effort on visual sophistication." Claude responds to these design cues with intentional color choices, professional typography, and elevated formatting. Without this design language, outputs default to functional but generic styling. When visual quality matters for stakeholder presentations, be explicit about design expectations.
+Notice how the example prompt uses phrases like "premium formatting," "sophisticated color palette," "consulting-grade typography," and "make an extreme effort on visual quality." Claude responds to these design cues with intentional color choices, professional typography, and elevated formatting. Without this design language, outputs default to functional but generic styling. When visual quality matters for stakeholder presentations, be explicit about design expectations.
 
 ### Verify key financial calculations[](https://academy.claude.com/use-cases/analyze-fundraising-performance)
 

@@ -16,7 +16,7 @@ Claude can process visual content and translate mathematical notation into prope
 
 Describe the kind of course materials you want Claude to create using your handwritten notes and course objectives.
 
-I'm a math professor converting my handwritten integration notes into a professional course materials. I have:
+I'm a math professor converting my handwritten integration notes into professional course materials. I have:
 
 - Handwritten notes with equations
 - A typed outline of topics
@@ -102,9 +102,9 @@ If you're converting multiple chapters, create a [Project(opens in new tab)](htt
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/create-custom-course-materials)
 
-Use Claude to turn your handwritten notes and whiteboard lectures accessible to every student with professional, text-book quality materials.
+Use Claude to make your handwritten notes and whiteboard lectures accessible to every student with professional, textbook-quality materials.
 
-I'm a math professor converting my handwritten integration notes into a professional course materials. I have:
+I'm a math professor converting my handwritten integration notes into professional course materials. I have:
 
 - Handwritten notes with equations
 - A typed outline of topics

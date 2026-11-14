@@ -34,7 +34,7 @@ Opus and Sonnet are now available to use in claude.ai and the Claude API which i
 
 ### Claude 3 model family
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5d20371eeb8d045465bb22cacfd269b5958b004d-2200x1174.png&w=3840&q=75)
+![](https://assets.claude.com/05673b39013e6c32e10027c120348009bfa532bd.png?w=3840&q=75&fm=webp&fit=max)
 
 ### A new standard for intelligence
 
@@ -44,7 +44,7 @@ All [Claude 3](https://www.anthropic.com/claude-3-model-card) models show increa
 
 Below is a comparison of the Claude 3 models to those of our peers on multiple benchmarks [1] of capability:
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9ad98d612086fe52b3042f9183414669b4d2a3da-2200x1954.png&w=3840&q=75)
+![](https://assets.claude.com/3f72732ff94c1a201ce1217b801737a37b615203.png?w=3840&q=75&fm=webp&fit=max)
 
 ### Near-instant results
 
@@ -58,13 +58,13 @@ For the vast majority of workloads, Sonnet is 2x faster than Claude 2 and Claude
 
 The Claude 3 models have sophisticated vision capabilities on par with other leading models. They can process a wide range of visual formats, including photos, charts, graphs and technical diagrams. We’re particularly excited to provide this new modality to our enterprise customers, some of whom have up to 50% of their knowledge bases encoded in various formats such as PDFs, flowcharts, or presentation slides.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6b66d86ff0c180e95bc6ad2e6e4a1843aa74c80f-2200x960.png&w=3840&q=75)
+![](https://assets.claude.com/b21d16ddfa243f9baafc30828e685f80eabdd002.png?w=3840&q=75&fm=webp&fit=max)
 
 ### Fewer refusals
 
 Previous Claude models often made unnecessary refusals that suggested a lack of contextual understanding. We’ve made meaningful progress in this area: Opus, Sonnet, and Haiku are significantly less likely to refuse to answer prompts that border on the system’s guardrails than previous generations of models. As shown below, the Claude 3 models show a more nuanced understanding of requests, recognize real harm, and refuse to answer harmless prompts much less often.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd1fbcf3d58ebc2dcd2e98aac995d70bf50cb2e9c-2188x918.png&w=3840&q=75)
+![](https://assets.claude.com/d3e895de642625863448888288fbee99998ce47a.png?w=3840&q=75&fm=webp&fit=max)
 
 ### Improved accuracy
 
@@ -72,7 +72,7 @@ Businesses of all sizes rely on our models to serve their customers, making it i
 
 In addition to producing more trustworthy responses, we will soon enable citations in our Claude 3 models so they can point to precise sentences in reference material to verify their answers.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7cb598c6a9fa58c12b77f67ee2067feaac4a2de0-2200x896.png&w=3840&q=75)
+![](https://assets.claude.com/7cb598c6a9fa58c12b77f67ee2067feaac4a2de0.png?w=3840&q=75&fm=webp&fit=max)
 
 ### Long context and near-perfect recall
 
@@ -80,7 +80,7 @@ The Claude 3 family of models will initially offer a 200K context window upon la
 
 To process long context prompts effectively, models require robust recall capabilities. The 'Needle In A Haystack' (NIAH) evaluation measures a model's ability to accurately recall information from a vast corpus of data. We enhanced the robustness of this benchmark by using one of 30 random needle/question pairs per prompt and testing on a diverse crowdsourced corpus of documents. Claude 3 Opus not only achieved near-perfect recall, surpassing 99% accuracy, but in some cases, it even identified the limitations of the evaluation itself by recognizing that the "needle" sentence appeared to be artificially inserted into the original text by a human.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd2aa12b60e9c57e7057924bd8878d754c7b3d8e7-2200x1088.png&w=3840&q=75)
+![](https://assets.claude.com/d2aa12b60e9c57e7057924bd8878d754c7b3d8e7.png?w=3840&q=75&fm=webp&fit=max)
 
 ### Responsible design
 

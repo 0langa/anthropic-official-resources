@@ -66,8 +66,6 @@ Your follow-up prompt might look like:
 
 This approach works because it allows Claude to focus on one specific aspect at a time. Even if the initial response doesn't satisfy all your requirements, the follow-up prompt gives Claude a clear, focused task for improvement.
 
-![Chaining diagram in which "Input" flows through "Processing Task 1", "Processing Task 2" and "Processing Task 3" to "Output".](https://academy.claude.com/assets/media/0fb97ecea57ebd4a5222cf32e91dc5c153ab1df022531938d13e4c05c9ca5010.png)
-
 ## When to Use Chaining[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/chaining-workflows)
 
 Chaining workflows are particularly useful when:

@@ -78,7 +78,7 @@ Unless a background command that the main conversation started is still running,
 The run waits for background work such as background commands, subagents and workflows, Monitor watches, and pending `/loop` wakeups:
 
 * **[Background commands](/docs/en/tools-reference#background-commands)**: for a command that the main conversation started, for example a dev server or a watch build, the run waits until the command exits or reaches its [time limit](/docs/en/tools-reference#time-limit-for-background-commands). Claude then takes one more turn with the outcome. While the command runs, the 10-minute cap doesn't end the wait.
-* **Background [subagents](/docs/en/sub-agents) and workflows**: the run stays open until that work completes, because its result is part of the final output.
+* **Background [subagents](/docs/en/sub-agents) and workflows**: the run stays open until each one finishes or the 10-minute cap ends the wait.
 * **[Monitor](/docs/en/tools-reference#monitor-tool) watches**: the run waits until the watch times out or the 10-minute cap ends the wait, whichever comes first. While it waits, Claude keeps responding to what the watch reports. By default, a watch times out five minutes after Claude starts it.
 * **Pending wakeups**: in a run whose prompt you passed as text rather than with `--input-format stream-json`, when Claude has scheduled a [self-paced `/loop` wakeup](/docs/en/scheduled-tasks#let-claude-choose-the-interval), the run waits for each wakeup to fire and runs its iteration until the [loop ends](/docs/en/scheduled-tasks#stop-a-loop), even past the 10-minute cap.
 
@@ -87,6 +87,12 @@ When stderr is a terminal and the run has waited five seconds, Claude Code print
 If the run reaches its [`--max-budget-usd`](/docs/en/cli-reference#cli-flags) cap, Claude Code stops the remaining background work instead of waiting.
 
 When background work starts another turn, the run prints each turn's result with the default `text` output and the last turn's result with `json` output. Before v2.1.295, the run printed only the last turn's result with `text` output too.
+
+#### Give a long subagent command more time
+
+When a subagent's long command [moves to the background](/docs/en/tools-reference#foreground-commands-that-move-to-the-background) at its timeout, it keeps running, but a `claude -p` run can exit with code 0 before the command finishes.
+
+To raise the default timeout above the command's run time, set [`BASH_DEFAULT_TIMEOUT_MS`](/docs/en/env-vars), for example `BASH_DEFAULT_TIMEOUT_MS=300000 claude -p "<prompt>"` for five minutes. For a background subagent's command over 10 minutes, also raise the [10-minute cap](#background-tasks-at-exit).
 
 #### MCP work when a non-interactive run ends
 
@@ -366,7 +372,7 @@ The `--allowedTools` flag uses [permission rule syntax](/docs/en/settings-refere
 > * User-invoked [skills](/docs/en/skills) and custom commands work. Include `/skill-name` in the prompt string and Claude Code expands it before running.
 > * Built-in commands that only run in the terminal interface, such as `/login`, aren't available.
 > * `/model`, `/effort`, `/fast`, `/color`, and `/rename` accept the value as an argument, for example `/model sonnet`, and `/mcp` with no argument prints a text summary of server status. These forms follow each command's [availability notes](/docs/en/commands#all-commands).
-> * To change a setting, pass `key=value` to `/config`, for example `/config thinking=false`.
+> * To change a setting, pass `key=value` to `/config`, for example `/config verbose=true`.
 > * `/output-style <style>` switches [output styles](/docs/en/output-styles) and `/output-style` alone lists them. Requires Claude Code v2.1.269 or later.
 
 ### Customize the system prompt

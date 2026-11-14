@@ -2,7 +2,7 @@
 
 [Read Paper](https://arxiv.org/abs/2209.07858)
 
-![Red teaming language models to reduce harms: methods, scaling behaviors, and lessons learned](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffebe38879724063719eacff5d17fa98ed3c2d0ec-2000x1125.jpg&w=1920&q=75)
+![Red teaming language models to reduce harms: methods, scaling behaviors, and lessons learned](https://assets.claude.com/351619ae31efe41a2476552b7577238c6f1ad54d.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Aug 22, 2022
@@ -36,4 +36,4 @@ We describe our early efforts to red team language models in order to simultaneo
 
 ### Policy Memo
 
-[Red Teaming Policy Memo](https://www-cdn.anthropic.com/82564d4ec2451b2eed2e0796b7c658fc989f0c1a/Anthropic_RedTeaming.pdf)
+[Red Teaming Policy Memo](https://assets.claude.com/82564d4ec2451b2eed2e0796b7c658fc989f0c1a.pdf)

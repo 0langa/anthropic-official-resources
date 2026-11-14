@@ -2,7 +2,7 @@
 
 # Introducing Claude 4
 
-![Illustration of Claude juggling several tasks in parallel](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9890d1bb39c15c41772af22d2282eb612469051c-2880x1620.jpg&w=1920&q=75)
+![Illustration of Claude juggling several tasks in parallel](https://assets.claude.com/642e1abb6fce5cc7fe774024cc5d9607df4880f7.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   May 22, 2025
@@ -34,8 +34,6 @@ Today, we’re introducing the next generation of Claude models: **Claude Opus 4
 
 Claude Opus 4 is the world’s best coding model, with sustained performance on complex, long-running tasks and agent workflows. Claude Sonnet 4 is a significant upgrade to Claude Sonnet 3.7, delivering superior coding and reasoning while responding more precisely to your instructions.
 
-![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FoqUclC3gqKs%2Fsddefault.jpg&w=3840&q=75)
-
 Alongside the models, we're also announcing:
 
 - **Extended thinking with tool use (beta)**: Both models can use tools—like [web search](https://docs.anthropic.com/en/docs/build-with-claude/tool-use/web-search-tool)—during extended thinking, allowing Claude to alternate between reasoning and tool use to improve responses.
@@ -57,9 +55,182 @@ Claude Sonnet 4 significantly improves on Sonnet 3.7's industry-leading capabili
 
 These models advance our customers' AI strategies across the board: Opus 4 pushes boundaries in coding, research, writing, and scientific discovery, while Sonnet 4 brings frontier performance to everyday use cases as an instant upgrade from Sonnet 3.7.
 
-![Bar chart comparison between Claude and other LLMs on software engineering tasks](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F09a6d5aa47c25cb2037efff9f486da4918f77708-3840x2304.png&w=3840&q=75)
+![Bar chart comparison between Claude and other LLMs on software engineering tasks](https://assets.claude.com/23d990c96c0f9f124c74149c8eeb312edbffec50.png?w=3840&q=75&fm=webp&fit=max)
 
 Claude 4 models lead on SWE-bench Verified, a benchmark for performance on real software engineering tasks. See appendix for more on methodology.
+
+Benchmark
+
+Claude
+ Opus 4
+
+Claude Sonnet 4
+
+Claude Sonnet 3.7
+
+OpenAI o3
+
+OpenAI GPT-4.1
+
+Gemini 2.5 Pro
+
+Preview (05-06)
+
+Agentic coding
+
+SWE-bench Verified1, 5
+
+72.5% / 79.4%
+
+72.7% / 80.2%
+
+62.3% / 70.3%
+
+69.1%
+
+54.6%
+
+63.2%
+
+Agentic terminal coding
+
+Terminal-bench2, 5
+
+43.2% / 50.0%
+
+35.5% / 41.3%
+
+35.2%
+
+30.2%
+
+30.3%
+
+25.3%
+
+Graduate-level reasoning
+
+GPQA Diamond5
+
+79.6% / 83.3%
+
+75.4% / 83.8%
+
+78.2%
+
+83.3%
+
+66.3%
+
+83.0%
+
+Agentic tool use
+
+TAU-bench
+
+Retail
+
+81.4%
+
+Retail
+
+80.5%
+
+Retail
+
+81.2%
+
+Retail
+
+70.4%
+
+Retail
+
+68.0%
+
+—
+
+Airline
+
+59.6%
+
+Airline
+
+60.0%
+
+Airline
+
+58.4%
+
+Airline
+
+52.0%
+
+Airline
+
+49.4%
+
+—
+
+Multilingual Q&A
+
+MMMLU3
+
+88.8%
+
+86.5%
+
+85.9%
+
+88.8%
+
+83.7%
+
+—
+
+Visual reasoning
+
+MMMU (validation)
+
+76.5%
+
+74.4%
+
+75.0%
+
+82.9%
+
+74.8%
+
+79.6%
+
+High school math competition
+
+AIME 20254, 5
+
+75.5% / 90.0%
+
+70.5% / 85.0%
+
+54.8%
+
+88.9%
+
+—
+
+83.0%
+
+**Methodology**
+
+1. Opus 4 and Sonnet 4 achieve 72.5% and 72.7% pass@1 with bash/editor tools (averaged over 10 trials, single-attempt patches, no test-time compute, using nucleus sampling with a top\_p of 0.95).
+
+2. Opus 4 and Sonnet 4 score 39.2% and 33.5% pass@1 with the same agent as non-Claude models, the above reported 43.2% and 35.5% with Claude Code as agent framework.
+
+3. Claude scores on MMMLU are the average over 14 non-English languages.
+
+4. Opus 4 and Sonnet 4 were run on AIME using nucleus sampling with a top\_p of 0.95.
+
+5. On SWE-Bench, Terminal-Bench, GPQA and AIME, we additionally report results that benefit from parallel test-time compute by sampling multiple sequences and selecting the single best via an internal scoring model.
 
 ## Model improvements
 
@@ -67,7 +238,7 @@ In addition to extended thinking with tool use, parallel tool execution, and mem
 
 Claude Opus 4 also dramatically outperforms all previous models on memory capabilities. When developers build applications that provide Claude local file access, Opus 4 becomes skilled at creating and maintaining 'memory files' to store key information. This unlocks better long-term task awareness, coherence, and performance on agent tasks—like Opus 4 creating a 'Navigation Guide' while playing Pokémon.
 
-![A visual note in Claude's memories that depicts a navigation guide for the game Pokemon Red.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe51564bb5ce9597dbfc59bbab13a0efbe25a7d66-1920x1080.gif&w=3840&q=75)
+![A visual note in Claude's memories that depicts a navigation guide for the game Pokemon Red.](https://assets.claude.com/e51564bb5ce9597dbfc59bbab13a0efbe25a7d66.gif)
 
 Memory: When given access to local files, Claude Opus 4 records key information to help improve its game play. The notes depicted above are real notes taken by Opus 4 while playing Pokémon.
 
@@ -87,7 +258,7 @@ Beyond the IDE, we're releasing an extensible Claude Code SDK, so you can build 
 
 These models are a large step toward the virtual collaborator—maintaining full context, sustaining focus on longer projects, and driving transformational impact. They come with extensive testing and evaluation to minimize risk and maximize safety, including [implementing measures](https://www.anthropic.com/news/activating-asl3-protections) for higher AI Safety Levels like ASL-3.
 
-We're excited to see what you'll create. Get started today on [Claude](https://claude.ai/redirect/website.v1.567144e3-81b3-4bd3-aba5-a3f3a5d3ef0b), [Claude Code](https://www.anthropic.com/claude-code), or the platform of your choice.
+We're excited to see what you'll create. Get started today on [Claude](https://claude.ai/redirect/website.v1.d0964e00-ea43-4d53-b87b-239b894660a1), [Claude Code](https://www.anthropic.com/claude-code), or the platform of your choice.
 
 *As always, your [feedback](mailto: feedback@anthropic.com) helps us improve.*
 

@@ -30,8 +30,6 @@ With streaming enabled, Claude immediately sends back an initial response indica
 
 Your server can forward these text chunks to your client application as they arrive, allowing users to see the response building up word by word. All of these events are part of a single request to Claude.
 
-![Claude replies to "What is quantum computing?" with an initial response, then the events "Quantum", "computing" and "is".](https://academy.claude.com/assets/media/383a3ef0267d731d42ae032c4a7946df84a9a0de6d78e5abbdf02db3b606a23f.png)
-
 ## Understanding Stream Events[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/response-streaming)
 
 When you enable streaming, Claude sends back several types of events:

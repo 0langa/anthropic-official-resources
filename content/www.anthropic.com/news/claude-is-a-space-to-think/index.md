@@ -1,6 +1,6 @@
 # Claude is a space to think
 
-![Claude is a space to think](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd6b268b276e9e4b9c024aeeed7690d5bf25cbc12-2000x1125.png&w=1920&q=75)
+![Claude is a space to think](https://assets.claude.com/d6b268b276e9e4b9c024aeeed7690d5bf25cbc12.png?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Feb 4, 2026

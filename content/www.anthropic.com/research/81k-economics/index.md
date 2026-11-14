@@ -2,7 +2,7 @@
 
 # What 81,000 people told us about the economics of AI
 
-[Read the PDF](https://cdn.sanity.io/files/4zrzovbb/website/3a8d990bc90098038eabd77b0d12ff636ed58d50.pdf)
+[Read the PDF](https://assets.claude.com/3a8d990bc90098038eabd77b0d12ff636ed58d50.pdf)
 
 ![What 81,000 people told us about the economics of AI](https://assets.claude.com/66c8c34a5516c2ab570a26a460bc5a0ad3132316.jpg?w=1920&q=75&fm=webp&fit=max)
 
@@ -51,7 +51,7 @@ The survey’s results provide initial evidence that [observed exposure](https:/
 
 One fifth of the respondents in our survey voiced concern about economic displacement. Some worried about this in the abstract: one software developer cautioned about “the possibility of AI in its current state being used to replace junior positions.” Others lamented that their jobs, or aspects of their jobs, were being automated away. One market researcher said, “In terms of improving my capability, it's no doubt. [B]ut in the future AI may replace my work.” In some jobs, people felt it made their work harder. One software developer observed that “when AI arrived, the project managers started giving harder and harder tickets and bugs to solve.”
 
-Throughout this report, we use Claude-powered classifiers to infer people’s attributes and sentiments from their responses. For example, many participants mention their line of work in passing or give informative details about their work life, which allows us to infer their occupation. Similarly, we quantify concerns about job loss by prompting Claude to identify and interpret direct quotes in which respondents indicate that their own role is at risk of AI-driven displacement. We give example prompts in [the Appendix](https://www-cdn.anthropic.com/files/4zrzovbb/website/3a8d990bc90098038eabd77b0d12ff636ed58d50.pdf).
+Throughout this report, we use Claude-powered classifiers to infer people’s attributes and sentiments from their responses. For example, many participants mention their line of work in passing or give informative details about their work life, which allows us to infer their occupation. Similarly, we quantify concerns about job loss by prompting Claude to identify and interpret direct quotes in which respondents indicate that their own role is at risk of AI-driven displacement. We give example prompts in [the Appendix](https://assets.claude.com/3a8d990bc90098038eabd77b0d12ff636ed58d50.pdf).
 
 Respondents’ perceived threat from AI was correlated with our [own measure of observed exposure](https://www.anthropic.com/research/labor-market-impacts), which reflects the percentage of a job’s tasks for which Claude is used. A respondent was more concerned about AI when our observed exposure measure for that respondent was higher. Elementary school teachers were less worried about their own displacement than software engineers, for example, consistent with the fact that Claude usage skews toward coding tasks.
 
@@ -61,7 +61,7 @@ We show this in Figure 1 below. The y-axis is the percentage of respondents in a
 
 **Perceived job threat from AI and Observed Exposure.** Percentage of respondents indicating some job threat from AI vs. the Observed Exposure measure from [Massenkoff and McCrory (2026)](https://www.anthropic.com/research/labor-market-impacts). A respondent was coded as indicating job threat if they said their role was already being replaced or substantially reduced, or that such changes were likely in the near term (coded using Claude). The green line shows a simple linear fit.
 
-Another important worker characteristic is career stage. In previous research, we reported [tentative signs](https://www-cdn.anthropic.com/files/4zrzovbb/website/a42bc3fc08283562f08fd8bdee8f6f9a3d506e87.pdf) of a slowdown in the hiring of recent graduates and early-career workers in the United States. For about half of respondents in this survey, we were able to infer career stage from their answers.[2](https://www.anthropic.com/research/81k-economics) We found that early-career respondents were much more likely to express concern about job displacement than senior workers.
+Another important worker characteristic is career stage. In previous research, we reported [tentative signs](https://assets.claude.com/a42bc3fc08283562f08fd8bdee8f6f9a3d506e87.pdf) of a slowdown in the hiring of recent graduates and early-career workers in the United States. For about half of respondents in this survey, we were able to infer career stage from their answers.[2](https://www.anthropic.com/research/81k-economics) We found that early-career respondents were much more likely to express concern about job displacement than senior workers.
 
 ![](https://assets.claude.com/e734cb6470a143e7fafa0ec0e0b1070ea63118db.png?w=3840&q=75&fm=webp&fit=max)
 
@@ -73,7 +73,7 @@ Using Claude to assess the survey responses, we rated the extent of people’s s
 
 Overall, people reported meaningful productivity gains on average. The mean productivity rating was 5.1, corresponding to “substantially more productive.” Our respondents were, of course, active Claude users who were willing to take a survey. This could make them more likely to report productivity benefits than the average user. Some 3% reported negative or neutral impacts, and 42% did not give a clear indication on productivity.
 
-This splits somewhat across income lines. The left panel in Figure 3 shows that people in high-paying jobs, like software developers, conveyed the largest productivity gains from AI. This result is not driven only by coding; it holds when we leave out computer and math occupations. It echoes a previous [Economic Index finding](https://www-cdn.anthropic.com/096d94c1a91c6480806d8f24b2344c7e2a4bc666.pdf) that also favored higher-paid workers: in tasks requiring greater levels of education, Claude tended to reduce the time taken to complete a task (relative to doing it without AI) by a higher percentage.
+This splits somewhat across income lines. The left panel in Figure 3 shows that people in high-paying jobs, like software developers, conveyed the largest productivity gains from AI. This result is not driven only by coding; it holds when we leave out computer and math occupations. It echoes a previous [Economic Index finding](https://assets.claude.com/096d94c1a91c6480806d8f24b2344c7e2a4bc666.pdf) that also favored higher-paid workers: in tasks requiring greater levels of education, Claude tended to reduce the time taken to complete a task (relative to doing it without AI) by a higher percentage.
 
 Some of the lowest-paid workers describe high productivity gains as well. This included a customer service representative using “AI to save me a lot of time with creating a response based on another one.” And in some cases, people in low-wage jobs were using AI on technical side projects. One delivery driver, for example, was using Claude to start an e-commerce business, and a landscaper was building a music application.
 
@@ -121,7 +121,7 @@ Still, the interviews surface real insights about people’s feelings around the
 
 ### Appendix
 
-See the final section of the [linked PDF](https://www-cdn.anthropic.com/files/4zrzovbb/website/3a8d990bc90098038eabd77b0d12ff636ed58d50.pdf).
+See the final section of the [linked PDF](https://assets.claude.com/3a8d990bc90098038eabd77b0d12ff636ed58d50.pdf).
 
 ## Footnotes
 

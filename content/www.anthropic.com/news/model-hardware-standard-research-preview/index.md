@@ -36,7 +36,7 @@ We’re sharing an early version of MHS with partners across science, robotics, 
 
 ## How MHS works
 
-Embedded media: https://cdn.sanity.io/files/4zrzovbb/website/af63049620774e379536a9bb28df7304c62f86af.mp4
+Embedded media: https://assets.claude.com/af63049620774e379536a9bb28df7304c62f86af.mp4
 
 Before and after the Model Hardware Standard (MHS).
 

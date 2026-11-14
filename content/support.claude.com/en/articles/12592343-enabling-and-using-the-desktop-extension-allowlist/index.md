@@ -20,11 +20,11 @@ The desktop extension allowlist is disabled by default, so an organization Owner
 
 4. Switch to the "Desktop" tab:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1781755172/63c92550571842577ad435860ec5/6f5cc4e1-ff7d-48de-863a-c4e6184d4605?expires=1794491100&amp;signature=4953bd7f9a45d84f92ea9419ca29031d74ee89ea1d9bad58001d56d7cc19e036&amp;req=dScvF857mIBYW%2FMW1HO4zQ9pXE4O9nHa0ugSQm1MFW8gAdVEPSFXjLjEoZAw%0Ax2w1%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1781755172/63c92550571842577ad435860ec5/6f5cc4e1-ff7d-48de-863a-c4e6184d4605?expires=1794660300&amp;signature=5be6fb8a11e79730f6d59183f0c38d3da5bcbf80633feb43910beb53e649dd11&amp;req=dScvF857mIBYW%2FMW1HO4zQ9pXE4M%2BXDY0ugSQm1MFW8WxvM9IU1foS0nsJ2F%0AT0%2Fl%0A)
 
 5. Toggle **Allowlist** on:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1781755578/a6bafff5f084dc86ae463703fd3d/6cf0ee18-4e71-4129-98e8-cc08174e3c3a?expires=1794491100&amp;signature=708e7cbf737cf376725b6a02649e05cd832edff4158d0be2fbb07636943fba3c&amp;req=dScvF857mIRYUfMW1HO4zaj0BXUvQKYFTAorLxpdoc8bfe3WJVTGzudGSy3x%0AYu29%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1781755578/a6bafff5f084dc86ae463703fd3d/6cf0ee18-4e71-4129-98e8-cc08174e3c3a?expires=1794660300&amp;signature=c0138261292170d361b1415aa8ae877b6a4ab5e96b50fc5b256e5423da6af9d9&amp;req=dScvF857mIRYUfMW1HO4zaj0BXUtT6cHTAorLxpdoc9mtyIPeqOV11qoxwJT%0A2fgc%0A)
 
 On the Enterprise plan, you can also choose "Block all desktop extensions" under the allowlist switch, which turns off installed extensions, even those on your list, and stops new installs. Learn more in **[Enterprise configuration for Claude Desktop](https://support.claude.com/en/articles/12622667-enterprise-configuration-for-claude-desktop)**.
 
@@ -44,7 +44,7 @@ Consider completing the allowlist setup during off-hours to minimize disruption 
 
 **Important:** The allowlist requires Claude Desktop version 0.13.91 or higher, so users should update the desktop app by clicking “Claude”, then either “Check for updates” or “Restart to update to Claude 0.13.91”:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1781756960/ad18af50c83d35f2673656c23e00/a7ee450f-0c7d-42d6-a75f-fb1bc088cb52?expires=1794491100&amp;signature=cd87352456e42646ed853f1ac16f71fb6c9d129ec8bd76197554ad44e2bd0fb8&amp;req=dScvF857m4hZWfMW1HO4zYUJqIeuAzPqCEDZ5AdBjIYhIjZeOs6G97goC25o%0A2caNXN7LcndZ2Ock9ik%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1781756960/ad18af50c83d35f2673656c23e00/a7ee450f-0c7d-42d6-a75f-fb1bc088cb52?expires=1794660300&amp;signature=ac3d7b6a6ea342f501e16167468e6567c045e05ec0e232859a764e9b2b1da3fa&amp;req=dScvF857m4hZWfMW1HO4zYUJqIesDDLoCEDZ5AdBjIYKWbrRTP9n8bYFJcHz%0Anz9ap0otD4qkyufsq5g%3D%0A)
 
 ## Managing allowed extensions
 
@@ -62,7 +62,7 @@ After enabling the allowlist, you can choose which extensions to allow:
 
 If you want to remove an extension from the allowlist, click the “...” button and “Remove from allowlist.”
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1781751250/6558c0f59aea7976bd44b0213d76/e750f02b-cd0d-437e-a83f-9ac362cdf456?expires=1794491100&amp;signature=f97a3c4d0c721c999b135360f0675d6c8842b8ff344270380c87a3dc6bccc147&amp;req=dScvF857nINaWfMW1HO4zTrxBKwt9laUqXridZhfx1JC%2BSQsPTVH0QN8ZD2t%0Arf5F%2FWM0f4BXguYld1M%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1781751250/6558c0f59aea7976bd44b0213d76/e750f02b-cd0d-437e-a83f-9ac362cdf456?expires=1794660300&amp;signature=b52ffee3e854cc0417ad63778ccfe82ebd0a4879737e2c686be5064a5257c17a&amp;req=dScvF857nINaWfMW1HO4zTrxBKwv%2BVeWqXridZhfx1KSpuYybson974f0221%0ABnt6Zpp1tNiopMVT0Ls%3D%0A)
 
 ## Uploading custom extensions
 

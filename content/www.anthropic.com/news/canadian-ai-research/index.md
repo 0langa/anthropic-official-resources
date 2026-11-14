@@ -57,7 +57,7 @@ We’re also [sharing data](https://www.anthropic.com/research/how-canada-uses-c
 
 We find that Canada ranks eighth worldwide in Claude.ai use. Per person, Canadians use Claude at more than four times the rate the population predicts, and among the 10 countries where Claude is used most, only the US ranks higher.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F976607f5799ad2170a43fb842885ad697cc4cf99-1920x1080.png&w=3840&q=75)
+![](https://assets.claude.com/976607f5799ad2170a43fb842885ad697cc4cf99.png?w=3840&q=75&fm=webp&fit=max)
 
 **Usage share and per-capita adoption among the top 10 countries by global Claude.ai use.**Bars show each country’s share of global AI usage (left panel) and the Anthropic AI Usage Index (right panel) based on 1M conversations sampled from Claude.ai in February 2026. Canada is highlighted in blue. The Anthropic AI Usage Index (AUI) measures whether Claude usage is over- or underrepresented in a country relative to its working-age population. Canada accounts for 2.6% of global Claude.ai consumer use, ranking eighth globally, and second by AUI. Sources: Anthropic Economic Index, February 2026; World Bank.
 
@@ -102,7 +102,7 @@ Voici quelques données sur l’utilisation de Claude au Canada. Celles-ci sont 
 
 Le Canada occupe la huitième place mondiale en termes d’utilisation de Claude.ai. Par habitant, les Canadiens utilisent Claude plus de quatre fois plus que ce qui serait attendu considérant la taille de sa population. Parmi les dix pays où Claude est le plus utilisé, seuls les États-Unis le devancent sur ce point.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6fca932b860afc93e85338f7a1f63df5a851fbf6-1920x940.png&w=3840&q=75)
+![](https://assets.claude.com/6fca932b860afc93e85338f7a1f63df5a851fbf6.png?w=3840&q=75&fm=webp&fit=max)
 
 **Part d’utilisation et taux d’adoption par habitant dans les dix pays qui utilisent le plus Claude.ai.** Les barres indiquent la part de chaque pays (graphique de gauche) et l’indice d’utilisation de l’IA Anthropic (graphique de droite), calculés à partir d’un échantillon d’un million de conversations sur Claude.ai en février 2026. Le Canada est mis en évidence en bleu. L’indice d’utilisation de l’IA d’Anthropic (AUI) indique si l’utilisation de Claude est élevée ou faible dans un pays par rapport à sa population en âge de travailler. Le Canada représente 2,6 % de l’utilisation mondiale de Claude.ai, ce qui le place au huitième rang mondial, mais occupe le deuxième rang pour l’AUI. Sources : Anthropic Economic Index, février 2026; Banque mondiale.
 

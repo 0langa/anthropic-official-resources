@@ -4,7 +4,7 @@
 
 [Read the technical report](https://www.anthropic.com/document/flashprove-technical-report)
 
-![Progress on provable inference for large language models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg&w=1920&q=75)
+![Progress on provable inference for large language models](https://assets.claude.com/66a72ed558145b284fcefd6c2e279eae2e134bc0.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Nov 2, 2026

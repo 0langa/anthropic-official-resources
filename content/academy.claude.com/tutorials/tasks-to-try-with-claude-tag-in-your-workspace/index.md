@@ -22,7 +22,7 @@ Claude replies in whatever form fits the task. You'll see these in the examples 
 
 - **A reply** — A message in the thread, the same as any teammate's.
 - **A file or chart** — Attached to the thread, with a note on the sources behind it.
-- **An interactive page** — A page anyone in your org can open; reply with a change and the same link updates.
+- **An interactive page** — A page anyone with access to the channel can open; reply with a change and the same link updates.
 - **Something Claude keeps current** — Any of these, updated in place over time so it stays current without anyone asking; good for a digest, an index, or a standing report.
 - **Work done in a connected tool** — A pull request opened, a ticket filed, or a record updated, with the result posted back in the thread.
 
@@ -32,7 +32,7 @@ In a channel, you're working in the open: whatever Claude posts, everyone in the
 
 ### How you steer it[](https://academy.claude.com/tutorials/tasks-to-try-with-claude-tag-in-your-workspace)
 
-You or anyone on the team can shape how Claude works, just by asking. Put a task on a [schedule(opens in new tab)](https://claude.com/docs/claude-tag/users/proactivity) so it runs on its own, like a recap every Monday morning. On a bigger task, Claude shows you its plan first, so you can adjust the approach up front and redirect it as it works. Tell it to do something differently and it [remembers for next time(opens in new tab)](https://claude.com/docs/claude-tag/users/memory), so it fits your channel better the longer you work with it. And how proactive Claude is, from only replying when tagged to acting on its own, is a per-channel setting your admin controls; ask them to [turn it on(opens in new tab)](https://claude.com/docs/claude-tag/admins/restrict-access) where you want it.
+You or anyone on the team can shape how Claude works, just by asking. Put a task on a [schedule(opens in new tab)](https://claude.com/docs/claude-tag/users/proactivity) so it runs on its own, like a recap every Monday morning. On a bigger task, Claude shows you its plan first, so you can adjust the approach up front and redirect it as it works. Tell it to do something differently and it [remembers for next time(opens in new tab)](https://claude.com/docs/claude-tag/users/memory), so it fits your channel better the longer you work with it. And how proactive Claude is, from only replying when tagged to acting on its own, is a per-channel setting you can [change by asking Claude in the channel(opens in new tab)](https://claude.com/docs/claude-tag/users/when-claude-responds), unless an admin has locked it.
 
 ## What works with no setup[](https://academy.claude.com/tutorials/tasks-to-try-with-claude-tag-in-your-workspace)
 

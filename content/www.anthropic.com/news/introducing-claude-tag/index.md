@@ -1,6 +1,6 @@
 # Introducing Claude Tag
 
-![Introducing Claude Tag](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F301d5ee481a352435c048a9df7ce172b9617b05f-2400x1260.png&w=1920&q=75)
+![Introducing Claude Tag](https://assets.claude.com/301d5ee481a352435c048a9df7ce172b9617b05f.png?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Jun 23, 2026
@@ -33,7 +33,7 @@ We’re starting on Slack, which Claude can join as a team member. Grant Claude 
 
 We see Claude Tag as the beginning of an evolution of Claude Code: it makes the model even more proactive, and it works better with a full team. Tagging **@Claude** is now one of the main ways we get things done at Anthropic. Today, 65% of our product team’s code is created by our internal version of Claude Tag. The same pattern is now spreading well beyond engineering—we’re tagging Claude to chase down product metrics and data, work through support tickets, or even help find the root cause of tricky bugs.
 
-![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F4zrzovbb%2Fwebsite%2F1cbbe8ed6d2b55d5f27deaf44216f7e2b8ed29b0-1920x1080.png&w=3840&q=75)
+![Video thumbnail](https://assets.claude.com/1cbbe8ed6d2b55d5f27deaf44216f7e2b8ed29b0.png?w=3840&q=75&fm=webp&fit=max)
 
 We’re launching [Claude Tag on Slack](https://www.claude.com/product/tag), since it’s a natural home for collaborative work between teams and AI, and where much of Anthropic’s day-to-day work already happens. It’s available today in beta for Claude Enterprise and Team customers. Our goal is to expand where it’s available more widely, so that teams can tag @Claude in the many other places they work.
 

@@ -74,7 +74,7 @@ Continue the conversation with Claude to refine, expand, or explore further.
 
 Ask Claude to reformat previous analyses so all your dashboards are consistent. Claude preserves your data and insights while restructuring everything to match, creating consistency across your work.
 
-I’'m attaching performance reviews from years prior. Reformat these older reports to match the new structure—keep all the original data and insights, just reorganize into the current template format.
+I'm attaching performance reviews from years prior. Reformat these older reports to match the new structure—keep all the original data and insights, just reorganize into the current template format.
 
 
 
@@ -84,7 +84,7 @@ I’'m attaching performance reviews from years prior. Reformat these older repo
 
 Request visual touches that improve the quality of your outputs.
 
-Enhance the spreadsheet by adding data visualizations ( heat maps to show patterns, charts for larger trends) and dropdown menus for easy filtering.
+Enhance the spreadsheet by adding data visualizations (heat maps to show patterns, charts for larger trends) and dropdown menus for easy filtering.
 
 
 

@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Ftemperature)
 
+
+
+This lesson works with Claude Haiku 4.5, the model this course uses. Claude 4.7 and later models return an error for any temperature other than the default of 1.0. On those models, guide the output with [your prompt(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices).
+
 Embedded media: https://www.youtube-nocookie.com/embed/Zk0MMYSayOo?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=Zk0MMYSayOo)

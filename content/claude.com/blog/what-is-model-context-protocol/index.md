@@ -10,7 +10,7 @@ Connect AI assistants to your tools without custom integrations using Model Cont
 - Reading time10 min
 - ShareCopy link
 
-AI models are only as good as the context provided to them. AI assistants like [Claude](https://claude.ai/redirect/claudedotcom.v1.3dd3ae56-2cd5-43ee-8482-dd8635ccbd53) can answer questions and perform an impressive range of tasks, but if they can't access the data or tools they need, they're limited in what they can do for you. You typically solve this by copying and pasting context from one tab to another, whether it's editing a document in Google Drive, replying to a thread in Slack, or updating code in an IDE. This process is slow, manual, and risks leaving out important context.
+AI models are only as good as the context provided to them. AI assistants like [Claude](https://claude.ai/redirect/claudedotcom.v1.537a55c6-10a2-4f0b-8226-bc6140e38778) can answer questions and perform an impressive range of tasks, but if they can't access the data or tools they need, they're limited in what they can do for you. You typically solve this by copying and pasting context from one tab to another, whether it's editing a document in Google Drive, replying to a thread in Slack, or updating code in an IDE. This process is slow, manual, and risks leaving out important context.
 
 The **Model Context Protocol (MCP)** offers a solution that is open and widely available across all AI apps and assistants. In this article, you'll learn what MCP is, how it works and why it matters, and who it's for. You'll see examples of MCP in action and understand how you can start using or building with MCP today.
 
@@ -48,7 +48,7 @@ MCP allows LLMs to go beyond chat and perform real-world tasks: reading an email
 
 ### An Open, AI-native ecosystem
 
-**Anyone can build and share** — As an open standard, MCP servers published by developers or companies are compatible with any MCP client. This openness has created a thriving ecosystem of thousands of community-built servers, accelerating the availability of tools and applications for AI assistants..
+**Anyone can build and share** — As an open standard, MCP servers published by developers or companies are compatible with any MCP client. This openness has created a thriving ecosystem of thousands of community-built servers, accelerating the availability of tools and applications for AI assistants.
 
 **Makes software AI-accessible by design** — Traditional software is built for humans using web interfaces. MCP provides a parallel interface designed for AI interaction, allowing applications to become truly AI-native. This means better, more reliable integrations between AI models and the tools people already use.
 
@@ -74,7 +74,7 @@ Enterprises can drive internal adoption of AI tools and applications more effect
 
 MCP provides end-users with seamless connectivity between their favorite AI assistants and work tools. It makes it easier to automate tasks and avoid copying and pasting across tabs. In short, MCP gives AI greater access and connectivity to your world.
 
-In [Claude](https://claude.ai/redirect/claudedotcom.v1.3dd3ae56-2cd5-43ee-8482-dd8635ccbd53), you can instantly connect to MCP Servers, known as [**Connectors**](https://claude.com/partners/mcp). This provides you with a straightforward way to connect Claude to your favorite work apps.
+In [Claude](https://claude.ai/redirect/claudedotcom.v1.537a55c6-10a2-4f0b-8226-bc6140e38778), you can instantly connect to MCP Servers, known as [**Connectors**](https://claude.com/partners/mcp). This provides you with a straightforward way to connect Claude to your favorite work apps.
 
 ## Connectors (MCP) in action
 
@@ -120,7 +120,7 @@ Two paths exist based on your needs.
 
 ### Connectors in Claude
 
-[Connectors](https://claude.com/partners/mcp) are pre-built, giving Claude instant access to tools, databases, and applications, and providing you with a new set of capabilities. Open [Claude](https://claude.ai/redirect/claudedotcom.v1.3dd3ae56-2cd5-43ee-8482-dd8635ccbd53/directory), browse available connectors, and click to add them.
+[Connectors](https://claude.com/partners/mcp) are pre-built, giving Claude instant access to tools, databases, and applications, and providing you with a new set of capabilities. Open [Claude](https://claude.ai/redirect/claudedotcom.v1.537a55c6-10a2-4f0b-8226-bc6140e38778/directory), browse available connectors, and click to add them.
 
 ### Build custom MCP connections
 
@@ -130,7 +130,7 @@ MCP is open-source, meaning that anyone can adopt MCP to connect AI to applicati
 
 If you want to try MCP, start by browsing for a Claude Connector you can immediately start using with Claude.
 
-If an existing MCP server doesn't already exist, creating your own takes some work, but isn't too complex if you know TypeScript or Python. The [Model Context Protocol quickstart](https://modelcontextprotocol.io/quickstart) has working examples you can modify for your needs.
+If an MCP server doesn't already exist, creating your own takes some work, but isn't too complex if you know TypeScript or Python. The [Model Context Protocol quickstart](https://modelcontextprotocol.io/quickstart) has working examples you can modify for your needs.
 
 ## FAQ
 
@@ -154,7 +154,19 @@ MCP uses efficient protocols. Stdio transport for local servers provides minimal
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 10, 2026
+[ArticleNov 13, 2026
+
+### Building always-on agents
+
+Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
+
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
+
+### The Claude Tag guide for startups
+
+How leading startups use Claude Tag to ship faster and scale operations
+
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
 
 ### How Curative is building a national provider network with agents on Claude
 
@@ -166,21 +178,7 @@ Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-i
 
 How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
 
-(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)[ArticleNov 9, 2026
-
-### Which Claude model should you build with?
-
-How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.
-
-Claude PlatformClaude Code
-
-(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)[ArticleOct 27, 2026
-
-### Manage costs and demonstrate ROI for Claude Code on Google Cloud
-
-Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
-
-Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)
+(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
 
 ## Transform how your organization operates with Claude
 

@@ -2,7 +2,7 @@
 
 # An update on independent evaluators
 
-![An update on independent evaluators](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc2af6aeedb4995d202c7543f3d59c6bbbd5352f1-2000x1125.jpg&w=1920&q=75)
+![An update on independent evaluators](https://assets.claude.com/04c758ca0ca35b9dbf70727cfb7f5f154f0750d4.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Oct 15, 2026
@@ -47,7 +47,7 @@ To evaluate frontier models, evaluators need the following:
 
 Although the analogy isn’t exact, bank supervision operates on similar logic. Banks know more about their own risk positions than outsiders do, so regulators assign resident examiners to work inside the largest banks. If a bank’s risk-taking could threaten the public, third parties try to see that in advance.
 
-For the AI industry, this is a step toward [robust safety oversight](https://www-cdn.anthropic.com/files/4zrzovbb/website/0a58d567024a8b448ff15158ebc3625328dfcc1f.pdf). We’re moving quickly with multiple evaluators and learning actively about what kinds of partnership work. We’re committed to sharing updates as we go.
+For the AI industry, this is a step toward [robust safety oversight](https://assets.claude.com/0a58d567024a8b448ff15158ebc3625328dfcc1f.pdf). We’re moving quickly with multiple evaluators and learning actively about what kinds of partnership work. We’re committed to sharing updates as we go.
 
 ## What we mean by “employee-like access”
 
@@ -69,7 +69,7 @@ We’re developing three tiers of access for evaluators. Over time, we hope to h
 
 **The third tier** is the arrangement we’ve described with METR, with employee-like access and publication rights similar to those of the second tier.
 
-**SecureBio** is in the process of reviewing the chemical and biological weapons chapter of our [August Risk Report](https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf), after completing and [publishing a pilot review](https://securebio.org/resources/anthropic_feb_2026_risk_review.pdf) of our previous risk report. After this review is complete, we will consider moving to projects with increased access.[3](https://www.anthropic.com/news/an-update-on-independent-evaluators)
+**SecureBio** is in the process of reviewing the chemical and biological weapons chapter of our [August Risk Report](https://assets.claude.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378.pdf), after completing and [publishing a pilot review](https://securebio.org/resources/anthropic_feb_2026_risk_review.pdf) of our previous risk report. After this review is complete, we will consider moving to projects with increased access.[3](https://www.anthropic.com/news/an-update-on-independent-evaluators)
 
 **With Accenture** and Faculty, we're working [toward an ambitious partnership](https://www.anthropic.com/news/accenture-embedded-evaluation) that includes evaluating and red-teaming models, conducting alignment assessments, testing model safeguards, and building capabilities across our organizations.
 

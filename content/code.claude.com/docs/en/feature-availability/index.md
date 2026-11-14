@@ -32,7 +32,7 @@ These work on every provider:
 These have provider-specific differences:
 
 * **MCP servers**: [connectors from claude.ai](/docs/en/mcp#use-mcp-servers-from-claude-ai) load only when your claude.ai subscription is the active authentication method. [Tool search](/docs/en/mcp#configure-tool-search) isn't supported on Microsoft Foundry [deployments hosted on Azure](https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry#hosting-options). On Google Cloud's Agent Platform, tool search isn't supported on models earlier than Claude Opus 4.5, Claude Sonnet 4.5, and Claude Haiku 4.5
-* **Subagents**: when the main conversation runs Fable, the built-in [Explore subagent](/docs/en/sub-agents#built-in-subagents) runs on Opus with a Claude subscription, an Anthropic Console account, or an [LLM gateway](/docs/en/llm-gateway) reached through `ANTHROPIC_BASE_URL`. On other providers, including Claude Platform on AWS, it runs on Fable
+* **Subagents**: when the parent conversation runs Fable, the built-in [Explore subagent](/docs/en/sub-agents#built-in-subagents) runs on Opus with a Claude subscription, an Anthropic Console account, or an [LLM gateway](/docs/en/llm-gateway) reached through `ANTHROPIC_BASE_URL`. On other providers, including Claude Platform on AWS, it runs on Fable
 * **[Commands](/docs/en/commands#all-commands)**:
   * `/design-sync` and `/import` with its `claude import` subcommand form are unavailable on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry, and Claude Platform on AWS, and through a [Claude apps gateway](/docs/en/claude-apps-gateway#availability-and-limitations)
   * `/voice` requires a claude.ai account
@@ -110,6 +110,16 @@ These features work in the local CLI but depend on a server-side capability that
       <td>✓</td>
       <td>✗</td>
       <td>✓ (Claude Code v2.1.300 or later)</td>
+      <td>✗</td>
+      <td>✗</td>
+    </tr>
+
+    <tr>
+      <td>[Code Mode](/docs/en/code-mode)</td>
+      <td>✓ (experimental, [requirements apply](/docs/en/code-mode#requirements))</td>
+      <td>✓ (experimental, [requirements apply](/docs/en/code-mode#requirements))</td>
+      <td>✗</td>
+      <td>✗</td>
       <td>✗</td>
       <td>✗</td>
     </tr>
@@ -224,7 +234,7 @@ Each tab lists what is unavailable or partially supported on that provider, with
 
 > [tab] Amazon Bedrock
 >
-> **Not available:** all [features that require a Claude subscription](#features-that-require-a-claude-subscription), plus [web search](/docs/en/tools-reference#websearch-tool-behavior), [fast mode](/docs/en/fast-mode), [Advisor](/docs/en/advisor), [Channels](/docs/en/channels), the [analytics dashboard](/docs/en/analytics), [server-managed settings](/docs/en/server-managed-settings), and the [`/design-sync` and `/import` commands](/docs/en/commands#all-commands).
+> **Not available:** all [features that require a Claude subscription](#features-that-require-a-claude-subscription), plus [web search](/docs/en/tools-reference#websearch-tool-behavior), [fast mode](/docs/en/fast-mode), [Advisor](/docs/en/advisor), [Channels](/docs/en/channels), [Code Mode](/docs/en/code-mode), the [analytics dashboard](/docs/en/analytics), [server-managed settings](/docs/en/server-managed-settings), and the [`/design-sync` and `/import` commands](/docs/en/commands#all-commands).
 >
 > **Partial support:**
 >
@@ -237,7 +247,7 @@ Each tab lists what is unavailable or partially supported on that provider, with
 
 > [tab] Claude Platform on AWS
 >
-> **Not available:** all [features that require a Claude subscription](#features-that-require-a-claude-subscription), plus [fast mode](/docs/en/fast-mode), [Channels](/docs/en/channels), [GitHub Actions](/docs/en/github-actions), the [analytics dashboard](/docs/en/analytics), [server-managed settings](/docs/en/server-managed-settings), and the [`/design-sync` and `/import` commands](/docs/en/commands#all-commands).
+> **Not available:** all [features that require a Claude subscription](#features-that-require-a-claude-subscription), plus [fast mode](/docs/en/fast-mode), [Channels](/docs/en/channels), [GitHub Actions](/docs/en/github-actions), [Code Mode](/docs/en/code-mode), the [analytics dashboard](/docs/en/analytics), [server-managed settings](/docs/en/server-managed-settings), and the [`/design-sync` and `/import` commands](/docs/en/commands#all-commands).
 >
 > **Available here, not on Amazon Bedrock:** [web search](/docs/en/tools-reference#websearch-tool-behavior), plus the [Advisor](/docs/en/advisor) in Claude Code v2.1.300 or later.
 >
@@ -249,7 +259,7 @@ Each tab lists what is unavailable or partially supported on that provider, with
 
 > [tab] Google Cloud's Agent Platform
 >
-> **Not available:** all [features that require a Claude subscription](#features-that-require-a-claude-subscription), plus [Advisor](/docs/en/advisor), [Channels](/docs/en/channels), the [analytics dashboard](/docs/en/analytics), [server-managed settings](/docs/en/server-managed-settings), and the [`/design-sync` and `/import` commands](/docs/en/commands#all-commands).
+> **Not available:** all [features that require a Claude subscription](#features-that-require-a-claude-subscription), plus [Advisor](/docs/en/advisor), [Channels](/docs/en/channels), [Code Mode](/docs/en/code-mode), the [analytics dashboard](/docs/en/analytics), [server-managed settings](/docs/en/server-managed-settings), and the [`/design-sync` and `/import` commands](/docs/en/commands#all-commands).
 >
 > **Partial support:**
 >
@@ -264,7 +274,7 @@ Each tab lists what is unavailable or partially supported on that provider, with
 
 > [tab] Microsoft Foundry
 >
-> **Not available:** all [features that require a Claude subscription](#features-that-require-a-claude-subscription), plus [fast mode](/docs/en/fast-mode), [Advisor](/docs/en/advisor), [Channels](/docs/en/channels), [GitLab CI/CD](/docs/en/gitlab-ci-cd), the [analytics dashboard](/docs/en/analytics), [server-managed settings](/docs/en/server-managed-settings), and the [`/design-sync` and `/import` commands](/docs/en/commands#all-commands).
+> **Not available:** all [features that require a Claude subscription](#features-that-require-a-claude-subscription), plus [fast mode](/docs/en/fast-mode), [Advisor](/docs/en/advisor), [Channels](/docs/en/channels), [GitLab CI/CD](/docs/en/gitlab-ci-cd), [Code Mode](/docs/en/code-mode), the [analytics dashboard](/docs/en/analytics), [server-managed settings](/docs/en/server-managed-settings), and the [`/design-sync` and `/import` commands](/docs/en/commands#all-commands).
 >
 > **Partial support:**
 >

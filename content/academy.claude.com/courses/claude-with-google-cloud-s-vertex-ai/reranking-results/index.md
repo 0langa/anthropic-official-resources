@@ -49,9 +49,9 @@ Here are the documents to select from:
 
 Respond in the following format:
 ```json
-\{
-  "document_ids": str[] # List document ids, \{k\} elements long, sorted in order of decreasing relevance
-\}
+{
+  "document_ids": str[] # List document ids, {k} elements long, sorted in order of decreasing relevance
+}
 ```
 ```
 

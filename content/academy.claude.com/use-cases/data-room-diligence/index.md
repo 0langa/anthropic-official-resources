@@ -354,7 +354,7 @@ Corporate LegalRuns M&A diligence at scale with cited tabular review, builds dis
 
 [Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Ftabular-review)
 
-`/material-contract-schedule`Build the material contracts disclosure schedule from diligence findings, applying the purchase agreement's Material Contract definition and formatting per the agreement's schedule format.
+`/material-contract-schedule`Build the material contracts disclosure schedule from diligence findings, applying the purchase agreement’s Material Contract definition and formatting per the agreement’s schedule format.
 
 [Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fmaterial-contract-schedule)
 

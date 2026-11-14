@@ -2,7 +2,7 @@
 
 Latest news
 
-November 12, 2026
+November 14, 2026
 
 [Announcements](https://www.anthropic.com/news/announcements)
 
@@ -16,7 +16,7 @@ Our most capable models for daunting technical work, Claude Fable 5.2 and Claude
 
 [Announcements](https://www.anthropic.com/news/announcements)
 
-Oct 18, 2026[![Investing in the public benefit](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcbdc2eac6dfb37cf596d8f9fb32783036b5737c2-2000x1125.jpg&w=3840&q=75)](https://www.anthropic.com/news/public-benefit-fund)[### Investing in the public benefit
+Oct 18, 2026[![Investing in the public benefit](https://assets.claude.com/eed596be48a4b322690a6175794cdbd970ec4df4.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/news/public-benefit-fund)[### Investing in the public benefit
 
 We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.](https://www.anthropic.com/news/public-benefit-fund)
 
@@ -46,11 +46,11 @@ Claude Opus 5.5 leads in agentic coding and knowledge work, and costs 40% less t
 
 Features
 
-- [![The Situation Report](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe7cbb46184df120426bc360cf9c6410d0f6dbb7f-2000x1334.webp%3Ffm%3Dwebp&w=3840&q=75)](https://www.anthropic.com/features/ebola-response)
-- [![Scenarios for our economic future](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffccf43cf4e36b0c26b4215861d909aadabbc32ce-1920x1080.png&w=3840&q=75)](https://www.anthropic.com/institute/econ-scenarios)
-- [![The making of Claude Code](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fbfd4aa0ef6a657e6f22fe214dc177aeff4c4c247-1200x630.gif&w=3840&q=75)](https://www.anthropic.com/features/making-of-claude-code)
-- [![Project Deal: our Claude-run marketplace experiment](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F701946d96f607f199fd7d65c8f5e2f50bf9336e4-1200x630.png&w=3840&q=75)](https://www.anthropic.com/features/project-deal)
-- [![The first AI-planned drive on Mars](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fabd2e56dedd42b609ec27783edba421fa2bfee4e-1200x630.png&w=3840&q=75)](https://www.anthropic.com/features/claude-on-mars)
+- [![The Situation Report](https://assets.claude.com/d00bd8591792508d1ba86e28cae2c007ad6cf233.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/features/ebola-response)
+- [![Scenarios for our economic future](https://assets.claude.com/c156fa616617cb5148a76a7f731f4e26fce91797.png?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/institute/econ-scenarios)
+- [![The making of Claude Code](https://assets.claude.com/bfd4aa0ef6a657e6f22fe214dc177aeff4c4c247.gif)](https://www.anthropic.com/features/making-of-claude-code)
+- [![Project Deal: our Claude-run marketplace experiment](https://assets.claude.com/701946d96f607f199fd7d65c8f5e2f50bf9336e4.png?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/features/project-deal)
+- [![The first AI-planned drive on Mars](https://assets.claude.com/abd2e56dedd42b609ec27783edba421fa2bfee4e.png?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/features/claude-on-mars)
 
 [Features](https://www.anthropic.com/news/features)
 
@@ -435,19 +435,19 @@ See more
 
 ## Contact us or download our press kit
 
-![Press](https://www-cdn.anthropic.com/images/4zrzovbb/website/19588d2d29cee76507fa40c928b15263107ce0b5-20x20.svg)
+![Press](https://assets.claude.com/832b1347b30c1f7840ac6e5193580c962e8d7d00.svg)
 
 ### Press
 
 [press@anthropic.com](mailto:press@anthropic.com)
 
-![Support](https://www-cdn.anthropic.com/images/4zrzovbb/website/6f6321bfa64df4e8a0bd1b2ed1b703b4a864e0e9-20x20.svg)
+![Support](https://assets.claude.com/d4ce708feede38c2261350b85732c04ded877e1b.svg)
 
 ### Support
 
 [How to get support](https://support.claude.com/en/articles/9015913-how-to-get-support)
 
-![Media assets](https://www-cdn.anthropic.com/images/4zrzovbb/website/86777042ed2af185b46341d07b04b86351489844-20x20.svg)
+![Media assets](https://assets.claude.com/31e38ba2dafb3ff5c0231676d15cd3555d2f74a0.svg)
 
 ### Media assets
 

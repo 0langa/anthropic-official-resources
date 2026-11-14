@@ -97,17 +97,7 @@ Work through how to teach a concept with Claude sketching alongside. The visual 
 
 [View all webinars](https://academy.claude.com/all)
 
-[Upcoming · Nov 12, 10:00 AM PT
-
-### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One 
-
-A same-day staff guide to connecting your files and using Claude for Nonprofits skills to draft a year-end appeal in your voice.
-
-MW
-
-·Upcoming·Nov 12·10:00 AM PT
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[Upcoming · Nov 17, 8:00 AM PT
+[Upcoming · Nov 17, 8:00 AM PT
 
 ### Claude for Manufacturing: Put Your Plant’s Know-How to Work 
 
@@ -125,8 +115,18 @@ SSIP
 
 ·Recording·Oct 22
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 21
+
+### Tokenomics on AWS: Control and optimize your Claude spend 
+
+Optimize your Claude spend on AWS with admin controls, default model settings, and measuring cost per task on Bedrock and the API.
+
+SMAR
+
+·Recording·Oct 21
+
+ (opens in new tab)](https://claude.com/resources/webinars/tokenomics-on-aws-control-and-optimize-your-claude-spend)
 
 ## Browse it all
 
-[Use cases70 use cases](https://academy.claude.com/all)[Tutorials67 tutorials](https://academy.claude.com/all)[Courses13 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases70 use cases](https://academy.claude.com/all)[Tutorials68 tutorials](https://academy.claude.com/all)[Courses13 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)

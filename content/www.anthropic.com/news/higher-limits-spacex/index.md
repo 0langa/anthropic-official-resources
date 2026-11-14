@@ -39,7 +39,7 @@ Second, we’re **removing the peak hours limit reduction on Claude Code** for P
 
 Third, we’re **raising our [API rate limits](https://platform.claude.com/docs/en/api/rate-limits) considerably for Claude Opus models**, as shown in the table below:
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd8f4f661bde0f11088d087dcda98916becad077f-1920x801.png&w=3840&q=75)
+![](https://assets.claude.com/d8f4f661bde0f11088d087dcda98916becad077f.png?w=3840&q=75&fm=webp&fit=max)
 
 Our updated API rate limits for Claude Opus models.
 

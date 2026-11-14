@@ -25,7 +25,7 @@ Related articles
 
 [View more](https://www.anthropic.com/search?topic=government-capacity)
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe85c883654e0a7e6d096cfa0413b35bcb7ccad58-2880x1620.png&w=3840&q=75)
+![](https://assets.claude.com/e85c883654e0a7e6d096cfa0413b35bcb7ccad58.png?w=3840&q=75&fm=webp&fit=max)
 
 We believe that sensible artificial intelligence (AI) policy requires, among other things, the ability to accurately describe and quantify the capabilities and risks of AI systems. This ability is both an enabler and a prerequisite to effective regulation, as measurement tools allow us to objectively assess systems and ensure they meet appropriate safety thresholds. In this post, we propose a policy intervention for how to do this: ambitiously fund the National Institute of Standards and Technology (NIST) to support its AI measurement and standards efforts.  
   
@@ -47,7 +47,7 @@ Though the art of measurement may sound dry or possibly inconsequential, we beli
 
 Despite NIST’s foundational work in measurement, we’ve seen a general under-resourcing and concerning stagnation in funding for AI-related programs at NIST over the past few years. This lack of support is especially acute against the backdrop of recent technological progress and the widespread adoption of AI systems. With an ambitious investment, NIST could build on fundamental measurement techniques and standardize them across the field. Additional resourcing would also allow NIST to build much-needed community resources, such as testbeds, to assess the capabilities and risks of today’s open-ended AI systems.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3d3c85faf604931a331eb4580c567d346bf03c5c-1336x680.png&w=3840&q=75)
+![](https://assets.claude.com/3d3c85faf604931a331eb4580c567d346bf03c5c.png?w=3840&q=75&fm=webp&fit=max)
 
 *Amount of funding (in millions) for AI-related programs at NIST from 2020-2024. Dashed black lines represent Anthropic recommendation of a $15 million increase over FY 2023 (inclusive of NIST’s $5 million requested increase).*
 
@@ -65,4 +65,4 @@ This proposal builds on our past advocacy for a more well-resourced NIST, includ
   
 *This blog post follows a policy memo we wrote that looks at past funding patterns and some specific proposals for what NIST might build with more resourcing. As Congress considers appropriations for FY 2024, we urge it to consider additional funding of NIST.*
 
-*View the [memo here](https://www-cdn.anthropic.com/c429f993f5a3a5ea1808414df6e67fcb8d36ca86/Anthropic_NIST_v3.pdf).*
+*View the [memo here](https://assets.claude.com/c429f993f5a3a5ea1808414df6e67fcb8d36ca86.pdf).*

@@ -87,7 +87,7 @@ What types of exercise would be best for me?
 2. Find “**HealthEx**”
 3. Click “Connect”
 4. Choose whether to grant permission for Claude to access HealthEx
-5. Follow HeathEx’s instructions to complete CLEAR-powered identity verification and provide explicit, revocable consent before any clinical records are retrieved (See How to [securely connect to your HealthEx account(opens in new tab)](https://healthex.io/guides/claude) for more details)
+5. Follow HealthEx’s instructions to complete CLEAR-powered identity verification and provide explicit, revocable consent before any clinical records are retrieved (See How to [securely connect to your HealthEx account(opens in new tab)](https://healthex.io/guides/claude) for more details)
 
 Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory) in Claude.
 

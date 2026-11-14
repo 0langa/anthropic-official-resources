@@ -39,7 +39,7 @@ It isn't only the largest firms: specialist AI-native and boutique consultancies
 
 Our Claude Certification Program is designed to give enterprises confidence in the partner they are selecting.
 
-- Certification represents validated capability, rather than course attendance. Every exam is proctored and identity-verified, and each was designed by subject matter experts, including Anthropic’s own Applied AI team, to reflect real work that’s done in the field A certification establishes that this individual has demonstrated the skills their role demands.
+- Certification represents validated capability, rather than course attendance. Every exam is proctored and identity-verified, and each was designed by subject matter experts, including Anthropic’s own Applied AI team, to reflect real work that’s done in the field. A certification establishes that this individual has demonstrated the skills their role demands.
 - Credentials are matched to role-specific skills. Each credential maps to the four roles that put Claude into production, from everyday practical use, to building with the Claude API, to architecting large-scale enterprise deployments. This is designed so the buyer knows what a certified person was tested on.
 - The Claude Partner Network describes a firm’s demonstrated capacity. . Tier standing in the Claude Partner Network combines certified practitioners with deployed customers and public customer references.
 
@@ -55,7 +55,7 @@ We work with Pearson, drawing on its global assessment and credentialing infrast
 
 Proctoring and identity verification matter because these credentials are used to make decisions. Certified practitioner counts determine a firm's standing in the Claude Partner Network and are relevant when companies vet who will work on their systems. A credential can only support those decisions if the assessment is rigorous and validates a person’s applied skills.
 
-Our certification is gaining momentum inside the consulting and engineering firms implementing Claude for their clients. Certifications also determine how firms advance in the network. The top tier, Global Premier, requires 1,000 certified practitioners, 100 customers across three regions, and 15 public customer endorsements. The next tier review where this criteria will be evaluated across the network is on October 1.
+Our certification is gaining momentum inside the consulting and engineering firms implementing Claude for their clients. Certifications also determine how firms advance in the network. The top tier, Global Premier, requires 1,000 certified practitioners, 100 customers across three regions, and 15 public customer endorsements. The next tier review where these criteria will be evaluated across the network is on October 1.
 
 ## How to find an exam or learn more about the Claude Partner Network
 
@@ -67,7 +67,13 @@ Firms can join the Claude Partner Network and register practitioners at <http://
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 9, 2026
+[ArticleNov 12, 2026
+
+### J. Crew brings its signature approach to styling to life with Claude
+
+J.Crew's new Style Advisor uses Claude to offer a more personalized way to shop online, with complete looks instead of individual products.
+
+Claude Code](https://claude.com/resources/articles/j-crew-style-advisor-with-claude)[ArticleNov 9, 2026
 
 ### JPMorganChase expands Claude Code to more employees across the firm
 
@@ -81,13 +87,7 @@ Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://clau
 
 ### HCLTech joins the Claude Partner Network as a Global Premier partner
 
-HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)[ArticleSep 28, 2026
-
-### A new approach to agent security with Claude Managed Agents and NVIDIA
-
-Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
-
-Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)
+HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)
 
 ## Transform how your organization operates with Claude
 

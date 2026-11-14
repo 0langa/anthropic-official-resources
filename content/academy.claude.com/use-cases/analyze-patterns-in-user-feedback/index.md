@@ -51,9 +51,9 @@ Intercom
 
 [Browse connectors in Claude](https://claude.ai/customize/connectors)
 
-![](https://academy.claude.com/surfaces/excel-icon.svg)
+
 
-Customer feedback dataXLSX
+Customer feedback dataCSV
 
 
 

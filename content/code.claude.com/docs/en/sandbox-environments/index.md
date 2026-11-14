@@ -38,7 +38,7 @@ Match your goal to a row below, then read the detail section that follows.
 
 | You want to | Start with |
 | :- | :- |
-| Reduce permission prompts during everyday work on your own machine | The [sandboxed Bash tool](/docs/en/sandboxing), configured with `/sandbox` |
+| Reduce permission prompts during everyday work on your own machine | The [sandboxed Bash tool](/docs/en/sandboxing) in auto-allow mode, configured with `/sandbox` |
 | Let Claude work unattended with `--dangerously-skip-permissions` or auto mode | The preconfigured [dev container](/docs/en/devcontainer), any container or VM, or the [sandbox runtime](#sandbox-runtime) |
 | Isolate MCP servers and hooks as well as Bash, without Docker | The sandbox runtime |
 | Standardize a sandboxed environment across a team | The preconfigured [dev container](/docs/en/devcontainer), copied into your repository |

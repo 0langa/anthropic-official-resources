@@ -8,7 +8,7 @@ Retailers running shopping agents on Claude have seen carts up to 35% larger and
 - Reading time5 min
 - ShareCopy link
 
-Many of the world’s largest retailers, marketplaces, e-commerce platforms, and travel companies use Claude to build agents that make shopping easier. Enterprise customers like Shopify, Priceline, and others have agents that let consumers use AI to search for what they want in plain language, find it, compare it, and buy it.
+Many of the world’s largest [retailers](https://claude.com/resources/articles/j-crew-style-advisor-with-claude), marketplaces, e-commerce platforms, and travel companies use Claude to build agents that make shopping easier. Enterprise customers like Shopify, Priceline, and others have agents that let consumers use AI to search for what they want in plain language, find it, compare it, and buy it.
 
 Today, we're launching a blueprint to help build commerce agents on Claude. It contains the harnesses, patterns, and guardrails an engineering team needs to get a commerce agent running in days, with reference implementations of a shopping agent and a merchant agent for retail, travel, telecom, and ticketing platforms. It also includes a Claude Code plugin to get you started.
 
@@ -173,31 +173,29 @@ Register for our [webinar](https://claude.com/resources/webinars/building-claude
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 10, 2026
+[ArticleNov 13, 2026
 
-### Your apps can now open in Claude, and Claude can work in them
+### Building always-on agents
 
-Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
+Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
 
-Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)[ArticleNov 10, 2026
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
 
-### How Curative is building a national provider network with agents on Claude
+### The Claude Tag guide for startups
 
-Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
+How leading startups use Claude Tag to ship faster and scale operations
 
-Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 10, 2026
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 12, 2026
 
-### More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
+### Operate Claude Managed Agents inside your security perimeter
 
-Work at the speed of thought
+Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
 
-Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)[ArticleNov 10, 2026
+Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)[ArticleNov 12, 2026
 
-### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
+### Introducing Claude for Manufacturing
 
-Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
-
-Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)
+A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)
 
 ## Transform how your organization operates with Claude
 

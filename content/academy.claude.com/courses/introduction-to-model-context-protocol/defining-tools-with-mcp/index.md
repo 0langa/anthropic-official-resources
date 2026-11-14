@@ -22,7 +22,7 @@ In this example, we're creating a document management server with two core tools
 
 The lessons in this course build on a small starter project, a command-line chatbot with an MCP client and an MCP server. Download `cli_project.zip` from the Downloads section at the end of this lesson and extract it to your preferred development directory. Open your code editor in the project folder.
 
-The project includes a README file with setup instructions. Add your Anthropic API key to the `.env` file. Then install dependencies using either uv (recommended) or pip. The project uses version 1 of the MCP Python SDK, and its setup installs that version for you.
+The project includes a README file with setup instructions. Add your Anthropic API key to the `.env` file. Then install dependencies using either uv (recommended) or pip. The project uses version 1 of the MCP Python SDK, and its setup installs that version for you. If you set up your own project, install `"mcp[cli]<2"`. Version 2 renamed `FastMCP` to `MCPServer`, so the import below fails on it.
 
 ## Setting Up the MCP Server[](https://academy.claude.com/courses/introduction-to-model-context-protocol/defining-tools-with-mcp)
 

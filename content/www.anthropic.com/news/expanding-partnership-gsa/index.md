@@ -1,6 +1,6 @@
 # Expanding our partnership with GSA to bring Claude to all levels of government
 
-![Expanding our partnership with GSA to bring Claude to all levels of government](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fef0faa4dc389400ab9c9019ecdec7f1257cc6843-2000x1125.jpg&w=1920&q=75)
+![Expanding our partnership with GSA to bring Claude to all levels of government](https://assets.claude.com/2f6117985bbab5d2b0459369f6b25d1942643066.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Oct 27, 2026

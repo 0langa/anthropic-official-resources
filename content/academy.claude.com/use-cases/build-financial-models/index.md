@@ -87,12 +87,12 @@ I've created your investment analysis model.
 - Pulled MediTech's financial history from Daloopa (verified the $50M ARR, 35% growth rate, 18% EBITDA margin)
 - Retrieved 7 healthcare SaaS comparables from S&P Global (Veeva, Doximity, Health Catalyst, Phreesia, Certify, NextGen, HealthStream)
 - Searched web for healthcare SaaS customer concentration norms - found 40-45% concentration in top 3 customers is common for companies at this scale, though concentration typically decreases as ARR crosses $100M
-- Used the "Growth Equity Model Template v3" from your IC Templates folder in Drive
+- Used the "Growth Equity Model Template v3" from your IC Templates folder in Box
 
 **Model structure:**
 
 - Executive Summary - Deal parameters, three-scenario returns (Bear: 2.2x/17% IRR, Base: 3.0x/25% IRR, Bull: 4.1x/33% IRR), investment thesis, and risk overview
-- Financial Model - 5-year projections with blue-text assumption cells, automatic calculations through P&L and cash flows, exit valuation at 7.0x ($225M EV, $146M cash return on $75M invested)
+- Financial Model - 5-year projections with blue-text assumption cells, automatic calculations through P&L and cash flows, exit valuation at 7.0x
 - Scenario Analysis - Three scenarios varying growth (25-45% range), margin expansion (18-24% EBITDA), and exit multiples (5.5-8.5x), plus IRR sensitivity table across 25 combinations
 - Risk Assessment - Seven risks mapped: customer concentration (42% in top 3), CMS reimbursement changes, Epic/Cerner competition, platform scalability, key person risk, data security compliance, and market saturation. Each includes likelihood, impact, and mitigation approach
 - Comps & Valuation - Public healthcare SaaS companies trading at 4.5x median ARR multiple vs. MediTech's 3.6x entry. MediTech shows 35% growth vs. peer median of 18% and Rule of 40 score of 53 vs. peer median of 28
@@ -113,7 +113,7 @@ Continue the conversation with Claude to refine, expand, or explore further.
 
 Turn your financial model into a written investment recommendation. Claude converts the numbers and analysis into a narrative memo that explains the returns, risks, and why this deal makes sense.
 
-Take the key insights from this model and create an investment memo. Use our standard IC template from Drive. Structure it with these sections: Deal Overview, Investment Thesis, Returns Summary, Key Risks, Recommendation.
+Take the key insights from this model and create an investment memo. Use our standard IC template from Box. Structure it with these sections: Deal Overview, Investment Thesis, Returns Summary, Key Risks, Recommendation.
 
 
 

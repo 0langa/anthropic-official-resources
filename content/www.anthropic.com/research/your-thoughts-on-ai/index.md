@@ -2,9 +2,9 @@
 
 # What do you want from AI?
 
-[Participate here](https://claude.ai/redirect/website.v1.5b43d77f-30f4-45be-a291-09e272001f1e/anthropic-interviewer/your-thoughts-on-ai?from=blog)
+[Participate here](https://claude.ai/redirect/website.v1.320dca6b-8cc9-4c90-b385-7e7c0b91d8db/anthropic-interviewer/your-thoughts-on-ai?from=blog)
 
-![What do you want from AI?](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ff11a2dcfffbb0f1e5913d794299b6857653413af-2000x1125.jpg&w=1920&q=75)
+![What do you want from AI?](https://assets.claude.com/114da8126395c36da2b04121d9cbc713ec2f1952.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Sep 29, 2026
@@ -44,7 +44,7 @@ This project builds on a similar study conducted last December, in which [81,000
 
 AI and Anthropic have changed a lot since then. AI has improved, more people use Claude, and people’s feelings toward the technology have shifted. For the previous study, only the high-level results and a small number of quotes were made public. This time, we want your thoughts to be made widely available so that anyone can learn from them.
 
-We’ve written a FAQ so you can make an informed decision about whether to make your interview public and what to share. You can choose to [participate here](https://claude.ai/redirect/website.v1.5b43d77f-30f4-45be-a291-09e272001f1e/anthropic-interviewer/your-thoughts-on-ai?from=blog).
+We’ve written a FAQ so you can make an informed decision about whether to make your interview public and what to share. You can choose to [participate here](https://claude.ai/redirect/website.v1.320dca6b-8cc9-4c90-b385-7e7c0b91d8db/anthropic-interviewer/your-thoughts-on-ai?from=blog).
 
 ## FAQ
 
@@ -82,7 +82,7 @@ The best protection is to not share information that could identify you or other
 
 ### How should I decide whether to publicly share my interview?
 
-Embedded media: https://cdn.sanity.io/files/4zrzovbb/website/4c4202c1f0e4f90c4dc9ffbfda949f28620a22e1.mp4
+Embedded media: https://assets.claude.com/4c4202c1f0e4f90c4dc9ffbfda949f28620a22e1.mp4
 
 Before the interview, we explain what making an interview public involves. We tell participants that we will not include their Claude account information in the public release, but that others may be able to identify them from what they share. We also explain that making an interview public means anyone can read, save, and use it. We can remove our copy on request, but we can’t delete what people have already saved.
 

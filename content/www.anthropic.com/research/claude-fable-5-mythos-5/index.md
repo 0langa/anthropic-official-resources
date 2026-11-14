@@ -243,7 +243,7 @@ Mythos-class models have reached a threshold where they present significant risk
 
 Over the past few months we have been improving these safeguards, and they are now robust enough for a general release. Because we have prioritized safety, we’ve deliberately tuned the safeguards to be cautious, and they are still stricter than would be ideal—for example, sometimes benign requests will trigger our classifiers. We recognize that this will be frustrating to some users, and our aim is to reduce false positives as we update and refine the safeguards after launch.
 
-Below we discuss each of Fable 5’s new safeguards in turn. Our wider suite of safeguards is discussed and evaluated in the model’s [system card](https://anthropic.com/claude-fable-5-mythos-5-system-card) and our most recent [risk report](https://www-cdn.anthropic.com/files/4zrzovbb/website/097c63b5fe7dd8b14866e1f15bb1910ec713658a.pdf).
+Below we discuss each of Fable 5’s new safeguards in turn. Our wider suite of safeguards is discussed and evaluated in the model’s [system card](https://anthropic.com/claude-fable-5-mythos-5-system-card) and our most recent [risk report](https://assets.claude.com/097c63b5fe7dd8b14866e1f15bb1910ec713658a.pdf).
 
 ### Safety classifiers
 

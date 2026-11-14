@@ -30,7 +30,7 @@ This starts a development server and gives you a local URL (typically on port 62
 
 ## Using the Inspector Interface[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/the-server-inspector)
 
-The MCP inspector is actively being developed, so the interface may look different when you use it. However, the core functionality remains consistent.
+The pictures here and the video show version 1 of the inspector, but `mcp dev` now starts version 2, which needs Node.js 22.19 or later. In version 2, you turn on the switch on your server's card instead of clicking "Connect", the **Tools** tab lists your tools without a "List Tools" button, and "Run Tool" is called "Execute Tool".
 
 ![The MCP inspector before connecting, with standard input/output transport, a "Connect" button and status "Disconnected".](https://academy.claude.com/assets/media/b71855041936bb82ba63e92710c498b45c405ca4965b1df73317262d3882ce88.png)
 

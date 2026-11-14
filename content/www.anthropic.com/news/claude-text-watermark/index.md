@@ -96,7 +96,7 @@ We’re implementing watermarking to comply with the EU AI Act. Anthropic, along
 
 ### How do I check if a piece of text was written by Claude?
 
-We are releasing a detection API in private preview. It is currently available to eligible organizations as required under EU law (such as regulators, law enforcement, media, fact-checkers, independent researchers, educational organizations, and EU civil society groups). It is also available for enterprises who are similarly obligated to verify watermarking for their own compliance with the Act. We plan to expand access to the detection API over time. You can register interest in access [here](https://forms.gle/9tGA33hPJJwtHsMk9).
+We are releasing a detection API in private preview. It is currently available to eligible organizations as required under EU law (such as regulators, law enforcement, media, fact-checkers, independent researchers, educational organizations, and EU civil society groups). It is also available to select enterprises that are similarly obligated to verify watermarking for their own compliance with the Act. We plan to expand access to the detection API over time. You can register interest in access [here](https://forms.gle/9tGA33hPJJwtHsMk9).
 
 ### What about images and other files?
 

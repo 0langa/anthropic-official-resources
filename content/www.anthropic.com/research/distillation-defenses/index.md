@@ -1,6 +1,6 @@
 # Strengthening our defenses against distillation attacks
 
-![Strengthening our defenses against distillation attacks](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F46303b759b178149b34f19321645a0ede17b3f82-2000x1125.jpg&w=1920&q=75)
+![Strengthening our defenses against distillation attacks](https://assets.claude.com/919f933a2518ba673326a22d96532edc1e185606.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Oct 12, 2026
@@ -48,7 +48,7 @@ Distillers aim to generate millions of responses from a larger, more capable mod
 
 Our early work to combat distillation started with simple measures designed to block *passive* distillation, in which attackers send requests to the model as a normal user would, and then train on those responses. As one of our initial anti-distillation measures, we had Claude summarize its reasoning before we showed it to users. Our evaluations showed that this made Claude’s transcripts much less informative for distillers. We tested how well a pretrained Claude model performed on the SWE-bench Verified coding benchmark after it was trained on transcripts from Claude Opus 4.8. When training on the full transcripts, the distilled model achieved 80.4%; with only the summarized transcripts, it achieved 71.8%.
 
-![Graph showing how the pretrained model performs more strongly when trained on full rather than summarized reasoning transcripts.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Faab3f9927b5be6b7abba51df907e05c925dbe4c5-1920x1080.png&w=3840&q=75)
+![Graph showing how the pretrained model performs more strongly when trained on full rather than summarized reasoning transcripts.](https://assets.claude.com/aab3f9927b5be6b7abba51df907e05c925dbe4c5.png?w=3840&q=75&fm=webp&fit=max)
 
 *Summarizing Claude's reasoning makes its transcripts less useful for distillation. A model trained on transcripts with summarized reasoning scored 71.8% on SWE-bench Verified, compared to 80.4% for a model trained on the full reasoning.*
 
@@ -80,7 +80,7 @@ Overall, we believe that our new distillation defenses reliably prevent many mor
 
 To measure the effectiveness of our system, we estimate how many tokens of Claude’s reasoning distillers have extracted on our own platform. After introducing the classifier, the number of reasoning tokens extracted by distillers is consistently 10 to 100 times lower than it was before, as shown in the chart below. This adds to the impact of our preserved thinking changes. We’ve used these defenses to ban tens of thousands of accounts associated with distillation, often in less than two hours after such an account begins a distillation campaign.
 
-![Graph showing the reasoning tokens exposed to distillers by day (log scale), before and after our new safeguards.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fff06a1bf78f76dcfef1bf8d8c67a488e965999b4-1920x1162.png&w=3840&q=75)
+![Graph showing the reasoning tokens exposed to distillers by day (log scale), before and after our new safeguards.](https://assets.claude.com/ff06a1bf78f76dcfef1bf8d8c67a488e965999b4.png?w=3840&q=75&fm=webp&fit=max)
 
 *Once our new safeguards were fully implemented, the reasoning that distillers could extract from Claude on our own platform fell by a factor of 10 to 100+. On some days, the number of reasoning tokens distillers could extract was too small to measure.*
 

@@ -54,7 +54,7 @@ Claude for Education introduces our new Learning mode, a feature that works with
 - Emphasizing core concepts: Highlighting fundamental principles behind specific problems
 - Providing useful templates: Offering structured formats for research papers, study guides, and outlines
 
-Embedded media: https://cdn.sanity.io/files/4zrzovbb/website/38fccac4003a3181499bd3c8828dc09293862da2.mp4
+Embedded media: https://assets.claude.com/38fccac4003a3181499bd3c8828dc09293862da2.mp4
 
 ### Opportunities for students
 

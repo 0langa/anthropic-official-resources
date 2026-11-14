@@ -80,6 +80,8 @@ This approach works beautifully when you have guarantees about document structur
 python
 
 ```
+import re
+
 def chunk_by_section(document_text):
     pattern = r'\n## '
     return re.split(pattern, document_text)

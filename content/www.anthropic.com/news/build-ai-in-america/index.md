@@ -1,6 +1,6 @@
 # Build AI in America
 
-[Report: Build AI in America](https://www-cdn.anthropic.com/0dc382a2086f6a054eeb17e8a531bd9625b8e6e5.pdf)
+[Report: Build AI in America](https://assets.claude.com/0dc382a2086f6a054eeb17e8a531bd9625b8e6e5.pdf)
 
 Published
 :   Jul 21, 2025
@@ -66,4 +66,4 @@ America has the economic strength, technical prowess, and innovative spirit to m
 
 By partnering across government, industry, and communities, we can build the foundation for decades of American leadership in AI.
 
-Read the full [report](https://www-cdn.anthropic.com/0dc382a2086f6a054eeb17e8a531bd9625b8e6e5.pdf).
+Read the full [report](https://assets.claude.com/0dc382a2086f6a054eeb17e8a531bd9625b8e6e5.pdf).

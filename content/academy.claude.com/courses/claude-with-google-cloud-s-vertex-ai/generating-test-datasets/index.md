@@ -70,9 +70,9 @@ def generate_dataset():
     Example output:
     ```json
     [
-        \{
+        {
             "task": "Description of task",
-        \},
+        },
         ...additional
     ]
     ```
@@ -91,11 +91,11 @@ To get clean JSON output from Claude, we'll use the pre-filling technique with s
 python
 
 ```
-messages = []
-add_user_message(messages, prompt)
-add_assistant_message(messages, "```json")
-text = chat(messages, stop_sequences=["```"])
-return json.loads(text)
+    messages = []
+    add_user_message(messages, prompt)
+    add_assistant_message(messages, "```json")
+    text = chat(messages, stop_sequences=["```"])
+    return json.loads(text)
 ```
 
 This approach ensures Claude starts its response with properly formatted JSON and stops at the closing markdown fence.

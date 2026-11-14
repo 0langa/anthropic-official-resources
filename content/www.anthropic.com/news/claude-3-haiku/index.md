@@ -27,7 +27,7 @@ Related articles
 
 Today we’re releasing Claude 3 Haiku, the fastest and most affordable model in its intelligence class. With state-of-the-art vision capabilities and strong performance on industry benchmarks, Haiku is a versatile solution for a wide range of enterprise applications. The model is now available alongside Sonnet and Opus in the Claude API and on claude.ai for our Claude Pro subscribers.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe6025e452c3653296d50e03e318fd9af001b7ca6-2200x2022.png&w=3840&q=75)
+![](https://assets.claude.com/cd618b78eaafebb4e7f215fe170b6adaef3b0202.png?w=3840&q=75&fm=webp&fit=max)
 
 Speed is essential for our enterprise users who need to quickly analyze large datasets and generate timely output for tasks like customer support. Claude 3 Haiku is three times faster than its peers for the vast majority of workloads, processing 21K tokens (~30 pages) per second for prompts under 32K tokens [1]. It also generates swift output, enabling responsive, engaging chat experiences and the execution of many small tasks in tandem.
 

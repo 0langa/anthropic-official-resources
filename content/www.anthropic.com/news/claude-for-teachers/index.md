@@ -91,11 +91,13 @@ This includes the launch of new connectors in Anthropic’s directory, an [open-
 
 ## Getting started
 
-Once verified, educators can access [Claude for Teachers](https://claude.com/solutions/teachers) entirely free. Sign up by June 30, 2027, for a full year of access.
+Once verified, educators can access [Claude for Teachers](https://claude.com/solutions/teachers) entirely free through July 30, 2028.
 
 Claude for Teachers is for individual educators. On August 28, 2026 we launched a dedicated offering for schools and districts. Read more about the school and district offering [here](https://claude.com/solutions/teachers).
 
 ***Updates:**  
-August 28, 2026: An earlier version of this post included examples of analyzing student data. Claude for Teachers is FERPA-configured to process student records, and using identifiable student information requires authorization from the school or district. To make this more clear, we've updated the examples to use de-identified classroom data. Schools and districts that want to authorize Claude for Teachers to handle student records on their behalf can set that up through our school and district offering.*
+November 13, 2026: Updated to reflect that we've extended the free Claude for Teachers program through July 30, 2028.*
+
+*August 28, 2026: An earlier version of this post included examples of analyzing student data. Claude for Teachers is FERPA-configured to process student records, and using identifiable student information requires authorization from the school or district. To make this more clear, we've updated the examples to use de-identified classroom data. Schools and districts that want to authorize Claude for Teachers to handle student records on their behalf can set that up through our school and district offering.*
 
 J*uly 21, 2026: Added a note to emphasize that whether and how educational data may be used in Claude for Teachers is determined by district and state policies.*

@@ -25,7 +25,7 @@ Perhaps most notably, 80% of organizations report their AI agent investments are
 
 ## **What this looks like in practice**
 
-The organizations seeing results are treating agents as a core part of their infrastrucuture, not experiments.
+The organizations seeing results are treating agents as a core part of their infrastructure, not experiments.
 
 [Thomson Reuters](https://www.claude.com/customers/thomson-reuters) uses Claude to power CoCounsel, their AI legal platform. Lawyers who once spent hours manually searching through documents can now access 150 years of case law and 3,000 domain experts in minutes.
 

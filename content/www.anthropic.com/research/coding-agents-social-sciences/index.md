@@ -56,7 +56,7 @@ In this post, we offer a first look, drawing on a survey of 1,260 quantitative s
 
 ## A new survey on AI coding agent use among quantitative social scientists
 
-We fielded the survey in late February and March 2026, targeting active quantitative social scientists. This was not a representative sample—respondents were recruited for a study that offered access to Claude Max accounts, so selection into the sample could tilt toward researchers curious about AI tools. However, the respondents were fairly similar to an earlier sample that received a more generic invitation (see Table A2 in the [Appendix](https://www-cdn.anthropic.com/files/4zrzovbb/website/403415e54964751190003985896630e56829e797.pdf)).
+We fielded the survey in late February and March 2026, targeting active quantitative social scientists. This was not a representative sample—respondents were recruited for a study that offered access to Claude Max accounts, so selection into the sample could tilt toward researchers curious about AI tools. However, the respondents were fairly similar to an earlier sample that received a more generic invitation (see Table A2 in the [Appendix](https://assets.claude.com/403415e54964751190003985896630e56829e797.pdf)).
 
 Respondents were evenly split between economics, political science and sociology, each around a fifth of the sample, with management sciences and psychology close behind (see Table A1). We also received a smaller number of responses from public health, education and communications researchers. Roughly 40% were full or associate professors, 25% were assistant professors, and about 30% were doctoral students.
 
@@ -138,7 +138,7 @@ Notwithstanding these limitations, we show that coding agents are diffusing into
 
 ### Appendix
 
-Available [here](https://www-cdn.anthropic.com/files/4zrzovbb/website/403415e54964751190003985896630e56829e797.pdf).
+Available [here](https://assets.claude.com/403415e54964751190003985896630e56829e797.pdf).
 
 ### References
 

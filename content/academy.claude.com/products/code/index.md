@@ -73,17 +73,17 @@ Go deep on Claude Code power skills: context engineering, MCP, hooks and permiss
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-code-workshop-advanced)[Upcoming · Nov 12, 10:00 AM PT
+ (opens in new tab)](https://claude.com/resources/webinars/claude-code-workshop-advanced)[Upcoming · Nov 18, 12:00 PM PT
 
-### Claude in Microsoft Foundry: control the cost, prove the value 
+### How the Claude Code team does code review 
 
-Lower the cost of your Claude workloads in Microsoft Foundry, keep spend visible with gateways and controls, and prove ROI.
+How the Claude Code team cut reverts 40% while doubling merged PRs, with AI review, risk-based human approval, and evals.
 
-AWASAV
+ML
 
-·Upcoming·Nov 12·10:00 AM PT
+·Upcoming·Nov 18·12:00 PM PT
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)
+ (opens in new tab)](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)
 
 ## Docs and reference
 

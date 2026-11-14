@@ -1,6 +1,6 @@
 # Expanding Project Glasswing
 
-![Expanding Project Glasswing](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F19e93d85e033d3f992b78cbce2c5a3f60709bd3b-3840x2160.jpg&w=1920&q=75)
+![Expanding Project Glasswing](https://assets.claude.com/e554519a029c3a52db6ee3cda1aacfdabcd43e55.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Jun 2, 2026

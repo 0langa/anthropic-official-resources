@@ -41,6 +41,6 @@ As part of the partnership, NVIDIA and Microsoft are committing to invest up to 
 
 Anthropic co-founder and CEO Dario Amodei, Microsoft Chairman and CEO Satya Nadella, and NVIDIA founder and CEO Jensen Huang gathered to discuss the new partnerships:
 
-Embedded media: https://cdn.sanity.io/files/4zrzovbb/website/101152a9467261958710e026d20f10cc7d08c24f.mp4
+Embedded media: https://assets.claude.com/101152a9467261958710e026d20f10cc7d08c24f.mp4
 
 Amazon remains Anthropic’s primary cloud provider and training partner.

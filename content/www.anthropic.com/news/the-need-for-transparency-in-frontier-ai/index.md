@@ -1,6 +1,6 @@
 # The need for transparency in Frontier AI
 
-[Read the Transparency Framework](https://www-cdn.anthropic.com/19cc4bf9eb6a94f9762ac67368f3322cf82b09fe.pdf)
+[Read the Transparency Framework](https://assets.claude.com/19cc4bf9eb6a94f9762ac67368f3322cf82b09fe.pdf)
 
 Published
 :   Jul 7, 2025
@@ -29,7 +29,7 @@ Related articles
 
 Frontier AI development [needs greater transparency](https://www.nytimes.com/2025/06/05/opinion/anthropic-ceo-regulate-transparency.html) to ensure public safety and accountability for the companies developing this powerful technology. AI is advancing rapidly. While industry, governments, academia, and others work to develop agreed-upon safety standards and comprehensive evaluation methods—a process that could take months to years—we need interim steps to ensure that very powerful AI is developed securely, responsibly, and transparently.
 
-We are therefore proposing a [targeted transparency framework](https://www-cdn.anthropic.com/19cc4bf9eb6a94f9762ac67368f3322cf82b09fe.pdf), one that could be applied at the federal, state, or international level, and which applies only to the largest AI systems and developers while establishing clear disclosure requirements for safety practices.
+We are therefore proposing a [targeted transparency framework](https://assets.claude.com/19cc4bf9eb6a94f9762ac67368f3322cf82b09fe.pdf), one that could be applied at the federal, state, or international level, and which applies only to the largest AI systems and developers while establishing clear disclosure requirements for safety practices.
 
 Our approach deliberately avoids being heavily prescriptive. We recognize that as the science of AI continues to evolve, any regulatory effort must remain lightweight and flexible. **It should not impede AI innovation, nor should it slow our ability to realize AI's benefits—including lifesaving drug discovery, swift delivery of public benefits, and critical national security functions.** Rigid government-imposed standards would be especially counterproductive given that evaluation methods [become outdated within months](https://hai.stanford.edu/news/ai-benchmarks-hit-saturation) due to the pace of technological change.
 
@@ -48,4 +48,4 @@ This transparency approach sheds light on industry best practices for safety and
 
 Views differ on whether and when AI models could pose catastrophic risks. Transparency requirements for Secure Development Frameworks and system cards could help give policymakers the evidence they need to determine if further regulation is warranted, as well as provide the public with important information about this powerful new technology.
 
-As models advance, we have an unprecedented opportunity to accelerate scientific discovery, healthcare, and economic growth. Without safe and responsible development, a single catastrophic failure could halt progress for decades. **Our [proposed transparency framework](https://www-cdn.anthropic.com/19cc4bf9eb6a94f9762ac67368f3322cf82b09fe.pdf) offers a practical first step:** public visibility into safety practices while preserving private sector agility to deliver AI's transformative potential.
+As models advance, we have an unprecedented opportunity to accelerate scientific discovery, healthcare, and economic growth. Without safe and responsible development, a single catastrophic failure could halt progress for decades. **Our [proposed transparency framework](https://assets.claude.com/19cc4bf9eb6a94f9762ac67368f3322cf82b09fe.pdf) offers a practical first step:** public visibility into safety practices while preserving private sector agility to deliver AI's transformative potential.

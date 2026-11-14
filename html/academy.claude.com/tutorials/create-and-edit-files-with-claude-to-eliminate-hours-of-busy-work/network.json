@@ -7,6 +7,11 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "document",
+    "url": "https://www.youtube-nocookie.com/embed/uNyRQW5qCcE"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "document",
     "url": "https://www.youtube-nocookie.com/embed/YKBn5gj923s"
   },
   {
@@ -17,16 +22,11 @@
   {
     "reason": "optional_media_widget_or_analytics",
     "type": "document",
-    "url": "https://www.youtube-nocookie.com/embed/RB0JQUF2eB4"
-  },
-  {
-    "reason": "optional_media_widget_or_analytics",
-    "type": "document",
-    "url": "https://www.youtube-nocookie.com/embed/uNyRQW5qCcE"
-  },
-  {
-    "reason": "optional_media_widget_or_analytics",
-    "type": "document",
     "url": "https://www.youtube-nocookie.com/embed/j-OeEBL7iB8"
+  },
+  {
+    "reason": "optional_media_widget_or_analytics",
+    "type": "document",
+    "url": "https://www.youtube-nocookie.com/embed/RB0JQUF2eB4"
   }
 ]

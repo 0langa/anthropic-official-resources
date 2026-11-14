@@ -26,7 +26,7 @@ Related articles
 
 Developers can now connect their Claude account to Xcode 26 to power coding intelligence features with Claude Sonnet 4. Xcode is Apple's integrated development environment (IDE) and offers the tools you need to develop, test, and distribute apps for Apple platforms. This integration lets developers use Claude's coding capabilities directly in their workflow, accelerating app development for Apple platforms.
 
-![Zoomed in view of Claude Sonnet 4 in Xcode](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fb980278079eb3c3ca177b99adf55e257696c13fd-1920x1080.png&w=3840&q=75)
+![Zoomed in view of Claude Sonnet 4 in Xcode](https://assets.claude.com/5d8ffd26d63f9a3b10af39fbef6149dc6cbfe4cc.png?w=3840&q=75&fm=webp&fit=max)
 
 ### Using Claude in Xcode
 
@@ -45,7 +45,7 @@ To start using Claude in Xcode:
 2. Open Xcode preferences and navigate to the Intelligence settings
 3. Log in with your Claude account
 
-![View of the Claude in Xcode login](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F39637f1b8f90111fbbbf3304d198a9fab278b9fb-1920x1080.png&w=3840&q=75)
+![View of the Claude in Xcode login](https://assets.claude.com/39637f1b8f90111fbbbf3304d198a9fab278b9fb.png?w=3840&q=75&fm=webp&fit=max)
 
 Claude in Xcode works with all plans that include Claude Code—Pro and Max, plus premium seats for Team and Enterprise plans.
 

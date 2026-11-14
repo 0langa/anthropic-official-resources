@@ -1,18 +1,18 @@
 {
-  "actionable_missing_pages": 2,
-  "actionable_population_complete": false,
-  "archived_pages": 5683,
+  "actionable_missing_pages": 0,
+  "actionable_population_complete": true,
+  "archived_pages": 5689,
   "by_host": {
     "academy.claude.com": {
       "archived_pages": 890,
       "discovered_pages": 895
     },
     "claude.com": {
-      "archived_pages": 867,
-      "discovered_pages": 876
+      "archived_pages": 868,
+      "discovered_pages": 877
     },
     "code.claude.com": {
-      "archived_pages": 254,
+      "archived_pages": 255,
       "discovered_pages": 257
     },
     "platform.claude.com": {
@@ -20,15 +20,15 @@
       "discovered_pages": 2263
     },
     "support.claude.com": {
-      "archived_pages": 783,
-      "discovered_pages": 819
+      "archived_pages": 786,
+      "discovered_pages": 820
     },
     "www.anthropic.com": {
-      "archived_pages": 656,
-      "discovered_pages": 668
+      "archived_pages": 657,
+      "discovered_pages": 669
     }
   },
-  "discovered_pages": 5778,
+  "discovered_pages": 5781,
   "exact_website_replica": false,
   "limitations": [
     "Discovery is the union of public indexes and hyperlinks, not proof that unlinked pages do not exist.",
@@ -282,7 +282,6 @@
     "https://claude.com/resources/tutorials/using-research-and-google-workspace": "HTTP 404: https://academy.claude.com/tutorials/using-research-and-google-workspace",
     "https://claude.com/resources/videos": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html",
     "https://claude.com/resources/webinars": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html",
-    "https://code.claude.com/docs/en/code-mode": "HTTP 404: https://code.claude.com/docs/en/code-mode",
     "https://code.claude.com/docs/en/examples": "HTTP 404: https://code.claude.com/docs/en/examples",
     "https://code.claude.com/docs/en/reference": "HTTP 404: https://code.claude.com/docs/en/reference",
     "https://platform.claude.com/cookbook/URL": "HTTP 404: https://platform.claude.com/cookbook/URL",
@@ -343,6 +342,7 @@
     "https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms": "Redirect outside resource scope: https://claude.com/docs/office-agents/third-party-platforms",
     "https://support.claude.com/en/articles/13945233-use-claude-in-excel-and-powerpoint-with-an-llm-gateway": "Redirect outside resource scope: https://claude.com/docs/office-agents/third-party-platforms",
     "https://support.claude.com/en/articles/14465370-use-claude-for-word": "Redirect outside resource scope: https://claude.com/docs/office-agents/word",
+    "https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview": "Request or redirect outside configured hosts",
     "https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents": "Redirect outside resource scope: https://claude.com/docs/office-agents/dictation",
     "https://support.claude.com/en/articles/14503590-get-started-with-claude-for-government": "Redirect outside resource scope: https://claude.com/docs/government/overview",
     "https://support.claude.com/en/articles/14503613-sso-login": "Redirect outside resource scope: https://claude.com/docs/government/overview",
@@ -420,7 +420,7 @@
     "https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/claude-3-5-sonnet": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/claude-3-7-sonnet": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
-    "https://www.anthropic.com/news/claude-4": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html, https://cdn.sanity.io/files/4zrzovbb/website/0827c45e02042cf4c6158ea6c04abefedf2b728a.csv",
+    "https://www.anthropic.com/news/claude-4": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/claude-corps": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/claude-fable-5-mythos-5": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
@@ -518,6 +518,7 @@
     "https://www.anthropic.com/research/building-ai-cyber-defenders": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/building-c-compiler": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/building-effective-agents": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/research/building-strong-safety-evaluations": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/claude-3-5-sonnet": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/claude-3-7-sonnet": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/claude-character": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
@@ -667,14 +668,14 @@
     "https://www.anthropic.com/transparency/voluntary-commitments": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/webinars": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   },
-  "missing_pages": 95,
+  "missing_pages": 92,
   "page_inventory_complete": false,
-  "pages_with_content_notes": 3826,
-  "retained_partial_pages": 509,
-  "terminal_pages": 93,
+  "pages_with_content_notes": 3831,
+  "retained_partial_pages": 510,
+  "terminal_pages": 92,
   "terminal_statuses": {
     "blocked": 27,
-    "gone": 42,
+    "gone": 41,
     "out_of_scope": 24
   }
 }

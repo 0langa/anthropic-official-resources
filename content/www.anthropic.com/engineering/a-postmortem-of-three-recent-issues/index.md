@@ -2,7 +2,7 @@
 
 # A postmortem of three recent issues
 
-![A postmortem of three recent issues](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F55f6ae5b6156f26c14695939ff77d4f4bc4e82f8-2000x1125.jpg&w=1920&q=75)
+![A postmortem of three recent issues](https://assets.claude.com/2575b9a988a9f79a6039d6b5063944cfa1c957c3.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Sep 17, 2025
@@ -47,7 +47,7 @@ Each hardware platform has different characteristics and requires specific optim
 
 ## Timeline of events
 
-![Illustrative timeline of events on the Claude API. Yellow: issue detected, Red: degradation worsened, Green: fix deployed.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd707dfc2effceba608d04007bc776132a3e57838-3840x1800.png&w=3840&q=75)
+![Illustrative timeline of events on the Claude API. Yellow: issue detected, Red: degradation worsened, Green: fix deployed.](https://assets.claude.com/d707dfc2effceba608d04007bc776132a3e57838.png?w=3840&q=75&fm=webp&fit=max)
 
 Illustrative timeline of events on the **Claude API**. Yellow: issue detected, Red: degradation worsened, Green: fix deployed.
 
@@ -95,7 +95,7 @@ When Claude generates text, it calculates probabilities for each possible next w
 
 In December 2024, we discovered our TPU implementation would occasionally drop the most probable token when [temperature](https://docs.claude.com/en/docs/about-claude/glossary) was zero. We deployed a workaround to fix this case.
 
-![Code snippet of a December 2024 patch to work around the unexpected dropped token bug when temperature = 0.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fefee0d3d25f6b03cbfc57e70e0e364dcd8b82fe0-2000x500.png&w=3840&q=75)
+![Code snippet of a December 2024 patch to work around the unexpected dropped token bug when temperature = 0.](https://assets.claude.com/acc01e92c47e604e7d05229b33c143b78043821d.png?w=3840&q=75&fm=webp&fit=max)
 
 Code snippet of a December 2024 patch to work around the unexpected dropped token bug when temperature = 0.
 
@@ -105,13 +105,13 @@ This caused a mismatch: operations that should have agreed on the highest probab
 
 On August 26, we deployed a rewrite of our sampling code to fix the precision issues and improve how we handled probabilities at the limit that reach the top-p threshold. But in fixing these problems, we exposed a trickier one.
 
-![Code snippet showing minimized reproducer merged as part of the August 11 change that root-caused the “bug” being worked around in December 2024; in reality, it’s expected behavior of the xla_allow_excess_precision flag.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6d10e58c0bd5fd7cb03dc0adc716cb1e4f039343-2000x2560.png&w=3840&q=75)
+![Code snippet showing minimized reproducer merged as part of the August 11 change that root-caused the “bug” being worked around in December 2024; in reality, it’s expected behavior of the xla_allow_excess_precision flag.](https://assets.claude.com/6d10e58c0bd5fd7cb03dc0adc716cb1e4f039343.png?w=3840&q=75&fm=webp&fit=max)
 
 Code snippet showing a minimized reproducer merged as part of the August 11 change that root-caused the "bug" being worked around in December 2024. In reality, it’s expected behavior of the `xla_allow_excess_precision` flag.
 
 Our fix removed the December workaround because we believed we'd solved the root cause. This led to a deeper bug in the [approximate top-k](https://docs.jax.dev/en/latest/_autosummary/jax.lax.approx_max_k.html) operation—a performance optimization that quickly finds the highest probability tokens.3 This approximation sometimes returned completely wrong results, but only for certain batch sizes and model configurations. The December workaround had been inadvertently masking this problem.
 
-![Slack message showing reproducer of the underlying approximate top-k bug shared with the XLA:TPU engineers who developed the algorithm. The code returns correct results when run on CPUs.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F7e42db934d0e84ea40fc56b416ddb09b2097a5ff-2400x1404.png&w=3840&q=75)
+![Slack message showing reproducer of the underlying approximate top-k bug shared with the XLA:TPU engineers who developed the algorithm. The code returns correct results when run on CPUs.](https://assets.claude.com/7e42db934d0e84ea40fc56b416ddb09b2097a5ff.png?w=3840&q=75&fm=webp&fit=max)
 
 Reproducer of the underlying approximate top-k bug shared with the XLA:TPU engineers who [developed the algorithm](https://arxiv.org/pdf/2206.14286). The code returns correct results when run on CPUs.
 

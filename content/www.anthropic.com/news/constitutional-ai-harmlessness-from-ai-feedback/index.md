@@ -32,4 +32,4 @@ As AI systems become more capable, we would like to enlist their help to supervi
 
 ### Policy Memo
 
-[Constitutional AI Policy Memo](https://www-cdn.anthropic.com/7512771452629584566b6303311496c262da1006/Anthropic_ConstitutionalAI_v2.pdf)
+[Constitutional AI Policy Memo](https://assets.claude.com/7512771452629584566b6303311496c262da1006.pdf)

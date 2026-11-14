@@ -36,7 +36,7 @@ Organizations across industries are putting these patterns into practice, balanc
 
 ### **The path forward**
 
-For organizations planning their 2026 priorities, four areas demand immediate attention: mastering multi-agent coordination, scaling human-agent oversight through AI-automated review, extending agentic coding beyond engineering teams, and embedding security architecture from the earliest stages.  
+For organizations planning their 2026 priorities, four areas demand immediate attention: mastering [multi-agent coordination](https://claude.com/resources/articles/multi-agent-coordination-patterns), scaling human-agent oversight through [AI-automated review](https://claude.com/resources/articles/code-review-is-now-generally-available), [extending agentic coding beyond engineering teams](https://claude.com/resources/articles/how-anthropic-teams-use-claude-code), and embedding security architecture from the earliest stages.  
   
 Organizations that treat agentic coding as a strategic priority will define what becomes possible.
 

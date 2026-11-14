@@ -30,7 +30,7 @@ After working for the past few months with key partners like Notion, Quora, and 
 
 Claude can help with use cases including summarization, search, creative and collaborative writing, Q&A, coding, and more. Early customers report that Claude is much less likely to produce harmful outputs, easier to converse with, and more steerable - so you can get your desired output with less effort. Claude can also take direction on personality, tone, and behavior.
 
-We’re offering [two versions of Claude](https://www-cdn.anthropic.com/b0d46f8c8e2f4cca2833c17cb68435035c0bb5a9/apr-pricing-tokens_2023-05-10-213025_tnty.pdf) today: Claude and Claude Instant. Claude is a state-of-the-art high-performance model, while Claude Instant is a lighter, less expensive, and much faster option. We plan to introduce even more updates in the coming weeks. As we develop these systems, we'll continually work to make them more helpful, honest, and harmless as we learn more from our [safety research](https://www.anthropic.com/news/an-ai-policy-tool-for-today-ambitiously-invest-in-nist) and our deployments.
+We’re offering [two versions of Claude](https://assets.claude.com/b0d46f8c8e2f4cca2833c17cb68435035c0bb5a9.pdf) today: Claude and Claude Instant. Claude is a state-of-the-art high-performance model, while Claude Instant is a lighter, less expensive, and much faster option. We plan to introduce even more updates in the coming weeks. As we develop these systems, we'll continually work to make them more helpful, honest, and harmless as we learn more from our [safety research](https://www.anthropic.com/news/an-ai-policy-tool-for-today-ambitiously-invest-in-nist) and our deployments.
 
 ### Partner Testimonials
 
@@ -42,7 +42,7 @@ One of our key partners, [Quora](https://www.quora.com/), has offered Claude to
 
 “I personally love the way the answers are presented and how in-depth, yet simply presented they are,” says one user who was impressed by Claude’s combination of language skills and expertise.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0d1d653b2378e714f4557655300dea6c259c6bbe-2940x1510.png&w=3840&q=75)
+![](https://assets.claude.com/0d1d653b2378e714f4557655300dea6c259c6bbe.png?w=3840&q=75&fm=webp&fit=max)
 
 We are especially interested in positive applications of AI that can help people achieve their goals. [Juni Learning](https://junilearning.com/), a leading provider of online education solutions, uses Anthropic to power their Discord Juni Tutor Bot, an online tutoring solution to help students achieve academic success. Vivian Shen, CEO of Juni Learning, says, “We evaluated Anthropic against competitors, and for our use case and implementation we chose to incorporate Claude based on its helpful, high-quality responses. It was important for us to deliver a conversational experience at the level of a true tutor or teacher, as opposed to the surface-level answers we saw from the current state of other models. Across subjects, including math problems or understanding symbolism in critical reading, incorporating Claude provided better, richer answers for our students’ learning.”
 
@@ -54,7 +54,7 @@ Information-finding can be even harder in a document-heavy space like the legal 
 
 “We use Claude to evaluate particular parts of a contract, and to suggest new, alternative language that's more friendly to our customers. We've been working with these types of technologies since 2019, and nothing has matched Claude's capabilities,” says Richard Robinson, CEO of Robin AI. “We've found Claude is really good at understanding language - including in technical domains like legal language. It's also very confident at drafting, summarising, translations, and explaining complex concepts in simple terms. Since deploying Claude in our product, we're seeing higher user engagement, stronger user feedback and we're closing more deals.”
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1f54f02451d1b3f0b13e7cea8dc02c6a1c0e9482-2886x1360.png&w=3840&q=75)
+![](https://assets.claude.com/1f54f02451d1b3f0b13e7cea8dc02c6a1c0e9482.png?w=3840&q=75&fm=webp&fit=max)
 
 In addition to improving existing products, we are excited about the potential of AI to transform digital media. We are proud to partner with [AssemblyAI](https://www.assemblyai.com/), an innovative AI company that is partnering with Anthropic to help power its platform of APIs that transcribe and understand audio data at scale. Dylan Fox, Founder & CEO of AssemblyAI, says, “We're thrilled to partner with a pioneering company like Anthropic whose commitment to AI integrity and research directly helps us ship more robust, LLM-backed Generative AI and Conversation Intelligence capabilities to our customers faster. We look forward to seeing this partnership propel our AI initiatives forward.”
 

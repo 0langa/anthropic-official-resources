@@ -1,6 +1,6 @@
 # Detecting and preventing distillation attacks
 
-![Detecting and preventing distillation attacks](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F18c5c47d69f58ed068a4254b011369de5cc9be8b-2000x1125.jpg&w=1920&q=75)
+![Detecting and preventing distillation attacks](https://assets.claude.com/3a3d60ace831c31ed4872bb057b7b5dba27d3f35.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Feb 23, 2026

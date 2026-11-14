@@ -38,9 +38,9 @@ Not everything Claude makes beside the chat is an artifact. Claude can also buil
 
 You can specify which kind you want, or describe the work and Claude picks what fits the task. When your work fits none of those kinds, like a quiz or a planner, Claude builds a custom artifact for it. If Claude makes the wrong one, say which you wanted, for instance *"make this a Claude Slides deck"* or *"give me this as a file for PowerPoint."*
 
-Explorer: six kinds of artifact, from Claude Docs to a custom artifact. Each comes with what it is, a request to try, and a sample open in Claude.
+Explorer: seven kinds of artifact, from Claude Docs to a custom artifact. Each comes with what it is, a request to try, and a sample open in Claude.
 
-DocsSlidesDesignDataMotionBetaCustom
+DocsSlidesDesignSheetsBetaDataMotionBetaCustom
 
 **Claude Docs:** a document that you, your teammates, and Claude all write in at the same time.
 
@@ -53,6 +53,10 @@ Try asking: “*Make a deck from the Q3 numbers for the board meeting.*”
 **Claude Design:** a design or clickable prototype you edit by hand.
 
 Try asking: “*Mock up the sign-up flow as three phone screens.*”
+
+**Claude Sheets:** a spreadsheet with formulas that you, your teammates, and Claude edit together.
+
+Try asking: “*Make a sheet of our hiring budget by team and quarter.*”
 
 **Claude Data:** a dashboard of charts and numbers that stay current as your data changes.
 
@@ -273,6 +277,42 @@ First invoice**Oct 23 · $3,744**
 
 Open your workspace
 
+fx=SUM(G2:G7)100%
+
+Planned hires for six teams by quarter, with each team's budget and a row of totals. Under the totals is the average salary, which Claude just changed.
+
+ABCDEFGH
+
+1TeamQ1Q2Q3Q4HiresBudget
+
+2Sales32218$1,160,000
+
+3Support11103$435,000
+
+4Engineering22116$870,000
+
+5Product10102$290,000
+
+6Marketing11002$290,000
+
+7Finance01001$145,000
+
+8Total875222$3,190,000
+
+9
+
+10Average salary$145,000Claude
+
+11
+
+12
+
+13
+
+BIU$Ask Claude
+
+BudgetRoles
+
 Updated 12m ago
 
 ###### Q3 revenue review
@@ -337,7 +377,7 @@ C
 
 FriT
 
-Claude Sheets and Claude Whiteboards aren't shown here, but you can ask for either the same way, for example *"Make a sheet of our hiring budget by team and quarter"* or *"Start a whiteboard to plan our product launch."* For more on each kind, see the [Help Center(opens in new tab)](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them). To check which kinds your plan has, see [What your plan includes](https://academy.claude.com/tutorials/intro-to-artifacts).
+Claude Whiteboards isn't one of the tabs above, but you can ask for a whiteboard the same way, for example *"Start a whiteboard to plan our product launch."* For more on each kind, see the [Help Center(opens in new tab)](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them). To check which kinds your plan has, see [What your plan includes](https://academy.claude.com/tutorials/intro-to-artifacts).
 
 ### Build from the conversation[](https://academy.claude.com/tutorials/intro-to-artifacts)
 
@@ -691,6 +731,42 @@ First invoice**Oct 23 · $3,744**
 
 Open your workspace
 
+fx=SUM(G2:G7)100%
+
+Planned hires for six teams by quarter, with each team's budget and a row of totals. Under the totals is the average salary, which Claude just changed.
+
+ABCDEFGH
+
+1TeamQ1Q2Q3Q4HiresBudget
+
+2Sales32218$1,160,000
+
+3Support11103$435,000
+
+4Engineering22116$870,000
+
+5Product10102$290,000
+
+6Marketing11002$290,000
+
+7Finance01001$145,000
+
+8Total875222$3,190,000
+
+9
+
+10Average salary$145,000Claude
+
+11
+
+12
+
+13
+
+BIU$Ask Claude
+
+BudgetRoles
+
 Updated 12m ago
 
 ###### Q3 revenue review
@@ -963,6 +1039,351 @@ First invoice**Oct 23 · $3,744**
 
 Open your workspace
 
+fx=SUM(G2:G7)100%
+
+Planned hires for six teams by quarter, with each team's budget and a row of totals. Under the totals is the average salary, which Claude just changed.
+
+ABCDEFGH
+
+1TeamQ1Q2Q3Q4HiresBudget
+
+2Sales32218$1,160,000
+
+3Support11103$435,000
+
+4Engineering22116$870,000
+
+5Product10102$290,000
+
+6Marketing11002$290,000
+
+7Finance01001$145,000
+
+8Total875222$3,190,000
+
+9
+
+10Average salary$145,000Claude
+
+11
+
+12
+
+13
+
+BIU$Ask Claude
+
+BudgetRoles
+
+Updated 12m ago
+
+###### Q3 revenue review
+
+Revenue grew in Q3, mostly from the new tier, while monthly churn fell below the Q2 average and APAC revenue stayed flat.
+
+Revenue, Q3
+
+$4.07M
+
++12% vs Q2
+
+New tier, Q3
+
+$880K
+
++115% vs Q2
+
+Monthly churn, Sep
+
+3.1%
+
+−1.1 pt vs Q2
+
+APAC revenue, Q3
+
+$542K
+
++0.4% vs Q2
+
+Revenue by month ($M)
+
+AprMayJunJulAugSep1.41
+
+Monthly churn (%)
+
+3.1%AprMayJunJulAugSep
+
+2%4%4.3Apr4.2May4.1Jun3.6Jul3.3Aug3.1Sep
+
+Monthly churn, 2026Churn fell to 3.1%
+
+**0:00** / 0:09Tweaks
+
+This week**3** of 9 done
+
+MonR
+
+I
+
+TueT
+
+M
+
+WedC
+
+R
+
+ThuI
+
+C
+
+FriT
+
+
+## Sheets
+Beta
+
+Hiring budgetMDShare
+
+ShareExport
+
+General access
+
+Only people invited
+
+Anyone at Halden
+
+Anyone with the link
+
+People you share it with open it from the link or from Shared with you on their Artifacts page. Give edit access and they can change it in place or send Claude a comment.
+
+Copy link
+
+46%TextImage or videoTableShapesDownload
+
+PDF (.pdf)
+
+Web page (.html)
+
+Current slide as an image (.png)
+
+PowerPoint, current fonts (.pptx)
+
+PowerPoint, basic fonts (.pptx)
+
+Basic fonts work on any computer
+
+Present
+
+1
+
+3.1%
+
+2
+
+3
+
+4
+
+23%
+
+5
+
+6
+
+Q3 2026 performance readout · board pre-read
+
+New-tier adoption lifted revenue 12% in Q3. APAC is the one region to fix before Q4.
+
+Revenue bridge, Q2 to Q3 ($M)
+
+4.53.01.503.644.07+0.47−0.04+0.00Q2New tierExistingAPACQ3
+
+1
+
+New tier added $0.47M, almost all of it net-new
+
+23% attach on new logos, up from 9%; deal size held, so this is adoption, not pricing.
+
+2
+
+Onboarding rework cut churn 1.1 pts to 3.1%
+
+Largest single-quarter improvement on record; +18 pt NPS in the cohort.
+
+3
+
+APAC was flat against +12% everywhere else
+
+Coverage 1.8x vs. 3.0x target; two AE ramps slipped to Q4.
+
+Source: company actuals (Oct 8, 2026); FP&A model v3.2; CRM pipeline snapshot2
+
+M
+
+2 / 6
+
+Mnow
+
+@Claude Make the APAC bar clay too, so it reads as the exception, and label it “flat”.
+
+Sent to Claude. Claude is working
+
+Q3 2026 performance readout · board pre-read
+
+New-tier adoption lifted revenue 12% in Q3. APAC is the one region to fix before Q4.
+
+Revenue bridge, Q2 to Q3 ($M)
+
+4.53.01.503.644.07+0.47−0.04+0.00Q2New tierExistingAPACQ3
+
+1
+
+New tier added $0.47M, almost all of it net-new
+
+23% attach on new logos, up from 9%; deal size held, so this is adoption, not pricing.
+
+2
+
+Onboarding rework cut churn 1.1 pts to 3.1%
+
+Largest single-quarter improvement on record; +18 pt NPS in the cohort.
+
+3
+
+APAC was flat against +12% everywhere else
+
+Coverage 1.8x vs. 3.0x target; two AE ramps slipped to Q4.
+
+Source: company actuals (Oct 8, 2026); FP&A model v3.2; CRM pipeline snapshot2
+
+Previous**2** / 6NextExit (Esc)
+
+Heading 1BITableExport
+
+###### Q3 stakeholder brief
+
+For the leadership readout, Thursday Oct 8 · Draft for comment · Numbers from Q3 model v3.2
+
+Q3 closed ahead of plan. Revenue rose 12% quarter over quarter on the strength of the new tier, which added $880K in bookings, nearly all of it net-new rather than upsell. Costs grew 4%, leaving net up 44%. Both operational bets from the Q2 plan are paying off; the open question is concentration, because one region, APAC, did not participate in the growth.
+
+What changed
+
+<table><thead><tr><th aria-label="Metric"></th><th class="n">Q2</th><th class="n">Q3</th><th class="n">QoQ</th></tr></thead><tbody><tr><td>Revenue</td><td class="n">$3.64M</td><td class="n">$4.07M</td><td class="n pos">+12%</td></tr><tr><td>New tier</td><td class="n">$410K</td><td class="n">$880K</td><td class="n pos">+115%</td></tr><tr><td>Churn</td><td class="n">4.2%</td><td class="n">3.1%</td><td class="n pos">−1.1 pt</td></tr><tr><td>APAC</td><td class="n">$540K</td><td class="n">$542K</td><td class="n neg">flat</td></tr></tbody></table>
+
+What is working
+
+- The July onboarding rework cut churn from 4.2% to 3.1%, the largest single-quarter improvement on record. Accounts that went through the new flow score +18 points on NPS against the cohort average, so the retention gain looks durable rather than seasonal.
+- New-tier attach reached 23% of new logos, up from 9%. Average deal size held, which makes this adoption rather than discounting.
+
+Watch list
+
+APAC was flat while every other region grew. Pipeline coverage there sits at 1.8x against a 3x target. Two causes look most likely: the Q2 hiring slip pushed two AE ramps into Q4, and the new tier has not been positioned for the APAC buyer.
+
+Recommendation
+
+Hold the Q4 plan. Run a four-week APAC sprint on pipeline build and a localized new-tier brief, and re-baseline the APAC target at the November ops review. Lead Thursday with the churn story; it is the cleanest evidence the bets are working.
+
+D2 min
+
+@Claude add the NPS lift from the onboarding cohort here; the board asked about durability last time.
+
+Claude edited · added the +18 pt NPS line and its source
+
+ShapesProperties
+
+**01** Landing
+
+9:41
+
+Halden
+
+Forecasting that closes the books with you, not after you.
+
+The new Halden tier adds live consolidation and scenario runs for finance teams of five or more.
+
+Start 14-day trial
+
+**02** Choose plan
+
+9:41
+
+Step 2 of 3
+
+Choose your plan
+
+MonthlyAnnual
+
+Team
+
+$24 per seat / month
+
+Reporting, 10 entities
+
+Scale *Save 18%*
+
+$39 per seat / month
+
+Live consolidation, scenarios, SSO
+
+Continue with Scale
+
+390 × 802
+
+**03** Confirmation
+
+9:41
+
+Step 3 of 3
+
+You’re on Scale.
+
+Your trial runs to Oct 22. We’ll email finance-ops@ before anything is charged.
+
+Plan**Scale, annual**
+
+Seats**8**
+
+First invoice**Oct 23 · $3,744**
+
+Open your workspace
+
+fx=SUM(G2:G7)100%
+
+Planned hires for six teams by quarter, with each team's budget and a row of totals. Under the totals is the average salary, which Claude just changed.
+
+ABCDEFGH
+
+1TeamQ1Q2Q3Q4HiresBudget
+
+2Sales32218$1,160,000
+
+3Support11103$435,000
+
+4Engineering22116$870,000
+
+5Product10102$290,000
+
+6Marketing11002$290,000
+
+7Finance01001$145,000
+
+8Total875222$3,190,000
+
+9
+
+10Average salary$145,000Claude
+
+11
+
+12
+
+13
+
+BIU$Ask Claude
+
+BudgetRoles
+
 Updated 12m ago
 
 ###### Q3 revenue review
@@ -1234,6 +1655,42 @@ Seats**8**
 First invoice**Oct 23 · $3,744**
 
 Open your workspace
+
+fx=SUM(G2:G7)100%
+
+Planned hires for six teams by quarter, with each team's budget and a row of totals. Under the totals is the average salary, which Claude just changed.
+
+ABCDEFGH
+
+1TeamQ1Q2Q3Q4HiresBudget
+
+2Sales32218$1,160,000
+
+3Support11103$435,000
+
+4Engineering22116$870,000
+
+5Product10102$290,000
+
+6Marketing11002$290,000
+
+7Finance01001$145,000
+
+8Total875222$3,190,000
+
+9
+
+10Average salary$145,000Claude
+
+11
+
+12
+
+13
+
+BIU$Ask Claude
+
+BudgetRoles
 
 Updated 12m ago
 
@@ -1508,6 +1965,42 @@ First invoice**Oct 23 · $3,744**
 
 Open your workspace
 
+fx=SUM(G2:G7)100%
+
+Planned hires for six teams by quarter, with each team's budget and a row of totals. Under the totals is the average salary, which Claude just changed.
+
+ABCDEFGH
+
+1TeamQ1Q2Q3Q4HiresBudget
+
+2Sales32218$1,160,000
+
+3Support11103$435,000
+
+4Engineering22116$870,000
+
+5Product10102$290,000
+
+6Marketing11002$290,000
+
+7Finance01001$145,000
+
+8Total875222$3,190,000
+
+9
+
+10Average salary$145,000Claude
+
+11
+
+12
+
+13
+
+BIU$Ask Claude
+
+BudgetRoles
+
 Updated 12m ago
 
 ###### Q3 revenue review
@@ -1779,6 +2272,42 @@ Seats**8**
 First invoice**Oct 23 · $3,744**
 
 Open your workspace
+
+fx=SUM(G2:G7)100%
+
+Planned hires for six teams by quarter, with each team's budget and a row of totals. Under the totals is the average salary, which Claude just changed.
+
+ABCDEFGH
+
+1TeamQ1Q2Q3Q4HiresBudget
+
+2Sales32218$1,160,000
+
+3Support11103$435,000
+
+4Engineering22116$870,000
+
+5Product10102$290,000
+
+6Marketing11002$290,000
+
+7Finance01001$145,000
+
+8Total875222$3,190,000
+
+9
+
+10Average salary$145,000Claude
+
+11
+
+12
+
+13
+
+BIU$Ask Claude
+
+BudgetRoles
 
 Updated 12m ago
 

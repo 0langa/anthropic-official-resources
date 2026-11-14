@@ -1,6 +1,6 @@
 # Claude Opus 4 and 4.1 can now end a rare subset of conversations
 
-![Claude Opus 4 and 4.1 can now end a rare subset of conversations](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F73ad5dc003b109c1eddbb0d2cfc4984156fc0213-2000x1125.jpg&w=1920&q=75)
+![Claude Opus 4 and 4.1 can now end a rare subset of conversations](https://assets.claude.com/13d2e6938df52194b319e6b99c7d31118403dc7f.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Aug 15, 2025
@@ -43,7 +43,7 @@ Our implementation of Claude’s ability to end chats reflects these findings wh
 
 In all cases, Claude is only to use its conversation-ending ability as a last resort when multiple attempts at redirection have failed and hope of a productive interaction has been exhausted, or when a user explicitly asks Claude to end a chat (the latter scenario is illustrated in the figure below). The scenarios where this will occur are extreme edge cases—the vast majority of users will not notice or be affected by this feature in any normal product use, even when discussing highly controversial issues with Claude.
 
-![Screenshot of a Claude chat in which the user asks Claude to end the chat as a demonstration. Claude replies that using the end conversation tool will permanently close the conversation, so no more messages can be sent, and asks the user to confirm they understand and want to proceed. The user confirms. Claude thanks them and says it will now demonstrate the tool. A notice then reads “Claude has ended this chat.” At the bottom, a bar reads “Chat ended by Claude,” with “Start new chat” and “Give feedback” buttons.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F77f187335e1266bffc59353c064f1d9c6de51cfa-1940x1304.png&w=3840&q=75)
+![Screenshot of a Claude chat in which the user asks Claude to end the chat as a demonstration. Claude replies that using the end conversation tool will permanently close the conversation, so no more messages can be sent, and asks the user to confirm they understand and want to proceed. The user confirms. Claude thanks them and says it will now demonstrate the tool. A notice then reads “Claude has ended this chat.” At the bottom, a bar reads “Chat ended by Claude,” with “Start new chat” and “Give feedback” buttons.](https://assets.claude.com/c9d5edee0ca4308f088bcba21b83869e7305046b.png?w=3840&q=75&fm=webp&fit=max)
 
 Claude demonstrating the ending of a conversation in response to a user’s request. When Claude ends a conversation, the user can start a new chat, give feedback, or edit and retry previous messages.
 

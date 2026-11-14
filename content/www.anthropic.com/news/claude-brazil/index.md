@@ -38,4 +38,4 @@ Paid users on the [Team plan](https://www.anthropic.com/team) get even more usag
 
 Anthropic prioritizes safety, privacy, and ethical AI development in Claude's design. Rigorous testing and training aim to reduce misuse, while a strong commitment to user privacy means generative models are not trained on user data without explicit permission.
 
-*Read this post in [Portuguese](https://www-cdn.anthropic.com/files/4zrzovbb/website/ea3d47f547131c9fbed59bfe68ed8b1cbe747179.pdf).*
+*Read this post in [Portuguese](https://assets.claude.com/ea3d47f547131c9fbed59bfe68ed8b1cbe747179.pdf).*

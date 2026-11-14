@@ -72,21 +72,11 @@ Build MCP servers and clients from scratch with the Python SDK, covering the thr
 
 [View all webinars](https://academy.claude.com/all)
 
-[Upcoming · Nov 12, 10:00 AM PT
+[Upcoming · Nov 17, 10:00 AM PT
 
-### Claude in Microsoft Foundry: control the cost, prove the value 
+### Build Agents with Claude Models on Google Cloud 
 
-Lower the cost of your Claude workloads in Microsoft Foundry, keep spend visible with gateways and controls, and prove ROI.
-
-AWASAV
-
-·Upcoming·Nov 12·10:00 AM PT
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)[Upcoming · Nov 17, 10:00 AM PT
-
-### Build Agents with the Claude Platform on Google Cloud 
-
-Build agents on the full Claude Platform via Google Cloud using code execution, Files API, Agent Skills, and your existing IAM credentials.
+Build agents on the full Claude Platform inside your Google Cloud account, with code execution, Files API, Skills, and governance.
 
 RAINED
 
@@ -102,7 +92,17 @@ SSIP
 
 ·Recording·Oct 22
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 21
+
+### Tokenomics on AWS: Control and optimize your Claude spend 
+
+Optimize your Claude spend on AWS with admin controls, default model settings, and measuring cost per task on Bedrock and the API.
+
+SMAR
+
+·Recording·Oct 21
+
+ (opens in new tab)](https://claude.com/resources/webinars/tokenomics-on-aws-control-and-optimize-your-claude-spend)
 
 ## Browse it all
 

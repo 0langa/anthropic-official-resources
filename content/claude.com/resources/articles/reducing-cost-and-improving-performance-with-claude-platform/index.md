@@ -39,7 +39,7 @@ Figure 1. Claude Console can diagnose unexpected prompt cache misses by comparin
 
 - **Defer rarely used tools**. Declare all your tools up front but mark the rarely used ones [defer\_loading](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-use-with-prompt-caching): they stay out of the cached prefix and are appended into the conversation only when Claude looks them up with tool search, so the cache is preserved.
 - **Apply system prompt updates as messages**. [Claude Platform](https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages) lets you add a system instruction as a message mid-conversation instead of editing the system prompt, which preserves the cache.
-- **Lay out the request out so the stable part stays stable**. Add static context (tool definitions and the system prompt) first and the growing conversation behind them (Figure 2).
+- **Lay out the request so the stable part stays stable**. Add static context (tool definitions and the system prompt) first and the growing conversation behind them (Figure 2).
 
 ![](https://assets.claude.com/bf235bef54d335c8f367a90e6d986e0e480b3659.png)
 
@@ -52,7 +52,7 @@ Figure 2. Organize prompts to ensure dynamic content is appended to the end of a
 
 ## **Instructions**
 
-Prompts can accumulate instructions that patch model weaknesses. These instructions can drift relative to the capabilities of the [latest Claude models](https://x.com/trq212/status/2080710971228918066). Here are common prompting “anti-patterns” that hobble frontier Claude model and can inadvertently increase costs:
+Prompts can accumulate instructions that patch model weaknesses. These instructions can drift relative to the capabilities of the [latest Claude models](https://x.com/trq212/status/2080710971228918066). Here are common prompting “anti-patterns” that hobble frontier Claude models and can inadvertently increase costs:
 
 - **Verification rituals**. Instructions like "*double-check your work*” or "*verify twice before responding*” are often taken literally by frontier models and can waste tokens.
 - **Thoroughness and emphasis boosters**. "*Be maximally thorough*," "*CRITICAL: YOU MUST ALWAYS…*" can lead to verbosity and extra tool calls when working with frontier models.
@@ -156,7 +156,19 @@ To learn more:
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 10, 2026
+[ArticleNov 13, 2026
+
+### Building always-on agents
+
+Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
+
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
+
+### The Claude Tag guide for startups
+
+How leading startups use Claude Tag to ship faster and scale operations
+
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
 
 ### How Curative is building a national provider network with agents on Claude
 
@@ -168,21 +180,7 @@ Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-i
 
 How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
 
-(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)[ArticleNov 9, 2026
-
-### Which Claude model should you build with?
-
-How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.
-
-Claude PlatformClaude Code
-
-(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)[ArticleOct 27, 2026
-
-### Manage costs and demonstrate ROI for Claude Code on Google Cloud
-
-Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
-
-Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)
+(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
 
 ## Transform how your organization operates with Claude
 

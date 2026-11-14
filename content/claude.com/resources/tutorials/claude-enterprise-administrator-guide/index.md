@@ -70,6 +70,7 @@ Review security details at the [Anthropic Trust Center(opens in new tab)](https:
 - Set up Connectors — [Information on Connectors(opens in new tab)](https://support.claude.com/en/articles/11176164-pre-built-web-connectors-using-remote-mcp)
 - Admin roles assigned — [Member Roles(opens in new tab)](https://support.claude.com/en/articles/9267276-roles-and-permissions)
 - Claude Code seat configuration completed (see next section)
+- Claude desktop app pre-installed on developer machines, with Claude Code turned on in it (see next section)
 
 ### Claude Code Access & Seat Configuration[](https://academy.claude.com/tutorials/claude-enterprise-administrator-guide)
 
@@ -87,9 +88,26 @@ Follow these steps to enable Claude Code access for your users:
 2. **For legacy seat-based plans:** Assign Premium seats to users who need Claude Code access. Only Owners and Primary Owners can purchase more seats; Admins and above can change a member's seat type.
 3. **For usage-based plans:** Make sure each user who needs Claude Code has a seat type that includes it; [Use Claude Code with your Team or Enterprise plan(opens in new tab)](https://support.claude.com/en/articles/11845131-use-claude-code-with-your-team-or-enterprise-plan) lists which seats do. Then set spend limits for the organization, for groups, or for individual members; with none set, spend isn't capped. [See how spend limits work.(opens in new tab)](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)
 
+#### Pre-install Claude Code for your developers
+
+Ask the team that manages developer devices to do two things before launch:
+
+- **Pre-install the Claude desktop app.** The desktop app includes Claude Code in its Code tab, so developers don't need Node.js or the CLI to start. Deploy it through your device management tool. See [Deploy Claude Desktop for macOS(opens in new tab)](https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos) and [Deploy Claude Desktop for Windows(opens in new tab)](https://support.claude.com/en/articles/12622703-deploy-claude-desktop-for-windows). On Windows, an MSIX uploaded to Intune as a line-of-business app installs per user and fails for users without admin rights, so follow the article's steps for a machine-wide install. On Ubuntu and Debian, install from the apt repository described in [Claude Desktop on Linux (beta)(opens in new tab)](https://code.claude.com/docs/en/desktop-linux).
+- **Give developers a one-command install for the terminal.** The CLI is a separate install, and the command for each operating system is in the next section. If you have a custom development environment, creating a "one click" way to install Claude Code is key to growing adoption. See [Best practices for organizations(opens in new tab)](https://code.claude.com/docs/en/third-party-integrations).
+
+Then check that Claude Code is turned on in the app. The Desktop setting in your [Claude Code admin settings(opens in new tab)](https://claude.ai/admin-settings/claude-code) controls whether members can use Claude Code in the desktop app. It needs to be on, and it's off by default in organizations that have HIPAA enabled. A device policy can also turn Claude Code off in the app. [Enterprise configuration for the desktop app(opens in new tab)](https://code.claude.com/docs/en/desktop) covers both.
+
 #### User Authentication for Claude Code
 
 Share the following steps with end users to connect Claude Code to their enterprise account:
+
+**In the Claude desktop app**
+
+- **Open the Claude desktop app.** If it isn't on your machine yet, [download the desktop app(opens in new tab)](https://claude.com/download).
+- **Sign in via Enterprise SSO** with your corporate credentials.
+- **Select the Code tab.**
+
+**In the terminal**
 
 - **Install Claude Code:** Run the command below that corresponds to your operating system to install Claude Code.
   - **macOS / Linux / WSL:** `curl -fsSL https://claude.ai/install.sh | bash`
@@ -107,6 +125,7 @@ Share the following steps with end users to connect Claude Code to their enterpr
 - Run "claude update" if not seeing the enterprise auth option
   - Restart terminal after updates
   - Console API key users switching to access via Claude Enterprise seats: Run `/logout`, then `/login` and select "Claude account with subscription"
+- In the desktop app, if the Code tab shows a 403 error, see [authentication troubleshooting(opens in new tab)](https://code.claude.com/docs/en/desktop)
 
 #### Admin Monitoring for Claude Code
 

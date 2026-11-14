@@ -48,8 +48,6 @@ This is just a single snapshot, and Claude Cowork is still new; its uses are evo
 
 Claude Cowork is available to all Claude users. [Learn more](http://anthropic.com/product/claude-cowork) or [take our Introduction to Claude Cowork course](https://anthropic.skilljar.com/introduction-to-claude-cowork) to get started.
 
-++++
-
 ## Additional details about our research
 
 See below for more information about how we conducted this Claude Cowork user survey.

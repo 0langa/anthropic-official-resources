@@ -42,7 +42,7 @@ The first is to supervise the agent’s behavior via a human-in-the-loop. Claude
 
 The second approach to capping the blast radius—and the focus of much of this post—is containment. Rather than supervising what the agent does, we supervise what it’s *able* to do by enforcing access boundaries through, for example, sandboxes, virtual machines, and egress controls. This is where Anthropic engineering has devoted the most effort, and also where many of the most surprising security failures have occurred.
 
-Over the past two years, we’ve shipped three primary agentic products: [claude.ai](http://claude.ai/redirect/website.v1.c723dbf9-703a-410f-a54a-df0672dcec7d), Claude Code, and Claude Cowork. Each serves a different audience, requiring a different containment architecture. This article shares what’s held up, what’s broken, and what we’ve learned about agent security along the way.
+Over the past two years, we’ve shipped three primary agentic products: [claude.ai](http://claude.ai/redirect/website.v1.2b2f216f-3ddc-4ecf-bc41-59daa4f659a6), Claude Code, and Claude Cowork. Each serves a different audience, requiring a different containment architecture. This article shares what’s held up, what’s broken, and what we’ve learned about agent security along the way.
 
 ## Three types of risk, three components of defense
 
@@ -64,7 +64,7 @@ A tight perimeter also means you can relax oversight. Claude Code’s [reference
 
 **The model the agent consults.** The mechanisms here include system prompts, classifiers, probes, and training modifications. Because models are probabilistic, these shape only what the agent *tends* to do, not what it is theoretically capable of doing.
 
-These defenses are strong. On Gray Swan's Agent Red Teaming benchmark, which tests susceptibility to prompt injection, [Claude Opus 4.7](https://www-cdn.anthropic.com/files/4zrzovbb/website/037f06850df7fbe871e206dad004c3db5fd50340.pdf) holds attack success to roughly 0.1% on single attempts, and around 5–6% after 100 adaptive attempts. Claude Code auto mode catches roughly 83% of overeager behaviors [before they execute](https://www.anthropic.com/engineering/claude-code-auto-mode). Yet even with best-in-class defenses, protection in the model layer will never be 100% effective, which is why it can't stand alone.
+These defenses are strong. On Gray Swan's Agent Red Teaming benchmark, which tests susceptibility to prompt injection, [Claude Opus 4.7](https://assets.claude.com/037f06850df7fbe871e206dad004c3db5fd50340.pdf) holds attack success to roughly 0.1% on single attempts, and around 5–6% after 100 adaptive attempts. Claude Code auto mode catches roughly 83% of overeager behaviors [before they execute](https://www.anthropic.com/engineering/claude-code-auto-mode). Yet even with best-in-class defenses, protection in the model layer will never be 100% effective, which is why it can't stand alone.
 
 **The external content the agent can reach.** MCP servers, third-party plugins, and web search tools all feed content into the agent’s context from sources you don’t control. An audited connector isn’t the same as audited data—a GitHub connector, for instance, can load a poisoned README straight into the model’s context despite passing malware checks. Granularly limiting tool permissions can help limit the blast radius. An agent with read-only DB access, for instance, can be deployed far more broadly than one that writes to prod.
 
@@ -76,13 +76,13 @@ Three components to defend: the model, the environment in which it runs, and the
 
 ## Patterns for containing agents
 
-Focusing on the environment layer, we describe three isolation patterns and how they’re tailored for each Claude platform—[claude.ai](http://claude.ai/redirect/website.v1.c723dbf9-703a-410f-a54a-df0672dcec7d), Claude Code, and Cowork. We arrived at each design gradually, after finding the balance between the capabilities we need from the agent and the degree of intervention required from the user.
+Focusing on the environment layer, we describe three isolation patterns and how they’re tailored for each Claude platform—[claude.ai](http://claude.ai/redirect/website.v1.2b2f216f-3ddc-4ecf-bc41-59daa4f659a6), Claude Code, and Cowork. We arrived at each design gradually, after finding the balance between the capabilities we need from the agent and the degree of intervention required from the user.
 
 ### Pattern 1: The ephemeral container (claude.ai code execution)
 
 Though best known as a chat interface, claude.ai also writes and runs code, generates files, and calls connectors. When Claude runs code inside claude.ai, it does so in a [gVisor](https://en.wikipedia.org/wiki/GVisor) container on isolated infrastructure. The agent is entirely server-side; no code runs on the local machine, and the filesystem is ephemeral (per-session). The blast radius is minimal, but so is the ceiling on what Claude can do—there's no persistent workspace and no access to the user's filesystem.
 
-This also makes [claude.ai](http://claude.ai/redirect/website.v1.c723dbf9-703a-410f-a54a-df0672dcec7d) subject to a more traditional threat model. We're not protecting user machines from agents; we're protecting our own infrastructure and each tenant from one another. Our pre-launch work for [claude.ai](http://claude.ai/redirect/website.v1.c723dbf9-703a-410f-a54a-df0672dcec7d) was dominated by traditional security work like network configuration, internal service auth, and orchestration.
+This also makes [claude.ai](http://claude.ai/redirect/website.v1.2b2f216f-3ddc-4ecf-bc41-59daa4f659a6) subject to a more traditional threat model. We're not protecting user machines from agents; we're protecting our own infrastructure and each tenant from one another. Our pre-launch work for [claude.ai](http://claude.ai/redirect/website.v1.2b2f216f-3ddc-4ecf-bc41-59daa4f659a6) was dominated by traditional security work like network configuration, internal service auth, and orchestration.
 
 That work reinforced the oldest lesson in security: the weakest layer is the one you built yourself. gVisor and [seccomp](https://en.wikipedia.org/wiki/Seccomp) have been hardened against well-resourced adversaries for far longer than agentic AI has existed, so the review effort went into the newer pieces we'd built around them. We’ll come back to this later, since our custom proxy is also the piece that broke in our most consequential incident.
 

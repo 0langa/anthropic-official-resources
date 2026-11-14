@@ -33,7 +33,7 @@ Before we go into each stage of the incident response process, I’ll provide a 
 
 An on-call agent needs **memory** so it remembers what’s been done; **connections and access** so it can investigate, understand, and act; **schedules** so it knows when to get back to work; and **instructions** so it knows what to do.
 
-[Claude Tag](https://claude.com/product/tag) is the backbone of our on-call agent. Claude Tag holds memory across our on-call Slack channel and the interface to provide per-turn instructions during an incident. Claude also acts in real time to events in the on-call channel and others. The scheduling of routines, or the regular actions Claude takes, happens on this channel as well with natural language prompts like “run CI handoff every Monday at 9:00am EST.”
+[Claude Tag](https://claude.com/product/tag) is the backbone of our on-call agent. Claude Tag holds memory across our on-call Slack channel and the interface to provide per-turn instructions during an incident. Claude also reacts in real time to events in the on-call channel and others. The scheduling of routines, or the regular actions Claude takes, happens on this channel as well with natural language prompts like “run CI handoff every Monday at 9:00am EST.”
 
 [Claude Tag has its own service account](https://claude.com/resources/articles/agent-identity-access-model) and access to the tools an Anthropic CI engineer needs such as Datadog or Grafana. This was set up one time by an administrator for the channel ([here’s how](https://claude.com/docs/claude-tag/admins/setup-overview)).
 
@@ -75,7 +75,7 @@ The key takeaway here is that the alerting process is deterministic, while on-ca
 
 ## **Triage**
 
-It's one thing to have Claude filter through the alert noise, but the real savings comes from the investigation. Claude posts its first evidence-grounded analysis a median of 14 minutes after an incident opens, and in the fastest cases names the root cause within 4 minutes in its first report.
+It's one thing to have Claude filter through the alert noise, but the real savings come from the investigation. Claude posts its first evidence-grounded analysis a median of 14 minutes after an incident opens, and in the fastest cases names the root cause within 4 minutes in its first report.
 
 When an alert has been escalated to an incident, Claude is often ready in our Slack channel with a hypothesis grounded in evidence that we can review. Claude Tag kicks off a [dynamic workflow](https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code) with an orchestration agent that spins up executor subagents to investigate each dependency and source of truth.
 
@@ -109,8 +109,8 @@ The first stage of our rollout process usually involves Claude managing canary t
 
 Other resolution paths that Claude Tag helps my team with are:
 
-- Letting us know if we need to drain or cordon off certain sections of our Kubernetes cluster;.
-- Giving us instructions on how to scale up some of our infrastructure in responses to demand-surges (this is rare but it’s very helpful when Claude comes back with exactly what we can do for mitigation); and, most frequently,
+- Letting us know if we need to drain or cordon off certain sections of our Kubernetes cluster;
+- Giving us instructions on how to scale up some of our infrastructure in response to demand surges (this is rare but it’s very helpful when Claude comes back with exactly what we can do for mitigation); and, most frequently,
 - Fixes in the form of a PR that the on-call can review, merge, and then deploy for a swift resolution.
 
 ## **Verification, communication, and handoff**
@@ -148,7 +148,19 @@ How to get started:
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 10, 2026
+[ArticleNov 13, 2026
+
+### Building always-on agents
+
+Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
+
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
+
+### The Claude Tag guide for startups
+
+How leading startups use Claude Tag to ship faster and scale operations
+
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
 
 ### How Curative is building a national provider network with agents on Claude
 
@@ -160,21 +172,7 @@ Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-i
 
 How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
 
-(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)[ArticleNov 9, 2026
-
-### Which Claude model should you build with?
-
-How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.
-
-Claude PlatformClaude Code
-
-(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)[ArticleOct 27, 2026
-
-### Manage costs and demonstrate ROI for Claude Code on Google Cloud
-
-Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
-
-Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)
+(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
 
 ## Transform how your organization operates with Claude
 

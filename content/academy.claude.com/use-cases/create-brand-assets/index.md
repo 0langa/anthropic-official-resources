@@ -21,7 +21,7 @@ I need two things for my coffee shop, Morning Ritual:
 1. Business card (3.5" × 2") with:
 
 - My contact info: 125 Hudson Street, New York, NY 10013, morningritualnyc.com
-- QR code to my website (make this with rounded corners instead of blocky squares—more organic and unqiue)
+- QR code to my website (make this with rounded corners instead of blocky squares—more organic and unique)
 - Print specs: 32pt cardstock, soft-touch coating, with bleeds and crop marks
 
 2. Matching flyer (18" × 24") that I can:
@@ -108,7 +108,7 @@ I need two things for my coffee shop, Morning Ritual:
 1. Business card (3.5" × 2") with:
 
 • My contact info: 125 Hudson Street, New York, NY 10013, morningritualnyc.com
-• QR code to my website (make this with rounded corners instead of blocky squares—more organic and unqiue)
+• QR code to my website (make this with rounded corners instead of blocky squares—more organic and unique)
 • Print specs: 32pt cardstock, soft-touch coating, with bleeds and crop marks
 
 2. Matching flyer (18" × 24") that I can:

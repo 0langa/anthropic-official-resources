@@ -2,7 +2,7 @@
 
 # Claude 3.5 Sonnet
 
-[Try on Claude.ai](https://claude.ai/redirect/website.v1.d636c736-243c-4357-87a6-25e235efe8bd)
+[Try on Claude.ai](https://claude.ai/redirect/website.v1.9bff1d83-dd55-4859-b745-0f7e054372ec)
 
 Published
 :   Jun 21, 2024
@@ -45,7 +45,7 @@ Claude 3.5 Sonnet sets new industry benchmarks for graduate-level reasoning (GPQ
 
 Claude 3.5 Sonnet operates at twice the speed of Claude 3 Opus. This performance boost, combined with cost-effective pricing, makes Claude 3.5 Sonnet ideal for complex tasks such as context-sensitive customer support and orchestrating multi-step workflows.
 
-In an [internal agentic coding evaluation](https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf), Claude 3.5 Sonnet solved 64% of problems, outperforming Claude 3 Opus which solved 38%. Our evaluation tests the model’s ability to fix a bug or add functionality to an open source codebase, given a natural language description of the desired improvement. When instructed and [provided with the relevant tools](https://www.anthropic.com/news/tool-use-ga), Claude 3.5 Sonnet can independently write, edit, and execute code with sophisticated reasoning and troubleshooting capabilities. It handles code translations with ease, making it particularly effective for updating legacy applications and migrating codebases.
+In an [internal agentic coding evaluation](https://assets.claude.com/fed9cc193a14b84131812372d8d5857f8f304c52.pdf), Claude 3.5 Sonnet solved 64% of problems, outperforming Claude 3 Opus which solved 38%. Our evaluation tests the model’s ability to fix a bug or add functionality to an open source codebase, given a natural language description of the desired improvement. When instructed and [provided with the relevant tools](https://www.anthropic.com/news/tool-use-ga), Claude 3.5 Sonnet can independently write, edit, and execute code with sophisticated reasoning and troubleshooting capabilities. It handles code translations with ease, making it particularly effective for updating legacy applications and migrating codebases.
 
 ![Claude 3.5 Sonnet benchmarks](https://assets.claude.com/45a6520508e0cf54eee442917bfd765be861d537.png?w=3840&q=75&fm=webp&fit=max)
 
@@ -67,7 +67,7 @@ This preview feature marks Claude’s evolution from a conversational AI to a co
 
 ## Commitment to safety and privacy
 
-Our models are subjected to rigorous testing and have been trained to reduce misuse. Despite Claude 3.5 Sonnet’s leap in intelligence, our red teaming assessments have concluded that Claude 3.5 Sonnet remains at [ASL-2](https://www.anthropic.com/news/anthropics-responsible-scaling-policy). More details can be found in the [model card addendum](https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf).
+Our models are subjected to rigorous testing and have been trained to reduce misuse. Despite Claude 3.5 Sonnet’s leap in intelligence, our red teaming assessments have concluded that Claude 3.5 Sonnet remains at [ASL-2](https://www.anthropic.com/news/anthropics-responsible-scaling-policy). More details can be found in the [model card addendum](https://assets.claude.com/fed9cc193a14b84131812372d8d5857f8f304c52.pdf).
 
 As part of our commitment to safety and transparency, we’ve engaged with external experts to test and refine the safety mechanisms within this latest model. We recently provided Claude 3.5 Sonnet to the UK’s Artificial Intelligence Safety Institute (UK AISI) for pre-deployment safety evaluation. The UK AISI completed tests of 3.5 Sonnet and shared their results with the US AI Safety Institute (US AISI) as part of a Memorandum of Understanding, made possible by the partnership between the US and UK AISIs [announced earlier this year](https://www.commerce.gov/news/press-releases/2024/04/us-and-uk-announce-partnership-science-ai-safety).
 

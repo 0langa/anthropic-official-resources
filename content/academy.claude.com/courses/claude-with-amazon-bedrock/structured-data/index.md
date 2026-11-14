@@ -27,11 +27,11 @@ markdown
 ```
 # EventBridge Rule
 ```json
-\{
+{
   "source": ["aws.ec2"],
   "detail-type": ["EC2 Instance State-change Notification"],
-  "detail": \{"state": ["running"]\}
-\}
+  "detail": {"state": ["running"]}
+}
 ```
 This rule captures EC2 instance state changes when instances start running or stop.
 ```

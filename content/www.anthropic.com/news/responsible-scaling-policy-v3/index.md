@@ -101,7 +101,7 @@ Read the [Frontier Safety Roadmap](https://anthropic.com/responsible-scaling-pol
 
 ### 3. Risk Reports and external review
 
-Risk Reports are another way in which we’re improving upon what worked well about our previous RSP. We found that producing a proto-Risk Report, our [Safeguards Report](https://www-cdn.anthropic.com/dc4cb293c77da3ca5e3398bdeef75ee17b42b73f.pdf) from May 2025, was useful for our internal understanding and the public communication of the risks. Risk Reports extend this to a more systematic, comprehensive practice.
+Risk Reports are another way in which we’re improving upon what worked well about our previous RSP. We found that producing a proto-Risk Report, our [Safeguards Report](https://assets.claude.com/dc4cb293c77da3ca5e3398bdeef75ee17b42b73f.pdf) from May 2025, was useful for our internal understanding and the public communication of the risks. Risk Reports extend this to a more systematic, comprehensive practice.
 
 Risk Reports will provide detailed information on the safety profile of our models at the time of publication. They will go beyond describing model capabilities to explain how capabilities, threat models (the specific ways that models might pose threats), and active risk mitigations fit together, and provide an assessment of the overall level of risk. Risk Reports will be published online (with some redactions[1](https://www.anthropic.com/news/responsible-scaling-policy-v3)) every 3-6 months.
 

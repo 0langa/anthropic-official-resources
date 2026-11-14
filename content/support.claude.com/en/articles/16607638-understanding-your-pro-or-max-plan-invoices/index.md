@@ -40,7 +40,7 @@ You can also open any invoice from your account:
 
 **Amount due.** The invoice total minus any applied balance. This is what your payment method was charged.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2629072970/c514f489b65072ccad08e803864f/e8c7a7de-905f-4a40-815f-c9c66edcdbf6?expires=1794492900&amp;signature=aa3c7022179466018652edeb54e6cea660fa7f1d709dacc11a641d29c353fd0a&amp;req=diYlH8l5n4hYWfMW1HO4zdWraRU751YXPZYKVlMiWEWuCoQqVyppUOdOsqyL%0AuFwngvQs7HhcNqkP8pM%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2629072970/c514f489b65072ccad08e803864f/e8c7a7de-905f-4a40-815f-c9c66edcdbf6?expires=1794661200&amp;signature=dbc02767a2b038ba914a6afb421bd758f1b059a276519579375e2c7f7870cde1&amp;req=diYlH8l5n4hYWfMW1HO4zdWraRU56FUcPZYKVlMiWEUR5NEOW6CXT5n6iXHJ%0ApN6aatnnbXUwPR4s9KM%3D%0A)
 
 ## Billing details on your invoice
 

@@ -11,7 +11,7 @@
 
 *This is the second post in our series on building human-agent teams. The [first](https://claude.com/resources/articles/building-effective-human-agent-teams) shared what we've learned building teams with multiplayer AI at Anthropic. In this article, we share best practices from a company that was thinking about human-agent teams long before AI arrived.*
 
-Jaime Delanghe joined Slack in 2017 to work on search and machine learning, with a mission to turn workplace conversation into institutional knowledge. Now the company’s Chief Product Officer, she has believed from the start that to achieve this goal, people need to work in the open, keeping conversations, decisions, and work in progress in channels anyone at the company can read and search. In her recent essay [*The Work is the Conversation*](https://jaimedelanghe.medium.com/the-work-is-the-conversation-50a1d61f8f9e), she makes the same case for agents: The conversation around the work is the context that agents need to be useful and finally help us achieve this decades-old goal of turning scattered knowledge into productivity.
+Jaime DeLanghe joined Slack in 2017 to work on search and machine learning, with a mission to turn workplace conversation into institutional knowledge. Now the company’s Chief Product Officer, she has believed from the start that to achieve this goal, people need to work in the open, keeping conversations, decisions, and work in progress in channels anyone at the company can read and search. In her recent essay [*The Work is the Conversation*](https://jaimedelanghe.medium.com/the-work-is-the-conversation-50a1d61f8f9e), she makes the same case for agents: The conversation around the work is the context that agents need to be useful and finally help us achieve this decades-old goal of turning scattered knowledge into productivity.
 
 To learn what this looks like in practice at Slack, we talked with Jaime about her best practices for building effective human-agent teams and spreading these new ways of working.
 
@@ -29,7 +29,7 @@ Making sense of all that exhaust simply wasn't humanly possible. Now it's an age
 - **Ask agents for the reasoning, not just the record**: Instead of searching for what was decided, ask an agent to reconstruct *why* it was decided, and how the context has shifted since.
 - **Widen the surface area**: Tools like Slack and Claude are stitching meetings, emails, calendars, and document repositories together—the more of that context you connect, the less your team repeats itself.
 
-## Learn when to handoff tasks between agents and humans
+## Learn when to hand off tasks between agents and humans
 
 The core rhythm of a human-agent team is a cycle of handoffs. Powered by Claude in Slack, agents handle the production work—drafting, summarizing, monitoring, preparing—and pass the results to a person. The person reviews, decides, and redirects, then hands the work back for agents to carry out the next step.
 
@@ -60,13 +60,13 @@ In the same way that human teammates have roles and responsibilities, agents sho
 
 Slack has recommended public-by-default channels since its earliest days: "You're building a shared understanding, a shared context for all of the work that's going to come next,” Jaime says.
 
-She suggests keeping channels public unless there is a specific reason to gate context and knowledge. The most information agents have to pull from and inform their work, the more effective team mates they’ll be.
+She suggests keeping channels public unless there is a specific reason to gate context and knowledge. The more information agents have to pull from and inform their work, the more effective teammates they’ll be.
 
 Open context compounds—new people onboard into history instead of an empty inbox, and no one repeats themselves. Now agents benefit too, and that context and working memory flows back to humans.
 
 **How to put this into practice:**
 
-- **Keep business-as-usual work in the open.** Make non-sensitive projects, announcements, and Q&A channels public so that agent coworkers can gain the knowledge they need to be most useful. .
+- **Keep business-as-usual work in the open.** Make non-sensitive projects, announcements, and Q&A channels public so that agent coworkers can gain the knowledge they need to be most useful.
 - **Remember your agents read what your team reads.** A private channel is a blind spot for every agent that reports on it.
 - **Let psychological safety drive the line.** Once genuinely sensitive material is walled off, the main reason work retreats into DMs isn't secrecy—it's discomfort with being seen mid-process. People should feel confident doing everyday work in the open, rough drafts and half-formed questions included, trusting their coworkers to meet it in good faith. And that openness compounds: "you gain trust by giving trust."
 
@@ -102,7 +102,19 @@ Her biggest advice for building an effective human-agent team? Start soon, but s
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 10, 2026
+[ArticleNov 13, 2026
+
+### Building always-on agents
+
+Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
+
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
+
+### The Claude Tag guide for startups
+
+How leading startups use Claude Tag to ship faster and scale operations
+
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
 
 ### How Curative is building a national provider network with agents on Claude
 
@@ -114,21 +126,7 @@ Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-i
 
 How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
 
-(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)[ArticleNov 9, 2026
-
-### Which Claude model should you build with?
-
-How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.
-
-Claude PlatformClaude Code
-
-(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)[ArticleOct 27, 2026
-
-### Manage costs and demonstrate ROI for Claude Code on Google Cloud
-
-Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
-
-Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)
+(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
 
 ## Transform how your organization operates with Claude
 

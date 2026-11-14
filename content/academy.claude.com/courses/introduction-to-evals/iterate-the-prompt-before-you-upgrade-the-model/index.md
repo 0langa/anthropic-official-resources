@@ -18,7 +18,7 @@ lifts the cheapest of three Claude models Meridian tested from 84% to 100%.
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=4czF_ac02ic)
 
-*The demo in this video was recorded in August 2026. It ran on Claude Haiku 4.5, Claude Sonnet 5, and Claude Opus 5. Results will differ on newer models. Each lesson's demo is a separate eval run, so its scores and costs won't match those in other lessons.*
+*The demo in this video was recorded in August 2026. It ran on Claude Haiku 4.5, Claude Sonnet 5, and Claude Opus 5, and the scores and costs on this page come from that demo. Results will differ on newer models. The newest Haiku, Sonnet, and Opus models are Claude Haiku 5.5, Claude Sonnet 5.5, and Claude Opus 5.5. Each lesson's demo is a separate eval run, so its scores and costs won't match those in other lessons.*
 
 **A low eval score says a model got too many cases wrong, but not whether the model or your prompt is to blame.**
 
@@ -42,13 +42,13 @@ Before Meridian spends more on a bigger model, it works through five steps:
 
 Meridian's 50 cases are 30 typical reports, 10 that cover several projects, and 10 missing-risk cases, where the report has no risk section. The table shows how Haiku 4.5 did with the old prompt, the one Meridian started with.
 
-<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">Kind of report</th><th class="border-b border-strong p-sm text-left font-medium">Cases</th><th class="border-b border-strong p-sm text-left font-medium">Failed</th><th class="border-b border-strong p-sm text-left font-medium">Field that failed</th></tr></thead><tbody><tr><td class="border-b p-sm">Typical</td><td class="border-b p-sm">30</td><td class="border-b p-sm">3</td><td class="border-b p-sm"><code class="cds-inline-code [--cds-prose-code-color:currentColor]">schedule_status</code></td></tr><tr><td class="border-b p-sm">Multi-project</td><td class="border-b p-sm">10</td><td class="border-b p-sm">0</td><td class="border-b p-sm"></td></tr><tr><td class="border-b p-sm">Missing risk</td><td class="border-b p-sm">10</td><td class="border-b p-sm">5</td><td class="border-b p-sm"><code class="cds-inline-code [--cds-prose-code-color:currentColor]">top_risk</code></td></tr></tbody></table>
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">Kind of report</th><th class="border-b border-strong p-sm text-left font-medium">Cases</th><th class="border-b border-strong p-sm text-left font-medium">Failed</th><th class="border-b border-strong p-sm text-left font-medium">Field that failed</th></tr></thead><tbody><tr><td class="border-b p-sm">Typical</td><td class="border-b p-sm">30</td><td class="border-b p-sm">3</td><td class="border-b p-sm"><code class="cds-inline-code">schedule_status</code></td></tr><tr><td class="border-b p-sm">Multi-project</td><td class="border-b p-sm">10</td><td class="border-b p-sm">0</td><td class="border-b p-sm"></td></tr><tr><td class="border-b p-sm">Missing risk</td><td class="border-b p-sm">10</td><td class="border-b p-sm">5</td><td class="border-b p-sm"><code class="cds-inline-code">top_risk</code></td></tr></tbody></table>
 
 *Haiku 4.5 with the old prompt failed 8 of the 50 cases.*
 
 Five of the eight failures are missing-risk cases, all on `top_risk`. Each should have come back `null`, but the model wrote a sentence naming a risk every time. Case r045 is one of them.
 
-<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium"></th><th class="border-b border-strong p-sm text-left font-medium">Case r045</th></tr></thead><tbody><tr><td class="border-b p-sm">What the report says of the permit</td><td class="border-b p-sm">"the team does not anticipate any issues with the renewal."</td></tr><tr><td class="border-b p-sm">Expected answer</td><td class="border-b p-sm"><code class="cds-inline-code [--cds-prose-code-color:currentColor]">null</code></td></tr><tr><td class="border-b p-sm">The answer that came back</td><td class="border-b p-sm">"County permit renewal window opens next quarter and could impact project continuity if not completed timely."</td></tr></tbody></table>
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium"></th><th class="border-b border-strong p-sm text-left font-medium">Case r045</th></tr></thead><tbody><tr><td class="border-b p-sm">What the report says of the permit</td><td class="border-b p-sm">"the team does not anticipate any issues with the renewal."</td></tr><tr><td class="border-b p-sm">Expected answer</td><td class="border-b p-sm"><code class="cds-inline-code">null</code></td></tr><tr><td class="border-b p-sm">The answer that came back</td><td class="border-b p-sm">"County permit renewal window opens next quarter and could impact project continuity if not completed timely."</td></tr></tbody></table>
 
 The permit gets only a routine note, and the report itself says there's no trouble expected, yet the model picked it as the top risk.
 
@@ -108,7 +108,7 @@ In the next table, run cost is the price of one model's pass through all 50 case
 
 *All three models with the new prompt across 50 cases, against a 90% accuracy floor, at August 2026 standard prices. See [current prices(opens in new tab)](https://claude.com/pricing).*
 
-Every model now clears the floor, so you choose on cost per completed task, and Haiku 4.5's is the lowest.
+Every model now clears the floor, so Meridian chooses on cost per completed task, and Haiku 4.5's is the lowest.
 
 ## Check every column, then decide on an upgrade[](https://academy.claude.com/courses/introduction-to-evals/iterate-the-prompt-before-you-upgrade-the-model)
 
@@ -118,7 +118,7 @@ Count the unsupported answers and any correct answers that turned wrong. Meridia
 
 The three typical cases that failed on `schedule_status` passed this time, though no change touched that field's line. A model can answer the same case differently from one run to the next, so [run every setup two or more times before you trust a score(opens in new tab)](https://github.com/anthropics/claude-cookbooks/blob/main/cost_optimization/cost_optimization.ipynb).
 
-Keep changing the prompt and rerunning while the score moves. When it stops moving short of your accuracy floor, [the model lacks a capability, and that's when to upgrade(opens in new tab)](https://platform.claude.com/docs/en/about-claude/models/choosing-a-model).
+Keep changing the prompt and rerunning while the score moves. When it stops moving short of your accuracy floor, [the model lacks a capability, and that's when to upgrade(opens in new tab)](https://platform.claude.com/docs/en/about-claude/models/choosing-a-model). If you're starting your own eval today, begin with Claude Haiku 5.5, the current Haiku model, and upgrade only when prompt changes stop moving the score.
 
 ## The bottom line[](https://academy.claude.com/courses/introduction-to-evals/iterate-the-prompt-before-you-upgrade-the-model)
 

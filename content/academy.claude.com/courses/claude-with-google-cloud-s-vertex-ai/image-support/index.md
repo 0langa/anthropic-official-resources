@@ -32,6 +32,8 @@ To include an image, you add an image block to your user message alongside text 
 python
 
 ```
+import base64
+
 with open("image.png", "rb") as f:
     image_bytes = base64.standard_b64encode(
         f.read()

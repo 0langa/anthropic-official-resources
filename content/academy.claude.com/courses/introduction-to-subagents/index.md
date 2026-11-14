@@ -1,6 +1,6 @@
 # Introduction to subagents
 
-Decompose complex tasks across parallel Claude subagents and orchestrate them deterministically.
+Delegate tasks to Claude Code subagents that work in their own context windows and return focused summaries.
 
 4 lessons45 minNo completion badge
 

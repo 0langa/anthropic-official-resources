@@ -30,7 +30,7 @@ Related articles
 
 *Claude Sonnet 4.6 is our most capable Sonnet model yet*. It’s a full upgrade of the model’s skills across coding, computer use, long-context reasoning, agent planning, knowledge work, and design. Sonnet 4.6 also features a 1M token context window in beta.
 
-For those on our [Free and Pro plans](https://claude.com/pricing), Claude Sonnet 4.6 is now the default model in [claude.ai](https://claude.ai/redirect/website.v1.c68f4c13-45aa-47ef-8eeb-aec1951e032e) and [Claude Cowork](https://claude.com/product/cowork). [Pricing](https://claude.com/pricing) remains the same as Sonnet 4.5, starting at $3/$15 per million tokens.
+For those on our [Free and Pro plans](https://claude.com/pricing), Claude Sonnet 4.6 is now the default model in [claude.ai](https://claude.ai/redirect/website.v1.b929ab64-27a0-4405-8ff6-419cccc607c3) and [Claude Cowork](https://claude.com/product/cowork). [Pricing](https://claude.com/pricing) remains the same as Sonnet 4.5, starting at $3/$15 per million tokens.
 
 Sonnet 4.6 brings much-improved coding skills to more of our users. Improvements in consistency, instruction following, and more have made developers with early access prefer Sonnet 4.6 to its predecessor by a wide margin. They often even prefer it to our smartest model from November 2025, Claude Opus 4.5.
 
@@ -48,7 +48,7 @@ Across sixteen months, our Sonnet models have made steady gains on OSWorld. The 
 
 The model certainly still lags behind the most skilled humans at using computers. But the rate of progress is remarkable nonetheless. It means that computer use is much more useful for a range of work tasks—and that substantially more capable models are within reach.
 
-![Chart comparing several Sonnet model scores on the OSWorld benchmark](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1206645ef5a618dabce8587b472b21c67a30a0db-3840x1948.png&w=3840&q=75)
+![Chart comparing several Sonnet model scores on the OSWorld benchmark](https://assets.claude.com/495a272ae875093badce427ef12f45469a17dffb.png?w=3840&q=75&fm=webp&fit=max)
 
 Scores prior to Claude Sonnet 4.5 were measured on the original OSWorld; scores from Sonnet 4.5 onward use OSWorld-Verified. OSWorld-Verified (released July 2025) is an in-place upgrade of the original OSWorld benchmark, with updates to task quality, evaluation grading, and infrastructure.
 
@@ -60,7 +60,7 @@ At the same time, computer use poses risks: malicious actors can attempt to hija
 
 Beyond computer use, Claude Sonnet 4.6 has improved on benchmarks across the board. It approaches Opus-level intelligence at a price point that makes it more practical for far more tasks. You can find a full discussion of Sonnet 4.6’s capabilities and its safety-related behaviors in [our system card](https://anthropic.com/claude-sonnet-4-6-system-card); a summary and comparison to other recent models is below.
 
-![A table of popular benchmarks and Sonnet 4.6's relative performance compared to other frontier models](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F10b2602771d21378cd6d76628a081c8a76dcf216-2600x2960.png&w=3840&q=75)
+![A table of popular benchmarks and Sonnet 4.6's relative performance compared to other frontier models](https://assets.claude.com/9a27a40207eb06287bfcdb6a74aba8420a4fdb26.png?w=3840&q=75&fm=webp&fit=max)
 
 In Claude Code, our early testing found that users preferred Sonnet 4.6 over Sonnet 4.5 roughly 70% of the time. Users reported that it more effectively read the context before modifying code and consolidated shared logic rather than duplicating it. This made it less frustrating to use over long sessions than earlier models.
 
@@ -70,13 +70,13 @@ Sonnet 4.6’s 1M token context window is enough to hold entire codebases, lengt
 
 Sonnet 4.6 developed an interesting new strategy: it invested heavily in capacity for the first ten simulated months, spending significantly more than its competitors, and then pivoted sharply to focus on profitability in the final stretch. The timing of this pivot helped it finish well ahead of the competition.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8c2855afe51fc0980596b5369b01b0b87eea7eaf-3840x2160.png&w=3840&q=75)
+![](https://assets.claude.com/3db554792042e5a59394d0c4812d9971a4ff054a.png?w=3840&q=75&fm=webp&fit=max)
 
 Sonnet 4.6 outperforms Sonnet 4.5 on Vending-Bench Arena by investing in capacity early, then pivoting to profitability in the final stretch.
 
 Early customers also reported broad improvements, with frontend code and financial analysis standing out. Customers independently described visual outputs from Sonnet 4.6 as notably more polished, with better layouts, animations, and design sensibility than those from previous models. Customers also needed fewer rounds of iteration to reach production-quality results.
 
-![Databricks logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/4661a860c6f9018830d5f95679bbae5c2359109b-170x64.svg)
+![Databricks logo](https://assets.claude.com/39d23261e94bc8d68b03d50ac4392d918cc01357.svg)
 
 > “Claude Sonnet 4.6 matches Opus 4.6 performance on OfficeQA, which measures how well a model can read enterprise documents (charts, PDFs, tables), pull the right facts, and reason from those facts. It’s a meaningful upgrade for document comprehension workloads.”
 
@@ -84,7 +84,7 @@ Hanlin Tang
 
 CTO of Neural Networks, Databricks
 
-![Replit logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/0504471eb7da85317c6def349d315e2f8be00b0f-127x64.svg)
+![Replit logo](https://assets.claude.com/c9720e7571a7ad3432d77454dd5d7024b6299df0.svg)
 
 > “The performance-to-cost ratio of Claude Sonnet 4.6 is extraordinary—it’s hard to overstate how fast Claude models have been evolving in recent months. Sonnet 4.6 outperforms on our orchestration evals, handles our most complex agentic workloads, and keeps improving the higher you push the effort settings.”
 
@@ -92,7 +92,7 @@ Michele Catasta
 
 President, Replit
 
-![Cursor logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/f084c88e65466636019709c40cc477aadce2f718-151x64.svg)
+![Cursor logo](https://assets.claude.com/62424b5d85da8dcda763e6658130ada284c72ca4.svg)
 
 > “Claude Sonnet 4.6 is a notable improvement over Sonnet 4.5 across the board, including long-horizon tasks and more difficult problems.”
 
@@ -100,7 +100,7 @@ Michael Truell
 
 Co-founder and CEO, Cursor
 
-![GitHub logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/fc55f4db8afa5db479127fde5be3e492940f513d-94x64.svg)
+![GitHub logo](https://assets.claude.com/a8b374be6b1bb1e4331861b6ef4ffb4f860e266b.svg)
 
 > “Out of the gate, Claude Sonnet 4.6 is already excelling at complex code fixes, especially when searching across large codebases is essential. For teams running agentic coding at scale, we’re seeing strong resolution rates and the kind of consistency developers need.”
 
@@ -108,7 +108,7 @@ Joe Binder
 
 VP of Product, GitHub
 
-![Cognition logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/ad249bca4e8e195e08764efc43ecbc586ca37482-143x64.svg)
+![Cognition logo](https://assets.claude.com/cd06ed7f01af497d255eaf697fba661756302d9f.svg)
 
 > “Claude Sonnet 4.6 has meaningfully closed the gap with Opus on bug detection, letting us run more reviewers in parallel, catch a wider variety of bugs, and do it all without increasing cost.”
 
@@ -116,7 +116,7 @@ Scott Wu
 
 CEO, Cognition
 
-![Windsurf logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/31f81aea37256a9c1600e17eb8916ac158443073-145x64.svg)
+![Windsurf logo](https://assets.claude.com/8af2d4a37b63b97252501fecb235fe3b55a1efad.svg)
 
 > “For the first time, Sonnet brings frontier-level reasoning in a smaller and more cost-effective form factor. It provides a viable alternative if you are a heavy Opus user.”
 
@@ -124,7 +124,7 @@ Jeff Wang
 
 CEO, Windsurf
 
-![Hebbia logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/ac77c59a0734811a829fab67d7ee8e801e45c50c-136x64.svg)
+![Hebbia logo](https://assets.claude.com/825c1e9fefa621884ec74589450b79750824230d.svg)
 
 > “Claude Sonnet 4.6 meaningfully improves the answer retrieval behind our core product—we saw a significant jump in answer match rate compared to Sonnet 4.5 in our Financial Services Benchmark, with better recall on the specific workflows our customers depend on.”
 
@@ -132,7 +132,7 @@ Aabhas Sharma
 
 CTO, Hebbia
 
-![Box logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/49b99af78924f43f878d39a25d574da293c68596-60x32.svg)
+![Box logo](https://assets.claude.com/6be37f83645dcfc480d4735c8855c229cb559914.svg)
 
 > “Box evaluated how Claude Sonnet 4.6 performs when tested on deep reasoning and complex agentic tasks across real enterprise documents. It demonstrated significant improvements, outperforming Claude Sonnet 4.5 in heavy reasoning Q&A by 15 percentage points.”
 
@@ -140,7 +140,7 @@ Ben Kus
 
 CTO, Box
 
-![Pace logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/ec6a42c89c7dc05949f15091fda3c953d5ac7632-118x36.svg)
+![Pace logo](https://assets.claude.com/c78a52e33627cd65139ca71330c5719b56950d72.svg)
 
 > “Claude Sonnet 4.6 hit 94% on our insurance benchmark, making it the highest-performing model we’ve tested for computer use. This kind of accuracy is mission-critical to workflows like submission intake and first notice of loss.”
 
@@ -148,7 +148,7 @@ Jamie Cuffe
 
 CEO, Pace
 
-![Bolt logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/b6ba30deda95060f1a9ff19cf03b184d36529a2a-92x64.svg)
+![Bolt logo](https://assets.claude.com/6db3c2e91569a384a9539928848af07aee415762.svg)
 
 > “Claude Sonnet 4.6 delivers frontier-level results on complex app builds and bug-fixing. It’s becoming our go-to for the kind of deep codebase work that used to require more expensive models.”
 
@@ -156,7 +156,7 @@ Eric Simons
 
 CEO, Bolt
 
-![Rakuten logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/73b380711885c6beb5270575119dbf31d7f71236-107x64.svg)
+![Rakuten logo](https://assets.claude.com/c85b6c1fcbc7a53bf76894928b32d83c5564c4b3.svg)
 
 > “Claude Sonnet 4.6 produced the best iOS code we’ve tested for Rakuten AI. Better spec compliance, better architecture, and it reached for modern tooling we didn’t ask for, all in one shot. The results genuinely surprised us.
 > ”
@@ -165,7 +165,7 @@ Yusuke Kaji
 
 General Manager, AI, Rakuten
 
-![Zapier logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/f343481e6a953bc7b5390e6d9f61cf387c2ceb11-103x64.svg)
+![Zapier logo](https://assets.claude.com/5cef4ebbe7514e68cd37f99fc7683e5af3bd1529.svg)
 
 > “Sonnet 4.6 is a significant leap forward on reasoning through difficult tasks. We find it especially strong on branched and multi-step tasks like contract routing, conditional template selection, and CRM coordination—exactly where our customers need strong model sense and reliability.”
 
@@ -173,7 +173,7 @@ Wade Foster
 
 Co-founder and CEO, Zapier
 
-![Convey logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/b59ed46312c5dc6d29e8fc232abcd1a16f3331dc-145x30.svg)
+![Convey logo](https://assets.claude.com/863d7136c627c28cf6a58fd19d03868713f36ef7.svg)
 
 > “We’ve been impressed by how accurately Claude Sonnet 4.6 handles complex computer use. It’s a clear improvement over anything else we’ve tested in our evals.”
 
@@ -181,7 +181,7 @@ Will Harvey
 
 Co-founder, Convey
 
-![Triple Whale logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/cc80b0a6f9534a34252756b93dd5a9bc26dd58f1-222x64.svg)
+![Triple Whale logo](https://assets.claude.com/c3a4b3d467e3ce4ed6b7efb58e4e7f2347a7bb1e.svg)
 
 > “Claude Sonnet 4.6 has perfect design taste when building frontend pages and data reports, and it requires far less hand-holding to get there than anything we’ve tested before.”
 
@@ -189,7 +189,7 @@ AJ Orbach
 
 Co-founder, Triple Whale
 
-![Harvey logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/6dfc3bd55cc5f9d5ebdd8d5437505ae4b8560412-120x64.svg)
+![Harvey logo](https://assets.claude.com/9a94425c942863c5edf1c038587fa7ca15248827.svg)
 
 > “Claude Sonnet 4.6 was exceptionally responsive to direction — delivering precise figures and structured comparisons when asked, while also generating genuinely useful ideas on trial strategy and exhibit preparation.”
 

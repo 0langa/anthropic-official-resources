@@ -1,6 +1,6 @@
 # **Securing America's compute advantage:**Anthropic’s position on the diffusion rule
 
-[Read the submission here](https://www-cdn.anthropic.com/7449887b6715e3a35f362b1301e5b5d8a6b116e5.pdf)
+[Read the submission here](https://assets.claude.com/7449887b6715e3a35f362b1301e5b5d8a6b116e5.pdf)
 
 Published
 :   Apr 30, 2025
@@ -27,7 +27,7 @@ Related articles
 
 [View more](https://www.anthropic.com/search?topic=democratic-lead)
 
-In response to the Department of Commerce's "Framework for Artificial Intelligence Diffusion" interim final rule, Anthropic has [submitted detailed analysis and recommendations](https://www-cdn.anthropic.com/7449887b6715e3a35f362b1301e5b5d8a6b116e5.pdf) for maintaining and strengthening export controls on advanced semiconductors. At the heart of our recommendations is a clear message: maintaining America's compute advantage through export controls is essential for national security and economic prosperity as powerful new AI systems are developed in the coming years.
+In response to the Department of Commerce's "Framework for Artificial Intelligence Diffusion" interim final rule, Anthropic has [submitted detailed analysis and recommendations](https://assets.claude.com/7449887b6715e3a35f362b1301e5b5d8a6b116e5.pdf) for maintaining and strengthening export controls on advanced semiconductors. At the heart of our recommendations is a clear message: maintaining America's compute advantage through export controls is essential for national security and economic prosperity as powerful new AI systems are developed in the coming years.
 
 The "Diffusion Rule," published in January 2025, establishes export controls on advanced AI chips and model weights worldwide. The Diffusion Framework also creates a three-tier system based on national security risk. Tier 1 includes close allies with few restrictions, Tier 2 includes most other countries with some limits, and Tier 3 includes adversarial nations with strict controls.
 

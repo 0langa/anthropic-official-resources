@@ -16,25 +16,25 @@ When building MCP servers, you need a way to test your functionality without con
 
 ## Starting the Inspector[](https://academy.claude.com/courses/introduction-to-model-context-protocol/the-server-inspector)
 
-First, make sure your Python environment is activated (check your project's README for the exact command). Then run the inspector with:
+First, make sure your Python environment is activated (check your project's README for the exact command). The inspector also needs Node.js 22.19 or later. Then run the inspector with:
 
 `mcp dev mcp_server.py`
 
-This starts a development server and gives you a local URL, typically something like `http://127.0.0.1:6274`. Open this URL in your browser to access the MCP Inspector.
+This starts the MCP Inspector and prints a local URL that starts with `http://127.0.0.1:6274`. If it doesn't open on its own, copy the full URL into your browser.
 
 ## Using the Inspector Interface[](https://academy.claude.com/courses/introduction-to-model-context-protocol/the-server-inspector)
 
-The inspector interface is actively being developed, so it may look different when you use it. However, the core functionality remains consistent. Look for these key elements:
+These steps follow version 2 of the inspector. The video and the picture below show version 1, which looks different. Look for these key elements:
 
-- A **Connect** button to start your MCP server
-- Navigation tabs for **Resources**, **Tools**, **Prompts**, and other features
+- A switch on your server's card, which connects to the server
+- Tabs for **Tools**, **Prompts**, and **Resources**, which appear once you're connected
 - A tools listing and testing panel
 
-Click the Connect button first to initialize your server. You'll see the connection status change from "Disconnected" to "Connected".
+Turn on the switch first to start your server. You'll see its status change from "Disconnected" to "Connected".
 
 ## Testing Your Tools[](https://academy.claude.com/courses/introduction-to-model-context-protocol/the-server-inspector)
 
-Navigate to the Tools section and click "List Tools" to see all available tools from your server. When you select a tool, the right panel shows its details and input fields.
+Open the **Tools** tab to see all available tools from your server. When you select a tool, you see its details and input fields.
 
 ![MCP Inspector with the Tools tab open, showing the read_doc_contents and edit_document tools listed and the read_doc_contents panel with a doc_id input field and Run Tool button](https://academy.claude.com/assets/media/cb9b3c821130bee229aefb94456017fd04d46e53b1d24a91aef58a83d49b31a4.png)
 
@@ -42,7 +42,7 @@ For example, to test a document reading tool:
 
 1. Select the `read_doc_contents` tool
 2. Enter a document ID (like "deposition.md")
-3. Click "Run Tool"
+3. Click **Execute Tool**
 4. Check the results for success and expected output
 
 The inspector shows both the success status and the actual returned data, making it easy to verify your tool works correctly.

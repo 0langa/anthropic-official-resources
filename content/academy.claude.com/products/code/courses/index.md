@@ -22,7 +22,7 @@ Build MCP servers and clients from scratch with the Python SDK, covering the thr
 
 ·10 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduction-to-model-context-protocol)[## Introduction to subagents
 
-Decompose complex tasks across parallel Claude subagents and orchestrate them deterministically.
+Delegate tasks to Claude Code subagents that work in their own context windows and return focused summaries.
 
 ·4 lessons·45 min](https://academy.claude.com/courses/introduction-to-subagents)[## Model Context Protocol: Advanced topics
 

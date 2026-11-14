@@ -120,7 +120,7 @@ As you discover how you like your content formatted and which channels for sourc
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/create-a-company-newsletter)
 
-Connect your company tools and get a readable digest, turning minutes of curated reading instead of hours catching up across channels and platforms.
+Connect your company tools and get a readable digest, so you spend minutes on curated reading instead of hours catching up across channels and platforms.
 
 Create a weekly digest for Oct 14-20 for my company.
 

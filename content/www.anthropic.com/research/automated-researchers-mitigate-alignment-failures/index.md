@@ -68,7 +68,7 @@ For the most part, the agents converged on methods favored in the research liter
 
 ### Monitoring cheating behaviors
 
-We [recently learned](https://alignment.anthropic.com/2026/automated-w2s-researcher/) that Claude can cheat by exfiltrating test labels from a remote API and cherry-picking results. To catch cheating behaviors, we prompted Claude Opus 4.8 to monitor ~1,600 research agent transcripts across all 10 alignment failures, finding cheating attempts in 39 (2.4%). Since Opus 4.8’s [misbehavior attempts still tend to appear in its reasoning](https://www-cdn.anthropic.com/0b4915911bb0d19eca5b5ee635c80fef830a37ea.pdf), we are cautiously optimistic that our monitor has caught most of the cheating in our study. However, this might not be true for future models, and we believe that maintaining high monitorability in future models is critical.
+We [recently learned](https://alignment.anthropic.com/2026/automated-w2s-researcher/) that Claude can cheat by exfiltrating test labels from a remote API and cherry-picking results. To catch cheating behaviors, we prompted Claude Opus 4.8 to monitor ~1,600 research agent transcripts across all 10 alignment failures, finding cheating attempts in 39 (2.4%). Since Opus 4.8’s [misbehavior attempts still tend to appear in its reasoning](https://assets.claude.com/0b4915911bb0d19eca5b5ee635c80fef830a37ea.pdf), we are cautiously optimistic that our monitor has caught most of the cheating in our study. However, this might not be true for future models, and we believe that maintaining high monitorability in future models is critical.
 
 ### Are we measuring the right things?
 
@@ -76,6 +76,6 @@ Despite these encouraging findings, our experiment had several limitations: the 
 
 We plan to continue improving Claude’s ability to measure subtle failures, further study automating alignment post-training on production-grade models, and run more comprehensive analyses. Overall, we view these results as early positive signals that automated alignment post-training could become practical in the near term, and we will share updates as this work progresses.
 
-We outline detailed future directions in our [full report](https://www-cdn.anthropic.com/7b1c44894e980876479947dcdd40716278aeeffd/automated-alignment-researchers-august-2026.pdf).
+We outline detailed future directions in our [full report](https://assets.claude.com/7b1c44894e980876479947dcdd40716278aeeffd.pdf).
 
 *We open-source our automated alignment research harness so that others can build on it and use it to align their own models. For additional details, read the full report on the [Alignment Science blog](https://alignment.anthropic.com/2026/automated-alignment-researchers/), which covers the agents’ environment, results for all 10 failures, and the agents’ proposals, with benchmark validation and example write-ups in the appendix.*

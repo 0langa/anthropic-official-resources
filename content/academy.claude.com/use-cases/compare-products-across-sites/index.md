@@ -1,6 +1,6 @@
 # Compare products across sites
 
-Claude in Chrome reads the specs from multiple product pages you have open, normalizes the data, and creates a comparison table in Google Sheets. You stop tab-switching and start deciding.
+Claude in Chrome reads the specs from multiple product pages you have open, normalizes the data, and creates a comparison table in a Google Doc. You stop tab-switching and start deciding.
 
 15 minPersonalClaude in Chrome
 
@@ -24,13 +24,13 @@ I care most about: processor, RAM, storage, screen size, battery life, and weigh
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/compare-products-across-sites)
 
-Claude reads directly from the product pages you have open—switching between tabs to extract the specs, then creating a spreadsheet with everything normalized into consistent columns.
+Claude reads directly from the product pages you have open—switching between tabs to extract the specs, then creating a comparison table with everything normalized into consistent columns.
 
 ### Required context[](https://academy.claude.com/use-cases/compare-products-across-sites)
 
 Tell Claude which products you're wanting to compare or open the product pages in separate browser tabs. Log into Google Docs so Claude can draft the comparison there. Claude navigates between tabs on its own—you just need everything accessible in your browser.
 
-If you're comparing several products, consider telling Claude which specs matter most upfront. Otherwise it will pull everything it finds, which can make the spreadsheet wider than you need.
+If you're comparing several products, consider telling Claude which specs matter most upfront. Otherwise it will pull everything it finds, which can make the table wider than you need.
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/compare-products-across-sites)
 
@@ -38,7 +38,7 @@ Claude analyzes and extracts information from across tabs, drafting a comparison
 
 **4 Laptops Compared**
 
-**Spreadsheet created**
+**Comparison doc created**
 
 I found these products across your open tabs:
 
@@ -107,13 +107,13 @@ Weight
 - The Intel laptops have upgradeable RAM (user-accessible slots); the MacBook's 18GB is soldered and fixed
 - The ThinkPad keyboard is consistently rated best-in-class if you type a lot—worth considering beyond just specs
 
-I've created the comparison in Google Sheets with conditional formatting highlighting the winner in each row.
+I've created the comparison in a Google Doc with the winner in each row highlighted.
 
 **Bottom Line**
 
 The MacBook wins the most categories (processor, RAM, battery) but costs $350–600 more than the others.
 
-- If portability is your priority: The ThinkPad is the clear choice—it's nearly 2 lbs lighter and $350 less than the MacBook.
+- If portability is your priority: The ThinkPad is the clear choice—it's nearly 1 lb lighter and $350 less than the MacBook.
 - If you want the best performance and battery regardless of price: The MacBook is hard to beat.
 
 I can also pull real-world battery tests from reviews if you want—manufacturer claims are often optimistic.
@@ -158,7 +158,7 @@ If you research products regularly, save your workflow as a shortcut by clicking
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/compare-products-across-sites)
 
-[Claude in Chrome(opens in new tab)](https://claude.com/chrome) is available to all paid plan subscribers. Install the extension, describe or open a few product pages you're comparing, and ask Claude to build your spreadsheet.
+[Claude in Chrome(opens in new tab)](https://claude.com/chrome) is available to all paid plan subscribers. Install the extension, describe or open a few product pages you're comparing, and ask Claude to build your comparison.
 
 I'm trying to decide between a few laptops and I have the product pages open in different tabs. Can you look at each one, pull out the specs, and put them in a Google Doc so I can compare them side by side?
 

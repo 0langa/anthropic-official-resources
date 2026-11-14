@@ -91,10 +91,10 @@ You can test resources using the MCP Inspector. Start your server with:
 
 `uv run mcp dev mcp_server.py`
 
-Then connect to the inspector in your browser. You'll see two sections:
+Then connect to your server in the inspector and open the **Resources** tab. You'll see two sections:
 
-- **Resources** - Lists your direct/static resources
-- **Resource Templates** - Lists your templated resources
+- **URIs** - Lists your direct/static resources
+- **Templates** - Lists your templated resources
 
 ![MCP Inspector with the Resources tab open, showing the docs://documents direct resource under Resources, the fetch_doc template under Resource Templates, and the JSON response for docs://documents with its URI, mimeType, and serialized list of document names](https://academy.claude.com/assets/media/aaba6fbd4b955f7b77e8a806c6ac6bc7c7b6a7406c9094b4bdddc93f146e8dcb.png)
 

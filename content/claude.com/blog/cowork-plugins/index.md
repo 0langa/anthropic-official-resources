@@ -30,7 +30,7 @@ To get you started, we're open-sourcing 11 plugins built and used by our own tea
 - **Enterprise search** — Find information across your company's tools and docs
 - **Plugin Create/Customize** — Create and customize new plugins from scratch
 - **Sales** — Research prospects, prep deals, and follow your sales process
-- **Finance** — Analyze financials, build models, and track key metrics
+- [**Finance**](https://claude.com/resources/articles/cowork-plugins-finance) — Analyze financials, build models, and track key metrics
 - **Data** — Query, visualize, and interpret datasets
 - **Legal** — Review documents, flag risks, and track compliance
 - **Marketing** — Draft content, plan campaigns, and manage launches
@@ -38,13 +38,13 @@ To get you started, we're open-sourcing 11 plugins built and used by our own tea
 - **Product management** — Write specs, prioritize roadmaps, and track progress
 - **Biology research** — Search literature, analyze results, and plan experiments
 
-Easily install these directly from Cowork, browse the full collection on our [website](https://claude.com/plugins-for/cowork), or upload your own plugin (which can be built using Plugin Create). They're also available on [GitHub](https://github.com/anthropics/knowledge-work-plugins) for developers. Every component of plugins (skills, connectors, slash commands, and sub-agents) is file-based, so plugins are easy to build, edit, and share. Try customizing each plugin using Claude to make it just right for you and your team.
+Easily install these directly from Cowork, browse the full collection on our [website](https://claude.com/plugins), or upload your own plugin (which can be built using Plugin Create). They're also available on [GitHub](https://github.com/anthropics/knowledge-work-plugins) for developers. Every component of plugins (skills, connectors, slash commands, and sub-agents) is file-based, so plugins are easy to build, edit, and share. Try customizing each plugin using Claude to make it just right for you and your team.
 
 ## Getting started
 
 Plugin support in Cowork is available today as a research preview for all paid Claude users. Start with our open-source collection, customize them, or build something entirely new.
 
-Plugins are currently saved locally to your machine. Better support for org-wide sharing and management (support for private plugin marketplaces, etc.) are coming in the weeks ahead.
+Plugins are currently saved locally to your machine. Better support for org-wide sharing and management (support for private plugin marketplaces, etc.) is coming in the weeks ahead.
 
 ‍
 
@@ -52,31 +52,29 @@ Plugins are currently saved locally to your machine. Better support for org-wide
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 10, 2026
+[ArticleNov 13, 2026
 
-### Your apps can now open in Claude, and Claude can work in them
+### Building always-on agents
 
-Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
+Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
 
-Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)[ArticleNov 10, 2026
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
 
-### How Curative is building a national provider network with agents on Claude
+### The Claude Tag guide for startups
 
-Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
+How leading startups use Claude Tag to ship faster and scale operations
 
-Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 10, 2026
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 12, 2026
 
-### More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
+### Operate Claude Managed Agents inside your security perimeter
 
-Work at the speed of thought
+Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
 
-Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)[ArticleNov 10, 2026
+Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)[ArticleNov 12, 2026
 
-### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
+### Introducing Claude for Manufacturing
 
-Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
-
-Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)
+A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)
 
 ## Transform how your organization operates with Claude
 

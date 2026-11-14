@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fcontrolling-model-output)
 
+
+
+This lesson works with Claude Haiku 4.5, the model this course uses. Claude 4.6 and later models return an error when a request ends with a prefilled assistant message. On those models, steer Claude with your prompt or a system prompt, and use [structured outputs(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/structured-outputs) to get JSON.
+
 Embedded media: https://www.youtube-nocookie.com/embed/pgOedJTCow4?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=pgOedJTCow4)
@@ -53,7 +57,28 @@ Stop sequences force Claude to end its response as soon as it generates a specif
 
 The concept is straightforward: you provide a list of strings, and when Claude generates any of those strings, it immediately stops and returns whatever it has generated up to that point.
 
-For example, if you ask Claude to "Count from 1 to 10" with a stop sequence of "5", you'll get:
+To use stop sequences, let your `chat` function take a list of them:
+
+python
+
+```
+def chat(messages, system=None, temperature=1.0, stop_sequences=[]):
+    params = {
+        "model": model,
+        "max_tokens": 1000,
+        "messages": messages,
+        "temperature": temperature
+    }
+    if system:
+        params["system"] = system
+    if stop_sequences:
+        params["stop_sequences"] = stop_sequences
+
+    message = client.messages.create(**params)
+    return message.content[0].text
+```
+
+For example, ask Claude to "Count from 1 to 10" with a stop sequence of "5":
 
 python
 

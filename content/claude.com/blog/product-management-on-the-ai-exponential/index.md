@@ -1,147 +1,82 @@
-# Product management on the AI exponential
+# Product development in the agentic era
 
-Claude Code’s Head of Product Cat Wu shares how product management teams are adapting their workflows and roadmaps in the face of rapidly evolving model intelligence.
+Jess Yan, Claude Managed Agents product manager, shares how she uses the product to unblock herself and free up time to hone her craft.
 
-- Category[Perspectives](https://claude.com/resources/perspectives)
-- ProductClaude Code
-- AuthorCat Wu
-- DateMarch 19, 2026
-- Reading time11 min
+- Category[Best practices](https://claude.com/resources/best-practices), [Perspectives](https://claude.com/resources/perspectives)
+- ProductClaude Platform
+- DateApril 29, 2026
+- Reading time6 min
 - ShareCopy link
 
-Since [Claude Sonnet 3.5 (new)](https://www.anthropic.com/news/3-5-models-and-computer-use) in October 2024, I made a habit of testing every new model by asking Claude Code (an internal tool at the time) to add a table tool to Excalidraw. With each new model, Claude got a little further but still failed.
+One of the ironies of being a product manager in the age of AI is that my work feels more human than ever.
 
-Then, with the release of [Opus 4](https://www.anthropic.com/news/claude-4) in June 2025, Claude started occasionally succeeding, enough that we turned the exercise into a [pre-recorded demo](https://www.youtube.com/live/EvtPBaaykdo?t=3478s) for the Claude 4 model launch to show what had become possible with our latest model.
+The job of product management has always been a mix of craft and alignment. For most of my career, my week was occupied by the latter: meetings with cross-functional stakeholders and teammates, status reports, and ticket backlogs with my engineering team. I got used to making instinctive, quick decisions followed by uphill battles advocating, convincing, and resourcing; shipping impactful products often felt more transactional than generative.
 
-Less than a year later, [Opus 4.6](https://www.anthropic.com/news/claude-opus-4-6) can one-shot Excalidraw feature requests reliably enough that we feel comfortable doing it live, in front of thousands of professional developers.
+With Claude, I can pressure test ideas, automate workflows, and get unstuck. I'm finally spending real time with our users and my team on the part of the job that always mattered most: the craft. While these new workflows changed my day-to-day, the most meaningful shifts happened when we started developing [Claude Managed Agents](https://claude.com/resources/articles/claude-managed-agents) (currently in beta), a suite of composable APIs for building and deploying cloud-hosted agents at scale.
 
-The speed of model progress keeps expanding what's possible. The traditional product management playbook is built on the assumption that what's technologically possible at the start of a project is roughly what's possible at the end. PMs would gather enough information upfront to make confident bets about the future, then execute against a plan over the course of months.
+In this post, I'll share how Managed Agents has changed the way I work as a product manager, and a few patterns you can borrow for your own workflows.
 
-Exponentially improving models break that assumption. The constraints you designed around might disappear mid-project. You're building on ground that's rising underneath you, and teams need to reorganize around that reality. The new AI product management rhythm is rapid experimentation, consistent shipping, and doubling down on what works.
+## **Product development, then and now**
 
-Not surprisingly, one of the most common questions I get as a product manager at Anthropic is how our role is changing. Here's what I've learned.
+API design used to live in documents and comment threads; on the AI exponential, we build with what we ship. A spec that reads elegantly in a doc can fall apart the first time you try to build against it. With Claude Code, I can sketch out an agent against pre-production versions of our API specs, and within an afternoon be running a real prototype end-to-end.
 
-## My journey to product management with Claude Code
+We reshaped API abstractions and Claude Console UX several times based on what we learned building with our own primitives–changes that even a multi-week doc review would never have surfaced, and otherwise would've come up too late via user feedback. We still litigate shapes and run raw curl requests to make sure we're happy with the bare-metal experience, but Claude Code gets me from the basic "hello world" test to a functional agent in the same sitting. As I build these agents, I'm able to more concretely anticipate ways our harness and API can flex for the next wave of model and task evolution.
 
-I started my career as a product engineer at startups like Scale AI and Dagster, and then became a venture capitalist, a role in which I still wrote code to automate the tedious parts of my job, like scanning X for the announcement of new companies or detecting when open source projects were gaining momentum.
+Initially, these prototypes were just for shaping the product, but they now are evolving my day-to-day work as well. My workflow as a PM now splits cleanly across our products. I use **Claude** and **Claude Cowork** for open-ended research and discovery–the murky, early-stage exploration where I want an ongoing conversation. Once I have greater clarity on the job to be done, I use **Claude Code** to write and ship a custom agent for it, built atop of **Managed Agents**.
 
-I joined Anthropic in August 2024 as a product manager on the Research PM team, which bridges our research team and real-world customers to deliver better models. When Claude Code became available internally that fall, I used it to accelerate the more manual parts of my job, including building Streamlit apps to analyze large-scale user feedback and running evals to help the company find new benchmarks to trust. The low barrier to building also meant I could explore well beyond my usual role, like creating RL environments to better understand training.
+The two-pronged payoff has been the biggest unlock. On one side, being able to build against my own product easily raises the ceiling on what I can imagine shipping next. On the other, once the product is live, the same development muscle lets me automate the long tail of operational work that used to stall in my backlog.
 
-These projects took hundreds of hours of prompting Claude Code powered by Sonnet 3.5 (new), but not a single line of code written by hand.
+## **Managed Agents use cases for product managers**
 
-## Designing a new product management workflow
+Embedded media: https://www.youtube-nocookie.com/embed/NLWiIj47IdI?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
-![](https://assets.claude.com/2eb62c76e42ed4b27ca8f25dc57b7612a6294500.png)
+Now I spin up bespoke agents for any "job to be done." Building one is simple: I load the Managed Agents skill in Claude Code and outline a quick sketch of what I'm looking for. Developers can also use the latest version of Claude Code and built-in `claude-api skill` to build with Managed Agents–just prompt Claude with “*start onboarding for managed agents in Claude API*” to get started. After invoking this skill, Claude builds the agent, explaining its integration steps along the way, so I can easily shift direction as needed.
 
-Tools like Claude Code and Cowork are blurring the lines between distinct roles in the product development life cycle.
+Examples of these agents include:
 
-Claude Code isn’t the only tool powering my workflow. Over time, I've settled into a natural division of labor across three products: a chat collaborator ([Claude.ai](http://claude.ai/)), agentic coding tool (Claude Code), and a knowledge work tool ([Cowork](https://claude.com/resources/webinars/future-of-ai-at-work-introducing-cowork)).
+- **Adoption analytics.** An agent with persistent access to our internal databases and skills for understanding our data schemas runs queries to surface interesting outliers and patterns. With [memory](https://claude.com/resources/articles/claude-managed-agents-memory) of prior runs, it can build on prior findings and continuously advance its perspective.
+- **Developer sentiment monitoring.** An agent with the pre-built [web search tool](https://platform.claude.com/docs/en/managed-agents/tools) and guidance on focus areas scans a specific list of domains for the latest developer feedback, reporting back on common themes. Since there is so much content to analyze, it fans out research to [multiple agents](https://platform.claude.com/docs/en/managed-agents/multi-agent) in parallel, waits for results, and synthesizes findings.
+- **Demo building.** An agent with access to demo GitHub repos, branding assets, and an event deck turns prebuilt templates into a polished demo tailored to the relevant audience, such as a conference or customer meeting.
 
-**Claude.ai** is where I talk to Claude as a thought partner without needing it to take action. I bounce ideas for strategy docs, how to handle tricky situations, and get quick answers.
+Managed Agents sessions run in the cloud, so I can walk away and come back to find the work done. Processes that could never scale because every launch has its own quirks are now easy to automate using Managed Agents, and every agent run feels energizing instead of tedious.
 
-**Claude Code** is where I build prototypes, evals, and scripts, many of which call Claude API. I use this when the output is code.
+## **Freeing up space to hone my craft**
 
-**Cowork** is where I do everything else, from getting to inbox zero, tracking and acting on a todo list, creating slide decks, understanding the history of a decision by searching Slack, and booking my work travel.
+A year ago, all of this kind of work would've crawled along in cross-functional staffing requests, chaotic spreadsheets, or half-baked concepts I just never got to try out. Now, with Claude and Managed Agents, I can scale myself, using my time to partner with my team on developing the most impactful products. My day now spans generating innovative ideas with customers, digging into murky and ambiguous problems with my engineering counterparts, and investing real creative energy in frontier product work.
 
-I’ve talked with product managers across the industry who've found their own versions of this workflow:
+If you're a product manager and you haven't built an agent yet, that's where I'd start this week. The experiments and tools you've always wished existed are a single prompt and a few API calls away.
 
-> ““Claude has raised the ceiling on what good product teams can build, and dramatically shortened the distance between idea and prototype. Getting something tangible in front of customers used to take weeks of building. Now I'll start in Claude Cowork, pulling in context from Slack, our codebase, and docs, then move into Claude Code to have something demo-able in a couple of hours. Good product teams have always tested their ideas with real customers, and that instinct hasn't changed. What has is how many more high-quality ideas we can actually put through the loop.” - Bihan Jiang, Director of Product, Decagon”
-
-> ““To me, being a PM in an AI-native world is both creative and academic. Each new model release changes what’s possible, and in building Datadog’s Bits AI SRE agent we study its strengths and failure modes through offline evaluation on real-world production incidents. We also design tight feedback loops, refining the UX to surface where the agent struggles and turning those insights into product improvements. In that sense, a PM’s craft has shifted from defining certainty upfront to accelerating discovery.” - Kai Xin Tai, Senior Product Manager, Datadog”
-
-One of the most exciting parts of being a product manager today is that these workflows are constantly evolving and giving us more leverage.
-
-## Leaning into the AI exponential
-
-![](https://assets.claude.com/f869c186fa92de1125180eabb1e4e5332f0feb44.png)
-
-METR. (2026, March). Task-Completion Time Horizons of Frontier AI Models. https://metr.org/time-horizons/
-
-METR [finds](https://metr.org/time-horizons/) that, about half the time, Opus 4.6 can complete software tasks which take humans almost 12 hours. When we first started building Claude Code, Sonnet 3.5 (new) was the frontier model and METR measured that it could do tasks that would take a human around 21 minutes. That's a roughly 41x jump in 16 months.
-
-The Claude Code team has evolved to keep pace with how quickly models improve. Our roles are blending together: designers ship code, engineers make product decisions, product managers build prototypes and evals. This works because clear strategy and goals let everyone prioritize autonomously. The product manager’s job is to create clarity in the ambiguity that rapid model progress creates, push the team to think bigger about what’s possible, and clear the path to shipping faster.
-
-Here are four shifts we’ve embraced:
-
-**Plan in short sprints**
-
-Traditional product manager thinking treats exploration as something that happens before the roadmap gets locked. You do your research, you write the PRD, and you hand it off for the engineering team to build.
-
-Instead of a long-term roadmap, we encourage everyone on the team (engineers, product managers, designers) to take on side quests. A side quest is a short self-directed experiment you run outside your official roadmap—an afternoon spent prototyping an idea, testing a capability you assumed was out of reach, or just seeing what happens when you push the model harder than you expect to.
-
-Some of Anthropic’s most popular features—[Claude Code on Desktop](https://claude.com/product/claude-code), the [AskUserQuestion tool](https://platform.claude.com/docs/en/agent-sdk/user-input), and [todo lists](https://platform.claude.com/docs/en/agent-sdk/todo-tracking)—emerged this way.
-
-**Encourage demos and evals over docs**
-
-Our team has largely replaced documentation-first thinking with prototype-first thinking. Instead of hosting traditional stand-ups, we share demos of new ideas. Internal users try them, and the ones with real engagement get polished and shared more broadly. Because you can prototype in an afternoon, wrong bets are cheap.
-
-For example, when Noah shared his [plugins](https://code.claude.com/docs/en/plugins) spec with Claude Code, the prototype that came back was close to production ready. That prototype anchored what the team ultimately shipped since it enabled the team to quickly validate the UX.
-
-Pro-tip: after you write a spec, send it to Claude Code and see if it can build it. Even a rough prototype changes the conversation.
-
-In addition to demos, evals can also help make an abstract product feel more concrete. For example, for [agent teams](https://code.claude.com/docs/en/agent-teams) which lets users coordinate multiple Claude Code instances working together, Conner hand-crafted a set of evals to understand when agent teams work well, when they don’t, and what to fix. Measuring whether the feature is working makes it easier to improve it.
-
-**Revisit features with new models**
-
-Now, you ship a feature, then a better model comes out and your feature could be dramatically better. Every model release is an implicit prompt to revisit what you've already built.
-
-The best way to catch these moments is to be a daily active user and deliberately ask it to do things you think might be too hard. Sometimes it works, and that’s a signal that the product needs to catch up.
-
-That’s how [Claude Code with Chrome](https://code.claude.com/docs/en/chrome) happened. We noticed users were building web apps with Claude Code and then manually switching to Claude in Chrome to test it. Users were manually prompting and copying and pasting instructions between these two tools. It worked well enough that we realized this should be a built-in feature. If users are hacking something together, that’s scaffolding you can build into the product.
-
-When prototyping these ideas, always optimize for capability first. Use more tokens than you think you need. It's a common mistake to cut token costs too early and ship something much less capable as a result. You can always bring costs down later as cheaper models catch up, but first you need to know whether the feature is even possible.
-
-**Do the simple thing**
-
-At Anthropic, we have a guiding principle across every team: do the simple thing that works.
-
-If your product cleverly works around a model limitation, that workaround becomes unnecessary complexity when the next model drops. That's why "do the simple thing" matters: the simpler your implementation, the easier it is to swap in new capabilities when they arrive.
-
-When we first launched todo lists in Claude Code, the model wouldn't reliably check off items as it completed them. So we added system reminders every few messages that would periodically nudge the agent to update its own todo list. It worked, but it was a hack. With the next model, the behavior came for free and we removed the reminders entirely. We've seen this pattern repeatedly: our system prompt and tool descriptions used to be heavily engineered to compensate for model limitations, and we've been able to cut the prompting with each model, including a 20% reduction for Opus 4.6.
-
-## Looking forward
-
-Embedded media: https://www.youtube-nocookie.com/embed/91AJ0cpgLlQ?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
-
-Many product managers are used to having tight control over the full product experience, but AI pushes you to let go in order to move quickly. That instinct for control is the first thing AI product management asks you to unlearn.
-
-When it comes to building AI products in particular, it feels like surfing a wave where the most important thing is to stay on it. As a perfectionist, this was the hardest shift for me to get comfortable with, but the product manager’s role is now to identify the handful of true non-negotiables and let the rest go.
-
-The net effect of these shifts is that product teams can move significantly faster. When a product manager can go from idea to working prototype in an afternoon, the gap between “what if we tried…” and “here, try this” nearly disappears.
-
-At Anthropic, product managers aren’t the only ones transforming their workflows with Claude. Our data science, [finance](https://claude.com/resources/webinars/claude-code-financial-services), marketing, [legal](https://www.youtube.com/watch?v=tJP6SKfo49c), and [design teams](https://www.youtube.com/watch?v=vLIDHi-1PVU) picked up these tools on their own. The whole organization moves at the same speed instead of waiting on handoffs.
-
-The PM role now is to track both things at once: how AI is changing the way you work, and how it's changing what's possible in your product. Do that well, and you stop being surprised when the table tool finally works. You're the one who saw it coming.
-
-*Start building better products with [Claude Code](https://claude.com/product/claude-code).*
-
-***Acknowledgments:** This article was written by Cat Wu, the Head of Product for Claude Code at Anthropic. You can find her on [X](https://x.com/_catwu) and [LinkedIn](https://www.linkedin.com/in/cat-wu/). She'd like to thank Bihan Jiang and Kai Xin Tai for their contributions to this piece.*
+*Learn more in [our docs](https://platform.claude.com/docs/en/managed-agents/overview).*
 
 ## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 22, 2026
+[ArticleNov 13, 2026
 
-### Building agents: When to fold subagents into your main agent loop
+### Building always-on agents
 
-When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
+Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
 
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)[ArticleOct 13, 2026
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
 
-### Uber's CISO on building an insider threat program for AI
+### The Claude Tag guide for startups
 
-Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.](https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai)[ArticleOct 8, 2026
+How leading startups use Claude Tag to ship faster and scale operations
 
-### How Block orchestrates Claude Fable across thousands of pull requests
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
 
-Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
+### How Curative is building a national provider network with agents on Claude
 
-Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)[ArticleOct 6, 2026
+Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
 
-### How Comcast and Booz Allen use Claude Mythos to find exploit chains and secure their codebases
+Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 9, 2026
 
-Security teams at Comcast and Booz Allen used Claude Mythos-class models through Project Glasswing to find, validate, and fix vulnerabilities their existing scanners missed.](https://claude.com/resources/articles/how-comcast-booz-allen-use-claude-mythos-to-secure-their-codebases)
+### Safely scaling multi-agent teams with Claude Fable 5.2
+
+How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
+
+(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
 
 ## Transform how your organization operates with Claude
 

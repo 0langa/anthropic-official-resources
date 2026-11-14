@@ -30,15 +30,19 @@ Millennium is using its internal AI lab to continue pushing the frontier, pressu
 
 "Claude can reason through risk positions, explain daily changes, and carry what it learned into the next question,” said Peter Nolan, Head of Asset and Wealth Management, at Anthropic. “Millennium’s risk managers will use frontier intelligence to deliver automated recommendations with the goal of saving valuable time.”
 
-**Learn more:**
-
 Learn more about [Claude for financial services](https://claude.com/solutions/financial-services), or [contact our team](https://claude.com/contact-sales) to talk about what Claude can do inside your firm.
 
 ## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 9, 2026
+[ArticleNov 12, 2026
+
+### J. Crew brings its signature approach to styling to life with Claude
+
+J.Crew's new Style Advisor uses Claude to offer a more personalized way to shop online, with complete looks instead of individual products.
+
+Claude Code](https://claude.com/resources/articles/j-crew-style-advisor-with-claude)[ArticleNov 9, 2026
 
 ### JPMorganChase expands Claude Code to more employees across the firm
 
@@ -52,13 +56,7 @@ Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://clau
 
 ### HCLTech joins the Claude Partner Network as a Global Premier partner
 
-HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)[ArticleSep 28, 2026
-
-### A new approach to agent security with Claude Managed Agents and NVIDIA
-
-Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
-
-Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)
+HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)
 
 ## Transform how your organization operates with Claude
 

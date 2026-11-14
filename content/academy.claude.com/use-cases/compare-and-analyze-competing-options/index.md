@@ -70,7 +70,7 @@ Continue the conversation with Claude to refine, expand, or explore further.
 
 ### Draft the decision memo from the analysis[](https://academy.claude.com/use-cases/compare-and-analyze-competing-options)
 
-Claude synthesizes the comparison data into a recommendation document you can share with your CFO or team. This saves you from manually writing up the analysis and ensures you're communicating the trade-offs clearly
+Claude synthesizes the comparison data into a recommendation document you can share with your CFO or team. This saves you from manually writing up the analysis and ensures you're communicating the trade-offs clearly.
 
 Write a memo recommending which vendor we should choose. Include the cost comparison, why this vendor fits our needs better than the alternatives, what we're giving up by not choosing the others, and what we need to negotiate before signing. Make it professionally formatted and include visual elements like tables or charts, if needed.
 
@@ -92,7 +92,7 @@ I'm meeting with each vendor this week. Based on what you found in the proposals
 
 Claude can find and extract important data from the vendor proposals to build financial models that project future costs as your business scales.
 
-At what team size does WorkForces flat rate become cheaper than TeamSync’s per-employee model? Show me the breakeven point and create a chart showing total cost as we scale from 20 to 50 employees.
+At what team size does WorkForce’s flat rate become cheaper than TeamSync’s per-employee model? Show me the breakeven point and create a chart showing total cost as we scale from 20 to 50 employees.
 
 
 

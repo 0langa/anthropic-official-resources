@@ -40,7 +40,7 @@ Asana, Canva, Cognition, DoorDash, Replit, and The Browser Company have already 
 
 The upgraded Claude 3.5 Sonnet is now available for all users. Starting today, developers can build with the computer use beta on the Anthropic API, Amazon Bedrock, and Google Cloud’s Vertex AI. The new Claude 3.5 Haiku will be released later this month.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0eb9a1b7d5db74a6d21500e9f188c83beef3842e-2601x1932.png&w=3840&q=75)
+![](https://assets.claude.com/92dbc427b4c3caa4c8fa5bb5875f86436c2cf096.png?w=3840&q=75&fm=webp&fit=max)
 
 ## Claude 3.5 Sonnet: Industry-leading software engineering skills
 

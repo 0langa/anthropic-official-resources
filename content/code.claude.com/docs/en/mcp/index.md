@@ -513,7 +513,9 @@ The result goes to Claude, not into the transcript, so ask Claude for it. If Cla
 
 #### Answer a question from an MCP task
 
-A running task can open an [elicitation dialog](#respond-to-mcp-elicitation-requests) to ask you for input. While `/tasks` is open, the dialog stays hidden, so close `/tasks` to answer. Declining or pressing `Esc` is an answer to the server, which then decides whether the task goes on.
+A running task can open an [elicitation dialog](#respond-to-mcp-elicitation-requests) to ask you for input. While `/tasks` is open, the dialog stays hidden, so close `/tasks` to answer. Declining is an answer to the server, which then decides whether the task goes on.
+
+Unless you've set Claude to [wait for the result](#make-claude-wait-for-the-result-of-an-mcp-task), press `Esc` in the dialog to answer later. To reopen the question, run `/tasks`, open the task's details, and press `Enter`. Answering later requires Claude Code v2.1.324 or later.
 
 In a [non-interactive](/docs/en/headless) session, Claude Code asks the server to cancel a task that requests input, without running your [`Elicitation` hooks](/docs/en/hooks#elicitation) or calling the Agent SDK's `onElicitation` callback.
 
@@ -803,7 +805,7 @@ In `claude -p` runs, [Agent SDK](/docs/en/headless) sessions, and [cloud session
 
 * Add it to [`disabledMcpjsonServers`](/docs/en/settings-reference#disabledmcpjsonservers), which blocks it in every permission mode.
 * Exclude project settings entirely with [`--setting-sources`](/docs/en/cli-reference#cli-flags) or the SDK's `settingSources` option.
-* Start the session with [`--strict-mcp-config`](/docs/en/cli-reference#cli-flags). Claude Code then uses only the MCP servers you pass with `--mcp-config`. Skipping the approval prompt for the project-scoped servers Claude Code isn't loading requires Claude Code v2.1.246 or later; before v2.1.246, a strict session still waited on approval for them, which left background sessions waiting at startup. See [Exclusive control with managed-mcp.json](/docs/en/managed-mcp#exclusive-control-with-managed-mcp-json) for what the flag does under a managed MCP file.
+* Start the session with [`--strict-mcp-config`](/docs/en/cli-reference#cli-flags). Claude Code then loads the servers you pass with `--mcp-config` and skips the ones configured in places such as `.mcp.json`. Skipping the approval prompt for the project-scoped servers Claude Code isn't loading requires Claude Code v2.1.246 or later. See [Exclusive control with managed-mcp.json](/docs/en/managed-mcp#exclusive-control-with-managed-mcp-json) for what the flag does under a managed MCP file.
 
 [Project server approvals and workspace trust](#project-server-approvals-and-workspace-trust) covers how approvals committed to the repository interact with workspace trust.
 
@@ -831,8 +833,6 @@ Claude Code matches duplicates across the three scopes by name. It matches plugi
 Two URL spellings count as the same endpoint when they differ only in the letter case of the scheme or host, the scheme's default port, such as `:443` on `https`, or a trailing slash. A different path, query string, userinfo, or non-default port makes two servers.
 
 A server your organization provides through the [`managedMcpServers`](/docs/en/managed-mcp#provide-servers-through-managed-settings) managed setting ranks above all of these, so when one of them duplicates it, Claude Code connects the organization's definition. Requires Claude Code v2.1.259 or later.
-
-If you open a local session in the [Desktop app's Code tab](/docs/en/desktop#mcp-servers-from-the-claude-desktop-chat-app) with the same stdio server name at the top level of `~/.claude.json` (user scope) and in `.mcp.json`, the Code tab uses the `~/.claude.json` definition.
 
 ### Environment variable expansion in `.mcp.json`
 

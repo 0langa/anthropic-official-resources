@@ -38,7 +38,7 @@ By funding the creation of independent evaluations and benchmarks of user wellbe
 
 ### Towards more effective wellbeing evaluations and benchmarks
 
-As part of this program, we’re [sharing guidance](https://www-cdn.anthropic.com/files/4zrzovbb/website/5ecb637cb206057cb93cf4a9e72e843fda5e9892.pdf) from our Safeguards team on what we believe makes a wellbeing evaluation rigorous enough to build on, along with the common challenges that can limit an evaluation’s usefulness.
+As part of this program, we’re [sharing guidance](https://assets.claude.com/5ecb637cb206057cb93cf4a9e72e843fda5e9892.pdf) from our Safeguards team on what we believe makes a wellbeing evaluation rigorous enough to build on, along with the common challenges that can limit an evaluation’s usefulness.
 
 In brief, we’re seeking evaluations that:
 
@@ -48,4 +48,4 @@ In brief, we’re seeking evaluations that:
 - Reflect how users actually use AI (often, this means constructing scenarios that represent multi-turn conversations, where risk escalates and context shifts over the course of a long conversation);
 - Validate their graders against real subject-matter experts.
 
-To learn more about the grant program and apply, [see our application form](https://docs.google.com/forms/d/e/1FAIpQLSfmUDtpfg-ztmQPkCbwx-VAe_urX48sthbqs8GmZUT9irRSDQ/viewform?usp=dialog). For more on building strong wellbeing evaluations and benchmarks, [read our guidance](https://www-cdn.anthropic.com/files/4zrzovbb/website/5ecb637cb206057cb93cf4a9e72e843fda5e9892.pdf). Applications are due by September 21; applicants who are selected to submit full proposals will be notified by October 5.
+To learn more about the grant program and apply, [see our application form](https://docs.google.com/forms/d/e/1FAIpQLSfmUDtpfg-ztmQPkCbwx-VAe_urX48sthbqs8GmZUT9irRSDQ/viewform?usp=dialog). For more on building strong wellbeing evaluations and benchmarks, [read our guidance](https://assets.claude.com/5ecb637cb206057cb93cf4a9e72e843fda5e9892.pdf). Applications are due by September 21; applicants who are selected to submit full proposals will be notified by October 5.

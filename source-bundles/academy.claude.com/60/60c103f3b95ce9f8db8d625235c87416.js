@@ -1,0 +1,58 @@
+import{n as e,r as t}from"../../../react-n2kbymz5.js";var n=t();function r(t){let r={a:"a",code:"code",h2:"h2",h3:"h3",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...e(),...t.components},{ChatPrompt:i,ResourceWidget:o}=r;return i||a("ChatPrompt",!0),o||a("ResourceWidget",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(o,{name:"WhatYoullLearn",title:"What you’ll learn"}),`
+`,(0,n.jsx)(r.p,{children:"Claude comes in four models: Fable, Opus, Sonnet, and Haiku. They differ in capability, speed, and how much of your usage limit they use."}),`
+`,(0,n.jsx)(r.p,{children:"Choosing a model sets how much capability you have to work with, meaning the knowledge, reasoning and judgment Claude brings to your task. While models can be provided context or steered, the model’s overall knowledge base and capabilities are set."}),`
+`,(0,n.jsx)(r.p,{children:"A more capable model is better at handling ambiguity, and at long tasks where one wrong step affects everything after it. On that kind of work it is more likely to get to the right answer, and often in fewer turns. A less capable model answers faster, and it does its best work on specific, more bounded tasks."}),`
+`,(0,n.jsx)(r.p,{children:"For most knowledge work, we recommend starting with Opus. From there, you can adjust two settings, the model and its effort level, to suit the kind of work you do."}),`
+`,(0,n.jsxs)(r.p,{children:["Which models you have and how high your limit is both depend on your ",(0,n.jsx)(r.a,{href:"https://claude.com/pricing",children:"Claude account plan"}),". Free includes Haiku and Sonnet. Paid plans add Opus and more headroom. How you get Fable depends on ",(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/15424964-claude-fable-models-on-your-plan",children:"your plan"}),": on some it runs on usage credits. At work, your admin can also set which models appear in your menu."]}),`
+`,(0,n.jsx)(r.h2,{id:"1-meet-the-four-models",children:"1. Meet the four models"}),`
+`,(0,n.jsx)(r.p,{children:"The four models are listed in the order you see them in the model menu."}),`
+`,(0,n.jsx)(o,{name:"ModelCards",title:"The four models"}),`
+`,(0,n.jsx)(r.h2,{id:"2-when-to-adjust-the-model-or-effort",children:"2. When to adjust the model or effort"}),`
+`,(0,n.jsx)(r.h3,{id:"where-to-start",children:"Where to start"}),`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:"Claude Opus is the default model"})," on Pro, Max, Ultra, and Team plans. ",(0,n.jsx)(r.strong,{children:"For most coding and knowledge work, we recommend starting with Opus,"})," then moving up or down based on the scope and complexity of your work, and how much cost and speed matter to you."]}),`
+`,(0,n.jsx)(r.p,{children:"Some plans and organizations start you on Sonnet. If that's your default, start there. The same approach applies: raise effort first, then switch to a more capable model if the result still falls short."}),`
+`,(0,n.jsx)(r.h3,{id:"what-you-can-adjust",children:"What you can adjust"}),`
+`,(0,n.jsxs)(r.p,{children:["After using the default, you may notice it isn't quite right for some of your work. Claude's results may ",(0,n.jsx)(r.strong,{children:"miss the mark"}),", like missed instructions, unfinished work, or quality below what you need. Or you may be ",(0,n.jsx)(r.strong,{children:"getting more than you need"}),", like longer waits, longer answers, or extra work you didn't request. In both cases, you can adjust two settings, both in the model menu, next to the send button."]}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Model:"})," the model you choose determines the level of capability you are working with. You can switch up to a larger model (like Opus or Fable), or down to a less capable one (like Sonnet)."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Effort:"})," effort is a signal of how hard you want that model to work. Raise it, and Claude thinks longer, makes more tool calls, and checks more of its work before answering. Lower it, and Claude takes a quicker, more direct pass and comes back sooner. ",(0,n.jsx)(r.a,{href:"/tutorials/how-to-select-the-right-effort-setting-for-claude-cowork-and-chat",children:"Learn more about effort"}),"."]}),`
+`]}),`
+`,(0,n.jsx)(r.h3,{id:"how-to-adjust",children:"How to adjust"}),`
+`,(0,n.jsx)(r.p,{children:"Start at the default, and see what comes back. If a result isn't right, first check that your prompt and files gave Claude what it needed. From there, change one setting at a time, starting with effort, so you can tell what made the difference. Which change to make depends on what you notice:"}),`
+`,(0,n.jsx)(o,{name:"AdjustMap",title:"How to adjust"}),`
+`,(0,n.jsx)(r.h3,{id:"how-these-settings-affect-your-usage",children:"How these settings affect your usage"}),`
+`,(0,n.jsx)(r.p,{children:"Your usage is counted in tokens, which are small units of text Claude processes. Everything Claude does (reading your prompt, processing files, thinking, writing responses) is measured that way and draws from your usage limit. Both settings affect how fast you use it."}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Model:"})," the model determines what each token costs. In general, the more capable the model, the more it costs per token."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Effort:"})," effort affects how many tokens a task uses. Higher effort means more thorough responses, but takes longer and uses your limits faster."]}),`
+`]}),`
+`,(0,n.jsx)(r.p,{children:"The cost that matters more is the cost per task. A more capable model often finishes a difficult task in fewer turns. So a more capable model can cost less per task on long or hard work, even though it costs more per token. This is one reason we recommend starting on Opus."}),`
+`,(0,n.jsx)(o,{name:"CostPerTask",title:"Cost per task"}),`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:"If you want to use less of your limit, lower effort first."})," Switching to a less capable model changes both cost and capability. Lowering effort changes cost while keeping the model's judgment and reasoning intact."]}),`
+`,(0,n.jsx)(r.h2,{id:"3-what-this-looks-like-in-practice",children:"3. What this looks like in practice"}),`
+`,(0,n.jsx)(r.p,{children:"We recommend choosing the model that fits how you usually work. For most coding and knowledge work, that starts with Opus. If Opus easily handles everything you give it, Sonnet may also be a great fit. If your hardest projects still fall short after you raise effort on Opus, try the same task on Fable and compare the results."}),`
+`,(0,n.jsxs)(r.p,{children:["The work itself can give you an early sense. This illustration asks two questions, ",(0,n.jsx)(r.strong,{children:"how long the work would take you without AI"})," and ",(0,n.jsx)(r.strong,{children:"how clear the correct output is"}),". Longer projects and less clear outputs are where a more capable model tends to help most. Still, other factors also matter, like the stakes of your work, how easily you yourself could verify it, or how quickly you need a response."]}),`
+`,(0,n.jsx)(r.h3,{id:"how-would-you-describe-the-work",children:"How would you describe the work?"}),`
+`,(0,n.jsx)(r.p,{children:"Move the sliders to describe the kind of work you usually do, and see where it may fall."}),`
+`,(0,n.jsx)(o,{name:"WorkMap",title:"How would you describe the work?"}),`
+`,(0,n.jsxs)(r.p,{children:["This picture is an illustration to explore. The best way to tell whether a model suits your work is to try it, then look closely at what comes back. Check whether Claude followed your instructions, finished the work, and reached the quality you need. To learn more ways to practice discernment, read ",(0,n.jsx)(r.a,{href:"/tutorials/discernment-toolkit",children:"How people check Claude's work"}),"."]}),`
+`,(0,n.jsx)(r.h2,{id:"try-it-out-on-your-own-work",children:"Try it out on your own work"}),`
+`,(0,n.jsx)(r.p,{children:"Pick two tasks you've done recently, one bounded and one long, multi-step job. Run both on Opus and on Sonnet, and compare what it took to finish each one."}),`
+`,(0,n.jsxs)(r.ol,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Decide what a good result looks like"})," before you run anything."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Give both models the same prompt and files,"})," in a new chat, at the default effort."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Keep going until you have a result you would use,"})," and look at how many times you have to steer through follow-up turns or retry."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.strong,{children:"Compare the difference between the results,"})," one task at a time. Long tasks with more steps and judgment may show clearer gains."]}),`
+`]}),`
+`,(0,n.jsx)(r.p,{children:"If both got there in about the same number of turns, either model suits work like this, so keep the one you normally use. If one needed fewer, or found something that matters, use that model for work like this."}),`
+`,(0,n.jsx)(r.p,{children:"If you don't have a task in mind, start with a report you've read yourself and run this prompt:"}),`
+`,(0,n.jsx)(i,{children:(0,n.jsx)(r.p,{children:"Summarize the attached report in five bullet points, then flag the one claim in it you'd most want a second source for."})}),`
+`,(0,n.jsx)(r.h2,{id:"choosing-models-over-time",children:"Choosing models over time"}),`
+`,(0,n.jsx)(r.p,{children:"Claude is always evolving, and so are the types of problems you can hand it. Each new model brings its own strengths, so the tasks worth giving Claude grow and shift with every release. When a new model comes out, try out more ambitious tasks that may have hit a ceiling in the past."}),`
+`,(0,n.jsx)(r.p,{children:"Whenever there is a new model, including a newer version of the one you already use, revisit the tasks you have been doing. See if you can get the same results with the more capable model at a lower effort, which might make those tasks cheaper. Spend a few minutes running your go-to tasks across models."}),`
+`,(0,n.jsx)(r.h2,{id:"learn-more",children:"Learn more"}),`
+`,(0,n.jsxs)(r.ul,{children:[`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.a,{href:"/tutorials/how-to-select-the-right-effort-setting-for-claude-cowork-and-chat",children:(0,n.jsx)(r.strong,{children:"How to select the right effort setting in Claude"})}),": how effort settings work in claude.ai and why adjusting effort on a frontier model often costs less per task than switching to a cheaper model."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.a,{href:"/tutorials/choosing-the-right-effort-level-in-claude-code",children:(0,n.jsx)(r.strong,{children:"Choosing the right effort level in Claude Code"})}),": the same setting in Claude Code, with ",(0,n.jsx)(r.code,{children:"/effort"}),", the settings that control it, and a worked example."]}),`
+`,(0,n.jsxs)(r.li,{children:[(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings",children:(0,n.jsx)(r.strong,{children:"Change the model, effort, and thinking settings"})}),": the Help Center article on where each setting is and how to change it."]}),`
+`]})]})}function i(t={}){let{wrapper:i}={...e(),...t.components};return i?(0,n.jsx)(i,{...t,children:(0,n.jsx)(r,{...t})}):r(t)}function a(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}i.uses=["ChatPrompt","ResourceWidget"];export{i as default};

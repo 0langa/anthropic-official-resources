@@ -70,7 +70,7 @@ Yes. Open the badge on Your learning and choose “Edit name”. Badges are issu
 
 ### I finished every lesson. Where’s my completion badge?
 
-Completion badges are earned by passing the course’s quizzes (every lesson quiz, plus the final assessment where the course has one), rather than by finishing the lessons. Check the course page for any quiz you haven’t passed yet; once the last one is passed, your completion badge is issued immediately. Retakes are unlimited, so you can try again right away.
+Completion badges are earned by passing the course’s quizzes (every lesson quiz, plus the final assessment where the course has one), rather than by finishing the lessons. Check the course page for any quiz you haven’t passed yet; once the last one is passed, your completion badge is issued immediately. Retakes are unlimited, so you can try again right away, unless you’ve reached the daily limit on completion badges. In that case the quiz opens again at midnight US Pacific time.
 
 ### Can I delete a completion badge?
 
@@ -82,7 +82,7 @@ No. Your completion badge isn’t tied to the feedback form. Completion badges a
 
 ### I didn’t pass the final quiz. Do I retake the whole course or just the quiz? Is there a retry limit or timeout?
 
-Just the quiz. Your lesson progress and any quizzes you’ve already passed stay passed, so you only retake the one you missed. There’s no retry limit and no lockout timer; you can retake it immediately.
+Just the quiz. Your lesson progress and any quizzes you’ve already passed stay passed, so you only retake the one you missed. There’s no retry limit; you can retake it immediately, unless you’ve reached the daily limit on completion badges. In that case it opens again at midnight US Pacific time.
 
 ### Does my completion badge expire? Do I need to re-certify when new Claude versions come out?
 
@@ -108,11 +108,19 @@ On the course page, choose Withdraw from course. The course leaves your enrolled
 
 ### How many times can I retake a quiz?
 
-As many times as you like. There’s no retake limit. Each attempt is graded fresh, and a previous failed attempt never counts against you.
+As many times as you like. There’s no retake limit. If you’ve reached the daily limit on completion badges, quizzes in courses where you don’t have the badge yet stay closed until midnight US Pacific time. Each attempt is graded fresh, and a previous failed attempt never counts against you.
 
 ### The course is listed as 4 hours but it took me less. Do I still get the completion badge?
 
 Yes. Listed durations are estimates to help you plan. Completion is based on working through the lessons and passing the quizzes, not on time spent, so fast is fine.
+
+### Can I change a video’s speed, or read it instead?
+
+You can change the speed in the video player: open the gear menu and choose a playback speed. Some lesson videos also have a transcript, which you’ll find under the player.
+
+### Are the videos available in my language?
+
+Most videos in Claude 101 and AI Fluency: Framework and foundations are dubbed in German, French, Japanese, and Korean. Almost everywhere else, including on Spanish and Chinese pages, the video plays in English. Its transcript, when there is one, is usually translated.
 
 ### A code sample in a lesson doesn’t run (it uses a deprecated flag). Is this course out of date?
 
@@ -198,7 +206,7 @@ Thanks for your interest. Anthropic isn’t taking on content partnerships right
 
 ### Can I license this content / host it internally for my company?
 
-Sometimes. If your company has an Anthropic account team, ask them about content licensing. Licensing is offered only in some cases.
+No, we don’t offer content licensing or provide courses to host internally. You’re welcome to link to Claude Academy courses from your own site or learning platform instead.
 
 ## Learning through your company or Anthropic’s partner program
 

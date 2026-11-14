@@ -24,7 +24,7 @@ Research current recommendations and build a realistic 5-day itinerary with actu
 
 Create a Word document designed for mobile use: day-by-day timing, addresses, alternatives when places are full, daily budget estimates, and neighborhood context. Include small thumbnail photos (160x120px) at key locations paired with clickable links to real photo galleries so I can preview places visually and browse full image sets.
 
-Design this document like something a top-tier travel agency produces Think high-end travel magazine meets bespoke concierge service, not generic travel guide. Use a sophisticated color system, elegant typography, and organized text that feels expensive. Make every design choice serve both aesthetics and utility.
+Design this document like something a top-tier travel agency produces. Think high-end travel magazine meets bespoke concierge service, not generic travel guide. Use a sophisticated color system, elegant typography, and organized text that feels expensive. Make every design choice serve both aesthetics and utility.
 
 
 
@@ -94,7 +94,7 @@ Tell Claude: "Include sources for your recommendations—which blogs, reviews, o
 
 ### Add features and elevate design quality[](https://academy.claude.com/use-cases/create-a-daily-travel-itinerary)
 
-To add photos, tell Claude: "Include small thumbnail images at key locations with links to photo galleries." To trigger premium design, use phrasing like "Design this like something a high-end travel agency" or "Make this look like a magazine itinerary." This triggers Claude to use sophisticated typography, professional color systems, and polished layout instead of default formatting.
+To add photos, tell Claude: "Include small thumbnail images at key locations with links to photo galleries." To trigger premium design, use phrasing like "Design this like something a high-end travel agency produces" or "Make this look like a magazine itinerary." This triggers Claude to use sophisticated typography, professional color systems, and polished layout instead of default formatting.
 
 ### Send to travel companions[](https://academy.claude.com/use-cases/create-a-daily-travel-itinerary)
 
@@ -112,7 +112,7 @@ Research current recommendations and build a realistic 5-day itinerary with actu
 
 Create a Word document designed for mobile use: day-by-day timing, addresses, alternatives when places are full, daily budget estimates, and neighborhood context. Include small thumbnail photos (160x120px) at key locations paired with clickable links to real photo galleries so I can preview places visually and browse full image sets.
 
-Design this document like something a top-tier travel agency produces Think high-end travel magazine meets bespoke concierge service, not generic travel guide. Use a sophisticated color system, elegant typography, and organized text that feels expensive. Make every design choice serve both aesthetics and utility.
+Design this document like something a top-tier travel agency produces. Think high-end travel magazine meets bespoke concierge service, not generic travel guide. Use a sophisticated color system, elegant typography, and organized text that feels expensive. Make every design choice serve both aesthetics and utility.
 
 Try in Claude
 

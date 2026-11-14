@@ -41,7 +41,7 @@ Students and educators will be able to connect [Wiley](https://www.wiley.com/en-
 
 Additionally, Claude now supports Canvas LTI (Learning Tools Interoperability), allowing students to use Claude directly within their Canvas courses without switching between platforms.
 
-![App screen of Claude in Canvas](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc282cf5b1a857433c63730de370953934bdc12f2-2880x1620.png&w=3840&q=75)
+![App screen of Claude in Canvas](https://assets.claude.com/c282cf5b1a857433c63730de370953934bdc12f2.png?w=3840&q=75&fm=webp&fit=max)
 
 As always, student privacy protections remain our highest priority. Conversations are [private by default](https://privacy.anthropic.com/en/articles/11732894-who-owns-and-manages-the-data-of-my-claude-for-education-account) and are excluded from AI training by default as well. In furtherance of academic freedom and intellectual exploration, we also require formal approval for institutional data requests and have limited self-serve data exports by default.
 

@@ -10,7 +10,7 @@ How to use the Nextflow Deployment agent skill with Claude Code
 
 This skill enables Claude Code to deploy nf-core Nextflow pipelines for common omics analyses (RNA-seq, variant calling, ATAC-seq) by automating environment validation, data acquisition from GEO/SRA, sample sheet generation, and pipeline execution — turning natural language prompts into reproducible Nextflow workflows.
 
-Check out the [Skill README(opens in new tab)](https://github.com/anthropics/life-sciences/releases/download/v1.1.1/nextflow-development-v1.1.1.zip) for more information.
+For more information, read the `SKILL.md` file inside the [skill's ZIP download(opens in new tab)](https://github.com/anthropics/life-sciences/releases/download/v1.1.1/nextflow-development-v1.1.1.zip).
 
 ## **Who should use the Nextflow Deployment agent skill?**[](https://academy.claude.com/tutorials/how-to-use-the-nextflow-deployment-agent-skill-with-claude-code)
 

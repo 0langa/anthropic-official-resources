@@ -39,6 +39,8 @@ client = AnthropicVertex(region="global", project_id="your-project-id")
 model = "claude-haiku-4-5@20251001"
 ```
 
+Keep this model and package version for the whole course. Newer ones reject settings that later lessons teach, such as `temperature` and prefilled assistant messages.
+
 You'll need to replace `"your-project-id"` with your actual Google Cloud project ID, which you can find in the Google Cloud Console's project selector. Setting the model as a variable saves you from typing it repeatedly throughout your notebooks.
 
 ## Understanding the Create Function[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/making-a-request)

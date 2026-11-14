@@ -1,10 +1,5 @@
 [
   {
-    "reason": "outside_scope",
-    "type": "fetch",
-    "url": "https://cdn.sanity.io/files/4zrzovbb/website/0827c45e02042cf4c6158ea6c04abefedf2b728a.csv"
-  },
-  {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
     "url": "https://assets.claude.ai/sdk/antalytics/atm/anthropic_com/latest.umd.js"

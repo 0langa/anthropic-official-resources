@@ -18,7 +18,7 @@ Run long, hands-off Claude Code sessions you can trust: steer, configure, automa
 
 ·9 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/claude-code-in-action)[### Introduction to subagents
 
-Decompose complex tasks across parallel Claude subagents and orchestrate them deterministically.
+Delegate tasks to Claude Code subagents that work in their own context windows and return focused summaries.
 
 ·4 lessons·45 min](https://academy.claude.com/courses/introduction-to-subagents)[### Claude Code 101
 

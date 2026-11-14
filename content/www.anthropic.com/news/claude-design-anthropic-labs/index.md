@@ -56,7 +56,7 @@ Claude Design follows a natural creative flow.
 
 **Refine with fine-grained controls.** Comment inline on specific elements, edit text directly, or use adjustment knobs to tweak spacing, color, and layout live. Then ask Claude to apply your changes across the full design.
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F499e91975d880b35eac6e48ad43161de7d10416c-2876x1614.jpg&w=3840&q=75)
+![](https://assets.claude.com/27d189475a69c8d847540d09821db517a2f7c66d.jpg?w=3840&q=75&fm=webp&fit=max)
 
 **Collaborate.** Designs have organization-scoped sharing. You can keep a document private, share it so anyone in your organization with the link can view it, or grant edit access so colleagues can modify the design and chat with Claude together in a group conversation.
 
@@ -66,7 +66,7 @@ Claude Design follows a natural creative flow.
 
 Over the coming weeks, we'll make it easier to build integrations with Claude Design, so you can connect it to more of the tools your team already uses.
 
-![Canva logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/0c9cd50bbc3339f05cabef82f554eb2bb8db3ccd-96x64.svg)
+![Canva logo](https://assets.claude.com/f080f8cabe16034777fa98bc5a07a9158ea13d88.svg)
 
 > “We’ve loved collaborating with Anthropic over the past couple of years and share a deep focus on making complex things simple. At Canva, our mission has always been to empower the world to design, and that means bringing Canva to wherever ideas begin. We’re excited to build on our collaboration with Claude, making it seamless for people to bring ideas and drafts from Claude Design into Canva, where they instantly become fully editable and collaborative designs ready to refine, share, and publish.”
 
@@ -74,7 +74,7 @@ Melanie Perkins
 
 Co-Founder and CEO, Canva
 
-![Brilliant logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/ee86aca1b1cceae67a2d309028a347329a44c2b6-138x33.svg)
+![Brilliant logo](https://assets.claude.com/99e841e94deda2bc66b102b74bd430ba1702e6f0.svg)
 
 > “Brilliant's intricate interactivity and animations are historically painful to prototype, but Claude Design's ability to turn static designs into interactive prototypes has been a step change for us. Our most complex pages, which took 20+ prompts to recreate in other tools, only required 2 prompts in Claude Design. Including design intent in Claude Code handoffs has made the jump from prototype to production seamless.”
 
@@ -82,7 +82,7 @@ Olivia Xu
 
 Senior Product Designer, Brilliant
 
-![Datadog logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/5d98f2428e66e7aa3c9f773818ef6231fa4602b4-146x36.svg)
+![Datadog logo](https://assets.claude.com/673dc930acf63471a539bb19ab55344d76d87778.svg)
 
 > “Claude Design has made prototyping dramatically faster for our team, enabling live design during conversations. We've gone from a rough idea to a working prototype before anyone leaves the room, and the output stays true to our brand and design guidelines. What used to take a week of back-and-forth between briefs, mockups, and review rounds now happens in a single conversation.”
 

@@ -2,7 +2,7 @@
 
 # AI models may be capable of self-replicating without access to a datacenter
 
-![AI models may be capable of self-replicating without access to a datacenter](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9f12ba47c584972a24ebcf7283ede36be8ba6ca8-2000x1125.jpg&w=1920&q=75)
+![AI models may be capable of self-replicating without access to a datacenter](https://assets.claude.com/de582d125ab75f2d1fe01bc99878f24e5df30002.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Oct 12, 2026
@@ -44,13 +44,13 @@ Datacenter GPUs would be a clear, high-value target for such malware. But expens
 
 We run Gemma4-26B-A4B, distributed over 15 inexpensive off-brand Android TV boxes (~$55 each) that we bought and networked together, at 0.39 tokens per second. Each tile below shows one physical TV box holding two of the model’s layers as the model runs.
 
-Embedded media: https://cdn.sanity.io/files/4zrzovbb/website/04cb53c1d91c7dc7493e2d40cf4a40d865ba97b7.mp4
+Embedded media: https://assets.claude.com/04cb53c1d91c7dc7493e2d40cf4a40d865ba97b7.mp4
 
 A fleet of 15 Smart TV boxes running distributed inference of Gemma4-26B-A4B.
 
 Of course, there are many other steps to showing that an autonomous worm can propagate itself across a network of weak machines. For the purposes of this blog post, we break down the replication chain into a few steps.
 
-![Flow diagram of the replication stages: network enumeration, initial access and payload delivery (with opportunistic privilege escalation), inference setup, and replication. The first stages are grouped as ‘cyber exploit (not our focus)’ and inference setup is marked ‘our focus’.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F25459a064b25f10689f20e258fb4f1f0291ea083-2360x860.png&w=3840&q=75)
+![Flow diagram of the replication stages: network enumeration, initial access and payload delivery (with opportunistic privilege escalation), inference setup, and replication. The first stages are grouped as ‘cyber exploit (not our focus)’ and inference setup is marked ‘our focus’.](https://assets.claude.com/25459a064b25f10689f20e258fb4f1f0291ea083.png?w=3840&q=75&fm=webp&fit=max)
 
 For this study, we decompose autonomous replication into four practical stages: finding targets, gaining execution, establishing inference, and continuing propagation from the new host.
 
@@ -79,7 +79,7 @@ We examine this in two parts. First, can small models get a model running on unf
 
 ## A. Inference setup
 
-![The same flow diagram with every stage except inference setup faded.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9d35ab77dd3402cadb0011b20cc7b9960f7ea265-2360x860.png&w=3840&q=75)
+![The same flow diagram with every stage except inference setup faded.](https://assets.claude.com/9d35ab77dd3402cadb0011b20cc7b9960f7ea265.png?w=3840&q=75&fm=webp&fit=max)
 
 Of the stages in the above diagram showing the replication cycle, inference setup is the least studied and may be the most challenging for small models. It requires a fairly long sequence of hardware and OS-specific decisions around picking a compatible inference stack, finding the right versions of packages, and debugging machine-specific issues. These steps are serially dependent, and failures are difficult to recover from.
 
@@ -290,7 +290,7 @@ We can compute a better upper bound by using the pool of Nvidia Jetsons, which a
 
 At least one accelerator-equipped smart camera host appears to be reachable on IPv4 on a quick search on FOFA:
 
-![Screenshot of a device search engine’s results page. Identifying details are covered, some by labels such as ‘smart camera admin page’.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F633f29a0c68263fa3e32beac9f0e67bfffc7c9a8-1786x1448.png&w=3840&q=75)
+![Screenshot of a device search engine’s results page. Identifying details are covered, some by labels such as ‘smart camera admin page’.](https://assets.claude.com/86a08001fc009111290ff7fa0c9a5fc9ec2525b9.png?w=3840&q=75&fm=webp&fit=max)
 
 A FOFA search surfaces a host with a known edge accelerator, discoverable and answering HTTP 200 over IPv4. The fact that it’s accessible doesn’t mean it’s necessarily exploitable, though.
 

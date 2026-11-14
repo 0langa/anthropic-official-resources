@@ -52,29 +52,27 @@ Explore our [docs (opens in new tab)](https://platform.claude.com/docs/en/manage
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 10, 2026
+[ArticleNov 12, 2026
 
-### Your apps can now open in Claude, and Claude can work in them
+### Operate Claude Managed Agents inside your security perimeter
 
-Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
+Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
 
-Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)[ArticleNov 10, 2026
+Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)[ArticleNov 12, 2026
 
-### More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
+### J. Crew brings its signature approach to styling to life with Claude
 
-Work at the speed of thought
+J.Crew's new Style Advisor uses Claude to offer a more personalized way to shop online, with complete looks instead of individual products.
 
-Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)[ArticleNov 10, 2026
+Claude Code](https://claude.com/resources/articles/j-crew-style-advisor-with-claude)[ArticleNov 12, 2026
 
-### Introducing Claude Whiteboards, Claude Sheets, and Claude Data
+### Introducing Claude for Manufacturing
 
-Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
+A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)[ArticleNov 12, 2026
 
-Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)[ArticleNov 9, 2026
+### Introducing Claude Meetings
 
-### JPMorganChase expands Claude Code to more employees across the firm
-
-Claude Code](https://claude.com/resources/articles/jpmorganchase-expands-claude-code)
+Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)
 
 ## Transform how your organization operates with Claude
 

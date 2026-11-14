@@ -43,6 +43,8 @@ Let's create a function to get the current date and time. This function will acc
 python
 
 ```
+from datetime import datetime
+
 def get_current_datetime(date_format="%Y-%m-%d %H:%M:%S"):
     if not date_format:
         raise ValueError("date_format cannot be empty")

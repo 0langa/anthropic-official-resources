@@ -30,7 +30,7 @@ The upgraded Claude 3.5 Sonnet outperforms all publicly available models on [SWE
 
 Claude 3.5 Sonnet will be available in public preview to all GitHub Copilot Chat users and organizations over the coming weeks.
 
-Embedded media: https://cdn.sanity.io/files/4zrzovbb/website/a1055776e980bd0dc5a0a6dcdfd8366aed5842eb.webm
+Embedded media: https://assets.claude.com/a1055776e980bd0dc5a0a6dcdfd8366aed5842eb.webm
 
 ### Use cases
 

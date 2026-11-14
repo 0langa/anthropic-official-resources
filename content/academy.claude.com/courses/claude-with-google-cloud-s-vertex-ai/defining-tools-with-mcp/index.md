@@ -20,6 +20,8 @@ In this example, we're creating a document management server with two core tools
 
 ## Setting Up the MCP Server[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/defining-tools-with-mcp)
 
+The project uses version 1 of the MCP Python SDK, and its setup installs that version for you. If you set up your own project, install `"mcp[cli]<2"`. Version 2 renamed `FastMCP` to `MCPServer`, so the import below fails on it.
+
 The Python MCP SDK makes server creation straightforward. You can initialize a server with just one line:
 
 python

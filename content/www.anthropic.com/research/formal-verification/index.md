@@ -72,7 +72,7 @@ Embedded media: https://assets.claude.com/ce66333a831ef2f37e91c2f0ecfdaca27cdfa2
 
 ***The open-source library and its existing fuzz test are compiled to a RISC-V executable. This executable, along with Theorem’s RISC-V and OS formal semantics and the desired no-crash property, mechanically yield a specification the proof must satisfy. Claude writes the proof; the Rocq kernel checks it against the specification. Green marks what’s proven, conditional on the trusted components being correct.***
 
-Over the span of a few weeks, **Claude successfully patched the bugs it found and then proved that there are no crashes on any input (up to 64 MB) for 239 entry points across 123 different OSS-Fuzz libraries.** These proofs operate on the compiled RISC-V instructions (i.e., executable binaries), and they comprise about 180 million lines of Rocq, with a typical proof running to about 600,000 lines to provide security guarantees on binaries with a median length of 18,000 RISC-V instructions. These proofs are built by translating the RISC-V assembly code to a mathematical model using Theorem’s RISC-V instruction and Linux process semantics. This means these proofs currently assume that the program runs as a single-threaded static binary with a fixed memory budget on a RISC-V CPU using Linux OS. Expanding the scope of these proofs is well within reach, as it would involve standardizing semantics for more assembly architectures and other operating system processes. See [an expert’s take](https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf) on the proofs Claude wrote.
+Over the span of a few weeks, **Claude successfully patched the bugs it found and then proved that there are no crashes on any input (up to 64 MB) for 239 entry points across 123 different OSS-Fuzz libraries.** These proofs operate on the compiled RISC-V instructions (i.e., executable binaries), and they comprise about 180 million lines of Rocq, with a typical proof running to about 600,000 lines to provide security guarantees on binaries with a median length of 18,000 RISC-V instructions. These proofs are built by translating the RISC-V assembly code to a mathematical model using Theorem’s RISC-V instruction and Linux process semantics. This means these proofs currently assume that the program runs as a single-threaded static binary with a fixed memory budget on a RISC-V CPU using Linux OS. Expanding the scope of these proofs is well within reach, as it would involve standardizing semantics for more assembly architectures and other operating system processes. See [an expert’s take](https://assets.claude.com/6867eadf760258fa8b42a504600cd3c036d16358.pdf) on the proofs Claude wrote.
 
 Embedded media: https://assets.claude.com/53266e21746d781c80dbe9296b90da94b676dd67.mp4
 
@@ -114,7 +114,7 @@ In another experiment, we asked Claude to develop an interpreter for a large sub
 
 We also found issues in several widely used and critical applications via formal verification attempts of simple security properties. In one of them, we discovered a previously unknown logic bug that had been latent for more than a decade. During an effort to verify a widely used PDF reader, we found as many security bugs in one week as are typically reported in a year.
 
-See [the Appendix](https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf) for more details on some of these efforts.
+See [the Appendix](https://assets.claude.com/6867eadf760258fa8b42a504600cd3c036d16358.pdf) for more details on some of these efforts.
 
 ## This is just the beginning
 
@@ -122,7 +122,7 @@ One of the key limitations of LLM-assisted formal verification is that the proof
 
 ### Newer models need fewer tokens
 
-We built 36 small verification tasks [from real OSS-Fuzz code](https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf). Opus 5.5 proves half of them with about 40% fewer tokens than Opus 5. We expect this trend to continue as models are trained on long verification tasks.
+We built 36 small verification tasks [from real OSS-Fuzz code](https://assets.claude.com/6867eadf760258fa8b42a504600cd3c036d16358.pdf). Opus 5.5 proves half of them with about 40% fewer tokens than Opus 5. We expect this trend to continue as models are trained on long verification tasks.
 
 ![Line chart of the share of 36 verification tasks completed by token budget per agent for Opus 5.5, Fable 5.1, and Opus 5. Opus 5.5 finishes proofs with the fewest tokens.](https://assets.claude.com/02207cbc6f46e272fe9a0fa7929cb8ec29578e74.png?w=3840&q=75&fm=webp&fit=max)
 
@@ -166,7 +166,7 @@ The trajectory is clear: formal verification, which was historically practical o
 
 In today’s world—where LLMs automatically scan for and find increasingly more code vulnerabilities—we must use processes that can *guarantee* code security properties. LLM-scaled formal verification is a promising approach toward securing these guarantees at a scope and scale that were previously unattainable. We encourage others to experiment so we can collectively build a world in which robust software has proliferated very widely and software bugs are a well-understood and quickly addressable rarity.
 
-[Read the full appendix.](https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf)
+[Read the full appendix.](https://assets.claude.com/6867eadf760258fa8b42a504600cd3c036d16358.pdf)
 
 ## Footnotes
 

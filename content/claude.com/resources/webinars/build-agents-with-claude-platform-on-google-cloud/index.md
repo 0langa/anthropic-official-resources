@@ -2,7 +2,7 @@
 
 Nov 17, 2026 — 10:00 – 11:00 AM PT
 
-# Build Agents with the Claude Platform on Google Cloud
+# Build Agents with Claude Models on Google Cloud
 
 The full Claude Platform is now on Google Cloud. With Claude Models on Google Cloud (Anthropic managed), you can build agents that work with files, run code, use skills and handle long-running tasks, all from the Google Cloud account you already run. Anthropic operates the platform. Your team uses its existing Google Cloud IAM credentials, and usage draws down your Google Cloud commitment on a single Google Cloud invoice.
 

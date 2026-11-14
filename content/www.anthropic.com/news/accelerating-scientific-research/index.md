@@ -2,7 +2,7 @@
 
 # How scientists are using Claude to accelerate research and discovery
 
-![How scientists are using Claude to accelerate research and discovery](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2163cca0ae5c9ed366f01711c1d4e244933ce922-2000x1125.jpg&w=1920&q=75)
+![How scientists are using Claude to accelerate research and discovery](https://assets.claude.com/8882ff5454e48ead1db210ab5d5b7a66549f8ce0.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Jan 15, 2026

@@ -8,7 +8,7 @@
 
 JPMorganChase is rolling out Claude across the firm, to more employees beyond engineers. In the Commercial and Investment Bank, work moves into production faster, and the firm redeploys that capacity against its business priorities.
 
-Teams are modernizing other legacy systems, and engineers are building their own agents, including pull request review and self-healing agents, and sharing what works.
+Teams are [modernizing other legacy systems](https://claude.com/resources/articles/how-to-prepare-for-ai-driven-code-modernization-projects), and engineers are building their own agents, including pull request review and self-healing agents, and sharing what works.
 
 Infrastructure and operations teams use [Claude Code (opens in new tab)](https://claude.com/product/claude-code) for monitoring, alerting and root cause analysis. The firm's security team uses our frontier models to find and fix vulnerabilities faster, work we first described in [Project Glasswing (opens in new tab)](https://www.anthropic.com/glasswing).
 
@@ -34,7 +34,13 @@ Over the past year, JPMorganChase’s use of Claude has grown from software engi
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 28, 2026
+[ArticleNov 12, 2026
+
+### J. Crew brings its signature approach to styling to life with Claude
+
+J.Crew's new Style Advisor uses Claude to offer a more personalized way to shop online, with complete looks instead of individual products.
+
+Claude Code](https://claude.com/resources/articles/j-crew-style-advisor-with-claude)[ArticleOct 28, 2026
 
 ### IDC brings Quanta into Claude and adopts Claude across the company
 
@@ -50,13 +56,7 @@ HCLTech will bring Claude into the solutions it provides for banks, hospitals, t
 
 Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
 
-Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)[ArticleSep 23, 2026
-
-### How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace
-
-CodeRabbit expanded its Vercel plan through Claude Marketplace, and Power Digital and ThoughtSpot expanded their Snowflake capacity using their existing Anthropic commitment.
-
-Claude Platform](https://claude.com/resources/articles/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace)
+Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)
 
 ## Transform how your organization operates with Claude
 

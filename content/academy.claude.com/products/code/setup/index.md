@@ -22,7 +22,13 @@ How usage is metered and invoiced on your Enterprise plan.
 
 Read overview
 
- (opens in new tab)](https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan)[### Communications toolkit
+ (opens in new tab)](https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan)[### Pre-install Claude Code for your developers
+
+Have the team that manages developer machines pre-install the Claude desktop app and give developers a one-command terminal install.
+
+Read the install guide
+
+ (opens in new tab)](https://code.claude.com/docs/en/desktop)[### Communications toolkit
 
 Ready-to-send Slack, Teams, and email templates for every stage of your rollout.
 
@@ -55,6 +61,21 @@ Open toolkit
   ·Guide
 
    (opens in new tab)](https://code.claude.com/docs/en/third-party-integrations)
+- [Deploy Claude for Mac Help Center
+
+  ·Help Center
+
+   (opens in new tab)](https://support.claude.com/en/articles/12611117-deploy-claude-desktop-for-macos)
+- [Deploy Claude for Windows Help Center
+
+  ·Help Center
+
+   (opens in new tab)](https://support.claude.com/en/articles/12622703-deploy-claude-desktop-for-windows)
+- [Desktop enterprise configuration Guide
+
+  ·Guide
+
+   (opens in new tab)](https://code.claude.com/docs/en/desktop)
 - [Amazon Bedrock Guide
 
   ·Guide

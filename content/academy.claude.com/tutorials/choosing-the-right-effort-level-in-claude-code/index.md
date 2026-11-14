@@ -16,13 +16,13 @@ Effort tells your model how many resources to spend on the task in your prompt. 
 
 Effort sets how hard the model works, not how much it knows. The model you choose determines the level of capability you are working with. Effort is a signal of how hard you want that model to work.
 
-Explorer: select a level on a five-stop effort scale, from low to max, to see how the model's reading, thinking, turns, and self-checking change, with the same model running at every level.
+Explorer: a five-stop scale from low to max effort in Claude Code; selecting a level shows what that level tends to look like and illustrative meters for reading, thinking, turns, and double-checking, teaching how effort trades resource use for thoroughness.
 
 The effort scale
 
 Select a level to see how the model’s work changes.
 
-the default is one of these two, depending on the model
+the default is usually one of these, depending on the model
 
 lowmediumhighxhighmax
 
@@ -80,7 +80,7 @@ You adjust down for tasks that you know are simple and should not require a big 
 
 You go up from the default when you know you are describing something that should take a long time and require a lot of turns and double-checking. The other time to turn the effort up is when the task is something you cannot quickly check yourself, and you want more self-checking from the model as it works. The same rule applies in this direction: go up one level, rerun, and stop when it starts finishing the things you think it should.
 
-Quiz: for each of three sample coding tasks shown in a mock terminal session, choose whether to raise, lower, or keep the default effort level and justify the choice, then check your answer for an explanation and likely consequence.
+Quiz: for each of three sample coding tasks, pick whether to turn effort down, leave it at the default, or raise it, then choose a reason, and check your answer for an explanation of the likely outcome.
 
 Three tasks · same model, each in a fresh session at the default effort
 
@@ -265,7 +265,7 @@ You can change effort through any of the following:
 
 A level you set with `/effort` persists into your next session, so use the `--effort` flag when you want a level for one run only. Max uses enough resources that Claude Code makes it session-only unless you set it through the environment variable, so you cannot leave it on by accident.
 
-Ultracode is not an effort level. It is a session-only Claude Code setting that runs the model at `xhigh` and, for substantive tasks, also has Claude orchestrate [dynamic workflows(opens in new tab)](https://code.claude.com/docs/en/workflows), fanning work out to multiple agents.
+Ultracode is not an effort level. It is a Claude Code setting that, for substantive tasks, has Claude orchestrate [dynamic workflows(opens in new tab)](https://code.claude.com/docs/en/workflows), fanning work out to multiple agents. It works at whichever effort level the session runs at.
 
 Diagram: two static terminal mockups show the /effort picker, where arrow keys choose a level and Enter confirms, and the session header confirming the active level next to the model name.
 

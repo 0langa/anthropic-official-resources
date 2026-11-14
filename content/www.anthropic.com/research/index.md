@@ -14,7 +14,7 @@ Studies and monitors the impact of AI systems on individuals, firms, and economi
 
 [## Engineering](https://www.anthropic.com/engineering)
 
-28 posts
+29 posts
 
 Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
@@ -56,7 +56,7 @@ Studies and monitors the impact of AI systems on individuals, firms, and economi
 
 [## Engineering](https://www.anthropic.com/engineering)
 
-28 posts
+29 posts
 
 Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
@@ -126,7 +126,7 @@ Anthropic’s Economics team is sharing a new model of how AI may affect economi
 
 05
 
-208
+209
 
 ARTICLES
 
@@ -134,9 +134,17 @@ Filter
 
 Most recentGallery view
 
+[Engineering](https://www.anthropic.com/engineering)
+
+Nov 13, 2026![Illustration of a tilted red gridded square and an upright blue gridded square overlapping imperfectly to form a dark green square, on a light green background.](https://assets.claude.com/abd5df81fa75d3f4a2b489a120e93f7af2f7456f.jpg?w=3840&q=75&fm=webp&fit=max)
+
+### [Building strong safety evaluations](https://www.anthropic.com/research/building-strong-safety-evaluations)
+
+Recommendations for designing, running, and reporting safety evaluations, based on our own experiences.
+
 [Science](https://www.anthropic.com/science)
 
-Nov 9, 2026![Abstract collage combining a close-up photograph of a circuit board with bright green panels of winding copper-track patterns.](https://assets.claude.com/48f86f517e975d4b7d500a4e445e0608577f41db.jpg?w=3840&q=75&fm=webp&fit=max)
+Nov 9, 2026![Abstract collage combining a close-up photograph of a circuit board with bright green panels of winding copper-track patterns.](https://assets.claude.com/da1561d7096742c3620943441254fa9d4aaa5590.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Testing Claude on real-world electronics design](https://www.anthropic.com/research/claude-electronics-design)
 
@@ -168,7 +176,7 @@ We analyzed 207,000 research sessions to learn how Claude is used in science, wh
 
 [Science](https://www.anthropic.com/science)
 
-Nov 4, 2026![Collage illustration pairing vintage measuring scales over a black-and-white photograph with a green print of a ribbed, vaulted cathedral ceiling.](https://assets.claude.com/2f15c0f8ea55da524841be51c8fde89d75f9b0d9.jpg?w=3840&q=75&fm=webp&fit=max)
+Nov 4, 2026![Collage illustration pairing vintage measuring scales over a black-and-white photograph with a green print of a ribbed, vaulted cathedral ceiling.](https://assets.claude.com/50d60818006da4782dc5edb2d5ee1fe9586cd787.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Investigating vault particles with Claude](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
 
@@ -184,7 +192,7 @@ We have made progress on a type of cryptographic proof known as a “zkSNARK.”
 
 [Science](https://www.anthropic.com/science)
 
-Oct 27, 2026![](https://assets.claude.com/eb51635204f8a73d9a0016d3c80cd7a93c7cbdda.jpg?w=3840&q=75&fm=webp&fit=max)
+Oct 27, 2026![](https://assets.claude.com/e5bf870837273d5d1e0e5966af0cb1c7efbdeaae.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development)
 
@@ -317,13 +325,5 @@ Sep 17, 2026![](https://assets.claude.com/264cdc847719955f0995311b80fe3e7bc52915
 ### [Illuminating the frontier](https://www.anthropic.com/institute/measuring-pace-of-ai-development)
 
 Anthropic is sharing new measurements that would give the public visibility into frontier AI development.
-
-[Science](https://www.anthropic.com/science)
-
-Sep 17, 2026![](https://assets.claude.com/864f73a946a514a8807f619e249d4562aed82e3b.jpg?w=3840&q=75&fm=webp&fit=max)
-
-### [How Claude is uplifting biomolecular modeling](https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling)
-
-Claude made the open-source models that scientists use to predict and design biomolecules faster and more memory-efficient. Claude optimized more than 30 of these models in just under four weeks, speeding them up roughly 4x on average. It also created a low-memory mode that enables the accurate prediction of biomolecular systems larger than 10,000 tokens (amino acids, nucleotides, and atoms from small molecules and ions) on a single NVIDIA GPU node.
 
 See more

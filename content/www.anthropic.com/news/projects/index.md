@@ -32,11 +32,11 @@ Projects are available on [Claude.ai](http://claude.ai/) for all Pro and Team cu
 
 Projects allow you to ground Claude’s outputs in your internal knowledge—be it style guides, codebases, interview transcripts, or past work. This added context enables Claude to provide expert assistance across tasks, from writing emails like your marketing team to writing SQL queries like a data analyst.
 
-![App screen showing a user uploading docs to Claude.ai](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcc048db08b3503fa6d713b2b9e3352e8345c8b79-1920x1080.png&w=3840&q=75)
+![App screen showing a user uploading docs to Claude.ai](https://assets.claude.com/b7230b4cb617c18619ef32614b21667801d83a83.png?w=3840&q=75&fm=webp&fit=max)
 
 In addition, you can define custom instructions for each Project to further tailor Claude’s responses, including instructing Claude to use a more formal tone or answer questions from the perspective of a specific role or industry. With Projects, you can get started much faster and extend your skills further for any task.
 
-![App screen showing custom instructions](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9e34412901722019c5a15062544734b3d78fcbc4-1920x1080.png&w=3840&q=75)
+![App screen showing custom instructions](https://assets.claude.com/cc93fb25eee286dd473f00325a800275a9725a1b.png?w=3840&q=75&fm=webp&fit=max)
 
 ### Create side-by-side with Claude
 
@@ -44,13 +44,13 @@ Artifacts help you better work with Claude by helping you see, edit, and build w
 
 Artifacts especially enhance Claude’s coding capabilities for developers, offering a larger code window and live previews for frontends that streamline reviews. Join the feature preview for Artifacts in Claude.ai via the account menu on the left-side panel.
 
-![App screen that shows the Artifacts panel alongside the user chat](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fc5823949d9350145ce2fda51acbc7076f2139cd0-1920x1080.png&w=3840&q=75)
+![App screen that shows the Artifacts panel alongside the user chat](https://assets.claude.com/95ecd50cd239a837a8c381db2fa55438f196d897.png?w=3840&q=75&fm=webp&fit=max)
 
 ### Spark inspiration through sharing
 
 Claude Team users can also share snapshots of their best conversations with Claude into your team’s shared project activity feed. Activity feeds help each teammate get inspired around different ways to work with Claude, and helps the entire team uplevel their skills working with AI.
 
-![App screen showing shared chats within a Project](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9aabd215e1104ea914218eaf759b3deefc02a956-1920x1080.png&w=3840&q=75)
+![App screen showing shared chats within a Project](https://assets.claude.com/959ca5d0dff9fc11136bf188399c3e03e68579d9.png?w=3840&q=75&fm=webp&fit=max)
 
 Sharing work products that were co-created with Claude can improve innovation in areas like product development and research, where bringing together organizational knowledge from across the company can produce higher-quality outputs.
 

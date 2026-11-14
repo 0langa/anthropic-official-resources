@@ -89,7 +89,7 @@ To assess sycophancy, in addition to a simple single-turn evaluation, we measure
 
 **Multi-turn responses.** Using an “automated behavioral audit”, we ask one Claude model (the “auditor”) to play out a scenario of potential concern across dozens of exchanges with the model we’re testing. Afterward, we use another model (the “judge”) to grade Claude’s performance, using the conversation transcript. (We conduct human spot-checks to ensure the judge’s accuracy.)
 
-Our latest models perform substantially better on this evaluation than our previous releases, and very well overall. Claude Opus 4.5, Sonnet 4.5, and Haiku 4.5 each scored 70-85% lower than Opus 4.1—which we previously [considered](https://www-cdn.anthropic.com/4263b940cabb546aa0e3283f35b686f4f3b2ff47.pdf) to show very low rates of sycophancy—on both sycophancy and encouragement of user delusion.
+Our latest models perform substantially better on this evaluation than our previous releases, and very well overall. Claude Opus 4.5, Sonnet 4.5, and Haiku 4.5 each scored 70-85% lower than Opus 4.1—which we previously [considered](https://assets.claude.com/4263b940cabb546aa0e3283f35b686f4f3b2ff47.pdf) to show very low rates of sycophancy—on both sycophancy and encouragement of user delusion.
 
 ![](https://assets.claude.com/0b936763ea53801a82dcabfbaa4c8dd0682b9a12.png?w=3840&q=75&fm=webp&fit=max)
 

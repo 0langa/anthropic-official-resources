@@ -21,7 +21,7 @@ The two APIs use different key types, created in different places by different r
 
 ## Which API do you need?
 
-<table class=""><thead><tr><th>API</th><th>Key type</th><th>Created in</th><th>Who can create it</th><th>What it covers</th></tr></thead><tbody><tr><td class=""><strong>Claude Code Analytics API</strong></td><td class="">Admin API key (<code>sk-ant-admin01-...</code>)</td><td class=""><a href="https://platform.claude.com/settings/admin-keys">Admin keys</a> page (<code>platform.claude.com/settings/admin-keys</code>) in the Claude Console</td><td class="docs-nowrap">Organization admin</td><td class="">Daily Claude Code metrics per user: sessions, lines of code, commits, pull requests, tool acceptance, and estimated cost by model</td></tr><tr><td class=""><strong>Claude Enterprise Analytics API</strong></td><td class="docs-nowrap">Analytics API key</td><td class=""><a href="https://claude.ai/admin-settings/api-access" rel="noopener noreferrer" target="_blank">claude.ai &gt; Organization settings &gt; API</a></td><td class="docs-nowrap">Primary owner</td><td class="">Organization-wide engagement and adoption (user activity, active-user summaries, project, skill, and connector usage), plus cost and usage reports</td></tr></tbody></table>
+<table class=""><thead><tr><th>API</th><th>Key type</th><th>Created in</th><th>Who can create it</th><th>What it covers</th></tr></thead><tbody><tr><td class=""><strong>Claude Code Analytics API</strong></td><td class="docs-nowrap">Admin API key</td><td class=""><a href="https://platform.claude.com/settings/admin-keys">Admin keys</a> page in the Claude Console</td><td class="docs-nowrap">Organization admin</td><td class="">Daily Claude Code metrics for each user: sessions, lines of code, commits, pull requests, tool acceptance, and estimated cost by model</td></tr><tr><td class=""><strong>Claude Enterprise Analytics API</strong></td><td class="docs-nowrap">Analytics API key</td><td class=""><a href="https://claude.ai/admin-settings/api-access" rel="noopener noreferrer" target="_blank">claude.ai &gt; Organization settings &gt; API</a></td><td class="docs-nowrap">Primary owner</td><td class="">Organization-wide engagement and adoption (user activity, active-user summaries, project, skill, and connector usage), plus cost and usage reports</td></tr></tbody></table>
 
 The key types are not interchangeable: an Admin API key cannot call the Claude Enterprise Analytics API, and an Analytics API key cannot call the Admin API. The one exception is the [Usage and Cost Analytics API](https://platform.claude.com/docs/en/manage-claude/usage-cost-analytics-api), which Claude Enterprise organizations call with their Analytics API key. Both product analytics APIs appear under the [Admin API reference](https://platform.claude.com/docs/en/api/beta/organization), but they are separate APIs with separate key types. If your organization uses both the Claude Platform and Claude Enterprise, you can provision both keys and use each API for its own data.
 
@@ -31,7 +31,7 @@ Looking for token usage and cost data rather than product analytics? See the [Us
 
 
 
-If you want to view engagement and adoption data in the product rather than programmatically, use the [Analytics dashboard](https://claude.ai/analytics/activity) in claude.ai. For governance and auditing use cases (individual user actions, raw activity events, conversation content), see the [Compliance API](https://platform.claude.com/docs/en/manage-claude/compliance-api-access).
+If you want to view engagement and adoption data in the product rather than programmatically, use the [Analytics dashboard](https://claude.ai/analytics/activity) in claude.ai. For governance and auditing use cases (individual user actions, raw activity events, conversation content), see the [Compliance API](https://platform.claude.com/docs/en/manage-claude/compliance-api).
 
 ## Get access to the Claude Code Analytics API
 
@@ -139,7 +139,7 @@ When you filter user activity by project, each day’s project activity is count
 
 ## Versioning
 
-Send the `anthropic-version` header on every request; see [Versions](https://platform.claude.com/docs/en/api/versioning) for the available versions.
+Send the `anthropic-version` header on every request; see [API versions](https://platform.claude.com/docs/en/api/versioning) for the available versions.
 
 ## Known limitations
 

@@ -35,6 +35,10 @@ To check if generated code has valid syntax, you can create three helper functio
 python
 
 ```
+import ast
+import json
+import re
+
 def validate_json(text):
     try:
         json.loads(text.strip())
@@ -91,13 +95,27 @@ python
 
 ```
 add_assistant_message(messages, "```code")
+output = chat(messages, stop_sequences=["```"])
 ```
 
 This tells Claude to start generating code content without having to specify whether it's Python, JSON, or Regex upfront.
 
 ## Combining Scores[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/code-based-grading)
 
-The final step is merging the model grader score with the code grader score. A simple approach is to average them:
+First, pick the validator that matches each test case:
+
+python
+
+```
+def grade_syntax(output, test_case):
+    if test_case["format"] == "json":
+        return validate_json(output)
+    if test_case["format"] == "python":
+        return validate_python(output)
+    return validate_regex(output)
+```
+
+The final step is merging the model grader score with the code grader score. A simple approach is to average them inside `run_test_case`:
 
 python
 

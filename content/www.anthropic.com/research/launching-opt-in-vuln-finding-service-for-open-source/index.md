@@ -2,7 +2,7 @@
 
 # Launching an opt-in vulnerability-finding service for open-source software
 
-![Launching an opt-in vulnerability-finding service for open-source software](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F0c269cba7924d77f62632a8293563b1830856f94-2000x1125.jpg&w=1920&q=75)
+![Launching an opt-in vulnerability-finding service for open-source software](https://assets.claude.com/8f74a7a10dca58459cd908ae8ebf9d3d4a8c5eb6.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Oct 8, 2026

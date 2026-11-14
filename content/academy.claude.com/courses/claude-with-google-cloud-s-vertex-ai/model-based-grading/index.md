@@ -69,6 +69,19 @@ python
 
 ```
 def grade_by_model(test_case, output):
+    eval_prompt = f"""
+    You are an expert code reviewer. Evaluate this AI-generated solution.
+
+    Task: {test_case["task"]}
+    Solution: {output}
+
+    Provide your evaluation as a structured JSON object with:
+    - "strengths": An array of 1-3 key strengths
+    - "weaknesses": An array of 1-3 key areas for improvement
+    - "reasoning": A concise explanation of your assessment
+    - "score": A number between 1-10
+    """
+
     messages = []
     add_user_message(messages, eval_prompt)
     add_assistant_message(messages, "```json")
