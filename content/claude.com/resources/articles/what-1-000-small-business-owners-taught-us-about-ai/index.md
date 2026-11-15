@@ -9,13 +9,13 @@ Lina Ochman, Head of U.S. SMB at Anthropic, shares what she learned during our C
 - Reading time13 min
 - ShareCopy link
 
-Most AI tools and training are built for large companies and venture-backed startups. Small businesses generate 44% of the U.S. GDP and employ close to half the private-sector workforce, and yet they have largely been left to figure it out alone. As a public benefit corporation, part of our job is leveling the playing field for AI, and in this case, that means doing our part to help frontier AI reach small business and entrepreneurs on the same timeline it reaches the Fortune 500.
+Most AI tools and training are built for large companies and venture-backed startups. Small businesses generate 44% of the U.S. GDP and employ close to half the private-sector workforce, and yet they have largely been left to figure it out alone. As a public benefit corporation, part of our job is leveling the playing field for AI, and in this case, that means doing our part to help frontier AI reach small businesses and entrepreneurs on the same timeline it reaches the Fortune 500.
 
 So in May we launched [Claude for Small Business](https://claude.com/solutions/small-business): a Claude Cowork plugin, built alongside QuickBooks, PayPal, HubSpot, Canva, DocuSign, and more popular small business tools, that connects Claude to the tools owners already use and does the back-office work that eats up their evenings. We also released our new [AI Fluency for Small Businesses](https://anthropic.skilljar.com/ai-fluency-for-small-businesses) course created with PayPal, focused on the workflows, tools, and broader needs of small business owners.
 
 Over the following six weeks, our team and our build partner Tenex ran free, half-day workshops in Chicago, Tulsa, Dallas, Hamilton Township in New Jersey, Baton Rouge, Birmingham, Salt Lake City, Baltimore, San Jose, and Indianapolis. Each stop paired AI fluency training with a hands-on Claude Cowork session where roughly 100 business owners opened their laptops and automated something real in their business. More than 1,000 SMB owners and operators came through, and I had the fortune of hearing their stories.
 
-They shared their excitement, frustrations, and hopes for bringing AI into their work, from helping automate payroll to removing the tedious, manual tasks that distract them from their favorite parts of their job. Most came to learn a new approach to AI fluency and pick up a tangible AI workflow, and many left with a community of peers in which to learn from and experiment with this powerful new technology.
+They shared their excitement, frustrations, and hopes for bringing AI into their work, from helping automate payroll to removing the tedious, manual tasks that distract them from their favorite parts of their job. Most came to learn a new approach to AI fluency and pick up a tangible AI workflow, and many left with a community of peers to learn from and experiment with this powerful new technology.
 
 Here is what they taught us and where we’re taking the program next.
 
@@ -67,7 +67,7 @@ The tour confirmed it: many attendees already used Claude chat daily but hadn't 
 
 What closed the gap was time on the keyboard with someone nearby to help; specifically, once a small business owner built their first workflow, they felt empowered to keep building, and in turn, deploy production agents. Across 635 exit surveys, the most-cited highlight was the guided build session, and the most common request was more of it. Nearly two-thirds of attendees asked for hands-on help implementing AI after the workshop.
 
-To many, getting started with Claude Cowork was the hardest part; it’s a new way of working that incorporates AI and Agents into common small business tools, like Microsoft 365, PayPal, Intuit Quickbooks, and more, and like picking up any new tool, there is often a steep learning curve. Still, once they actually set up Claude Cowork and implemented their first workflow (i.e., building a virtual chief-of-staff or automating payroll), the impact was near instant.
+To many, getting started with Claude Cowork was the hardest part; it’s a new way of working that incorporates AI and Agents into common small business tools, like Microsoft 365, PayPal, Intuit QuickBooks, and more, and like picking up any new tool, there is often a steep learning curve. Still, once they actually set up Claude Cowork and implemented their first workflow (i.e., building a virtual chief-of-staff or automating payroll), the impact was near instant.
 
 At our last stop, the CEO of a 30-person manufacturer told me, "You were able to help me do the things I was scared of doing" with AI. For most, a few hours of guided practice was all it took to get the hang of taking AI adoption beyond using a chatbot and actually running multi-step tasks.
 
@@ -91,7 +91,7 @@ The Claude SMB Tour was both inspirational and eye-opening; business owners were
 
 We’re kicking off the program with two sessions in San Francisco and New York City focused on giving community and AI partner organizations the tools necessary to help others learn AI fluency best practices (inspired by our SMB-focused course) and hands-on learning.
 
-We’re also excited to share that we’ll be kicking off part two of our [Claude SMB T our](https://www.anthropic.com/events/build-with-claude?type=smb) this fall, visiting an all new slate of cities, starting with [Boston on September 16](https://anthropic.swoogo.com/claude-smb-workshop-boston/rta), and collecting even more feedback and learnings from small businesses and entrepreneurs to improve our product. Stay tuned for more details.
+We’re also excited to share that we’ll be kicking off part two of our [Claude SMB Tour](https://www.anthropic.com/events/build-with-claude?type=smb) this fall, visiting an all new slate of cities, starting with [Boston on September 16](https://anthropic.swoogo.com/claude-smb-workshop-boston/rta), and collecting even more feedback and learnings from small businesses and entrepreneurs to improve our product. Stay tuned for more details.
 
 We can’t wait to see you on the road!
 

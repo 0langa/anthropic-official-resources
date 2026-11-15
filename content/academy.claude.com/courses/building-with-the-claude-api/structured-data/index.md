@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fstructured-data)
 
+
+
+This lesson works with Claude Haiku 4.5, the model this course uses. Claude 4.6 and later models return an error when a request ends with a prefilled assistant message. On those models, use [structured outputs(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/structured-outputs) to get JSON.
+
 Embedded media: https://www.youtube-nocookie.com/embed/kLo1shDCDS0?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=kLo1shDCDS0)
@@ -26,13 +30,13 @@ markdown
 
 ```
 ```json
-\{
+{
   "source": ["aws.ec2"],
   "detail-type": ["EC2 Instance State-change Notification"],
-  "detail": \{
+  "detail": {
     "state": ["running"]
-  \}
-\}
+  }
+}
 ```
 
 This rule captures EC2 instance state changes when instances start running.
@@ -42,7 +46,28 @@ The JSON is correct, but it's wrapped in markdown formatting and includes explan
 
 ## The Solution: Assistant Message Prefilling + Stop Sequences[](https://academy.claude.com/courses/building-with-the-claude-api/structured-data)
 
-You can combine assistant message prefilling with stop sequences to get exactly the content you want. Here's how it works:
+You can combine assistant message prefilling with stop sequences to get exactly the content you want. A stop sequence is a string that ends the response as soon as Claude generates it, so first let the `chat` function take a list of them:
+
+python
+
+```
+def chat(messages, system=None, temperature=1.0, stop_sequences=[]):
+    params = {
+        "model": model,
+        "max_tokens": 1000,
+        "messages": messages,
+        "temperature": temperature
+    }
+    if system:
+        params["system"] = system
+    if stop_sequences:
+        params["stop_sequences"] = stop_sequences
+
+    message = client.messages.create(**params)
+    return message.content[0].text
+```
+
+Here's how the two work together:
 
 python
 

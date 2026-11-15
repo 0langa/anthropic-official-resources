@@ -8,6 +8,10 @@ Learn about configuring Claude Code through Google Cloud's Agent Platform, forme
 View plans
 Contact sales
 
+> [!NOTE]
+>
+> This page covers one of the two ways to use Claude through your Google Cloud project: Google Cloud's Agent Platform, formerly Vertex AI, which Google manages. If you use Claude Models on Google Cloud (Anthropic managed), follow [its Claude Code setup page](/docs/en/claude-models-on-google-cloud-anthropic-managed) instead. To find out which one you use, see [Which offering are you using?](https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/overview#which-offering-are-you-using)
+
 ## Prerequisites
 
 Before configuring Claude Code with Google Cloud's Agent Platform, formerly Vertex AI, ensure you have:

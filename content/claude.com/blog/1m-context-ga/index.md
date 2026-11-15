@@ -45,7 +45,7 @@ Izzy Miller, AI Research Lead
 
 ![Endex](https://assets.claude.com/f8e632d4750a94b94d2b18e0c0b2aebf222b200c.svg)
 
-> “Real-world spreadsheet tasks require deep research and complex multi-step plans. Claude's 1M context window let’s us maintain task adherence and attention to detail.”
+> “Real-world spreadsheet tasks require deep research and complex multi-step plans. Claude's 1M context window lets us maintain task adherence and attention to detail.”
 
 Tarun Amasa, CEO
 
@@ -99,7 +99,7 @@ Izzy Miller, AI Research Lead
 
 ![Endex](https://assets.claude.com/f8e632d4750a94b94d2b18e0c0b2aebf222b200c.svg)
 
-> “Real-world spreadsheet tasks require deep research and complex multi-step plans. Claude's 1M context window let’s us maintain task adherence and attention to detail.”
+> “Real-world spreadsheet tasks require deep research and complex multi-step plans. Claude's 1M context window lets us maintain task adherence and attention to detail.”
 
 Tarun Amasa, CEO
 

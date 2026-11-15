@@ -64,8 +64,8 @@ The most common exit survey feedback: *"I just wanted to see what this does"*
 
 **Completion Rates:**
 
-- The average onboarding checklist completion rate across SaaS companies is 19.2%, with a median of 10.1%. Your 34% is actually above average, but your target of 60% aligns with top performers.
-- Top-performing SaaS companies achieve completion rates of 70-80%, while average companies see 40-60%.
+- The average onboarding checklist completion rate across SaaS companies is 19.2%, with a median of 10.1%. Your 34% is actually above average, and your target of 60% moves you toward top performers.
+- Top-performing SaaS companies achieve completion rates of 70-80%.
 
 **Time to Value:**
 

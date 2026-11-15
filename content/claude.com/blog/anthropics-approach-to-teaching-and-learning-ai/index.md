@@ -23,7 +23,7 @@ At Anthropic, we believe the journey to AI fluency begins on an employee’s fir
 
 In addition to live and online instruction, we also provide all Anthropic employees with Claude-powered tools (like Claude Tag) to ensure they get instant answers to virtually any question related to the company, their job, or their specific onboarding plan. We also have Claude-moderated Slack channels for IT, legal, and benefits so people can focus on what matters most.
 
-When employees become AI fluent, we see them forming teams flexibly around real problems, taking on projects with expanded scope, and learning from company experts at scale. For Anthropic, AI fluency is the foundation required to have impact
+When employees become AI fluent, we see them forming teams flexibly around real problems, taking on projects with expanded scope, and learning from company experts at scale. For Anthropic, AI fluency is the foundation required to have impact.
 
 ## Breaking down our approach
 

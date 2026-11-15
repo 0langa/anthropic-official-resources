@@ -130,6 +130,7 @@ Select a deployment option to view setup instructions:
 * [Claude apps gateway](/docs/en/claude-apps-gateway), a self-hosted gateway that adds IdP sign-in in front of Amazon Bedrock, Claude Platform on AWS, Google Cloud's Agent Platform, Microsoft Foundry, or the Anthropic API
 * [Amazon Bedrock](/docs/en/amazon-bedrock)
 * [Claude Platform on AWS](/docs/en/claude-platform-on-aws)
+* [Claude Models on Google Cloud (Anthropic managed)](/docs/en/claude-models-on-google-cloud-anthropic-managed)
 * [Google Cloud's Agent Platform](/docs/en/google-vertex-ai)
 * [Microsoft Foundry](/docs/en/microsoft-foundry)
 

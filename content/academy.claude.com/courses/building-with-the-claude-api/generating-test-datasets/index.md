@@ -90,9 +90,9 @@ Generate an evaluation dataset for a prompt evaluation. The dataset will be used
 Example output:
 ```json
 [
-  \{
+  {
     "task": "Description of task",
-  \},
+  },
   ...additional
 ]
 ```

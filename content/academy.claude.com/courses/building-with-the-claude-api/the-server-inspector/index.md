@@ -30,7 +30,7 @@ This starts a development server on port 6277 and gives you a local URL to open 
 
 ## Important Note About the Interface[](https://academy.claude.com/courses/building-with-the-claude-api/the-server-inspector)
 
-The MCP inspector is actively being developed, so the interface you see might look different from current screenshots. However, the core functionality for testing tools, resources, and prompts should remain similar.
+The pictures here and the video show version 1 of the inspector, but `mcp dev` now starts version 2, which needs Node.js 22.19 or later. In version 2, you turn on the switch on your server's card instead of clicking "Connect", the **Tools** tab lists your tools without a "List Tools" button, and "Run Tool" is called "Execute Tool".
 
 ## Connecting and Testing Tools[](https://academy.claude.com/courses/building-with-the-claude-api/the-server-inspector)
 

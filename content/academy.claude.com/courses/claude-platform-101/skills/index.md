@@ -42,6 +42,11 @@ Skills are uploaded once to your workspace, then referenced by ID. You can uploa
 python
 
 ```
+import anthropic
+from anthropic.lib import files_from_dir
+
+client = anthropic.Anthropic()
+
 skill = client.skills.create(
     display_name="Status Report Generator",
     files=files_from_dir("status-report-skill"),  # folder containing SKILL.md

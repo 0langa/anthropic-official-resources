@@ -75,7 +75,7 @@ We pass the tool name and input parameters (provided by Claude) to the server an
 
 ## Testing the Client[](https://academy.claude.com/courses/building-with-the-claude-api/implementing-a-client)
 
-To test our implementation, we can run the client directly. The file includes a testing harness that connects to our MCP server and calls our methods:
+To test our implementation, we can run the client directly. The file includes a simple testing harness at the bottom. Have it call one of our new methods and print the result:
 
 python
 

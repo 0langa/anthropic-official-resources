@@ -42,7 +42,7 @@ Ultimately, our claim is a modest one: Claude is starting to meaningfully assist
 
 ## Claude vs. ChemDraw on NMR prediction and structure elucidation
 
-**Full version can be found [here](https://www-cdn.anthropic.com/07441e654ad3dfeb0cd090e9361511562825d012.pdf)**
+**Full version can be found [here](https://assets.claude.com/07441e654ad3dfeb0cd090e9361511562825d012.pdf)**
 
 Nearly every small molecule—drug, pesticide, dye, fragrance, polymer, DNA or protein subunit, and functional inorganic or solid-state material—exists because a chemist determined its structure. Given that these molecules cannot be seen with microscopes, chemists must rely on spectral analysis, probing a molecule with light, radio waves, or magnetic fields. The way a given molecule absorbs, emits, or deflects this energy gives chemists a pattern, or spectrum, with which they can elucidate its structure.  
   

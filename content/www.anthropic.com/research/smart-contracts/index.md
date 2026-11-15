@@ -44,7 +44,7 @@ Total revenue from successfully exploiting smart contract vulnerabilities that w
 
 ## Introduction
 
-AI cyber capabilities are accelerating rapidly: they are now capable of tasks from orchestrating [complex network intrusions](https://red.anthropic.com/2025/cyber-toolkits/) to augmenting [state-level espionage](https://www-cdn.anthropic.com/b2a76c6f6992465c09a6f2fce282f6c0cea8c200.pdf). Benchmarks, like [CyberGym](https://www.cybergym.io/) and [Cybench](https://cybench.github.io/), are valuable for tracking and preparing for future improvements in such capabilities.
+AI cyber capabilities are accelerating rapidly: they are now capable of tasks from orchestrating [complex network intrusions](https://red.anthropic.com/2025/cyber-toolkits/) to augmenting [state-level espionage](https://assets.claude.com/b2a76c6f6992465c09a6f2fce282f6c0cea8c200.pdf). Benchmarks, like [CyberGym](https://www.cybergym.io/) and [Cybench](https://cybench.github.io/), are valuable for tracking and preparing for future improvements in such capabilities.
 
 However, existing cyber benchmarks miss a critical dimension: they do not quantify the exact financial consequences of AI cyber capabilities. Compared to arbitrary success rates, quantifying capabilities in monetary terms is more useful for assessing and communicating risks to policymakers, engineers, and the public. Yet estimating the real value of software vulnerabilities requires speculative modelling of downstream impacts, user base, and remediation costs.[1](https://www.anthropic.com/research/smart-contracts)
 

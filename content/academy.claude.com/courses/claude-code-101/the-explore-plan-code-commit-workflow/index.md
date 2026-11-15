@@ -49,7 +49,7 @@ Claude will do its best to troubleshoot before considering the plan "finished," 
 
 A few tips to make the coding phase smoother:
 
-- **Define a success criteria.** For Claude to be confident in its results, it needs to be clear on what "correct" looks like. Make this explicit when writing your plan.
+- **Define success criteria.** For Claude to be confident in its results, it needs to be clear on what "correct" looks like. Make this explicit when writing your plan.
 - **Add tools.** Tools that help Claude complete its goals remove a lot of back and forth. For example, if you're building web UIs, install the Claude in Chrome extension so Claude Code can control a browser tab and test the UI directly.
 
   ![The Claude in Chrome extension page in the Chrome Web Store](https://academy.claude.com/assets/media/bf3b9eb343e3a61fbd3b6a12ad8f99f1ca989cc945977f386cc92771c4c516ff.jpg)

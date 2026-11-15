@@ -67,7 +67,7 @@ Excellent! I've completed a comprehensive analysis of the differentially express
 
 **Top Pediatric-Enriched Genes:**
 
-The most striking pediatric markers show extremely high fold changes (15-25 log2FC):
+The most striking pediatric markers show extremely high fold changes (8-25 log2FC):
 
 - KCNA5 (voltage-gated potassium channel) - 24.9 log2FC
 - HSPB7 (heat shock protein) - 24.7 log2FC
@@ -77,7 +77,7 @@ The most striking pediatric markers show extremely high fold changes (15-25 log2
 
 **Top Adult-Enriched Genes:**
 
-Adult liver shows moderate enrichment (4-5 log2FC) in mature metabolic functions:
+Adult liver shows moderate enrichment (3.6-5.3 log2FC) in mature metabolic functions:
 
 - APOA4 (lipid metabolism) - 5.3 log2FC
 - CYP2A7 (drug metabolism) - 4.6 log2FC
@@ -96,7 +96,7 @@ Adult liver shows moderate enrichment (4-5 log2FC) in mature metabolic functions
 - Heat Shock Proteins (80%) - stress response/development
 - Coagulation/Blood (78%) - hemostasis development
 
-**Strongly Adult-Biased (>75%):**
+**Adult-Biased (>60%):**
 
 - CYP450/Drug Metabolism (87% adult) - mature xenobiotic processing
 - Secreted Proteins (83%) - hepatic synthetic function

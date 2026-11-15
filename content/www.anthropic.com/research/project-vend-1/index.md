@@ -112,7 +112,7 @@ Although this might seem counterintuitive based on the bottom-line results, we t
 
 The details of this scenario remain uncertain; for example we don’t know if AI middle managers would actually [replace many existing jobs](https://www.axios.com/2025/05/28/ai-jobs-white-collar-unemployment-anthropic) or instead spawn a new category of businesses. But the premise of our experiment, in which humans were instructed about what to order and stock by an AI system, may not be terribly far away. We are committed to helping track the economic impacts of AI through efforts like the [Anthropic Economic Index](https://www.anthropic.com/economic-index).
 
-Anthropic is also monitoring the advance of AI autonomy in other ways, such as assessing the ability of our models to perform AI R&D as part of our [Responsible Scaling Policy](https://www-cdn.anthropic.com/872c653b2d0501d6ab44cf87f43e1dc4853e4d37.pdf). An AI that can improve itself *and* earn money without human intervention would be a striking new actor in economic and political life. Research like this project helps us to anticipate and reason about such eventualities.
+Anthropic is also monitoring the advance of AI autonomy in other ways, such as assessing the ability of our models to perform AI R&D as part of our [Responsible Scaling Policy](https://assets.claude.com/872c653b2d0501d6ab44cf87f43e1dc4853e4d37.pdf). An AI that can improve itself *and* earn money without human intervention would be a striking new actor in economic and political life. Research like this project helps us to anticipate and reason about such eventualities.
 
 ## Identity crisis
 
@@ -154,7 +154,7 @@ This experiment has already shown us a world—co-created by Claudius and its cu
 
 05It is worth remembering that, as can be seen at the top of this post, Claudius was explicitly told it was a digital agent in its system prompt.
 
-06For example, see the section on “high-agency behavior” beginning on p.44 of the [Claude 4 system card](https://www-cdn.anthropic.com/6be99a52cb68eb70eb9572b4cafad13df32ed995.pdf).
+06For example, see the section on “high-agency behavior” beginning on p.44 of the [Claude 4 system card](https://assets.claude.com/6be99a52cb68eb70eb9572b4cafad13df32ed995.pdf).
 
 ## Authors & acknowledgements
 

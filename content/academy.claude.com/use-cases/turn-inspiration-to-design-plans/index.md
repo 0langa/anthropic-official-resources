@@ -14,13 +14,13 @@ Try in ClaudeCopy prompt
 
 Claude can analyze images to identify design styles across your saved inspirations—pinning down the specific aesthetic so you can find matching pieces and communicate your vision to contractors. It can then search across price ranges to show you where to save and where it's worth investing.
 
-Ask Claude to identify the style in your saved images, explain what defines it, and find furniture you can actually buy. Request a spreadsheet organized by furniture type so you can compare costs, quality, and which pieces are worth investing in.
+Ask Claude to identify the style in your saved images, explain what defines it, and find materials you can actually buy. Request a spreadsheet organized by material category so you can compare costs, quality, and which choices are worth investing in.
 
 I'm planning a kitchen reno and I've saved images of kitchens I love, but I'm overwhelmed by the choices. Figure out what style I'm going for and **help me make smart purchase decisions** about where to spend and where to invest.
 
 **Analyze my images and identify the style**. Break down what defines it and how it differs from similar styles. Research materials across countertops, cabinets, flooring, backsplash, and hardware. Find 3-5 options per category at budget, mid-range, and premium levels with brands, pricing, quality ratings, and investment priorities.
 
-**Create an workbook** with:
+**Create a workbook** with:
 
 - Style guide—color palette with hex codes, signature materials, style distinctions, shopping strategy
 - Material database—all options with pricing, quality scores, investment priorities color-coded
@@ -59,7 +59,7 @@ Web Search](https://support.claude.com/en/articles/10684626-enabling-and-using-w
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/turn-inspiration-to-design-plans)
 
-Claude provides a spreadsheet that consolidates all research from your preferences, including style definitions, furniture options by type, price comparisons, and direct links, enabling you to make informed decisions and edit as needed.
+Claude provides a spreadsheet that consolidates all research from your preferences, including style definitions, material options by category, price comparisons, and direct links, enabling you to make informed decisions and edit as needed.
 
 Done! Here's Your Kitchen Renovation Strategy
 
@@ -133,7 +133,7 @@ I'm planning a kitchen reno and I've saved images of kitchens I love, but I'm ov
 
 Analyze my images and identify the style. Break down what defines it and how it differs from similar styles. Research materials across countertops, cabinets, flooring, backsplash, and hardware. Find 3-5 options per category at budget, mid-range, and premium levels with brands, pricing, quality ratings, and investment priorities.
 
-Create an workbook with:
+Create a workbook with:
 
 • Style guide—color palette with hex codes, signature materials, style distinctions, shopping strategy
 

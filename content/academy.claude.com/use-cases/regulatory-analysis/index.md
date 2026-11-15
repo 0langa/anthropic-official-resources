@@ -220,7 +220,7 @@ Regulatory LegalWatches regulatory feeds, diffs new rules against your policy li
 
 [Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fpolicy-diff)
 
-`/reg-feed-watcher`Check regulatory feeds now and report what's new since the last check, filtered by your materiality threshold.
+`/reg-feed-watcher`Check regulatory feeds now and report what’s new since the last check, filtered by your materiality threshold.
 
 [Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Freg-feed-watcher)
 

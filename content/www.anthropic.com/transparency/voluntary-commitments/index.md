@@ -14,7 +14,7 @@ Below is information about how we are meeting and working towards our [voluntary
 
 ## Risk Assessment and Mitigation
 
-Responsible Scaling Policy and Frontier Compliance FrameworkIn September 2023, we published the first version of our [Responsible Scaling Policy](https://www-cdn.anthropic.com/1adf000c8f675958c2ee23805d91aaade1cd4613/responsible-scaling-policy.pdf) (RSP), our framework for managing potential catastrophic risks from models.
+Responsible Scaling Policy and Frontier Compliance FrameworkIn September 2023, we published the first version of our [Responsible Scaling Policy](https://assets.claude.com/1adf000c8f675958c2ee23805d91aaade1cd4613.pdf) (RSP), our framework for managing potential catastrophic risks from models.
 
 The policy is centered around implementing safeguards which are proportional to the identified risks. As AI models become more powerful, they require stronger protections. When models reach certain capability thresholds, we will implement additional safeguards around security and deployment.
 
@@ -128,7 +128,7 @@ We maintain transparency in our financing and corporate practices, competing ope
 
 Anthropic contributes to the development of international technical standards and best practices:
 
-- We work with NIST to strengthen its AI Risk Management Framework, contributing insights from our technical safety research to the companion [playbook](https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook) and responding to its requests for information, such as the [RFI on Security Considerations for AI Agents](https://www-cdn.anthropic.com/43ec7e770925deabc3f0bc1dbf0133769fd03812.pdf).
+- We work with NIST to strengthen its AI Risk Management Framework, contributing insights from our technical safety research to the companion [playbook](https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook) and responding to its requests for information, such as the [RFI on Security Considerations for AI Agents](https://assets.claude.com/43ec7e770925deabc3f0bc1dbf0133769fd03812.pdf).
 - We co-founded and are an active member in the [Frontier Model Forum (FMF)](https://www.frontiermodelforum.org/), which, among other aims, seeks to advance AI safety research, standards and evaluations.
 - We are a founding member of [CoSAI](https://www.coalitionforsecureai.org/) and serve on the Executive and Technical Steering Committees and on several working groups.
 - We collaborate with the [Cloud Security Alliance](https://cloudsecurityalliance.org/) (CSA) on the development of controls applicable to the AI industry and assist in the development of diligence efforts that could take place based on those controls.
@@ -142,7 +142,7 @@ Anthropic contributes to the development of international technical standards an
 Anthropic publishes and maintains detailed information on our models and practices:
 
 1. **[System Cards](https://www.anthropic.com/system-cards):** With each new model family release, we publish a detailed model documentation in a model or system card or addendum. These cards provide information about model capabilities and performance across various benchmarks; known limitations and potential risks; results of safety evaluations and red teaming; information on model training; and more.
-2. **[Risk Reports](https://www-cdn.anthropic.com/08eca2757081e850ed2ad490e5253e940240ca4f.pdf):** We publish Risk Reports discussing the risks of our AI systems and our determinations about whether to continue AI development and deployment in light of those risks. These reports go beyond model capabilities to address threat models, active risk mitigations, and an overall assessment of risk level. Risk Reports are published every 3–6 months, shared with our Board and Long-Term Benefit Trust, and subject to review by independent external parties.
+2. **[Risk Reports](https://assets.claude.com/08eca2757081e850ed2ad490e5253e940240ca4f.pdf):** We publish Risk Reports discussing the risks of our AI systems and our determinations about whether to continue AI development and deployment in light of those risks. These reports go beyond model capabilities to address threat models, active risk mitigations, and an overall assessment of risk level. Risk Reports are published every 3–6 months, shared with our Board and Long-Term Benefit Trust, and subject to review by independent external parties.
 3. AI Safety Frameworks (**[Responsible Scaling Policy (RSP) and Frontier Compliance Framework (FCF)](https://www.anthropic.com/news/responsible-scaling-policy-v3) :** We share our RSP and FCF publicly, which outlines our frameworks for evaluating and mitigating potential catastrophic risks posed by AI systems.
 4. **[Research](https://www.anthropic.com/research):** We regularly publish research on cutting edge safety, [interpretability](https://transformer-circuits.pub/), economic and [societal impacts](https://www.anthropic.com/news/measuring-model-persuasiveness), [alignment](https://alignment.anthropic.com/), and [frontier red teaming](https://red.anthropic.com/).
 5. **[Usage Policy](https://www.anthropic.com/legal/aup):** Our Usage Policy is intended to help our users stay safe and help ensure our products and services are being used responsibly. Our [Safeguards Help Center](https://support.anthropic.com/en/collections/4078535-safeguards) provides additional best practices and recommendations.
@@ -236,7 +236,7 @@ At the foundation of our Safeguards work is our [Usage Policy](https://www.anthr
 
 ## Child Safety & Image-Based Sexual Abuse
 
-[Claude.ai](http://claude.ai/redirect/website.v1.a8ffdd69-120e-469d-9373-d29e901d04a6) is 18+. Our Consumer Terms of Service require individuals to be at least 18 years old to use our services. When we detect signals that an account may belong to someone under 18, we disable the account and offer the user an opportunity to [verify their age through Yoti, a third-party age verification provider](https://support.claude.com/en/articles/15171100-age-assurance-on-claude), before reinstating access. Additionally, organizations building tools that serve minors (such as educational resources) that incorporate our API(s) must comply with the additional guidelines outlined in our [Help Center article](https://support.anthropic.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors).
+[Claude.ai](http://claude.ai/redirect/website.v1.1b24a8b1-741a-4c51-9d40-7765f5b652b8) is 18+. Our Consumer Terms of Service require individuals to be at least 18 years old to use our services. When we detect signals that an account may belong to someone under 18, we disable the account and offer the user an opportunity to [verify their age through Yoti, a third-party age verification provider](https://support.claude.com/en/articles/15171100-age-assurance-on-claude), before reinstating access. Additionally, organizations building tools that serve minors (such as educational resources) that incorporate our API(s) must comply with the additional guidelines outlined in our [Help Center article](https://support.anthropic.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors).
 
 ### Detection and Prevention Systems
 
@@ -335,19 +335,19 @@ Below, you'll find a summary of our voluntary commitments. While we've highlight
 
 ### Archived content from January - June 2025
 
-[View PDF](https://www-cdn.anthropic.com/50384a465da97cce5cbd3abfa752f5b39d7b7f65.pdf)
+[View PDF](https://assets.claude.com/50384a465da97cce5cbd3abfa752f5b39d7b7f65.pdf)
 
 ![Archived content from July - December 2025](https://assets.claude.com/e951335d97d3a521983e9359fd4dcdc145bddc38.svg)
 
 ### Archived content from July - December 2025
 
-[Archived content from July to December 2025](https://www-cdn.anthropic.com/5fb26a6974468f83ce87b4799a7ac957ce9d8f96.pdf)
+[Archived content from July to December 2025](https://assets.claude.com/5fb26a6974468f83ce87b4799a7ac957ce9d8f96.pdf)
 
 ![Archived content from January - June 2026](https://assets.claude.com/e951335d97d3a521983e9359fd4dcdc145bddc38.svg)
 
 ### Archived content from January - June 2026
 
-[Archived content from July to December 2025](https://www-cdn.anthropic.com/5fb26a6974468f83ce87b4799a7ac957ce9d8f96.pdf)
+[Archived content from July to December 2025](https://assets.claude.com/5fb26a6974468f83ce87b4799a7ac957ce9d8f96.pdf)
 
 ## Related content
 

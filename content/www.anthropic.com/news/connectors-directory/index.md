@@ -1,6 +1,6 @@
 # Discover tools that work with Claude
 
-Browse and connect Claude to your favorite apps and tools with one-click.
+Browse and connect Claude to your favorite apps and tools with one click.
 
 ‍
 

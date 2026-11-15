@@ -77,6 +77,10 @@ Please read if you need more info: @README.md
 
 **Start without one.** We recommend starting a project without a CLAUDE.md file so you can see where you constantly have to course-correct the model. This keeps your CLAUDE.md compact and focused on only the necessary information. When you're ready, run `/init` to have Claude generate one for you.
 
+## Try it now[](https://academy.claude.com/courses/claude-code-101/the-claude-md-file)
+
+Pick a project with no CLAUDE.md and run `/init`. Read what Claude wrote and cut any line you wouldn't bother telling a new teammate. Add one correction you find yourself repeating, then start a new session and ask for something that correction covers. Did Claude follow it?
+
 ## Recap[](https://academy.claude.com/courses/claude-code-101/the-claude-md-file)
 
 The difference between a frustrating Claude Code session and a productive one often comes down to context — and the CLAUDE.md file is how you provide that context. Start with your stack, your preferences, and your commands, then build from there as you go.

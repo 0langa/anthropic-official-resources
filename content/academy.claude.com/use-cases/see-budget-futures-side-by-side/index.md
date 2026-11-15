@@ -32,10 +32,6 @@ The numbers you type in the prompt are the context, and rough is fine since this
 
 Nothing to upload. Type the numbers directly in your prompt.
 
-![](https://academy.claude.com/surfaces/excel-icon.svg)
-
-Current budgetXLSX
-
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/see-budget-futures-side-by-side)
 
 Claude draws three stacked bar charts side by side with a toggle at the top that switches between dollar amounts and percentage splits. The dollar view shows you what gets smaller, while the percentage view shows whether the balance of the organization shifts or just shrinks proportionally. Categories that drop get flagged, and clicking any scenario opens a one-sentence note below that translates the numbers into what it would actually mean for operations.
@@ -80,7 +76,7 @@ For each of the three scenarios, write me the one sentence I'd say to the board.
 
 ### How you word your prompt shapes what you get[](https://academy.claude.com/use-cases/see-budget-futures-side-by-side)
 
-Asking for scenarios "side by side" with a toggle "between dollars and percentages" is what gets a comparison view rather than three separate charts. Naming the decision context ("board call in an hour") tells Claude this is about seeing the shape fast, not building a model you'd hand to finance. The same approach works on any multi-scenario question, whether that's staffing plans, program expansion, or anything else where you're weighing three futures and need to see which one hurts.
+Asking for scenarios "side by side" with a toggle "between dollars and percentages" is what gets a comparison view rather than three separate charts. Adding the decision context (for example, "board call in an hour") tells Claude this is about seeing the shape fast, not building a model you'd hand to finance. The same approach works on any multi-scenario question, whether that's staffing plans, program expansion, or anything else where you're weighing three futures and need to see which one hurts.
 
 ### Check the visual against your own understanding[](https://academy.claude.com/use-cases/see-budget-futures-side-by-side)
 

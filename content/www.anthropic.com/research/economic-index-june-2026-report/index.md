@@ -2,7 +2,7 @@
 
 # **Anthropic Economic Index report:**Cadences
 
-[Read in PDF](https://cdn.sanity.io/files/4zrzovbb/website/9e0eadc8097864886c5d5060ebb1f89b02ea29d6.pdf)
+[Read in PDF](https://assets.claude.com/9e0eadc8097864886c5d5060ebb1f89b02ea29d6.pdf)
 
 ![Anthropic Economic Index report: Cadences](https://assets.claude.com/13d89cc23b1c49df01735de8130bec5c5f290094.jpg?w=1920&q=75&fm=webp&fit=max)
 
@@ -39,7 +39,7 @@ To keep pace, we made several changes to our data pipeline for the Economic Inde
 - Introduce a new classifier that labels the output of each conversation.
 - Share more granular data, breaking out results for chat and Cowork conversations (together, “Claude conversations”) and the 1P API, aggregated at a monthly level.[1](https://www.anthropic.com/research/economic-index-june-2026-report)
 
-We describe additional methodological changes in the [Appendix](https://www-cdn.anthropic.com/files/4zrzovbb/website/03ed1410f74a65ae4cc2a27120d0875e1e569535.pdf). Together, these changes provide a clearer picture of how AI mirrors and diffuses into economic life.
+We describe additional methodological changes in the [Appendix](https://assets.claude.com/03ed1410f74a65ae4cc2a27120d0875e1e569535.pdf). Together, these changes provide a clearer picture of how AI mirrors and diffuses into economic life.
 
 In addition, we’ve previously lacked visibility into Claude’s impact *outside* of user sessions. How do people perceive AI to be changing their work, or the opportunities available to them? Does their usage of AI shape their expectations? In an ideal world, what would they want from AI? We report initial findings from the [Anthropic Economic Index Survey](https://www.anthropic.com/research/economic-index-survey-announcement), launched in April 2026.
 
@@ -95,7 +95,7 @@ The sample period for this report covers tax filing deadlines for people in the 
 
 ## Artifacts
 
-In this chapter, we classify each conversation on chat and Cowork (hereafter “Claude conversations”)[8](https://www.anthropic.com/research/economic-index-june-2026-report) by its artifact, which we sort into more than 30 categories. We refer to the primary output Claude produces in a conversation—a document, an explanation, a piece of code, an academic paper, and so on, whether presented in a chat window or as a separate document—as an artifact. The full list of artifacts is in the [Appendix](https://www-cdn.anthropic.com/files/4zrzovbb/website/03ed1410f74a65ae4cc2a27120d0875e1e569535.pdf).
+In this chapter, we classify each conversation on chat and Cowork (hereafter “Claude conversations”)[8](https://www.anthropic.com/research/economic-index-june-2026-report) by its artifact, which we sort into more than 30 categories. We refer to the primary output Claude produces in a conversation—a document, an explanation, a piece of code, an academic paper, and so on, whether presented in a chat window or as a separate document—as an artifact. The full list of artifacts is in the [Appendix](https://assets.claude.com/03ed1410f74a65ae4cc2a27120d0875e1e569535.pdf).
 
 Our classifier identified 93% of Claude conversations as producing an artifact (Figure 2.1).[9](https://www.anthropic.com/research/economic-index-june-2026-report) The most common artifacts are explanations (17% of conversations), documents and reports (15%), and guidance (11%). Conversational outputs (like explanations or guidance) and written deliverables (like documents or presentations) each account for about a third of conversations; code and technical work (like apps or scripts) for about a sixth.
 
@@ -153,7 +153,7 @@ Approximately two thirds of the difference is explained by the same tasks being 
 
 One might suspect this difference simply reflects model choice. Claude Code sessions run on the most capable models far more often (54% are served by Opus, against 10% of chat and Cowork conversations). However, the gap persists when we compare conversations served by the same model. For example, among conversations using Sonnet, Claude Code sessions still show 0.26 points more autonomy, suggesting that the product used is likely more important than the underlying model.
 
-Stepping back from the surface comparison, the output types where users delegate the most are the same ones that consume the most compute: across artifacts, mean autonomy and median token use rise together (r = 0.68 on chat and Cowork; [Appendix](https://www-cdn.anthropic.com/files/4zrzovbb/website/03ed1410f74a65ae4cc2a27120d0875e1e569535.pdf) Figure A.2).
+Stepping back from the surface comparison, the output types where users delegate the most are the same ones that consume the most compute: across artifacts, mean autonomy and median token use rise together (r = 0.68 on chat and Cowork; [Appendix](https://assets.claude.com/03ed1410f74a65ae4cc2a27120d0875e1e569535.pdf) Figure A.2).
 
 ### Claude answers above the level it was asked
 
@@ -201,7 +201,7 @@ It is also worth noting that reported exposure systematically exceeds observed e
 
 **Reported and anticipated exposure vs other measures**The share of tasks people say AI could do today (reported exposure, in grey) and in 12 months (anticipated exposure, in orange) plotted against observed exposure (left panel) and theoretical exposure (right panel). Each point is an occupation, with occupations containing small samples grouped with exposure neighbors to ensure privacy. Reported and anticipated exposure are computed as the midpoint of the bin selected by the survey respondent.
 
-We also examine how perceptions of AI’s current and future capabilities relate to the characteristics and usage patterns of respondents. The left panel of Figure 3.4 shows that perceptions of AI’s capabilities are negatively correlated with country GDP:[19](https://www.anthropic.com/research/economic-index-june-2026-report) the average share of tasks people report AI can do for them now is about 10 percentage points lower among high-income countries. This pattern is consistent with the possibility that AI substitutes for a larger share of the tasks that workers in lower-income countries do day-to-day, even if occupation-level exposure metrics—which tend to be higher in advanced economies—suggest otherwise. Indeed, [the IMF has noted](https://www.imf.org/-/media/files/publications/sdn/2024/english/sdnea2024001.pdf) that while advanced economies face broader AI exposure overall, workers in lower-income countries may have less access to the complementary skills and infrastructure that allow AI to augment rather than replace their work. In [earlier work](https://www-cdn.anthropic.com/7b76335c444876a93fa22a63aabb4aeb820aff25.pdf) we documented that lower-income economies tend to use Claude in more automated ways even when adjusting for differences in task mix.
+We also examine how perceptions of AI’s current and future capabilities relate to the characteristics and usage patterns of respondents. The left panel of Figure 3.4 shows that perceptions of AI’s capabilities are negatively correlated with country GDP:[19](https://www.anthropic.com/research/economic-index-june-2026-report) the average share of tasks people report AI can do for them now is about 10 percentage points lower among high-income countries. This pattern is consistent with the possibility that AI substitutes for a larger share of the tasks that workers in lower-income countries do day-to-day, even if occupation-level exposure metrics—which tend to be higher in advanced economies—suggest otherwise. Indeed, [the IMF has noted](https://www.imf.org/-/media/files/publications/sdn/2024/english/sdnea2024001.pdf) that while advanced economies face broader AI exposure overall, workers in lower-income countries may have less access to the complementary skills and infrastructure that allow AI to augment rather than replace their work. In [earlier work](https://assets.claude.com/7b76335c444876a93fa22a63aabb4aeb820aff25.pdf) we documented that lower-income economies tend to use Claude in more automated ways even when adjusting for differences in task mix.
 
 The middle panel shows that reported and anticipated exposure are also negatively correlated with years of work experience.[20](https://www.anthropic.com/research/economic-index-june-2026-report) People with at least 15 years of experience put that share of tasks AI can do roughly 10 percentage points lower than those in their first year of work. We find evidence that this may be because experienced workers have accumulated tacit or context-specific expertise that is difficult for an AI to mimic. In follow-up questions, we asked people what tasks they thought AI would never be able to do and why; the most common responses emphasized that AI lacks the judgment, contextual awareness, and situational reasoning that their work requires. Respondents, and disproportionately those with at least 15 years of experience, also pointed to the relational and interpersonal dimensions of their jobs—building trust and managing people—as things AI cannot replicate.
 
@@ -231,7 +231,7 @@ Across all six dimensions, people with a higher share of automated sessions feel
 
 **The share of people reporting positive expected impacts of AI on economic and intrinsic dimensions of job quality is higher among more automated Claude users**This figure shows coefficient estimates from linear regressions of an indicator for whether a person expected AI to have a positive effect on each of the six dimensions of job quality onto normalized AI automation share.
 
-A natural question is why automated usage and sentiment move together. It’s possible that this relationship is explained by selection, that the people most enthusiastic about AI are also the most willing to hand over entire tasks to it. We can’t rule this out entirely, but these estimates don’t meaningfully change when we control for user tenure on [Claude.ai](http://claude.ai/redirect/website.v1.0b3aba7e-841a-41e3-be54-3c3cb93deed6)—which we can think of as a proxy for enthusiasm, because it captures early versus later adopters.
+A natural question is why automated usage and sentiment move together. It’s possible that this relationship is explained by selection, that the people most enthusiastic about AI are also the most willing to hand over entire tasks to it. We can’t rule this out entirely, but these estimates don’t meaningfully change when we control for user tenure on [Claude.ai](http://claude.ai/redirect/website.v1.07105ab4-79c9-453b-a76d-9d7004d2bb80)—which we can think of as a proxy for enthusiasm, because it captures early versus later adopters.
 
 Another possibility is that people who use AI in more automated ways experience more of its benefits today. Consistent with our [previous findings](https://www.anthropic.com/research/81k-economics), large majorities of people report productivity gains in speed, scope, and quality of their work (86%, 82%, and 69%, respectively), while 27% report gains through cost savings on services they would otherwise have to purchase.
 
@@ -253,7 +253,7 @@ So far we have explored how usage patterns relate to expectations and behavior. 
 
 ### What do people hope for from an AI-transformed economy?
 
-The Anthropic Economic Index Survey surfaces a mix of positive and negative experiences and sentiments with respect to AI, but we end the survey on a hopeful note. The final open-ended question asks respondents to “dream big: what do you hope an economy shaped by AI looks like in ten years?” We ran each survey response through a classifier which tagged responses with relevant themes. We show the top five most commonly cited themes below. Additional descriptions of each can be found in the [Appendix.](https://www-cdn.anthropic.com/files/4zrzovbb/website/03ed1410f74a65ae4cc2a27120d0875e1e569535.pdf)
+The Anthropic Economic Index Survey surfaces a mix of positive and negative experiences and sentiments with respect to AI, but we end the survey on a hopeful note. The final open-ended question asks respondents to “dream big: what do you hope an economy shaped by AI looks like in ten years?” We ran each survey response through a classifier which tagged responses with relevant themes. We show the top five most commonly cited themes below. Additional descriptions of each can be found in the [Appendix.](https://assets.claude.com/03ed1410f74a65ae4cc2a27120d0875e1e569535.pdf)
 
 ![](https://assets.claude.com/b678b24653b9fde7bc5eb453755cc417f87a9ab0.png?w=3840&q=75&fm=webp&fit=max)
 
@@ -273,7 +273,7 @@ Accurately classifying the work that Claude does will remain a moving target. Fo
 
 ## Appendix
 
-Available [here.](https://www-cdn.anthropic.com/files/4zrzovbb/website/03ed1410f74a65ae4cc2a27120d0875e1e569535.pdf)
+Available [here.](https://assets.claude.com/03ed1410f74a65ae4cc2a27120d0875e1e569535.pdf)
 
 ## Footnotes
 
@@ -285,7 +285,7 @@ Available [here.](https://www-cdn.anthropic.com/files/4zrzovbb/website/03ed1410f
 
 04"First-party API" or 1P API refers to developer traffic routed directly through Anthropic's own programming interface, which is distinct from both Anthropic's consumer-facing Claude.ai application and third-party platforms such as Amazon Bedrock or Google Cloud Vertex. It does not include Claude Code.
 
-05See our [Sonnet 3.7 report](https://www.anthropic.com/news/anthropic-economic-index-insights-from-claude-sonnet-3-7) and the [Appendix.](https://cdn.sanity.io/files/4zrzovbb/website/8eb31e1d187ff18146d248bbef8b2754971f0f5a.pdf)
+05See our [Sonnet 3.7 report](https://www.anthropic.com/news/anthropic-economic-index-insights-from-claude-sonnet-3-7) and the [Appendix.](https://assets.claude.com/8eb31e1d187ff18146d248bbef8b2754971f0f5a.pdf)
 
 06We defined entrepreneurial activity as the share of conversations whose detailed request cluster is Entrepreneurship, Side income ideation, Capital raising, Creator monetization, E-commerce, Business models, Healthcare business, Social enterprise, or Event business. Resume activity are conversations where the artifact classifier classified the output as a resume or job application.
 

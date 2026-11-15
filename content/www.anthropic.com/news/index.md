@@ -2,7 +2,7 @@
 
 Latest news
 
-November 14, 2026
+November 15, 2026
 
 [Announcements](https://www.anthropic.com/news/announcements)
 

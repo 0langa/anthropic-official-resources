@@ -12,7 +12,7 @@ Get Claude in ChromeCopy prompt
 
 ## 1. Describe the task[](https://academy.claude.com/use-cases/prepare-and-plan-from-your-calendar)
 
-Claude for Chrome lets Claude interact directly with web pages—reading content, clicking, typing, and navigating sites on your behalf. For calendar prep, this means Claude can open your Google Calendar, check each meeting's attendee list, switch to Gmail to search for relevant threads with those people, and even book conference rooms.
+Claude in Chrome lets Claude interact directly with web pages—reading content, clicking, typing, and navigating sites on your behalf. For calendar prep, this means Claude can open your Google Calendar, check each meeting's attendee list, switch to Gmail to search for relevant threads with those people, and even book conference rooms.
 
 Point Claude at your Google Calendar and tell it what to look for. It handles the cross-referencing between calendar and email, surfaces what needs your attention, and can fix the gaps.
 
@@ -43,7 +43,7 @@ Claude reviews each meeting and gives you a prep summary organized by what needs
 
 **Tomorrow: Wednesday, December 18**
 
-You have **6 meetings**. Here's what I found:
+You have **7 meetings**. Here's what I found:
 
 **Needs Prep (External Meetings)**
 

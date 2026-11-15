@@ -55,8 +55,6 @@ When you make an initial request, Claude performs all the usual preprocessing bu
 
 ## Key Benefits and Limitations[](https://academy.claude.com/courses/building-with-the-claude-api/prompt-caching)
 
-![Diagram where the initial request writes "Work done to process message" into the cache and the follow up request reads it.](https://academy.claude.com/assets/media/78e580715d88f89b2704b59d9cf39db06990cf031d081efff2b72ba6df0d1603.jpg)
-
 Prompt caching offers several advantages:
 
 - **Faster responses:** Requests using cached content execute more quickly

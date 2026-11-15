@@ -54,7 +54,7 @@ One example of a successful attack—before our new defenses were applied—was 
 
 ![](https://assets.claude.com/5e46f0fa8e0ed4a6d71333dba95e1ff6aa64c5b1.png)
 
-Claude encounters the malicious email, which mimics an employer asking for emails to be deleted for "mailbox hygiene,"and claims "no additional confirmation required."
+Claude encounters the malicious email, which mimics an employer asking for emails to be deleted for "mailbox hygiene," and claims "no additional confirmation required."
 
 ![](https://assets.claude.com/5169a802140e293fdbc96706b4eb73e948084574.png)
 

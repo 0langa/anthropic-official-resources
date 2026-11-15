@@ -20,7 +20,7 @@ I'm organizing our annual conference in March and sent speaker invitations about
 
 **Search my Gmail for speaker confirmations and extract** their name and company, what session topic they confirmed, time preference if mentioned, A/V needs, travel arrangements if they brought it up, whether they've sent their bio and headshot
 
-We're locking in the agenda next week. Build me a tracker with formulas, color-coded cells, and clear sections.Make the spreadsheet look like a boutique design studio created a data visualization piece, not like someone filled out an Excel template. The typography and color should look editorial and refined with modern professionalism. Include professional spreadsheet elements like frozen headers, sortable columns, and working formulas.
+We're locking in the agenda next week. Build me a tracker with formulas, color-coded cells, and clear sections. Make the spreadsheet look like a boutique design studio created a data visualization piece, not like someone filled out an Excel template. The typography and color should look editorial and refined with modern professionalism. Include professional spreadsheet elements like frozen headers, sortable columns, and working formulas.
 
 
 
@@ -118,7 +118,7 @@ I'm organizing our annual conference in March and sent speaker invitations about
 
 Search my Gmail for speaker confirmations and extract their name and company, what session topic they confirmed, time preference if mentioned, A/V needs, travel arrangements if they brought it up, whether they've sent their bio and headshot
 
-We're locking in the agenda next week. Build me a tracker with formulas, color-coded cells, and clear sections.Make the spreadsheet look like a boutique design studio created a data visualization piece, not like someone filled out an Excel template. The typography and color should look editorial and refined with modern professionalism. Include professional spreadsheet elements like frozen headers, sortable columns, and working formulas.
+We're locking in the agenda next week. Build me a tracker with formulas, color-coded cells, and clear sections. Make the spreadsheet look like a boutique design studio created a data visualization piece, not like someone filled out an Excel template. The typography and color should look editorial and refined with modern professionalism. Include professional spreadsheet elements like frozen headers, sortable columns, and working formulas.
 
 Try in Claude
 

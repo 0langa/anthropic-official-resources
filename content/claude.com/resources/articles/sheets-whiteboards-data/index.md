@@ -45,7 +45,7 @@ Starting today, [interactive connectors (opens in new tab)](https://claude.com/r
 
 Claude Whiteboards, Sheets, and Data work on web, desktop, and mobile. Claude Data needs a data connector, such as a warehouse or CRM.
 
-**For admins:** On Team plans, all three are on by default. On Enterprise plans, Claude Whiteboards and Sheets are off by default, and Claude Data turns on by default on November 19, 2026. You can change these anytime in Organization settings > Artifacts.
+**For admins:** On Team plans, all three are on by default. On Enterprise plans, Claude Whiteboards and Sheets are off by default, and Claude Data turns on by default on November 20, 2026. You can change these anytime in Organization settings > Artifacts.
 
 ## Related articles
 

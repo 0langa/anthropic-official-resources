@@ -2,7 +2,7 @@
 
 # What work can robots do?
 
-[Download the PDF](https://cdn.sanity.io/files/4zrzovbb/website/401a473469db99fd39bba1ca6d9a5653a70e2f12.pdf)
+[Download the PDF](https://assets.claude.com/401a473469db99fd39bba1ca6d9a5653a70e2f12.pdf)
 
 ![What work can robots do?](https://assets.claude.com/cf4343e7048637bd6328dab91ad6a02afd51bbcf.jpg?w=1920&q=75&fm=webp&fit=max)
 
@@ -246,7 +246,7 @@ Much remains uncertain about how robots and AI could reshape the economy. Growth
 
 ## **Appendix**
 
-Available [here](https://www-cdn.anthropic.com/files/4zrzovbb/website/d27288375b0ac486cb9da0a30a94423b36ff0443.pdf).
+Available [here](https://assets.claude.com/d27288375b0ac486cb9da0a30a94423b36ff0443.pdf).
 
 #### Data availability
 

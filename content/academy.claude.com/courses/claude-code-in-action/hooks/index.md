@@ -26,7 +26,7 @@ That's the whole pitch. Now let's look at how it actually works.
 
 ## The hook events[](https://academy.claude.com/courses/claude-code-in-action/hooks)
 
-Claude Code fires around 30 hook events over the course of a session. You don't need to know all of them. There's a small handful you'll reach for again and again, and they line up with points in the agentic loop where you'd want to step in.
+Claude Code fires around 30 hook events over the course of a session. You don't need to know all of them, and the [hooks reference(opens in new tab)](https://code.claude.com/docs/en/hooks) lists every one. There's a small handful you'll reach for again and again, and they line up with points in the agentic loop where you'd want to step in.
 
 Here's how they sit in the loop. A session starts, prompts come in, tools get called, and the turn eventually ends. Each of those moments has a hook you can hang code on.
 
@@ -60,7 +60,20 @@ json
   "hookSpecificOutput": {
     "hookEventName": "PreToolUse",
     "permissionDecision": "deny",
-    "permissionDecisionReason": "...",
+    "permissionDecisionReason": "Don't push to main. Open a pull request instead."
+  }
+}
+```
+
+Instead of blocking a call, you can rewrite it. Return `allow` or `ask` with `updatedInput`. With `ask`, you see the rewritten call and approve it. With `allow`, it runs without a prompt:
+
+json
+
+```
+{
+  "hookSpecificOutput": {
+    "hookEventName": "PreToolUse",
+    "permissionDecision": "ask",
     "updatedInput": {
       "command": "..."
     }
@@ -68,7 +81,7 @@ json
 }
 ```
 
-Notice `updatedInput`. Instead of blocking a call, you can rewrite it. That's how you'd redact a secret out of a bash command and still let it run. One catch: `updatedInput` replaces the *whole* input object, so you have to echo back the fields you aren't changing, or you'll lose them.
+That's how you'd redact a secret out of a bash command and still let it run. One catch: `updatedInput` replaces the *whole* input object, so you have to echo back the fields you aren't changing, or you'll lose them.
 
 ## Exit codes, for hooks that don't return JSON[](https://academy.claude.com/courses/claude-code-in-action/hooks)
 
@@ -84,17 +97,72 @@ A couple more wrinkles. Exit 2 can even block Stop, which is how you tell Claude
 
 ## A real guardrail: redact instead of block[](https://academy.claude.com/courses/claude-code-in-action/hooks)
 
-Let's tie it together with something practical. Say you want a PreToolUse guardrail on the Bash tool. The matcher picks the tool to watch, and an optional `if` clause can narrow it to a specific command.
+Let's tie it together with something practical. Say you want a PreToolUse guardrail on the Bash tool. You register a hook in a settings file. Put this one in `.claude/settings.json` and commit it, and your team can share it:
+
+json
+
+```
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PROJECT_DIR}/.claude/hooks/redact-secrets.sh",
+            "args": []
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+The `matcher` picks the tool to watch, and an optional `if` field on the hook can narrow it to a specific command, such as `"if": "Bash(curl *)"`. Run `/hooks` to check that the hook is registered.
 
 The obvious move is to return `deny` and stop a dangerous call. That's good. But the lesser-known and more interesting move is to return `updatedInput` to rewrite the call. That's how you strip a secret out of a command and still let it run, instead of just refusing.
 
 Here's what that looks like in practice. Claude is asked to run a command that includes a live-looking secret. The hook intercepts it, spots the `sk_live_` pattern, and swaps it for a placeholder before the command ever executes.
 
-The command still ran. The work still got done. But the secret never made it through. That's the difference between blocking and redacting, and it's the kind of thing a hook can enforce every single time.
+Here's the script, `.claude/hooks/redact-secrets.sh`. It needs `jq`, and you make it executable with `chmod +x`:
+
+bash
+
+```
+#!/bin/bash
+# Replaces live-looking keys before the command runs.
+jq 'if (.tool_input.command // "" | test("sk_live_\\w+")) then {
+  hookSpecificOutput: {
+    hookEventName: "PreToolUse",
+    permissionDecision: "ask",
+    permissionDecisionReason: "Replaced a live key with a placeholder",
+    updatedInput: (.tool_input | .command |= gsub("sk_live_\\w+"; "REDACTED"))
+  }
+} else empty end'
+```
+
+It returns `ask`, so you approve the rewritten command. Returning `allow` would skip that prompt for every command the pattern matches. Once you approve it, the command runs without the secret. That's the difference between blocking and redacting, and it's the kind of thing a hook can enforce every single time.
 
 ## Preserving state across a compact[](https://academy.claude.com/courses/claude-code-in-action/hooks)
 
-One more pattern worth setting up. When Claude compacts a long conversation, it drops a lot of detail. A SessionStart hook with the `compact` matcher runs right after compaction. Have it print a short summary of the files you've been working on. That summary goes back into context, so Claude picks up where it left off instead of starting cold.
+One more pattern worth setting up. When Claude compacts a long conversation, it drops a lot of detail. A SessionStart hook with the `compact` matcher runs right after compaction. Have it print a short summary of the files you've been working on. That summary goes back into context, so Claude picks up where it left off instead of starting cold. This one lists your uncommitted changes:
+
+json
+
+```
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "compact",
+        "hooks": [{ "type": "command", "command": "git status --short" }]
+      }
+    ]
+  }
+}
+```
 
 ## Wrapping up[](https://academy.claude.com/courses/claude-code-in-action/hooks)
 

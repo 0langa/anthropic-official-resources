@@ -20,7 +20,7 @@ I'm working on a healthcare deal - mid-market, around 180 employees, about $60K.
 
 Can you pull similar healthcare deals we've closed in the last year or two? I want to see what these typically look like - how long they take, what we usually close at and typical issues that come up. If there are reps who've done deals like this, I should probably talk to them.
 
-Create an artifact I can scan before my next call to feel the most prepared. This artifact should follow top-tier design standards. Create a industry-leading MedTech company meets top creative agency aesthetic.
+Create an artifact I can scan before my next call to feel the most prepared. This artifact should follow top-tier design standards. Create an industry-leading MedTech company meets top creative agency aesthetic.
 
 
 
@@ -115,13 +115,13 @@ The prompt includes specific markers like "top-tier design" and "industry-leadin
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/prepare-for-sales-deals)
 
-Connect Claude to your CRM to pull comparable deals in seconds, understand what worked, and walk into sales conversations with context about matters for this situation.
+Connect Claude to your CRM to pull comparable deals in seconds, understand what worked, and walk into sales conversations with context about what matters for this situation.
 
 I'm working on a healthcare deal - mid-market, around 180 employees, about $60K. They're interested in our patient engagement platform but worried about integration into their current system and how long implementation takes.
 
 Can you pull similar healthcare deals we've closed in the last year or two? I want to see what these typically look like - how long they take, what we usually close at and typical issues that come up. If there are reps who've done deals like this, I should probably talk to them.
 
-Create an artifact I can scan before my next call to feel the most prepared. This artifact should follow top-tier design standards. Create a industry-leading MedTech company meets top creative agency aesthetic.
+Create an artifact I can scan before my next call to feel the most prepared. This artifact should follow top-tier design standards. Create an industry-leading MedTech company meets top creative agency aesthetic.
 
 Try in Claude
 

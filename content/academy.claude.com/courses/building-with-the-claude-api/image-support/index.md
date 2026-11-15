@@ -32,6 +32,8 @@ To send an image to Claude, you include an image block in your user message alon
 python
 
 ```
+import base64
+
 with open("image.png", "rb") as f:
     image_bytes = base64.standard_b64encode(f.read()).decode("utf-8")
 

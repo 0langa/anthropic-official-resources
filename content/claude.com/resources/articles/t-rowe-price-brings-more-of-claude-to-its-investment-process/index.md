@@ -18,7 +18,7 @@ The firm is using Claude for three areas of the investment process:
 
 - **Research.** Investment professionals ask Cowork to synthesize complex information, which leaves more time for analysis and debate.
 - **Multi-step processes.** Teams work with Cowork on knowledge-intensive tasks where consistency and oversight matter.
-- **Tool building.** Developers work with Claude Code to build and improve build and improve tools that support investment and operating teams.
+- **Tool building.** Developers work with Claude Code to build and improve tools that support investment and operating teams.
 
 All of this runs under the AI leadership model T. Rowe Price announced in August, which places AI leaders inside Investments and Global Distribution and charges T. Rowe Price Labs, the firm’s enterprise AI and data innovation hub, with evaluating and scaling AI across the firm. Each application is owned by the business, governed by the firm's standards for responsible use, and built so that human judgment and accountability stay at the center of client outcomes.
 
@@ -28,7 +28,7 @@ Eric Veiel, President, Co-head of Global Investments, and Chief Investment Offic
 
 ## **What's next**
 
-This work fits into T. Rowe Price’s broader AI efforts, which include training, talent development, and responsible-use guidance to help associates build confidence using AI while keeping human judgment and client focus front and center.The firm's stated ambition is to lead the investment management industry in how AI is applied to investing, to running the firm, and to serving clients.
+This work fits into T. Rowe Price’s broader AI efforts, which include training, talent development, and responsible-use guidance to help associates build confidence using AI while keeping human judgment and client focus front and center. The firm's stated ambition is to lead the investment management industry in how AI is applied to investing, to running the firm, and to serving clients.
 
 ***Get started with [Claude Enterprise](https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan) today.***
 
@@ -36,7 +36,13 @@ This work fits into T. Rowe Price’s broader AI efforts, which include training
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 9, 2026
+[ArticleNov 12, 2026
+
+### J. Crew brings its signature approach to styling to life with Claude
+
+J.Crew's new Style Advisor uses Claude to offer a more personalized way to shop online, with complete looks instead of individual products.
+
+Claude Code](https://claude.com/resources/articles/j-crew-style-advisor-with-claude)[ArticleNov 9, 2026
 
 ### JPMorganChase expands Claude Code to more employees across the firm
 
@@ -50,13 +56,7 @@ Claude CoworkClaude Code1 more: Claude EnterpriseClaude Enterprise](https://clau
 
 ### HCLTech joins the Claude Partner Network as a Global Premier partner
 
-HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)[ArticleSep 28, 2026
-
-### A new approach to agent security with Claude Managed Agents and NVIDIA
-
-Note: This blog has been updated from its original version to include additional technical details on Claude Managed Agents.
-
-Claude Platform](https://claude.com/resources/articles/giving-companies-more-control-over-their-ai-agents-with-nvidia)
+HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.](https://claude.com/resources/articles/hcltech-joins-claude-partner-network)
 
 ## Transform how your organization operates with Claude
 

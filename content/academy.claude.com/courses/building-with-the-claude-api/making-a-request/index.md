@@ -50,6 +50,8 @@ client = Anthropic()
 model = "claude-haiku-4-5"
 ```
 
+Keep this model and package version for the whole course. Newer ones reject settings that later lessons teach, such as `temperature` and prefilled assistant messages.
+
 ## The Create Function[](https://academy.claude.com/courses/building-with-the-claude-api/making-a-request)
 
 The core of making API requests is the `client.messages.create()` function. This function requires three key parameters:

@@ -20,6 +20,8 @@ In this example, we're creating an MCP server that manages documents stored in m
 
 ## Setting Up the MCP Server[](https://academy.claude.com/courses/building-with-the-claude-api/defining-tools-with-mcp)
 
+The project uses version 1 of the MCP Python SDK, and its setup installs that version for you. If you set up your own project, install `"mcp[cli]<2"`. Version 2 renamed `FastMCP` to `MCPServer`, so the import below fails on it.
+
 The Python MCP SDK makes server creation incredibly straightforward. You can initialize a complete MCP server with just one line:
 
 python

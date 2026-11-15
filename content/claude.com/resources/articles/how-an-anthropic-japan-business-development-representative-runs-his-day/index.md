@@ -28,7 +28,7 @@ In this post, I'll walk through how I designed and prototyped the fleet, why I m
 I divided up my workflow across several agents and gave every agent one clear job. A single responsibility keeps each one easy to reason about and easy to track, especially when something is off. I also gave every agent a Japanese name, because they mostly work in Japanese. Together they're called the *Nakama*, "the crew," or more literally, the companions you work with:
 
 - ***Furiwake*** ("sorting") kicks off first: it reads the daily inbound queue and routes each lead to the right rep on the team, balancing the number of leads and the priority of each one and checking who's in that day, so every lead has an owner before any of us start our day. At the end of each run it posts a report to a dedicated Slack channel (every lead in, every lead assigned) so I can track the handoff.
-- ***Sabaki*** ("handling") triages the leads that are assigned to me: it qualifies each lead, categorizes it against pre-set criteria, takes the defined next step for that category (draft a reply pointing them to to self-serve, craft a customized first email), updates the lead record in Salesforce, and drafts the first-touch email. It sources the draft's contents from the *Nakama*'s shared knowledge base, a [memory store (opens in new tab)](https://claude.com/resources/articles/claude-managed-agents-memory) every agent reads and writes (more on this below).
+- ***Sabaki*** ("handling") triages the leads that are assigned to me: it qualifies each lead, categorizes it against pre-set criteria, takes the defined next step for that category (draft a reply pointing them to self-serve, craft a customized first email), updates the lead record in Salesforce, and drafts the first-touch email. It sources the draft's contents from the *Nakama*'s shared knowledge base, a [memory store (opens in new tab)](https://claude.com/resources/articles/claude-managed-agents-memory) every agent reads and writes (more on this below).
 - ***Henji*** ("reply") scans my inbox hourly for customer emails that need a response and prepares a draft reply in Japanese or English, depending on the thread, drawing on the same knowledge base as *Sabaki*. I can review, edit, and send the draft.
 - ***Shoudan*** ("opportunity") reads recent customer interactions and pushes updates into [Salesforce](https://claude.com/resources/articles/salesforce-in-claude), so opportunity records stay current without manual data entry.
 - ***Nokori*** ("what remains") runs at the end of the day: it scans my calendar, reads the attached meeting transcripts, summarizes each meeting, and drafts the follow-ups, again from the same knowledge base.
@@ -109,7 +109,13 @@ Three things I'd pass on to anyone building their own fleet.
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 12, 2026
+[ArticleNov 13, 2026
+
+### Building always-on agents
+
+Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
+
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
 
 ### The Claude Tag guide for startups
 
@@ -127,15 +133,7 @@ Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-i
 
 How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
 
-(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)[ArticleNov 9, 2026
-
-### Which Claude model should you build with?
-
-How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.
-
-Claude PlatformClaude Code
-
-(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)
+(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
 
 ## Transform how your organization operates with Claude
 

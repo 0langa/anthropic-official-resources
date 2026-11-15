@@ -74,6 +74,8 @@ For a Markdown document, you can split on header markers:
 python
 
 ```
+import re
+
 def chunk_by_section(document_text):
     pattern = r"\n## "
     return re.split(pattern, document_text)

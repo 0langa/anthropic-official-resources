@@ -132,7 +132,7 @@ Notice it's `events` — plural. Events are how everything flows in this API.
 
 ## Step 5: Consume the stream[](https://academy.claude.com/courses/claude-platform-101/building-your-first-managed-agent)
 
-Finally, we consume the stream. There are three event types that matter for this demo:
+Finally, we consume the stream, still inside the `with` block from step 4. There are three event types that matter for this demo:
 
 - `agent.message` — Claude's text
 - `agent.tool_use` — what tool Claude picked

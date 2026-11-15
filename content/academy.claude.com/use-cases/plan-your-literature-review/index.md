@@ -112,7 +112,7 @@ Connect the Google Drive integration so Claude can search your existing collecti
 
 ### Use design language for better outputs[](https://academy.claude.com/use-cases/plan-your-literature-review)
 
-The prompt includes design language throughout, with phrases like "beautifully designed”, “professional formatting”, and “premium research tool”. Without design cues, Claude opts for default styling. With specific prompting, Claude can apply unique typography, color, and formatting choices.
+The prompt includes design language throughout, with phrases like "beautifully designed”, “premium research tool”, and “clear visual hierarchy”. Without design cues, Claude opts for default styling. With specific prompting, Claude can apply unique typography, color, and formatting choices.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/plan-your-literature-review)
 

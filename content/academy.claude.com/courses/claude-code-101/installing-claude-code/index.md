@@ -19,15 +19,29 @@ terminal, on the web, or in your IDE.
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=0kILa02vKuI)
 
+You need a Pro, Max, Ultra, Team, or Enterprise plan, a Claude Console account, or access through a supported cloud provider such as Amazon Bedrock. The free plan doesn't include Claude Code.
+
 ## Terminal[](https://academy.claude.com/courses/claude-code-101/installing-claude-code)
 
-On **macOS, Linux, or WSL**, use the curl command to install it in one go. If you prefer Homebrew, you can also use `brew install`, but note that this method doesn't auto-update by default.
+On **macOS, Linux, or WSL**, run this in your terminal:
 
-On **Windows**, there are a few options. In PowerShell, use the `Invoke-RestMethod` command. In CMD, use the curl command. There's also a winget command available, though like Homebrew, it won't auto-update by default.
+`curl -fsSL https://claude.ai/install.sh | bash`
+
+If you prefer Homebrew, run `brew install --cask claude-code`, but note that this method doesn't auto-update by default.
+
+On **Windows**, run this in PowerShell, where your prompt starts with `PS`:
+
+`irm https://claude.ai/install.ps1 | iex`
+
+In CMD, run this instead:
+
+`curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd`
+
+You can also run `winget install Anthropic.ClaudeCode`, though like Homebrew, it won't auto-update by default.
 
 ![Terminal showing Claude Code successfully installed via curl](https://academy.claude.com/assets/media/1d77aec524053a8a70e5fd7cc1513d9a179be737f93093001ca96f1f1aaa9fa2.jpg)
 
-After installation, you should be able to run the `claude` command. If not, restart your terminal. Navigate to your project directory and run:
+After installation, you should be able to run the `claude` command. If not, open a new terminal window, and if that doesn't help, look up the error in [Troubleshoot installation and login(opens in new tab)](https://code.claude.com/docs/en/troubleshoot-install). Navigate to your project directory and run:
 
 `claude`
 
@@ -49,7 +63,7 @@ The VS Code extension provides a very similar experience to the terminal. You ca
 
 ## JetBrains[](https://academy.claude.com/courses/claude-code-101/installing-claude-code)
 
-Install the Claude Code plugin from the JetBrains Marketplace. After installation, restart your IDE. When you reopen it, you'll see the Claude logo. Clicking it opens a pane with the terminal experience that works alongside your editor.
+The plugin runs the `claude` command, so install Claude Code in your terminal first. Then install the [Claude Code plugin(opens in new tab)](https://plugins.jetbrains.com/plugin/27310-claude-code-beta-) from the JetBrains Marketplace and restart your IDE. When you reopen it, you'll see the Claude logo. Clicking it opens a pane with the terminal experience that works alongside your editor.
 
 ![Claude Code plugin in the JetBrains Marketplace](https://academy.claude.com/assets/media/a7656728ab6cf289ed0d6a523c2f0b230053e7e69908e77675603f69da0eed2d.jpg)
 
@@ -57,7 +71,7 @@ Install the Claude Code plugin from the JetBrains Marketplace. After installatio
 
 If your organization manages your computer, the Claude desktop app may already be installed. If it isn't, ask your IT team how to get it. On your own computer, [download the desktop app(opens in new tab)](https://claude.com/download) for macOS, Windows, or Linux (beta). The desktop app includes Claude Code, so you don't need the terminal install above to use it. The Code tab needs a paid plan: Pro, Max, Ultra, Team, or Enterprise.
 
-After installing and signing into Claude Desktop, you'll see a tab at the top labeled "Code." The look and feel is similar to the chat side of things, but it lets you work in a specific folder, change permissions, and even work in a cloud environment.
+After installing and signing into Claude Desktop, open the "Code" tab at the top of the sidebar. The look and feel is similar to the chat side of things, but it lets you work in a specific folder, change permissions, and even work in a cloud environment.
 
 ![Claude Desktop Code view showing recent project folders](https://academy.claude.com/assets/media/c90ed7e7f396c11d7fa195f4fb8a624f471bb1d84131fab14e1c6d80daa2f7a4.jpg)
 

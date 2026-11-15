@@ -2,7 +2,7 @@
 
 [Read Transformer Circuits](https://transformer-circuits.pub/2024/features-as-classifiers/index.html)
 
-![Using dictionary learning features as classifiers](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdf3ad23faf91cbf57c0ce7245bee2b1b5eb9ec3a-2000x1125.jpg&w=1920&q=75)
+![Using dictionary learning features as classifiers](https://assets.claude.com/7b4f46c7e04db69e2c5ffce79b62f669bae7578b.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Oct 16, 2024

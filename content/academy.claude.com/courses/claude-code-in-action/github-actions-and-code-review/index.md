@@ -35,7 +35,7 @@ From there the Owner installs the Claude GitHub app, picks which repos it watche
 
 Once it's on, everything runs on Anthropic's infrastructure. A set of review agents analyzes the diff against your full codebase, not just the changed lines in isolation. Then it posts findings as inline comments on the specific lines, tagged by severity, with a summary table in the check run.
 
-Here's what one of those findings looks like. It lands as a comment from Claude, right on the line, with a clear explanation and a suggested fix.
+Each finding lands as a comment from Claude, right on the line, with a clear explanation and a suggested fix.
 
 The nice part is it deduplicates and ranks the findings. So instead of a wall of nitpicks, you read a handful of real issues worth your attention.
 
@@ -66,23 +66,66 @@ The action itself is `anthropics/claude-code-action@v1`. Here are the inputs you
 
 ## A workflow that responds to @claude[](https://academy.claude.com/courses/claude-code-in-action/github-actions-and-code-review)
 
-Drop a workflow into `.github/workflows/claude.yaml` and it listens for `@claude` on PR comments and issue comments. Under the job's `permissions`, grant `id-token: write` so the action can sign in as the Claude GitHub app. The core step looks like this:
+Drop a workflow into `.github/workflows/claude.yaml` and it listens for `@claude` on PR comments and issue comments. Here's the whole file. The `id-token: write` permission lets the action sign in as the Claude GitHub app:
 
 yaml
 
 ```
-- uses: anthropics/claude-code-action@v1
-  with:
-    anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
-    trigger_phrase: "@claude"
-    claude_args: "--max-turns 5 --model claude-sonnet-5"
+name: Claude Code
+on:
+  issue_comment:
+    types: [created]
+  pull_request_review_comment:
+    types: [created]
+jobs:
+  claude:
+    if: contains(github.event.comment.body, '@claude')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      id-token: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+      - uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_args: "--max-turns 5 --model claude-sonnet-5"
 ```
 
 Now someone writes `@claude implement the spec in the linked Linear issue` on a pull request, and the action picks it up. Claude pushes commits and posts comments describing what it did.
 
 ## A workflow that runs on a schedule[](https://academy.claude.com/courses/claude-code-in-action/github-actions-and-code-review)
 
-The same action works for a daily rollup. A cron trigger fires at, say, 9:00 UTC, the action runs your `prompt`, and you read the rollup in that run's log. A scheduled run doesn't post a comment on its own. You can also add a `workflow_dispatch` trigger so you can kick it off manually from the Actions tab.
+The same action works for a daily rollup. A cron trigger fires at, say, 9:00 UTC, the action runs your `prompt`, and you read the rollup in that run's log. A scheduled run doesn't post a comment on its own. You can also add a `workflow_dispatch` trigger so you can kick it off manually from the Actions tab:
+
+yaml
+
+```
+name: Daily report
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: read
+      id-token: write
+    steps:
+      - uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: "Generate a summary of yesterday's commits and open issues"
+          claude_args: |
+            --allowedTools "mcp__github__list_commits,mcp__github__list_issues"
+```
 
 When the action runs, you can watch it work through the steps in the Actions tab, just like any other GitHub workflow.
 

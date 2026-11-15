@@ -57,6 +57,8 @@ This is a perfect use case for the **Messages API**. The flow looks like this:
 python
 
 ```
+import anthropic
+
 client = anthropic.Anthropic()
 
 response = client.messages.create(
@@ -68,7 +70,7 @@ response = client.messages.create(
     ],
 )
 
-draft = response.content
+draft = "".join(block.text for block in response.content if block.type == "text")
 ```
 
 Each parameter does a specific job:

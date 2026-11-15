@@ -198,7 +198,7 @@ Claude Sonnet 5 is available everywhere today at $2 per million input tokens and
 
 *Edit June 30, 2026:* In the original version of this post, we included a cost-performance chart for the BrowseComp evaluation that was based on data from a simpler methodology that did not reflect the [standard methodology](https://platform.claude.com/cookbook/evals-agentic-search-reproduce-agentic-search-benchmarks) we use for agentic search evaluations. This had the result of underestimating Sonnet 5's performance on the evaluation.
 
-We have now updated the chart so that it matches the methodology that we used and discussed in the [Sonnet 5 system card](https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf) (which used a 10M token budget with compaction and programmatic tool calling). We have also updated the surrounding text.
+We have now updated the chart so that it matches the methodology that we used and discussed in the [Sonnet 5 system card](https://assets.claude.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e.pdf) (which used a 10M token budget with compaction and programmatic tool calling). We have also updated the surrounding text.
 
 ## Footnotes
 

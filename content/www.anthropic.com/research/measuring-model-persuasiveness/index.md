@@ -158,7 +158,7 @@ url = {https://www.anthropic.com/news/measuring-model-persuasiveness},
 
 ### Policy Memo
 
-[Measuring the Persuasiveness of Language Models](https://www-cdn.anthropic.com/files/4zrzovbb/website/5f5bf833a83e4c85550768e8b16ff282f268d7a3.pdf)
+[Measuring the Persuasiveness of Language Models](https://assets.claude.com/5f5bf833a83e4c85550768e8b16ff282f268d7a3.pdf)
 
 ## Footnotes
 

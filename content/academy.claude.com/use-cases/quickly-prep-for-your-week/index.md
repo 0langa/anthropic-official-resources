@@ -14,13 +14,13 @@ Try in ClaudeCopy prompt
 
 Planning your week typically means opening your calendar, scanning your inbox, maybe checking a few documents—then trying to mentally synthesize which meetings need prep, what's urgent, and how to distribute your time. Claude can read through your calendar and inbox simultaneously, identify connections you'd miss while context-switching between tools, and create a structured overview showing what needs attention and when you actually have time to handle it.
 
-To start, tell Claude which dates to analyze, where to search, and what the format for the output document.
+To start, tell Claude which dates to analyze, where to search, and what format to use for the output document.
 
 Help me plan my upcoming week: October 21-25.
 
 Using my M365 connector look at my Outlook calendar and find all meetings that need prep, or where I'm making decisions. Show me where I'm overbooked, where I have real focus time, and any scheduling problems I need to fix now.
 
-From my Outlook inbox and summarize any weekend emails I need to handle, any threads from last week that become urgent this week if ignored, and anyone blocked waiting for my response.
+From my Outlook inbox, summarize any weekend emails I need to handle, any threads from last week that become urgent this week if ignored, and anyone blocked waiting for my response.
 
 Create an overview document of my must-dos, daily structure, preparation I still need to do, blocks of time I need for deep work, and email triage of high-priority vs can-wait.
 
@@ -84,7 +84,7 @@ Calendar shows 65% booked. Reality: 85% with prep time. Monday 11 AM-12:30 PM is
 
 **Your Emails:**
 
-Found 11 emails requiring action:
+Found 15 emails requiring action:
 
 - Urgent (respond today): Sarah Chen: budget data - sent Fri 4:47 PM, 2 follow-ups, blocking Q4 forecast, Legal: contract signature - Tuesday deadline, IT: software access - 2 weeks old, likely blocking someone
 - High priority (this week): Engineering roadmap comments - Tuesday meeting agenda depends on this, CFO Q3 numbers - needs tonight for Wed board presentation, Design team: rebrand timeline - before Thu meeting, Customer Success: expansion deal - time-sensitive
@@ -127,7 +127,7 @@ Draft three email responses: Reply to Finance (confirm I'll send the Q3 budget v
 
 After seeing which meetings need prep, Claude can search email threads, SharePoint documents, and OneDrive files to gather relevant background. It pulls context from where your work actually lives rather than you hunting through each system.
 
-For my Thursday board meeting, search my emails and documents for budget discussions, Q3 performance data, and board questions sent ahead. Create a one-page brief: decisions they expect, questions raised in advance, key numbers needed, topics requiring more input.
+For my Wednesday board meeting, search my emails and documents for budget discussions, Q3 performance data, and board questions sent ahead. Create a one-page brief: decisions they expect, questions raised in advance, key numbers needed, topics requiring more input.
 
 
 
@@ -169,7 +169,7 @@ Help me plan my upcoming week: October 21-25.
 
 Using my M365 connector look at my Outlook calendar and find all meetings that need prep, or where I'm making decisions. Show me where I'm overbooked, where I have real focus time, and any scheduling problems I need to fix now.
 
-From my Outlook inbox and summarize any weekend emails I need to handle, any threads from last week that become urgent this week if ignored, and anyone blocked waiting for my response.
+From my Outlook inbox, summarize any weekend emails I need to handle, any threads from last week that become urgent this week if ignored, and anyone blocked waiting for my response.
 
 Create an overview document of my must-dos, daily structure, preparation I still need to do, blocks of time I need for deep work, and email triage of high-priority vs can-wait.
 

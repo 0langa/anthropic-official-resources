@@ -4,7 +4,7 @@
 
 [Read the paper](https://arxiv.org/abs/2502.16797)
 
-![Abstract illustration with a circular spiral pattern in red and yellow on the left, and geometric shapes with textured backgrounds on the right.](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F8de01300b3228d0f77c38883440e0e090f364242-2000x1125.jpg&w=1920&q=75)
+![Abstract illustration with a circular spiral pattern in red and yellow on the left, and geometric shapes with textured backgrounds on the right.](https://assets.claude.com/c975ab96863a02802b8f5a273af820b0761b68b8.jpg?w=1920&q=75&fm=webp&fit=max)
 
 Published
 :   Feb 25, 2025
@@ -49,7 +49,7 @@ We then looked at the queries with the highest risk probabilities, and plotted t
 
 This is where the extrapolation came in: because the features of power laws are well-understood mathematically, we could calculate what the worst-case risks would be with (say) millions of queries, even when we had only tested a few thousand. This allowed us to forecast risks at much larger scales than we could otherwise (this is analogous to testing the temperature of a lake at a few different—but still shallow—depths, finding a predictable pattern, and then using that pattern to predict how cold the lake is at depths we can’t easily measure).
 
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F78129ab9954dfd9ca2cfac69a72922b53087b02a-1920x1080.jpg&w=3840&q=75)
+![](https://assets.claude.com/02cc9314233c303379e471600d9c640e4600bf18.jpg?w=3840&q=75&fm=webp&fit=max)
 
 Scaling laws allow us to forecast rare language model behaviors. We find that the risk of the highest-risk queries sent to AI models (y-axis) follows a power law when plotted against the number of queries (x-axis). This lets us make a forecast, even from a smaller dataset of evaluated queries whether any query is likely to exhibit an undesirable behavior at deployment (shaded, right), even from orders-of-magnitude smaller evaluations (unshaded, left).
 

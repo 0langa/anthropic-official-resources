@@ -72,7 +72,7 @@ Jake Meredith, Product Security, Gusto
 
 Joe Coniglio, Security Engineer, IonQ
 
-> “Claude Security found a number of logic flaws that none of our other tools had caught. Once we wrote our own risk policy into the threat model, focusing on what external users can actually reach, the findings matched how we prioritize instead of only a severity score”
+> “Claude Security found a number of logic flaws that none of our other tools had caught. Once we wrote our own risk policy into the threat model, focusing on what external users can actually reach, the findings matched how we prioritize instead of only a severity score.”
 
 Nathan Hunstad, Director of Security, Vanta
 
@@ -88,7 +88,7 @@ Jake Meredith, Product Security, Gusto
 
 Joe Coniglio, Security Engineer, IonQ
 
-> “Claude Security found a number of logic flaws that none of our other tools had caught. Once we wrote our own risk policy into the threat model, focusing on what external users can actually reach, the findings matched how we prioritize instead of only a severity score”
+> “Claude Security found a number of logic flaws that none of our other tools had caught. Once we wrote our own risk policy into the threat model, focusing on what external users can actually reach, the findings matched how we prioritize instead of only a severity score.”
 
 Nathan Hunstad, Director of Security, Vanta
 

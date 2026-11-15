@@ -75,7 +75,13 @@ Point Opus 5.5 at the open-ended, context-heavy work where those habits compound
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 12, 2026
+[ArticleNov 13, 2026
+
+### Building always-on agents
+
+Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
+
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
 
 ### The Claude Tag guide for startups
 
@@ -93,13 +99,7 @@ Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-i
 
 We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.
 
-(opens in new tab)](https://www.anthropic.com/research/claude-electronics-design)[ArticleNov 9, 2026
-
-### Safely scaling multi-agent teams with Claude Fable 5.2
-
-How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
-
-(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
+(opens in new tab)](https://www.anthropic.com/research/claude-electronics-design)
 
 ## Transform how your organization operates with Claude
 

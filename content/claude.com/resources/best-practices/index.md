@@ -40,13 +40,13 @@ The full Claude Platform is now on Google Cloud — build agents from the Google
 
 Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)
 
-[WebinarNov 12, 2026
+[ArticleNov 13, 2026
 
-### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
+### Building always-on agents
 
-Most nonprofit staff on Claude open a chat, get a decent but generic answer, and go back to doing it by hand.
+Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
 
-Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)
 
 [ArticleJul 16, 2026
 
@@ -60,7 +60,7 @@ Featured resource 1 of 5: Working with Claude Fable 5 in Claude Cowork
 
 Advanced filters
 
-Showing 11 of 231 resources
+Showing 11 of 232 resources
 
 [WebinarUpcoming | Nov 18, 2026
 
@@ -74,19 +74,25 @@ Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does
 
 The full Claude Platform is now on Google Cloud — build agents from the Google Cloud account you already run.
 
-Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[WebinarNov 12, 2026
+Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[ArticleNov 13, 2026
 
-### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
+### Building always-on agents
 
-Most nonprofit staff on Claude open a chat, get a decent but generic answer, and go back to doing it by hand.
+Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
 
-Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[ArticleNov 12, 2026
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
 
 ### The Claude Tag guide for startups
 
 How leading startups use Claude Tag to ship faster and scale operations
 
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[WebinarNov 12, 2026
+
+### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
+
+Most nonprofit staff on Claude open a chat, get a decent but generic answer, and go back to doing it by hand.
+
+Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[ArticleNov 10, 2026
 
 ### How Curative is building a national provider network with agents on Claude
 
@@ -126,12 +132,6 @@ Your rollout plan depends on knowing what's changed and what matters the most.
 
 Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise
 
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/93382d9c-795b-4053-9e0f-bcf3e2765258)[ArticleOct 22, 2026
-
-### Building agents: When to fold subagents into your main agent loop
-
-When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.
-
-Claude Platform](https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop)
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/93382d9c-795b-4053-9e0f-bcf3e2765258)
 
 View more

@@ -48,7 +48,7 @@ We are excited to see legal tech companies, law firms, legal aid organizations c
 
 ![Spellbook](https://assets.claude.com/6d8c2b327807c9a9dc5b911946df64b7a0cbda3c.svg)
 
-> “Claude continues to power us as the most widely contract review tool in the world—we're approaching 500,000 contracts per month moving through Spellbook and we wouldn't be here without Claude.”
+> “Claude continues to power us as the most widely used contract review tool in the world—we're approaching 500,000 contracts per month moving through Spellbook and we wouldn't be here without Claude.”
 
 Scott Stevenson, Co-Founder and CEO, Spellbook
 
@@ -156,7 +156,7 @@ Sanj Ahilan, Chief Research Officer, Solve Intelligence
 
 ![Spellbook](https://assets.claude.com/6d8c2b327807c9a9dc5b911946df64b7a0cbda3c.svg)
 
-> “Claude continues to power us as the most widely contract review tool in the world—we're approaching 500,000 contracts per month moving through Spellbook and we wouldn't be here without Claude.”
+> “Claude continues to power us as the most widely used contract review tool in the world—we're approaching 500,000 contracts per month moving through Spellbook and we wouldn't be here without Claude.”
 
 Scott Stevenson, Co-Founder and CEO, Spellbook
 

@@ -86,15 +86,14 @@ Fine-grained tool calling does one main thing: it disables JSON validation on th
 - More traditional streaming behavior
 - **Critical:** JSON validation is disabled - your code must handle invalid JSON
 
-Enable it by adding `fine_grained=True` to your API call:
+Enable it by setting `eager_input_streaming` to `True` on the tool:
 
 python
 
 ```
 run_conversation(
     messages, 
-    tools=[save_article_schema], 
-    fine_grained=True
+    tools=[{**save_article_schema, "eager_input_streaming": True}]
 )
 ```
 

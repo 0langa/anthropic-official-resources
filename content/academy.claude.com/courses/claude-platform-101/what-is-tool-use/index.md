@@ -101,11 +101,23 @@ const tools = [
 ];
 ```
 
-The loop is identical to the agent loops we've already seen. The only new piece is a `runTool` function that **dispatches on the tool name** with a switch statement — this block of code is just where your code actually runs:
+The loop is identical to the agent loops we've already seen. The only new piece is a `runTool` function that **dispatches on the tool name** with a switch statement — this block of code is just where your code actually runs. It also adds two hardcoded lookups and the opening message so you can run it, and it uses the `client` from "Your first API call":
 
 typescript
 
 ```
+// Two hardcoded lookups. In a real app, these would call a weather service.
+const getWeather = (city) => `${city} today: 34F, snow flurries`;
+const getForecast = (city) => `${city}, next three days: 38F, 45F, and 52F, sunny`;
+
+const messages = [
+  {
+    role: "user",
+    content:
+      "I'm packing for a three-day trip to Denver. What's the weather today and over the next few days?",
+  },
+];
+
 function runTool(name, input) {
   switch (name) {
     case "get_weather":
@@ -125,6 +137,9 @@ while (true) {
 
   if (response.stop_reason !== "tool_use") {
     // Claude is done — this is the final answer
+    for (const block of response.content) {
+      if (block.type === "text") console.log(block.text);
+    }
     break;
   }
 
@@ -207,6 +222,9 @@ const runner = client.beta.messages.toolRunner({
 
 // Await the runner to get the final message after all the tool ping-pong has settled
 const finalMessage = await runner;
+for (const block of finalMessage.content) {
+  if (block.type === "text") console.log(block.text);
+}
 ```
 
 Same scenario, a fraction of the code:

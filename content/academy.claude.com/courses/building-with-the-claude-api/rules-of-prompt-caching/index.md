@@ -14,9 +14,7 @@ Embedded media: https://www.youtube-nocookie.com/embed/PQLf4HdHLbY?enablejsapi=1
 
 Prompt caching in Claude works by storing the computational work done on your messages so it can be reused in follow-up requests. This makes subsequent requests both faster and cheaper to execute, but only when you're repeatedly sending identical content.
 
-![Diagram: Claude writes processing work to the cache on the initial request and reads it back on a follow-up request.](https://academy.claude.com/assets/media/5f73b85b403282f7f9ffd86dcf5d3861079d984f1e7021f9731288ded9139696.jpg)
-
-The process is straightforward: your initial request writes processing work to the cache, and follow-up requests can read from that cache instead of reprocessing the same content. By default, the cache lives for 5 minutes, so this feature is only useful if you're repeatedly sending the same content within that timeframe. If you need longer, a 1-hour cache duration is also available at a higher cache-write price.
+The process is straightforward: your initial request writes processing work to the cache, and follow-up requests can read from that cache instead of reprocessing the same content. By default, the cache lives for 5 minutes, so this feature is only useful if you're repeatedly sending the same content within that timeframe. Many applications do this. If you need longer, a 1-hour cache duration is also available at a higher cache-write price.
 
 ## Cache Breakpoints[](https://academy.claude.com/courses/building-with-the-claude-api/rules-of-prompt-caching)
 

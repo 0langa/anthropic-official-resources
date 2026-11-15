@@ -38,7 +38,7 @@ If you have a formal logic model or a paragraph from a grant narrative handy, pa
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/see-your-theory-of-change-in-chat-with-claude)
 
-Claude draws your program's causal chain as five connected boxes running left to right, with every arrow between them clickable. The boxes will look familiar since they're the standard logic model categories, but the arrows are where the real work happens. Click one and a short note surfaces naming the assumption that link depends on, which is often the first time you've seen it written down.
+Claude draws your program's causal chain as connected boxes running from inputs through outcomes to impact, with every arrow between them clickable. The boxes will look familiar since they're the standard logic model categories, but the arrows are where the real work happens. Click one and a short note surfaces naming the assumption that link depends on, which is often the first time you've seen it written down.
 
 ![Claude's interactive theory-of-change diagram: connected boxes from inputs through outcomes to impact — program inputs, consistent meetings, trusting relationship, engagement and belief, navigating obstacles, future orientation, on-track behavior, and graduation — joined by color-coded arrows where amber marks links resting on assumption more than data, with a legend for weak assumption versus stronger evidence, a note to click any arrow to see its underlying assumption, and follow-up buttons asking what would break a link and what should be measured](https://academy.claude.com/assets/v1/theory-of-change-chain-l327p9h2.png)
 

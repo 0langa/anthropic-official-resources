@@ -1495,6 +1495,9 @@
   "https://code.claude.com/docs/en/claude-directory": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://code.claude.com/docs/en/claude-models-on-google-cloud-anthropic-managed": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
   "https://code.claude.com/docs/en/claude-platform-on-aws": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],

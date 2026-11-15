@@ -49,7 +49,29 @@ You configure them by editing `settings.json` directly. The `/hooks` command ins
 
 ## A Practical Example[](https://academy.claude.com/courses/claude-code-101/hooks)
 
-The most common hook: auto-formatting after edits. Set a **PostToolUse** hook with a matcher of `"Edit|Write"` so it fires after Claude uses the Edit or Write tool. The command checks the file extension and runs the appropriate formatter: Prettier for TypeScript, gofmt for Go, whatever your project uses.
+The most common hook: auto-formatting after edits. Set a **PostToolUse** hook with a matcher of `"Edit|Write"` so it fires after Claude uses the Edit or Write tool. The command runs whichever formatter your project uses. For Prettier, add this to `.claude/settings.json` (it needs `jq`):
+
+json
+
+```
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "file=$(jq -r '.tool_input.file_path') && npx prettier --write -- \"$file\""
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+To test it, ask Claude to edit a file, then check that the file was reformatted.
 
 ## Blocking with PreToolUse[](https://academy.claude.com/courses/claude-code-101/hooks)
 

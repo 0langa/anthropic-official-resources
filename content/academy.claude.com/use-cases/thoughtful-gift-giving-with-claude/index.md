@@ -102,7 +102,7 @@ I'm completely stuck on my brother-in-law. I don't know him that well and I neve
 
 ### Share specific details, not just categories[](https://academy.claude.com/use-cases/thoughtful-gift-giving-with-claude)
 
-Really into skincare lately" is good. "Just started using retinol and complains about dry winter skin" is better. The more specific your context, the more targeted Claude's suggestions.
+"Really into skincare lately" is good. "Just started using retinol and complains about dry winter skin" is better. The more specific your context, the more targeted Claude's suggestions.
 
 ### Set a per-person budget upfront[](https://academy.claude.com/use-cases/thoughtful-gift-giving-with-claude)
 

@@ -114,7 +114,7 @@ For cases involving truly confidential information (trade secrets, highly sensit
 
 ### Specify professional legal formatting[](https://academy.claude.com/use-cases/track-discovery-timelines-and-analyze-patterns)
 
-Notice how the prompt includes "professional legal memo format". Claude responds to these cues with appropriate formality, proper section headings, and citation style. Without this direction, outputs may default to more casual formatting. For court filings or client deliverables, specify the level of formality you need or provide template documents from your firm.
+Notice how the prompt asks for a "professional legal memo with clear sections". Claude responds to these cues with appropriate formality, proper section headings, and citation style. Without this direction, outputs may default to more casual formatting. For court filings or client deliverables, specify the level of formality you need or provide template documents from your firm.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/track-discovery-timelines-and-analyze-patterns)
 

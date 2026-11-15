@@ -72,7 +72,7 @@ and out would pop the paper. We are not there yet, of course. I tried giving thi
 
 To go about this scientifically, I encapsulated all the work. The rules were strict:
 
-- Only give text prompts to [Claude Code](https://claude.ai/redirect/website.v1.aa122479-866f-48a4-8c87-e9c46a2653f9/code). No editing files directly.
+- Only give text prompts to [Claude Code](https://claude.ai/redirect/website.v1.0ce5fe2c-e616-4753-b891-c81bb7d270c6/code). No editing files directly.
 - Don’t cut and paste my own calculations into the chat.
 - But pasting Gemini or GPT calculations was OK, as long as they were only text-prompted.
 
@@ -80,13 +80,13 @@ My question was: is there a set of prompts, like instructions to a talented G2, 
 
 ## Initial steps
 
-I knew from experience that LLMs struggle with context and organization over long projects. So I started by asking Claude to come up with a plan of attack: what tasks needed to be done in what order. I also asked GPT 5.2 and Gemini 3.0. Then, I had all three LLMs merge the best ideas from each, using web interfaces and copying one to another. Next, I gave those merges to Claude, asking it to break the outline into detailed subsections. The result is [here](https://www-cdn.anthropic.com/2595299ccf7f8b9a9c74823c24faaa5d9b216804.pdf). There were 102 separate tasks across seven stages.
+I knew from experience that LLMs struggle with context and organization over long projects. So I started by asking Claude to come up with a plan of attack: what tasks needed to be done in what order. I also asked GPT 5.2 and Gemini 3.0. Then, I had all three LLMs merge the best ideas from each, using web interfaces and copying one to another. Next, I gave those merges to Claude, asking it to break the outline into detailed subsections. The result is [here](https://assets.claude.com/2595299ccf7f8b9a9c74823c24faaa5d9b216804.pdf). There were 102 separate tasks across seven stages.
 
-From there, I turned to [Claude Code](https://claude.ai/redirect/website.v1.aa122479-866f-48a4-8c87-e9c46a2653f9/code), using the extension in VS Code.
+From there, I turned to [Claude Code](https://claude.ai/redirect/website.v1.0ce5fe2c-e616-4753-b891-c81bb7d270c6/code), using the extension in VS Code.
 
 ![A screen grab of Claude code](https://assets.claude.com/19ac6705198402720253e3a1cee64dfa29baac98.jpg?w=3840&q=75&fm=webp&fit=max)
 
-I created a folder for the project, put in the master plan, and had it try to solve each task separately, writing its results in a separate markdown file. Some examples are [Task 1.1: Review BSZ Paper](https://www-cdn.anthropic.com/c993ead637f1a102fe1f5346e89f59e82c579b37.pdf) and [Task 1.2: Review Catani—Webber](https://www-cdn.anthropic.com/94b3c41e52e19ba450fe5e804400ebcf0a88f3d0.pdf).
+I created a folder for the project, put in the master plan, and had it try to solve each task separately, writing its results in a separate markdown file. Some examples are [Task 1.1: Review BSZ Paper](https://assets.claude.com/c993ead637f1a102fe1f5346e89f59e82c579b37.pdf) and [Task 1.2: Review Catani—Webber](https://assets.claude.com/94b3c41e52e19ba450fe5e804400ebcf0a88f3d0.pdf).
 
 This organization step was enormously helpful. Instead of one long conversation or document, Claude maintained a tree of markdown files—one summary per stage, one detailed file per task. Given that LLMs work much better with things they can retrieve rather than things they have to hold in context, this allowed Claude to look things up rather than remember them. When I asked Claude to proceed to the next task, it would read its own previous summary, do the work, and write a new summary. I also had it edit the plan as it went, modifying earlier and later sections as it learned.
 
@@ -106,7 +106,7 @@ This is where Claude excels: doing regressions, fits and statistical analysis, a
 
 The next step was the paper writing. To begin, I told Claude to synthesize its task markdown files into a LaTeX draft. I said, “Start writing the paper. Do the title, abstract, intro, and section 1 first, and I will take a look.” Claude’s first output was horrible, reading more like notes than a paper. After a lot of “more prose” prompting, it improved. But it also kept forgetting to include results. So before each new section I had to tell it, “Check that you incorporated all the results from your various task markdown files up to this point. Go one by one through the task files and check.” This review was important: it often found formulas in the paper that didn’t match its own notes.
 
-By the end of day three, Claude had completed 65 tasks, produced a literature review, derived phase-space constraints, computed matrix elements in soft and collinear limits, set up SCET operators, and written a first draft: 20 pages of LaTeX with equations, plots, and references. By December 22, [the draft](https://www-cdn.anthropic.com/f6381ceefdfb6ead62ae185c4bd4b555c8a584fc.pdf) looked professional. The equations seemed right. And the plots matched expectations.
+By the end of day three, Claude had completed 65 tasks, produced a literature review, derived phase-space constraints, computed matrix elements in soft and collinear limits, set up SCET operators, and written a first draft: 20 pages of LaTeX with equations, plots, and references. By December 22, [the draft](https://assets.claude.com/f6381ceefdfb6ead62ae185c4bd4b555c8a584fc.pdf) looked professional. The equations seemed right. And the plots matched expectations.
 
 Then, I actually read it.
 

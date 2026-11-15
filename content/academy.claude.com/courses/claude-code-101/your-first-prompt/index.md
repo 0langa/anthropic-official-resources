@@ -54,6 +54,10 @@ My app needs a dark mode implemented across the entire app. Can you create a tog
 
 Let Claude plan it out. After reviewing the plan, if it looks good, accept it and let Claude work through it — depending on your permission mode, it may check in with you along the way. At the end, you can see exactly what Claude did and how it reached its conclusions.
 
+## Try it now[](https://academy.claude.com/courses/claude-code-101/your-first-prompt)
+
+Open a project you know well and run `claude`. Press `Shift + Tab` until the status bar shows `plan mode on`, then ask for one small change you'd make anyway. Before you accept the plan, check it: does it name the files you expected? If not, tell Claude what it missed and read the new plan.
+
 ## Recap[](https://academy.claude.com/courses/claude-code-101/your-first-prompt)
 
 When using Claude Code, try to be as descriptive as possible with your prompt. If you want to stay in the loop at every step, you can. Use Plan Mode to let Claude dig into the details of what you want to achieve before executing on any code.

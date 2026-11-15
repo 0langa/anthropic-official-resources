@@ -20,7 +20,6 @@
     "https://academy.claude.com/courses/building-with-the-claude-api/quiz-on-tool-use-with-claude",
     "https://academy.claude.com/courses/claude-code-101/course-quiz",
     "https://academy.claude.com/courses/claude-code-in-action/course-quiz",
-    "https://academy.claude.com/courses/claude-code-in-action/trust-it-verifying-unsupervised-runs",
     "https://academy.claude.com/courses/claude-platform-101/claude-platform-101-quiz",
     "https://academy.claude.com/courses/claude-with-amazon-bedrock/final-assessment-quiz",
     "https://academy.claude.com/courses/claude-with-amazon-bedrock/quiz-on-features-of-claude",
@@ -517,10 +516,10 @@
   ],
   "statuses": {
     "blocked": 27,
-    "complete": 5152,
+    "complete": 5153,
     "gone": 49,
-    "out_of_scope": 43,
-    "partial": 510
+    "out_of_scope": 44,
+    "partial": 509
   },
   "terminal_unarchived_urls": [
     "https://academy.claude.com/courses/tool-use-with-the-messages-api/**call.input",
@@ -633,7 +632,6 @@
     "https://academy.claude.com/courses/building-with-the-claude-api/quiz-on-tool-use-with-claude",
     "https://academy.claude.com/courses/claude-code-101/course-quiz",
     "https://academy.claude.com/courses/claude-code-in-action/course-quiz",
-    "https://academy.claude.com/courses/claude-code-in-action/trust-it-verifying-unsupervised-runs",
     "https://academy.claude.com/courses/claude-platform-101/claude-platform-101-quiz",
     "https://academy.claude.com/courses/claude-with-amazon-bedrock/final-assessment-quiz",
     "https://academy.claude.com/courses/claude-with-amazon-bedrock/quiz-on-features-of-claude",
@@ -921,6 +919,7 @@
     "https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms",
     "https://support.claude.com/en/articles/13945233-use-claude-in-excel-and-powerpoint-with-an-llm-gateway",
     "https://support.claude.com/en/articles/14465370-use-claude-for-word",
+    "https://support.claude.com/en/articles/14479288",
     "https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview",
     "https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents",
     "https://support.claude.com/en/articles/14503590-get-started-with-claude-for-government",

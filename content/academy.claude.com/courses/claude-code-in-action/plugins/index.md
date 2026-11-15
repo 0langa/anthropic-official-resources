@@ -74,13 +74,24 @@ Once a plugin is installed you can see everything it added, manage it, and unins
 
 Now the other side. Once you've built a `.claude` directory that works, don't make your team copy and paste it between machines. Package it instead.
 
-The good news is you don't have to restructure anything. A plugin uses the same `.claude` shape you already use:
+The good news is you don't have to rewrite anything. You copy the pieces of your `.claude` directory into the plugin's own folder:
 
-- One folder per skill.
-- One markdown file per subagent under `agents`.
-- `hooks/hooks.json` and `.mcp.json`, at the plugin root.
+text
 
-The directory structure does most of the work. Claude Code discovers components by convention.
+```
+svg-splitter-review/
+├── .claude-plugin/plugin.json
+├── skills/<skill-name>/SKILL.md
+├── agents/<agent-name>.md
+├── hooks/hooks.json
+└── .mcp.json
+```
+
+Hooks are the one piece that leaves `settings.json`: copy the `hooks` object into `hooks/hooks.json`. Claude Code discovers the rest by convention. To try the plugin before you share it, start a session with its folder:
+
+`claude --plugin-dir ./svg-splitter-review`
+
+Once it works, delete the originals from `.claude` and take the `hooks` object out of `settings.json`. Until you do, each hook runs twice.
 
 ## The manifest[](https://academy.claude.com/courses/claude-code-in-action/plugins)
 

@@ -37,7 +37,7 @@ Join enterprises like IG Group, Novo Nordisk, Cox Automotive, Palo Alto Networks
 #### Start building today
 
 - [Contact Anthropic's Sales team (opens in new tab)](https://claude.com/contact-sales) to discuss your specific use cases and implementation strategy
-- Access Claude through our [API (opens in new tab)](https://console.anthropic.com/), [web interface (opens in new tab)](https://claude.ai/redirect/claudedotcom.v1.4f7b2f43-62da-4c6d-a804-d0e195c1b34e), or [Claude for Work (opens in new tab)](https://www.anthropic.com/learn/claude-for-work) to begin piloting with your teams
+- Access Claude through our [API (opens in new tab)](https://console.anthropic.com/), [web interface (opens in new tab)](https://claude.ai/redirect/claudedotcom.v1.253e8df0-8dc3-4a03-ac46-0aba4250d201), or [Claude for Work (opens in new tab)](https://www.anthropic.com/learn/claude-for-work) to begin piloting with your teams
 - Review our enterprise documentation and safety guidelines at [docs.anthropic.com (opens in new tab)](https://docs.anthropic.com/) and our Trust Center
 - Explore [Claude Code (opens in new tab)](https://claude.com/product/claude-code) to accelerate engineering workflows
 

@@ -1,6 +1,6 @@
 # Claude and Slack
 
-Access Claude directly into Slack so you can get help in channels and threads, or connect your Slack workspace to Claude for searching conversations and pulling context when you need it.
+Access Claude directly in Slack so you can get help in channels and threads, or connect your Slack workspace to Claude for searching conversations and pulling context when you need it.
 
 - Category[Product updates](https://claude.com/resources/product-updates)
 - ProductClaude Enterprise

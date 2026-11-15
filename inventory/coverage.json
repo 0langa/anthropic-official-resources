@@ -1,7 +1,7 @@
 {
   "actionable_missing_pages": 0,
   "actionable_population_complete": true,
-  "archived_pages": 5689,
+  "archived_pages": 5690,
   "by_host": {
     "academy.claude.com": {
       "archived_pages": 890,
@@ -12,8 +12,8 @@
       "discovered_pages": 877
     },
     "code.claude.com": {
-      "archived_pages": 255,
-      "discovered_pages": 257
+      "archived_pages": 256,
+      "discovered_pages": 258
     },
     "platform.claude.com": {
       "archived_pages": 2233,
@@ -28,7 +28,7 @@
       "discovered_pages": 669
     }
   },
-  "discovered_pages": 5781,
+  "discovered_pages": 5782,
   "exact_website_replica": false,
   "limitations": [
     "Discovery is the union of public indexes and hyperlinks, not proof that unlinked pages do not exist.",
@@ -53,7 +53,6 @@
     "https://academy.claude.com/courses/building-with-the-claude-api/quiz-on-tool-use-with-claude": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "https://academy.claude.com/courses/claude-code-101/course-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "https://academy.claude.com/courses/claude-code-in-action/course-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
-    "https://academy.claude.com/courses/claude-code-in-action/trust-it-verifying-unsupervised-runs": "Network did not become idle within 8 seconds; content may still be loading.",
     "https://academy.claude.com/courses/claude-platform-101/claude-platform-101-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "https://academy.claude.com/courses/claude-with-amazon-bedrock/final-assessment-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "https://academy.claude.com/courses/claude-with-amazon-bedrock/quiz-on-features-of-claude": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
@@ -342,6 +341,7 @@
     "https://support.claude.com/en/articles/13945233-use-claude-for-microsoft-365-with-third-party-platforms": "Redirect outside resource scope: https://claude.com/docs/office-agents/third-party-platforms",
     "https://support.claude.com/en/articles/13945233-use-claude-in-excel-and-powerpoint-with-an-llm-gateway": "Redirect outside resource scope: https://claude.com/docs/office-agents/third-party-platforms",
     "https://support.claude.com/en/articles/14465370-use-claude-for-word": "Redirect outside resource scope: https://claude.com/docs/office-agents/word",
+    "https://support.claude.com/en/articles/14479288": "Request or redirect outside configured hosts",
     "https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview": "Request or redirect outside configured hosts",
     "https://support.claude.com/en/articles/14479591-use-dictation-in-office-agents": "Redirect outside resource scope: https://claude.com/docs/office-agents/dictation",
     "https://support.claude.com/en/articles/14503590-get-started-with-claude-for-government": "Redirect outside resource scope: https://claude.com/docs/government/overview",
@@ -670,8 +670,8 @@
   },
   "missing_pages": 92,
   "page_inventory_complete": false,
-  "pages_with_content_notes": 3831,
-  "retained_partial_pages": 510,
+  "pages_with_content_notes": 3832,
+  "retained_partial_pages": 509,
   "terminal_pages": 92,
   "terminal_statuses": {
     "blocked": 27,

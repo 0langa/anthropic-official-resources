@@ -125,7 +125,7 @@ Testing Methods and Results
 
 Based on our assessments, we deployed Claude Haiku 5.5 with the same chemical and biological misuse protections we deployed for Claude Opus 5 and Claude Sonnet 5. We treat it as meeting our CB-1 threshold, but not our higher CB-2thresholds. See below for select safety evaluation summaries.
 
-The following are summaries of key safety evaluations from our Claude Haiku 5.5 system card. Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full [system card](https://www-cdn.anthropic.com/e1080d6bf5ae2018ea3c2f414064be03232f5be5/Claude%20Haiku%205.5%20System%20Card.pdf).
+The following are summaries of key safety evaluations from our Claude Haiku 5.5 system card. Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full [system card](https://assets.claude.com/e1080d6bf5ae2018ea3c2f414064be03232f5be5.pdf).
 
 #### Election Integrity
 
@@ -171,7 +171,7 @@ Claude Opus 5.5 is our new leading model, and early testers saw large jumps in p
 
 Benchmarked Capabilities
 
-See our Claude Opus 5.5 [system card](https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf)’s Section 8 on capabilities.
+See our Claude Opus 5.5 [system card](https://assets.claude.com/b514064af1408018e64b1ad24e7d5e75850b4ffd.pdf)’s Section 8 on capabilities.
 
 Acceptable Uses
 
@@ -197,7 +197,7 @@ Testing Methods and Results
 
 Based on our assessments, we deployed Claude Opus 5.5 with ASL-3 protections, treating it as having CB-1 capabilities. Autonomy threat model 1 is applicable to Claude Opus 5.5. See below for select safety evaluation summaries.
 
-The following are summaries of key safety evaluations from our Claude Opus 5.5 system card. Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full [system card](https://www-cdn.anthropic.com/fc1b44717c85dc068bc6ba5024219938094694bd/Claude%20Opus%205.5%20System%20Card.pdf).
+The following are summaries of key safety evaluations from our Claude Opus 5.5 system card. Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full [system card](https://assets.claude.com/fc1b44717c85dc068bc6ba5024219938094694bd.pdf).
 
 #### Safeguards Evaluation
 
@@ -234,7 +234,7 @@ Claude Fable 5.1 is a leading model for coding and knowledge work—and its rese
 
 Benchmarked Capabilities
 
-See our Claude Fable 5.1 & Claude Mythos 5.1 [system card](https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf)’s Section 8 on capabilities.
+See our Claude Fable 5.1 & Claude Mythos 5.1 [system card](https://assets.claude.com/0339e6a7c5c7b87f5c07798616dc32c215d14235.pdf)’s Section 8 on capabilities.
 
 Acceptable Uses
 
@@ -260,7 +260,7 @@ Testing Methods and Results
 
 Based on our assessments, we deployed Claude Fable 5.1 with ASL-3 protections, treating it as having CB-1 capabilities. Autonomy threat model 1 is applicable to Claude Fable 5.1. See below for select safety evaluation summaries.
 
-Claude Mythos 5.1 and Claude Fable 5.1 are the same model, but with different levels of safeguards. Claude Fable 5.1 is generally available, while Claude Mythos 5.1 is available only through our trusted access programs and Claude Security; its safeguards are specifically designed to support work in cybersecurity and the life sciences.Evaluations that don't engage those safeguards can be run on either configuration, so the key safety results summarized below apply to both Claude Fable 5.1 and Claude Mythos 5.1. Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full [system card](https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf).
+Claude Mythos 5.1 and Claude Fable 5.1 are the same model, but with different levels of safeguards. Claude Fable 5.1 is generally available, while Claude Mythos 5.1 is available only through our trusted access programs and Claude Security; its safeguards are specifically designed to support work in cybersecurity and the life sciences.Evaluations that don't engage those safeguards can be run on either configuration, so the key safety results summarized below apply to both Claude Fable 5.1 and Claude Mythos 5.1. Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full [system card](https://assets.claude.com/0339e6a7c5c7b87f5c07798616dc32c215d14235.pdf).
 
 #### Safeguards Evaluation
 
@@ -307,7 +307,7 @@ Claude Mythos 5.1 is a leading model for coding and knowledge work—and its res
 
 Benchmarked Capabilities
 
-See our Claude Fable 5.1 & Claude Mythos 5.1 [system card](https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf)’s Section 8 on capabilities.
+See our Claude Fable 5.1 & Claude Mythos 5.1 [system card](https://assets.claude.com/0339e6a7c5c7b87f5c07798616dc32c215d14235.pdf)’s Section 8 on capabilities.
 
 Acceptable Uses
 
@@ -335,7 +335,7 @@ Testing Methods and Results
 
 Based on our assessments, we deployed Claude Mythos 5.1 with ASL-3 protections, treating it as having CB-1 capabilities. Autonomy threat model 1 is applicable to Claude Mythos 5.1. See below for select safety evaluation summaries.
 
-Claude Mythos 5.1 and Claude Fable 5.1 are the same model, but with different levels of safeguards. Claude Fable 5.1 is generally available, while Claude Mythos 5.1 is available only through our trusted access programs and Claude Security; Mythos’ safeguards are specifically designed to support work in cybersecurity and the life sciences. For our complete publicly reported evaluation results, please refer to the full [system card](https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf).
+Claude Mythos 5.1 and Claude Fable 5.1 are the same model, but with different levels of safeguards. Claude Fable 5.1 is generally available, while Claude Mythos 5.1 is available only through our trusted access programs and Claude Security; Mythos’ safeguards are specifically designed to support work in cybersecurity and the life sciences. For our complete publicly reported evaluation results, please refer to the full [system card](https://assets.claude.com/0339e6a7c5c7b87f5c07798616dc32c215d14235.pdf).
 
 #### Cyber Evaluation
 
@@ -365,7 +365,7 @@ Claude Opus 5 is a thoughtful and proactive model that comes close to frontier i
 
 Benchmarked Capabilities
 
-See our Claude Opus 5 [system card](https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf)’s Section 8 on capabilities.
+See our Claude Opus 5 [system card](https://assets.claude.com/b514064af1408018e64b1ad24e7d5e75850b4ffd.pdf)’s Section 8 on capabilities.
 
 Acceptable Uses
 
@@ -414,11 +414,11 @@ Testing Methods and Results
 
 Based on our assessments, we deployed Claude Opus 5 with ASL-3 protections, treating it as having CB-1 capabilities. Autonomy threat model 1 is applicable to Claude Opus 5. See below for select safety evaluation summaries.
 
-The following are summaries of key safety evaluations from our Claude Opus 5 system card. Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full [system card](https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf).
+The following are summaries of key safety evaluations from our Claude Opus 5 system card. Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full [system card](https://assets.claude.com/b514064af1408018e64b1ad24e7d5e75850b4ffd.pdf).
 
 #### User Wellbeing Summary
 
-We run a suite of evaluations to understand how Claude responds in scenarios related to child safety and mental health. Claude is not a substitute for professional advice or medical care and is not intended to diagnose or treat any medical condition. We use these evaluations to understand how Claude performs in sensitive contexts and where we can make improvements. For more in depth descriptions of the evaluations and their results, please [see Claude Opus 5 system card](https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf).
+We run a suite of evaluations to understand how Claude responds in scenarios related to child safety and mental health. Claude is not a substitute for professional advice or medical care and is not intended to diagnose or treat any medical condition. We use these evaluations to understand how Claude performs in sensitive contexts and where we can make improvements. For more in depth descriptions of the evaluations and their results, please [see Claude Opus 5 system card](https://assets.claude.com/b514064af1408018e64b1ad24e7d5e75850b4ffd.pdf).
 
 - **Child Safety:** Overall, Claude Opus 5 ’s performance on child safety was comparable to Claude Opus 4.8. On single-turn requests, the model saturated benchmarks with a 100% harmless response rate on harmful requests while maintaining near-zero over-refusals to benign prompts. Multi-turn performance (testing across an extended back-and-forth conversation) on the API and claude.ai demonstrated similar performance across recently released models including Claude Opus 4.6, Sonnet 5, and Fable 5. While Opus 5 consistently refused to provide meaningful assistance for child sexual exploitation and abuse, it sometimes accepted innocent-sounding framing before refusing when bad intent became clear in multi-turn conversations on the API; claude.ai system prompt interventions help to address this. (Section 4.2)
 - **Mental Health – Suicide and self-harm**: Opus 5's handling of suicide and self-harm conversations is mixed relative to Claude Opus 4.8, showing evidence of improvements in some areas and regression in others.On multi-turn testing (testing across an extended back-and-forth conversation) it scored 90% on claude.ai (vs. 85% for Opus 4.8). Qualitatively, Opus 5 more consistently anchored to the user’s interpretation and disclosure of their lived experiences, rather than making implicit assumptions about the user’s emotional state or potential motives for engaging in self-harm behaviors. At the same time, its responses were at times overly long and circuitous, which may be overwhelming to an individual who is actively struggling. This behavior appeared primarily on the public API without a system prompt. (Section 4.3.1)
@@ -457,7 +457,7 @@ Claude Sonnet 5 can make plans, use tools like browsers and terminals, and run a
 
 Benchmarked Capabilities
 
-See our Claude Sonnet 5 [system card](https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf)’s Section 8 on capabilities.
+See our Claude Sonnet 5 [system card](https://assets.claude.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e.pdf)’s Section 8 on capabilities.
 
 Acceptable Uses
 
@@ -510,7 +510,7 @@ The following are summaries of key safety evaluations from our Claude 4.8 system
 
 #### User Wellbeing Summary
 
-We run a suite of evaluations to understand how Claude responds in scenarios related to child safety and mental health. Claude is not a substitute for professional advice or medical care and is not intended to diagnose or treat any medical condition. We use these evaluations to understand how Claude performs in sensitive contexts and where we can make improvements. Claude Sonnet 5 is our most capable Sonnet model, but it is less capable compared to Opus- or Mythos-class models and its wellbeing-relevant results reflect that. For more in depth descriptions of the evaluations and their results, please [see Claude Sonnet 5 system card](https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf).
+We run a suite of evaluations to understand how Claude responds in scenarios related to child safety and mental health. Claude is not a substitute for professional advice or medical care and is not intended to diagnose or treat any medical condition. We use these evaluations to understand how Claude performs in sensitive contexts and where we can make improvements. Claude Sonnet 5 is our most capable Sonnet model, but it is less capable compared to Opus- or Mythos-class models and its wellbeing-relevant results reflect that. For more in depth descriptions of the evaluations and their results, please [see Claude Sonnet 5 system card](https://assets.claude.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e.pdf).
 
 - **Child Safety.** Sonnet 5’s child safety behavior is comparable to or better than Claude Sonnet 4.6. Internal policy experts noted that Sonnet 5 tended to refuse clearly harmful requests more definitively than Sonnet 4.6. (Section 4.2)
 - **Mental Health - Suicide and self harm.** Internal policy experts found Sonnet 5’s handling of potential suicide and self-harm conversations conversations to be qualitatively comparable to Claude Sonnet 4.6. One of the clearest improvements was in Sonnet 5’s crisis response posture, providing resources sooner in a conversation compared to Sonnet 4.6. (Section 4.3.1)
@@ -549,7 +549,7 @@ Claude Fable 5 shows exceptional performance in software engineering, knowledge 
 
 Benchmarked Capabilities
 
-See our Claude Fable 5 & Claude Mythos 5 [system card](https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf)’s Section 8 on capabilities.
+See our Claude Fable 5 & Claude Mythos 5 [system card](https://assets.claude.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf)’s Section 8 on capabilities.
 
 Acceptable Uses
 
@@ -594,7 +594,7 @@ Testing Methods and Results
 
 Based on our assessments, we have decided to deploy Claude Fable 5 under CB-1 capabilities and autonomy threat model 1. See below for select safety evaluation summaries.
 
-The following are summaries of key safety evaluations from our Fable 5 system card. Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full [system card](https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf).
+The following are summaries of key safety evaluations from our Fable 5 system card. Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full [system card](https://assets.claude.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf).
 
 Claude Fable 5 is built on Mythos 5, the underlying model behind this release. As we have documented previously, Mythos 5 has capabilities in areas like cybersecurity and biology that exceed the safety thresholds we set for ourselves. Fable 5 is what lets us release those capabilities safely for general use: it pairs Mythos 5 with a number of novel safeguards that guard against harmful misuse in these areas. These safeguards are classifiers — automated screening systems that check requests for specific types of content. They trigger when they detect topics related to
 
@@ -637,7 +637,7 @@ Claude Mythos 5 shows exceptional performance in software engineering, knowledge
 
 Benchmarked Capabilities
 
-See our Claude Fable 5 & Claude Mythos 5 [system card](https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf)’s Section 8 on capabilities.
+See our Claude Fable 5 & Claude Mythos 5 [system card](https://assets.claude.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf)’s Section 8 on capabilities.
 
 Acceptable Uses
 
@@ -677,7 +677,7 @@ The following are summaries of key safety evaluations from our Claude Mythos 5 s
 
 #### Harmful Request Evaluation
 
-Our internal policy experts conducted a review of underlying evaluation transcripts for each of our sets of evaluations to characterize how Claude Mythos 5's safety behavior differs from prior models. We also reviewed Claude-generated qualitative reports for our ambiguous context evaluations, which are single-turn assessments that examine Claude's safety behavior in edge-case scenarios within our Usage Policy (see the Claude [Opus 4.7 System Card](https://www-cdn.anthropic.com/037f06850df7fbe871e206dad004c3db5fd50340.pdf) for more detail about this evaluation).
+Our internal policy experts conducted a review of underlying evaluation transcripts for each of our sets of evaluations to characterize how Claude Mythos 5's safety behavior differs from prior models. We also reviewed Claude-generated qualitative reports for our ambiguous context evaluations, which are single-turn assessments that examine Claude's safety behavior in edge-case scenarios within our Usage Policy (see the Claude [Opus 4.7 System Card](https://assets.claude.com/037f06850df7fbe871e206dad004c3db5fd50340.pdf) for more detail about this evaluation).
 
 The clearest strength reviewers identified across policy areas was in how Mythos 5 reasons about a conversation as a whole. Rather than evaluating requests against a single turn in isolation, it takes into account the harm that the cumulative output could produce. This is especially impactful for situations in which harm manifests over many individual requests that each seem harmless on their own. In one multi-turn case involving influence operations(organized campaigns to covertly sway public opinion), a synthetic user requested the components of a coordinated inauthentic campaign one at a time, recasting each as a standalone technical question; Mythos 5 declined the later requests with reference to what the earlier ones had already assembled, rather than evaluating each on its own terms. Reviewers observed the same pattern in violent extremism testing, where Mythos 5 rejected attempts to "start fresh" mid-conversation and continued to take earlier parts of the conversation into account.
 
@@ -864,7 +864,7 @@ Our Responsible Scaling Policy (RSP) evaluation process is designed to systemati
 
 We assess chemical and biological (CB) risks against two threat models. Chemical and biological weapons threat model 1 (CB-1) covers models that can significantly help individuals with basic technical backgrounds create and deploy chemical or biological weapons with serious potential for catastrophic damage. Our evaluations suggest Claude Opus 4.7 can provide information relevant to this threat model that could save even experts substantial time, and the model can meaningfully connect information across domains in ways relevant to catastrophic biological weapons development. We apply strong real-time classifier guards and access controls for classifier guard exemptions, and we believe these mitigations are equal to or stronger than our historical ASL-3 protections and sufficient to make catastrophic risk in this category very low but not negligible.
 
-Chemical and biological weapons threat model 2 (CB-2) covers models that can significantly help moderately resourced expert-backed teams create and deploy chemical or biological weapons with potential for catastrophic damage far beyond those of past catastrophes such as COVID-19. Claude Opus 4.7 has weaker overall capabilities than [Claude Mythos Preview](https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf) and does not pass this threshold. Our evaluations suggest the model is strong at synthesizing published research across multiple domains, but struggles when tasks require novel approaches. Specifically, it has trouble calibrating how complex an experimental design needs to be to actually work, tends to over-engineer, and is poor at distinguishing feasible plans from infeasible ones. The overall picture is similar to the one from our most recent [Risk Report](https://www-cdn.anthropic.com/08eca2757081e850ed2ad490e5253e940240ca4f.pdf).
+Chemical and biological weapons threat model 2 (CB-2) covers models that can significantly help moderately resourced expert-backed teams create and deploy chemical or biological weapons with potential for catastrophic damage far beyond those of past catastrophes such as COVID-19. Claude Opus 4.7 has weaker overall capabilities than [Claude Mythos Preview](https://assets.claude.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf) and does not pass this threshold. Our evaluations suggest the model is strong at synthesizing published research across multiple domains, but struggles when tasks require novel approaches. Specifically, it has trouble calibrating how complex an experimental design needs to be to actually work, tends to over-engineer, and is poor at distinguishing feasible plans from infeasible ones. The overall picture is similar to the one from our most recent [Risk Report](https://assets.claude.com/08eca2757081e850ed2ad490e5253e940240ca4f.pdf).
 
 #### **On Autonomy Risks**
 
@@ -872,7 +872,7 @@ Autonomy threat model 1 describes AI systems that are heavily relied on and have
 
 #### **Alignment Risks**
 
-Claude Opus 4.7 has similar overall alignment properties to Claude Opus 4.6. Claude Opus 4.7 is less capable than Claude Mythos Preview, our current most capable model. We believe that this combination of properties means that Claude Opus 4.7 does not increase overall alignment risk significantly beyond the level previously described in the [Claude Mythos Preview Alignment Risk Update](https://www-cdn.anthropic.com/79c2d46d997783b9d2fb3241de43218158e5f25c.pdf).
+Claude Opus 4.7 has similar overall alignment properties to Claude Opus 4.6. Claude Opus 4.7 is less capable than Claude Mythos Preview, our current most capable model. We believe that this combination of properties means that Claude Opus 4.7 does not increase overall alignment risk significantly beyond the level previously described in the [Claude Mythos Preview Alignment Risk Update](https://assets.claude.com/79c2d46d997783b9d2fb3241de43218158e5f25c.pdf).
 
 ## Claude Mythos Preview Summary Table
 
@@ -884,7 +884,7 @@ Claude Mythos Preview is a general-purpose frontier model with advanced agentic 
 
 Benchmarked Capabilities
 
-See our Claude Mythos Preview [system card](https://www-cdn.anthropic.com/8b8380204f74670be75e81c820ca8dda846ab289.pdf)’s Section 6 on capabilities
+See our Claude Mythos Preview [system card](https://assets.claude.com/8b8380204f74670be75e81c820ca8dda846ab289.pdf)’s Section 6 on capabilities
 
 Acceptable Uses
 
@@ -916,7 +916,7 @@ Testing Methods and Results
 
 Claude Mythos Preview is the first model assessed under RSP v3.0. It is being made available to a limited set of partners for defensive cybersecurity purposes only, with real-time classifier guards and access controls for CB-1 risks that are equal to or stronger than historical ASL-3 protections.
 
-Claude Mythos Preview is novel in a number of ways. It is the first model to be evaluated under the new version 3.0 of our [Responsible Scaling Policy](https://www-cdn.anthropic.com/e670587677525f28df69b59e5fb4c22cc5461a17.pdf), it is the first model for which we have published a [system card](https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf) without making the model generally commercially available, and it represents a larger jump in capabilities than our most recent previous model releases. Early indications in the training of Claude Mythos Preview suggested that the model was likely to have very strong general capabilities. In our testing, Claude Mythos Preview demonstrated a notable leap in cyber capabilities relative to prior models, including the ability to, after initial user prompt, autonomously discover and exploit zero-day vulnerabilities (security flaws not yet known to the software's developers) in major operating systems and web browsers. These same capabilities that make the model valuable for defensive purposes could, if broadly available, also accelerate offensive exploitation given their inherently dual-use nature. We discussed these cyber capabilities in a detailed technical [blog post](https://red.anthropic.com/2026/mythos-preview/) accompanying the release. Based on these findings, we decided to [release the model to a small number of partners](https://www.anthropic.com/glasswing) to prioritize its use for cyber defense. To be explicit, the decision not to make this model generally available does not stem from Responsible Scaling Policy requirements. We are continuing to develop and improve monitoring and blocking safeguards so that future models with similar capabilities can be deployed more broadly.Although evaluations related to the model's behavior in ordinary conversational contexts—for instance, those related to user wellbeing and political bias—are less relevant since the model is being released only to a small number of users for defensive cyber use cases, we still include an appendix reporting these evaluations in the system card.
+Claude Mythos Preview is novel in a number of ways. It is the first model to be evaluated under the new version 3.0 of our [Responsible Scaling Policy](https://assets.claude.com/e670587677525f28df69b59e5fb4c22cc5461a17.pdf), it is the first model for which we have published a [system card](https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf) without making the model generally commercially available, and it represents a larger jump in capabilities than our most recent previous model releases. Early indications in the training of Claude Mythos Preview suggested that the model was likely to have very strong general capabilities. In our testing, Claude Mythos Preview demonstrated a notable leap in cyber capabilities relative to prior models, including the ability to, after initial user prompt, autonomously discover and exploit zero-day vulnerabilities (security flaws not yet known to the software's developers) in major operating systems and web browsers. These same capabilities that make the model valuable for defensive purposes could, if broadly available, also accelerate offensive exploitation given their inherently dual-use nature. We discussed these cyber capabilities in a detailed technical [blog post](https://red.anthropic.com/2026/mythos-preview/) accompanying the release. Based on these findings, we decided to [release the model to a small number of partners](https://www.anthropic.com/glasswing) to prioritize its use for cyber defense. To be explicit, the decision not to make this model generally available does not stem from Responsible Scaling Policy requirements. We are continuing to develop and improve monitoring and blocking safeguards so that future models with similar capabilities can be deployed more broadly.Although evaluations related to the model's behavior in ordinary conversational contexts—for instance, those related to user wellbeing and political bias—are less relevant since the model is being released only to a small number of users for defensive cyber use cases, we still include an appendix reporting these evaluations in the system card.
 
 #### Cyber Evaluations
 
@@ -928,7 +928,7 @@ CyberGym tests whether an AI model can reproduce real, previously discovered sec
 
 ## Claude Sonnet 4.6 Summary Table
 
-[See Claude Sonnet 4.6 system card](https://www-cdn.anthropic.com/78073f739564e986ff3e28522761a7a0b4484f84.pdf)
+[See Claude Sonnet 4.6 system card](https://assets.claude.com/78073f739564e986ff3e28522761a7a0b4484f84.pdf)
 
 Model description
 
@@ -936,7 +936,7 @@ Claude Sonnet 4.6 our most capable Sonnet model. It’s a full upgrade of the mo
 
 Benchmarked Capabilities
 
-See our Claude Sonnet 4.6 [system card](https://www-cdn.anthropic.com/78073f739564e986ff3e28522761a7a0b4484f84.pdf)’s Section 2 on capabilities
+See our Claude Sonnet 4.6 [system card](https://assets.claude.com/78073f739564e986ff3e28522761a7a0b4484f84.pdf)’s Section 2 on capabilities
 
 Acceptable Uses
 
@@ -984,7 +984,7 @@ Testing Methods and Results
 
 Based on our assessments, we have decided to deploy Claude Sonnet 4.6 under the ASL-3 Standard. See below for select safety evaluation summaries.
 
-The following are summaries of key safety evaluations from our [Claude Sonnet 4.6 system card](https://www-cdn.anthropic.com/78073f739564e986ff3e28522761a7a0b4484f84.pdf). Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full system card.
+The following are summaries of key safety evaluations from our [Claude Sonnet 4.6 system card](https://assets.claude.com/78073f739564e986ff3e28522761a7a0b4484f84.pdf). Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full system card.
 
 #### Safeguards
 
@@ -1014,7 +1014,7 @@ Claude Opus 4.6 is our new hybrid reasoning large language model. It has advance
 
 Benchmarked Capabilities
 
-See our Claude Opus 4.6 [system card](https://www-cdn.anthropic.com/0dd865075ad3132672ee0ab40b05a53f14cf5288.pdf)’s Section 2 on capabilities
+See our Claude Opus 4.6 [system card](https://assets.claude.com/0dd865075ad3132672ee0ab40b05a53f14cf5288.pdf)’s Section 2 on capabilities
 
 Acceptable Uses
 
@@ -1062,7 +1062,7 @@ Testing Methods and Results
 
 Based on our assessments, we have decided to deploy Claude Opus 4.6 under the ASL-3 Standard. See below for select safety evaluation summaries.
 
-The following are summaries of key safety evaluations from our [Claude Opus 4.6 system card.](https://www-cdn.anthropic.com/14e4fb01875d2a69f646fa5e574dea2b1c0ff7b5.pdf) Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full [system card](https://www-cdn.anthropic.com/14e4fb01875d2a69f646fa5e574dea2b1c0ff7b5.pdf).
+The following are summaries of key safety evaluations from our [Claude Opus 4.6 system card.](https://assets.claude.com/14e4fb01875d2a69f646fa5e574dea2b1c0ff7b5.pdf) Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full [system card](https://assets.claude.com/14e4fb01875d2a69f646fa5e574dea2b1c0ff7b5.pdf).
 
 #### Safeguards
 
@@ -1398,7 +1398,7 @@ Based on these results, we conclude Claude Sonnet 4.5 does not yet possess capab
 
 ## Claude Opus 4 and Claude Sonnet 4 Summary Table
 
-[See Claude Opus 4 and Sonnet 4 system card](https://www-cdn.anthropic.com/6d8a8055020700718b0c49369f60816ba2a7c285.pdf)
+[See Claude Opus 4 and Sonnet 4 system card](https://assets.claude.com/6d8a8055020700718b0c49369f60816ba2a7c285.pdf)
 
 **Model description**
 
@@ -1448,7 +1448,7 @@ Claude Opus 4 and Claude Sonnet 4 were trained on a proprietary mix of publicly 
 
 Based on our assessments, we have decided to deploy Claude Opus 4 under the ASL-3 Standard and Claude Sonnet 4 under the ASL-2 Standard. See below for select safety evaluation summaries.
 
-The following are summaries of key safety evaluations from our [Claude 4 system card](https://www-cdn.anthropic.com/6be99a52cb68eb70eb9572b4cafad13df32ed995.pdf). Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full system card.
+The following are summaries of key safety evaluations from our [Claude 4 system card](https://assets.claude.com/6be99a52cb68eb70eb9572b4cafad13df32ed995.pdf). Additional evaluations were conducted as part of our safety process; for our complete publicly reported evaluation results, please refer to the full system card.
 
 #### Agentic Safety
 

@@ -78,11 +78,11 @@ python
 ```
 def grade_by_model(test_case, output):
     # Create evaluation prompt
-    eval_prompt = """
+    eval_prompt = f"""
     You are an expert code reviewer. Evaluate this AI-generated solution.
     
-    Task: {task}
-    Solution: {solution}
+    Task: {test_case["task"]}
+    Solution: {output}
     
     Provide your evaluation as a structured JSON object with:
     - "strengths": An array of 1-3 key strengths
@@ -99,6 +99,51 @@ def grade_by_model(test_case, output):
     return json.loads(eval_text)
 ```
 
-```` The key insight is asking for strengths, weaknesses, and reasoning alongside the score. Without this context, models tend to default to middling scores around 6. ## Integrating Grading into Your Workflow Update your test case runner to call the grader: ``` def run_test_case(test_case): output = run_prompt(test_case) # Grade the output model_grade = grade_by_model(test_case, output) score = model_grade["score"] reasoning = model_grade["reasoning"] return \{ "output": output, "test_case": test_case, "score": score, "reasoning": reasoning \} ``` `` Finally, calculate an average score across all test cases: ``` from statistics import mean def run_eval(dataset): results = [] for test_case in dataset: result = run_test_case(test_case) results.append(result) average_score = mean([result["score"] for result in results]) print(f"Average score: \{average_score\}") return results ``` ` This gives you an objective metric to track as you iterate on your prompt. While model graders can be somewhat capricious, they provide a consistent baseline for measuring improvements. ` `` ````
+The key insight is asking for strengths, weaknesses, and reasoning alongside the score. Without this context, models tend to default to middling scores around 6.
+
+## Integrating Grading into Your Workflow[](https://academy.claude.com/courses/building-with-the-claude-api/model-based-grading)
+
+Update your test case runner to call the grader:
+
+python
+
+```
+def run_test_case(test_case):
+    output = run_prompt(test_case)
+
+    # Grade the output
+    model_grade = grade_by_model(test_case, output)
+    score = model_grade["score"]
+    reasoning = model_grade["reasoning"]
+
+    return {
+        "output": output,
+        "test_case": test_case,
+        "score": score,
+        "reasoning": reasoning
+    }
+```
+
+Finally, calculate an average score across all test cases:
+
+python
+
+```
+from statistics import mean
+
+def run_eval(dataset):
+    results = []
+
+    for test_case in dataset:
+        result = run_test_case(test_case)
+        results.append(result)
+
+    average_score = mean([result["score"] for result in results])
+    print(f"Average score: {average_score}")
+
+    return results
+```
+
+This gives you an objective metric to track as you iterate on your prompt. While model graders can be somewhat capricious, they provide a consistent baseline for measuring improvements.
 
 Was this helpful?

@@ -83,9 +83,9 @@ When you tell Claude not to do something, say what to do instead. Otherwise you'
 
 The second version names the replacement, so there's nothing left to misinterpret.
 
-### Emphasis is a budget[](https://academy.claude.com/courses/claude-code-in-action/a-claude-md-that-follows)
+### Word it plainly instead of shouting[](https://academy.claude.com/courses/claude-code-in-action/a-claude-md-that-follows)
 
-Words like "IMPORTANT" and "YOU MUST" do raise a rule's priority. But only relative to everything quieter around it. If every rule shouts, then nothing stands out and the emphasis means nothing. So treat emphasis like a budget. Spend it on the two or three rules that really hurt when they get broken, and let the rest sit at normal volume.
+Words like "IMPORTANT" and "YOU MUST" rarely rescue a rule Claude keeps missing. Current models follow a plainly worded line, and piling on emphasis mostly makes Claude over-apply the rule. If a rule can't bend, make it a hook. If it's getting lost, make the file shorter.
 
 ## Keep the file under revision[](https://academy.claude.com/courses/claude-code-in-action/a-claude-md-that-follows)
 
@@ -100,7 +100,7 @@ Treat your CLAUDE.md like production code. If you can't justify a line, delete i
 1. Move hard rules to hooks, where they're actually enforced.
 2. Organize long files with imports (just remember they don't reduce context).
 3. Make every rule specific and checkable, and name the replacement.
-4. Spend your emphasis budget on the few rules that matter most.
+4. Word rules plainly instead of adding emphasis.
 5. Keep revising the file whenever Claude gets something wrong.
 
 The whole idea is simple. The leaner the file, the more of it Claude follows.

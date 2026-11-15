@@ -29,8 +29,6 @@ Here's a practical example: imagine you're building a social media marketing too
 - Use an AI avatar and text-to-speech to create a video
 - Post the video to social media
 
-![Chaining diagram: "Input" passes through Processing Task 1, 2 and 3 to "Output", with the benefits listed below.](https://academy.claude.com/assets/media/98a20df2668f4b4b2e0b6be8a9de778904628ecce5094400ea6c0f6211185349.jpg)
-
 ## Why Chain Instead of One Big Prompt?[](https://academy.claude.com/courses/building-with-the-claude-api/chaining-workflows)
 
 You might wonder why not just combine all the Claude tasks into a single prompt. The key benefit is focus - when you give Claude one specific task at a time, it can concentrate on doing that task well rather than juggling multiple requirements simultaneously.

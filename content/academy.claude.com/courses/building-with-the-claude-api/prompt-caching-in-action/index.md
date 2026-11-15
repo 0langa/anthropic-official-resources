@@ -14,8 +14,6 @@ Embedded media: https://www.youtube-nocookie.com/embed/TXePgw\_s9Qw?enablejsapi=
 
 Prompt caching is a powerful optimization feature that makes your API requests both faster and cheaper when you're repeatedly sending the same content to Claude. Let's explore how to implement it effectively in your applications.
 
-![Diagram: Claude writes processing work to the cache on the initial request and reads it back on a follow-up request.](https://academy.claude.com/assets/media/16861ef7863235442cb43b8fa88a8d020f6a14d3c48b1e3cb8843782a7f51169.jpg)
-
 ## How Prompt Caching Works[](https://academy.claude.com/courses/building-with-the-claude-api/prompt-caching-in-action)
 
 When you enable prompt caching, the first request writes content to a cache with a 5-minute default lifetime, and each time the cached content is used, that window refreshes at no extra cost. If you need a longer window, you can opt into a 1-hour cache duration for an additional cost. Follow-up requests read from this cache instead of processing the same content again. This is particularly valuable when you're sending:

@@ -19,11 +19,6 @@ Search AI agents`⌘K`
   ### Introducing Claude Fable 5.2
 
   (opens in new tab)](https://www.youtube.com/watch?v=6a1QSJlsYpU)
-- [Video1 min watch
-
-  ### Claude Opus 5.5 rebuilds Earthrise in 3D, down to the second
-
-  (opens in new tab)](https://www.youtube.com/watch?v=Ov-B6K1EsaI)
 - [Video3 min watch
 
   ### How AI is being used in humanitarian work
@@ -39,6 +34,13 @@ Search AI agents`⌘K`
   ### How Anthropic enables self-service data analytics with Claude
 
   Claude Code](https://claude.com/resources/articles/how-anthropic-enables-self-service-data-analytics-with-claude)
+- [ArticleOct 16, 2026
+
+  ### How the Claude Code team does code review
+
+  Claude Code
+
+  (opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)
 
 By topicBy type
 
@@ -54,15 +56,15 @@ The latest news about Claude, including new products, features, and updates.
 
 [See more](https://claude.com/resources/product-updates)
 
-![Introducing Claude Fable 5.2](https://i.ytimg.com/vi/6a1QSJlsYpU/maxresdefault.jpg)
+![Video thumbnail](https://i.ytimg.com/vi/YUYeHMsqbmY/maxresdefault.jpg)
 
 Article
 
-### Claude Fable 5.2 and Mythos 5.2
+### Introducing Claude Meetings
 
-Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.
+Add Claude to your video call and get the work started while you talk
 
-[Learn more (opens in new tab)](https://www.anthropic.com/claude-fable-and-mythos-5-2)
+[Learn more](https://claude.com/resources/articles/claude-meetings)
 
 [ArticleNov 10, 2026
 
@@ -86,17 +88,21 @@ Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self
 
 ### Introducing Claude for Manufacturing
 
-A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)[ArticleNov 12, 2026
-
-### Introducing Claude Meetings
-
-Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)[ArticleNov 10, 2026
+A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)[ArticleNov 10, 2026
 
 ### More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
 
 Work at the speed of thought
 
-Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)
+Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)[ArticleNov 9, 2026
+
+### Claude Fable 5.2 and Mythos 5.2
+
+Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.
+
+Claude appsClaude Code1 more: Claude PlatformClaude Platform
+
+(opens in new tab)](https://www.anthropic.com/claude-fable-and-mythos-5-2)
 
 ## Best practices
 
@@ -104,15 +110,15 @@ Proven workflows and practical guides to help your team get more out of Claude, 
 
 [See more](https://claude.com/resources/best-practices)
 
-![multi agent teams](https://assets.claude.com/99f1e3988bd6d2aaed6df3032f34c5349791b38b.gif)
+![Animated diagram of how the five primitives of an always-on agent fit together](https://assets.claude.com/9f8df7b2dcc9d4637d27f37dae6e40a2a5851c8a.gif)
 
 Article
 
-### Safely scaling multi-agent teams with Claude Fable 5.2
+### Building always-on agents
 
-How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
+Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
 
-[Learn more (opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
+[Learn more](https://claude.com/resources/articles/building-always-on-agents)
 
 [WebinarUpcoming | Nov 18, 2026
 
@@ -126,13 +132,13 @@ Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does
 
 The full Claude Platform is now on Google Cloud — build agents from the Google Cloud account you already run.
 
-Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[WebinarNov 12, 2026
+Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[ArticleNov 13, 2026
 
-### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
+### The Claude Tag guide for startups
 
-Most nonprofit staff on Claude open a chat, get a decent but generic answer, and go back to doing it by hand.
+How leading startups use Claude Tag to ship faster and scale operations
 
-Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
 
 Recurring webinars
 
@@ -142,13 +148,13 @@ Recurring webinars
 - [Building your first workflow with CoworkWebinar](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)
 - [Claude Code: FoundationsWebinar](https://claude.com/resources/webinars/claude-code-foundations-series)
 
-[ArticleNov 12, 2026
+[WebinarNov 12, 2026
 
-### The Claude Tag guide for startups
+### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
 
-How leading startups use Claude Tag to ship faster and scale operations
+Most nonprofit staff on Claude open a chat, get a decent but generic answer, and go back to doing it by hand.
 
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
+Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[ArticleNov 10, 2026
 
 ### How Curative is building a national provider network with agents on Claude
 
@@ -170,23 +176,28 @@ Video
 
 Engineering leaders from Salesforce explain how they measure AI coding ROI with an "effective output" score built with Stanford researchers, and how an agent maturity curve moved engineers from simple prompts to autonomous agents across the software development life cycle.
 
-[ArticleNov 12, 2026
-
-### The Claude Tag guide for startups
-
-How leading startups use Claude Tag to ship faster and scale operations
-
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
-
-### How Curative is building a national provider network with agents on Claude
-
-Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
-
-Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[WebinarOn demand
+[WebinarOn demand
 
 ### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
 
-A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)
+A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)[Video21 min watch
+
+### How Ramp engineers work with AI agents at every step
+
+Ramp runs AI agents across its entire engineering lifecycle: writing code, reviewing it, watching production, and root-causing incidents.
+Boris sat down with Austin Ray and Rahul Sengottuvelu of Ramp to talk about how they got there. Building for the models that are coming rather than the ones that exist, giving every engineer uncapped access to intelligence, and the guardrails that make it work. They compare notes on Claude Code setups, loops versus dynamic workflows, and what Claude Fable 5 unlocked.
+
+Claude Code
+
+(opens in new tab)](https://www.youtube.com/watch?v=i4odXOmgMLw)[Video10 min watch
+
+### How Factory is building autonomous software with Claude
+
+Factory is bringing autonomy to software engineering with Droids, AI coding agents that handle enterprise work. In this conversation, Co-founder and CEO Matan Grinberg sits down with Anthropic's Kai Gill to talk about his journey founding Factory, how Claude's frontier models handle long-horizon tasks across large codebases so teams can trust agent plans with less oversight, and what it will take to build a fully autonomous "dark factory" for software.
+
+Claude Platform
+
+(opens in new tab)](https://www.youtube.com/watch?v=N6FkmdL0Lg0)
 
 ## Insights
 
@@ -280,13 +291,13 @@ Claude Platform](https://claude.com/resources/articles/building-agents-when-to-f
 
 ### Introducing Claude Duet
 
-A research preview is available by waitlist today, starting with US Pro, Max, and Ultra subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleNov 12, 2026
+A research preview is available by waitlist today, starting with US Pro, Max, and Ultra subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleNov 13, 2026
 
-### Operate Claude Managed Agents inside your security perimeter
+### Building always-on agents
 
-Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
+Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
 
-Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)
 
 ## Guides
 

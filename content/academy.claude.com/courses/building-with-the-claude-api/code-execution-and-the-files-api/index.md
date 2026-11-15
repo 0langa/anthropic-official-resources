@@ -91,7 +91,7 @@ add_user_message(
 
 chat(
     messages,
-    tools=[{"type": "code_execution_20250522", "name": "code_execution"}]
+    tools=[{"type": "code_execution_20250825", "name": "code_execution"}]
 )
 ```
 
@@ -111,7 +111,7 @@ Claude might execute code multiple times during a single response, iteratively b
 
 One of the most powerful features is Claude's ability to generate files (like plots or reports) and make them available for download. When Claude creates a visualization, it gets stored in the container and you can download it using the Files API.
 
-Look for blocks with `type: "code_execution_output"` in the response - these contain file IDs for generated content:
+Look for blocks with `type: "bash_code_execution_output"` in the response - these contain file IDs for generated content:
 
 python
 

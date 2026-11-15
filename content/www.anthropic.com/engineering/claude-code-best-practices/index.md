@@ -11,7 +11,7 @@ Copy pageCopy page
 Claude Code is built in a way that, in most cases, your first plain prompt in a fresh session already does the right thing, without any setup on your part.
 For example:
 
-- To let commands run safely without you approving each one, new terminal and VS Code sessions start in [auto mode](https://code.claude.com/docs/en/permission-modes), where a classifier reviews anything risky before it runs.
+- To let commands run without you approving each one, new terminal and VS Code sessions start in [auto mode](https://code.claude.com/docs/en/permission-modes).
 - To keep your main conversation focused while independent work happens in parallel, Claude delegates to subagents and checks in only when it has to.
 - To keep a long session going without you managing it, your conversation is compacted automatically before the context window fills.
 
@@ -537,7 +537,7 @@ config/dev-credentials.json
 Keep it to small files: it copies rather than links, so `node_modules` in there would mean a full copy per worktree. For large directories there’s the [`worktree.symlinkDirectories`](https://code.claude.com/docs/en/settings-reference) setting, or keep the install command in `CLAUDE.md` so Claude runs it whenever it starts in a new checkout.
 You rarely have to clean any of this up yourself:
 
-- When you exit an unnamed worktree session, Claude Code [removes the worktree](https://code.claude.com/docs/en/worktrees) if there’s nothing in it. For a named session, or one with changes, it asks what to do.
+- When you exit an unnamed worktree session, Claude Code [removes a worktree it created with git](https://code.claude.com/docs/en/worktrees) if there’s nothing in it. For a named session, or one with changes, it asks what to do.
 - Subagent worktrees disappear when the subagent finishes without changes.
 - Subagent and background-session worktrees that do get left behind are swept once they’re older than `cleanupPeriodDays` and hold no work.
 

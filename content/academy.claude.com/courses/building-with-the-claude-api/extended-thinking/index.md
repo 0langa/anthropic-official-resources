@@ -52,9 +52,7 @@ The signature is a cryptographic token that ensures you haven't modified the thi
 
 ## Redacted Thinking[](https://academy.claude.com/courses/building-with-the-claude-api/extended-thinking)
 
-Sometimes you'll receive a redacted thinking block instead of readable reasoning text:
-
-![Notebook chat helper function with no thinking parameters, building params with max_tokens 1000 and adding tools if given.](https://academy.claude.com/assets/media/8925b1f16a1ba3df971072e434b23066155a02e661f1c192f2c1515b0479b83a.jpg)
+Sometimes you'll receive a redacted thinking block instead of readable reasoning text.
 
 This happens when Claude's thinking process gets flagged by internal safety systems. The redacted content contains the actual thinking in encrypted form, allowing you to pass the complete message back to Claude in future conversations without losing context.
 

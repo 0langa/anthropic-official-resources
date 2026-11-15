@@ -41,9 +41,9 @@ Anthropic’s Safeguards Team designs and implements detections and monitoring t
 
 Banned users may file [appeals](https://support.anthropic.com/en/articles/8241253-trust-and-safety-warnings-and-appeals) to request a review of our decision to ban their account.
 
-[*July - December 2025 Reporting*](https://www-cdn.anthropic.com/96721850b17dfa09b4efe674ccf576a68906e508.pdf)
+[*July - December 2025 Reporting*](https://assets.claude.com/96721850b17dfa09b4efe674ccf576a68906e508.pdf)
 
-[*January - June 2025 Reporting*](https://www-cdn.anthropic.com/1ad8a528583bdc77728d1e9a24492e69eeaa3b5f.pdf)
+[*January - June 2025 Reporting*](https://assets.claude.com/1ad8a528583bdc77728d1e9a24492e69eeaa3b5f.pdf)
 
 [*July - December 2024 Reporting*](https://assets.anthropic.com/m/545ed3faa0bf5093/original/Anthropic-Platform-Security-Web-Archive.pdf)
 
@@ -81,9 +81,9 @@ January - June 2026
 
 Anthropic is committed to combating child exploitation through prevention, detection and reporting. On our first-party services, we employ hash-matching technology and detection classifiers to [detect and report CSAM](https://support.claude.com/en/articles/9020328-csam-detection-and-reporting) that users may upload.  
   
-[*July - December 2025 Reporting*](https://www-cdn.anthropic.com/96721850b17dfa09b4efe674ccf576a68906e508.pdf)
+[*July - December 2025 Reporting*](https://assets.claude.com/96721850b17dfa09b4efe674ccf576a68906e508.pdf)
 
-[*January - June 2025 Reporting*](https://www-cdn.anthropic.com/1ad8a528583bdc77728d1e9a24492e69eeaa3b5f.pdf)
+[*January - June 2025 Reporting*](https://assets.claude.com/1ad8a528583bdc77728d1e9a24492e69eeaa3b5f.pdf)
 
 [*July - December 2024 Reporting*](https://assets.anthropic.com/m/545ed3faa0bf5093/original/Anthropic-Platform-Security-Web-Archive.pdf)
 
@@ -93,9 +93,9 @@ Anthropic processes data requests from law enforcement agencies and governments 
 
 For more information, see our full reports here:
 
-[*July - December 2025 Government Requests for Data*](https://www-cdn.anthropic.com/5d453bc3285b8e0c101b7193b5765419920cee24.pdf)
+[*July - December 2025 Government Requests for Data*](https://assets.claude.com/5d453bc3285b8e0c101b7193b5765419920cee24.pdf)
 
-[*January - June 2025 Government Requests for Data*](https://www-cdn.anthropic.com/b9033aa9eaf5af8a8f29e4b5587cce316b5e81a6.pdf)
+[*January - June 2025 Government Requests for Data*](https://assets.claude.com/b9033aa9eaf5af8a8f29e4b5587cce316b5e81a6.pdf)
 
 [*July - December 2024 Government Requests for Data*](https://assets.anthropic.com/m/604a7603983db0b9/original/Anthropic-Government-Requests-Report.pdf)
 
@@ -103,7 +103,7 @@ For more information, see our full reports here:
 
 ### Protocol for Addressing Expressions of Suicidal Ideation, Suicide, and Self-Harm Risk
 
-Anthropic is committed to the safety and wellbeing of users who interact with Claude. Please refer to our [Protocol for Addressing Expressions of Suicidal Ideation, Suicide, or Self Harm](https://www-cdn.anthropic.com/51dab7c41a832caf249149c7bfdd56fe65ecf960.pdf) for more information.
+Anthropic is committed to the safety and wellbeing of users who interact with Claude. Please refer to our [Protocol for Addressing Expressions of Suicidal Ideation, Suicide, or Self Harm](https://assets.claude.com/51dab7c41a832caf249149c7bfdd56fe65ecf960.pdf) for more information.
 
 ### Threat Intel Reports
 
@@ -121,9 +121,9 @@ Anthropic publishes transparency reports in accordance with its obligations unde
 
 For more information, see our full report and summary document here:
 
-[*EU DSA Transparency Report Overview: May - December 2025*](https://www-cdn.anthropic.com/a5e41ab5c47afca9e39912a7cf94bd433d9b4533.pdf)
+[*EU DSA Transparency Report Overview: May - December 2025*](https://assets.claude.com/a5e41ab5c47afca9e39912a7cf94bd433d9b4533.pdf)
 
-[*EU DSA Transparency Report: May - December 2025*](https://www-cdn.anthropic.com/ac75f8998a08cf309e2e87417876afba2bc0eec9.xlsx)
+[*EU DSA Transparency Report: May - December 2025*](https://assets.claude.com/ac75f8998a08cf309e2e87417876afba2bc0eec9.xlsx)
 
 ## Related content
 

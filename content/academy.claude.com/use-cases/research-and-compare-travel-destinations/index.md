@@ -98,7 +98,7 @@ Create a PowerPoint presentation from this analysis—one slide per destination 
 
 Once you've chosen a destination, Claude can research and build a day-by-day itinerary.
 
-I've decided on Lisbon! Can you create a 7-day itinerary with specific recommendations for temples to visit, neighborhoods to explore, restaurants for each meal, and day-trip options? Include approximate costs and booking information.
+I've decided on Kyoto! Can you create a 7-day itinerary with specific recommendations for temples to visit, neighborhoods to explore, restaurants for each meal, and day-trip options? Include approximate costs and booking information.
 
 
 

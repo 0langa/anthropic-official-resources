@@ -64,6 +64,10 @@ A general rule of thumb:
 
 **Use subagents.** Subagents run in parallel with your main agent but have a completely separate context window. For tasks where you only need the answer — like "where are the authentication endpoints located?" — a subagent does the work and returns just a summary to your main agent, keeping your primary context clean.
 
+## Try it now[](https://academy.claude.com/courses/claude-code-101/context-management)
+
+In a session you've been working in for a while, run `/context` and find what takes up the most space. If you're continuing the same feature, run `/compact`. If you're starting something new, run `/clear`. Run `/context` again to see what changed.
+
 ## Recap[](https://academy.claude.com/courses/claude-code-101/context-management)
 
 Managing context within Claude Code is crucial. Use `/compact` to summarize long sessions and `/clear` to start fresh. To use your context window effectively: be specific with your prompts, check what's consuming your current context, and use subagents to delegate tasks where you only need the result.

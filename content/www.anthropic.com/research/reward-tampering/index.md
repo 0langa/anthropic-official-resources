@@ -98,4 +98,4 @@ If you’d like to help us address these questions, or questions of AI Alignment
 
 ### Policy memo
 
-[Investigating Reward Tampering in Language Models Policy Memo](https://www-cdn.anthropic.com/files/4zrzovbb/website/bed8f247538cdfdd0caf8368f557adb73df0cb16.pdf)
+[Investigating Reward Tampering in Language Models Policy Memo](https://assets.claude.com/bed8f247538cdfdd0caf8368f557adb73df0cb16.pdf)

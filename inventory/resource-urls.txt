@@ -1835,6 +1835,7 @@ https://code.claude.com/docs/en/claude-apps-gateway-on-gcp
 https://code.claude.com/docs/en/claude-apps-gateway-spend-limits
 https://code.claude.com/docs/en/claude-code-on-the-web
 https://code.claude.com/docs/en/claude-directory
+https://code.claude.com/docs/en/claude-models-on-google-cloud-anthropic-managed
 https://code.claude.com/docs/en/claude-platform-on-aws
 https://code.claude.com/docs/en/claude-projects
 https://code.claude.com/docs/en/claude-security
