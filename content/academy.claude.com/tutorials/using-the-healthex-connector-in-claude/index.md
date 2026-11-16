@@ -12,7 +12,7 @@ HealthEx connects Claude to your personal health records from all your care prov
 
 The HealthEx integration relies upon Claude's ability to [use remote connectors(opens in new tab)](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities).
 
-More details about this integration can also be found in [HealthEx’s Connector Support Guide(opens in new tab)](https://healthex.io/guides/claude).
+For more details about this integration, see [HealthEx’s Connector Support Guide(opens in new tab)](https://healthex.io/guides/claude).
 
 ## **What this integration provides**[](https://academy.claude.com/tutorials/using-the-healthex-connector-in-claude)
 
@@ -38,10 +38,10 @@ Key requirements across all HealthEx connector users:
 
 - CLEAR-verified identity is required before any record retrieval.
 - Explicit, task-scoped consent governs all data access.
-- Permissions can be viewed, limited, or revoked at any time.
+- You can view, limit, or revoke permissions at any time.
 - HealthEx applies a privacy-first, minimum-necessary access model, with data retrieved only when requested.
 
-More details on accessing the integration can be found in [HealthEx’s Connector Support Guide(opens in new tab)](https://healthex.io/guides/claude).
+For more details on accessing the integration, see [HealthEx’s Connector Support Guide(opens in new tab)](https://healthex.io/guides/claude).
 
 ## **Example use cases**[](https://academy.claude.com/tutorials/using-the-healthex-connector-in-claude)
 
@@ -91,7 +91,7 @@ What types of exercise would be best for me?
 
 Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory) in Claude.
 
-Technical details of the HealthEx integration can be found in [HealthEx’s MCP Server Documentation(opens in new tab)](https://docs.healthex.io/category/healthex-mcp-server).
+For technical details of the HealthEx integration, see [HealthEx’s MCP Server Documentation(opens in new tab)](https://docs.healthex.io/category/healthex-mcp-server).
 
 ## **How to securely connect to your HealthEx account**[](https://academy.claude.com/tutorials/using-the-healthex-connector-in-claude)
 

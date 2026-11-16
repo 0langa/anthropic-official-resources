@@ -84,4 +84,4 @@ Subscribe
 
 ## More resources
 
-[How AI works10 resources](https://academy.claude.com/collections/how-ai-works)[Collaborating with AI18 resources](https://academy.claude.com/collections/collaborating-with-ai)[Claude Tag docs claude.com (opens in new tab)](https://claude.com/docs/claude-tag/overview)[Claude Managed Agents overview platform.claude.com (opens in new tab)](https://platform.claude.com/docs/en/managed-agents/overview)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[How AI works9 resources](https://academy.claude.com/collections/how-ai-works)[Collaborating with AI18 resources](https://academy.claude.com/collections/collaborating-with-ai)[Claude Tag docs claude.com (opens in new tab)](https://claude.com/docs/claude-tag/overview)[Claude Managed Agents overview platform.claude.com (opens in new tab)](https://platform.claude.com/docs/en/managed-agents/overview)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)

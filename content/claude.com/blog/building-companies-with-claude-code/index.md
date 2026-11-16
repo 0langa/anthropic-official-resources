@@ -10,7 +10,7 @@ From non-technical founders winning government contracts to solo devs building a
 
 Claude Code
 
-![Claude Code](https://assets.claude.com/f86dde63aac75ae3fcf058b66769625b7dd62988.jpg?w=2400&q=75&fm=webp&fit=max)
+![](https://assets.claude.com/7ce26b5e078244555803cda1e0edd4df1fd150f9.svg)
 
 Anthropic's agentic coding tool. Claude Code understands your codebase, edits files, runs commands, and helps you ship faster.
 
@@ -23,7 +23,7 @@ Today, agentic coding tools like [Claude Code](https://www.claude.com/product/cl
 We spoke with three YC startups who demonstrate this transformation in action:
 
 - [HumanLayer](https://www.humanlayer.dev/) (F24) built their entire platform and pioneered context engineering practices with Claude Code
-- [Ambral](https://www.ambral.com/) (W25) is scaling AI-powered account management with sophisticated sub-agent powered workflows built with Claude Code and Claude Agents SDK
+- [Ambral](https://www.ambral.com/) (W25) is scaling AI-powered account management with sophisticated sub-agent powered workflows built with Claude Code and the Claude Agent SDK
 - [Vulcan Technologies](https://vulcan-tech.com/) (S25) is using Claude Code to tackle regulatory complexity for the government and industry
 
 Let’s dive in.
@@ -94,7 +94,7 @@ His development process follows three discrete phases:
 2. **Planning phase (Opus 4.1)**: Create a plan with discrete phases on how to implement the feature. "I'll have Opus create a plan with phases, discrete phases on how to actually go about implementing it, and I'll go revise that plan. Maybe I'll chat with Opus about questions about certain details, or I'll manually update this markdown file."
 3. **Implementation phase (Sonnet 4.5)**: Execute each phase of the plan systematically. "Then I'll use Sonnet 4.5 to go and implement each phase."
 
-This approach prevailed over the other workflows Stettner tried and was influenced by some of the work Horthy is doing at Humanlayer: "I tried every coding tool, and I experimented with basically every model. I just think Anthropic's models are the best at tool use right now, and that translates to code."
+This approach prevailed over the other workflows Stettner tried and was influenced by some of the work Horthy is doing at HumanLayer: "I tried every coding tool, and I experimented with basically every model. I just think Anthropic's models are the best at tool use right now, and that translates to code."
 
 ### **Building a robust research engine**
 
@@ -178,7 +178,13 @@ Guy Gur-Ari, Co-founder
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 12, 2026
+[ArticleNov 13, 2026
+
+### Building always-on agents
+
+Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
+
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
 
 ### The Claude Tag guide for startups
 
@@ -196,15 +202,7 @@ Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-i
 
 How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
 
-(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)[ArticleNov 9, 2026
-
-### Which Claude model should you build with?
-
-How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.
-
-Claude PlatformClaude Code
-
-(opens in new tab)](https://claude.dev/blog/which-claude-model-should-you-build-with/)
+(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
 
 ## Transform how your organization operates with Claude
 

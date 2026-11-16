@@ -37,18 +37,18 @@ The Chrome extension brings Claude directly into your web workflow. Claude opera
 
 Not every browser activity suits delegation to the Claude browser extension. Here are a few examples to help you understand which tool to use to work more effectively:
 
-### Ideal for Claude in Chrome:[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
+### Ideal for Claude in Chrome[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
 
 - Taking action on specific websites like filling forms, clicking buttons, navigating interfaces, making changes to live pages
 - Executing well-defined workflows using shortcuts you've created, repeating proven processes
 - Specific, targeted tasks or information gathering behind a login or using your permissions
 
-### Ideal for Claude apps:[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
+### Ideal for Claude apps[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
 
 - Exploratory research when you don't know exactly where to look and need Claude to discover relevant sources
 - Complex synthesis across many sources like creating reports that pull from dozens of articles, academic research requiring extensive citations
 
-### Better handled yourself:[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
+### Better handled yourself[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
 
 - One-time tasks that are faster to do than explain like single clicks, simple copy-paste, quick edits
 - Highly subjective decisions requiring nuanced judgment
@@ -80,7 +80,7 @@ Once a workflow runs reliably — whether from a recording or a saved shortcut �
 - [Data extraction(opens in new tab)](https://academy.claude.com/use-cases/pull-metrics-from-analytics-dashboards) that pulls weekly metrics from dashboards that don't offer exports
 - [Calendar planning(opens in new tab)](https://academy.claude.com/use-cases/prepare-and-plan-from-your-calendar) for your upcoming week by flagging which meetings need prep and finding the details.
 
-### Additional shortcuts to try:[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
+### Additional shortcuts to try[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
 
 Taking action:
 

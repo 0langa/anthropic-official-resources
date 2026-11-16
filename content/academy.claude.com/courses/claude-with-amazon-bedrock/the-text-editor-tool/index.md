@@ -8,7 +8,9 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fthe-text-editor-tool)
 
-**Important Note: Up-to-date tool ID's for the text editor tool can be found in the AWS documentation here:** [**https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-anthropic-claude-messages-tool-use.html#model-parameters-anthropic-anthropic-defined-tools**(opens in new tab)](https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-anthropic-claude-messages-tool-use.html)
+
+
+The [AWS documentation(opens in new tab)](https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-anthropic-claude-messages-tool-use.html) lists the current tool IDs for the text editor tool.
 
 Embedded media: https://www.youtube-nocookie.com/embed/td0oYdyLb-E?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 

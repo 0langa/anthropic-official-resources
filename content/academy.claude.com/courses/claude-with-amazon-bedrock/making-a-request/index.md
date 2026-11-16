@@ -16,7 +16,9 @@ Making your first API request to AWS Bedrock requires three essential components
 
 ## Setting Up the Bedrock Client[](https://academy.claude.com/courses/claude-with-amazon-bedrock/making-a-request)
 
-Start by creating a client using boto3 to connect to the Bedrock runtime service:
+The client signs every request with your AWS credentials, so set those up before you start. Install the AWS CLI, then set up your credentials with `aws configure` or another option from [the AWS guide to CLI credentials(opens in new tab)](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-authentication.html). Without credentials, your first request stops with `NoCredentialsError`.
+
+Install boto3 with `pip install boto3`. Then create a client to connect to the Bedrock runtime service:
 
 python
 
@@ -52,7 +54,13 @@ To find inference profile IDs, go to the AWS Bedrock console and look under "Cro
 
 ![AWS Bedrock console, Cross-region inference page, listing inference profiles with a copy button beside each profile ID.](https://academy.claude.com/assets/media/8d6a91b2c2190a620782d010aa6f0e5343f8934d1809e2b673aa253d82daa4a8.png)
 
-Copy the inference profile ID for your chosen model. The examples in this course use Claude Haiku 4.5, whose inference profile ID is `us.anthropic.claude-haiku-4-5-20251001-v1:0`.
+Copy the inference profile ID for your chosen model. The examples in this course use Claude Haiku 4.5, whose inference profile ID is `us.anthropic.claude-haiku-4-5-20251001-v1:0`:
+
+python
+
+```
+model_id = "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+```
 
 ## Creating User Messages[](https://academy.claude.com/courses/claude-with-amazon-bedrock/making-a-request)
 

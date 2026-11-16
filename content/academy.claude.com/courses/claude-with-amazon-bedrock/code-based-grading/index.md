@@ -32,6 +32,10 @@ You'll need three helper functions to validate different output types:
 python
 
 ```
+import ast
+import json
+import re
+
 def validate_json(text):
     try:
         json.loads(text.strip())
@@ -86,7 +90,20 @@ You can also use a pre-filled assistant message with code blocks and stop sequen
 
 ## Combining Scores[](https://academy.claude.com/courses/claude-with-amazon-bedrock/code-based-grading)
 
-The final step is merging your model grader score with the syntax grader score. A simple approach is to take the average of both scores:
+First, pick the validator that matches each test case:
+
+python
+
+```
+def grade_syntax(output, test_case):
+    if test_case["format"] == "json":
+        return validate_json(output)
+    if test_case["format"] == "python":
+        return validate_python(output)
+    return validate_regex(output)
+```
+
+The final step is merging your model grader score with the syntax grader score. A simple approach is to take the average of both scores inside `run_test_case`:
 
 python
 

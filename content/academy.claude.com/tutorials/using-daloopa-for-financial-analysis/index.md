@@ -38,7 +38,7 @@ Claude applies Daloopa's financial data to support your analysis.
 
 ## Setting Up Daloopa Integration[](https://academy.claude.com/tutorials/using-daloopa-for-financial-analysis)
 
-Technical details of the Daloopa Integration can be found in Daloopa's [MCP Server Documentation(opens in new tab)](https://docs.daloopa.com/docs/daloopa-mcp). You will need to contact Daloopa to get access to the MCP server.
+For technical details of the Daloopa integration, see Daloopa's [MCP Server Documentation(opens in new tab)](https://docs.daloopa.com/docs/daloopa-mcp). Contact Daloopa to get access to the MCP server.
 
 ### For Organization Owners[](https://academy.claude.com/tutorials/using-daloopa-for-financial-analysis)
 

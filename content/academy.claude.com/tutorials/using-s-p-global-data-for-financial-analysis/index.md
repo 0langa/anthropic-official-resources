@@ -37,7 +37,7 @@ Claude applies Kensho's capabilities to support comprehensive financial analysis
 
 ## Setting Up the Kensho Integration[](https://academy.claude.com/tutorials/using-s-p-global-data-for-financial-analysis)
 
-Technical details of the Kensho Integration can be found in the [Kensho Integration MCP Server Documentation(opens in new tab)](https://docs.kensho.com/llmreadyapi/mcp). You will need to contact S&P Global to get access to the MCP server.
+For technical details of the Kensho integration, see the [Kensho Integration MCP Server Documentation(opens in new tab)](https://docs.kensho.com/llmreadyapi/mcp). Contact S&P Global to get access to the MCP server.
 
 ### For Organization Owners[](https://academy.claude.com/tutorials/using-s-p-global-data-for-financial-analysis)
 

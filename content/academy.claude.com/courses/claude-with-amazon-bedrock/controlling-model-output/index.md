@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fcontrolling-model-output)
 
+
+
+This lesson works with Claude Haiku 4.5, the model this course uses. Claude 4.6 and later models return an error when a request ends with a prefilled assistant message. On those models, steer Claude with your prompt or a system prompt, and use [structured outputs(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/structured-outputs) to get JSON.
+
 Embedded media: https://www.youtube-nocookie.com/embed/uLRkF7ttcTY?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=uLRkF7ttcTY)
@@ -67,6 +71,12 @@ def chat(messages, system=None, temperature=1.0, stop_sequences=[]):
             "stopSequences": stop_sequences
         },
     }
+
+    if system:
+        params["system"] = [{"text": system}]
+
+    response = client.converse(**params)
+    return response["output"]["message"]["content"][0]["text"]
 ```
 
 Here's a practical example:

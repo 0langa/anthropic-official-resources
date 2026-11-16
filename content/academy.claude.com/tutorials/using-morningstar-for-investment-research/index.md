@@ -35,7 +35,7 @@ Claude applies Morningstar data to support your analysis:
 
 ## Setting Up Morningstar Integration[](https://academy.claude.com/tutorials/using-morningstar-for-investment-research)
 
-Technical details of the Morningstar Integration can be found in the [Morningstar Integration MCP Server Documentation(opens in new tab)](https://developer.morningstar.com/direct-web-services/documentation/mcp-server/morningstar-mcp-server). If your account does not have access to the MCP server, you will need to contact Morningstar to get access to the MCP server.
+For technical details of the Morningstar integration, see the [Morningstar Integration MCP Server Documentation(opens in new tab)](https://developer.morningstar.com/direct-web-services/documentation/mcp-server/morningstar-mcp-server). If your account does not have access to the MCP server, contact Morningstar to get access to the MCP server.
 
 ### For Organization Owners[](https://academy.claude.com/tutorials/using-morningstar-for-investment-research)
 

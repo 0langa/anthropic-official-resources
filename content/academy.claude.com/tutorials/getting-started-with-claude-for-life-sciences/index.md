@@ -41,9 +41,9 @@ Through Model Context Protocol (MCP) [connectors(opens in new tab)](https://supp
 
 *\*Available as Desktop Extensions for access on Claude Desktop App ([download here(opens in new tab)](https://claude.ai/download)).*
 
-Claude also includes Connectors to other workplace and productivity platforms like **Microsoft 365**, **Gmail & Google Drive**, **Box**, **Databricks**, **Slack**, and many more. Explore all available Claude Connectors [here(opens in new tab)](https://claude.com/partners/mcp).
+Claude also includes connectors to other workplace and productivity platforms like Microsoft 365, Gmail, Google Drive, Box, Databricks, Slack, and many more. Explore [all available Claude connectors(opens in new tab)](https://claude.com/partners/mcp).
 
-You can also add custom connectors to connect Claude directly to the tools and data sources that matter most to your workflows. Learn more about setting up custom connectors [here(opens in new tab)](https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp).
+You can add custom connectors to connect Claude directly to the tools and data sources that matter most to your workflows. Learn more about [setting up custom connectors(opens in new tab)](https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp).
 
 ## Common research & discovery use cases[](https://academy.claude.com/tutorials/getting-started-with-claude-for-life-sciences)
 

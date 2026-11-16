@@ -102,7 +102,7 @@ Enhanced regulatory decision-making, improved adverse event analysis, accelerate
 
 ToolUniverse is open source under the Apache License 2.0, allowing free access to all features in ToolUniverse. The source code is available on [GitHub(opens in new tab)](https://github.com/mims-harvard/ToolUniverse).
 
-More details on accessing the integration can be found in [ToolUniverse’s MCP Server Documentation(opens in new tab)](https://github.com/mims-harvard/ToolUniverse).
+For more details on accessing the integration, see [ToolUniverse’s MCP Server Documentation(opens in new tab)](https://github.com/mims-harvard/ToolUniverse).
 
 ## **Setting up the ToolUniverse integration**[](https://academy.claude.com/tutorials/using-the-tooluniverse-extension-in-claude)
 
@@ -142,7 +142,7 @@ Learn about [installing desktop extensions from the directory(opens in new tab)]
 
 Follow the [ToolUniverse guide for Claude Code(opens in new tab)](https://zitniklab.hms.harvard.edu/ToolUniverse/guide/building_ai_scientists/claude_code.html).
 
-Technical details of the ToolUniverse integration can be found in [ToolUniverse’s MCP Server Documentation(opens in new tab)](https://github.com/mims-harvard/ToolUniverse).
+For technical details of the ToolUniverse integration, see [ToolUniverse’s MCP Server Documentation(opens in new tab)](https://github.com/mims-harvard/ToolUniverse).
 
 ## **Example use cases**[](https://academy.claude.com/tutorials/using-the-tooluniverse-extension-in-claude)
 

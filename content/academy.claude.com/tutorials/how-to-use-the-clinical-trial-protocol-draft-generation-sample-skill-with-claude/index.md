@@ -27,7 +27,7 @@ This skill is designed for regulatory affairs professionals at pharmaceutical an
 
 **For Organization Owners (Team and Enterprise)**
 
-1. Download the ZIP for the **clinical-trial-protocol-skill** [here(opens in new tab)](https://github.com/anthropics/life-sciences/releases/download/v1.1.1/clinical-trial-protocol-skill-v1.1.1.zip)
+1. Download the [ZIP file for `clinical-trial-protocol-skill`(opens in new tab)](https://github.com/anthropics/life-sciences/releases/download/v1.1.1/clinical-trial-protocol-skill-v1.1.1.zip)
 2. Review the sample skill thoroughly and make edits and adjustments to fit your organization’s workflows
 3. From [Claude.ai(opens in new tab)](http://claude.ai/), navigate to Admin settings > Capabilities > Skills
 4. Make sure Skills is activated for your organization
@@ -39,7 +39,7 @@ Learn about [provisioning and managing skills for your organization(opens in new
 
 **For Individual Claude Users**
 
-1. Download the ZIP file for **clinical-trial-protocol-skill** [here(opens in new tab)](https://github.com/anthropics/life-sciences/releases/download/v1.1.1/clinical-trial-protocol-skill-v1.1.1.zip)
+1. Download the [ZIP file for `clinical-trial-protocol-skill`(opens in new tab)](https://github.com/anthropics/life-sciences/releases/download/v1.1.1/clinical-trial-protocol-skill-v1.1.1.zip)
 2. Review the sample skill thoroughly and make edits and adjustments to fit your workflow
 3. From [Claude.ai(opens in new tab)](http://claude.ai/), navigate to Settings > Capabilities > Skills (if Skills is not available, contact your team admin)
 4. Click “Upload skill”

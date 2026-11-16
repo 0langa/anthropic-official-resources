@@ -29,7 +29,7 @@ This skill is designed for payer clinical reviewers who need to significantly re
 
 **For Organization Owners (Team and Enterprise)**
 
-1. Download the ZIP for the **prior-auth-review-skill** [here(opens in new tab)](https://github.com/anthropics/healthcare/releases/download/v1.0.0/prior-auth-review-skill-v1.0.0.zip)
+1. Download the [ZIP file for `prior-auth-review-skill`(opens in new tab)](https://github.com/anthropics/healthcare/releases/download/v1.0.0/prior-auth-review-skill-v1.0.0.zip)
 2. Review the sample skill thoroughly and make edits and adjustments to fit your organization’s workflows
 3. From [Claude.ai(opens in new tab)](http://claude.ai/), navigate to Admin settings > Capabilities > Skills
 4. Make sure Skills is activated for your organization
@@ -41,7 +41,7 @@ Learn about [provisioning and managing skills for your organization(opens in new
 
 **For Individual Claude Users**
 
-1. Download the ZIP file for the **prior-auth-review-skill** [here(opens in new tab)](https://github.com/anthropics/healthcare/releases/download/v1.0.0/prior-auth-review-skill-v1.0.0.zip)
+1. Download the [ZIP file for `prior-auth-review-skill`(opens in new tab)](https://github.com/anthropics/healthcare/releases/download/v1.0.0/prior-auth-review-skill-v1.0.0.zip)
 2. Review the sample skill thoroughly and make edits and adjustments to fit your workflow
 3. From [Claude.ai(opens in new tab)](http://claude.ai/), navigate to Settings > Capabilities > Skills (if Skills is not available, contact your team admin)
 4. Click “Upload skill”

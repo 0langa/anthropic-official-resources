@@ -73,6 +73,22 @@ def generate_dataset():
     return json.loads(text)
 ```
 
-```` This approach uses the pre-filled assistant message technique with stop sequences to extract clean JSON responses. The assistant message starts with "```json" and stops at the closing "```", ensuring you get properly formatted data. ## Saving Your Dataset Once generated, save the dataset to avoid regenerating it constantly: ``` dataset = generate_dataset() with open("dataset.json", "w") as f: json.dump(dataset, f, indent=2) ``` ` The generated dataset creates realistic AWS tasks like extracting account IDs from ARNs, writing JSON schemas for EC2 configurations, and creating regex patterns for S3 bucket names. While three test cases work for initial development, production evaluation would need significantly more examples with greater variety. This foundation gives you a repeatable process for creating evaluation datasets that match your specific use case, setting up the next steps of running evaluations and measuring prompt performance. ` ````
+This approach uses the pre-filled assistant message technique with stop sequences to extract clean JSON responses. The assistant message starts with ```` ```json ```` and stops at the closing ```` ``` ````, ensuring you get properly formatted data.
+
+## Saving Your Dataset[](https://academy.claude.com/courses/claude-with-amazon-bedrock/generating-test-datasets)
+
+Once generated, save the dataset to avoid regenerating it constantly:
+
+python
+
+```
+dataset = generate_dataset()
+with open("dataset.json", "w") as f:
+    json.dump(dataset, f, indent=2)
+```
+
+The generated dataset creates realistic AWS tasks like extracting account IDs from ARNs, writing JSON schemas for EC2 configurations, and creating regex patterns for S3 bucket names. While three test cases work for initial development, production evaluation would need significantly more examples with greater variety.
+
+This foundation gives you a repeatable process for creating evaluation datasets that match your specific use case, setting up the next steps of running evaluations and measuring prompt performance.
 
 Was this helpful?

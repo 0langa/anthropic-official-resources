@@ -24,19 +24,19 @@ Anthropic publishes [pre-built plugins(opens in new tab)](https://claude.com/plu
 
 A plugin can include a few types of components. Claude builds the right combination based on what you describe.
 
-#### **Skills —** the knowledge and workflows that shape how Claude works.
+#### **Skills —** the knowledge and workflows that shape how Claude works
 
 A skill might be a few lines describing a formatting preference, a detailed methodology covering your full review framework, or a structured workflow you trigger by typing `/` in your prompt. Claude reads each skill's description and draws on it when it matches what you're working on — or you invoke it directly from the slash menu.
 
 Skills can carry supporting reference documents — playbooks, compliance frameworks, pricing matrices — that Claude loads when relevant. They can accept inputs, so `/close-package North America` and `/close-package Europe` run the same process with different scope. Recurring skills can run as [scheduled tasks(opens in new tab)](https://support.claude.com/en/articles/13345190-get-started-with-cowork) with your criteria applied each time, and skills can chain to each other, where the output of one feeds the next.
 
-#### **Connectors** — link Claude to your tools.
+#### **Connectors** — link Claude to your tools
 
 A plugin works without connectors — you can upload data manually or describe the situation — but connected tools let Claude pull what it needs mid-workflow and write results back.
 
 You can direct Claude to search broadly across a connected tool or look in a specific place, depending on what the workflow needs.
 
-#### **Sub-agents** — specialized helpers for complex tasks.
+#### **Sub-agents** — specialized helpers for complex tasks
 
 One agent might research a company while another pulls data from your CRM and a third scans Slack for context. They can run in parallel or in sequence, each with its own focus and fresh context window.
 

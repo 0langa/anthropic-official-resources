@@ -35,7 +35,7 @@ Claude applies Egnyte capabilities in several ways to support comprehensive cont
 
 ## Setting up the Egnyte Connector[](https://academy.claude.com/tutorials/using-egnyte-for-data-room-management-with-claude)
 
-Technical details of the Egnyte connector can be found in [Egnyte’s MCP Server Documentation(opens in new tab)](https://developers.egnyte.com/api-docs/remote-mcp-server). Authentication is handled via OAuth 2.0, providing secure access to your Egnyte content.
+For technical details of the Egnyte connector, see [Egnyte’s MCP Server Documentation(opens in new tab)](https://developers.egnyte.com/api-docs/remote-mcp-server). You authenticate through OAuth 2.0, which provides secure access to your Egnyte content.
 
 ### Prerequisites[](https://academy.claude.com/tutorials/using-egnyte-for-data-room-management-with-claude)
 

@@ -72,7 +72,17 @@ Build MCP servers and clients from scratch with the Python SDK, covering the thr
 
 [View all webinars](https://academy.claude.com/all)
 
-[Upcoming · Nov 17, 10:00 AM PT
+[Upcoming · Nov 17, 8:00 AM PT
+
+### Claude for Manufacturing: Put Your Plant’s Know-How to Work 
+
+How manufacturing teams use Claude to draft quotes, NCRs, and reports from plant records, plus the Model Hardware Standard and Infor connector demos.
+
+ABGBNF+1
+
+·Upcoming·Nov 17·8:00 AM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work)[Upcoming · Nov 17, 10:00 AM PT
 
 ### Build Agents with Claude Models on Google Cloud 
 
@@ -92,17 +102,7 @@ SSIP
 
 ·Recording·Oct 22
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 21
-
-### Tokenomics on AWS: Control and optimize your Claude spend 
-
-Optimize your Claude spend on AWS with admin controls, default model settings, and measuring cost per task on Bedrock and the API.
-
-SMAR
-
-·Recording·Oct 21
-
- (opens in new tab)](https://claude.com/resources/webinars/tokenomics-on-aws-control-and-optimize-your-claude-spend)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
 ## Browse it all
 

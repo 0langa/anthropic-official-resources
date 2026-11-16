@@ -132,11 +132,7 @@ Build your skills with written guides and video lessons, from quick tasks to com
 
 ### What does AI know about me?
 
-·5 min](https://academy.claude.com/tutorials/what-does-ai-know-about-me)[![](https://academy.claude.com/assets/v1/thumbnail.light-m01o4z13.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ca0nkqqm.png)
-
-### The 4 Properties of AI
-
-·7 min](https://academy.claude.com/tutorials/the-4-properties-of-ai)[![](https://academy.claude.com/assets/v1/thumbnail.light-hbwc6qac.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gxfjrbde.png)
+·5 min](https://academy.claude.com/tutorials/what-does-ai-know-about-me)[![](https://academy.claude.com/assets/v1/thumbnail.light-hbwc6qac.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gxfjrbde.png)
 
 ### How context affects Claude's performance and cost
 
@@ -144,7 +140,11 @@ Build your skills with written guides and video lessons, from quick tasks to com
 
 ### Tokens: why some inputs cost more than others
 
-·15 min](https://academy.claude.com/tutorials/tokens-and-embeddings)
+·15 min](https://academy.claude.com/tutorials/tokens-and-embeddings)[![](https://academy.claude.com/assets/v1/thumbnail.light-cnu2p8qc.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dhnab57m.png)
+
+### What is sycophancy in AI models?
+
+·6 min](https://academy.claude.com/tutorials/what-is-sycophancy-in-ai-models)
 
 ## Collaborating with AI
 

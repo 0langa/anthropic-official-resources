@@ -1,155 +1,127 @@
-# The 4 Properties of AI
+Lesson 2 of 13 · AI capabilities and limitationsWhat We Mean by AI
 
-This tutorial offers a full overview of the 4 properties of AI. It's a quick reference to help you understand the things that make AI capable in some situations and limited in others.
+# What We Mean by AI
 
-7 min
+Lesson 215 min
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-m01o4z13.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ca0nkqqm.png)
+In this lessonBy the end, you’ll be able to
 
-*Want the deep dive with hands-on exercises?* Take the full [AI Capabilities & Limitations(opens in new tab)](https://academy.claude.com/courses/ai-capabilities-and-limitations) course.
+- Distinguish generative AI from the classification and prediction AI you already encounter daily
+- Understand that generative AI's properties exist on a continuum from capability to limitation
+- Preview the four core properties you'll explore in depth: Next Token Prediction, knowledge, working memory, and steerability
 
-Diagram: Four linked tiles introduce the tutorial's core framework, naming next token prediction, knowledge, working memory, and steerability, each posing its guiding question and linking to that section.
+Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
-[Next Token Prediction
+Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-capabilities-and-limitations%2Fwhat-we-mean-by-ai)
 
-Where do AI answers come from?](https://academy.claude.com/tutorials/the-4-properties-of-ai)
+## What we mean by generative AI[](https://academy.claude.com/courses/ai-capabilities-and-limitations/what-we-mean-by-ai)
 
-[Knowledge
+Embedded media: https://www.youtube-nocookie.com/embed/AiiiyYiEJa4?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
-What does AI actually know?](https://academy.claude.com/tutorials/the-4-properties-of-ai)
+What We Mean by AI · 4 min
 
-[Working Memory
+SummaryTranscript
 
-What is AI paying attention to?](https://academy.claude.com/tutorials/the-4-properties-of-ai)
+Most AI in the world (spam filters, recommendations, fraud detection) isn't
+generative. This course is about the kind that is: transformer-based text
+models that produce new content one token at a time.
 
-[Steerability
+[Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=AiiiyYiEJa4)
 
-How much am I in control?](https://academy.claude.com/tutorials/the-4-properties-of-ai)
+## Building a mental model of the machine[](https://academy.claude.com/courses/ai-capabilities-and-limitations/what-we-mean-by-ai)
 
-## Next Token Prediction[](https://academy.claude.com/tutorials/the-4-properties-of-ai)
+Diagram: A reference card showing four properties of generative AI—Next Token Prediction, Knowledge, Working Memory, and Steerability—each on a spectrum from capability to limitation, teaching calibrated trust rather than blanket reliance.
 
-
+### AI Capabilities and Limitations Framework
 
-*Where do AI answers come from?*
+Four properties that shape what AI can and can’t do for you. Each sits on a spectrum — the further right, the more you should verify and compensate.
 
-Generative AI writes answers word by word based on what tends to follow what. It is a vastly sophisticated autocomplete — not a search engine.
+CapabilityLimitation
 
-Summary card: outlines next token prediction, explaining what this text-prediction property enables and where it typically fails, plus Claude features that push those limits, with a linked video for more depth.
+- ![](https://academy.claude.com/assets/v1/pictoInference-erlax6xg.png)
 
-[Watch the lesson · 5 min](https://www.youtube.com/watch?v=kl0gunXTvyk)
+  Next Token Prediction
 
-What this enables
+  Where do AI answers come from?
 
-- Fluent, natural-sounding text in any style
-- Rapid synthesis across large amounts of material
-- Strong performance on tasks resembling its training data
+  Well-worn paths: summarize, reformat, explain common conceptsNovel territory, sparse patterns, "true vs. sounds true"
+- ![](https://academy.claude.com/assets/v1/pictoGlobe-m728bgxx.png)
 
-Where it characteristically fails
+  Knowledge
 
-- Hallucination — plausible isn't the same as true
-- Confabulation concentrates in specifics: names, dates, citations, stats, URLs
-- Misplaced confidence — smooth prose wraps a guess
+  What does AI actually know?
 
-Claude features that push the edge out
+  Frequent, recent-in-training, consistent: mainstream topics, popular languagesRare, post-cutoff, niche, local, or contested topics
+- ![](https://academy.claude.com/assets/v1/pictoChip-n1862015.png)
 
-Citations & source groundingConstrained generationGenerator–verifier loops
+  Working Memory
 
-## Knowledge[](https://academy.claude.com/tutorials/the-4-properties-of-ai)
+  What is the AI paying attention to right now?
 
-
+  Material fits comfortably, session is current, you supply relevant contextVery long docs/conversations, expecting cross-session continuity (the cliff)
+- ![](https://academy.claude.com/assets/v1/pictoKnobs-l02c6wf6.png)
 
-*What does AI actually know?*
+  Steerability
 
-What the model knows comes entirely from its training data, frozen at a knowledge cutoff — what it read, and when it stopped reading.
+  How much am I in control?
 
-Summary card: profiles the "Knowledge" property of AI, linking a short video and listing what broad training knowledge enables versus where it fails, like stale cutoffs and uneven coverage, plus Claude features like search and retrieval that extend it.
+  Short, concrete, verifiable instructions ("respond as a table," "under 100 words")Long reasoning chains, abstract asks, native precision
 
-[Watch the lesson · 5 min](https://www.youtube.com/watch?v=iSLdQXeKbHs)
+## Key takeaways[](https://academy.claude.com/courses/ai-capabilities-and-limitations/what-we-mean-by-ai)
 
-What this enables
+- **Generative AI produces new content** rather than classifying existing content.
+- **AI isn't uniformly capable or uniformly unreliable.** It's strong and weak along four predictable axes: Next Token Prediction, Knowledge, Working Memory, and Steerability.
+- **Each property is a continuum.** The same mechanism gives you both the capability and the limitation.
+- **Calibrated trust** means locating your task on the continuum, not granting or withholding trust wholesale.
 
-- Extraordinarily broad general knowledge
-- Deep competence in well-represented domains
-- Unexpected connections across fields
+## Exercises[](https://academy.claude.com/courses/ai-capabilities-and-limitations/what-we-mean-by-ai)
 
-Where it characteristically fails
+### Generative or Not?
 
-- Knowledge cutoff & staleness — true-then isn't true-now
-- Uneven coverage of niche, local, or recent topics
-- Source amnesia — “I read this somewhere” isn't a citation
+Why? You just learned that generative AI is fundamentally different from the AI that filters your spam and recommends your next video. Now you're going to use that distinction on your own experience.
 
-Claude features that push the edge out
+1. **List five AI-powered features you've interacted with this week.** Cast a wide net: autocomplete, photo tagging, spam filtering, chatbot answers, translation, product recommendations, voice assistants.
+2. **For each one, jot down your call:** is it producing new content, or is it sorting, ranking, and classifying existing content?
+3. **Share your list with an AI and ask it to check your calls.** For any you got wrong (or weren't sure about), ask it to explain the distinction in one sentence. Then ask: "Which of these five is most likely to have a failure mode this course will help me understand?"
+4. **Go back to your Lesson 1 task list.** For each task, tag it with the property question that feels most relevant right now:
+   - Where do the answers come from? (Next Token Prediction)
+   - What does it know? (Knowledge)
+   - What's it paying attention to? (Working Memory)
+   - How much am I in control? (Steerability)
 
-Web searchRetrieval (RAG / connectors)Tool use for real-time data
+You're not expected to get these right. You're creating predictions you'll test over the next four lessons.
 
-## Working memory[](https://academy.claude.com/tutorials/the-4-properties-of-ai)
+## Lesson reflection[](https://academy.claude.com/courses/ai-capabilities-and-limitations/what-we-mean-by-ai)
 
-
+- Did the generative/classification distinction with AI change how you think about any tool you use?
+- Look at how you tagged your task list. Did any task feel like it could belong under more than one property?
 
-*What is the AI paying attention to right now?*
+## What's next[](https://academy.claude.com/courses/ai-capabilities-and-limitations/what-we-mean-by-ai)
 
-Everything the model is attending to lives inside a fixed-size context window. Context is leverage — until you hit the cliff.
-
-Summary card: profiles Working Memory, the AI property governing what fits in a model's fixed context window, listing what it enables, where it fails, and Claude features that extend this limit, plus a linked video lesson.
-
-[Watch the lesson · 6 min](https://www.youtube.com/watch?v=QJjt4wF4iHM)
-
-What this enables
-
-- Rapid in-session adaptation to *your* docs, data, and constraints
-- Coherent work across long threads while space remains
-- Precise grounding in supplied material
-
-Where it characteristically fails
-
-- Hard length limits — a cliff, not a gradient
-- “Lost in the middle” — buried details get less attention
-- No persistent memory by default; corrections don't carry over
-
-Claude features that push the edge out
-
-MemoryProjectsContext compactionFile & artifact attachments
-
-## Steerability[](https://academy.claude.com/tutorials/the-4-properties-of-ai)
-
-
-
-*How much am I in control?*
-
-The model follows instructions by continuing a pattern, not by understanding intent. Remarkably steerable — but a gap always exists between what you meant and what landed.
-
-Summary card: outlines steerability, explaining how an AI model follows instructions by continuing a pattern rather than grasping intent, listing what this enables, where it typically fails, and which features extend its reach, with a linked video.
-
-[Watch the lesson · 5 min](https://www.youtube.com/watch?v=M_RwSRmp220)
-
-What this enables
-
-- Precise control over format, style, length, and tone
-- Role-setting and persona
-- Multi-step execution and iterative refinement
-
-Where it characteristically fails
-
-- Reasoning drift — small errors compound over long chains
-- Letter-over-spirit — instruction honored, intent missed
-- Prompt injection — other text in context can steer it too
-
-Claude features that push the edge out
-
-System prompts / custom instructionsExtended (visible) thinkingCode execution
-
-## Go deeper[](https://academy.claude.com/tutorials/the-4-properties-of-ai)
-
-Card: a closing call-to-action linking to the full AI Capabilities and Limitations course, covering each of the four properties with hands-on exercises, videos, and examples in about 90 minutes.
-
-Claude Academy · Free course
-
-AI Capabilities and Limitations Course
-
-Work through each property with hands-on exercises, videos, and real examples in the full course. You’ll learn to spot which property is in play when AI surprises you — and what to do about it.
-
-[Take the course](https://academy.claude.com/courses/ai-capabilities-and-limitations)
-
-About 90 minutes
+Before we dig into the four properties, we'll spend one lesson on how an AI system ends up with a personality at all. Why it's polite, helpful, honest, why it sometimes agrees too easily, why it declines certain things. That shaping process leaves fingerprints on everything that follows.
 
 Was this helpful?
+
+
+## Video transcript
+
+# What We Mean by AI
+
+Before we go anywhere, let's be clear about what we mean by AI, because it's actually a broad term that means many different things. The recommendation engine picking your next video, the spam filter in your inbox, the fraud model flagging a suspicious charge on your card, the system routing your customer service call, all of that is AI. None of it, however, is generative. These systems sort, rank, classify, and predict. They're enormously useful, and they're running in the background of your life constantly. They're also not what this series is about.
+
+What's changed recently is the rise of generative AI. These are systems that produce new content rather than categorizing existing content: text, images, code, audio, video. Generative AI is created through two stages. First, it's trained on massive amounts of data to learn patterns, that's pre-training. Then it's refined to be broadly safe, ethical, and helpful. That's fine tuning. You'll learn more about these in the next lesson.
+
+Generative AI at its core is a prediction system. AI isn't uniformly capable or uniformly unreliable. It's strong and weak along specific, predictable axes. And most of the time, the strength and weakness come from the same underlying property of the machine. An AI can write compellingly because it's a prediction engine. It also hallucinates because it's a prediction engine. On one end, a capability zone. On the other, a limitation zone. The mechanism itself is always operating the same way. What varies is where your specific task lands on that line. The skill you're building in this series is learning to feel out where those edges are.
+
+Let's do a quick overview of the four properties of generative AI you'll learn in this course. "Next token prediction." Where do the answers actually come from? Unless you've enabled or directed it to use an external source, the model isn't looking things up. It's writing what comes next based on the content it's been trained on, one fragment at a time.
+
+"Knowledge." What does the model actually know? Its knowledge is broad but uneven, frozen at a training cutoff, and shaped by whatever was in the data it learned from.
+
+"Working memory." What is the model paying attention to right now? Just like humans, models don't have unlimited memories. What's in the context window is what's available to the AI.
+
+"Steerability." How much are you in control? These systems are remarkably directable. But there can be a gap between what you intended and what actually landed.
+
+We'll deep dive into each of these properties and how knowing about them can empower you to make good decisions when using AI. The goal here isn't to make you distrust AI. It's also not to make you fully delegate all your tasks. It's calibrated trust, neither granting it nor withholding it wholesale.
+
+By the end of the course, you'll be able to ask, "Where does my task sit on the continuum for each property of generative AI?" "Is this well-trodden territory, or am I out near an edge?" "What are the stakes if I'm wrong?" With this model, the behavior of generative AI starts feeling predictable, and that puts you in control.
+

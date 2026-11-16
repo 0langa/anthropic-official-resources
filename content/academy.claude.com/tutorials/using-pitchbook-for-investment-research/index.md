@@ -38,7 +38,7 @@ Claude accesses PitchBook data to help build your analyses. Here are several exa
 
 ## Setting Up PitchBook Integration[](https://academy.claude.com/tutorials/using-pitchbook-for-investment-research)
 
-Technical details of the PitchBook Integration can be found in the [PitchBook Premium Integration MCP Service Documentation(opens in new tab)](https://help.pitchbook.com/s/article/PitchBook-Premium-for-Claude-by-Anthropic). Users must possess Single Sign-On (SSO) credentials and a seat-based, unlimited, or trial PitchBook license.
+For technical details of the PitchBook integration, see the [PitchBook Premium Integration MCP Service Documentation(opens in new tab)](https://help.pitchbook.com/s/article/PitchBook-Premium-for-Claude-by-Anthropic). Users must possess Single Sign-On (SSO) credentials and a seat-based, unlimited, or trial PitchBook license.
 
 If your account does not have access to the MCP service, please contact your account representative.
 

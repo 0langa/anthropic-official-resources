@@ -54,7 +54,7 @@ Which mode a new session starts in depends on your Claude Code version and setti
 
 ![Claude Code asking for permission before running a bash command](https://academy.claude.com/assets/media/8d2d1170d15c7ba9eed77d9ec83eec23486de420931ab4901a67b771f9cbb4b7.jpg)
 
-All of this can be configured in your settings file. Be cautious when skipping permissions — giving Claude Code free rein to run commands means a mistake could be harder to catch before it happens.
+You can configure all of this in your settings file. Be cautious when skipping permissions — giving Claude Code free rein to run commands means a mistake could be harder to catch before it happens.
 
 ## Recap[](https://academy.claude.com/courses/claude-code-101/how-claude-code-works)
 

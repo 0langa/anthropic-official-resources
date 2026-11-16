@@ -23,7 +23,7 @@ You'll need a Pro, Max, Ultra, Team, or Enterprise plan. You can add the plugin 
 
 After you add the plugin, you'll have all of the [skills(opens in new tab)](https://academy.claude.com/tutorials/what-are-skills) listed below available. To tailor the plugin to your business and workflow, see the *Customize the plugin for your business* section of this guide.
 
-#### To run a skill:
+#### To run a skill
 
 - Type `/` in the chat bar and pick it from the list, or
 - Describe the job in plain English and Claude picks the skill that fits.

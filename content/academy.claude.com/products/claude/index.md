@@ -101,7 +101,9 @@ Work through how to teach a concept with Claude sketching alongside. The visual 
 
 ### Claude for Manufacturing: Put Your Plant’s Know-How to Work 
 
-A first look at the Model Hardware Standard plus how Claude drafts quotes, NCRs, and reports from your plant's records while experts stay in charge.
+How manufacturing teams use Claude to draft quotes, NCRs, and reports from plant records, plus the Model Hardware Standard and Infor connector demos.
+
+ABGBNF+1
 
 ·Upcoming·Nov 17·8:00 AM PT
 

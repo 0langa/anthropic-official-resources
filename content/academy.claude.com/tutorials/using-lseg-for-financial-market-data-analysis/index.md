@@ -36,7 +36,7 @@ Claude applies LSEG’s market data to support your financial analysis.
 
 ## Setting Up LSEG Integration[](https://academy.claude.com/tutorials/using-lseg-for-financial-market-data-analysis)
 
-Technical details of the LSEG Integration can be found in LSEG’s MCP Server Documentation (available soon on LSEG portal). You will need to contact LSEG to get access to the MCP server.
+Contact LSEG to get access to the MCP server and its technical documentation.
 
 ### For Organization Owners[](https://academy.claude.com/tutorials/using-lseg-for-financial-market-data-analysis)
 

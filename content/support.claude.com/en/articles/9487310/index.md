@@ -1,6 +1,6 @@
 # What are artifacts and how do I use them?
 
-Updated today
+Updated this week
 
 Copy for LLM
 

@@ -42,7 +42,7 @@ Instructions apply to every task — they're like the background rules Claude fo
 
 [To use a skill(opens in new tab)](https://support.claude.com/en/articles/12512180-use-skills-in-claude), name it directly (`/skill-name`) or describe the task in plain language. Claude can recognize when a skill applies and load it.
 
-[Creating a skill(opens in new tab)](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills) can also be done with Claude in a prompt. Run through a workflow the way you normally would. At the end of the work, ask Claude:
+You can also [create a skill(opens in new tab)](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills) with Claude in a prompt. Run through a workflow the way you normally would. At the end of the work, ask Claude:
 
 Package what we just did into a skill.
 
