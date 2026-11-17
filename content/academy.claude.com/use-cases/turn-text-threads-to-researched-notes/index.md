@@ -20,9 +20,9 @@ I just got a text from Sarah asking me to bring dessert to Saturday's potluck—
 
 Can you read my Messages to see the full context, then help me figure out what to make? I need something that's impressive but not too complicated, travels well, and can be made Friday night since Saturday morning I'll be busy.
 
-Research dessert options that fit those criteriasave recipe opping list to my Notes app—group the shopping list by store section so I'm not running back and forth, and include any technique tips that'll help me nail it.
+Research dessert options that fit those criteria, then save the recipe and shopping list to my Notes app—group the shopping list by store section so I'm not running back and forth, and include any technique tips that'll help me nail it.
 
-To ensure correct formatting in my notes, using HTML tags to create natural line breaks. Use abbreviations and concise language so the note isn't overly long.
+To ensure correct formatting in my notes, use HTML tags to create natural line breaks. Use abbreviations and concise language so the note isn't overly long.
 
 
 
@@ -36,25 +36,23 @@ Claude can connect to Messages to understand the full thread context, search the
 
 To access system-level connectors, download [Claude for Desktop.(opens in new tab)](https://claude.com/download)
 
-Then, in [Settings > Connectors(opens in new tab)](https://claude.ai/customize/connectors), click ‘Browse Connectors’, and enable the **Read and Send iMessages** and **Read and Write Apple Notes** extensions under ‘Desktop extensions’. These are extensions of Claude for Desktop on a Mac, not iPhone integrations: Claude reads the threads and writes the notes on your computer, and as long as Messages and Notes sync over iCloud, your phone stays in step with no phone-side setup.
-
-Turn on [Web Search(opens in new tab)](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search) in the chat bar so Claude can search for recipes and reviews online as a next step.
+Then, in the desktop app, open Settings, search for “Extensions” and click it in the results. Click “Browse extensions,” then install **Read and Send iMessages** and **Read and Write Apple Notes**. These are extensions of Claude for Desktop on a Mac, not iPhone integrations: Claude reads the threads and writes the notes on your computer, and as long as Messages and Notes sync over iCloud, your phone stays in step with no phone-side setup.
 
 
 
 Read and Send iMessages
 
-A desktop extension of the Claude app on a Mac — enable it under Desktop extensions once the app is installed.
+A desktop extension of the Claude app on a Mac. Install it from Extensions in the app's Settings.
 
-[Connect](https://claude.ai/customize/connectors)
+[Connect](https://claude.ai/directory/ant.dir.ant.anthropic.imessage)
 
 
 
 Read and Write Apple Notes
 
-A desktop extension of the Claude app on a Mac — enable it under Desktop extensions once the app is installed.
+A desktop extension of the Claude app on a Mac. Install it from Extensions in the app's Settings.
 
-[Connect](https://claude.ai/customize/connectors)
+[Connect](https://claude.ai/directory/ant.dir.ant.anthropic.notes)
 
 [Browse connectors in Claude](https://claude.ai/customize/connectors)
 
@@ -138,9 +136,9 @@ I just got a text from Sarah asking me to bring dessert to Saturday's potluck—
 
 Can you read my Messages to see the full context, then help me figure out what to make? I need something that's impressive but not too complicated, travels well, and can be made Friday night since Saturday morning I'll be busy.
 
-Research dessert options that fit those criteriasave recipe opping list to my Notes app—group the shopping list by store section so I'm not running back and forth, and include any technique tips that'll help me nail it.
+Research dessert options that fit those criteria, then save the recipe and shopping list to my Notes app—group the shopping list by store section so I'm not running back and forth, and include any technique tips that'll help me nail it.
 
-To ensure correct formatting in my notes, using HTML tags to create natural line breaks. Use abbreviations and concise language so the note isn't overly long.
+To ensure correct formatting in my notes, use HTML tags to create natural line breaks. Use abbreviations and concise language so the note isn't overly long.
 
 Try in Claude
 

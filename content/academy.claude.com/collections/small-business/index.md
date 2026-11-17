@@ -14,7 +14,7 @@ Helps small business owners and staff build practical AI collaboration skills us
 
 Install the plugin, see what's in it, customize it for your business, and run your first task. By the end, you'll have the plugin tailored to your business and a first task already done.
 
-·Tutorial·15 min](https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin)[![](https://academy.claude.com/assets/v1/thumbnail.light-lov8vstm.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cnsmqju3.png)
+·Tutorial·15 min](https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin)[![](https://academy.claude.com/assets/v1/thumbnail.light-ls1g400e.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-l14xsm61.png)
 
 ### Using Claude for your small business
 

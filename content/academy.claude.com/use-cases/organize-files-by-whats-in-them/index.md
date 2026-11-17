@@ -1,10 +1,10 @@
 # Organize files across your desktop
 
-Grant Cowork access to your cluttered desktop and walk away. It reads your files, figures out what they are, and sorts them into folders while you do something else.
+Grant Claude access to your cluttered desktop and walk away. It reads your files, figures out what they are, and sorts them into folders while you do something else.
 
 15 minPersonalClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-nqyf55m6.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ju4mx93c.png)
 
@@ -12,7 +12,7 @@ Try in CoworkCopy prompt
 
 ## 1. Describe the task[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
-Grant Claude access to your desktop. In Cowork, it sees the same chaos you do: scattered screenshots, project folders with cryptic names, downloads you never moved. It reads through everything and sorts it into a clean folder structure.
+Grant Claude access to your desktop. It sees the same chaos you do: scattered screenshots, project folders with cryptic names, downloads you never moved. It reads through everything and sorts it into a clean folder structure.
 
 Come back to a tidy desktop and a summary of what went where.
 
@@ -20,23 +20,23 @@ Please help organize my desktop. Evaluate all of the scattered files and organiz
 
 
 
-Open in Cowork
+Open in Claude
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
-Cowork is a workspace in Claude, available in the [Claude Desktop(opens in new tab)](https://claude.com/download) app and on web and mobile. To organize files on your computer, start the task in Claude Desktop and grant it access to your desktop or a folder. Claude reaches those files through the desktop app while it's open, and the files it uses are processed on Anthropic's servers.
+To organize files on your computer, start the task in Claude Desktop and grant it access to your desktop or a folder. Claude reaches those files through the desktop app while it's open, and the files it uses are processed on Anthropic's servers.
 
 ### Required context[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
 To get started:
 
-- Download [Claude Desktop(opens in new tab)](https://claude.com/download) and start a Cowork session
+- Download [Claude Desktop(opens in new tab)](https://claude.com/download) and start a new task
 - Grant desktop or folder access when prompted
-- Mention anything Cowork shouldn't touch, like the folder for a project you're in the middle of
+- Mention anything Claude shouldn't touch, like the folder for a project you're in the middle of
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
-Cowork scans your desktop, categorizes each file, and creates a folder structure. You'll see progress updates as it works and a summary of what changed.
+Claude scans your desktop, categorizes each file, and creates a folder structure. You'll see progress updates as it works and a summary of what changed.
 
 I'd be happy to help organize your desktop! Let me first take a look at what's currently there.
 
@@ -68,23 +68,23 @@ Continue the conversation with Claude to refine, expand, or explore further.
 
 ### Reorganize by your own logic[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
-Apply your own categories instead of the defaults. If you organize by client, by date, or by project phase, tell Cowork and it will restructure.
+Apply your own categories instead of the defaults. If you organize by client, by date, or by project phase, tell Claude and it will restructure.
 
 *"Actually, split the Projects folder by language — Python projects in one folder, JavaScript in another, and everything else in misc."*
 
 
 
-Open in Cowork
+Open in Claude
 
 ### Find something you lost[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
-Cowork remembers what it moved and where. If you're hunting for a file in the new structure, ask.
+Claude remembers what it moved and where. If you're hunting for a file in the new structure, ask.
 
 *"Where did that budget spreadsheet end up? I think it was called Q3\_budget or something like that."*
 
 
 
-Open in Cowork
+Open in Claude
 
 ### Create an ongoing system[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
@@ -94,32 +94,32 @@ Set up folder conventions you can maintain. One cleanup helps, but a system keep
 
 
 
-Open in Cowork
+Open in Claude
 
 ## 5. Tricks, tips, and troubleshooting[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
-### Where Cowork works on your files[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
+### Where Claude works on your files[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
-Cowork reaches only the folders you've connected, with the permissions you've set. A task that runs in the cloud reads and writes those files through the Claude Desktop app, so start it from the desktop app and keep the app open. The files Claude uses in the cloud are processed on Anthropic's servers.
+Claude reaches only the folders you've connected, with the permissions you've set. A task that runs in the cloud reads and writes those files through the Claude Desktop app, so start it from the desktop app and keep the app open. The files Claude uses in the cloud are processed on Anthropic's servers.
 
 ### Start with one area if you're nervous[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
-If granting full desktop access feels like too much, use "Work in a folder" to point Cowork at just your Downloads or Documents folder first. You can always expand access once you see how it works.
+If granting full desktop access feels like too much, give Claude access to just your Downloads or Documents folder first. You can always expand access once you see how it works.
 
 ### Be specific about what you want to keep[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
-Cowork will ask before deleting anything that looks important, but if you know certain file types are always junk (like .tmp files or duplicate downloads), mention that upfront. What you get back depends on what you put in: the clearer your rules, the more Cowork can do without checking in. When the summary appears, give it a quick check before you call the job done: confirm the Cleaned up list only removed real junk, and open a file or two in the new folders to make sure they landed where you'd look for them. Match the check to the stakes: a skim is enough for screenshots, but a tax form or a contract deserves a closer look.
+Claude will ask before deleting anything that looks important, but if you know certain file types are always junk (like .tmp files or duplicate downloads), mention that upfront. What you get back depends on what you put in: the clearer your rules, the more Claude can do without checking in. When the summary appears, give it a quick check before you call the job done: confirm the Cleaned up list only removed real junk, and open a file or two in the new folders to make sure they landed where you'd look for them. Match the check to the stakes: a skim is enough for screenshots, but a tax form or a contract deserves a closer look.
 
 ### Start another task while this one runs[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
-Organizing a full desktop takes a while. Open a new session from the sidebar for other work. You'll see a grey dot in the sidebar when this one needs attention.
+Organizing a full desktop takes a while. Open a new session from the sidebar for other work. The dot or icon beside this task in the sidebar changes when it needs attention.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
-The next time your desktop gets cluttered, open Cowork and let it handle the sorting.
+The next time your desktop gets cluttered, open Claude and let it handle the sorting.
 
 Please help organize my desktop. Evaluate all of the scattered files and organize based on the contents inside of them.
 
-Try in Cowork
+Try in Claude
 
 Was this helpful?

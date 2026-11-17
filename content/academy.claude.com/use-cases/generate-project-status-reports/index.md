@@ -46,7 +46,7 @@ Enable [connectors(opens in new tab)](https://claude.com/blog/connectors-directo
 
 ### Required context[](https://academy.claude.com/use-cases/generate-project-status-reports)
 
-Once you’ve connected your [Google Drive(opens in new tab)](https://support.claude.com/en/articles/10166901-using-the-google-drive-integration), [Gmail, Google Calendar(opens in new tab)](https://support.claude.com/en/articles/10166901-use-google-workspace-connectors), and [Slack(opens in new tab)](https://www.claude.com/claude-and-slack) tools, make sure they are toggled on in the chat bar settings.
+Once you’ve connected your [Google Drive(opens in new tab)](https://support.claude.com/en/articles/10166901-using-the-google-drive-integration), [Gmail, Google Calendar(opens in new tab)](https://support.claude.com/en/articles/10166901-use-google-workspace-connectors), and [Slack(opens in new tab)](https://claude.ai/directory/slack) tools, make sure they are toggled on in the chat bar settings.
 
 Claude can then access your email threads, Drive file updates, calendar events, and Slack conversations to piece together what's actually happening with your project.
 

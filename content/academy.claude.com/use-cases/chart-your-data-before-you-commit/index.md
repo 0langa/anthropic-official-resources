@@ -88,7 +88,7 @@ The pattern Claude flagged is a starting point. A striking cell can be real, or 
 
 ### What to do with the visual next[](https://academy.claude.com/use-cases/chart-your-data-before-you-commit)
 
-Hover for options: copy as image for slides, or Save as Artifact if you want something interactive to share with collaborators. Or ask Claude to write the report paragraph from what the chart showed — that's the piece you bring to the committee.
+Hover for options to copy it as an image for slides, or ask Claude to turn it into an artifact if you want something interactive to share with collaborators (whether and how you can [share it(opens in new tab)](https://support.claude.com/en/articles/9547008-share-artifacts) depends on your Claude plan). Or ask Claude to write the report paragraph from what the chart showed — that's the piece you bring to the committee.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/chart-your-data-before-you-commit)
 

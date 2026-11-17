@@ -30,11 +30,11 @@ Create an overview document of my must-dos, daily structure, preparation I still
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/quickly-prep-for-your-week)
 
-To help Claude analyze your week effectively, give Claude access to your workspaces. Use the [Microsoft 365 connector(opens in new tab)](https://www.anthropic.com/news/productivity-platforms) to give Claude access to your Outlook calendar, email, SharePoint documents, OneDrive files, and Teams conversations.
+To help Claude analyze your week effectively, give Claude access to your workspaces. Use the [Microsoft 365 connector(opens in new tab)](https://claude.ai/directory/microsoft-365) to give Claude access to your Outlook calendar, email, SharePoint documents, OneDrive files, and Teams conversations.
 
 ### Required context[](https://academy.claude.com/use-cases/quickly-prep-for-your-week)
 
-In [Settings > Connectors(opens in new tab)](https://claude.ai/customize/connectors), you'll find the [Microsoft 365 connector(opens in new tab)](https://www.anthropic.com/news/productivity-platforms).
+In [Settings > Connectors(opens in new tab)](https://claude.ai/customize/connectors), you'll find the [Microsoft 365 connector(opens in new tab)](https://claude.ai/directory/microsoft-365).
 
 Claude can then search across your connected tools simultaneously—identifying which meetings need prep, what's urgent in your inbox, and how your schedule and communications relate to each other.
 
@@ -147,7 +147,7 @@ Refine the output to have tighter spacing so more content fits on one page. Chan
 
 ### Use your [organization's search project(opens in new tab)](https://support.claude.com/en/articles/12489464-using-enterprise-search) for company-wide information[](https://academy.claude.com/use-cases/quickly-prep-for-your-week)
 
-When you connect tools like calendar and email individually, Claude searches only your personal files and messages. If you need information from across your organization—team documents in SharePoint, company-wide Slack channels, other people's shared files—look for a project in your sidebar named "Ask [Your Company Name]". This is a separate project your admin sets up that connects to company-wide sources, not just your individual accounts. When you use that project, Claude searches across all the tools your organization has connected: everyone's shared documents, team channels, company knowledge bases.
+When you connect tools like calendar and email individually, Claude searches what your account can access in those tools. To search across your organization's tools in one place (team documents in SharePoint, company-wide Slack channels, other people's shared files), look for a project in your sidebar named "Ask [Your Company Name]". This is a separate project your admin sets up that connects to company-wide sources. When you use that project, Claude searches across the tools connected to it: shared documents, team channels, company knowledge bases. Results follow your own permissions in each tool. The exception is a custom connector set up with a shared credential, such as an API key, where everyone sees what that credential can access.
 
 ### Be specific about timeframes and priorities[](https://academy.claude.com/use-cases/quickly-prep-for-your-week)
 

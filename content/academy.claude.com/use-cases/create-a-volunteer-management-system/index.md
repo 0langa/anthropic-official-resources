@@ -18,12 +18,11 @@ I run a nonprofit that provides tutoring and reading programs to elementary stud
 
 I need a complete volunteer program infrastructure that includes:
 
-Role descriptions for:  
-Reading Tutors (work one-on-one with students weekly)
+Role descriptions for:
 
 - Reading Tutors (work one-on-one with students weekly)
 - Reading Buddies (lead small group reading circles)
-- Event Coordinators (organize book fairs and literacy events
+- Event Coordinators (organize book fairs and literacy events)
 - Administrative Volunteers (data entry, scheduling, communications support)
 
 Onboarding system including:
@@ -81,16 +80,13 @@ Foundation Organizational OverviewPDF
 
 Volunteer Program Handbook and Role DescriptionsPDF
 
-
-
-Foundation Organizational OverviewPDF
-
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/create-a-volunteer-management-system)
 
 Claude creates a complete volunteer program infrastructure with 4 core deliverables.
 
 I've created a comprehensive volunteer program infrastructure with 4 core deliverables:
 
+**Volunteer Role Descriptions**  
 This document includes detailed descriptions for all four volunteer positions—Reading Tutors, Reading Buddies, Event Coordinators, and Administrative Volunteers. Each role includes purpose, key responsibilities, time commitment, qualifications, training requirements, and benefits. The descriptions are specific enough to set clear expectations while remaining welcoming to diverse applicants.
 
 **Complete Onboarding Guide**  
@@ -164,7 +160,7 @@ Role descriptions for:
 
 • Reading Tutors (work one-on-one with students weekly)
 • Reading Buddies (lead small group reading circles)
-• Event Coordinators (organize book fairs and literacy events
+• Event Coordinators (organize book fairs and literacy events)
 • Administrative Volunteers (data entry, scheduling, communications support)
 
 Onboarding system including:

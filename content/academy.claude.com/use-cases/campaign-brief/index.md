@@ -4,7 +4,7 @@ A formatted campaign brief from rough notes.
 
 10 minMarketingClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-f1fouzqt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iw1rj94h.png)
 
@@ -312,19 +312,19 @@ MarketingCreate content, plan campaigns, and analyze performance across marketin
 
 `/campaign-plan`Generate a full campaign brief with objectives, audience, messaging, channel strategy, content calendar, and success metrics.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcampaign-plan)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcampaign-plan)
 
 `/draft-content`Draft blog posts, social media, email newsletters, landing pages, press releases, and case studies with channel-specific formatting and SEO recommendations.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdraft-content)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdraft-content)
 
 Show all 7 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/campaign-brief)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)
 
@@ -338,15 +338,15 @@ Notion
 
 [Connect](https://claude.ai/desktop/directory/notion)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/campaign-brief)
 
-Drag the files you'll use (the strategy notes, your brief template, the brand guidelines, last quarter's best brief) into one folder on your machine, then point Cowork at it. Cowork reads from it and writes the formatted brief and deck back to it. If you'll spin up campaigns regularly, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent Campaigns folder so the template and brand voice stay attached.
+Drag the files you'll use (the strategy notes, your brief template, the brand guidelines, last quarter's best brief) into one folder on your machine, then point Claude at it. Claude reads from it and writes the formatted brief and deck back to it. If you'll spin up campaigns regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent Campaigns folder so the template and brand voice stay attached.
 
 Campaigns / Spring-Launch
 
@@ -360,13 +360,13 @@ In Cowork’s chat bar:Campaigns / Spring-Launch
 
 ## The prompt[](https://academy.claude.com/use-cases/campaign-brief)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/campaign-brief)
+### Copy this into Claude[](https://academy.claude.com/use-cases/campaign-brief)
 
 Turn the strategy notes into a formatted campaign brief: objective, audience, key message, channel plan, timeline, and success metrics. Then build a short deck from the brief to walk the team through at kickoff. Keep the voice consistent with our brand guidelines.
 
 
 
-Campaigns / Spring-LaunchOpen in Cowork
+Campaigns / Spring-LaunchOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/campaign-brief)
 
@@ -390,13 +390,13 @@ Turn the strategy notes into a formatted campaign brief: objective, audience, ke
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask for options.** Add "draft three versions with different angles" and pick the one that works best, or mix the best lines.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/campaign-brief)
+## Make Claude work for you[](https://academy.claude.com/use-cases/campaign-brief)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -404,7 +404,7 @@ Make what we've done in this task so far into a skill, or edit the /campaign-pla
 
 
 
-CampaignsOpen in Cowork
+CampaignsOpen in Claude
 
 
 
@@ -414,13 +414,13 @@ Make what we've done in this task so far into a skill, or edit the /campaign-pla
 
 ### Run it on every new campaign[](https://academy.claude.com/use-cases/campaign-brief)
 
-Strategy notes get dropped, the brief should already be drafting. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill runs every weekday morning against any new strategy-notes files in Campaigns.
+Strategy notes get dropped, the brief should already be drafting. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs every weekday morning against any new strategy-notes files in Campaigns.
 
-**/schedule** Weekdays at 9 am, check Campaigns for new strategy-notes files and run /campaign-plan on each one, writing the brief and kickoff deck to a subfolder named for the campaign.
+Set up a scheduled task for weekdays at 9 am: check Campaigns for new strategy-notes files and run /campaign-plan on each one, writing the brief and kickoff deck to a subfolder named for the campaign.
 
 
 
-CampaignsOpen in Cowork
+CampaignsOpen in Claude
 
 Scheduled taskActive
 
@@ -428,7 +428,7 @@ Campaign brief from strategy notes
 
 Checks Campaigns each weekday morning for new strategy-notes files, runs `/campaign-plan` on each, and writes the brief and deck to a campaign subfolder.
 
-Every **weekday at 9 am — Campaigns folder**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **weekday at 9 am — Campaigns folder**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/campaign-brief)
 
@@ -442,7 +442,7 @@ You can share a skill you created. In your list of skills, open the **...** menu
 
 ## Going forward[](https://academy.claude.com/use-cases/campaign-brief)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

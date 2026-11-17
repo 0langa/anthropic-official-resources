@@ -4,7 +4,7 @@ Where the bill jumped, why, and who owns the fix.
 
 10 minEngineeringClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-nuxe06ft.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lz8vk1yx.png)
 
@@ -194,19 +194,19 @@ EngineeringSkills for postmortems, design docs, on-call handoffs, and cost revie
 
 `/debug`Find over-trend cloud spend and trace each spike to a cause
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdebug)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdebug)
 
 `/documentation`Write up the cost finding as a runbook entry the team can act on
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdocumentation)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdocumentation)
 
 Show all 10 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/cloud-cost-anomalies)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](https://academy.claude.com/assets/v1/snowflake-f7euzg40.svg)
 
@@ -230,17 +230,17 @@ GitHubOptional
 
 Check what merged into the owning service around the date the spend changed.
 
-[Connect](https://claude.ai/desktop/directory/github)
+[Connect](https://claude.ai/connect-github)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/cloud-cost-anomalies)
 
-Drop the billing CSV (or point at the export bucket), your tag-to-team mapping, and last quarter's report into one folder so Cowork has the baseline and the ownership map. The anomaly report and the per-team breakouts get written back here. [Create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the folder so your thresholds and known-okay exceptions persist month to month.
+Drop the billing CSV (or point at the export bucket), your tag-to-team mapping, and last quarter's report into one folder so Claude has the baseline and the ownership map. The anomaly report and the per-team breakouts get written back here. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the folder so your thresholds and known-okay exceptions persist month to month.
 
 Infra / cloud-cost / 2026-04
 
@@ -254,13 +254,13 @@ In Cowork’s chat bar:Infra / cloud-cost / 2026-04
 
 ## The prompt[](https://academy.claude.com/use-cases/cloud-cost-anomalies)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/cloud-cost-anomalies)
+### Copy this into Claude[](https://academy.claude.com/use-cases/cloud-cost-anomalies)
 
 Compare this month's AWS costs to the trailing three-month average by service and tag:team. Flag any line more than 20% over trend, trace each to the workload or change behind it, and write the cost-anomaly report with an owner and recommended action for every item. Put a one-line summary for the infra channel at the top.
 
 
 
-Infra / cloud-cost / 2026-04Open in Cowork
+Infra / cloud-cost / 2026-04Open in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/cloud-cost-anomalies)
 
@@ -284,7 +284,7 @@ Compare this month's AWS costs to the trailing three-month average by service an
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
@@ -300,7 +300,7 @@ Compare savings against the budget
 
 Install](https://claude.com/claude-for-microsoft-365)
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/cloud-cost-anomalies)
+## Make Claude work for you[](https://academy.claude.com/use-cases/cloud-cost-anomalies)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -308,7 +308,7 @@ Make what we've done in this task so far into a skill, or edit the /debug skill 
 
 
 
-Infra / cloud-costOpen in Cowork
+Infra / cloud-costOpen in Claude
 
 
 
@@ -318,13 +318,13 @@ Make what we've done in this task so far into a skill, or edit the /debug skill 
 
 ### Run it when the bill closes[](https://academy.claude.com/use-cases/cloud-cost-anomalies)
 
-The report should be waiting before anyone opens the console. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill runs against the new export as soon as the month closes.
+The report should be waiting before anyone opens the console. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs against the new export as soon as the month closes.
 
-**/schedule** Every Monday at 7am, if a new month's billing export is in Infra/cloud-cost, run /debug against it, write the anomaly report to that month's folder, and post the one-line summary to #infra-cost.
+Set up a scheduled task for every Monday at 7am: if a new month's billing export is in Infra/cloud-cost, run /debug against it, write the anomaly report to that month's folder, and post the one-line summary to #infra-cost.
 
 
 
-Infra / cloud-costOpen in Cowork
+Infra / cloud-costOpen in Claude
 
 Scheduled taskActive
 
@@ -332,7 +332,7 @@ Monthly cloud-cost anomaly report
 
 Runs `/debug` on the closed month, writes the ranked anomaly report to the dated folder, and posts the headline to the infra channel.
 
-Every **Monday at 7:00am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Monday at 7:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/cloud-cost-anomalies)
 

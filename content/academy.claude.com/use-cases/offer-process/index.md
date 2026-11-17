@@ -4,7 +4,7 @@ Candidate email, offer fields, and a screenshare-ready deck.
 
 10 minHRClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-jslgxynt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-fx1l2f4o.png)
 
@@ -267,19 +267,19 @@ Human Resources9 skills for recruiting, onboarding, performance reviews, comp an
 
 `/draft-offer`Assemble the offer email, filled offer fields, and screenshare deck for a finalist
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdraft-offer)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdraft-offer)
 
 `/comp-analysis`Benchmark a proposed offer against your comp bands and recent closes
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcomp-analysis)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcomp-analysis)
 
 Show all 9 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/offer-process)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)
 
@@ -305,15 +305,15 @@ DocuSignOptional
 
 [Connect](https://claude.ai/desktop/directory/docusign)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/offer-process)
 
-Drag the files you'll use (the candidate summary, your offer letter template, the comp approval, the benefits one-pager) into one folder on your machine, then point Cowork at it. Cowork reads from it and writes the filled offer, the email draft, and the HTML deck back to it. If you run offers regularly, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the role's offers folder so your templates and tone stay attached.
+Drag the files you'll use (the candidate summary, your offer letter template, the comp approval, the benefits one-pager) into one folder on your machine, then point Claude at it. Claude reads from it and writes the filled offer, the email draft, and the HTML deck back to it. If you run offers regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the role's offers folder so your templates and tone stay attached.
 
 Hiring / Senior-PM-Growth / offers
 
@@ -329,13 +329,13 @@ In Cowork’s chat bar:Hiring / Senior-PM-Growth / offers
 
 ## 2. The prompt[](https://academy.claude.com/use-cases/offer-process)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/offer-process)
+### Copy this into Claude[](https://academy.claude.com/use-cases/offer-process)
 
 Put together the offer package for our finalist. Fill out the offer fields for my review, draft a warm email to the candidate that sets up the call, and build a short HTML presentation I can screenshare on the offer call covering the role, the numbers, and why we're excited about them.
 
 
 
-Hiring / Senior-PM-Growth / offersOpen in Cowork
+Hiring / Senior-PM-Growth / offersOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/offer-process)
 
@@ -359,13 +359,13 @@ Put together the offer package for our finalist. Fill out the offer fields for m
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## 3. Make Cowork work for you[](https://academy.claude.com/use-cases/offer-process)
+## 3. Make Claude work for you[](https://academy.claude.com/use-cases/offer-process)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -373,7 +373,7 @@ Make what we've done in this task so far into a skill, or edit the /draft-offer 
 
 
 
-HiringOpen in Cowork
+HiringOpen in Claude
 
 
 
@@ -383,13 +383,13 @@ Make what we've done in this task so far into a skill, or edit the /draft-offer 
 
 ### Run it on a schedule[](https://academy.claude.com/use-cases/offer-process)
 
-Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill runs every weekday morning. It checks the hiring folder for candidates who moved to Offer overnight so the package is ready before the recruiter opens it.
+Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs every weekday morning. It checks the hiring folder for candidates who moved to Offer overnight so the package is ready before the recruiter opens it.
 
-**/schedule** Weekdays at 9am. Check the hiring folder for candidates who moved to Offer overnight, run /draft-offer for each, and write the email draft, filled offer, and HTML deck to Hiring/<role>/offers.
+Set up a scheduled task for weekdays at 9am: check the hiring folder for candidates who moved to Offer overnight, run /draft-offer for each, and write the email draft, filled offer, and HTML deck to Hiring/<role>/offers.
 
 
 
-HiringOpen in Cowork
+HiringOpen in Claude
 
 Scheduled taskActive
 
@@ -397,7 +397,7 @@ Offer package on stage change
 
 Runs `/draft-offer` each weekday morning for any candidate who moved to Offer overnight and writes the email, filled offer, and deck to the role's offers folder.
 
-Every **Weekdays at 9am · checks the hiring folder for new Offer-stage candidates**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Weekdays at 9am · checks the hiring folder for new Offer-stage candidates**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## 5. Share with your teammates[](https://academy.claude.com/use-cases/offer-process)
 
@@ -411,7 +411,7 @@ You can share a skill you created. In your list of skills, open the **...** menu
 
 ## Going forward[](https://academy.claude.com/use-cases/offer-process)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

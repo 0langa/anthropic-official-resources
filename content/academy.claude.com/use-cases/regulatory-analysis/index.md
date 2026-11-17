@@ -4,7 +4,7 @@ What changed, what applies to you, what to do by when.
 
 10 minLegalClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-btqx4o1h.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mbqnkmu3.png)
 
@@ -218,15 +218,15 @@ Regulatory LegalWatches regulatory feeds, diffs new rules against your policy li
 
 `/policy-diff`Diff a specific regulatory change against the indexed policy library.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fpolicy-diff)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fpolicy-diff)
 
 `/reg-feed-watcher`Check regulatory feeds now and report what’s new since the last check, filtered by your materiality threshold.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Freg-feed-watcher)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Freg-feed-watcher)
 
 `/cold-start-interview`Cold-start interview — builds your watchlist, indexes the policy library, and learns your materiality threshold so the monitor surfaces signal instead of noise.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcold-start-interview)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcold-start-interview)
 
 Show all 8 skills
 
@@ -238,9 +238,9 @@ Regulatory Legal comes from Anthropic's Legal marketplace, which has to be added
 
 ### Connect your tools[](https://academy.claude.com/use-cases/regulatory-analysis)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)
 
@@ -262,13 +262,11 @@ Ground the applicability brief in authoritative content with citations you can v
 
 [Connect](https://claude.ai/desktop/directory/cocounsel-legal)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 ### Set the working folder[](https://academy.claude.com/use-cases/regulatory-analysis)
 
-Put the regulation PDF, your product descriptions, and your current policies in one folder on your machine, then in Cowork click **+ Add folder** and select it. [Save it as a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your product context, instructions, and memory stay attached for the next rule that drops — Cowork reads from the folder and writes the applicability brief and action table back to it.
-
-When a task runs locally, Cowork reads these files on your computer; when it runs in the cloud, the files it uses leave your device and are processed on Anthropic's servers. On Team and Enterprise plans they aren't used to train Claude either way ([how Cowork handles your data(opens in new tab)](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview)); on Pro, Max, and Ultra that follows your model-improvement setting.
+Put the regulation PDF, your product descriptions, and your current policies in one folder on your machine, then in the Claude desktop app click **+ Add folder** and select it. [Save it as a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your product context, instructions, and memory stay attached for the next rule that drops — Claude reads from the folder and writes the applicability brief and action table back to it.
 
 
 
@@ -286,13 +284,13 @@ In Cowork’s chat bar:Regulatory / EU-AI-Act
 
 ## The prompt[](https://academy.claude.com/use-cases/regulatory-analysis)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/regulatory-analysis)
+### Copy this into Claude[](https://academy.claude.com/use-cases/regulatory-analysis)
 
 Read this regulation against our product descriptions and current policies. Draft the compliance brief: what changed from the prior rule, which provisions apply to us and why, and for each what we need to do and by when. Save it to the folder for product and compliance leads.
 
 
 
-Regulatory / EU-AI-ActOpen in Cowork
+Regulatory / EU-AI-ActOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/regulatory-analysis)
 
@@ -316,13 +314,13 @@ Read this regulation against our product descriptions and current policies. Draf
 
 Practice
 
-**Add an example to match.** Drop a past applicability brief you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop a past applicability brief you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag any provision where you're not sure it applies to us" so you know which applicability calls to check first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/regulatory-analysis)
+## Make Claude work for you[](https://academy.claude.com/use-cases/regulatory-analysis)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -330,7 +328,7 @@ Make what we've done in this task so far into a skill, or edit the /policy-diff 
 
 
 
-RegulatoryOpen in Cowork
+RegulatoryOpen in Claude
 
 
 
@@ -340,13 +338,13 @@ Make what we've done in this task so far into a skill, or edit the /policy-diff 
 
 ### Run it on every new regulation[](https://academy.claude.com/use-cases/regulatory-analysis)
 
-A final rule drops, the applicability brief should already be drafting. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill runs whenever a new regulation is added to the watch folder. Scheduled tasks run in the cloud unless they need files on your machine; this one reads a local watch folder, so it runs locally.
+A final rule drops, the applicability brief should already be drafting. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs whenever a new regulation is added to the watch folder. To read a folder on your computer during a scheduled task, make sure the Claude desktop app is open so Claude can access it.
 
-**/schedule** Weekdays at 9am, check Regulatory/Watch for any new file and run /policy-diff against it and write the applicability brief and action table to a subfolder named for the regulation.
+Set up a scheduled task for weekdays at 9am: check Regulatory/Watch for any new file and run /policy-diff against it and write the applicability brief and action table to a subfolder named for the regulation.
 
 
 
-RegulatoryOpen in Cowork
+RegulatoryOpen in Claude
 
 Scheduled taskActive
 
@@ -354,7 +352,7 @@ New-regulation applicability brief
 
 Runs `/policy-diff` on every new file in Regulatory/Watch and writes the brief and action table to a subfolder named for the regulation.
 
-Every **Weekdays at 9am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Weekdays at 9am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/regulatory-analysis)
 
@@ -368,7 +366,7 @@ You can share a skill you created. In your list of skills, open the **...** menu
 
 ## Going forward[](https://academy.claude.com/use-cases/regulatory-analysis)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

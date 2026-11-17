@@ -1,6 +1,6 @@
 # Features and capabilities
 
-39 articles
+40 articles
 
 [What are artifacts and how do I use them?](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them)
 
@@ -79,3 +79,5 @@
 [Get started with Claude Sheets](https://support.claude.com/en/articles/18324300-get-started-with-claude-sheets)
 
 [Get started with Claude Whiteboards](https://support.claude.com/en/articles/18324319-get-started-with-claude-whiteboards)
+
+[Use the cloud browser in Claude](https://support.claude.com/en/articles/18442783-use-the-cloud-browser-in-claude)

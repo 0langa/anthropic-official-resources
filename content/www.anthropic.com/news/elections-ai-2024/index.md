@@ -17,11 +17,11 @@ Topics
 
 Related articles
 
-- Safeguards
+- Frontier Red Team
 
-  Oct 14, 2026
+  Nov 16, 2026
 
-  [Preparing for the 2026 US midterms](https://www.anthropic.com/news/2026-us-midterms)
+  [Updating our coordinated vulnerability disclosure policy timelines](https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines)
 
 [View more](https://www.anthropic.com/search?topic=democratic-integrity)
 

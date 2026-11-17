@@ -4,7 +4,7 @@ The five themes that matter, quantified and quoted.
 
 10 minProductClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-calyi96r.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iv2hjqlx.png)
 
@@ -354,19 +354,19 @@ Product ManagementWrite feature specs, plan roadmaps, and synthesize user resear
 
 `/synthesize-research`Synthesize user research from interviews, surveys, and feedback into structured insights.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fsynthesize-research)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fsynthesize-research)
 
 `/roadmap-update`Update, create, or reprioritize your product roadmap.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Froadmap-update)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Froadmap-update)
 
 Show all 8 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/feedback-synthesis)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)
 
@@ -394,15 +394,15 @@ Google DriveOptional
 
 [Connect](https://claude.ai/desktop/directory/google-drive-drivemcp)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/feedback-synthesis)
 
-Drag the files you'll use (the NPS verbatim export, the support ticket CSV, the sales call snippets, the six interview transcripts) into one folder on your machine, then point Cowork at it. Cowork reads from it and writes the Voice of Customer brief back to it. If you run this every quarter, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your sources, instructions, and memory stay attached.
+Drag the files you'll use (the NPS verbatim export, the support ticket CSV, the sales call snippets, the six interview transcripts) into one folder on your machine, then point Claude at it. Claude reads from it and writes the Voice of Customer brief back to it. If you run this every quarter, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your sources, instructions, and memory stay attached.
 
 Product / voc-q2
 
@@ -420,13 +420,13 @@ In Cowork’s chat bar:Product / voc-q2
 
 ## The prompt[](https://academy.claude.com/use-cases/feedback-synthesis)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/feedback-synthesis)
+### Copy this into Claude[](https://academy.claude.com/use-cases/feedback-synthesis)
 
 Read this folder plus the #product-feedback Slack channel and the open Zendesk tickets tagged feedback. Cluster everything into 5 to 7 themes, count how often each shows up and how severe it is, pull the best verbatim for each, flag which map to a Linear roadmap item versus net-new, and write a one-page Voice of Customer brief for roadmap review.
 
 
 
-Product / voc-q2Open in Cowork
+Product / voc-q2Open in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/feedback-synthesis)
 
@@ -440,7 +440,7 @@ Read this folder plus the #product-feedback Slack channel and the open Zendesk t
 
 Prompt
 
-**Ask for the single best example.** The single best quote does more in roadmap review than a wall of evidence; Cowork picks the strongest line and links the rest underneath.
+**Ask for the single best example.** The single best quote does more in roadmap review than a wall of evidence; Claude picks the strongest line and links the rest underneath.
 
 Source
 
@@ -450,13 +450,13 @@ Read this folder plus the #product-feedback Slack channel and the open Zendesk t
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/feedback-synthesis)
+## Make Claude work for you[](https://academy.claude.com/use-cases/feedback-synthesis)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -464,7 +464,7 @@ Make what we've done in this task so far into a skill, or edit the /synthesize-r
 
 
 
-ProductOpen in Cowork
+ProductOpen in Claude
 
 
 
@@ -474,13 +474,13 @@ Make what we've done in this task so far into a skill, or edit the /synthesize-r
 
 ### Run it ahead of every roadmap review[](https://academy.claude.com/use-cases/feedback-synthesis)
 
-Feedback piles up between planning cycles whether or not anyone is reading it. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill produces a fresh brief the Friday before each roadmap review.
+Feedback piles up between planning cycles whether or not anyone is reading it. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill produces a fresh brief the Friday before each roadmap review.
 
-**/schedule** Every Friday at 4pm, run /synthesize-research against Product/voc-<current-quarter> plus the live Slack and Zendesk sources, and write the brief to that folder as voc-brief-<date>.md.
+Set up a scheduled task for every Friday at 4pm: run /synthesize-research against Product/voc-<current-quarter> plus the live Slack and Zendesk sources, and write the brief to that folder as voc-brief-<date>.md.
 
 
 
-ProductOpen in Cowork
+ProductOpen in Claude
 
 Scheduled taskActive
 
@@ -488,7 +488,7 @@ Monthly Voice of Customer brief
 
 Runs `/synthesize-research` against the quarter's VoC folder plus live Slack and Zendesk and writes the one-page brief back to the folder.
 
-Every **Friday at 4:00pm**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Friday at 4:00pm**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/feedback-synthesis)
 
@@ -502,7 +502,7 @@ You can share a skill you created. In your list of skills, open the **...** menu
 
 ## Going forward[](https://academy.claude.com/use-cases/feedback-synthesis)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

@@ -88,11 +88,11 @@ The assumptions Claude surfaces are a reading of your program, not a verdict. If
 
 ### What to do with the visual next[](https://academy.claude.com/use-cases/see-your-theory-of-change-in-chat-with-claude)
 
-Hover over the chain for options to copy it as an image for a slide or save it as an Artifact if you'd reopen it later to click through again. You can also ask Claude to write the narrative version, which turns the boxes and arrows into paragraphs and gives you a starting draft for the logic model section of your next proposal.
+Hover over the chain for options to copy it as an image for a slide, or ask Claude to turn it into an artifact if you'd reopen it later to click through again. You can also ask Claude to write the narrative version, which turns the boxes and arrows into paragraphs and gives you a starting draft for the logic model section of your next proposal.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/see-your-theory-of-change-in-chat-with-claude)
 
-Try it on the program you run but have never drawn. Describe it in a sentence or two and let Claude show you which arrows are carrying the most weight. Hover over the chain for options to copy an image or save it as an Artifact.
+Try it on the program you run but have never drawn. Describe it in a sentence or two and let Claude show you which arrows are carrying the most weight. Hover over the chain for options to copy an image, or ask Claude to turn it into an artifact.
 
 I run a youth mentoring program. We pair high schoolers with adult mentors for weekly meetings over a year, and the goal is higher graduation rates. Show me our theory of change, and I want to be able to click the arrows between boxes to see what assumption each one is riding on. Where are the weak links?
 

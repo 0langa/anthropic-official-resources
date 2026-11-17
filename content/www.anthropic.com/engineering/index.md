@@ -161,7 +161,7 @@ Studies and monitors the impact of AI systems on individuals, firms, and economi
 
 [### Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-38 posts
+39 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 
@@ -203,7 +203,7 @@ Studies and monitors the impact of AI systems on individuals, firms, and economi
 
 [### Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-38 posts
+39 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 

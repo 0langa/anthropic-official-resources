@@ -19,31 +19,9 @@ Reference implementation
 
 We've also provided a **blueprint** to help build commerce agents on Claude. It contains the harnesses, patterns, and guardrails an engineering team needs to get a commerce agent running in days, with reference implementations of a shopping agent and a merchant agent for retail, travel, telecom, and ticketing platforms.
 
-[anthropics/commerce-agents →](https://github.com/anthropics/commerce-agents)
+[anthropics/commerce-agents](https://github.com/anthropics/commerce-agents)
 
-In this guide
-
-1. [Part 1: The architecture](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
-   1. What is a commerce agent?
-   2. Skills, not subagents
-   3. System prompt or skill: decide by frequency
-   4. Engineering agent tooling
-   5. The UI components are tools
-2. [Part 2: Making it fast and affordable](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
-   1. Minimizing task completion latency
-   2. Perceived latency
-   3. Prompt caching
-   4. Choosing the model and its configuration
-3. [Part 3: Running it in production](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
-   1. Memory that survives the session
-   2. Safety: enforcement lives in the harness
-   3. Evals: shipping a non-deterministic system
-   4. Shipping with a large organization
-4. [Looking ahead](https://claude.com/resources/articles/the-anatomy-of-effective-commerce-agents)
-
-**01**
-
-## The architecture
+## 01 The architecture
 
 One model in a standard agent loop, with skills for the long tail and tools that call the systems you already run. You decide this once.
 
@@ -103,11 +81,7 @@ In our [reference implementation](https://github.com/anthropics/commerce-agents)
 
 The merchant agent splits the same way, with performance-insights, catalog-listings, inventory-operations, pricing-promotions, and marketing-campaigns as its skills, one per operational domain.
 
-**In the prompt***Shopping agent*Grounding, cart and checkout semantics, presentation rules, and product search.
-
-**Shopping skills***The long tail*search-discovery · purchase-research · planning-goals · customer-care · memory-personalization
-
-**Merchant skills***One per operational domain*performance-insights · catalog-listings · inventory-operations · pricing-promotions · marketing-campaigns
+<table class="DataTable-module-scss-module__1wNx5a__table"><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>In the prompt</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Shopping agent</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Grounding, cart and checkout semantics, presentation rules, and product search.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Shopping skills</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">The long tail</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">search-discovery · purchase-research · planning-goals · customer-care · memory-personalization</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Merchant skills</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">One per operational domain</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">performance-insights · catalog-listings · inventory-operations · pricing-promotions · marketing-campaigns</span></td></tr></tbody></table>
 
 ### **Engineering agent tooling**
 
@@ -155,9 +129,7 @@ Presentation tools also give the agent a record of what's on screen. When a cust
 
 For that to work, the arguments have to reflect the rendered layout, so structure them the way the UI is structured, as ordered rows and carousels rather than a flat list the client rearranges.
 
-**02**
-
-## Making it fast and affordable
+## 02 Making it fast and affordable
 
 Attack latency on two fronts, end-to-end and perceived, and let caching carry the cost. None of it should spend intelligence to get there.
 
@@ -173,11 +145,7 @@ Every user has a latency budget, and the techniques below keep the agent inside 
 
 Task completion latency is the sum, over model turns, of time to last token plus tool processing. That gives you three levers to work towards: fewer turns, faster tools, and faster tokens. These levers sometimes compete, so the thing to minimize is the sum rather than any one of them.
 
-**Fewer turns**Load likely context up front, increase model intelligence, and have the model call independent tools in parallel.
-
-**Faster tools**Optimize the tool's own backend, and dispatch tools eagerly as their arguments complete.
-
-**Faster tokens**Choose the model and its configuration by sweeping your eval suite.
+<table class="DataTable-module-scss-module__1wNx5a__table"><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Fewer turns</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Load likely context up front, increase model intelligence, and have the model call independent tools in parallel.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Faster tools</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Optimize the tool's own backend, and dispatch tools eagerly as their arguments complete.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Faster tokens</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Choose the model and its configuration by sweeping your eval suite.</span></td></tr></tbody></table>
 
 #### **Fewer turns**
 
@@ -235,9 +203,7 @@ Second, roll your breakpoints forward in each turn: a request allows a limited n
 
 Measure cost per completed task rather than per model call, since a cheaper model that needs more turns, or fails more often, is not cheaper. When the result is close, and the cost fits your per-task economics and latency, choose intelligence. Quality is what drives adoption and retention, and allows for room to build for the next 6 months as models become better.
 
-**03**
-
-## Running it in production
+## 03 Running it in production
 
 Memory, safety, evals, and scaling the work across an organization: what gets an agent through production and keeps it there.
 
@@ -280,11 +246,7 @@ Separating the extractor also lets you prompt it precisely. It reads only the us
 
 Read memory in three layers.
 
-**Always in context**A small fixed set of facts goes into context on every turn: the ones nearly every request depends on, such as a shopper's default store and fulfillment preference, or an operator's store and role.
-
-**Pre-fetched per turn**Facts relevant to the current request are pre-fetched per turn from the same signals that pre-load a skill: a shoe search pulls sizes and brand preferences, a campaign question pulls the operator's usual metrics.
-
-**Behind a lookup tool**Everything else sits behind a lookup tool.
+<table class="DataTable-module-scss-module__1wNx5a__table"><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Always in context</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">A small fixed set of facts goes into context on every turn: the ones nearly every request depends on, such as a shopper's default store and fulfillment preference, or an operator's store and role.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Pre-fetched per turn</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Facts relevant to the current request are pre-fetched per turn from the same signals that pre-load a skill: a shoe search pulls sizes and brand preferences, a campaign question pulls the operator's usual metrics.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Behind a lookup tool</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Everything else sits behind a lookup tool.</span></td></tr></tbody></table>
 
 Since memory is per-user context, all of it goes in the session segment, below the global cache breakpoint.
 
@@ -386,7 +348,7 @@ The tempting fix is to break the system into many subagents, one per business un
 
 For the human side of this arrangement, see [Building effective human-agent teams](https://claude.com/resources/articles/building-effective-human-agent-teams).
 
-## **Looking ahead**
+## 04 Looking ahead
 
 Most of what this post describes is not about the model. The tools call systems you already run, the skills encode procedures you already follow, the evals are your product requirements doc written as tests, and the harness enforces policy you would enforce for any client. Models will keep improving, and when a better one ships, the architecture we describe adopts it as a config change with an eval sweep. Everything else keeps working.
 

@@ -4,7 +4,7 @@ A grounded review draft with linked evidence, per report.
 
 10 minEngineeringClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-llbosc4e.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jig8shre.png)
 
@@ -343,19 +343,19 @@ Human ResourcesStreamline people operations — recruiting, onboarding, performa
 
 `/performance-review`Structure a performance review with self-assessment, manager template, and calibration prep.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fperformance-review)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fperformance-review)
 
 `/people-report`Generate headcount, attrition, diversity, or org health reports.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fpeople-report)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fpeople-report)
 
 Show all 9 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/eng-performance-reviews)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23181717'%20d='M12%20.3a12%2012%200%200%200-3.8%2023.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73%201.2.09%201.84%201.24%201.84%201.24%201.07%201.83%202.81%201.3%203.49%201%20.11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93%200-1.31.47-2.38%201.24-3.22-.13-.3-.54-1.52.11-3.18%200%200%201.01-.32%203.3%201.23a11.5%2011.5%200%200%201%206%200c2.29-1.55%203.3-1.23%203.3-1.23.65%201.66.24%202.88.12%203.18.77.84%201.23%201.91%201.23%203.22%200%204.61-2.8%205.63-5.48%205.92.43.37.81%201.1.81%202.22v3.29c0%20.32.22.7.82.58A12%2012%200%200%200%2012%20.3'/%3e%3c/svg%3e)
 
@@ -363,7 +363,7 @@ GitHub
 
 Pull each report's merged PRs, reviews given, and incidents responded to over the period.
 
-[Connect](https://claude.ai/desktop/directory/github)
+[Connect](https://claude.ai/connect-github)
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)
 
@@ -381,15 +381,15 @@ List the projects and epics they shipped and the cycle outcomes they owned.
 
 [Connect](https://claude.ai/desktop/directory/linear)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/eng-performance-reviews)
 
-Drag the files you'll use (your career framework, the review template, last cycle's reviews, your team roster) into one folder and point Cowork at it. Cowork reads the framework from there and writes one draft per report back to it. [Create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your framework and your writing voice stay attached.
+Drag the files you'll use (your career framework, the review template, last cycle's reviews, your team roster) into one folder and point Claude at it. Claude reads the framework from there and writes one draft per report back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your framework and your writing voice stay attached.
 
 Reviews / 2026-Q1
 
@@ -403,13 +403,13 @@ In Cowork’s chat bar:Reviews / 2026-Q1
 
 ## The prompt[](https://academy.claude.com/use-cases/eng-performance-reviews)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/eng-performance-reviews)
+### Copy this into Claude[](https://academy.claude.com/use-cases/eng-performance-reviews)
 
 I'm writing quarterly reviews for my reports. For each engineer in my team list, draft the review in our framework with evidence linked for every claim, drawing on their work this quarter and their last review's growth areas. Flag where I need to add my own judgment; do not write the rating.
 
 
 
-Reviews / 2026-Q1Open in Cowork
+Reviews / 2026-Q1Open in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/eng-performance-reviews)
 
@@ -433,13 +433,13 @@ I'm writing quarterly reviews for my reports. For each engineer in my team list,
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/eng-performance-reviews)
+## Make Claude work for you[](https://academy.claude.com/use-cases/eng-performance-reviews)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -447,7 +447,7 @@ Make what we've done in this task so far into a skill, or edit the /performance-
 
 
 
-ReviewsOpen in Cowork
+ReviewsOpen in Claude
 
 
 
@@ -457,13 +457,13 @@ Make what we've done in this task so far into a skill, or edit the /performance-
 
 ### Run it at the start of every cycle[](https://academy.claude.com/use-cases/eng-performance-reviews)
 
-The evidence packet should be ready before review season opens. Type `/schedule` or open **Scheduled** in the Cowork sidebar, and the customized skill builds the drafts as soon as the quarter folder appears.
+The evidence packet should be ready before review season opens. Ask Claude to set up a scheduled task or open **Scheduled** in the sidebar, and the customized skill builds the drafts as soon as the quarter folder appears.
 
-**/schedule** Every Monday at 9am, if a new quarter folder exists under Reviews, run /performance-review for everyone in team-roster.md and write each draft to Reviews/<quarter>/<name>.md.
+Set up a scheduled task for every Monday at 9am: if a new quarter folder exists under Reviews, run /performance-review for everyone in team-roster.md and write each draft to Reviews/<quarter>/<name>.md.
 
 
 
-ReviewsOpen in Cowork
+ReviewsOpen in Claude
 
 Scheduled taskActive
 
@@ -471,7 +471,7 @@ Quarterly review drafts
 
 When a new quarter folder appears, runs `/performance-review` for each report against GitHub, Linear, and Slack and writes evidence-linked drafts to the cycle folder.
 
-Every **Monday at 9:00am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Monday at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/eng-performance-reviews)
 

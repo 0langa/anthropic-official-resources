@@ -47,7 +47,7 @@ I'm uploading our fundraising data from the past two years, broken down by chann
 
 ### Required context[](https://academy.claude.com/use-cases/analyze-fundraising-performance)
 
-If you track your fundraising data in platforms like [Microsoft 365(opens in new tab)](https://www.claude.com/connectors/microsoft-365), Benevity, or Blackbaud, connect the relevant MCP connector to pull current performance data directly. This eliminates manual exports and ensures Claude analyzes your most up-to-date information.
+If you track your fundraising data in platforms like [Microsoft 365(opens in new tab)](https://www.claude.com/connectors/microsoft-365) or Blackbaud, connect the relevant MCP connector to pull current performance data directly. This eliminates manual exports and ensures Claude analyzes your most up-to-date information.
 
 For most organizations, uploading exported CSV or Excel files works perfectly—just gather your revenue, cost, donor, and event data by channel and time period.
 

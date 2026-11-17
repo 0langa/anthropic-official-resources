@@ -4,7 +4,7 @@ Everything that happened on your shift, written before you log off.
 
 10 minEngineeringClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-ggtsvh5v.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ckm3olk1.png)
 
@@ -294,19 +294,19 @@ EngineeringStreamline engineering workflows — standups, code review, architect
 
 `/standup`Generate a standup update from recent activity.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fstandup)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fstandup)
 
 `/incident-response`Run an incident response workflow — triage, communicate, and write postmortem.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fincident-response)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fincident-response)
 
 Show all 10 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/oncall-handoff-brief)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2306AC38'%20d='M4.05%2017.71h4.6V24h-4.6zM16.59.32C14.75.01%2013.45%200%2011.13%200H4.05v14.19h7.24c2.05%200%203.59-.13%204.95-.96%201.5-.9%202.71-2.77%202.71-5.55%200-2.98-1.39-5.01-2.36-5.85C15.89.93%2016.59.32%2016.59.32zm-4.66%2010.39H8.65V3.55h2.87c2.96%200%204.45%201.12%204.45%203.53%200%202.59-1.62%203.63-4.04%203.63z'/%3e%3c/svg%3e)
 
@@ -330,17 +330,17 @@ GitHubOptional
 
 List every production deploy that shipped during your shift, with the change summary.
 
-[Connect](https://claude.ai/desktop/directory/github)
+[Connect](https://claude.ai/connect-github)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/oncall-handoff-brief)
 
-Drag the files you'll use (your handoff template, last week's brief, the runbook index) into one folder and point Cowork at it. Cowork reads the template from there and writes the brief and the watch-list back to it. [Create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your on-call folder so the template, channel list, and severity definitions stay attached every rotation.
+Drag the files you'll use (your handoff template, last week's brief, the runbook index) into one folder and point Claude at it. Claude reads the template from there and writes the brief and the watch-list back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your on-call folder so the template, channel list, and severity definitions stay attached every rotation.
 
 Platform / Oncall / 2026-W17
 
@@ -354,13 +354,13 @@ In Cowork’s chat bar:Platform / Oncall / 2026-W17
 
 ## The prompt[](https://academy.claude.com/use-cases/oncall-handoff-brief)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/oncall-handoff-brief)
+### Copy this into Claude[](https://academy.claude.com/use-cases/oncall-handoff-brief)
 
 Write the on-call handoff for my shift. Cover pages and incident channels from the last 7 days, CS escalations from #support-escalations, and production deploys. For each, note status (resolved, monitoring, still open), the one-line cause if known, and what the next on-call should watch. Write it to the on-call folder and post it to #oncall.
 
 
 
-Platform / Oncall / 2026-W17Open in Cowork
+Platform / Oncall / 2026-W17Open in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/oncall-handoff-brief)
 
@@ -390,7 +390,7 @@ Write the on-call handoff for my shift. Cover pages and incident channels from t
 
 **Ask it to link runbooks.** Add "for anything still open, link the relevant runbook" so the next on-call has the fix one click away.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/oncall-handoff-brief)
+## Make Claude work for you[](https://academy.claude.com/use-cases/oncall-handoff-brief)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -398,7 +398,7 @@ Make what we've done in this task so far into a skill, or edit the /standup skil
 
 
 
-Platform / OncallOpen in Cowork
+Platform / OncallOpen in Claude
 
 
 
@@ -408,13 +408,13 @@ Make what we've done in this task so far into a skill, or edit the /standup skil
 
 ### Run it at rotation change[](https://academy.claude.com/use-cases/oncall-handoff-brief)
 
-Handoff happens the same hour every week. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill writes the brief at the end of every rotation, whether you remembered or not.
+Handoff happens the same hour every week. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill writes the brief at the end of every rotation, whether you remembered or not.
 
-**/schedule** Every Monday at 9am, run /standup over the prior 7 days of pages, #support-escalations, and prod deploys, write the handoff to Platform/Oncall/<week>.md, and post it to #oncall.
+Set up a scheduled task for every Monday at 9am: run /standup over the prior 7 days of pages, #support-escalations, and prod deploys, write the handoff to Platform/Oncall/<week>.md, and post it to #oncall.
 
 
 
-Platform / OncallOpen in Cowork
+Platform / OncallOpen in Claude
 
 Scheduled taskActive
 
@@ -422,7 +422,7 @@ Weekly on-call handoff
 
 Runs `/standup` over the week's pages, CS escalations, and deploys, writes the brief to the on-call folder, and posts it to #oncall.
 
-Every **Mondays at 9:00am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Mondays at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/oncall-handoff-brief)
 

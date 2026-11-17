@@ -62,21 +62,21 @@ Generate a daily briefing that pulls from Slack, Notion, and your team dashboard
 
 ·Use case·15 min](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)[![](https://academy.claude.com/assets/v1/thumbnail.light-cx9tbvoi.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-k5ry1o36.png)
 
-## Using Claude Cowork for marketing ops: run a weekly review that preps itself
+## Using Claude for marketing ops: run a weekly review that preps itself
 
-Claude Cowork runs the gathering for your weekly review on a schedule, so you’re not pulling the numbers and starting the draft by hand each week. Your time goes into what the review says.
+Claude runs the gathering for your weekly review on a schedule, so you’re not pulling the numbers and starting the draft by hand each week. Your time goes into what the review says.
 
 ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-marketing-ops-review)[![](https://academy.claude.com/assets/v1/thumbnail.light-d0zjjn2v.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hdd30gkj.png)
 
-## Using Claude Cowork for sales: research any account before the first call
+## Using Claude for sales: research any account before the first call
 
-Before a first call, Claude Cowork pulls everything you’d want to know about an account into one brief. You go into the call already knowing the account, and the recap is written for you afterward.
+Before a first call, Claude pulls everything you’d want to know about an account into one brief. You go into the call already knowing the account, and the recap is written for you afterward.
 
 ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)[![](https://academy.claude.com/assets/v1/thumbnail.light-cb32kcve.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nq1i2588.png)
 
-## Using Claude Cowork for legal: answer fast questions on past decisions
+## Using Claude for legal: answer fast questions on past decisions
 
-When a question comes up about a past decision, Claude Cowork answers it from your own history of reviews, with a citation for every claim. You get the answer in minutes, and you can check the source yourself before you reply.
+When a question comes up about a past decision, Claude answers it from your own history of reviews, with a citation for every claim. You get the answer in minutes, and you can check the source yourself before you reply.
 
 ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)[![](https://academy.claude.com/assets/v1/thumbnail.light-calyi96r.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iv2hjqlx.png)
 
@@ -88,7 +88,7 @@ The five themes that matter, quantified and quoted.
 
 ## Audit a folder of visual assets against your guidelines
 
-In Claude Cowork, Claude Opus 5.5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
+Claude Opus 5.5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
 
 ·Use case·Marketing·15 min](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)[![](https://academy.claude.com/assets/v1/thumbnail.light-mjmk2gjq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bpm7r9eg.png)
 
@@ -127,7 +127,7 @@ Plain-English answers over your wiki, code, and warehouse.
 - [Claude Cowork Enterprise Admin GuideTutorial20 min
 
   ·Tutorial·20 min](https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide)
-- [Scaling workflows with Claude Cowork at your organization Tutorial15 min
+- [Scaling workflows with Claude at your organization Tutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/scaling-workflows-with-claude-cowork-at-your-organization)
 

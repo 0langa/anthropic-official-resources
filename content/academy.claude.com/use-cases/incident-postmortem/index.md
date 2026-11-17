@@ -4,7 +4,7 @@ Timeline, root cause, and action items from the incident channel.
 
 10 minEngineeringClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-fnbe9wym.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nsjpa7is.png)
 
@@ -290,19 +290,19 @@ EngineeringStreamline engineering workflows — standups, code review, architect
 
 `/incident-response`Run an incident response workflow — triage, communicate, and write postmortem.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fincident-response)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fincident-response)
 
 `/standup`Generate a standup update from recent activity.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fstandup)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fstandup)
 
 Show all 10 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/incident-postmortem)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)
 
@@ -328,15 +328,15 @@ Attach the error-rate and latency graphs for the impact window.
 
 [Connect](https://claude.ai/desktop/directory/datadog)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/incident-postmortem)
 
-Drag the files you'll use (your postmortem template, the runbook, any log exports or graph screenshots) into one folder and point Cowork at it. Cowork reads the template from there and writes the draft, the timeline, and the action-item tracker back to it. [Create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your incidents folder so your template, severity definitions, and blameless-language guide stay attached.
+Drag the files you'll use (your postmortem template, the runbook, any log exports or graph screenshots) into one folder and point Claude at it. Claude reads the template from there and writes the draft, the timeline, and the action-item tracker back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your incidents folder so your template, severity definitions, and blameless-language guide stay attached.
 
 Incidents / 2026-04-22-checkout-5xx
 
@@ -350,13 +350,13 @@ In Cowork’s chat bar:Incidents / 2026-04-22-checkout-5xx
 
 ## The prompt[](https://academy.claude.com/use-cases/incident-postmortem)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/incident-postmortem)
+### Copy this into Claude[](https://academy.claude.com/use-cases/incident-postmortem)
 
 From #inc-2026-04-22-checkout-5xx, reconstruct the sequence of events with timestamps, write the customer impact summary, identify the root cause and contributing factors, and draft the postmortem in our template with owners on every action item. Be blameless: describe what the system did, not who made a mistake.
 
 
 
-Incidents / 2026-04-22-checkout-5xxOpen in Cowork
+Incidents / 2026-04-22-checkout-5xxOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/incident-postmortem)
 
@@ -380,13 +380,13 @@ From #inc-2026-04-22-checkout-5xx, reconstruct the sequence of events with times
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/incident-postmortem)
+## Make Claude work for you[](https://academy.claude.com/use-cases/incident-postmortem)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -394,7 +394,7 @@ Make what we've done in this task so far into a skill, or edit the /incident-res
 
 
 
-IncidentsOpen in Cowork
+IncidentsOpen in Claude
 
 
 
@@ -404,13 +404,13 @@ Make what we've done in this task so far into a skill, or edit the /incident-res
 
 ### Run it when the incident closes[](https://academy.claude.com/use-cases/incident-postmortem)
 
-The draft should exist before the review meeting is scheduled. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill watches for resolved incidents and writes the first draft into the matching folder.
+The draft should exist before the review meeting is scheduled. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill watches for resolved incidents and writes the first draft into the matching folder.
 
-**/schedule** Every weekday at 6pm, check PagerDuty for incidents resolved in the last 24 hours, run /incident-response on each one, and write the draft to Incidents/<incident-id>/incident-response-draft.md.
+Set up a scheduled task for every weekday at 6pm: check PagerDuty for incidents resolved in the last 24 hours, run /incident-response on each one, and write the draft to Incidents/<incident-id>/incident-response-draft.md.
 
 
 
-IncidentsOpen in Cowork
+IncidentsOpen in Claude
 
 Scheduled taskActive
 
@@ -418,7 +418,7 @@ Postmortem first draft
 
 Daily at 6pm, finds incidents resolved in the last 24h, runs `/incident-response` against the channel and timeline, and writes the draft to the incident folder.
 
-Every **weekdays at 6:00pm**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **weekdays at 6:00pm**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/incident-postmortem)
 

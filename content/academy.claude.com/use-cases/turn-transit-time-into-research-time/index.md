@@ -34,7 +34,7 @@ Claude saves conversations across devices, so you can start on your phone and pi
 
 ### Required context[](https://academy.claude.com/use-cases/turn-transit-time-into-research-time)
 
-Enable [web search(opens in new tab)](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search): Claude can research best practices, find frameworks, and gather external information while you're still in brainstorm mode. By the time you're at your desk, the research is done.
+Enable [web search(opens in new tab)](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search): Claude can research best practices, find frameworks, and gather external information while you're still in brainstorm mode. By the time you're at your desk, the research is done. If you have the new Claude experience, there's no web search toggle. Claude searches the web when it helps.
 
 [
 
@@ -169,9 +169,9 @@ You can attach files on mobile just like desktop. Give Claude your planning docs
 
 Telling Claude "I have a meeting in two hours" helps it calibrate what to prioritize and how much depth to provide.
 
-### Desktop unlocks file creation[](https://academy.claude.com/use-cases/turn-transit-time-into-research-time)
+### Review files on a bigger screen[](https://academy.claude.com/use-cases/turn-transit-time-into-research-time)
 
-Mobile is ideal for capture and research, and you can ask for a deck or a doc there and edit it in the app. When you need downloadable files like spreadsheets, continue on desktop where Claude can create them.
+Mobile is ideal for capture and research, and you can ask for a deck or a doc there and edit it in the app. Claude can create downloadable files like spreadsheets on mobile too. Continue on desktop when you want more room to review them.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/turn-transit-time-into-research-time)
 

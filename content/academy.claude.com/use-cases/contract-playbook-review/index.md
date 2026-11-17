@@ -4,7 +4,7 @@ Clause-by-clause G/Y/R with redlines you can send back.
 
 15 minLegalClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-hd3p5r1z.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ci2tqnmp.png)
 
@@ -257,15 +257,15 @@ Commercial LegalReviews vendor agreements, NDAs, and SaaS subscriptions against 
 
 `/review`Review a vendor agreement, NDA, or SaaS subscription against your playbook.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Freview)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Freview)
 
 `/escalation-flagger`Route a contract issue to the right approver per the escalation matrix in your practice profile, and draft the ask.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fescalation-flagger)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fescalation-flagger)
 
 `/cold-start-interview`Run the cold-start interview to learn your commercial contracts practice and write your team practice profile.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcold-start-interview)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcold-start-interview)
 
 Show all 9 skills
 
@@ -277,9 +277,9 @@ Commercial Legal comes from Anthropic's Legal marketplace, which has to be added
 
 ### Connect your tools[](https://academy.claude.com/use-cases/contract-playbook-review)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 
 
@@ -313,13 +313,11 @@ Read the incoming draft and your playbook from the matter workspace; the clause 
 
 [Connect](https://claude.ai/desktop/directory/netdocuments)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 ### Set the working folder[](https://academy.claude.com/use-cases/contract-playbook-review)
 
-Put the incoming MSA and your contract playbook in one folder on your machine, then in Cowork click **+ Add folder** and select it. [Save it as a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your playbook, instructions, and memory stay attached and you don't re-upload them for the next contract — Cowork reads from the folder and writes the clause table and redlined draft back to it.
-
-When a task runs locally, Cowork reads these files on your computer; when it runs in the cloud, the files it uses leave your device and are processed on Anthropic's servers. On Team and Enterprise plans they aren't used to train Claude either way ([how Cowork handles your data(opens in new tab)](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview)); on Pro and Max that follows your model-improvement setting.
+Put the incoming MSA and your contract playbook in one folder on your machine, then in the Claude desktop app click **+ Add folder** and select it. [Save it as a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your playbook, instructions, and memory stay attached and you don't re-upload them for the next contract — Claude reads from the folder and writes the clause table and redlined draft back to it.
 
 
 
@@ -335,13 +333,13 @@ In Cowork’s chat bar:Contracts / Acme-MSA
 
 ## The prompt[](https://academy.claude.com/use-cases/contract-playbook-review)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/contract-playbook-review)
+### Copy this into Claude[](https://academy.claude.com/use-cases/contract-playbook-review)
 
 Review this MSA clause by clause against our contract playbook. For each clause, mark it green, yellow, or red against our standard, explain why in one or two sentences, and where it's yellow or red draft the redline and the rationale for opposing counsel.
 
 
 
-Contracts / Acme-MSAOpen in Cowork
+Contracts / Acme-MSAOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/contract-playbook-review)
 
@@ -365,13 +363,13 @@ Review this MSA clause by clause against our contract playbook. For each clause,
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/contract-playbook-review)
+## Make Claude work for you[](https://academy.claude.com/use-cases/contract-playbook-review)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -379,7 +377,7 @@ Make what we've done in this task so far into a skill, or edit the /review skill
 
 
 
-ContractsOpen in Cowork
+ContractsOpen in Claude
 
 
 
@@ -389,23 +387,23 @@ Make what we've done in this task so far into a skill, or edit the /review skill
 
 ### Share it as an artifact[](https://academy.claude.com/use-cases/contract-playbook-review)
 
-A review memo is stale the moment opposing counsel sends v4. Ask Cowork to publish the clause table as an artifact and the deal team has one link — re-run the skill or schedule it to refresh.
+A review memo is stale the moment opposing counsel sends v4. Ask Claude to publish the clause table as an artifact and the deal team has one link — re-run the skill or schedule it to refresh.
 
 Publish that clause table as an artifact for the deal team. Re-run it against whatever the latest counterparty draft is in this folder, and keep a short "what changed since last turn" note at the top.
 
 
 
-Contracts / Acme-MSAOpen in Cowork
+Contracts / Acme-MSAOpen in Claude
 
 ### Run it on every new contract[](https://academy.claude.com/use-cases/contract-playbook-review)
 
-Paper arrives, the first-pass review should already be waiting. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and set the customized skill to run every weekday morning, checking the intake folder for new contracts.
+Paper arrives, the first-pass review should already be waiting. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and set the customized skill to run every weekday morning, checking the intake folder for new contracts.
 
-**/schedule** Weekdays at 9am, check Contracts/Intake for new files and run /review on each one, writing the clause table and redlined draft to a subfolder named for the counterparty.
+Set up a scheduled task for weekdays at 9am: check Contracts/Intake for new files and run /review on each one, writing the clause table and redlined draft to a subfolder named for the counterparty.
 
 
 
-ContractsOpen in Cowork
+ContractsOpen in Claude
 
 Scheduled taskActive
 
@@ -413,7 +411,7 @@ First-pass contract review
 
 Each weekday at 9am, checks Contracts/Intake for new files, runs `/review` on each one, and writes the clause table and redlined draft to a counterparty subfolder.
 
-Every **weekday at 9 am — checks Contracts/Intake for new files**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **weekday at 9 am — checks Contracts/Intake for new files**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/contract-playbook-review)
 

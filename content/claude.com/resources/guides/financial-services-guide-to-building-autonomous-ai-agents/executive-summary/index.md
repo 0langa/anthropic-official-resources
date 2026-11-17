@@ -12,7 +12,7 @@ Institutions face mounting pressure from aging infrastructure requiring costly m
 
 Here's the good news: teams using AI agents are already transforming these pain points into competitive advantages. Financial services leaders like Verisk and NBIM are helping millions of customers at once, catching fraud before it happens, and turning weeks-long loan processes into same-day approvals.
 
-In this guide, we'll demonstrate how to build secure, scalable AI agents using [Claude (opens in new tab)](https://claude.ai/redirect/claudedotcom.v1.4e6eeed8-6ca4-419f-a12b-77d813997735), Anthropic's family of state-of-the-art foundational models designed for safety and reliability, deployed through [Amazon Bedrock's (opens in new tab)](https://aws.amazon.com/bedrock/) fully managed generative AI infrastructure.
+In this guide, we'll demonstrate how to build secure, scalable AI agents using [Claude (opens in new tab)](https://claude.ai/redirect/claudedotcom.v1.c2332f7a-decf-4808-89e7-b86b2ffdb1ce), Anthropic's family of state-of-the-art foundational models designed for safety and reliability, deployed through [Amazon Bedrock's (opens in new tab)](https://aws.amazon.com/bedrock/) fully managed generative AI infrastructure.
 
 #### What you'll learn
 

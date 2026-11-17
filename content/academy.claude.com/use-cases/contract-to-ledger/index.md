@@ -4,7 +4,7 @@ ASC 606 fields pulled from the contract, exceptions flagged before they hit the 
 
 10 minFinanceClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-h97eje0w.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-b4zgvlm6.png)
 
@@ -166,19 +166,19 @@ FinanceStreamline finance and accounting workflows, from journal entries and rec
 
 `/journal-entry`Prepare journal entries with proper debits, credits, and supporting documentation for month-end close.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fjournal-entry)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fjournal-entry)
 
 `/close-management`Manage the month-end close process with task sequencing, dependencies, and status tracking.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fclose-management)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fclose-management)
 
 Show all 7 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/contract-to-ledger)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 
 
@@ -204,15 +204,15 @@ Cross-check deal terms against what the opportunity record says was sold.
 
 [Connect](https://claude.ai/desktop/directory/salesforce-headless-360)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/contract-to-ledger)
 
-Drag the files you'll use (the executed PDFs, your rev-rec intake template, your accounting policy memo) into one folder and point Cowork at it. Cowork reads each contract and writes the populated intake sheet and the exception list back to it. [Create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your rev-rec folder so the policy, the field list, and the standard-deal patterns stay attached.
+Drag the files you'll use (the executed PDFs, your rev-rec intake template, your accounting policy memo) into one folder and point Claude at it. Claude reads each contract and writes the populated intake sheet and the exception list back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your rev-rec folder so the policy, the field list, and the standard-deal patterns stay attached.
 
 Revenue / Intake / 2026-W17
 
@@ -228,13 +228,13 @@ In Cowork’s chat bar:Revenue / Intake / 2026-W17
 
 ## The prompt[](https://academy.claude.com/use-cases/contract-to-ledger)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/contract-to-ledger)
+### Copy this into Claude[](https://academy.claude.com/use-cases/contract-to-ledger)
 
 Extract the ASC 606 fields (performance obligations, standalone selling price, contract term, billing schedule, variable consideration) from every executed contract into the rev-rec intake sheet, and flag any that don't match a standard pattern for my review before booking.
 
 
 
-Revenue / Intake / 2026-W17Open in Cowork
+Revenue / Intake / 2026-W17Open in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/contract-to-ledger)
 
@@ -248,7 +248,7 @@ Extract the ASC 606 fields (performance obligations, standalone selling price, c
 
 Prompt
 
-**Process the whole batch at once.** Cowork works the whole batch in one pass, so the intake sheet covers the week, not one PDF at a time.
+**Process the whole batch at once.** Claude works the whole batch in one pass, so the intake sheet covers the week, not one PDF at a time.
 
 Source
 
@@ -262,9 +262,9 @@ Extract the ASC 606 fields (performance obligations, standalone selling price, c
 
 Practice
 
-**Add a filled example sheet.** Drop a filled example in the folder and Cowork matches your column order, naming, and dropdown values exactly.
+**Add a filled example sheet.** Drop a filled example in the folder and Claude matches your column order, naming, and dropdown values exactly.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/contract-to-ledger)
+## Make Claude work for you[](https://academy.claude.com/use-cases/contract-to-ledger)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -272,7 +272,7 @@ Make what we've done in this task so far into a skill, or edit the /journal-entr
 
 
 
-Revenue / IntakeOpen in Cowork
+Revenue / IntakeOpen in Claude
 
 
 
@@ -282,13 +282,13 @@ Make what we've done in this task so far into a skill, or edit the /journal-entr
 
 ### Run it when contracts close[](https://academy.claude.com/use-cases/contract-to-ledger)
 
-Signed contracts come in all week. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill watches the executed-contracts folder and processes new arrivals into intake.
+Signed contracts come in all week. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill watches the executed-contracts folder and processes new arrivals into intake.
 
-**/schedule** Every weekday at 5pm, run the contract-to-ledger skill on any executed contract added to Revenue/Intake since the last run, append to the intake sheet, and post the exception list to #revenue-ops.
+Set up a scheduled task for every weekday at 5pm: run the contract-to-ledger skill on any executed contract added to Revenue/Intake since the last run, append to the intake sheet, and post the exception list to #revenue-ops.
 
 
 
-Revenue / IntakeOpen in Cowork
+Revenue / IntakeOpen in Claude
 
 Scheduled taskActive
 
@@ -296,7 +296,7 @@ Contract intake to rev-rec
 
 Daily at 5pm, extracts ASC 606 fields from any new executed contracts, appends to the intake sheet, and posts exceptions to #revenue-ops.
 
-Every **Weekdays at 5:00pm**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Weekdays at 5:00pm**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/contract-to-ledger)
 

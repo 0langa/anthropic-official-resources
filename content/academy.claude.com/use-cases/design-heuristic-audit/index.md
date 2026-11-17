@@ -4,7 +4,7 @@ Heuristic-scored teardown of competitor flows with evidence.
 
 10 minDesignClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-drc4nbll.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kor1z3r3.png)
 
@@ -289,19 +289,19 @@ DesignAccelerate design workflows — critique, design system management, UX wri
 
 `/design-critique`Get structured design feedback on usability, hierarchy, and consistency.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdesign-critique)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdesign-critique)
 
 `/design-system`Audit, document, or extend your design system.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdesign-system)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdesign-system)
 
 Show all 7 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/design-heuristic-audit)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%230ACF83'%20d='M8%2024a4%204%200%200%200%204-4v-4H8a4%204%200%200%200%200%208Z'/%3e%3cpath%20fill='%23A259FF'%20d='M4%2012a4%204%200%200%201%204-4h4v8H8a4%204%200%200%201-4-4Z'/%3e%3cpath%20fill='%23F24E1E'%20d='M4%204a4%204%200%200%201%204-4h4v8H8a4%204%200%200%201-4-4Z'/%3e%3cpath%20fill='%23FF7262'%20d='M12%200h4a4%204%200%200%201%200%208h-4V0Z'/%3e%3cpath%20fill='%231ABCFE'%20d='M20%2012a4%204%200%201%201-8%200%204%204%200%200%201%208%200Z'/%3e%3c/svg%3e)
 
@@ -327,15 +327,15 @@ Read the competitor docs folder and write the teardown back as a shareable Doc.
 
 [Connect](https://claude.ai/desktop/directory/google-drive-drivemcp)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/design-heuristic-audit)
 
-Drag the files you'll use (competitor flow screenshots, their help-center PDFs, your own current screens, your heuristic rubric) into one folder on your machine, then point Cowork at it. Cowork reads from it and writes the scored teardown back to it. If you do teardowns regularly, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your rubric and memory stay attached.
+Drag the files you'll use (competitor flow screenshots, their help-center PDFs, your own current screens, your heuristic rubric) into one folder on your machine, then point Claude at it. Claude reads from it and writes the scored teardown back to it. If you do teardowns regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your rubric and memory stay attached.
 
 Competitive / Teardown-Q2
 
@@ -349,13 +349,13 @@ In Cowork’s chat bar:Competitive / Teardown-Q2
 
 ## The prompt[](https://academy.claude.com/use-cases/design-heuristic-audit)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/design-heuristic-audit)
+### Copy this into Claude[](https://academy.claude.com/use-cases/design-heuristic-audit)
 
 Run a heuristic audit of these competitors. Score each screen against Nielsen's ten heuristics plus our three custom ones, note where each competitor is stronger or weaker than us, and end with the three patterns worth stealing and the three to avoid.
 
 
 
-Competitive / Teardown-Q2Open in Cowork
+Competitive / Teardown-Q2Open in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/design-heuristic-audit)
 
@@ -379,13 +379,13 @@ Run a heuristic audit of these competitors. Score each screen against Nielsen's 
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/design-heuristic-audit)
+## Make Claude work for you[](https://academy.claude.com/use-cases/design-heuristic-audit)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -393,7 +393,7 @@ Make what we've done in this task so far into a skill, or edit the /design-criti
 
 
 
-CompetitiveOpen in Cowork
+CompetitiveOpen in Claude
 
 
 
@@ -403,23 +403,23 @@ Make what we've done in this task so far into a skill, or edit the /design-criti
 
 ### Share it as an artifact[](https://academy.claude.com/use-cases/design-heuristic-audit)
 
-Competitors ship weekly; a static teardown ages fast. Ask Cowork to publish the scorecard as an artifact and product leadership has one link — re-run the skill or schedule it to refresh.
+Competitors ship weekly; a static teardown ages fast. Ask Claude to publish the scorecard as an artifact and product leadership has one link — re-run the skill or schedule it to refresh.
 
 Publish that teardown scorecard as an artifact. Keep a "what changed since last quarter" note at the top.
 
 
 
-Competitive / Teardown-Q2Open in Cowork
+Competitive / Teardown-Q2Open in Claude
 
 ### Run it after every competitor release[](https://academy.claude.com/use-cases/design-heuristic-audit)
 
-A rival ships, the teardown should already be updating. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and set the customized skill to run every Monday, picking up any new screenshots dropped in the folder.
+A rival ships, the teardown should already be updating. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and set the customized skill to run every Monday, picking up any new screenshots dropped in the folder.
 
-**/schedule** Mondays at 10am, check Competitive/Teardown-Q2 for new screenshots and re-run /design-critique, updating the scorecard and flagging any heuristic where a competitor overtook us.
+Set up a scheduled task for Mondays at 10am: check Competitive/Teardown-Q2 for new screenshots and re-run /design-critique, updating the scorecard and flagging any heuristic where a competitor overtook us.
 
 
 
-CompetitiveOpen in Cowork
+CompetitiveOpen in Claude
 
 Scheduled taskActive
 
@@ -427,7 +427,7 @@ Weekly competitive re-score
 
 Each Monday at 10am, checks the teardown folder for new screenshots, re-runs `/design-critique`, and flags any heuristic where a competitor overtook us.
 
-Every **Monday at 10 am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Monday at 10 am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/design-heuristic-audit)
 

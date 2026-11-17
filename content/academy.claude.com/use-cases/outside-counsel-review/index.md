@@ -4,7 +4,7 @@ Off-pattern entries and budget drift surfaced before the partner call.
 
 10 minLegalClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-kwp2o4y3.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hfgoshpu.png)
 
@@ -186,9 +186,9 @@ HL-Q2-spend-review.xlsx, HL-Q2-partner-talking-points.docx
 
 ### Connect your tools[](https://academy.claude.com/use-cases/outside-counsel-review)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 
 
@@ -214,13 +214,11 @@ The variance table lands as Excel and the talking points as Word, ready for the 
 
 [Connect](https://claude.ai/desktop/directory/microsoft-365)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 ### Set the working folder[](https://academy.claude.com/use-cases/outside-counsel-review)
 
-Put your outside counsel billing guidelines and the matter budget tracker in one folder on your machine, then in Cowork click **+ Add folder** and select it. [Save it as a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your guidelines, instructions, and memory stay attached for the next firm review — Cowork reads from the folder and writes the variance table and talking points back to it.
-
-When a task runs locally, Cowork reads these files on your computer; when it runs in the cloud, the files it uses leave your device and are processed on Anthropic's servers. On Team and Enterprise plans they aren't used to train Claude either way ([how Cowork handles your data(opens in new tab)](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview)); on Pro, Max, and Ultra that follows your model-improvement setting.
+Put your outside counsel billing guidelines and the matter budget tracker in one folder on your machine, then in the Claude desktop app click **+ Add folder** and select it. [Save it as a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your guidelines, instructions, and memory stay attached for the next firm review — Claude reads from the folder and writes the variance table and talking points back to it.
 
 
 
@@ -236,13 +234,13 @@ In Cowork’s chat bar:Legal-Ops / OC-Review-Q2
 
 ## The prompt[](https://academy.claude.com/use-cases/outside-counsel-review)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/outside-counsel-review)
+### Copy this into Claude[](https://academy.claude.com/use-cases/outside-counsel-review)
 
 Pull the billing and matter data for this firm from the connected matter system. Flag entries that are off-pattern against our billing guidelines, list every matter drifting against its budget with the variance and driver, and draft the talking points for the relationship-partner conversation.
 
 
 
-Legal-Ops / OC-Review-Q2Open in Cowork
+Legal-Ops / OC-Review-Q2Open in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/outside-counsel-review)
 
@@ -266,13 +264,13 @@ Pull the billing and matter data for this firm from the connected matter system.
 
 Practice
 
-**Add an example to match.** Drop a prior partner-review memo into the folder and Cowork matches your structure and tone.
+**Add an example to match.** Drop a prior partner-review memo into the folder and Claude matches your structure and tone.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know which entries to verify against the invoice before you raise them.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/outside-counsel-review)
+## Make Claude work for you[](https://academy.claude.com/use-cases/outside-counsel-review)
 
 No plugin ships with this one yet — once the prompt is producing the review the way you want, turn it into your own skill. A few minutes of conversation and it runs with your guidelines and format from then on.
 
@@ -280,7 +278,7 @@ Make what we've done in this task so far into a skill called /oc-spend-review.
 
 
 
-Legal-OpsOpen in Cowork
+Legal-OpsOpen in Claude
 
 
 
@@ -290,13 +288,13 @@ Make what we've done in this task so far into a skill called /oc-spend-review.
 
 ### Run it before every partner review[](https://academy.claude.com/use-cases/outside-counsel-review)
 
-The variance table and talking points should be waiting before the quarterly review, not built the night before. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the skill runs monthly across every panel firm.
+The variance table and talking points should be waiting before the quarterly review, not built the night before. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the skill runs monthly across every panel firm.
 
-**/schedule** First Monday of each month at 8am, run /oc-spend-review for every firm on the panel and write the variance table and talking points to a subfolder named for the firm.
+Set up a scheduled task for the first Monday of each month at 8am: run /oc-spend-review for every firm on the panel and write the variance table and talking points to a subfolder named for the firm.
 
 
 
-Legal-OpsOpen in Cowork
+Legal-OpsOpen in Claude
 
 Scheduled taskActive
 
@@ -304,7 +302,7 @@ Outside counsel spend review
 
 Runs `/oc-spend-review` for every panel firm and writes the variance table and talking points to a per-firm subfolder.
 
-Every **first Monday of each month at 8am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **first Monday of each month at 8am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/outside-counsel-review)
 
@@ -318,7 +316,7 @@ You can share a skill you created. In your list of skills, open the **...** menu
 
 ## Going forward[](https://academy.claude.com/use-cases/outside-counsel-review)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your tools
 

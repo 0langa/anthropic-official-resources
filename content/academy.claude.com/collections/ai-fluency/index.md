@@ -20,13 +20,7 @@ Explore the benefits of moving from single-player to multiplayer AI and learn ho
 
 ## Understand how AI behaves
 
-[![](https://academy.claude.com/assets/v1/thumbnail.light-m01o4z13.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ca0nkqqm.png)
-
-## The 4 Properties of AI
-
-This tutorial offers a full overview of the 4 properties of AI. It's a quick reference to help you understand the things that make AI capable in some situations and limited in others.
-
-·Tutorial·7 min](https://academy.claude.com/tutorials/the-4-properties-of-ai)[![](https://academy.claude.com/assets/v1/thumbnail.light-peff89t8.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lrenqyqv.png)
+[![](https://academy.claude.com/assets/v1/thumbnail.light-peff89t8.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lrenqyqv.png)
 
 ## The 4 Ds of AI Fluency — Behavioral Indicators
 

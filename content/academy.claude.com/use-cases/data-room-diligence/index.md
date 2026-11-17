@@ -4,7 +4,7 @@ Material issues flagged and the diligence summary drafted, every line cited to t
 
 15 minLegalClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-njjghfnk.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-422m6clz.png)
 
@@ -348,19 +348,19 @@ Corporate LegalRuns M&A diligence at scale with cited tabular review, builds dis
 
 `/diligence-issue-extraction`Read VDR documents and extract issues per house categories and materiality thresholds, producing findings in house memo format.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdiligence-issue-extraction)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdiligence-issue-extraction)
 
 `/tabular-review`Tabular review — one row per document, one column per data point, every cell cited to source.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Ftabular-review)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Ftabular-review)
 
 `/material-contract-schedule`Build the material contracts disclosure schedule from diligence findings, applying the purchase agreement’s Material Contract definition and formatting per the agreement’s schedule format.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fmaterial-contract-schedule)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fmaterial-contract-schedule)
 
 `/cold-start-interview`House cold-start interview (request list and prior memo), with a per-deal pass for deal-specific context.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcold-start-interview)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcold-start-interview)
 
 Show all 13 skills
 
@@ -372,9 +372,9 @@ Corporate Legal comes from Anthropic's Legal marketplace, which has to be added 
 
 ### Connect your tools[](https://academy.claude.com/use-cases/data-room-diligence)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20width='24'%20height='25'%20viewBox='0%200%2024%2025'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_181_11527)'%3e%3cmask%20id='mask0_181_11527'%20style='mask-type:luminance'%20maskUnits='userSpaceOnUse'%20x='0'%20y='0'%20width='24'%20height='25'%3e%3cpath%20d='M19.2%200.855469H4.8C2.14903%200.855469%200%203.0045%200%205.65547V20.0555C0%2022.7064%202.14903%2024.8555%204.8%2024.8555H19.2C21.851%2024.8555%2024%2022.7064%2024%2020.0555V5.65547C24%203.0045%2021.851%200.855469%2019.2%200.855469Z'%20fill='white'/%3e%3c/mask%3e%3cg%20mask='url(%23mask0_181_11527)'%3e%3cpath%20d='M24%200.855469H0V24.8555H24V0.855469Z'%20fill='url(%23paint0_linear_181_11527)'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M12.1582%2014.6759C11.2427%2014.6759%2010.458%2013.8913%2010.458%2012.9322C10.458%2011.9732%2011.1991%2011.1885%2012.1582%2011.1885C13.0735%2011.1885%2013.8582%2011.9732%2013.8582%2012.9322C13.8582%2013.8913%2013.1172%2014.6759%2012.1582%2014.6759ZM7.1886%2014.6759C6.27316%2014.6759%205.48849%2013.8913%205.48849%2012.9322C5.48849%2011.9732%206.22956%2011.1885%207.1886%2011.1885C8.10405%2011.1885%208.8887%2011.9732%208.8887%2012.9322C8.8887%2013.8913%208.14763%2014.6759%207.1886%2014.6759ZM18.5226%2010.3602C18.7407%2010.0987%2019.1329%2010.0551%2019.3945%2010.273C19.656%2010.4474%2019.7433%2010.8397%2019.5253%2011.1013L17.956%2013.063L19.5253%2015.0247C19.7433%2015.2861%2019.656%2015.635%2019.3945%2015.8529C19.1329%2016.0273%2018.7407%2015.9837%2018.5226%2015.7657L17.1713%2014.1092L15.82%2015.7657C15.6019%2016.0273%2015.2097%2016.0708%2014.9481%2015.8529C14.6865%2015.6785%2014.5993%2015.2861%2014.8173%2015.0247L16.3866%2013.063L14.8609%2011.0577C14.6429%2010.7962%2014.7301%2010.4474%2014.9916%2010.2295C15.2532%2010.0551%2015.6455%2010.0987%2015.8635%2010.3166L17.2149%2012.0168L18.5226%2010.3602ZM4.96538%207.57031C5.27052%207.57031%205.53209%207.83186%205.53209%208.13701V10.6218C6.0116%2010.273%206.57831%2010.0551%207.23219%2010.0551C8.322%2010.0551%209.23745%2010.6654%209.71697%2011.6244C10.1965%2010.709%2011.1119%2010.0551%2012.2017%2010.0551C13.7711%2010.0551%2014.9916%2011.3629%2014.9916%2012.9758C14.9916%2014.5887%2013.7274%2015.8965%2012.2017%2015.8965C11.1119%2015.8965%2010.1965%2015.2861%209.71697%2014.3271C9.23745%2015.2426%208.322%2015.8965%207.23219%2015.8965C5.70645%2015.8965%204.44227%2014.6323%204.44227%2013.0193V8.13701C4.39868%207.83186%204.66023%207.57031%204.96538%207.57031Z'%20fill='white'/%3e%3c/g%3e%3c/g%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_181_11527'%20x1='12'%20y1='0.855469'%20x2='12'%20y2='24.8555'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%232486FC'/%3e%3cstop%20offset='1'%20stop-color='%230061D5'/%3e%3c/linearGradient%3e%3cclipPath%20id='clip0_181_11527'%3e%3crect%20width='24'%20height='24'%20fill='white'%20transform='translate(0%200.855469)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e)
 
@@ -408,13 +408,11 @@ The document index lands as Excel and the diligence summary as Word, ready for t
 
 [Connect](https://claude.ai/desktop/directory/microsoft-365)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 ### Set the working folder[](https://academy.claude.com/use-cases/data-room-diligence)
 
-Put the diligence request list and your summary template in one folder on your machine, then in Cowork click **+ Add folder** and select it. [Save it as a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your request list, instructions, and memory stay attached as new documents land in the data room — Cowork reads from the connected room and writes the index and summary back to the folder.
-
-When a task runs locally, Cowork reads these files on your computer; when it runs in the cloud, the files it uses leave your device and are processed on Anthropic's servers. On Team and Enterprise plans they aren't used to train Claude either way ([how Cowork handles your data(opens in new tab)](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview)); on Pro, Max, and Ultra that follows your model-improvement setting.
+Put the diligence request list and your summary template in one folder on your machine, then in the Claude desktop app click **+ Add folder** and select it. [Save it as a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your request list, instructions, and memory stay attached as new documents land in the data room — Claude reads from the connected room and writes the index and summary back to the folder.
 
 
 
@@ -430,13 +428,13 @@ In Cowork’s chat bar:Deals / Project-Silvern
 
 ## The prompt[](https://academy.claude.com/use-cases/data-room-diligence)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/data-room-diligence)
+### Copy this into Claude[](https://academy.claude.com/use-cases/data-room-diligence)
 
 Read every document in the connected data room. Categorize each by type, then for the material contracts extract counterparty, term, change-of-control, assignment, and consent provisions. Flag the material issues and draft the diligence summary with a citation back to the source document and section for every entry.
 
 
 
-Deals / Project-SilvernOpen in Cowork
+Deals / Project-SilvernOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/data-room-diligence)
 
@@ -460,13 +458,13 @@ Read every document in the connected data room. Categorize each by type, then fo
 
 Practice
 
-**Add an example to match.** Drop a prior diligence summary you like into the folder and Cowork matches your structure and headings.
+**Add an example to match.** Drop a prior diligence summary you like into the folder and Claude matches your structure and headings.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know which entries to verify first.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/data-room-diligence)
+## Make Claude work for you[](https://academy.claude.com/use-cases/data-room-diligence)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -474,7 +472,7 @@ Make what we've done in this task so far into a skill, or edit the /diligence-is
 
 
 
-DealsOpen in Cowork
+DealsOpen in Claude
 
 
 
@@ -484,23 +482,23 @@ Make what we've done in this task so far into a skill, or edit the /diligence-is
 
 ### Share it as an artifact[](https://academy.claude.com/use-cases/data-room-diligence)
 
-A diligence summary is stale the moment the seller uploads another folder. Ask Cowork to publish the document index and issues list as an artifact and the deal team has one link.
+A diligence summary is stale the moment the seller uploads another folder. Ask Claude to publish the document index and issues list as an artifact and the deal team has one link.
 
 Publish the document index and material-issues list as an artifact for the deal team. Re-run it against the connected data room and keep a short "what's new since the last run" note at the top.
 
 
 
-Deals / Project-SilvernOpen in Cowork
+Deals / Project-SilvernOpen in Claude
 
 ### Re-run it as the room fills[](https://academy.claude.com/use-cases/data-room-diligence)
 
-New documents land in the data room every day during diligence. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill re-runs each morning so the index and issues list stay current. A scheduled run that needs this folder runs on your computer, so keep the desktop app open.
+New documents land in the data room every day during diligence. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill re-runs each morning so the index and issues list stay current. To read a folder on your computer during a scheduled task, make sure the Claude desktop app is open so Claude can access it.
 
-**/schedule** Daily at 7am during the diligence window, re-run /diligence-issue-extraction against the connected data room, update the document index and issues list, and note what's new since yesterday at the top.
+Set up a scheduled task that runs daily at 7am during the diligence window: re-run /diligence-issue-extraction against the connected data room, update the document index and issues list, and note what's new since yesterday at the top.
 
 
 
-Deals / Project-SilvernOpen in Cowork
+Deals / Project-SilvernOpen in Claude
 
 Scheduled taskActive
 
@@ -508,7 +506,7 @@ Data-room diligence refresh
 
 Runs `/diligence-issue-extraction` against the connected data room, updates the document index and issues list, and notes what's new since the last run.
 
-Every **day at 7am during the diligence window**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **day at 7am during the diligence window**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/data-room-diligence)
 
@@ -522,7 +520,7 @@ You can share a skill you created. In your list of skills, open the **...** menu
 
 ## Going forward[](https://academy.claude.com/use-cases/data-room-diligence)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

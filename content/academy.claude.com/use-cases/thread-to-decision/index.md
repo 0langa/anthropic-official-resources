@@ -4,7 +4,7 @@ What was decided, who owns it, what's still open.
 
 10 minClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-dcudi118.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bcr99b8o.png)
 
@@ -430,19 +430,19 @@ ProductivitySkills for inbox sweeps, daily rundowns, meeting prep, and decision 
 
 `/task-management`Extract decision, owners, and open questions from a thread or chain
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Ftask-management)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Ftask-management)
 
 `/update`Turn a long thread into a one-paragraph summary with owners
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fupdate)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fupdate)
 
 Show all 4 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/thread-to-decision)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)
 
@@ -462,15 +462,15 @@ Google DriveOptional
 
 [Connect](https://claude.ai/desktop/directory/google-drive-drivemcp)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/thread-to-decision)
 
-Keep a `Decisions/` folder and point Cowork at it. Drop exported email chains or pasted threads there when connectors aren't an option, and Cowork writes each new entry alongside your running decision log. If your team logs decisions regularly, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so the log format and owner directory stay attached.
+Keep a `Decisions/` folder and point Claude at it. Drop exported email chains or pasted threads there when connectors aren't an option, and Claude writes each new entry alongside your running decision log. If your team logs decisions regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so the log format and owner directory stay attached.
 
 Team / Decisions
 
@@ -484,13 +484,13 @@ In Cowork’s chat bar:Team / Decisions
 
 ## The prompt[](https://academy.claude.com/use-cases/thread-to-decision)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/thread-to-decision)
+### Copy this into Claude[](https://academy.claude.com/use-cases/thread-to-decision)
 
 Tell me what was actually decided, who owns each next step with the date they committed to, and what's still open or contested. Append it to the decision log: decision, owners, open questions, links back to the source messages. No commentary, just the record.
 
 
 
-Team / DecisionsOpen in Cowork
+Team / DecisionsOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/thread-to-decision)
 
@@ -514,13 +514,13 @@ Tell me what was actually decided, who owns each next step with the date they co
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/thread-to-decision)
+## Make Claude work for you[](https://academy.claude.com/use-cases/thread-to-decision)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -528,7 +528,7 @@ Make what we've done in this task so far into a skill, or edit the /task-managem
 
 
 
-DecisionsOpen in Cowork
+DecisionsOpen in Claude
 
 
 
@@ -538,13 +538,13 @@ Make what we've done in this task so far into a skill, or edit the /task-managem
 
 ### Run it whenever a thread gets long[](https://academy.claude.com/use-cases/thread-to-decision)
 
-Decisions get buried the moment a thread crosses fifty replies. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill watches your key channels and writes an entry whenever a thread is marked resolved.
+Decisions get buried the moment a thread crosses fifty replies. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill watches your key channels and writes an entry whenever a thread is marked resolved.
 
-**/schedule** Weekdays at 5pm, check #product-decisions and #leadership for threads with a :decided: reaction since the last run, run /task-management on each, and append to decision-log.md in Decisions.
+Set up a scheduled task for weekdays at 5pm: check #product-decisions and #leadership for threads with a :decided: reaction since the last run, run /task-management on each, and append to decision-log.md in Decisions.
 
 
 
-DecisionsOpen in Cowork
+DecisionsOpen in Claude
 
 Scheduled taskActive
 
@@ -552,7 +552,7 @@ Decision-log capture
 
 Checks watched channels for threads marked decided since the last run and appends each to the running log.
 
-Every **weekday at 5pm**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **weekday at 5pm**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/thread-to-decision)
 
@@ -566,7 +566,7 @@ You can share a skill you created. In your list of skills, open the **...** menu
 
 ## Going forward[](https://academy.claude.com/use-cases/thread-to-decision)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

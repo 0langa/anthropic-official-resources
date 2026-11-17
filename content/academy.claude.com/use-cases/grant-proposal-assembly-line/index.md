@@ -201,23 +201,23 @@ Review these 5 winning proposals and 3 rejections from last year. Identify which
 
 ## 5. Tricks, tips, and troubleshooting[](https://academy.claude.com/use-cases/grant-proposal-assembly-line)
 
-### Version control prevents content drift.[](https://academy.claude.com/use-cases/grant-proposal-assembly-line)
+### Version control prevents content drift[](https://academy.claude.com/use-cases/grant-proposal-assembly-line)
 
 As you customize modules for different funders, successful variations should flow back into your library. After each win, ask Claude: "Extract any improved language from this winning proposal and update the relevant library modules. Mark the version date and which funder responded positively." This ensures your library evolves based on what actually works.
 
-### Batch similar funders for efficiency.[](https://academy.claude.com/use-cases/grant-proposal-assembly-line)
+### Batch similar funders for efficiency[](https://academy.claude.com/use-cases/grant-proposal-assembly-line)
 
 When you have multiple education funders, ask Claude to create a comparison matrix first: "Analyze these 4 education funder RFPs and identify common requirements, unique elements, and priority differences." Then generate proposals in batches, making small adjustments rather than full rewrites. This can cut time by another 30%.
 
-### Track module performance metrics.[](https://academy.claude.com/use-cases/grant-proposal-assembly-line)
+### Track module performance metrics[](https://academy.claude.com/use-cases/grant-proposal-assembly-line)
 
 Add tracking codes to each module so you know which content contributes to wins. Ask Claude: "Create a tracking system where each module gets a unique ID. When we win grants, log which modules were used so we can identify our highest-performing content blocks." Over time, you'll know exactly which descriptions and need statements resonate most.
 
-### Set up funder intelligence alerts.[](https://academy.claude.com/use-cases/grant-proposal-assembly-line)
+### Set up funder intelligence alerts[](https://academy.claude.com/use-cases/grant-proposal-assembly-line)
 
 Before using the assembly line, gather intelligence: "Search for this funder's recent grants, board members, strategic plan, and stated priorities. How should we adjust our standard modules to align with what they actually fund versus what the RFP says?" This context makes customization more strategic.
 
-### Maintain freshness with quarterly updates.[](https://academy.claude.com/use-cases/grant-proposal-assembly-line)
+### Maintain freshness with quarterly updates[](https://academy.claude.com/use-cases/grant-proposal-assembly-line)
 
 Reused content can become stale. Set quarterly reviews: "Flag any modules older than 6 months. Update statistics, refresh examples, and add recent outcomes. Mark updated versions with the current date." Fresh statistics and recent success stories keep proposals competitive even when using library content.
 

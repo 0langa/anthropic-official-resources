@@ -44,9 +44,9 @@ ResumePDF
 
 Project descriptions (3-5 detailed examples of your best work)PDF
 
-
+
 
-ResumePDF
+Design inspiration (screenshots of portfolios you admire)PNG
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/create-a-custom-webpage)
 
@@ -66,7 +66,7 @@ Continue the conversation with Claude to refine, expand, or explore further.
 
 Claude can connect to [Netlify(opens in new tab)](https://claude.ai/directory/netlify) to take your artifact's code and deploy it as a live website—no coding required on your end. From your artifact's HTML code, Claude can teach you how to handle the technical deployment process.
 
-Using the code from my portfolio artifact, I want to create a real site. Use my Netlify connector, create a new site project directly in Netlify and walk me through deploying this live. I'm sharing the code from my portfolio artifact. Use my Netlify connector to create a new site project and deploy this as a live website. Give me the URL once it's live, and explain how I can update the site later if I want to make changes.
+Using the code from my portfolio artifact, I want to create a real site. Use my Netlify connector to create a new site project and deploy this as a live website. Give me the URL once it's live, and explain how I can update the site later if I want to make changes.
 
 
 

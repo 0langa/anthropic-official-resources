@@ -4,6 +4,7 @@
   "complete_definition": "Fetched textual representation passed automated extraction checks; not a guarantee of media/interactive fidelity.",
   "language_policy": "English locale paths and declared English HTML; undeclared language is reported, not guessed.",
   "retained_partial_urls": [
+    "https://academy.claude.com/collections/claude-for-work",
     "https://academy.claude.com/courses/ai-capabilities-and-limitations/course-quiz",
     "https://academy.claude.com/courses/ai-fluency-for-builders/course-quiz",
     "https://academy.claude.com/courses/ai-fluency-for-creative-work/course-quiz",
@@ -397,6 +398,7 @@
     "https://www.anthropic.com/research/confidential-inference-trusted-vms",
     "https://www.anthropic.com/research/constitutional-classifiers",
     "https://www.anthropic.com/research/contextual-retrieval",
+    "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
     "https://www.anthropic.com/research/critical-infrastructure-defense",
     "https://www.anthropic.com/research/cyber-competitions",
     "https://www.anthropic.com/research/cyber-toolkits-update",
@@ -516,10 +518,10 @@
   ],
   "statuses": {
     "blocked": 27,
-    "complete": 5153,
+    "complete": 5159,
     "gone": 49,
     "out_of_scope": 44,
-    "partial": 509
+    "partial": 511
   },
   "terminal_unarchived_urls": [
     "https://academy.claude.com/courses/tool-use-with-the-messages-api/**call.input",
@@ -616,6 +618,7 @@
     "https://www.anthropic.com/resources"
   ],
   "unresolved_urls": [
+    "https://academy.claude.com/collections/claude-for-work",
     "https://academy.claude.com/courses/ai-capabilities-and-limitations/course-quiz",
     "https://academy.claude.com/courses/ai-fluency-for-builders/course-quiz",
     "https://academy.claude.com/courses/ai-fluency-for-creative-work/course-quiz",
@@ -1125,6 +1128,7 @@
     "https://www.anthropic.com/research/confidential-inference-trusted-vms",
     "https://www.anthropic.com/research/constitutional-classifiers",
     "https://www.anthropic.com/research/contextual-retrieval",
+    "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
     "https://www.anthropic.com/research/cqz@anthropic.com",
     "https://www.anthropic.com/research/critical-infrastructure-defense",
     "https://www.anthropic.com/research/cyber-competitions",

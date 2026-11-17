@@ -16,11 +16,11 @@ Topics
 
 Related articles
 
-- Policy
+- Frontier Red Team
 
-  Oct 15, 2026
+  Nov 16, 2026
 
-  [An update on independent evaluators](https://www.anthropic.com/news/an-update-on-independent-evaluators)
+  [Updating our coordinated vulnerability disclosure policy timelines](https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines)
 
 [View more](https://www.anthropic.com/search?topic=transparency)
 

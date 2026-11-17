@@ -33,7 +33,7 @@ Give Claude your business records, like invoice information, so Claude can analy
 ### Required context[](https://academy.claude.com/use-cases/organize-your-business-finances)
 
 Upload your spreadsheet or CSV file with your invoice data.  
-Click the (+) in the chat bar settings to browse through your files, or alternatively, drag and drop your files into the chat box area.
+Click the (+) button in the chat bar to browse through your files, or alternatively, drag and drop your files into the chat box area.
 
 
 

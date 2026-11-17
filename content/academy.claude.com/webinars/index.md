@@ -64,7 +64,17 @@ ML
 
 ·Upcoming·Nov 18·12:00 PM PT
 
- (opens in new tab)](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)
+ (opens in new tab)](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[Upcoming · Nov 19, 1:00 PM PT
+
+### Claude Rearview Roadmap Review: November 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SS
+
+·Upcoming·Nov 19·1:00 PM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)
 
 ## On demand
 

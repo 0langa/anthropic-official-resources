@@ -1,4 +1,5 @@
 {
+  "https://academy.claude.com/collections/claude-for-work": "Network did not become idle within 8 seconds; content may still be loading.",
   "https://academy.claude.com/courses/ai-capabilities-and-limitations/course-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
   "https://academy.claude.com/courses/ai-fluency-for-builders/course-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
   "https://academy.claude.com/courses/ai-fluency-for-creative-work/course-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
@@ -509,6 +510,7 @@
   "https://www.anthropic.com/research/confidential-inference-trusted-vms": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/research/constitutional-classifiers": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/research/contextual-retrieval": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+  "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/research/cqz@anthropic.com": "HTTP 404: https://www.anthropic.com/research/cqz@anthropic.com",
   "https://www.anthropic.com/research/critical-infrastructure-defense": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/research/cyber-competitions": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",

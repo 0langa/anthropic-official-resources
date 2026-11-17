@@ -37,7 +37,7 @@ Find emails I likely don't need so I can review and bulk delete.
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/clean-up-promotional-emails)
 
-Claude works within your Gmail session. It can read email content, see sender information, and check whether you've opened messages. It only takes action when you confirm.
+Claude works within your Gmail session. It can read email content, see sender information, and check whether you've opened messages. It deletes emails only with your permission.
 
 ### Required context[](https://academy.claude.com/use-cases/clean-up-promotional-emails)
 
@@ -115,11 +115,15 @@ While you're in there, can you find any recurring payment emails? I want to see 
 
 ### Permissions before taking actions[](https://academy.claude.com/use-cases/clean-up-promotional-emails)
 
-Before clicking "send," "publish," "post," "submit," or similar action buttons, Claude asks for approval. This includes sending emails, posting to social media, submitting forms, or messaging others on your behalf.
+Whether Claude asks for approval before clicking "send," "publish," "post," "submit," or similar action buttons depends on your request and your [permission mode(opens in new tab)](https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide). These actions include sending emails, posting to social media, submitting forms, or messaging others on your behalf. To review them first, say so in your prompt and consider switching to **Manually approve** (**Ask before acting** in the classic side panel).
 
-### Save and schedule tasks with shortcut[](https://academy.claude.com/use-cases/clean-up-promotional-emails)
+### Save and schedule your cleanup[](https://academy.claude.com/use-cases/clean-up-promotional-emails)
 
-Once your cleanup prompt works well, click the shortcut button below the prompt to save it as a shortcut. Next time, just type "/" to view the command instead of rewriting the whole prompt. Alternatively, you can schedule the shortcut to run automatically.
+Once your cleanup prompt works well, ask Claude to save it as a [skill(opens in new tab)](https://support.claude.com/en/articles/12512180-use-skills-in-claude). Next time, just type "/" to select it instead of rewriting the whole prompt.
+
+To run it on a schedule, open Claude Desktop and set up a [scheduled task(opens in new tab)](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork) with the same prompt, plus a line asking Claude to use Claude in Chrome. Set the task to require your computer. It works only while your computer is awake, with Claude Desktop and Chrome open.
+
+If you still have the classic side panel, click the shortcut icon below the prompt to save it as a shortcut instead, which you can also schedule.
 
 ### Claude keeps working in the background[](https://academy.claude.com/use-cases/clean-up-promotional-emails)
 

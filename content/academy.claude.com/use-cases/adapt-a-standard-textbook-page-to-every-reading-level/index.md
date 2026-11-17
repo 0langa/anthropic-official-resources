@@ -4,7 +4,7 @@ Claude Opus 5.5 reads a single source page in detail and returns a finished file
 
 15 minEducationClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-nij2xg3n.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ipcuvz2b.png)
 
@@ -32,7 +32,7 @@ Keep every version on the same concepts and the same standard. List the vocabula
 
 
 
-Open in Cowork
+Open in Claude
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/adapt-a-standard-textbook-page-to-every-reading-level)
 
@@ -74,7 +74,7 @@ Add a Level A-EL version: same as Level A, with a glossary box of the five key t
 
 
 
-Open in Cowork
+Open in Claude
 
 ### Rebuild the deck with a different emphasis[](https://academy.claude.com/use-cases/adapt-a-standard-textbook-page-to-every-reading-level)
 
@@ -84,17 +84,17 @@ Rebuild the slide deck so it opens with the surface results (mountains, trenches
 
 
 
-Open in Cowork
+Open in Claude
 
-### Set it up to repeat in Cowork[](https://academy.claude.com/use-cases/adapt-a-standard-textbook-page-to-every-reading-level)
+### Set it up to repeat[](https://academy.claude.com/use-cases/adapt-a-standard-textbook-page-to-every-reading-level)
 
-In claude.ai chat, you upload the page and restate your rules in each new conversation. In a [Cowork project(opens in new tab)](https://academy.claude.com/tutorials/customize-claude-cowork), Claude reads from a folder on your computer and the rules sit in project instructions. Point the project at the unit's folder, write the standards and version rules into project instructions once, and every page in that folder is one short prompt away from the full set of files.
+Without a project, you upload the page and restate your rules in each new conversation. In a [project(opens in new tab)](https://academy.claude.com/tutorials/customize-claude-cowork), the rules sit in project instructions and the unit's files stay with the project. You can drag the files in, and if you use the desktop app, you can also point the project at the unit's folder so Claude reads from your computer. Write the standards and version rules into project instructions once, and every page in that unit is one short prompt away from the full set of files.
 
 Build the deck, three reading handouts, and exit ticket for tectonics-textbook-p218-219.jpg. Use the standards and version rules in project instructions.
 
 
 
-Open in Cowork
+Open in Claude
 
 ## 5. Tricks, tips, and troubleshooting[](https://academy.claude.com/use-cases/adapt-a-standard-textbook-page-to-every-reading-level)
 
@@ -102,9 +102,9 @@ Build the deck, three reading handouts, and exit ticket for tectonics-textbook-p
 
 Opus models are built for tasks that need close reading and a finished file at the end, like this one. Sonnet models are the everyday choice for drafting, planning, and back-and-forth on a lesson idea. Haiku models are the quick option for a fast answer or a simple rewrite. Here, the input is a dense page image and the output is a set of documents, so Opus 5.5 is the fit.
 
-**For more than one lesson, point a Cowork project at the folder**
+**For more than one lesson, point a project at the folder**
 
-In claude.ai you attach one page at a time. In [Claude Cowork(opens in new tab)](https://academy.claude.com/tutorials/choosing-between-claude-cowork-or-chat), a project can read a whole folder on your computer. Put your standards and version rules in project instructions, drop each unit's source pages into the folder, and the same prompt produces the deck and handouts for every page.
+Without a project, you repeat your instructions and attach your files in every new conversation. In a project, your standards and version rules go in the project instructions, and the unit's source pages go in the project's files. Drag the pages in, or use the desktop app to point the project at their folder. The same prompt then produces the deck and handouts for every page.
 
 **Ask Claude to list its changes alongside the output**
 
@@ -126,6 +126,6 @@ From the textbook spread, build me:
 
 Keep every version on the same concepts and the same standard. List the vocabulary you simplified for Level A.
 
-Try in Cowork
+Try in Claude
 
 Was this helpful?

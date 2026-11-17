@@ -4,7 +4,7 @@ Standard NDAs routed for signature; only exceptions hit counsel.
 
 10 minLegalClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-dydenpqj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jd1jgfwn.png)
 
@@ -202,15 +202,15 @@ Commercial LegalReviews vendor agreements, NDAs, and SaaS subscriptions against 
 
 `/review`Review a vendor agreement, NDA, or SaaS subscription against your playbook.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Freview)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Freview)
 
 `/stakeholder-summary`Translate a contract review into a summary the business stakeholder will actually read.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fstakeholder-summary)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fstakeholder-summary)
 
 `/cold-start-interview`Run the cold-start interview to learn your commercial contracts practice and write your team practice profile.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcold-start-interview)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcold-start-interview)
 
 Show all 9 skills
 
@@ -222,9 +222,9 @@ Commercial Legal comes from Anthropic's Legal marketplace, which has to be added
 
 ### Connect your tools[](https://academy.claude.com/use-cases/nda-review)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)
 
@@ -244,13 +244,11 @@ DocuSignOptional
 
 [Connect](https://claude.ai/desktop/directory/docusign)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 ### Set the working folder[](https://academy.claude.com/use-cases/nda-review)
 
-Put your standard mutual template and your NDA playbook in one folder on your machine, then in Cowork click **+ Add folder** and select it. [Save it as a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your playbook and template are loaded once and every inbound NDA runs against the same project knowledge — Cowork reads from the folder and writes the triage card back to it.
-
-When a task runs locally, Cowork reads these files on your computer; when it runs in the cloud, the files it uses leave your device and are processed on Anthropic's servers. On Team and Enterprise plans they aren't used to train Claude either way ([how Cowork handles your data(opens in new tab)](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview)); on Pro, Max, and Ultra that follows your model-improvement setting.
+Put your standard mutual template and your NDA playbook in one folder on your machine, then in the Claude desktop app click **+ Add folder** and select it. [Save it as a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your playbook and template are loaded once and every inbound NDA runs against the same project knowledge — Claude reads from the folder and writes the triage card back to it.
 
 
 
@@ -268,13 +266,13 @@ In Cowork’s chat bar:NDAs / Intake
 
 ## The prompt[](https://academy.claude.com/use-cases/nda-review)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/nda-review)
+### Copy this into Claude[](https://academy.claude.com/use-cases/nda-review)
 
 Triage this NDA against our NDA playbook. For each criterion in the playbook, mark whether this paper meets our standard. If everything passes, mark it cleared and route for signature. If anything is off-standard, list only the exceptions with a one-line reason each so counsel reviews just those.
 
 
 
-NDAs / IntakeOpen in Cowork
+NDAs / IntakeOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/nda-review)
 
@@ -284,7 +282,7 @@ Triage this NDA against our NDA playbook. For each criterion in the playbook, ma
 
 Prompt
 
-**Define the two outcomes.** "Mark it cleared and route for signature" or "list only the exceptions" gives Cowork a binary decision to make, which is what lets standard paper move without a lawyer touching it.
+**Define the two outcomes.** "Mark it cleared and route for signature" or "list only the exceptions" gives Claude a binary decision to make, which is what lets standard paper move without a lawyer touching it.
 
 Prompt
 
@@ -298,13 +296,13 @@ Triage this NDA against our NDA playbook. For each criterion in the playbook, ma
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/nda-review)
+## Make Claude work for you[](https://academy.claude.com/use-cases/nda-review)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -312,7 +310,7 @@ Make what we've done in this task so far into a skill, or edit the /review skill
 
 
 
-NDAsOpen in Cowork
+NDAsOpen in Claude
 
 
 
@@ -322,13 +320,13 @@ Make what we've done in this task so far into a skill, or edit the /review skill
 
 ### Run it on every new NDA[](https://academy.claude.com/use-cases/nda-review)
 
-NDAs arrive throughout the day. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill checks NDAs/Intake each weekday morning and runs /review on any new files before your day starts.
+NDAs arrive throughout the day. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill checks NDAs/Intake each weekday morning and runs /review on any new files before your day starts.
 
-**/schedule** Weekdays at 9am — run /review on every file in NDAs/Intake that wasn't there on the last run. Route cleared NDAs to DocuSign for signature and move them to NDAs/Processed. For anything with exceptions, write the triage card to NDAs/Exceptions and post the list to #legal-nda-review in Slack so counsel picks it up.
+Set up a scheduled task for weekdays at 9am: run /review on every file in NDAs/Intake that wasn't there on the last run. Route cleared NDAs to DocuSign for signature and move them to NDAs/Processed. For anything with exceptions, write the triage card to NDAs/Exceptions and post the list to #legal-nda-review in Slack so counsel picks it up.
 
 
 
-NDAsOpen in Cowork
+NDAsOpen in Claude
 
 Scheduled taskActive
 
@@ -336,7 +334,7 @@ NDA intake triage
 
 Each weekday morning, runs `/review` on files added to NDAs/Intake since the last run. Cleared paper routes to DocuSign and moves to NDAs/Processed (the executed copy lands wherever your DocuSign envelope settings already send it); exceptions get a triage card in NDAs/Exceptions and a Slack post to #legal-nda-review for counsel.
 
-Every **weekday at 9:00 AM — checks NDAs/Intake for new files**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **weekday at 9:00 AM — checks NDAs/Intake for new files**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/nda-review)
 
@@ -350,7 +348,7 @@ You can share a skill you created. In your list of skills, open the **...** menu
 
 ## Going forward[](https://academy.claude.com/use-cases/nda-review)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

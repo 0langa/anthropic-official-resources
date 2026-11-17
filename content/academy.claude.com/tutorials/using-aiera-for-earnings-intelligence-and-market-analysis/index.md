@@ -39,13 +39,13 @@ Claude applies Aiera’s intelligence platform to support real-time market analy
 
 ## Setting Up Aiera Integration[](https://academy.claude.com/tutorials/using-aiera-for-earnings-intelligence-and-market-analysis)
 
-Technical details of the Aiera Integration can be found in Aiera’s MCP Server Documentation. You will need to contact Aiera to obtain API access credentials for the MCP server.
+For technical details of the Aiera integration, see [Aiera’s MCP Server Documentation(opens in new tab)](https://rest.aiera.com/docs/mcp). Contact Aiera to obtain API access credentials for the MCP server.
 
 ### For Organization Owners[](https://academy.claude.com/tutorials/using-aiera-for-earnings-intelligence-and-market-analysis)
 
 1. Navigate to [Admin settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors).
-2. Click “Add custom connector.”
-3. Enter integration URL: [https://mcp-pub.aiera.com/?api\_key={YOUR\_API\_KEY(opens in new tab)](https://mcp-pub.aiera.com/?api_key=%7BYOUR_API_KEY)}
+2. Click “Add” (or “Add connector”) and choose the custom option. If you then see “Web” and “Desktop,” select “Web.”
+3. Enter integration URL: `https://mcp-pub.aiera.com/?api_key={YOUR_API_KEY}`
 4. Name the integration (e.g., “Aiera MCP”)
 5. Click “Add”
 
@@ -113,7 +113,7 @@ Search earnings transcripts for S&P 500 companies in the last quarter for mentio
 
 **Note:** Combine with sector filters to focus analysis on relevant industry groups.
 
-## Upcoming Events Planning[](https://academy.claude.com/tutorials/using-aiera-for-earnings-intelligence-and-market-analysis)
+### Upcoming Events Planning[](https://academy.claude.com/tutorials/using-aiera-for-earnings-intelligence-and-market-analysis)
 
 Example input prompt:
 

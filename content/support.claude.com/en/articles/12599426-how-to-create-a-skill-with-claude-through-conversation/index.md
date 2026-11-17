@@ -40,7 +40,7 @@ In Claude's thinking, you will see it read a *skill-creator* skill to follow bes
 
 ### 4. Activate and test the skill[](https://academy.claude.com/tutorials/how-to-create-a-skill-with-claude-through-conversation)
 
-Save the the skill file that Claude creates. In [Settings > Capabilities > Skills(opens in new tab)](https://claude.ai/settings/capabilities), you can view your library of skills and turn them on or off as needed.
+Save the skill file that Claude creates. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), you can see the skills you have and add or remove them as needed.
 
 Try using your skill by describing a task the skill should address. See if Claude recognizes the situation (you'll see "Using [skill name]" in Claude's thinking) and whether it produces the expected outcome. If something's off, ask Claude to update the skill with your desired changes. Repeat this process until your skill works effectively.
 

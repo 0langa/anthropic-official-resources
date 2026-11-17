@@ -33,7 +33,7 @@ Make this consulting-grade with premium formatting, sophisticated design, and ad
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/develop-a-program-toolkit)
 
-[Extended Thinking(opens in new tab)](https://support.claude.com/en/articles/10574485-using-extended-thinking) helps Claude develop more sophisticated program frameworks by planning structure, considering implementation challenges, and testing logic connections before building the toolkit.
+A higher [effort level(opens in new tab)](https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings) in the model menu helps Claude develop more sophisticated program frameworks by planning structure, considering implementation challenges, and testing logic connections before building the toolkit.
 
 ### Required context[](https://academy.claude.com/use-cases/develop-a-program-toolkit)
 
@@ -49,7 +49,7 @@ Claude generates a multi-sheet Excel workbook that serves as your complete progr
 
 I've created a comprehensive **program planning Excel workbook**. Here's what's included across six interconnected sheets:
 
-Sheet 1: Executive Dashboard A visual summary of your tech training program with key metrics, timeline, and participant outcomes. Clean, professional layout shows annual capacity (120 participants), program phases, and target outcomes including 81% completion rate, 90% certification attainment, and 75% job placement.
+Sheet 1: Executive Dashboard A visual summary of your tech training program with key metrics, timeline, and participant outcomes. Clean, professional layout shows annual capacity (120 participants), program phases, and target outcomes including 80% course completion, 60% job placement within 90 days, and $40K average starting salary.
 
 Sheet 2: Program Design Template Complete program narrative covering mission (empowering Detroit youth through tech careers), target population (ages 18-26 from underserved communities), theoretical framework (closing opportunity gap through training + certifications + internships), and detailed breakdown of all three phases plus wraparound services. Structured for easy adaptation into grant proposals.
 
@@ -81,7 +81,7 @@ Leverage for multiple use cases including external facing program resources
 
 Using the program design toolkit, create external-facing materials to recruit participants and engage stakeholders. I need:
 
-1. A one-page program overview for potential participants explaining what TechBridge offers, eligibility, benefits, and how to apply—make it visually appealing and accessible for young adults.
+1. A one-page program overview for potential participants explaining what the program offers, eligibility, benefits, and how to apply—make it visually appealing and accessible for young adults.
 2. An FAQ document addressing common questions from participants, employers, and funders about program structure, expectations, costs, and outcomes.
 
 

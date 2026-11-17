@@ -4,7 +4,7 @@ A structured memo with citations, not a list of links.
 
 10 minLegalClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-finygjm8.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gwhtyq3v.png)
 
@@ -281,15 +281,15 @@ Litigation LegalManages the litigation portfolio — matters, deadlines, holds, 
 
 `/brief-section-drafter`Draft a brief section in house style, consistent with the case theory — every fact cited, every case checked, every argument tied to the theory.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fbrief-section-drafter)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fbrief-section-drafter)
 
 `/chronology`Build or update a chronology from declared document sources and uploads — dated events extracted, de-duped, and tagged by significance per the matter theory.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fchronology)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fchronology)
 
 `/cold-start-interview`House cold-start for the litigation plugin — branches by role (in-house, firm associate, solo) and side (plaintiff, defense, both), captures risk calibration, landscape, and house style, and writes the practice profile.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcold-start-interview)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcold-start-interview)
 
 Show all 19 skills
 
@@ -301,9 +301,9 @@ Litigation Legal comes from Anthropic's Legal marketplace, which has to be added
 
 ### Connect your tools[](https://academy.claude.com/use-cases/legal-research-memo)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 
 
@@ -329,13 +329,11 @@ Pull prior memos on the same question from the matter workspace so the answer bu
 
 [Connect](https://claude.ai/desktop/directory/imanage)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 ### Set the working folder[](https://academy.claude.com/use-cases/legal-research-memo)
 
-Put the research request, the relevant facts, and a prior memo in your house format in one folder on your machine, then in Cowork click **+ Add folder** and select it. [Save it as a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your memo format, instructions, and memory stay attached for the next question — Cowork reads from the folder and writes the memo back to it.
-
-When a task runs locally, Cowork reads these files on your computer; when it runs in the cloud, the files it uses leave your device and are processed on Anthropic's servers. On Team and Enterprise plans they aren't used to train Claude either way ([how Cowork handles your data(opens in new tab)](https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview)); on Pro and Max that follows your model-improvement setting.
+Put the research request, the relevant facts, and a prior memo in your house format in one folder on your machine, then in the Claude desktop app click **+ Add folder** and select it. [Save it as a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your memo format, instructions, and memory stay attached for the next question — Claude reads from the folder and writes the memo back to it.
 
 
 
@@ -351,13 +349,13 @@ In Cowork’s chat bar:Research / Acme-Indemnification-Q
 
 ## The prompt[](https://academy.claude.com/use-cases/legal-research-memo)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/legal-research-memo)
+### Copy this into Claude[](https://academy.claude.com/use-cases/legal-research-memo)
 
 Research this question. Surface the relevant case law and regulatory guidance via Thomson Reuters and draft a research memo: question presented, short answer, the discussion grouped by authority, and a list of open issues. Cite every proposition to the source you relied on.
 
 
 
-Research / Acme-Indemnification-QOpen in Cowork
+Research / Acme-Indemnification-QOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/legal-research-memo)
 
@@ -381,13 +379,13 @@ Research this question. Surface the relevant case law and regulatory guidance vi
 
 Practice
 
-**Add an example to match.** Drop a memo you like into the folder and Cowork matches your structure, citation style, and voice.
+**Add an example to match.** Drop a memo you like into the folder and Claude matches your structure, citation style, and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/legal-research-memo)
+## Make Claude work for you[](https://academy.claude.com/use-cases/legal-research-memo)
 
 The plugin is a starting point — save the way you just ran this memo as a skill of your own, with your practices and expertise built in. A few minutes of conversation and it runs with your standards from then on.
 
@@ -395,7 +393,7 @@ Make what we've done in this task so far into a skill called /research-memo, wit
 
 
 
-ResearchOpen in Cowork
+ResearchOpen in Claude
 
 
 
@@ -405,13 +403,13 @@ Make what we've done in this task so far into a skill called /research-memo, wit
 
 ### Run it on every new question[](https://academy.claude.com/use-cases/legal-research-memo)
 
-A research request lands in the intake folder, the cited first draft should already be writing. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill runs whenever a new request is added.
+A research request lands in the intake folder, the cited first draft should already be writing. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs whenever a new request is added.
 
-**/schedule** Weekdays at 9am, check Research/Intake for new requests and run /research-memo on each one, saving the memo to a subfolder named for the question.
+Set up a scheduled task for weekdays at 9am: check Research/Intake for new requests and run /research-memo on each one, saving the memo to a subfolder named for the question.
 
 
 
-ResearchOpen in Cowork
+ResearchOpen in Claude
 
 Scheduled taskActive
 
@@ -419,7 +417,7 @@ First-draft research memo
 
 Runs `/research-memo` on every new request in Research/Intake and saves the cited memo to a subfolder named for the question.
 
-Every **weekday at 9am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **weekday at 9am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/legal-research-memo)
 
@@ -433,7 +431,7 @@ You can share a skill you created. In your list of skills, open the **...** menu
 
 ## Going forward[](https://academy.claude.com/use-cases/legal-research-memo)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

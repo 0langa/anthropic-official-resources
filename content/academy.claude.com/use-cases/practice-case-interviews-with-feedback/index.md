@@ -116,7 +116,7 @@ Use Claude to generate different types: profitability cases, market entry, growt
 
 ### Store practice cases in a Project[](https://academy.claude.com/use-cases/practice-case-interviews-with-feedback)
 
-Create a "Case Practice" [Project(opens in new tab)](https://support.claude.com/en/articles/9517075-what-are-projects) and keep all your work there. You can compare across cases and see your progress over time. With [Memory(opens in new tab)](https://code.claude.com/docs/en/memory) in Projects, Claude can remember and track your level of understanding to give more targeted feedback—like identifying which concepts or frameworks you often struggle with.
+Create a "Case Practice" [Project(opens in new tab)](https://support.claude.com/en/articles/9517075-what-are-projects) and keep all your work there. You can compare across cases and see your progress over time. With [Memory(opens in new tab)](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context) in Projects, Claude can remember and track your level of understanding to give more targeted feedback—like identifying which concepts or frameworks you often struggle with.
 
 ### Let Claude think longer for detailed reviews[](https://academy.claude.com/use-cases/practice-case-interviews-with-feedback)
 

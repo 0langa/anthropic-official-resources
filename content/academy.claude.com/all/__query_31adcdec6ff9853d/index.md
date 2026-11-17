@@ -240,7 +240,7 @@ ProductAll
 
 RoleAll
 
-140 tutorials
+139 tutorials
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-blskv34c.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bv9w6wt2.png)
 
@@ -374,7 +374,7 @@ Pair your Slack workspace with Claude Tag and decide what systems it can access.
 
 Build a doc, a deck, a design, a spreadsheet, a whiteboard, a dashboard, or an animation with Claude, then share it so your team can work on it too.
 
-·8 min](https://academy.claude.com/tutorials/intro-to-artifacts)[![](https://academy.claude.com/assets/v1/thumbnail.light-ctra72zy.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ktlv28wr.png)
+·8 min](https://academy.claude.com/tutorials/collaborate-with-your-team-in-claude-artifacts)[![](https://academy.claude.com/assets/v1/thumbnail.light-ctra72zy.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ktlv28wr.png)
 
 ## Configuration and multi-file skills
 
@@ -469,7 +469,7 @@ Claude builds a blank scatter right in the conversation — you place the points
 
 ## Audit a folder of visual assets against your guidelines
 
-In Claude Cowork, Claude Opus 5.5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
+Claude Opus 5.5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
 
 ·Marketing·15 min](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)[![](https://academy.claude.com/assets/v1/thumbnail.light-fjnnaiiq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mslbc9us.png)
 
@@ -511,7 +511,7 @@ Plain-English answers over your wiki, code, and warehouse.
 
 ## Build analysis from browser charts and folder data
 
-Pull your quarterly revenue from scattered board decks, then grab GDP and inflation data from FRED. Cowork creates a comparison chart showing how your growth stacks up against the macro environment.
+Pull your quarterly revenue from scattered board decks, then grab GDP and inflation data from FRED. Claude creates a comparison chart showing how your growth stacks up against the macro environment.
 
 ·Finance·15 min](https://academy.claude.com/use-cases/build-analysis-from-browser-charts-and-folder-data)[![](https://academy.claude.com/assets/v1/thumbnail.light-imqgawn0.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mkm685zm.png)
 
@@ -535,7 +535,7 @@ From body systems to molecular structures, turn a detailed prompt into a working
 
 ## Build the competitive comparison doc
 
-Cowork reads competitor materials against your positioning, writes the win/lose/draw, and outputs a sales deck and Excel matrix.
+Claude reads competitor materials against your positioning, writes the win/lose/draw, and outputs a sales deck and Excel matrix.
 
 ·Marketing·10 min](https://academy.claude.com/use-cases/competitor-comparison)[![](https://academy.claude.com/assets/v1/thumbnail.light-fzzs6i6o.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-my91enox.png)
 
@@ -560,7 +560,7 @@ ProductAll
 
 StatusAll
 
-106 webinars
+107 webinars
 
 [Upcoming
 
@@ -598,7 +598,19 @@ ML
 
 ·Upcoming·Nov 18·12:00 PM PT
 
- (opens in new tab)](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[Recording
+ (opens in new tab)](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[Upcoming
+
+## Claude Rearview Roadmap Review: November 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SS
+
+·Nov 19·1:00 PM PT
+
+·Upcoming·Nov 19·1:00 PM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording
 
 ## The State of Cybersecurity: What Frontier AI Changes for Security Leaders 
 
@@ -834,16 +846,4 @@ BNPNDP
 
 ·Recording·Sep 18
 
- (opens in new tab)](https://claude.com/resources/webinars/inside-claude-for-financial-advisors)[Recording
-
-## Enterprise Transformation with Claude on AWS: Paths to Production 
-
-Explore the multiple paths to running Claude on AWS, from Claude Platform and Bedrock to Claude Enterprise and Desktop, with live Claude Code demos.
-
-JASMAR
-
-·Sep 16
-
-·Recording·Sep 16
-
- (opens in new tab)](https://claude.com/resources/webinars/enterprise-transformation-with-claude-on-aws-three-paths-to-production)Load more
+ (opens in new tab)](https://claude.com/resources/webinars/inside-claude-for-financial-advisors)Load more

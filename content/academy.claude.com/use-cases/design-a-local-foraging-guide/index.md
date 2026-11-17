@@ -32,9 +32,9 @@ Design: Quiet and organic. Warm cream, muted sage, soft olive. Think field journ
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/design-a-local-foraging-guide)
 
-Claude builds working artifacts directly in conversation. Enable Artifacts in settings so Claude can create interactive applications you can use immediately.
+Claude builds working artifacts directly in conversation. Check that Artifacts and **Create and edit files** (also called **Code execution and file creation**) are on in [Settings(opens in new tab)](https://claude.ai/settings/capabilities) so Claude can create interactive applications you can use immediately.
 
-Turn on Artifacts in your settings. This lets Claude generate apps with full interactivity—maps, state management, data visualization—that render right in the chat. No setup or deployment needed.
+This lets Claude generate apps with full interactivity—maps, state management, data visualization—that render right in the chat. No setup or deployment needed.
 
 ### Required context[](https://academy.claude.com/use-cases/design-a-local-foraging-guide)
 

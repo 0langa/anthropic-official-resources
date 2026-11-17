@@ -61,7 +61,7 @@ Create a complete skill with proper structure that I can use whenever I need bra
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/package-your-brand-guidelines-in-a-skill)
 
-Upload any existing brand guidelines, style sheets, or design documentation to serve as examples that Claude can reference within the skill. Enable file creation and Skills in your [settings(opens in new tab)](https://claude.ai/settings/capabilities) so Claude can build the complete skill package with proper structure, code, and documentation.
+Upload any existing brand guidelines, style sheets, or design documentation to serve as examples that Claude can reference within the skill. Make sure file creation is turned on in your [settings(opens in new tab)](https://claude.ai/settings/capabilities) so Claude can build the complete skill package with proper structure, code, and documentation. On Team and Enterprise plans, an organization Owner controls this setting.
 
 ### Required context[](https://academy.claude.com/use-cases/package-your-brand-guidelines-in-a-skill)
 

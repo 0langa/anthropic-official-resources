@@ -42,7 +42,7 @@ Previous syllabusPDF
 
 Claude draws the course as a graph — locked weeks in one color, movable weeks in another. Click any topic and a panel shows what comes before it, what it unlocks, and how the major textbooks handle that same spot in the sequence. You get a second opinion on each ordering choice.
 
-![Claude's response with a dependency map of a 15-week Intro to Macroeconomics syllabus: weeks laid out by tier with arrows between topics like Supply & demand, GDP & national income, Unemployment, Savings & investment, Aggregate demand, Aggregate supply, and AD-AS equilibrium, each tagged locked or flexible, with an expanded panel for AD-AS equilibrium listing its prerequisites and how Mankiw and Blanchard sequence it](https://academy.claude.com/assets/v1/syllabus-dependency-map-oqub48dw.png)
+![Claude's response with a dependency map of a 10-week Intro to Macroeconomics syllabus: weeks laid out by tier with arrows between topics like Supply & demand, GDP & national income, Unemployment, Savings & investment, Aggregate demand, Aggregate supply, and AD-AS equilibrium, each tagged locked, moderate, or flexible, with an expanded panel for AD-AS equilibrium listing its prerequisites and how Mankiw and Blanchard sequence it](https://academy.claude.com/assets/v1/syllabus-dependency-map-oqub48dw.png)
 
 ## 4. Follow up prompts[](https://academy.claude.com/use-cases/plan-your-syllabus-see-which-weeks-are-locked)
 
@@ -80,7 +80,7 @@ The locked/flexible tags are Claude's reading of the dependencies — based on s
 
 ### What to do with the visual next[](https://academy.claude.com/use-cases/plan-your-syllabus-see-which-weeks-are-locked)
 
-Save as Artifact and share the dependency view with students — the map you used to plan is a study map for them. Create skill from visual has Claude remember this format for next semester's course. Or ask for the revised syllabus itself as a document, once the order's settled.
+Ask Claude to turn the dependency view into an artifact and share it with students. Whether and how you can [share it(opens in new tab)](https://support.claude.com/en/articles/9547008-share-artifacts) depends on your Claude plan. The map you used to plan is a study map for them. To reuse this format for next semester's course, ask Claude to turn it into a skill. Or ask for the revised syllabus itself as a document, once the order's settled.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/plan-your-syllabus-see-which-weeks-are-locked)
 

@@ -183,7 +183,7 @@ Learn how Claude Skills let you package proven work approaches so Claude automat
 - [Claude Cowork Enterprise Admin GuideTutorial20 min
 
   ·Tutorial·20 min](https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide)
-- [Scaling workflows with Claude Cowork at your organization Tutorial15 min
+- [Scaling workflows with Claude at your organization Tutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/scaling-workflows-with-claude-cowork-at-your-organization)
 

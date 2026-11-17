@@ -150,11 +150,11 @@ I think I want the MacBook Pro. Can you check a few sites and find where it's ch
 
 ### Drag tabs into Claude's tab group[](https://academy.claude.com/use-cases/compare-products-across-sites)
 
-If you already have relevant product page tabs open, you can drag them into Claude's designated tab group. You'll see a banner highlighting the group of tabs that Claude is active in. Claude can read and work across all tabs in the group simultaneously—no tab-switching required. Before visiting new sites, Claude asks for permission. You can grant site-level permissions for websites you trust, allowing Claude to work without repeated approvals on those specific domains.
+If you already have relevant product page tabs open, you can drag them into Claude's designated tab group. You'll see a banner highlighting the group of tabs that Claude is active in. Claude can read and work across all tabs in the group simultaneously—no tab-switching required. Whether Claude asks for permission before visiting new sites depends on your [permission mode(opens in new tab)](https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide). You can grant site-level permissions for websites you trust, allowing Claude to work without repeated approvals on those specific domains.
 
-### Save your comparison template as a shortcut[](https://academy.claude.com/use-cases/compare-products-across-sites)
+### Save your comparison template as a skill[](https://academy.claude.com/use-cases/compare-products-across-sites)
 
-If you research products regularly, save your workflow as a shortcut by clicking on the shortcut icon below a previous prompt. Next time you're comparing options, just type "/" and select the shortcut for Claude to follow the same directions.
+If you research products regularly, ask Claude to save your workflow as a [skill(opens in new tab)](https://support.claude.com/en/articles/12512180-use-skills-in-claude). Next time you're comparing options, just type "/" and select it for Claude to follow the same directions. If you still have the classic side panel, click the shortcut icon below a previous prompt to save it as a shortcut instead.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/compare-products-across-sites)
 

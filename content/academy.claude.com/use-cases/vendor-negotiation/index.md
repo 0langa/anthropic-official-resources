@@ -4,7 +4,7 @@ Talking points, leverage, and a redline summary from the contract.
 
 10 minOperationsClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-bpm02atf.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-1b7ie80y.png)
 
@@ -269,19 +269,19 @@ OperationsOptimize business operations — vendor management, process documentat
 
 `/vendor-review`Evaluate a vendor — cost analysis, risk assessment, and recommendation.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fvendor-review)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fvendor-review)
 
 `/risk-assessment`Identify, assess, and mitigate operational risks.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Frisk-assessment)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Frisk-assessment)
 
 Show all 9 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/vendor-negotiation)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)
 
@@ -307,15 +307,15 @@ Pull stakeholder asks and pain points from the vendor channel so the brief cover
 
 [Connect](https://claude.ai/desktop/directory/slack)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/vendor-negotiation)
 
-Put the current agreement, the renewal proposal, your usage export, and the comparable quotes in one folder. Cowork diffs the two contracts there and writes the redline table and the brief back next to them. [Create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your procurement folder so your fallback positions and standard contract terms stay attached for every renewal.
+Put the current agreement, the renewal proposal, your usage export, and the comparable quotes in one folder. Claude diffs the two contracts there and writes the redline table and the brief back next to them. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your procurement folder so your fallback positions and standard contract terms stay attached for every renewal.
 
 Procurement / Northwind-renewal-2026
 
@@ -329,13 +329,13 @@ In Cowork’s chat bar:Procurement / Northwind-renewal-2026
 
 ## The prompt[](https://academy.claude.com/use-cases/vendor-negotiation)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/vendor-negotiation)
+### Copy this into Claude[](https://academy.claude.com/use-cases/vendor-negotiation)
 
 Compare the current agreement to the renewal proposal and summarize every material change as a redline table (clause, current, proposed, our position). Then write the negotiation brief: our leverage, their likely pushback, three asks ranked by value, and the walk-away line. Keep it to one page I can take into the call.
 
 
 
-Procurement / Northwind-renewal-2026Open in Cowork
+Procurement / Northwind-renewal-2026Open in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/vendor-negotiation)
 
@@ -359,13 +359,13 @@ Compare the current agreement to the renewal proposal and summarize every materi
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/vendor-negotiation)
+## Make Claude work for you[](https://academy.claude.com/use-cases/vendor-negotiation)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -373,7 +373,7 @@ Make what we've done in this task so far into a skill, or edit the /vendor-revie
 
 
 
-ProcurementOpen in Cowork
+ProcurementOpen in Claude
 
 
 
@@ -383,13 +383,13 @@ Make what we've done in this task so far into a skill, or edit the /vendor-revie
 
 ### Run it before every renewal[](https://academy.claude.com/use-cases/vendor-negotiation)
 
-The brief should exist before the vendor's AE books the call. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill watches the renewal calendar and drops a brief 60 days out.
+The brief should exist before the vendor's AE books the call. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill watches the renewal calendar and drops a brief 60 days out.
 
-**/schedule** Every Monday at 9am, check the contracts spreadsheet for any vendor renewing in the next 60 days, run /vendor-review against that vendor's folder, and write the brief to Procurement/<vendor>-renewal-<year>/.
+Set up a scheduled task for every Monday at 9am: check the contracts spreadsheet for any vendor renewing in the next 60 days, run /vendor-review against that vendor's folder, and write the brief to Procurement/<vendor>-renewal-<year>/.
 
 
 
-ProcurementOpen in Cowork
+ProcurementOpen in Claude
 
 Scheduled taskActive
 
@@ -397,7 +397,7 @@ Renewal negotiation briefs
 
 Weekly, finds vendors renewing in the next 60 days, runs `/vendor-review` on each, and writes the redline and brief to the vendor folder.
 
-Every **Mondays at 9:00am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Mondays at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/vendor-negotiation)
 

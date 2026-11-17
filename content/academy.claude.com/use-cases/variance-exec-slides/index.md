@@ -4,7 +4,7 @@ Three board-ready slides built from the variance workbook.
 
 10 minFinanceClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-n5jhkjz7.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nsl4c005.png)
 
@@ -250,19 +250,19 @@ FinanceStreamline finance and accounting workflows, from journal entries and rec
 
 `/financial-statements`Generate financial statements (income statement, balance sheet, cash flow) with period-over-period comparison and variance analysis.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Ffinancial-statements)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Ffinancial-statements)
 
 `/variance-analysis`Decompose financial variances into drivers with narrative explanations and waterfall analysis.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fvariance-analysis)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fvariance-analysis)
 
 Show all 7 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/variance-exec-slides)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23F25022'%20d='M1%201h10.5v10.5H1z'/%3e%3cpath%20fill='%237FBA00'%20d='M12.5%201H23v10.5H12.5z'/%3e%3cpath%20fill='%2300A4EF'%20d='M1%2012.5h10.5V23H1z'/%3e%3cpath%20fill='%23FFB900'%20d='M12.5%2012.5H23V23H12.5z'/%3e%3c/svg%3e)
 
@@ -288,15 +288,15 @@ Pull the actuals straight from the GL when there's no workbook yet.
 
 [Connect](https://claude.ai/desktop/directory/netsuite)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/variance-exec-slides)
 
-Drag the files you'll use (the variance workbook, last quarter's deck, the list of known one-timers) into one folder and point Cowork at it. Cowork reads from it and writes the .pptx back to it. [Create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your board-prep folder so the materiality threshold, the slide template, and the CFO's preferred phrasing stay attached.
+Drag the files you'll use (the variance workbook, last quarter's deck, the list of known one-timers) into one folder and point Claude at it. Claude reads from it and writes the .pptx back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your board-prep folder so the materiality threshold, the slide template, and the CFO's preferred phrasing stay attached.
 
 FY26-Close / Board-prep / March
 
@@ -310,13 +310,13 @@ In Cowork’s chat bar:FY26-Close / Board-prep / March
 
 ## The prompt[](https://academy.claude.com/use-cases/variance-exec-slides)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/variance-exec-slides)
+### Copy this into Claude[](https://academy.claude.com/use-cases/variance-exec-slides)
 
 Build the three exec slides from the March variance workbook: a headline page with result vs plan, a drivers page with top movers above our materiality threshold and the known one-timers called out, and an outlook page with what carries into Q2. Match last quarter's deck layout and write the .pptx to the close folder.
 
 
 
-FY26-Close / Board-prep / MarchOpen in Cowork
+FY26-Close / Board-prep / MarchOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/variance-exec-slides)
 
@@ -346,7 +346,7 @@ Build the three exec slides from the March variance workbook: a headline page wi
 
 **Ask for the speaker notes.** Add "put the supporting detail in the notes pane, not on the slide" so the page stays clean and the backup is one click away.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/variance-exec-slides)
+## Make Claude work for you[](https://academy.claude.com/use-cases/variance-exec-slides)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -354,7 +354,7 @@ Make what we've done in this task so far into a skill, or edit the /financial-st
 
 
 
-FY26-Close / Board-prepOpen in Cowork
+FY26-Close / Board-prepOpen in Claude
 
 
 
@@ -364,13 +364,13 @@ Make what we've done in this task so far into a skill, or edit the /financial-st
 
 ### Run it on a schedule[](https://academy.claude.com/use-cases/variance-exec-slides)
 
-Board prep is due the same week every quarter. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill builds the three pages from whatever variance workbook is newest.
+Board prep is due the same week every quarter. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill builds the three pages from whatever variance workbook is newest.
 
-**/schedule** Every Monday at 9am, if a new variance workbook is in FY26-Close/Board-prep, build the three exec slides from it and write the .pptx to that folder.
+Set up a scheduled task for every Monday at 9am: if a new variance workbook is in FY26-Close/Board-prep, build the three exec slides from it and write the .pptx to that folder.
 
 
 
-FY26-Close / Board-prepOpen in Cowork
+FY26-Close / Board-prepOpen in Claude
 
 Scheduled taskActive
 
@@ -378,7 +378,7 @@ Exec variance slides
 
 Builds the headline / drivers / outlook .pptx from the newest variance workbook and writes it to the board-prep folder.
 
-Every **Monday at 9:00am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Monday at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/variance-exec-slides)
 

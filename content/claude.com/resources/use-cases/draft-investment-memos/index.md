@@ -140,7 +140,7 @@ The in-chat preview may not show the final typography, spacing hierarchy, and fo
 
 ### Match model to task complexity[](https://academy.claude.com/use-cases/draft-investment-memos)
 
-This example uses Claude Sonnet 4.5, the Claude model best suited for a balance of intelligence, speed, and cost for most use cases. If you need faster iteration (like rapid brainstorming or simple formatting), consider switching to Haiku 4.5, the fastest Claude model with near-frontier intelligence. To learn more about various models, visit our [Model Report(opens in new tab)](https://www.anthropic.com/transparency/model-report).
+Start with your default model. If the memo falls short, raise the effort level first, then switch to a more capable model if it still falls short. For quick jobs like brainstorming or simple formatting, lower the effort level first, then try a less capable model if you still want faster answers. Change the model and effort level in the [model menu(opens in new tab)](https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings), next to the send button. To learn more, see [Choosing a Claude model for knowledge workers(opens in new tab)](https://academy.claude.com/tutorials/choosing-the-right-claude-model).
 
 ### Unlock specialized capabilities[](https://academy.claude.com/use-cases/draft-investment-memos)
 

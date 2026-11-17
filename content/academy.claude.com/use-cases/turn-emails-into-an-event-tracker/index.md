@@ -106,7 +106,7 @@ The speaker count and session totals should use formulas like =COUNTIF() and =SU
 
 Claude understands context and can find related emails even without exact keyword matches, but it needs clear direction about what you're looking for. Instead of "find important emails," try "emails from speakers about their session needs" or "customer emails mentioning billing issues in the last week." The more context you provide about what matters, the better Claude can filter what's relevant.
 
-### Download and open the actual file, not just the preview.[](https://academy.claude.com/use-cases/turn-emails-into-an-event-tracker)
+### Download and open the actual file, not just the preview[](https://academy.claude.com/use-cases/turn-emails-into-an-event-tracker)
 
 The preview in chat shows basic structure, but the real spreadsheet file has the formulas, color-coding, and formatting. Open the spreadsheet to see—and continue editing—the complete output.
 

@@ -106,19 +106,19 @@ Can you also pull our revenue metrics from Stripe? I need MRR, new subscriptions
 
 ### Schedule weekly metrics pulls[](https://academy.claude.com/use-cases/pull-metrics-from-analytics-dashboards)
 
-Click the clock icon in the extension panel to schedule this workflow. Set it to run Monday morning and Claude will have your metrics summary ready before your weekly product sync. No more scrambling to pull numbers before the meeting.
+To run this workflow on a schedule, open Claude Desktop and set up a [scheduled task(opens in new tab)](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork) with the same prompt, plus a line asking Claude to use Claude in Chrome. Set the task to require your computer. It works only while your computer is awake, with Claude Desktop and Chrome open. Give it each dashboard's address instead of relying on open tabs. Set it to run Monday morning and Claude will have your metrics summary ready before your weekly product sync. No more scrambling to pull numbers before the meeting. If you still have the classic side panel, turn on the schedule toggle when you save a shortcut instead.
 
 ### Drag all your analytics tabs into one group[](https://academy.claude.com/use-cases/pull-metrics-from-analytics-dashboards)
 
-For multi-tool metrics, drag Amplitude, Mixpanel, and any other dashboards into Claude's tab group. You'll see a green banner confirming Claude can access all of them. Now Claude reads across every tool simultaneously—no manual switching.
+For multi-tool metrics, drag Amplitude, Mixpanel, and any other dashboards into Claude's tab group. You'll see a banner confirming Claude can access all of them. Now Claude reads across every tool simultaneously—no manual switching.
 
-### Save your workflow as a shortcut[](https://academy.claude.com/use-cases/pull-metrics-from-analytics-dashboards)
+### Save your workflow as a skill[](https://academy.claude.com/use-cases/pull-metrics-from-analytics-dashboards)
 
-Once you have a metrics pull that covers what you need, save it as a shortcut by clicking on the shortcut icon below a successful prompt. You can also set a schedule for when you want the workflow to run next. Alternatively, manually trigger the workflow, by typing "/" and selecting the shortcut.
+Once you have a metrics pull that covers what you need, ask Claude to save it as a [skill(opens in new tab)](https://support.claude.com/en/articles/12512180-use-skills-in-claude). Trigger the workflow by typing "/" and selecting it. If you still have the classic side panel, click the shortcut icon below a successful prompt to save it as a shortcut instead.
 
 ### Grant permission to your analytics platforms[](https://academy.claude.com/use-cases/pull-metrics-from-analytics-dashboards)
 
-If Claude asks for permission on every dashboard page, go to Settings → Permissions and enable "Always allow actions on this site" for Amplitude, Mixpanel, and other trusted work tools. Persistent access speeds up multi-page navigation significantly.
+If Claude asks for permission on every dashboard page, choose the option on that permission request to always allow the site. Do this for Amplitude, Mixpanel, and other trusted work tools. Site-wide access speeds up multi-page navigation significantly.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/pull-metrics-from-analytics-dashboards)
 

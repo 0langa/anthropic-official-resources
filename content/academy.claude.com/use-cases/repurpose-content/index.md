@@ -4,11 +4,11 @@ A blog post, a LinkedIn thread, and short social posts from one webinar, each in
 
 10 minMarketingClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-f5u6vtsc.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-0bz1039p.png)
 
-Film: the user asks Cowork to turn a webinar transcript, slides, and attendee questions into a blog post, a LinkedIn thread, and short social posts, each leading with the talk's strongest point in brand voice, then shows scheduling the same routine after future webinars.
+Film: the user asks Claude to turn a webinar transcript, slides, and attendee questions into a blog post, a LinkedIn thread, and short social posts, each leading with the talk's strongest point in brand voice, then shows scheduling the same routine after future webinars.
 
 Repurpose content across channels
 
@@ -264,23 +264,23 @@ MarketingCreate content, plan campaigns, and analyze performance across marketin
 
 `/draft-content`Draft blog posts, social media, email newsletters, landing pages, press releases, and case studies with channel-specific formatting and SEO recommendations.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdraft-content)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdraft-content)
 
 `/brand-review`Review content against your brand voice, style guide, and messaging pillars.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fbrand-review)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fbrand-review)
 
 `/campaign-plan`Generate a full campaign brief with objectives, audience, messaging, channel strategy, content calendar, and success metrics.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcampaign-plan)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcampaign-plan)
 
 Show all 7 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/repurpose-content)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 
 
@@ -306,15 +306,15 @@ Read the content calendar so the angles don't duplicate what's already scheduled
 
 [Connect](https://claude.ai/desktop/directory/notion)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/repurpose-content)
 
-Drag the files you'll use (transcript, slides, attendee questions, your brand-voice guide) into one folder on your machine, then point Cowork at it. Cowork reads from it and writes the drafts back to it. If you'll do this after every webinar, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent Webinars folder so instructions, memory, and scheduled runs stay attached.
+Drag the files you'll use (transcript, slides, attendee questions, your brand-voice guide) into one folder on your machine, then point Claude at it. Claude reads from it and writes the drafts back to it. If you'll do this after every webinar, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent Webinars folder so instructions, memory, and scheduled runs stay attached.
 
 Webinars / apr-platform-overview
 
@@ -330,13 +330,13 @@ In Cowork’s chat bar:Webinars / apr-platform-overview
 
 ## The prompt[](https://academy.claude.com/use-cases/repurpose-content)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/repurpose-content)
+### Copy this into Claude[](https://academy.claude.com/use-cases/repurpose-content)
 
 Draft a blog post, a LinkedIn thread, and three short social posts from this webinar. Match the voice of our recent HubSpot posts, and lead each piece with the strongest point from the talk rather than a recap of the agenda.
 
 
 
-Webinars / apr-platform-overviewOpen in Cowork
+Webinars / apr-platform-overviewOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/repurpose-content)
 
@@ -346,23 +346,23 @@ Draft a blog post, a LinkedIn thread, and three short social posts from this web
 
 Source
 
-**Point to real examples for voice.** The skill already knows generic marketing register; naming where your published posts live sends Cowork to read them through the connector and mirror their sentence length and structure.
+**Point to real examples for voice.** The skill already knows generic marketing register; naming where your published posts live sends Claude to read them through the connector and mirror their sentence length and structure.
 
 Cowork
 
-**Drafts save back to the same folder.** Cowork reads the transcript and slides where they sit and writes each draft back as its own file alongside them, review locally, then publish from wherever you normally do.
+**Drafts save back to the same folder.** Claude reads the transcript and slides where they sit and writes each draft back as its own file alongside them, review locally, then publish from wherever you normally do.
 
 ### Get a better draft[](https://academy.claude.com/use-cases/repurpose-content)
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask for options.** Add "draft three versions with different angles" and pick the one that works best, or mix the best lines.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/repurpose-content)
+## Make Claude work for you[](https://academy.claude.com/use-cases/repurpose-content)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -370,7 +370,7 @@ Make what we've done in this task so far into a skill, or edit the /draft-conten
 
 
 
-WebinarsOpen in Cowork
+WebinarsOpen in Claude
 
 
 
@@ -380,13 +380,13 @@ Make what we've done in this task so far into a skill, or edit the /draft-conten
 
 ### Run it on a schedule[](https://academy.claude.com/use-cases/repurpose-content)
 
-Webinars run on a calendar, and the repurposed drafts should land the morning after. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill runs against the newest transcript automatically.
+Webinars run on a calendar, and the repurposed drafts should land the morning after. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs against the newest transcript automatically.
 
-**/schedule** Run /draft-content every Friday at 9am against the newest transcript in the Webinars folder, and write the blog, thread, and social drafts to that same folder.
+Set up a scheduled task: run /draft-content every Friday at 9am against the newest transcript in the Webinars folder, and write the blog, thread, and social drafts to that same folder.
 
 
 
-WebinarsOpen in Cowork
+WebinarsOpen in Claude
 
 Scheduled taskActive
 
@@ -394,7 +394,7 @@ Webinar repurpose drafts
 
 Runs `/draft-content` against the newest transcript in Webinars and writes the blog, thread, and social drafts to the same folder.
 
-Every **Friday at 9:00am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Friday at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/repurpose-content)
 
@@ -408,7 +408,7 @@ You can share a skill you created. In your list of skills, open the **...** menu
 
 ## Going forward[](https://academy.claude.com/use-cases/repurpose-content)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

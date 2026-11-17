@@ -36,7 +36,7 @@ Nothing to upload. Type the numbers directly in your prompt.
 
 Claude draws a five- or six-tier pyramid with each tier showing three numbers: the gift range, the number of gifts the campaign needs at that level, and the number of qualified prospects that realistically takes. A slider above lets you drag the goal and watch every tier rebuild. Click any tier and a short note compares the prospect requirement against a typical pipeline, which is where the feasibility question actually lives.
 
-![Claude's response with an interactive gift pyramid for a $2M campaign: a draggable campaign-goal slider, summary cards for total gifts needed (94), qualified prospects (288), and thin tiers (2), then a tier table from $200K lead gifts down to $6K showing gifts, prospects, ratio, and a Thin/Watch/Healthy status per tier, with notes explaining why the $200K and $140K tiers are flagged Thin](https://academy.claude.com/assets/v1/gift-pyramid-la5fpucb.png)
+![Claude's response with an interactive gift pyramid for a $2M campaign: a draggable campaign-goal slider, summary cards for total gifts needed (94), qualified prospects (288), and thin tiers (2), then a seven-tier table starting at a $200K lead gift, showing gifts, prospects, ratio, and a Thin or Watch status on the top four tiers, with notes explaining why the $200K and $140K tiers are flagged Thin](https://academy.claude.com/assets/v1/gift-pyramid-la5fpucb.png)
 
 ## 4. Follow up prompts[](https://academy.claude.com/use-cases/see-what-your-campaign-goal-actually-requires)
 
@@ -84,7 +84,7 @@ The prospect ratios Claude uses are sector rules of thumb, and your actual close
 
 ### What to do with the visual next[](https://academy.claude.com/use-cases/see-what-your-campaign-goal-actually-requires)
 
-Hover over the pyramid for options to copy it as an image for a board or campaign committee deck. Save as Artifact if you want to bring it into a feasibility conversation live and drag the goal while stakeholders watch the prospect requirements move. You can also ask Claude to write the feasibility memo version, turning each tier's gap into a paragraph you'd hand to a consultant or board chair.
+Hover over the pyramid for options to copy it as an image for a board or campaign committee deck. Ask Claude to turn it into an artifact if you want to bring it into a feasibility conversation live and drag the goal while stakeholders watch the prospect requirements move. You can also ask Claude to write the feasibility memo version, turning each tier's gap into a paragraph you'd hand to a consultant or board chair.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/see-what-your-campaign-goal-actually-requires)
 

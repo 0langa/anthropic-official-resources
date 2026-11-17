@@ -1,10 +1,10 @@
 # Update your financial model after earnings
 
-Cowork pulls the release and transcript from S&P and checks them against your financial model. You take the flags into Claude for Excel to edit the cells, then open the deck in Claude for PowerPoint to build the page.
+Claude pulls the release and transcript from S&P and checks them against your financial model. You take the flags into Claude for Excel to edit the cells, then open the deck in Claude for PowerPoint to build the page.
 
 15 minFinanceClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-g4zceag4.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dyg71tvq.png)
 
@@ -16,7 +16,7 @@ Embedded media: https://www.youtube-nocookie.com/embed/cIctgHKEeMA?enablejsapi=1
 
 The print drops after hours and the stock is moving. You've got the model in a folder somewhere, the release open in one tab, the transcript in another, and a PM meeting in the morning.
 
-In Cowork, Claude pulls the earnings release and call transcript through the S&P Global connector, reads your model from the attached folder, and tells you where your forecast was off — and which assumptions the transcript doesn't back up. You take that brief into Claude for Excel to make the cell changes, then open the deck in Claude for PowerPoint. The Excel-to-PowerPoint handoff carries the conversation, so Claude already knows which cells you changed when you build the page.
+Claude pulls the earnings release and call transcript through the S&P Global connector, reads your model from the attached folder, and tells you where your forecast was off — and which assumptions the transcript doesn't back up. You take that brief into Claude for Excel to make the cell changes, then open the deck in Claude for PowerPoint. The Excel-to-PowerPoint handoff carries the conversation, so Claude already knows which cells you changed when you build the page.
 
 Claude handles the data pull and the cross-referencing; you make the call on what moves.
 
@@ -33,11 +33,11 @@ Show me the flags before I touch anything.
 
 
 
-Open in Cowork
+Open in Claude
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/update-your-financial-model-after-earnings)
 
-Cowork pulls earnings data through the S&P Global connector and reads your model from the attached folder — that's where the cross-referencing happens. Cell edits happen in Claude for Excel with the workbook open, and the conversation carries into Claude for PowerPoint so the deck build picks up where you left off.
+Claude pulls earnings data through the S&P Global connector and reads your model from the attached folder — that's where the cross-referencing happens. Cell edits happen in Claude for Excel with the workbook open, and the conversation carries into Claude for PowerPoint so the deck build picks up where you left off.
 
 ### Required context[](https://academy.claude.com/use-cases/update-your-financial-model-after-earnings)
 
@@ -49,7 +49,7 @@ S&P Global
 
 [Connect](https://claude.ai/desktop/directory/s-p-global)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 Portfolio folder
 
@@ -95,13 +95,13 @@ Continue the conversation with Claude to refine, expand, or explore further.
 
 ### Compare to your forecast[](https://academy.claude.com/use-cases/update-your-financial-model-after-earnings)
 
-In Cowork, ask where the actual landed against what you had.
+In Claude, ask where the actual landed against what you had.
 
 oh ok how does the actual number compare to what I had in my model?
 
 
 
-Open in Cowork
+Open in Claude
 
 ### Check an assumption against the call[](https://academy.claude.com/use-cases/update-your-financial-model-after-earnings)
 
@@ -111,7 +111,7 @@ is my FY28 gross margin too aggressive? what did they actually say about out-yea
 
 
 
-Open in Cowork
+Open in Claude
 
 ### Build scenarios in the workbook[](https://academy.claude.com/use-cases/update-your-financial-model-after-earnings)
 
@@ -123,9 +123,9 @@ ok keep the 43% — build me best/base/worst around the margin range in a new Sc
 
 ## 5. Tricks, tips, and troubleshooting[](https://academy.claude.com/use-cases/update-your-financial-model-after-earnings)
 
-### Ask Cowork for the Excel-ready brief[](https://academy.claude.com/use-cases/update-your-financial-model-after-earnings)
+### Ask Claude for the Excel-ready brief[](https://academy.claude.com/use-cases/update-your-financial-model-after-earnings)
 
-End your Cowork session by asking for a one-paragraph brief with the cell refs — that's what you paste into the Claude for Excel sidebar. Tighter than scrolling back through the chat.
+End the conversation by asking for a one-paragraph brief with the cell refs — that's what you paste into the Claude for Excel sidebar. Tighter than scrolling back through the chat.
 
 ### Click the cell reference[](https://academy.claude.com/use-cases/update-your-financial-model-after-earnings)
 
@@ -137,11 +137,11 @@ When you open the deck in Claude for PowerPoint, it already knows what you chang
 
 ### Save it as a skill[](https://academy.claude.com/use-cases/update-your-financial-model-after-earnings)
 
-Post-earnings is the same loop every quarter. Once the Cowork conversation works, save it as a skill so the next print starts one click in.
+Post-earnings is the same loop every quarter. Once the conversation works, save it as a skill so the next print starts one click in.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/update-your-financial-model-after-earnings)
 
-Try it on your next earnings print. Attach your model folder in Cowork, ask what moved the stock, and review the flags before anything changes.
+Try it on your next earnings print. Attach your model folder in the Claude desktop app, ask what moved the stock, and review the flags before anything changes.
 
 ACME just jumped 8% after hours — what's driving this? I need to update my model and build a page for tomorrow's PM meeting.
 
@@ -154,6 +154,6 @@ Steps:
 
 Show me the flags before I touch anything.
 
-Try in Cowork
+Try in Claude
 
 Was this helpful?

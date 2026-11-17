@@ -4,7 +4,7 @@ The query, the chart, and the plain-English answer.
 
 10 minDataClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-f72xos2e.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j0qghno4.png)
 
@@ -259,19 +259,19 @@ DataSkills for SQL generation, table profiling, dashboard specs, and metric narr
 
 `/write-query`Read the warehouse model, write the SQL, and answer the business question
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fwrite-query)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fwrite-query)
 
 `/explore-data`Profile a table and summarize what's in it
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fexplore-data)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fexplore-data)
 
 Show all 9 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/answer-the-adhoc)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 
 
@@ -297,15 +297,15 @@ Query the warehouse directly when the answer isn't in the semantic model yet.
 
 [Connect](https://claude.ai/desktop/directory/snowflake)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/answer-the-adhoc)
 
-Drag the files you'll use (your schema export or dbt models, your metrics library, your data dictionary) into one folder and point Cowork at it. Cowork reads the model from there and writes the SQL, the result table, and the answer memo back to it. If you field ad-hoc questions regularly, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your naming conventions and certified-metric list stay attached.
+Drag the files you'll use (your schema export or dbt models, your metrics library, your data dictionary) into one folder and point Claude at it. Claude reads the model from there and writes the SQL, the result table, and the answer memo back to it. If you field ad-hoc questions regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your naming conventions and certified-metric list stay attached.
 
 Analytics / EMEA-margin-question
 
@@ -319,13 +319,13 @@ In Cowork’s chat bar:Analytics / EMEA-margin-question
 
 ## The prompt[](https://academy.claude.com/use-cases/answer-the-adhoc)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/answer-the-adhoc)
+### Copy this into Claude[](https://academy.claude.com/use-cases/answer-the-adhoc)
 
 Here's the question from the business: "Why is gross margin down in EMEA this quarter?" Write the SQL to answer it, run it against the warehouse, and tell me what's driving the move. Then give me the chart spec to add to the dashboard so nobody has to ask again.
 
 
 
-Analytics / EMEA-margin-questionOpen in Cowork
+Analytics / EMEA-margin-questionOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/answer-the-adhoc)
 
@@ -349,13 +349,13 @@ Here's the question from the business: "Why is gross margin down in EMEA this qu
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/answer-the-adhoc)
+## Make Claude work for you[](https://academy.claude.com/use-cases/answer-the-adhoc)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -363,7 +363,7 @@ Make what we've done in this task so far into a skill, or edit the /write-query 
 
 
 
-AnalyticsOpen in Cowork
+AnalyticsOpen in Claude
 
 
 
@@ -373,13 +373,13 @@ Make what we've done in this task so far into a skill, or edit the /write-query 
 
 ### Run it on every inbound question[](https://academy.claude.com/use-cases/answer-the-adhoc)
 
-The ad-hoc queue never stops. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill watches your analytics-requests channel and drafts the query and answer before you've even read the message.
+The ad-hoc queue never stops. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill watches your analytics-requests channel and drafts the query and answer before you've even read the message.
 
-**/schedule** Every hour, check #analytics-requests for new questions, run /write-query on each one, and write the draft answer to Analytics/Inbox/<thread-id>.md for me to review before it goes back.
+Set up a scheduled task that runs every hour: check #analytics-requests for new questions, run /write-query on each one, and write the draft answer to Analytics/Inbox/<thread-id>.md for me to review before it goes back.
 
 
 
-AnalyticsOpen in Cowork
+AnalyticsOpen in Claude
 
 Scheduled taskActive
 
@@ -387,7 +387,7 @@ Ad-hoc analytics inbox
 
 Hourly, reads new questions in #analytics-requests, runs `/write-query` against the warehouse, and writes a draft answer for review.
 
-Every **hour on weekdays**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **hour on weekdays**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/answer-the-adhoc)
 

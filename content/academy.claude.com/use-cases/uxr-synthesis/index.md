@@ -4,7 +4,7 @@ Themed findings and quotes from raw transcripts.
 
 10 minDesignClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-e7bnk7fu.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gpzn7vel.png)
 
@@ -232,19 +232,19 @@ DesignSkills for research synthesis, spec drafting, brand enforcement, and proto
 
 `/research-synthesis`Cluster interview transcripts into themed findings with supporting quotes
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fresearch-synthesis)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fresearch-synthesis)
 
 `/design-handoff`Turn scattered threads and notes into a structured design spec
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdesign-handoff)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdesign-handoff)
 
 Show all 7 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/uxr-synthesis)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23FCB400'%20d='M11.99%202.07%202.36%206.05c-.54.22-.53.98.01%201.19l9.67%203.83c.83.33%201.75.33%202.58%200l9.67-3.83c.54-.21.55-.97.01-1.19l-9.63-3.98a3.5%203.5%200%200%200-2.68%200Z'/%3e%3cpath%20fill='%2318BFFF'%20d='M12.92%2013.07v9.57c0%20.46.46.77.88.6l10.77-4.18a.64.64%200%200%200%20.41-.6V8.89c0-.46-.46-.77-.88-.6l-10.77%204.18a.64.64%200%200%200-.41.6Z'/%3e%3cpath%20fill='%23F82B60'%20d='M10.4%2013.56.98%2018.11c-.42.2-.98-.1-.98-.58V8.96c0-.17.09-.33.22-.44.14-.12.3-.19.48-.21.15-.02.3%200%20.44.06l9.24%203.66c.51.2.53.93.02%201.53Z'/%3e%3cpath%20fill='%23BA1E45'%20d='m10.4%2013.56-2.8%201.35L.22%208.52c.14-.12.3-.19.48-.21.15-.02.3%200%20.44.06l9.24%203.66c.51.2.53.93.02%201.53Z'/%3e%3c/svg%3e)
 
@@ -270,15 +270,15 @@ Drop the themes onto a board as sticky clusters for the workshop debrief.
 
 [Connect](https://claude.ai/desktop/directory/miro)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/uxr-synthesis)
 
-Drag the files you'll use (the raw transcripts, your discussion guide, the participant roster) into one folder on your machine, then point Cowork at it. Cowork reads from it and writes the themed findings doc back to it. If you run studies regularly, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your guide, taxonomy, and memory stay attached.
+Drag the files you'll use (the raw transcripts, your discussion guide, the participant roster) into one folder on your machine, then point Claude at it. Claude reads from it and writes the themed findings doc back to it. If you run studies regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your guide, taxonomy, and memory stay attached.
 
 Research / Onboarding-Study-Q2
 
@@ -292,13 +292,13 @@ In Cowork’s chat bar:Research / Onboarding-Study-Q2
 
 ## The prompt[](https://academy.claude.com/use-cases/uxr-synthesis)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/uxr-synthesis)
+### Copy this into Claude[](https://academy.claude.com/use-cases/uxr-synthesis)
 
 Synthesize the interview transcripts into a research findings doc. Cluster the observations into 5-7 themes, name each plainly, support each with 2-3 verbatim quotes attributed to participant ID, and end with the open questions the team still needs to answer.
 
 
 
-Research / Onboarding-Study-Q2Open in Cowork
+Research / Onboarding-Study-Q2Open in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/uxr-synthesis)
 
@@ -322,13 +322,13 @@ Synthesize the interview transcripts into a research findings doc. Cluster the o
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/uxr-synthesis)
+## Make Claude work for you[](https://academy.claude.com/use-cases/uxr-synthesis)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -336,7 +336,7 @@ Make what we've done in this task so far into a skill, or edit the /research-syn
 
 
 
-ResearchOpen in Cowork
+ResearchOpen in Claude
 
 
 
@@ -346,23 +346,23 @@ Make what we've done in this task so far into a skill, or edit the /research-syn
 
 ### Share it as an artifact[](https://academy.claude.com/use-cases/uxr-synthesis)
 
-A findings doc goes stale once the next round of interviews comes in. Ask Cowork to publish the themes as an artifact and the product team has one link — re-run the skill or schedule it to refresh.
+A findings doc goes stale once the next round of interviews comes in. Ask Claude to publish the themes as an artifact and the product team has one link — re-run the skill or schedule it to refresh.
 
 Publish those themes as an artifact for the product team. Keep a "what shifted since last round" note at the top.
 
 
 
-Research / Onboarding-Study-Q2Open in Cowork
+Research / Onboarding-Study-Q2Open in Claude
 
 ### Run it after every interview day[](https://academy.claude.com/use-cases/uxr-synthesis)
 
-Sessions wrap, the synthesis should already be cooking. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and set the customized skill to run each evening, picking up any new transcripts in the study folder.
+Sessions wrap, the synthesis should already be cooking. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and set the customized skill to run each evening, picking up any new transcripts in the study folder.
 
-**/schedule** Weekdays at 6pm, check Research/Onboarding-Study-Q2 for new transcripts and re-run /research-synthesis, updating the findings doc and noting which themes moved.
+Set up a scheduled task for weekdays at 6pm: check Research/Onboarding-Study-Q2 for new transcripts and re-run /research-synthesis, updating the findings doc and noting which themes moved.
 
 
 
-ResearchOpen in Cowork
+ResearchOpen in Claude
 
 Scheduled taskActive
 
@@ -370,7 +370,7 @@ Rolling research synthesis
 
 Each weekday at 6pm, checks the study folder for new transcripts, re-runs `/research-synthesis`, and updates the findings doc with a note on which themes moved.
 
-Every **weekday at 6 pm · checks Research/Onboarding-Study-Q2 for new transcripts**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **weekday at 6 pm · checks Research/Onboarding-Study-Q2 for new transcripts**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/uxr-synthesis)
 

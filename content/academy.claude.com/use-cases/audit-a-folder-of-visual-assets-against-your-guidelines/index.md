@@ -1,10 +1,10 @@
 # Audit a folder of visual assets against your guidelines
 
-In Claude Cowork, Claude Opus 5.5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
+Claude Opus 5.5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
 
 15 minMarketingClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-dk9zo6ae.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-e548vu0j.png)
 
@@ -30,17 +30,17 @@ Group by violation type. For each one give me **filename, issue, guideline value
 
 
 
-Open in Cowork
+Open in Claude
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)
 
-In Claude Cowork, [point your project at the folder(opens in new tab)](https://support.claude.com/en/articles/13345190-get-started-with-cowork) that holds the brand-guidelines PDF, the legal sheet, and the asset exports.
+In Claude, [point your project at the folder(opens in new tab)](https://support.claude.com/en/articles/13345190-get-started-with-cowork) that holds the brand-guidelines PDF, the legal sheet, and the asset exports.
 
 Opus 5.5's high-resolution vision helps while reading small text in the guide and matching it against the same detail across hundreds of images.
 
 ### Required context[](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)
 
-- A Claude Cowork project pointed at the folder holding the brand-guidelines PDF, legal sheet, and asset exports (PNG/JPEG)
+- A project pointed at the folder holding the brand-guidelines PDF, legal sheet, and asset exports (PNG/JPEG)
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)
 
@@ -92,7 +92,7 @@ For each high-confidence violation, open the live page listed in asset-urls.csv 
 
 
 
-Open in Cowork
+Open in Claude
 
 ### File each high-confidence violation as a task[](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)
 
@@ -102,17 +102,17 @@ Create an Asana task in the Brand Compliance project for every high-confidence v
 
 
 
-Open in Cowork
+Open in Claude
 
 ### Save the audit as a skill and put it on a schedule[](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)
 
-When the rules and grouping are right, save them as a [skill(opens in new tab)](https://support.claude.com/en/articles/12512176-use-skills-in-cowork) so the check is one line. Then set that skill as a [scheduled task(opens in new tab)](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-cowork) in Claude Cowork — every Friday, Claude runs the same audit on whatever is new in the folder and posts the result to Slack, with the rules already written down.
+When the rules and grouping are right, save them as a [skill(opens in new tab)](https://support.claude.com/en/articles/12512176-use-skills-in-cowork) so the check is one line. Then set that skill as a [scheduled task(opens in new tab)](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-cowork) — every Friday, Claude runs the same audit on whatever is new in the folder and posts the result to Slack, with the rules already written down.
 
 Save this as a skill called brand-compliance-audit, then schedule it to run every Friday at 2pm and post the summary to #brand-ops.
 
 
 
-Open in Cowork
+Open in Claude
 
 ## 5. Tricks, tips, and troubleshooting[](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)
 
@@ -120,9 +120,9 @@ Save this as a skill called brand-compliance-audit, then schedule it to run ever
 
 Tell Claude how to group the findings (Logo, Color, Legal, Claims) and what to return per item (filename, issue, guideline value, asset value, confidence). Opus 5.5 follows a format instruction like that closely, so you get a structured list you can act on rather than prose.
 
-### Opus 5.5 reads images at high resolution; Claude Cowork is what lets it work through the whole folder[](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)
+### Opus 5.5 reads images at high resolution, and the desktop app lets it open and work through the whole folder on your computer[](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)
 
-The high-resolution reading is a property of the model. Claude Cowork is what gives the model the entire folder — assets and reference documents together — and the working context to process all 200 in one task. You'd get the same reading quality on a handful of uploads in a [claude.ai(opens in new tab)](https://claude.ai/) chat with Opus 5.5 selected; Claude Cowork is what makes it practical at folder scale and lets you schedule it.
+The high-resolution reading is a property of the model. With the Claude desktop app, you can give Claude access to a folder on your computer, so the model sees assets and reference documents together and has the working context to process all 200 in one task. A handful of uploads in a [claude.ai(opens in new tab)](https://claude.ai/) conversation with Opus 5.5 selected would get the same reading quality. Folder access is what makes it practical at folder scale, and you can run it on a schedule.
 
 ### Tell Claude which rules are mandatory and which are tolerable[](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)
 
@@ -130,7 +130,7 @@ If legal copy is non-negotiable but a hex within a few points is acceptable, say
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)
 
-Audit at the scale and pace your team can act on: high-confidence violations go to Asana, the items worth a second look stay in the folder, and the summary lands in Slack — from one prompt in Claude Cowork.
+Audit at the scale and pace your team can act on: high-confidence violations go to Asana, the items worth a second look stay in the folder, and the summary lands in Slack — from one prompt in Claude.
 
 Audit every PNG and JPG in this folder against brand-meridian-2025-q2.pdf and legal-required-copy.txt.
 
@@ -142,6 +142,6 @@ Flag:
 
 Group by violation type. For each one give me filename, issue, guideline value, asset value, and confidence. End with how many assets passed all checks.
 
-Try in Cowork
+Try in Claude
 
 Was this helpful?

@@ -35,12 +35,12 @@ Claude applies Morningstar data to support your analysis:
 
 ## Setting Up Morningstar Integration[](https://academy.claude.com/tutorials/using-morningstar-for-investment-research)
 
-Technical details of the Morningstar Integration can be found in the [Morningstar Integration MCP Server Documentation(opens in new tab)](https://developer.morningstar.com/direct-web-services/documentation/mcp-server/morningstar-mcp-server). If your account does not have access to the MCP server, you will need to contact Morningstar to get access to the MCP server.
+For technical details of the Morningstar integration, see the [Morningstar Integration MCP Server Documentation(opens in new tab)](https://developer.morningstar.com/direct-web-services/documentation/mcp-server/morningstar-mcp-server). If your account does not have access to the MCP server, contact Morningstar to get access to the MCP server.
 
 ### For Organization Owners[](https://academy.claude.com/tutorials/using-morningstar-for-investment-research)
 
 1. Navigate to [Admin settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors).
-2. Scroll down and click “Add custom connector" at the bottom of the list.
+2. Click “Add” (or “Add connector”) and choose the custom option. If you then see “Web” and “Desktop,” select “Web.”
 3. Enter integration URL: [https://mcp.morningstar.com/mcp(opens in new tab)](https://mcp.morningstar.com/mcp)
 4. Name the connector (e.g., "Morningstar")
 5. Click "Add"

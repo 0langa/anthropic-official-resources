@@ -49,7 +49,7 @@ The goal is that when I ask "create a sales dashboard" or "make a presentation d
 
 ### Required context[](https://academy.claude.com/use-cases/elevate-claudes-design-using-skills)
 
-This workflow leverages Claude's [Skills(opens in new tab)](https://www.anthropic.com/news/skills) system. In [Settings > Capabilities > Skills(opens in new tab)](https://claude.ai/settings/capabilities), make sure code execution and file creation is turned on so Claude has the ability to create and use Skills.
+This workflow uses Claude's [Skills(opens in new tab)](https://www.anthropic.com/news/skills) system. In [Settings(opens in new tab)](https://claude.ai/settings/capabilities), make sure **Create and edit files** (also called **Code execution and file creation**) is turned on so Claude can create and use Skills. On Team and Enterprise plans, you won't see this setting, because an organization Owner controls it.
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/elevate-claudes-design-using-skills)
 

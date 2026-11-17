@@ -4,7 +4,7 @@ Intercompany breaks sorted, JEs drafted with memo and support.
 
 10 minFinanceClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-nhxr907i.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ci4exa6p.png)
 
@@ -232,19 +232,19 @@ FinanceStreamline finance and accounting workflows, from journal entries and rec
 
 `/journal-entry`Prepare journal entries with proper debits, credits, and supporting documentation for month-end close.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fjournal-entry)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fjournal-entry)
 
 `/variance-analysis`Decompose financial variances into drivers with narrative explanations and waterfall analysis.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fvariance-analysis)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fvariance-analysis)
 
 Show all 7 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/recon-journal-entries)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 
 
@@ -270,15 +270,15 @@ Read the FX rate sheet and prior-period recon from the shared close folder.
 
 [Connect](https://claude.ai/desktop/directory/google-drive-drivemcp)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/recon-journal-entries)
 
-Drag the files you'll use (both entity exports, the FX rate sheet, your JE template, last month's recon) into one folder and point Cowork at it. Cowork reads from it and writes the matched workbook and JE draft back to it. [Create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your intercompany folder so the FX policy, materiality threshold, and JE template stay attached every close.
+Drag the files you'll use (both entity exports, the FX rate sheet, your JE template, last month's recon) into one folder and point Claude at it. Claude reads from it and writes the matched workbook and JE draft back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your intercompany folder so the FX policy, materiality threshold, and JE template stay attached every close.
 
 FY26-Close / Intercompany / March
 
@@ -294,13 +294,13 @@ In Cowork’s chat bar:FY26-Close / Intercompany / March
 
 ## The prompt[](https://academy.claude.com/use-cases/recon-journal-entries)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/recon-journal-entries)
+### Copy this into Claude[](https://academy.claude.com/use-cases/recon-journal-entries)
 
 Reconcile the March intercompany balances across both subledgers. Normalize FX to USD at the month-end rate, fuzzy-match by amount and reference, and sort the differences into timing, rounding, and true breaks. For every true break, draft the journal entry with Dr/Cr, memo, and support reference, and write the recon workbook to this folder.
 
 
 
-FY26-Close / Intercompany / MarchOpen in Cowork
+FY26-Close / Intercompany / MarchOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/recon-journal-entries)
 
@@ -318,19 +318,19 @@ Reconcile the March intercompany balances across both subledgers. Normalize FX t
 
 Source
 
-**Supply the reference data yourself.** Cowork reads the month-end rate from the file you trust, not a number it looked up.
+**Supply the reference data yourself.** Claude reads the month-end rate from the file you trust, not a number it looked up.
 
 ### Get a better draft[](https://academy.claude.com/use-cases/recon-journal-entries)
 
 Practice
 
-**Add last month's recon.** Drop the prior workbook in the folder and Cowork matches your tab structure, column names, and tie-out cells.
+**Add last month's recon.** Drop the prior workbook in the folder and Claude matches your tab structure, column names, and tie-out cells.
 
 Practice
 
 **Set the rounding threshold.** Add "treat anything under $25 as rounding" so you're not clearing pennies by hand.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/recon-journal-entries)
+## Make Claude work for you[](https://academy.claude.com/use-cases/recon-journal-entries)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -338,7 +338,7 @@ Make what we've done in this task so far into a skill, or edit the /journal-entr
 
 
 
-FY26-Close / IntercompanyOpen in Cowork
+FY26-Close / IntercompanyOpen in Claude
 
 
 
@@ -348,13 +348,13 @@ Make what we've done in this task so far into a skill, or edit the /journal-entr
 
 ### Run it on a schedule[](https://academy.claude.com/use-cases/recon-journal-entries)
 
-Intercompany is due the same day every close. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill runs against the newest exports automatically.
+Intercompany is due the same day every close. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs against the newest exports automatically.
 
-**/schedule** Every Monday at 9am, if new subledger exports are in FY26-Close/Intercompany, run /journal-entry against them and write the recon workbook and JE draft to that folder.
+Set up a scheduled task for every Monday at 9am: if new subledger exports are in FY26-Close/Intercompany, run /journal-entry against them and write the recon workbook and JE draft to that folder.
 
 
 
-FY26-Close / IntercompanyOpen in Cowork
+FY26-Close / IntercompanyOpen in Claude
 
 Scheduled taskActive
 
@@ -362,7 +362,7 @@ Intercompany recon and JE draft
 
 Runs `/journal-entry` against the newest subledger exports, sorts breaks, and writes the JE draft to the close folder.
 
-Every **Monday at 9:00am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Monday at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/recon-journal-entries)
 

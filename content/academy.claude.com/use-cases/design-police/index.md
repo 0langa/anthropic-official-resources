@@ -4,7 +4,7 @@ Shipped screens and PRs flagged for design-system drift.
 
 15 minDesignClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-mliphhy1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hvy17a2s.png)
 
@@ -372,19 +372,19 @@ DesignAccelerate design workflows — critique, design system management, UX wri
 
 `/design-system`Audit, document, or extend your design system.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdesign-system)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdesign-system)
 
 `/ux-copy`Write or review UX copy — microcopy, error messages, empty states, CTAs.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fux-copy)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fux-copy)
 
 Show all 7 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/design-police)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23181717'%20d='M12%20.3a12%2012%200%200%200-3.8%2023.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73%201.2.09%201.84%201.24%201.84%201.24%201.07%201.83%202.81%201.3%203.49%201%20.11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93%200-1.31.47-2.38%201.24-3.22-.13-.3-.54-1.52.11-3.18%200%200%201.01-.32%203.3%201.23a11.5%2011.5%200%200%201%206%200c2.29-1.55%203.3-1.23%203.3-1.23.65%201.66.24%202.88.12%203.18.77.84%201.23%201.91%201.23%203.22%200%204.61-2.8%205.63-5.48%205.92.43.37.81%201.1.81%202.22v3.29c0%20.32.22.7.82.58A12%2012%200%200%200%2012%20.3'/%3e%3c/svg%3e)
 
@@ -392,7 +392,7 @@ GitHub
 
 Read open PRs that touch UI and post the drift report as a review comment.
 
-[Connect](https://claude.ai/desktop/directory/github)
+[Connect](https://claude.ai/connect-github)
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%230ACF83'%20d='M8%2024a4%204%200%200%200%204-4v-4H8a4%204%200%200%200%200%208Z'/%3e%3cpath%20fill='%23A259FF'%20d='M4%2012a4%204%200%200%201%204-4h4v8H8a4%204%200%200%201-4-4Z'/%3e%3cpath%20fill='%23F24E1E'%20d='M4%204a4%204%200%200%201%204-4h4v8H8a4%204%200%200%201-4-4Z'/%3e%3cpath%20fill='%23FF7262'%20d='M12%200h4a4%204%200%200%201%200%208h-4V0Z'/%3e%3cpath%20fill='%231ABCFE'%20d='M20%2012a4%204%200%201%201-8%200%204%204%200%200%201%208%200Z'/%3e%3c/svg%3e)
 
@@ -410,15 +410,15 @@ Post the daily drift summary to the design-system channel for triage.
 
 [Connect](https://claude.ai/desktop/directory/slack)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/design-police)
 
-Drag the files you'll use (production screenshots, the PR diffs you're reviewing, your tokens file, the component inventory) into one folder on your machine, then point Cowork at it. Cowork reads from it and writes the drift report back to it. If you run design QA regularly, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your system source stays attached.
+Drag the files you'll use (production screenshots, the PR diffs you're reviewing, your tokens file, the component inventory) into one folder on your machine, then point Claude at it. Claude reads from it and writes the drift report back to it. If you run design QA regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your system source stays attached.
 
 Design-QA / Sprint-42
 
@@ -432,13 +432,13 @@ In Cowork’s chat bar:Design-QA / Sprint-42
 
 ## The prompt[](https://academy.claude.com/use-cases/design-police)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/design-police)
+### Copy this into Claude[](https://academy.claude.com/use-cases/design-police)
 
 Review the shipped screens and open PRs in this folder against our design system. For each one, list every place it drifts from our tokens, components, spacing, or interaction patterns, rate the severity, and suggest the system-compliant fix. Skip anything that already matches.
 
 
 
-Design-QA / Sprint-42Open in Cowork
+Design-QA / Sprint-42Open in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/design-police)
 
@@ -462,43 +462,43 @@ Review the shipped screens and open PRs in this folder against our design system
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/design-police)
+## Make Claude work for you[](https://academy.claude.com/use-cases/design-police)
 
-The plugin's `/design-system` is a generic starting point. Once Step 2 produces a drift report you'd actually post on a PR, tell Cowork to write your version of the skill. Layer in your severity thresholds, your allowed exceptions, your component-to-code mapping, and the comment tone your engineers respond to. A few minutes of conversation and the skill runs with your standards from then on.
+The plugin's `/design-system` is a generic starting point. Once Step 2 produces a drift report you'd actually post on a PR, tell Claude to write your version of the skill. Layer in your severity thresholds, your allowed exceptions, your component-to-code mapping, and the comment tone your engineers respond to. A few minutes of conversation and the skill runs with your standards from then on.
 
 Make what we've done in this task so far into a skill, or edit the /design-system skill with my feedback.
 
 
 
-Design-QAOpen in Cowork
+Design-QAOpen in Claude
 
 ## Make it repeatable[](https://academy.claude.com/use-cases/design-police)
 
 ### Share it as an artifact[](https://academy.claude.com/use-cases/design-police)
 
-Drift compounds quietly between sprints. Ask Cowork to publish the report as an artifact and the design-system team has one link — re-run the skill or schedule it to refresh.
+Drift compounds quietly between sprints. Ask Claude to publish the report as an artifact and the design-system team has one link — re-run the skill or schedule it to refresh.
 
 Publish that drift report as an artifact for the design-system channel. Keep a running tally of high-severity items still open.
 
 
 
-Design-QA / Sprint-42Open in Cowork
+Design-QA / Sprint-42Open in Claude
 
 ### Run it on every PR that touches UI[](https://academy.claude.com/use-cases/design-police)
 
-Drift is cheapest to catch before merge. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and set the customized skill to run twice a day, checking open PRs and the latest production screenshots.
+Drift is cheapest to catch before merge. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and set the customized skill to run twice a day, checking open PRs and the latest production screenshots.
 
-**/schedule** Weekdays at 10am and 4pm, check open PRs labeled "ui" and Design-QA/Sprint-42 for new screens, run /design-system on each, and post the drift report as a comment or to #design-system.
+Set up a scheduled task for weekdays at 10am and 4pm: check open PRs labeled "ui" and Design-QA/Sprint-42 for new screens, run /design-system on each, and post the drift report as a comment or to #design-system.
 
 
 
-Design-QAOpen in Cowork
+Design-QAOpen in Claude
 
 Scheduled taskActive
 
@@ -506,7 +506,7 @@ Twice-daily drift check
 
 At 10am and 4pm, checks open UI PRs and the QA folder, runs `/design-system`, and posts the drift report as a PR comment or to #design-system.
 
-Every **weekday at 10 am & 4 pm · checks open UI PRs and Design-QA/Sprint-42**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **weekday at 10 am & 4 pm · checks open UI PRs and Design-QA/Sprint-42**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/design-police)
 

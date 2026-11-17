@@ -64,10 +64,10 @@ Loading
 The + menu has a few more options for when a task needs them:
 
 - **[Connectors(opens in new tab)](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities):** let Claude read and act in the apps you already use, such as your email, calendar, drive, chat and CRM. Turn one on once and every conversation can search it, quote from it and, where you allow it, write back. [Browse the directory(opens in new tab)](https://claude.com/connectors).
-- **[Web search(opens in new tab)](https://support.claude.com/en/articles/10684626-enable-and-use-web-search):** on by default for Free, Pro, Max, and Ultra plans. On Team and Enterprise plans it's off by default, and an admin can turn it on. Turn it off when the answer should come only from your documents.
-- **[Research(opens in new tab)](https://support.claude.com/en/articles/11088861-use-research-on-claude):** runs many searches and returns one cited brief. It takes minutes, so save it for the big questions.
-- **[Skills(opens in new tab)](https://support.claude.com/en/articles/12512176-what-are-skills):** saved instructions for work you do the same way every time, including a tone or format you want on demand. In the Claude desktop app you can also record yourself doing a task once and keep it as a skill.
-- **Add folder** ([desktop app(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)): hand Claude a whole folder on your computer to read from and save into, instead of uploading files one at a time.
+- **[Web search(opens in new tab)](https://support.claude.com/en/articles/10684626-enable-and-use-web-search):** on by default for Free, Pro, Max, and Ultra plans. On Team and Enterprise plans it's off by default, and an admin can turn it on. Turn it off when the answer should come only from your documents. If your + menu has no web search toggle, tell Claude in your prompt not to search.
+- **[Research(opens in new tab)](https://support.claude.com/en/articles/11088861-use-research-on-claude):** runs many searches and returns one cited brief. It takes minutes, so save it for the big questions. Available on paid plans.
+- **[Skills(opens in new tab)](https://support.claude.com/en/articles/12512176-what-are-skills):** saved instructions for work you do the same way every time, including a tone or format you want on demand. On most paid plans, you can also [record yourself(opens in new tab)](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills) doing a task once in the Claude desktop app and keep it as a skill.
+- **Add folder** ([desktop app(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)): hand Claude a whole folder on your computer to read from and save into, instead of uploading files one at a time. Available on paid plans.
 
 [See when to use Web search, Extended thinking, and Research(opens in new tab)](https://support.claude.com/en/articles/11095361-when-should-i-use-web-search-extended-thinking-and-research).
 
@@ -83,7 +83,7 @@ Once you've explained your project, your team, or how you like to work, you shou
 
 Chat is where most people start. The same Claude shows up in a few other places, shaped for different kinds of work.
 
-- The [desktop app(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) brings the same chat onto your computer and, on Mac, adds quick entry from anywhere, screenshots, and dictation.
+- The [desktop app(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) brings the same chat onto your computer and adds quick entry from anywhere. On Mac, quick entry also lets you send screenshots and dictate.
 - [Claude Code(opens in new tab)](https://support.claude.com/en/articles/14552382-your-first-day-in-claude-code) is Claude in the terminal and editor, for engineers and developers.
 - [Claude Design(opens in new tab)](https://support.claude.com/en/articles/14604416-get-started-with-claude-design) now starts from any conversation or from the Design tab in the sidebar. It lays out screens, flows and prototypes as artboards you can edit by hand, in your design system.
 - [Claude Tag(opens in new tab)](https://support.claude.com/en/articles/15594475-what-is-claude-tag) brings Claude into your team's Slack workspace. Tag Claude in a channel or thread and it carries out the task there, working from the conversation and the tools your admin has connected.

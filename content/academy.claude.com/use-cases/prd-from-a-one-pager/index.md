@@ -4,7 +4,7 @@ A structured PRD with the open questions flagged.
 
 6 minProductClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-fxf6oslq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lntba6wn.png)
 
@@ -248,15 +248,15 @@ Product ManagementSkills to write specs, synthesize research, run competitive an
 
 `/write-spec`Interview the PM on a problem statement and draft a structured PRD
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fwrite-spec)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fwrite-spec)
 
 Show all 8 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/prd-from-a-one-pager)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%20100%20100'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%235E6AD2'%20d='M1.225%2061.523c-.222-.949.908-1.546%201.597-.857l36.512%2036.512c.689.689.092%201.819-.857%201.597a50.06%2050.06%200%200%201-37.252-37.252Zm-1.22-13.59a.98.98%200%200%200%20.283.724l50.055%2050.055a.98.98%200%200%200%20.724.283%2049.9%2049.9%200%200%200%208.636-1.518.976.976%200%200%200%20.462-1.647L2.17%2038.835a.976.976%200%200%200-1.647.462%2049.9%2049.9%200%200%200-1.518%208.636Zm4.194-17.443a.988.988%200%200%200%20.184%201.152l63.975%2063.975a.988.988%200%200%200%201.152.184%2050.4%2050.4%200%200%200%206.08-3.495.993.993%200%200%200%20.161-1.53L9.224%2024.249a.993.993%200%200%200-1.53.161%2050.4%2050.4%200%200%200-3.495%206.08Zm9.723-13.067a.99.99%200%200%201-.026-1.377C23.068%206.08%2036.765-.002%2051.888-.002c27.59%200%2049.957%2022.367%2049.957%2049.957%200%2015.123-6.082%2028.82-16.048%2038.013a.99.99%200%200%201-1.377-.026z'/%3e%3c/svg%3e)
 
@@ -276,15 +276,15 @@ Google DriveOptional
 
 [Connect](https://claude.ai/desktop/directory/google-drive-drivemcp)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/prd-from-a-one-pager)
 
-Drag the files you'll use (your org's PRD template, a recent PRD you like the depth of, any research notes on the problem) into one folder on your machine, then point Cowork at it. Cowork reads from it and writes the new PRD back to it.
+Drag the files you'll use (your org's PRD template, a recent PRD you like the depth of, any research notes on the problem) into one folder on your machine, then point Claude at it. Claude reads from it and writes the new PRD back to it.
 
 Product / prds
 
@@ -298,19 +298,19 @@ In Cowork’s chat bar:Product / prds
 
 ## The prompt[](https://academy.claude.com/use-cases/prd-from-a-one-pager)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/prd-from-a-one-pager)
+### Copy this into Claude[](https://academy.claude.com/use-cases/prd-from-a-one-pager)
 
 Write a PRD for the saved-views problem. Interview me first about the problem, who hits it, the constraints, and how we'd measure success. Then draft it in prd-template.docx, call out the goals and non-goals, match the depth of PRD-bulk-export.docx, and flag every open question for design review.
 
 
 
-Product / prdsOpen in Cowork
+Product / prdsOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/prd-from-a-one-pager)
 
 Prompt
 
-**Ask to be interviewed.** "Interview me first" turns a blank-page problem into a guided conversation; Cowork pulls the problem, users, constraints, and metrics out of your head before it writes a word of the spec.
+**Ask to be interviewed.** "Interview me first" turns a blank-page problem into a guided conversation; Claude pulls the problem, users, constraints, and metrics out of your head before it writes a word of the spec.
 
 Source
 
@@ -322,7 +322,7 @@ Write a PRD for the saved-views problem. Interview me first about the problem, w
 
 Source
 
-**Show it what good looks like.** Pointing at PRD-bulk-export.docx hands Cowork your quality bar; it matches the structure and depth of a PRD you already trust instead of guessing at both.
+**Show it what good looks like.** Pointing at PRD-bulk-export.docx hands Claude your quality bar; it matches the structure and depth of a PRD you already trust instead of guessing at both.
 
 Prompt
 
@@ -330,7 +330,7 @@ Write a PRD for the saved-views problem. Interview me first about the problem, w
 
 ### Get a better draft[](https://academy.claude.com/use-cases/prd-from-a-one-pager)
 
-What Cowork gives you back is mostly determined by what you put in. A real template, one PRD you like, and honest interview answers move the draft further than any rewording of the prompt, so invest there first.
+What Claude gives you back is mostly determined by what you put in. A real template, one PRD you like, and honest interview answers move the draft further than any rewording of the prompt, so invest there first.
 
 Practice
 
@@ -338,15 +338,15 @@ What Cowork gives you back is mostly determined by what you put in. A real templ
 
 
 
-**Try dictation for the interview.** The thought dump is faster spoken than typed. Hit the mic in Cowork, talk through the problem and the users out loud, and let Cowork turn the transcript into the structured PRD.
+**Try dictation for the interview.** The thought dump is faster spoken than typed. Hit the mic in Claude, talk through the problem and the users out loud, and let Claude turn the transcript into the structured PRD.
 
 Practice
 
-**Check the goals and open questions before it goes to review.** Read the draft's goals and non-goals against what you said in the interview, and confirm every flagged open question is one you actually left open. Cowork fills gaps with reasonable guesses, and unchecked guesses are what design review catches. Fix what you didn't decide, then send it.
+**Check the goals and open questions before it goes to review.** Read the draft's goals and non-goals against what you said in the interview, and confirm every flagged open question is one you actually left open. Claude fills gaps with reasonable guesses, and unchecked guesses are what design review catches. Fix what you didn't decide, then send it.
 
 ## Going forward[](https://academy.claude.com/use-cases/prd-from-a-one-pager)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

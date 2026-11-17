@@ -46,7 +46,7 @@ Patent filingsPDF
 
 ### Optional context[](https://academy.claude.com/use-cases/evaluate-a-company-from-the-science-to-the-balance-sheet)
 
-If your filings are already on your computer, Cowork in [Claude Desktop(opens in new tab)](https://claude.com/download) can read them directly from a folder rather than uploading individually.
+If your filings are already on your computer, the [Claude Desktop(opens in new tab)](https://claude.com/download) app can read them directly from a folder rather than uploading individually.
 
 [Extended Thinking(opens in new tab)](https://support.claude.com/en/articles/10574485-using-extended-thinking) lets Claude scale how deeply it reasons based on task complexity. For multi-document financial analysis, it's worth turning on.
 

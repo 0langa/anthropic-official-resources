@@ -136,15 +136,19 @@ Go ahead and create a contact for Alex at NewCo. His title is Director of Partne
 
 ### Drag Calendar and Salesforce into the same tab group[](https://academy.claude.com/use-cases/log-sales-calls-to-your-crm)
 
-For cross-app workflows, drag both Google Calendar and Salesforce into Claude's tab group. You'll see a tab group highlighting the tabs Claude can access. Now Claude can read calendar attendees and look up Salesforce contacts simultaneously—no tab switching. Before visiting new sites, Claude asks for permission. You can grant site-level permissions for websites you trust, allowing Claude to work without repeated approvals on those specific domains.
+For cross-app workflows, drag both Google Calendar and Salesforce into Claude's tab group. You'll see a tab group highlighting the tabs Claude can access. Now Claude can read calendar attendees and look up Salesforce contacts simultaneously—no tab switching. Whether Claude asks for permission before visiting new sites depends on your [permission mode(opens in new tab)](https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide). You can grant site-level permissions for websites you trust, allowing Claude to work without repeated approvals on those specific domains.
 
 ### Permissions before taking actions[](https://academy.claude.com/use-cases/log-sales-calls-to-your-crm)
 
-Before clicking "send," "publish," "post," "submit," or similar action buttons, Claude asks for approval. This includes sending emails, posting to social media, submitting forms, or messaging others on your behalf.
+Whether Claude asks for approval before clicking "send," "publish," "post," "submit," or similar action buttons depends on your request and your [permission mode(opens in new tab)](https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide). These actions include sending emails, posting to social media, submitting forms, or messaging others on your behalf. To review them first, say so in your prompt and consider switching to **Manually approve** (**Ask before acting** in the classic side panel).
 
-### Save your workflow as a shortcut[](https://academy.claude.com/use-cases/log-sales-calls-to-your-crm)
+### Save your workflow as a skill[](https://academy.claude.com/use-cases/log-sales-calls-to-your-crm)
 
-Once you have an activity log format that works, save the prompt as a shortcut by clicking on the shortcut icon below a successful prompt. You can also set a schedule for when you want the workflow to run next. Alternatively, manually trigger the workflow, by typing "/" and selecting the shortcut.
+Once you have an activity log format that works, ask Claude to save the prompt as a [skill(opens in new tab)](https://support.claude.com/en/articles/12512180-use-skills-in-claude). Trigger the workflow by typing "/" and selecting it.
+
+To run it on a schedule, open Claude Desktop and set up a [scheduled task(opens in new tab)](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork) with the same prompt, plus a line asking Claude to use Claude in Chrome. Set the task to require your computer. It works only while your computer is awake, with Claude Desktop and Chrome open.
+
+If you still have the classic side panel, click the shortcut icon below a successful prompt to save it as a shortcut instead, which you can also schedule.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/log-sales-calls-to-your-crm)
 

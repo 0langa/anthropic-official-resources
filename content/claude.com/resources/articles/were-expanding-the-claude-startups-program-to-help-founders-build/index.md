@@ -2,7 +2,7 @@
 
 - Category[Product updates](https://claude.com/resources/product-updates)
 - DateOctober 6, 2026
-- Reading time5 min
+- Reading time6 min
 - ShareCopy link
 
 ***Update, October 13, 2026: Our current cohort is now full, and we’re not accepting new applications right now. Visit the [Claude Startups page](https://claude.com/programs/startups) for more details and answers to common questions.***  
@@ -48,8 +48,8 @@ Visit the [Claude Startups page](https://claude.com/programs/startups) to learn 
 
 For how startups use Claude Code day to day, see [The Claude Code guide for startups](https://claude.com/resources/articles/claude-code-guide-for-startups)
 
-\*Based on one year of Claude Team with five Premium seats at $100 per seat per month, billed annually ($6,000), and the one-time credit ($1,000). Actual value depends on your number and type of seats. Credits are subject to our [Supplemental Credit Terms](https://www.anthropic.com/legal/credit-terms).
-
+\*Based on one year of Claude Team with five Premium seats at $100 per seat per month, billed annually ($6,000), and the one-time credit ($1,000). Actual value depends on your number and type of seats. Credits are subject to our [Supplemental Credit Terms](https://www.anthropic.com/legal/credit-terms).  
+  
 \*\*Based on the combined maximum value of all Claude Startup Stack offers at partner list prices as of September 2026. Actual value depends on which offers you redeem, your plan, and your team size. Offers are provided by partners and subject to their terms. Your company may not be able to receive or combine all offers.
 
 ## Related articles

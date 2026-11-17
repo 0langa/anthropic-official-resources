@@ -4,7 +4,7 @@ What shipped, what slipped, and what the next on-call needs to know.
 
 10 minEngineeringClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-ko3ehgyx.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lth7yta3.png)
 
@@ -315,19 +315,19 @@ EngineeringSkills for postmortems, design docs, on-call handoffs, and cost revie
 
 `/tech-debt`Draft the sprint retro from the closed cycle and team channel
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Ftech-debt)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Ftech-debt)
 
 `/standup`Write the on-call handoff from the week's alerts and pages
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fstandup)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fstandup)
 
 Show all 10 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/sprint-retro-handoff)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%20100%20100'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%235E6AD2'%20d='M1.225%2061.523c-.222-.949.908-1.546%201.597-.857l36.512%2036.512c.689.689.092%201.819-.857%201.597a50.06%2050.06%200%200%201-37.252-37.252Zm-1.22-13.59a.98.98%200%200%200%20.283.724l50.055%2050.055a.98.98%200%200%200%20.724.283%2049.9%2049.9%200%200%200%208.636-1.518.976.976%200%200%200%20.462-1.647L2.17%2038.835a.976.976%200%200%200-1.647.462%2049.9%2049.9%200%200%200-1.518%208.636Zm4.194-17.443a.988.988%200%200%200%20.184%201.152l63.975%2063.975a.988.988%200%200%200%201.152.184%2050.4%2050.4%200%200%200%206.08-3.495.993.993%200%200%200%20.161-1.53L9.224%2024.249a.993.993%200%200%200-1.53.161%2050.4%2050.4%200%200%200-3.495%206.08Zm9.723-13.067a.99.99%200%200%201-.026-1.377C23.068%206.08%2036.765-.002%2051.888-.002c27.59%200%2049.957%2022.367%2049.957%2049.957%200%2015.123-6.082%2028.82-16.048%2038.013a.99.99%200%200%201-1.377-.026z'/%3e%3c/svg%3e)
 
@@ -353,15 +353,15 @@ List every page in the rotation so toil is counted, not estimated.
 
 [Connect](https://claude.ai/desktop/directory/pagerduty)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/sprint-retro-handoff)
 
-Keep your retro template, the running action-items list, and last sprint's retro in one folder. Cowork reads the format from there and writes both docs back so the retro and the handoff live next to their predecessors. [Create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the folder so your team's definition of "shipped" and the discussion-prompt style carry over every cycle.
+Keep your retro template, the running action-items list, and last sprint's retro in one folder. Claude reads the format from there and writes both docs back so the retro and the handoff live next to their predecessors. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the folder so your team's definition of "shipped" and the discussion-prompt style carry over every cycle.
 
 Platform / retros / 2026-sprint-08
 
@@ -375,13 +375,13 @@ In Cowork’s chat bar:Platform / retros / 2026-sprint-08
 
 ## The prompt[](https://academy.claude.com/use-cases/sprint-retro-handoff)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/sprint-retro-handoff)
+### Copy this into Claude[](https://academy.claude.com/use-cases/sprint-retro-handoff)
 
 Read the just-closed Linear cycle and two weeks of #team-platform and #oncall-platform. Write the sprint retro (shipped, slipped with reasons, themes worth discussing) and a separate on-call handoff (open alerts, toil, what the next rotation should watch). Pull quotes where they help. Keep each section to what's discussable in a 30-minute meeting.
 
 
 
-Platform / retros / 2026-sprint-08Open in Cowork
+Platform / retros / 2026-sprint-08Open in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/sprint-retro-handoff)
 
@@ -405,13 +405,13 @@ Read the just-closed Linear cycle and two weeks of #team-platform and #oncall-pl
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/sprint-retro-handoff)
+## Make Claude work for you[](https://academy.claude.com/use-cases/sprint-retro-handoff)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -419,7 +419,7 @@ Make what we've done in this task so far into a skill, or edit the /tech-debt sk
 
 
 
-Platform / retrosOpen in Cowork
+Platform / retrosOpen in Claude
 
 
 
@@ -429,13 +429,13 @@ Make what we've done in this task so far into a skill, or edit the /tech-debt sk
 
 ### Run it when the cycle closes[](https://academy.claude.com/use-cases/sprint-retro-handoff)
 
-Retro prep shouldn't be the TPM's Friday afternoon. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill drafts both docs the moment the cycle ends.
+Retro prep shouldn't be the TPM's Friday afternoon. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill drafts both docs the moment the cycle ends.
 
-**/schedule** Every Friday at 3pm, run /tech-debt on the cycle that just closed and /standup on the last two weeks, write both to Platform/retros/<sprint>/, and post the handoff to #oncall-platform.
+Set up a scheduled task for every Friday at 3pm: run /tech-debt on the cycle that just closed and /standup on the last two weeks, write both to Platform/retros/<sprint>/, and post the handoff to #oncall-platform.
 
 
 
-Platform / retrosOpen in Cowork
+Platform / retrosOpen in Claude
 
 Scheduled taskActive
 
@@ -443,7 +443,7 @@ Sprint retro + on-call handoff
 
 At cycle close, runs `/tech-debt` and `/standup`, writes both to the dated retro folder, and posts the handoff to the on-call channel.
 
-Every **Friday at 3:00pm**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Friday at 3:00pm**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/sprint-retro-handoff)
 

@@ -213,7 +213,7 @@ To have Claude review your changes before you commit, enter `/code-review` in th
 
 In local, [SSH](#ssh-sessions), and [WSL](/docs/en/desktop-wsl) sessions, the findings appear as a **Code review** card, grouped by file. Use the card to act on them:
 
-* Click **Walk through in diff** to open the diff view and step through the findings one at a time. A finding in the current diff appears at its line, where you can click **Fix this one** or dismiss it.
+* Click **Walk through in Changes** to open the diff view and step through the findings one at a time. A finding in the current diff appears at its line, where you can click **Fix this one** or dismiss it.
 * Click **Apply fixes** to ask Claude to fix the findings that are still open.
 
 In any session, you can also ask Claude in the prompt box to fix what the review found. For what `/code-review` looks for and the arguments it takes, see [Review locally with `/code-review`](/docs/en/code-review-local).
@@ -617,7 +617,7 @@ Dispatch is one of several ways to work with Claude when you're away from your t
 
 ## Extend Claude Code
 
-Connect external services, add reusable workflows, customize Claude's behavior, and configure preview servers. To manage connectors, skills, and plugins in one place, click **Customize** in the sidebar. [Cowork](https://claude.com/product/cowork) in the Desktop app sources its skills, plugins, and connectors from this Customize configuration, which syncs through your claude.ai account, not from the CLI's `~/.claude` directory.
+Connect external services, add reusable workflows, customize Claude's behavior, and configure preview servers. To manage connectors, skills, and plugins in one place, click **Customize** or **Plugins** in the sidebar. [Cowork](https://claude.com/product/cowork) in the Desktop app sources its skills, plugins, and connectors from this configuration, which syncs through your claude.ai account, not from the CLI's `~/.claude` directory.
 
 Claude Code also loads the skills and plugins enabled for your claude.ai account in terminal sessions where you sign in with the same account. See [Skills synced from claude.ai](/docs/en/skills#how-synced-skills-behave) and [Plugins synced from claude.ai](/docs/en/plugins/loading#synced-plugins).
 
@@ -625,7 +625,11 @@ Claude Code also loads the skills and plugins enabled for your claude.ai account
 
 Connectors are [MCP servers](/docs/en/mcp) with a graphical setup flow.
 
-Click **+** next to the prompt box, before or during the session, to add connectors in a local or [SSH](#ssh-sessions) session with a Claude account. Select **Add connectors** to open the connector directory. If the menu shows **Connectors** instead, select it, then **Browse connectors**.
+Click **+** next to the prompt box, before or during the session, to add connectors in a local or [SSH](#ssh-sessions) session with a Claude account. Open the connector directory from the entry the menu shows:
+
+* **Add connectors**: select it
+* **Connectors**: select it, then **Browse connectors**
+* **Neither entry**: click **Plugins** in the sidebar, where the directory lists connectors and plugins together
 
 > [!NOTE]
 >
@@ -634,9 +638,9 @@ Click **+** next to the prompt box, before or during the session, to add connect
 > * **Connectors is grayed out in a WSL session**: see [If the terminal or connectors are unavailable](/docs/en/desktop-wsl#check-for-the-terminal-and-connectors)
 > * **Cloud sessions**: see [How connectors reach Claude Code](/docs/en/mcp#how-connectors-reach-claude-code)
 
-Once connected, Claude can read your calendar, send messages, create issues, and interact with your tools directly. You can ask Claude what connectors are configured in your session. To manage or disconnect connectors, click **Customize** in the sidebar and open **Connectors**.
+Once connected, Claude can read your calendar, send messages, create issues, and interact with your tools directly. You can ask Claude what connectors are configured in your session. To manage or disconnect connectors, click **Customize** in the sidebar and open **Connectors**. If the sidebar shows **Plugins** instead, click it and look under **Your plugins**.
 
-For integrations not listed in Connectors, add MCP servers manually via [settings files](/docs/en/mcp#installing-mcp-servers). You can also [create custom connectors](https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp).
+For integrations not in the connector directory, add MCP servers manually via [settings files](/docs/en/mcp#installing-mcp-servers). You can also [create custom connectors](https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp).
 
 ### Use skills
 
@@ -652,7 +656,12 @@ Local and cloud sessions also load the skills enabled for your claude.ai account
 
 [Plugins](/docs/en/plugins/overview) are reusable packages that add skills, agents, hooks, MCP servers, and LSP configurations to Claude Code. You can install plugins from the desktop app without using the terminal.
 
-In a local session or an [SSH session](#ssh-sessions), click **+** next to the prompt box and select **Add plugins** to open the plugin browser. If the menu shows **Plugins** instead, select it, then **Browse plugins**, or **Manage plugins** to enable, disable, or uninstall plugins.
+In a local session or an [SSH session](#ssh-sessions), click **+** next to the prompt box. Open the plugin browser from the entry the menu shows:
+
+* **Add plugins**: select it
+* **Plugins**: select it, then **Browse plugins**. If that's missing, select **Manage plugins**.
+
+To enable, disable, or uninstall plugins when the **+** menu shows **Plugins**, select **Plugins > Manage plugins**. In a local session, you can also click **Customize** or **Plugins** in the sidebar.
 
 You can scope plugins to your user account, a specific project, or local-only. If your organization manages plugins centrally, those plugins are available in desktop sessions the same way they are in the CLI, except the ones the desktop app [withholds under `disableSideloadFlags`](/docs/en/settings-reference#disablesideloadflags).
 

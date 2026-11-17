@@ -4,7 +4,7 @@ Generate a daily briefing that pulls from Slack, Notion, and your team dashboard
 
 15 minClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-k4d623ry.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-llu6mang.png)
 
@@ -14,7 +14,7 @@ Embedded media: https://www.youtube-nocookie.com/embed/UAmKyyZ-b9E?enablejsapi=1
 
 ## 1. Describe the task[](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)
 
-In Cowork, Claude connects to your messaging, task tools, and dashboards at the same time, reading full conversation histories, surfacing discussions you weren't part of, and tying metrics to the threads behind them.
+Claude connects to your messaging, task tools, and dashboards at the same time, reading full conversation histories, surfacing discussions you weren't part of, and tying metrics to the threads behind them.
 
 In your prompt, describe how you want the briefing structured and what counts as urgent. Claude pulls together what matters into a single briefing.
 
@@ -31,25 +31,25 @@ For urgent items, pull the deeper context: who's involved, what's been discussed
 
 
 
-Open in Cowork
+Open in Claude
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)
 
-[Cowork(opens in new tab)](https://academy.claude.com/tutorials/choosing-between-claude-cowork-or-chat) is a workspace in Claude that connects to your tools via [connectors(opens in new tab)](https://claude.com/connectors) and reads from browser tabs via [Claude in Chrome(opens in new tab)](https://claude.com/chrome). It lives in the [Claude Desktop(opens in new tab)](https://claude.com/download) app, and with remote sessions ([check availability for your plan(opens in new tab)](https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile)) your Cowork sessions are on web and mobile too. Add your messaging, tasks, and dashboard sources. Cowork queries them in parallel.
+Claude connects to your tools via [connectors(opens in new tab)](https://claude.com/connectors) and reads from browser tabs via [Claude in Chrome(opens in new tab)](https://claude.com/chrome). Add your messaging, tasks, and dashboard sources. Claude queries them in parallel.
 
-**What to expect:** After your initial prompt in Cowork, Claude may ask you questions, like which channels matter most, what timeframe to cover, or how to format the briefing. It then builds a plan you can review in the sidebar. This helps it run more independently and deliver something closer to finished.
+**What to expect:** After your initial prompt, Claude may ask you questions, like which channels matter most, what timeframe to cover, or how to format the briefing. It then builds a plan you can review in the sidebar. This helps it run more independently and deliver something closer to finished.
 
 ### Required context[](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)
 
 To get started:
 
-- Download [Claude Desktop(opens in new tab)](https://claude.com/download) — or go to [Claude.ai(opens in new tab)](https://claude.ai/) with remote sessions — and start a Cowork session
+- Download [Claude Desktop(opens in new tab)](https://claude.com/download) — or go to [Claude.ai(opens in new tab)](https://claude.ai/) — and start a new task
 - Add [connectors(opens in new tab)](https://claude.com/connectors) for Slack, Notion, and any other tools you want in the briefing
 - [Install Claude in Chrome(opens in new tab)](https://claude.com/chrome) and add it as a connector for dashboard access
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)
 
-Cowork creates a structured briefing organized by priority, with cross-platform context synthesized into single items where relevant. Using the Claude in Chrome connector, Claude opens your dashboard in a new browser tab and reads it directly, pulling metrics and context alongside your Slack and Notion data.
+Claude creates a structured briefing organized by priority, with cross-platform context synthesized into single items where relevant. Using the Claude in Chrome connector, Claude opens your dashboard in a new browser tab and reads it directly, pulling metrics and context alongside your Slack and Notion data.
 
 Here's your morning briefing for January 22:
 
@@ -74,23 +74,23 @@ Continue the conversation with Claude to refine, expand, or explore further.
 
 ### Go deeper on a dashboard alert[](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)
 
-Get the full context behind a metric. Cowork pulls the related threads, tasks, and history so you understand what's driving the number.
+Get the full context behind a metric. Claude pulls the related threads, tasks, and history so you understand what's driving the number.
 
 *"Tell me more about the pipeline velocity drop. Pull the full thread from #sales, any related tasks, and what's been discussed about those slipping deals."*
 
 
 
-Open in Cowork
+Open in Claude
 
 ### Draft a response with full context[](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)
 
-Move from briefing to action. Cowork drafts a reply using everything it knows about the topic — the thread history, related tasks, and your current priorities.
+Move from briefing to action. Claude drafts a reply using everything it knows about the topic — the thread history, related tasks, and your current priorities.
 
 *"Draft a response to Lisa's vendor contract thread. I want to confirm we're moving forward but need to flag the budget dependency."*
 
 
 
-Open in Cowork
+Open in Claude
 
 ### Surface everything on one topic[](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)
 
@@ -100,13 +100,13 @@ Pull together all mentions of a project, person, or issue across sources.
 
 
 
-Open in Cowork
+Open in Claude
 
 ## 5. Tricks, tips, and troubleshooting[](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)
 
 ### Watch the progress panel[](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)
 
-Cowork shows which connectors are being queried in real-time. If your briefing is taking longer than expected, you can see which platform is the bottleneck.
+Claude shows which connectors are being queried in real-time. If your briefing is taking longer than expected, you can see which platform is the bottleneck.
 
 ### Iterate in the same conversation[](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)
 
@@ -114,11 +114,11 @@ Your first briefing request establishes context. Follow-up prompts can refine wi
 
 ### Briefings run remotely by default[](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)
 
-A scheduled briefing runs on Anthropic's servers (remote sessions), so it's ready even while your laptop is closed and follows you across desktop, web, and mobile.
+A scheduled briefing runs on Anthropic's servers (remote sessions), so it's ready even while your laptop is closed and follows you across desktop, web, and mobile. The dashboard visit is the exception, because it uses your browser. To keep that step in a scheduled briefing, open the task in Claude Desktop, add a line to its prompt asking Claude to use Claude in Chrome, and set it to require your computer. The whole briefing then works only while your computer is awake, with Claude Desktop and Chrome open.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)
 
-Connect your platforms to Cowork and start your day knowing where your attention is needed most.
+Connect your platforms to Claude and start your day knowing where your attention is needed most.
 
 I need my morning briefing. Pull from Slack and Notion, and visit my team dashboard: `https://metrics.acme-corp.com/ops-team`
 
@@ -131,6 +131,6 @@ Structure it as:
 
 For urgent items, pull the deeper context: who's involved, what's been discussed, what's still unresolved.
 
-Try in Cowork
+Try in Claude
 
 Was this helpful?

@@ -68,7 +68,7 @@ Any data files if separate from the paperFILE
 
 
 
-Your completed group paperFILE
+Your assignment rubricFILE
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/turn-research-into-presentations)
 

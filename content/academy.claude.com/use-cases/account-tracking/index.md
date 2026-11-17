@@ -4,7 +4,7 @@ Account health in green/yellow/red with this week's two moves.
 
 10 minSalesClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-kb8jxxpj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lt8ltc3p.png)
 
@@ -313,19 +313,19 @@ SalesSkills for account research, call prep, pipeline review, and account health
 
 `/pipeline-review`Score account health from usage, tickets, NPS, and the success plan
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fpipeline-review)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fpipeline-review)
 
 `/call-summary`Cluster a folder of call transcripts into themes with counts and quotes
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcall-summary)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcall-summary)
 
 Show all 9 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/account-tracking)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2300A1E0'%20d='M10.01%205.56a4.18%204.18%200%200%201%203.02-1.3c1.58%200%202.96.88%203.7%202.19a5.12%205.12%200%200%201%202.1-.45%205.18%205.18%200%200%201%200%2010.36c-.37%200-.73-.04-1.07-.11a3.77%203.77%200%200%201-4.94%201.55%204.3%204.3%200%200%201-7.99-.2%203.98%203.98%200%200%201-.82.09%203.97%203.97%200%200%201-1.96-7.43%204.57%204.57%200%200%201%207.96-4.7'/%3e%3c/svg%3e)
 
@@ -347,16 +347,17 @@ Google Drive
 
 [Connect](https://claude.ai/desktop/directory/google-drive-drivemcp)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a
-working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or
+give Claude access to a folder in the Claude desktop app. Then start with the
+prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/account-tracking)
 
-Drag the files you'll use (the usage export, the success plan, the latest NPS responses) into one folder on your machine, then point Cowork at it. Cowork reads from it and writes the health summary back to it. If you track this account ongoing, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your health criteria, instructions, and memory stay attached.
+Drag the files you'll use (the usage export, the success plan, the latest NPS responses) into one folder on your machine, then point Claude at it. Claude reads from it and writes the health summary back to it. If you track this account ongoing, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your health criteria, instructions, and memory stay attached.
 
 Accounts / Northwind / health
 
@@ -370,19 +371,19 @@ In Cowork’s chat bar:Accounts / Northwind / health
 
 ## 2. The prompt[](https://academy.claude.com/use-cases/account-tracking)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/account-tracking)
+### Copy this into Claude[](https://academy.claude.com/use-cases/account-tracking)
 
 From the usage data, open Zendesk tickets, NPS responses, and success plan for Northwind, write the account health summary to the account folder: call it red, yellow, or green with the reason in one or two sentences, then the two actions to take this week.
 
 
 
-Accounts / Northwind / healthOpen in Cowork
+Accounts / Northwind / healthOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/account-tracking)
 
 Prompt
 
-**Give a fixed set of answers.** "Red, yellow, or green" makes Cowork commit
+**Give a fixed set of answers.** "Red, yellow, or green" makes Claude commit
 to one status instead of hedging, and "with the reason" means the call is
 defensible when leadership asks.
 
@@ -409,14 +410,14 @@ you actually agreed with the customer.
 Practice
 
 **Add an example to match.** Drop an example you like into the folder and
-Cowork matches your structure and voice.
+Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about"
 so you know where to look first when you review the draft.
 
-## 3. Make Cowork work for you[](https://academy.claude.com/use-cases/account-tracking)
+## 3. Make Claude work for you[](https://academy.claude.com/use-cases/account-tracking)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -425,7 +426,7 @@ Make what we've done in this task so far into a skill, or edit the
 
 
 
-AccountsOpen in Cowork
+AccountsOpen in Claude
 
 
 
@@ -435,15 +436,15 @@ Make what we've done in this task so far into a skill, or edit the
 
 ### Run it across your book every week[](https://academy.claude.com/use-cases/account-tracking)
 
-Health should be tracked, not checked when something breaks. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill writes a fresh summary for every account in your book each week.
+Health should be tracked, not checked when something breaks. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill writes a fresh summary for every account in your book each week.
 
-**/schedule** Every Monday at 7am, run /pipeline-review for each account in my
+Set up a scheduled task for every Monday at 7am: run /pipeline-review for each account in my
 book and write the summary to the matching health folder under Accounts. Roll
 up anything red into one digest at the top.
 
 
 
-AccountsOpen in Cowork
+AccountsOpen in Claude
 
 Scheduled taskActive
 
@@ -452,7 +453,7 @@ Weekly account health
 Runs `/pipeline-review` for every account in your book and writes the summary
 to its health folder, with red accounts rolled up into one digest.
 
-Every **Monday at 7:00 AM**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Monday at 7:00 AM**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## 5. Share with your teammates[](https://academy.claude.com/use-cases/account-tracking)
 
@@ -470,7 +471,7 @@ in, so they don't repeat Steps 1-3.
 
 ## Going forward[](https://academy.claude.com/use-cases/account-tracking)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

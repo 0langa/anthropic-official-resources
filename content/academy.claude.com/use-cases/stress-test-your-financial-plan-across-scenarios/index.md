@@ -112,13 +112,13 @@ If you aren't sure about the approach you'd like to take, describe your financia
 
 Opus 5.5 synthesizes across your full document set before building anything, finding interactions between your tax returns, investment statements, and Social Security estimates that cascade through each other. The more complete the picture, the stronger the analysis.
 
-### Run longer analyses through Cowork[](https://academy.claude.com/use-cases/stress-test-your-financial-plan-across-scenarios)
+### Run longer analyses[](https://academy.claude.com/use-cases/stress-test-your-financial-plan-across-scenarios)
 
-If your financial documents are already on your computer, Cowork in [Claude Desktop(opens in new tab)](https://claude.com/download) can read them directly from a folder rather than uploading individually. For complex plans with many accounts, tax considerations, and interdependent variables, Cowork handles longer-running analysis without hitting context limits, spinning up sub-agents to model different scenarios in parallel before synthesizing the results.
+If your financial documents are already on your computer, [Claude Desktop(opens in new tab)](https://claude.com/download) can read them directly from a folder rather than uploading individually. For complex plans with many accounts, tax considerations, and interdependent variables, Claude handles longer-running analysis without hitting context limits, spinning up sub-agents to model different scenarios in parallel before synthesizing the results.
 
 ### Start another task while this one runs[](https://academy.claude.com/use-cases/stress-test-your-financial-plan-across-scenarios)
 
-Financial modeling runs across many variables and scenarios. Open a new session from the sidebar for other work. You'll see a grey dot in the sidebar when this one needs attention.
+Financial modeling runs across many variables and scenarios. Open a new session from the sidebar for other work. The dot or icon beside this task in the sidebar changes when it needs attention.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/stress-test-your-financial-plan-across-scenarios)
 

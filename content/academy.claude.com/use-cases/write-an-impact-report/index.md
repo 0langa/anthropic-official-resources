@@ -53,7 +53,7 @@ Program Outcomes and Assessment DataXLSX
 
 ![](https://academy.claude.com/surfaces/excel-icon.svg)
 
-Participant Enrollment Demographics and AttendanceXLSX
+Financial SummaryXLSX
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/write-an-impact-report)
 

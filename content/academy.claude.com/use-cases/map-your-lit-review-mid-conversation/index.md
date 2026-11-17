@@ -88,11 +88,11 @@ The clusters are Claude's interpretation. If a paper you'd call a bridge ended u
 
 ### What to do with the visual next[](https://academy.claude.com/use-cases/map-your-lit-review-mid-conversation)
 
-Save as Artifact keeps the map live — add a paper next week and redraw without re-uploading the rest. Or ask Claude to write the "state of the debate" section from the clusters. The map is an outline you've tested; the paragraphs come from what it shows.
+Ask Claude to turn the map into an artifact to keep it live: add a paper next week and redraw without re-uploading the rest. Or ask Claude to write the "state of the debate" section from the clusters. The map is an outline you've tested; the paragraphs come from what it shows.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/map-your-lit-review-mid-conversation)
 
-Try it on the literature that's stopped making sense as a whole — attach what you have and ask Claude to map the camps. Hover over the map for options: copy an image, or save it as an Artifact if you want to keep iterating on it across the review.
+Try it on the literature that's stopped making sense as a whole — attach what you have and ask Claude to map the camps. Hover over the map for options to copy an image, or ask Claude to turn it into an artifact if you want to keep iterating on it across the review.
 
 I've read 20 papers on AI in K-12 and I've lost the thread. Can you map out who's actually agreeing with who and where the real disagreements are? I can't tell anymore which papers are building on each other and which are talking past each other. If I click into a group, give me the short version of what they've got and what they're missing.
 

@@ -74,9 +74,9 @@ Give me a more detailed walkthrough of the entire recipe. Explain the technique 
 
 ### Quickly create shopping lists[](https://academy.claude.com/use-cases/create-digital-recipe-cards)
 
-Create and save to-do or shopping lists directly to your Notes or Reminders apps using Claude on [mobile(opens in new tab)](https://support.claude.com/en/articles/11869619-using-claude-with-ios-apps). Claude can pull out specific pieces from longer content and reorganize them for a different purpose—like turning a recipe into a categorized shopping list that saves directly to your phone.
+Add to-do or shopping items directly to an existing list in your Reminders app using [Claude for iOS(opens in new tab)](https://support.claude.com/en/articles/11869619-using-claude-with-ios-apps). Claude can pull out specific pieces from longer content and reorganize them for a different purpose, like turning a recipe into a shopping list that saves directly to your phone.
 
-I'm making this recipe this week. Create a shopping list with all the ingredients I need and save it to my Notes app, organized by store section. Then, add a reminder to go to the grocery store after work in my Reminders app.
+I'm making this recipe this week. Create a shopping list with all the ingredients I need, organized by store section, and add the items to my grocery list in my Reminders app. Then, add a reminder to go to the grocery store after work.
 
 
 
@@ -96,7 +96,7 @@ I'm uploading five more family recipes. Format them to match this first one exac
 
 ### Learn more about the recipe[](https://academy.claude.com/use-cases/create-digital-recipe-cards)
 
-Missing ingredients or steps? Enable [Web Search(opens in new tab)](https://support.claude.com/en/articles/11088861-using-research-on-claude) and specify to Claude that you want to search online: "The ingredient list is water-damaged. Search the web for traditional recipes and intelligently fill gaps based on what's visible and authentic preparation methods."
+Missing ingredients or steps? Enable [Web Search(opens in new tab)](https://support.claude.com/en/articles/10684626-enable-and-use-web-search) and specify to Claude that you want to search online: "The ingredient list is water-damaged. Search the web for traditional recipes and intelligently fill gaps based on what's visible and authentic preparation methods." If you have the new Claude experience, there's no web search toggle. Claude searches the web when it helps.
 
 For a more thorough deep dive, enable [Research(opens in new tab)](https://support.claude.com/en/articles/11088861-using-research-on-claude) from the (+) menu in the chat bar. It pulls from all relevant connected tools and the web, delivering comprehensive answers with citations. Most reports finish in 5 to 15 minutes, and a complex investigation can take up to 45, with Claude working in the background as it searches. In this case, use Research when you want to learn more about the full context around a recipe. Claude can pull from culinary databases, historical sources, and your own saved recipes across connected tools, then synthesizes everything into a cited report.
 
@@ -110,7 +110,7 @@ When you need Claude to format multiple items the same way, you can upload them 
 
 ### Vary the format to suit your purpose[](https://academy.claude.com/use-cases/create-digital-recipe-cards)
 
-Claude can create the same content in multiple formats depending on how you'll use it. Request an HTML artifact for digital sharing—you can share it and send the link to others. Request a PDF when you need something to print or download.
+Claude can create the same content in multiple formats depending on how you'll use it. Request an HTML artifact for digital sharing, then share it and send the link to others. Whether and how you can [share it(opens in new tab)](https://support.claude.com/en/articles/9547008-share-artifacts) depends on your Claude plan. Request a PDF when you need something to print or download.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/create-digital-recipe-cards)
 

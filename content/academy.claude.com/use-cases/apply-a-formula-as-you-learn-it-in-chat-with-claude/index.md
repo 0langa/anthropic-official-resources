@@ -84,7 +84,7 @@ If what streams in is close but missing something — a second variable, a simpl
 
 ### What to do with the visual next[](https://academy.claude.com/use-cases/apply-a-formula-as-you-learn-it-in-chat-with-claude)
 
-Hover for options: copy as image drops it into your notes, Save as Artifact keeps the canvas interactive for later. Or ask Claude to write up what you now understand — the visual surfaced one gap, and putting it in words often surfaces the next.
+Hover for options to copy it as an image for your notes, or ask Claude to turn it into an artifact to keep the canvas interactive for later. Or ask Claude to write up what you now understand — the visual surfaced one gap, and putting it in words often surfaces the next.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/apply-a-formula-as-you-learn-it-in-chat-with-claude)
 

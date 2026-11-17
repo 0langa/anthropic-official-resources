@@ -2,9 +2,16 @@ Multiple dates
 
 # Unified Claude: Security and admins Q&A session
 
-Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile: one place for everything from asking a quick question to producing a deliverable with a full analysis.
+We invite admins and security teams to join Anthropic’s team for guidance on how to migrate your org to unified Claude before the deprecation of the separate chat and Cowork experience. Leave knowing why one unified Claude is simpler for your team and easier for you to govern, and exactly how to make the switch. Please submit questions when you register and we’ll also leave time for live Q&A at the end.
 
-We invite admins and security teams to join Anthropic’s team for guidance on how to migrate your org before the deprecation of the separate chat and Cowork experience. Leave knowing why one unified Claude is simpler for your team and easier for you to govern, and exactly how to make the switch. We’ll leave time for Q&A at the end.
+Pick the date that works for you in the registration form. Upcoming sessions (all at 11am PT):
+
+- Thursday, Nov. 19
+- Thursday, Dec. 3
+- Thursday, Dec. 10
+- Thursday, Dec. 17
+
+Want answers sooner? Watch our recording of our first unified Claude webinar for security teams and admins [here](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins) or review our setup and governance [guide](https://docs.google.com/document/d/1MxUELw_YW07H42_yNcv72r0D6QX5MkGci3m2LyCz9aI/edit).
 
 Register for the webinar
 
@@ -17,6 +24,11 @@ Fill out the form below to reserve your seat.
   Amelia Pedone
 
   Customer Success @ Anthropic
+- ![](https://assets.claude.com/5fa33a74a43804d1a226a312856f0f3724609c86.png?w=128&h=128&fit=crop)
+
+  Abel Ribbink
+
+  Applied AI, Security, Anthropic
 
 ## What you’ll learn
 

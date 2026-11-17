@@ -5,9 +5,12 @@ Get real-time responses from the Agent SDK as text and tool calls stream in
 
 By default, the Agent SDK yields a complete `AssistantMessage` for each non-empty content block, such as a text block or a tool call, after Claude finishes generating that block. To receive incremental updates as text and tool calls are generated, enable partial message streaming.
 
-> [!TIP]
+> [!NOTE]
 >
-> This page covers output streaming (receiving tokens in real-time). For input modes (how you send messages), see [Send messages to agents](/docs/en/agent-sdk/streaming-vs-single-mode). You can also [stream responses using the Agent SDK via the CLI](/docs/en/headless).
+> These cases are covered on other pages:
+>
+> * **Sending messages to a running session**: see [Send messages to a running agent](/docs/en/agent-sdk/streaming-vs-single-mode)
+> * **Streaming responses from the CLI**: see [stream responses using the Agent SDK via the CLI](/docs/en/headless)
 
 ## Enable streaming output
 
@@ -324,6 +327,6 @@ for await (const message of query({
 
 Now that you can stream text and tool calls in real-time, explore these related topics:
 
-* [Interactive vs one-shot queries](/docs/en/agent-sdk/streaming-vs-single-mode): choose between input modes for your use case
+* [Send messages to a running agent](/docs/en/agent-sdk/streaming-vs-single-mode): interrupt Claude's response or attach an image to a message
 * [Structured outputs](/docs/en/agent-sdk/structured-outputs): get typed JSON responses from the agent
 * [Permissions](/docs/en/agent-sdk/permissions): control which tools the agent can use

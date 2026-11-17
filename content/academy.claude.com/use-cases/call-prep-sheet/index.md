@@ -4,7 +4,7 @@ Where the deal is and what to ask on this call.
 
 10 minSalesClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-fzzs6i6o.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-my91enox.png)
 
@@ -248,19 +248,19 @@ SalesProspect, craft outreach, and build deal strategy faster. Prep for calls, m
 
 `/call-prep`Prepare for a sales call with account context, attendee research, and suggested agenda.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcall-prep)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcall-prep)
 
 `/account-research`Research a company or person and get actionable sales intel.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Faccount-research)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Faccount-research)
 
 Show all 9 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/call-prep-sheet)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2300A1E0'%20d='M10.01%205.56a4.18%204.18%200%200%201%203.02-1.3c1.58%200%202.96.88%203.7%202.19a5.12%205.12%200%200%201%202.1-.45%205.18%205.18%200%200%201%200%2010.36c-.37%200-.73-.04-1.07-.11a3.77%203.77%200%200%201-4.94%201.55%204.3%204.3%200%200%201-7.99-.2%203.98%203.98%200%200%201-.82.09%203.97%203.97%200%200%201-1.96-7.43%204.57%204.57%200%200%201%207.96-4.7'/%3e%3c/svg%3e)
 
@@ -282,15 +282,15 @@ Google Drive
 
 [Connect](https://claude.ai/desktop/directory/google-drive-drivemcp)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/call-prep-sheet)
 
-Drag the files you'll use (the mutual action plan, your own notes, the proposal) into one folder on your machine, then point Cowork at it. Cowork reads from it and writes the prep sheet back to it. If you prep calls regularly, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your account context, instructions, and memory stay attached.
+Drag the files you'll use (the mutual action plan, your own notes, the proposal) into one folder on your machine, then point Claude at it. Claude reads from it and writes the prep sheet back to it. If you prep calls regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your account context, instructions, and memory stay attached.
 
 Accounts / Northwind / calls
 
@@ -304,13 +304,13 @@ In Cowork’s chat bar:Accounts / Northwind / calls
 
 ## The prompt[](https://academy.claude.com/use-cases/call-prep-sheet)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/call-prep-sheet)
+### Copy this into Claude[](https://academy.claude.com/use-cases/call-prep-sheet)
 
 I'm meeting Northwind tomorrow. From the Salesforce record, the last three Gong transcripts, and the mutual action plan, write the prep sheet: where the deal is, what they care about, the two or three asks I should make on this call, and the likely objections with our response.
 
 
 
-Accounts / Northwind / callsOpen in Cowork
+Accounts / Northwind / callsOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/call-prep-sheet)
 
@@ -324,7 +324,7 @@ I'm meeting Northwind tomorrow. From the Salesforce record, the last three Gong 
 
 Source
 
-**Give enough history to spot patterns.** Naming the last three Gong calls gives Cowork enough history to spot what the buyer keeps returning to, which is where "what they care about" comes from.
+**Give enough history to spot patterns.** Naming the last three Gong calls gives Claude enough history to spot what the buyer keeps returning to, which is where "what they care about" comes from.
 
 Source
 
@@ -334,13 +334,13 @@ I'm meeting Northwind tomorrow. From the Salesforce record, the last three Gong 
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/call-prep-sheet)
+## Make Claude work for you[](https://academy.claude.com/use-cases/call-prep-sheet)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -348,7 +348,7 @@ Make what we've done in this task so far into a skill, or edit the /call-prep sk
 
 
 
-AccountsOpen in Cowork
+AccountsOpen in Claude
 
 
 
@@ -358,13 +358,13 @@ Make what we've done in this task so far into a skill, or edit the /call-prep sk
 
 ### Run it before every external call[](https://academy.claude.com/use-cases/call-prep-sheet)
 
-Prep should be waiting before the meeting reminder fires. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill builds a sheet for every external call on your calendar each morning.
+Prep should be waiting before the meeting reminder fires. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill builds a sheet for every external call on your calendar each morning.
 
-**/schedule** Every weekday at 7:30am, run /call-prep for each external meeting on today's calendar and write each sheet to the matching account's calls folder under Accounts.
+Set up a scheduled task for every weekday at 7:30am: run /call-prep for each external meeting on today's calendar and write each sheet to the matching account's calls folder under Accounts.
 
 
 
-AccountsOpen in Cowork
+AccountsOpen in Claude
 
 Scheduled taskActive
 
@@ -372,7 +372,7 @@ Morning call prep
 
 Runs `/call-prep` for each external meeting on today's calendar and writes the sheet to the account's calls folder.
 
-Every **weekday at 7:30 AM**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **weekday at 7:30 AM**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/call-prep-sheet)
 
@@ -386,7 +386,7 @@ You can share a skill you created. In your list of skills, open the **...** menu
 
 ## Going forward[](https://academy.claude.com/use-cases/call-prep-sheet)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

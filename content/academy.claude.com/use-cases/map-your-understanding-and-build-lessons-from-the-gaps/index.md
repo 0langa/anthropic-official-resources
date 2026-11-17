@@ -93,7 +93,7 @@ The workbook gives you the baseline. Push on the signal you most want to believe
 
 ### Keep working in your spreadsheet[](https://academy.claude.com/use-cases/map-your-understanding-and-build-lessons-from-the-gaps)
 
-Open the workbook in Excel and continue the analysis with [Claude in Excel(opens in new tab)](https://support.claude.com/en/articles/12650343-claude-in-excel). Claude works directly in a sidebar in Excel, where it can read your data, modify formulas, and build on the workbook without leaving your spreadsheet.
+Open the workbook in Excel and continue the analysis with [Claude for Excel(opens in new tab)](https://support.claude.com/en/articles/12650343-claude-in-excel). Claude works directly in a sidebar in Excel, where it can read your data, modify formulas, and build on the workbook without leaving your spreadsheet.
 
 *I downloaded the signal audit workbook. Can you add a tab that checks whether any of our interview signals are redundant—measuring the same thing as another signal we already screen for? I want to cut the ones that aren’t adding new information.*
 

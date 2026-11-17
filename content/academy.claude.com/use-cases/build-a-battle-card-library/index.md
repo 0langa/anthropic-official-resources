@@ -32,7 +32,7 @@ Claude needs details about your product, your competitor, and your typical sales
 
 Connect your CRM, like [HubSpot(opens in new tab)](https://claude.ai/directory/hubspot) or [Salesforce(opens in new tab)](https://claude.ai/directory/salesforce-headless-360), so Claude can pull your closed-lost deals automatically.
 
-Make sure [Web Search(opens in new tab)](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search) is turned on so Claude can research competitor sites and reviews.
+Make sure [Web Search(opens in new tab)](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search) is turned on so Claude can research competitor sites and reviews. If you have the new Claude experience, there's no web search toggle. Claude searches the web when it helps.
 
 Upload a screenshot of your website or sales materials if you want the battlecard to match your brand's colors and fonts.
 

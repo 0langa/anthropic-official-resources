@@ -1,10 +1,10 @@
 # Draft a credit memo from spreads and statements with Claude for Excel
 
-Cowork pulls the borrower's filings and spreads through the S&P Global connector and reads the underwriting workbook from your deal folder. You take the ratios and exceptions into Claude for Excel to update the model, then bring the writeup into Claude for Word for the credit memo.
+Claude pulls the borrower's filings and spreads through the S&P Global connector and reads the underwriting workbook from your deal folder. You take the ratios and exceptions into Claude for Excel to update the model, then bring the writeup into Claude for Word for the credit memo.
 
 15 minFinanceClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-drgxov36.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kgukvwpv.png)
 
@@ -14,7 +14,7 @@ Try in CoworkCopy prompt
 
 The deal goes to committee Thursday. You've got three years of statements in the deal folder, a half-built spread in Excel, a covenant package the relationship manager sent over Friday, and a borrower that doesn't quite look like the last one you underwrote.
 
-In Cowork, Claude pulls the borrower's filings and peer spreads through the S&P Global connector, reads your underwriting workbook from the deal folder, and tells you where the ratios trip your policy thresholds — and which assumptions in the model don't square with what's in the statements. You take that brief into Claude for Excel to update the spread and run the covenants, then open the memo template in Claude for Word. The Excel-to-Word handoff carries the conversation, so Claude already knows which ratios moved when you draft the writeup.
+Claude pulls the borrower's filings and peer spreads through the S&P Global connector, reads your underwriting workbook from the deal folder, and tells you where the ratios trip your policy thresholds — and which assumptions in the model don't square with what's in the statements. You take that brief into Claude for Excel to update the spread and run the covenants, then open the memo template in Claude for Word. The Excel-to-Word handoff carries the conversation, so Claude already knows which ratios moved when you draft the writeup.
 
 Claude pulls the spreads and runs the ratios; you make the credit decision.
 
@@ -31,11 +31,11 @@ Show me the exceptions before I touch anything.
 
 
 
-Open in Cowork
+Open in Claude
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/draft-a-credit-memo-from-spreads-and-statements-with-claude-for-excel)
 
-Cowork pulls borrower data through the S&P Global connector and reads your spread from the deal folder — that's where the ratio analysis and policy check happen. Cell edits happen in Claude for Excel with the workbook open, and the conversation carries into Claude for Word so the memo draft picks up where you left off.
+Claude pulls borrower data through the S&P Global connector and reads your spread from the deal folder — that's where the ratio analysis and policy check happen. Cell edits happen in Claude for Excel with the workbook open, and the conversation carries into Claude for Word so the memo draft picks up where you left off.
 
 ### Required context[](https://academy.claude.com/use-cases/draft-a-credit-memo-from-spreads-and-statements-with-claude-for-excel)
 
@@ -47,7 +47,7 @@ S&P Global
 
 [Connect](https://claude.ai/desktop/directory/s-p-global)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 Deal folder
 
@@ -94,13 +94,13 @@ Continue the conversation with Claude to refine, expand, or explore further.
 
 ### Compare to last review[](https://academy.claude.com/use-cases/draft-a-credit-memo-from-spreads-and-statements-with-claude-for-excel)
 
-In Cowork, ask what's moved since the last credit cycle.
+In Claude, ask what's moved since the last credit cycle.
 
 what changed vs. the FY24 review — leverage, coverage, working capital
 
 
 
-Open in Cowork
+Open in Claude
 
 ### Pressure-test an assumption against the call[](https://academy.claude.com/use-cases/draft-a-credit-memo-from-spreads-and-statements-with-claude-for-excel)
 
@@ -110,7 +110,7 @@ is my 8% FY26 growth too rich? what did the borrower actually say about the pipe
 
 
 
-Open in Cowork
+Open in Claude
 
 ### Build the downside case[](https://academy.claude.com/use-cases/draft-a-credit-memo-from-spreads-and-statements-with-claude-for-excel)
 
@@ -122,9 +122,9 @@ build me a downside scenario in a new tab — revenue down 10%, gross margin dow
 
 ## 5. Tricks, tips, and troubleshooting[](https://academy.claude.com/use-cases/draft-a-credit-memo-from-spreads-and-statements-with-claude-for-excel)
 
-### Ask Cowork for the Excel-ready brief[](https://academy.claude.com/use-cases/draft-a-credit-memo-from-spreads-and-statements-with-claude-for-excel)
+### Ask Claude for the Excel-ready brief[](https://academy.claude.com/use-cases/draft-a-credit-memo-from-spreads-and-statements-with-claude-for-excel)
 
-End your Cowork session by asking for a one-paragraph brief with the cell refs and the policy exceptions — that's what you paste into the Claude for Excel sidebar. Tighter than scrolling back through the chat.
+End the conversation by asking for a one-paragraph brief with the cell refs and the policy exceptions — that's what you paste into the Claude for Excel sidebar. Tighter than scrolling back through the chat.
 
 ### Click the cell reference[](https://academy.claude.com/use-cases/draft-a-credit-memo-from-spreads-and-statements-with-claude-for-excel)
 
@@ -136,11 +136,11 @@ When you open the memo template in Claude for Word, it already knows which ratio
 
 ### Save it as a skill[](https://academy.claude.com/use-cases/draft-a-credit-memo-from-spreads-and-statements-with-claude-for-excel)
 
-Renewal underwriting is the same loop every cycle. Once the Cowork conversation works for one deal, save it as a skill so the next renewal in the portfolio starts one click in.
+Renewal underwriting is the same loop every cycle. Once the conversation works for one deal, save it as a skill so the next renewal in the portfolio starts one click in.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/draft-a-credit-memo-from-spreads-and-statements-with-claude-for-excel)
 
-Try it on your next renewal. Attach the deal folder in Cowork, ask where the borrower stands against policy, and review the exceptions before anything changes.
+Try it on your next renewal. Attach the deal folder in the Claude desktop app, ask where the borrower stands against policy, and review the exceptions before anything changes.
 
 Acme Manufacturing — $25M revolver renewal, committee Thursday. Walk me through the credit before I touch the spread.
 
@@ -153,6 +153,6 @@ Steps:
 
 Show me the exceptions before I touch anything.
 
-Try in Cowork
+Try in Claude
 
 Was this helpful?

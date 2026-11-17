@@ -616,6 +616,7 @@ https://academy.claude.com/tutorials/claude-for-teachers-in-action
 https://academy.claude.com/tutorials/claude-for-word-turn-a-draft-into-a-finished-document
 https://academy.claude.com/tutorials/claude-tag-admin-guide
 https://academy.claude.com/tutorials/cloud-session-or-remote-control
+https://academy.claude.com/tutorials/collaborate-with-your-team-in-claude-artifacts
 https://academy.claude.com/tutorials/configuration-and-multi-file-skills
 https://academy.claude.com/tutorials/connect-your-tools-to-unlock-a-smarter-more-capable-ai-companion
 https://academy.claude.com/tutorials/create-a-design-system-with-claude
@@ -1705,6 +1706,7 @@ https://claude.com/resources/webinars/claude-in-microsoft-foundry-tool-integrati
 https://claude.com/resources/webinars/claude-it-setup-for-nonprofits
 https://claude.com/resources/webinars/claude-on-google-cloud-monitoring-and-securing-agents-at-scale
 https://claude.com/resources/webinars/claude-on-vertex-ai
+https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026
 https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026
 https://claude.com/resources/webinars/claude-science-ama-how-to-accelerate-scientific-discovery
 https://claude.com/resources/webinars/claude-security-putting-claude-to-work-for-defenders
@@ -4904,7 +4906,17 @@ https://support.claude.com/en/articles/18325154
 https://support.claude.com/en/articles/18325154-use-claude-meetings
 https://support.claude.com/en/articles/18342806
 https://support.claude.com/en/articles/18342806-set-up-and-manage-the-new-unified-claude-experience-for-your-team-organization
+https://support.claude.com/en/articles/18426225
 https://support.claude.com/en/articles/18426225-move-from-claude-enterprise-to-claude-desktop-on-a-cloud-provider
+https://support.claude.com/en/articles/18442783-use-the-cloud-browser-in-claude
+https://support.claude.com/en/articles/18466061
+https://support.claude.com/en/articles/18466061-move-claude-code-cli-users
+https://support.claude.com/en/articles/18466091
+https://support.claude.com/en/articles/18466091-plan-identity-and-sign-in
+https://support.claude.com/en/articles/18466097
+https://support.claude.com/en/articles/18466097-plan-for-restricted-models-and-access-programs
+https://support.claude.com/en/articles/18466110
+https://support.claude.com/en/articles/18466110-compare-cloud-providers
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
 https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer
@@ -5578,6 +5590,7 @@ https://www.anthropic.com/research/confidential-inference-trusted-vms
 https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback
 https://www.anthropic.com/research/constitutional-classifiers
 https://www.anthropic.com/research/contextual-retrieval
+https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines
 https://www.anthropic.com/research/cqz@anthropic.com
 https://www.anthropic.com/research/critical-infrastructure-defense
 https://www.anthropic.com/research/crosscoder-model-diffing

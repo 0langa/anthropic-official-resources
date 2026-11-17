@@ -112,7 +112,7 @@ Create a Spanish version of this registration form, translating all labels and d
 
 ### Convert your existing static forms[](https://academy.claude.com/use-cases/create-interactive-pdf-forms)
 
-Upload prior forms and have Claude make batch edits to add interactive elements. For simple forms, try using [Haiku 4.5(opens in new tab)](https://www.anthropic.com/claude/haiku), which is our fastest model for more straightforward work. Use [Sonnet 4.5(opens in new tab)](https://www.anthropic.com/news/claude-sonnet-4-5) for when you are working with more complex layouts or unique design elements. To learn more, visit our [Model Report(opens in new tab)](https://www.anthropic.com/transparency/model-report).
+Upload prior forms and have Claude make batch edits to add interactive elements. Start with your default model. For simple forms, lower the effort level for faster answers. For complex layouts or unique design elements, raise it. Change the effort level in the [model menu(opens in new tab)](https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings), next to the send button. To learn more, see [Choosing a Claude model for knowledge workers(opens in new tab)](https://academy.claude.com/tutorials/choosing-the-right-claude-model).
 
 ### Download and test before distributing[](https://academy.claude.com/use-cases/create-interactive-pdf-forms)
 

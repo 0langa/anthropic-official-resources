@@ -4,7 +4,7 @@ Your perf framework published as a skill every manager runs.
 
 10 minHRClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-n3rpgf21.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jww7pt0u.png)
 
@@ -215,19 +215,19 @@ Human ResourcesStreamline people operations — recruiting, onboarding, performa
 
 `/performance-review`Structure a performance review with self-assessment, manager template, and calibration prep.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fperformance-review)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fperformance-review)
 
 `/org-planning`Headcount planning, org design, and team structure optimization.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Forg-planning)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Forg-planning)
 
 Show all 9 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/performance-review-admin)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 
 
@@ -251,15 +251,15 @@ Google Drive
 
 [Connect](https://claude.ai/desktop/directory/google-drive-drivemcp)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/performance-review-admin)
 
-Drag the files you'll use (your performance framework, the rating definitions, the review template, the cycle instructions you send managers) into one folder on your machine, then point Cowork at it. Cowork reads from it to build the skill and writes the skill file back to it. If you administer the cycle each half, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so the framework, instructions, and memory stay attached.
+Drag the files you'll use (your performance framework, the rating definitions, the review template, the cycle instructions you send managers) into one folder on your machine, then point Claude at it. Claude reads from it to build the skill and writes the skill file back to it. If you administer the cycle each half, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so the framework, instructions, and memory stay attached.
 
 People / perf-cycle
 
@@ -275,13 +275,13 @@ In Cowork’s chat bar:People / perf-cycle
 
 ## The prompt[](https://academy.claude.com/use-cases/performance-review-admin)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/performance-review-admin)
+### Copy this into Claude[](https://academy.claude.com/use-cases/performance-review-admin)
 
 Help me build the /performance-review skill for our managers. The skill should walk a manager through gathering input, scoring against our competencies, and drafting the review in our template. It should quote our rating definitions verbatim and never invent criteria that aren't in the framework.
 
 
 
-People / perf-cycleOpen in Cowork
+People / perf-cycleOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/performance-review-admin)
 
@@ -295,7 +295,7 @@ Help me build the /performance-review skill for our managers. The skill should w
 
 Prompt
 
-**List the steps in order.** Listing gather input, score, then draft tells Cowork the order your cycle instructions expect, so the skill matches the process you already trained managers on.
+**List the steps in order.** Listing gather input, score, then draft tells Claude the order your cycle instructions expect, so the skill matches the process you already trained managers on.
 
 Source
 
@@ -305,13 +305,13 @@ Help me build the /performance-review skill for our managers. The skill should w
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/performance-review-admin)
+## Make Claude work for you[](https://academy.claude.com/use-cases/performance-review-admin)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -319,7 +319,7 @@ Make what we've done in this task so far into a skill, or edit the /performance-
 
 
 
-People / perf-cycleOpen in Cowork
+People / perf-cycleOpen in Claude
 
 
 
@@ -329,13 +329,13 @@ Make what we've done in this task so far into a skill, or edit the /performance-
 
 ### Run it when the cycle opens[](https://academy.claude.com/use-cases/performance-review-admin)
 
-The cycle opens on the same date each half. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and Cowork reminds every manager to run `/performance-review` and refreshes the skill from the latest framework in the folder.
+The cycle opens on the same date each half. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and Claude reminds every manager to run `/performance-review` and refreshes the skill from the latest framework in the folder.
 
-**/schedule** Every Monday at 9am, if a new cycle folder is in People/perf-cycle, refresh /performance-review from those files and post the kickoff note with instructions to the managers channel.
+Set up a scheduled task for every Monday at 9am: if a new cycle folder is in People/perf-cycle, refresh /performance-review from those files and post the kickoff note with instructions to the managers channel.
 
 
 
-People / perf-cycleOpen in Cowork
+People / perf-cycleOpen in Claude
 
 Scheduled taskActive
 
@@ -343,7 +343,7 @@ Perf cycle kickoff
 
 Refreshes `/performance-review` from People/perf-cycle and posts the manager kickoff note when each review cycle opens.
 
-Every **Monday at 9:00am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Monday at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/performance-review-admin)
 
@@ -357,7 +357,7 @@ You can share a skill you created. In your list of skills, open the **...** menu
 
 ## Going forward[](https://academy.claude.com/use-cases/performance-review-admin)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

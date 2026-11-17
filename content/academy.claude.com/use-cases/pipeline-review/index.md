@@ -4,7 +4,7 @@ At-risk deals flagged, with the why.
 
 10 minSalesClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-jwybpfo3.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gah6gl3f.png)
 
@@ -269,19 +269,19 @@ SalesProspect, craft outreach, and build deal strategy faster. Prep for calls, m
 
 `/pipeline-review`Analyze pipeline health — prioritize deals, flag risks, get a weekly action plan.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fpipeline-review)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fpipeline-review)
 
 `/call-prep`Prepare for a sales call with account context, attendee research, and suggested agenda.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcall-prep)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcall-prep)
 
 Show all 9 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/pipeline-review)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2300A1E0'%20d='M10.01%205.56a4.18%204.18%200%200%201%203.02-1.3c1.58%200%202.96.88%203.7%202.19a5.12%205.12%200%200%201%202.1-.45%205.18%205.18%200%200%201%200%2010.36c-.37%200-.73-.04-1.07-.11a3.77%203.77%200%200%201-4.94%201.55%204.3%204.3%200%200%201-7.99-.2%203.98%203.98%200%200%201-.82.09%203.97%203.97%200%200%201-1.96-7.43%204.57%204.57%200%200%201%207.96-4.7'/%3e%3c/svg%3e)
 
@@ -295,16 +295,17 @@ Google Drive
 
 [Connect](https://claude.ai/desktop/directory/google-drive-drivemcp)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a
-working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or
+give Claude access to a folder in the Claude desktop app. Then start with the
+prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/pipeline-review)
 
-Drag the files you'll use (this week's pipeline export, last week's review doc, your stage definitions) into one folder on your machine, then point Cowork at it. Cowork reads from it and writes the scored sheet and review doc back to it. If you run pipeline weekly, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your stage criteria, instructions, and memory stay attached.
+Drag the files you'll use (this week's pipeline export, last week's review doc, your stage definitions) into one folder on your machine, then point Claude at it. Claude reads from it and writes the scored sheet and review doc back to it. If you run pipeline weekly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your stage criteria, instructions, and memory stay attached.
 
 Pipeline / 2026-W17
 
@@ -318,20 +319,20 @@ In Cowork’s chat bar:Pipeline / 2026-W17
 
 ## 2. The prompt[](https://academy.claude.com/use-cases/pipeline-review)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/pipeline-review)
+### Copy this into Claude[](https://academy.claude.com/use-cases/pipeline-review)
 
 Score each open opp in this week's pipeline on stage hygiene, whether there's a real next step, and how long it's sat in stage. Flag the at-risk deals and say why in one line each, then write the manager-ready review doc for our Monday pipeline meeting.
 
 
 
-Pipeline / 2026-W17Open in Cowork
+Pipeline / 2026-W17Open in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/pipeline-review)
 
 Prompt
 
 **Spell out your scoring criteria.** "Hygiene, real next step, age in
-stage" gives Cowork the rubric your manager uses, so the score means
+stage" gives Claude the rubric your manager uses, so the score means
 something in the meeting instead of being a generic health number.
 
 Prompt
@@ -343,7 +344,7 @@ it rather than reading paragraphs.
 Prompt
 
 **Ask for the write-up alongside the data.** "Manager-ready review doc"
-tells Cowork to write the narrative around the scores, the part you'd
+tells Claude to write the narrative around the scores, the part you'd
 otherwise type up Sunday night.
 
 Source
@@ -357,14 +358,14 @@ your definitions and the doc follows the format your manager already expects.
 Practice
 
 **Add an example to match.** Drop an example you like into the folder and
-Cowork matches your structure and voice.
+Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about"
 so you know where to look first when you review the draft.
 
-## 3. Make Cowork work for you[](https://academy.claude.com/use-cases/pipeline-review)
+## 3. Make Claude work for you[](https://academy.claude.com/use-cases/pipeline-review)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -373,7 +374,7 @@ Make what we've done in this task so far into a skill, or edit the
 
 
 
-PipelineOpen in Cowork
+PipelineOpen in Claude
 
 
 
@@ -383,15 +384,15 @@ Make what we've done in this task so far into a skill, or edit the
 
 ### Run it before the Monday meeting[](https://academy.claude.com/use-cases/pipeline-review)
 
-The review should be waiting before the meeting, not built during it. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill scores the pipeline and writes the doc every Monday morning.
+The review should be waiting before the meeting, not built during it. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill scores the pipeline and writes the doc every Monday morning.
 
-**/schedule** Every Monday at 8am, run /pipeline-review against the current
+Set up a scheduled task for every Monday at 8am: run /pipeline-review against the current
 Salesforce pipeline and write the scored sheet and review doc to a new folder
 under Pipeline named for the week.
 
 
 
-PipelineOpen in Cowork
+PipelineOpen in Claude
 
 Scheduled taskActive
 
@@ -400,7 +401,7 @@ Monday pipeline review
 Runs `/pipeline-review` against the current Salesforce pipeline and writes
 the scored sheet and review doc to a weekly folder.
 
-Every **Monday at 8:00 AM**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Monday at 8:00 AM**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## 5. Share with your teammates[](https://academy.claude.com/use-cases/pipeline-review)
 
@@ -418,7 +419,7 @@ so they don't repeat Steps 1-3.
 
 ## Going forward[](https://academy.claude.com/use-cases/pipeline-review)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

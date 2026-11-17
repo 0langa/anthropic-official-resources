@@ -25,9 +25,9 @@ Related articles
 
 - Frontier Red Team
 
-  Oct 22, 2026
+  Nov 16, 2026
 
-  [LLMs are making formal software verification feasible at a much larger scale](https://www.anthropic.com/research/formal-verification)
+  [Updating our coordinated vulnerability disclosure policy timelines](https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines)
 
 [View more](https://www.anthropic.com/search?topic=transparency)
 

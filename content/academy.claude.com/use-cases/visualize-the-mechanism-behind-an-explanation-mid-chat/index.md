@@ -84,11 +84,11 @@ Mentioning what you already understand tells Claude what to skip — more of the
 
 ### What to do with the visual next[](https://academy.claude.com/use-cases/visualize-the-mechanism-behind-an-explanation-mid-chat)
 
-Hover over the visual for options. Copy as image drops it into your notes next to the concept. Save as Artifact keeps the interactive version if you'd reopen the sliders later. Or ask Claude to write up what clicked — you get a paragraph to edit into your notes.
+Hover over the visual for options. Copy as image drops it into your notes next to the concept. Ask Claude to turn it into an artifact to keep the interactive version if you'd reopen the sliders later. Or ask Claude to write up what clicked — you get a paragraph to edit into your notes.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/visualize-the-mechanism-behind-an-explanation-mid-chat)
 
-Try it on whatever concept isn't clicking — say where you're stuck and let Claude build something to watch. Hover over what Claude drew for options: copy an image for your notes, or save it as an Artifact if it's worth keeping past the conversation.
+Try it on whatever concept isn't clicking — say where you're stuck and let Claude build something to watch. Hover over what Claude drew for options to copy an image for your notes, or ask Claude to turn it into an artifact if it's worth keeping past the conversation.
 
 I'm learning orbital mechanics and I understand that the planet speeds up when it's close to the sun and slows down when it's far. But I don't understand why that trade-off exists. Why can't it just go fast the whole time? Help me understand with a well crafted, interactive, dynamic visualization.
 

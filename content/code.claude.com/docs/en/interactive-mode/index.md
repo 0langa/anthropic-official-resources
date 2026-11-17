@@ -78,7 +78,7 @@ You can't remap these shortcuts in the [keybindings configuration file](/docs/en
 | :- | :- | :- |
 | Quick escape | `\` + `Enter` | Works in all terminals |
 | Option key | `Option+Enter` | After enabling [Option as Meta](/docs/en/terminal-config#enable-option-key-shortcuts-on-macos) on macOS |
-| Shift+Enter | `Shift+Enter` | Native in iTerm2, WezTerm, Ghostty, Kitty, Warp, Windows Terminal. For other terminals, see [Enter multiline prompts](/docs/en/terminal-config#enter-multiline-prompts) |
+| Shift+Enter | `Shift+Enter` | Native in iTerm2, WezTerm, Ghostty, Kitty, Warp, Windows Terminal 1.25 or later. For other terminals, see [Enter multiline prompts](/docs/en/terminal-config#enter-multiline-prompts) |
 | Control sequence | `Ctrl+J` | Works in any terminal without configuration |
 | Paste mode | Paste directly | For code blocks, logs |
 

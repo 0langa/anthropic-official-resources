@@ -1,10 +1,10 @@
 # Build the competitive comparison doc
 
-Cowork reads competitor materials against your positioning, writes the win/lose/draw, and outputs a sales deck and Excel matrix.
+Claude reads competitor materials against your positioning, writes the win/lose/draw, and outputs a sales deck and Excel matrix.
 
 10 minMarketingClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-lfte5epc.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ljg8b3c8.png)
 
@@ -295,19 +295,19 @@ MarketingSkills to draft content, plan campaigns, hold brand voice, and report o
 
 `/competitive-brief`Read competitor materials against your positioning and write the win/lose/draw deck
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcompetitive-brief)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcompetitive-brief)
 
 `/campaign-plan`Draft the campaign brief from a goal and last quarter's results
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcampaign-plan)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcampaign-plan)
 
 Show all 7 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/competitor-comparison)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)
 
@@ -333,7 +333,7 @@ Win/loss notes and deal context so the comparison reflects what actually closes.
 
 [Connect](https://claude.ai/desktop/directory/hubspot)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
@@ -341,7 +341,7 @@ Win/loss notes and deal context so the comparison reflects what actually closes.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/competitor-comparison)
 
-Drag the files you'll use (the competitor's pricing page PDF, their datasheet, your positioning doc, last quarter's comparison deck) into one folder on your machine, then point Cowork at it. Cowork reads from it and writes the deck and the Excel matrix back to it. If you track this competitor every quarter, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so the sources and instructions stay attached.
+Drag the files you'll use (the competitor's pricing page PDF, their datasheet, your positioning doc, last quarter's comparison deck) into one folder on your machine, then give Claude access to it in the Claude desktop app. Claude reads from it and writes the deck and the Excel matrix back to it. If you track this competitor every quarter, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so the sources and instructions stay attached.
 
 Competitive / Acme
 
@@ -357,13 +357,13 @@ In Cowork’s chat bar:Competitive / Acme
 
 ## The prompt[](https://academy.claude.com/use-cases/competitor-comparison)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/competitor-comparison)
+### Copy this into Claude[](https://academy.claude.com/use-cases/competitor-comparison)
 
 Here's the competitor's site, pricing page, and recent announcements, plus our positioning doc. Build a structured comparison: where we win, where they win, and where it's a draw. Output a PowerPoint deck for sales and an Excel workbook with the feature-by-feature matrix.
 
 
 
-Competitive / AcmeOpen in Cowork
+Competitive / AcmeOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/competitor-comparison)
 
@@ -391,9 +391,9 @@ Here's the competitor's site, pricing page, and recent announcements, plus our p
 
 Practice
 
-**Add your last deck as the template.** Drop last quarter's comparison into the folder and Cowork matches the slide structure and tone.
+**Add your last deck as the template.** Drop last quarter's comparison into the folder and Claude matches the slide structure and tone.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/competitor-comparison)
+## Make Claude work for you[](https://academy.claude.com/use-cases/competitor-comparison)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -401,7 +401,7 @@ Make what we've done in this task so far into a skill, or edit the /competitive-
 
 
 
-Competitive / AcmeOpen in Cowork
+Competitive / AcmeOpen in Claude
 
 
 
@@ -411,13 +411,13 @@ Make what we've done in this task so far into a skill, or edit the /competitive-
 
 ### Run it on a schedule[](https://academy.claude.com/use-cases/competitor-comparison)
 
-Competitors ship and reprice without telling you. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill re-reads their public pages, refreshes the matrix, and flags what changed since last time.
+Competitors ship and reprice without telling you. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill re-reads their public pages, refreshes the matrix, and flags what changed since last time.
 
-**/schedule** First Monday of each month, run /competitive-brief against the sources in this folder, refresh the Excel matrix, and post a summary of what changed to #competitive.
+Set up a scheduled task for the first Monday of each month: run /competitive-brief against the sources in this folder, refresh the Excel matrix, and post a summary of what changed to #competitive.
 
 
 
-Competitive / AcmeOpen in Cowork
+Competitive / AcmeOpen in Claude
 
 Scheduled taskActive
 
@@ -425,7 +425,7 @@ Monthly competitor refresh
 
 Runs `/competitive-brief` against the sources in this folder, refreshes the Excel matrix, and posts a summary of what changed to #competitive.
 
-Every **first Monday of the month**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **first Monday of the month**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/competitor-comparison)
 
@@ -439,7 +439,7 @@ You can share a skill you created. In your list of skills, open the **...** menu
 
 ## Going forward[](https://academy.claude.com/use-cases/competitor-comparison)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

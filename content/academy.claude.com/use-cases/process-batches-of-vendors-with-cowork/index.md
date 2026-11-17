@@ -1,18 +1,18 @@
-# Process batches of vendors with Cowork
+# Process batches of vendors with Claude
 
-Onboard several vendors in one session — with Cowork, Claude can read a folder of vendor files, adds each to your tracker, generates their contracts, and fills multiple intake forms in your browser.
+Onboard several vendors in one conversation — Claude can read a folder of vendor files, add each to your tracker, generate their contracts, and fill multiple intake forms in your browser.
 
 10 minOperationsClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-f5rr63un.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nmenq2sv.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-fs8n0rwn.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dddrlr2v.png)
 
-![Process batches of vendors with Cowork result](https://academy.claude.com/assets/v1/process-batches-of-vendors-with-cowork-dcw2eowd.png)
+![Process batches of vendors with Claude result](https://academy.claude.com/assets/v1/process-batches-of-vendors-with-cowork-dcw2eowd.png)
 
 ## 1. Describe the task[](https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork)
 
-In Cowork, Claude works across your local files and browser in a single session. It reads your vendor tracker, contract templates, and vendor documents from a folder, then fills intake forms in your procurement portal through Claude in Chrome.
+Claude works across your local files and browser in a single conversation. It reads your vendor tracker, contract templates, and vendor documents from a folder, then fills intake forms in your procurement portal through Claude in Chrome.
 
 In your prompt, describe the end state you want. Claude plans the onboarding steps from there, and when parts of the workflow are independent, it runs them in parallel.
 
@@ -28,20 +28,20 @@ Organize all the new documents on my desktop.
 
 
 
-Open in Cowork
+Open in Claude
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork)
 
-[Cowork(opens in new tab)](https://academy.claude.com/tutorials/choosing-between-claude-cowork-or-chat) is a workspace in Claude, available in the [Claude Desktop(opens in new tab)](https://claude.com/download) app and — with remote sessions ([check availability for your plan(opens in new tab)](https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile)) — on web and mobile. When you start a task from the Claude Desktop app, Claude reaches your local files through the app while it's open, and the files it uses are processed on Anthropic's servers. You don't need to copy and paste anything into the conversation. For browser work like filling portal forms, it uses [Claude in Chrome(opens in new tab)](https://claude.com/chrome).
+When you start a task from the Claude Desktop app, Claude reaches your local files through the app while it's open, and the files it uses are processed on Anthropic's servers. You don't need to copy and paste anything into the conversation. For browser work like filling portal forms, it uses [Claude in Chrome(opens in new tab)](https://claude.com/chrome).
 
-**What to expect:** After your initial prompt in Cowork, Claude may ask you questions about how to handle the batch, then build a plan you can review in the sidebar. This front-loading helps it run end-to-end with fewer interruptions.
+**What to expect:** After your initial prompt, Claude may ask you questions about how to handle the batch, then build a plan you can review in the sidebar. This front-loading helps it run end-to-end with fewer interruptions.
 
 ### Required context[](https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork)
 
 To get started:
 
-- Download [Claude Desktop(opens in new tab)](https://claude.com/download) and start a Cowork session
-- Select ***Work in a folder*** in the chat bar and choose the folder with your vendor tracker, contract templates, and vendor details
+- Download [Claude Desktop(opens in new tab)](https://claude.com/download) and start a new task
+- In the Claude desktop app, give Claude access to the folder with your vendor tracker, contract templates, and vendor details
 - [Install Claude in Chrome(opens in new tab)](https://claude.com/chrome) and turn on the Claude in Chrome connector (Settings > Connectors), then log into your procurement portal
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork)
@@ -82,7 +82,7 @@ Create more contracts from your templates. NDAs, SOWs, or other vendor documents
 
 
 
-Open in Cowork
+Open in Claude
 
 ### Organize vendor files[](https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork)
 
@@ -92,7 +92,7 @@ Create a vendor folder with everything in one place. Move or copy all onboarding
 
 
 
-Open in Cowork
+Open in Claude
 
 ## 5. Tricks, tips, and troubleshooting[](https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork)
 
@@ -102,15 +102,15 @@ Updating the vendor tracker and generating the contract don't depend on each oth
 
 ### Turn on the Claude in Chrome connector before starting[](https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork)
 
-Install Claude in Chrome and enable it under Settings > Connectors, then select it from the Connectors menu in your Cowork session. Log into your procurement portal before you start — Claude works within your authenticated session.
+Install Claude in Chrome and enable it under Settings > Connectors, then select it from the Connectors menu in your conversation. Log into your procurement portal before you start — Claude works within your authenticated session.
 
 ### The progress panel shows what Claude is working on[](https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork)
 
-Cowork displays which files Claude is reading and what it's doing at each step. If something looks off, you can steer the work in progress.
+Claude displays which files it is reading and what it's doing at each step. If something looks off, you can steer the work in progress.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork)
 
-Use Cowork to handle vendor onboarding in one session — updating your tracker, generating contracts, and filling portal forms.
+Use Claude to handle vendor onboarding in one session — updating your tracker, generating contracts, and filling portal forms.
 
 I need to onboard several vendors. Their documents spread across my desktop.
 
@@ -122,6 +122,6 @@ For each new vendor:
 
 Organize all the new documents on my desktop.
 
-Try in Cowork
+Try in Claude
 
 Was this helpful?

@@ -4,7 +4,7 @@ Agendas and context for every meeting next week.
 
 10 minClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-c17k7zsz.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hmn3kocy.png)
 
@@ -614,19 +614,19 @@ ProductivitySkills for inbox sweeps, daily rundowns, meeting prep, and decision 
 
 `/start`Walk next week's calendar and write a context-and-agenda brief per meeting
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fstart)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fstart)
 
 `/task-management`Track the prep tasks and owners that fall out of the week-ahead
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Ftask-management)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Ftask-management)
 
 Show all 4 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/week-ahead-prep)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20width='48'%20height='48'%20viewBox='0%200%2048%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M31.3678%2016.6324L24.7365%2015.8956L16.6315%2016.6324L15.8945%2024.0006L16.6313%2031.3688L23.9996%2032.2899L31.3678%2031.3688L32.1046%2023.8165L31.3678%2016.6324Z'%20fill='white'/%3e%3cpath%20d='M19.6541%2028.0627C19.1033%2027.6906%2018.722%2027.1472%2018.5138%2026.4288L19.7922%2025.902C19.9083%2026.3441%2020.1109%2026.6867%2020.4001%2026.9298C20.6875%2027.173%2021.0375%2027.2927%2021.4464%2027.2927C21.8646%2027.2927%2022.2238%2027.1656%2022.524%2026.9114C22.8241%2026.6571%2022.9753%2026.3329%2022.9753%2025.9406C22.9753%2025.5391%2022.8168%2025.2111%2022.5%2024.957C22.1832%2024.7029%2021.7853%2024.5757%2021.3101%2024.5757H20.5714V23.3103H21.2345C21.6434%2023.3103%2021.9879%2023.1998%2022.2679%2022.9787C22.5479%2022.7577%2022.6879%2022.4556%2022.6879%2022.0706C22.6879%2021.728%2022.5626%2021.4553%2022.3121%2021.2509C22.0617%2021.0465%2021.7447%2020.9434%2021.3598%2020.9434C20.984%2020.9434%2020.6855%2021.0429%2020.4645%2021.2436C20.2434%2021.4444%2020.0831%2021.6912%2019.9819%2021.9823L18.7165%2021.4555C18.8841%2020.9802%2019.1918%2020.5602%2019.643%2020.1973C20.0943%2019.8345%2020.6708%2019.652%2021.3708%2019.652C21.8884%2019.652%2022.3544%2019.7516%2022.7671%2019.9523C23.1797%2020.1531%2023.5039%2020.4313%2023.7379%2020.7849C23.9718%2021.1403%2024.0878%2021.5383%2024.0878%2021.9803C24.0878%2022.4316%2023.9792%2022.8129%2023.7618%2023.126C23.5444%2023.4392%2023.2773%2023.6786%2022.9605%2023.8463V23.9218C23.3786%2024.0968%2023.7194%2024.3639%2023.9883%2024.7231C24.2554%2025.0823%2024.3898%2025.5115%2024.3898%2026.0126C24.3898%2026.5136%2024.2627%2026.9612%2024.0085%2027.3536C23.7542%2027.746%2023.4024%2028.0554%2022.9567%2028.2801C22.5091%2028.5048%2022.0063%2028.619%2021.4481%2028.619C20.8016%2028.6208%2020.2048%2028.4348%2019.6541%2028.0627Z'%20fill='%231A73E8'/%3e%3cpath%20d='M27.4998%2021.7203L26.1035%2022.7353L25.4017%2021.6706L27.9198%2019.8543H28.8851V28.4216H27.4998V21.7203Z'%20fill='%231A73E8'/%3e%3cpath%20d='M31.3684%2038.0006L37.9997%2031.3693L34.6841%2029.8958L31.3684%2031.3693L29.8948%2034.685L31.3684%2038.0006Z'%20fill='%23EA4335'/%3e%3cpath%20d='M15.1578%2034.6838L16.6314%2037.9994H31.3677V31.3681H16.6314L15.1578%2034.6838Z'%20fill='%2334A853'/%3e%3cpath%20d='M12.2104%2010C10.9892%2010%2010%2010.9892%2010%2012.2104V31.3676L13.3156%2032.8412L16.6313%2031.3676V16.6313H31.3676L32.8412%2013.3156L31.3678%2010H12.2104Z'%20fill='%234285F4'/%3e%3cpath%20d='M10%2031.3681V35.789C10%2037.0103%2010.9892%2037.9994%2012.2104%2037.9994H16.6313V31.3681H10Z'%20fill='%23188038'/%3e%3cpath%20d='M31.3685%2016.6311V31.3674H37.9998V16.6311L34.6841%2015.1575L31.3685%2016.6311Z'%20fill='%23FBBC04'/%3e%3cpath%20d='M37.9998%2016.6313V12.2104C37.9998%2010.9891%2037.0106%2010%2035.7894%2010H31.3685V16.6313H37.9998Z'%20fill='%231967D2'/%3e%3c/svg%3e)
 
@@ -652,15 +652,15 @@ Google DriveOptional
 
 [Connect](https://claude.ai/desktop/directory/google-drive-drivemcp)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/week-ahead-prep)
 
-Create a `Week-of-<date>` folder and point Cowork at it. The week-ahead doc, each meeting's agenda, and any prep notes you add through the week land there together. If you run this every week, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent folder so your agenda format and prep preferences stay attached.
+Create a `Week-of-<date>` folder and point Claude at it. The week-ahead doc, each meeting's agenda, and any prep notes you add through the week land there together. If you run this every week, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent folder so your agenda format and prep preferences stay attached.
 
 Planning / Week-of-2026-04-27
 
@@ -674,23 +674,23 @@ In Cowork’s chat bar:Planning / Week-of-2026-04-27
 
 ## The prompt[](https://academy.claude.com/use-cases/week-ahead-prep)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/week-ahead-prep)
+### Copy this into Claude[](https://academy.claude.com/use-cases/week-ahead-prep)
 
 Look at my calendar for next week. For each meeting, pull the context: the last time we met, related Slack threads, attached or mentioned docs, and open items I owe them. Draft a one-paragraph agenda for each and flag the three I most need to prep for. Write it all to a single week-ahead doc for Sunday night.
 
 
 
-Planning / Week-of-2026-04-27Open in Cowork
+Planning / Week-of-2026-04-27Open in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/week-ahead-prep)
 
 Source
 
-**List the sources to pull from.** Listing "last time we met, related Slack threads, attached docs, open items I owe" tells Cowork exactly which sources to chase per meeting, so the brief is grounded rather than generic.
+**List the sources to pull from.** Listing "last time we met, related Slack threads, attached docs, open items I owe" tells Claude exactly which sources to chase per meeting, so the brief is grounded rather than generic.
 
 Prompt
 
-**Ask which ones matter most.** "Flag the three I most need to prep for" makes Cowork commit to a priority call instead of treating every meeting as equal weight.
+**Ask which ones matter most.** "Flag the three I most need to prep for" makes Claude commit to a priority call instead of treating every meeting as equal weight.
 
 Prompt
 
@@ -704,13 +704,13 @@ Look at my calendar for next week. For each meeting, pull the context: the last 
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/week-ahead-prep)
+## Make Claude work for you[](https://academy.claude.com/use-cases/week-ahead-prep)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -718,7 +718,7 @@ Make what we've done in this task so far into a skill, or edit the /start skill 
 
 
 
-PlanningOpen in Cowork
+PlanningOpen in Claude
 
 
 
@@ -728,13 +728,13 @@ Make what we've done in this task so far into a skill, or edit the /start skill 
 
 ### Run it every Sunday at 5pm[](https://academy.claude.com/use-cases/week-ahead-prep)
 
-The briefing should be waiting before the week starts. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill runs every Sunday afternoon and writes to a fresh Week-of folder.
+The briefing should be waiting before the week starts. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs every Sunday afternoon and writes to a fresh Week-of folder.
 
-**/schedule** Run /start every Sunday at 5:00pm, create a Week-of-<next-monday> folder under Planning, and write the week-ahead doc and per-meeting agendas there.
+Set up a scheduled task: run /start every Sunday at 5:00pm, create a Week-of-<next-monday> folder under Planning, and write the week-ahead doc and per-meeting agendas there.
 
 
 
-PlanningOpen in Cowork
+PlanningOpen in Claude
 
 Scheduled taskActive
 
@@ -742,7 +742,7 @@ Week-ahead chief of staff
 
 Runs `/start` against Calendar, Slack, Gmail, and Drive and writes the briefing and agendas to a new Week-of folder.
 
-Every **Sunday at 5:00pm**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Sunday at 5:00pm**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/week-ahead-prep)
 
@@ -756,7 +756,7 @@ You can share a skill you created. In your list of skills, open the **...** menu
 
 ## Going forward[](https://academy.claude.com/use-cases/week-ahead-prep)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

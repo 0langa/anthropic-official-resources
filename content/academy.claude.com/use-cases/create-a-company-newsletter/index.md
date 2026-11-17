@@ -36,7 +36,7 @@ For a more complete view, add additional sources where company information that 
 
 ### Required context[](https://academy.claude.com/use-cases/create-a-company-newsletter)
 
-In Settings > Connectors, find and enable your [Slack(opens in new tab)](https://www.anthropic.com/news/claude-and-slack) connector and [Google Drive(opens in new tab)](https://support.claude.com/en/articles/10166901-using-the-google-drive-integration) and [Gmail(opens in new tab)](https://support.claude.com/en/articles/10166901-use-google-workspace-connectors) integrations.
+In Settings > Connectors, find and enable your [Slack(opens in new tab)](https://claude.ai/directory/slack) connector and [Google Drive(opens in new tab)](https://support.claude.com/en/articles/10166901-using-the-google-drive-integration) and [Gmail(opens in new tab)](https://support.claude.com/en/articles/10166901-use-google-workspace-connectors) integrations.
 
 Google Drive documents, coupled with Gmail and Slack discussions, offer both informal and formal information for complete coverage.
 

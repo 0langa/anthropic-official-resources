@@ -4,7 +4,7 @@ Every account renewing this quarter, scored on usage, sentiment, and open commit
 
 15 minSalesClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-om42hzcu.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mj4bkeih.png)
 
@@ -220,19 +220,19 @@ SalesProspect, craft outreach, and build deal strategy faster. Prep for calls, m
 
 `/pipeline-review`Analyze pipeline health — prioritize deals, flag risks, get a weekly action plan.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fpipeline-review)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fpipeline-review)
 
 `/call-prep`Prepare for a sales call with account context, attendee research, and suggested agenda.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcall-prep)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcall-prep)
 
 Show all 9 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/renewal-risk-audit)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2300A1E0'%20d='M10.01%205.56a4.18%204.18%200%200%201%203.02-1.3c1.58%200%202.96.88%203.7%202.19a5.12%205.12%200%200%201%202.1-.45%205.18%205.18%200%200%201%200%2010.36c-.37%200-.73-.04-1.07-.11a3.77%203.77%200%200%201-4.94%201.55%204.3%204.3%200%200%201-7.99-.2%203.98%203.98%200%200%201-.82.09%203.97%203.97%200%200%201-1.96-7.43%204.57%204.57%200%200%201%207.96-4.7'/%3e%3c/svg%3e)
 
@@ -248,7 +248,7 @@ Gong
 
 Read the last QBR and recent call sentiment for each account.
 
-Custom connector
+[Connect](https://claude.ai/desktop/directory/gong)
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20fill='%2303363D'%3e%3cpath%20d='M11%207.7v13.1H.2L11%207.7Z'/%3e%3cpath%20d='M11%203.2a5.4%205.4%200%200%201-10.8%200H11Z'/%3e%3cpath%20d='M13%2016.3V3.2h10.8L13%2016.3Z'/%3e%3cpath%20d='M13%2020.8a5.4%205.4%200%200%201%2010.8%200H13Z'/%3e%3c/g%3e%3c/svg%3e)
 
@@ -258,15 +258,15 @@ Factor open and recently escalated support tickets into the risk score.
 
 Custom connector
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/renewal-risk-audit)
 
-Drag the files you'll use (a CRM export of the renewal book, a product-usage CSV, last quarter's QBR notes) into one folder and point Cowork at it. Cowork reads from it and writes the risk audit and the artifact link back to it. [Create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your renewal folder so your scoring rubric and the exec-commitment tracker stay attached.
+Drag the files you'll use (a CRM export of the renewal book, a product-usage CSV, last quarter's QBR notes) into one folder and point Claude at it. Claude reads from it and writes the risk audit and the artifact link back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your renewal folder so your scoring rubric and the exec-commitment tracker stay attached.
 
 Renewals / FY26-Q3
 
@@ -280,7 +280,7 @@ In Cowork’s chat bar:Renewals / FY26-Q3
 
 ## 2. The prompt[](https://academy.claude.com/use-cases/renewal-risk-audit)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/renewal-risk-audit)
+### Copy this into Claude[](https://academy.claude.com/use-cases/renewal-risk-audit)
 
 Audit my Q3 renewal book. For every account renewing in the next 90 days,
 score renewal risk red/yellow/green based on product-usage
@@ -290,7 +290,7 @@ artifact I can share with leadership.
 
 
 
-Renewals / FY26-Q3Open in Cowork
+Renewals / FY26-Q3Open in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/renewal-risk-audit)
 
@@ -327,7 +327,7 @@ the project and the scores match how your forecast call already talks.
 **Ask for next actions.** Add "for every red, suggest the next action and who
 runs it" so the audit is also the save plan.
 
-## 3. Make Cowork work for you[](https://academy.claude.com/use-cases/renewal-risk-audit)
+## 3. Make Claude work for you[](https://academy.claude.com/use-cases/renewal-risk-audit)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -336,7 +336,7 @@ Make what we've done in this task so far into a skill, or edit the
 
 
 
-RenewalsOpen in Cowork
+RenewalsOpen in Claude
 
 
 
@@ -346,26 +346,26 @@ Make what we've done in this task so far into a skill, or edit the
 
 ### Share it as an artifact[](https://academy.claude.com/use-cases/renewal-risk-audit)
 
-A spreadsheet is a snapshot. Ask Cowork to publish the audit as an artifact and leadership opens one link, with filters for segment, owner, and risk.
+A spreadsheet is a snapshot. Ask Claude to publish the audit as an artifact and leadership opens one link, with filters for segment, owner, and risk.
 
 Publish that renewal-risk table as an artifact for sales leadership,
 filterable by segment and owner.
 
 
 
-Renewals / FY26-Q3Open in Cowork
+Renewals / FY26-Q3Open in Claude
 
 ### Run it on a schedule[](https://academy.claude.com/use-cases/renewal-risk-audit)
 
-Risk moves week to week. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill rescores the book and refreshes the artifact before your Monday forecast call.
+Risk moves week to week. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill rescores the book and refreshes the artifact before your Monday forecast call.
 
-**/schedule** Every Monday at 7am, rerun the renewal risk audit on the
+Set up a scheduled task for every Monday at 7am: rerun the renewal risk audit on the
 current 90-day book, refresh the artifact, and DM me any account that
 moved to red since last week.
 
 
 
-RenewalsOpen in Cowork
+RenewalsOpen in Claude
 
 Scheduled taskActive
 
@@ -374,7 +374,7 @@ Weekly renewal risk audit
 Rescores the 90-day renewal book on usage, sentiment, and open commitments,
 refreshes the artifact, and DMs new reds.
 
-Every **Mondays at 7:00am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Mondays at 7:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## 5. Share with your teammates[](https://academy.claude.com/use-cases/renewal-risk-audit)
 

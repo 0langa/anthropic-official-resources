@@ -111,13 +111,13 @@ A lot of these files have useless names like 'Document (3)' or 'Screenshot 2023-
 
 ## 5. Tricks, tips, and troubleshooting[](https://academy.claude.com/use-cases/organize-files-in-google-drive)
 
-### Save your organization system as a shortcut[](https://academy.claude.com/use-cases/organize-files-in-google-drive)
+### Save your organization system as a skill[](https://academy.claude.com/use-cases/organize-files-in-google-drive)
 
-Once you've refined your folder structure preferences, save your prompt as a shortcut (type "/" and create one like /drive-organize). Include your preferred folder names and file categories so future cleanups match your system.
+Once you've refined your folder structure preferences, ask Claude to save your prompt as a [skill(opens in new tab)](https://support.claude.com/en/articles/12512180-use-skills-in-claude) with a name like drive-organize. Include your preferred folder names and file categories so future cleanups match your system. Next time, type "/" and select it. If you still have the classic side panel, click the shortcut icon below your prompt to save it as a shortcut instead.
 
 ### Schedule monthly maintenance[](https://academy.claude.com/use-cases/organize-files-in-google-drive)
 
-Turn on the schedule toggle for the ability to schedule this workflow. Claude runs the workflow automatically and notifies you when there's something to review. This keeps a regular scan for new unsorted files and duplicates to keep your Drive organized long term.
+To run this workflow on a schedule, open Claude Desktop and set up a [scheduled task(opens in new tab)](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork) with the same prompt, plus a line asking Claude to use Claude in Chrome. Set the task to require your computer. It works only while your computer is awake, with Claude Desktop and Chrome open. Claude runs the workflow automatically and notifies you when there's something to review. This keeps a regular scan for new unsorted files and duplicates to keep your Drive organized long term. If you still have the classic side panel, turn on the schedule toggle when you save a shortcut instead.
 
 ### Claude asks before deleting anything[](https://academy.claude.com/use-cases/organize-files-in-google-drive)
 

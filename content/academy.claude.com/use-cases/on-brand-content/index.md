@@ -4,7 +4,7 @@ Blog, landing page, email, and ad copy in your voice.
 
 10 minMarketingClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-nu0i2d0q.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mxhk1r1q.png)
 
@@ -214,19 +214,19 @@ MarketingCreate content, plan campaigns, and analyze performance across marketin
 
 `/draft-content`Draft blog posts, social media, email newsletters, landing pages, press releases, and case studies with channel-specific formatting and SEO recommendations.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdraft-content)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdraft-content)
 
 `/brand-review`Review content against your brand voice, style guide, and messaging pillars.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fbrand-review)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fbrand-review)
 
 Show all 7 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/on-brand-content)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 
 
@@ -246,15 +246,15 @@ Notion
 
 [Connect](https://claude.ai/desktop/directory/notion)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/on-brand-content)
 
-Drag the files you'll use (the campaign brief, the brand guidelines, two or three best-performing past pieces) into one folder on your machine, then point Cowork at it. Cowork reads from it and writes every asset back to it as separate files. If you'll produce content across multiple campaigns, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent Content folder so the brand guide and voice rules stay attached.
+Drag the files you'll use (the campaign brief, the brand guidelines, two or three best-performing past pieces) into one folder on your machine, then point Claude at it. Claude reads from it and writes every asset back to it as separate files. If you'll produce content across multiple campaigns, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent Content folder so the brand guide and voice rules stay attached.
 
 Content / Spring-Launch
 
@@ -268,13 +268,13 @@ In Cowork’s chat bar:Content / Spring-Launch
 
 ## The prompt[](https://academy.claude.com/use-cases/on-brand-content)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/on-brand-content)
+### Copy this into Claude[](https://academy.claude.com/use-cases/on-brand-content)
 
 Draft the content set for this campaign: a blog post, landing page copy, a three-email sequence, and ad copy in three lengths. Hold our voice and the approved messaging exactly, and note anywhere the brief was thin so I know what to fill.
 
 
 
-Content / Spring-LaunchOpen in Cowork
+Content / Spring-LaunchOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/on-brand-content)
 
@@ -298,13 +298,13 @@ Draft the content set for this campaign: a blog post, landing page copy, a three
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask for options.** Add "draft three versions with different angles" and pick the one that works best.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/on-brand-content)
+## Make Claude work for you[](https://academy.claude.com/use-cases/on-brand-content)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -312,7 +312,7 @@ Make what we've done in this task so far into a skill, or edit the /draft-conten
 
 
 
-ContentOpen in Cowork
+ContentOpen in Claude
 
 
 
@@ -322,13 +322,13 @@ Make what we've done in this task so far into a skill, or edit the /draft-conten
 
 ### Run it on every approved brief[](https://academy.claude.com/use-cases/on-brand-content)
 
-The customized skill runs every weekday at 9am, checking the Content folder for new briefs and drafting the full content set for each. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, to set it up.
+The customized skill runs every weekday at 9am, checking the Content folder for new briefs and drafting the full content set for each. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, to set it up.
 
-**/schedule** Every weekday at 9am, checks Content for new briefs and runs /draft-content on each, writing the full content set to a campaign subfolder.
+Set up a scheduled task for every weekday at 9am: check Content for new briefs and run /draft-content on each, writing the full content set to a campaign subfolder.
 
 
 
-ContentOpen in Cowork
+ContentOpen in Claude
 
 Scheduled taskActive
 
@@ -336,7 +336,7 @@ On-brand content set
 
 Every weekday at 9am, checks Content for new briefs and runs `/draft-content` on each, writing the blog, landing page, emails, and ad copy to a campaign subfolder.
 
-Every **weekday at 9am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **weekday at 9am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/on-brand-content)
 
@@ -350,7 +350,7 @@ You can share a skill you created. In your list of skills, open the **...** menu
 
 ## Going forward[](https://academy.claude.com/use-cases/on-brand-content)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

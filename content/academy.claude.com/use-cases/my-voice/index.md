@@ -4,7 +4,7 @@ A profile of how you write, saved as a skill.
 
 10 minClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-jpnl9xn4.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cdz8tber.png)
 
@@ -200,7 +200,7 @@ Connectors: Gmail, Slack
 
 ### Try a plugin[](https://academy.claude.com/use-cases/my-voice)
 
-The Productivity plugin ships with `/memory-management` so Cowork can save what it learns about how you work; you'll build your own `/my-voice` on top. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Productivity plugin ships with `/memory-management` so Claude can save what it learns about how you work; you'll build your own `/my-voice` on top. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -210,19 +210,19 @@ ProductivityManage tasks, plan your day, and build up memory of important contex
 
 `/memory-management`Two-tier memory system that makes Claude a true workplace collaborator.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fmemory-management)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fmemory-management)
 
 `/update`Sync tasks and refresh memory from your current activity.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fupdate)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fupdate)
 
 Show all 4 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/my-voice)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20width='48'%20height='48'%20viewBox='0%200%2048%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_4766_38693)'%3e%3cpath%20d='M11.9091%2034H16.3636V23.6969L10%2019.1515V32.1818C10%2033.1879%2010.8559%2034%2011.9091%2034Z'%20fill='%234285F4'/%3e%3cpath%20d='M31.6364%2034H36.0909C37.1473%2034%2038%2033.1848%2038%2032.1818V19.1515L31.6364%2023.6969'%20fill='%2334A853'/%3e%3cpath%20d='M31.6364%2015.8182V23.6969L38%2019.1515V16.7272C38%2014.4788%2035.305%2013.1969%2033.4182%2014.5454'%20fill='%23FBBC04'/%3e%3cpath%20d='M16.3636%2023.697V15.8182L24%2021.2727L31.6364%2015.8182V23.697L24%2029.1515'%20fill='%23EA4335'/%3e%3cpath%20d='M10%2016.7272V19.1515L16.3636%2023.6969V15.8182L14.5818%2014.5454C12.6918%2013.1969%2010%2014.4788%2010%2016.7272Z'%20fill='%23C5221F'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_4766_38693'%3e%3crect%20width='28'%20height='20'%20fill='white'%20transform='translate(10%2014)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e)
 
@@ -254,15 +254,15 @@ Google DriveOptional
 
 [Connect](https://claude.ai/desktop/directory/google-drive-drivemcp)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/my-voice)
 
-This one runs almost entirely through connectors, so the working folder is optional. If you'd rather not connect mail, export a folder of writing samples (sent emails, docs you're proud of) and point Cowork at that instead. Either way, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so the voice profile and your later corrections stay attached.
+This one runs almost entirely through connectors, so the working folder is optional. If you'd rather not connect mail, export a folder of writing samples (sent emails, docs you're proud of) and point Claude at that instead. Either way, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so the voice profile and your later corrections stay attached.
 
 Personal / Writing-Samples
 
@@ -274,13 +274,13 @@ In Cowork’s chat bar:Personal / Writing-Samples
 
 ## The prompt[](https://academy.claude.com/use-cases/my-voice)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/my-voice)
+### Copy this into Claude[](https://academy.claude.com/use-cases/my-voice)
 
 Read my sent messages and tell me about my tone and writing style.
 
 
 
-Personal / Writing-SamplesOpen in Cowork
+Personal / Writing-SamplesOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/my-voice)
 
@@ -296,37 +296,37 @@ Read my sent messages and tell me about my tone and writing style.
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/my-voice)
+## Make Claude work for you[](https://academy.claude.com/use-cases/my-voice)
 
-The first profile is a snapshot; your voice keeps moving. Every time you edit a draft Cowork wrote and think "I wouldn't say it like that," feed the correction back. Tell Cowork to add the rule to `/my-voice`, or just say "remember that" in the moment and Cowork writes it into the skill's memory. Over a few weeks the profile tightens until the drafts barely need editing.
+The first profile is a snapshot; your voice keeps moving. Every time you edit a draft Claude wrote and think "I wouldn't say it like that," feed the correction back. Tell Claude to add the rule to `/my-voice`, or just say "remember that" in the moment and Claude writes it into the skill's memory. Over a few weeks the profile tightens until the drafts barely need editing.
 
 Update **/my-voice** with what I just changed in that draft: I never open with "Hope you're well," I use "folks" not "team," I lead with the ask before the context, and I sign off with just my first initial on internal mail. Save those as rules in the skill and add this edited draft to the examples so future drafts match it.
 
 
 
-PersonalOpen in Cowork
+PersonalOpen in Claude
 
 
 
-**Save tweaks as you go.** Any time you rewrite a Cowork draft, end with "add that to /my-voice." The skill accumulates your corrections as rules and your edited drafts as reference examples, so the gap closes every time you use it.
+**Save tweaks as you go.** Any time you rewrite a draft from Claude, end with "add that to /my-voice." The skill accumulates your corrections as rules and your edited drafts as reference examples, so the gap closes every time you use it.
 
 ## Make it repeatable[](https://academy.claude.com/use-cases/my-voice)
 
 ### Refresh the profile monthly[](https://academy.claude.com/use-cases/my-voice)
 
-Your writing shifts as your role does. Ask Cowork to schedule the refresh, or open **Scheduled** in the Cowork sidebar, and Cowork re-reads the last 90 days each month and merges what's new into the skill without losing the rules you've added by hand.
+Your writing shifts as your role does. Ask Claude to schedule the refresh, or open **Scheduled** in the sidebar, and Claude re-reads the last 90 days each month and merges what's new into the skill without losing the rules you've added by hand.
 
 Set up a scheduled task for every Sunday at 6pm: re-read my sent mail and Slack from the last 90 days, update the /my-voice profile with anything new, and keep every rule I've added manually intact.
 
 
 
-PersonalOpen in Cowork
+PersonalOpen in Claude
 
 Scheduled taskActive
 
@@ -334,7 +334,7 @@ Refresh /my-voice
 
 Re-reads the last 90 days of sent mail and Slack and merges anything new into `/my-voice`, preserving your hand-added rules.
 
-Every **Sunday at 6:00pm**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Sunday at 6:00pm**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/my-voice)
 
@@ -348,7 +348,7 @@ You can share a skill you created. In your list of skills, open the **...** menu
 
 ## Going forward[](https://academy.claude.com/use-cases/my-voice)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 
@@ -362,7 +362,7 @@ Your folder
 
 Writing-Samples
 
-Every draft Cowork writes for you now loads `/my-voice` first, so it matches how you actually write — you spend your review on the content, not on making it sound like you.
+Every draft Claude writes for you now loads `/my-voice` first, so it matches how you actually write — you spend your review on the content, not on making it sound like you.
 
 [Next: Thread to decision doc](https://academy.claude.com/use-cases/thread-to-decision)
 

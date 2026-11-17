@@ -12,7 +12,7 @@ Try in ClaudeCopy prompt
 
 ## 1. Describe the task[](https://academy.claude.com/use-cases/thoughtful-gift-giving-with-claude)
 
-The best gifts show you've been paying attention. Claude helps you think through gift ideas that actually fit each person, not just generic suggestions by category. From there, you can search your notes and messages for hints you've forgotten, use web search to find specific products locally, and use Claude for Chrome to buy, book pickup, and coordinate with others.
+The best gifts show you've been paying attention. Claude helps you think through gift ideas that actually fit each person, not just generic suggestions by category. From there, you can search your notes and messages for hints you've forgotten, use web search to find specific products locally, and use Claude in Chrome to buy, book pickup, and coordinate with others.
 
 I always forget stocking stuffers until the last minute and end up panic-buying junk. This year I want to fill stockings with small things people will actually use or enjoy. Help me think through good stocking stuffer ideas for my family that I can find locally this week:
 
@@ -38,15 +38,13 @@ None.
 
 ### Optional context[](https://academy.claude.com/use-cases/thoughtful-gift-giving-with-claude)
 
-**Enable Web Search**: Claude can find specific products, check local store availability, and surface gift ideas based on current trends and reviews.
+**Enable Web Search**: Claude can find specific products, check local store availability, and surface gift ideas based on current trends and reviews. If you have the new Claude experience, there's no web search toggle. Claude searches the web when it helps.
 
-**Enable iOS Connectors (Notes, iMessages)**: In [Claude for Desktop(opens in new tab)](https://claude.com/download), Claude can access additional tools, like iOS apps. It can search your notes and messages for gift hints you've forgotten, like when your mom mentioned wanting a specific bird feeder or your son texted about a new album he loves.
+**Add the Notes and iMessage extensions**: In [Claude for Desktop(opens in new tab)](https://claude.com/download) on a Mac, [install the extensions(opens in new tab)](https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop) **Read and Write Apple Notes** and **Read and Send iMessages**. Claude can then search your notes and messages for gift hints you've forgotten, like when your mom mentioned wanting a specific bird feeder or your son texted about a new album he loves.
 
 [
 
-Web Search](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search)[
-
-connectors](https://support.claude.com/en/articles)
+Web Search](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search)
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/thoughtful-gift-giving-with-claude)
 
@@ -110,7 +108,7 @@ Tell Claude your stocking stuffer budget (e.g., "$50 per person" or "$15-20 per 
 
 ### Check your messages before you start[](https://academy.claude.com/use-cases/thoughtful-gift-giving-with-claude)
 
-Enable iMessage search first and ask Claude to look for gift hints. You might already have the perfect ideas buried in conversations from months ago.
+Add the iMessage extension first and ask Claude to look for gift hints. You might already have the perfect ideas buried in conversations from months ago.
 
 ### Group your list by store before you go[](https://academy.claude.com/use-cases/thoughtful-gift-giving-with-claude)
 

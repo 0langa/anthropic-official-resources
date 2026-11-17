@@ -1,10 +1,10 @@
 # Build analysis from browser charts and folder data
 
-Pull your quarterly revenue from scattered board decks, then grab GDP and inflation data from FRED. Cowork creates a comparison chart showing how your growth stacks up against the macro environment.
+Pull your quarterly revenue from scattered board decks, then grab GDP and inflation data from FRED. Claude creates a comparison chart showing how your growth stacks up against the macro environment.
 
 15 minFinanceClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-l5urtpzk.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bec91nr8.png)
 
@@ -12,9 +12,9 @@ Try in CoworkCopy prompt
 
 ## 1. Describe the task[](https://academy.claude.com/use-cases/build-analysis-from-browser-charts-and-folder-data)
 
-In Cowork, Claude reads files from your folders and pulls live data from the web in a single session. Point it at a folder of board decks and a data source like FRED. It extracts the revenue figures directly, no prep needed.
+Claude reads files from your folders and pulls live data from the web in a single conversation. Point it at a folder of board decks and a data source like FRED. It extracts the revenue figures directly, no prep needed.
 
-Tell Claude what comparison you're making and what format you want the deliverable in. Lead with the goal: a growth comparison for a board meeting. Set a clear boundary on the data (Q1 through Q4 2025) and say what the deliverable is and where Claude should save it. Brief Cowork the way you'd brief a capable colleague, with the outcome and the sources, then let it run. Claude builds the analysis and saves the finished file to your computer.
+Tell Claude what comparison you're making and what format you want the deliverable in. Lead with the goal: a growth comparison for a board meeting. Set a clear boundary on the data (Q1 through Q4 2025) and say what the deliverable is and where Claude should save it. Brief Claude the way you'd brief a capable colleague, with the outcome and the sources, then let it run. Claude builds the analysis and saves the finished file to your computer.
 
 I'm preparing for our board meeting and need to show how our growth compares to the broader economy.
 
@@ -25,25 +25,25 @@ I'm preparing for our board meeting and need to show how our growth compares to 
 
 
 
-Open in Cowork
+Open in Claude
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/build-analysis-from-browser-charts-and-folder-data)
 
-[Claude Cowork(opens in new tab)](https://academy.claude.com/tutorials/choosing-between-claude-cowork-or-chat) is a workspace in Claude, available in the [Claude Desktop(opens in new tab)](https://claude.com/download) app, with sessions in the cloud on web and mobile ([check availability for your plan(opens in new tab)](https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile)). When you start a task from the Claude Desktop app, it reads your local files through the app while it's open and connects to websites through [Claude in Chrome(opens in new tab)](https://claude.com/chrome). The files it uses are processed on Anthropic's servers. For this workflow, it extracts data from your PowerPoint decks and pulls live economic data from sites like FRED, then combines them into a single deliverable.
+When you start a task from the Claude Desktop app, Claude reads your local files through the app while it's open and connects to websites through [Claude in Chrome(opens in new tab)](https://claude.com/chrome). The files it uses are processed on Anthropic's servers. For this workflow, it extracts data from your PowerPoint decks and pulls live economic data from sites like FRED, then combines them into a single deliverable.
 
-**What to expect:** After your initial prompt in Cowork, Claude may ask you questions, like what to focus on or how to structure the output, then build a plan you can review in the sidebar. This helps it work longer and produce a more finished result.
+**What to expect:** After your initial prompt, Claude may ask you questions, like what to focus on or how to structure the output, then build a plan you can review in the sidebar. This helps it work longer and produce a more finished result.
 
 ### Required context[](https://academy.claude.com/use-cases/build-analysis-from-browser-charts-and-folder-data)
 
 To get started:
 
-- Download [Claude Desktop(opens in new tab)](https://claude.com/download) and start a Cowork session
-- Select ***Work in a folder*** in the chat bar and choose the folder containing your PowerPoint files, keeping it to just the decks this analysis needs, the same way the prompt keeps the data to Q1 through Q4 2025
+- Download [Claude Desktop(opens in new tab)](https://claude.com/download) and start a new task
+- In the Claude desktop app, give Claude access to the folder containing your PowerPoint files, keeping it to just the decks this analysis needs, the same way the prompt keeps the data to Q1 through Q4 2025
 - [Install Claude in Chrome(opens in new tab)](https://claude.com/chrome) and add it as a connector to pull live data from FRED
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/build-analysis-from-browser-charts-and-folder-data)
 
-Cowork extracts the revenue figures from each deck and produces a comparison chart with supporting analysis. Using the Claude in Chrome connector, Claude opens FRED in a new browser tab and pulls the economic indicators directly from the site, then combines everything into a single deliverable.
+Claude extracts the revenue figures from each deck and produces a comparison chart with supporting analysis. Using the Claude in Chrome connector, Claude opens FRED in a new browser tab and pulls the economic indicators directly from the site, then combines everything into a single deliverable.
 
 I've extracted the revenue data from your four board decks and pulled economic indicators from FRED. Here's the comparison:
 
@@ -76,43 +76,43 @@ Continue the conversation with Claude to refine, expand, or explore further.
 
 ### Compare against multiple economic indicators[](https://academy.claude.com/use-cases/build-analysis-from-browser-charts-and-folder-data)
 
-Add more context in one pass. Cowork pulls additional indicators from FRED and updates the chart with all of them.
+Add more context in one pass. Claude pulls additional indicators from FRED and updates the chart with all of them.
 
 *"Add unemployment rate and consumer confidence to the comparison. Update the chart to show all four indicators against our revenue growth."*
 
 
 
-Open in Cowork
+Open in Claude
 
 ### Extend to prior years[](https://academy.claude.com/use-cases/build-analysis-from-browser-charts-and-folder-data)
 
-Show the longer trend. If you have older board decks, Cowork reads those too and builds a multi-year comparison.
+Show the longer trend. If you have older board decks, Claude reads those too and builds a multi-year comparison.
 
 *"I also have 2024 and 2023 board decks in the archive folder. Pull those and extend the chart to show a 3-year trend of our growth vs the economy."*
 
 
 
-Open in Cowork
+Open in Claude
 
 ### Create a board-ready slide[](https://academy.claude.com/use-cases/build-analysis-from-browser-charts-and-folder-data)
 
-Go straight to the deliverable. Cowork creates a formatted PowerPoint slide with the chart and key takeaways.
+Go straight to the deliverable. Claude creates a formatted PowerPoint slide with the chart and key takeaways.
 
 *"Create a single PowerPoint slide with the chart, the key numbers, and three bullet points I can use as talking points. Save it to my board-prep folder."*
 
 
 
-Open in Cowork
+Open in Claude
 
 ## 5. Tricks, tips, and troubleshooting[](https://academy.claude.com/use-cases/build-analysis-from-browser-charts-and-folder-data)
 
 ### Claude in Chrome reads visual data[](https://academy.claude.com/use-cases/build-analysis-from-browser-charts-and-folder-data)
 
-When you point Cowork at a chart in your browser, it extracts the underlying numbers, not just what's labeled. This works on dashboards, reports, and data tools that don't offer easy exports.
+When you point Claude at a chart in your browser, it extracts the underlying numbers, not just what's labeled. This works on dashboards, reports, and data tools that don't offer easy exports.
 
 ### Local files plus web data in one workflow[](https://academy.claude.com/use-cases/build-analysis-from-browser-charts-and-folder-data)
 
-The combination is the point. Cowork reads your scattered internal documents and pulls live web data in the same session, then merges them into a single output.
+The combination is the point. Claude reads your scattered internal documents and pulls live web data in the same session, then merges them into a single output.
 
 ### Everything saves to your folder[](https://academy.claude.com/use-cases/build-analysis-from-browser-charts-and-folder-data)
 
@@ -124,7 +124,7 @@ Before the chart goes into your deck, open one of the original board decks and c
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/build-analysis-from-browser-charts-and-folder-data)
 
-Use Cowork to connect internal data with external context — and deliver the full picture.
+Use Claude to connect internal data with external context — and deliver the full picture.
 
 I'm preparing for our board meeting and need to show how our growth compares to the broader economy.
 
@@ -133,6 +133,6 @@ I'm preparing for our board meeting and need to show how our growth compares to 
 • Create a chart comparing our revenue growth to these economic indicators.
 • Save the chart and a summary to my desktop folder.
 
-Try in Cowork
+Try in Claude
 
 Was this helpful?

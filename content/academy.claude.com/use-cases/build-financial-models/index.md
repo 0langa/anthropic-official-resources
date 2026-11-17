@@ -70,7 +70,7 @@ S&P Global
 
 ### Optional context[](https://academy.claude.com/use-cases/build-financial-models)
 
-Make sure [Web Search(opens in new tab)](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search) is enabled so Claude can incorporate current market context and historical scenario precedents.
+Make sure [Web Search(opens in new tab)](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search) is enabled so Claude can incorporate current market context and historical scenario precedents. If you have the new Claude experience, there's no web search toggle. Claude searches the web when it helps.
 
 [
 
@@ -131,7 +131,7 @@ These growth numbers feel optimistic. Pull actual growth trajectories from simil
 
 ### Research recent exit multiples[](https://academy.claude.com/use-cases/build-financial-models)
 
-Use [Research(opens in new tab)](https://support.claude.com/en/articles/11088861-using-research-on-claude) to find current transaction data across multiple sources. Research takes a few minutes but delivers a thorough report with verified citations. With financial data connectors enabled, Claude can cross-reference your internal knowledge with external market data.
+Use [Research(opens in new tab)](https://support.claude.com/en/articles/11088861-using-research-on-claude) to find current transaction data across multiple sources. Research takes a few minutes but delivers a thorough report with citations you can verify. With financial data connectors enabled, Claude can cross-reference your internal knowledge with external market data.
 
 Find healthcare SaaS exit transactions in the last 18 months for companies in the $50-100M ARR range. What multiples did they actually achieve? How does our 7.0x exit assumption compare to recent deals, not just public trading multiples?
 

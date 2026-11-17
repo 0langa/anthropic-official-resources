@@ -1,15 +1,15 @@
 {
-  "actionable_missing_pages": 0,
-  "actionable_population_complete": true,
-  "archived_pages": 5690,
+  "actionable_missing_pages": 5,
+  "actionable_population_complete": false,
+  "archived_pages": 5698,
   "by_host": {
     "academy.claude.com": {
-      "archived_pages": 890,
-      "discovered_pages": 895
+      "archived_pages": 891,
+      "discovered_pages": 896
     },
     "claude.com": {
-      "archived_pages": 868,
-      "discovered_pages": 877
+      "archived_pages": 869,
+      "discovered_pages": 878
     },
     "code.claude.com": {
       "archived_pages": 256,
@@ -20,15 +20,15 @@
       "discovered_pages": 2263
     },
     "support.claude.com": {
-      "archived_pages": 786,
-      "discovered_pages": 820
+      "archived_pages": 791,
+      "discovered_pages": 830
     },
     "www.anthropic.com": {
-      "archived_pages": 657,
-      "discovered_pages": 669
+      "archived_pages": 658,
+      "discovered_pages": 670
     }
   },
-  "discovered_pages": 5782,
+  "discovered_pages": 5795,
   "exact_website_replica": false,
   "limitations": [
     "Discovery is the union of public indexes and hyperlinks, not proof that unlinked pages do not exist.",
@@ -37,6 +37,7 @@
     "A multi-request snapshot is not an atomic point-in-time copy."
   ],
   "live_errors": {
+    "https://academy.claude.com/collections/claude-for-work": "Network did not become idle within 8 seconds; content may still be loading.",
     "https://academy.claude.com/courses/ai-capabilities-and-limitations/course-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "https://academy.claude.com/courses/ai-fluency-for-builders/course-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "https://academy.claude.com/courses/ai-fluency-for-creative-work/course-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
@@ -547,6 +548,7 @@
     "https://www.anthropic.com/research/confidential-inference-trusted-vms": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/constitutional-classifiers": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/contextual-retrieval": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/cqz@anthropic.com": "HTTP 404: https://www.anthropic.com/research/cqz@anthropic.com",
     "https://www.anthropic.com/research/critical-infrastructure-defense": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/cyber-competitions": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
@@ -668,10 +670,10 @@
     "https://www.anthropic.com/transparency/voluntary-commitments": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/webinars": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   },
-  "missing_pages": 92,
+  "missing_pages": 97,
   "page_inventory_complete": false,
-  "pages_with_content_notes": 3832,
-  "retained_partial_pages": 509,
+  "pages_with_content_notes": 3838,
+  "retained_partial_pages": 511,
   "terminal_pages": 92,
   "terminal_statuses": {
     "blocked": 27,

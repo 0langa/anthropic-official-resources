@@ -4,7 +4,7 @@ Every Claude output across the org stays on-brand.
 
 15 minDesignClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-ffjdr70o.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bm06b1oh.png)
 
@@ -196,19 +196,19 @@ DesignAccelerate design workflows — critique, design system management, UX wri
 
 `/ux-copy`Write or review UX copy — microcopy, error messages, empty states, CTAs.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fux-copy)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fux-copy)
 
 `/design-system`Audit, document, or extend your design system.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdesign-system)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdesign-system)
 
 Show all 7 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/brand-guidelines-skill)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%230ACF83'%20d='M8%2024a4%204%200%200%200%204-4v-4H8a4%204%200%200%200%200%208Z'/%3e%3cpath%20fill='%23A259FF'%20d='M4%2012a4%204%200%200%201%204-4h4v8H8a4%204%200%200%201-4-4Z'/%3e%3cpath%20fill='%23F24E1E'%20d='M4%204a4%204%200%200%201%204-4h4v8H8a4%204%200%200%201-4-4Z'/%3e%3cpath%20fill='%23FF7262'%20d='M12%200h4a4%204%200%200%201%200%208h-4V0Z'/%3e%3cpath%20fill='%231ABCFE'%20d='M20%2012a4%204%200%201%201-8%200%204%204%200%200%201%208%200Z'/%3e%3c/svg%3e)
 
@@ -232,17 +232,17 @@ GitHubOptional
 
 Read the design-tokens package so the skill stays in sync with what ships.
 
-[Connect](https://claude.ai/desktop/directory/github)
+[Connect](https://claude.ai/connect-github)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/brand-guidelines-skill)
 
-Drag the files you'll use (the brand guidelines PDF, the voice and tone doc, the exported component docs, the tokens JSON) into one folder on your machine, then point Cowork at it. Cowork reads from it and writes the skill definition back to it. If you maintain the brand system, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so updates to the guidelines flow through.
+Drag the files you'll use (the brand guidelines PDF, the voice and tone doc, the exported component docs, the tokens JSON) into one folder on your machine, then point Claude at it. Claude reads from it and writes the skill definition back to it. If you maintain the brand system, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so updates to the guidelines flow through.
 
 Brand / System-Source
 
@@ -256,13 +256,13 @@ In Cowork’s chat bar:Brand / System-Source
 
 ## The prompt[](https://academy.claude.com/use-cases/brand-guidelines-skill)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/brand-guidelines-skill)
+### Copy this into Claude[](https://academy.claude.com/use-cases/brand-guidelines-skill)
 
 Turn the brand docs in this folder into a shared skill called /on-brand. The skill should enforce our color tokens, typography, spacing, and voice rules on any content or UI it generates, and refuse off-brand patterns with a short reason.
 
 
 
-Brand / System-SourceOpen in Cowork
+Brand / System-SourceOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/brand-guidelines-skill)
 
@@ -286,21 +286,21 @@ Turn the brand docs in this folder into a shared skill called /on-brand. The ski
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/brand-guidelines-skill)
+## Make Claude work for you[](https://academy.claude.com/use-cases/brand-guidelines-skill)
 
-Your first `/on-brand` is a starting draft. Once Step 2 produces output that passes your own brand review, tell Cowork to harden it. Layer in your exception list, your sub-brand variations, your accessibility minimums, and the phrasing you never want to see. A few minutes of conversation and the skill enforces your system from then on.
+Your first `/on-brand` is a starting draft. Once Step 2 produces output that passes your own brand review, tell Claude to harden it. Layer in your exception list, your sub-brand variations, your accessibility minimums, and the phrasing you never want to see. A few minutes of conversation and the skill enforces your system from then on.
 
 Make what we've done in this task so far into a skill, or edit the /on-brand skill with my feedback.
 
 
 
-BrandOpen in Cowork
+BrandOpen in Claude
 
 
 
@@ -310,23 +310,23 @@ Make what we've done in this task so far into a skill, or edit the /on-brand ski
 
 ### Share it as an artifact[](https://academy.claude.com/use-cases/brand-guidelines-skill)
 
-Guidelines change; the skill should too. Ask Cowork to publish a brand-compliance summary as an artifact so anyone can see exactly what `/on-brand` enforces today. Re-run the skill (or schedule it) and the page reflects the latest guidelines.
+Guidelines change; the skill should too. Ask Claude to publish a brand-compliance summary as an artifact so anyone can see exactly what `/on-brand` enforces today. Re-run the skill (or schedule it) and the page reflects the latest guidelines.
 
 Publish a one-page summary of what /on-brand enforces as an artifact for the whole company.
 
 
 
-Brand / System-SourceOpen in Cowork
+Brand / System-SourceOpen in Claude
 
 ### Re-sync it with every guideline change[](https://academy.claude.com/use-cases/brand-guidelines-skill)
 
-The brand evolves; the skill should follow without a ticket. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and set the customized skill to rebuild itself weekly from the source folder and library.
+The brand evolves; the skill should follow without a ticket. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and set the customized skill to rebuild itself weekly from the source folder and library.
 
-**/schedule** Mondays at 9am, re-read Brand/System-Source and the Figma library and rebuild /on-brand, posting a short changelog of what the skill now enforces differently.
+Set up a scheduled task for Mondays at 9am: re-read Brand/System-Source and the Figma library and rebuild /on-brand, posting a short changelog of what the skill now enforces differently.
 
 
 
-BrandOpen in Cowork
+BrandOpen in Claude
 
 Scheduled taskActive
 
@@ -334,7 +334,7 @@ Brand skill re-sync
 
 Each Monday at 9am, re-reads the guidelines folder and Figma library, rebuilds `/on-brand`, and posts a short changelog of what now enforces differently.
 
-Every **Monday at 9:00 AM**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Monday at 9:00 AM**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/brand-guidelines-skill)
 

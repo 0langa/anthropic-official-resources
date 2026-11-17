@@ -1,10 +1,10 @@
 # Reconcile transactions across your accounts
 
-Hand Cowork your bank exports and ledger files. It matches transactions across sources, flags discrepancies, and outputs an annotated reconciliation report.
+Hand Claude your bank exports and ledger files. It matches transactions across sources, flags discrepancies, and outputs an annotated reconciliation report.
 
 15 minFinanceClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-nfd6ar2t.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-noyiroch.png)
 
@@ -12,7 +12,7 @@ Loading
 
 ## 1. Describe the task[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
-In Cowork, Claude reads your bank statements and chart of accounts from a folder, then cross-references every transaction against the source documents.
+Claude reads your bank statements and chart of accounts from a folder, then cross-references every transaction against the source documents.
 
 Focus your prompt on what you need back: a reconciliation report, correcting journal entries, or both. Claude handles the matching while you work on something else.
 
@@ -22,20 +22,20 @@ Can you analyze the transactions, match them to the right accounts, and flag any
 
 
 
-Open in Cowork
+Open in Claude
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
-[Cowork(opens in new tab)](https://academy.claude.com/tutorials/choosing-between-claude-cowork-or-chat) is a workspace in Claude, available in the [Claude Desktop(opens in new tab)](https://claude.com/download) app and — with remote sessions ([check availability for your plan(opens in new tab)](https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile)) — on web and mobile. When you start a task from the Claude Desktop app, Claude reaches your local files through the app while it's open, and the files it uses are processed on Anthropic's servers. Claude cross-references transactions across your bank statements and chart of accounts and identifies what's off.
+When you start a task from the Claude Desktop app, Claude reaches your local files through the app while it's open, and the files it uses are processed on Anthropic's servers. Claude cross-references transactions across your bank statements and chart of accounts and identifies what's off.
 
-**What to expect:** After your initial prompt in Cowork, Claude may ask you clarifying questions about your accounts, then build a plan you can review in the sidebar. This helps it reconcile more thoroughly and produce a more complete output.
+**What to expect:** After your initial prompt, Claude may ask you clarifying questions about your accounts, then build a plan you can review in the sidebar. This helps it reconcile more thoroughly and produce a more complete output.
 
 ### Required context[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
 To get started:
 
-- Download [Claude Desktop(opens in new tab)](https://claude.com/download) and start a Cowork session
-- Select ***Work in a folder*** in the chat bar to give Cowork access to the folder with your financial files, or use the ***+*** button to add individual files
+- Download [Claude Desktop(opens in new tab)](https://claude.com/download) and start a new task
+- In the Claude desktop app, give Claude access to the folder with your financial files, or use the ***+*** button to add individual files
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
@@ -77,7 +77,7 @@ Get a CSV file you can import into your accounting system.
 
 
 
-Open in Cowork
+Open in Claude
 
 ### Create a reconciliation summary[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
@@ -87,7 +87,7 @@ Generate a formal reconciliation report for your records or auditor.
 
 
 
-Open in Cowork
+Open in Claude
 
 ### Analyze adjustment patterns[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
@@ -97,17 +97,17 @@ Identify recurring issues in how transactions are recorded so you can fix the ro
 
 
 
-Open in Cowork
+Open in Claude
 
 ## 5. Tricks, tips, and troubleshooting[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
 ### Use the sidebar panels to track progress[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
-The Outputs panel shows files Claude creates, like your journal entries spreadsheet, as they're generated. The Context panel shows which source files Claude is referencing.
+The Outputs panel shows files Claude creates, like your journal entries spreadsheet, as they're generated. The side panel also lists what Claude is working from, such as a connected folder or attached files.
 
 ### Grant folder access for seamless file output[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
-Before starting, point Cowork to the folder where you want the final journal entries saved. Claude can write the reconciliation output directly there.
+Before starting, point Claude to the folder where you want the final journal entries saved. Claude can write the reconciliation output directly there.
 
 ### Let Claude work through multiple months in parallel[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
@@ -115,14 +115,14 @@ If you're catching up on several months of reconciliation, Claude can coordinate
 
 ### Start another task while this one runs[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
-Open a new session from the sidebar for other work while Cowork reconciles. You'll see a grey dot in the sidebar when it needs attention.
+Open a new session from the sidebar for other work while Claude reconciles. The dot or icon beside this task in the sidebar changes when it needs attention.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
-Give Cowork your source files and let Claude do the cross-referencing. Review the matches, refine as needed, and export the result when you're ready.
+Give Claude your source files and let it do the cross-referencing. Review the matches, refine as needed, and export the result when you're ready.
 
 I need to reconcile my January 2024 bank statement. I've uploaded my checking account statement export and my current chart of accounts.
 
 Can you analyze the transactions, match them to the right accounts, and flag anything that doesn't line up? If there are discrepancies, I'd love journal entries to fix them.
 
-Try in Cowork
+Try in Claude

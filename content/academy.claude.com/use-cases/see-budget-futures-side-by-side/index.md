@@ -84,7 +84,7 @@ The proportional cut Claude draws first is a starting point rather than a recomm
 
 ### What to do with the visual next[](https://academy.claude.com/use-cases/see-budget-futures-side-by-side)
 
-Hover for options to copy the three-bar comparison as an image for a board deck, or save it as an Artifact if you want to pull it up live in the meeting and click through scenarios with the board watching. You can also ask Claude to write the talking-points version as one sentence per scenario so you walk in ready.
+Hover for options to copy the three-bar comparison as an image for a board deck, or ask Claude to turn it into an artifact if you want to pull it up live in the meeting and click through scenarios with the board watching. You can also ask Claude to write the talking-points version as one sentence per scenario so you walk in ready.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/see-budget-futures-side-by-side)
 

@@ -4,7 +4,7 @@ A consistent role spec without the kickoff meeting.
 
 10 minHRClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-lbgzsezl.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-crjbtqxa.png)
 
@@ -272,19 +272,19 @@ Human Resources9 skills for recruiting, onboarding, performance reviews, comp an
 
 `/recruiting-pipeline`Run the hiring-manager intake and produce a complete role specification
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Frecruiting-pipeline)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Frecruiting-pipeline)
 
 `/interview-prep`Draft the external job description from an approved role spec
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Finterview-prep)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Finterview-prep)
 
 Show all 9 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/open-new-role)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)
 
@@ -304,16 +304,17 @@ Microsoft 365
 
 [Connect](https://claude.ai/desktop/directory/microsoft-365)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a
-working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or
+give Claude access to a folder in the Claude desktop app. Then start with the
+prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/open-new-role)
 
-Drag the files you'll use (your role spec template, the leveling guide, the team charter) into one folder on your machine, then point Cowork at it. Cowork reads from it during the intake and writes the finished spec back to it. If you open roles regularly, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent Hiring folder so your templates and instructions stay attached.
+Drag the files you'll use (your role spec template, the leveling guide, the team charter) into one folder on your machine, then point Claude at it. Claude reads from it during the intake and writes the finished spec back to it. If you open roles regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent Hiring folder so your templates and instructions stay attached.
 
 Hiring / Senior-PM-Growth
 
@@ -327,13 +328,13 @@ In Cowork’s chat bar:Hiring / Senior-PM-Growth
 
 ## 2. The prompt[](https://academy.claude.com/use-cases/open-new-role)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/open-new-role)
+### Copy this into Claude[](https://academy.claude.com/use-cases/open-new-role)
 
 I'm opening a new role on my team. Walk me through the intake: what this person will own, the must-have versus nice-to-have skills, the level and reporting line, and what good looks like at 90 days. Push back where I'm vague. Then write the role spec in our standard format and list what's still open for the recruiter.
 
 
 
-Hiring / Senior-PM-GrowthOpen in Cowork
+Hiring / Senior-PM-GrowthOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/open-new-role)
 
@@ -345,7 +346,7 @@ answers rather than guessed from a job title.
 
 Prompt
 
-**Give permission to push back.** "Push back where I'm vague" gives Cowork
+**Give permission to push back.** "Push back where I'm vague" gives Claude
 permission to do what a good recruiter does: notice when "strong
 communicator" needs to become a testable signal.
 
@@ -366,14 +367,14 @@ level definition mean the same thing for every manager who runs this.
 Practice
 
 **Add an example to match.** Drop an example you like into the folder and
-Cowork matches your structure and voice.
+Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about"
 so you know where to look first when you review the draft.
 
-## 3. Make Cowork work for you[](https://academy.claude.com/use-cases/open-new-role)
+## 3. Make Claude work for you[](https://academy.claude.com/use-cases/open-new-role)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -382,7 +383,7 @@ Make what we've done in this task so far into a skill, or edit the
 
 
 
-HiringOpen in Cowork
+HiringOpen in Claude
 
 
 
@@ -392,15 +393,15 @@ Make what we've done in this task so far into a skill, or edit the
 
 ### Run it whenever a headcount is approved[](https://academy.claude.com/use-cases/open-new-role)
 
-A new req gets approved, the intake should be waiting for the hiring manager. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill starts the conversation whenever a new role folder appears under Hiring.
+A new req gets approved, the intake should be waiting for the hiring manager. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill starts the conversation whenever a new role folder appears under Hiring.
 
-**/schedule** Weekdays at 9am, check Hiring for any new subfolder, run
+Set up a scheduled task for weekdays at 9am: check Hiring for any new subfolder, run
 /recruiting-pipeline in each one, and save the intake transcript and finished
 role spec there.
 
 
 
-HiringOpen in Cowork
+HiringOpen in Claude
 
 Scheduled taskActive
 
@@ -409,7 +410,7 @@ New role intake
 Runs `/recruiting-pipeline` in every new subfolder under Hiring and writes the
 intake transcript and finished spec to that role's folder.
 
-Every **Weekdays at 9am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Weekdays at 9am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## 5. Share with your teammates[](https://academy.claude.com/use-cases/open-new-role)
 
@@ -427,7 +428,7 @@ and templates baked in, so they don't repeat Steps 1-3.
 
 ## Going forward[](https://academy.claude.com/use-cases/open-new-role)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

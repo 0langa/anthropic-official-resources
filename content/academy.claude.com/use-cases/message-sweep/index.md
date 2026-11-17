@@ -4,7 +4,7 @@ A topic-grouped sweep of your important channels.
 
 10 minClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-jabaz0im.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nbrkrt31.png)
 
@@ -274,19 +274,19 @@ ProductivitySkills for inbox sweeps, daily rundowns, meeting prep, and decision 
 
 `/start`Sweep unreads across Slack, Teams, and email and group by topic
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fstart)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fstart)
 
 `/update`Turn a long thread into a one-paragraph summary with owners
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fupdate)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fupdate)
 
 Show all 4 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/message-sweep)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)
 
@@ -308,15 +308,15 @@ Gmail
 
 [Connect](https://claude.ai/desktop/directory/gmail-gmailmcp)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/message-sweep)
 
-This one runs almost entirely through connectors, so the working folder is light. Point Cowork at a notes folder if you want each day's sweep saved as a file you can search later; otherwise the sweep stays in the chat and the drafts stay in Slack and Teams. If you run it daily, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your channel list and reply preferences stay attached.
+This one runs almost entirely through connectors, so the working folder is light. Point Claude at a notes folder if you want each day's sweep saved as a file you can search later; otherwise the sweep stays in the chat and the drafts stay in Slack and Teams. If you run it daily, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your channel list and reply preferences stay attached.
 
 Notes / Inbox-Sweeps
 
@@ -328,13 +328,13 @@ In Cowork’s chat bar:Notes / Inbox-Sweeps
 
 ## The prompt[](https://academy.claude.com/use-cases/message-sweep)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/message-sweep)
+### Copy this into Claude[](https://academy.claude.com/use-cases/message-sweep)
 
 Sweep my unread Slack DMs and mentions, Teams activity feed, and Gmail inbox from the last 24 hours. Group everything by topic, not by app. For each topic, tell me whether it needs a reply from me, needs reading, or is just FYI. Draft a reply for everything in the first bucket and keep each to three sentences or fewer.
 
 
 
-Notes / Inbox-SweepsOpen in Cowork
+Notes / Inbox-SweepsOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/message-sweep)
 
@@ -358,13 +358,13 @@ Sweep my unread Slack DMs and mentions, Teams activity feed, and Gmail inbox fro
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/message-sweep)
+## Make Claude work for you[](https://academy.claude.com/use-cases/message-sweep)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -372,7 +372,7 @@ Make what we've done in this task so far into a skill, or edit the /start skill 
 
 
 
-NotesOpen in Cowork
+NotesOpen in Claude
 
 
 
@@ -382,13 +382,13 @@ Make what we've done in this task so far into a skill, or edit the /start skill 
 
 ### Run it every morning at 8am[](https://academy.claude.com/use-cases/message-sweep)
 
-The sweep should be waiting before you open Slack. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill runs every weekday morning against your live connectors.
+The sweep should be waiting before you open Slack. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs every weekday morning against your live connectors.
 
-**/schedule** Run /start every weekday at 8:00am against Slack, Teams, and Gmail, and post the topic-grouped sweep with drafts to me as a Slack DM.
+Set up a scheduled task: run /start every weekday at 8:00am against Slack, Teams, and Gmail, and post the topic-grouped sweep with drafts to me as a Slack DM.
 
 
 
-NotesOpen in Cowork
+NotesOpen in Claude
 
 Scheduled taskActive
 
@@ -396,7 +396,7 @@ Morning message sweep
 
 Runs `/start` across Slack, Teams, and Gmail and DMs you the topic-grouped list with reply drafts.
 
-Every **weekday at 8:00am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **weekday at 8:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/message-sweep)
 
@@ -410,7 +410,7 @@ You can share a skill you created. In your list of skills, open the **...** menu
 
 ## Going forward[](https://academy.claude.com/use-cases/message-sweep)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

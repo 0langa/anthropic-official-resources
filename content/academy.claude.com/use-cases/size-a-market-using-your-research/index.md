@@ -1,10 +1,10 @@
 # Size a market using your research
 
-With Cowork, ask Claude a market question and get back an analysis with professional deliverables. Claude researches, calculates, and outputs a PowerPoint presentation, Excel workbook with detailed methodology, and Markdown source document with citations.
+Ask Claude a market question and get back an analysis with professional deliverables. Claude researches, calculates, and outputs a PowerPoint presentation, Excel workbook with detailed methodology, and Markdown source document with citations.
 
 15 minClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-ftwo7a1q.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gxwdx9w7.png)
 
@@ -12,7 +12,7 @@ Try in CoworkCopy prompt
 
 ## 1. Describe the task[](https://academy.claude.com/use-cases/size-a-market-using-your-research)
 
-In Cowork, Claude runs market sizing end-to-end: research, analysis, and formatted deliverables. Feed it existing research or company data as a starting point, or let it work from scratch.
+Claude runs market sizing end-to-end: research, analysis, and formatted deliverables. Feed it existing research or company data as a starting point, or let it work from scratch.
 
 Describe the market you're sizing and specify your outputs: a presentation, an Excel workbook, a source document with citations. Claude handles the methodology and saves finished files to your computer.
 
@@ -30,20 +30,20 @@ Source all claims.
 
 
 
-Open in Cowork
+Open in Claude
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/size-a-market-using-your-research)
 
-[Cowork(opens in new tab)](https://academy.claude.com/tutorials/choosing-between-claude-cowork-or-chat) is a workspace in Claude, available in the [Claude Desktop(opens in new tab)](https://claude.com/download) app and — with remote sessions ([check availability for your plan(opens in new tab)](https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile)) — on web and mobile. When you start a task from the Claude Desktop app, Claude reaches your local files through the app while it's open, and the files it uses are processed on Anthropic's servers. Claude saves deliverables to your computer the same way. The more context you provide, the more targeted the analysis.
+When you start a task from the Claude Desktop app, Claude reaches your local files through the app while it's open, and the files it uses are processed on Anthropic's servers. Claude saves deliverables to your computer the same way. The more context you provide, the more targeted the analysis.
 
-**What to expect:** After your initial prompt in Cowork, Claude may ask you questions, like market focus, geographic scope, time horizon, and existing assumptions. It then builds a plan you can review in the sidebar. This helps it produce more targeted, finished analysis with less back-and-forth.
+**What to expect:** After your initial prompt, Claude may ask you questions, like market focus, geographic scope, time horizon, and existing assumptions. It then builds a plan you can review in the sidebar. This helps it produce more targeted, finished analysis with less back-and-forth.
 
 ### Required context[](https://academy.claude.com/use-cases/size-a-market-using-your-research)
 
 To get started:
 
-- Download [Claude Desktop(opens in new tab)](https://claude.com/download) and start a Cowork session
-- Select ***Work in a folder*** in the chat bar to give Cowork access to your existing research, company data, or templates
+- Download [Claude Desktop(opens in new tab)](https://claude.com/download) and start a new task
+- In the Claude desktop app, give Claude access to a folder with your existing research, company data, or templates
 - You can also use the ***+*** button to add individual files
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/size-a-market-using-your-research)
@@ -80,7 +80,7 @@ Go deeper on the most attractive market. Focus research on a particular vertical
 
 
 
-Open in Cowork
+Open in Claude
 
 ### Build a sensitivity model[](https://academy.claude.com/use-cases/size-a-market-using-your-research)
 
@@ -90,7 +90,7 @@ Make the calculations interactive. Create an Excel model where you can adjust ke
 
 
 
-Open in Cowork
+Open in Claude
 
 ### Generate competitor profiles[](https://academy.claude.com/use-cases/size-a-market-using-your-research)
 
@@ -100,17 +100,17 @@ Research the competitive landscape in detail. Pull together profiles on the key 
 
 
 
-Open in Cowork
+Open in Claude
 
 ## 5. Tricks, tips, and troubleshooting[](https://academy.claude.com/use-cases/size-a-market-using-your-research)
 
 ### Start another task while this one runs[](https://academy.claude.com/use-cases/size-a-market-using-your-research)
 
-Cowork handles the full research and formatting loop. Open a new session from the sidebar for other work. You'll see a grey dot in the sidebar when it needs attention.
+Claude handles the full research and formatting loop. Open a new session from the sidebar for other work. The dot or icon beside this task in the sidebar changes when it needs attention.
 
 ### Review the plan before it runs[](https://academy.claude.com/use-cases/size-a-market-using-your-research)
 
-Cowork builds a research plan visible in the sidebar. Check that it's covering the right segments, geographies, and frameworks before it starts pulling data.
+Claude builds a research plan visible in the sidebar. Check that it's covering the right segments, geographies, and frameworks before it starts pulling data.
 
 ### Triangulate estimates[](https://academy.claude.com/use-cases/size-a-market-using-your-research)
 
@@ -118,7 +118,7 @@ Cross-check bottom-up calculations against analyst reports. Claude surfaces data
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/size-a-market-using-your-research)
 
-Give Cowork a market sizing question. Come back to a deck, a model, and sourced documentation ready to present.
+Give Claude a market sizing question. Come back to a deck, a model, and sourced documentation ready to present.
 
 I need a market sizing analysis for the enterprise project management software space in North America.
 
@@ -132,6 +132,6 @@ Output as:
 
 Source all claims.
 
-Try in Cowork
+Try in Claude
 
 Was this helpful?

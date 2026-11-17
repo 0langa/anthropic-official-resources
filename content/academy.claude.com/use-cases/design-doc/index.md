@@ -4,7 +4,7 @@ A structured proposal with prior art and trade-offs filled in.
 
 10 minEngineeringClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-pbyyssck.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-oj6tpm7w.png)
 
@@ -274,19 +274,19 @@ EngineeringStreamline engineering workflows — standups, code review, architect
 
 `/system-design`Design systems, services, and architectures.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fsystem-design)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fsystem-design)
 
 `/architecture`Create or evaluate an architecture decision record (ADR).
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Farchitecture)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Farchitecture)
 
 Show all 10 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/design-doc)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cdefs%3e%3clinearGradient%20id='cfA'%20x1='22.64'%20y1='24.36'%20x2='9.98'%20y2='17.07'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20offset='0'%20stop-color='%230052CC'/%3e%3cstop%20offset='1'%20stop-color='%232684FF'/%3e%3c/linearGradient%3e%3clinearGradient%20id='cfB'%20x1='1.36'%20y1='-.36'%20x2='14.02'%20y2='6.93'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20offset='0'%20stop-color='%230052CC'/%3e%3cstop%20offset='1'%20stop-color='%232684FF'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath%20fill='url(%23cfA)'%20d='M.87%2018.26c-.25.4-.52.87-.75%201.23a.75.75%200%200%200%20.25%201.02l4.96%203.05a.75.75%200%200%200%201.04-.25c.2-.33.45-.76.73-1.21%201.95-3.22%203.91-2.83%207.45-1.14l4.92%202.34a.75.75%200%200%200%201-.36l2.36-5.34a.75.75%200%200%200-.38-.98c-1.04-.49-3.1-1.46-4.96-2.36-6.68-3.24-12.36-3.03-16.62%204Z'/%3e%3cpath%20fill='url(%23cfB)'%20d='M23.13%205.74c.25-.4.52-.87.75-1.23a.75.75%200%200%200-.25-1.02L18.67.44a.75.75%200%200%200-1.04.25c-.2.33-.45.76-.73%201.21-1.95%203.22-3.91%202.83-7.45%201.14L4.53.7a.75.75%200%200%200-1%20.36L1.17%206.4a.75.75%200%200%200%20.38.98c1.04.49%203.1%201.46%204.96%202.36%206.68%203.24%2012.36%203.03%2016.62-4Z'/%3e%3c/svg%3e)
 
@@ -302,7 +302,7 @@ GitHub
 
 Read the relevant code and past ADRs so the proposal references the system as it actually is.
 
-[Connect](https://claude.ai/desktop/directory/github)
+[Connect](https://claude.ai/connect-github)
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23000'%20d='M4.46%204.44c.74.6%201.02.56%202.42.46l13.18-.79c.28%200%20.05-.28-.05-.32l-2.19-1.58c-.42-.33-.98-.7-2.05-.6L2.99%202.53c-.46.05-.56.28-.37.46l1.84%201.45Zm.8%203.1v13.87c0%20.74.37%201.02%201.21.98l14.49-.84c.84-.05.93-.56.93-1.16V6.6c0-.6-.23-.93-.74-.88l-15.14.88c-.56.05-.75.33-.75.93Zm14.3.74c.1.42%200%20.84-.42.89l-.7.14v10.24c-.6.33-1.16.51-1.63.51-.74%200-.93-.23-1.49-.93l-4.56-7.16v6.93l1.44.33s0%20.84-1.16.84l-3.21.18c-.1-.18%200-.65.33-.74l.84-.23V9.98l-1.16-.1c-.1-.42.14-1.02.79-1.07l3.44-.23%204.75%207.25V9.42l-1.21-.14c-.1-.51.28-.88.74-.93l3.21-.18Z'/%3e%3c/svg%3e)
 
@@ -312,15 +312,15 @@ Pull the RFC template and publish the draft into your design-review database.
 
 [Connect](https://claude.ai/desktop/directory/notion)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/design-doc)
 
-Drag the files you'll use (your RFC template, the one-pager or notes you've already written, related past RFCs, the service's architecture diagram) into one folder and point Cowork at it. Cowork reads from there and writes the draft, the alternatives table, and the diagram back to it. [Create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your RFCs folder so your template, your review checklist, and your team's writing conventions stay attached.
+Drag the files you'll use (your RFC template, the one-pager or notes you've already written, related past RFCs, the service's architecture diagram) into one folder and point Claude at it. Claude reads from there and writes the draft, the alternatives table, and the diagram back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your RFCs folder so your template, your review checklist, and your team's writing conventions stay attached.
 
 RFCs / 0087-streaming-events
 
@@ -334,19 +334,19 @@ In Cowork’s chat bar:RFCs / 0087-streaming-events
 
 ## The prompt[](https://academy.claude.com/use-cases/design-doc)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/design-doc)
+### Copy this into Claude[](https://academy.claude.com/use-cases/design-doc)
 
 Write a design doc for moving our event pipeline from batch to streaming. Look up prior art and architecture constraints, then draft the proposal in our RFC template: problem, goals and non-goals, two or three approaches with trade-offs, the recommendation, and open questions. I'll fill in the parts only I know.
 
 
 
-RFCs / 0087-streaming-eventsOpen in Cowork
+RFCs / 0087-streaming-eventsOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/design-doc)
 
 Prompt
 
-**Ask for prior art explicitly.** Cowork searches your wiki and past RFCs so the doc cites what's been tried before.
+**Ask for prior art explicitly.** Claude searches your wiki and past RFCs so the doc cites what's been tried before.
 
 Prompt
 
@@ -354,7 +354,7 @@ Write a design doc for moving our event pipeline from batch to streaming. Look u
 
 Prompt
 
-**Say which parts you'll fill in.** Cowork handles structure and lookup; you spend time on the actual judgment call.
+**Say which parts you'll fill in.** Claude handles structure and lookup; you spend time on the actual judgment call.
 
 Source
 
@@ -364,13 +364,13 @@ Write a design doc for moving our event pipeline from batch to streaming. Look u
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/design-doc)
+## Make Claude work for you[](https://academy.claude.com/use-cases/design-doc)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -378,7 +378,7 @@ Make what we've done in this task so far into a skill, or edit the /system-desig
 
 
 
-RFCsOpen in Cowork
+RFCsOpen in Claude
 
 
 
@@ -388,13 +388,13 @@ Make what we've done in this task so far into a skill, or edit the /system-desig
 
 ### Run it from any one-pager[](https://academy.claude.com/use-cases/design-doc)
 
-Design docs start as a paragraph in a Slack thread or a notes file. Type `/schedule` or open **Scheduled** in the Cowork sidebar, and the customized skill watches your RFCs/inbox folder and turns any new one-pager into a structured first draft.
+Design docs start as a paragraph in a Slack thread or a notes file. Ask Claude to set up a scheduled task or open **Scheduled** in the sidebar, and the customized skill watches your RFCs/inbox folder and turns any new one-pager into a structured first draft.
 
-**/schedule** Weekdays at 9am, check RFCs/inbox for new one-pagers, run /system-design on each one, and write the structured draft to a numbered folder under RFCs/.
+Set up a scheduled task for weekdays at 9am: check RFCs/inbox for new one-pagers, run /system-design on each one, and write the structured draft to a numbered folder under RFCs/.
 
 
 
-RFCsOpen in Cowork
+RFCsOpen in Claude
 
 Scheduled taskActive
 
@@ -402,7 +402,7 @@ RFC inbox to draft
 
 Weekdays at 9am, picks up new one-pagers from RFCs/inbox, runs `/system-design` with prior-art lookup, and writes a structured draft to a numbered RFC folder.
 
-Every **weekday at 9:00am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **weekday at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/design-doc)
 

@@ -84,11 +84,11 @@ The math here is clean, but real donor behavior isn't always as clean. Retention
 
 ### What to do with the visual next[](https://academy.claude.com/use-cases/see-why-donor-retention-beats-acquisition)
 
-Save as Artifact keeps the sliders live so you can pull it up in a board meeting and let someone else drag. Watching a board member discover the gap themselves tends to land harder than any slide you could build. Or ask Claude to write the one-paragraph version for your next fundraising plan.
+Ask Claude to turn the chart into an artifact to keep the sliders live, so you can pull it up in a board meeting and let someone else drag. Watching a board member discover the gap themselves tends to land harder than any slide you could build. Or ask Claude to write the one-paragraph version for your next fundraising plan.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/see-why-donor-retention-beats-acquisition)
 
-Try it on whatever fundraising math isn't landing as a spreadsheet. Tell Claude what you want to understand and let it build something you can drag. Hover over the chart for options to copy an image or save it as an Artifact.
+Try it on whatever fundraising math isn't landing as a spreadsheet. Tell Claude what you want to understand and let it build something you can drag. Hover over the chart for options to copy an image, or ask Claude to turn it into an artifact.
 
 Everyone keeps telling me donor retention matters more than acquisition and I understand the argument but I don't really get it. Show me. Start with 100 donors and let me play with the numbers. I want to drag things and watch what happens.
 

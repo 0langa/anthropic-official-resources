@@ -4,7 +4,7 @@ The themes across your calls, counted and quoted.
 
 10 minSalesClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-kzha9gcj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kjzr1f4d.png)
 
@@ -276,19 +276,19 @@ SalesSkills for account research, call prep, pipeline review, and account health
 
 `/call-summary`Cluster a folder of call transcripts into themes with counts and quotes
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcall-summary)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcall-summary)
 
 `/pipeline-review`Score account health from usage, tickets, NPS, and the success plan
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fpipeline-review)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fpipeline-review)
 
 Show all 9 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/transcript-themes)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2300A1E0'%20d='M10.01%205.56a4.18%204.18%200%200%201%203.02-1.3c1.58%200%202.96.88%203.7%202.19a5.12%205.12%200%200%201%202.1-.45%205.18%205.18%200%200%201%200%2010.36c-.37%200-.73-.04-1.07-.11a3.77%203.77%200%200%201-4.94%201.55%204.3%204.3%200%200%201-7.99-.2%203.98%203.98%200%200%201-.82.09%203.97%203.97%200%200%201-1.96-7.43%204.57%204.57%200%200%201%207.96-4.7'/%3e%3c/svg%3e)
 
@@ -304,15 +304,15 @@ Google Drive
 
 [Connect](https://claude.ai/desktop/directory/google-drive-drivemcp)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/transcript-themes)
 
-Drag the files you'll use (the transcript exports, any prior themes brief, your theme taxonomy if you have one) into one folder on your machine, then point Cowork at it. Cowork reads every transcript in place and writes the themes brief back to the same folder. If you run this every quarter, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your taxonomy, instructions, and memory stay attached.
+Drag the files you'll use (the transcript exports, any prior themes brief, your theme taxonomy if you have one) into one folder on your machine, then point Claude at it. Claude reads every transcript in place and writes the themes brief back to the same folder. If you run this every quarter, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your taxonomy, instructions, and memory stay attached.
 
 Calls / 2026-Q1
 
@@ -328,13 +328,13 @@ In Cowork’s chat bar:Calls / 2026-Q1
 
 ## The prompt[](https://academy.claude.com/use-cases/transcript-themes)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/transcript-themes)
+### Copy this into Claude[](https://academy.claude.com/use-cases/transcript-themes)
 
 Read every transcript in this folder and cluster what customers are saying into themes. For each theme give me the count, the best one-line quote, and which accounts said it. Write the one-page themes brief to the folder for product and marketing.
 
 
 
-Calls / 2026-Q1Open in Cowork
+Calls / 2026-Q1Open in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/transcript-themes)
 
@@ -344,7 +344,7 @@ Read every transcript in this folder and cluster what customers are saying into 
 
 Prompt
 
-**Name the audience.** "Share with product and marketing" tells Cowork to write a brief, not a spreadsheet, and to lead with what those teams act on rather than a raw cluster dump.
+**Name the audience.** "Share with product and marketing" tells Claude to write a brief, not a spreadsheet, and to lead with what those teams act on rather than a raw cluster dump.
 
 Prompt
 
@@ -352,19 +352,19 @@ Read every transcript in this folder and cluster what customers are saying into 
 
 Source
 
-**Keep source and output in one folder.** Every transcript sits in the working folder, so Cowork reads the full quarter in one pass and writes the brief back next to the source files for traceability.
+**Keep source and output in one folder.** Every transcript sits in the working folder, so Claude reads the full quarter in one pass and writes the brief back next to the source files for traceability.
 
 ### Get a better draft[](https://academy.claude.com/use-cases/transcript-themes)
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/transcript-themes)
+## Make Claude work for you[](https://academy.claude.com/use-cases/transcript-themes)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -372,7 +372,7 @@ Make what we've done in this task so far into a skill, or edit the /call-summary
 
 
 
-CallsOpen in Cowork
+CallsOpen in Claude
 
 
 
@@ -382,13 +382,13 @@ Make what we've done in this task so far into a skill, or edit the /call-summary
 
 ### Run it as the quarter closes[](https://academy.claude.com/use-cases/transcript-themes)
 
-Themes are most useful when they land before planning, not after. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill reads the quarter's folder and writes the brief as soon as the new quarter folder appears.
+Themes are most useful when they land before planning, not after. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill reads the quarter's folder and writes the brief as soon as the new quarter folder appears.
 
-**/schedule** Every Monday at 9am, if a new quarter folder exists under Calls, run /call-summary on the previous quarter's folder and write the themes brief there. Include a section on what's new versus last quarter.
+Set up a scheduled task for every Monday at 9am: if a new quarter folder exists under Calls, run /call-summary on the previous quarter's folder and write the themes brief there. Include a section on what's new versus last quarter.
 
 
 
-CallsOpen in Cowork
+CallsOpen in Claude
 
 Scheduled taskActive
 
@@ -396,7 +396,7 @@ Quarterly call themes
 
 Runs `/call-summary` on the previous quarter's transcript folder and writes the one-page brief, with a section on what's new versus last quarter.
 
-Every **Monday at 9:00 AM**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Monday at 9:00 AM**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/transcript-themes)
 
@@ -410,7 +410,7 @@ You can share a skill you created. In your list of skills, open the **...** menu
 
 ## Going forward[](https://academy.claude.com/use-cases/transcript-themes)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

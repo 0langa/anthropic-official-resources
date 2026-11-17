@@ -4,7 +4,7 @@ The variance narrative, written from the actuals.
 
 10 minFinanceClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-ejn575jr.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-m0b89rp1.png)
 
@@ -225,23 +225,23 @@ FinanceStreamline finance and accounting workflows, from journal entries and rec
 
 `/variance-analysis`Decompose financial variances into drivers with narrative explanations and waterfall analysis.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fvariance-analysis)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fvariance-analysis)
 
 `/financial-statements`Generate financial statements (income statement, balance sheet, cash flow) with period-over-period comparison and variance analysis.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Ffinancial-statements)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Ffinancial-statements)
 
 `/close-management`Manage the month-end close process with task sequencing, dependencies, and status tracking.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fclose-management)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fclose-management)
 
 Show all 7 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/explain-a-variance)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 
 
@@ -267,15 +267,15 @@ Build and edit Excel models with working formulas, and draft Word memos and Powe
 
 [Connect](https://claude.ai/desktop/directory/microsoft-365)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/explain-a-variance)
 
-Drag the files you'll use (actuals, prior period, budget, chart of accounts) into one folder on your machine, then point Cowork at it. Cowork reads from it and writes the narrative back to it. If you'll run this every close, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so instructions, memory, and scheduled runs stay attached to it.
+Drag the files you'll use (actuals, prior period, budget, chart of accounts) into one folder on your machine, then point Claude at it. Claude reads from it and writes the narrative back to it. If you'll run this every close, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so instructions, memory, and scheduled runs stay attached to it.
 
 FY26-Close / March
 
@@ -291,13 +291,13 @@ In Cowork’s chat bar:FY26-Close / March
 
 ## The prompt[](https://academy.claude.com/use-cases/explain-a-variance)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/explain-a-variance)
+### Copy this into Claude[](https://academy.claude.com/use-cases/explain-a-variance)
 
 Draft this month's variance commentary for the monthly review. Compare actuals to last month and to budget, and for every line that moved more than 10% or $50K explain what moved and why, in plain English for a leadership audience. Write it to the close folder.
 
 
 
-FY26-Close / MarchOpen in Cowork
+FY26-Close / MarchOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/explain-a-variance)
 
@@ -311,19 +311,19 @@ Draft this month's variance commentary for the monthly review. Compare actuals t
 
 Source
 
-**Say where the output goes.** Name a specific file and Cowork edits it; otherwise it creates the draft in your working folder for you to audit.
+**Say where the output goes.** Name a specific file and Claude edits it; otherwise it creates the draft in your working folder for you to audit.
 
 ### Get a better draft[](https://academy.claude.com/use-cases/explain-a-variance)
 
 Practice
 
-**Add an example to match.** Drop last quarter's commentary in the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop last quarter's commentary in the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag any line where the driver isn't clear from the data" so you know exactly where to dig before the review.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/explain-a-variance)
+## Make Claude work for you[](https://academy.claude.com/use-cases/explain-a-variance)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -331,7 +331,7 @@ Make what we've done in this task so far into a skill, or edit the /variance-ana
 
 
 
-FY26-CloseOpen in Cowork
+FY26-CloseOpen in Claude
 
 
 
@@ -341,23 +341,23 @@ Make what we've done in this task so far into a skill, or edit the /variance-ana
 
 ### Share it as an artifact[](https://academy.claude.com/use-cases/explain-a-variance)
 
-A document is a snapshot. Ask Cowork to publish the same view as an artifact that reads the actuals through a connector, and it becomes a link the CFO can open any time to see the latest numbers. Everyone who opens it connects their own account.
+A document is a snapshot. Ask Claude to publish the same view as an artifact that reads the actuals through a connector, and it becomes a link the CFO can open any time to see the latest numbers. Everyone who opens it connects their own account.
 
 Publish that variance analysis as an artifact for leadership. Have it read the actuals through a connector so it shows the latest numbers each time it opens.
 
 
 
-FY26-Close / MarchOpen in Cowork
+FY26-Close / MarchOpen in Claude
 
 ### Run it on a schedule[](https://academy.claude.com/use-cases/explain-a-variance)
 
-Variance commentary is due the same day every close. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill runs against the latest actuals automatically.
+Variance commentary is due the same day every close. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs against the latest actuals automatically.
 
-**/schedule** Every Monday at 9am, if a new actuals file is in FY26-Close, run /variance-analysis against it and write the draft to that folder.
+Set up a scheduled task for every Monday at 9am: if a new actuals file is in FY26-Close, run /variance-analysis against it and write the draft to that folder.
 
 
 
-FY26-CloseOpen in Cowork
+FY26-CloseOpen in Claude
 
 Scheduled taskActive
 
@@ -365,7 +365,7 @@ Monthly variance narrative
 
 Runs `/variance-analysis` against the latest actuals in FY26-Close and writes the draft commentary to the same folder.
 
-Every **Monday at 9:00am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Monday at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/explain-a-variance)
 

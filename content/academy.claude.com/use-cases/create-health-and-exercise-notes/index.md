@@ -34,15 +34,15 @@ Claude can [search the web(opens in new tab)](https://support.claude.com/en/arti
 
 The Notes connector is a desktop extension: it runs in the Claude [desktop app(opens in new tab)](https://www.claude.com/download) on a Mac, where Claude reads and writes the Apple Notes app on your computer; with Notes syncing over iCloud, the routine shows up on your iPhone too.
 
-Connect your Notes app in [Settings > Connectors > Browse connectors > Desktop extensions(opens in new tab)](https://claude.ai/customize/connectors) so Claude can save content directly—no downloading or manual copying required.
+To connect your Notes app, open Settings in the desktop app, search for “Extensions” and click it in the results. Click “Browse extensions,” then install **Read and Write Apple Notes**. Claude can then save content directly, with no downloading or manual copying.
 
 
 
 Read and Write Apple Notes
 
-A desktop extension of the Claude app on a Mac — enable it under Desktop extensions once the app is installed.
+A desktop extension of the Claude app on a Mac. Install it from Extensions in the app's Settings.
 
-[Connect](https://claude.ai/customize/connectors)
+[Connect](https://claude.ai/directory/ant.dir.ant.anthropic.notes)
 
 [Browse connectors in Claude](https://claude.ai/customize/connectors)
 

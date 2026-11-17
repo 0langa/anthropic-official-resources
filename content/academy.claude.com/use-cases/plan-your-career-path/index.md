@@ -56,7 +56,7 @@ Google Drive
 
 ### Optional context[](https://academy.claude.com/use-cases/plan-your-career-path)
 
-Make sure [Web Search(opens in new tab)](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search) is enabled so Claude can search the web for current information.
+Make sure [Web Search(opens in new tab)](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search) is enabled so Claude can search the web for current information. If you have the new Claude experience, there's no web search toggle. Claude searches the web when it helps.
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/plan-your-career-path)
 
@@ -132,9 +132,9 @@ While exploring your career path, learn how AI is already reshaping that field. 
 
 Understanding this distinction helps you build the right skills: roles heavy on augmentation require strong judgment and creative direction, while automation-focused work demands technical fluency in managing AI systems. Use the job explorer to investigate your target occupations, then ask Claude to help you identify which skills will matter most as AI transforms the field.
 
-### Use styles in your career conversations[](https://academy.claude.com/use-cases/plan-your-career-path)
+### Use instructions in your career conversations[](https://academy.claude.com/use-cases/plan-your-career-path)
 
-Create a custom [style(opens in new tab)](https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features) to shape how Claude engages with your questions. For example, set a style that responds like a career counselor—when you express doubts, Claude asks clarifying questions; when you propose ideas, Claude helps you think through trade-offs. This back-and-forth refines both the plan and your own thinking. Go to "Use style" in the search and tools menu, then "Create & edit styles" to describe the kind of conversational partner you need for career decisions.
+Add [project instructions(opens in new tab)](https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features) to a Project to shape how Claude engages with your questions. For example, ask Claude to respond like a career counselor: when you express doubts, Claude asks clarifying questions, and when you propose ideas, Claude helps you think through trade-offs. This back-and-forth refines both the plan and your own thinking. The instructions apply to every chat in that Project, so you only describe the kind of conversational partner you need for career decisions once.
 
 ### Track your ongoing career work[](https://academy.claude.com/use-cases/plan-your-career-path)
 
@@ -142,7 +142,7 @@ Create a [Project(opens in new tab)](https://support.claude.com/en/articles/9517
 
 ### Research your target roles and companies[](https://academy.claude.com/use-cases/plan-your-career-path)
 
-Use [Web Search(opens in new tab)](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search) when you need quick, specific answers to ground your planning—like details on target companies, recent industry events, or potential skill-building programs. For more in-depth analysis, enable [Research(opens in new tab)](https://support.claude.com/en/articles/11088861-using-research-on-claude) in the chat settings. Rather than piecing together information yourself, Research searches across your tools and the web to deliver a thorough report with source citations.
+Use [Web Search(opens in new tab)](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search) when you need quick, specific answers to ground your planning—like details on target companies, recent industry events, or potential skill-building programs. For more in-depth analysis, enable [Research(opens in new tab)](https://support.claude.com/en/articles/11088861-using-research-on-claude) from the (+) menu in the chat bar. Rather than piecing together information yourself, Research searches across your tools and the web to deliver a thorough report with source citations.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/plan-your-career-path)
 

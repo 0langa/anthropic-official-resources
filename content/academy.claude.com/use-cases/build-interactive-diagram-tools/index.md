@@ -116,7 +116,7 @@ When something breaks, like a structure that won't highlight or a system tab tha
 
 ### Long sessions compound rather than drift[](https://academy.claude.com/use-cases/build-interactive-diagram-tools)
 
-Opus 4.5 maintains your design decisions and technical context across extended conversations. Your tenth iteration still remembers your original aesthetic requirements, technical constraints, and every refinement in between. You can plan for sustained building sessions rather than trying to specify everything upfront.
+Claude maintains your design decisions and technical context across extended conversations. Your tenth iteration still remembers your original aesthetic requirements, technical constraints, and every refinement in between. You can plan for sustained building sessions rather than trying to specify everything upfront.
 
 ### Include known troubleshooting upfront[](https://academy.claude.com/use-cases/build-interactive-diagram-tools)
 
@@ -128,7 +128,7 @@ The anatomogram package supplies the accurate illustrations, but Claude writes t
 
 ### Add sources to make it yours[](https://academy.claude.com/use-cases/build-interactive-diagram-tools)
 
-Opus 4.5's context window handles substantial material. If you have a textbook chapter, lecture notes, or syllabus you want the app to cover, paste the whole thing rather than summarizing. Claude extracts structure and prioritizes content more effectively from complete sources than from your condensed version.
+Claude's context window handles substantial material. If you have a textbook chapter, lecture notes, or syllabus you want the app to cover, paste the whole thing rather than summarizing. Claude extracts structure and prioritizes content more effectively from complete sources than from your condensed version.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/build-interactive-diagram-tools)
 

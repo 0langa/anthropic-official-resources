@@ -8,6 +8,12 @@ Unsubscribe at any time.
 
 Live and recorded sessions with Anthropic and customer teams — demos, deep dives, Q&A, and practical takeaways.
 
+[WebinarUpcoming | Nov 19, 2026
+
+### Claude Rearview Roadmap Review: November 2026
+
+Join the Anthropic product team for a live look back at what shipped, including what each change means for your admins and users.](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)
+
 [WebinarOn demand
 
 ### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
@@ -36,23 +42,17 @@ Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-w
 
 This one-hour technical session covers where that’s heading, what works today, and how to start.](https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work)
 
-[WebinarUpcoming | Multiple dates
+[WebinarUpcoming | Nov 19, 2026
 
-### Unified Claude: Security and admins Q&A session
+### Claude Rearview Roadmap Review: November 2026
 
-We invite admins and security teams to join Anthropic’s team for guidance on how to migrate your org before the deprecation of the separate chat and Cowork experience.](https://claude.com/resources/webinars/unified-claude-security-and-admins-q-and-a-session)
+Join the Anthropic product team for a live look back at what shipped, including what each change means for your admins and users.](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)
 
-[WebinarOn demand
-
-### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
-
-A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)
-
-Featured resource 1 of 5: The State of Cybersecurity: What Frontier AI Changes for Security Leaders
+Featured resource 1 of 5: Claude Rearview Roadmap Review: November 2026
 
 Advanced filters
 
-Showing 22 of 120 resources
+Showing 23 of 121 resources
 
 ## Upcoming webinars
 
@@ -74,7 +74,11 @@ Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-w
 
 When agents write the code, pull requests pile up faster than anyone can read them.
 
-Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)
+Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[WebinarUpcoming | Nov 19, 2026
+
+### Claude Rearview Roadmap Review: November 2026
+
+Join the Anthropic product team for a live look back at what shipped, including what each change means for your admins and users.](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)
 
 ## Recurring webinars
 

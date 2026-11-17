@@ -38,7 +38,7 @@ partner.
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=7tR7modJioQ)
 
-This video is just an introduction to the framework, for the full breakdown and many practical exercises, check out our AI Fluency: Framework & Foundations course [here(opens in new tab)](https://academy.claude.com/courses/ai-fluency-framework-foundations).
+This video is an introduction to the framework. For the full breakdown and many practical exercises, check out the [AI Fluency: Framework and foundations course(opens in new tab)](https://academy.claude.com/courses/ai-fluency-framework-foundations).
 
 ## Key takeaways[](https://academy.claude.com/courses/ai-fluency-for-students/ai-fluency-framework)
 
@@ -80,7 +80,7 @@ Before engaging with AI, clarify your own position as a learner. Consider your:
 - What do you hope AI can help you achieve academically?
 - What boundaries do you want to set for AI use in your learning?
 
-### Reflection questions:[](https://academy.claude.com/courses/ai-fluency-for-students/ai-fluency-framework)
+### Reflection questions[](https://academy.claude.com/courses/ai-fluency-for-students/ai-fluency-framework)
 
 - What surprised you about articulating your learning needs?
 - How do you think having this context will improve your AI interactions?

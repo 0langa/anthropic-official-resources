@@ -341,7 +341,11 @@ Live and recorded sessions with Anthropic and customer teams — demos, deep div
 
 [See more](https://claude.com/resources/webinars)
 
-[WebinarOn demand
+[WebinarUpcoming | Nov 19, 2026
+
+### Claude Rearview Roadmap Review: November 2026
+
+Join the Anthropic product team for a live look back at what shipped, including what each change means for your admins and users.](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[WebinarOn demand
 
 ### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
 
@@ -361,13 +365,7 @@ Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-w
 
 ### Claude for Manufacturing: Put Your Plant’s Know-How to Work
 
-This one-hour technical session covers where that’s heading, what works today, and how to start.](https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work)[WebinarNov 12, 2026
-
-### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
-
-Most nonprofit staff on Claude open a chat, get a decent but generic answer, and go back to doing it by hand.
-
-Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)
+This one-hour technical session covers where that’s heading, what works today, and how to start.](https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work)
 
 ## Videos
 

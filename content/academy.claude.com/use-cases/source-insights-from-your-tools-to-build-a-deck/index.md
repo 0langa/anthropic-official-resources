@@ -1,10 +1,10 @@
 # Source insights from your tools to build a deck
 
-Claude Opus 4.6 chases leads across scattered sources, surfaces what no single source shows on its own, and builds a presentation around the through-line.
+Claude chases leads across scattered sources, surfaces what no single source shows on its own, and builds a presentation around the through-line.
 
 15 minClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-b9xzy335.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-0v2kfxf1.png)
 
@@ -12,7 +12,7 @@ Try in CoworkCopy prompt
 
 ## 1. Describe the task[](https://academy.claude.com/use-cases/source-insights-from-your-tools-to-build-a-deck)
 
-Opus 4.6 follows leads across your connected tools without needing direction at each step. Give it a starting point and it pulls search terms from what it finds, follows people to their updates, follows updates to the data they reference, and reconciles sources that disagree. By the time it builds the deck, it's working from evidence it gathered and cross-referenced itself.
+Claude follows leads across your connected tools without needing direction at each step. Give it a starting point and it pulls search terms from what it finds, follows people to their updates, follows updates to the data they reference, and reconciles sources that disagree. By the time it builds the deck, it's working from evidence it gathered and cross-referenced itself.
 
 State the decision the deck has to support, lay out the path Claude should follow through your tools, and spell out the deliverables you expect back. The prompt below does all three: it anchors on the consolidation question, names the tracker to start from and the trail to follow outward, and asks for the deck, the appendix, and the brief by name.
 
@@ -24,11 +24,11 @@ State the decision the deck has to support, lay out the path Claude should follo
 
 
 
-Open in Cowork
+Open in Claude
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/source-insights-from-your-tools-to-build-a-deck)
 
-Through Cowork in [Claude Desktop(opens in new tab)](https://claude.com/download), connect your local files and tools. Point Claude at a Slack channel, a Drive folder, or an email thread to give it a starting point.
+Through [Claude Desktop(opens in new tab)](https://claude.com/download), connect your local files and tools. Point Claude at a Slack channel, a Drive folder, or an email thread to give it a starting point.
 
 Connect Slack and Google Drive through connectors. [Claude in Chrome(opens in new tab)](https://claude.com/chrome) reads current numbers from live dashboards like Looker and Delighted.
 
@@ -36,7 +36,7 @@ What Claude gives you back is mostly determined by what you let it read. One mor
 
 ### Required context[](https://academy.claude.com/use-cases/source-insights-from-your-tools-to-build-a-deck)
 
-- Cowork with access to local files ([supported formats(opens in new tab)](https://claude.com/download))
+- Claude with access to local files
 - At least one connected source: Slack, Google Drive, or email
 - [Claude in Chrome(opens in new tab)](https://claude.com/chrome) for the dashboard checks the example prompt asks for
 
@@ -58,7 +58,7 @@ Google Drive
 
 [Connect](https://claude.ai/desktop/directory/google-drive-drivemcp)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 ### Optional context[](https://academy.claude.com/use-cases/source-insights-from-your-tools-to-build-a-deck)
 
@@ -66,7 +66,7 @@ Google Drive
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/source-insights-from-your-tools-to-build-a-deck)
 
-Opus 4.6 works outward from the starting point you give it, pulls context from each source it finds, and saves three files locally: a presentation with narrative structure, a supporting data appendix, and an executive pre-read. Through Claude in Chrome, it opens the dashboards you named in new browser tabs and pulls the live numbers directly.
+Claude works outward from the starting point you give it, pulls context from each source it finds, and saves three files locally: a presentation with narrative structure, a supporting data appendix, and an executive pre-read. Through Claude in Chrome, it opens the dashboards you named in new browser tabs and pulls the live numbers directly.
 
 Here’s what I found and how I pieced it together:
 
@@ -98,33 +98,33 @@ Fourteen slides is more deck than most board slots hold. Cutting is easier when 
 
 
 
-Open in Cowork
+Open in Claude
 
 ### Pre-brief each board member on what matters to them[](https://academy.claude.com/use-cases/source-insights-from-your-tools-to-build-a-deck)
 
-Opus 4.6 already knows the quarter’s full context. Use that to draft targeted pre-reads before the meeting.
+Claude already knows the quarter’s full context. Use that to draft targeted pre-reads before the meeting.
 
 *Draft a Slack message for each board member based on what they’ll care about most. The CFO gets the revenue reconciliation and Apex economics. The product lead gets the consolidation impact and engineering velocity. The customer advocate gets the churn story and the NPS data. Personalize each one — don’t just cut the same deck three ways.*
 
 
 
-Open in Cowork
+Open in Claude
 
 ### Stress-test the narrative before you present it[](https://academy.claude.com/use-cases/source-insights-from-your-tools-to-build-a-deck)
 
-The hardest board questions come from the data you glossed over. Opus 4.6 has read every source and knows where the weak points are.
+The hardest board questions come from the data you glossed over. Claude has read every source and knows where the weak points are.
 
 *You’ve seen all the raw data. Play devil’s advocate — what are the three toughest questions the board could ask about this quarter, and where is our narrative weakest? Then update the speaker notes with how to handle each one, citing specific data points from the appendix.*
 
 
 
-Open in Cowork
+Open in Claude
 
 ## 5. Tricks, tips, and troubleshooting[](https://academy.claude.com/use-cases/source-insights-from-your-tools-to-build-a-deck)
 
-### Point Opus 4.6 at a starting resource and tell it to follow what it finds[](https://academy.claude.com/use-cases/source-insights-from-your-tools-to-build-a-deck)
+### Point Claude at a starting resource and tell it to follow what it finds[](https://academy.claude.com/use-cases/source-insights-from-your-tools-to-build-a-deck)
 
-Opus 4.6 can pull search terms from what it reads, so a document that names people, channels, and files gives it more threads to follow across your tools. A project tracker or kickoff doc works well. Once you have the tools you'd like Claude to access, tell it to work outward: "Follow each person across their channels, emails, and documents they reference. Check data against other sources." Paired with Cowork, it sustains that work across as many steps as the task requires.
+Claude can pull search terms from what it reads, so a document that names people, channels, and files gives it more threads to follow across your tools. A project tracker or kickoff doc works well. Once you have the tools you'd like Claude to access, tell it to work outward: "Follow each person across their channels, emails, and documents they reference. Check data against other sources." It can sustain that work across as many steps as the task requires.
 
 ### Check the reconciled numbers before the board does[](https://academy.claude.com/use-cases/source-insights-from-your-tools-to-build-a-deck)
 
@@ -136,7 +136,7 @@ Drop the previous board deck in with your local files. Claude picks up the struc
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/source-insights-from-your-tools-to-build-a-deck)
 
-Point Opus 4.6 at your quarter.
+Point Claude at your quarter.
 
 I’m prepping for board meeting Friday. Q3 was the quarter where everything happened at once: we shipped the platform consolidation, closed the Apex partnership, and lost two enterprise accounts.
 
@@ -144,6 +144,6 @@ Start with the Q3 project tracker in my local files; it has the key people, chan
 
 The board needs to understand whether the consolidation bet is paying off despite the churn. Create a PowerPoint deck (12–15 slides) with speaker notes, an Excel data appendix, and a two-page Word brief. Make an argument, not a summary.
 
-Try in Cowork
+Try in Claude
 
 Was this helpful?

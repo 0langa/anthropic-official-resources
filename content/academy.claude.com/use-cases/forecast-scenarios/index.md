@@ -4,7 +4,7 @@ Three scenarios with the assumptions memo.
 
 10 minFinanceClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-d27lxpfj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ia2n89lp.png)
 
@@ -211,19 +211,19 @@ FinanceStreamline finance and accounting workflows, from journal entries and rec
 
 `/financial-statements`Generate financial statements (income statement, balance sheet, cash flow) with period-over-period comparison and variance analysis.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Ffinancial-statements)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Ffinancial-statements)
 
 `/variance-analysis`Decompose financial variances into drivers with narrative explanations and waterfall analysis.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fvariance-analysis)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fvariance-analysis)
 
 Show all 7 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/forecast-scenarios)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 
 
@@ -243,15 +243,15 @@ Microsoft 365
 
 [Connect](https://claude.ai/desktop/directory/microsoft-365)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/forecast-scenarios)
 
-Drag the files you'll use (the driver model, last quarter's assumptions memo, the headcount plan) into one folder on your machine, then point Cowork at it. Cowork reads from it and writes the extended model, scenario tabs, and memo back to it. If you'll re-forecast every month, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so the model, memory, and scheduled runs stay attached.
+Drag the files you'll use (the driver model, last quarter's assumptions memo, the headcount plan) into one folder on your machine, then point Claude at it. Claude reads from it and writes the extended model, scenario tabs, and memo back to it. If you'll re-forecast every month, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so the model, memory, and scheduled runs stay attached.
 
 Planning / FY-forecast
 
@@ -265,13 +265,13 @@ In Cowork’s chat bar:Planning / FY-forecast
 
 ## The prompt[](https://academy.claude.com/use-cases/forecast-scenarios)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/forecast-scenarios)
+### Copy this into Claude[](https://academy.claude.com/use-cases/forecast-scenarios)
 
 Pull the latest actuals into the driver model, extend it through the next four quarters, and run base, upside, and downside scenarios. For each scenario list the assumptions you changed and by how much, then write a one-page memo explaining what drives the difference between them in plain English for the leadership review.
 
 
 
-Planning / FY-forecastOpen in Cowork
+Planning / FY-forecastOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/forecast-scenarios)
 
@@ -295,13 +295,13 @@ Pull the latest actuals into the driver model, extend it through the next four q
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/forecast-scenarios)
+## Make Claude work for you[](https://academy.claude.com/use-cases/forecast-scenarios)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -309,7 +309,7 @@ Make what we've done in this task so far into a skill, or edit the /financial-st
 
 
 
-Planning / FY-forecastOpen in Cowork
+Planning / FY-forecastOpen in Claude
 
 
 
@@ -319,13 +319,13 @@ Make what we've done in this task so far into a skill, or edit the /financial-st
 
 ### Run it on a schedule[](https://academy.claude.com/use-cases/forecast-scenarios)
 
-The re-forecast is due the same day every month. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill rebases on the latest actuals and refreshes all three scenarios automatically.
+The re-forecast is due the same day every month. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill rebases on the latest actuals and refreshes all three scenarios automatically.
 
-**/schedule** Every Monday at 9am, if newly closed actuals are in Planning/FY-forecast, run /financial-statements against them, write the updated model and scenarios there, and save the assumptions memo alongside.
+Set up a scheduled task for every Monday at 9am: if newly closed actuals are in Planning/FY-forecast, run /financial-statements against them, write the updated model and scenarios there, and save the assumptions memo alongside.
 
 
 
-Planning / FY-forecastOpen in Cowork
+Planning / FY-forecastOpen in Claude
 
 Scheduled taskActive
 
@@ -333,7 +333,7 @@ Monthly re-forecast
 
 Runs `/financial-statements` against the latest closed actuals and writes the refreshed model, three scenarios, and assumptions memo to Planning/FY-forecast.
 
-Every **Monday at 9:00am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Monday at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/forecast-scenarios)
 
@@ -347,7 +347,7 @@ You can share a skill you created. In your list of skills, open the **...** menu
 
 ## Going forward[](https://academy.claude.com/use-cases/forecast-scenarios)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

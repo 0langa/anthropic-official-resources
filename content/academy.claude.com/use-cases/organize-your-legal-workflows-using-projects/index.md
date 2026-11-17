@@ -86,7 +86,7 @@ Continue the conversation with Claude to refine, expand, or explore further.
 
 ### Test the setup with a real NDA in a Project[](https://academy.claude.com/use-cases/organize-your-legal-workflows-using-projects)
 
-Create a new Project, upload the Standards Guide to the knowledge base, and paste your custom instructions into the Project settings. Upload an NDA to see how Claude applies your standards, then refine any instructions that need adjustment.
+Create a new Project, upload the Standards Guide to the knowledge base, and paste your custom instructions in as the project instructions. Upload an NDA to see how Claude applies your standards, then refine any instructions that need adjustment.
 
 Here's an NDA we received yesterday from a potential vendor. Review it against our standards guide and flag any deviations. Format your comments the way our associates would, with risk level and recommended alternative language for each issue.
 

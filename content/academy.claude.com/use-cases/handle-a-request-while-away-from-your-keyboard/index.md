@@ -7,7 +7,7 @@ Lesson 3 of 14 · Introduction to Claude CoworkWhat Claude Cowork can do for you
 In this lessonBy the end, you’ll be able to
 
 - Spot the three patterns of work that suit Cowork: multi-step, file-based, multi-tool
-- Set up a scheduled task with /schedule
+- Set up a scheduled task by asking Claude
 - Start or check on a Cowork task from your phone or any browser
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
@@ -93,7 +93,7 @@ just below.
 
 Scheduled tasks let you set up a task once and have Claude run it on a cadence.
 
-There are two ways to set up a scheduled task. You can start fresh: type /schedule, describe the task and the cadence, and Claude drafts a prompt for you to review and accept. Or — the more natural path — do the task once in Cowork, confirm the output looks right, then type /schedule to turn that exact process into a recurring one. Tell Claude your preferred cadence (hourly, daily, weekdays, or manual), review the prompt, and accept.
+There are two ways to set up a scheduled task. You can start fresh: ask Claude to set up a scheduled task, describe the task and the cadence, and Claude drafts a prompt for you to review and accept. Or take the more natural path: do the task once in Cowork, confirm the output looks right, then ask Claude to turn that exact process into a recurring one. Tell Claude your preferred cadence (for example hourly, daily, weekdays, or weekly), review the prompt, and accept.
 
 Where a scheduled task runs depends on what it needs. A task that only uses your connectors can run remotely at its set time — your computer doesn't need to be on. A task that needs files or apps on your computer runs on your computer, so the desktop app has to be open at the time; if your laptop is closed, asleep, or off at the scheduled time, Claude picks the task up as soon as you're back and lets you know it was delayed.
 

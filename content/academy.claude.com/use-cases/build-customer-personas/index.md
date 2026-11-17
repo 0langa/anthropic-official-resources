@@ -64,7 +64,7 @@ I've analyzed your customer feedback and built an interactive persona explorer. 
 
 [**View your Customer Persona Explorer**(opens in new tab)](https://claude.ai/public/artifacts/9135973a-be0d-4a9a-815d-1689c217b38a)
 
-`The` artifact shows 3 distinct customer types based on behavioral patterns in your data. Click between personas to see:
+The artifact shows 3 distinct customer types based on behavioral patterns in your data. Click between personas to see:
 
 - Who they are and what they're trying to accomplish
 - Their journey from first contact through daily use
@@ -119,7 +119,7 @@ Uploading files gives Claude a snapshot of your data at one moment. If you store
 
 ### Use [Projects(opens in new tab)](https://support.claude.com/en/articles/9517075-what-are-projects) for ongoing work[](https://academy.claude.com/use-cases/build-customer-personas)
 
-Maintain context—uploaded files, previous work, ongoing decisions— across all conversations within that Project through the [Project Knowledge(opens in new tab)](https://support.claude.com/en/articles/9517075-what-are-projects) and [Memory(opens in new tab)](https://support.claude.com/en/articles/11817273-using-claude-s-chat-search-and-memory-to-build-on-previous-context).This can be helpful for work that develops over time. Upload initial customer research to a Project, and when you add new interviews weeks later, Claude still has access to the original data. Your personas evolve with previous context rather than starting fresh each conversation. Projects work like persistent workspaces instead of isolated chats.
+Maintain context—uploaded files, previous work, ongoing decisions— across all conversations within that Project through the [Project Knowledge(opens in new tab)](https://support.claude.com/en/articles/9517075-what-are-projects) and [Memory(opens in new tab)](https://support.claude.com/en/articles/11817273-using-claude-s-chat-search-and-memory-to-build-on-previous-context). This can be helpful for work that develops over time. Upload initial customer research to a Project, and when you add new interviews weeks later, Claude still has access to the original data. Your personas evolve with previous context rather than starting fresh each conversation. Projects work like persistent workspaces instead of isolated chats.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/build-customer-personas)
 

@@ -4,7 +4,7 @@ Where you win, where you're exposed, what they shipped.
 
 10 minProductClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-i8lzizck.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-m3smq5zq.png)
 
@@ -352,19 +352,19 @@ Product ManagementWrite feature specs, plan roadmaps, and synthesize user resear
 
 `/competitive-brief`Create a competitive analysis brief for one or more competitors or a feature area.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcompetitive-brief)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcompetitive-brief)
 
 `/roadmap-update`Update, create, or reprioritize your product roadmap.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Froadmap-update)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Froadmap-update)
 
 Show all 8 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/competitive-teardown)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%230ACF83'%20d='M8%2024a4%204%200%200%200%204-4v-4H8a4%204%200%200%200%200%208Z'/%3e%3cpath%20fill='%23A259FF'%20d='M4%2012a4%204%200%200%201%204-4h4v8H8a4%204%200%200%201-4-4Z'/%3e%3cpath%20fill='%23F24E1E'%20d='M4%204a4%204%200%200%201%204-4h4v8H8a4%204%200%200%201-4-4Z'/%3e%3cpath%20fill='%23FF7262'%20d='M12%200h4a4%204%200%200%201%200%208h-4V0Z'/%3e%3cpath%20fill='%231ABCFE'%20d='M20%2012a4%204%200%201%201-8%200%204%204%200%200%201%208%200Z'/%3e%3c/svg%3e)
 
@@ -384,15 +384,15 @@ Google DriveOptional
 
 [Connect](https://claude.ai/desktop/directory/google-drive-drivemcp)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/competitive-teardown)
 
-Drag the files you'll use (your product overview doc, last quarter's positioning one-pager, any competitor screenshots or pricing PDFs you've already collected) into one folder on your machine, then point Cowork at it. Cowork reads from it and writes the matrix and gap brief back to it. If you refresh this every quarter, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your competitor list, instructions, and memory stay attached.
+Drag the files you'll use (your product overview doc, last quarter's positioning one-pager, any competitor screenshots or pricing PDFs you've already collected) into one folder on your machine, then point Claude at it. Claude reads from it and writes the matrix and gap brief back to it. If you refresh this every quarter, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your competitor list, instructions, and memory stay attached.
 
 Product / competitive / q2
 
@@ -408,13 +408,13 @@ In Cowork’s chat bar:Product / competitive / q2
 
 ## The prompt[](https://academy.claude.com/use-cases/competitive-teardown)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/competitive-teardown)
+### Copy this into Claude[](https://academy.claude.com/use-cases/competitive-teardown)
 
 Build a competitive teardown of Acme and Northwind against us. Browse their product, docs, changelog, pricing page, and recent reviews, and produce a feature and positioning matrix. Call out where we clearly win, where we're exposed, and everything they shipped last quarter that we haven't answered.
 
 
 
-Product / competitive / q2Open in Cowork
+Product / competitive / q2Open in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/competitive-teardown)
 
@@ -438,13 +438,13 @@ Build a competitive teardown of Acme and Northwind against us. Browse their prod
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/competitive-teardown)
+## Make Claude work for you[](https://academy.claude.com/use-cases/competitive-teardown)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -452,7 +452,7 @@ Make what we've done in this task so far into a skill, or edit the /competitive-
 
 
 
-Product / competitiveOpen in Cowork
+Product / competitiveOpen in Claude
 
 
 
@@ -462,13 +462,13 @@ Make what we've done in this task so far into a skill, or edit the /competitive-
 
 ### Refresh it every quarter[](https://academy.claude.com/use-cases/competitive-teardown)
 
-Competitors keep shipping after you've looked. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill re-browses the competitor set and rewrites the matrix on a weekly check.
+Competitors keep shipping after you've looked. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill re-browses the competitor set and rewrites the matrix on a weekly check.
 
-**/schedule** Every Monday at 9am, if a new quarter folder exists under Product/competitive, run /competitive-brief, write the matrix and gap brief there, and post a one-line summary of new exposed cells.
+Set up a scheduled task for every Monday at 9am: if a new quarter folder exists under Product/competitive, run /competitive-brief, write the matrix and gap brief there, and post a one-line summary of new exposed cells.
 
 
 
-Product / competitiveOpen in Cowork
+Product / competitiveOpen in Claude
 
 Scheduled taskActive
 
@@ -476,7 +476,7 @@ Quarterly competitive teardown
 
 Runs `/competitive-brief` against the standing competitor set and writes the refreshed matrix and unanswered-ships list to the quarter's folder.
 
-Every **Monday at 9:00am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Monday at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/competitive-teardown)
 
@@ -490,7 +490,7 @@ You can share a skill you created. In your list of skills, open the **...** menu
 
 ## Going forward[](https://academy.claude.com/use-cases/competitive-teardown)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

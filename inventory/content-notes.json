@@ -10141,6 +10141,21 @@
   "https://support.claude.com/en/articles/18426225-move-from-claude-enterprise-to-claude-desktop-on-a-cloud-provider": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/18442783-use-the-cloud-browser-in-claude": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/18466061-move-claude-code-cli-users": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/18466091-plan-identity-and-sign-in": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/18466097-plan-for-restricted-models-and-access-programs": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/18466110-compare-cloud-providers": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for": [
     "Native source; upstream MDX components retained."
   ],
@@ -11140,6 +11155,9 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/contextual-retrieval": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/critical-infrastructure-defense": [

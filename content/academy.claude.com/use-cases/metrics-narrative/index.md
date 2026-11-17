@@ -4,7 +4,7 @@ What moved, why, and which ship caused it.
 
 10 minProductClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-gl4mvsbr.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-f2aunmbb.png)
 
@@ -240,19 +240,19 @@ Product ManagementWrite feature specs, plan roadmaps, and synthesize user resear
 
 `/metrics-review`Review and analyze product metrics with trend analysis and actionable insights.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fmetrics-review)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fmetrics-review)
 
 `/stakeholder-update`Generate a stakeholder update tailored to audience and cadence.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fstakeholder-update)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fstakeholder-update)
 
 Show all 8 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/metrics-narrative)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 
 
@@ -274,15 +274,15 @@ Linear
 
 [Connect](https://claude.ai/desktop/directory/linear)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/metrics-narrative)
 
-Drag the files you'll use (the Amplitude or Mixpanel CSV export, last week's narrative for comparison, the changelog if it's a flat file) into one folder on your machine, then point Cowork at it. Cowork reads from it and writes the narrative and chart images back to it. If you write this every week, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your metric definitions, instructions, and memory stay attached.
+Drag the files you'll use (the Amplitude or Mixpanel CSV export, last week's narrative for comparison, the changelog if it's a flat file) into one folder on your machine, then point Claude at it. Claude reads from it and writes the narrative and chart images back to it. If you write this every week, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your metric definitions, instructions, and memory stay attached.
 
 Product / metrics / wk17
 
@@ -298,19 +298,19 @@ In Cowork’s chat bar:Product / metrics / wk17
 
 ## The prompt[](https://academy.claude.com/use-cases/metrics-narrative)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/metrics-narrative)
+### Copy this into Claude[](https://academy.claude.com/use-cases/metrics-narrative)
 
 Find the anomaly in this week's activation funnel. Segment by plan, platform, and signup source until you've isolated the driver, check it against what shipped in the same window, and write the "what happened and why" narrative with the two charts that prove it.
 
 
 
-Product / metrics / wk17Open in Cowork
+Product / metrics / wk17Open in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/metrics-narrative)
 
 Prompt
 
-**Ask for the evidence behind each claim.** Starting with "find the anomaly" lets Cowork scan the whole funnel for the step that actually moved instead of anchoring on the metric you happened to notice first.
+**Ask for the evidence behind each claim.** Starting with "find the anomaly" lets Claude scan the whole funnel for the step that actually moved instead of anchoring on the metric you happened to notice first.
 
 Prompt
 
@@ -328,13 +328,13 @@ Find the anomaly in this week's activation funnel. Segment by plan, platform, an
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/metrics-narrative)
+## Make Claude work for you[](https://academy.claude.com/use-cases/metrics-narrative)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -342,7 +342,7 @@ Make what we've done in this task so far into a skill, or edit the /metrics-revi
 
 
 
-Product / metricsOpen in Cowork
+Product / metricsOpen in Claude
 
 
 
@@ -352,13 +352,13 @@ Make what we've done in this task so far into a skill, or edit the /metrics-revi
 
 ### Run it every Monday morning[](https://academy.claude.com/use-cases/metrics-narrative)
 
-The "why did the number move" question comes every week whether or not you've had time to dig. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill writes the narrative before standup.
+The "why did the number move" question comes every week whether or not you've had time to dig. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill writes the narrative before standup.
 
-**/schedule** Every Monday at 7am, run /metrics-review for the prior week, write the narrative and charts to Product/metrics/<week>, and flag anything that moved more than 10% week over week.
+Set up a scheduled task for every Monday at 7am: run /metrics-review for the prior week, write the narrative and charts to Product/metrics/<week>, and flag anything that moved more than 10% week over week.
 
 
 
-Product / metricsOpen in Cowork
+Product / metricsOpen in Claude
 
 Scheduled taskActive
 
@@ -366,7 +366,7 @@ Weekly metrics narrative
 
 Runs `/metrics-review` against the prior week's data, isolates the driver, and writes the what-happened-and-why with charts to the week's folder.
 
-Every **Monday at 7:00am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Monday at 7:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/metrics-narrative)
 
@@ -380,7 +380,7 @@ You can share a skill you created. In your list of skills, open the **...** menu
 
 ## Going forward[](https://academy.claude.com/use-cases/metrics-narrative)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

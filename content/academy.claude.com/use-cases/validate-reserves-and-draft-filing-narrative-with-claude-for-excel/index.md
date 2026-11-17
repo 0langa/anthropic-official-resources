@@ -1,10 +1,10 @@
 # Validate reserves and draft filing narrative with Claude for Excel
 
-Cowork reads your reserve workbook from the valuation folder and pulls prior filings and bulletins through your organization's own NAIC connector (a custom MCP server your team hosts). You take the formula flags and reserve walk into Claude for Excel to clean the workbook, then bring the narrative into Claude for Word for the filing memo.
+Claude reads your reserve workbook from the valuation folder and pulls prior filings and bulletins through your organization's own NAIC connector (a custom MCP server your team hosts). You take the formula flags and reserve walk into Claude for Excel to clean the workbook, then bring the narrative into Claude for Word for the filing memo.
 
 15 minFinanceClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-fl1f6avt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iwvq0idh.png)
 
@@ -14,7 +14,7 @@ Try in CoworkCopy prompt
 
 The valuation cutoff was last Friday. You’ve got the reserve workbook with five tabs of triangles, the prior-year filing memo open in another window, the appointed actuary asking about IBNR movement, and the state filing due in two weeks.
 
-In Cowork, Claude reads your reserve workbook from the valuation folder, pulls your prior filings and the latest state bulletins through your organization's own NAIC connector (a custom MCP server your team hosts), and tells you where the development factors look off — and which formulas reference the wrong roll-forward column. You take the flags into Claude for Excel to fix the workbook, then open the filing memo in Claude for Word. The Excel-to-Word handoff carries the conversation, so the narrative draft already knows which reserve segments moved and why.
+Claude reads your reserve workbook from the valuation folder, pulls your prior filings and the latest state bulletins through your organization's own NAIC connector (a custom MCP server your team hosts), and tells you where the development factors look off — and which formulas reference the wrong roll-forward column. You take the flags into Claude for Excel to fix the workbook, then open the filing memo in Claude for Word. The Excel-to-Word handoff carries the conversation, so the narrative draft already knows which reserve segments moved and why.
 
 Claude validates the formulas and flags the anomalies; you sign off on the reserves.
 
@@ -31,15 +31,15 @@ Show me the flags before I touch anything.
 
 
 
-Open in Cowork
+Open in Claude
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/validate-reserves-and-draft-filing-narrative-with-claude-for-excel)
 
-Cowork reads the reserve workbook from the attached folder and pulls historical filings through your organization's own NAIC connector — that's where the formula validation and prior-period comparison happen. Workbook fixes happen in Claude for Excel with the file open, and the conversation carries into Claude for Word so the filing narrative picks up where you left off.
+Claude reads the reserve workbook from the attached folder and pulls historical filings through your organization's own NAIC connector — that's where the formula validation and prior-period comparison happen. Workbook fixes happen in Claude for Excel with the file open, and the conversation carries into Claude for Word so the filing narrative picks up where you left off.
 
 ### Required context[](https://academy.claude.com/use-cases/validate-reserves-and-draft-filing-narrative-with-claude-for-excel)
 
-Attach the valuation folder with the reserve workbook. This walkthrough assumes your organization runs its own NAIC data source as a remote MCP server: an Owner adds it once under Organization settings > Connectors (Add > Custom > Web, then the server URL), and you connect it under Customize > Connectors and turn it on from the + menu in your Cowork task. Have the Claude for Excel and Claude for Word add-ins installed — that's where the workbook fixes and filing narrative happen.
+Attach the valuation folder with the reserve workbook. This walkthrough assumes your organization runs its own NAIC data source as a remote MCP server: an Owner adds it once under Organization settings > Connectors (Add > Custom > Web, then the server URL), and you connect it from [your connectors(opens in new tab)](https://claude.ai/desktop/customize/connectors/yours) and turn it on from the + menu in your conversation. Have the Claude for Excel and Claude for Word add-ins installed. That's where the workbook fixes and filing narrative happen.
 
 Valuation folder
 
@@ -92,13 +92,13 @@ Continue the conversation with Claude to refine, expand, or explore further.
 
 ### Pressure-test the development factors[](https://academy.claude.com/use-cases/validate-reserves-and-draft-filing-narrative-with-claude-for-excel)
 
-In Cowork, ask whether the LDFs look consistent with industry data.
+In Claude, ask whether the LDFs look consistent with industry data.
 
 are my 12-24 and 24-36 link ratios in line with the industry benchmarks NAIC published last quarter for Personal Auto BI?
 
 
 
-Open in Cowork
+Open in Claude
 
 ### Run a sensitivity on the tail[](https://academy.claude.com/use-cases/validate-reserves-and-draft-filing-narrative-with-claude-for-excel)
 
@@ -118,9 +118,9 @@ draft the methodology change section for the filing — we updated the tail fact
 
 ## 5. Tricks, tips, and troubleshooting[](https://academy.claude.com/use-cases/validate-reserves-and-draft-filing-narrative-with-claude-for-excel)
 
-### Ask Cowork for the Excel-ready brief[](https://academy.claude.com/use-cases/validate-reserves-and-draft-filing-narrative-with-claude-for-excel)
+### Ask Claude for the Excel-ready brief[](https://academy.claude.com/use-cases/validate-reserves-and-draft-filing-narrative-with-claude-for-excel)
 
-End your Cowork session by asking for a one-paragraph brief with the sheet refs and the formula flags — that's what you paste into the Claude for Excel sidebar. Tighter than scrolling back through the chat.
+End the conversation by asking for a one-paragraph brief with the sheet refs and the formula flags — that's what you paste into the Claude for Excel sidebar. Tighter than scrolling back through the chat.
 
 ### Click the sheet reference[](https://academy.claude.com/use-cases/validate-reserves-and-draft-filing-narrative-with-claude-for-excel)
 
@@ -132,11 +132,11 @@ When you open the filing memo in Claude for Word, it already knows which formula
 
 ### Save it as a skill[](https://academy.claude.com/use-cases/validate-reserves-and-draft-filing-narrative-with-claude-for-excel)
 
-Quarterly reserve review is the same loop every cycle. Once the Cowork conversation works for one segment, save it as a skill so the next quarter's review across all your lines starts one click in.
+Quarterly reserve review is the same loop every cycle. Once the conversation works for one segment, save it as a skill so the next quarter's review across all your lines starts one click in.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/validate-reserves-and-draft-filing-narrative-with-claude-for-excel)
 
-Try it on your next reserve cycle. Attach the valuation folder in Cowork, ask where the workbook needs fixing, and review the flags before anything moves.
+Try it on your next reserve cycle. Attach the valuation folder in the Claude desktop app, ask where the workbook needs fixing, and review the flags before anything moves.
 
 Q1 reserve review for Personal Auto BI — appointed actuary review next week, filing due in two. Walk me through the workbook before I lock the numbers.
 
@@ -149,6 +149,6 @@ Steps:
 
 Show me the flags before I touch anything.
 
-Try in Cowork
+Try in Claude
 
 Was this helpful?

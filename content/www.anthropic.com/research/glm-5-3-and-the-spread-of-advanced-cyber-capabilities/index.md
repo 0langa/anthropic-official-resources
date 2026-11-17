@@ -22,11 +22,11 @@ Topics
 
 Related articles
 
-- Announcements
+- Frontier Red Team
 
-  Oct 6, 2026
+  Nov 16, 2026
 
-  [Expanding the Cyber Verification Program](https://www.anthropic.com/news/cyber-verification-program)
+  [Updating our coordinated vulnerability disclosure policy timelines](https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines)
 
 [View more](https://www.anthropic.com/search?topic=cybersecurity)
 

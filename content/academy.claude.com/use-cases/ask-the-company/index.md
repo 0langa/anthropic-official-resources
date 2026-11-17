@@ -4,7 +4,7 @@ Plain-English answers over your wiki, code, and warehouse.
 
 10 minEngineeringClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-mjmk2gjq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bpm7r9eg.png)
 
@@ -170,19 +170,19 @@ EngineeringStreamline engineering workflows — standups, code review, architect
 
 `/documentation`Write and maintain technical documentation.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdocumentation)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdocumentation)
 
 `/architecture`Create or evaluate an architecture decision record (ADR).
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Farchitecture)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Farchitecture)
 
 Show all 10 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/ask-the-company)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cdefs%3e%3clinearGradient%20id='cfA'%20x1='22.64'%20y1='24.36'%20x2='9.98'%20y2='17.07'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20offset='0'%20stop-color='%230052CC'/%3e%3cstop%20offset='1'%20stop-color='%232684FF'/%3e%3c/linearGradient%3e%3clinearGradient%20id='cfB'%20x1='1.36'%20y1='-.36'%20x2='14.02'%20y2='6.93'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20offset='0'%20stop-color='%230052CC'/%3e%3cstop%20offset='1'%20stop-color='%232684FF'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath%20fill='url(%23cfA)'%20d='M.87%2018.26c-.25.4-.52.87-.75%201.23a.75.75%200%200%200%20.25%201.02l4.96%203.05a.75.75%200%200%200%201.04-.25c.2-.33.45-.76.73-1.21%201.95-3.22%203.91-2.83%207.45-1.14l4.92%202.34a.75.75%200%200%200%201-.36l2.36-5.34a.75.75%200%200%200-.38-.98c-1.04-.49-3.1-1.46-4.96-2.36-6.68-3.24-12.36-3.03-16.62%204Z'/%3e%3cpath%20fill='url(%23cfB)'%20d='M23.13%205.74c.25-.4.52-.87.75-1.23a.75.75%200%200%200-.25-1.02L18.67.44a.75.75%200%200%200-1.04.25c-.2.33-.45.76-.73%201.21-1.95%203.22-3.91%202.83-7.45%201.14L4.53.7a.75.75%200%200%200-1%20.36L1.17%206.4a.75.75%200%200%200%20.38.98c1.04.49%203.1%201.46%204.96%202.36%206.68%203.24%2012.36%203.03%2016.62-4Z'/%3e%3c/svg%3e)
 
@@ -198,7 +198,7 @@ GitHub
 
 Read code, READMEs, and CODEOWNERS to answer "how does X work" and "who owns X."
 
-[Connect](https://claude.ai/desktop/directory/github)
+[Connect](https://claude.ai/connect-github)
 
 ![](https://academy.claude.com/assets/v1/snowflake-f7euzg40.svg)
 
@@ -208,15 +208,15 @@ Query the warehouse for "how many" and "why did the metric move" questions.
 
 [Connect](https://claude.ai/desktop/directory/snowflake)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/ask-the-company)
 
-Drag the files that anchor the agent (your service catalog export, the team directory, the glossary, the "where to find things" onboarding doc) into one folder and point Cowork at it. These become the routing table the agent consults before searching anywhere else. [Create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so the catalog and ground rules stay attached as the agent evolves.
+Drag the files that anchor the agent (your service catalog export, the team directory, the glossary, the "where to find things" onboarding doc) into one folder and point Claude at it. These become the routing table the agent consults before searching anywhere else. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so the catalog and ground rules stay attached as the agent evolves.
 
 Platform / ask-company
 
@@ -230,13 +230,13 @@ In Cowork’s chat bar:Platform / ask-company
 
 ## The prompt[](https://academy.claude.com/use-cases/ask-the-company)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/ask-the-company)
+### Copy this into Claude[](https://academy.claude.com/use-cases/ask-the-company)
 
 Build an internal "ask anything" agent for engineers. When someone asks "how do I get a staging API key," "what owns the orders table," or "why did deploys slow down last month," find the answer across our systems, cite the source, and tell them who to ask if you're not sure. Get one good answer first, then turn it into a shared skill.
 
 
 
-Platform / ask-companyOpen in Cowork
+Platform / ask-companyOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/ask-the-company)
 
@@ -254,27 +254,27 @@ Build an internal "ask anything" agent for engineers. When someone asks "how do 
 
 Source
 
-**Put reference docs in the working folder.** Service catalog and team directory tell Cowork where to look and who to point to.
+**Put reference docs in the working folder.** Service catalog and team directory tell Claude where to look and who to point to.
 
 ### Get a better draft[](https://academy.claude.com/use-cases/ask-the-company)
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/ask-the-company)
+## Make Claude work for you[](https://academy.claude.com/use-cases/ask-the-company)
 
-The plugin's `/documentation` is a generic starting point. Once Step 2 answers your three questions well, tell Cowork to write your version of the skill. Layer in which spaces and repos to search first, the "I'm not sure" threshold, the tone, and the systems that are off-limits. A few minutes of conversation and the skill speaks your stack from then on.
+The plugin's `/documentation` is a generic starting point. Once Step 2 answers your three questions well, tell Claude to write your version of the skill. Layer in which spaces and repos to search first, the "I'm not sure" threshold, the tone, and the systems that are off-limits. A few minutes of conversation and the skill speaks your stack from then on.
 
 Make what we've done in this task so far into a skill, or edit the /documentation skill with my feedback.
 
 
 
-Platform / ask-companyOpen in Cowork
+Platform / ask-companyOpen in Claude
 
 
 
@@ -288,13 +288,13 @@ Once the agent answers your test questions well, publish it as an artifact so an
 
 ### Log every question it couldn't answer[](https://academy.claude.com/use-cases/ask-the-company)
 
-The agent gets better when you know where it falls short. Type `/schedule` or open **Scheduled** in the Cowork sidebar, and a weekly run writes the unanswered questions to your folder so the platform team can fill the gaps.
+The agent gets better when you know where it falls short. Ask Claude to set up a scheduled task or open **Scheduled** in the sidebar, and a weekly run writes the unanswered questions to your folder so the platform team can fill the gaps.
 
-**/schedule** Every Friday at 4pm, list the questions /documentation couldn't confidently answer this week, group them by topic, and write them to Platform/ask-company/gaps-<week>.md with a suggested owner for each.
+Set up a scheduled task for every Friday at 4pm: list the questions /documentation couldn't confidently answer this week, group them by topic, and write them to Platform/ask-company/gaps-<week>.md with a suggested owner for each.
 
 
 
-Platform / ask-companyOpen in Cowork
+Platform / ask-companyOpen in Claude
 
 Scheduled taskActive
 
@@ -302,7 +302,7 @@ Ask-company gap report
 
 Weekly, lists the questions the agent couldn't answer, groups them by topic, and writes a gap report with suggested owners.
 
-Every **Friday at 4:00pm**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Friday at 4:00pm**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/ask-the-company)
 

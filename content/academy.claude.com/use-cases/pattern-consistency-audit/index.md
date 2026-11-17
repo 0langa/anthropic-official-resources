@@ -4,7 +4,7 @@ Every existing surface that already solves this, before you design a new one.
 
 10 minDesignClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-pa0satz7.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ewc5ye4g.png)
 
@@ -180,19 +180,19 @@ DesignAccelerate design workflows — critique, design system management, UX wri
 
 `/design-handoff`Generate developer handoff specs from a design.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fdesign-handoff)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdesign-handoff)
 
 `/research-synthesis`Synthesize user research into themes, insights, and recommendations.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fresearch-synthesis)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fresearch-synthesis)
 
 Show all 7 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/pattern-consistency-audit)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%230ACF83'%20d='M8%2024a4%204%200%200%200%204-4v-4H8a4%204%200%200%200%200%208Z'/%3e%3cpath%20fill='%23A259FF'%20d='M4%2012a4%204%200%200%201%204-4h4v8H8a4%204%200%200%201-4-4Z'/%3e%3cpath%20fill='%23F24E1E'%20d='M4%204a4%204%200%200%201%204-4h4v8H8a4%204%200%200%201-4-4Z'/%3e%3cpath%20fill='%23FF7262'%20d='M12%200h4a4%204%200%200%201%200%208h-4V0Z'/%3e%3cpath%20fill='%231ABCFE'%20d='M20%2012a4%204%200%201%201-8%200%204%204%200%200%201%208%200Z'/%3e%3c/svg%3e)
 
@@ -208,7 +208,7 @@ GitHub
 
 Find where the pattern is implemented in the product and who owns that surface.
 
-[Connect](https://claude.ai/desktop/directory/github)
+[Connect](https://claude.ai/connect-github)
 
 
 
@@ -218,15 +218,15 @@ Pull engagement and conversion for each surface so the recommendation is grounde
 
 [Connect](https://claude.ai/desktop/directory/amplitude)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/pattern-consistency-audit)
 
-Drag the files you'll use (a Figma export of the design system, screenshots of the surfaces you already know about, the product sitemap) into one folder and point Cowork at it. Cowork reads from it and writes the audit back to it. [Create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your design-system folder so the component inventory and ownership map stay attached for every audit.
+Drag the files you'll use (a Figma export of the design system, screenshots of the surfaces you already know about, the product sitemap) into one folder and point Claude at it. Claude reads from it and writes the audit back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your design-system folder so the component inventory and ownership map stay attached for every audit.
 
 Design-system / Audits / inline-filter
 
@@ -240,13 +240,13 @@ In Cowork’s chat bar:Design-system / Audits / inline-filter
 
 ## The prompt[](https://academy.claude.com/use-cases/pattern-consistency-audit)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/pattern-consistency-audit)
+### Copy this into Claude[](https://academy.claude.com/use-cases/pattern-consistency-audit)
 
 Before I propose a new inline-filter pattern for the search results page, find every surface in our product using something similar (chips, segmented controls, dropdown filters, faceted sidebars). For each, show a screenshot or Figma link, note which team owns it and how it performed (engagement or conversion if we have it). Tell me which pattern to reuse and why.
 
 
 
-Design-system / Audits / inline-filterOpen in Cowork
+Design-system / Audits / inline-filterOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/pattern-consistency-audit)
 
@@ -264,7 +264,7 @@ Before I propose a new inline-filter pattern for the search results page, find e
 
 Source
 
-**Put your reference list in the folder.** Cowork starts from your component list, then checks the live product for what's drifted.
+**Put your reference list in the folder.** Claude starts from your component list, then checks the live product for what's drifted.
 
 ### Get a better draft[](https://academy.claude.com/use-cases/pattern-consistency-audit)
 
@@ -274,9 +274,9 @@ Before I propose a new inline-filter pattern for the search results page, find e
 
 Practice
 
-**Add a screenshot of the destination.** Drop a screenshot of where the pattern is going and Cowork weighs fit, not just precedent.
+**Add a screenshot of the destination.** Drop a screenshot of where the pattern is going and Claude weighs fit, not just precedent.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/pattern-consistency-audit)
+## Make Claude work for you[](https://academy.claude.com/use-cases/pattern-consistency-audit)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -284,7 +284,7 @@ Make what we've done in this task so far into a skill, or edit the /design-hando
 
 
 
-Design-system / AuditsOpen in Cowork
+Design-system / AuditsOpen in Claude
 
 
 
@@ -300,7 +300,7 @@ Save this as /pattern-audit. It should take a pattern name, search Figma, the co
 
 
 
-Design-system / AuditsOpen in Cowork
+Design-system / AuditsOpen in Claude
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/pattern-consistency-audit)
 

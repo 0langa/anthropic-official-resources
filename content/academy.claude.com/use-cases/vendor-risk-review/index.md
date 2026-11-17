@@ -4,7 +4,7 @@ Go/no-go on the vendor with required mitigations.
 
 10 minOperationsClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-d3gaacpk.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ctfjf1cz.png)
 
@@ -192,19 +192,19 @@ OperationsOptimize business operations — vendor management, process documentat
 
 `/risk-assessment`Identify, assess, and mitigate operational risks.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Frisk-assessment)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Frisk-assessment)
 
 `/vendor-review`Evaluate a vendor — cost analysis, risk assessment, and recommendation.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fvendor-review)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fvendor-review)
 
 Show all 9 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/vendor-risk-review)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)
 
@@ -232,15 +232,15 @@ If your executed contracts live in Ironclad, connect it so Claude can match the 
 
 [Connect](https://claude.ai/desktop/directory/ironclad)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/vendor-risk-review)
 
-Drag the files you'll use (the vendor's SOC 2, their questionnaire responses, the DPA and MSA, your risk framework) into one folder on your machine, then point Cowork at it. Cowork reads from it and writes the scored memo and mitigation list back to it. If you run vendor reviews regularly, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your framework, instructions, and memory stay attached.
+Drag the files you'll use (the vendor's SOC 2, their questionnaire responses, the DPA and MSA, your risk framework) into one folder on your machine, then point Claude at it. Claude reads from it and writes the scored memo and mitigation list back to it. If you run vendor reviews regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your framework, instructions, and memory stay attached.
 
 Vendors / Northwind / risk-review
 
@@ -256,19 +256,19 @@ In Cowork’s chat bar:Vendors / Northwind / risk-review
 
 ## The prompt[](https://academy.claude.com/use-cases/vendor-risk-review)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/vendor-risk-review)
+### Copy this into Claude[](https://academy.claude.com/use-cases/vendor-risk-review)
 
 Score this vendor's SOC 2, security questionnaire, DPA, and MSA against our risk framework. Write the review memo with a clear go or no-go and the required mitigations with owners. Cite the source document and section for every finding.
 
 
 
-Vendors / Northwind / risk-reviewOpen in Cowork
+Vendors / Northwind / risk-reviewOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/vendor-risk-review)
 
 Source
 
-**List the sources to read together.** "SOC 2, questionnaire, DPA, and MSA" tells Cowork to cross-read security evidence and contract terms together, so a control gap and a missing contract clause show up as one finding, not two reviews.
+**List the sources to read together.** "SOC 2, questionnaire, DPA, and MSA" tells Claude to cross-read security evidence and contract terms together, so a control gap and a missing contract clause show up as one finding, not two reviews.
 
 Source
 
@@ -286,13 +286,13 @@ Score this vendor's SOC 2, security questionnaire, DPA, and MSA against our risk
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/vendor-risk-review)
+## Make Claude work for you[](https://academy.claude.com/use-cases/vendor-risk-review)
 
 A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
@@ -300,7 +300,7 @@ Make what we've done in this task so far into a skill, or edit the /risk-assessm
 
 
 
-VendorsOpen in Cowork
+VendorsOpen in Claude
 
 
 
@@ -310,13 +310,13 @@ Make what we've done in this task so far into a skill, or edit the /risk-assessm
 
 ### Run it on every new vendor[](https://academy.claude.com/use-cases/vendor-risk-review)
 
-When a vendor packet arrives, the scored memo should already be drafting. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill runs whenever a new risk-review folder appears under Vendors.
+When a vendor packet arrives, the scored memo should already be drafting. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs whenever a new risk-review folder appears under Vendors.
 
-**/schedule** Weekdays at 9am, check Vendors for any new risk-review folder and run /risk-assessment against the docs inside and write the scored memo and mitigation list to that folder.
+Set up a scheduled task for weekdays at 9am: check Vendors for any new risk-review folder and run /risk-assessment against the docs inside and write the scored memo and mitigation list to that folder.
 
 
 
-VendorsOpen in Cowork
+VendorsOpen in Claude
 
 Scheduled taskActive
 
@@ -324,7 +324,7 @@ Vendor risk first pass
 
 Runs `/risk-assessment` on every new risk-review folder under Vendors and writes the scored memo and mitigation list back to it.
 
-Every **weekday at 9am**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **weekday at 9am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/vendor-risk-review)
 
@@ -338,7 +338,7 @@ You can share a skill you created. In your list of skills, open the **...** menu
 
 ## Going forward[](https://academy.claude.com/use-cases/vendor-risk-review)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

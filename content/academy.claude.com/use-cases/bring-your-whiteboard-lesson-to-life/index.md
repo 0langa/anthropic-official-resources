@@ -88,7 +88,7 @@ The predict-then-snap interaction is Claude's guess at what would help your stud
 
 ### What to do with the visual next[](https://academy.claude.com/use-cases/bring-your-whiteboard-lesson-to-life)
 
-When the visual is close to something students could use on their own, hover over it for options. Save as Artifact turns the whiteboard draft into a link students open on their own. Create skill from visual has Claude remember the interaction shape — next time you bring a different concept and get the same drag-predict-check format without rebuilding the idea.
+When the visual is close to something students could use on their own, ask Claude to turn the whiteboard draft into an artifact, then share it and send students the link. Whether and how you can [share it(opens in new tab)](https://support.claude.com/en/articles/9547008-share-artifacts) depends on your Claude plan. To reuse the interaction shape, ask Claude to rebuild the same drag-predict-check format around a different concept.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/bring-your-whiteboard-lesson-to-life)
 

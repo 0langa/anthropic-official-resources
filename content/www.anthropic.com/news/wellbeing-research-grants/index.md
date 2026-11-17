@@ -18,11 +18,11 @@ Topics
 
 Related articles
 
-- Engineering
+- Frontier Red Team
 
-  Feb 5, 2026
+  Nov 16, 2026
 
-  [Quantifying infrastructure noise in agentic coding evals](https://www.anthropic.com/research/infrastructure-noise)
+  [Updating our coordinated vulnerability disclosure policy timelines](https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines)
 
 [View more](https://www.anthropic.com/search?topic=wellbeing)
 
