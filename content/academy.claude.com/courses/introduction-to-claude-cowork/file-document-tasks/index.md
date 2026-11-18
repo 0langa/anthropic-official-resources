@@ -57,17 +57,17 @@ This is what makes skills so useful for codifying how your team works. Cowork is
 
 The fastest way to build a skill is with Claude.
 
-Start a new conversation in Cowork and say something like:
+Start a new conversation (select **Cowork** if you see the option) and say something like:
 
 I want to build a skill for [the recurring process you're tired of re-explaining]. Walk me through what you need to know.
 
 
 
-Open in Cowork
+Open in Claude
 
 Claude will ask a few questions: what the skill should do, when it should trigger, what good output looks like, what resources it should use to inform the skill. Answer as specifically as you can — point at real examples of the work, real templates, real prior outputs. The output is a skill folder with the SKILL.md and any assets, references, and scripts the skill needs, ready to install.
 
-Once it's installed, you can find the skill in **Customize**. If you want to make any changes to the skill, you can just provide Claude with the correction and ask it to update the skill. *"Add a step that flags any deal over $100K that slipped two stages — that always matters."* Claude updates the skill in place.
+Once it's installed, you can find it in [your skills(opens in new tab)](https://claude.ai/desktop/customize/skills/yours). If you want to make any changes to the skill, you can just provide Claude with the correction and ask it to update the skill. *"Add a step that flags any deal over $100K that slipped two stages — that always matters."* Claude updates the skill, and you save it to keep the change.
 
 Skills work the same way inside any conversation, including conversations inside a project. So a skill you build for variance analysis will show up whenever variance analysis is the task — whether you're working in your default Cowork session or inside a specific finance project.
 

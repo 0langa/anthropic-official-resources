@@ -53,9 +53,9 @@ Explorer: a sample Cowork prompt with four phrases to open. Each phrase explains
 
 Anatomy of a Cowork task
 
-What did we decide about pricing last quarter? Look across the meeting notes in the Q3 Sales folder, my emails from the sales team, the leadership Slack, and the proposal decks — pull it all together and write me a one-page summary I can send to the exec team.
+What did we decide about pricing last quarter? Look across the meeting notes in the Q3 Sales folder, my emails from the sales team, the leadership Slack, and the proposal decks — pull it all together and write me a one-page summary as a Word file in that folder, so I can send it to the exec team.
 
-AskSonnet 4.6
+ManualSonnet
 
 Click any underlined part of the prompt to see why this is Cowork’s kind of work.
 

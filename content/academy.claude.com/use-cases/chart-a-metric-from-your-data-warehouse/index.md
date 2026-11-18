@@ -44,7 +44,7 @@ For help, ask your admin or visit our [troubleshooting docs(opens in new tab)](h
 
 ## What to ask Claude, and what it does[](https://academy.claude.com/use-cases/chart-a-metric-from-your-data-warehouse)
 
-Ask in the thread where the discussion is happening, each time you need a number from the data warehouse. Name the metric and the time period. Claude reads the whole thread, so you can refer to something said earlier without describing it again.
+Ask in the thread where the discussion is happening, each time you need a number from the data warehouse. Name the metric and the time period. Claude reads the thread, so you can usually refer to something said earlier without describing it again.
 
 Film: a chat-window recreation shows the user asking Claude Tag about a metric in an ongoing thread, and Claude reads earlier messages, works through a plan, then replies with an explanation, chart, and query, citing the messages it used.
 

@@ -16,7 +16,7 @@ Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduc
 
 ## Onboard your new collaborator[](https://academy.claude.com/courses/introduction-to-claude-cowork/giving-cowork-context)
 
-Claude remembers things from your conversations on its own, and that memory applies in Cowork tasks too. The context that reliably carries from task to task, though, is the context you set up deliberately: **global instructions**, which apply to every Cowork session, and **projects**, where Claude builds memory automatically from the conversations you have inside them. Most people start with global instructions and add projects as recurring work surfaces.
+When memory is on, Claude remembers things from your conversations on its own, and that memory also applies in Cowork tasks when they run remotely. The context that reliably carries from task to task, though, is the context you set up deliberately: **global instructions**, which apply to every Cowork session, and **projects**, where Claude builds memory automatically from the conversations you have inside them. Most people start with global instructions and add projects as recurring work surfaces.
 
 ## Global instructions: the brief that applies to every session[](https://academy.claude.com/courses/introduction-to-claude-cowork/giving-cowork-context)
 
@@ -24,7 +24,7 @@ Global instructions are a standing brief. You write them once, in Settings, and 
 
 To set them up:
 
-1. Open **Settings** in Claude and find **Global instructions** (called **Instructions for Claude** in some versions of the app).
+1. Open **Settings** in Claude, search for **instructions**, and select **Instructions for Claude**. If a separate field named **Global instructions** is also listed, use that one for Cowork tasks.
 2. Write your brief and save.
 
 What to put in it: who you are and what you do; the shorthand and acronyms you use (so Claude doesn't have to ask what "the QBR deck" is); and how you like output delivered (format, length, tone, etc.). The interactive below shows a few worked examples based on different roles.
@@ -66,7 +66,7 @@ A project is a workspace tied to a specific stream of work — a customer, a rec
 - **Context** — one or more folders or links Claude should work from. Every conversation in the project has access to them.
 - **Memory** — what Claude learns from the conversations you have inside the project. This builds up over time as you work; you don't write it.
 
-That last one is the difference projects make. Outside of a project, each session starts fresh apart from your global instructions. Inside one, every conversation adds to what Claude knows — so the next task opens with the client's situation, last week's decisions, and what's still open already in hand.
+That last one is the difference projects make. Outside of a project, each session starts fresh apart from your global instructions and, in tasks that run remotely with memory on, what Claude remembers on its own. Inside one, every conversation adds to what Claude knows about that work, so the next task opens with the client's situation, last week's decisions, and what's still open already in hand.
 
 Review the examples below to get a sense for the makeup of a Cowork project.
 

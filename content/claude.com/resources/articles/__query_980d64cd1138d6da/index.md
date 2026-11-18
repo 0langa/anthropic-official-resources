@@ -40,13 +40,11 @@ A research preview is available by waitlist today, starting with US Pro, Max, an
 
 ![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
-[ArticleNov 13, 2026
+[ArticleNov 17, 2026
 
-### Building always-on agents
+### Linked billing on the Claude Platform
 
-Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
-
-Claude Platform](https://claude.com/resources/articles/building-always-on-agents)
+Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)
 
 [ArticleNov 10, 2026
 

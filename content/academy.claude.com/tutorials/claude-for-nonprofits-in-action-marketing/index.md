@@ -2,9 +2,9 @@
 
 A year-end campaign on five hours a week. An operations lead at an organization with no marketing staff has a year-end campaign to plan.
 
-Claude Cowork
+Claude
 
-Watch[Open Cowork](https://claude.ai/new?surface=cowork)
+Watch[Open Claude](https://claude.ai/new)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-kluegw5m.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cwddvbaa.png)
 

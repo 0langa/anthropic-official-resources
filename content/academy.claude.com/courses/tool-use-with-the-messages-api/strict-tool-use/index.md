@@ -186,13 +186,13 @@ Strict controls the input's shape but can't supply a fact the request never gave
 
 ## Limits of strict tool use[](https://academy.claude.com/courses/tool-use-with-the-messages-api/strict-tool-use)
 
-Six things to know, as of October 2026:
+Six things to know, as of November 2026:
 
 1. **Keep protected health information (PHI) out.** Compiled schemas don't get the same PHI protections as prompts and responses, so leave PHI out of property names, `enum` values, `const` values, and `pattern` expressions.
 2. **Bounds aren't supported.** A request whose schema uses `minimum`, `maximum`, `minLength`, or `maxLength` returns a 400 error. Check bounds in a validator function, such as Pydantic's `@field_validator`, and state them in the field's description.
 3. **Limits add up across tools.** One request can hold at most [20 strict tools(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/structured-outputs). Across those tools, it can hold at most 24 optional parameters. It can also hold at most 16 parameters that use `anyOf` or a type array, which is what a nullable field like `str | None` generates.
 4. **Input can still fail to match the schema.** This happens after a refusal, when a response is cut off at `max_tokens`, or when an `enum` or `const` string comes back in different capitalization.
-5. **Some models reject a forced tool call.** Setting `tool_choice` to `any` or `tool` forces a tool call. That returns a 400 error on Claude Opus 5.5, Claude Sonnet 5.5, Claude Fable 5.1, and Claude Mythos 5.1. On those models, leave `tool_choice` on `auto`, its default.
+5. **Some models reject a forced tool call.** Setting `tool_choice` to `any` or `tool` forces a tool call. That returns a 400 error on Claude Fable 5.2, Claude Mythos 5.2, Claude Opus 5.5, Claude Sonnet 5.5, Claude Fable 5.1, and Claude Mythos 5.1. On those models, leave `tool_choice` on `auto`, its default.
 6. **Programmatic tool calling can't use strict tools.** In programmatic tool calling, Claude writes code that calls your tools. Lesson 8 covers it.
 
 ## Key takeaways[](https://academy.claude.com/courses/tool-use-with-the-messages-api/strict-tool-use)

@@ -62,7 +62,7 @@ The query, the chart, and the plain-English answer.
 
 ## Audit a folder of visual assets against your guidelines
 
-In Claude Cowork, Claude Opus 5.5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
+Claude Opus 5.5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
 
 ·Use case·Marketing·15 min](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)[![](https://academy.claude.com/assets/v1/thumbnail.light-f1fouzqt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iw1rj94h.png)
 
@@ -79,13 +79,13 @@ A formatted campaign brief from rough notes.
 - [Delegating your first task in Claude CoworkTutorial4 min
 
   ·Tutorial·4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)
-- [Using Claude Cowork for sales: research any account before the first callTutorial15 min
+- [Using Claude for sales: research any account before the first callTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)
-- [Using Claude Cowork for marketing ops: run a weekly review that preps itselfTutorial15 min
+- [Using Claude for marketing ops: run a weekly review that preps itselfTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-marketing-ops-review)
-- [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
+- [Using Claude for legal: answer fast questions on past decisionsTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
 - [How to customize plugins in ClaudeTutorial6 min
@@ -129,7 +129,17 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Upcoming · Nov 19, 1:00 PM PT
+
+### Claude Rearview Roadmap Review: November 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SS
+
+·Upcoming·Nov 19·1:00 PM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Oct 22
 
 ### Claude Rearview Roadmap Review: October 2026 
 
@@ -139,17 +149,7 @@ SSIP
 
 ·Recording·Oct 22
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
-
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
-
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
-
-DF
-
-·Recording·Oct 20
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
 ## Browse it all
 
@@ -198,7 +198,7 @@ GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearc
 
 ## Audit a folder of visual assets against your guidelines
 
-In Claude Cowork, Claude Opus 5.5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
+Claude Opus 5.5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
 
 ·Use case·Marketing·15 min](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)[![](https://academy.claude.com/assets/v1/thumbnail.light-f1fouzqt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iw1rj94h.png)
 
@@ -210,7 +210,7 @@ A formatted campaign brief from rough notes.
 
 ## Build the competitive comparison doc
 
-Cowork reads competitor materials against your positioning, writes the win/lose/draw, and outputs a sales deck and Excel matrix.
+Claude reads competitor materials against your positioning, writes the win/lose/draw, and outputs a sales deck and Excel matrix.
 
 ·Use case·Marketing·10 min](https://academy.claude.com/use-cases/competitor-comparison)[![](https://academy.claude.com/assets/v1/thumbnail.light-nu0i2d0q.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mxhk1r1q.png)
 
@@ -239,13 +239,13 @@ A blog post, a LinkedIn thread, and short social posts from one webinar, each in
 - [Delegating your first task in Claude CoworkTutorial4 min
 
   ·Tutorial·4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)
-- [Using Claude Cowork for sales: research any account before the first callTutorial15 min
+- [Using Claude for sales: research any account before the first callTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)
-- [Using Claude Cowork for marketing ops: run a weekly review that preps itselfTutorial15 min
+- [Using Claude for marketing ops: run a weekly review that preps itselfTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-marketing-ops-review)
-- [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
+- [Using Claude for legal: answer fast questions on past decisionsTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
 - [How to customize plugins in ClaudeTutorial6 min
@@ -289,7 +289,17 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Upcoming · Nov 19, 1:00 PM PT
+
+### Claude Rearview Roadmap Review: November 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SS
+
+·Upcoming·Nov 19·1:00 PM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Oct 22
 
 ### Claude Rearview Roadmap Review: October 2026 
 
@@ -299,17 +309,7 @@ SSIP
 
 ·Recording·Oct 22
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
-
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
-
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
-
-DF
-
-·Recording·Oct 20
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
 ## Browse it all
 
@@ -399,13 +399,13 @@ Synthesize feedback from call transcripts, Slack, CRM notes, and Linear issues t
 - [Delegating your first task in Claude CoworkTutorial4 min
 
   ·Tutorial·4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)
-- [Using Claude Cowork for sales: research any account before the first callTutorial15 min
+- [Using Claude for sales: research any account before the first callTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)
-- [Using Claude Cowork for marketing ops: run a weekly review that preps itselfTutorial15 min
+- [Using Claude for marketing ops: run a weekly review that preps itselfTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-marketing-ops-review)
-- [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
+- [Using Claude for legal: answer fast questions on past decisionsTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
 - [How to customize plugins in ClaudeTutorial6 min
@@ -449,7 +449,17 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Upcoming · Nov 19, 1:00 PM PT
+
+### Claude Rearview Roadmap Review: November 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SS
+
+·Upcoming·Nov 19·1:00 PM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Oct 22
 
 ### Claude Rearview Roadmap Review: October 2026 
 
@@ -459,17 +469,7 @@ SSIP
 
 ·Recording·Oct 22
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
-
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
-
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
-
-DF
-
-·Recording·Oct 20
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
 ## Browse it all
 
@@ -559,13 +559,13 @@ A structured proposal with prior art and trade-offs filled in.
 - [Delegating your first task in Claude CoworkTutorial4 min
 
   ·Tutorial·4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)
-- [Using Claude Cowork for sales: research any account before the first callTutorial15 min
+- [Using Claude for sales: research any account before the first callTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)
-- [Using Claude Cowork for marketing ops: run a weekly review that preps itselfTutorial15 min
+- [Using Claude for marketing ops: run a weekly review that preps itselfTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-marketing-ops-review)
-- [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
+- [Using Claude for legal: answer fast questions on past decisionsTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
 - [How to customize plugins in ClaudeTutorial6 min
@@ -609,7 +609,17 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Upcoming · Nov 19, 1:00 PM PT
+
+### Claude Rearview Roadmap Review: November 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SS
+
+·Upcoming·Nov 19·1:00 PM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Oct 22
 
 ### Claude Rearview Roadmap Review: October 2026 
 
@@ -619,17 +629,7 @@ SSIP
 
 ·Recording·Oct 22
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
-
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
-
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
-
-DF
-
-·Recording·Oct 20
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
 ## Browse it all
 
@@ -713,13 +713,13 @@ Your perf framework published as a skill every manager runs.
 - [Delegating your first task in Claude CoworkTutorial4 min
 
   ·Tutorial·4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)
-- [Using Claude Cowork for sales: research any account before the first callTutorial15 min
+- [Using Claude for sales: research any account before the first callTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)
-- [Using Claude Cowork for marketing ops: run a weekly review that preps itselfTutorial15 min
+- [Using Claude for marketing ops: run a weekly review that preps itselfTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-marketing-ops-review)
-- [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
+- [Using Claude for legal: answer fast questions on past decisionsTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
 - [How to customize plugins in ClaudeTutorial6 min
@@ -763,7 +763,17 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Upcoming · Nov 19, 1:00 PM PT
+
+### Claude Rearview Roadmap Review: November 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SS
+
+·Upcoming·Nov 19·1:00 PM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Oct 22
 
 ### Claude Rearview Roadmap Review: October 2026 
 
@@ -773,17 +783,7 @@ SSIP
 
 ·Recording·Oct 22
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
-
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
-
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
-
-DF
-
-·Recording·Oct 20
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
 ## Browse it all
 
@@ -832,7 +832,7 @@ GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearc
 
 ## Build analysis from browser charts and folder data
 
-Pull your quarterly revenue from scattered board decks, then grab GDP and inflation data from FRED. Cowork creates a comparison chart showing how your growth stacks up against the macro environment.
+Pull your quarterly revenue from scattered board decks, then grab GDP and inflation data from FRED. Claude creates a comparison chart showing how your growth stacks up against the macro environment.
 
 ·Use case·Finance·15 min](https://academy.claude.com/use-cases/build-analysis-from-browser-charts-and-folder-data)[![](https://academy.claude.com/assets/v1/thumbnail.light-h97eje0w.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-b4zgvlm6.png)
 
@@ -844,7 +844,7 @@ ASC 606 fields pulled from the contract, exceptions flagged before they hit the 
 
 ## Draft a credit memo from spreads and statements with Claude for Excel
 
-Cowork pulls the borrower's filings and spreads through the S&P Global connector and reads the underwriting workbook from your deal folder. You take the ratios and exceptions into Claude for Excel to update the model, then bring the writeup into Claude for Word for the credit memo.
+Claude pulls the borrower's filings and spreads through the S&P Global connector and reads the underwriting workbook from your deal folder. You take the ratios and exceptions into Claude for Excel to update the model, then bring the writeup into Claude for Word for the credit memo.
 
 ·Use case·Finance·15 min](https://academy.claude.com/use-cases/draft-a-credit-memo-from-spreads-and-statements-with-claude-for-excel)[![](https://academy.claude.com/assets/v1/thumbnail.light-ejn575jr.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-m0b89rp1.png)
 
@@ -873,13 +873,13 @@ Intercompany breaks sorted, JEs drafted with memo and support.
 - [Delegating your first task in Claude CoworkTutorial4 min
 
   ·Tutorial·4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)
-- [Using Claude Cowork for sales: research any account before the first callTutorial15 min
+- [Using Claude for sales: research any account before the first callTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)
-- [Using Claude Cowork for marketing ops: run a weekly review that preps itselfTutorial15 min
+- [Using Claude for marketing ops: run a weekly review that preps itselfTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-marketing-ops-review)
-- [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
+- [Using Claude for legal: answer fast questions on past decisionsTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
 - [How to customize plugins in ClaudeTutorial6 min
@@ -923,7 +923,17 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Upcoming · Nov 19, 1:00 PM PT
+
+### Claude Rearview Roadmap Review: November 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SS
+
+·Upcoming·Nov 19·1:00 PM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Oct 22
 
 ### Claude Rearview Roadmap Review: October 2026 
 
@@ -933,17 +943,7 @@ SSIP
 
 ·Recording·Oct 22
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
-
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
-
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
-
-DF
-
-·Recording·Oct 20
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
 ## Browse it all
 
@@ -1000,11 +1000,11 @@ Turn a folder of scattered policy documents, contracts, and records into an orga
 
 Talking points, leverage, and a redline summary from the contract.
 
-·Use case·Operations·10 min](https://academy.claude.com/use-cases/vendor-negotiation)[![](https://academy.claude.com/assets/v1/thumbnail.light-f5rr63un.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nmenq2sv.png)
+·Use case·Operations·10 min](https://academy.claude.com/use-cases/vendor-negotiation)[![](https://academy.claude.com/assets/v1/thumbnail.light-fs8n0rwn.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dddrlr2v.png)
 
-## Process batches of vendors with Cowork
+## Process batches of vendors with Claude
 
-Onboard several vendors in one session — with Cowork, Claude can read a folder of vendor files, adds each to your tracker, generates their contracts, and fills multiple intake forms in your browser.
+Onboard several vendors in one conversation — Claude can read a folder of vendor files, add each to your tracker, generate their contracts, and fill multiple intake forms in your browser.
 
 ·Use case·Operations·10 min](https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-ekdkz1b1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dwsje4gy.png)
 
@@ -1027,13 +1027,13 @@ Go/no-go on the vendor with required mitigations.
 - [Delegating your first task in Claude CoworkTutorial4 min
 
   ·Tutorial·4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)
-- [Using Claude Cowork for sales: research any account before the first callTutorial15 min
+- [Using Claude for sales: research any account before the first callTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)
-- [Using Claude Cowork for marketing ops: run a weekly review that preps itselfTutorial15 min
+- [Using Claude for marketing ops: run a weekly review that preps itselfTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-marketing-ops-review)
-- [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
+- [Using Claude for legal: answer fast questions on past decisionsTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
 - [How to customize plugins in ClaudeTutorial6 min
@@ -1077,7 +1077,17 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Upcoming · Nov 19, 1:00 PM PT
+
+### Claude Rearview Roadmap Review: November 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SS
+
+·Upcoming·Nov 19·1:00 PM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Oct 22
 
 ### Claude Rearview Roadmap Review: October 2026 
 
@@ -1087,17 +1097,7 @@ SSIP
 
 ·Recording·Oct 22
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
-
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
-
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
-
-DF
-
-·Recording·Oct 20
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
 ## Browse it all
 
@@ -1157,13 +1157,13 @@ The query, the chart, and the plain-English answer.
 - [Delegating your first task in Claude CoworkTutorial4 min
 
   ·Tutorial·4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)
-- [Using Claude Cowork for sales: research any account before the first callTutorial15 min
+- [Using Claude for sales: research any account before the first callTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)
-- [Using Claude Cowork for marketing ops: run a weekly review that preps itselfTutorial15 min
+- [Using Claude for marketing ops: run a weekly review that preps itselfTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-marketing-ops-review)
-- [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
+- [Using Claude for legal: answer fast questions on past decisionsTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
 - [How to customize plugins in ClaudeTutorial6 min
@@ -1207,7 +1207,17 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Upcoming · Nov 19, 1:00 PM PT
+
+### Claude Rearview Roadmap Review: November 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SS
+
+·Upcoming·Nov 19·1:00 PM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Oct 22
 
 ### Claude Rearview Roadmap Review: October 2026 
 
@@ -1217,17 +1227,7 @@ SSIP
 
 ·Recording·Oct 22
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
-
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
-
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
-
-DF
-
-·Recording·Oct 20
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
 ## Browse it all
 
@@ -1276,7 +1276,7 @@ GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearc
 
 ## Audit a folder of visual assets against your guidelines
 
-In Claude Cowork, Claude Opus 5.5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
+Claude Opus 5.5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
 
 ·Use case·Marketing·15 min](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)[![](https://academy.claude.com/assets/v1/thumbnail.light-e6bs284y.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-m8ta2480.png)
 
@@ -1317,13 +1317,13 @@ Every Claude output across the org stays on-brand.
 - [Delegating your first task in Claude CoworkTutorial4 min
 
   ·Tutorial·4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)
-- [Using Claude Cowork for sales: research any account before the first callTutorial15 min
+- [Using Claude for sales: research any account before the first callTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)
-- [Using Claude Cowork for marketing ops: run a weekly review that preps itselfTutorial15 min
+- [Using Claude for marketing ops: run a weekly review that preps itselfTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-marketing-ops-review)
-- [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
+- [Using Claude for legal: answer fast questions on past decisionsTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
 - [How to customize plugins in ClaudeTutorial6 min
@@ -1367,7 +1367,17 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Upcoming · Nov 19, 1:00 PM PT
+
+### Claude Rearview Roadmap Review: November 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SS
+
+·Upcoming·Nov 19·1:00 PM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Oct 22
 
 ### Claude Rearview Roadmap Review: October 2026 
 
@@ -1377,17 +1387,7 @@ SSIP
 
 ·Recording·Oct 22
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
-
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
-
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
-
-DF
-
-·Recording·Oct 20
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
 ## Browse it all
 
@@ -1477,13 +1477,13 @@ Turn a folder of scattered policy documents, contracts, and records into an orga
 - [Delegating your first task in Claude CoworkTutorial4 min
 
   ·Tutorial·4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)
-- [Using Claude Cowork for sales: research any account before the first callTutorial15 min
+- [Using Claude for sales: research any account before the first callTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)
-- [Using Claude Cowork for marketing ops: run a weekly review that preps itselfTutorial15 min
+- [Using Claude for marketing ops: run a weekly review that preps itselfTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-marketing-ops-review)
-- [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
+- [Using Claude for legal: answer fast questions on past decisionsTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
 - [How to customize plugins in ClaudeTutorial6 min
@@ -1527,7 +1527,17 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Upcoming · Nov 19, 1:00 PM PT
+
+### Claude Rearview Roadmap Review: November 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SS
+
+·Upcoming·Nov 19·1:00 PM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Oct 22
 
 ### Claude Rearview Roadmap Review: October 2026 
 
@@ -1537,17 +1547,7 @@ SSIP
 
 ·Recording·Oct 22
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
-
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
-
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
-
-DF
-
-·Recording·Oct 20
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
 ## Browse it all
 
@@ -1637,13 +1637,13 @@ The themes across your calls, counted and quoted.
 - [Delegating your first task in Claude CoworkTutorial4 min
 
   ·Tutorial·4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)
-- [Using Claude Cowork for sales: research any account before the first callTutorial15 min
+- [Using Claude for sales: research any account before the first callTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)
-- [Using Claude Cowork for marketing ops: run a weekly review that preps itselfTutorial15 min
+- [Using Claude for marketing ops: run a weekly review that preps itselfTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-marketing-ops-review)
-- [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
+- [Using Claude for legal: answer fast questions on past decisionsTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
 - [How to customize plugins in ClaudeTutorial6 min
@@ -1687,7 +1687,17 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Upcoming · Nov 19, 1:00 PM PT
+
+### Claude Rearview Roadmap Review: November 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SS
+
+·Upcoming·Nov 19·1:00 PM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Oct 22
 
 ### Claude Rearview Roadmap Review: October 2026 
 
@@ -1697,17 +1707,7 @@ SSIP
 
 ·Recording·Oct 22
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
-
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
-
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
-
-DF
-
-·Recording·Oct 20
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
 ## Browse it all
 
@@ -1767,13 +1767,13 @@ Synthesize feedback from call transcripts, Slack, CRM notes, and Linear issues t
 - [Delegating your first task in Claude CoworkTutorial4 min
 
   ·Tutorial·4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)
-- [Using Claude Cowork for sales: research any account before the first callTutorial15 min
+- [Using Claude for sales: research any account before the first callTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)
-- [Using Claude Cowork for marketing ops: run a weekly review that preps itselfTutorial15 min
+- [Using Claude for marketing ops: run a weekly review that preps itselfTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-marketing-ops-review)
-- [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
+- [Using Claude for legal: answer fast questions on past decisionsTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
 - [How to customize plugins in ClaudeTutorial6 min
@@ -1817,7 +1817,17 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Upcoming · Nov 19, 1:00 PM PT
+
+### Claude Rearview Roadmap Review: November 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SS
+
+·Upcoming·Nov 19·1:00 PM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Oct 22
 
 ### Claude Rearview Roadmap Review: October 2026 
 
@@ -1827,17 +1837,7 @@ SSIP
 
 ·Recording·Oct 22
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
-
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
-
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
-
-DF
-
-·Recording·Oct 20
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
 ## Browse it all
 
@@ -1897,13 +1897,13 @@ Claude Opus 5.5 reads a single source page in detail and returns a finished file
 - [Delegating your first task in Claude CoworkTutorial4 min
 
   ·Tutorial·4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)
-- [Using Claude Cowork for sales: research any account before the first callTutorial15 min
+- [Using Claude for sales: research any account before the first callTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)
-- [Using Claude Cowork for marketing ops: run a weekly review that preps itselfTutorial15 min
+- [Using Claude for marketing ops: run a weekly review that preps itselfTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-marketing-ops-review)
-- [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
+- [Using Claude for legal: answer fast questions on past decisionsTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
 - [How to customize plugins in ClaudeTutorial6 min
@@ -1947,7 +1947,17 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Upcoming · Nov 19, 1:00 PM PT
+
+### Claude Rearview Roadmap Review: November 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SS
+
+·Upcoming·Nov 19·1:00 PM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Oct 22
 
 ### Claude Rearview Roadmap Review: October 2026 
 
@@ -1957,17 +1967,7 @@ SSIP
 
 ·Recording·Oct 22
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
-
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
-
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
-
-DF
-
-·Recording·Oct 20
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
 ## Browse it all
 
@@ -2016,7 +2016,7 @@ GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearc
 
 ## Organize files across your desktop
 
-Grant Cowork access to your cluttered desktop and walk away. It reads your files, figures out what they are, and sorts them into folders while you do something else.
+Grant Claude access to your cluttered desktop and walk away. It reads your files, figures out what they are, and sorts them into folders while you do something else.
 
 ·Use case·Personal·15 min](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
@@ -2027,13 +2027,13 @@ Grant Cowork access to your cluttered desktop and walk away. It reads your files
 - [Delegating your first task in Claude CoworkTutorial4 min
 
   ·Tutorial·4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)
-- [Using Claude Cowork for sales: research any account before the first callTutorial15 min
+- [Using Claude for sales: research any account before the first callTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)
-- [Using Claude Cowork for marketing ops: run a weekly review that preps itselfTutorial15 min
+- [Using Claude for marketing ops: run a weekly review that preps itselfTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-marketing-ops-review)
-- [Using Claude Cowork for legal: answer fast questions on past decisionsTutorial15 min
+- [Using Claude for legal: answer fast questions on past decisionsTutorial15 min
 
   ·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
 - [How to customize plugins in ClaudeTutorial6 min
@@ -2077,7 +2077,17 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Upcoming · Nov 19, 1:00 PM PT
+
+### Claude Rearview Roadmap Review: November 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SS
+
+·Upcoming·Nov 19·1:00 PM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Oct 22
 
 ### Claude Rearview Roadmap Review: October 2026 
 
@@ -2087,17 +2097,7 @@ SSIP
 
 ·Recording·Oct 22
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
-
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
-
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
-
-DF
-
-·Recording·Oct 20
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
 ## Browse it all
 

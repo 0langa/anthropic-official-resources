@@ -25,13 +25,13 @@ Inside a larger company, the recommended way to share a plugin is through your o
 
 In practice, distribution is a hand-off. You bring the plugin to whoever owns the marketplace for your org — that might be a team lead, an enablement or operations owner, or IT — and they publish it. When they do, they choose how it lands for everyone else:
 
-- Available — it appears in the company Directory and people can install it if they want it.
+- Available to install — it appears in the company Directory and people can install it if they want it.
 - Installed by default — it's already installed for everyone; they can turn it off.
 - Required — it's installed and stays on; useful for things like compliance checks that everyone needs to run the same way.
 
 From your teammates' seat, the plugin simply shows up in their Directory labeled as coming from your company, alongside the public Anthropic ones. They can use it and turn it off (unless it's required), but they can't edit it — updates flow from whoever maintains it.
 
-What this looks like for *you* depends on what your admin has set up. Some organizations have a marketplace running and a clear owner to hand things to; others haven't switched it on yet. Use the interactive below to find your situation and the right next step.
+What this looks like for *you* depends on what your admin has set up. Some organizations have a marketplace running and a clear owner to hand things to; others haven't set one up yet. Use the interactive below to find your situation and the right next step.
 
 Explorer: a three-tab switcher lets learners pick the distribution situation matching their organization, then shows the path and next step for sharing a Cowork plugin, covering hand-off, discovery, and admin setup scenarios.
 
@@ -51,7 +51,7 @@ Your next step
 
 Bring your plugin to the **marketplace owner** — team lead, enablement, or IT. Tell them who it’s for and how it should land. They’ll pick one of the install levels below when they publish.
 
-Available
+Available to install
 
 In the Directory for anyone who wants it. Right for most team plugins.
 
@@ -63,11 +63,11 @@ Required
 
 On and stays on. Reserve for compliance or must-run-the-same-way work.
 
-Hidden
+Not available
 
 In the marketplace but not shown in the Directory — for staging or restricted rollouts.
 
-Once it’s published, your teammates see it in their Directory labeled as coming from your company. **Your updates flow to them automatically.**
+Once it’s published, your teammates see it in their Directory labeled as coming from your company. **Your updates reach them each time a new version is published.**
 
 Whichever path applies, the goal is the same: a skill that started on one laptop becomes something a teammate can install and run.
 
@@ -105,13 +105,13 @@ Path B
 
 ### You’re not sure the marketplace is set up
 
-Common in orgs that just rolled out Cowork — the marketplace is an admin switch, and someone has to flip it.
+Common in orgs that just rolled out Cowork. An admin has to set the marketplace up.
 
 Your next step
 
-Find out **who manages Claude for your organization** — usually IT, an enablement lead, or whoever owns software tools. Ask them whether a private plugin marketplace is turned on, and who you’d hand a plugin to.
+Find out **who manages Claude for your organization** — usually IT, an enablement lead, or whoever owns software tools. Ask them whether a private plugin marketplace is set up, and who you’d hand a plugin to.
 
-The ask, in one line: *“We’ve built a Cowork plugin our team wants to share — is the org marketplace turned on, and who owns it?”*  
+The ask, in one line: *“We’ve built a Cowork plugin our team wants to share. Is the org marketplace set up, and who owns it?”*  
   
 Until it’s live, you can still **export the plugin folder and hand it to a teammate directly** — it’s just manual.
 
@@ -127,6 +127,6 @@ Then you’re the person everyone else in this lesson is looking for.
 
 Your next step
 
-Head to **Organization settings → Plugins** to create your private marketplace — upload a plugin directly, or connect a GitHub repo so updates sync automatically. Then set each plugin’s install preference — **Available**, **Installed by default**, **Required**, or **Hidden** — org-wide or per group.
+Head to the plugins page in **Organization settings** to create your private marketplace: upload a plugin directly, or connect a GitHub repo so updates sync automatically. Then set each plugin’s install preference — **Available to install**, **Installed by default**, **Required**, or **Not available** — org-wide or, on Enterprise, per group.
 
-The full admin walkthrough lives in the help center: *Manage Claude Cowork plugins for your organization*. Group-level targeting, share-event audit logs, and the rest of the admin controls are beyond what an individual contributor needs in this course.
+The full admin walkthrough lives in the help center: *Manage plugins for your organization*. Group-level targeting, share-event audit logs, and the rest of the admin controls are beyond what an individual contributor needs in this course.

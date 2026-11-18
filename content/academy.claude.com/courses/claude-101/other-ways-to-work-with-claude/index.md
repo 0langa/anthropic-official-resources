@@ -133,12 +133,11 @@ Claude for Outlook brings Claude into your inbox as a sidebar, so you can triage
 
 
 
-Availability
+Setup
 
-Claude for Outlook is currently in beta and is installed separately from the
-other Microsoft 365 add-ins. See
+Claude for Outlook is installed from its own Microsoft AppSource listing. See
 [Claude for Outlook(opens in new tab)](https://support.claude.com/en/articles/14855664-use-claude-for-outlook)
-for setup.
+for the steps.
 
 ## Claude in Chrome[](https://academy.claude.com/courses/claude-101/other-ways-to-work-with-claude)
 

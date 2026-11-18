@@ -62,7 +62,7 @@ In doing so we'll also start to glean an answer to the question: what would it l
 - [![Emergent](https://assets.claude.com/3ecc6fb3c36328f216239a92947c6a75e5dd54d9.svg)](https://emergent.sh/)
 - [![Harvey](https://assets.claude.com/9447073367b83132335cb2c191c36bef275f48e6.svg)](https://www.harvey.ai/)
 - [![Heidi](https://assets.claude.com/18cd69d52e1475b87358e17bd02b9f79d5049bc5.svg)](https://www.heidihealth.com/)
-- [![Higgsfield](https://assets.claude.com/bf441d6847e786ea78a00e4361f0478a2ee260e7.svg)](https://higgsfield.ai/)
+- [![Higgsfield](https://assets.claude.com/89a7f4137c4cc871d03fdf313ee00edceb773b8e.png)](https://higgsfield.ai/)
 - [![Omni](https://assets.claude.com/ade4bc4e76a4151d0e0ba0e7c78fa7eaf24f39c3.svg)](https://omni.co/)
 - [![Parahelp](https://assets.claude.com/8d2694cc4ea70bbae09ecf919b6b7fc81ec50df7.svg)](https://www.parahelp.com/)
 - [![Translucent](https://assets.claude.com/414fb7868ededc0a2f895e1583fdff9578381784.svg)](https://www.translucent.co/)

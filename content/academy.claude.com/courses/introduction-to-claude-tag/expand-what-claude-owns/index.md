@@ -25,9 +25,9 @@ Throughout this course, you have been deepening how Claude understands your work
 
 Together, these give Claude your team's context, let your colleagues shape its work, and keep it working toward a goal for weeks, not only for one request.
 
-These features are visible and can be managed from the channel's Configure page, which opens from the Configure link under any Claude reply. Each channel has its own. Any full member of the channel who is signed in to your organization's Claude account can open it; what you can change there depends on how your organization has set it up. Click through it here:
+You can see most of these features on the channel's Configure page, which opens from the Configure link under any Claude reply. Each channel has its own. Any full member of the channel who is signed in to your organization's Claude account can open it; what you can change there depends on how your organization has set it up. Routines are on the page's Scheduled tasks tab. Click through the page here:
 
-Explorer: a mock of a channel's Configure page, with tabs for general settings, tools and access, and routines. Notes explain the parts, who can change them, and which earlier lessons cover them.
+Explorer: a mock of a channel's Configure page, with tabs for general settings, tools and access, and scheduled tasks. Notes explain the parts, who can change them, and which earlier lessons cover them.
 
 claude.ai › Configure #support-escalations
 
@@ -37,7 +37,7 @@ Click the tabs, or any dot
 
 Anyone in this Slack channel can adjust how Claude behaves here.
 
-GeneralTools and accessRoutines
+GeneralTools and accessScheduled tasks
 
 Respond automatically
 
@@ -144,10 +144,10 @@ Domains Claude can reach for sessions in this channel. Inherited entries come fr
 - help.acme.com
 
 
-## Routines
+## Scheduled tasks
 
-Routines
+Scheduled tasks
 
-Scheduled work Claude runs in this channel. Manage routines from Slack with @Claude !scheduled or by directly chatting with Claude in the channel.
+Scheduled work Claude runs in this channel. Manage scheduled tasks from Slack with @Claude !scheduled or by directly chatting with Claude in the channel.
 
 <table class="w-full border-collapse text-left text-[12px] leading-[18px]"><thead><tr class="text-muted"><th class="py-1 pr-3 font-medium">Name</th><th class="py-1 pr-3 font-medium">Schedule</th><th class="py-1 pr-3 font-medium">Status</th><th class="py-1 font-medium">Last run</th></tr></thead><tbody class="text-primary"><tr class="border-t border-alpha-2"><td class="py-1.5 pr-3">Weekly escalations digest</td><td class="py-1.5 pr-3 text-secondary">Mondays · 9:00 AM ET</td><td class="py-1.5 pr-3"><span class="rounded px-1.5 py-px text-[10.5px] leading-4 bg-success text-success">Active</span></td><td class="py-1.5 text-secondary">Aug 31</td></tr><tr class="border-t border-alpha-2"><td class="py-1.5 pr-3">Stale ticket sweep</td><td class="py-1.5 pr-3 text-secondary">Weekdays · 5:00 PM ET</td><td class="py-1.5 pr-3"><span class="rounded px-1.5 py-px text-[10.5px] leading-4 bg-alpha-2 text-secondary">Paused</span></td><td class="py-1.5 text-secondary">Aug 28</td></tr></tbody></table>

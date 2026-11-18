@@ -23,9 +23,9 @@ Related articles
 
 - Frontier Red Team
 
-  Apr 9, 2026
+  Nov 16, 2026
 
-  [Trustworthy agents in practice](https://www.anthropic.com/research/trustworthy-agents)
+  [Updating our coordinated vulnerability disclosure policy timelines](https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines)
 
 [View more](https://www.anthropic.com/search?topic=cybersecurity)
 

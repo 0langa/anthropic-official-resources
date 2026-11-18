@@ -71,10 +71,10 @@ Claude reacts to your message and posts a short note that it's started. It keeps
 You'll see:
 
 - **A progress checklist, edited in place:** A longer task gets [one message that Claude updates as it works(opens in new tab)](https://claude.com/docs/claude-tag/concepts/how-it-works). Those edits send no notification, so look for items ticked off since you last checked, or say in your request that you want a message at the bigger decision points and Claude will post one in the thread.
-- **A new reply when Claude needs you or has a result:** A question, a problem it cannot solve alone, or the finished work. Claude waits for your answer to a question.
+- **A new reply when Claude needs you or has a result:** A question, a problem it cannot solve alone, or the finished work. Answer its questions in the thread.
 - **Quiet usually means working:** If the work gets blocked, Claude usually says so in a reply rather than going silent.
 
-Editing a message you already sent has no effect; send a [new reply instead(opens in new tab)](https://claude.com/docs/claude-tag/concepts/how-it-works). Each top-level message starts a new task for Claude. Keep separate tasks in different threads, but remember that Claude's channel notes apply to every thread in the channel.
+Editing a message you already sent may not change what Claude does; send a [new reply instead(opens in new tab)](https://claude.com/docs/claude-tag/concepts/how-it-works). Each top-level message starts a new task for Claude. Keep separate tasks in different threads, but remember that Claude's channel notes apply to every thread in the channel.
 
 Exercise: in a mock Slack channel, Claude is partway through a task and shows its checklist in the thread. The learner picks one of three ways to change the request, then sees whether that choice reaches the running task.
 

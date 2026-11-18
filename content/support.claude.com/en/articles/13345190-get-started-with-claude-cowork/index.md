@@ -138,27 +138,47 @@ Tasks can run for extended periods depending on complexity. You can monitor prog
 
 Cowork has three modes that control when Claude asks your permission before taking an action, like using your connectors. You can change the mode at any time from the mode selector in the chat box.
 
-**Note:** If you have the new Claude experience, the permission setting in the message box offers **Auto** (default on Pro, Max, Ultra, and Team plans) and **Manual** (default on Enterprise plans).
+**Note:** If you have the new Claude experience, the permission setting in the message box offers **Auto** (rolling out as the default on Pro, Max, Ultra, and Team plans) and **Manual** (default on Enterprise plans, except in the Cowork side panel in Chrome). If you last chose Manual in a browser or app, new conversations there keep starting in Manual. If you haven't chosen a mode, new conversations start in the default.
 
-|                   | **Connector tool permission: "Always allow"**                          | **Connector tool permission: "Needs approval"** | **Connector tool permission: "Blocked"** |
-| ----------------- | ---------------------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------- |
-| **"Manual" mode** | Approved                                                               | Asks for permission                             | Denied                                   |
-| **"Auto" mode**   | Read-only tools are approved<br>For write/delete tools, Claude decides | Claude decides                                  | Denied                                   |
-| **"Skip" mode**   | Approved                                                               | Approved                                        | Denied                                   |
+|                   | **Connector tool permission: "Always allow"**                                                             | **Connector tool permission: "Needs approval"**                               | **Connector tool permission: "Always ask"** | **Connector tool permission: "Blocked"** |
+| ----------------- | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------- | ---------------------------------------- |
+| **"Manual" mode** | Approved                                                                                                  | Asks for permission                                                           | Asks for permission                         | Denied                                   |
+| **"Auto" mode**   | Read-only tools are approved. Write/delete tools run unless an automated check flags the action as risky. | Runs without asking you, unless an automated check flags the action as risky. | Asks for permission (**see below**)         | Denied                                   |
+| **"Skip" mode**   | Approved                                                                                                  | Approved                                                                      | Asks for permission (**see below**)         | Denied                                   |
 
-As a reminder, you control which connectors Claude can use via the "+" menu in the chat box or the **[Customize > Connectors](https://claude.ai/customize/connectors)** page.
+In Auto mode, an automated check reviews these actions before they run. It can miss risky actions. To approve every "Needs approval" action yourself, use Manual. As a reminder, you control which connectors Claude can use via the "+" menu in the chat box or the **[Customize > Connectors](https://claude.ai/customize/connectors)** page.
 
 **Note:** On Team and Enterprise plans, your admin controls whether "Automatically approve" is available to your organization and whether new tasks start in it. If your admin turns it off, the mode doesn't appear in your mode selector. Your organization may also require per-task approval for write-capable connector tools, so "Always allow" preferences may not apply. See **[Use Claude Cowork on Team and Enterprise plans](https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans#h_1bd1fa754d)**.
 
 **Manually approve (Manual)**, formerly "Ask before acting." Claude pauses and asks for approval for actions. You review each request and choose Allow or Deny.
 
-**Automatically approve (Auto).** Claude keeps working without stopping to ask about every step. Instead, Claude reviews each action for safety (such as checking for data exfiltration or **[prompt injection](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)**) and automatically blocks anything it determines to be unsafe. When an action is blocked, Claude looks for a safer way to finish the task or pauses and asks you directly. If Claude keeps running into blocks, it switches back to asking your permission for each step.
+**Automatically approve (Auto).** Claude keeps working without stopping to ask about every step. Instead, Claude reviews each action for safety (such as checking for data exfiltration or **[prompt injection](https://support.claude.com/en/articles/13364135-use-claude-cowork-safely)**) and automatically blocks anything it determines to be unsafe. When an action is blocked, Claude looks for a safer way to finish the task or pauses and asks you directly. If Claude keeps running into blocks, it switches back to asking your permission for each step. When Claude uses a browser or your computer, the automated check that reviews its actions can see the latest screenshot, and Anthropic can keep a copy of that screenshot in its record of the check.
 
 Before making auto mode the default in Claude Code, we tested it internally and with third-party red-teaming. We used those findings to strengthen how auto mode works across all our products. It gives you the speed of letting Claude work without interruptions, with a layer of protection that "Skip all approvals" doesn't have: every action still gets reviewed before it happens. *Of course, no defense is perfect and no mode replaces your judgment. For work with real consequences—money, messages sent as you, important files—stay close and review what Claude does or consider switching back to "Manually approve."*
 
 Auto mode applies to all of your existing connectors, plugins, the built-in browser, Claude in Chrome, and some Cowork actions like fetching websites.
 
-**Skip all approvals (Skip)**, formerly "Act without asking." Claude doesn't pause to ask and nothing checks its actions automatically. Only use this when you completely trust every action, connector, file, app, etc. involved in the task.
+**Skip all approvals (Skip)**, formerly "Act without asking." Claude doesn't pause to ask and nothing checks its actions automatically. The exception is a connector tool you've set to "Always ask." Claude is built to ask before each use of that tool, even in Skip. A scheduled task may finish without it. Only use "Skip" when you completely trust every action, connector, file, app, etc. involved in the task.
+
+### Have Claude always ask before using a connector tool
+
+"Always ask" is rolling out gradually on Pro, Max, Ultra, Team, and Enterprise plans. On Team and Enterprise plans, your organization's settings come first, so you may not see this option.
+
+To approve a specific connector tool yourself, such as one that sends email, set it to "Always ask." Claude is built to ask before each use of that tool, in chat and Cowork, in every mode. It isn't fully supported in Dispatch or research yet.
+
+1. On the web or in Claude Desktop, navigate to **[Customize > Connectors](https://claude.ai/customize/connectors)**.
+
+2. Select the connector.
+
+3. Select the **Permissions** tab to see **Tool permissions**.
+
+4. On the tool's row, choose "Always ask."
+
+Claude pauses until you choose "Allow once" or decline. Your answer replaces Auto mode's automated check for this tool, so review each request before you allow it. If you choose "Always allow" for the tool or its group, including in a chat or on your phone, it overrides this setting.
+
+"Always ask" applies only to the tool you choose. Claude may be able to get the same information with a different tool, in this connector or another one, without asking you. If other tools can reach that information, set them to "Always ask" too, if they have this option.
+
+Scheduled tasks may wait for your answer or finish without the tool. To let one task use the tool without asking, click "Scheduled" in the left sidebar on the web or in Claude Desktop, then open the task and edit it. Set its approval mode to Manual, and choose "Allow for all scheduled runs" when Claude asks.
 
 ---
 
@@ -178,7 +198,7 @@ To set global instructions:
 
 3. Type your instructions in the text box and click "Save":
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1794837600&amp;signature=874de14c7b2dfed1e9e91696c3b4841585edcb1f0d83df33c31f3f8ffbcc2b99&amp;req=diUlE8B8m4lYXfMW1HO4zcDl69zkNVa28iWjaktE943WIKwnIHdtzVCkQyZg%0AJ2jrH7CAuOsYHtEOSZo%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2525926874/15324ac4155d7802272e8bdef04b/ec66cd09-a4db-4f1d-8f30-226c9d126333?expires=1795089600&amp;signature=50b72ae282b23e03946612168f39d356283468c80b19d22f7a421d9e5664f3b4&amp;req=diUlE8B8m4lYXfMW3nq%2BgcqgxG%2BC2bbUYleMqW%2FkK1cbjWctRByxGfeDPuTb%0AGxflzbSugHtlvBFwREhMNf1Per4%3D%0A)
 
 ### Folder instructions
 
@@ -232,7 +252,7 @@ Cowork runs with layered protections:
 
 Permissions work the same as for chat. You control:
 
-1. Which **[MCPs you connect to Claude](https://claude.ai/settings/connectors)** and how often they ask for permission.
+1. Which **[MCPs you connect to Claude](https://claude.ai/settings/connectors)** and how often they ask for permission. In Auto mode, tools set to "Needs approval" can run without asking you. See **[Choose how Claude checks with you](#h_c274f6c9b5)**.
 
 2. **[Claude's internet access](https://claude.ai/settings/capabilities)**
 

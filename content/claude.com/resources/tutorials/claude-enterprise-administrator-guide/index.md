@@ -6,7 +6,7 @@ Walk through the four phases of a successful Claude Enterprise deployment: Techn
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-fug4apyj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-g8e7vz1g.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-din0sfxj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lul6z3c2.png)
 
 *Deployment, Configuration, and Adoption Playbook*
 
@@ -103,7 +103,7 @@ Share the following steps with end users to connect Claude Code to their enterpr
 
 **In the Claude desktop app**
 
-- **Open the Claude desktop app.** If it isn't on your machine yet, [download the desktop app(opens in new tab)](https://claude.com/download).
+- **Open the Claude desktop app.** If it isn't on your machine yet, [download the desktop app(opens in new tab)](https://claude.ai/claude-code/desktop-download).
 - **Sign in via Enterprise SSO** with your corporate credentials.
 - **Select the Code tab.**
 
@@ -474,7 +474,7 @@ A comprehensive directory of support, training, and enablement resources for Cla
 #### Getting Started Videos
 
 - [Getting started with Claude.ai(opens in new tab)](https://support.claude.com/en/articles/12997377-getting-started-with-claude-ai) — Interface walkthrough, first conversation, and key features
-- [Intro to Artifacts(opens in new tab)](https://academy.claude.com/tutorials/intro-to-artifacts) — Creating and using artifacts in conversations
+- [Collaborate with your team in Claude artifacts(opens in new tab)](https://academy.claude.com/tutorials/collaborate-with-your-team-in-claude-artifacts) — Creating and using artifacts in conversations
 - [Intro to Projects(opens in new tab)](https://support.claude.com/en/articles/9945648-intro-to-projects) — Setting up and managing projects
 - [Intro to Connectors(opens in new tab)](https://support.claude.com/en/articles/13123742-intro-to-connectors) — Connecting external tools and data sources
 - [Using Research(opens in new tab)](https://support.claude.com/en/articles/11106443-using-research) — Demo of deep research capabilities

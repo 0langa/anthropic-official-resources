@@ -2,9 +2,9 @@
 
 From open role to first 90 days. An operations manager has an open seat for a development associate.
 
-Claude Cowork
+Claude
 
-Watch[Open Cowork](https://claude.ai/new?surface=cowork)
+Watch[Open Claude](https://claude.ai/new)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-dn7gj15c.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-htmc9ng5.png)
 

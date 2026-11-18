@@ -34,42 +34,7 @@ The **target** is the end state of the modernization. The desired end state dete
 
 ### **Determine the modernization type**
 
-<table>
-<colgroup>
-<col class="c1"/>
-<col class="c2"/>
-<col class="c3"/>
-<col class="c4"/>
-</colgroup>
-<thead>
-<tr>
-<th>Type</th>
-<th>What it is</th>
-<th>Choose when</th>
-<th>The target is</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><b>Uplift</b></td>
-<td data-label="What it is">Same-stack version bump (e.g., C++11 → C++20).</td>
-<td data-label="Choose when">The stack is fine but the version has fallen behind: end-of-life runtimes, unpatched security issues, dependencies you can no longer upgrade.</td>
-<td data-label="The target is">A runtime version and package set.</td>
-</tr>
-<tr>
-<td><b>Transform</b></td>
-<td data-label="What it is">Cross-stack rewrite that keeps behavior fixed (e.g., COBOL → Java).</td>
-<td data-label="Choose when">The stack is the problem to resolve and the behavior is trusted.</td>
-<td data-label="The target is">Everything needed for an uplift, plus the language, frameworks, and architectural conventions the new code must follow.</td>
-</tr>
-<tr>
-<td><b>Reimagine</b></td>
-<td data-label="What it is">Greenfield rebuild on a new architecture with modified behavior.</td>
-<td data-label="Choose when">The behavior needs to be changed alongside the code.</td>
-<td data-label="The target is">Everything needed for a transform, plus a written behavioral spec for the new system.</td>
-</tr>
-</tbody>
-</table>
+<table class="DataTable-module-scss-module__1wNx5a__table"><thead><tr><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Type</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">What it is</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Choose when</span></th><th class="DataTable-module-scss-module__1wNx5a__cell DataTable-module-scss-module__1wNx5a__headerCell text-body-2-serif" scope="col"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">The target is</span></th></tr></thead><tbody><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Uplift</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Same-stack version bump (e.g., C++11 → C++20).</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">The stack is fine but the version has fallen behind: end-of-life runtimes, unpatched security issues, dependencies you can no longer upgrade.</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">A runtime version and package set.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Transform</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Cross-stack rewrite that keeps behavior fixed (e.g., COBOL → Java).</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">The stack is the problem to resolve and the behavior is trusted.</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Everything needed for an uplift, plus the language, frameworks, and architectural conventions the new code must follow.</span></td></tr><tr><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock"><strong>Reimagine</strong></span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Greenfield rebuild on a new architecture with modified behavior.</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">The behavior needs to be changed alongside the code.</span></td><td class="DataTable-module-scss-module__1wNx5a__cell text-body-3"><span class="DataTable-module-scss-module__1wNx5a__cellBlock">Everything needed for a transform, plus a written behavioral spec for the new system.</span></td></tr></tbody></table>
 
 Determining which type of modernization to do is often debated inside an organization. In our experience, the people closest to production want the stack swapped with behavior held constant to contain risk (transform modernization). On the other side are often the engineers who have lived with the codebase and want the modernization to pay down tech debt, plus other business stakeholders who want to take the opportunity to name new requirements (reimagine modernization).
 

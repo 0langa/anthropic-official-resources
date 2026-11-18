@@ -44,7 +44,7 @@ Retention is how long conversation content is kept before deletion. Left at the 
 Activity feed events and session transcripts reached through the Compliance API follow their own retention model:
 
 - Activity feed: six years regardless of the window you set.
-- Remote session transcripts (Cowork sessions started on claude.ai on the web or mobile, which run in the cloud in Anthropic-managed environments, and each run of a Cowork scheduled task in the cloud): six years, unless a member deletes the session sooner.
+- Remote session transcripts (Cowork sessions started on claude.ai on the web or mobile, which run in the cloud in Anthropic-managed environments, and each run of a Cowork scheduled task in the cloud): no default retention period. A session Claude starts from a chat is deleted with that chat, including when the window you set deletes it.
 - Local session transcripts from Cowork and Claude Code: your custom window when you set a finite one, or six years when you don’t; in organizations with HIPAA readiness enabled, 30 days from capture, even if your custom window is longer.
 
 Chat, file, and project content follows the window you set, so a short window limits what members keep and what the Compliance API can return.

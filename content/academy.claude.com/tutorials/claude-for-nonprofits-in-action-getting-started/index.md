@@ -2,9 +2,9 @@
 
 Tell Claude where things live, once. An operations lead who is new to Claude asks it to learn where her organization keeps everything.
 
-Claude Cowork
+Claude
 
-Watch[Open Cowork](https://claude.ai/new?surface=cowork)
+Watch[Open Claude](https://claude.ai/new)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-lqw5bdq9.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-xeakwokn.png)
 

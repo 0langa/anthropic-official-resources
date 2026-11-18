@@ -77,7 +77,7 @@ Our new sandboxed bash tool and Claude Code on the web offer substantial improve
 To get started with these tools:
 
 1. Run `claude --sandbox` and check out [our docs](https://docs.claude.com/en/docs/claude-code/sandboxing) on how to configure this sandbox.
-2. Go to [claude.com/code](http://claude.ai/redirect/claudedotcom.v1.81f7cda5-28fe-4eb7-991f-cd7c75973ec6/code) to try out Claude Code on the web.
+2. Go to [claude.com/code](http://claude.ai/redirect/claudedotcom.v1.4b2a24e9-a969-4477-ab3a-14fa72b441ef/code) to try out Claude Code on the web.
 
 ‍
 
@@ -101,7 +101,11 @@ User feedback plays a crucial role in Claude's improvement. By analyzing user in
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 12, 2026
+[ArticleNov 17, 2026
+
+### Linked billing on the Claude Platform
+
+Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)[ArticleNov 12, 2026
 
 ### Operate Claude Managed Agents inside your security perimeter
 
@@ -115,13 +119,7 @@ A new plugin with 17 skills and four connectors helps manufacturers draft quotes
 
 ### Introducing Claude Meetings
 
-Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)[ArticleNov 10, 2026
-
-### Your apps can now open in Claude, and Claude can work in them
-
-Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
-
-Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)
+Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)
 
 ## Transform how your organization operates with Claude
 

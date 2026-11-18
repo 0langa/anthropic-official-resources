@@ -51,7 +51,7 @@ Legalfunction’s toolkitExperiment Readoutend-to-end pipeline
 
 ### Legal
 
-Customize…
+
 
 Source ›Marketplace (Anthropic & Partners)Version ›1.2.0Author ›AnthropicLast updated ›9 hours ago
 
@@ -69,23 +69,23 @@ The shape that matters in either case: a plugin is a package built around *workf
 
 ## Install a plugin from the Anthropic marketplace[](https://academy.claude.com/courses/introduction-to-claude-cowork/plugins-cowork-as-a-specialist)
 
-Anthropic publishes plugins for the most common roles in knowledge work, each one built and maintained as a starting point you can use as-is or shape to your team. Find them in **Customize → Plugins** in Cowork. Browse for the plugin that matches your work, click **Install**, and approve the connectors the plugin uses. The plugin's skills become available immediately.
+Anthropic publishes plugins for the most common roles in knowledge work, each one built and maintained as a starting point you can use as-is or shape to your team. Find them on the [plugins page(opens in new tab)](https://claude.ai/desktop/customize/plugins). Browse for the plugin that matches your work, add it, and connect the tools it uses. The plugin's skills become available immediately.
 
 ## Customize a plugin to fit your team[](https://academy.claude.com/courses/introduction-to-claude-cowork/plugins-cowork-as-a-specialist)
 
-A plugin from the marketplace is a strong default, not a final answer. The skills and connectors inside use a generic version of the workflow; your team has its own templates, definitions, and steps. You can shape any installed plugin to match.
+A plugin from the marketplace is a strong default, not a final answer. The skills and connectors inside use a generic version of the workflow; your team has its own templates, definitions, and steps. You can usually shape an installed plugin to match, though not one your organization manages or a teammate shared with you.
 
-After you've installed the plugin, go back to **Customize → Plugins → [Plugin name]** and click **Customize**. This opens a new Cowork task where you and Claude work together to tailor the plugin. You can add a starter prompt by directing it to specific assets, sharing context, or uploading the examples you want it to use as a base. Claude will then update the plugin to be true to your team's context.
+After you've installed the plugin, open [your plugins(opens in new tab)](https://claude.ai/desktop/customize/plugins/yours), select the plugin, and choose **Edit with Claude** from its menu. This opens a new conversation where you and Claude work together to tailor the plugin. You can add a starter prompt by directing it to specific assets, sharing context, or uploading the examples you want it to use as a base. Claude will then update the plugin to be true to your team's context.
 
 For example, you could say something like:
 
-Here are our last three red-lined NDAs. Update the /nda-triage skill in this plugin so the format and tone match these.
+Here are our last three red-lined NDAs. Update the NDA skill in this plugin so the format and tone match these.
 
 
 
-Open in Cowork
+Open in Claude
 
-Claude adapts the plugin in place. The more you shape it to your team's actual work, the more leverage it produces.
+Claude adapts the plugin, and you save it to keep the changes. The more you shape it to your team's actual work, the more leverage it produces.
 
 ## Build your own plugin[](https://academy.claude.com/courses/introduction-to-claude-cowork/plugins-cowork-as-a-specialist)
 
@@ -93,7 +93,7 @@ If your team has a workflow that doesn't fit any existing plugin, you can build 
 
 Most teams start small. One skill for the most repetitive task. Then another. By the time it has three or four skills and the connectors that matter, it's a plugin worth sharing — and you'll learn how to share it with your team in Lesson 13.
 
-Your admin may have already published plugins for your organization — check the Directory (Customize → Plugins) before you build anything yourself.
+Your admin may have already published plugins for your organization, so check the [plugins page(opens in new tab)](https://claude.ai/desktop/customize/plugins), also called the Directory, before you build anything yourself.
 
 ## Try it now[](https://academy.claude.com/courses/introduction-to-claude-cowork/plugins-cowork-as-a-specialist)
 
@@ -103,7 +103,7 @@ Let's find the plugins that fit your work. In a new Cowork conversation, type:
 
 
 
-Open in Cowork
+Open in Claude
 
 The skill starts a short interview. Claude asks about the type of work you do, then suggests a plugin that would work best for your needs. You can easily add the plugin right from chat and test it out in the conversation. Once installed, customize it for your team.
 
@@ -119,9 +119,9 @@ end-to-end pipeline
 
 ### Experiment Readout
 
-Customize…
+
 
-Source ›Uploaded from fileVersion ›1.0.0Last updated ›3 days ago
+Source ›From your organizationVersion ›1.0.0Last updated ›3 days ago
 
 Description ›Run an A/B test from raw results to shipped readout.
 

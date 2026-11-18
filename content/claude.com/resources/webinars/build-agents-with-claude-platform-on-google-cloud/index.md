@@ -1,6 +1,6 @@
 ![Anthropic x Google Cloud](https://assets.claude.com/43fef9c040583f473dc6ffe852b377af920e8bad.svg)
 
-Nov 17, 2026 — 10:00 – 11:00 AM PT
+On demand
 
 # Build Agents with Claude Models on Google Cloud
 
@@ -10,7 +10,7 @@ Join Anthropic and Google Cloud to see what you can build. You’ll watch an age
 
 Register for the webinar
 
-Fill out the form below to reserve your seat.
+Fill out the form below to watch on demand.
 
 By submitting, you agree to receive updates from Anthropic and Google Cloud, and you acknowledge the Anthropic [Privacy Policy](https://www.anthropic.com/legal/privacy) and Google [Privacy Policy](https://policies.google.com/privacy).
 

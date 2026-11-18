@@ -28,7 +28,7 @@ Related articles
 
 [View more](https://www.anthropic.com/search?topic=cybersecurity)
 
-*Keane Lucas, Aengus Lynch, Luna Tong, Luke Champine, Zygi Straznickas, Dino Distefano, Harshikaa Agrawal  
+*Keane Lucas, Aengus Lynch, Luna Tong, Luke Champine, Zygi Straznickas, Dino Distefano, Harshikaa Agrawal, Cheru Berhanu  
 Evyatar Ben Asher, Ava Howell, Sami Jawhar, Chris Rohlf, Nickolai Zeldovich  
 Nicholas Carlini, Rajashree Agrawal, Jason Gross*
 

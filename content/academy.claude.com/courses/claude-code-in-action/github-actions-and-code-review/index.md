@@ -14,7 +14,7 @@ GitHub Actions and Code Review
 
 The best place to hand off repetitive work is the pull request. It's where
 review happens, where changes land, and where a lot of your busywork lives.
-There are two ways to put Claude to work here, and they solve different
+Here are two ways to put Claude to work there, and they solve different
 problems. One is a managed service you turn on. The other is a GitHub
 Action you wire up yourself. Let's walk through both and figure out when to
 reach for each.

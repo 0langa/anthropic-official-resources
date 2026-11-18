@@ -36,7 +36,7 @@ Write one message that says what Claude should read, what to look for, what to p
 
 On a quiet day this routine posts nothing, so a post from it always means there is something to look at.
 
-When the first result arrives, reply in that thread with what you want different. Claude reads your feedback, learns from it, and applies it to every run that follows. Treat that first post as a draft: a little shaping early keeps the routine useful and worth reading rather than one more message the channel scrolls past.
+When the first result arrives, tag Claude in that thread with what you want different, and ask it to apply the change to future runs. Treat that first post as a draft: a little shaping early keeps the routine useful and worth reading rather than one more message the channel scrolls past.
 
 ## Check or change what is scheduled[](https://academy.claude.com/courses/introduction-to-claude-tag/put-recurring-work-on-a-schedule)
 
@@ -87,7 +87,7 @@ In your workspace · 5 minutes
 1. Pick something small you ask for every week.
 2. Send it in one message: what to read, what to post, when (day and time), the [format(opens in new tab)](https://claude.com/docs/claude-tag/users/good-habits), and what to do when there is nothing to report.
 3. Ask `@Claude what routines do you have set up in this channel?` to confirm.
-4. When the first post lands, reply in its thread with one change.
+4. When the first post lands, tag Claude in its thread with one change, and ask it to apply the change to future runs.
 
 **Done when:** the routine list shows what you meant, and the first post's thread has your change.
 

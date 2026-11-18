@@ -2,7 +2,7 @@
 
 
 
-68 tutorials
+84 tutorials
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-oi1gl21n.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nqg67vsk.png)
 
@@ -10,13 +10,17 @@
 
 Ask Claude for an interactive page that fits your work, one that can save what your team enters.
 
-·9 min](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-lala3ba3.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-d7ynyke1.png)
+·9 min](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-b7w9a45r.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-eatdr2d7.png)
+
+## Check your AI use policy with Claude
+
+“Can I put our donor list into Claude?” A development associate has thank-you letters to write and takes care with donor information, so she asks before connecting any tools or sharing the list.](https://academy.claude.com/tutorials/claude-for-nonprofits-in-action-ai-policy)[![](https://academy.claude.com/assets/v1/thumbnail.light-lala3ba3.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-d7ynyke1.png)
 
 ## Choosing a Claude model for knowledge workers
 
 What each Claude model is for, which one to start with, and how to tell when a different model or effort level would help.
 
-·7 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)[![](https://academy.claude.com/assets/v1/thumbnail.light-fug4apyj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-g8e7vz1g.png)
+·7 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)[![](https://academy.claude.com/assets/v1/thumbnail.light-din0sfxj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lul6z3c2.png)
 
 ## Claude Enterprise Administrator Guide
 
@@ -34,7 +38,7 @@ Overview of how Claude serves financial professionals with AI assistance for res
 
 A self-paced guide to help nonprofit staff build confidence with Claude and discover practical applications for their role.
 
-·2 min](https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-guide-for-all-users)[![](https://academy.claude.com/assets/v1/thumbnail.light-obam6bfm.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-l6k10vcr.png)
+·2 min](https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-guide-for-all-users)[![](https://academy.claude.com/assets/v1/thumbnail.light-rl6i10ki.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ir68uyt0.png)
 
 ## Claude for nonprofits partnership success guide for admins
 
@@ -50,7 +54,7 @@ Get to a clear yes on AI use: answer "how does Claude handle our data?", write a
 
 Build a doc, a deck, a design, a spreadsheet, a whiteboard, a dashboard, or an animation with Claude, then share it so your team can work on it too.
 
-·8 min](https://academy.claude.com/tutorials/intro-to-artifacts)[![](https://academy.claude.com/assets/v1/thumbnail.light-o61zk21d.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-k41o64xt.png)
+·8 min](https://academy.claude.com/tutorials/collaborate-with-your-team-in-claude-artifacts)[![](https://academy.claude.com/assets/v1/thumbnail.light-fbc9ns5a.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-emlbkfm7.png)
 
 ## Connect your tools to unlock a smarter, more capable AI companion
 
@@ -62,13 +66,25 @@ Learn how to connect third-party tools and applications to Claude through the Co
 
 Learn how Claude creates and edits files directly including spreadsheets, documents, presentations, and PDFs to eliminate manual work.
 
-·10 min](https://academy.claude.com/tutorials/create-and-edit-files-with-claude-to-eliminate-hours-of-busy-work)[![](https://academy.claude.com/assets/v1/thumbnail.dark-frqerjry.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-frqerjry.png)
+·10 min](https://academy.claude.com/tutorials/create-and-edit-files-with-claude-to-eliminate-hours-of-busy-work)[![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
+
+## Customize Claude
+
+The set up that makes Claude specific to your work or team.
+
+·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.dark-frqerjry.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-frqerjry.png)
 
 ## Financial analysis workflows with Claude
 
 Learn complete financial analysis workflows using a three-phase approach: retrieving data, analyzing information, and creating professional deliverables.
 
-·7 min](https://academy.claude.com/tutorials/financial-analysis-workflows-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-khg817wt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-h1zlg9b3.png)
+·7 min](https://academy.claude.com/tutorials/financial-analysis-workflows-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-b9l86rdi.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kmg77r4y.png)
+
+## Find funders and report on grants with Claude for Nonprofits
+
+Create a map of where your records are kept and a voice guide, then follow a nonprofit as it finds funders and drafts a grant report. In each step you ask Claude for research or a first draft based on your organization's documents, then review it before you use it.
+
+·10 min](https://academy.claude.com/tutorials/fundraising-with-claude-for-nonprofits)[![](https://academy.claude.com/assets/v1/thumbnail.light-khg817wt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-h1zlg9b3.png)
 
 ## Getting started with Claude
 
@@ -92,58 +108,38 @@ Learn what Claude for Life Sciences offers and how to access the connectors and 
 
 Learn how to access Claude's nonprofit pricing, connect to fundraising and donor management tools, and get your team started.
 
-·3 min](https://academy.claude.com/tutorials/getting-started-with-claude-for-nonprofits)[![](https://academy.claude.com/assets/v1/thumbnail.light-kvtimo9u.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ogsjubpc.png)
+·3 min](https://academy.claude.com/tutorials/getting-started-with-claude-for-nonprofits)[![](https://academy.claude.com/assets/v1/thumbnail.light-dhh4ob67.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-zr9ufl29.png)
 
 ## Getting started with connectors
 
 Learn how to supercharge Claude by connecting the tools you already use. This tutorial shows you how to set up connectors that give Claude access to your files, apps, and workflows.
 
-·4 min](https://academy.claude.com/tutorials/getting-started-with-connectors)[![](https://academy.claude.com/assets/v1/thumbnail.light-fzn854ec.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-imvtyyxr.png)
+·4 min](https://academy.claude.com/tutorials/getting-started-with-connectors)[![](https://academy.claude.com/assets/v1/thumbnail.light-dn7gj15c.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-htmc9ng5.png)
+
+## Hire and onboard a new team member with Claude
+
+From open role to first 90 days. An operations manager has an open seat for a development associate.](https://academy.claude.com/tutorials/claude-for-nonprofits-in-action-people)[![](https://academy.claude.com/assets/v1/thumbnail.light-iyu8ose6.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jnwlc3r7.png)
+
+## How to build a plugin from scratch in Claude
+
+Build a Claude plugin from scratch to encode your team's workflows, institutional knowledge, and tool connections into a repeatable, shareable process.
+
+·15 min](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-fzn854ec.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-imvtyyxr.png)
 
 ## How to choose between Claude's Voice Mode and Dictation
 
 Understand when to choose voice mode versus dictation while working with Claude.
 
-·6 min](https://academy.claude.com/tutorials/how-to-choose-between-voice-mode-and-dictation)[![](https://academy.claude.com/assets/v1/thumbnail.light-d0jwbpi2.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lonro551.png)
+·6 min](https://academy.claude.com/tutorials/how-to-choose-between-voice-mode-and-dictation)[![](https://academy.claude.com/assets/v1/thumbnail.light-nwtcf705.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-icztef7c.png)
 
 ## How to create a skill with Claude through conversation
 
 Learn how to create Claude Skills through natural conversation by describing workflows and having Claude structure them into reusable formats.
 
-·6 min](https://academy.claude.com/tutorials/how-to-create-a-skill-with-claude-through-conversation)[![](https://academy.claude.com/assets/v1/thumbnail.light-gz9r5qio.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nuxa5e6m.png)
+·6 min](https://academy.claude.com/tutorials/how-to-create-a-skill-with-claude-through-conversation)[![](https://academy.claude.com/assets/v1/thumbnail.light-gsf1x23c.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-eb5bteog.png)
 
-## How to select the right effort setting in Claude
+## How to customize plugins in Claude
 
-Understand how effort settings work in claude.ai and why adjusting effort on a frontier model often costs less per task than switching to a cheaper model.
+Customize Anthropic's pre-built plugins with your team's tools, processes, and expertise so every skill runs from your context.
 
-·6 min](https://academy.claude.com/tutorials/how-to-select-the-right-effort-setting-for-claude-cowork-and-chat)[![](https://academy.claude.com/assets/v1/thumbnail.light-ke4vf9q6.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-djfyeg4y.png)
-
-## How to use the Clinical Trial Protocol Draft Generation sample skill with Claude
-
-How to use the Clinical Trial Protocol Draft Generation sample skill with Claude
-
-·4 min](https://academy.claude.com/tutorials/how-to-use-the-clinical-trial-protocol-draft-generation-sample-skill-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-oyn2l3lg.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-miiqhla1.png)
-
-## How to use the Instrument Data to Allotrope Skill with Claude
-
-How to use the Instrument Data to Allotrope Skill with Claude
-
-·3 min](https://academy.claude.com/tutorials/how-to-use-the-instrument-data-to-allotrope-skill-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-mjer1khs.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hn3u7z1d.png)
-
-## How to use the Prior Auth Review sample skill with Claude
-
-How to use the Prior Auth Review sample skill with Claude
-
-·3 min](https://academy.claude.com/tutorials/how-to-use-the-prior-auth-review-sample-skill-with-claude-2ggy8)[![](https://academy.claude.com/assets/v1/thumbnail.light-dg2mkjs5.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-tbneonl4.png)
-
-## How to use the Scientific Problem Selection Skill with Claude
-
-How to use the Scientific Problem Selection Skill with Claude
-
-·3 min](https://academy.claude.com/tutorials/how-to-use-the-scientific-problem-selection-skill-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-y7e38oni.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-pctg3iz9.png)
-
-## How to use the scVI-Tools bioinformatics skill bundle with Claude
-
-How to use the scVI-Tools bioinformatics skill bundle with Claude
-
-·3 min](https://academy.claude.com/tutorials/how-to-use-the-scvi-tools-bioinformatics-skill-bundle-with-claude)Load more
+·6 min](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork)Load more

@@ -122,7 +122,7 @@ When you’ve made the call, the create-and-share settings, code execution, proj
 - **[Control project sharing for your organization(opens in new tab)](https://support.claude.com/en/articles/9927533-control-project-sharing-for-your-organization)**: what turning “Share projects” or “Public projects” off does, and how to set project sharing by role.
 - **[Set organization instructions(opens in new tab)](https://support.claude.com/en/articles/14546867-set-organization-instructions)**: where the instructions live, who can set them, and the character limit.
 - **[Claude Enterprise consumption guide(opens in new tab)](https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide)**: the organization instructions section: the standing guidance every conversation carries.
-- **[Scaling workflows with Claude Cowork at your organization(opens in new tab)](https://academy.claude.com/tutorials/scaling-workflows-with-claude-cowork-at-your-organization)**: what scaled sharing looks like in practice, from the Claude tutorial library.
+- **[Scaling workflows with Claude at your organization(opens in new tab)](https://academy.claude.com/tutorials/scaling-workflows-with-claude-cowork-at-your-organization)**: what scaled sharing looks like in practice, from the Claude tutorial library.
 
 ## Lesson activity[](https://academy.claude.com/courses/deploying-claude-enterprise-with-confidence/governing-customizations)
 

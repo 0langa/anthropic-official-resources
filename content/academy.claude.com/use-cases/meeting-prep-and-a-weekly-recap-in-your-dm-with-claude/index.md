@@ -8,7 +8,7 @@ In a direct message, set up a routine and Claude Tag posts a prep note before ea
 
 In a DM with Claude Tag, Claude reads your own calendar, email and documents, so it can brief you before each meeting and draft your recap on Friday.
 
-Set up a **[routine(opens in new tab)](https://claude.com/docs/claude-tag/users/proactivity)** in the DM by telling Claude once when to post and what to include. Claude then posts a prep note each morning for that day's meetings. Each Friday, it drafts **[the week's recap as a note(opens in new tab)](https://claude.com/docs/claude-tag/users/use-cases/create-artifacts)** you can forward. Only you can read the DM. Claude sends nothing for you, and changes your calendar only when you ask.
+Set up a **[routine(opens in new tab)](https://claude.com/docs/claude-tag/users/proactivity)** in the DM by telling Claude once when to post and what to include. Claude then posts a prep note each morning for that day's meetings. Each Friday, it drafts **[the week's recap as a note(opens in new tab)](https://claude.com/docs/claude-tag/users/use-cases/create-artifacts)** you can forward. Your teammates can't see the DM. These routines send nothing for you, and Claude changes your calendar only when you ask.
 
 ## Set up[](https://academy.claude.com/use-cases/meeting-prep-and-a-weekly-recap-in-your-dm-with-claude)
 
@@ -22,7 +22,7 @@ Checklist: what to set up for meeting prep and a weekly recap in a direct messag
 
 [Your DM with Claude(opens in new tab)](https://claude.com/docs/claude-tag/concepts/how-it-works)
 
-The DM uses your own Claude account. Only you can read it, and any routine you set up there is yours.
+The DM uses your own Claude account. Your teammates can't see it, and any routine you set up there is yours.
 
 
 
@@ -32,7 +32,7 @@ The DM uses your own Claude account. Only you can read it, and any routine you s
 
 Google Calendar, Gmail and Google Drive, or Microsoft 365Required
 
-Added to your own Claude account. They apply in the DM and not in channels, and there is nothing for an admin to connect.
+Added to your own Claude account, so Claude can use them in the DM. If you can't add one, ask an Owner of your Claude organization to enable it.
 
 
 
@@ -152,7 +152,7 @@ Draft below. I have not sent it to anyone. Forward it, or tell me what to change
 
 Recap · week of September 14Not sent
 
-in this DM · only you can see it
+in this DM
 
 ### See or stop the routines in your DM[](https://academy.claude.com/use-cases/meeting-prep-and-a-weekly-recap-in-your-dm-with-claude)
 
@@ -174,9 +174,9 @@ YouCopy
 
 Direct messages with Claude use a Claude account of your own in the organization, and an Owner can turn them off for everyone. If Claude does not answer in a DM, ask your admin.
 
-### Use a channel of your own when someone else should see the posts[](https://academy.claude.com/use-cases/meeting-prep-and-a-weekly-recap-in-your-dm-with-claude)
+### Keep routines that use your own connectors in the DM[](https://academy.claude.com/use-cases/meeting-prep-and-a-weekly-recap-in-your-dm-with-claude)
 
-The same routines can run in a channel with only you and Claude in it, so people you invite can read the posts ([work from your own channel(opens in new tab)](https://claude.com/docs/claude-tag/users/use-cases/your-own-channel)). To use your own calendar, email or documents there, Claude asks your permission, accesses them as you, and lets you preview what it will post before it appears in the channel.
+Routines can also run in a channel with only you and Claude in it, so people you invite can read the posts ([work from your own channel(opens in new tab)](https://claude.com/docs/claude-tag/users/use-cases/your-own-channel)). There they use the channel's connections, so keep routines that need your own calendar, email or documents in the DM. For a request you post there yourself, Claude can use your connectors once you allow it.
 
 ## Related resources[](https://academy.claude.com/use-cases/meeting-prep-and-a-weekly-recap-in-your-dm-with-claude)
 

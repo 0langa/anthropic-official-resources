@@ -72,27 +72,17 @@ Build MCP servers and clients from scratch with the Python SDK, covering the thr
 
 [View all webinars](https://academy.claude.com/all)
 
-[Upcoming · Nov 17, 8:00 AM PT
+[Upcoming · Nov 19, 1:00 PM PT
 
-### Claude for Manufacturing: Put Your Plant’s Know-How to Work 
+### Claude Rearview Roadmap Review: November 2026 
 
-How manufacturing teams use Claude to draft quotes, NCRs, and reports from plant records, plus the Model Hardware Standard and Infor connector demos.
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
 
-ABGBNF+1
+SS
 
-·Upcoming·Nov 17·8:00 AM PT
+·Upcoming·Nov 19·1:00 PM PT
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work)[Upcoming · Nov 17, 10:00 AM PT
-
-### Build Agents with Claude Models on Google Cloud 
-
-Build agents on the full Claude Platform inside your Google Cloud account, with code execution, Files API, Skills, and governance.
-
-RAINED
-
-·Upcoming·Nov 17·10:00 AM PT
-
- (opens in new tab)](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Oct 22
 
 ### Claude Rearview Roadmap Review: October 2026 
 
@@ -102,7 +92,17 @@ SSIP
 
 ·Recording·Oct 22
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 21
+
+### Tokenomics on AWS: Control and optimize your Claude spend 
+
+Optimize your Claude spend on AWS with admin controls, default model settings, and measuring cost per task on Bedrock and the API.
+
+SMAR
+
+·Recording·Oct 21
+
+ (opens in new tab)](https://claude.com/resources/webinars/tokenomics-on-aws-control-and-optimize-your-claude-spend)
 
 ## Browse it all
 

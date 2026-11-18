@@ -414,9 +414,9 @@ GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearc
 
 ### Prep the vendor negotiation
 
-·Operations·10 min](https://academy.claude.com/use-cases/vendor-negotiation)[![](https://academy.claude.com/assets/v1/thumbnail.light-f5rr63un.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nmenq2sv.png)
+·Operations·10 min](https://academy.claude.com/use-cases/vendor-negotiation)[![](https://academy.claude.com/assets/v1/thumbnail.light-fs8n0rwn.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dddrlr2v.png)
 
-### Process batches of vendors with Cowork
+### Process batches of vendors with Claude
 
 ·Operations·10 min](https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-ekdkz1b1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dwsje4gy.png)
 

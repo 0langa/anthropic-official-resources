@@ -1376,6 +1376,7 @@ https://claude.com/resources/articles/introduction-to-agentic-coding
 https://claude.com/resources/articles/j-crew-style-advisor-with-claude
 https://claude.com/resources/articles/jpmorganchase-expands-claude-code
 https://claude.com/resources/articles/key-benefits-transitioning-agentic-coding
+https://claude.com/resources/articles/linked-billing-on-claude-platform
 https://claude.com/resources/articles/making-claude-a-better-electrical-engineer
 https://claude.com/resources/articles/maximizing-the-value-of-your-claude-code-sessions
 https://claude.com/resources/articles/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon
@@ -2575,6 +2576,7 @@ https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/tar
 https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/targets/delete
 https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/targets/list
 https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/targets/retrieve
+https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/update
 https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_channels
 https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_channels/create
 https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_channels/delete
@@ -4023,6 +4025,11 @@ https://platform.claude.com/docs/en/manage-claude/inference-hooks-endpoint
 https://platform.claude.com/docs/en/manage-claude/inference-hooks-endpoint?sdk_languages=curl
 https://platform.claude.com/docs/en/manage-claude/inference-hooks?sdk_languages=curl
 https://platform.claude.com/docs/en/manage-claude/ip-allowlist
+https://platform.claude.com/docs/en/manage-claude/oauth-apps/app-review
+https://platform.claude.com/docs/en/manage-claude/oauth-apps/branding-samples
+https://platform.claude.com/docs/en/manage-claude/oauth-apps/oauth-reference
+https://platform.claude.com/docs/en/manage-claude/oauth-apps/organization-billing-connections
+https://platform.claude.com/docs/en/manage-claude/oauth-apps/overview
 https://platform.claude.com/docs/en/manage-claude/opentelemetry
 https://platform.claude.com/docs/en/manage-claude/opentelemetry/api
 https://platform.claude.com/docs/en/manage-claude/opentelemetry/api?sdk_languages=curl
@@ -4917,6 +4924,9 @@ https://support.claude.com/en/articles/18466097
 https://support.claude.com/en/articles/18466097-plan-for-restricted-models-and-access-programs
 https://support.claude.com/en/articles/18466110
 https://support.claude.com/en/articles/18466110-compare-cloud-providers
+https://support.claude.com/en/articles/18467110
+https://support.claude.com/en/articles/18467110-offer-linked-billing-in-your-platform
+https://support.claude.com/en/articles/18467148-use-your-claude-platform-account-in-a-third-party-app
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
 https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer

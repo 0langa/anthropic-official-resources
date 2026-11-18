@@ -16,7 +16,7 @@ Claude in Chrome uses a multi-layered permission system to give you control over
 
 - **Automatically approve (Auto)**. Claude keeps working and reviews each action for safety, automatically blocking anything it determines to be unsafe and pausing to ask you when needed.
 
-- **Skip all approvals (Skip)**, formerly "Act without asking**.”** Claude doesn't pause to ask and nothing checks its actions automatically. Only use this when you completely trust every action, connector, file, app, etc. involved in the task.
+- **Skip all approvals (Skip)**, formerly "Act without asking**.”** Claude doesn't pause to ask and nothing checks its actions automatically. The exception is a connector tool you've set to "Always ask." Claude is built to ask before each use of that tool, even in Skip. A scheduled task may finish without it. Only use Skip when you completely trust every action, connector, file, app, etc. involved in the task.
 
 **Note:** In the Cowork side panel, "Automatically approve" is the default mode.
 
@@ -30,7 +30,7 @@ In "Manually approve," Claude checks with you before it acts. What that looks li
 
 Claude creates a plan from your prompt, which you can approve before Claude starts. The plan specifies which websites you're allowing Claude to access, as well as the approach it will follow:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1794837600&amp;signature=ab5ea7130a71296a653dee405b3dea1b7c35db007c80d8454870a014215666d0&amp;req=dSgjFcp8nYZdXvMW1HO4zYqyZMZF%2F4WxgN0ADj5oqFDzBRc7gKHAtkuL598l%0AKIHTxkH9%2FBcSF4%2FsuyY%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1795089600&amp;signature=b21ae07be24961d0deb4ba609f063ad40473e0973b11b6cd7d4152aacfa9f5c4&amp;req=dSgjFcp8nYZdXvMW3nq%2BgWGE%2FNALNwSW9tXFBtvjxAlmihNX6hQwXphGKquS%0A9a8XP1yiHJPYFRAde6ktzDXh9eo%3D%0A)
 
 Note that Claude will only use the websites listed in the plan, so you’ll need to manually approve any additional access requests.
 
@@ -56,7 +56,9 @@ You'll see fewer prompts than in "Manually approve," but the safety checks still
 
 ## Skip all approvals
 
-When you choose "Skip all approvals," Claude doesn't pause to ask, and nothing checks its actions automatically. Only use this when you completely trust every action, connector, file, app, etc. involved in the task.
+When you choose "Skip all approvals," Claude doesn't pause to ask, and nothing checks its actions automatically. The exception is a connector tool you've set to "Always ask." Claude is built to ask before each use of that tool, even in Skip. A scheduled task may finish without it.
+
+Only use Skip when you completely trust every action, connector, file, app, etc. involved in the task.
 
 ---
 
@@ -64,7 +66,7 @@ When you choose "Skip all approvals," Claude doesn't pause to ask, and nothing c
 
 There are some websites on which Claude requires approval for every action. If you navigate to one of these sites, a **New permissions required** prompt will appear in the extension side panel, Claude Cowork, or Claude Code where Claude will ask for permission before accessing the page or taking any action.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1794837600&amp;signature=b16607664578240ba1999e7747330a1044df769cccaf4765819d68f0013a1b51&amp;req=diYnEsB5nYldXPMW1HO4zZ3Nq2J4iyvq7A4lHPBihAUt28qoo%2BTKvGwy3Vt8%0ALmbTKiPSmCKKdOoP208%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1795089600&amp;signature=11d04f33ad06604b470cd273f35637451143d3cf651a990594831a08d015fa41&amp;req=diYnEsB5nYldXPMW3nq%2BgcHRFEUTtWY0FbrSEFo4rGfk4muy8pxbOtUA63T5%0AToh9SRRCRjjkctdFRWfz7ntuKhM%3D%0A)
 
 ### Permission options
 

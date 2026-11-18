@@ -68,7 +68,7 @@ Learn more in **[Get started with Claude Data](https://support.claude.com/en/art
 
 Standalone Claude Design at **claude.ai/design** closes on December 14, 2026. Until then, it has its own setting in **[Organization settings > Claude Design](https://claude.ai/admin-settings/claude-design)**, separate from the **Design** template. Users' existing projects stay at **claude.ai/design** until it closes, and up to 60 of them also appear in the **Artifacts** tab.
 
-Moving projects to Claude is rolling out gradually to paid plans, and a project or design system that moves to Claude becomes an artifact. To let users move their projects and move their design systems, keep **Artifacts** and **Design systems** on for your organization. On Enterprise plans with custom roles, each user's role needs them too. Learn more in **[Move from standalone Claude Design to Claude](https://support.claude.com/en/articles/17440474)**.
+A project or design system that moves to Claude becomes an artifact. To let users move their projects and move their design systems, keep **Artifacts** and **Design systems** on for your organization. On Enterprise plans with custom roles, each user's role needs them too. Learn more in **[Move from standalone Claude Design to Claude](https://support.claude.com/en/articles/17440474)**.
 
 ---
 
@@ -170,20 +170,20 @@ On Enterprise plans, custom roles let you turn a feature on for specific groups 
 
 The capabilities that cover artifacts are:
 
-| **Capability**             | **What it grants**                                                                                                           |
-| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Artifacts                  | Creating and publishing artifacts from Claude Code and Cowork, and sharing chat and Cowork artifacts within the organization |
-| Design                     | Starting artifacts from the Design template                                                                                  |
-| Design systems             | Creating and editing design systems                                                                                          |
-| Docs                       | Starting artifacts from the Docs template                                                                                    |
-| Slides                     | Starting artifacts from the Slides template                                                                                  |
-| Claude Design [standalone] | Access to standalone Claude Design at claude.ai/design                                                                       |
-| Data                       | Starting artifacts from the Data template                                                                                    |
-| Motion                     | Starting artifacts from the Motion template                                                                                  |
-| Sheets (beta)              | Starting spreadsheets with formulas and formatting that they and Claude edit together                                        |
-| Whiteboards (beta)         | Starting boards where their team and Claude sketch and arrange ideas together                                                |
+| **Capability**             | **What it grants**                                                                                                                                                                          |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Artifacts                  | Creating artifacts from chat on the web and in Claude Desktop, creating and publishing artifacts from Claude Code and Cowork, and sharing chat and Cowork artifacts within the organization |
+| Design                     | Starting artifacts from the Design template                                                                                                                                                 |
+| Design systems             | Creating and editing design systems                                                                                                                                                         |
+| Docs                       | Starting artifacts from the Docs template                                                                                                                                                   |
+| Slides                     | Starting artifacts from the Slides template                                                                                                                                                 |
+| Claude Design [standalone] | Access to standalone Claude Design at claude.ai/design                                                                                                                                      |
+| Data                       | Starting artifacts from the Data template                                                                                                                                                   |
+| Motion                     | Starting artifacts from the Motion template                                                                                                                                                 |
+| Sheets (beta)              | Starting spreadsheets with formulas and formatting that they and Claude edit together                                                                                                       |
+| Whiteboards (beta)         | Starting boards where their team and Claude sketch and arrange ideas together                                                                                                               |
 
-Users without the **Artifacts** capability can still open artifacts shared with them, comment on them, and change their data, at the sharing level they were given, up to Contributor. Contributor lets someone use an artifact, save what they enter in it, and comment, without editing the artifact itself. A user without the capability who was shared as an Editor gets Contributor access at most. They can't create, edit, publish, or share artifacts.
+Users without the **Artifacts** capability can still open artifacts shared with them, comment on them, and change their data, at the sharing level they were given, up to Contributor. Contributor lets someone use an artifact, save what they enter in it, and comment, without editing the artifact itself. A user without the capability who was shared as an Editor gets Contributor access at most. They can't create, edit, publish, or share artifacts. They may find "New artifact" grayed out on the web and in Claude Desktop, with the tooltip "Contact your admin to request access to this feature."
 
 Learn more about **[managing custom roles on Enterprise plans](https://support.claude.com/en/articles/13930452)** and **[setting up role-based permissions on Enterprise plans](https://support.claude.com/en/articles/13930458)**.
 
@@ -264,6 +264,8 @@ When users create designs and docs, they may upload design assets, brand guideli
 ### When someone leaves your organization
 
 Removing someone from your organization, including through your identity provider, removes their access to artifacts at the same time.
+
+When an artifact is shared with a group, access follows current group membership. Someone removed from the group, including through your identity provider, loses access through that group shortly after the change syncs. They keep access if the artifact also reaches them another way, such as being shared with them directly or through another group.
 
 ### Organizations with special configurations
 

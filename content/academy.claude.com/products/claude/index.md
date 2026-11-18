@@ -77,6 +77,9 @@ Work through how to teach a concept with Claude sketching alongside. The visual 
 - [Build and share tools in Claude with custom artifactsTutorial9 min
 
   ·Tutorial·9 min](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)
+- [Check your AI use policy with ClaudeTutorial—
+
+  ·Tutorial](https://academy.claude.com/tutorials/claude-for-nonprofits-in-action-ai-policy)
 - [Choosing a Claude model for knowledge workersTutorial7 min
 
   ·Tutorial·7 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)
@@ -89,25 +92,22 @@ Work through how to teach a concept with Claude sketching alongside. The visual 
 - [Claude for nonprofits partnership guide for all usersTutorial2 min
 
   ·Tutorial·2 min](https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-guide-for-all-users)
-- [Claude for nonprofits partnership success guide for adminsTutorial4 min
-
-  ·Tutorial·4 min](https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-success-guide-for-admins)
 
 ## Webinars
 
 [View all webinars](https://academy.claude.com/all)
 
-[Upcoming · Nov 17, 8:00 AM PT
+[Upcoming · Nov 19, 1:00 PM PT
 
-### Claude for Manufacturing: Put Your Plant’s Know-How to Work 
+### Claude Rearview Roadmap Review: November 2026 
 
-How manufacturing teams use Claude to draft quotes, NCRs, and reports from plant records, plus the Model Hardware Standard and Infor connector demos.
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
 
-ABGBNF+1
+SS
 
-·Upcoming·Nov 17·8:00 AM PT
+·Upcoming·Nov 19·1:00 PM PT
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Oct 22
 
 ### Claude Rearview Roadmap Review: October 2026 
 
@@ -131,4 +131,4 @@ SMAR
 
 ## Browse it all
 
-[Use cases70 use cases](https://academy.claude.com/all)[Tutorials68 tutorials](https://academy.claude.com/all)[Courses13 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Use cases70 use cases](https://academy.claude.com/all)[Tutorials84 tutorials](https://academy.claude.com/all)[Courses13 courses](https://academy.claude.com/all)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)

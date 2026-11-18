@@ -2,9 +2,9 @@
 
 Create a map of where your records are kept and a voice guide, then follow a nonprofit as it finds funders and drafts a grant report. In each step you ask Claude for research or a first draft based on your organization's documents, then review it before you use it.
 
-10 minClaude Cowork
+10 minClaude
 
-[Open Cowork](https://claude.ai/new?surface=cowork)
+[Open Claude](https://claude.ai/new)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-b9l86rdi.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kmg77r4y.png)
 
@@ -39,10 +39,10 @@ Start by having Claude create a map of where your records are kept and a voice g
 Where Claude finds your documents
 
 - **Connected tools:** When you connect a tool, like your shared drive, Claude can open the documents you keep there. Claude's data access mirrors yours, so it can only see what you already have access to. [Learn more about connectors(opens in new tab)](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities).
-- **Memory:** Memory allows Claude to use what it has saved in earlier chats to inform future ones. Turn on memory in Settings so Claude can save a data map and voice guide and use them in later chats. Memory works in tasks that run in the cloud. [Check where your tasks run(opens in new tab)](https://support.claude.com/en/articles/15811196-what-to-expect-with-claude-cowork-in-the-cloud). [Learn more about memory(opens in new tab)](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context).
+- **Memory:** Memory allows Claude to use what it has saved in earlier chats to inform future ones. Turn on memory in Settings so Claude can save a data map and voice guide and use them in later chats. If you use Cowork, a task that runs only on your computer might not save to memory. [Check where your tasks run(opens in new tab)](https://support.claude.com/en/articles/15811196-what-to-expect-with-claude-cowork-in-the-cloud). [Learn more about memory(opens in new tab)](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context).
 - **Files you attach:** If you can't reach your data through a connector, download the files and attach them to your message.
 
-If you don't see a tool, or can't turn on memory or run tasks in the cloud, ask your admin.
+If you don't see a tool or can't turn on memory, ask your admin.
 
 ### 1. A map of where your data lives[](https://academy.claude.com/tutorials/fundraising-with-claude-for-nonprofits)
 
@@ -115,7 +115,7 @@ Now Kofi has a map of where Maple Hollow keeps each kind of record.
 
 **What you need:**
 
-- Memory turned on, and a task that runs in the cloud. The skill also runs without memory, but the map isn't saved for later chats.
+- Memory turned on. The skill also runs without memory, but the map isn't saved for later chats.
 - No documents required
 - A general sense of where your team keeps each kind of record
 
@@ -125,7 +125,7 @@ I want to stop explaining where our records are in every chat. Can you ask me ab
 
 
 
-Open in Cowork
+Open in Claude
 
 ### 2. A voice guide[](https://academy.claude.com/tutorials/fundraising-with-claude-for-nonprofits)
 
@@ -262,7 +262,7 @@ Can you learn how we write, so your drafts sound like us? Use [the materials you
 
 
 
-Open in Cowork
+Open in Claude
 
 ## Find funders who fit[](https://academy.claude.com/tutorials/fundraising-with-claude-for-nonprofits)
 
@@ -368,7 +368,7 @@ Can you find funders that fit [program name], and skip anyone who already funds 
 
 
 
-Open in Cowork
+Open in Claude
 
 ## Show funders what their grant made possible[](https://academy.claude.com/tutorials/fundraising-with-claude-for-nonprofits)
 
@@ -472,7 +472,7 @@ We owe [funder] a report on our grant. Can you draft it using their form, show t
 
 
 
-Open in Cowork
+Open in Claude
 
 ## Work with Claude on other fundraising tasks[](https://academy.claude.com/tutorials/fundraising-with-claude-for-nonprofits)
 

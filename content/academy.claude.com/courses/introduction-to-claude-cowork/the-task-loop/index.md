@@ -33,7 +33,7 @@ done.
 
 ### Key takeaways[](https://academy.claude.com/courses/introduction-to-claude-cowork/the-task-loop)
 
-- **Claude asks before it commits.** Most non-trivial tasks start with a clarifying question or two. The questions are how Claude closes context gaps before the work starts, not friction in the way.
+- **Claude may ask before it commits.** Some tasks start with a clarifying question or two. The questions are how Claude closes context gaps before the work starts, not friction in the way.
 - **You can steer mid-task.** If Claude is heading in the wrong direction, jump in. You don't have to wait for it to finish and start over.
 - **The finished deliverable is the artifact, not the chat.** Claude makes changes to the files on your computer. Your job at the end is to review it the way you'd review a colleague's work.
 
@@ -67,19 +67,19 @@ for the executive team at the leadership offsite — help them decide on the new
 
 Write a message…
 
-Ask Sonnet 4.6
+Manual Sonnet
 
 **That’s a complete delegation** — deliverable, inputs, and the context Cowork can’t guess.
 
-Leave a row empty and Cowork will usually ask you for it.
+Leave a row empty and Cowork may ask you for it.
 
 If you're used to prompting a chatbot, this will feel like more upfront work — it is. The trade is that more of the back-and-forth happens upfront, before Claude starts, instead of across five rounds of "actually, can you also..."
 
 ## Answer the clarifying questions[](https://academy.claude.com/courses/introduction-to-claude-cowork/the-task-loop)
 
-Claude asks questions to clarify any ambiguities about your objectives before it gets into the work. When you're chatting, you collaborate as you go — context shows up turn by turn. When you delegate to Cowork, Claude goes off and returns with a completed artifact. Anything that might trip it up — any gaps in its understanding — comes up through the questions before it dives in.
+Claude may ask questions to clarify any ambiguities about your objectives before it gets into the work. When you're chatting, you collaborate as you go — context shows up turn by turn. When you delegate to Cowork, Claude goes off and returns with a completed artifact. So when it does ask, that's your chance to fill gaps in its understanding before it dives in.
 
-Most are easy: Claude presents a couple of options and you click the one that fits. If none of the options fit, you can answer in your own words.
+Most questions are easy: Claude presents a couple of options and you click the one that fits. If none of the options fit, you can answer in your own words.
 
 Below are some examples of the questions you might receive from Cowork after submitting the prompt you built above.
 
@@ -95,7 +95,7 @@ Cowork is asking you a few things
 
 Skip
 
-`↑↓` to navigate`Enter` to select`Esc` to skip
+`↑↓` to navigate`Enter` to select
 
 Pick an answer to see what it tells Cowork.
 
@@ -153,7 +153,7 @@ If the draft is wrong in a load-bearing way, the prompt was missing the load-bea
 
 ## Try it now[](https://academy.claude.com/courses/introduction-to-claude-cowork/the-task-loop)
 
-Take the task you identified in Lesson 3 — or pick one now. Hand it to Cowork using the process you just walked through — name the deliverable, the inputs, and any nuance; answer the clarifying questions specifically; steer if it drifts; review the result with your discernment on. The first run is the one that teaches you the most.
+Take the task you identified in Lesson 3 — or pick one now. Hand it to Cowork using the process you just walked through — name the deliverable, the inputs, and any nuance; answer any clarifying questions specifically; steer if it drifts; review the result with your discernment on. The first run is the one that teaches you the most.
 
 ## What’s next[](https://academy.claude.com/courses/introduction-to-claude-cowork/the-task-loop)
 

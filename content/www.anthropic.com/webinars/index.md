@@ -28,19 +28,19 @@ When agents write the code, pull requests pile up faster than anyone can read th
 
 Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)
 
-[WebinarUpcoming | Nov 17, 2026
+[WebinarUpcoming | Multiple dates
 
-### Build Agents with Claude Models on Google Cloud
+### Unified Claude: Security and admins Q&A session
 
-The full Claude Platform is now on Google Cloud — build agents from the Google Cloud account you already run.
+We invite admins and security teams to join Anthropic’s team for guidance on how to migrate your org before the deprecation of the separate chat and Cowork experience.](https://claude.com/resources/webinars/unified-claude-security-and-admins-q-and-a-session)
 
-Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)
+[WebinarUpcoming | Multiple dates
 
-[WebinarUpcoming | Nov 17, 2026
+### Claude Code: Foundations
 
-### Claude for Manufacturing: Put Your Plant’s Know-How to Work
+New to Claude Code? You’re in the right place. Join Anthropic's Claude Code specialist team for a hands-on introduction to…
 
-This one-hour technical session covers where that’s heading, what works today, and how to start.](https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work)
+Claude Code](https://claude.com/resources/webinars/claude-code-foundations-series)
 
 [WebinarUpcoming | Nov 19, 2026
 
@@ -52,23 +52,13 @@ Featured resource 1 of 5: Claude Rearview Roadmap Review: November 2026
 
 Advanced filters
 
-Showing 23 of 121 resources
+Showing 21 of 120 resources
 
 ## Upcoming webinars
 
 Register for the live sessions with Anthropic and partner teams — bring your questions and get answers in real time.
 
-[WebinarUpcoming | Nov 17, 2026
-
-### Claude for Manufacturing: Put Your Plant’s Know-How to Work
-
-This one-hour technical session covers where that’s heading, what works today, and how to start.](https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work)[WebinarUpcoming | Nov 17, 2026
-
-### Build Agents with Claude Models on Google Cloud
-
-The full Claude Platform is now on Google Cloud — build agents from the Google Cloud account you already run.
-
-Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[WebinarUpcoming | Nov 18, 2026
+[WebinarUpcoming | Nov 18, 2026
 
 ### How the Claude Code team does code review
 
@@ -136,7 +126,13 @@ Claude Code](https://claude.com/resources/webinars/claude-code-foundations-serie
 
 Missed the session? Stream past sessions anytime and catch up at your own pace.
 
-[WebinarNov 12, 2026
+[WebinarNov 17, 2026
+
+### Build Agents with Claude Models on Google Cloud
+
+The full Claude Platform is now on Google Cloud — build agents from the Google Cloud account you already run.
+
+Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[WebinarNov 12, 2026
 
 ### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
 
@@ -198,13 +194,7 @@ Claude Tag
 
 Join the teams behind the program for a walkthrough of the Cyber Verification Program.
 
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/d894bd8f-2433-4bbe-a3f8-754729d14847)[WebinarOn demand
-
-### Measuring AI Fluency at Your Organization
-
-Seat counts don't show if AI is working. Kristen Swanson shares how to measure AI Fluency beyond usage, without a huge lift.
-
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/d12c8ff1-867e-445a-bcf7-60f95aeca348)
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/d894bd8f-2433-4bbe-a3f8-754729d14847)
 
 View more
 

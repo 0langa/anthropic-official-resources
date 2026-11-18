@@ -60,13 +60,13 @@ Most real work uses both. Claude builds the first draft of the deck; you open it
 
 ## Try it now[](https://academy.claude.com/courses/introduction-to-claude-cowork/claude-for-microsoft-365)
 
-First, install the Claude add-in for the Microsoft 365 app you use most — see [Work across Excel, PowerPoint, and Word(opens in new tab)](https://support.claude.com/en/articles/13892150-work-across-excel-powerpoint-and-word) for setup and plan availability. Claude for Outlook is a separate beta with its own listing — see [Claude for Outlook(opens in new tab)](https://support.claude.com/en/articles/14855664-use-claude-for-outlook). If add-ins are managed by your IT team, check with them.
+First, install the Claude add-in for the Microsoft 365 app you use most. See [Work across Excel, PowerPoint, and Word(opens in new tab)](https://support.claude.com/en/articles/13892150-work-across-excel-powerpoint-and-word) for setup and plan availability. Claude for Outlook has its own listing. See [Claude for Outlook(opens in new tab)](https://support.claude.com/en/articles/14855664-use-claude-for-outlook) for setup. If add-ins are managed by your IT team, check with them.
 
 Open one of the M365 apps with a real document you're working on this week. Try one move with Claude inside the app — refine a paragraph, debug a formula, build a slide from a passage in a Word doc. The first time you see Claude operating on the document you're staring at, the difference from chat-then-paste lands.
 
 ## What’s next[](https://academy.claude.com/courses/introduction-to-claude-cowork/claude-for-microsoft-365)
 
-You've now seen Cowork everywhere it shows up — the desktop, the browser, and the documents themselves. Module 4 turns to the parts of using Cowork that matter once you're handing it real work: working safely, making sure the things you build behave, and sharing them with your team.
+You've now seen Claude at work on the desktop, in the browser, and inside the documents themselves. Module 4 turns to the parts of using Cowork that matter once you're handing it real work: working safely, making sure the things you build behave, and sharing them with your team.
 
 Was this helpful?
 

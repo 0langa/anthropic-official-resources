@@ -10,6 +10,8 @@ Same Claude, two ways of working. Chat is a conversation you steer turn by turn.
 
 Claude Cowork gives you an [agentic way(opens in new tab)](https://claude.com/product/cowork) of working with Claude: instead of answering and waiting for your next message, Claude completes a piece of work across your files, browser, and tools and hands back the result. This tutorial covers when to use Cowork and when a regular chat is the better fit.
 
+If your message box no longer shows Chat and Cowork options, you have the [new Claude experience(opens in new tab)](https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude), and you ask for both kinds of work described below in the same conversation.
+
 Diagram: an animated side-by-side comparison showing Chat as a serial back-and-forth conversation versus Cowork as a single goal that fans into parallel work and returns one finished result.
 
 **Chat**You drive every step

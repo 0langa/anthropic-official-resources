@@ -16,11 +16,11 @@ Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fintroduc
 
 ## Get set up[](https://academy.claude.com/courses/introduction-to-claude-cowork/getting-set-up)
 
-You can use Cowork in the Claude desktop app (Mac and Windows), on the web, or in the Claude mobile app. This lesson uses the desktop app, because that is where Claude can work directly with files on your computer. If you don't have it yet, install it from [claude.com/download(opens in new tab)](https://claude.com/download), open it, and sign in; you'll need a paid Claude plan. The Help Center's [Get started with Claude Cowork(opens in new tab)](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork) article walks through setup step by step.
+You can use Cowork in the Claude desktop app, on the web, or in the Claude mobile app. This lesson uses the desktop app, because that is where Claude can work directly with files on your computer. If you don't have it yet, install it from [claude.com/download(opens in new tab)](https://claude.com/download), open it, and sign in; you'll need a paid Claude plan. The Help Center's [Get started with Claude Cowork(opens in new tab)](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork) article walks through setup step by step.
 
 ## Pointing Claude at a folder[](https://academy.claude.com/courses/introduction-to-claude-cowork/getting-set-up)
 
-Click **Work in a project or folder** in the prompt bar and pick a folder on your computer. This is the single most important setup choice you'll make for each new task, because the folder is where the work lives. Claude reads every file inside (Word docs, Excel files, PDFs, PowerPoints, whatever's there) and saves finished outputs back to the same location.
+From the message box, add a folder on your computer. This is the single most important setup choice you'll make for each new task, because the folder is where the work lives. Claude reads every file inside (Word docs, Excel files, PDFs, PowerPoints, whatever's there) and saves finished outputs back to the same location.
 
 Choose a folder that's scoped to one project or stream of work. Claude doesn't need access to your entire documents folder, just the one that includes the files it needs for the task. See the interactive below for an example.
 
@@ -56,11 +56,11 @@ Click a folder to see what comes into scope.
 
 **Pick a real folder with the right context.** Cowork works best when the folder has the context for what you're doing — the source materials, the relevant documents, the templates.
 
-**Cloud-based files behave differently.** What a cloud connector lets Claude do varies. Many — like the default Google Drive and M365 connectors — are read-and-search only. Others can also create or edit. To confirm what your connectors can do, check each connector's description when you enable it. Your working folder is where Claude edits your files directly, so that's where documents get built and revised. When the files live on your computer, start the task from the desktop app; a task started from the web or your phone can reach your connectors but not your local folders.
+**Cloud-based files behave differently.** What a cloud connector lets Claude do varies. Some are read-and-search only. Others can also act on files: [Google Drive(opens in new tab)](https://support.claude.com/en/articles/10166901-use-google-workspace-connectors) can create, share, move, and trash files, and [M365(opens in new tab)](https://support.claude.com/en/articles/15183774-connect-to-microsoft-365) can create and update files when its write tools are on for your account. To confirm what your connectors can do, check each connector's description when you enable it. Your working folder is where Claude edits your files directly, so that's where documents get built and revised. When the files live on your computer, start the task from the desktop app; a task started from the web or your phone can reach your connectors but not your local folders.
 
 ## Adding connectors[](https://academy.claude.com/courses/introduction-to-claude-cowork/getting-set-up)
 
-Connectors are how Claude reaches into the apps where your work already happens — your email, your calendar, your team messaging tool, your CRM, your cloud storage. You set them up once in the **Customize** area and then you can toggle off/on the connectors you need for each task.
+Connectors are how Claude reaches into the apps where your work already happens — your email, your calendar, your team messaging tool, your CRM, your cloud storage. You [set them up(opens in new tab)](https://claude.ai/desktop/customize/connectors) once and then you can toggle off/on the connectors you need for each task from the **+** menu in the message box.
 
 Connectors most people set up first:
 
@@ -73,7 +73,7 @@ Once a connector is on, you reference it naturally in your prompts. "Check what 
 
 Try this interactive below to see the power of connecting Claude to your work.
 
-Exercise: the learner toggles connectors like Gmail, Calendar, Slack, and Drive on or off and watches a panel show what Claude Cowork can reach and draft, teaching that connector access is task-scoped and shapes what gets done automatically versus manually.
+Exercise: the learner toggles connectors like Gmail, Calendar, Slack, and Drive on or off and watches a panel show what Claude Cowork can reach and draft, teaching that the connectors switched on shape what gets done automatically versus manually.
 
 Connectors
 
@@ -81,9 +81,9 @@ Try it
 
 ### Toggle the connectors Cowork can reach for this task.
 
-Each task only uses the connectors you’ve toggled on. Flip them and watch what changes — both the reach and the kind of work Cowork can actually do.
+Each task only uses the connectors that are switched on. Flip them and watch what changes — both the reach and the kind of work Cowork can actually do.
 
-Customize
++ menu
 
 Connectors for this task
 
@@ -105,7 +105,7 @@ Search channels, summarize threads, send messages
 
 Google Drive
 
-Search documents, pull data, summarize folders
+Search documents, pull data, create and share files
 
 What Cowork can reach
 
@@ -182,7 +182,7 @@ Take a look at everything in this folder and write me a brief on what you've lea
 
 
 
-Open in Cowork
+Open in Claude
 
 **Step 4 — Read the brief and check it against your own knowledge.** What did Claude catch that you might have missed? What did it miss or get wrong? What surprised you?
 

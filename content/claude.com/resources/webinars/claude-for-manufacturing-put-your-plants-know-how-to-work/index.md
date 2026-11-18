@@ -8,12 +8,6 @@ This one-hour technical session covers where that’s heading, what works today,
 
 Fresh off the announcement of Infor Industry AI for Claude, Infor will join us to demo two plant use cases with the new connector. Infor brings the industry context, the role-based access, and the transactions behind each answer, so the work gets done right in Claude.
 
-Register for the webinar
-
-Fill out the form below to reserve your seat.
-
-By submitting this form you agree that Infor will process your personal data provided in the above form for communicating with you as Infor’s potential or actual customer or a client as described in [Infor’s Privacy Policy](https://www.infor.com/about/privacy).
-
 ## Featured speakers
 
 - ![](https://assets.claude.com/5a91693a6a198d6ed813a57648109b36858f2a7c.png?w=128&h=128&fit=crop)

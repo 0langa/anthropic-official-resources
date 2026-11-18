@@ -18,7 +18,7 @@ Build your skills with written guides and video lessons, from quick tasks to com
 
 ### Choosing a Claude model for knowledge workers
 
-·7 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)[![](https://academy.claude.com/assets/v1/thumbnail.light-kvtimo9u.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ogsjubpc.png)
+·7 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)[![](https://academy.claude.com/assets/v1/thumbnail.light-dhh4ob67.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-zr9ufl29.png)
 
 ### Getting started with connectors
 

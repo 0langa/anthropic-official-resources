@@ -38,7 +38,7 @@ Learn how Projects can streamline your workflow with Claude for more organized a
 
 Learn how Claude Skills let you package proven work approaches so Claude automatically applies them across conversations.
 
-·Tutorial·10 min](https://academy.claude.com/tutorials/teach-claude-your-way-of-working-using-skills)[![](https://academy.claude.com/assets/v1/thumbnail.light-kvtimo9u.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ogsjubpc.png)
+·Tutorial·10 min](https://academy.claude.com/tutorials/teach-claude-your-way-of-working-using-skills)[![](https://academy.claude.com/assets/v1/thumbnail.light-dhh4ob67.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-zr9ufl29.png)
 
 ## Getting started with connectors
 

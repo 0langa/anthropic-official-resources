@@ -34,7 +34,7 @@ Because Claude is a member of the channel, a few things are different from a cha
 
 Diagram: three rows show how Claude as a Slack channel member differs from a chat with Claude on your own: it starts briefed on the team's context, the whole team can steer one thread, and it keeps working after you sign off.
 
-### Claude can access all your team’s context to start as a specialist in your work.
+### Claude can access your team’s context to start as a specialist in your work.
 
 - Claude reads the channel history, files, and connected tools, so you don’t have to brief it with as much information.
 - Claude learns from your context and feedback over time to get better at the job.
@@ -159,7 +159,7 @@ Reference list: what Claude can already do wherever it is added, before tools ar
 ### Reads what is in front of it
 
 - [Reads the channel](https://claude.com/docs/claude-tag/users/getting-started): everything posted there, including from before it joined, so you do not have to re-explain the background.
-- [Reads files and links people share](https://claude.com/docs/claude-tag/users/troubleshooting): documents, images and pages dropped into the conversation become part of what it works from.
+- [Reads files people share, and links it can open](https://claude.com/docs/claude-tag/users/troubleshooting): documents and images dropped into the conversation, and pages it can open, become part of what it works from.
 
 ### Finds information beyond the channel
 

@@ -187,4 +187,4 @@ Not every eval necessarily needs to employ every recommendation in this post, bu
 
 Written by Ruth Appel, Evan Frondorf, Jeremy Hadfield, Rebecca Hiscott, Kamya Jagadish, Shayne Longpre, Madeleine Tucker, and Brett Wittmershaus.
 
-We’re also grateful to Michael Aciman, Brianna, Thomas Chang, Chris Doenlen, Jake Eaton, Miles McCain, Kira Riehm, Jonah Rubin, Alexandra Sanderford, Gian Segato, and Emma Webb for their contributions.
+We’re also grateful to Michael Aciman, Brianna, Ryan Carl, Thomas Chang, Chris Doenlen, Jake Eaton, Miles McCain, Kira Riehm, Jonah Rubin, Alexandra Sanderford, Gian Segato, Monika Tuchowska, and Emma Webb for their contributions.

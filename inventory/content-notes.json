@@ -3328,6 +3328,9 @@
   "https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/targets/retrieve": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/update": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/beta/organization/claude_tag/slack_channels": [
     "Native source; upstream MDX components retained."
   ],
@@ -7654,6 +7657,21 @@
   "https://platform.claude.com/docs/en/manage-claude/ip-allowlist": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/manage-claude/oauth-apps/app-review": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/oauth-apps/branding-samples": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/oauth-apps/oauth-reference": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/oauth-apps/organization-billing-connections": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/oauth-apps/overview": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/manage-claude/opentelemetry": [
     "Native source; upstream MDX components retained."
   ],
@@ -10138,22 +10156,43 @@
   "https://support.claude.com/en/articles/18342806-set-up-and-manage-the-new-unified-claude-experience-for-your-team-organization": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/18426225": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/18426225-move-from-claude-enterprise-to-claude-desktop-on-a-cloud-provider": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/18442783-use-the-cloud-browser-in-claude": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/18466061": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/18466061-move-claude-code-cli-users": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/18466091": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/18466091-plan-identity-and-sign-in": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/18466097": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/18466097-plan-for-restricted-models-and-access-programs": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/18466110": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/18466110-compare-cloud-providers": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/18467110-offer-linked-billing-in-your-platform": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/18467148-use-your-claude-platform-account-in-a-third-party-app": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for": [

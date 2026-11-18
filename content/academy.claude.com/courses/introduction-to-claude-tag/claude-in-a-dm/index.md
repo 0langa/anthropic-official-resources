@@ -87,7 +87,7 @@ In a DM, Claude can take action on your behalf. A few things to know before you 
 - **What Claude learns here stays separate:** what Claude learns here is [kept to this DM(opens in new tab)](https://claude.com/docs/claude-tag/users/memory), never added to the notes Claude shares across the workspace.
 - **Claude uses your connectors only for what you ask:** you can disconnect any of them from your [Claude account's connector settings(opens in new tab)](https://claude.ai/customize/connectors).
 - **Anything Claude does in your tools is done under your name:** review before you let it send or change something.
-- **Your DM is not visible to any channel:** nothing you do here reaches the team's channels, and a channel's connections stay with that channel.
+- **Your DM is not visible to any channel:** nothing you do here reaches the team's channels unless you ask Claude to post there, and a channel's connections stay with that channel.
 
 ## When to use a channel instead[](https://academy.claude.com/courses/introduction-to-claude-tag/claude-in-a-dm)
 
@@ -95,7 +95,7 @@ A DM keeps the work with you. That is the point of it, and also its limit:
 
 - **Nobody else can see or continue it:** a colleague cannot add what they know, correct Claude's answer, or pick the task up while you are away. If you paste the result into a channel later, any correction happens where Claude does not learn from it.
 - **Claude works from your own tools:** your connectors and what you paste. The systems connected to a team channel, like the CRM or the tracker, are not available here, so questions about them get thinner answers.
-- **What it learns stays with you:** a preference or correction saved in a DM shapes only your DM; said in a public channel, it helps everyone in that channel.
+- **What it learns stays with you:** a preference or correction saved in a DM shapes only your DM; saved in a public channel, it helps everyone in that channel.
 
 When any of these matter, ask in a channel. [Lesson 5(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-tag/pick-the-right-place-for-the-work) helps you decide.
 

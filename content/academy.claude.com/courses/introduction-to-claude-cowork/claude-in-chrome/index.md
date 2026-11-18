@@ -53,7 +53,7 @@ Open the customer health dashboard in Chrome, pull every account showing yellow 
 
 
 
-Open in Cowork
+Open in Claude
 
 Film: an animated illustration plays on its own, showing Claude's cursor filtering and exporting data on a mock customer-health dashboard in Chrome, then handing the results off to Cowork to build a summary document.
 
@@ -61,7 +61,7 @@ Cowork prompt
 
 “Pull yellow and red accounts from the customer-health dashboard for the last 30 days, then build a one-page summary with the top three at-risk accounts.”
 
-Claude (MCP)
+Claude
 
 Customer Health — Dashboard×
 

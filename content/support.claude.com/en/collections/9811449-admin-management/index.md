@@ -1,6 +1,6 @@
 # Admin management
 
-30 articles
+34 articles
 
 [Roles and permissionsRoles and permissions that can be set for members of your plan](https://support.claude.com/en/articles/9267276-roles-and-permissions)
 
@@ -61,3 +61,11 @@
 [Set up and manage the new unified Claude experience for your Team organization](https://support.claude.com/en/articles/18342806-set-up-and-manage-the-new-unified-claude-experience-for-your-team-organization)
 
 [Move from Claude Enterprise to Claude Desktop on a cloud provider](https://support.claude.com/en/articles/18426225-move-from-claude-enterprise-to-claude-desktop-on-a-cloud-provider)
+
+[Move Claude Code CLI users](https://support.claude.com/en/articles/18466061-move-claude-code-cli-users)
+
+[Plan identity and sign-in](https://support.claude.com/en/articles/18466091-plan-identity-and-sign-in)
+
+[Plan for restricted models and access programs](https://support.claude.com/en/articles/18466097-plan-for-restricted-models-and-access-programs)
+
+[Compare cloud providers](https://support.claude.com/en/articles/18466110-compare-cloud-providers)

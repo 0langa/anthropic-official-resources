@@ -152,11 +152,11 @@ Priya’s calendar is one of her own connectors, not a team connection
 
 Only visible to you
 
-Claude@Priya May I use your connectors to work on that request?
+Claude@Priya Can Claude use your connectors to work on that request?
 
-- I’ll use them as you, including making changes
-- I’ll only act on messages you post
-- With review, nothing your session says is posted until you approve it
+- Claude uses them as you, including making changes
+- Claude only acts on messages you post in this thread
+- Allow uses auto mode: Claude checks with you before posting anything that looks sensitive. Choose Allow with review to approve every message.
 
 AllowAllow with reviewDon’t allow
 

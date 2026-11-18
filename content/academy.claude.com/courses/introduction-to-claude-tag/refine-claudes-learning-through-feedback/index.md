@@ -32,7 +32,7 @@ If a note and an instruction disagree, Claude follows the instruction.
 Memory is Claude's notes about your channel. When you tell Claude something that should apply next time too, like a correction, a preference, or who owns what, it saves a note. It also saves notes on its own as it works. In later threads, Claude reads these notes before it answers. Anyone in the channel can ask Claude to add, change, or delete a note. Each note is scoped either to one channel or to the whole workspace:
 
 - **To add a note:** `@Claude remember for this channel: …`
-- **Channel notes** apply in that channel only. Claude keeps a separate set of notes for each channel. In your DM, Claude also keeps notes, and those are scoped to you and only you can access them.
+- **Channel notes** apply in that channel only. Claude keeps a separate set of notes for each channel. In your DM, Claude also keeps notes, and those stay with that DM and are not used in any channel.
 - **Workspace notes** apply in every channel. Claude saves one only from a public channel, and only for things everyone should know, like a company-wide naming rule. See [what Claude remembers(opens in new tab)](https://claude.com/docs/claude-tag/users/memory).
 
 Diagram: a DM, a private channel and a public channel each have their own memory notes, which Claude uses only there. From a public channel Claude can also add workspace notes, which it can use in both channels but not in the DM.
@@ -137,7 +137,7 @@ Channel instructions are rules someone on your team types into the channel's set
 
 - **Good uses:** the channel's purpose, what to reply to without being tagged, tone and length, which sources to answer from, where to file things.
 - **Where to edit them:** click [Configure(opens in new tab)](https://claude.com/docs/claude-tag/users/good-habits) under any Claude reply. Usually anyone in the channel with a Claude account at your organization can edit them; an admin can [lock the page(opens in new tab)](https://academy.claude.com/tutorials/claude-tag-admin-guide). If it is locked, ask whoever manages Claude Tag for your channel.
-- **Also on that page:** the [**Respond automatically**(opens in new tab)](https://claude.com/docs/claude-tag/users/when-claude-responds) setting, which controls whether Claude replies without being tagged ([lesson 7(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-tag/proactivity-let-claude-reply-without-being-tagged)), and the list of connected tools, which only admins and [channel managers(opens in new tab)](https://academy.claude.com/tutorials/claude-tag-admin-guide) can change.
+- **Also on that page:** the [**How Claude participates**(opens in new tab)](https://claude.com/docs/claude-tag/users/when-claude-responds) setting, which controls whether Claude replies without being tagged ([lesson 7(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-tag/proactivity-let-claude-reply-without-being-tagged)), and the list of connected tools, which only admins and [channel managers(opens in new tab)](https://academy.claude.com/tutorials/claude-tag-admin-guide) can change.
 - Changes apply to new threads, so test in a fresh one.
 - **For more:** see [how to set channel instructions(opens in new tab)](https://claude.com/docs/claude-tag/users/good-habits).
 

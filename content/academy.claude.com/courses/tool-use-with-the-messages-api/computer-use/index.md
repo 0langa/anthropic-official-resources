@@ -46,7 +46,7 @@ Each method is one line that hands the work to `backend`. That's your own wrappe
 
 Pass an instance of your class in `tools`, along with the prompt. **Tool Runner, an SDK helper, runs the loop for you until Claude replies without a tool call.**
 
-As of October 2026, [this toolset(opens in new tab)](https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool) is available on the Claude API and on Claude Models on Google Cloud (Google managed). Amazon Bedrock, Microsoft Foundry, and Claude Platform on AWS have the earlier beta tool versions. Those take a different `tools` entry and a beta header, a request header that turns on a beta feature.
+As of November 2026, [this toolset(opens in new tab)](https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool) is available on the Claude API, Amazon Bedrock, Claude Platform on AWS, Claude Models on Google Cloud (Google managed), and Microsoft Foundry. The models that support it vary by platform. Meridian's program below calls the Claude API, so on another platform, use that platform's SDK client and model ID. Some older models, such as Claude Opus 4.7, have only the earlier beta tool versions. Those take a different `tools` entry and a beta header, a request header that turns on a beta feature.
 
 ## Have a person approve clicks and typing[](https://academy.claude.com/courses/tool-use-with-the-messages-api/computer-use)
 

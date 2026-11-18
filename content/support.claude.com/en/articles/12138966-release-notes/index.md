@@ -2,7 +2,15 @@
 
 ## November 2026
 
+### November 17, 2026
+
+**Choose a release channel in Claude Desktop**
+
+You can now use a release channel to set which version of Claude Desktop you get when the app updates. **Stable** stays the default and gets new versions less often, after more testing. **Latest** gets a new version about once a day, so fixes and new features reach you sooner. For more information, see **[Choose a release channel](https://support.claude.com/en/articles/10065433-install-claude-desktop#h_ac219b3bde)**.
+
 ### November 12, 2026
+
+**Add Claude to your meetings**
 
 Claude Meetings is rolling out in beta on Team and Enterprise plans in Claude and Claude Desktop. You can add Claude to a Google Meet call as a visible participant that takes notes, answers questions, and builds artifacts, such as docs, whiteboards, and slides, during the call. For more information, see **[Use Claude Meetings](https://support.claude.com/en/articles/18325154-use-claude-meetings)**.
 

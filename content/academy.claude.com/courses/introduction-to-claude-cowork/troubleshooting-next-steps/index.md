@@ -33,7 +33,7 @@ What you’ve covered
 
   ### Use Claude wherever you work
 
-  Cowork in your browser via Claude in Chrome, and inside Word, Excel, PowerPoint, and Outlook via Claude in M365.
+  Cowork in your browser via Claude in Chrome, and inside Word, Excel, PowerPoint, and Outlook via Claude for Microsoft 365.
 - Module 4
 
   ### Sharing and safety in Claude Cowork
@@ -48,10 +48,10 @@ The throughline: Cowork goes beyond chat to allow you to delegate real work. Eve
 
 Pick **one** of these to do this week.
 
-- **Set up memory.** Write a five-sentence global instructions block, or create a project for a stream of work you're already in.
+- **Set up standing context.** Write a five-sentence global instructions block, or create a project for a stream of work you're already in.
 - **Schedule a task, or start one from your phone.** Take a recurring deliverable and put it on a cadence. Or, the next time something comes to mind off-hours, hand it to Cowork from the Claude app on your phone.
-- **Install a plugin.** Go to **Customize → Plugins**, install the plugin closest to your role, and run it against this week's version of your work.
-- **Try Claude in Chrome or M365.** Pick the surface that aligns with where most of your real work happens, install it, and use it on one task.
+- **Install a plugin.** Open the [plugins page(opens in new tab)](https://claude.ai/desktop/customize/plugins), add the plugin closest to your role, and run it against this week's version of your work.
+- **Try Claude in Chrome or Claude for Microsoft 365.** Pick the surface that aligns with where most of your real work happens, install it, and use it on one task.
 - **Share something you built.** Share a use case you found valuable, a workflow that produced great results, or a skill you've built with your team. You could be the unlock they need to get more comfortable working with Claude.
 
 ## Go deeper[](https://academy.claude.com/courses/introduction-to-claude-cowork/troubleshooting-next-steps)

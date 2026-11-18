@@ -84,7 +84,7 @@ Understand how effort settings work in claude.ai and why adjusting effort on a f
 
 Add Anthropic's open-source financial services plugins to Claude for financial modeling, equity research, investment banking, private equity, and fund administration workflows.
 
-·3 min](https://academy.claude.com/tutorials/install-financial-services-plugins-for-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-b9qlnr3z.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mpd67del.png)
+·3 min](https://academy.claude.com/tutorials/install-financial-services-plugins-for-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-bihkt81p.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iz3gsf7e.png)
 
 ## Navigating the Claude desktop app
 
@@ -96,9 +96,9 @@ Learn what changes when you use Claude in the desktop app, and what it can do ac
 
 A year-end campaign on five hours a week. An operations lead at an organization with no marketing staff has a year-end campaign to plan.](https://academy.claude.com/tutorials/claude-for-nonprofits-in-action-marketing)[![](https://academy.claude.com/assets/v1/thumbnail.light-bvn0kt1s.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iu3pg3zz.png)
 
-## Scaling workflows with Claude Cowork at your organization
+## Scaling workflows with Claude at your organization
 
-A playbook for rolling out Claude Cowork across your organization.
+A playbook for rolling out Claude across your organization.
 
 ·15 min](https://academy.claude.com/tutorials/scaling-workflows-with-claude-cowork-at-your-organization)[![](https://academy.claude.com/assets/v1/thumbnail.light-lqw5bdq9.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-xeakwokn.png)
 
@@ -106,29 +106,29 @@ A playbook for rolling out Claude Cowork across your organization.
 
 Tell Claude where things live, once. An operations lead who is new to Claude asks it to learn where her organization keeps everything.](https://academy.claude.com/tutorials/claude-for-nonprofits-in-action-getting-started)[![](https://academy.claude.com/assets/v1/thumbnail.light-cb32kcve.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nq1i2588.png)
 
-## Using Claude Cowork for legal: answer fast questions on past decisions
+## Using Claude for legal: answer fast questions on past decisions
 
-When a question comes up about a past decision, Claude Cowork answers it from your own history of reviews, with a citation for every claim. You get the answer in minutes, and you can check the source yourself before you reply.
+When a question comes up about a past decision, Claude answers it from your own history of reviews, with a citation for every claim. You get the answer in minutes, and you can check the source yourself before you reply.
 
 ·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)[![](https://academy.claude.com/assets/v1/thumbnail.light-cx9tbvoi.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-k5ry1o36.png)
 
-## Using Claude Cowork for marketing ops: run a weekly review that preps itself
+## Using Claude for marketing ops: run a weekly review that preps itself
 
-Claude Cowork runs the gathering for your weekly review on a schedule, so you’re not pulling the numbers and starting the draft by hand each week. Your time goes into what the review says.
+Claude runs the gathering for your weekly review on a schedule, so you’re not pulling the numbers and starting the draft by hand each week. Your time goes into what the review says.
 
 ·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-marketing-ops-review)[![](https://academy.claude.com/assets/v1/thumbnail.light-d0zjjn2v.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hdd30gkj.png)
 
-## Using Claude Cowork for sales: research any account before the first call
+## Using Claude for sales: research any account before the first call
 
-Before a first call, Claude Cowork pulls everything you’d want to know about an account into one brief. You go into the call already knowing the account, and the recap is written for you afterward.
+Before a first call, Claude pulls everything you’d want to know about an account into one brief. You go into the call already knowing the account, and the recap is written for you afterward.
 
-·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)[![](https://academy.claude.com/assets/v1/thumbnail.light-lov8vstm.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cnsmqju3.png)
+·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)[![](https://academy.claude.com/assets/v1/thumbnail.light-ls1g400e.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-l14xsm61.png)
 
 ## Using Claude for your small business
 
 Walk through three workflows from the Small Business plugin — plan payroll, close the month, get a Monday brief — and what Claude does at each step.
 
-·15 min](https://academy.claude.com/tutorials/using-claude-for-your-small-business)[![](https://academy.claude.com/assets/v1/thumbnail.light-m4ibfqqy.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-n82pdpre.png)
+·15 min](https://academy.claude.com/tutorials/using-claude-for-your-small-business)[![](https://academy.claude.com/assets/v1/thumbnail.light-fftf4j7v.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-xfm5wtqg.png)
 
 ## Using the Blender Connector in Claude
 

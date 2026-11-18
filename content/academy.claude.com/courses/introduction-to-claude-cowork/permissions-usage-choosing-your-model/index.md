@@ -76,7 +76,7 @@ Clean up last quarter’s client files — archive the old stuff and post a note
 
 Scheduled · Every Friday 5pm
 
-~/Documents/WorkAsk Sonnet 4.6
+~/Documents/WorkManual Sonnet
 
 Click anything in the window that looks risky.
 

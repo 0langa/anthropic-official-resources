@@ -29,7 +29,7 @@ Knowledge workers who have recently gained access to Claude Tag in their channel
 
 ## How to approach this course[](https://academy.claude.com/courses/introduction-to-claude-tag)
 
-You work with Claude Tag in your channels and threads, by writing to it the way you write to a teammate. In a channel, Claude has its own account, can use the tools your team has connected there, and keeps notes about how the channel works that everyone's corrections add to. This course shows you how to hand it work, check the results, and make it more useful for your team over time. Three habits run through every lesson:
+You work with Claude Tag in your channels and threads, by writing to it the way you write to a teammate. In a channel, Claude has its own account, can use the tools your team has connected there, and keeps notes about how the channel works that everyone's saved corrections add to. This course shows you how to hand it work, check the results, and make it more useful for your team over time. Three habits run through every lesson:
 
 **Work with it as you would a colleague.** Ask it where you would ask a person. Give it real jobs to finish, the kind you would otherwise do yourself or hand to a teammate, and correct it as it works. It can already read the channels it is in, so it starts from your team's context.
 
@@ -43,7 +43,7 @@ You work with Claude Tag in your channels and threads, by writing to it the way 
 
 5 lessons
 
-What Claude Tag is, the three places you can work with it (a DM, a public channel, a private channel), and how to choose between them
+What Claude Tag is, the main places you can work with it (a DM, a public channel, a private channel), and how to choose between them
 
 ### Shape how Claude works in your channels
 
