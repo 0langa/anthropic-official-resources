@@ -6,7 +6,7 @@ Connect Claude to Candid's database of nonprofits and foundations for organizati
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-harph06w.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kabymbiu.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-gm28qq0t.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-c8h3bsx5.png)
 
 The Candid connector gives Claude access to comprehensive nonprofit and philanthropic data, including profiles of nonprofits and foundations, expert knowledge resources, and the Philanthropy Classification System taxonomy.
 

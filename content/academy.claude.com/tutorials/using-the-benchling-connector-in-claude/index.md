@@ -6,7 +6,7 @@ Set up and use the Benchling integration with Claude to connect to Benchling R&D
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-h6cjxas2.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mc6mqld7.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-gb2898h8.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-pryc31en.png)
 
 The Benchling integration connects Claude to Benchling R&D platform data, enabling scientists to ask questions and receive clear summaries with links back to source experiments, notebooks, and structured records—all while maintaining existing access permissions. This article explains how to set up and use the Benchling integration with Claude to advance your R&D workflows.
 
@@ -28,8 +28,8 @@ When Claude sends a query to Benchling, it can search across the full breadth of
 
 Benchling customers who meet the following criteria:
 
-- Benchling AI (Deep Research) enabled in your tenant
-- API access (V3 APIs, including AI Agents endpoint)
+- Benchling Chat enabled in your tenant
+- V3 APIs enabled in your tenant
 - Benchling remote MCP enabled for your tenant
 
 No additional setup is required beyond connecting Claude to the Benchling connector and authenticating with your Benchling login credentials.
@@ -40,18 +40,15 @@ More details on accessing the integration can be found in [Benchling’s MCP Ser
 
 **For Organization Owners (Team and Enterprise)**
 
-1. Navigate to Admin settings > Connectors
-2. Click "Browse connectors"
-3. Click “**Benchling**”
-4. Click “Add to your team”
-5. Get a Server URL from Benchling by clicking the link provided
-6. Paste the Server URL into field provided
-7. Click “Continue”
+1. Navigate to [Organization settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors)
+2. Use the Add button to browse all available connectors, then find **Benchling** and add it for your team
+3. When asked for a Server URL, enter your Benchling MCP Server URL. It follows the pattern `https://<tenant>.mcp.benchling.com/mcp`, using your tenant name
+4. Follow any prompts to finish
 
 **For Individual Claude Users**
 
-1. Navigate to Settings > Connectors
-2. Click “Connect”
+1. Open [Benchling in the connectors directory(opens in new tab)](https://claude.ai/directory/benchling)
+2. Connect it to Claude. If asked for a Server URL, enter `https://<tenant>.mcp.benchling.com/mcp`, using your tenant name.
 3. Follow the instructions to authenticate with your Benchling account
 
 Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory) in Claude.

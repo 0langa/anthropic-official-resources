@@ -6,9 +6,9 @@ Everything that happened on your shift, written before you log off.
 
 Try in ClaudeCopy prompt
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-ggtsvh5v.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ckm3olk1.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-nv6geado.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-np92wlvz.png)
 
-Film: the user asks Claude to draft an on-call handoff from pages, incident channels, escalations, and deploys, pausing to confirm whether a carried-over item is still being watched before posting the brief for approval and scheduling it for future rotations.
+Film: a self-playing walkthrough where the user asks Claude to write an on-call handoff from pages, escalations and deploys, watches Claude pause for a judgment call, and gets a status-grouped brief ready to post and schedule for every rotation change.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2306AC38'%20d='M4.05%2017.71h4.6V24h-4.6zM16.59.32C14.75.01%2013.45%200%2011.13%200H4.05v14.19h7.24c2.05%200%203.59-.13%204.95-.96%201.5-.9%202.71-2.77%202.71-5.55%200-2.98-1.39-5.01-2.36-5.85C15.89.93%2016.59.32%2016.59.32zm-4.66%2010.39H8.65V3.55h2.87c2.96%200%204.45%201.12%204.45%203.53%200%202.59-1.62%203.63-4.04%203.63z'/%3e%3c/svg%3e)PagerDuty
 
@@ -50,7 +50,7 @@ Slack
 
 GitHub
 
-Platform / Oncall / 2026-W35
+Platform / Oncall
 
 3 files
 
@@ -106,7 +106,7 @@ Read5 sources
 
 Readhandoff-2026-W34.md and handoff-template.md
 
-![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2306AC38'%20d='M4.05%2017.71h4.6V24h-4.6zM16.59.32C14.75.01%2013.45%200%2011.13%200H4.05v14.19h7.24c2.05%200%203.59-.13%204.95-.96%201.5-.9%202.71-2.77%202.71-5.55%200-2.98-1.39-5.01-2.36-5.85C15.89.93%2016.59.32%2016.59.32zm-4.66%2010.39H8.65V3.55h2.87c2.96%200%204.45%201.12%204.45%203.53%200%202.59-1.62%203.63-4.04%203.63z'/%3e%3c/svg%3e)Read11 incidents assigned to you this week
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2306AC38'%20d='M4.05%2017.71h4.6V24h-4.6zM16.59.32C14.75.01%2013.45%200%2011.13%200H4.05v14.19h7.24c2.05%200%203.59-.13%204.95-.96%201.5-.9%202.71-2.77%202.71-5.55%200-2.98-1.39-5.01-2.36-5.85C15.89.93%2016.59.32%2016.59.32zm-4.66%2010.39H8.65V3.55h2.87c2.96%200%204.45%201.12%204.45%203.53%200%202.59-1.62%203.63-4.04%203.63z'/%3e%3c/svg%3e)Read11 pages assigned to you this week
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)Read#support-escalations and 4 incident channels
 
@@ -144,15 +144,15 @@ Download
 
 ## Incidents 4, open first
 
-<table class="inc grp"><thead><tr><th style="width:148px">Item</th><th style="width:98px">Status</th><th>Cause</th><th>Watch</th></tr></thead><tbody><tr><td><b>INC-5118</b> <code class="ch r">SEV2</code><span class="sub">auth-service login errors, Fri 14:05–14:31</span></td><td class="st"><code class="ch r">Still open</code></td><td>v2.31.0 cut SAML clock-skew tolerance from 180 s to 30 s; three enterprise SSO tenants looped. Rolled back 14:24.</td><td class="wt0">v2.31.0 is blocked in the release train until fix-forward PR #2287 merges. Do not let Tuesday’s train redeploy it. Runbook: <a>auth-service › SSO failures</a></td></tr><tr><td><b>INC-5109</b> <code class="ch y">SEV3</code><span class="sub">search-indexer lag 41 min, Wed 16:40–18:05</span></td><td class="st"><code class="ch y">Monitoring</code></td><td>v4.12.0 mapping change forced a full reindex; 6 consumers could not keep up. Scaled to 12 by hand.</td><td class="wt1">Consumers still pinned at 12 (PLAT-3388 makes it autoscale). If the lag alert fires, do not scale down.</td></tr><tr><td><b>INC-5102</b> <code class="ch r">SEV2</code><span class="sub">payments-api p99 3.4 s, Tue 02:14–03:01</span></td><td class="st"><code class="ch g">Resolved</code></td><td>Primary acquirer degraded; failed over to secondary at 02:31.</td><td class="wt2">Failover becomes automatic with v7.4.0, Mon 15:00. Acquirer maintenance Wed 3 Sep 01:00.</td></tr><tr><td><b>INC-5113</b> <code class="ch y">SEV3</code><span class="sub">notifications-worker queue 64k, Thu 11:20–11:52</span></td><td class="st"><code class="ch g">Resolved</code></td><td>Expired APNs certificate; rotated 11:41, queue drained. Nothing dropped.</td><td class="wt3">Cert expiry now alerts 14 days ahead (PLAT-3390).</td></tr></tbody></table>
+<table class="inc grp"><thead><tr><th style="width:148px">Item</th><th style="width:98px">Status</th><th>Cause</th><th>Watch</th></tr></thead><tbody><tr><td><b>INC-5118</b> <code class="ch r">SEV2</code><span class="sub">auth-service login errors, Fri 14:05–14:31</span></td><td class="st"><code class="ch r">Still open</code></td><td>v2.31.0 cut SAML clock-skew tolerance from 180 s to 30 s; three enterprise SSO tenants looped. Rolled back 14:24.</td><td class="wt0">v2.31.0 is blocked in the release train until fix-forward PR #2287 merges. Do not let Tuesday’s train redeploy it. Runbook: <a>auth-service › SSO failures</a></td></tr><tr><td><b>INC-5109</b> <code class="ch y">SEV3</code><span class="sub">search-indexer lag 41 min, Wed 16:40–18:05</span></td><td class="st"><code class="ch y">Monitoring</code></td><td>v4.12.0 mapping change forced a full reindex; 6 consumers could not keep up. Scaled to 12 by hand.</td><td class="wt1">Consumers still pinned at 12 (PLAT-3388 makes it autoscale). If the lag alert fires, do not scale down.</td></tr><tr><td><b>INC-5102</b> <code class="ch r">SEV2</code><span class="sub">payments-api p99 3.4 s, Tue 02:14–03:01</span></td><td class="st"><code class="ch g">Resolved</code></td><td>Primary acquirer degraded; failed over to secondary at 02:31.</td><td class="wt2">Failover becomes automatic with v7.4.0, Mon 15:00. Acquirer maintenance Wed 2 Sep 01:00.</td></tr><tr><td><b>INC-5113</b> <code class="ch y">SEV3</code><span class="sub">notifications-worker queue 64k, Thu 11:20–11:52</span></td><td class="st"><code class="ch g">Resolved</code></td><td>Expired APNs certificate; rotated 11:41, queue drained. Nothing dropped.</td><td class="wt3">Cert expiry now alerts 14 days ahead (PLAT-3390).</td></tr></tbody></table>
 
 ## CS escalations 3
 
-<table class="esc grp"><thead><tr><th style="width:148px">Item</th><th style="width:98px">Status</th><th>Cause</th><th>Watch</th></tr></thead><tbody><tr><td><b>ESC-2244</b> <span class="sub">Northbeam, Askeland, Brisa Retail, Fri 14:20</span></td><td class="st"><code class="ch y">Monitoring</code></td><td>INC-5118. All three signing in after the rollback.</td><td class="wtundefined">RCA promised by Wed 3 Sep; draft is in Incidents/2026-08-28-auth-sso.</td></tr><tr><td><b>ESC-2231</b> <span class="sub">Corland Health, Tue 09:40</span></td><td class="st"><code class="ch g">Resolved</code></td><td>14 duplicate captures during the INC-5102 failover; 14 refunds issued Wed.</td><td class="wtundefined">Finance reconciled Thu; closed.</td></tr><tr><td><b>ESC-2237</b> <span class="sub">Tidegate Marketplace, Wed 17:25</span></td><td class="st"><code class="ch g">Resolved</code></td><td>INC-5109; listings indexed once lag cleared at 18:05.</td><td class="wtundefined">—</td></tr></tbody></table>
+<table class="esc grp"><thead><tr><th style="width:148px">Item</th><th style="width:98px">Status</th><th>Cause</th><th>Watch</th></tr></thead><tbody><tr><td><b>ESC-2244</b> <span class="sub">Northbeam, Askeland, Brisa Retail, Fri 14:20</span></td><td class="st"><code class="ch y">Monitoring</code></td><td>INC-5118. All three signing in after the rollback.</td><td class="wtundefined">RCA promised by Wed 2 Sep; draft is in Incidents/2026-08-28-auth-sso.</td></tr><tr><td><b>ESC-2231</b> <span class="sub">Corland Health, Tue 09:40</span></td><td class="st"><code class="ch g">Resolved</code></td><td>14 duplicate captures during the INC-5102 failover; 14 refunds issued Wed.</td><td class="wtundefined">Finance reconciled Thu; closed.</td></tr><tr><td><b>ESC-2237</b> <span class="sub">Tidegate Marketplace, Wed 17:25</span></td><td class="st"><code class="ch g">Resolved</code></td><td>INC-5109; listings indexed once lag cleared at 18:05.</td><td class="wtundefined">—</td></tr></tbody></table>
 
 ## Carried from last week 1, kept per your answer
 
-<table class="grp"><thead><tr><th style="width:148px">Item</th><th style="width:98px">Status</th><th>Cause</th><th>Watch</th></tr></thead><tbody><tr><td><b>INC-5087</b> <span class="sub">Webhook delivery delays</span></td><td class="st"><code class="ch y">Monitoring</code></td><td>No pages or escalations this week. Kept per Tomás: permanent fix webhooks-dispatcher v2.6.0 ships Tue 2 Sep.</td><td class="wtundefined">Close it next week if v2.6.0 ships clean.</td></tr></tbody></table>
+<table class="grp"><thead><tr><th style="width:148px">Item</th><th style="width:98px">Status</th><th>Cause</th><th>Watch</th></tr></thead><tbody><tr><td><b>INC-5087</b> <span class="sub">Webhook delivery delays</span></td><td class="st"><code class="ch y">Monitoring</code></td><td>No pages or escalations this week. Kept per Tomás: permanent fix webhooks-dispatcher v2.6.0 ships Tue 1 Sep.</td><td class="wtundefined">Close it next week if v2.6.0 ships clean.</td></tr></tbody></table>
 
 ## Production deploys 16
 
@@ -185,15 +185,15 @@ Each item has a status, so open ones are read first.
 
 ## Incidents 4, open first
 
-<table class="inc grp"><thead><tr><th style="width:148px">Item</th><th style="width:98px">Status</th><th>Cause</th><th>Watch</th></tr></thead><tbody><tr><td><b>INC-5118</b> <code class="ch r">SEV2</code><span class="sub">auth-service login errors, Fri 14:05–14:31</span></td><td class="st"><code class="ch r">Still open</code></td><td>v2.31.0 cut SAML clock-skew tolerance from 180 s to 30 s; three enterprise SSO tenants looped. Rolled back 14:24.</td><td class="wt0">v2.31.0 is blocked in the release train until fix-forward PR #2287 merges. Do not let Tuesday’s train redeploy it. Runbook: <a>auth-service › SSO failures</a></td></tr><tr><td><b>INC-5109</b> <code class="ch y">SEV3</code><span class="sub">search-indexer lag 41 min, Wed 16:40–18:05</span></td><td class="st"><code class="ch y">Monitoring</code></td><td>v4.12.0 mapping change forced a full reindex; 6 consumers could not keep up. Scaled to 12 by hand.</td><td class="wt1">Consumers still pinned at 12 (PLAT-3388 makes it autoscale). If the lag alert fires, do not scale down.</td></tr><tr><td><b>INC-5102</b> <code class="ch r">SEV2</code><span class="sub">payments-api p99 3.4 s, Tue 02:14–03:01</span></td><td class="st"><code class="ch g">Resolved</code></td><td>Primary acquirer degraded; failed over to secondary at 02:31.</td><td class="wt2">Failover becomes automatic with v7.4.0, Mon 15:00. Acquirer maintenance Wed 3 Sep 01:00.</td></tr><tr><td><b>INC-5113</b> <code class="ch y">SEV3</code><span class="sub">notifications-worker queue 64k, Thu 11:20–11:52</span></td><td class="st"><code class="ch g">Resolved</code></td><td>Expired APNs certificate; rotated 11:41, queue drained. Nothing dropped.</td><td class="wt3">Cert expiry now alerts 14 days ahead (PLAT-3390).</td></tr></tbody></table>
+<table class="inc grp"><thead><tr><th style="width:148px">Item</th><th style="width:98px">Status</th><th>Cause</th><th>Watch</th></tr></thead><tbody><tr><td><b>INC-5118</b> <code class="ch r">SEV2</code><span class="sub">auth-service login errors, Fri 14:05–14:31</span></td><td class="st"><code class="ch r">Still open</code></td><td>v2.31.0 cut SAML clock-skew tolerance from 180 s to 30 s; three enterprise SSO tenants looped. Rolled back 14:24.</td><td class="wt0">v2.31.0 is blocked in the release train until fix-forward PR #2287 merges. Do not let Tuesday’s train redeploy it. Runbook: <a>auth-service › SSO failures</a></td></tr><tr><td><b>INC-5109</b> <code class="ch y">SEV3</code><span class="sub">search-indexer lag 41 min, Wed 16:40–18:05</span></td><td class="st"><code class="ch y">Monitoring</code></td><td>v4.12.0 mapping change forced a full reindex; 6 consumers could not keep up. Scaled to 12 by hand.</td><td class="wt1">Consumers still pinned at 12 (PLAT-3388 makes it autoscale). If the lag alert fires, do not scale down.</td></tr><tr><td><b>INC-5102</b> <code class="ch r">SEV2</code><span class="sub">payments-api p99 3.4 s, Tue 02:14–03:01</span></td><td class="st"><code class="ch g">Resolved</code></td><td>Primary acquirer degraded; failed over to secondary at 02:31.</td><td class="wt2">Failover becomes automatic with v7.4.0, Mon 15:00. Acquirer maintenance Wed 2 Sep 01:00.</td></tr><tr><td><b>INC-5113</b> <code class="ch y">SEV3</code><span class="sub">notifications-worker queue 64k, Thu 11:20–11:52</span></td><td class="st"><code class="ch g">Resolved</code></td><td>Expired APNs certificate; rotated 11:41, queue drained. Nothing dropped.</td><td class="wt3">Cert expiry now alerts 14 days ahead (PLAT-3390).</td></tr></tbody></table>
 
 ## CS escalations 3
 
-<table class="esc grp"><thead><tr><th style="width:148px">Item</th><th style="width:98px">Status</th><th>Cause</th><th>Watch</th></tr></thead><tbody><tr><td><b>ESC-2244</b> <span class="sub">Northbeam, Askeland, Brisa Retail, Fri 14:20</span></td><td class="st"><code class="ch y">Monitoring</code></td><td>INC-5118. All three signing in after the rollback.</td><td class="wtundefined">RCA promised by Wed 3 Sep; draft is in Incidents/2026-08-28-auth-sso.</td></tr><tr><td><b>ESC-2231</b> <span class="sub">Corland Health, Tue 09:40</span></td><td class="st"><code class="ch g">Resolved</code></td><td>14 duplicate captures during the INC-5102 failover; 14 refunds issued Wed.</td><td class="wtundefined">Finance reconciled Thu; closed.</td></tr><tr><td><b>ESC-2237</b> <span class="sub">Tidegate Marketplace, Wed 17:25</span></td><td class="st"><code class="ch g">Resolved</code></td><td>INC-5109; listings indexed once lag cleared at 18:05.</td><td class="wtundefined">—</td></tr></tbody></table>
+<table class="esc grp"><thead><tr><th style="width:148px">Item</th><th style="width:98px">Status</th><th>Cause</th><th>Watch</th></tr></thead><tbody><tr><td><b>ESC-2244</b> <span class="sub">Northbeam, Askeland, Brisa Retail, Fri 14:20</span></td><td class="st"><code class="ch y">Monitoring</code></td><td>INC-5118. All three signing in after the rollback.</td><td class="wtundefined">RCA promised by Wed 2 Sep; draft is in Incidents/2026-08-28-auth-sso.</td></tr><tr><td><b>ESC-2231</b> <span class="sub">Corland Health, Tue 09:40</span></td><td class="st"><code class="ch g">Resolved</code></td><td>14 duplicate captures during the INC-5102 failover; 14 refunds issued Wed.</td><td class="wtundefined">Finance reconciled Thu; closed.</td></tr><tr><td><b>ESC-2237</b> <span class="sub">Tidegate Marketplace, Wed 17:25</span></td><td class="st"><code class="ch g">Resolved</code></td><td>INC-5109; listings indexed once lag cleared at 18:05.</td><td class="wtundefined">—</td></tr></tbody></table>
 
 ## Carried from last week 1, kept per your answer
 
-<table class="grp"><thead><tr><th style="width:148px">Item</th><th style="width:98px">Status</th><th>Cause</th><th>Watch</th></tr></thead><tbody><tr><td><b>INC-5087</b> <span class="sub">Webhook delivery delays</span></td><td class="st"><code class="ch y">Monitoring</code></td><td>No pages or escalations this week. Kept per Tomás: permanent fix webhooks-dispatcher v2.6.0 ships Tue 2 Sep.</td><td class="wtundefined">Close it next week if v2.6.0 ships clean.</td></tr></tbody></table>
+<table class="grp"><thead><tr><th style="width:148px">Item</th><th style="width:98px">Status</th><th>Cause</th><th>Watch</th></tr></thead><tbody><tr><td><b>INC-5087</b> <span class="sub">Webhook delivery delays</span></td><td class="st"><code class="ch y">Monitoring</code></td><td>No pages or escalations this week. Kept per Tomás: permanent fix webhooks-dispatcher v2.6.0 ships Tue 1 Sep.</td><td class="wtundefined">Close it next week if v2.6.0 ships clean.</td></tr></tbody></table>
 
 ## Production deploys 16
 
@@ -218,7 +218,7 @@ Claude wants to use **Send message** from Slack
 
 To **#oncall**
 
-Week 35 handoff → Platform/Oncall/2026-W35/handoff-2026-W35.md: 1 still open (auth-service v2.31.0, blocked until PR #2287 merges; keep it off Tuesday’s train), 3 monitoring. @Aisha Bello has the pager from 09:00.
+Week 35 handoff → Platform/Oncall/handoff-2026-W35.md: 1 still open (auth-service v2.31.0, blocked until PR #2287 merges; keep it off Tuesday’s train), 3 monitoring. @Aisha Bello has the pager from 09:00.
 
 Allow onceAlways allowDeny
 
@@ -258,13 +258,13 @@ Claude reads last week’s brief first, then the week’s pages, escalations and
 
 When something is yours to decide, Claude stops and asks.
 
-You get the brief and a draft post, with what Claude found first.
+You get the brief and a draft post.
 
 Each item has a status, so open ones are read first.
 
 Anything still open says what to watch and links the fix.
 
-Claude posts only after you approve, and you can schedule the brief for every rotation change.
+Approve the post, then schedule the brief for every rotation change.
 
 The next person on call starts knowing what is still open.
 
@@ -284,7 +284,7 @@ Connectors: PagerDuty, Slack, GitHub
 
 ### Try a plugin[](https://academy.claude.com/use-cases/oncall-handoff-brief)
 
-The Engineering plugin ships with `/standup` and other incident-and-ops skills as a starting point, already structured to summarize a shift from the alert stream. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Engineering plugin ships with `/standup` and other incident-and-ops skills as a starting point. Use `/standup` to summarize recent activity and blockers, and `/incident-response` to write up an incident. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -340,17 +340,17 @@ List every production deploy that shipped during your shift, with the change sum
 
 ### Set your working folder[](https://academy.claude.com/use-cases/oncall-handoff-brief)
 
-Drag the files you'll use (your handoff template, last week's brief, the runbook index) into one folder and point Claude at it. Claude reads the template from there and writes the brief and the watch-list back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your on-call folder so the template, channel list, and severity definitions stay attached every rotation.
+Drag the files you'll use (your handoff template, last week's brief, the runbook index) into one folder and [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads the template from there and writes the brief back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your on-call folder so the template and runbook index stay attached every rotation.
 
-Platform / Oncall / 2026-W17
+Platform / Oncall
 
 handoff-template.mdJan 12, 20262 KB
 
-handoff-2026-W16.mdApr 20, 20266 KB
+handoff-2026-W34.mdAug 24, 20266 KB
 
 runbook-index.mdMar 30, 202611 KB
 
-In Cowork’s chat bar:Platform / Oncall / 2026-W17
+In Cowork’s chat bar:Platform / Oncall
 
 ## The prompt[](https://academy.claude.com/use-cases/oncall-handoff-brief)
 
@@ -360,7 +360,7 @@ Write the on-call handoff for my shift. Cover pages and incident channels from t
 
 
 
-Platform / Oncall / 2026-W17Open in Claude
+Platform / OncallOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/oncall-handoff-brief)
 
@@ -392,13 +392,15 @@ Write the on-call handoff for my shift. Cover pages and incident channels from t
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/oncall-handoff-brief)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your channel list and your status labels, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /standup skill with my feedback.
+Make what we've done in this task so far into a skill called /oncall-handoff.
 
 
 
 Platform / OncallOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -408,9 +410,9 @@ Make what we've done in this task so far into a skill, or edit the /standup skil
 
 ### Run it at rotation change[](https://academy.claude.com/use-cases/oncall-handoff-brief)
 
-Handoff happens the same hour every week. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill writes the brief at the end of every rotation, whether you remembered or not.
+Handoff happens the same hour every week. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/oncall-handoff` writes the brief at the end of every rotation, whether you remembered or not.
 
-Set up a scheduled task for every Monday at 9am: run /standup over the prior 7 days of pages, #support-escalations, and prod deploys, write the handoff to Platform/Oncall/<week>.md, and post it to #oncall.
+Set up a scheduled task for every Monday at 9am: run /oncall-handoff over the prior 7 days of pages, #support-escalations, and prod deploys, write the handoff to Platform/Oncall/handoff-<week>.md, and prepare the #oncall post for me to approve.
 
 
 
@@ -420,19 +422,21 @@ Set up a scheduled task for every Monday at 9am: run /standup over the prior 7 d
 
 Weekly on-call handoff
 
-Runs `/standup` over the week's pages, CS escalations, and deploys, writes the brief to the on-call folder, and posts it to #oncall.
+Runs `/oncall-handoff` over the week's pages, CS escalations, and deploys, writes the brief to the on-call folder, and prepares the #oncall post for you to approve.
 
 Every **Mondays at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/oncall-handoff-brief)
 
-Your customized `/standup` now carries your channel list, your status labels, and your team's handoff template. Share it so every engineer in the rotation produces the same brief, and nobody starts a shift blind because the last person was too tired to write it up.
+Your `/oncall-handoff` skill now carries your channel list, your status labels, and your team's handoff template. Share it so every engineer in the rotation produces the same brief, and nobody starts a shift blind because the last person was too tired to write it up.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/standup`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your instructions baked in, they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/oncall-handoff`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your instructions baked in, so they don't have to build it again.
 
 ## What changes for the rotation[](https://academy.claude.com/use-cases/oncall-handoff-brief)
 

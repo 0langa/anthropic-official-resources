@@ -34,7 +34,7 @@ Claude can connect to Messages to understand the full thread context, search the
 
 ### Required context[](https://academy.claude.com/use-cases/turn-text-threads-to-researched-notes)
 
-To access system-level connectors, download [Claude for Desktop.(opens in new tab)](https://claude.com/download)
+To connect Messages and Notes, download [Claude for Desktop.(opens in new tab)](https://claude.com/download)
 
 Then, in the desktop app, open Settings, search for “Extensions” and click it in the results. Click “Browse extensions,” then install **Read and Send iMessages** and **Read and Write Apple Notes**. These are extensions of Claude for Desktop on a Mac, not iPhone integrations: Claude reads the threads and writes the notes on your computer, and as long as Messages and Notes sync over iCloud, your phone stays in step with no phone-side setup.
 
@@ -58,7 +58,7 @@ A desktop extension of the Claude app on a Mac. Install it from Extensions in th
 
 ### Optional context[](https://academy.claude.com/use-cases/turn-text-threads-to-researched-notes)
 
-Make sure [Web Search(opens in new tab)](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search) is turned on in the chat bar so Claude can search for recipes and reviews online as a next step.
+Make sure [Web Search(opens in new tab)](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search) is turned on in the chat bar so Claude can search for recipes and reviews online as a next step. If you have the new Claude experience, there's no web search toggle. Claude searches the web when it helps.
 
 [
 
@@ -84,11 +84,11 @@ Below the shopping list is the step-by-step recipe with timing notes so you know
 
 Continue the conversation with Claude to refine, expand, or explore further.
 
-### Send replies and set reminders[](https://academy.claude.com/use-cases/turn-text-threads-to-researched-notes)
+### Send replies[](https://academy.claude.com/use-cases/turn-text-threads-to-researched-notes)
 
-Ask Claude to reply to the host with what you're bringing and to set a reminder to go shopping. Claude can both read and write to your Messages and Reminders app.
+Ask Claude to reply to the host with what you're bringing. Claude can read your messages and send replies.
 
-Please send Sarah a message back saying I'll bring brownies for 15 people. Let her know I can make a small gluten-free batch too. Then, set a reminder for 6pm to stop at the grocery store on the way home from work.
+Please send Sarah a message back saying I'll bring brownies for 15 people. Let her know I can make a small gluten-free batch too.
 
 
 
@@ -118,7 +118,7 @@ My team's been chatting about a workshop in Slack. Read those messages, research
 
 ### Connect to your [iOS(opens in new tab)](https://support.claude.com/en/articles/11869619-using-claude-with-ios-apps) or [Android(opens in new tab)](https://support.claude.com/en/articles/11869629-using-claude-with-android-apps) apps[](https://academy.claude.com/use-cases/turn-text-threads-to-researched-notes)
 
-Claude can now connect with your device's system apps to help you take action directly from your conversations. When you chat with Claude, it can draft messages, emails, or calendar events, find locations, and manage reminders — all seamlessly integrated with your mobile apps. That mobile feature drafts new messages from your phone; reading an existing thread and writing the note, as in this walkthrough, runs through the Claude desktop app's extensions on a Mac.
+Claude can now connect with your device's system apps to help you take action directly from your conversations. When you chat with Claude, it can draft messages, emails, or calendar events, and find locations, all integrated with your mobile apps. The mobile app drafts new messages from your phone; reading an existing thread and writing the note, as in this walkthrough, runs through the Claude desktop app's extensions on a Mac.
 
 ### Formatting for Notes[](https://academy.claude.com/use-cases/turn-text-threads-to-researched-notes)
 

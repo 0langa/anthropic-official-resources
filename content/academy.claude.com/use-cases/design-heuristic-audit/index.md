@@ -8,11 +8,11 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-drc4nbll.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kor1z3r3.png)
 
-Film: the user asks Claude to score competitor onboarding screenshots and their own flow against a shared usability rubric, resolving judgment calls by asking rather than guessing, then returns a scored teardown with cited evidence and patterns to adopt or avoid, schedulable to rerun automatically.
+Film: the user asks Claude to score competitor onboarding screenshots against a shared usability rubric, comparing them to the user's own product and flagging patterns to adopt or avoid, with a weekly rescore option.
 
 Score competitor flows against your own
 
-You want to compare a competitor’s sign-up flow with your own, step by step.
+You want to compare competitors’ onboarding flows with your own, step by step.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%230ACF83'%20d='M8%2024a4%204%200%200%200%204-4v-4H8a4%204%200%200%200%200%208Z'/%3e%3cpath%20fill='%23A259FF'%20d='M4%2012a4%204%200%200%201%204-4h4v8H8a4%204%200%200%201-4-4Z'/%3e%3cpath%20fill='%23F24E1E'%20d='M4%204a4%204%200%200%201%204-4h4v8H8a4%204%200%200%201-4-4Z'/%3e%3cpath%20fill='%23FF7262'%20d='M12%200h4a4%204%200%200%201%200%208h-4V0Z'/%3e%3cpath%20fill='%231ABCFE'%20d='M20%2012a4%204%200%201%201-8%200%204%204%200%200%201%208%200Z'/%3e%3c/svg%3e)
 
@@ -199,7 +199,7 @@ Every score uses one rubric and shows the gap to your product.
 Heuristic evaluation · Northstar, Pallet and Kitewire against Shipped v4.2 · 13-heuristic rubric v2 · 32 screens
 
 <table class="meta-tbl mt"><tbody><tr><td>Baseline</td><td>Shipped — v4.2: 8 frames read from the Onboarding file in Figma (per your answer; vNext was not scored)</td><td>Rubric</td><td>heuristic-rubric.pdf v2: Nielsen’s ten heuristics plus our three custom ones, each screen scored 0–4</td></tr>
-<tr><td>Competitors</td><td>24 screenshots captured 25–27 August: Northstar 9, Pallet 8, Kitewire 7</td><td>Scores</td><td>Averaged per product; per-screen scores in teardown-scorecard-Q2.xlsx, “Per screen”</td></tr></tbody></table>
+<tr><td>Competitors</td><td>24 screenshots captured 25–27 April: Northstar 9, Pallet 8, Kitewire 7</td><td>Scores</td><td>Averaged per product; per-screen scores in teardown-scorecard-Q2.xlsx, “Per screen”</td></tr></tbody></table>
 
 **Where v4.2 stands.** Leads on 5 of 13 heuristics and trails on 8; furthest behind on H1 visibility of system status (2.1 against Northstar 3.6). Mean score: us 2.7, Northstar 2.7, Pallet 3.0, Kitewire 2.4.
 
@@ -221,7 +221,7 @@ we trail by 1.0 or more we trail by less competitor’s own low score · scale 0
 
 3**Help that opens external docs in a new tab and loses the setup state.** Pallet’s “?” leaves the flow; returning reloads step 1.Evidence `pallet-onboarding-06-help.png` · H10 Pallet 2.2
 
-**Method** Baseline: Shipped — v4.2, 8 frames read from the Onboarding file in Figma (per your answer; vNext was not scored). 24 competitor screenshots captured 25–27 August. Each screen scored 0–4 on 13 heuristics, averaged per product; two Kitewire screens were too low-resolution to score on C3 and are marked. Per-screen scores: teardown-scorecard-Q2.xlsx, “Per screen”.
+**Method** Baseline: Shipped — v4.2, 8 frames read from the Onboarding file in Figma (per your answer; vNext was not scored). 24 competitor screenshots captured 25–27 April. Each screen scored 0–4 on 13 heuristics, averaged per product; two Kitewire screens were too low-resolution to score on C3 and are marked. Per-screen scores: teardown-scorecard-Q2.xlsx, “Per screen”.
 
 Run this every Monday: score any new screenshots in Teardown-Q2 on the same rubric against Shipped v4.2, update the scorecard and the teardown, and flag any heuristic where a competitor moved ahead of us.
 
@@ -245,7 +245,7 @@ Illustration. Product screens are simplified.
 
 Score competitor flows against your own
 
-You want to compare a competitor’s sign-up flow with your own, step by step.
+You want to compare competitors’ onboarding flows with your own, step by step.
 
 With the Design plugin’s critique skill, ask for rubric scores, a comparison, and patterns to adopt.
 
@@ -279,7 +279,7 @@ Connectors: Figma
 
 ### Try a plugin[](https://academy.claude.com/use-cases/design-heuristic-audit)
 
-The Design plugin ships with `/design-critique` already structured to walk screens against a rubric and compare across competitors. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Design plugin ships with `/design-critique` already structured to review a screen for usability, hierarchy, and consistency. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -335,7 +335,7 @@ Read the competitor docs folder and write the teardown back as a shareable Doc.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/design-heuristic-audit)
 
-Drag the files you'll use (competitor flow screenshots, their help-center PDFs, your own current screens, your heuristic rubric) into one folder on your machine, then point Claude at it. Claude reads from it and writes the scored teardown back to it. If you do teardowns regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your rubric and memory stay attached.
+Drag the files you'll use (competitor flow screenshots, their help-center PDFs, your own current screens, your heuristic rubric) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from the folder and writes the scored teardown back to it. If you do teardowns regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your rubric and memory stay attached.
 
 Competitive / Teardown-Q2
 
@@ -387,13 +387,15 @@ Run a heuristic audit of these competitors. Score each screen against Nielsen's 
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/design-heuristic-audit)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your severity scale and your steal/avoid framing, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /design-critique skill with my feedback.
+Make what we've done in this task so far into a skill called /heuristic-audit.
 
 
 
-CompetitiveOpen in Claude
+Competitive / Teardown-Q2Open in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -413,31 +415,33 @@ Publish that teardown scorecard as an artifact. Keep a "what changed since last 
 
 ### Run it after every competitor release[](https://academy.claude.com/use-cases/design-heuristic-audit)
 
-A rival ships, the teardown should already be updating. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and set the customized skill to run every Monday, picking up any new screenshots dropped in the folder.
+Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and set `/heuristic-audit` to run every Monday, picking up any new screenshots dropped in the folder.
 
-Set up a scheduled task for Mondays at 10am: check Competitive/Teardown-Q2 for new screenshots and re-run /design-critique, updating the scorecard and flagging any heuristic where a competitor overtook us.
+Set up a scheduled task for Mondays at 10am: check Competitive/Teardown-Q2 for new screenshots and re-run /heuristic-audit, updating the scorecard and flagging any heuristic where a competitor overtook us.
 
 
 
-CompetitiveOpen in Claude
+Competitive / Teardown-Q2Open in Claude
 
 Scheduled taskActive
 
-Weekly competitive re-score
+Weekly competitive rescore
 
-Each Monday at 10am, checks the teardown folder for new screenshots, re-runs `/design-critique`, and flags any heuristic where a competitor overtook us.
+Each Monday at 10am, checks the teardown folder for new screenshots, re-runs `/heuristic-audit`, and flags any heuristic where a competitor overtook us.
 
 Every **Monday at 10 am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/design-heuristic-audit)
 
-Your customized `/design-critique` now carries your rubric, your severity scale, and your steal/avoid framing. Share it so every designer and PM scores competitors the same way, and the quarterly review compares like with like.
+Your `/heuristic-audit` skill now carries your rubric, your severity scale, and your steal/avoid framing. Share it so every designer and PM scores competitors the same way, and the quarterly review compares like with like.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/design-critique`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your rubric baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/heuristic-audit`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your rubric baked in, so they don't have to build it again.
 
 ## What changes for competitive review[](https://academy.claude.com/use-cases/design-heuristic-audit)
 

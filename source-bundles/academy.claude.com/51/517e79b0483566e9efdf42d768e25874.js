@@ -1,0 +1,63 @@
+import{n as e,r as t}from"../../../react-ml7fx0sn.js";var n=t();function r(t){let r={a:"a",code:"code",h2:"h2",h3:"h3",p:"p",strong:"strong",...e(),...t.components},{Callout:i,Connectors:o,CoworkPluginCard:s,CoworkPrompt:c,CoworkScheduled:l,CoworkWorkingFolder:u,CoworkWrapUp:d,Mark:f,MarkHighlight:p,ResourceWidget:m,Tip:h}=r;return i||a("Callout",!0),o||a("Connectors",!0),s||a("CoworkPluginCard",!0),c||a("CoworkPrompt",!0),l||a("CoworkScheduled",!0),u||a("CoworkWorkingFolder",!0),d||a("CoworkWrapUp",!0),f||a("Mark",!0),p||a("MarkHighlight",!0),m||a("ResourceWidget",!0),h||a("Tip",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(m,{name:"Embed1"}),`
+`,(0,n.jsx)(r.h2,{id:"1-set-up",children:"1. Set up"}),`
+`,(0,n.jsx)(r.h3,{id:"try-a-plugin",children:"Try a plugin"}),`
+`,(0,n.jsxs)(r.p,{children:["The Sales plugin ships with ",(0,n.jsx)(r.code,{children:"/pipeline-review"})," and other account-health skills as a starting point, already structured to check your open pipeline stage by stage and flag at-risk deals. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it."]}),`
+`,(0,n.jsx)(s,{slug:"sales",featured:"pipeline-review call-prep",showRun:!0}),`
+`,(0,n.jsx)(r.h3,{id:"connect-your-tools",children:"Connect your tools"}),`
+`,(0,n.jsxs)(r.p,{children:["Claude is more powerful when it works directly with your systems. You control permissions and access. ",(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access",children:"Learn about tool access"}),"."]}),`
+`,(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.a,{href:"https://claude.ai/desktop/customize/connectors",children:"Add a connector"})," for each tool you want Claude to use."]}),`
+`,(0,n.jsx)(o,{items:[{slug:"salesforce",note:"Pull the renewal book, ARR, owner, and any logged exec commitments straight from CRM."},{slug:"gong",note:"Read the last QBR and recent call sentiment for each account."},{slug:"zendesk",optional:!0,note:"Factor open and recently escalated support tickets into the risk score."}]}),`
+`,(0,n.jsx)(i,{type:"tip",children:(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:"Want to try this task before setting anything up?"})," Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt."]})}),`
+`,(0,n.jsx)(r.h3,{id:"set-your-working-folder",children:"Set your working folder"}),`
+`,(0,n.jsxs)(r.p,{children:["Drag the files you'll use (a CRM export of the renewal book, a product-usage CSV, last quarter's QBR notes) into one folder and ",(0,n.jsx)(r.a,{href:"/tutorials/navigating-the-claude-desktop-app#folders",children:"give Claude access to it"})," in the Claude desktop app. Claude reads from it and writes the risk audit and the artifact link back to it. ",(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork",children:"Create a project"})," from your renewal folder so your scoring rubric and the exec-commitment tracker stay attached."]}),`
+`,(0,n.jsx)(u,{name:"Renewals / FY26-Q3",files:[{name:"q3-renewal-book.csv",kind:"csv",date:"Apr 27, 2026",size:"48 KB"},{name:"usage-90d-by-account.csv",kind:"csv",date:"Apr 27, 2026",size:"112 KB"},{name:"exec-commitments-open.md",kind:"md",date:"Apr 20, 2026",size:"4 KB"}]}),`
+`,(0,n.jsx)(r.h2,{id:"2-the-prompt",children:"2. The prompt"}),`
+`,(0,n.jsx)(r.h3,{id:"copy-this-into-claude",children:"Copy this into Claude"}),`
+`,(0,n.jsx)(c,{folder:"Renewals / FY26-Q3",children:(0,n.jsxs)(r.p,{children:["Audit ",(0,n.jsx)(f,{id:"crm",children:"my Q3 renewal book"}),`. For every account renewing in the next 90 days,
+score renewal risk red/yellow/green based on `,(0,n.jsx)(f,{id:"a",children:`product-usage
+trend, recent sentiment, and open exec commitments`}),". ",(0,n.jsx)(f,{id:"b",children:`Explain
+the signal that drove each score`}),", and ",(0,n.jsx)(f,{id:"c",children:`publish it as an
+artifact`})," I can share with leadership."]})}),`
+`,(0,n.jsx)(r.h3,{id:"why-this-works",children:"Why this works"}),`
+`,(0,n.jsx)(p,{mark:"a",children:(0,n.jsx)(h,{tag:"prompt",children:(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:"Name the inputs to weigh."}),` Usage trend, last sentiment, open commitments
+are the inputs that actually predict churn; saying so keeps the score
+explainable.`]})})}),`
+`,(0,n.jsx)(p,{mark:"b",children:(0,n.jsx)(h,{tag:"prompt",children:(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:"Ask for the reason behind each score."}),` Asking for the reason behind each
+score so each red includes why it's at risk — something you can act on.`]})})}),`
+`,(0,n.jsx)(p,{mark:"c",children:(0,n.jsx)(h,{tag:"prompt",children:(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:"Say how you'll share the output."}),` An artifact means leadership opens
+one link, not last Tuesday's spreadsheet.`]})})}),`
+`,(0,n.jsx)(p,{mark:"crm",children:(0,n.jsx)(h,{tag:"source",children:(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:"Pull from the authoritative source."}),` The renewal date, ARR, and owner come
+from Salesforce, so the audit and the forecast agree.`]})})}),`
+`,(0,n.jsx)(r.h3,{id:"get-a-better-draft",children:"Get a better draft"}),`
+`,(0,n.jsx)(h,{tag:"practice",children:(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:"Add your scoring rubric."}),` Drop your team's red/yellow/green definitions in
+the project and the scores match how your forecast call already talks.`]})}),`
+`,(0,n.jsx)(h,{tag:"practice",children:(0,n.jsxs)(r.p,{children:[(0,n.jsx)(r.strong,{children:"Ask for next actions."}),` Add "for every red, suggest the next action and who
+runs it" so the audit is also the save plan.`]})}),`
+`,(0,n.jsx)(r.h2,{id:"3-make-claude-work-for-you",children:"3. Make Claude work for you"}),`
+`,(0,n.jsx)(r.p,{children:"Tell Claude your own rules for this task, such as your usage thresholds and your save plays, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on."}),`
+`,(0,n.jsx)(c,{folder:"Renewals / FY26-Q3",children:(0,n.jsx)(r.p,{children:`Make what we've done in this task so far into a skill called
+/renewal-risk.`})}),`
+`,(0,n.jsx)(r.p,{children:"Review the skill, and save it if Claude hasn't already."}),`
+`,(0,n.jsxs)(i,{type:"tip",children:[(0,n.jsx)(r.strong,{children:"Tip:"})," tell Claude to edit the skill for you."]}),`
+`,(0,n.jsx)(r.h2,{id:"4-make-it-repeatable",children:"4. Make it repeatable"}),`
+`,(0,n.jsx)(r.h3,{id:"share-it-as-an-artifact",children:"Share it as an artifact"}),`
+`,(0,n.jsx)(r.p,{children:"A spreadsheet is a snapshot. With the audit published as an artifact, leadership opens one link. Ask Claude to add filters for segment, owner, and risk."}),`
+`,(0,n.jsx)(c,{folder:"Renewals / FY26-Q3",children:(0,n.jsx)(r.p,{children:`Add filters for segment, owner, and risk to that renewal-risk artifact
+for sales leadership.`})}),`
+`,(0,n.jsx)(r.h3,{id:"run-it-on-a-schedule",children:"Run it on a schedule"}),`
+`,(0,n.jsxs)(r.p,{children:["Risk moves week to week. Ask Claude to set up a scheduled task, or open ",(0,n.jsx)(r.strong,{children:"Scheduled"})," in the sidebar, and ",(0,n.jsx)(r.code,{children:"/renewal-risk"})," rescores the book and refreshes the artifact before your Monday forecast call."]}),`
+`,(0,n.jsx)(c,{folder:"Renewals / FY26-Q3",children:(0,n.jsx)(r.p,{children:`Set up a scheduled task for every Monday at 7am: rerun /renewal-risk on the
+current 90-day book, refresh the artifact, and mark any account that
+moved to red since last week.`})}),`
+`,(0,n.jsx)(l,{name:"Weekly renewal risk audit",cadence:"Mondays at 7:00 AM",children:(0,n.jsxs)(r.p,{children:["Runs ",(0,n.jsx)(r.code,{children:"/renewal-risk"}),` to rescore the 90-day renewal book on usage, sentiment, and open commitments,
+refreshes the artifact, and marks new reds.`]})}),`
+`,(0,n.jsx)(r.p,{children:"To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it."}),`
+`,(0,n.jsx)(r.h2,{id:"5-share-with-your-teammates",children:"5. Share with your teammates"}),`
+`,(0,n.jsxs)(r.p,{children:["Your ",(0,n.jsx)(r.code,{children:"/renewal-risk"})," skill now carries your usage thresholds and your save plays. Share it so every CSM and AE in the segment runs the same audit and the forecast call argues about action, not definitions."]}),`
+`,(0,n.jsx)(i,{type:"note",title:"Share the skill",children:(0,n.jsxs)(r.p,{children:["You can share a skill you created. In ",(0,n.jsx)(r.a,{href:"https://claude.ai/customize/skills/yours",children:"your skills"}),", open the ",(0,n.jsx)(r.strong,{children:"..."}),`
+menu next to `,(0,n.jsx)(r.code,{children:"/renewal-risk"}),", select ",(0,n.jsx)(r.strong,{children:"Share"}),`, and pick your teammates. For
+your whole organization, open the skill and select `,(0,n.jsx)(r.strong,{children:"Publish to org"}),`, if your
+admin allows. They get the skill with your instructions baked in, so they don't
+have to build it again.`]})}),`
+`,(0,n.jsx)(r.h2,{id:"what-changes-for-the-renewal-motion",children:"What changes for the renewal motion"}),`
+`,(0,n.jsxs)(d,{next:{label:"Account tracking and health",slug:"account-tracking"},children:[(0,n.jsx)(r.p,{children:"Every account in your renewal window has a risk score, the signal behind it, and an owner, in one shared view. You work the at-risk list instead of building it."}),(0,n.jsx)(r.p,{children:"You did this for one renewal cycle. The same approach covers expansion reviews, forecast risk, and QBR prep — each one a skill your team runs the same way every time."})]})]})}function i(t={}){let{wrapper:i}={...e(),...t.components};return i?(0,n.jsx)(i,{...t,children:(0,n.jsx)(r,{...t})}):r(t)}function a(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}i.uses=["Callout","Connectors","CoworkPluginCard","CoworkPrompt","CoworkScheduled","CoworkWorkingFolder","CoworkWrapUp","Mark","MarkHighlight","ResourceWidget","Tip"];export{i as default};

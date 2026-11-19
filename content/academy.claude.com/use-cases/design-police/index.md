@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-mliphhy1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hvy17a2s.png)
 
-Film: the user asks Claude to check shipped screens and open pull requests against a design system's tokens, components, and spacing, and Claude returns a severity-rated drift report with compliant fixes and a draft PR comment.
+Film: the user asks Claude to review shipped screens and open pull requests against the design system, flagging drift in tokens, components, spacing, or interactions with severity and compliant fixes, then approves a pull-request comment and schedules recurring checks.
 
 **Billing – Harbor**×
 
@@ -160,7 +160,7 @@ GitHub
 
 Figma
 
-Design QA / Sprint 42
+Design-QA / Sprint-42
 
 tokens.json, component-inventory.md, 3 screenshots
 
@@ -342,9 +342,9 @@ Each finding names the rule it breaks and the fix.
 
 Each comment for engineering names the exact file and line.
 
-You approve the pull request comment, then put the check on a twice-daily schedule.
+Approve the pull request comment, then put the check on a twice-daily schedule.
 
-Drift from the design system is caught before it ships, with the fix.
+Drift from the design system is caught each weekday, with the fix.
 
 Review the screens in this folder and open PRs labeled ui against our design system. List every drift from our tokens, components, spacing or interaction patterns, rate severity, and suggest the compliant fix. Skip anything that already matches.
 
@@ -362,7 +362,7 @@ Connectors: GitHub, Figma
 
 ### Try a plugin[](https://academy.claude.com/use-cases/design-police)
 
-The Design plugin ships with `/design-system` already structured to diff a screen or PR against a token file and component inventory. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Design plugin ships with `/design-system` already structured to audit components for naming, token use, and hardcoded values. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -418,11 +418,11 @@ Post the daily drift summary to the design-system channel for triage.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/design-police)
 
-Drag the files you'll use (production screenshots, the PR diffs you're reviewing, your tokens file, the component inventory) into one folder on your machine, then point Claude at it. Claude reads from it and writes the drift report back to it. If you run design QA regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your system source stays attached.
+Drag the files you'll use (production screenshots, the PR diffs you're reviewing, your tokens file, the component inventory) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from the folder and writes the drift report back to it. If you run design QA regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your system source stays attached.
 
 Design-QA / Sprint-42
 
-prod-settings-screen.pngApr 27, 2026820 KB
+prod-settings-billing.pngApr 27, 2026820 KB
 
 pr-4821-billing-panel.diffApr 27, 202614 KB
 
@@ -470,13 +470,15 @@ Review the shipped screens and open PRs in this folder against our design system
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/design-police)
 
-The plugin's `/design-system` is a generic starting point. Once Step 2 produces a drift report you'd actually post on a PR, tell Claude to write your version of the skill. Layer in your severity thresholds, your allowed exceptions, your component-to-code mapping, and the comment tone your engineers respond to. A few minutes of conversation and the skill runs with your standards from then on.
+Once the prompt produces a drift report you'd actually post on a PR, tell Claude to save what you've done as a skill of your own. Layer in your severity thresholds, your allowed exceptions, your component-to-code mapping, and the comment tone your engineers respond to. A few minutes of conversation and the skill runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /design-system skill with my feedback.
+Make what we've done in this task so far into a skill called /drift-review.
 
 
 
-Design-QAOpen in Claude
+Design-QA / Sprint-42Open in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 ## Make it repeatable[](https://academy.claude.com/use-cases/design-police)
 
@@ -492,31 +494,33 @@ Publish that drift report as an artifact for the design-system channel. Keep a r
 
 ### Run it on every PR that touches UI[](https://academy.claude.com/use-cases/design-police)
 
-Drift is cheapest to catch before merge. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and set the customized skill to run twice a day, checking open PRs and the latest production screenshots.
+Drift is cheapest to catch before merge. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and set `/drift-review` to run twice a day, checking open PRs and the latest production screenshots.
 
-Set up a scheduled task for weekdays at 10am and 4pm: check open PRs labeled "ui" and Design-QA/Sprint-42 for new screens, run /design-system on each, and post the drift report as a comment or to #design-system.
+Set up a scheduled task for weekdays at 10am and 4pm: check open PRs labeled "ui" and Design-QA/Sprint-42 for new screens, run /drift-review on each, and draft the drift report as a PR comment or a #design-system post for me to approve.
 
 
 
-Design-QAOpen in Claude
+Design-QA / Sprint-42Open in Claude
 
 Scheduled taskActive
 
-Twice-daily drift check
+UI drift check
 
-At 10am and 4pm, checks open UI PRs and the QA folder, runs `/design-system`, and posts the drift report as a PR comment or to #design-system.
+At 10am and 4pm, checks open UI PRs and the QA folder, runs `/drift-review`, and drafts the drift report as a PR comment or a #design-system post for your approval.
 
 Every **weekday at 10 am & 4 pm · checks open UI PRs and Design-QA/Sprint-42**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/design-police)
 
-Your customized `/design-system` now carries your tokens, your component map, your severity scale, and your exception list. Share it so every squad gets the same review on every PR, and the system team stops being the bottleneck for "is this on-system."
+Your `/drift-review` skill now carries your tokens, your component map, your severity scale, and your exception list. Share it so every squad gets the same review on every PR, and the system team stops being the bottleneck for "is this on-system."
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/design-system`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your system rules baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/drift-review`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your system rules baked in, so they don't have to build it again.
 
 ## What changes for design QA[](https://academy.claude.com/use-cases/design-police)
 

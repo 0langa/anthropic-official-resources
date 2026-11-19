@@ -35,11 +35,11 @@ Show me the flags before I touch anything.
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/validate-reserves-and-draft-filing-narrative-with-claude-for-excel)
 
-Claude reads the reserve workbook from the attached folder and pulls historical filings through your organization's own NAIC connector — that's where the formula validation and prior-period comparison happen. Workbook fixes happen in Claude for Excel with the file open, and the conversation carries into Claude for Word so the filing narrative picks up where you left off.
+The formula validation and prior-period comparison come first, in a conversation with Claude. Claude reads the reserve workbook and pulls historical filings through your organization's own NAIC connector. Workbook fixes happen in Claude for Excel with the file open, and that Excel conversation carries into Claude for Word so the filing narrative picks up where you left off.
 
 ### Required context[](https://academy.claude.com/use-cases/validate-reserves-and-draft-filing-narrative-with-claude-for-excel)
 
-Attach the valuation folder with the reserve workbook. This walkthrough assumes your organization runs its own NAIC data source as a remote MCP server: an Owner adds it once under Organization settings > Connectors (Add > Custom > Web, then the server URL), and you connect it from [your connectors(opens in new tab)](https://claude.ai/desktop/customize/connectors/yours) and turn it on from the + menu in your conversation. Have the Claude for Excel and Claude for Word add-ins installed. That's where the workbook fixes and filing narrative happen.
+Drag in the reserve workbook and the prior-year filing memo, or give Claude access to the valuation folder in the Claude desktop app. This walkthrough assumes your organization runs its own NAIC data source as a remote MCP server: an Owner adds it once under Organization settings > Connectors (Add > Custom > Web, then the server URL), and you connect it from [your connectors(opens in new tab)](https://claude.ai/desktop/customize/connectors/yours) and turn it on from the + menu in your conversation. Have the Claude for Excel and Claude for Word add-ins installed. That's where the workbook fixes and filing narrative happen.
 
 Valuation folder
 
@@ -92,7 +92,7 @@ Continue the conversation with Claude to refine, expand, or explore further.
 
 ### Pressure-test the development factors[](https://academy.claude.com/use-cases/validate-reserves-and-draft-filing-narrative-with-claude-for-excel)
 
-In Claude, ask whether the LDFs look consistent with industry data.
+Back in the conversation where you ran the review, ask whether the LDFs look consistent with industry data.
 
 are my 12-24 and 24-36 link ratios in line with the industry benchmarks NAIC published last quarter for Personal Auto BI?
 
@@ -120,7 +120,7 @@ draft the methodology change section for the filing — we updated the tail fact
 
 ### Ask Claude for the Excel-ready brief[](https://academy.claude.com/use-cases/validate-reserves-and-draft-filing-narrative-with-claude-for-excel)
 
-End the conversation by asking for a one-paragraph brief with the sheet refs and the formula flags — that's what you paste into the Claude for Excel sidebar. Tighter than scrolling back through the chat.
+Before you move to Excel, ask Claude for a one-paragraph brief with the sheet references and the formula flags. Claude for Excel starts its own conversation, so paste the brief there to give it what it needs.
 
 ### Click the sheet reference[](https://academy.claude.com/use-cases/validate-reserves-and-draft-filing-narrative-with-claude-for-excel)
 
@@ -132,11 +132,11 @@ When you open the filing memo in Claude for Word, it already knows which formula
 
 ### Save it as a skill[](https://academy.claude.com/use-cases/validate-reserves-and-draft-filing-narrative-with-claude-for-excel)
 
-Quarterly reserve review is the same loop every cycle. Once the conversation works for one segment, save it as a skill so the next quarter's review across all your lines starts one click in.
+Quarterly reserve review is the same loop every cycle. Once the review works for one segment, ask Claude to save it as a skill so next quarter's review follows the same steps across all your lines.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/validate-reserves-and-draft-filing-narrative-with-claude-for-excel)
 
-Try it on your next reserve cycle. Attach the valuation folder in the Claude desktop app, ask where the workbook needs fixing, and review the flags before anything moves.
+Try it on your next reserve cycle. Give Claude the reserve workbook and last year's filing memo, ask where the workbook needs fixing, and review the flags before anything moves.
 
 Q1 reserve review for Personal Auto BI — appointed actuary review next week, filing due in two. Walk me through the workbook before I lock the numbers.
 

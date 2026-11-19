@@ -7969,6 +7969,9 @@
   "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-operations?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-per-session": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-reference": [
     "Native source; upstream MDX components retained."
   ],
@@ -10189,6 +10192,9 @@
   "https://support.claude.com/en/articles/18466110-compare-cloud-providers": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/18467110": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/18467110-offer-linked-billing-in-your-platform": [
     "Native source; upstream MDX components retained."
   ],
@@ -11112,6 +11118,9 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-3-7-sonnet": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/claude-black-hole-physics": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/claude-character": [

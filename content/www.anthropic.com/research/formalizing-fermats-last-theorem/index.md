@@ -21,11 +21,11 @@ Topics
 
 Related articles
 
-- Frontier Red Team
+- Science
 
-  Oct 16, 2026
+  Nov 17, 2026
 
-  [Claude reveals ECDSA curve origins](https://www.anthropic.com/research/ecdsa-curve-origins)
+  [Claude solves two open problems in the physics of black holes](https://www.anthropic.com/research/claude-black-hole-physics)
 
 [View more](https://www.anthropic.com/search?topic=discovery)
 

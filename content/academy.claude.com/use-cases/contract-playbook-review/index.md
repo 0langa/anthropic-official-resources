@@ -6,9 +6,9 @@ Clause-by-clause G/Y/R with redlines you can send back.
 
 Try in ClaudeCopy prompt
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-hd3p5r1z.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ci2tqnmp.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-hpdtjwiq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-fglkyo8r.png)
 
-Film: the user asks Claude to redline an incoming contract against a purchasing playbook, rating clauses green, yellow, or red and drafting tracked-change edits with rationale, then shares the skill with a legal team.
+Film: the user asks Claude to redline an incoming contract against a company playbook, watching it read both, flag clauses green, yellow, or red, and draft tracked-change redlines with reasons, then save the process as a shareable skill.
 
 Halyard-MSA-v3-counterparty.docx
 
@@ -197,9 +197,9 @@ Each proposed change has your playbook’s reason written beside it.
 
 When your rules require sign-off, Claude names who must approve.
 
-Edit the /review skill with what we did here and share it with the legal team.
+Save what we did here as a skill called /playbook-review so I can share it with the legal team.
 
-**/review**Reviews an agreement clause by clause against the team playbook and drafts each redline as a tracked change with the position and fallback beside it.
+**/playbook-review**Reviews an agreement clause by clause against the team playbook and drafts each redline as a tracked change with the position and fallback beside it.
 
 ReadsWorking foldercontract-playbook-2026.pdf
 
@@ -317,19 +317,19 @@ Read the incoming draft and your playbook from the matter workspace; the clause 
 
 ### Set the working folder[](https://academy.claude.com/use-cases/contract-playbook-review)
 
-Put the incoming MSA and your contract playbook in one folder on your machine, then in the Claude desktop app click **+ Add folder** and select it. [Save it as a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your playbook, instructions, and memory stay attached and you don't re-upload them for the next contract — Claude reads from the folder and writes the clause table and redlined draft back to it.
+Put the incoming MSA and your contract playbook in one folder on your machine, then in the Claude desktop app choose [**Add folder**(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) and select it. [Save it as a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your playbook, instructions, and memory stay attached and you don't re-upload them for the next contract — Claude reads from the folder and writes the clause table and redlined draft back to it.
 
 
 
-**Just want to try it once first?** Skip the project — click **+ Add folder** on a one-off folder and jump to the prompt below.
+**Just want to try it once first?** Skip the project — choose **Add folder** for a one-off folder and jump to the prompt below.
 
-Contracts / Acme-MSA
+Contracts / Halyard-MSA
 
-Acme-MSA-v3-counterparty.docxApr 24, 2026182 KB
+Halyard-MSA-v3-counterparty.docxApr 24, 2026182 KB
 
 contract-playbook-2026.pdfJan 6, 2026412 KB
 
-In Cowork’s chat bar:Contracts / Acme-MSA
+In Cowork’s chat bar:Contracts / Halyard-MSA
 
 ## The prompt[](https://academy.claude.com/use-cases/contract-playbook-review)
 
@@ -339,7 +339,7 @@ Review this MSA clause by clause against our contract playbook. For each clause,
 
 
 
-Contracts / Acme-MSAOpen in Claude
+Contracts / Halyard-MSAOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/contract-playbook-review)
 
@@ -371,13 +371,15 @@ Review this MSA clause by clause against our contract playbook. For each clause,
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/contract-playbook-review)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your red-flag list and your fallback positions, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /review skill with my feedback.
+Make what we've done in this task so far into a skill called /playbook-review.
 
 
 
-ContractsOpen in Claude
+Contracts / Halyard-MSAOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -393,13 +395,13 @@ Publish that clause table as an artifact for the deal team. Re-run it against wh
 
 
 
-Contracts / Acme-MSAOpen in Claude
+Contracts / Halyard-MSAOpen in Claude
 
 ### Run it on every new contract[](https://academy.claude.com/use-cases/contract-playbook-review)
 
-Paper arrives, the first-pass review should already be waiting. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and set the customized skill to run every weekday morning, checking the intake folder for new contracts.
+Paper arrives, the first-pass review should already be waiting. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and set `/playbook-review` to run every weekday morning, checking an intake folder where you put new contracts.
 
-Set up a scheduled task for weekdays at 9am: check Contracts/Intake for new files and run /review on each one, writing the clause table and redlined draft to a subfolder named for the counterparty.
+Set up a scheduled task for weekdays at 9am: check Contracts/Intake for new files and run /playbook-review on each one, writing the clause table and redlined draft to a subfolder named for the counterparty.
 
 
 
@@ -409,19 +411,21 @@ Set up a scheduled task for weekdays at 9am: check Contracts/Intake for new file
 
 First-pass contract review
 
-Each weekday at 9am, checks Contracts/Intake for new files, runs `/review` on each one, and writes the clause table and redlined draft to a counterparty subfolder.
+Each weekday at 9am, checks Contracts/Intake for new files, runs `/playbook-review` on each one, and writes the clause table and redlined draft to a counterparty subfolder.
 
 Every **weekday at 9 am — checks Contracts/Intake for new files**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/contract-playbook-review)
 
-Your customized `/review` now carries your playbook, your red-flag list, and your fallback positions. Share it so every reviewer on the team scores paper the same way, and the business sees a consistent first pass no matter who picks it up.
+Your `/playbook-review` skill now carries your playbook, your red-flag list, and your fallback positions. Share it so every reviewer on the team scores paper the same way, and the business sees a consistent first pass no matter who picks it up.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/review`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your playbook and positions baked in, so they don't repeat Steps 1-3; each teammate still runs `/cold-start-interview` the first time, pointed at the same playbook, because the plugin keeps its setup per person.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/playbook-review`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your playbook and positions baked in, so they don't have to build it again; each teammate who uses the plugin still runs `/cold-start-interview` the first time, pointed at the same playbook, because the plugin keeps its setup per person.
 
 ## What changes for the contracts queue[](https://academy.claude.com/use-cases/contract-playbook-review)
 

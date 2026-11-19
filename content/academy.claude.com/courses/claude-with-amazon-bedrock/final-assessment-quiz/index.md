@@ -4,6 +4,8 @@ Quiz 8 of 8 · Claude with Amazon BedrockFinal assessment quiz
 
 Quiz 815 min
 
+Answer these questions for the model this course uses.
+
 ## Sign in to take the quiz
 
 Your quiz results and progress are saved to your Claude account.

@@ -6,11 +6,11 @@ Integrate Morningstar's investment research capabilities into Claude for financi
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-hnh3ivtc.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-0qofptez.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-ja0squ8q.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hwlfwao5.png)
 
 The Morningstar integration provides Claude with access to investment research services and proprietary analytical metrics. This article explains how to set up and use Morningstar data for investment analysis, including fair value estimates, economic moat ratings, and star ratings.
 
-The Morningstar integration relies upon Claude's ability to use [remote connectors(opens in new tab)](https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp).
+The Morningstar integration relies upon Claude's ability to use [remote connectors(opens in new tab)](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities).
 
 ## What This Integration Provides[](https://academy.claude.com/tutorials/using-morningstar-for-investment-research)
 
@@ -35,19 +35,16 @@ Claude applies Morningstar data to support your analysis:
 
 ## Setting Up Morningstar Integration[](https://academy.claude.com/tutorials/using-morningstar-for-investment-research)
 
-For technical details of the Morningstar integration, see the [Morningstar Integration MCP Server Documentation(opens in new tab)](https://developer.morningstar.com/direct-web-services/documentation/mcp-server/morningstar-mcp-server). If your account does not have access to the MCP server, contact Morningstar to get access to the MCP server.
+For technical details of the Morningstar integration, see the [Morningstar MCP Server documentation(opens in new tab)](https://developer.morningstar.com/direct-web-services/documentation/mcp-server/morningstar-mcp-server). If your account does not have access to the MCP server, contact Morningstar to get access to the MCP server.
 
 ### For Organization Owners[](https://academy.claude.com/tutorials/using-morningstar-for-investment-research)
 
-1. Navigate to [Admin settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors).
-2. Scroll down and click “Add custom connector" at the bottom of the list.
-3. Enter integration URL: [https://mcp.morningstar.com/mcp(opens in new tab)](https://mcp.morningstar.com/mcp)
-4. Name the connector (e.g., "Morningstar")
-5. Click "Add"
+1. Navigate to [Organization settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors).
+2. Use the Add button to browse all available connectors, then find **Morningstar** and add it for your team.
 
 ### For Individual Users[](https://academy.claude.com/tutorials/using-morningstar-for-investment-research)
 
-Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory).
+Open [Morningstar in the connectors directory(opens in new tab)](https://claude.ai/directory/morningstar), connect it to Claude, and sign in when asked. Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory).
 
 ## Common Use Cases[](https://academy.claude.com/tutorials/using-morningstar-for-investment-research)
 
@@ -130,7 +127,7 @@ Sustainable investing research taps into Morningstar's thematic content on ESG s
 - Consider economic moat ratings when evaluating long-term investment quality.
 - Request individual security data separately for accurate results.
 - Note that research content reflects Morningstar's analytical views, not real-time market consensus.
-- Be aware that data is retrieved one security at a time, so complex portfolio analyses may take multiple steps.
+- Be aware that some data is retrieved one security at a time, so complex portfolio analyses may take multiple steps.
 - Remember that Morningstar's ratings and estimates are based on fundamental analysis and may differ from market sentiment.
 
 Was this helpful?

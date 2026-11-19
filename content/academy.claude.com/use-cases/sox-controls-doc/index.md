@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-gtq6ufl9.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dqfzjo1d.png)
 
-Film: the user asks Claude to turn a process walkthrough into a risk-control matrix and narrative, mapping each step to a control and flagging gaps, then sets up the same documentation to run on a recurring schedule.
+Film: the user describes a process to Claude and asks for a process narrative, risk-control matrix, and flowchart, flagging missing controls or segregation-of-duties issues, then shows scheduling the same package to regenerate automatically for new walkthroughs.
 
 Document your SOX controls
 
@@ -24,17 +24,9 @@ Controls / Order-to-Cash
 
 Folder
 
-Finance
-
-/audit-support
-
-/reconciliation
-
-/sox-testing
-
 How can I help you today?
 
-**/**sox-testing Here's how the process runs. Write the process narrative in our standard format, build the RCM with each risk's control, owner and frequency, and draw the flowchart. Flag any step missing a control or where duties aren't segregated.
+Here's how the process runs. Write the process narrative in our standard format, build the RCM with each risk's control, owner and frequency, and draw the flowchart. Flag any step missing a control or where duties aren't segregated.
 
 Reading walkthrough-notes-OTC.docx0s
 
@@ -134,7 +126,7 @@ Page 1 of 41,286 wordsEnglish (US)Focus90%
 
 The narrative uses the same step numbers, so the files agree.
 
-Run this every weekday morning: if there is a new walkthrough file in Controls, run /sox-testing on it and write the narrative, matrix and flowchart to a subfolder named for the process.
+Run this every weekday morning: if there is a new walkthrough file in Controls, read it and write the narrative, matrix and flowchart to a subfolder named for the process.
 
 **Controls documentation package**Weekdays at 9:00 AM
 
@@ -156,7 +148,7 @@ Document your SOX controls
 
 Audit needs your process documented and you only have walkthrough notes.
 
-With the Finance plugin’s SOX testing skill, say how the process runs and ask for gaps.
+Tell Claude how the process runs, then ask for the documents and any gaps.
 
 Claude reads your notes, template and last year’s documents, then maps each step to a control.
 
@@ -178,15 +170,13 @@ I mapped your walkthrough’s 11 steps to 12 controls and wrote the narrative an
 
 OTC-RCM-FY26.xlsx, OTC-process-narrative-FY26.docx
 
-Skill: /sox-testing (Finance)
-
 Connectors: Microsoft 365
 
 ## Set up[](https://academy.claude.com/use-cases/sox-controls-doc)
 
 ### Try a plugin[](https://academy.claude.com/use-cases/sox-controls-doc)
 
-The Finance plugin ships with `/sox-testing` and other close and compliance skills as a starting point, already structured to turn a walkthrough into narrative, matrix, and flowchart. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Finance plugin ships with `/sox-testing` and other close and compliance skills as a starting point, already structured to list the controls to test and build testing workpapers. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -197,10 +187,6 @@ FinanceStreamline finance and accounting workflows, from journal entries and rec
 `/sox-testing`Generate SOX sample selections, testing workpapers, and control assessments.
 
 [Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fsox-testing)
-
-`/audit-support`Support SOX 404 compliance with control testing methodology, sample selection, and documentation standards.
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Faudit-support)
 
 Show all 7 skills
 
@@ -230,17 +216,17 @@ Microsoft 365
 
 ### Set your working folder[](https://academy.claude.com/use-cases/sox-controls-doc)
 
-Drag the files you'll use (your walkthrough notes, prior-year narrative, the RCM template, system screenshots) into one folder on your machine, then point Claude at it. Claude reads from it and writes the narrative, matrix, and flowchart back to it. If you'll document several processes this cycle, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent Controls folder so the template and house style stay attached.
+Drag the files you'll use (your walkthrough notes, prior-year narrative, the RCM template, system screenshots) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from it and writes the narrative, matrix, and flowchart back to it. If you'll document several processes this cycle, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent Controls folder so the template and house style stay attached.
 
 Controls / Order-to-Cash
 
-walkthrough-notes-OTC.docxApr 22, 202638 KB
+walkthrough-notes-OTC.docxAug 21, 202638 KB
 
 RCM-template.xlsxJan 12, 202624 KB
 
 prior-year-narrative-OTC.pdfMar 9, 2025312 KB
 
-system-screenshots/Apr 22, 20266 items
+system-screenshots/Aug 21, 20266 items
 
 In Cowork’s chat bar:Controls / Order-to-Cash
 
@@ -284,13 +270,15 @@ Here's how this process runs. Write the process narrative in our standard format
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/sox-controls-doc)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your RCM columns and your control-ID scheme, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /sox-testing skill with my feedback.
+Make what we've done in this task so far into a skill called /controls-package.
 
 
 
-ControlsOpen in Claude
+Controls / Order-to-CashOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -300,9 +288,9 @@ Make what we've done in this task so far into a skill, or edit the /sox-testing 
 
 ### Run it on every walkthrough[](https://academy.claude.com/use-cases/sox-controls-doc)
 
-When a process owner drops their walkthrough notes, the documentation package should already be drafting. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs whenever a new walkthrough is added to the Controls folder.
+Give Claude access to the parent Controls folder, where process owners drop their walkthrough notes. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/controls-package` runs on each new walkthrough added to the Controls folder.
 
-Set up a scheduled task for weekdays at 9am: check Controls for any new walkthrough file and run /sox-testing against it and write the narrative, RCM, and flowchart to a subfolder named for the process.
+Set up a scheduled task for weekdays at 9am: check Controls for any new walkthrough file, run /controls-package against it, and write the narrative, RCM, and flowchart to a subfolder named for the process.
 
 
 
@@ -312,19 +300,21 @@ Set up a scheduled task for weekdays at 9am: check Controls for any new walkthro
 
 Controls documentation package
 
-Runs `/sox-testing` on every new walkthrough in Controls and writes the narrative, matrix, and flowchart to a process subfolder.
+Runs `/controls-package` on every new walkthrough in Controls and writes the narrative, matrix, and flowchart to a process subfolder.
 
 Every **weekday at 9am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/sox-controls-doc)
 
-Your customized `/sox-testing` now carries your RCM columns, your control-ID scheme, and your narrative voice. Share it so every process owner produces the same audit-ready package, and internal audit sees one consistent format across the cycle for $0 instead of consulting rates.
+Your `/controls-package` skill now carries your RCM columns, your control-ID scheme, and your narrative voice. Share it so every process owner produces the same audit-ready package, and internal audit sees one consistent format across the cycle.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/sox-testing`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your template and standards baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/controls-package`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. Your teammates get the skill with your template and standards baked in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/sox-controls-doc)
 
@@ -344,6 +334,6 @@ Your folder
 
 Each process has audit-ready documentation in your standard format, with control gaps and segregation-of-duties issues already flagged for follow-up.
 
-[Next: Prep an audit request](https://academy.claude.com/use-cases/explain-a-variance)
+[Next: Explain a variance](https://academy.claude.com/use-cases/explain-a-variance)
 
 Was this helpful?

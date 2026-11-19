@@ -28,7 +28,7 @@ State the decision the deck has to support, lay out the path Claude should follo
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/source-insights-from-your-tools-to-build-a-deck)
 
-Through [Claude Desktop(opens in new tab)](https://claude.com/download), connect your local files and tools. Point Claude at a Slack channel, a Drive folder, or an email thread to give it a starting point.
+In [Claude Desktop(opens in new tab)](https://claude.com/download), give Claude access to your local files. Point Claude at a Slack channel, a Drive folder, or an email thread to give it a starting point.
 
 Connect Slack and Google Drive through connectors. [Claude in Chrome(opens in new tab)](https://claude.com/chrome) reads current numbers from live dashboards like Looker and Delighted.
 
@@ -36,7 +36,7 @@ What Claude gives you back is mostly determined by what you let it read. One mor
 
 ### Required context[](https://academy.claude.com/use-cases/source-insights-from-your-tools-to-build-a-deck)
 
-- Claude with access to local files
+- Claude Desktop with access to local files
 - At least one connected source: Slack, Google Drive, or email
 - [Claude in Chrome(opens in new tab)](https://claude.com/chrome) for the dashboard checks the example prompt asks for
 

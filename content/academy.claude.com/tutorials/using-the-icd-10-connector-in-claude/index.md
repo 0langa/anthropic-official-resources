@@ -6,7 +6,7 @@ Using the ICD-10 Connector in Claude
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-g1b4yybr.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mt6v7svc.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-g0jpy0zw.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dcnxll5n.png)
 
 The ICD-10 connector gives Claude access to ICD-10-CM diagnosis codes and ICD-10-PCS procedure codes (2026 edition), enabling healthcare organizations to search, validate, and explore medical coding hierarchies required for HIPAA-compliant billing and clinical documentation. This article explains how to set up and use the ICD-10 integration with Claude to streamline medical coding and billing compliance workflows.
 
@@ -16,17 +16,14 @@ The ICD-10 integration relies upon Claude's ability to [use remote connectors(op
 
 This integration provides access to the 2026 International Classification of Diseases, 10th Revision code sets used in the United States healthcare system. ICD-10 is based on the World Health Organization (WHO) classification system, with ICD-10-CM (Clinical Modification) authorized by WHO and developed by the CDC's National Center for Health Statistics (NCHS) for diagnosis coding, and ICD-10-PCS (Procedure Coding System) developed by CMS for inpatient procedure coding. Both code sets are HIPAA-mandated standards that became effective October 1, 2015, and are updated annually. The FY 2026 release includes over 550 diagnosis code changes (487 additions, 28 deletions, 38 revisions) and became effective October 1, 2025, for patient encounters and discharges through September 30, 2026.
 
-This connector provides nine primary tool calls that access ICD-10-CM and ICD-10-PCS codes.
+This connector provides tools that access ICD-10-CM and ICD-10-PCS codes.
 
-- **search\_diagnosis\_by\_description** enables users to find diagnosis codes by disease name or medical terminology (e.g., "diabetes", "myocardial infarction", "breast cancer"), using case-insensitive text matching across code descriptions with automatic filtering for HIPAA-valid codes (excludes category headers that cannot be billed).
-- **search\_diagnosis\_by\_code** finds diagnosis codes by exact code match or prefix search (e.g., "E11" returns all Type 2 diabetes codes), useful for exploring code families and related conditions.
-- **search\_procedure\_by\_description** searches ICD-10-PCS procedure codes by anatomical terms and root operations (e.g., "appendix", "resection", "percutaneous endoscopic" for laparoscopic procedures), noting that PCS uses standardized terminology rather than common procedure names.
-- **search\_procedure\_by\_code** finds procedure codes by exact match or prefix (e.g., "0DT" returns gastrointestinal resection procedures), enabling systematic exploration of procedure code families.
+- **search\_codes** finds diagnosis or procedure codes by description or by code. Search diagnoses by disease name or medical terminology (e.g., "diabetes", "myocardial infarction", "breast cancer") and procedures by anatomical terms and root operations (e.g., "appendix", "resection", "percutaneous endoscopic" for laparoscopic procedures), because PCS uses standardized terminology rather than common procedure names. Search by exact code or prefix to explore a code family (e.g., "E11" for Type 2 diabetes codes, "0DT" for gastrointestinal resection procedures). By default, description searches return only HIPAA-valid codes and exclude category headers that cannot be billed.
 - **lookup\_code** retrieves complete details for a specific code when the exact code is known (e.g., "E11.65", "0DTJ4ZZ"), returning short and long descriptions plus HIPAA transaction validity status.
 - **validate\_code** checks whether a code exists in the database and confirms its validity for HIPAA-covered transactions, distinguishing between billable codes and category headers.
 - **get\_hierarchy** retrieves the full code family tree under a category prefix (e.g., "E11" returns all 117 Type 2 diabetes codes), showing parent-child relationships and complication progressions.
 - **get\_by\_category** navigates diagnosis codes by chapter (single letter like "E" for Endocrine diseases) or 3-character category (e.g., "E11" for Type 2 Diabetes).
-- **get\_by\_body\_system** retrieves ICD-10-PCS procedure codes for specific anatomical systems using the first character body system code (e.g., "0" for Central Nervous System, "D" for Gastrointestinal).
+- **get\_by\_body\_system** retrieves ICD-10-PCS procedure codes for specific anatomical systems using the body system character, usually the second character of the code (e.g., "0" for Central Nervous System, "D" for Gastrointestinal).
 
 On the provider side, the connector accesses a locally stored database of the 2026 ICD-10-CM and ICD-10-PCS code sets published by CMS and CDC/NCHS. The database includes code structure (chapter, category, subcategory), short and long descriptions, and HIPAA transaction validity flags. ICD-10-CM codes are 3-7 alphanumeric characters documenting diagnoses; ICD-10-PCS codes are exactly 7 alphanumeric characters documenting inpatient procedures. Category header codes (shorter codes like "E11" or "E11.3") serve as organizational groupings and are NOT valid for billing—only fully specified codes with maximum detail are HIPAA-compliant.
 
@@ -43,25 +40,22 @@ On the provider side, the connector accesses a locally stored database of the 20
 
 **For Organization Owners (Team and Enterprise)**
 
-1. Navigate to Admin settings > Connectors
-2. Click "Browse connectors"
-3. Click “**ICD-10**”
-4. Click “Add to your team”
+1. Navigate to [Organization settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors)
+2. Use the Add button to browse all available connectors, then find **ICD-10 Codes** and add it for your team
 
 **For Individual Claude Users**
 
-1. Navigate to Settings > Connectors
-2. Find “**ICD-10**”
-3. Click “Connect”
+1. Open [ICD-10 Codes in the connectors directory(opens in new tab)](https://claude.ai/directory/icd-10-codes)
+2. Connect it to Claude
 
 Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory) in Claude.
 
 **For Claude Code Users**
 
 1. Command: `/plugin marketplace add anthropics/healthcare`
-2. Command: `/plugin install icd10-codes@healthcare`
+2. Command: `/plugin install healthcare@healthcare`
 3. Restart Claude Code
-4. Verify that the server is connected with /mcp
+4. Verify that the ICD10 Codes server is connected with /mcp
 
 ## **Example use cases**[](https://academy.claude.com/tutorials/using-the-icd-10-connector-in-claude)
 

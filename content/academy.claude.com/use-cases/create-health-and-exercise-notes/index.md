@@ -48,7 +48,7 @@ A desktop extension of the Claude app on a Mac. Install it from Extensions in th
 
 ### Optional context[](https://academy.claude.com/use-cases/create-health-and-exercise-notes)
 
-Turn on [Web Search(opens in new tab)](https://support.claude.com/en/articles/11095361-when-should-i-use-web-search-extended-thinking-and-research) to provide Claude the ability to browse online for recent information.
+Turn on [Web Search(opens in new tab)](https://support.claude.com/en/articles/11095361-when-should-i-use-web-search-extended-thinking-and-research) to provide Claude the ability to browse online for recent information. If you have the new Claude experience, there's no web search toggle. Claude searches the web when it helps.
 
 [
 

@@ -37,7 +37,7 @@ Connect tools where your support and feedback lives using connectors so Claude c
 
 ### Required context[](https://academy.claude.com/use-cases/analyze-patterns-in-user-feedback)
 
-In [Settings > Connectors(opens in new tab)](https://claude.ai/customize/connectors), find and enable your [Intercom(opens in new tab)](https://claude.ai/directory/intercom) connector.
+In the [connectors directory(opens in new tab)](https://claude.ai/directory), find and enable your [Intercom(opens in new tab)](https://claude.ai/directory/intercom) connector.
 
 Upload supplementary feedback that lives outside your tools—NPS responses, interview transcripts, feedback forms, user research notes.
 

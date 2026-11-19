@@ -42,6 +42,8 @@ That's how Claude Cowork fits into a real workday. Some tasks you'll steer while
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=tYOI-WoLS_o)
 
+*The video was recorded in an earlier version of the app, so some screens may look different. On most plans, a scheduled task can now [run in the cloud(opens in new tab)](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork), so your computer doesn't need to be on. A task that needs files or apps on your computer still needs the computer awake and the desktop app open.*
+
 Was this helpful?
 
 

@@ -6,7 +6,7 @@ Set up and use the Medidata integration with Claude to streamline platform suppo
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-cwnmszwx.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-g8rfr2po.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-c955jkkq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-c1gj72ec.png)
 
 Medidata is a leading provider of clinical trial solutions to the life sciences industry. This article explains how to set up and use the Medidata integration with Claude to streamline platform support and optimize site selection.
 
@@ -30,23 +30,20 @@ This connector gives Medidata customers the ability to connect Claude to their M
 
 All Medidata platform users can access the Platform Help service. Access to Site Ranking service is limited to subscribed customers of Medidata’s Intelligent Trials/Study Feasibility application, and their subscription access must match any queries.
 
-More details on accessing the integration can be found in Medidata’s MCP Server Documentation [link].
+More details on accessing the integration can be found in [Medidata’s MCP Server Documentation(opens in new tab)](https://learn.medidata.com/en-US/bundle/mcp-server-documentation/page/medidata_mcp_server_documentation.html).
 
 ## **Setting up the Medidata integration**[](https://academy.claude.com/tutorials/using-the-medidata-connector-in-claude)
 
 **For Organization Owners (Team and Enterprise)**
 
-1. Navigate to Admin settings > Connectors
-2. Click "Browse connectors"
-3. Click “**Medidata**”
-4. Click “Add to your team”
+1. Navigate to [Organization settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors)
+2. Use the Add button to browse all available connectors, then find **Medidata** and add it for your team
 
 **For Individual Claude Users**
 
-1. Navigate to Settings > Connectors
-2. Find “**Medidata**”
-3. Click “Connect”
-4. Follow the instructions to describe authentication process
+1. Open [Medidata in the connectors directory(opens in new tab)](https://claude.ai/directory/medidata)
+2. Connect it to Claude
+3. Follow the instructions to authenticate with your Medidata account
 
 Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory) in Claude.
 
@@ -58,7 +55,7 @@ Learn about [finding and connecting tools(opens in new tab)](https://support.cla
 
 Learn about [using connectors from Claude in Claude Code(opens in new tab)](https://code.claude.com/docs/en/mcp).
 
-Technical details of the Medidata integration can be found in Medidata’s MCP Server Documentation [link].
+Technical details of the Medidata integration can be found in [Medidata’s MCP Server Documentation(opens in new tab)](https://learn.medidata.com/en-US/bundle/mcp-server-documentation/page/medidata_mcp_server_documentation.html).
 
 ## **Example use cases**[](https://academy.claude.com/tutorials/using-the-medidata-connector-in-claude)
 

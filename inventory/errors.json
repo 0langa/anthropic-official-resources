@@ -1,5 +1,4 @@
 {
-  "https://academy.claude.com/collections/claude-for-work": "Network did not become idle within 8 seconds; content may still be loading.",
   "https://academy.claude.com/courses/ai-capabilities-and-limitations/course-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
   "https://academy.claude.com/courses/ai-fluency-for-builders/course-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
   "https://academy.claude.com/courses/ai-fluency-for-creative-work/course-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
@@ -484,6 +483,7 @@
   "https://www.anthropic.com/research/building-strong-safety-evaluations": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/research/claude-3-5-sonnet": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/research/claude-3-7-sonnet": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+  "https://www.anthropic.com/research/claude-black-hole-physics": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/research/claude-character": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/research/claude-code-auto-mode": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/research/claude-code-best-practices": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",

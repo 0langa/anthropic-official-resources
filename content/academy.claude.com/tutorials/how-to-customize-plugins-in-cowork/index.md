@@ -2,9 +2,9 @@
 
 Customize Anthropic's pre-built plugins with your team's tools, processes, and expertise so every skill runs from your context.
 
-6 minClaude Cowork
+6 minClaude
 
-[Open Cowork](https://claude.ai/new?surface=cowork)
+[Open Claude](https://claude.ai/new)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-gsf1x23c.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-eb5bteog.png)
 
@@ -12,7 +12,7 @@ In [Claude(opens in new tab)](https://support.claude.com/en/articles/13345190-ge
 
 Out of the box, those skills are generic templates. Customizing a plugin rewrites them with your team's tools, standards, and reference material, so the same skills produce work that matches how your team does it. [Browse all plugins →(opens in new tab)](https://claude.ai/desktop/customize/plugins)
 
-If you're new to Claude, [`/setup-claude`](claude://cowork/new?q=%2Fsetup-claude) walks you through setting up your first plugin and connectors. See [Get started in three steps(opens in new tab)](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps).
+If you're new to Claude, [`/setup-claude`(opens in new tab)](https://claude.ai/desktop/setup-claude) walks you through setting up your first plugin and connectors. See [Get started in three steps(opens in new tab)](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps).
 
 
 
@@ -20,19 +20,17 @@ Admins managing plugins for an organization, see [Manage plugins for your organi
 
 ## Start a customize session[](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork)
 
-*In the sidebar, open* ***`Customize`*** *›* [***`Plugins`***(opens in new tab)](https://claude.ai/desktop/customize/plugins)*, select the plugin, and choose the option to customize it with Claude.*
+*Once you've added a plugin, open* [*your plugins*(opens in new tab)](https://claude.ai/desktop/customize/plugins/yours)*, select the plugin, and choose* ***`Edit with Claude`*** *from its menu.*
 
-Diagram: A static illustration of a plugin detail card in Claude, showing its name, source, version, author, and description alongside update, toggle, and customize controls, orienting the learner to where customization starts.
+Illustration: a plugin's detail card in Claude with its menu open and "Edit with Claude" highlighted. That option starts a customize session for a pre-built plugin.
 
 Finance
 
-UpdateCustomize
+Anthropic & Partners
 
-SourceMarketplace (Anthropic & Partners)
+Edit with Claude
 
-Version1.1.0
-
-AuthorAnthropic
+Remove
 
 Streamline finance and accounting workflows, from journal entries and reconciliation to financial statements and variance analysis.
 
@@ -50,7 +48,7 @@ Claude will ask which tools you use, and leave room for anything else. The tool 
 
 ### Review what Claude built[](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork)
 
-When the session finishes, Claude shows a summary of what changed and the plugin as a file card in the conversation. A plugin is a folder of plain-text instruction files, and you can click through any of them to read exactly what a skill will do.
+When the session finishes, Claude shows a summary of what changed and the plugin as a file card in the conversation. A plugin is a folder of files. Each skill's instructions are plain text, and you can click through the files to read what a skill tells Claude to do. A plugin can also include connectors, scripts, and other parts that run code, so look through those files too.
 
 *Click* **`Save plugin`** *to add it to your account.* From here, editing is the same as customizing: open a session with the plugin and tell Claude what to change.
 
@@ -120,7 +118,7 @@ Each role below shows the same three inputs — tools, how the team works, refer
 
 The customize session ends with a packaged `.plugin` file you can pass around.
 
-- **Send the file** — teammates add it from **`Customize`** *›* **`Plugins`** *›* **`Add`**.
+- **Send the file** — teammates select **`Add`** *›* **`Upload plugin`** on the [plugins page(opens in new tab)](https://claude.ai/desktop/customize/plugins).
 - **Host on GitHub** — push the plugin folder to a repo that is set up as a marketplace. Teammates add that marketplace, add the plugin from it, and can check for updates after you push.
 - **Hand it to your admin** — an admin can add the plugin for your organization and, on Enterprise plans, give it to one group, so everyone in that department gets the same pre-configured version. See [Manage plugins for your organization(opens in new tab)](https://support.claude.com/en/articles/13837433-manage-cowork-plugins-for-your-organization).
 
@@ -128,7 +126,7 @@ The customize session ends with a packaged `.plugin` file you can pass around.
 
 - Plugins you add in Claude on the web or in Claude Desktop are saved to your account, not to your computer. If Claude tells you that customizing is only available in the desktop app, start the session there.
 - Plugins can come from a few places: Anthropic's pre-built set, ones you add or build, and ones your organization provisions. The first two are yours to edit. You can't edit a plugin your organization manages or one a teammate shared with you.
-- Skills and connectors also exist outside plugins. A standalone skill you add from **`Customize`** *›* **`Skills`** is available in every session, with or without a plugin.
+- Skills and connectors also exist outside plugins. A standalone skill you add is available in every session, with or without a plugin.
 
 ## Learn more[](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork)
 

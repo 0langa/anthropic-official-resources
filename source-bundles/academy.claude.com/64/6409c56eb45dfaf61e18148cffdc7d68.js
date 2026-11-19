@@ -1,0 +1,22 @@
+import{n as e,r as t}from"../../../react-ml7fx0sn.js";var n=t();function r(t){let r={a:"a",h2:"h2",li:"li",ol:"ol",p:"p",strong:"strong",...e(),...t.components},{CodeCommand:i}=r;return i||a("CodeCommand",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(r.h2,{id:"what-is-the-scientific-problem-selection-skill",children:(0,n.jsx)(r.strong,{children:"What is the Scientific Problem Selection skill?"})}),`
+`,(0,n.jsx)(r.p,{children:'A systematic workflow based on Fischbach et al., 2024 that guides scientists from initial ideation through project execution, helping them choose high-impact problems by generating ideas through structured "intuition pumps," rigorously assessing risk via assumption analysis, selecting appropriate success metrics, strategically fixing parameters, and navigating decision trees when projects inevitably encounter adversity.'}),`
+`,(0,n.jsx)(r.h2,{id:"who-should-use-the-scientific-problem-selection-skill",children:(0,n.jsx)(r.strong,{children:"Who should use the Scientific Problem Selection skill?"})}),`
+`,(0,n.jsx)(r.p,{children:"This skill is designed for scientists and engineers at any career stage and in any domain of research who are looking to carefully deliberate on the selection and refinement of a scientific problem. The skill is designed to collaborate with scientists as they identify new problems, assess the likelihood of success versus potential impact of research directions, and strategically pivot when projects hit roadblocks—without relying solely on intuition or ad hoc mentorship. The skill can be used as an end-to-end collaborator or for any single step of the process."}),`
+`,(0,n.jsx)(r.h2,{id:"how-to-access-the-skill-in-claudeai",children:(0,n.jsx)(r.strong,{children:"How to access the skill in Claude.ai"})}),`
+`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"For Organization Owners (Team and Enterprise)"})}),`
+`,(0,n.jsxs)(r.ol,{children:[`
+`,(0,n.jsxs)(r.li,{children:["Download the ZIP for the ",(0,n.jsx)(r.strong,{children:"scientific-problem-selection"})," skill ",(0,n.jsx)(r.a,{href:"https://github.com/anthropics/life-sciences/releases/download/v1.1.1/scientific-problem-selection-v1.1.1.zip",children:"here"})]}),`
+`,(0,n.jsxs)(r.li,{children:["Open ",(0,n.jsx)(r.a,{href:"https://claude.ai/admin-settings",children:"Organization settings"}),", search for “Skills” and click the first result. Make sure the switches for skills and code execution are both turned on."]}),`
+`,(0,n.jsxs)(r.li,{children:["Open ",(0,n.jsx)(r.a,{href:"https://claude.ai/admin-settings/skills",children:"your organization’s skills and plugins"}),", select the add button at the top, and upload the skill zip file"]}),`
+`]}),`
+`,(0,n.jsxs)(r.p,{children:["Learn about ",(0,n.jsx)(r.a,{href:"https://support.claude.com/en/articles/13119606-provisioning-and-managing-skills-for-your-organization",children:"provisioning and managing skills for your organization"})]}),`
+`,(0,n.jsx)(r.p,{children:(0,n.jsx)(r.strong,{children:"For Individual Claude Users"})}),`
+`,(0,n.jsxs)(r.ol,{children:[`
+`,(0,n.jsxs)(r.li,{children:["Download the ZIP file for the ",(0,n.jsx)(r.strong,{children:"scientific-problem-selection"})," skill ",(0,n.jsx)(r.a,{href:"https://github.com/anthropics/life-sciences/releases/download/v1.1.1/scientific-problem-selection-v1.1.1.zip",children:"here"})]}),`
+`,(0,n.jsxs)(r.li,{children:["Open ",(0,n.jsx)(r.a,{href:"https://claude.ai/customize/skills",children:"skills in Claude"})," and select ",(0,n.jsx)(r.strong,{children:"Add"}),". If you don’t see skills or ",(0,n.jsx)(r.strong,{children:"Add"}),", search Settings for “Code execution” and make sure it’s on (on a Team or Enterprise plan, contact your team admin)."]}),`
+`,(0,n.jsx)(r.li,{children:"Choose the upload option, then select the skill zip file"}),`
+`]}),`
+`,(0,n.jsx)(r.h2,{id:"how-to-access-the-skills-in-claude-code",children:(0,n.jsx)(r.strong,{children:"How to access the skills in Claude Code"})}),`
+`,(0,n.jsx)(r.p,{children:"Command"}),`
+`,(0,n.jsx)(i,{children:"/plugin marketplace add anthropics/life-sciences"}),`
+`,(0,n.jsx)(i,{children:"/plugin install scientific-problem-selection@life-sciences"})]})}function i(t={}){let{wrapper:i}={...e(),...t.components};return i?(0,n.jsx)(i,{...t,children:(0,n.jsx)(r,{...t})}):r(t)}function a(e,t){throw Error("Expected "+(t?"component":"object")+" `"+e+"` to be defined: you likely forgot to import, pass, or provide it.")}i.uses=["CodeCommand"];export{i as default};

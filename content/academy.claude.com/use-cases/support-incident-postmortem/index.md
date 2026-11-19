@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-ekdkz1b1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dwsje4gy.png)
 
-Film: the user asks Claude to draft a customer-facing incident postmortem from a chat channel, support tickets, and recent deploys. Claude asks how much cause detail to share, then writes a review separating customer-facing wording from internal detail.
+Film: the user asks Claude to draft a customer-facing postmortem from an incident channel, tickets, and deploys, then Claude checks how much cause detail to share before writing a review and account sheet, and shows running it on a schedule.
 
 Views+ Add
 
@@ -69,14 +69,6 @@ tickets-2026-04-24.csv
 Ticket export
 
 CSV
-
-Operations
-
-/change-request
-
-/runbook
-
-/status-report
 
 How can I help you today?
 
@@ -166,7 +158,7 @@ S
 
 Scheduled export timezone2 Mar
 
-**/**status-report Draft the customer-facing incident review for INC-4417 from #inc-4417, tickets in the impact window and deploys from the prior 24 hours. Quantify customers impacted and for how long, quote them directly, list the affected accounts in a sheet, and use our template with remediation owners.
+Draft the customer-facing incident review for INC-4417 from #inc-4417, tickets in the impact window and deploys from the prior 24 hours. Quantify customers impacted and for how long, quote them directly, list the affected accounts in a sheet, and use our template with remediation owners.
 
 Reading #inc-4417-export-failures0s
 
@@ -264,7 +256,7 @@ Affected accounts and duration are counted from the record.
 
 Claude keeps internal detail apart from what the customer reads.
 
-Run this every weekday at 9am: for each #inc- channel marked resolved in the last 24 hours, run /incident-review and write the customer-facing draft to that incident’s folder.
+Run this every weekday at 9am: for each #inc- channel marked resolved in the last 24 hours, draft the customer-facing review and write it to that incident’s folder.
 
 **Customer incident-review draft**Weekdays at 9:00 AM
 
@@ -272,7 +264,7 @@ Each run
 
 Checks for incident channels resolved in the last day
 
-Runs /incident-review on each
+Drafts the customer review for each
 
 Writes the customer draft to that incident’s folder*for you to edit and send*
 
@@ -288,7 +280,7 @@ Explain an outage to customers
 
 After an outage, your customers need a clear account of what happened.
 
-Ask the status report skill for a review written for customers, with the impact counted.
+Ask Claude for a review written for customers, with the impact counted.
 
 Claude reads the incident channel, the tickets opened during the outage and the recent deploys.
 
@@ -302,7 +294,7 @@ Claude keeps internal detail apart from what the customer reads.
 
 On a weekday schedule, Claude drafts the review for each war room closed the day before.
 
-Customers get a clear account of the outage, drafted from the tickets.
+Customers get a clear account of the outage, drafted from the record.
 
 Draft the customer-facing incident review for INC-4417 from #inc-4417, tickets in the impact window and deploys from the prior 24 hours. Quantify customers impacted and for how long, quote them directly, list the affected accounts in a sheet, and use our template with remediation owners.
 
@@ -312,31 +304,9 @@ I read #inc-4417-export-failures, the 38 tickets tagged inc\_4417 and the day’
 
 INC-4417-customer-review.md, INC-4417-affected-accounts.xlsx
 
-Skill: /status-report (Operations)
-
 Connectors: Slack, Zendesk, GitHub
 
 ## Set up[](https://academy.claude.com/use-cases/support-incident-postmortem)
-
-### Try a plugin[](https://academy.claude.com/use-cases/support-incident-postmortem)
-
-The Operations plugin ships with `/runbook` and `/status-report` as a starting point, already structured to walk a war room and frame the customer impact. In Step 3 you'll save your own version as `/incident-review`. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
-
-
-
-OperationsOptimize business operations — vendor management, process documentation, change management, capacity planning, and compliance tracking. Keep your organization running efficiently.
-
-[Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=operations)
-
-`/runbook`Create or update an operational runbook for a recurring task or procedure.
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Frunbook)
-
-`/status-report`Generate a status report with KPIs, risks, and action items.
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fstatus-report)
-
-Show all 9 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/support-incident-postmortem)
 
@@ -376,7 +346,7 @@ List the deploys and merged changes in the 24 hours before the incident started.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/support-incident-postmortem)
 
-Drag the files you'll use (your customer-postmortem template, an export of the war room, the ticket CSV) into one folder and point Claude at it. Claude reads the template from there and writes the draft, the impacted-customer list, and the remediation tracker back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your incident-reviews folder so the template, tone guide, and SLA definitions stay attached.
+Drag the files you'll use (your customer-postmortem template, an export of the war room, the ticket CSV) into one folder and [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads the template from there and writes the draft back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so the template stays attached.
 
 Support / Incidents / INC-4417
 
@@ -428,13 +398,15 @@ Draft the customer-facing incident review for INC-4417. Pull the war-room thread
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/support-incident-postmortem)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your tone guide and your SLA-credit language, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /incident-review skill with my feedback.
+Make what we've done in this task so far into a skill called /incident-review.
 
 
 
 Support / IncidentsOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -444,7 +416,7 @@ Make what we've done in this task so far into a skill, or edit the /incident-rev
 
 ### Run it when the war room closes[](https://academy.claude.com/use-cases/support-incident-postmortem)
 
-The customer doc should exist before the first CSM asks for it. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill watches for closed war rooms and writes the first cut.
+The customer doc should exist before the first CSM asks for it. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/incident-review` runs each weekday on newly closed war rooms and writes the first cut.
 
 Set up a scheduled task for every weekday at 9am: check for any #inc- channel marked resolved in the last 24 hours, run /incident-review on it, and write the draft to Support/Incidents/<incident-id>/customer-review.md.
 
@@ -456,19 +428,21 @@ Set up a scheduled task for every weekday at 9am: check for any #inc- channel ma
 
 Customer incident-review draft
 
-Daily at 9am, finds war rooms resolved in the last 24h, runs `/incident-review` on each, and writes the customer-facing draft to the incident folder.
+Each weekday at 9am, finds war rooms resolved in the last 24h, runs `/incident-review` on each, and writes the customer-facing draft to the incident folder.
 
 Every **weekdays at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/support-incident-postmortem)
 
-Your customized `/incident-review` now carries your template, your tone guide, and your SLA-credit language. Share it so every incident gets the same customer doc, whichever support lead was on shift.
+Your `/incident-review` skill now carries your template, your tone guide, and your SLA-credit language. Share it so every incident gets the same customer doc, whichever support lead was on shift.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/incident-review`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your instructions baked in, they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/incident-review`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. Your teammates get the skill with your instructions baked in, so they don't have to build it again.
 
 ## What changes after an incident[](https://academy.claude.com/use-cases/support-incident-postmortem)
 

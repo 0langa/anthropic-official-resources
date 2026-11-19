@@ -6,7 +6,7 @@ Understand and use your usage and spend data to revisit your spend controls and 
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-fjqxjn9y.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-elva4z0a.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-din0sfxj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lul6z3c2.png)
 
 Unified Claude brings chat and Claude Cowork together on web, desktop, and mobile. Until now, a member of your Claude Enterprise organization chose between the two before they started working with Claude. With unified Claude they no longer make a choice, and both kinds of work can happen in the same conversation.
 
@@ -73,7 +73,7 @@ You can ask [Analytics chat(opens in new tab)](https://support.claude.com/en/art
 
 ### After your members move: the unified Claude line[](https://academy.claude.com/tutorials/claude-enterprise-spend-controls)
 
-Everything above works with the data you have today, and it keeps working after the move, with a few changes to know about. Once a member has unified Claude, most of their chat and Cowork usage is reported on its own line, `Chat and Cowork unified`. The Top connectors and Top skills cards don't include that line yet. How usage is counted or billed does not change. Keep this in mind when you compare spend before and after. For more on how unified Claude usage is reported, see [Set up and manage the new unified Claude experience for your Enterprise organization(opens in new tab)](https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization).
+Everything above works with the data you have today, and it keeps working after the move, with a few changes to know about. Once a member has unified Claude, most of their chat and Cowork usage is reported on its own line, `Chat and Cowork unified`. In Analytics, the cards for connectors and skills don't include that line yet. How usage is counted or billed does not change. Keep this in mind when you compare spend before and after. For more on how unified Claude usage is reported, see [Set up and manage the new unified Claude experience for your Enterprise organization(opens in new tab)](https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization).
 
 ### Going further: combining sources[](https://academy.claude.com/tutorials/claude-enterprise-spend-controls)
 

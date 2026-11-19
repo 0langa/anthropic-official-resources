@@ -1,10 +1,10 @@
-# Using Claude Cowork for legal: answer fast questions on past decisions
+# Using Claude for legal: answer fast questions on past decisions
 
-When a question comes up about a past decision, Claude Cowork answers it from your own history of reviews, with a citation for every claim. You get the answer in minutes, and you can check the source yourself before you reply.
+When a question comes up about a past decision, Claude answers it from your own history of reviews, with a citation for every claim. You get the answer in minutes, and you can check the source yourself before you reply.
 
-15 minClaude Cowork
+15 minClaude
 
-Watch[Open Cowork](https://claude.ai/new?surface=cowork)
+Watch[Open Claude](https://claude.ai/new)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-cb32kcve.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nq1i2588.png)
 
@@ -12,15 +12,17 @@ Embedded media: https://www.youtube-nocookie.com/embed/EPUg9pmfPk0?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=EPUg9pmfPk0)
 
+*This video shows Claude in Cowork. If you don’t see Cowork, start a new conversation in Claude and follow the same steps.*
+
 **Watch the full workflow in the video, then follow the steps below to set it up yourself.**
 
 **In the video** — Mark, a product lawyer, gets a Slack message from a product manager: does a feature change reopen a review he wrote in January? He has a few minutes and none of the context he had when he wrote the memo. A scheduled task had already sorted his morning; a skill pulls the prior decision; he verifies the source line before he replies.
 
 
 
-If you haven’t set up Cowork yet, start with [Get started in three steps(opens in new tab)](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps), then [Customize Cowork(opens in new tab)](https://academy.claude.com/tutorials/customize-claude-cowork) for connectors and skills.
+If you haven’t set up Claude yet, start with [Getting started with Claude(opens in new tab)](https://academy.claude.com/tutorials/getting-started-with-claude), then [Customize Claude(opens in new tab)](https://academy.claude.com/tutorials/customize-claude-cowork) for connectors and skills.
 
-To dive deeper into Claude Cowork, take the full [Intro to Claude Cowork course(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-cowork).
+To dive deeper, take the full [Introduction to Claude Cowork course(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-cowork).
 
 ## Step 1: Set up the brief skill[](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
 
@@ -32,8 +34,8 @@ You’ll use it two ways: a **daily** mode that sorts your morning in step 2, an
 
 **Add the plugin and set it up:**
 
-1. **In Customize → Plugins**, open the [Legal plugin(opens in new tab)](https://claude.ai/desktop/customize/plugins/new?marketplace=https%3A%2F%2Fgithub.com%2Fanthropics%2Fknowledge-work-plugins&plugin=legal) and select **Add**. The plugin comes with the `/brief` skill, built on how a working legal team uses it.
-2. **In Customize → Connectors**, connect the tools the skill draws on — your inbox, calendar, task tracker, chat, and wherever your reviews and decisions are stored. The skill reads across all of them.
+1. **Open the [Legal plugin(opens in new tab)](https://claude.ai/desktop/customize/plugins/new?marketplace=https%3A%2F%2Fgithub.com%2Fanthropics%2Fknowledge-work-plugins&plugin=legal)** and add it. The plugin comes with the `/brief` skill, built on how a working legal team uses it.
+2. **[Connect the tools(opens in new tab)](https://claude.ai/desktop/customize/connectors)** the skill draws on: your inbox, calendar, task tracker, chat, and wherever your reviews and decisions are stored. The skill reads across all of them.
 3. **In the chat bar**, pick a place Claude can read, edit, and save to (a working folder in the desktop app, or a project), so every brief lands somewhere you can find it later.
 
 With the plugin added and your sources connected, tell Claude to tailor `/brief` to your team — where your decisions live, how your reviews are structured, and the format you read fastest:
@@ -42,7 +44,7 @@ Customize the /brief skill from the Legal plugin for my team. Our reviews and pa
 
 
 
-Working folderOpen in Cowork
+Working folderOpen in Claude
 
 Claude walks you through your document store and templates, then rewrites the skill to match. Claude shows the result as a file card. Select **Save plugin** to add it to your account. Run it on a question you already know the answer to, check the citations, and tell Claude to fix anything it got wrong.
 
@@ -50,17 +52,19 @@ Claude walks you through your document store and templates, then rewrites the sk
 
 Set up once
 
-Put the `/brief` skill from step 1 on a morning schedule, so it runs on its own and you don’t type the same prompt every day. At the time you set in the scheduled task, it reads your inbox, tracker, and chat and leaves one short memo: what’s due today, what’s new, what’s urgent. You open Cowork to a sorted list instead of a full inbox to triage.
+Put the `/brief` skill from step 1 on a morning schedule, so it runs on its own and you don’t type the same prompt every day. At the time you set in the scheduled task, it reads your inbox, tracker, and chat and leaves one short memo: what’s due today, what’s new, what’s urgent. You open Claude to a sorted list instead of a full inbox to triage.
 
-There are two ways to create it: type `/schedule` in any task, or open **Scheduled** in the sidebar and add a new one.
+There are two ways to create it: ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar and add a new one.
 
 Here’s the prompt to set it up — replace the blanks with your own:
 
-/schedule Every [weekday at 8am], read my [Gmail, issue tracker, and Slack] and run /brief in daily mode to write a memo: what's due today, what's new, and what's urgent.
+Set up a scheduled task for every [weekday at 8am]: read my [Gmail, issue tracker, and Slack] and run /brief in daily mode to write a memo with what's due today, what's new, and what's urgent.
 
 
 
-Working folderOpen in Cowork
+Working folderOpen in Claude
+
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
 
 ## Step 3: Run a brief on a question[](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
 
@@ -74,7 +78,7 @@ It’s the same skill, so it already knows where your reviews live — your prom
 
 
 
-ReviewsOpen in Cowork
+ReviewsOpen in Claude
 
 The brief comes back short and organized: what you’d decided before, what’s different now, and where the two don’t line up. Every point links to the exact source it came from, so you can check it yourself — which is the next step.
 
@@ -108,13 +112,13 @@ Once you’ve verified the answer, finish the rest of the work — the part that
 - **Reply to your teammate** — with a messaging connector (Gmail, Slack), Claude drafts the response right in the tool you’d send it from.
 - **Close out the request** — with a task-tracker connector (Jira, Linear, Asana), Claude posts your decision, links the source, and marks the ticket done.
 
-Claude asks before it sends or changes anything. You can do both in one prompt:
+In Manual mode, Claude asks before it sends or changes anything, unless the tool is set to Always allow. You can do both in one prompt:
 
 Draft a reply to [the product manager] in [your messaging tool] — my view: [your call on the question]. Then close the ticket in [your task tracker]: post my decision and the brief's list of what the question reopens, link the source review, and mark it done.
 
 
 
-Working folderOpen in Cowork
+Working folderOpen in Claude
 
 ## Make it yours[](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
 
@@ -134,10 +138,10 @@ This setup isn’t legal-specific and can work for any role that fields fast que
 
 ## Learn more[](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
 
-- [**Claude Cowork 101**(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-cowork). Take the full Cowork course to dive deeper into the product.
-- [**Customize Cowork**(opens in new tab)](https://academy.claude.com/tutorials/customize-claude-cowork). Learn how to set up connectors, skills, and instructions.
+- [**Introduction to Claude Cowork**(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-cowork). Take the full course to dive deeper into the product.
+- [**Customize Claude**(opens in new tab)](https://academy.claude.com/tutorials/customize-claude-cowork). Learn how to set up connectors, skills, and instructions.
 - [**AI Fluency: Framework and Foundations**(opens in new tab)](https://academy.claude.com/courses/ai-fluency-framework-foundations). Take the full AI fluency course to work towards effective, efficient, and ethical AI use.
 - [**The 4 Ds of AI Fluency**(opens in new tab)](https://academy.claude.com/tutorials/the-4-ds-of-ai-fluency-behavioral-indicators). Learn practical skills and mental models behind building AI fluency.
-- [**Use Cowork safely**(opens in new tab)](https://support.claude.com/en/articles/13364135-use-cowork-safely). Understand access, approvals, and what Claude can see.
+- [**Use Claude Cowork safely**(opens in new tab)](https://support.claude.com/en/articles/13364135-use-cowork-safely). Understand access, approvals, and what Claude can see.
 
 Was this helpful?

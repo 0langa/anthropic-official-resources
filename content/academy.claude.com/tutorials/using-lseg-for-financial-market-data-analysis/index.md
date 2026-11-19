@@ -6,7 +6,7 @@ Set up and use LSEG's financial market data integration with Claude for real-tim
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-d2yk46yy.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ll4g0qiq.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-dcjlae61.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kpt6j59n.png)
 
 The LSEG integration provides Claude with access to LSEG’s comprehensive financial market data ecosystem, spanning across asset classes and domains. This article explains how to set up and use LSEG to retrieve real-time market data, analytics, and perform complex financial calculations. The LSEG integration relies upon Claude’s ability to use remote connectors.
 
@@ -40,15 +40,12 @@ Contact LSEG to get access to the MCP server and its technical documentation.
 
 ### For Organization Owners[](https://academy.claude.com/tutorials/using-lseg-for-financial-market-data-analysis)
 
-1. Navigate to [Admin settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors).
-2. Scroll down and click “Add custom connector” at the bottom of the list.
-3. Enter integration URL: [https://api.analytics.lseg.com/lfa/mcp(opens in new tab)](https://api.analytics.lseg.com/lfa/mcp)
-4. Name the integration (e.g., “LSEG MCP”)
-5. Click “Add”
+1. Navigate to [Organization settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors).
+2. Use the Add button to browse all available connectors, then find **LSEG** and add it for your team.
 
 ### For Individual Users[](https://academy.claude.com/tutorials/using-lseg-for-financial-market-data-analysis)
 
-Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory).
+Open [LSEG in the connectors directory(opens in new tab)](https://claude.ai/directory/london-stock-exchange-group), connect it to Claude, and sign in when asked. If an owner added it earlier by URL, connect it from [your connectors(opens in new tab)](https://claude.ai/customize/connectors/yours) instead. Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory).
 
 ## Common Use Cases[](https://academy.claude.com/tutorials/using-lseg-for-financial-market-data-analysis)
 
@@ -84,7 +81,7 @@ Show me the USD SOFR swap curve. Plot the curve and identify any unusual shapes 
 
 Example input prompt:
 
-Price the following bonds using their ISIN codes: FR0014012I5 (French government bond) and US91282CNT44 (US Treasury). Compare their yields and calculate the spread.
+Price the following bonds using their ISIN codes: FR0014012II5 (French government bond) and US91282CNT44 (US Treasury). Compare their yields and calculate the spread.
 
 
 

@@ -1,4 +1,4 @@
-Nov 18, 2026 — 12:00 – 1:00 PM PT
+On demand
 
 # How the Claude Code team does code review
 
@@ -10,7 +10,7 @@ We’ll cover each layer of the review process, where humans stay in the loop, a
 
 Register for the webinar
 
-Fill out the form below to reserve your seat.
+Fill out the form below to watch on demand.
 
 ## Featured speakers
 

@@ -90,7 +90,7 @@ For the Acme meeting, can you summarize the last few email threads I've had with
 
 ### Make this a nightly routine[](https://academy.claude.com/use-cases/prepare-and-plan-from-your-calendar)
 
-Claude can run tasks on a schedule. Save this as a skill, and schedule the same prompt for every evening so you start each morning with prep done. The first tip below shows how.
+Claude can run tasks on a schedule. Save this as a skill, and schedule the prompt from step 1 for every evening so you start each morning with prep done. The first tip below shows how.
 
 Can you save this as a skill? Call it "prep-tomorrow" and have it review my calendar, flag external meetings, and check for missing rooms or links.
 
@@ -102,7 +102,7 @@ Can you save this as a skill? Call it "prep-tomorrow" and have it review my cale
 
 Ask Claude to save a successful prompt as a [skill(opens in new tab)](https://support.claude.com/en/articles/12512180-use-skills-in-claude). Trigger the workflow by typing "/" and selecting it.
 
-To run it on a schedule, open Claude Desktop and set up a [scheduled task(opens in new tab)](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork) with the same prompt, plus a line asking Claude to use Claude in Chrome. Set the task to require your computer. It works only while your computer is awake, with Claude Desktop and Chrome open.
+To run it on a schedule, open Claude Desktop and set up a [scheduled task(opens in new tab)](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork) with the prompt from step 1, plus a line asking Claude to use Claude in Chrome. Set the task to require your computer. It works only while your computer is awake, with Claude Desktop and Chrome open.
 
 If you still have the classic side panel, click the shortcut icon below a successful prompt to save it as a shortcut instead, which you can also schedule.
 

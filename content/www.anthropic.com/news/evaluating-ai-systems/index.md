@@ -6,7 +6,7 @@ Published
 :   Oct 4, 2023
 
 Team
-:   [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
+:   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
 Topics
 :   - [Benchmarks](https://www.anthropic.com/search?topic=benchmarks)

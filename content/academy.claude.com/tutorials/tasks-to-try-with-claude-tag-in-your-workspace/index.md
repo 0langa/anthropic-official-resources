@@ -6,7 +6,7 @@ A catalog of tasks to try handing to Claude Tag once it's in your workspace, eac
 
 ![](https://academy.claude.com/assets/v1/thumbnail.dark-fvmviaxt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-fvmviaxt.png)
 
-Tag [Claude(opens in new tab)](https://claude.com/blog/agent-identity-access-model) in a thread and tell it what you want. It reads what it needs (the messages and files in that channel, plus any tools your team has connected), does the task, and posts the result in the same thread. Claude tags you back, so you stay in the conversation: read what it sent, reply with a change, or hand the thread to a teammate. Tagging is how most tasks start, though once Claude is active in a channel it can also [pitch in on its own(opens in new tab)](https://claude.com/docs/claude-tag/users/when-claude-responds) when it sees a way to help.
+Tag [Claude(opens in new tab)](https://claude.com/blog/agent-identity-access-model) in a thread and tell it what you want. It reads what it needs (the messages and files in that channel, plus any tools your team has connected), does the task, and posts the result in the same thread. You stay in the conversation: read what it sent, reply with a change, or hand the thread to a teammate. Tagging is how most tasks start, though once Claude is active in a channel it can also [pitch in on its own(opens in new tab)](https://claude.com/docs/claude-tag/users/when-claude-responds) when it sees a way to help.
 
 Most questions are answered in a few seconds. Bigger tasks, like drafting a doc or fixing a bug, take longer; Claude lets you know it's on it right away, often with a quick reaction, then works in the background and shows you its progress, so you're not sitting and waiting on it.
 
@@ -32,7 +32,7 @@ In a channel, you're working in the open: whatever Claude posts, everyone in the
 
 ### How you steer it[](https://academy.claude.com/tutorials/tasks-to-try-with-claude-tag-in-your-workspace)
 
-You or anyone on the team can shape how Claude works, just by asking. Put a task on a [schedule(opens in new tab)](https://claude.com/docs/claude-tag/users/proactivity) so it runs on its own, like a recap every Monday morning. On a bigger task, Claude shows you its plan first, so you can adjust the approach up front and redirect it as it works. Tell it to do something differently and it [remembers for next time(opens in new tab)](https://claude.com/docs/claude-tag/users/memory), so it fits your channel better the longer you work with it. And how proactive Claude is, from only replying when tagged to acting on its own, is a per-channel setting you can [change by asking Claude in the channel(opens in new tab)](https://claude.com/docs/claude-tag/users/when-claude-responds), unless an admin has locked it.
+You or anyone on the team can shape how Claude works, just by asking. Put a task on a [schedule(opens in new tab)](https://claude.com/docs/claude-tag/users/proactivity) so it runs on its own, like a recap every Monday morning. On a bigger task, Claude shows you its plan first, so you can adjust the approach up front and redirect it as it works. Tell it to do something differently and ask it to [remember that for next time(opens in new tab)](https://claude.com/docs/claude-tag/users/memory), so it fits your channel better the longer you work with it. And how proactive Claude is, from only replying when tagged to acting on its own, is a per-channel setting you can [change by asking Claude in the channel(opens in new tab)](https://claude.com/docs/claude-tag/users/when-claude-responds), unless an admin has locked it.
 
 ## What works with no setup[](https://academy.claude.com/tutorials/tasks-to-try-with-claude-tag-in-your-workspace)
 
@@ -60,9 +60,9 @@ See the trend in numbers people post
 
 ### Hand off the ongoing work[](https://academy.claude.com/tutorials/tasks-to-try-with-claude-tag-in-your-workspace)
 
-You set these up once and Claude [runs them on its own(opens in new tab)](https://claude.com/docs/claude-tag/users/proactivity) until you stop it.
+You set these up once and Claude [runs them on its own(opens in new tab)](https://claude.com/docs/claude-tag/users/proactivity).
 
-Make sure nothing urgent gets missed
+Get urgent messages to the right owner
 
 Keep a pinned overview of the channel
 

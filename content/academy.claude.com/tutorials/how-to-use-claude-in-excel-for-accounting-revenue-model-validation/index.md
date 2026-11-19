@@ -12,7 +12,7 @@ Embedded media: https://www.youtube-nocookie.com/embed/Nr0PBtj2NS4?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=Nr0PBtj2NS4)
 
-[Claude in Excel(opens in new tab)](https://support.claude.com/en/articles/12650343-claude-in-excel) works directly inside your spreadsheet through a sidebar, reading your data and making changes through conversation. In this tutorial, you'll see how an accountant uses Claude to validate an ASC 606 revenue recognition model—the kind of multi-tab workbook you might inherit during an audit or acquire in a transaction.
+[Claude for Excel(opens in new tab)](https://support.claude.com/en/articles/12650343-claude-in-excel) works directly inside your spreadsheet through a sidebar, reading your data and making changes through conversation. In this tutorial, you'll see how an accountant uses Claude to validate an ASC 606 revenue recognition model—the kind of multi-tab workbook you might inherit during an audit or acquire in a transaction.
 
 ## What you'll learn[](https://academy.claude.com/tutorials/how-to-use-claude-in-excel-for-accounting-revenue-model-validation)
 
@@ -101,13 +101,13 @@ This tutorial shows one use case: validating an ASC 606 revenue model with recon
 
 **Get started:**
 
-- Install [Claude in Excel(opens in new tab)](https://appsource.microsoft.com/en-us/product/office/WA200009404) from Microsoft AppSource
+- Install Claude for Excel from the [Claude for Microsoft 365 listing(opens in new tab)](https://marketplace.microsoft.com/en-us/product/office/WA200010725?tab=Overview) on Microsoft AppSource
 - Open it with **Ctrl+Option+C** (Mac) or **Ctrl+Alt+C** (Windows)
 - Start with "Walk me through this model" on any spreadsheet you've inherited
 
 **Learn more:**
 
-- [Claude in Excel help article(opens in new tab)](https://support.claude.com/en/articles/12650343-claude-in-excel)
+- [Claude for Excel documentation(opens in new tab)](https://support.claude.com/en/articles/12650343-claude-in-excel)
 - [What is the Max plan?(opens in new tab)](https://support.claude.com/en/articles/11049741-what-is-the-max-plan)
 
 Was this helpful?

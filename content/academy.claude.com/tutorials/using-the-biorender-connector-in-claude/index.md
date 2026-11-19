@@ -1,35 +1,33 @@
 # Using the BioRender Connector in Claude
 
-Set up and use the BioRender integration with Claude to search scientific figure templates and icon collections.
+Set up and use the BioRender integration with Claude to search scientific figure templates, find your BioRender files, and draft new figures.
 
 9 minClaude
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-owwjdvmb.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-o8xue557.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-n3gu8ebn.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-c5fjfxg6.png)
 
-The BioRender integration searches BioRender’s extensive scientific figure template and icon collection for relevant content to create figures faster. This article explains how to set up and use the BioRender integration with Claude to accelerate scientific content creation.
+The BioRender integration searches BioRender’s scientific template library, finds your own BioRender files, and drafts new figures from a description. This article explains how to set up and use the BioRender integration with Claude to accelerate scientific content creation.
 
 The BioRender integration relies upon Claude's ability to [use remote connectors(opens in new tab)](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities).
 
 ## What this integration provides[](https://academy.claude.com/tutorials/using-the-biorender-connector-in-claude)
 
-This integration allows you to search BioRender’s extensive library of vetted scientific figures to quickly find scientifically-accurate content for your presentations, posters, grant proposal figures, journal graphical abstracts and more. Simply describe your needs and receive recommended scientific icons, figures and templates in return.
+This integration allows you to search BioRender’s library of scientific templates to quickly find content for your presentations, posters, grant proposal figures, journal graphical abstracts and more. You can also find your own and shared BioRender files, and draft a new figure from a description, a sketch, or a template.
 
-This integration provides access to BioRender’s scientific Icons and Template, which includes:
+This integration provides access to BioRender’s scientific templates, which include:
 
-- 50,000+ verified scientific icons across all fields of life sciences
-- Professionally designed figure templates for meetings, presentations, research posters, grant applications, publications, patience material, internal workflows, etc.
+- Professionally designed figure templates for meetings, presentations, research posters, grant applications, publications, patient material, internal workflows, etc.
 - Regularly updated visual assets curated by world class medical illustrators
 
 ## Who can access the BioRender integration[](https://academy.claude.com/tutorials/using-the-biorender-connector-in-claude)
 
 - The BioRender integration is available to all BioRender users with an active account.
 - Users must log in using their BioRender credentials to authenticate the connection.
-- Once connected, they can search BioRender’s scientific icon and template library directly.
-- Access to specific icons and templates will depend on the user’s subscription tier:
-  - Free and Individual Plans - Access to a limited set of icons and templates
-  - Premium and Team Plans - Access to the full BioRender library, including advanced templates and specialized scientific content
+- Once connected, they can search BioRender’s templates and their own files directly.
+- Searching is free on all BioRender plans. Drafting a figure counts toward your BioRender AI usage.
+- Some workplaces need an admin to turn BioRender on first.
 - No additional licensing or set up fees are required to access the BioRender integration
 
 More details on accessing the integration can be found in [BioRender’s MCP Server Documentation(opens in new tab)](https://help.biorender.com/hc/en-gb/articles/30870978672157-How-to-use-the-BioRender-MCP-connector).
@@ -38,15 +36,13 @@ More details on accessing the integration can be found in [BioRender’s MCP Ser
 
 **For Organization Owners (Team and Enterprise)**
 
-1. Navigate to Admin settings > Connectors
-2. Click "Browse connectors"
-3. Click “**BioRender**”
-4. Click “Add to your team”
+1. Navigate to [Organization settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors)
+2. Use the Add button to browse all available connectors, then find **BioRender** and add it for your team
 
 **For Individual Claude Users**
 
-1. Navigate to Settings > Connectors
-2. Click “Connect”
+1. Open [BioRender in the connectors directory(opens in new tab)](https://claude.ai/directory/biorender)
+2. Connect it to Claude
 3. Follow the instructions to authenticate with your BioRender account
 
 Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory) in Claude.

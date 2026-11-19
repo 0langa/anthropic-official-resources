@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-csmvr9ol.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-egkt2awn.png)
 
-Film: the user asks Claude to reconcile headcount across a roster, an approved plan, and a payroll register, matching by cost center and employee ID. Claude asks a judgment question, then returns a categorized reconciliation workbook that can rerun automatically at each close.
+Film: the user asks Claude to reconcile headcount across an HR roster, budget plan, and payroll register, matching by cost center and employee ID. Claude asks a clarifying question about counting contractors, then returns a categorized breakdown of every discrepancy with cost impact and suggested owners, schedulable for future runs.
 
 ![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)workday-roster-2026-03-31.xlsx
 
@@ -86,17 +86,9 @@ cost-center-map.csv
 
 CSV
 
-Finance
-
-/close-management
-
-/reconciliation
-
-/variance-analysis
-
 How can I help you today?
 
-**/**close-management Reconcile March headcount across the Workday roster, the FY26 plan and GL payroll. Match by cost center and employee ID, and list every difference by cost center: unplanned hires, open budgeted heads, roster with no payroll, contractors coded as FTE.
+Reconcile March headcount across the Workday roster, the FY26 plan and GL payroll. Match by cost center and employee ID, and list every difference by cost center: unplanned hires, open budgeted heads, roster with no payroll, contractors coded as FTE.
 
 Reading the roster export0s
 
@@ -156,13 +148,13 @@ Each difference gets one of your types, a cost and an owner.
 
 Run this every Monday: if a new Workday export is in FY26-Close / Headcount, reconcile it against the FY26 plan and the payroll register and write the by-cost-center recon there.
 
-**Monthly headcount reconciliation**Mondays at 9:00 AM
+**Headcount reconciliation**Mondays at 9:00 AM
 
 Each run
 
 Matches the newest roster export to plan and payroll by employee ID
 
-Flags breaks that are new since the last recon
+Lists every break by cost center and category
 
 Writes the workbook to the folder*for you to review*
 
@@ -178,7 +170,7 @@ Reconcile headcount
 
 You need one headcount number, and your systems each say something different.
 
-Give the close skill your sources and say how to match people across them.
+Give Claude your sources and say how to match people across them.
 
 Claude reads the roster, the plan and the payroll register, then applies your cost-center map.
 
@@ -202,29 +194,7 @@ I matched the roster, the plan and March payroll by cost center and employee ID:
 
 headcount-recon-2026-03.xlsx
 
-Skill: /close-management (Finance)
-
 ## Set up[](https://academy.claude.com/use-cases/headcount-reconciliation)
-
-### Try a plugin[](https://academy.claude.com/use-cases/headcount-reconciliation)
-
-The Finance plugin ships with `/close-management` and seven other close-week skills as a starting point, already structured to compare records across sources and categorize the gaps. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
-
-
-
-FinanceStreamline finance and accounting workflows, from journal entries and reconciliation to financial statements and variance analysis. Speed up audit prep, month-end close, and keeping your books clean.
-
-[Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=finance)
-
-`/close-management`Manage the month-end close process with task sequencing, dependencies, and status tracking.
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fclose-management)
-
-`/variance-analysis`Decompose financial variances into drivers with narrative explanations and waterfall analysis.
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fvariance-analysis)
-
-Show all 7 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/headcount-reconciliation)
 
@@ -264,7 +234,7 @@ Read the approved headcount plan from the FP&A planning folder.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/headcount-reconciliation)
 
-Drag the files you'll use (the Workday export, the headcount plan, the payroll register) into one folder and point Claude at it. Claude reads from it and writes the reconciliation back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your headcount folder so the cost-center map and FTE-vs-contractor rules stay attached every month.
+Drag the files you'll use (the Workday export, the headcount plan, the payroll register) into one folder and [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from the folder and writes the reconciliation back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your headcount folder so the cost-center map and FTE-vs-contractor rules stay attached every month.
 
 FY26-Close / Headcount / March
 
@@ -318,13 +288,15 @@ Reconcile March headcount across the Workday roster, the FY26 plan, and payroll 
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/headcount-reconciliation)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your break categories and your loaded-cost assumptions, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /close-management skill with my feedback.
+Make what we've done in this task so far into a skill called /headcount-recon.
 
 
 
 FY26-Close / HeadcountOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -334,9 +306,9 @@ Make what we've done in this task so far into a skill, or edit the /close-manage
 
 ### Run it on a schedule[](https://academy.claude.com/use-cases/headcount-reconciliation)
 
-Headcount ties on the same day every close. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs against the newest roster and payroll automatically.
+Headcount ties on the same day every close. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/headcount-recon` runs against the newest roster and payroll automatically.
 
-Set up a scheduled task for every Monday at 9am: if a new Workday export is in FY26-Close/Headcount, reconcile headcount across that export, the FY26 plan, and the payroll register, and write the by-cost-center recon there.
+Set up a scheduled task for every Monday at 9am: if a new Workday export is in FY26-Close/Headcount, run /headcount-recon on that export, the FY26 plan, and the payroll register, and write the by-cost-center recon there.
 
 
 
@@ -344,21 +316,23 @@ Set up a scheduled task for every Monday at 9am: if a new Workday export is in F
 
 Scheduled taskActive
 
-Monthly headcount reconciliation
+Headcount reconciliation
 
-Ties Workday roster, the FY26 plan, and the payroll register by cost center and writes the categorized break list to the close folder.
+Runs `/headcount-recon` to tie the Workday roster, the FY26 plan, and the payroll register by cost center and writes the categorized break list to the close folder.
 
 Every **Monday at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/headcount-reconciliation)
 
-Your customized skill now carries your cost-center map, your break categories, and your loaded-cost assumptions. Share it so HR, FP&A, and Accounting all reconcile from the same definition of a head.
+Your `/headcount-recon` skill now carries your cost-center map, your break categories, and your loaded-cost assumptions. Share it so HR, FP&A, and Accounting all reconcile from the same definition of a head.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to your saved skill, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your instructions baked in, they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/headcount-recon`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your instructions baked in, so they don't have to build it again.
 
 ## What changes for the headcount review[](https://academy.claude.com/use-cases/headcount-reconciliation)
 

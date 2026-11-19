@@ -40,11 +40,7 @@ Artifacts are standalone, interactive outputs that Claude creates in a dedicated
 
 ### Optional context[](https://academy.claude.com/use-cases/build-interactive-diagram-tools)
 
-For complex multi-component apps, turn on [Extended Thinking(opens in new tab)](https://support.claude.com/en/articles/10574485-using-extended-thinking) so Claude can plan architecture before building.
-
-[
-
-Extended Thinking](https://support.claude.com/en/articles/10574485-using-extended-thinking)
+For complex multi-component apps, raise the [effort level(opens in new tab)](https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings) in the model menu, or turn on thinking if your model has that toggle, so Claude can plan architecture before building.
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/build-interactive-diagram-tools)
 

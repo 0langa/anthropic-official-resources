@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-dcudi118.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bcr99b8o.png)
 
-Film: a self-playing demonstration where the user asks Claude to turn a long Slack thread and email chain into a decision-log entry, with owners, dates, and open questions linked to sources. It teaches that thread discussions can become a structured, sourced, recurring record.
+Film: a self-playing walkthrough where the user asks Claude to turn a messy team thread and email chain into a decision-log entry, showing the decision, owners with dates, and open questions linked to their source messages.
 
 M
 
@@ -144,14 +144,6 @@ Vendor quote
 
 PDF
 
-Productivity
-
-/memory-management
-
-/task-management
-
-/update
-
 How can I help you today?
 
 M
@@ -258,7 +250,7 @@ Still no answer on panelist SSO from anyone. Not a blocker for Oct 1, but I want
 
 Reply…Also send to # marketing-ops
 
-**/**task-management From this thread and the email chain, record what was actually decided, who owns each next step and by when, and what's still open or contested, linked to the source messages. Append to decision-log.md; draft a thread reply I can pin.
+From this thread and the email chain, record what was actually decided, who owns each next step and by when, and what's still open or contested, linked to the source messages. Append to decision-log.md; draft a thread reply I can pin.
 
 Reading the thread in #marketing-ops0s
 
@@ -390,7 +382,7 @@ Log a decision from a thread
 
 A long thread reached a decision, and your team keeps a decision log.
 
-With the Productivity plugin’s task management skill, paste the thread link and ask what was decided.
+Paste the thread link and ask what was decided.
 
 Claude reads the whole thread and the email chain, then matches your log’s format.
 
@@ -412,31 +404,9 @@ I read the 64 replies, the email chain and the vendor quote, and appended today�
 
 decision-log.md
 
-Skill: /task-management (Productivity)
-
 Connectors: Slack, Gmail
 
 ## Set up[](https://academy.claude.com/use-cases/thread-to-decision)
-
-### Try a plugin[](https://academy.claude.com/use-cases/thread-to-decision)
-
-The Productivity plugin ships with `/task-management` and other thread-distilling skills as a starting point, already structured to separate decisions from discussion and name owners. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
-
-
-
-ProductivitySkills for inbox sweeps, daily rundowns, meeting prep, and decision logs
-
-[Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=productivity)
-
-`/task-management`Extract decision, owners, and open questions from a thread or chain
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Ftask-management)
-
-`/update`Turn a long thread into a one-paragraph summary with owners
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fupdate)
-
-Show all 4 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/thread-to-decision)
 
@@ -470,7 +440,7 @@ Google DriveOptional
 
 ### Set your working folder[](https://academy.claude.com/use-cases/thread-to-decision)
 
-Keep a `Decisions/` folder and point Claude at it. Drop exported email chains or pasted threads there when connectors aren't an option, and Claude writes each new entry alongside your running decision log. If your team logs decisions regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so the log format and owner directory stay attached.
+Keep a `Decisions/` folder and [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Drop exported email chains or pasted threads there when connectors aren't an option, and Claude adds each new entry to your running decision log. If your team logs decisions regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so the log format stays attached.
 
 Team / Decisions
 
@@ -522,13 +492,15 @@ Tell me what was actually decided, who owns each next step with the date they co
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/thread-to-decision)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your entry format and your sign-off rules, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /task-management skill with my feedback.
+Make what we've done in this task so far into a skill called /decision-log.
 
 
 
-DecisionsOpen in Claude
+Team / DecisionsOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -538,47 +510,45 @@ Make what we've done in this task so far into a skill, or edit the /task-managem
 
 ### Run it whenever a thread gets long[](https://academy.claude.com/use-cases/thread-to-decision)
 
-Decisions get buried the moment a thread crosses fifty replies. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill watches your key channels and writes an entry whenever a thread is marked resolved.
+Decisions get buried the moment a thread crosses fifty replies. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/decision-log` runs on each thread in your key channels that is marked decided.
 
-Set up a scheduled task for weekdays at 5pm: check #product-decisions and #leadership for threads with a :decided: reaction since the last run, run /task-management on each, and append to decision-log.md in Decisions.
+Set up a scheduled task for weekdays at 5pm: check #marketing-ops and #leadership for threads with a :decided: reaction since the last run, run /decision-log on each, and append to decision-log.md in Decisions.
 
 
 
-DecisionsOpen in Claude
+Team / DecisionsOpen in Claude
 
 Scheduled taskActive
 
 Decision-log capture
 
-Checks watched channels for threads marked decided since the last run and appends each to the running log.
+Runs `/decision-log` on threads marked decided in watched channels since the last run and appends each to the running log.
 
 Every **weekday at 5pm**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/thread-to-decision)
 
-Your customized `/task-management` now carries your entry format, your sign-off rules, and your log location. Share it so anyone on the team can turn a thread into a log entry the same way, and the running log stays consistent no matter who captures it.
+Your `/decision-log` skill now carries your entry format, your sign-off rules, and your log location. Share it so anyone on the team can turn a thread into a log entry the same way, and the running log stays consistent no matter who captures it.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/task-management`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your format and sign-off rules baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/decision-log`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your format and sign-off rules baked in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/thread-to-decision)
 
 ### Now set up in Claude
 
-Your plugins
-
-Productivity plugin
-
 Your tools
 
-![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)Slack![](data:image/svg+xml,%3csvg%20width='48'%20height='48'%20viewBox='0%200%2048%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_4766_38693)'%3e%3cpath%20d='M11.9091%2034H16.3636V23.6969L10%2019.1515V32.1818C10%2033.1879%2010.8559%2034%2011.9091%2034Z'%20fill='%234285F4'/%3e%3cpath%20d='M31.6364%2034H36.0909C37.1473%2034%2038%2033.1848%2038%2032.1818V19.1515L31.6364%2023.6969'%20fill='%2334A853'/%3e%3cpath%20d='M31.6364%2015.8182V23.6969L38%2019.1515V16.7272C38%2014.4788%2035.305%2013.1969%2033.4182%2014.5454'%20fill='%23FBBC04'/%3e%3cpath%20d='M16.3636%2023.697V15.8182L24%2021.2727L31.6364%2015.8182V23.697L24%2029.1515'%20fill='%23EA4335'/%3e%3cpath%20d='M10%2016.7272V19.1515L16.3636%2023.6969V15.8182L14.5818%2014.5454C12.6918%2013.1969%2010%2014.4788%2010%2016.7272Z'%20fill='%23C5221F'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_4766_38693'%3e%3crect%20width='28'%20height='20'%20fill='white'%20transform='translate(10%2014)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e)Gmail![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)Google Docs
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)Slack![](data:image/svg+xml,%3csvg%20width='48'%20height='48'%20viewBox='0%200%2048%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_4766_38693)'%3e%3cpath%20d='M11.9091%2034H16.3636V23.6969L10%2019.1515V32.1818C10%2033.1879%2010.8559%2034%2011.9091%2034Z'%20fill='%234285F4'/%3e%3cpath%20d='M31.6364%2034H36.0909C37.1473%2034%2038%2033.1848%2038%2032.1818V19.1515L31.6364%2023.6969'%20fill='%2334A853'/%3e%3cpath%20d='M31.6364%2015.8182V23.6969L38%2019.1515V16.7272C38%2014.4788%2035.305%2013.1969%2033.4182%2014.5454'%20fill='%23FBBC04'/%3e%3cpath%20d='M16.3636%2023.697V15.8182L24%2021.2727L31.6364%2015.8182V23.697L24%2029.1515'%20fill='%23EA4335'/%3e%3cpath%20d='M10%2016.7272V19.1515L16.3636%2023.6969V15.8182L14.5818%2014.5454C12.6918%2013.1969%2010%2014.4788%2010%2016.7272Z'%20fill='%23C5221F'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_4766_38693'%3e%3crect%20width='28'%20height='20'%20fill='white'%20transform='translate(10%2014)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e)Gmail![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)Google Drive
 
 Your folder
 
-Decisions
+Team / Decisions
 
 Decisions from long discussions are logged in a consistent format with owners and source links — one record to check instead of re-reading the thread.
 

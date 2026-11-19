@@ -6,7 +6,7 @@ Turn a feature idea into a prototype your team can click through, then build fro
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-h2vxzijh.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-b8l91frv.png)
 
-A feature idea is easier to judge when people can click through it. With Claude Design, you describe the feature in a conversation and Claude builds a prototype your team can open and try. If Claude has your design system, it builds the prototype from your own components, like your product's real buttons and forms.
+A feature idea is easier to judge when people can click through it. With Claude Design, you describe the feature in a conversation and Claude builds a prototype your team can open and try. If Claude has a design system that includes your own components, like your product's real buttons and forms, it builds the prototype from them.
 
 
 
@@ -75,7 +75,7 @@ Here are three layouts, each on its own artboard. The first is clickable: press 
 
 Notification centerShare
 
-Page 160%
+Page 160%
 
 Inbox listPlay
 
@@ -185,14 +185,14 @@ Claude can build a prototype with your real components, the same buttons and for
 
 You can get a prototype that matches your product in either of these ways:
 
-- **Set up a design system (recommended):** a design system keeps your colors, type and components in one place in Claude. Once your organization has set a default, Claude uses it for any design your team starts. Each teammate can set their own default instead, or turn the organization's off for themselves. See [Setting up a design system in Claude(opens in new tab)](https://academy.claude.com/tutorials/create-a-design-system-with-claude).
+- **Set up a design system (recommended):** a design system keeps your colors and type in one place in Claude, and your real components if it includes them. Once your organization has set a default, Claude uses it for any design your team starts. Each teammate can set their own default instead, or turn the organization's off for themselves. See [Setting up a design system in Claude(opens in new tab)](https://academy.claude.com/tutorials/create-a-design-system-with-claude).
 - **Work from Claude Code in the repository:** ask for the design from a Claude Code session inside your project. Claude can read the code and pick up the colors, type and spacing your product already uses. This needs no setup.
 
-Whichever you choose, these habits help:
+These habits help:
 
 - **Name components in your prompts:** "use the ProductCard component" or "follow the same layout as the settings page" tells Claude which ones to use.
 - **Point Claude at the interface code:** in a large repository, tell Claude which package or folder holds the components.
-- **To change a component, ask Claude:** your real components appear on the artboard exactly as they are in your code.
+- **To change a component, ask Claude:** if your design system includes your real components, they appear on the artboard exactly as they are in your code.
 - **Refresh after the library changes:** a design system synced from your code keeps a copy of your components from the last sync. Sync it again after a release.
 
 ## 4. Refine on the artboards[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
@@ -221,7 +221,7 @@ Start overNext
 
 Notification centerShare
 
-Page 176%
+Page 176%
 
 Inbox listPlay
 
@@ -449,13 +449,13 @@ Claude does the building: the first prototype, then the feature. In between, the
 
 ## If something looks off[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
 
-<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">What you see</th><th class="border-b border-strong p-sm text-left font-medium">What to do</th></tr></thead><tbody><tr><td class="border-b p-sm">You asked for a deck and got artboards with no Present button</td><td class="border-b p-sm">Decks are a separate kind of artifact, Claude Slides. Ask for slides or a deck, and Claude can turn a design into one in the same conversation. See <a aria-describedby="_R_2hmmupj35mq_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary break-words" data-cds="TextLink" href="https://academy.claude.com/tutorials/using-claude-design-for-presentations-and-slide-decks" rel="noopener" target="_blank">Making slides and presentations with Claude<span class="sr-only" hidden="" id="_R_2hmmupj35mq_">(opens in new tab)</span></a>.</td></tr><tr><td class="border-b p-sm">The prototype doesn't respond to clicks</td><td class="border-b p-sm">Press <strong>Play</strong> above the artboard. If the artboard has no <strong>Play</strong> button, ask Claude to make it clickable.</td></tr><tr><td class="border-b p-sm">The screens don't use your real components</td><td class="border-b p-sm">Claude doesn't have them yet. See <a class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary break-words" data-cds="TextLink" href="https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux">section 3</a>.</td></tr><tr><td class="border-b p-sm">Claude Design isn't offered anywhere</td><td class="border-b p-sm">On Team and Enterprise plans, an owner <a aria-describedby="_R_2kmmupj35mq_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary break-words" data-cds="TextLink" href="https://support.claude.com/en/articles/16994751-artifacts-admin-guide-for-team-and-enterprise-plans" rel="noopener" target="_blank">turns it on<span class="sr-only" hidden="" id="_R_2kmmupj35mq_">(opens in new tab)</span></a> under <strong>Organization settings &gt; Artifacts</strong>.</td></tr><tr><td class="border-b p-sm">A design system you made at claude.ai/design isn't in the <strong>+ &gt; Design system</strong> menu</td><td class="border-b p-sm">It has to be migrated first, from the <strong>Artifacts</strong> page. See <a aria-describedby="_R_4lmmupj35mq_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary break-words" data-cds="TextLink" href="https://academy.claude.com/tutorials/create-a-design-system-with-claude" rel="noopener" target="_blank">Migrate from standalone Claude Design<span class="sr-only" hidden="" id="_R_4lmmupj35mq_">(opens in new tab)</span></a>.</td></tr><tr><td class="border-b p-sm">Someone can't open the link you shared</td><td class="border-b p-sm">On Team and Enterprise plans, an owner of your organization decides whether you can share outside it. Use <strong>Export</strong> to send them a file instead. See <a aria-describedby="_R_4mmmupj35mq_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary break-words" data-cds="TextLink" href="https://support.claude.com/en/articles/9547008-share-artifacts" rel="noopener" target="_blank">who can open a shared artifact<span class="sr-only" hidden="" id="_R_4mmmupj35mq_">(opens in new tab)</span></a>.</td></tr></tbody></table>
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">What you see</th><th class="border-b border-strong p-sm text-left font-medium">What to do</th></tr></thead><tbody><tr><td class="border-b p-sm">You asked for a deck and got artboards with no Present button</td><td class="border-b p-sm">Decks are a separate kind of artifact, Claude Slides. Ask for slides or a deck, and Claude can turn a design into one in the same conversation. See <a aria-describedby="_R_2hmmupj35mq_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary break-words" data-cds="TextLink" href="https://academy.claude.com/tutorials/using-claude-design-for-presentations-and-slide-decks" rel="noopener" target="_blank">Making slides and presentations with Claude<span class="sr-only" hidden="" id="_R_2hmmupj35mq_">(opens in new tab)</span></a>.</td></tr><tr><td class="border-b p-sm">The prototype doesn't respond to clicks</td><td class="border-b p-sm">Press <strong>Play</strong> above the artboard. If the artboard has no <strong>Play</strong> button, ask Claude to make it clickable.</td></tr><tr><td class="border-b p-sm">The screens don't use your real components</td><td class="border-b p-sm">Claude doesn't have them yet. See <a class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary break-words" data-cds="TextLink" href="https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux">section 3</a>.</td></tr><tr><td class="border-b p-sm">Claude Design isn't offered anywhere</td><td class="border-b p-sm">On Team and Enterprise plans, an owner <a aria-describedby="_R_2kmmupj35mq_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary break-words" data-cds="TextLink" href="https://support.claude.com/en/articles/16994751-artifacts-admin-guide-for-team-and-enterprise-plans" rel="noopener" target="_blank">turns it on<span class="sr-only" hidden="" id="_R_2kmmupj35mq_">(opens in new tab)</span></a> under <strong>Organization settings &gt; Artifacts</strong>.</td></tr><tr><td class="border-b p-sm">A design system you made at claude.ai/design isn't in the <strong>+ &gt; Design system</strong> menu</td><td class="border-b p-sm">It has to be migrated first. See <a aria-describedby="_R_2lmmupj35mq_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary break-words" data-cds="TextLink" href="https://academy.claude.com/tutorials/create-a-design-system-with-claude" rel="noopener" target="_blank">Migrate from standalone Claude Design<span class="sr-only" hidden="" id="_R_2lmmupj35mq_">(opens in new tab)</span></a>.</td></tr><tr><td class="border-b p-sm">Someone can't open the link you shared</td><td class="border-b p-sm">On Team and Enterprise plans, an owner of your organization decides whether you can share outside it. Use <strong>Export</strong> to send them a file instead. See <a aria-describedby="_R_4mmmupj35mq_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary break-words" data-cds="TextLink" href="https://support.claude.com/en/articles/9547008-share-artifacts" rel="noopener" target="_blank">who can open a shared artifact<span class="sr-only" hidden="" id="_R_4mmmupj35mq_">(opens in new tab)</span></a>.</td></tr></tbody></table>
 
 ## More resources[](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux)
 
 - [Making slides and presentations with Claude(opens in new tab)](https://academy.claude.com/tutorials/using-claude-design-for-presentations-and-slide-decks) for decks.
 - [Setting up a design system in Claude(opens in new tab)](https://academy.claude.com/tutorials/create-a-design-system-with-claude) so designs use your components and type.
-- [Collaborate with your team in Claude artifacts(opens in new tab)](https://academy.claude.com/tutorials/intro-to-artifacts) for how designs are shared and edited with your team.
+- [Collaborate with your team in Claude artifacts(opens in new tab)](https://academy.claude.com/tutorials/collaborate-with-your-team-in-claude-artifacts) for how designs are shared and edited with your team.
 - Visit the [Help Center(opens in new tab)](https://support.claude.com/en/articles/14604416-get-started-with-claude-design) for more support and troubleshooting.
 
 Was this helpful?

@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-mjmk2gjq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bpm7r9eg.png)
 
-Film: the user asks Claude who owns a database table, and Claude searches connected reference files, a wiki, code, and a warehouse, answering with a named owner and linked citations. The user then saves the approach as a shared skill for the team.
+Film: the user asks Claude one question spanning a wiki, code repository, and data warehouse, then watches it cite sources, name an owner, and save the approach as a shared skill.
 
 Confluence
 
@@ -32,7 +32,7 @@ team-directory.md
 
 Commerce Platform
 
-Tech lead Priya Raman. #commerce-platform
+Data owner Priya Raman. #commerce-platform
 
 Build an ‘Ask the company’ agent
 
@@ -50,21 +50,13 @@ Snowflake
 
 Platform / ask-company
 
-2 reference files
+3 reference files
 
 Folder
 
-Engineering
-
-/architecture
-
-/code-review
-
-/documentation
-
 How can I help you today?
 
-**/**documentation Search our wiki, code and warehouse, cite the source for each part, and if you're not sure, tell me who to ask. Who owns the orders table?
+Search our wiki, code and warehouse, cite the source for each part, and if you're not sure, tell me who to ask. Who owns the orders table?
 
 Reading service-catalog.yaml0s
 
@@ -132,7 +124,7 @@ Build an ‘Ask the company’ agent
 
 Your team keeps asking who owns what, and the answers are scattered.
 
-Ask the documentation skill one real question, with each source cited and an owner named.
+Ask Claude one real question, with each source cited and an owner named.
 
 Claude checks each place in turn: your reference files, the wiki, the code and the warehouse.
 
@@ -152,31 +144,9 @@ Search our wiki, code and warehouse, cite the source for each part, and if you'r
 
 I traced the orders table through your reference files, the wiki, the code and the warehouse, and the five sources agree. Owner: Commerce Platform. The orders table is written by orders-service; CODEOWNERS and the service catalog both name that team. CODEOWNERS · meridian/orders-service service-catalog.yamlThe Confluence schema page is two columns behind the warehouse. Order data model (v3) · Confluence COMMERCE.PUBLIC.ORDERS · SnowflakeFor write access or a new column, ask Priya Raman in #commerce-platform, listed as data owner. team-directory.md
 
-Skill: /documentation (Engineering)
-
 Connectors: Confluence, GitHub, Snowflake
 
 ## Set up[](https://academy.claude.com/use-cases/ask-the-company)
-
-### Try a plugin[](https://academy.claude.com/use-cases/ask-the-company)
-
-The Engineering plugin ships with `/documentation` as a starting point, already structured to fan out across connected sources, cite what it finds, and name an owner when it's not sure. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
-
-
-
-EngineeringStreamline engineering workflows — standups, code review, architecture decisions, incident response, and technical documentation. Works with your existing tools or standalone.
-
-[Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=engineering)
-
-`/documentation`Write and maintain technical documentation.
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdocumentation)
-
-`/architecture`Create or evaluate an architecture decision record (ADR).
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Farchitecture)
-
-Show all 10 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/ask-the-company)
 
@@ -188,7 +158,7 @@ Claude is more powerful when it works directly with your systems. You control pe
 
 Confluence
 
-Search the wiki and runbooks for the documented answer first. Confluence access comes through the Atlassian Rovo connector (Jira and Confluence).
+Search the wiki and runbooks for the documented answer first. Confluence access comes through the Atlassian connector (Jira and Confluence).
 
 [Connect](https://claude.ai/desktop/directory/atlassian)
 
@@ -216,7 +186,7 @@ Query the warehouse for "how many" and "why did the metric move" questions.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/ask-the-company)
 
-Drag the files that anchor the agent (your service catalog export, the team directory, the glossary, the "where to find things" onboarding doc) into one folder and point Claude at it. These become the routing table the agent consults before searching anywhere else. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so the catalog and ground rules stay attached as the agent evolves.
+Drag the files that anchor the agent (your service catalog export, the team directory, the glossary, the "where to find things" onboarding doc) into one folder and [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. These become the routing table the agent consults before searching anywhere else. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so the catalog and ground rules stay attached as the agent evolves.
 
 Platform / ask-company
 
@@ -268,13 +238,15 @@ Build an internal "ask anything" agent for engineers. When someone asks "how do 
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/ask-the-company)
 
-The plugin's `/documentation` is a generic starting point. Once Step 2 answers your three questions well, tell Claude to write your version of the skill. Layer in which spaces and repos to search first, the "I'm not sure" threshold, the tone, and the systems that are off-limits. A few minutes of conversation and the skill speaks your stack from then on.
+Once Claude answers your three questions well, tell it what to call the skill. Layer in which spaces and repos to search first, the "I'm not sure" threshold, the tone, and the systems that are off-limits. A few minutes of conversation and the skill speaks your stack from then on.
 
-Make what we've done in this task so far into a skill, or edit the /documentation skill with my feedback.
+Make what we've done in this task so far into a skill called /ask-the-company.
 
 
 
 Platform / ask-companyOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -284,13 +256,13 @@ Make what we've done in this task so far into a skill, or edit the /documentatio
 
 ### Share it as an artifact[](https://academy.claude.com/use-cases/ask-the-company)
 
-Once the agent answers your test questions well, publish it as an artifact so anyone in the org has one link to ask. The artifact runs the shared skill behind the scenes; the platform team owns the skill and keeps tuning it.
+Once the agent answers your test questions well, publish it as an artifact so anyone in the org has one link to ask.
 
 ### Log every question it couldn't answer[](https://academy.claude.com/use-cases/ask-the-company)
 
 The agent gets better when you know where it falls short. Ask Claude to set up a scheduled task or open **Scheduled** in the sidebar, and a weekly run writes the unanswered questions to your folder so the platform team can fill the gaps.
 
-Set up a scheduled task for every Friday at 4pm: list the questions /documentation couldn't confidently answer this week, group them by topic, and write them to Platform/ask-company/gaps-<week>.md with a suggested owner for each.
+Set up a scheduled task for every Friday at 4pm: list the questions /ask-the-company couldn't confidently answer this week, group them by topic, and write them to Platform/ask-company/gaps-<week>.md with a suggested owner for each.
 
 
 
@@ -300,19 +272,21 @@ Set up a scheduled task for every Friday at 4pm: list the questions /documentati
 
 Ask-company gap report
 
-Weekly, lists the questions the agent couldn't answer, groups them by topic, and writes a gap report with suggested owners.
+Weekly, lists the questions `/ask-the-company` couldn't answer, groups them by topic, and writes a gap report with suggested owners.
 
 Every **Friday at 4:00pm**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/ask-the-company)
 
-Your customized `/documentation` now carries your sources, your routing table, and your confidence rules. Share it workspace-wide so every engineer asks the company the same way, and the answer to "how do I…" stops depending on who's in the channel.
+Your `/ask-the-company` skill now carries your sources, your routing table, and your confidence rules. Share it workspace-wide so every engineer asks the company the same way, and the answer to "how do I…" stops depending on who's in the channel.
 
 
 
 Share the skill
 
-Open `/documentation` in your list of skills and select **Publish to org**, if your admin allows it. Everyone gets the same front door to wiki, code, and warehouse, with the platform team keeping it tuned.
+Open `/ask-the-company` in [your skills(opens in new tab)](https://claude.ai/customize/skills/yours) and select **Publish to org**, if your admin allows it. Everyone gets the same front door to wiki, code, and warehouse, with the platform team keeping it tuned.
 
 ## What changes for the org[](https://academy.claude.com/use-cases/ask-the-company)
 

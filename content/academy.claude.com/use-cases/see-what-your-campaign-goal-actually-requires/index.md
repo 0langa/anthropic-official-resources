@@ -34,7 +34,7 @@ Nothing to upload. Type the numbers directly in your prompt.
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/see-what-your-campaign-goal-actually-requires)
 
-Claude draws a five- or six-tier pyramid with each tier showing three numbers: the gift range, the number of gifts the campaign needs at that level, and the number of qualified prospects that realistically takes. A slider above lets you drag the goal and watch every tier rebuild. Click any tier and a short note compares the prospect requirement against a typical pipeline, which is where the feasibility question actually lives.
+Claude draws a tiered pyramid with each tier showing three numbers: the gift range, the number of gifts the campaign needs at that level, and the number of qualified prospects that realistically takes. A slider above lets you drag the goal and watch every tier rebuild. Click any tier and a short note compares the prospect requirement against a typical pipeline, which is where the feasibility question actually lives.
 
 ![Claude's response with an interactive gift pyramid for a $2M campaign: a draggable campaign-goal slider, summary cards for total gifts needed (94), qualified prospects (288), and thin tiers (2), then a seven-tier table starting at a $200K lead gift, showing gifts, prospects, ratio, and a Thin or Watch status on the top four tiers, with notes explaining why the $200K and $140K tiers are flagged Thin](https://academy.claude.com/assets/v1/gift-pyramid-la5fpucb.png)
 

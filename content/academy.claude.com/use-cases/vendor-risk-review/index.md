@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-d3gaacpk.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ctfjf1cz.png)
 
-Film: the user asks Claude to score a vendor's security documents and contract terms against a risk framework, producing a cited memo with a go/no-go call and owned mitigations, then shows sharing the skill across teams.
+Film: a self-playing walkthrough where the user asks Claude to score a vendor's compliance documents and contracts against a risk framework, producing a cited go/no-go memo with owned mitigations, then saves the workflow as a shared skill.
 
 Review a new vendor’s risk
 
@@ -60,7 +60,7 @@ Readsecurity-questionnaire.xlsx, 312 answers
 
 Readnorthwind-dpa-and-msa.docx
 
-![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)CheckedVendor register: no prior review
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)CheckedVendor register in Google Drive: no prior review
 
 Checked24 controls at Tier 2
 
@@ -74,7 +74,7 @@ Tier 2: customer personal data
 
 Tier 2, customer personal data, no payments.
 
-Used 6 sources45s
+Used 6 sources44s
 
 I scored the SOC 2 report, the 312 questionnaire answers, the DPA and the MSA against your 24 controls at Tier 2: 68 of 100, a conditional go, 18 controls met. Three gaps must close before customer data moves, each with an owner, and every finding cites its page, row or clause.
 
@@ -130,9 +130,9 @@ The memo opens with the score and what must close first.
 
 Every finding names its page, row or clause.
 
-Edit the /risk-assessment skill with what we did here and share it with the review group.
+Save what we did here as a skill called /vendor-risk and share it with the review group.
 
-**/risk-assessment**Scores a vendor’s audit report, questionnaire and contract terms against the team framework and drafts the decision memo with cited findings and owned mitigations.
+**/vendor-risk**Scores a vendor’s audit report, questionnaire and contract terms against the team framework and drafts the decision memo with cited findings and owned mitigations.
 
 ReadsWorking foldervendor-risk-framework.pdf![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)Google Drive
 
@@ -150,7 +150,7 @@ Review a new vendor’s risk
 
 You need a go or no-go on a new vendor against your risk framework.
 
-Using the Operations plugin’s risk assessment skill, list documents and ask for a score and fixes.
+Using the Operations plugin’s risk assessment skill, list the documents and ask for a score and mitigations.
 
 Claude reads your framework first, then checks the evidence and the contract terms against each control.
 
@@ -162,7 +162,7 @@ The memo opens with the score and what must close first.
 
 Every finding names its page, row or clause.
 
-Share the skill, and procurement, security and legal can score every vendor the same way.
+Save this work as a skill and share it, so procurement, security and legal score every vendor the same way.
 
 You get a cited recommendation on the vendor and make the call.
 
@@ -182,7 +182,7 @@ Connectors: Google Drive
 
 ### Try a plugin[](https://academy.claude.com/use-cases/vendor-risk-review)
 
-The Operations plugin ships with `/risk-assessment` and other vendor-management skills as a starting point, already structured to read security documentation and score against a framework. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Operations plugin ships with `/risk-assessment` and other operations skills as a starting point. `/risk-assessment` scores each risk by likelihood and impact and lists mitigations with owners. If your admin manages plugins and this plugin isn't available yet, skip this step. The prompt below works without it.
 
 
 
@@ -240,13 +240,13 @@ If your executed contracts live in Ironclad, connect it so Claude can match the 
 
 ### Set your working folder[](https://academy.claude.com/use-cases/vendor-risk-review)
 
-Drag the files you'll use (the vendor's SOC 2, their questionnaire responses, the DPA and MSA, your risk framework) into one folder on your machine, then point Claude at it. Claude reads from it and writes the scored memo and mitigation list back to it. If you run vendor reviews regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your framework, instructions, and memory stay attached.
+Drag the files you'll use (the vendor's SOC 2, their questionnaire responses, the DPA and MSA, your risk framework) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from it and writes the scored memo and mitigation list back to it. If you run vendor reviews regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your framework, instructions, and memory stay attached.
 
 Vendors / Northwind / risk-review
 
 northwind-soc2-type2.pdfApr 20, 20262.4 MB
 
-security-questionnaire-responses.xlsxApr 18, 202696 KB
+security-questionnaire.xlsxApr 18, 202696 KB
 
 northwind-dpa-and-msa.docxApr 18, 2026312 KB
 
@@ -294,13 +294,15 @@ Score this vendor's SOC 2, security questionnaire, DPA, and MSA against our risk
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/vendor-risk-review)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your deal-breaker controls and your memo format, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /risk-assessment skill with my feedback.
+Make what we've done in this task so far into a skill called /vendor-risk.
 
 
 
-VendorsOpen in Claude
+Vendors / Northwind / risk-reviewOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -310,9 +312,9 @@ Make what we've done in this task so far into a skill, or edit the /risk-assessm
 
 ### Run it on every new vendor[](https://academy.claude.com/use-cases/vendor-risk-review)
 
-When a vendor packet arrives, the scored memo should already be drafting. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs whenever a new risk-review folder appears under Vendors.
+Give Claude access to your whole Vendors folder, so it can see each vendor you add. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/vendor-risk` runs every weekday morning on any new risk-review folder under Vendors.
 
-Set up a scheduled task for weekdays at 9am: check Vendors for any new risk-review folder and run /risk-assessment against the docs inside and write the scored memo and mitigation list to that folder.
+Set up a scheduled task for weekdays at 9am: check Vendors for any new risk-review folder, run /vendor-risk against the docs inside, and write the scored memo and mitigation list to that folder.
 
 
 
@@ -322,19 +324,21 @@ Set up a scheduled task for weekdays at 9am: check Vendors for any new risk-revi
 
 Vendor risk first pass
 
-Runs `/risk-assessment` on every new risk-review folder under Vendors and writes the scored memo and mitigation list back to it.
+Runs `/vendor-risk` on every new risk-review folder under Vendors and writes the scored memo and mitigation list back to it.
 
 Every **weekday at 9am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/vendor-risk-review)
 
-Your customized `/risk-assessment` now carries your risk tiers, your deal-breaker controls, and your memo format. Share it so procurement, security, and legal score every vendor the same way and the approval chain reads a consistent memo no matter who ran the review.
+Your `/vendor-risk` skill now carries your risk tiers, your deal-breaker controls, and your memo format. Share it so procurement, security, and legal score every vendor the same way and the approval chain reads a consistent memo no matter who ran the review.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/risk-assessment`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your framework and thresholds baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/vendor-risk`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. Your teammates get the skill with your framework and thresholds baked in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/vendor-risk-review)
 

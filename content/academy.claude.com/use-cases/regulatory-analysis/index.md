@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-btqx4o1h.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mbqnkmu3.png)
 
-Film: a self-playing walkthrough where the user asks Claude to check a new regulation against product descriptions and policies, producing an applicability brief with a dated action table, then shows scheduling the same check to run every weekday on any new rules in a watched folder.
+Film: the user asks Claude to check a new regulation against their company's product descriptions and policies, producing an applicability brief and dated action table with owners, flagging uncertain calls for counsel. It teaches how to turn a new regulation into tailored compliance guidance, runnable on a schedule.
 
 eu-ai-act-final-text.pdf
 
@@ -64,7 +64,7 @@ Regulatory Legal
 
 How can I help you today?
 
-**/**policy-diff Read this regulation against our product descriptions and current policies. Draft the compliance brief: what changed from the prior rule, which provisions apply to us and why, and for each what we must do and by when. Save it to the folder for product and compliance leads. Which parts of this apply to us, and by when?
+**/**policy-diff Read this regulation against our product descriptions and current policies. Draft the compliance brief: what changed from the prior rule, which provisions apply to us and why, and for each what we need to do and by when. Save it to the folder for product and compliance leads. Which parts of this apply to us, and by when?
 
 Reading eu-ai-act-final-text.pdf0s
 
@@ -192,7 +192,7 @@ You can schedule the same brief to run every weekday on any new rules in a watch
 
 You know which parts of the new rule apply, what to change, and by when.
 
-Read this regulation against our product descriptions and current policies. Draft the compliance brief: what changed from the prior rule, which provisions apply to us and why, and for each what we must do and by when. Save it to the folder for product and compliance leads. Which parts of this apply to us, and by when?
+Read this regulation against our product descriptions and current policies. Draft the compliance brief: what changed from the prior rule, which provisions apply to us and why, and for each what we need to do and by when. Save it to the folder for product and compliance leads. Which parts of this apply to us, and by when?
 
 Will the new ranking model in v5 launch in the EU? Yes, all regions on 17 November / No, the EU stays on v4
 
@@ -266,11 +266,11 @@ Ground the applicability brief in authoritative content with citations you can v
 
 ### Set the working folder[](https://academy.claude.com/use-cases/regulatory-analysis)
 
-Put the regulation PDF, your product descriptions, and your current policies in one folder on your machine, then in the Claude desktop app click **+ Add folder** and select it. [Save it as a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your product context, instructions, and memory stay attached for the next rule that drops — Claude reads from the folder and writes the applicability brief and action table back to it.
+Put the regulation PDF, your product descriptions, and your current policies in one folder on your machine, then in the Claude desktop app choose [**Add folder**(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) and select it. [Save it as a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your product context, instructions, and memory stay attached for the next rule that drops — Claude reads from the folder and writes the applicability brief and action table back to it.
 
 
 
-**Just want to try it once first?** Skip the project — click **+ Add folder** on a one-off folder and jump to the prompt below.
+**Just want to try it once first?** Skip the project — choose **Add folder** for a one-off folder and jump to the prompt below.
 
 Regulatory / EU-AI-Act
 
@@ -322,13 +322,15 @@ Read this regulation against our product descriptions and current policies. Draf
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/regulatory-analysis)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your jurisdictions and your memo format, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /policy-diff skill with my feedback.
+Make what we've done in this task so far into a skill called /applicability-brief.
 
 
 
-RegulatoryOpen in Claude
+Regulatory / EU-AI-ActOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -338,9 +340,9 @@ Make what we've done in this task so far into a skill, or edit the /policy-diff 
 
 ### Run it on every new regulation[](https://academy.claude.com/use-cases/regulatory-analysis)
 
-A final rule drops, the applicability brief should already be drafting. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs whenever a new regulation is added to the watch folder. To read a folder on your computer during a scheduled task, make sure the Claude desktop app is open so Claude can access it.
+When a final rule drops, the applicability brief should already be drafting. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/applicability-brief` runs each weekday on any new regulation you add to a watch folder. Create it as Regulatory/Watch, next to EU-AI-Act, and give Claude access to Regulatory.
 
-Set up a scheduled task for weekdays at 9am: check Regulatory/Watch for any new file and run /policy-diff against it and write the applicability brief and action table to a subfolder named for the regulation.
+Set up a scheduled task for weekdays at 9am: check Regulatory/Watch for any new file, run /applicability-brief on it against our product descriptions and policies in Regulatory/EU-AI-Act, and write the applicability brief and action table to a subfolder named for the regulation.
 
 
 
@@ -350,19 +352,21 @@ Set up a scheduled task for weekdays at 9am: check Regulatory/Watch for any new 
 
 New-regulation applicability brief
 
-Runs `/policy-diff` on every new file in Regulatory/Watch and writes the brief and action table to a subfolder named for the regulation.
+Runs `/applicability-brief` on every new file in Regulatory/Watch and writes the brief and action table to a subfolder named for the regulation.
 
 Every **Weekdays at 9am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/regulatory-analysis)
 
-Your customized `/policy-diff` now carries your policy library, your jurisdictions, and your memo format. Share it so product, privacy, and compliance all read the same brief, and the action table follows the same structure every time a rule drops.
+Your `/applicability-brief` skill now carries your jurisdictions and your memo format. Share it so product, privacy, and compliance all read the same brief, and the action table follows the same structure every time a rule drops.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/policy-diff`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your jurisdictions and memo format baked in, so they don't repeat Steps 1-3; each teammate still runs `/cold-start-interview` the first time, pointed at the same policy library, because the plugin keeps its index per person.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/applicability-brief`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your jurisdictions and memo format baked in, so they don't have to build it again; each teammate who uses the plugin still runs `/cold-start-interview` the first time, pointed at the same policy library, because the plugin keeps its index per person.
 
 ## Going forward[](https://academy.claude.com/use-cases/regulatory-analysis)
 

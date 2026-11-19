@@ -32,6 +32,10 @@ The new unified Claude experience requires two capabilities to be on for your or
 
 It doesn't require Cowork or Cowork in the cloud to be on. It is meant to replace both over time.
 
+If members have earlier Cowork tasks that ran on their computers, keep **Cowork** on for their roles and your organization while they still need those tasks. These tasks don't need **Cowork in the cloud**. When Cowork is off for a member's role or your organization, those tasks open read-only, and scheduled tasks on that member's computer stop. Before you turn Cowork off, ask members to type /export in each task they want to keep. This saves the task's transcript as a zip file for reference only. It can't be reopened as a task.
+
+Earlier cloud tasks don't need **Cowork** or **Cowork in the cloud**. They keep working with **Chat and Cowork unified** as long as the role has **Chat** and **Code execution and file creation**, plus **Scheduled tasks** for scheduled ones.
+
 | **Your organization today**                    | **What to do**                                                                                                                                                       |
 | ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Chat only                                      | Turn on **Chat and Cowork unified.** You don't need to turn on Cowork or Cowork in the cloud separately. Make sure **Cloud code execution and file creation** is on. |
@@ -58,7 +62,7 @@ The new unified Claude experience isn't available yet for organizations that use
 
 This turns on the new unified Claude experience for members with the User, Admin, Owner or Primary Owner role. Members on a custom role get it only if their role also includes Chat and Cowork unified.
 
-Scheduled tasks and session history will continue working after the change. You don’t need to update or recreate anything.
+Scheduled tasks and session history will continue working after the change. You don’t need to update or recreate anything. Turning off **Cowork** for a role or your organization is a separate change that affects tasks on members' computers. See **[Before you begin](#h_9d88aaf702)** above.
 
 ### If you haven't changed this setting
 
@@ -66,13 +70,13 @@ On November 16, 2026, **Chat and Cowork unified** turns on by default if no admi
 
 If **Chat** or **Cloud code execution and file creation** is off, nothing turns on. After November 16, the new experience turns on as soon as both are on.
 
-**Custom roles on December 1, 2026:** If your organization is still on by default, the new unified Claude experience turns on for custom roles that have both Chat and code execution selected, even if an admin turned it off for that role. Admins can turn it off again by role after that. If an admin has turned it on or off for your organization, this change doesn’t apply.
+**Custom roles on December 8, 2026:** If your organization is still on by default, the new unified Claude experience turns on for custom roles that have both Chat and code execution selected, even if an admin turned it off for that role. Admins can turn it off again by role after that. If an admin has turned it on or off for your organization, this change doesn’t apply.
 
 ### For specific members, using roles
 
 The organization setting above must also be on. Once it is, everyone with the User, Admin, Owner or Primary Owner role has access. Before you turn it on, move anyone who shouldn’t have it to a custom role with Chat and Cowork unified turned off. New roles start with All capabilities, which includes it.
 
-When you turn it on for your organization, clear that role in the list that opens, because every eligible role starts selected. If your organization is still on by default instead, it turns on for eligible roles on December 1, 2026, even if you turned it off for them.
+When you turn it on for your organization, clear that role in the list that opens, because every eligible role starts selected. If your organization is still on by default instead, it turns on for eligible roles on December 8, 2026, even if you turned it off for them.
 
 If your organization uses custom roles, you can grant the new unified Claude experience to specific roles:
 
@@ -191,11 +195,11 @@ The new unified Claude experience gets its own line in your reports. When a memb
 
 **A page of its own.** Admins who can view analytics will find a Chat and Cowork unified page under Apps. It shows daily active users.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719814921/59cd7abb6c99192d741223dd2016/f2fadd45-8cb0-49db-a9a2-c8f367f29c91?expires=1795024800&amp;signature=b9ccccdf8a961ed2cece7f09d583031601bb07d8674fe8f48af69e78415e62fa&amp;req=dicmH8F%2FmYhdWPMW3nq%2BgbJHOpVrmNfZHbCgL%2F%2BcHiM0FcUwARVLchj9rrUl%0AQoLtBZ06xR2MphlXl%2F0kE0AV644%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719814921/59cd7abb6c99192d741223dd2016/f2fadd45-8cb0-49db-a9a2-c8f367f29c91?expires=1795154400&amp;signature=b7a4824f364a025287c084a18dfd3118f98523381cc789b32cdfbead9ff03e7d&amp;req=dicmH8F%2FmYhdWPMW3nq%2BgbJHOpVrmNbeHbygL%2F%2BcHiNPIMYqzow%2BNhffxfR%2F%0Aa3%2FgWykTDqWEi%2F46avTs6%2BavXac%3D%0A)
 
 **Across the dashboard.** You can pick "Chat and Cowork unified" in the Active users, Active members, Total spend, and Spend by model charts. The See all members table on the Overview page has a "Messages in Chat and Cowork unified" column. The Top connectors and Top skills cards don't include it yet.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719816289/17e3ba22d470c32e8df9b3c20251/385c6be9-7019-451d-85f8-025a6e12a34c?expires=1795024800&amp;signature=dbde115485969e0d1e0ba58efd624b764a1845b9f9520c256a4507116180ab21&amp;req=dicmH8F%2Fm4NXUPMW3nq%2BgTeAtlvnJaC0burv3uEHtAW5rgJnCgV0d8jPYB6L%0Aj9ZEXqhCv8M421geYA4Aa7U5PV4%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2719816289/17e3ba22d470c32e8df9b3c20251/385c6be9-7019-451d-85f8-025a6e12a34c?expires=1795154400&amp;signature=c6f6fb8901d64a5de0f8f28e6bb41d2f67470119f76bbf5d1080103366c176ba&amp;req=dicmH8F%2Fm4NXUPMW3nq%2BgTeAtlvnJaGzbubv3uEHtAWlleZqcwrrtQeViQYQ%0A8SIfTyyu23SRTmOvgl28TabcEFA%3D%0A)
 
 **Who sees it.** The page appears for every organization that can turn on the new unified Claude experience, whether or not it is on yet.
 

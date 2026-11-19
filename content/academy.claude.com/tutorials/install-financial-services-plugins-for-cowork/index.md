@@ -2,9 +2,9 @@
 
 Add Anthropic's open-source financial services plugins to Claude for financial modeling, equity research, investment banking, private equity, and fund administration workflows.
 
-3 minClaude Cowork
+3 minClaude
 
-[Open Cowork](https://claude.ai/new?surface=cowork)
+[Open Claude](https://claude.ai/new)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-hiukxeka.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j0tcbi0h.png)
 
@@ -28,17 +28,17 @@ The repository also includes partner-built plugins from **LSEG** and **S&P Globa
 ## Add the marketplace[](https://academy.claude.com/tutorials/install-financial-services-plugins-for-cowork)
 
 1. Open Claude.
-2. Go to **Customize > Plugins > Add > Add marketplace**.
+2. On the [plugins page(opens in new tab)](https://claude.ai/desktop/customize/plugins), select **Add > Add marketplace**.
 3. Select **Browse Anthropic sources**.
 4. Select **Add** next to Financial Services, then select **Done**.
 5. Once the marketplace is added, its plugins are available for you to add.
 
-On a Team or Enterprise plan, you won't see **Browse Anthropic sources**. An admin adds Financial Services for the whole organization from **Organization settings > Plugins & skills**.
+On a Team or Enterprise plan, you won't see **Browse Anthropic sources**. An admin adds Financial Services for the whole organization in Organization settings, following the Help Center's steps to [use Anthropic-built marketplaces(opens in new tab)](https://support.claude.com/en/articles/13837433-manage-plugins-for-your-organization).
 
 ## Add plugins[](https://academy.claude.com/tutorials/install-financial-services-plugins-for-cowork)
 
 1. On the **Plugins** page, find the financial services plugins.
-2. Select the **financial analysis** plugin, then **Add**. Add this one first, because it is the core plugin that provides shared tools and data connectors used by all other plugins.
+2. Add the **financial analysis** plugin first, because it is the core plugin that provides shared tools and data connectors used by all other plugins.
 3. Add any additional plugins based on your workflow needs.
 4. If a plugin has connectors, connect them when asked.
 

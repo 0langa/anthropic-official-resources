@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-gl4mvsbr.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-f2aunmbb.png)
 
-Film: the user asks Claude to explain a weekly activation metric drop by segmenting the funnel, checking the isolated driver against what shipped, then writing a narrative with charts, scheduled to repeat weekly.
+Film: the user asks Claude to segment a dropping metric by plan, platform, and source, check the driver against what shipped, and write a narrative with charts, then schedule it weekly.
 
 **Activation · weekly · Tanager metrics**×
 
@@ -130,7 +130,7 @@ Reading the funnel export0s
 
 Read4 sources
 
-Readactivation-funnel-wk34.csv
+Readamplitude-activation-funnel-wk34.csv
 
 Readchangelog-aug.md
 
@@ -176,7 +176,7 @@ In points. One cell moved; every other cell is within a point, and plan tier exp
 
 Claude checks each segment you named and shows the one that moved.
 
-Run this every Monday at 7am: take last week’s funnel export in Product / metrics, run /metrics-review, check Linear for what shipped, and write the narrative and two charts to that week’s folder. Flag anything that moved more than 10%.
+Run this every Monday at 7am: take last week’s funnel export in Product / metrics, run the same analysis, check Linear for what shipped, and write the narrative and two charts to that week’s folder. Flag anything that moved more than 10%.
 
 **Weekly metrics narrative**Mondays at 7:00 AM
 
@@ -184,7 +184,7 @@ Each run
 
 Reads last week’s funnel export in Product / metrics
 
-Runs /metrics-review and checks Linear for what shipped
+Runs the same analysis and checks Linear for what shipped
 
 Writes the narrative and two charts to that week’s folder*before your review*
 
@@ -230,7 +230,7 @@ Connectors: Linear
 
 ### Try a plugin[](https://academy.claude.com/use-cases/metrics-narrative)
 
-The Product Management plugin ships with `/metrics-review` and other analysis skills as a starting point, already structured to find the anomaly, segment to the driver, and write the story. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Product Management plugin ships with `/metrics-review` and other analysis skills as a starting point, already structured to find the anomaly and write up why it likely happened. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -282,7 +282,7 @@ Linear
 
 ### Set your working folder[](https://academy.claude.com/use-cases/metrics-narrative)
 
-Drag the files you'll use (the Amplitude or Mixpanel CSV export, last week's narrative for comparison, the changelog if it's a flat file) into one folder on your machine, then point Claude at it. Claude reads from it and writes the narrative and chart images back to it. If you write this every week, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your metric definitions, instructions, and memory stay attached.
+Drag the files you'll use (the Amplitude or Mixpanel CSV export, last week's narrative for comparison, the changelog if it's a flat file) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from it and writes the narrative and chart images back to it. If you write this every week, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your metric definitions, instructions, and memory stay attached.
 
 Product / metrics / wk17
 
@@ -336,13 +336,15 @@ Find the anomaly in this week's activation funnel. Segment by plan, platform, an
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/metrics-narrative)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your metric definitions and your narrative format, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /metrics-review skill with my feedback.
+Make what we've done in this task so far into a skill called /metrics-narrative.
 
 
 
-Product / metricsOpen in Claude
+Product / metrics / wk17Open in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -352,9 +354,9 @@ Make what we've done in this task so far into a skill, or edit the /metrics-revi
 
 ### Run it every Monday morning[](https://academy.claude.com/use-cases/metrics-narrative)
 
-The "why did the number move" question comes every week whether or not you've had time to dig. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill writes the narrative before standup.
+The "why did the number move" question comes every week whether or not you've had time to dig. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/metrics-narrative` writes the narrative before your review.
 
-Set up a scheduled task for every Monday at 7am: run /metrics-review for the prior week, write the narrative and charts to Product/metrics/<week>, and flag anything that moved more than 10% week over week.
+Set up a scheduled task for every Monday at 7am: run /metrics-narrative for the prior week, write the narrative and charts to Product/metrics/<week>, and flag anything that moved more than 10% week over week.
 
 
 
@@ -364,19 +366,21 @@ Set up a scheduled task for every Monday at 7am: run /metrics-review for the pri
 
 Weekly metrics narrative
 
-Runs `/metrics-review` against the prior week's data, isolates the driver, and writes the what-happened-and-why with charts to the week's folder.
+Runs `/metrics-narrative` against the prior week's data, isolates the driver, and writes the what-happened-and-why with charts to the week's folder.
 
 Every **Monday at 7:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/metrics-narrative)
 
-Your customized `/metrics-review` now carries your metric definitions, your segment order, and your narrative format. Share it so any PM can answer "why did this move" in your structure, and the weekly readout stays consistent no matter whose number it is.
+Your `/metrics-narrative` skill now carries your metric definitions, your segment order, and your narrative format. Share it so any PM can answer "why did this move" in your structure, and the weekly readout stays consistent no matter whose number it is.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/metrics-review`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your definitions and format baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/metrics-narrative`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. Your teammates get the skill with your definitions and format baked in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/metrics-narrative)
 

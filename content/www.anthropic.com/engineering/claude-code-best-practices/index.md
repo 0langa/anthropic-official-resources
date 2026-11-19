@@ -387,7 +387,7 @@ The opposite problem is the classifier repeatedly stopping something that’s ro
 }
 ```
 
-Keep `"$defaults"` in every list you set, because without it your entries *replace* that list’s built-in rules instead of adding to them. For `environment` and `allow` you’d lose the built-in context and exceptions, and a `soft_deny` list without it drops the built-in blocks on force pushes and production deploys.The `autoMode` block also has to live in `~/.claude/settings.json` rather than the project, because the classifier ignores `autoMode` in project settings.
+Keep `"$defaults"` in every list you set, because without it your entries [can replace](https://code.claude.com/docs/en/auto-mode-config) that list’s built-in rules instead of adding to them. You can lose the built-in context in `environment`, the exceptions in `allow`, and the blocks on force pushes and production deploys in `soft_deny`.The `autoMode` block also has to live in `~/.claude/settings.json` rather than the project, because the classifier ignores `autoMode` in project settings.
 
 If you’d rather see every edit and command before it happens, `Shift+Tab` in the session cycles through the permission modes, Manual included, or start with `claude --permission-mode manual` from your shell. And if Manual then asks too often, `/fewer-permission-prompts` scans your recent transcripts for common read-only Bash and MCP calls and adds them to an allowlist in `.claude/settings.json`.
 

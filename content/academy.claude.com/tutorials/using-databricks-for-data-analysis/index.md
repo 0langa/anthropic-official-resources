@@ -6,7 +6,7 @@ Integrate Claude with Databricks to access organizational data through Unity Cat
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-oaszh3jx.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-k1t9w93z.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-bihcs9pw.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lovcch5o.png)
 
 The Databricks integration provides Claude with access to your organization's internal data through Unity Catalog, enabling analysis of your databases, running custom business logic, and accessing unstructured documents.
 
@@ -15,7 +15,7 @@ The Databricks integration provides Claude with access to your organization's in
 Before exploring what Claude can do with Databricks, it's important to understand three core components that exist within your Databricks workspace:
 
 1. **Unity Catalog Functions**: Custom Python or SQL functions your organization has created for specific calculations, data transformations, or API integrations. These might include proprietary scoring algorithms, normalized financial calculations, or business-specific data processing logic.
-2. **Vector Search**: Semantic search indexes built on your organization's documents and datasets. These allow searching conceptually similar content even when exact keywords don't match.
+2. **AI Search (formerly Vector Search)**: Semantic search indexes built on your organization's documents and datasets. These allow searching conceptually similar content even when exact keywords don't match.
 3. **Genie**: A natural language interface that translates plain English questions into SQL queries against your data. Genie uses metadata about your tables and columns to understand business terminology and generate appropriate queries.
 
 ## What This Connector Provides[](https://academy.claude.com/tutorials/using-databricks-for-data-analysis)
@@ -25,9 +25,9 @@ Before exploring what Claude can do with Databricks, it's important to understan
 Through the Databricks integration, Claude can access resources in your workspace:
 
 - **Execute Custom Functions**: Claude can run Unity Catalog functions defined by your organization. This includes executing complex business logic, applying calculations, or calling external APIs through functions your team has created. For example, if your organization has built a custom customer health score function, Claude can apply it consistently across analyses.
-- **Semantic Search**: Using vector search indexes, Claude can find relevant documents and content based on meaning rather than just keywords. This is particularly useful for searching through contracts, research reports, customer feedback, or technical documentation where similar concepts might be expressed in different ways.
+- **Semantic Search**: Using AI Search indexes, Claude can find relevant documents and content based on meaning rather than just keywords. This is particularly useful for searching through contracts, research reports, customer feedback, or technical documentation where similar concepts might be expressed in different ways.
 - **Natural Language Queries**: Through Genie, Claude can translate plain English questions into SQL queries. Instead of writing complex SQL, you can ask questions like "What was our revenue growth last quarter?" and Claude will use Genie to generate and execute the appropriate query.
-- **Governed Access**: All data access through the connector respects your organization's Unity Catalog permissions and policies. Claude can only access data and execute functions that your user account has permission to use.
+- **Governed Access**: When you sign in with your own Databricks account, Claude can only access data and execute functions that your account has permission to use in Unity Catalog.
 
 ### How Claude Uses Databricks Data[](https://academy.claude.com/tutorials/using-databricks-for-data-analysis)
 
@@ -37,29 +37,33 @@ Claude applies Databricks capabilities in several ways to support comprehensive 
 - **Iterative Exploration**: Claude can query data, analyze initial results, and refine searches based on findings. This allows for analysis where insights from one query inform the next.
 - **Custom Logic Application**: By executing Unity Catalog functions, Claude applies your organization's specific rules and calculations. This ensures that proprietary metrics, adjusted calculations, and company-specific logic are applied uniformly across all analyses.
 - **Contextual Query Building**: When you ask questions in plain English, Claude uses Genie to translate them into appropriate SQL queries. This translation considers your table structures, column names, and relationships to generate accurate queries that match your database structure.
-- **Pattern Recognition**: Through vector search, Claude can find patterns and similarities across documents and data. This helps in finding related issues, similar transactions, or comparable situations that might not be obvious through traditional keyword searches.
+- **Pattern Recognition**: Through AI Search, Claude can find patterns and similarities across documents and data. This helps in finding related issues, similar transactions, or comparable situations that might not be obvious through traditional keyword searches.
 
 ## Setting up the Databricks Connector[](https://academy.claude.com/tutorials/using-databricks-for-data-analysis)
 
-The Databricks integration consists of three separate connectors, each requiring separate setup:
+This guide uses three Databricks servers, each added as a separate connector:
 
 1. **Functions Server:** Accesses Unity Catalog functions for calculations, business logic, and data transformations.
-2. **Vector Search Server:** Enables semantic search across indexed documents and datasets.
-3. **Genie Server:** Provides natural language to SQL query translation capabilities.
+2. **AI Search Server:** Enables semantic search across indexed documents and datasets.
+3. **Genie Agent Server:** Provides natural language to SQL query translation for one Genie Agent (formerly Genie Space).
 
-Technical details of the Databricks connectors can be found in Databricks's [MCP Server Documentation(opens in new tab)](https://docs.databricks.com/aws/en/generative-ai/mcp/managed-mcp). Authentication with Databrick's connectors is handled via [OAuth(opens in new tab)](https://docs.databricks.com/aws/en/generative-ai/mcp/connect-external-services) (for [Claude.ai(opens in new tab)](http://claude.ai/) and Claude Desktop) or via a [Databricks Personal Access Token(opens in new tab)](https://docs.databricks.com/aws/en/generative-ai/mcp/connect-external-services) (for Claude Desktop only).
+Databricks also offers a **Databricks Genie** connector in the [connectors directory(opens in new tab)](https://claude.ai/directory/databricks). It connects Claude to Databricks's Genie One MCP server, which answers questions across your workspace, and is separate from the Genie Agent server in this guide.
+
+Technical details of the Databricks connectors can be found in Databricks's [MCP Server Documentation(opens in new tab)](https://docs.databricks.com/aws/en/generative-ai/mcp/managed-mcp). Authentication with the Databricks connectors is handled via OAuth (for [Claude.ai(opens in new tab)](http://claude.ai/) and Claude Desktop).
 
 ### Adding the Connector as an Organization Owner[](https://academy.claude.com/tutorials/using-databricks-for-data-analysis)
 
-1. Navigate to [Admin settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors).
-2. Scroll down and click “Add custom connector" at the bottom of the list.
+Before you start, ask a Databricks workspace admin to turn on **Managed MCP Servers** on the workspace Previews page. If your workspace restricts incoming IP addresses, the admin also needs to allow Claude's.
+
+1. Navigate to [Organization settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors).
+2. Click “Add” (or “Add connector”) and choose the custom option. If you then see “Web” and “Desktop,” select “Web.”
 3. Enter integration URL for [your Databricks workspace(opens in new tab)](https://docs.databricks.com/aws/en/generative-ai/mcp/managed-mcp)
-4. Name the integration. Remember that there are three separate Databricks servers, so consider naming each uniquely (e.g., "Databricks UC", "Databricks Genie", "Databricks Search")
-5. Click "Add"
+4. Name the integration. Remember that each Databricks server is added separately, so consider naming each uniquely (e.g., "Databricks UC", "Databricks Genie Agent", "Databricks Search")
+5. Follow any prompts to finish. If asked how people sign in, see [Get started with custom connectors using remote MCP(opens in new tab)](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp).
 
 ### For Individual Users[](https://academy.claude.com/tutorials/using-databricks-for-data-analysis)
 
-Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory).
+After an owner adds the connectors, connect each one from [your connectors(opens in new tab)](https://claude.ai/customize/connectors/yours). Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory).
 
 ## Common Use Cases[](https://academy.claude.com/tutorials/using-databricks-for-data-analysis)
 
@@ -107,7 +111,7 @@ Claude might then report its results in a summary showing exit-ready companies w
 
 Example input prompt:
 
-We're evaluating TechCorp acquisition (SaaS, $45M revenue, $12M EBITDA).What's a fair valuation and how much debt can we support? Include previous due diligence records in your analysis.
+We're evaluating TechCorp acquisition (SaaS, $45M revenue, $12M EBITDA). What's a fair valuation and how much debt can we support? Include previous due diligence records in your analysis.
 
 
 
@@ -117,7 +121,7 @@ To complete this request, Claude might follow this workflow:
 
 1. **Genie**: Query market comparables for similar-sized companies in target's sector to establish valuation benchmarks.
 2. **UC Function**: Call `estimate_debt_capacity()` with target metrics to model leverage scenarios and stress-test covenant compliance.
-3. **Vector Search**: Search due diligence index for relevant value creation playbooks and precedent transactions.
+3. **AI Search**: Search due diligence index for relevant value creation playbooks and precedent transactions.
 4. **Synthesis**: Combine results to generate valuation range, recommended capital structure, and relevant precedents.
 
 Ideally, Claude would then respond with a report on the valuation range and a recommended offer price, while citing sources that lead to its recommendation.
@@ -149,7 +153,7 @@ Claude might then respond with a breach risk analysis, organized by company and 
 - Use "find similar" language for pattern matching
 
   - Example: "Find feedback that mentions issues like this complaint."
-- Remember that all data access permissions follow your Unity Catalog permissions. Claude can only access the data that you can access.
+- Remember that when you sign in with your own Databricks account, Claude can only access the data that you can access.
 - Custom functions provide consistent calculations. Consider adding UC Functions for calculating standardized metrics.
 - Complex analyses may require multiple steps. Ask for a plan first and review Claude's proposed approach.
 

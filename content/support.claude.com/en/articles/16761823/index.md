@@ -46,7 +46,7 @@ Apps you've connected to Claude (like Google Drive, Gmail, Microsoft 365, or Sla
 
 - **Browsing:** Claude can open sites, read pages, click, and fill in forms, using the browser built into Claude Desktop or your own Chrome browser through Claude in Chrome. Learn more in **[Use the built-in browser in Claude Cowork](https://support.claude.com/en/articles/16607400)**.
 
-- **Computer use:** In beta on Pro, Max, and Ultra plans, Claude can use apps on your computer directly by clicking, typing, and navigating your screen. Learn more in **[Let Claude use your computer in Cowork](https://support.claude.com/en/articles/14128542)**.
+- **Computer use:** On Pro, Max, and Ultra plans, Claude can use apps on your computer directly by clicking, typing, and navigating your screen. Learn more in **[Let Claude use your computer in Cowork](https://support.claude.com/en/articles/14128542)**.
 
 Claude reaches your local files, the built-in browser, and computer use only while Claude Desktop is open, and by default it asks before permanently deleting any files.
 
@@ -72,11 +72,13 @@ A task you start at your desk shows up in Claude Mobile too, so you can see how 
 
 A permission setting in the message box controls how independently Claude works:
 
-- **Auto (default on Pro, Max, Ultra, and Team plans):** Claude keeps working without stopping to ask about each step, and automated safety checks run before it takes an action.
+- **Auto (rolling out as the default on Pro, Max, Ultra, and Team plans):** Claude keeps working without stopping to ask about each step, and automated safety checks run before it takes an action.
 
-- **Manual (default on Enterprise plans):** Claude asks before it takes actions, and you choose whether to allow each one.
+- **Manual (default on Enterprise plans, except in the Cowork side panel in Chrome):** Claude asks before it takes actions, and you choose whether to allow each one.
 
 You can change the setting at any time, and you can stop or redirect Claude while it works. The setting applies to the whole conversation. For work with real consequences, like sending messages or changing important files, stay close and review what Claude does. Learn more in **[Use Claude Cowork safely](https://support.claude.com/en/articles/13364135)**.
+
+You can also set a connector tool to "Always ask." Claude is built to ask before each use of that tool. Learn more in **[Have Claude always ask before using a connector tool](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork#h_b24dec5b5a)**.
 
 ## Pick up where you left off
 
@@ -90,7 +92,7 @@ You can change the setting at any time, and you can stop or redirect Claude whil
 
 ## What happened to Claude Cowork?
 
-In the new experience, everything Claude Cowork does is available from any conversation. Your existing Cowork tasks, projects, connectors, skills, artifacts, and files carry over, and those Cowork tasks open as they did before, so you can continue them. The model picker and the “Code” tab are where they were.
+In the new experience, everything Claude Cowork does is available from any conversation. Your existing Cowork tasks, projects, connectors, skills, artifacts, and files carry over, and those Cowork tasks open as they did before, so you can continue them. On Enterprise plans, tasks that ran on your computer need Cowork on for your role and your organization. If your admin turns Cowork off for your role or your organization, those tasks open read-only. The model picker and the “Code” tab are where they were.
 
 ## What's in a new place
 

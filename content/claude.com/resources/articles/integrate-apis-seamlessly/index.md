@@ -38,7 +38,7 @@ You can integrate AI coding assistants like Claude into your integration workflo
 
 You can work with Claude in two different ways:
 
-[**Claude.ai**](https://claude.ai/redirect/claudedotcom.v1.c53f3f8d-4208-4b01-a381-fe6b4ef237ee) provides a free web interface where you can paste API specifications, explore authentication flows, and receive integration guidance with specific failure scenarios to prevent. Accessible from any browser, desktop, or mobile device.
+[**Claude.ai**](https://claude.ai/redirect/claudedotcom.v1.dc42c40f-8916-4131-91d1-a37d3ddec853) provides a free web interface where you can paste API specifications, explore authentication flows, and receive integration guidance with specific failure scenarios to prevent. Accessible from any browser, desktop, or mobile device.
 
 [**Claude Code**](https://claude.com/product/claude-code) integrates directly into your development environment as an [agentic](https://claude.com/resources/articles/introduction-to-agentic-coding) terminal tool. It autonomously analyzes entire codebases, generates production-ready clients with comprehensive error handling, and implements authentication flows that match your existing patterns.
 
@@ -124,7 +124,7 @@ Generates descriptive commit messages, crafts clear PR descriptions linking chan
 
 ## Choose your integration approach
 
-[**Claude.ai**](https://claude.ai/redirect/claudedotcom.v1.c53f3f8d-4208-4b01-a381-fe6b4ef237ee): to evaluate new APIs, understand authentication requirements, or plan error handling strategies before implementation. The browser interface supports sharing integration approaches with your team or conducting research about vendor-specific API behaviors via web search functionality.
+[**Claude.ai**](https://claude.ai/redirect/claudedotcom.v1.dc42c40f-8916-4131-91d1-a37d3ddec853): to evaluate new APIs, understand authentication requirements, or plan error handling strategies before implementation. The browser interface supports sharing integration approaches with your team or conducting research about vendor-specific API behaviors via web search functionality.
 
 [**Claude Code**](https://claude.com/product/claude-code): Use Claude Code when you need to generate boilerplate client code, implement complex authentication flows across multiple files, or create comprehensive test suites. The agentic terminal integration is essential for implementations that touch configuration files, environment variables, and CI/CD pipelines.
 
@@ -134,15 +134,15 @@ Describe the integration you're trying to build, and [Claude Code](https://claud
 
 How can I identify API rate limiting issues before hitting production?
 
-Analyzing API documentation upfront helps identify rate limit thresholds, counting methods (per user, per IP, per API key), and reset windows before deployment. AI tools like [Claude](https://claude.ai/redirect/claudedotcom.v1.c53f3f8d-4208-4b01-a381-fe6b4ef237ee) analyze specifications to suggest appropriate backoff strategies, request queuing patterns, and circuit breaker implementations based on your specific API requirements. This prevents the trial-and-error cycle of discovering rate limits through production failures.
+Analyzing API documentation upfront helps identify rate limit thresholds, counting methods (per user, per IP, per API key), and reset windows before deployment. AI tools like [Claude](https://claude.ai/redirect/claudedotcom.v1.dc42c40f-8916-4131-91d1-a37d3ddec853) analyze specifications to suggest appropriate backoff strategies, request queuing patterns, and circuit breaker implementations based on your specific API requirements. This prevents the trial-and-error cycle of discovering rate limits through production failures.
 
 What's the fastest way to understand a third-party API's authentication flow?
 
-Paste the API documentation into [Claude.ai](https://claude.ai/redirect/claudedotcom.v1.c53f3f8d-4208-4b01-a381-fe6b4ef237ee) and ask specific questions about the authentication requirements. Claude breaks down OAuth2 flows, token refresh cycles, and header requirements in plain language. You get concrete implementation guidance for handling token expiration, refresh logic, and credential rotation without parsing through pages of vendor documentation.
+Paste the API documentation into [Claude.ai](https://claude.ai/redirect/claudedotcom.v1.dc42c40f-8916-4131-91d1-a37d3ddec853) and ask specific questions about the authentication requirements. Claude breaks down OAuth2 flows, token refresh cycles, and header requirements in plain language. You get concrete implementation guidance for handling token expiration, refresh logic, and credential rotation without parsing through pages of vendor documentation.
 
 Should I use polling or webhooks for real-time data updates?
 
-The choice depends on your latency requirements, data volume, and infrastructure constraints. Webhooks provide immediate updates but require webhook validation, idempotency handling, and retry logic for failed deliveries. Polling offers simpler implementation but increases API calls and introduces latency. [Claude](https://claude.ai/redirect/claudedotcom.v1.c53f3f8d-4208-4b01-a381-fe6b4ef237ee) can analyze your specific use case and API constraints to recommend the approach that fits your requirements, including hybrid strategies that combine both methods.
+The choice depends on your latency requirements, data volume, and infrastructure constraints. Webhooks provide immediate updates but require webhook validation, idempotency handling, and retry logic for failed deliveries. Polling offers simpler implementation but increases API calls and introduces latency. [Claude](https://claude.ai/redirect/claudedotcom.v1.dc42c40f-8916-4131-91d1-a37d3ddec853) can analyze your specific use case and API constraints to recommend the approach that fits your requirements, including hybrid strategies that combine both methods.
 
 How do I handle API schema changes without breaking production?
 
@@ -152,7 +152,23 @@ Implement versioned clients that support multiple API versions simultaneously, u
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 13, 2026
+[ArticleNov 17, 2026
+
+### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
+
+How Claude spent two weeks load testing a staging cluster, breaking the Claude Docs service on purpose and fixing what fell over before launch, and what made the service legible enough for Claude to close the loop.
+
+Claude CodeClaude apps
+
+(opens in new tab)](https://claude.dev/blog/chaos-loop-claude-docs-launch/)[ArticleNov 16, 2026
+
+### How the Claude Code team thinks about verification
+
+How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)[ArticleNov 13, 2026
 
 ### Building always-on agents
 
@@ -164,19 +180,7 @@ Claude Platform](https://claude.com/resources/articles/building-always-on-agents
 
 How leading startups use Claude Tag to ship faster and scale operations
 
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
-
-### How Curative is building a national provider network with agents on Claude
-
-Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
-
-Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 9, 2026
-
-### Safely scaling multi-agent teams with Claude Fable 5.2
-
-How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
-
-(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 

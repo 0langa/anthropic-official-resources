@@ -49,11 +49,7 @@ Event\_Branding\_FlyerPDF
 
 ### Optional context[](https://academy.claude.com/use-cases/create-interactive-pdf-forms)
 
-Enable [Extended Thinking(opens in new tab)](https://support.claude.com/en/articles/10574485-using-extended-thinking) to give Claude more time to think through and produce high quality file outputs.
-
-[
-
-Extended Thinking](https://support.claude.com/en/articles/10574485-using-extended-thinking)
+Raise the [effort level(opens in new tab)](https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings) in the model menu, or turn on thinking if your model has that toggle, to give Claude more time to think through and produce high quality file outputs.
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/create-interactive-pdf-forms)
 

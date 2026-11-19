@@ -6,7 +6,7 @@ Connect Claude to Benevity's database of nonprofits to discover and research cha
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-lzaj8nst.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kkw47t08.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-kopg2tc9.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kc4vrwmb.png)
 
 The Benevity connector gives Claude access to a database of nonprofit organizations. Search by cause, location, or keyword, and get detailed profiles including mission statements, program descriptions, and geographic focus.
 
@@ -17,27 +17,23 @@ The Benevity integration relies on Claude's ability to [use remote connectors(op
 - Access to Benevity's database of verified nonprofit organizations
 - Detailed profiles including mission statements, program descriptions, and geographic focus
 - Keyword search for local and international organizations
-- Direct website links to organizations
+- Verified website links to organizations
 
 ## Who can use this[](https://academy.claude.com/tutorials/using-the-benevity-connector-in-claude)
 
-Available to all paid Claude plan users (Pro, Max, Ultra, Team, or Enterprise). No Benevity account or authentication is required.
+Available on all Claude plans. No Benevity account or authentication is required.
 
 ## Setting up the connector[](https://academy.claude.com/tutorials/using-the-benevity-connector-in-claude)
 
 ### For organization owners (Team and Enterprise)[](https://academy.claude.com/tutorials/using-the-benevity-connector-in-claude)
 
-1. Navigate to [Admin settings(opens in new tab)](https://claude.ai/admin-settings) > Connectors
-2. Select `Browse connectors`
-3. Find and select Benevity
-4. Select `Add to your team`
+1. Navigate to [Organization settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors)
+2. Use the Add button to browse all available connectors, then find **Benevity** and add it for your team
 
 ### For individual users[](https://academy.claude.com/tutorials/using-the-benevity-connector-in-claude)
 
-1. Navigate to [Settings(opens in new tab)](https://claude.ai/settings) > Connectors
-2. Select `Browse connectors`
-3. Find and select Benevity
-4. Follow the instructions to enable
+1. Open [Benevity in the connectors directory(opens in new tab)](https://claude.ai/directory/benevity)
+2. Connect it to Claude
 
 ## Example use cases[](https://academy.claude.com/tutorials/using-the-benevity-connector-in-claude)
 
@@ -77,7 +73,7 @@ Find verified nonprofits focused on STEM education for workplace giving programs
 
 ### Does it cost extra?[](https://academy.claude.com/tutorials/using-the-benevity-connector-in-claude)
 
-No. The integration is free for all paid Claude plans. No separate Benevity account is needed.
+No. The integration is free on all Claude plans. No separate Benevity account is needed.
 
 ### Can I donate through Claude?[](https://academy.claude.com/tutorials/using-the-benevity-connector-in-claude)
 
@@ -85,7 +81,7 @@ The connector supports research only. To donate, visit the nonprofit's website d
 
 ### How current is the data?[](https://academy.claude.com/tutorials/using-the-benevity-connector-in-claude)
 
-Claude accesses Benevity's database in real time. Organization profiles are updated regularly.
+Benevity curates and updates its nonprofit data continuously. The connector uses cached data that refreshes regularly.
 
 ### Does it include international organizations?[](https://academy.claude.com/tutorials/using-the-benevity-connector-in-claude)
 

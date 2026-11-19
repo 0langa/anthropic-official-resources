@@ -1,20 +1,20 @@
 # Using the ClinicalTrials.gov Connector in Claude
 
-Set up and use the ClinicalTrials.gov integration with Claude to search the NIH/NLM registry of 500,000+ clinical trials, analyze endpoints, and support research operations.
+Set up and use the ClinicalTrials.gov integration with Claude to search the NIH/NLM registry of 600,000+ clinical studies, analyze endpoints, and support research operations.
 
 15 minClaude
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-nnnx54tu.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ilp5ucpx.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-masuk8o7.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gfv3v8tj.png)
 
-The ClinicalTrials.gov connector gives Claude access to the NIH/NLM registry of 500,000+ clinical studies to search trials, analyze endpoints, and support research operations. This article explains how to set up and use the ClinicalTrials.gov integration with Claude to power clinical, regulatory, and patient-supporting workflows.
+The ClinicalTrials.gov connector gives Claude access to the NIH/NLM registry of 600,000+ clinical studies to search trials, analyze endpoints, and support research operations. This article explains how to set up and use the ClinicalTrials.gov integration with Claude to power clinical, regulatory, and patient-supporting workflows.
 
 The ClinicalTrials.gov integration relies upon Claude's ability to [use remote connectors(opens in new tab)](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities).
 
 ## **What this integration provides**[](https://academy.claude.com/tutorials/using-the-clinicaltrials-gov-connector-in-claude)
 
-The ClinicalTrials.gov connector gives Claude access to ClinicalTrials.gov API v2, the world's largest clinical trial registry managed by the National Library of Medicine (NLM) at the National Institutes of Health (NIH). With more than 1,200 studies, the database has grown to over 500,000 registered trials across 221 countries and territories, representing the most comprehensive source of clinical research information worldwide.
+The ClinicalTrials.gov connector gives Claude access to ClinicalTrials.gov API v2, the world's largest clinical trial registry managed by the National Library of Medicine (NLM) at the National Institutes of Health (NIH). The database has grown to over 600,000 registered studies with locations in more than 200 countries and territories, representing the most comprehensive source of clinical research information worldwide.
 
 This connector provides six primary tool calls that access different dimensions of clinical trial data.
 
@@ -25,7 +25,7 @@ This connector provides six primary tool calls that access different dimensions 
 - **analyze\_endpoints** systematically compares outcome measures across trials, operating in two modes: single-trial analysis (returns all endpoints for one NCT ID) or aggregate analysis (identifies common endpoint patterns across multiple trials in a therapeutic area), essential for protocol design benchmarking and understanding standard measures in a disease area.
 - **search\_by\_eligibility** enables clinical research coordinators to screen for trials matching specific demographic and clinical criteria (age, sex) with support for eligibility keyword searches in inclusion/exclusion criteria text (e.g., "BRCA mutation", "HbA1c > 8%", "ECOG 0-1").
 
-On the provider side, the connector queries ClinicalTrials.gov's RESTful API v2, which accesses a PostgreSQL database updated daily with trial registration data submitted by study sponsors. All interventional trials of FDA-regulated products must be registered before enrollment begins (per FDAAA 801), and results must be submitted within one year of study completion. The database includes structured data fields for conditions (using MeSH terminology), interventions, locations, eligibility criteria, outcome measures, and study design parameters.
+On the provider side, the connector queries ClinicalTrials.gov's RESTful API v2. ClinicalTrials.gov refreshes its data daily, Monday through Friday, with trial registration data submitted by study sponsors. The database includes structured data fields for conditions (using MeSH terminology), interventions, locations, eligibility criteria, outcome measures, and study design parameters.
 
 ## **Who should use the ClinicalTrials.gov integration**[](https://academy.claude.com/tutorials/using-the-clinicaltrials-gov-connector-in-claude)
 
@@ -39,30 +39,27 @@ On the provider side, the connector queries ClinicalTrials.gov's RESTful API v2,
 
 ## **Setting up the ClinicalTrials.gov integration**[](https://academy.claude.com/tutorials/using-the-clinicaltrials-gov-connector-in-claude)
 
+The connectors directory lists this connector as **Clinical Trials**.
+
 **For Organization Owners (Team and Enterprise)**
 
-1. Navigate to Admin settings > Connectors
-2. Click "Browse connectors"
-3. Click “**ClinicalTrials.gov**”
-4. Click “Add to your team”
+1. Navigate to [Organization settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors)
+2. Use the Add button to browse all available connectors, then find **Clinical Trials** and add it for your team
 
 **For Individual Claude Users**
 
-1. Navigate to Settings > Connectors
-2. Find “**ClinicalTrials.gov**”
-3. Click “Connect”
+1. Open [Clinical Trials in the connectors directory(opens in new tab)](https://claude.ai/directory/clinical-trials)
+2. Connect it to Claude
 
 Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory) in Claude.
 
 **For Claude Code Users**
 
-1. Connect **ClinicalTrials.gov** in Claude by following the steps above
+1. Connect **Clinical Trials** in Claude by following the steps above
 2. Sign in to Claude Code with the same Claude account (run `/login` to switch accounts), then restart Claude Code
 3. Run `/mcp` and check that the connector appears in the claude.ai section of the list (if it isn't shown, select **Show unused connectors** at the end of that section)
 
 Learn about [using connectors from Claude in Claude Code(opens in new tab)](https://code.claude.com/docs/en/mcp).
-
-Technical details of the ClinicalTrials.gov integration can be found in the [ClinicalTrials.gov MCP Server Documentation(opens in new tab)](http://clinicaltrials.gov/).
 
 ## **Example use cases**[](https://academy.claude.com/tutorials/using-the-clinicaltrials-gov-connector-in-claude)
 

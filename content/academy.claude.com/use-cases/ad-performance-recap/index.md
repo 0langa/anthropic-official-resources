@@ -4,11 +4,11 @@ A performance summary, recommendation on what to improve, and a deck shared in S
 
 10 minMarketingClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-em4laj46.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lnkhp3d2.png)
 
-Film: the user asks Claude to recap weekly ad performance across platforms, which Claude reads, pauses to ask about unifying purchase counts, then returns a summary, budget recommendation, recap deck, and Slack digest for approval, finally scheduling the recap to run automatically.
+Film: a self-playing walkthrough where the user asks Claude to recap ad performance across platforms, Claude reads each export, pauses to confirm which purchase definition to use, then builds a recap deck and drafts a channel message for approval before the recurring recap gets scheduled to run automatically each week.
 
 ![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)google-ads-export.csv
 
@@ -256,7 +256,7 @@ Draft saved in Slack for you to post
 
 Each run
 
-Runs /performance-report on last week’s exports
+Runs the recap on last week’s exports
 
 Writes the recap deck and joined sheet to the folder
 
@@ -306,7 +306,7 @@ Connectors: Slack
 
 ### Try a plugin[](https://academy.claude.com/use-cases/ad-performance-recap)
 
-The Marketing plugin ships with `/performance-report` and other performance-reporting skills as a starting point, already structured to compare spend, reach, and conversion across platforms and write the readout. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Marketing plugin ships with `/performance-report` as a starting point, already structured to report key metrics, trends, wins and misses, and prioritized recommendations. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -316,19 +316,19 @@ MarketingCreate content, plan campaigns, and analyze performance across marketin
 
 `/performance-report`Build a marketing performance report with key metrics, trend analysis, wins and misses, and prioritized recommendations.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fperformance-report)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fperformance-report)
 
 `/campaign-plan`Generate a full campaign brief with objectives, audience, messaging, channel strategy, content calendar, and success metrics.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcampaign-plan)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcampaign-plan)
 
 Show all 7 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/ad-performance-recap)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 
 
@@ -358,15 +358,15 @@ Google Drive
 
 [Connect](https://claude.ai/desktop/directory/google-drive-drivemcp)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/ad-performance-recap)
 
-Drag the files you'll use (the platform exports, the campaign brief, last period's recap deck) into one folder on your machine, then point Cowork at it. Cowork reads from it and writes the analysis, recap deck, and artifact link back to it. If you'll report on this campaign every week, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so the data sources, instructions, and scheduled runs stay attached.
+Drag the files you'll use (the platform exports and last period's recap deck) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from it and writes the analysis, recap deck, and artifact link back to it. If you'll report on this campaign every week, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so the data sources, instructions, and scheduled runs stay attached.
 
 Campaigns / Spring-Launch / performance
 
@@ -382,13 +382,13 @@ In Cowork’s chat bar:Campaigns / Spring-Launch / performance
 
 ## The prompt[](https://academy.claude.com/use-cases/ad-performance-recap)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/ad-performance-recap)
+### Copy this into Claude[](https://academy.claude.com/use-cases/ad-performance-recap)
 
 Analyze this campaign's ad performance and build the recap deck: what worked, what didn't, and what we change next time. Post a digest to the team Slack with the top three movers, and create a shared artifact I can refresh from the underlying data.
 
 
 
-Campaigns / Spring-Launch / performanceOpen in Cowork
+Campaigns / Spring-Launch / performanceOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/ad-performance-recap)
 
@@ -412,21 +412,23 @@ Analyze this campaign's ad performance and build the recap deck: what worked, wh
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask for options.** Add "draft three versions with different angles" and pick the one that works best.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/ad-performance-recap)
+## Make Claude work for you[](https://academy.claude.com/use-cases/ad-performance-recap)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your KPI definitions and your deck template, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /performance-report skill with my feedback.
+Make what we've done in this task so far into a skill called /ad-recap.
 
 
 
-Campaigns / Spring-Launch / performanceOpen in Cowork
+Campaigns / Spring-Launch / performanceOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -436,35 +438,37 @@ Make what we've done in this task so far into a skill, or edit the /performance-
 
 ### Run it on a schedule[](https://academy.claude.com/use-cases/ad-performance-recap)
 
-The performance recap is due the same morning every week. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill pulls fresh data, refreshes the artifact, rebuilds the deck, and posts the digest automatically.
+The performance recap is due the same morning every week. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/ad-recap` reads the newest exports you've added to the folder, refreshes the artifact, rebuilds the deck, and drafts the digest for you to post.
 
-**/schedule** Every Monday at 8am, run /performance-report against the connected ad platforms for this campaign, refresh the artifact, write the recap deck to the performance folder, and post the top-three digest to #paid-media.
+Set up a scheduled task for every Monday at 8am: run /ad-recap against the connected tools and the latest exports for this campaign, refresh the artifact, write the recap deck to the performance folder, and draft the top-three digest for #paid-media for me to post.
 
 
 
-Campaigns / Spring-Launch / performanceOpen in Cowork
+Campaigns / Spring-Launch / performanceOpen in Claude
 
 Scheduled taskActive
 
 Weekly ad performance recap
 
-Runs `/performance-report` against the connected ad platforms, refreshes the artifact, writes the recap deck to the performance folder, and posts the top-three digest to #paid-media.
+Runs `/ad-recap` against the connected tools and the latest exports, refreshes the artifact, writes the recap deck to the performance folder, and drafts the top-three digest for #paid-media for you to post.
 
-Every **Monday at 8am, weekly**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Monday at 8am, weekly**[Open in Claude](https://claude.ai/desktop/scheduled-task)
+
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/ad-performance-recap)
 
-Your customized `/performance-report` now carries your KPI definitions, your deck template, and your artifact layout. Share it so every campaign owner reports the same way, and leadership reads one consistent recap no matter which program it came from.
+Your `/ad-recap` skill now carries your KPI definitions and your deck template. Share it so every campaign owner reports the same way, and leadership reads one consistent recap no matter which program it came from.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/performance-report`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your KPIs and templates baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/ad-recap`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your KPIs and templates baked in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/ad-performance-recap)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 
@@ -476,9 +480,9 @@ Your tools
 
 Your folder
 
-Campaigns / performance
+Campaigns / Spring-Launch / performance
 
-`/performance-report` gives you a consistent recap each period: ad performance across platforms, measured against your KPI definitions, with what worked and what to change ready to share.
+`/ad-recap` gives you a consistent recap each period: ad performance across platforms, measured against your KPI definitions, with what worked and what to change ready to share.
 
 You did this for one campaign. The same approach covers email performance, organic social, and landing-page conversion — each one becomes a skill your team runs the same way.
 

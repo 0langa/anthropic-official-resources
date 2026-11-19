@@ -85,7 +85,7 @@ Scheduled Tasks in Cowork: Set it once, Claude handles the rest
 SummaryTranscript
 
 This video was recorded in an earlier version of the app, so some screens
-may look different — setting up a scheduled task works the same way. Where a
+may look different. Where a
 scheduled task runs, and whether your computer needs to be on, is covered
 just below.
 

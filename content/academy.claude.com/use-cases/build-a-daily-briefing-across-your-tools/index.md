@@ -37,7 +37,7 @@ For urgent items, pull the deeper context: who's involved, what's been discussed
 
 Claude connects to your tools via [connectors(opens in new tab)](https://claude.com/connectors) and reads from browser tabs via [Claude in Chrome(opens in new tab)](https://claude.com/chrome). Add your messaging, tasks, and dashboard sources. Claude queries them in parallel.
 
-**What to expect:** After your initial prompt, Claude may ask you questions, like which channels matter most, what timeframe to cover, or how to format the briefing. It then builds a plan you can review in the sidebar. This helps it run more independently and deliver something closer to finished.
+**What to expect:** After your initial prompt, Claude may ask you questions, like which channels matter most, what timeframe to cover, or how to format the briefing. Your answers help it run more independently and deliver something closer to finished. It then lists its steps and marks each one done as it works. To review the approach first, ask Claude in your prompt to share its plan and wait for your OK.
 
 ### Required context[](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)
 
@@ -104,7 +104,7 @@ Pull together all mentions of a project, person, or issue across sources.
 
 ## 5. Tricks, tips, and troubleshooting[](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)
 
-### Watch the progress panel[](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)
+### Follow along as Claude works[](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)
 
 Claude shows which connectors are being queried in real-time. If your briefing is taking longer than expected, you can see which platform is the bottleneck.
 
@@ -114,7 +114,7 @@ Your first briefing request establishes context. Follow-up prompts can refine wi
 
 ### Briefings run remotely by default[](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)
 
-A scheduled briefing runs on Anthropic's servers (remote sessions), so it's ready even while your laptop is closed and follows you across desktop, web, and mobile. The dashboard visit is the exception, because it uses your browser. To keep that step in a scheduled briefing, open the task in Claude Desktop, add a line to its prompt asking Claude to use Claude in Chrome, and set it to require your computer. The whole briefing then works only while your computer is awake, with Claude Desktop and Chrome open.
+A scheduled briefing that runs in the cloud is ready even while your laptop is closed and follows you across desktop, web, and mobile. The dashboard visit is the exception, because it uses your browser. To keep that step in a scheduled briefing, open the scheduled task in Claude Desktop, add a line to its prompt asking Claude to use Claude in Chrome, and set it to require your computer. The whole briefing then works only while your computer is awake, with Claude Desktop and Chrome open.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)
 

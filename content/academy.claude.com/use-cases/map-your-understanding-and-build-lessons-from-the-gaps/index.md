@@ -35,11 +35,7 @@ The diagnostic works from conversation alone. Files come in only when you want t
 ### Optional context[](https://academy.claude.com/use-cases/map-your-understanding-and-build-lessons-from-the-gaps)
 
 - Your screening or pipeline data: CSV or XLSX with candidate records, interview scores, hiring decisions, and outcomes, or any data where you're using a signal to screen or sort a population
-- [Extended Thinking(opens in new tab)](https://support.claude.com/en/articles/10574485-using-extended-thinking) gives Opus 5.5 space to think step by step before responding. For a task like this, where Claude needs to reason carefully about your knowledge structure to find a hidden misconception, that extra reasoning depth makes the diagnostic more precise. You can see Claude's thinking process as it works through the problem.
-
-[
-
-Extended Thinking](https://support.claude.com/en/articles/10574485-using-extended-thinking)
+- Thinking is always on with Opus 5.5, and a higher [effort level(opens in new tab)](https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings) in the model menu lets it think more. For a task like this, where Claude needs to reason carefully about your knowledge structure to find a hidden misconception, that extra reasoning depth makes the diagnostic more precise. You can see Claude's thinking process as it works through the problem.
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/map-your-understanding-and-build-lessons-from-the-gaps)
 

@@ -7,7 +7,7 @@ A new plugin with 17 skills and four connectors helps manufacturers draft quotes
 - Reading time6 min
 - ShareCopy link
 
-Today we’re launching [Claude for Manufacturing (opens in new tab)](http://claude.com/solutions/manufacturing), a plugin that includes skills for work from pricing a new job to diagnosing a stopped machine. An estimator can now have Claude read a customer’s request, compare costs on similar jobs, and draft the quote. The plugin works from a manufacturer’s own records through connectors to Autodesk Fusion, Infor, Microsoft 365, and Oracle NetSuite. Claude for Manufacturing is built so the person responsible can review and approve the work before it reaches a customer or supplier.
+Today we’re launching [Claude for Manufacturing (opens in new tab)](http://claude.com/solutions/manufacturing), a [plugin (opens in new tab)](https://claude.com/resources/articles/cowork-plugins) that includes [skills (opens in new tab)](https://claude.com/resources/articles/skills) for work from pricing a new job to diagnosing a stopped machine. An estimator can now have Claude read a customer’s request, compare costs on similar jobs, and draft the quote. The plugin works from a manufacturer’s own records through connectors to Autodesk Fusion, Infor, Microsoft 365, and Oracle NetSuite. Claude for Manufacturing is built so the person responsible can review and approve the work before it reaches a customer or supplier.
 
 Manufacturing teams can spend much of the day gathering information. In a 2025 Manufacturing Leadership Council survey, 79% of manufacturers said they [enter data  (opens in new tab)](https://manufacturingleadershipcouncil.com/survey-october/)manually. With Claude carrying each process to the point of review, an estimator can focus on the price, a quality engineer on the fix, and a technician on what to check first.
 
@@ -57,7 +57,11 @@ To see the plugin at work, [register for our technical webinar (opens in new tab
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 12, 2026
+[ArticleNov 17, 2026
+
+### Linked billing on the Claude Platform
+
+Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)[ArticleNov 12, 2026
 
 ### Operate Claude Managed Agents inside your security perimeter
 
@@ -73,13 +77,7 @@ Add Claude to your video call and get the work started while you talk](https://c
 
 Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
 
-Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)[ArticleNov 10, 2026
-
-### More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
-
-Work at the speed of thought
-
-Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)
+Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)
 
 ## Transform how your organization operates with Claude
 

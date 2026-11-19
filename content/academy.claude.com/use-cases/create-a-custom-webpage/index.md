@@ -64,7 +64,7 @@ Continue the conversation with Claude to refine, expand, or explore further.
 
 ### Deploy your site live[](https://academy.claude.com/use-cases/create-a-custom-webpage)
 
-Claude can connect to [Netlify(opens in new tab)](https://claude.ai/directory/netlify) to take your artifact's code and deploy it as a live website—no coding required on your end. From your artifact's HTML code, Claude can teach you how to handle the technical deployment process.
+Claude can connect to [Netlify(opens in new tab)](https://claude.ai/directory/netlify) to take your artifact's code and deploy it as a live website—no coding required on your end. Claude can also explain how to update the site later.
 
 Using the code from my portfolio artifact, I want to create a real site. Use my Netlify connector to create a new site project and deploy this as a live website. Give me the URL once it's live, and explain how I can update the site later if I want to make changes.
 

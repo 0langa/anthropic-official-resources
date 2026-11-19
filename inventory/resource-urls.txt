@@ -1656,6 +1656,7 @@ https://claude.com/resources/webinars/ai-agents-in-enterprise
 https://claude.com/resources/webinars/ai-as-an-engineering-leadership-multiplier
 https://claude.com/resources/webinars/bci-claude-financial-analysis
 https://claude.com/resources/webinars/best-practices-for-claude-in-excel-and-powerpoint
+https://claude.com/resources/webinars/best-practices-for-government-it-modernization-with-claude
 https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud
 https://claude.com/resources/webinars/building-agents-on-claude-opus-4-8-live-demos-with-letta-and-browserbase
 https://claude.com/resources/webinars/building-ai-infrastructure-for-healthcare-a-customer-success-story-zingages-0-to-1-story
@@ -4130,6 +4131,7 @@ https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-memory
 https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-memory?sdk_languages=curl
 https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-operations
 https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-operations?sdk_languages=curl
+https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-per-session
 https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-reference
 https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-reference?sdk_languages=curl
 https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-security
@@ -5230,6 +5232,7 @@ https://www.anthropic.com/news/anthropic-partners-with-google-cloud
 https://www.anthropic.com/news/anthropic-partners-with-menlo-ventures-to-launch-anthology-fund
 https://www.anthropic.com/news/anthropic-partners-with-the-university-of-chicago-s-becker-friedman-institute-on-ai-economic
 https://www.anthropic.com/news/anthropic-partners-with-u-s-national-labs-for-first-1-000-scientist-ai-jam
+https://www.anthropic.com/news/anthropic-prices-initial-public-offering
 https://www.anthropic.com/news/anthropic-public-record
 https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems
 https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation
@@ -5518,6 +5521,7 @@ https://www.anthropic.com/news/wellbeing-research-grants
 https://www.anthropic.com/news/where-stand-department-war
 https://www.anthropic.com/news/widening-conversation-ai
 https://www.anthropic.com/news/workspaces
+https://www.anthropic.com/news/yes-claude-can-do-nine-loops
 https://www.anthropic.com/news/zoom-partnership-and-investment
 https://www.anthropic.com/research
 https://www.anthropic.com/research/2
@@ -5571,6 +5575,7 @@ https://www.anthropic.com/research/circuits-updates-sept-2024
 https://www.anthropic.com/research/claude-3-5-sonnet
 https://www.anthropic.com/research/claude-3-7-sonnet
 https://www.anthropic.com/research/claude-4-cyber
+https://www.anthropic.com/research/claude-black-hole-physics
 https://www.anthropic.com/research/claude-character
 https://www.anthropic.com/research/claude-code-auto-mode
 https://www.anthropic.com/research/claude-code-best-practices

@@ -53,7 +53,7 @@ This workflow uses Claude's [Skills(opens in new tab)](https://www.anthropic.com
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/elevate-claudes-design-using-skills)
 
-Claude produces a complete skill structure with a main instruction file and supporting references. The skill is immediately usable once added to your Claude Skills library. Once you refer to ‘design excellence’ in a chat, Claude will automatically apply the skill’s visual thinking to whatever you're creating.
+Claude produces a complete skill structure with a main instruction file and supporting references. The skill is immediately usable once you save it in Claude. Once you refer to ‘design excellence’ in a chat, Claude will automatically apply the skill’s visual thinking to whatever you're creating.
 
 I've created your design elevation skill. This includes a main SKILL.md file that defines when and how the skill activates, plus five reference files to consult.
 
@@ -78,7 +78,7 @@ Core principles for balancing impressive expertise with restraint—when to be b
 
 **How to use this skill:**
 
-1. Add the entire `design-elevation` folder to your skills directory
+1. Save `design-elevation` as a skill in Claude
 2. Next time you request any visual output, Claude will automatically consult these files
 3. You'll receive elevated outputs without needing to specify design requirements each time
 

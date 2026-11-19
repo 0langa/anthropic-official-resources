@@ -118,7 +118,7 @@ If your financial documents are already on your computer, [Claude Desktop(opens 
 
 ### Start another task while this one runs[](https://academy.claude.com/use-cases/stress-test-your-financial-plan-across-scenarios)
 
-Financial modeling runs across many variables and scenarios. Open a new session from the sidebar for other work. The dot or icon beside this task in the sidebar changes when it needs attention.
+Financial modeling runs across many variables and scenarios. Start another task from the sidebar for other work. The dot or icon beside this task in the sidebar changes when it needs attention.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/stress-test-your-financial-plan-across-scenarios)
 

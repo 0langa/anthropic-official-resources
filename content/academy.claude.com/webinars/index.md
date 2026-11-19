@@ -34,37 +34,7 @@ APSM
 
 ## Upcoming live webinars
 
-[Upcoming · Nov 17, 8:00 AM PT
-
-### Claude for Manufacturing: Put Your Plant’s Know-How to Work 
-
-How manufacturing teams use Claude to draft quotes, NCRs, and reports from plant records, plus the Model Hardware Standard and Infor connector demos.
-
-ABGBNF+1
-
-·Upcoming·Nov 17·8:00 AM PT
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work)[Upcoming · Nov 17, 10:00 AM PT
-
-### Build Agents with Claude Models on Google Cloud 
-
-Build agents on the full Claude Platform inside your Google Cloud account, with code execution, Files API, Skills, and governance.
-
-RAINED
-
-·Upcoming·Nov 17·10:00 AM PT
-
- (opens in new tab)](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[Upcoming · Nov 18, 12:00 PM PT
-
-### How the Claude Code team does code review 
-
-How the Claude Code team cut reverts 40% while doubling merged PRs, with AI review, risk-based human approval, and evals.
-
-ML
-
-·Upcoming·Nov 18·12:00 PM PT
-
- (opens in new tab)](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[Upcoming · Nov 19, 1:00 PM PT
+[Upcoming · Nov 19, 1:00 PM PT
 
 ### Claude Rearview Roadmap Review: November 2026 
 
@@ -74,7 +44,17 @@ SS
 
 ·Upcoming·Nov 19·1:00 PM PT
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Upcoming · Dec 8, 9:00 AM PT
+
+### Best Practices for Government: IT Modernization with Claude 
+
+A government tech leader shares how to securely modernize legacy systems with Claude, where to start, and how to stay in control.
+
+CCMC
+
+·Upcoming·Dec 8·9:00 AM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/best-practices-for-government-it-modernization-with-claude)
 
 ## On demand
 

@@ -127,7 +127,7 @@ Continue the conversation with Claude to refine, expand, or explore further.
 
 ### Continue on desktop with full context[](https://academy.claude.com/use-cases/turn-transit-time-into-research-time)
 
-Pick up exactly where you left off. Claude remembers the context and is ready to produce polished output now that you have full editing capabilities.
+Pick up exactly where you left off. Claude remembers the context and is ready to produce polished output now that you have more room to review it.
 
 I'm at my desk now. That research is exactly what I needed. Can you create a one-page summary doc I can share with the team before the meeting? Include the key stats, the competitor examples, and my proposed talking points.
 

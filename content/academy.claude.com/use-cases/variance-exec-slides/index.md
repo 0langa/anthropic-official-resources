@@ -62,9 +62,9 @@ MD
 
 Finance
 
-/close-management
-
 /financial-statements
+
+/reconciliation
 
 /variance-analysis
 
@@ -240,7 +240,7 @@ Connectors: Microsoft 365, Google Drive
 
 ### Try a plugin[](https://academy.claude.com/use-cases/variance-exec-slides)
 
-The Finance plugin ships with `/financial-statements` and seven other close-week skills as a starting point, it already knows how to read a variance table and frame it for an exec audience. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Finance plugin ships with `/financial-statements` and other close-week skills as a starting point. `/financial-statements` compares actuals to budget and flags material variances, which helps you pick the top movers for the drivers page. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -268,7 +268,7 @@ Claude is more powerful when it works directly with your systems. You control pe
 
 Microsoft 365
 
-Read the variance workbook and write a real .pptx with editable charts and your master layout.
+Read the variance workbook from SharePoint or OneDrive.
 
 [Connect](https://claude.ai/desktop/directory/microsoft-365)
 
@@ -296,7 +296,7 @@ Pull the actuals straight from the GL when there's no workbook yet.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/variance-exec-slides)
 
-Drag the files you'll use (the variance workbook, last quarter's deck, the list of known one-timers) into one folder and point Claude at it. Claude reads from it and writes the .pptx back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your board-prep folder so the materiality threshold, the slide template, and the CFO's preferred phrasing stay attached.
+Drag the files you'll use (the variance workbook, last quarter's deck, the list of known one-timers) into one folder and [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from it and writes the .pptx back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your board-prep folder so the materiality threshold, the slide template, and the CFO's preferred phrasing stay attached.
 
 FY26-Close / Board-prep / March
 
@@ -348,13 +348,15 @@ Build the three exec slides from the March variance workbook: a headline page wi
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/variance-exec-slides)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your materiality threshold and your CFO's preferred framing, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /financial-statements skill with my feedback.
+Make what we've done in this task so far into a skill called /variance-slides.
 
 
 
 FY26-Close / Board-prepOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -364,9 +366,9 @@ Make what we've done in this task so far into a skill, or edit the /financial-st
 
 ### Run it on a schedule[](https://academy.claude.com/use-cases/variance-exec-slides)
 
-Board prep is due the same week every quarter. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill builds the three pages from whatever variance workbook is newest.
+A new variance workbook arrives after every month-end close. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/variance-slides` builds the three pages from whatever variance workbook is newest.
 
-Set up a scheduled task for every Monday at 9am: if a new variance workbook is in FY26-Close/Board-prep, build the three exec slides from it and write the .pptx to that folder.
+Set up a scheduled task for every Monday at 9am: if a new variance workbook is in FY26-Close/Board-prep, run /variance-slides on it and write the .pptx to that folder.
 
 
 
@@ -376,19 +378,21 @@ Set up a scheduled task for every Monday at 9am: if a new variance workbook is i
 
 Exec variance slides
 
-Builds the headline / drivers / outlook .pptx from the newest variance workbook and writes it to the board-prep folder.
+Runs `/variance-slides` to build the headline / drivers / outlook .pptx from the newest variance workbook and writes it to the board-prep folder.
 
 Every **Monday at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/variance-exec-slides)
 
-Your customized skill now carries your three-slide structure, your materiality line, and your CFO's preferred framing. Share it so every business unit's pages arrive looking like one deck, not five.
+Your `/variance-slides` skill now carries your three-slide structure, your materiality line, and your CFO's preferred framing. Share it so every business unit's pages arrive looking like one deck, not five.
 
 
 
 Share the skill
 
-Open the **...** menu next to your saved skill in your list of skills, select **Share**, and pick your teammates or a group. They get the skill with your instructions baked in, they don't repeat Steps 1-3.
+In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/variance-slides`, select **Share**, and pick your teammates or a group. They get the skill with your instructions baked in, so they don't have to build it again.
 
 Sharing with teammates requires a Team or Enterprise plan, where it's on by default, except in HIPAA-ready organizations, where it starts off. Sharing with a group is Enterprise only, and an organization Owner turns it on.
 

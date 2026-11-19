@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-nu0i2d0q.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mxhk1r1q.png)
 
-Film: the user asks Claude to draft a full on-brand content set from a campaign brief, and the film shows it reading brand guidelines and past pieces, reproducing approved messaging word for word, and flagging thin spots instead of inventing details.
+Film: a self-playing walkthrough of Claude drafting a full on-brand content set from a campaign brief, reusing approved messaging word for word and flagging thin spots instead of inventing, then scheduling the routine to repeat.
 
 Create on-brand content
 
@@ -36,17 +36,9 @@ The brief
 
 DOCX
 
-Marketing
-
-/brand-review
-
-/draft-content
-
-/email-sequence
-
 How can I help you today?
 
-**/**draft-content Draft the content set for this campaign: a blog post, landing page copy, a three-email sequence, and ad copy in three lengths. Hold our voice and approved messaging exactly, and note anywhere the brief was thin.
+Draft the content set for this campaign: a blog post, landing page copy, a three-email sequence, and ad copy in three lengths. Hold our voice and approved messaging exactly, and note anywhere the brief was thin.
 
 Reading the campaign brief0s
 
@@ -62,7 +54,7 @@ Readtop-performing-examples.docx, 3 pieces
 
 Used 4 sources34s
 
-I drafted the full set from the brief in the guide’s voice, approved lines word for word: blog post, landing page, three emails and nine ad variants, five files in Spring-Launch/drafts. The brief was thin in three places, marked in yellow: the trial-end offer, which plan leads, and naming Calder.
+I drafted the full set from the brief in the guide’s voice, approved lines word for word: blog post, landing page, three emails and nine ad variants, five files in Spring-Launch. The brief was thin in three places, marked in yellow: the trial-end offer, which plan leads, and naming Calder.
 
 blog-post
 
@@ -150,7 +142,7 @@ Book a 20-minute walkthrough
 
 Nadia, Fieldnote
 
-Run this every weekday at 9am: check Content for new briefs and run /draft-content on each against the brand guide, writing the set and a notes file of gaps to a campaign subfolder.
+Run this every weekday at 9am: check Content for new briefs and draft from each against the brand guide, writing the full set to a campaign subfolder.
 
 **On-brand content set**Weekdays at 9:00 AM
 
@@ -174,7 +166,7 @@ Create on-brand content
 
 You have a campaign brief and need every piece drafted in the brand voice.
 
-Using the Marketing plugin’s draft content skill, list each piece and make the brand guide binding.
+List each piece you need and make the brand guide binding.
 
 Claude reads the brief, the brand guide, your best past pieces and the approved messaging.
 
@@ -192,11 +184,9 @@ Every piece is drafted in the brand voice, with the gaps marked for you.
 
 Draft the content set for this campaign: a blog post, landing page copy, a three-email sequence, and ad copy in three lengths. Hold our voice and approved messaging exactly, and note anywhere the brief was thin.
 
-I drafted the full set from the brief in the guide’s voice, approved lines word for word: blog post, landing page, three emails and nine ad variants, five files in Spring-Launch/drafts. The brief was thin in three places, marked in yellow: the trial-end offer, which plan leads, and naming Calder.
+I drafted the full set from the brief in the guide’s voice, approved lines word for word: blog post, landing page, three emails and nine ad variants, five files in Spring-Launch. The brief was thin in three places, marked in yellow: the trial-end offer, which plan leads, and naming Calder.
 
 blog-post, email-sequence.docx
-
-Skill: /draft-content (Marketing)
 
 Connectors: Notion
 
@@ -204,7 +194,7 @@ Connectors: Notion
 
 ### Try a plugin[](https://academy.claude.com/use-cases/on-brand-content)
 
-The Marketing plugin ships with `/draft-content` and other content-production skills as a starting point, already structured to write from a brief and hold a voice guide. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Marketing plugin ships with `/draft-content`, which drafts one piece at a time in your brand voice, and other content-production skills as a starting point. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -254,7 +244,7 @@ Notion
 
 ### Set your working folder[](https://academy.claude.com/use-cases/on-brand-content)
 
-Drag the files you'll use (the campaign brief, the brand guidelines, two or three best-performing past pieces) into one folder on your machine, then point Claude at it. Claude reads from it and writes every asset back to it as separate files. If you'll produce content across multiple campaigns, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent Content folder so the brand guide and voice rules stay attached.
+Drag the files you'll use (the campaign brief, the brand guidelines, two or three best-performing past pieces) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from it and writes every asset back to it as separate files. If you'll produce content across multiple campaigns, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent Content folder so the brand guide and voice rules stay attached.
 
 Content / Spring-Launch
 
@@ -306,13 +296,15 @@ Draft the content set for this campaign: a blog post, landing page copy, a three
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/on-brand-content)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your CTA library and your standard asset list, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /draft-content skill with my feedback.
+Make what we've done in this task so far into a skill called /brand-content-set.
 
 
 
-ContentOpen in Claude
+Content / Spring-LaunchOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -322,9 +314,9 @@ Make what we've done in this task so far into a skill, or edit the /draft-conten
 
 ### Run it on every approved brief[](https://academy.claude.com/use-cases/on-brand-content)
 
-The customized skill runs every weekday at 9am, checking the Content folder for new briefs and drafting the full content set for each. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, to set it up.
+Schedule `/brand-content-set` to run every weekday at 9am, checking the Content folder for new briefs and drafting the full content set for each. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar.
 
-Set up a scheduled task for every weekday at 9am: check Content for new briefs and run /draft-content on each, writing the full content set to a campaign subfolder.
+Set up a scheduled task for every weekday at 9am: check Content for new briefs and run /brand-content-set on each, writing the full content set to a campaign subfolder.
 
 
 
@@ -334,19 +326,21 @@ Set up a scheduled task for every weekday at 9am: check Content for new briefs a
 
 On-brand content set
 
-Every weekday at 9am, checks Content for new briefs and runs `/draft-content` on each, writing the blog, landing page, emails, and ad copy to a campaign subfolder.
+Every weekday at 9am, checks Content for new briefs and runs `/brand-content-set` on each, writing the blog, landing page, emails, and ad copy to a campaign subfolder.
 
 Every **weekday at 9am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/on-brand-content)
 
-Your customized `/draft-content` now carries your voice rules, your CTA library, and your standard asset list. Share it so every writer and campaign owner produces from the same brand baseline, and review becomes about the idea, not the tone.
+Your `/brand-content-set` skill now carries your voice rules, your CTA library, and your standard asset list. Share it so every writer and campaign owner produces from the same brand baseline, and review becomes about the idea, not the tone.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/draft-content`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your brand voice and asset list baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/brand-content-set`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. Your teammates get the skill with your brand voice and asset list baked in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/on-brand-content)
 

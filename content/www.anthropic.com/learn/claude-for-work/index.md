@@ -10,7 +10,7 @@ Resources for working with Claude in your organization. Learn the everyday tools
 
 The three setup steps before your first task: open Claude, run the guided setup, and point Cowork at where the work lives.
 
-·Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-b9qlnr3z.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mpd67del.png)
+·Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-bihkt81p.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iz3gsf7e.png)
 
 ### Navigating the Claude desktop app
 

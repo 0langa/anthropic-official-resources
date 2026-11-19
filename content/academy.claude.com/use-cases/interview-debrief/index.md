@@ -6,7 +6,7 @@ Where the panel agreed, where they split, what to resolve.
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-off27hqc.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-esddo3nx.png)
 
-Film: the user asks Claude, via a recruiting skill, to synthesize interviewers' scorecards into a debrief brief showing where the panel agrees, splits, and lacks coverage, ending with open questions instead of a recommendation.
+Film: the user asks Claude to synthesize a hiring panel's interview scorecards, rubric, and interview plan into a debrief brief showing agreement, splits, and coverage gaps without recommending hire or no-hire, then schedules it to run automatically.
 
 Interview scorecardHiring / Senior-PM-Growth / scorecards
 
@@ -18,7 +18,7 @@ Interview scorecardHiring / Senior-PM-Growth / scorecards
 
 Senior PM competencies v3, scale 1–4; – = planned for this interview but not rated.
 
-<table class="sc-r"><thead><tr><th>Competency (L5)</th><th class="c">Rating</th><th>Evidence</th></tr></thead><tbody><tr style="opacity: 1;"><td>Product sense</td><td class="c">4</td><td>Walked through the marketplace relaunch end to end; clear on why the first pricing test failed and what she changed.</td></tr><tr style="opacity: 1;"><td>Customer insight</td><td class="c">3</td><td>Cited the seller interviews behind the relaunch; less depth on the buyer side.</td></tr><tr style="opacity: 1;"><td>Execution</td><td class="c">4</td><td>Sequenced the relaunch in three releases and named what she cut to hold the date.</td></tr><tr style="opacity: 1;"><td>Communication</td><td class="c">4</td><td>Structured and concise; answered the question that was asked.</td></tr><tr style="opacity: 1;"><td>Stakeholder influence</td><td class="c">4</td><td>Brought a reluctant sales lead round on the pricing change. Reference: “wins over sceptical engineers.”</td></tr><tr style="opacity: 1;"><td>Leadership and team building</td><td class="c">3</td><td>Manages two PMs today; examples were about hiring more than developing people.</td></tr><tr style="opacity: 1;"><td>Data fluency</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Experiment design</td><td class="c">–</td><td>undefined</td></tr></tbody></table>
+<table class="sc-r"><thead><tr><th>Competency (L5)</th><th class="c">Rating</th><th>Evidence</th></tr></thead><tbody><tr style="opacity: 1;"><td>Product sense</td><td class="c">4</td><td>Walked through the marketplace relaunch end to end; clear on why the first pricing test failed and what she changed.</td></tr><tr style="opacity: 1;"><td>Customer insight</td><td class="c">3</td><td>Cited the seller interviews behind the relaunch; less depth on the buyer side.</td></tr><tr style="opacity: 1;"><td>Execution</td><td class="c">4</td><td>Sequenced the relaunch in three releases and named what she cut to hold the date.</td></tr><tr style="opacity: 1;"><td>Communication</td><td class="c">4</td><td>Structured and concise; answered the question that was asked.</td></tr><tr style="opacity: 1;"><td>Stakeholder influence</td><td class="c">4</td><td>Brought a reluctant sales lead round on the pricing change. Reference: “wins over sceptical engineers.”</td></tr><tr style="opacity: 1;"><td>Leadership and team building</td><td class="c">3</td><td>Manages two PMs today; examples were about hiring more than developing people.</td></tr></tbody></table>
 
 ## Notes for the panel
 
@@ -36,7 +36,7 @@ Interview scorecardHiring / Senior-PM-Growth / scorecards
 
 Senior PM competencies v3, scale 1–4; – = planned for this interview but not rated.
 
-<table class="sc-r"><thead><tr><th>Competency (L5)</th><th class="c">Rating</th><th>Evidence</th></tr></thead><tbody><tr style="opacity: 1;"><td>Product sense</td><td class="c">4</td><td>Strong instinct for the user problem; pushed back well on my framing of the onboarding case.</td></tr><tr style="opacity: 1;"><td>Customer insight</td><td class="c">4</td><td>Reframed the onboarding case around the activation drop she would verify first.</td></tr><tr style="opacity: 1;"><td>Execution</td><td class="c">3</td><td>Reasonable plan for the case; light on how she would staff and sequence it.</td></tr><tr style="opacity: 1;"><td>Communication</td><td class="c">3</td><td>Clear, occasionally long; needed one prompt to land the recommendation.</td></tr><tr style="opacity: 1;"><td>Stakeholder influence</td><td class="c">3</td><td>Aligned design and data on a roadmap change last year (a different example from the migration).</td></tr><tr style="opacity: 1;"><td>Leadership and team building</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Data fluency</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Experiment design</td><td class="c">–</td><td>undefined</td></tr></tbody></table>
+<table class="sc-r"><thead><tr><th>Competency (L5)</th><th class="c">Rating</th><th>Evidence</th></tr></thead><tbody><tr style="opacity: 1;"><td>Product sense</td><td class="c">4</td><td>Strong instinct for the user problem; pushed back well on my framing of the onboarding case.</td></tr><tr style="opacity: 1;"><td>Customer insight</td><td class="c">4</td><td>Reframed the onboarding case around the activation drop she would verify first.</td></tr><tr style="opacity: 1;"><td>Execution</td><td class="c">3</td><td>Reasonable plan for the case; light on how she would staff and sequence it.</td></tr><tr style="opacity: 1;"><td>Communication</td><td class="c">3</td><td>Clear, occasionally long; needed one prompt to land the recommendation.</td></tr><tr style="opacity: 1;"><td>Stakeholder influence</td><td class="c">3</td><td>Aligned design and data on a roadmap change last year (a different example from the migration).</td></tr></tbody></table>
 
 ## Notes for the panel
 
@@ -54,7 +54,7 @@ Interview scorecardHiring / Senior-PM-Growth / scorecards
 
 Senior PM competencies v3, scale 1–4; – = planned for this interview but not rated.
 
-<table class="sc-r"><thead><tr><th>Competency (L5)</th><th class="c">Rating</th><th>Evidence</th></tr></thead><tbody><tr style="opacity: 1;"><td>Product sense</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Customer insight</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Execution</td><td class="c">3</td><td>Platform migration slipped a quarter under her; owned it, but I did not hear what she would do differently.</td></tr><tr style="opacity: 1;"><td>Communication</td><td class="c">3</td><td>Direct and honest about the slip; explains trade-offs in terms engineers use.</td></tr><tr style="opacity: 1;"><td>Stakeholder influence</td><td class="c">2</td><td>On the migration, engineering concerns surfaced late and were escalated rather than resolved. Same example as above.</td></tr><tr style="opacity: 1;"><td>Leadership and team building</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Data fluency</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Experiment design</td><td class="c">–</td><td>undefined</td></tr></tbody></table>
+<table class="sc-r"><thead><tr><th>Competency (L5)</th><th class="c">Rating</th><th>Evidence</th></tr></thead><tbody><tr style="opacity: 1;"><td>Execution</td><td class="c">3</td><td>Platform migration slipped a quarter under her; owned it, but I did not hear what she would do differently.</td></tr><tr style="opacity: 1;"><td>Communication</td><td class="c">3</td><td>Direct and honest about the slip; explains trade-offs in terms engineers use.</td></tr><tr style="opacity: 1;"><td>Stakeholder influence</td><td class="c">2</td><td>On the migration, engineering concerns surfaced late and were escalated rather than resolved. Same example as above.</td></tr></tbody></table>
 
 ## Notes for the panel
 
@@ -72,7 +72,7 @@ Interview scorecardHiring / Senior-PM-Growth / scorecards
 
 Senior PM competencies v3, scale 1–4; – = planned for this interview but not rated.
 
-<table class="sc-r"><thead><tr><th>Competency (L5)</th><th class="c">Rating</th><th>Evidence</th></tr></thead><tbody><tr style="opacity: 1;"><td>Product sense</td><td class="c">3</td><td>Frames problems well; solutions came quickly and were mostly sound.</td></tr><tr style="opacity: 1;"><td>Customer insight</td><td class="c">4</td><td>Grounded every answer in a specific customer conversation; good on research trade-offs.</td></tr><tr style="opacity: 1;"><td>Execution</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Communication</td><td class="c">4</td><td>Listens closely; played my questions back before answering.</td></tr><tr style="opacity: 1;"><td>Stakeholder influence</td><td class="c">2</td><td>Her platform-migration example: design was brought in after scope was set, which she acknowledged.</td></tr><tr style="opacity: 1;"><td>Leadership and team building</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Data fluency</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Experiment design</td><td class="c">–</td><td>undefined</td></tr></tbody></table>
+<table class="sc-r"><thead><tr><th>Competency (L5)</th><th class="c">Rating</th><th>Evidence</th></tr></thead><tbody><tr style="opacity: 1;"><td>Product sense</td><td class="c">3</td><td>Frames problems well; solutions came quickly and were mostly sound.</td></tr><tr style="opacity: 1;"><td>Customer insight</td><td class="c">4</td><td>Grounded every answer in a specific customer conversation; good on research trade-offs.</td></tr><tr style="opacity: 1;"><td>Communication</td><td class="c">4</td><td>Listens closely; played my questions back before answering.</td></tr><tr style="opacity: 1;"><td>Stakeholder influence</td><td class="c">2</td><td>Her platform-migration example: design was brought in after scope was set, which she acknowledged.</td></tr></tbody></table>
 
 ## Notes for the panel
 
@@ -90,7 +90,7 @@ Interview scorecardHiring / Senior-PM-Growth / scorecards
 
 Senior PM competencies v3, scale 1–4; – = planned for this interview but not rated.
 
-<table class="sc-r"><thead><tr><th>Competency (L5)</th><th class="c">Rating</th><th>Evidence</th></tr></thead><tbody><tr style="opacity: 1;"><td>Product sense</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Customer insight</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Execution</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Communication</td><td class="c">3</td><td>Clear storyteller; the marketplace-launch account was easy to follow.</td></tr><tr style="opacity: 1;"><td>Stakeholder influence</td><td class="c">–</td><td>undefined</td></tr><tr style="opacity: 1;"><td>Leadership and team building</td><td class="c">3</td><td>Thoughtful on team dynamics after the relaunch; one example of coaching a junior PM.</td></tr><tr style="opacity: 1;"><td>Data fluency</td><td class="c">–</td><td>Not reached. The hour went to the launch story and team dynamics; the metrics case was not run.</td></tr><tr style="opacity: 1;"><td>Experiment design</td><td class="c">–</td><td>Comfortable with experiment design at a high level; we ran out of time before the metrics deep-dive. Not rated.</td></tr></tbody></table>
+<table class="sc-r"><thead><tr><th>Competency (L5)</th><th class="c">Rating</th><th>Evidence</th></tr></thead><tbody><tr style="opacity: 1;"><td>Communication</td><td class="c">3</td><td>Clear storyteller; the marketplace-launch account was easy to follow.</td></tr><tr style="opacity: 1;"><td>Leadership and team building</td><td class="c">3</td><td>Thoughtful on team dynamics after the relaunch; one example of coaching a junior PM.</td></tr><tr style="opacity: 1;"><td>Data fluency</td><td class="c">–</td><td>Not reached. The hour went to the launch story and team dynamics; the metrics case was not run.</td></tr><tr style="opacity: 1;"><td>Experiment design</td><td class="c">–</td><td>Comfortable with experiment design at a high level; we ran out of time before the metrics deep-dive. Not rated.</td></tr></tbody></table>
 
 ## Notes for the panel
 
@@ -120,17 +120,9 @@ competency-rubric.pdf
 
 PDF
 
-Human Resources
-
-/draft-offer
-
-/interview-prep
-
-/recruiting-pipeline
-
 How can I help you today?
 
-**/**recruiting-pipeline Synthesize the scorecards into the debrief brief: where the panel converged, where they split, which signals are strong versus anecdotal, which competencies weren't covered, and three questions to resolve. Do not recommend hire or no-hire; the panel decides.
+Synthesize the scorecards into the debrief brief: where the panel converged, where they split, which signals are strong versus anecdotal, which competencies weren't covered, and three questions to resolve. Do not recommend hire or no-hire; the panel decides.
 
 Reading 5 scorecards0s
 
@@ -236,7 +228,7 @@ Prepare the interview debrief
 
 Five interviewers scored a candidate, and the debrief is tomorrow.
 
-With the Human Resources plugin’s recruiting skill, ask where the panel agrees and where it splits.
+Give Claude the scorecards and ask where the panel agrees and where it splits.
 
 Claude reads every scorecard against your rubric and the interview plan for the role.
 
@@ -258,23 +250,7 @@ I lined up the five scorecards against the eight L5 competencies and the intervi
 
 Debrief brief — A. Rivera.docx
 
-Skill: /recruiting-pipeline (Human Resources)
-
 ## 1. Set up[](https://academy.claude.com/use-cases/interview-debrief)
-
-### Try a plugin[](https://academy.claude.com/use-cases/interview-debrief)
-
-The Human Resources plugin ships with `/recruiting-pipeline` and other recruiting skills as a starting point, already structured to compare scorecards against a rubric and surface agreement and splits. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
-
-
-
-Human ResourcesStreamline people operations — recruiting, onboarding, performance reviews, compensation analysis, and policy guidance. Maintain compliance and keep your team running smoothly.
-
-[Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=human-resources)
-
-`/recruiting-pipeline`Track and manage recruiting pipeline stages.
-
-Show all 9 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/interview-debrief)
 
@@ -310,11 +286,11 @@ prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/interview-debrief)
 
-Drag the files you'll use (the scorecard export or pasted feedback, the role's competency rubric, the interview plan) into one folder on your machine, then point Claude at it. Claude reads from it and writes the debrief brief back to it. If you run debriefs every week, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the role folder so the rubric and instructions stay attached.
+Drag the files you'll use (the scorecard export or pasted feedback, the role's competency rubric, the interview plan) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from the folder and writes the debrief brief back to it. If you run debriefs every week, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the role folder so the rubric and instructions stay attached.
 
 Hiring / Senior-PM-Growth / debrief
 
-scorecards-export-ARivera.csvApr 21, 202628 KB
+scorecards-export-ARivera.csvApr 29, 202628 KB
 
 competency-rubric.pdfFeb 10, 2026142 KB
 
@@ -372,14 +348,16 @@ so you know where to look first when you review the draft.
 
 ## 3. Make Claude work for you[](https://academy.claude.com/use-cases/interview-debrief)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as how many interviewers must agree to count as convergence, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the
-/recruiting-pipeline skill with my feedback.
+Make what we've done in this task so far into a skill called
+/interview-debrief.
 
 
 
-HiringOpen in Claude
+Hiring / Senior-PM-Growth / debriefOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -389,10 +367,10 @@ Make what we've done in this task so far into a skill, or edit the
 
 ### Run it when the last scorecard is in[](https://academy.claude.com/use-cases/interview-debrief)
 
-The brief should be waiting before the debrief starts. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs every weekday morning. Claude checks the hiring folder for candidates with all scorecards submitted and runs /recruiting-pipeline on each.
+The brief should be waiting before the debrief starts. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/interview-debrief` runs every weekday morning. Give Claude access to the whole Hiring folder, and Claude checks it for candidates with all scorecards submitted and runs the skill on each.
 
 Set up a scheduled task for weekdays at 9am: check the hiring folder for candidates with all
-scorecards in, run /recruiting-pipeline on each, and write the brief to
+scorecards in, run /interview-debrief on each, and write the brief to
 Hiring/<role>/debrief.
 
 
@@ -401,35 +379,33 @@ Hiring/<role>/debrief.
 
 Scheduled taskActive
 
-Debrief brief on scorecard complete
+Debrief brief when scorecards are in
 
-Runs `/recruiting-pipeline` each weekday morning on any candidate with all
+Runs `/interview-debrief` each weekday morning on any candidate with all
 scorecards in the hiring folder and writes the brief to that role's debrief
 folder.
 
 Every **Weekdays at 9am · checks the hiring folder for complete scorecard sets**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## 5. Share with your teammates[](https://academy.claude.com/use-cases/interview-debrief)
 
-Your customized `/recruiting-pipeline` now carries your rubric, your convergence threshold, and the rule that the decision stays with humans. Share it so every hiring manager and recruiter walks into debrief with the same brief, and the panel spends its time on the open questions instead of re-reading scorecards.
+Your `/interview-debrief` skill now carries your rubric, your convergence threshold, and the rule that the decision stays with humans. Share it so every hiring manager and recruiter walks into debrief with the same brief, and the panel spends its time on the open questions instead of re-reading scorecards.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...**
-menu next to `/recruiting-pipeline`, select **Share**, and pick your hiring
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...**
+menu next to `/interview-debrief`, select **Share**, and pick your hiring
 managers and recruiters. For your whole organization, open the skill and
 select **Publish to org**, if your admin allows. They get the skill with your
-rubric and guardrails baked in, so they don't repeat Steps 1-3.
+rubric and guardrails baked in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/interview-debrief)
 
 ### Now set up in Claude
-
-Your plugins
-
-Human Resources plugin
 
 Your tools
 
@@ -437,7 +413,7 @@ Your tools
 
 Your folder
 
-Hiring / debrief
+Hiring / Senior-PM-Growth / debrief
 
 Interviewer feedback is organized into one brief before the meeting, so the
 panel starts from the same summary and uses the time to decide instead of

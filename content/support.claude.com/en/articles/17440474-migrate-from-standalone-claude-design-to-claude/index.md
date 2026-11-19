@@ -6,7 +6,7 @@ Claude Design is available on Free, Pro, Max, Ultra, Team, and Enterprise plans.
 
 ## What's changing and when
 
-You can keep using the standalone version until it closes on December 14, 2026. After that, it's read-only, and you can't start new projects there.
+You can keep using the standalone version until it closes on December 14, 2026. Move or download your projects before then.
 
 When you start a new design, design system, or slide deck in Claude, it's created as an artifact.
 
@@ -22,7 +22,7 @@ When you move a design system, the original stays in the standalone version. You
 
 - On Team and Enterprise plans, ask your organization's owner to set a default design system to get the most out of artifacts.
 
-- Moving projects to Claude is rolling out gradually to paid plans. Once you can, move the projects you want to keep. See What happens to your projects.
+- Move the projects you want to keep. See **[What happens to your projects](#h_1d425b60a1)**.
 
 - If you're a Team or Enterprise owner, check that artifacts and design systems are turned on. On Enterprise plans, design systems are off by default.
 
@@ -124,15 +124,15 @@ To replace a moved design system with a fresh copy, delete it in Claude, then mo
 
 Until they're moved, your projects stay in the standalone version and keep working until it closes. The **Artifacts** page in Claude also lists up to 60 of them, and they open in the standalone version.
 
-Moving a project to Claude, where it becomes an artifact, is rolling out gradually to paid plans.
+When you move a project to Claude, it becomes an artifact.
 
 - On Team and Enterprise plans, artifacts also need to be on for your organization. On Enterprise plans with custom roles, your role needs them too.
 
 - Organizations with customer-managed encryption keys (CMEK) can move individual projects, lists of projects, design systems, or everything at once. Standalone Claude Design doesn't support CMEK, so its data won't be encrypted under your key until you move. Once a project moves to Claude, it's encrypted under your key.
 
-- Organizations with the HIPAA-ready configuration can't move projects right now.
+- Organizations with the HIPAA-ready configuration can move projects once an owner turns on **Artifacts** and **Design**. Moved projects and design systems aren't covered under your Business Associate Agreement (BAA), so keep protected health information (PHI) out of them. See **[For Team and Enterprise owners](#h_821522af39)**.
 
-- Organizations with zero data retention (ZDR) for Claude Code, but not the HIPAA-ready configuration, can move projects once an owner turns on artifacts. ZDR doesn’t cover artifacts. If artifacts stay off there, download your projects before the standalone version closes.
+- Organizations with zero data retention (ZDR) for Claude Code can move projects once an owner turns on artifacts. ZDR doesn’t cover artifacts. If artifacts stay off there, download your projects before the standalone version closes.
 
 To move a project:
 
@@ -152,7 +152,7 @@ You can also move all of your own projects at once, or only the ones you choose.
 
 "Move everything" is on the Artifacts page in Claude, and it moves templates and design systems too. Only an Owner or the Primary Owner can start it, not an Admin.
 
-Most projects keep their owner, and private projects stay private. If a project's owner has left your organization, it goes to an owner of your organization, usually the Primary Owner, and Claude shows that person a list called "Projects moved to you." Anything that can't move stays in the standalone version, and the results say why. As with any move, the standalone copies of moved projects become read-only for everyone.
+Most projects keep their owner, and private projects stay private. If a project's owner has left your organization, it goes to an owner of your organization, usually the Primary Owner, and Claude shows that person a list called "Projects moved to you." Anything that can't move stays in the standalone version, and the results say why. Before December 14, 2026, download anything that can't move. As with any move, the standalone copies of moved projects become read-only for everyone.
 
 **Important:** If your organization has a retention period that covers artifacts, a project or design system that moves, or has already moved, to Claude can be permanently deleted if nobody opens it for that period. The period starts on the day of the move and restarts when someone opens or edits the artifact. Learn more in **[Configure custom data retention controls for Enterprise plans](https://support.claude.com/en/articles/10440198)**.
 
@@ -164,7 +164,7 @@ These stay in the standalone version and are deleted some time after it closes, 
 
 - Comments on your projects and design systems
 
-Public links to projects in the standalone version will no longer work after it closes.
+Pages you published with "Publish as artifact" are artifacts in Claude, so closing the standalone version doesn't affect their links. Temporary public links expire on their own in about an hour.
 
 **Important:** Save anything you need from your chats and comments before the standalone version closes.
 
@@ -188,7 +188,9 @@ While **Design systems** is off, owners who click "Move team design systems" see
 
 If your organization's default design system moves, it becomes the default in Claude too, unless you've already set one there.
 
-Organizations with zero data retention (ZDR) for Claude Code, but not the HIPAA-ready configuration, can move projects once an owner turns on artifacts, which are off until then. ZDR doesn’t cover artifacts, so moved projects are kept until deleted unless your organization has a retention period that covers artifacts. If you leave artifacts off, people can download their projects before the standalone version closes. See **[Can I download all my projects?](#h_a676b76d76)** If your organization has both ZDR for Claude Code and the HIPAA-ready configuration, people can’t move projects right now but can still download them one at a time.
+Organizations with zero data retention (ZDR) for Claude Code can move projects once an owner turns on artifacts, which are off until then. ZDR doesn’t cover artifacts, so moved projects are kept until deleted unless your organization has a retention period that covers artifacts. If you leave artifacts off, people can download their projects before the standalone version closes. See **[Can I download all my projects?](#h_a676b76d76)**
+
+Organizations with the HIPAA-ready configuration can move projects once an owner turns on **Artifacts** and **Design**. Projects arrive private to their owner, and design systems move only when an owner also turns on **Design systems** and moves everything. For these organizations, this replaces what the rest of this article says about sharing and about who can move design systems. An owner can turn on Claude Docs, Slides, Design, Dashboards, and Motion in **[Organization settings > Artifacts](https://claude.ai/admin-settings/artifacts)** after accepting the terms. These artifact types, moved projects and design systems, and standalone Claude Design aren't covered under your BAA, so keep PHI out of them.
 
 ---
 
@@ -196,7 +198,7 @@ Organizations with zero data retention (ZDR) for Claude Code, but not the HIPAA-
 
 ### What happens to my originals after the standalone version closes?
 
-Your originals stay in the standalone version, and moved ones are read-only. After it closes on December 14, 2026, the rest become read-only too, with one exception. The owner of a project that hasn't moved can still change its files, so they can fix it and move it to Claude. Originals are deleted some time later, per our **[data retention practices](https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data)**.
+Your originals stay in the standalone version until it closes on December 14, 2026, and moved ones are read-only. Anything left there is deleted some time after it closes, per our **[data retention practices](https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data)**, so move or download what you want to keep before December 14.
 
 ### What if the owner of a design system or project has left my organization?
 

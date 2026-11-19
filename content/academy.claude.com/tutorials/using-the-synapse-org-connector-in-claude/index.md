@@ -6,7 +6,7 @@ Set up and use the Synapse.org integration with Claude to discover biomedical da
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-j90vbjdx.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cngwdsx8.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-g0fheytz.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-h5n19x7u.png)
 
 The Synapse.org integration by Sage Bionetworks allows researchers to discover biomedical data across all of Synapse, see the structure of projects, and retrieve information on their data assets for authorized users. This article explains how to set up and use the Synapse.org integration with Claude to advance your research and analysis workflows.
 
@@ -27,15 +27,13 @@ More details on accessing the integration can be found in [Synapse’s MCP Serve
 
 **For Organization Owners (Team and Enterprise)**
 
-1. Navigate to Admin settings > Connectors
-2. Click "Browse connectors"
-3. Click “**Synapse.org**”
-4. Click “Add to your team”
+1. Navigate to [Organization settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors)
+2. Use the Add button to browse all available connectors, then find **Synapse.org** and add it for your team
 
 **For Individual Claude Users**
 
-1. Navigate to Settings > Connectors
-2. Click “Connect”
+1. Open [Synapse.org in the connectors directory(opens in new tab)](https://claude.ai/directory/synapse-org)
+2. Connect it to Claude
 3. Follow the instructions to authenticate with your Synapse.org account
 
 Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory) in Claude.

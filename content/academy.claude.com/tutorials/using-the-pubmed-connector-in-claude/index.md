@@ -6,7 +6,7 @@ Set up and use Claude's PubMed integration for access to millions of biomedical 
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-hegdjvte.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-d01uo0vw.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-ef82lsm5.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-my0bjk2w.png)
 
 The PubMed integration provides access to millions of biomedical research articles and clinical studies, allowing Claude to access abstracts and full papers to clarify experimental approaches, identify key findings, determine novelty and applicability, and surface specific papers for deeper exploration. This article explains how to set up and use the PubMed integration with Claude to accelerate your research workflows.
 
@@ -14,7 +14,7 @@ The PubMed integration relies upon Claude's ability to [use remote connectors(op
 
 ## What this integration provides[](https://academy.claude.com/tutorials/using-the-pubmed-connector-in-claude)
 
-The PubMed integration connects Claude directly to the PubMed database maintained by the U.S. National Library of Medicine. With over 36 million citations for biomedical literature, PubMed is the premier resource for medical research, scientific studies, and health information.
+The PubMed integration connects Claude directly to the PubMed database maintained by the U.S. National Library of Medicine. With more than 40 million citations for biomedical literature, PubMed is the premier resource for medical research, scientific studies, and health information.
 
 This integration allows you to:
 
@@ -29,16 +29,13 @@ This integration allows you to:
 
 **For Organization Owners (Team and Enterprise)**
 
-1. Navigate to Admin settings > Connectors
-2. Click "Browse connectors"
-3. Click "**PubMed**"
-4. Click "Add to your team"
+1. Navigate to [Organization settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors)
+2. Use the Add button to browse all available connectors, then find **PubMed** and add it for your team
 
 **For Individual Claude Users**
 
-1. Navigate to Settings > Connectors
-2. Find "PubMed"
-3. Click "Connect"
+1. Open [PubMed in the connectors directory(opens in new tab)](https://claude.ai/directory/pubmed)
+2. Connect it to Claude
 
 Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory) in Claude.
 
@@ -217,7 +214,7 @@ Yes! The integration is free for all Claude users. PubMed is a free public resou
 
 **Can I access full-text articles for any paper?**
 
-PubMed only makes the full text of articles available if they are in PubMed Central (PMC). PubMed contains over 36 million citations with abstracts, but PMC contains approximately 8 million full-text articles. Where the full text of an article is not available, Claude can provide relevant metadata (title, authors, abstract) if available, and can also supply a link to the full article for your review.
+PubMed only makes the full text of articles available if they are in PubMed Central (PMC). PubMed contains more than 40 million citations, but PMC contains fewer full-text articles. Where the full text of an article is not available, Claude can provide relevant metadata (title, authors, abstract) if available, and can also supply a link to the full article for your review.
 
 **How current is the data?**
 

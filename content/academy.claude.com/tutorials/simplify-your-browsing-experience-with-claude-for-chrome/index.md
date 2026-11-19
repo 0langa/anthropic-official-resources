@@ -40,7 +40,7 @@ Not every browser activity suits delegation to the Claude browser extension. Her
 ### Ideal for Claude in Chrome[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
 
 - Taking action on specific websites like filling forms, clicking buttons, navigating interfaces, making changes to live pages
-- Executing well-defined workflows using shortcuts you've created, repeating proven processes
+- Executing well-defined workflows using skills or shortcuts you've created, repeating proven processes
 - Specific, targeted tasks or information gathering behind a login or using your permissions
 
 ### Ideal for Claude apps[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
@@ -54,25 +54,27 @@ Not every browser activity suits delegation to the Claude browser extension. Her
 - Highly subjective decisions requiring nuanced judgment
 - Learning through doing tasks like exploring new tools or understanding workflows
 
-## Repeat effective workflows with shortcuts[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
+## Repeat effective workflows with skills and shortcuts[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
 
-Once you create a successful workflow or find yourself repeating the same request to Claude, there are a few ways to save it as a shortcut for Claude to follow next time. From then on, type `/` to select your shortcut and trigger the workflow instantly.
+Once you create a successful workflow or find yourself repeating the same request to Claude, ask Claude to save it as a [skill(opens in new tab)](https://support.claude.com/en/articles/12512180-use-skills-in-claude) to follow next time. From then on, type `/` to select it and trigger the workflow instantly. If you still have the classic side panel, there are a few ways to save it as a shortcut instead.
 
-### Record a workflow to create a shortcut[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
+### Record a workflow to create a shortcut (classic side panel)[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
 
 Teach Claude your task by demonstration. Click the cursor icon in the menu bar or type `/` in the chat bar and select ‘Record workflow’. Perform the task, clicking, typing, and narrating, while Claude watches your screen and listens to your voice. When you finish, Claude generates a shortcut: a name, a prompt describing what you did, and the starting URL.
 
-### Convert a conversation to a shortcut[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
+### Convert a conversation to a shortcut (classic side panel)[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
 
 If you’ve completed a workflow across several chats, click `Convert to task` in the conversation header to save it as a repeatable shortcut.
 
-### Save a prompt as a shortcut[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
+### Save a prompt as a shortcut (classic side panel)[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
 
 If you've already sent a well-crafted prompt in chat, hover over it to reveal an icon that lets you save it directly as a shortcut.
 
-### Schedule recurring tasks using shortcuts[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
+### Schedule recurring tasks[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
 
-Once a workflow runs reliably — whether from a recording or a saved shortcut — schedule it to run automatically. When creating or editing a shortcut, toggle on `Schedule`. Choose the frequency, set the date and time, and select which model to use. Claude runs the workflow at the specified time and notifies you when it's done or needs input.
+Once a workflow runs reliably, schedule it to run automatically. To do this, open Claude Desktop and set up a [scheduled task(opens in new tab)](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork) with the workflow's prompt, plus a line asking Claude to use Claude in Chrome. Set the task to require your computer. It works only while your computer is awake, with Claude Desktop and Chrome open.
+
+In the classic side panel, you can schedule a shortcut instead. When creating or editing a shortcut, toggle on `Schedule`. Choose the frequency, set the date and time, and select which model to use. Claude runs the workflow at the specified time and notifies you when it's done or needs input.
 
 **Good candidates for scheduling:**
 
@@ -80,7 +82,7 @@ Once a workflow runs reliably — whether from a recording or a saved shortcut �
 - [Data extraction(opens in new tab)](https://academy.claude.com/use-cases/pull-metrics-from-analytics-dashboards) that pulls weekly metrics from dashboards that don't offer exports
 - [Calendar planning(opens in new tab)](https://academy.claude.com/use-cases/prepare-and-plan-from-your-calendar) for your upcoming week by flagging which meetings need prep and finding the details.
 
-### Additional shortcuts to try[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
+### Additional workflows to try[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
 
 Taking action:
 
@@ -114,19 +116,19 @@ For each person in this meeting invite: look up their professional background, n
 
 ## Setting yourself up for success[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
 
-As Claude in your browser has limitations that are helpful to understand.
+Claude in your browser has limitations that are helpful to understand.
 
 **Permission confirmations**
 
-Visit our [help center(opens in new tab)](https://support.claude.com/en/articles/12012173-getting-started-with-claude-for-chrome) to learn more about which actions Claude will always ask permission for, regardless of your settings.
+Visit our [help center(opens in new tab)](https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide) to learn more about which actions Claude will always ask permission for, regardless of your settings.
 
-**Reduced functionality**
+**Features depend on your side panel**
 
-Claude in Chrome is "pure Claude" without extended features of [Claude.ai(opens in new tab)](http://claude.ai/), such as Projects, MCP tool connections, or memory between sessions.
+Your skills, plugins, and connectors work in the Cowork side panel. On Enterprise plans, you have the classic side panel until [an owner enables the Cowork side panel(opens in new tab)](https://support.claude.com/en/articles/13065128-claude-in-chrome-admin-controls) for you.
 
 **Blocked sites**
 
-For safety, Claude cannot access financial services, adult content, or pirated content sites.
+For safety, Claude cannot access certain types of high-risk websites. See [Use Claude in Chrome safely(opens in new tab)](https://support.claude.com/en/articles/12902428-use-claude-in-chrome-safely).
 
 ## Ready to practice?[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
 

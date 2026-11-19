@@ -6,7 +6,7 @@ Set up and use the Open Targets integration with Claude to explore supporting da
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-jq5tvky7.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-m96zer3e.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-j7c45hcn.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-e1td3tfk.png)
 
 This connector provides access to the Open Targets Platform for identifying and prioritizing therapeutic drug targets based on disease associations. This article explains how to set up and use the Open Targets integration with Claude to more quickly explore supporting data and prioritize drug targets and assess disease associations.
 
@@ -39,16 +39,13 @@ More details on accessing the integration can be found in [Open Targets’ MCP S
 
 **For Organization Owners (Team and Enterprise)**
 
-1. Navigate to Admin settings > Connectors
-2. Click "Browse connectors"
-3. Click “**Open Targets**”
-4. Click “Add to your team”
+1. Navigate to [Organization settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors)
+2. Use the Add button to browse all available connectors, then find **Open Targets** and add it for your team
 
 **For Individual Claude Users**
 
-1. Navigate to Settings > Connectors
-2. Find “**Open Targets**”
-3. Click “Connect”
+1. Open [Open Targets in the connectors directory(opens in new tab)](https://claude.ai/directory/open-targets)
+2. Connect it to Claude
 
 Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory) in Claude.
 

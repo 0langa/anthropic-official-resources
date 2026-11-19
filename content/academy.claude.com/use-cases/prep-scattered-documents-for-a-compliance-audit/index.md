@@ -34,7 +34,7 @@ Our audit scope covers security, availability, and confidentiality. The audit pe
 
 In [Claude Desktop(opens in new tab)](https://claude.com/download), Claude can work directly with your local files. Point it at your audit folder and it can read everything inside, including PDFs, Word docs, spreadsheets, and scans.
 
-**What to expect:** After your initial prompt, Claude may ask you questions about your audit scope and requirements, then build a plan you can review in the sidebar. This helps it work more independently and produce results closer to finished.
+**What to expect:** After your initial prompt, Claude may ask you questions about your audit scope and requirements, then list its steps and mark each one done as it works. Your answers help it work more independently and produce results closer to finished. To review the approach first, ask Claude in your prompt to share its plan and wait for your OK.
 
 ### Required context[](https://academy.claude.com/use-cases/prep-scattered-documents-for-a-compliance-audit)
 

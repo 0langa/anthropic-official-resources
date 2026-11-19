@@ -26,8 +26,6 @@ These differences apply to any cloud session, including on desktop:
 
 - **Very large files may be slower.** The same goes for a large number of files.
 
-- **Scheduled tasks created in the cloud can't use local folders or local connectors.** Scheduled tasks that run in the cloud use the built-in schedule options. Existing local tasks that rely on a local folder or local connector keep running locally.
-
 ## What still needs the desktop app
 
 Some capabilities reach things on your computer, so they require the Claude Desktop app to be open and connected, even when your session runs in the cloud:

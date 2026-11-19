@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-nhxr907i.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ci4exa6p.png)
 
-Film: the user asks Claude to reconcile two intercompany ledgers, normalize currency, and match line items, pausing to confirm a materiality threshold before drafting balanced journal entries for review and scheduling recurring runs.
+Film: a self-playing walkthrough of the user asking Claude to reconcile two intercompany ledgers, normalize currency, sort differences into timing, rounding, and true breaks, and draft balanced journal entries for review before posting.
 
 ![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)subledger-EMEA-mar.xlsx
 
@@ -74,7 +74,7 @@ XLSX
 
 Finance
 
-/close-management
+/financial-statements
 
 /journal-entry
 
@@ -168,7 +168,7 @@ JE draftNetSuite importSupport+Ready  ·  Sum: 40,268.91
 
 Each draft entry balances and waits for you to post it.
 
-Run this every Monday: if new subledger exports are in the Intercompany folder, run /journal-entry against them and write the recon workbook and JE draft there. Nothing posts without my review.
+Run this every Monday: if new subledger exports are in the Intercompany folder, reconcile them and write the recon workbook and JE draft there. Nothing posts without my review.
 
 **Intercompany recon and JE draft**Mondays at 9:00 AM
 
@@ -192,13 +192,13 @@ Reconcile and draft the journal entries
 
 Your two ledgers don’t agree and you need the entries that fix it.
 
-Tell the journal entry skill how to match and sort differences, and what each entry needs.
+Pick the journal entry skill, then tell Claude how to match and sort differences, and what each entry needs.
 
 Claude reads both ledgers and your rate sheet, then matches line by line in one currency.
 
 Claude checks with you before it decides anything that is your call.
 
-Claude tells you what matched, then gives you the two workbooks.
+Claude tells you what matched, then gives you the workbook and JE draft.
 
 Every difference is sorted into your categories.
 
@@ -222,7 +222,7 @@ Skill: /journal-entry (Finance)
 
 ### Try a plugin[](https://academy.claude.com/use-cases/recon-journal-entries)
 
-The Finance plugin ships with `/journal-entry` and seven other close-week skills as a starting point, it already knows how to match across ledgers and structure a JE. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Finance plugin ships with `/journal-entry`, `/reconciliation`, and other close-week skills as a starting point. It already knows how to reconcile accounts and structure a JE. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -234,9 +234,9 @@ FinanceStreamline finance and accounting workflows, from journal entries and rec
 
 [Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fjournal-entry)
 
-`/variance-analysis`Decompose financial variances into drivers with narrative explanations and waterfall analysis.
+`/reconciliation`Reconcile accounts by comparing GL balances to subledgers, bank statements, or third-party data.
 
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fvariance-analysis)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Freconciliation)
 
 Show all 7 skills
 
@@ -258,7 +258,7 @@ Pull GL detail and intercompany subledgers directly from the system of record.
 
 Microsoft 365
 
-Build the recon workbook in Excel with working formulas, tie-outs, and a JE upload tab.
+Read workbooks from SharePoint or OneDrive.
 
 [Connect](https://claude.ai/desktop/directory/microsoft-365)
 
@@ -278,7 +278,7 @@ Read the FX rate sheet and prior-period recon from the shared close folder.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/recon-journal-entries)
 
-Drag the files you'll use (both entity exports, the FX rate sheet, your JE template, last month's recon) into one folder and point Claude at it. Claude reads from it and writes the matched workbook and JE draft back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your intercompany folder so the FX policy, materiality threshold, and JE template stay attached every close.
+Drag the files you'll use (both entity exports, the FX rate sheet, and your JE template) into one folder and [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from it and writes the recon workbook and JE draft back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your intercompany folder so the FX policy, materiality threshold, and JE template stay attached every close.
 
 FY26-Close / Intercompany / March
 
@@ -332,13 +332,15 @@ Reconcile the March intercompany balances across both subledgers. Normalize FX t
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/recon-journal-entries)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your match logic and your FX policy, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /journal-entry skill with my feedback.
+Make what we've done in this task so far into a skill called /intercompany-recon.
 
 
 
 FY26-Close / IntercompanyOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -348,9 +350,9 @@ Make what we've done in this task so far into a skill, or edit the /journal-entr
 
 ### Run it on a schedule[](https://academy.claude.com/use-cases/recon-journal-entries)
 
-Intercompany is due the same day every close. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs against the newest exports automatically.
+Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/intercompany-recon` runs against the newest exports automatically.
 
-Set up a scheduled task for every Monday at 9am: if new subledger exports are in FY26-Close/Intercompany, run /journal-entry against them and write the recon workbook and JE draft to that folder.
+Set up a scheduled task for every Monday at 9am: if new subledger exports are in FY26-Close/Intercompany, run /intercompany-recon against them and write the recon workbook and JE draft to that folder.
 
 
 
@@ -360,23 +362,25 @@ Set up a scheduled task for every Monday at 9am: if new subledger exports are in
 
 Intercompany recon and JE draft
 
-Runs `/journal-entry` against the newest subledger exports, sorts breaks, and writes the JE draft to the close folder.
+Runs `/intercompany-recon` against the newest subledger exports, sorts breaks, and writes the JE draft to the close folder.
 
 Every **Monday at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/recon-journal-entries)
 
-Your customized `/journal-entry` now carries your match logic, your FX policy, and your JE template. Share it so every entity controller runs the same recon, same buckets, same memo format.
+Your `/intercompany-recon` skill now carries your match logic and your FX policy. Share it so every entity controller runs the same recon, same buckets, same memo format.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/journal-entry`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your instructions baked in, they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/intercompany-recon`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your instructions baked in, so they don't have to build it again.
 
 ## What changes for close week[](https://academy.claude.com/use-cases/recon-journal-entries)
 
-Intercompany reconciles across both ledgers with each difference classified and its journal entry drafted — ready to review and post instead of match line by line.
+Intercompany reconciles across both ledgers with each difference classified and a journal entry drafted for each true break — ready to review and post instead of match line by line.
 
 You did this for intercompany. The same approach covers bank reconciliations, accrual entries, and prepaid schedules — each one a skill your team runs the same way every close.
 

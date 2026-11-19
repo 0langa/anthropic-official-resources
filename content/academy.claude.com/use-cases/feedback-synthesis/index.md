@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-calyi96r.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iv2hjqlx.png)
 
-Film: the user asks Claude to cluster scattered customer feedback into ranked themes with quotes, checked against the roadmap, producing a brief the user can rerun on a schedule before future planning reviews.
+Film: the user asks Claude to cluster customer feedback from several sources into ranked themes with quotes, checked against the roadmap, producing a brief the user can schedule to rerun before future reviews.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)#product-feedback
 
@@ -52,7 +52,7 @@ Linear
 
 Product / voc-q2
 
-3 items
+9 items
 
 Folder
 
@@ -312,7 +312,7 @@ Turn customer feedback into ranked themes
 
 You need the themes in your customer feedback before planning starts.
 
-Using the Product Management plugin’s synthesis skill, name each source and ask for ranked themes.
+Using the Product Management plugin’s synthesize-research skill, name each source and ask for ranked themes.
 
 Claude reads the survey comments, tickets, call notes and channel, and checks your roadmap.
 
@@ -402,7 +402,7 @@ Google DriveOptional
 
 ### Set your working folder[](https://academy.claude.com/use-cases/feedback-synthesis)
 
-Drag the files you'll use (the NPS verbatim export, the support ticket CSV, the sales call snippets, the six interview transcripts) into one folder on your machine, then point Claude at it. Claude reads from it and writes the Voice of Customer brief back to it. If you run this every quarter, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your sources, instructions, and memory stay attached.
+Drag the files you'll use (the NPS verbatim export, the support ticket CSV, the sales call snippets, the six interview transcripts) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from it and writes the Voice of Customer brief back to it. If you run this every quarter, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your sources, instructions, and memory stay attached.
 
 Product / voc-q2
 
@@ -458,13 +458,15 @@ Read this folder plus the #product-feedback Slack channel and the open Zendesk t
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/feedback-synthesis)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your severity scale and your brief format, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /synthesize-research skill with my feedback.
+Make what we've done in this task so far into a skill called /voc-brief.
 
 
 
-ProductOpen in Claude
+Product / voc-q2Open in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -474,31 +476,33 @@ Make what we've done in this task so far into a skill, or edit the /synthesize-r
 
 ### Run it ahead of every roadmap review[](https://academy.claude.com/use-cases/feedback-synthesis)
 
-Feedback piles up between planning cycles whether or not anyone is reading it. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill produces a fresh brief the Friday before each roadmap review.
+Feedback piles up between planning cycles whether or not anyone is reading it. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/voc-brief` produces a fresh brief every Friday, so one is ready before each roadmap review.
 
-Set up a scheduled task for every Friday at 4pm: run /synthesize-research against Product/voc-<current-quarter> plus the live Slack and Zendesk sources, and write the brief to that folder as voc-brief-<date>.md.
+Set up a scheduled task for every Friday at 4pm: run /voc-brief against Product/voc-q2 plus the live Slack and Zendesk sources, and write the brief to that folder as voc-brief-<date>.md.
 
 
 
-ProductOpen in Claude
+Product / voc-q2Open in Claude
 
 Scheduled taskActive
 
-Monthly Voice of Customer brief
+Voice of Customer brief
 
-Runs `/synthesize-research` against the quarter's VoC folder plus live Slack and Zendesk and writes the one-page brief back to the folder.
+Runs `/voc-brief` against the quarter's VoC folder plus live Slack and Zendesk and writes the one-page brief back to the folder.
 
 Every **Friday at 4:00pm**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/feedback-synthesis)
 
-Your customized `/synthesize-research` now carries your severity scale, your standing sources, and your brief format. Share it so every PM on the team clusters feedback the same way, and roadmap review reads one consistent VoC page no matter whose area it covers.
+Your `/voc-brief` skill now carries your severity scale, your standing sources, and your brief format. Share it so every PM on the team clusters feedback the same way, and roadmap review reads one consistent VoC page no matter whose area it covers.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/synthesize-research`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your sources and severity scale baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/voc-brief`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your sources and severity scale baked in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/feedback-synthesis)
 
@@ -514,7 +518,7 @@ Your tools
 
 Your folder
 
-Product / voc
+Product / voc-q2
 
 Feedback from all your sources is organized into a ranked one-page brief, each theme counted, quoted, and checked against the roadmap — ready to act on instead of sort through.
 

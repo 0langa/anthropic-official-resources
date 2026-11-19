@@ -19,11 +19,11 @@ Here's how the current models compare:
 
 [**Haiku 5.5**](https://www.anthropic.com/claude-haiku-5-5) is our fastest and least expensive model, built for quick lookups and high-volume work like writing summaries and sorting data. This is our first Haiku model with effort controls, so you can ask for a more careful pass before switching to a larger model. It’s best suited to short, narrowly scoped tasks. For longer analysis, switch to Opus 5.5.
 
-[**Sonnet 5.5**](https://www.anthropic.com/claude-sonnet-5-5) is faster and cheaper than Opus 5.5 for well-scoped tasks that have a clear brief. This could be asking Claude to turn finished notes into a polished document, or to build a deck using a slide template. At higher-effort settings, however, cost per task with Sonnet 5.5 gets close to Opus 5.5, so if you find yourself pushing Sonnet to Extra high or Max effort, consider switching to Opus 5.5.
+[**Sonnet 5.5**](https://www.anthropic.com/claude-sonnet-5-5) is faster and cheaper than Opus 5.5 for well-scoped tasks that have a clear brief. This could be asking Claude to turn finished notes into a polished document, or to build a deck using a slide template. At [higher-effort settings](https://claude.com/resources/articles/claude-model-and-effort-level-in-claude-code), however, cost per task with Sonnet 5.5 gets close to Opus 5.5, so if you find yourself pushing Sonnet to Extra high or Max effort, consider switching to Opus 5.5.
 
 **[Opus 5.5](https://www.anthropic.com/claude-opus-5-5)** is built for complex work that needs careful judgment, like research, financial analysis, and producing finished docs, decks, and spreadsheets. We share details on why we recommend Opus 5.5 for daily knowledge work later.
 
-[**Fable 5.2**](https://www.anthropic.com/claude-fable-and-mythos-5-2) is best for your most demanding reasoning and long-running work, like deep multi-step research or coding that you can hand off to a large team of subagents that run for hours. For most knowledge work, start with Opus 5.5 and move to Fable 5.2 when a project’s scope and complexity calls for it. Fable 5.2 is available on all paid plans, though [how it draws on your usage](https://support.claude.com/en/articles/15424964-claude-fable-models-on-your-plan) depends on your plan.
+[**Fable 5.2**](https://www.anthropic.com/claude-fable-and-mythos-5-2) is best for your most demanding reasoning and long-running work, like deep multi-step research or coding that you can hand off to a large team of subagents that run for hours. For most knowledge work, start with Opus 5.5 and [move to Fable 5.2](https://claude.com/resources/articles/a-field-guide-to-claude-fable-finding-your-unknowns) when a project’s scope and complexity calls for it. Fable 5.2 is available on all paid plans, though [how it draws on your usage](https://support.claude.com/en/articles/15424964-claude-fable-models-on-your-plan) depends on your plan.
 
 Whichever model you're on, if Claude didn’t do as well as you expected, try a higher effort first before moving up a model. If it had the context, clearly tried, and still got it wrong, move up a model.
 
@@ -92,31 +92,33 @@ Pick something you'd normally split across several requests, like a research mem
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 13, 2026
+[ArticleNov 17, 2026
+
+### Linked billing on the Claude Platform
+
+Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)[ArticleNov 17, 2026
+
+### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
+
+How Claude spent two weeks load testing a staging cluster, breaking the Claude Docs service on purpose and fixing what fell over before launch, and what made the service legible enough for Claude to close the loop.
+
+Claude CodeClaude apps
+
+(opens in new tab)](https://claude.dev/blog/chaos-loop-claude-docs-launch/)[ArticleNov 16, 2026
+
+### How the Claude Code team thinks about verification
+
+How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)[ArticleNov 13, 2026
 
 ### Building always-on agents
 
 Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
 
-Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
-
-### The Claude Tag guide for startups
-
-How leading startups use Claude Tag to ship faster and scale operations
-
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 12, 2026
-
-### Operate Claude Managed Agents inside your security perimeter
-
-Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
-
-Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)[ArticleNov 12, 2026
-
-### J. Crew brings its signature approach to styling to life with Claude
-
-J.Crew's new Style Advisor uses Claude to offer a more personalized way to shop online, with complete looks instead of individual products.
-
-Claude Code](https://claude.com/resources/articles/j-crew-style-advisor-with-claude)
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)
 
 ## Transform how your organization operates with Claude
 

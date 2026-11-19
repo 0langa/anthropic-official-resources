@@ -24,8 +24,8 @@ We break this process into six steps:
 1. **Define the target:** the tech stack and behavior the modernized code must have.
 2. **Create the certificate:** the conditions that the changes must meet to be considered correct in the target state.
 3. **Set the promotion policy:** the path by which certified changes get into production at the rate they’re produced.
-4. **Put the prerequisites in place:** environment, CI/CD, review capacity, and approvals.
-5. **Build and refine the agentic workflow:** the custom Claude Code [dynamic workflow](https://claude.com/resources/articles/introducing-dynamic-workflows-in-claude-code) that distributes the modernization across many smaller parallel subagent workstreams that produce the changes. This is built around the target, certificate, and promotion policy.
+4. **Put the prerequisites in place:** environment, [CI/CD](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic), review capacity, and approvals.
+5. **Build and refine the agentic workflow:** the custom Claude Code [dynamic workflow](https://claude.com/resources/articles/introducing-dynamic-workflows-in-claude-code) that distributes the modernization across many smaller [parallel subagent workstreams](https://claude.com/resources/articles/subagents-in-claude-code) that produce the changes. This is built around the target, certificate, and promotion policy.
 6. **Run the modernization:** prove the workflow end to end on a small partition of the codebase, then scale.
 
 ## **Step 1: Define the target**
@@ -206,14 +206,30 @@ Our forward deployed engineers work through these steps with customers on their 
 
 - [The public codemod plugin for Claude Code](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization)
 - [The AI-Native SDLC playbook](https://claude.com/resources/articles/the-ai-native-sdlc-playbook)
-- [Code modernization playbook](https://resources.anthropic.com/code-modernization-playbook)
+- [Code modernization playbook](https://claude.com/resources/guides/the-code-modernization-playbook)
 - [COBOL Modernization with AI: Breaking the Cost Barrier](https://claude.com/resources/articles/how-ai-helps-break-cost-barrier-cobol-modernization)
 
 ## Related articles
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 13, 2026
+[ArticleNov 17, 2026
+
+### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
+
+How Claude spent two weeks load testing a staging cluster, breaking the Claude Docs service on purpose and fixing what fell over before launch, and what made the service legible enough for Claude to close the loop.
+
+Claude CodeClaude apps
+
+(opens in new tab)](https://claude.dev/blog/chaos-loop-claude-docs-launch/)[ArticleNov 16, 2026
+
+### How the Claude Code team thinks about verification
+
+How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)[ArticleNov 13, 2026
 
 ### Building always-on agents
 
@@ -225,19 +241,7 @@ Claude Platform](https://claude.com/resources/articles/building-always-on-agents
 
 How leading startups use Claude Tag to ship faster and scale operations
 
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
-
-### How Curative is building a national provider network with agents on Claude
-
-Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
-
-Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 9, 2026
-
-### Safely scaling multi-agent teams with Claude Fable 5.2
-
-How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
-
-(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 

@@ -2,15 +2,17 @@
 
 Walk through three workflows from the Small Business plugin — plan payroll, close the month, get a Monday brief — and what Claude does at each step.
 
-15 minClaude Cowork
+15 minClaude
 
-[Open Cowork](https://claude.ai/new?surface=cowork)
+[Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-lov8vstm.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cnsmqju3.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-ls1g400e.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-l14xsm61.png)
 
 Embedded media: https://www.youtube-nocookie.com/embed/lserpKbUDjc?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=lserpKbUDjc)
+
+*This video shows Claude in Cowork. If you don't see Cowork, start a new conversation in Claude and follow the same steps.*
 
 Running a small business means working across a lot of tools — your books, your payments, your CRM, your inbox. The answers you need usually live across all of them.
 
@@ -36,7 +38,7 @@ Help me build a Monday morning brief every week in Slack. Pull my cash position 
 
 
 
-Small BusinessOpen in Cowork
+Small BusinessOpen in Claude
 
 This prompt starts the /monday-brief skill, which gives Claude instructions for reading every connected business tool and writing a single page you can scan in a minute. After [customizing the plugin(opens in new tab)](https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin), Claude leads with what matters most for your business.
 
@@ -60,7 +62,7 @@ A short list of things to act on first, with the reason each one made the list.
 
 Outcome
 
-A one-page brief saved to your folder, ready every Monday morning if you put it on a schedule.
+A one-page brief, ready every Monday morning if you put it on a schedule.
 
 ## Close the month with fewer errors[](https://academy.claude.com/tutorials/using-claude-for-your-small-business)
 
@@ -68,7 +70,7 @@ Close out March for me. Reconcile my QuickBooks transactions against PayPal sett
 
 
 
-Small BusinessOpen in Cowork
+Small BusinessOpen in Claude
 
 This prompt starts the /close-month skill, which gives Claude instructions for reconciling your books, flagging anything that doesn't line up, and writing a close packet for your accountant. After [customizing the plugin(opens in new tab)](https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin), Claude follows your category conventions and the flags you care about.
 
@@ -98,7 +100,7 @@ A reconciliation spreadsheet with every transaction matched or flagged, plus a o
 
 Outcome
 
-The close packet saved to your folder, ready for your accountant to work from. Claude prepares the reconciliation; the call on what to change in your books stays with you and your accountant.
+The close packet, ready for your accountant to work from. Claude prepares the reconciliation; the call on what to change in your books stays with you and your accountant.
 
 ## Plan payroll with confidence[](https://academy.claude.com/tutorials/using-claude-for-your-small-business)
 
@@ -106,7 +108,7 @@ Get me ready for payroll on the 15th. Pull my cash position from QuickBooks, my 
 
 
 
-Small BusinessOpen in Cowork
+Small BusinessOpen in Claude
 
 This prompt starts the /plan-payroll skill, which gives Claude instructions for forecasting the next 30 days of cash and drafting reminders for overdue invoices. After [customizing the plugin(opens in new tab)](https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin), Claude knows your team and how each customer pays.
 

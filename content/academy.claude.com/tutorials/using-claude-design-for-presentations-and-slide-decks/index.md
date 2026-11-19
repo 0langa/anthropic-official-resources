@@ -186,7 +186,7 @@ Northwind Q3 business reviewNorthwind, page 6
 Claude can build your deck in your brand's fonts and colors when you have a design system set up in Claude. What to do depends on what you have:
 
 - **You have a design system:** Claude uses your own default if you've set one. Otherwise it uses your organization's, unless you've turned that off for yourself. If there's no default at all, it asks which design system to use. To use a different one for this deck, choose it in the message box under **+ > Design system** before you send the request.
-- **Your design system is in standalone Claude Design (claude.ai/design):** it has to be migrated first. One person can migrate every design system in your organization from the **Artifacts** page. See [Migrate from standalone Claude Design(opens in new tab)](https://academy.claude.com/tutorials/create-a-design-system-with-claude).
+- **Your design system is in standalone Claude Design (claude.ai/design):** it has to be migrated first. See [Migrate from standalone Claude Design(opens in new tab)](https://academy.claude.com/tutorials/create-a-design-system-with-claude) for who can do that.
 - **You don't have one yet:** attach a deck or brand file and ask Claude to match its look. To start every future deck on brand, see [Setting up a design system in Claude(opens in new tab)](https://academy.claude.com/tutorials/create-a-design-system-with-claude).
 
 Comparison: one sample slide in Claude's own look and in a company's design system. It shows how a design system changes a deck's colors, fonts and color choices.
@@ -533,7 +533,7 @@ If your deck is already a PowerPoint file, Claude can work inside PowerPoint its
 
 - [Using Claude for prototypes and UX(opens in new tab)](https://academy.claude.com/tutorials/using-claude-design-for-prototypes-and-ux) for screens, flows, and clickable prototypes.
 - [Setting up a design system in Claude(opens in new tab)](https://academy.claude.com/tutorials/create-a-design-system-with-claude) so every deck starts on brand.
-- [Collaborate with your team in Claude artifacts(opens in new tab)](https://academy.claude.com/tutorials/intro-to-artifacts) for how decks, docs, and designs are shared and edited.
+- [Collaborate with your team in Claude artifacts(opens in new tab)](https://academy.claude.com/tutorials/collaborate-with-your-team-in-claude-artifacts) for how decks, docs, and designs are shared and edited.
 - [Building a PowerPoint with Claude(opens in new tab)](https://academy.claude.com/tutorials/building-a-powerpoint-with-claude) when your deck is already a PowerPoint file.
 - Visit the [Help Center(opens in new tab)](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them) for more support and troubleshooting.
 

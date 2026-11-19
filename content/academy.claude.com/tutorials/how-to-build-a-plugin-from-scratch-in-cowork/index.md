@@ -2,9 +2,9 @@
 
 Build a Claude plugin from scratch to encode your team's workflows, institutional knowledge, and tool connections into a repeatable, shareable process.
 
-15 minClaude Cowork
+15 minClaude
 
-[Open Cowork](https://claude.ai/new?surface=cowork)
+[Open Claude](https://claude.ai/new)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-iyu8ose6.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jnwlc3r7.png)
 
@@ -44,9 +44,13 @@ One agent might research a company while another pulls data from your CRM and a 
 
 Understanding the components within a plugin can give you a framework for what to share while building one: your **knowledge, judgment calls, and repeatable tasks** become skills, your **data sources** become connectors. If you have existing documents or examples of deliverables you've been happy with, share them — Claude maps it to the relevant parts of the plugin.
 
-Select **Customize > Plugins > Add > Create with Claude**. It starts a conversation with a request already filled in. Describe the plugin you want to build. Even a sentence is enough to start.
+On the [plugins page(opens in new tab)](https://claude.ai/desktop/customize/plugins), select **Add > Create with Claude**. It starts a conversation with a request already filled in. Describe the plugin you want to build. Even a sentence is enough to start.
 
-![A prompt in Claude describing a plugin to build for a procurement team](https://academy.claude.com/assets/media/d922d57dc690563b0bf76462529ab967ff2a9b677984f3f052c6dcbc0a4382ba.png)
+Build a plugin for our procurement team. We evaluate new vendors against a custom scoring framework, track contract renewals, and analyze spend by category. We pull from our ERP and spend management platform. Ask me about our process so you can build it right.
+
+
+
+Open in Claude
 
 A simpler start works too — Claude will follow up with questions about your workflow, your tools, your standards, and how you handle edge cases.
 
@@ -54,7 +58,7 @@ I need a plugin for our customer success team
 
 
 
-Open in Cowork
+Open in Claude
 
 When Claude finishes, it shows the plugin as a file card. Select **Save plugin** to add it to your account.
 
@@ -68,7 +72,7 @@ Here's our P&L. Materiality threshold is $25K. Decompose by price, volume, and m
 
 
 
-Open in Cowork
+Open in Claude
 
 ###### **Without a plugin:** Claude can handle it, but restating your full close methodology every session is overhead that compounds, and the output might vary depending on who's giving Claude the instructions.
 
@@ -76,7 +80,7 @@ Here's our P&L. Materiality threshold is $25K. Decompose by price, volume, and m
 
 
 
-Open in Cowork
+Open in Claude
 
 ###### **With your plugin:** Skills load your chart of accounts, materiality thresholds, close calendar, and narrative standards. Connectors pull from your data warehouse. The skill runs the full process — a new analyst runs it and gets consistent rigor.
 
@@ -86,7 +90,7 @@ Pull usage data for Meridian Health from our analytics dashboard. Check for supp
 
 
 
-Open in Cowork
+Open in Claude
 
 ###### **Without a plugin:** You're directing Claude to each source, restating your scoring criteria, and specifying the output format every time.
 
@@ -94,7 +98,7 @@ Pull usage data for Meridian Health from our analytics dashboard. Check for supp
 
 
 
-Open in Cowork
+Open in Claude
 
 ###### **With your plugin:** Skills hold your scoring criteria and competitive positioning. Connectors pull from your CRM and analytics dashboard. Claude scores the account and flags expansion opportunities — consistent quality whether a senior rep or a new hire runs it.
 
@@ -104,7 +108,7 @@ Review this vendor agreement. Our standard on indemnification is capped at 2x co
 
 
 
-Open in Cowork
+Open in Claude
 
 ###### **Without a plugin:** This prompt covers a few checks on one contract. A full review applies dozens of standard positions across every clause type, and you'd need to restate all of them for each new agreement.
 
@@ -112,7 +116,7 @@ Review this vendor agreement. Our standard on indemnification is capped at 2x co
 
 
 
-Open in Cowork
+Open in Claude
 
 ###### **With your plugin:** Skills hold your standard positions across every clause type and your severity classifications. A connector accesses the data room. Claude reviews every document against your playbook and produces a risk-rated summary.
 

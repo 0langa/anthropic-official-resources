@@ -6,7 +6,7 @@ Use Moody's credit ratings connector with Claude for comprehensive financial ana
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-c7kdb20i.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cu3aeqqk.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-izv0ophh.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-npgzqcfj.png)
 
 The Moody’s connector provides Claude with access to proprietary credit ratings, comprehensive entity intelligence, and analytical frameworks for risk assessment through the Model Context Protocol (MCP). This integration enables financial professionals to access Moody’s authoritative data directly within their AI workflows.
 
@@ -33,22 +33,18 @@ Claude applies Moody’s capabilities to support comprehensive financial analysi
 
 ## Setting up the Moody’s Connector[](https://academy.claude.com/tutorials/using-moodys-for-financial-analysis)
 
-The Moody’s MCP server uses remote access via a simple URL endpoint and is compatible with any LLM that supports the MCP Standard Protocol.
+The Moody’s MCP server is compatible with any LLM that supports the MCP Standard Protocol.
 
 - Authentication: The Moody’s connector implements OAuth authentication. When connecting, you’ll be redirected to a Moody’s authentication page where you’ll enter your authorized credentials. After successful authentication, you’ll be redirected back to Claude.
-- Server URL: [https://api.moodys.com/genai-ready-data/m1/mcp(opens in new tab)](https://api.moodys.com/genai-ready-data/m1/mcp)
 
 ### Adding the Connector as an Organization Owner[](https://academy.claude.com/tutorials/using-moodys-for-financial-analysis)
 
-1. Navigate to [Admin settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors)
-2. Click “Add custom connector”
-3. Enter the Moody’s MCP server URL: [https://api.moodys.com/genai-ready-data/m1/mcp(opens in new tab)](https://api.moodys.com/genai-ready-data/m1/mcp)
-4. Name the integration (e.g., “Moody’s Credit Intelligence”)
-5. Click “Add”
+1. Navigate to [Organization settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors)
+2. Use the Add button to browse all available connectors, then find **Moody’s Credit MCP** and add it for your team.
 
 ### For Individual Users[](https://academy.claude.com/tutorials/using-moodys-for-financial-analysis)
 
-Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory).
+Open [Moody’s Credit MCP in the connectors directory(opens in new tab)](https://claude.ai/directory/moodys-analytics), connect it to Claude, and sign in when asked. If an owner added it earlier by URL, connect it from [your connectors(opens in new tab)](https://claude.ai/customize/connectors/yours) instead. Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory).
 
 ## Common Use Cases[](https://academy.claude.com/tutorials/using-moodys-for-financial-analysis)
 

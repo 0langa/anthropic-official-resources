@@ -6,7 +6,7 @@ Learn how to supercharge Claude by connecting the tools you already use. This tu
 
 Watch[Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-kvtimo9u.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ogsjubpc.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-dhh4ob67.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-zr9ufl29.png)
 
 Embedded media: https://www.youtube-nocookie.com/embed/\_jjSS0qGFbI?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 

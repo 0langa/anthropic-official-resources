@@ -6,7 +6,7 @@ Set up and use the bioRxiv integration with Claude to search, retrieve, and summ
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-hh3ffby6.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-l7ms48m7.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-ca40p81w.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ipefceh4.png)
 
 The bioRxiv connector gives Claude access to bioRxiv and medRxiv preprint servers, enabling researchers to search, retrieve, and summarize preprints. This article explains how to set up and use the bioRxiv integration with Claude to track emerging research before peer review publication.
 
@@ -14,20 +14,18 @@ The bioRxiv integration relies upon Claude's ability to [use remote connectors(o
 
 ## **What this integration provides**[](https://academy.claude.com/tutorials/using-the-biorxiv-and-medrxiv-connector-in-claude)
 
-This connector gives Claude direct access to bioRxiv and medRxiv, the leading preprint servers for biological and health sciences operated by openRxiv. bioRxiv focuses on basic research across more than 25 life science disciplines, while medRxiv specializes in clinical and health research. These platforms enable scientists to share unpublished manuscripts rapidly, with bioRxiv now hosting over 310,000 preprints. The connector provides early access to cutting-edge research months before traditional peer-reviewed publication.
+This connector gives Claude direct access to bioRxiv and medRxiv, the leading preprint servers for biological and health sciences operated by openRxiv. bioRxiv focuses on basic research across more than 25 life science disciplines, while medRxiv specializes in clinical and health research. These platforms enable scientists to share unpublished manuscripts rapidly, and together they have hosted over 300,000 articles since 2013. The connector provides early access to cutting-edge research months before traditional peer-reviewed publication.
 
-The connector provides nine primary tool calls that access different aspects of the preprint ecosystem.
+The connector provides tools that access different aspects of the preprint ecosystem.
 
 - **search\_preprints** enables users to discover preprints by date range, subject category (neuroscience, genomics, immunology, etc.), or recent submissions, returning DOIs, titles, authors, abstracts, and categories for each result.
-- **get\_preprint** retrieves comprehensive metadata for specific preprints including full abstracts, corresponding author contact information, funding details, license information, PDF URLs, and whether the preprint has been published in a peer-reviewed journal.
+- **get\_preprint** retrieves comprehensive metadata for specific preprints including full abstracts, the corresponding author and institution, funding details, license information, PDF URLs, and whether the preprint has been published in a peer-reviewed journal.
 - **get\_categories** lists all 27 bioRxiv subject categories for filtering searches across disciplines from animal behavior to systems biology.
-- **search\_published\_articles** tracks preprints that have successfully transitioned to peer-reviewed publication, returning both the original preprint DOI and the published journal DOI with publication dates for analyzing preprint-to-publication timelines.
-- **search\_biorxiv\_publications** provides simplified tracking of bioRxiv-specific publication outcomes (excludes medRxiv).
-- **search\_publisher\_articles** filters published preprints by specific journals or publishers using DOI prefixes, enabling competitive analysis of which journals publish from the preprint pool.
+- **search\_published\_preprints** tracks preprints that have successfully transitioned to peer-reviewed publication, returning both the original preprint DOI and the published journal DOI with publication dates for analyzing preprint-to-publication timelines. It can also filter by publisher using DOI prefixes, enabling competitive analysis of which journals publish from the preprint pool.
 - **search\_by\_funder** discovers research funded by specific organizations using ROR IDs (e.g., NIH, NSF, European Commission), essential for tracking grant-funded research output.
 - **get\_content\_statistics** and **get\_usage\_statistics** provide platform-wide metrics on submission volumes, cumulative growth, abstract views, full-text views, and PDF downloads over time.
 
-On the provider side, the connector queries the official bioRxiv/medRxiv RESTful API, accessing metadata stored in their PostgreSQL database. All preprints undergo basic screening for plagiarism and non-scientific content but are NOT peer-reviewed. Preprints receive DOIs for citability and version control tracks revisions over time.
+On the provider side, the connector queries the official bioRxiv/medRxiv RESTful API. All preprints undergo basic screening for plagiarism and non-scientific content but are NOT peer-reviewed. Preprints receive DOIs for citability and version control tracks revisions over time.
 
 ## **Who should use the bioRxiv integration**[](https://academy.claude.com/tutorials/using-the-biorxiv-and-medrxiv-connector-in-claude)
 
@@ -43,16 +41,13 @@ On the provider side, the connector queries the official bioRxiv/medRxiv RESTful
 
 **For Organization Owners (Team and Enterprise)**
 
-1. Navigate to Admin settings > Connectors
-2. Click "Browse connectors"
-3. Click “**bioRxiv**”
-4. Click “Add to your team”
+1. Navigate to [Organization settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors)
+2. Use the Add button to browse all available connectors, then find **bioRxiv** and add it for your team
 
 **For Individual Claude Users**
 
-1. Navigate to Settings > Connectors
-2. Find “**bioRxiv**”
-3. Click “Connect”
+1. Open [bioRxiv in the connectors directory(opens in new tab)](https://claude.ai/directory/biorxiv)
+2. Connect it to Claude
 
 Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory) in Claude.
 

@@ -46,11 +46,7 @@ Revenue ModelXLSX
 
 ### Optional context[](https://academy.claude.com/use-cases/understand-and-extend-an-inherited-spreadsheet)
 
-Turn on [Extended Thinking(opens in new tab)](https://support.claude.com/en/articles/10574485-using-extended-thinking) for Claude to develop sophisticated layouts and logic during multi-step tasks.
-
-[
-
-Extended Thinking](https://support.claude.com/en/articles/10574485-using-extended-thinking)
+Raise the [effort level(opens in new tab)](https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings) in the model menu for Claude to develop sophisticated layouts and logic during multi-step tasks.
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/understand-and-extend-an-inherited-spreadsheet)
 

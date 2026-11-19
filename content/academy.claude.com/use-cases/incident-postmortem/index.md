@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-fnbe9wym.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nsjpa7is.png)
 
-Film: the user asks Claude to draft a blameless incident postmortem from a Slack channel and alert timeline, pausing to ask the user a judgment call before returning a timestamped report with owned action items and a draft note awaiting approval.
+Film: a self-playing walkthrough showing the user asking Claude to draft an incident postmortem from a Slack channel and alert timeline, with Claude pausing to ask a judgment call before returning a structured, blameless draft with owned action items.
 
 Draft the incident postmortem
 
@@ -20,7 +20,7 @@ Slack
 
 PagerDuty
 
-2026-04-22 checkout 5xx
+2026-04-22-checkout-5xx
 
 3 files
 
@@ -172,7 +172,7 @@ Download
 
 # Postmortem: checkout 5xx errors, 22 April 2026
 
-**SEV2***Incident* #48213*Impact window* `14:04–14:49` UTC (45 min)*Detected* by alert at `14:07`*Incident commander* Marco Alvarez*Status* Draft for review Thu 24 Apr*Template* Blameless format v3
+**SEV2***Incident* #48213*Impact window* `14:04–14:49` UTC (45 min)*Detected* by alert at `14:07`*Incident commander* Marco Alvarez*Status* Draft for review Thu 23 Apr*Template* Blameless format v3
 
 ## Summary
 
@@ -280,7 +280,7 @@ Connectors: Slack, PagerDuty
 
 ### Try a plugin[](https://academy.claude.com/use-cases/incident-postmortem)
 
-The Engineering plugin ships with `/incident-response` and other incident-and-ops skills as a starting point, already structured to walk an incident channel and reconstruct a timeline. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Engineering plugin ships with `/incident-response` and other incident-and-ops skills as a starting point, already structured to write a blameless postmortem with a timestamped timeline. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -336,7 +336,7 @@ Attach the error-rate and latency graphs for the impact window.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/incident-postmortem)
 
-Drag the files you'll use (your postmortem template, the runbook, any log exports or graph screenshots) into one folder and point Claude at it. Claude reads the template from there and writes the draft, the timeline, and the action-item tracker back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your incidents folder so your template, severity definitions, and blameless-language guide stay attached.
+Drag the files you'll use (your postmortem template, the runbook, any log exports or graph screenshots) into one folder and [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads the template from there and writes the draft back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your incidents folder so your template, severity definitions, and blameless-language guide stay attached.
 
 Incidents / 2026-04-22-checkout-5xx
 
@@ -388,13 +388,15 @@ From #inc-2026-04-22-checkout-5xx, reconstruct the sequence of events with times
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/incident-postmortem)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your team's standards for postmortems, such as your severity definitions and your blameless-language rules, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /incident-response skill with my feedback.
+Make what we've done in this task so far into a skill called /postmortem-draft.
 
 
 
 IncidentsOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -404,9 +406,9 @@ Make what we've done in this task so far into a skill, or edit the /incident-res
 
 ### Run it when the incident closes[](https://academy.claude.com/use-cases/incident-postmortem)
 
-The draft should exist before the review meeting is scheduled. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill watches for resolved incidents and writes the first draft into the matching folder.
+The draft should exist before the review meeting is scheduled. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/postmortem-draft` runs on each resolved incident and writes the first draft into the matching folder.
 
-Set up a scheduled task for every weekday at 6pm: check PagerDuty for incidents resolved in the last 24 hours, run /incident-response on each one, and write the draft to Incidents/<incident-id>/incident-response-draft.md.
+Set up a scheduled task for every weekday at 6pm: check PagerDuty for incidents resolved since the last run, run /postmortem-draft on each one, and write the draft to Incidents/<incident-folder>/postmortem-draft.md.
 
 
 
@@ -416,19 +418,21 @@ Set up a scheduled task for every weekday at 6pm: check PagerDuty for incidents 
 
 Postmortem first draft
 
-Daily at 6pm, finds incidents resolved in the last 24h, runs `/incident-response` against the channel and timeline, and writes the draft to the incident folder.
+Every weekday at 6pm, finds incidents resolved since the last run, runs `/postmortem-draft` against the channel and timeline, and writes the draft to the incident folder.
 
 Every **weekdays at 6:00pm**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/incident-postmortem)
 
-Your customized `/incident-response` now carries your template, your severity definitions, and your blameless-language rules. Share it so every on-call engineer writes the doc the same way, and the review meeting starts at "is this right" instead of "who's writing this up."
+Your `/postmortem-draft` skill now carries your template, your severity definitions, and your blameless-language rules. Share it so every on-call engineer writes the doc the same way, and the review meeting starts at "is this right" instead of "who's writing this up."
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/incident-response`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your template and tone baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/postmortem-draft`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your template and tone baked in, so they don't have to build it again.
 
 ## What changes for incident review[](https://academy.claude.com/use-cases/incident-postmortem)
 

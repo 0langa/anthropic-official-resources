@@ -62,7 +62,7 @@ In doing so we'll also start to glean an answer to the question: what would it l
 - [![Emergent](https://assets.claude.com/3ecc6fb3c36328f216239a92947c6a75e5dd54d9.svg)](https://emergent.sh/)
 - [![Harvey](https://assets.claude.com/9447073367b83132335cb2c191c36bef275f48e6.svg)](https://www.harvey.ai/)
 - [![Heidi](https://assets.claude.com/18cd69d52e1475b87358e17bd02b9f79d5049bc5.svg)](https://www.heidihealth.com/)
-- [![Higgsfield](https://assets.claude.com/bf441d6847e786ea78a00e4361f0478a2ee260e7.svg)](https://higgsfield.ai/)
+- [![Higgsfield](https://assets.claude.com/89a7f4137c4cc871d03fdf313ee00edceb773b8e.png)](https://higgsfield.ai/)
 - [![Omni](https://assets.claude.com/ade4bc4e76a4151d0e0ba0e7c78fa7eaf24f39c3.svg)](https://omni.co/)
 - [![Parahelp](https://assets.claude.com/8d2694cc4ea70bbae09ecf919b6b7fc81ec50df7.svg)](https://www.parahelp.com/)
 - [![Translucent](https://assets.claude.com/414fb7868ededc0a2f895e1583fdff9578381784.svg)](https://www.translucent.co/)
@@ -411,7 +411,23 @@ These insights come from your peers building at the frontier and we hope you fou
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 13, 2026
+[ArticleNov 17, 2026
+
+### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
+
+How Claude spent two weeks load testing a staging cluster, breaking the Claude Docs service on purpose and fixing what fell over before launch, and what made the service legible enough for Claude to close the loop.
+
+Claude CodeClaude apps
+
+(opens in new tab)](https://claude.dev/blog/chaos-loop-claude-docs-launch/)[ArticleNov 16, 2026
+
+### How the Claude Code team thinks about verification
+
+How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)[ArticleNov 13, 2026
 
 ### Building always-on agents
 
@@ -423,19 +439,7 @@ Claude Platform](https://claude.com/resources/articles/building-always-on-agents
 
 How leading startups use Claude Tag to ship faster and scale operations
 
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
-
-### How Curative is building a national provider network with agents on Claude
-
-Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
-
-Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 9, 2026
-
-### Safely scaling multi-agent teams with Claude Fable 5.2
-
-How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
-
-(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 

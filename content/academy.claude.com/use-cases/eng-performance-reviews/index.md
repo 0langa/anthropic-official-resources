@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-llbosc4e.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jig8shre.png)
 
-Film: the user asks Claude to draft performance reviews for their reports, with every claim linked to evidence and no rating proposed. Claude reads the team's framework and each report's work, then returns drafts flagging where the manager's own judgment is needed.
+Film: the user asks Claude to draft each report's performance review from a skill, pulling their pull requests, projects, and Slack threads against the team's career framework, then watches Claude produce linked-evidence drafts with ratings left blank for the manager's judgment.
 
 **‹****›**
 
@@ -96,7 +96,7 @@ Linear
 
 Slack
 
-Reviews / 2026-Q1
+Reviews
 
 Template, roster and last cycle’s reviews
 
@@ -228,7 +228,7 @@ Document
 
 Download
 
-**anika-sorensen-2026-Q1**MDSaved to Reviews / 2026-Q1 / drafts
+**anika-sorensen-2026-Q1**MDSaved to Reviews / 2026-Q1
 
 # Q1 2026 review · Anika Sørensen
 
@@ -333,7 +333,7 @@ Connectors: GitHub, Linear, Slack
 
 ### Try a plugin[](https://academy.claude.com/use-cases/eng-performance-reviews)
 
-The Human Resources plugin ships with `/performance-review` as a starting point, already structured to gather a report's work for the period and draft the review against your framework. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Human Resources plugin ships with `/performance-review` as a starting point, already structured to gather a report's work for the period and fill in its manager review template. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -389,9 +389,9 @@ List the projects and epics they shipped and the cycle outcomes they owned.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/eng-performance-reviews)
 
-Drag the files you'll use (your career framework, the review template, last cycle's reviews, your team roster) into one folder and point Claude at it. Claude reads the framework from there and writes one draft per report back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your framework and your writing voice stay attached.
+Drag the files you'll use (your career framework, the review template, last cycle's reviews, your team roster) into one folder and [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads the framework from there and writes one draft per report back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your framework and your writing voice stay attached.
 
-Reviews / 2026-Q1
+Reviews
 
 eng-career-framework.pdfJan 12, 2026220 KB
 
@@ -399,7 +399,7 @@ review-template.mdJan 12, 20262 KB
 
 team-roster.mdApr 1, 20261 KB
 
-In Cowork’s chat bar:Reviews / 2026-Q1
+In Cowork’s chat bar:Reviews
 
 ## The prompt[](https://academy.claude.com/use-cases/eng-performance-reviews)
 
@@ -409,7 +409,7 @@ I'm writing quarterly reviews for my reports. For each engineer in my team list,
 
 
 
-Reviews / 2026-Q1Open in Claude
+ReviewsOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/eng-performance-reviews)
 
@@ -441,13 +441,15 @@ I'm writing quarterly reviews for my reports. For each engineer in my team list,
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/eng-performance-reviews)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as which evidence sources to use and the tone you want, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /performance-review skill with my feedback.
+Make what we've done in this task so far into a skill called /team-review-drafts.
 
 
 
 ReviewsOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -457,9 +459,9 @@ Make what we've done in this task so far into a skill, or edit the /performance-
 
 ### Run it at the start of every cycle[](https://academy.claude.com/use-cases/eng-performance-reviews)
 
-The evidence packet should be ready before review season opens. Ask Claude to set up a scheduled task or open **Scheduled** in the sidebar, and the customized skill builds the drafts as soon as the quarter folder appears.
+The drafts should be ready before review season opens. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/team-review-drafts` builds the drafts once you add a folder for the new quarter.
 
-Set up a scheduled task for every Monday at 9am: if a new quarter folder exists under Reviews, run /performance-review for everyone in team-roster.md and write each draft to Reviews/<quarter>/<name>.md.
+Set up a scheduled task for every Monday at 9am: if a new quarter folder exists under Reviews and has no drafts yet, run /team-review-drafts for everyone in team-roster.md and write each draft to Reviews/<quarter>/<name>.md.
 
 
 
@@ -469,19 +471,21 @@ Set up a scheduled task for every Monday at 9am: if a new quarter folder exists 
 
 Quarterly review drafts
 
-When a new quarter folder appears, runs `/performance-review` for each report against GitHub, Linear, and Slack and writes evidence-linked drafts to the cycle folder.
+When a new quarter folder appears, runs `/team-review-drafts` for each report against GitHub, Linear, and Slack and writes evidence-linked drafts to the cycle folder.
 
 Every **Monday at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/eng-performance-reviews)
 
-Your customized `/performance-review` now carries your career framework, your evidence sources, and your tone. Share it so every manager in the org drafts against the same ladder, and calibration compares apples to apples.
+Your `/team-review-drafts` skill now carries your career framework, your evidence sources, and your tone. Share it so every manager in the org drafts against the same framework, and calibration compares apples to apples.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/performance-review`, select **Share**, and pick your peer managers. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your framework baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/team-review-drafts`, select **Share**, and pick your peer managers. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your framework baked in, so they don't have to build it again.
 
 ## What changes for review season[](https://academy.claude.com/use-cases/eng-performance-reviews)
 

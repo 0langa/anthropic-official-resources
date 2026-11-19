@@ -2,9 +2,9 @@
 
 Install the plugin, see what's in it, customize it for your business, and run your first task. By the end, you'll have the plugin tailored to your business and a first task already done.
 
-15 minClaude Cowork
+15 minClaude
 
-[Open Cowork](https://claude.ai/new?surface=cowork)
+[Open Claude](https://claude.ai/new)
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-n72n3pr1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gj20jqdi.png)
 
@@ -16,10 +16,9 @@ Running the plugin well is an act of delegation, in two moves: you put the job i
 
 You'll need a Pro, Max, Ultra, Team, or Enterprise plan. You can add the plugin in Claude on the web or in the [Claude desktop app(opens in new tab)](https://claude.com/download).
 
-1. Open Claude and select **Customize** in the left sidebar, then **Plugins**.
-2. Open **Discover**.
-3. Select **Small Business**, then **Add**.
-4. Connect your tools when asked.
+1. Open the [plugins page(opens in new tab)](https://claude.ai/customize/plugins).
+2. Find **Small Business** and add it.
+3. Connect your tools when asked.
 
 After you add the plugin, you'll have all of the [skills(opens in new tab)](https://academy.claude.com/tutorials/what-are-skills) listed below available. To tailor the plugin to your business and workflow, see the *Customize the plugin for your business* section of this guide.
 
@@ -50,7 +49,7 @@ Customize the "small-business" plugin for me based on my company.
 
 
 
-Open in Cowork
+Open in Claude
 
 Claude asks about your business — what you do, who works with you, what's hardest right now — and rewrites the plugin's defaults to match. Claude shows the result as a file card. Select **Save plugin** to add it to your account. From then on, the skills carry your context: your industry, your team size, your priorities, the way you like things done.
 
@@ -99,7 +98,7 @@ Which invoices are overdue, and which ones should I follow up on first?
 
 
 
-Open in Cowork
+Open in Claude
 
 Swap in your own job if invoices aren't the one on your mind this week, keeping the wording plain, with no skill name. Claude picks the skill that fits. If what comes back isn't the job you meant, type `/` and choose the skill yourself.
 

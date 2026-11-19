@@ -14,7 +14,7 @@ Try in ClaudeCopy prompt
 
 Claude runs market sizing end-to-end: research, analysis, and formatted deliverables. Feed it existing research or company data as a starting point, or let it work from scratch.
 
-Describe the market you're sizing and specify your outputs: a presentation, an Excel workbook, a source document with citations. Claude handles the methodology and saves finished files to your computer.
+Describe the market you're sizing and specify your outputs: a presentation, an Excel workbook, a source document with citations. Claude handles the methodology and hands back finished files.
 
 I need a market sizing analysis for the enterprise project management software space in North America.
 
@@ -34,17 +34,16 @@ Source all claims.
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/size-a-market-using-your-research)
 
-When you start a task from the Claude Desktop app, Claude reaches your local files through the app while it's open, and the files it uses are processed on Anthropic's servers. Claude saves deliverables to your computer the same way. The more context you provide, the more targeted the analysis.
+If you give Claude access to a folder in the Claude desktop app, it reads and saves files there while the app is open. The more context you provide, the more targeted the analysis.
 
-**What to expect:** After your initial prompt, Claude may ask you questions, like market focus, geographic scope, time horizon, and existing assumptions. It then builds a plan you can review in the sidebar. This helps it produce more targeted, finished analysis with less back-and-forth.
+**What to expect:** After your initial prompt, Claude may ask you questions, like market focus, geographic scope, time horizon, and existing assumptions. Your answers help it produce more targeted, finished analysis with less back-and-forth. It then lists its steps and marks each one done as it works.
 
 ### Required context[](https://academy.claude.com/use-cases/size-a-market-using-your-research)
 
 To get started:
 
-- Download [Claude Desktop(opens in new tab)](https://claude.com/download) and start a new task
-- In the Claude desktop app, give Claude access to a folder with your existing research, company data, or templates
-- You can also use the ***+*** button to add individual files
+- Start a new conversation in Claude
+- If you have research, company data, or templates, drag them in, or give Claude access to their folder in the [Claude desktop app(opens in new tab)](https://claude.com/download)
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/size-a-market-using-your-research)
 
@@ -106,11 +105,11 @@ Research the competitive landscape in detail. Pull together profiles on the key 
 
 ### Start another task while this one runs[](https://academy.claude.com/use-cases/size-a-market-using-your-research)
 
-Claude handles the full research and formatting loop. Open a new session from the sidebar for other work. The dot or icon beside this task in the sidebar changes when it needs attention.
+Claude handles the full research and formatting loop. Start another task from the sidebar for other work. The dot or icon beside this task in the sidebar changes when it needs attention.
 
 ### Review the plan before it runs[](https://academy.claude.com/use-cases/size-a-market-using-your-research)
 
-Claude builds a research plan visible in the sidebar. Check that it's covering the right segments, geographies, and frameworks before it starts pulling data.
+Ask Claude in your prompt to share its research plan and wait for your OK. Check that it's covering the right segments, geographies, and frameworks before it starts pulling data.
 
 ### Triangulate estimates[](https://academy.claude.com/use-cases/size-a-market-using-your-research)
 

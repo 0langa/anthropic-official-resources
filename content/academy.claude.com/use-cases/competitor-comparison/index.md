@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-lfte5epc.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ljg8b3c8.png)
 
-Film: the user asks Claude's competitive-brief skill to compare their company against a competitor using public pages and an internal positioning document. Claude asks who the deck is for, then returns a sourced sales deck and feature matrix, and can run on a schedule.
+Film: the user asks Claude to compare a competitor against the team's own positioning, using public pages and internal documents, then receives a sourced sales deck and matrix scoring wins, losses, and draws. It also shows the same request scheduled monthly, with Claude drafting an update for review.
 
 Build the competitive comparison
 
@@ -104,7 +104,7 @@ For an enterprise security buyer · Q3 2026
 
 2
 
-Twelve features scored: we win six, draw three, lose three
+Top twelve of 31 features: we win six, draw three, lose three
 
 3
 
@@ -231,13 +231,13 @@ MatrixSourcesChanges since Q1Talk tracks+Ready  ·  Count: 31
 
 Every row has a verdict and a source.
 
-Run this again on the first Monday of each month and post what changed to #competitive.
+Run this again on the 1st of each month and draft a post to #competitive on what changed.
 
-**Competitive comparison**First Monday of each month
+**Monthly competitor refresh**1st of each month
 
 Each run
 
-Updates the deck and the matrix
+Updates the matrix
 
 Drafts a post to #competitive*for you to review*
 
@@ -285,7 +285,7 @@ Connectors: Google Drive, Slack
 
 ### Try a plugin[](https://academy.claude.com/use-cases/competitor-comparison)
 
-The Marketing plugin ships with `/competitive-brief` as a starting point, already structured to read a competitor's public materials against your positioning and write the win/lose/draw breakdown. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Marketing plugin ships with `/competitive-brief` as a starting point, already structured to read a competitor's public materials against your positioning and write the comparison brief. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -293,11 +293,11 @@ MarketingSkills to draft content, plan campaigns, hold brand voice, and report o
 
 [Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=marketing)
 
-`/competitive-brief`Read competitor materials against your positioning and write the win/lose/draw deck
+`/competitive-brief`Read competitor materials against your positioning and write the comparison brief
 
 [Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcompetitive-brief)
 
-`/campaign-plan`Draft the campaign brief from a goal and last quarter's results
+`/campaign-plan`Draft the campaign brief from a goal
 
 [Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcampaign-plan)
 
@@ -341,7 +341,7 @@ Win/loss notes and deal context so the comparison reflects what actually closes.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/competitor-comparison)
 
-Drag the files you'll use (the competitor's pricing page PDF, their datasheet, your positioning doc, last quarter's comparison deck) into one folder on your machine, then give Claude access to it in the Claude desktop app. Claude reads from it and writes the deck and the Excel matrix back to it. If you track this competitor every quarter, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so the sources and instructions stay attached.
+Drag the files you'll use (the competitor's pricing page PDF, their datasheet, your positioning doc, last quarter's comparison deck) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from it and writes the deck and the Excel matrix back to it. If you track this competitor every quarter, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so the sources and instructions stay attached.
 
 Competitive / Acme
 
@@ -349,9 +349,9 @@ acme-pricing-page.pdfApr 28, 2026312 KB
 
 acme-datasheet.pdfApr 28, 20261.1 MB
 
-our-positioning.docxApr 12, 202688 KB
+positioning-v7.docxApr 12, 202688 KB
 
-comparison-q1.pptxJan 30, 20262.3 MB
+comparison-Q1.pptxJan 30, 20262.3 MB
 
 In Cowork’s chat bar:Competitive / Acme
 
@@ -395,13 +395,15 @@ Here's the competitor's site, pricing page, and recent announcements, plus our p
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/competitor-comparison)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your deck template and your matrix columns, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /competitive-brief skill with my feedback.
+Make what we've done in this task so far into a skill called /competitor-comparison.
 
 
 
 Competitive / AcmeOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -411,9 +413,9 @@ Make what we've done in this task so far into a skill, or edit the /competitive-
 
 ### Run it on a schedule[](https://academy.claude.com/use-cases/competitor-comparison)
 
-Competitors ship and reprice without telling you. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill re-reads their public pages, refreshes the matrix, and flags what changed since last time.
+Competitors ship and reprice without telling you. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/competitor-comparison` re-reads their public pages, refreshes the matrix, and flags what changed since last time.
 
-Set up a scheduled task for the first Monday of each month: run /competitive-brief against the sources in this folder, refresh the Excel matrix, and post a summary of what changed to #competitive.
+Set up a scheduled task for the 1st of each month: run /competitor-comparison against the competitor's public pages and the sources in this folder, refresh the Excel matrix, and draft a summary of what changed for me to post to #competitive.
 
 
 
@@ -423,19 +425,21 @@ Set up a scheduled task for the first Monday of each month: run /competitive-bri
 
 Monthly competitor refresh
 
-Runs `/competitive-brief` against the sources in this folder, refreshes the Excel matrix, and posts a summary of what changed to #competitive.
+Runs `/competitor-comparison` against the competitor's public pages and the sources in this folder, refreshes the Excel matrix, and drafts a summary of what changed for you to post to #competitive.
 
-Every **first Monday of the month**[Open in Claude](https://claude.ai/desktop/scheduled-task)
+Every **1st of the month**[Open in Claude](https://claude.ai/desktop/scheduled-task)
+
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/competitor-comparison)
 
-Your customized `/competitive-brief` now carries your positioning, your deck template, and your matrix columns. Share it so PMM, sales enablement, and the field answer the same competitor question the same way.
+Your `/competitor-comparison` skill now carries your positioning, your deck template, and your matrix columns. Share it so PMM, sales enablement, and the field answer the same competitor question the same way.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/competitive-brief`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your positioning and templates baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/competitor-comparison`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your positioning and templates baked in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/competitor-comparison)
 
@@ -453,7 +457,7 @@ Your folder
 
 Competitive / Acme
 
-`/competitive-brief` turns the next "how do we stack up against X" into a deck and a matrix in one pass — grounded in your positioning, not theirs.
+Your `/competitor-comparison` skill turns the next "how do we stack up against X" into a deck and a matrix in one pass — grounded in your positioning, not theirs.
 
 You did this for one competitor. The same approach covers your whole competitive set — one folder per name, one scheduled refresh, one consistent answer for the field.
 

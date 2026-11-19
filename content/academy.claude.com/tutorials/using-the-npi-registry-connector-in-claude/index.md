@@ -6,7 +6,7 @@ Set up and use the NPI Registry integration with Claude to validate, look up, an
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-lhfk8yng.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-c5j7rv4s.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-krwil577.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-eytrfahq.png)
 
 The NPI Registry connector gives Claude access to the CMS National Plan and Provider Enumeration System (NPPES) to validate, look up, and search healthcare providers in the United States by their National Provider Identifier (NPI). This article explains how to set up and use the NPI Registry integration with Claude to search and verify US healthcare provider credentials.
 
@@ -18,7 +18,7 @@ The NPI Registry integration relies upon Claude's ability to [use remote connect
 
 The NPI Registry connector provides programmatic access to the Centers for Medicare & Medicaid Services (CMS) NPPES NPI Registry API v2.1. The National Provider Identifier (NPI) is a unique 10-digit identification number required under HIPAA for covered healthcare providers in the United States. This connector enables users to validate NPI numbers, retrieve comprehensive provider information, and search the registry containing millions of individual providers (NPI-1) and organizations (NPI-2) including physicians, nurses, therapists, hospitals, clinics, and pharmacies.
 
-The connector provides three core tools that access different NPPES endpoints:
+The connector provides three core tools:
 
 - **npi\_validate** performs instant local validation of NPI format and Luhn check digit without making an API call
 - **npi\_lookup** retrieves complete provider records by NPI number including credentials (MD, DO, RN, PA-C, etc.), primary specialty/taxonomy codes, state license numbers, practice addresses, phone numbers, and enumeration status
@@ -38,25 +38,22 @@ The connector provides three core tools that access different NPPES endpoints:
 
 **For Organization Owners (Team and Enterprise)**
 
-1. Navigate to Admin settings > Connectors
-2. Click "Browse connectors"
-3. Click “**NPI Registry**”
-4. Click “Add to your team”
+1. Navigate to [Organization settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors)
+2. Use the Add button to browse all available connectors, then find **NPI Registry** and add it for your team
 
 **For Individual Claude Users**
 
-1. Navigate to Settings > Connectors
-2. Find “**NPI Registry**”
-3. Click “Connect”
+1. Open [NPI Registry in the connectors directory(opens in new tab)](https://claude.ai/directory/npi-registry)
+2. Connect it to Claude
 
 Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory) in Claude.
 
 **For Claude Code Users**
 
 1. Command: `/plugin marketplace add anthropics/healthcare`
-2. Command: `/plugin install npi-registry@healthcare`
+2. Command: `/plugin install healthcare@healthcare`
 3. Restart Claude Code
-4. Verify that the server is connected with /mcp
+4. Verify that the NPI Registry server is connected with /mcp
 
 ## Example use cases[](https://academy.claude.com/tutorials/using-the-npi-registry-connector-in-claude)
 

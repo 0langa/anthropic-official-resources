@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-jslgxynt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-fx1l2f4o.png)
 
-Film: the user asks Claude to draft a job offer letter, candidate email, and call deck from approved figures and supporting documents, checking in on one judgment call before delivering drafts and showing how the package can be scheduled to run automatically for future finalists, always pausing for approval first.
+Film: The user asks Claude to draft a job offer letter, candidate email, and call deck from approved comp data, a template, and candidate notes, pausing for the user's call on sensitive details before producing drafts for review.
 
 Prepare a job offer
 
@@ -191,7 +191,7 @@ From your conversations with Dana, Luis, Preethi and Sam, April 2026 · candidat
 
 Slide 3 of 6English (US)Notes▭ ▤ ▦— ◯ +  68%
 
-Claude writes why you want this candidate from your own interview notes.
+Claude writes why you want this candidate from the candidate summary.
 
 Claude wants to use **Create draft** from Microsoft 365
 
@@ -209,7 +209,7 @@ Each run
 
 Checks the hiring folder for candidates moved to Offer
 
-Runs /draft-offer and writes the package to that role’s folder
+Drafts the package and writes it to that role’s folder
 
 Sends nothing to the candidate*until you approve*
 
@@ -235,7 +235,7 @@ Claude tells you what it filled in, then gives you the letter and deck.
 
 Every number in the letter comes from the approval you attached.
 
-Claude writes why you want this candidate from your own interview notes.
+Claude writes why you want this candidate from the candidate summary.
 
 You approve the email draft first, and can schedule a package for each new finalist.
 
@@ -257,7 +257,7 @@ Connectors: Microsoft 365
 
 ### Try a plugin[](https://academy.claude.com/use-cases/offer-process)
 
-The Human Resources plugin ships with `/draft-offer` and other recruiting skills as a starting point, already structured to fill an offer template, draft the email, and lay out the call deck. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Human Resources plugin ships with `/draft-offer` and other recruiting skills as a starting point, already structured to draft the offer letter and negotiation guidance for the hiring manager. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -265,11 +265,11 @@ Human Resources9 skills for recruiting, onboarding, performance reviews, comp an
 
 [Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=human-resources)
 
-`/draft-offer`Assemble the offer email, filled offer fields, and screenshare deck for a finalist
+`/draft-offer`Draft the offer letter with comp details and terms
 
 [Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdraft-offer)
 
-`/comp-analysis`Benchmark a proposed offer against your comp bands and recent closes
+`/comp-analysis`Benchmark a proposed offer against your comp bands
 
 [Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcomp-analysis)
 
@@ -313,7 +313,7 @@ DocuSignOptional
 
 ### Set your working folder[](https://academy.claude.com/use-cases/offer-process)
 
-Drag the files you'll use (the candidate summary, your offer letter template, the comp approval, the benefits one-pager) into one folder on your machine, then point Claude at it. Claude reads from it and writes the filled offer, the email draft, and the HTML deck back to it. If you run offers regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the role's offers folder so your templates and tone stay attached.
+Drag the files you'll use (the candidate summary, your offer letter template, the comp approval, the benefits one-pager) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from the folder and writes the filled offer, the email draft, and the HTML deck back to it. If you run offers regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the role's offers folder so your templates and tone stay attached.
 
 Hiring / Senior-PM-Growth / offers
 
@@ -367,13 +367,15 @@ Put together the offer package for our finalist. Fill out the offer fields for m
 
 ## 3. Make Claude work for you[](https://academy.claude.com/use-cases/offer-process)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your email tone and your branded deck layout, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /draft-offer skill with my feedback.
+Make what we've done in this task so far into a skill called /offer-package.
 
 
 
-HiringOpen in Claude
+Hiring / Senior-PM-Growth / offersOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -383,9 +385,9 @@ Make what we've done in this task so far into a skill, or edit the /draft-offer 
 
 ### Run it on a schedule[](https://academy.claude.com/use-cases/offer-process)
 
-Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs every weekday morning. It checks the hiring folder for candidates who moved to Offer overnight so the package is ready before the recruiter opens it.
+Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/offer-package` runs every weekday morning. It checks the hiring folder for candidates who moved to Offer overnight so the package is ready before you open the folder.
 
-Set up a scheduled task for weekdays at 9am: check the hiring folder for candidates who moved to Offer overnight, run /draft-offer for each, and write the email draft, filled offer, and HTML deck to Hiring/<role>/offers.
+Set up a scheduled task for weekdays at 9am: check the hiring folder for candidates who moved to Offer overnight, run /offer-package for each, and write the email draft, filled offer, and HTML deck to Hiring/<role>/offers.
 
 
 
@@ -395,19 +397,21 @@ Set up a scheduled task for weekdays at 9am: check the hiring folder for candida
 
 Offer package on stage change
 
-Runs `/draft-offer` each weekday morning for any candidate who moved to Offer overnight and writes the email, filled offer, and deck to the role's offers folder.
+Runs `/offer-package` each weekday morning for any candidate who moved to Offer overnight and writes the email, filled offer, and deck to the role's offers folder.
 
 Every **Weekdays at 9am · checks the hiring folder for new Offer-stage candidates**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## 5. Share with your teammates[](https://academy.claude.com/use-cases/offer-process)
 
-Your customized `/draft-offer` now carries your offer template, your email tone, and your branded deck layout. Share it so every recruiter and hiring manager produces the same quality of offer artifact, and candidates get a consistent experience no matter which team is closing them.
+Your `/offer-package` skill now carries your offer template, your email tone, and your branded deck layout. Share it so every recruiter and hiring manager produces the same quality of offer artifact, and candidates get a consistent experience no matter which team is closing them.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/draft-offer`, select **Share**, and pick your recruiting team. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your templates and guardrails baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/offer-package`, select **Share**, and pick your recruiting team. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your templates and tone baked in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/offer-process)
 
@@ -423,10 +427,10 @@ Your tools
 
 Your folder
 
-Hiring / offers
+Hiring / Senior-PM-Growth / offers
 
 You have a complete, consistent offer package for each finalist — drafted from your approved terms and templates, ready for your review before anything goes to the candidate.
 
-[Next: Onboarding plan](https://academy.claude.com/use-cases/open-new-role)
+[Next: Open a new role](https://academy.claude.com/use-cases/open-new-role)
 
 Was this helpful?

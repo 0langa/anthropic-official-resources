@@ -12,15 +12,15 @@ The three setup steps before your first task: open Claude, run the guided setup,
 
 
 
-Not sure whether a task belongs in Cowork? See [Choosing between Claude Cowork or Chat(opens in new tab)](https://academy.claude.com/tutorials/choosing-between-claude-cowork-or-chat).
+If your message box shows Chat and Cowork options and you're not sure where a task belongs, see [Choosing between Claude Cowork or Chat(opens in new tab)](https://academy.claude.com/tutorials/choosing-between-claude-cowork-or-chat).
 
 ## 1. Open Claude[](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)
 
-Open the [Claude desktop app(opens in new tab)](https://claude.com/download) or [claude.ai(opens in new tab)](https://claude.ai/) and sign in. If your home page has a Cowork tab, select it; otherwise just start a new conversation. Use the desktop app when the work involves files on your computer.
+Open the [Claude desktop app(opens in new tab)](https://claude.com/download) or [claude.ai(opens in new tab)](https://claude.ai/) and sign in. If your message box shows a Cowork option, select it; otherwise just start a new conversation. Use the desktop app when the work involves files on your computer.
 
 ## 2. Run **/setup-claude** for a guided setup[](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)
 
-*In a new conversation, type* [*`/setup-claude`*](claude://cowork/new?q=%2Fsetup-claude) *and press enter.*
+*In the message box, type* [*`/setup-claude`*(opens in new tab)](https://claude.ai/desktop/setup-claude) *and press enter.*
 
 Film: the user types a slash command in the Cowork composer, revealing a suggestion pill and tooltip that explain guided setup, then watches it commit to the full command. It shows how to start guided Cowork setup for a role.
 
@@ -28,15 +28,15 @@ Film: the user types a slash command in the Cowork composer, revealing a suggest
 
 Guided Cowork **setup** — install role-matched plugins, connect your tools, try a skill.
 
-Claude walks you through setup in the conversation: pick your role, install a plugin matched to it, and connect the tools that plugin uses — Slack, Google Workspace or Microsoft 365, and whichever systems your role lives in. New users will see a **Set up Cowork** banner that starts the same flow; the skill works anytime you want to revisit it.
+Claude walks you through setup in the conversation: pick your role, install a plugin matched to it, and connect the tools that plugin uses — Slack, Google Workspace or Microsoft 365, and whichever systems your role lives in. Run `/setup-claude` again anytime you want to revisit setup.
 
-A [plugin(opens in new tab)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude-cowork) packages the [skills(opens in new tab)](https://support.claude.com/en/articles/12512180-use-skills-in-claude), [connectors(opens in new tab)](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities), and slash commands for a role, so finishing setup leaves you with a starting point for real work, not an empty session. You can [browse all plugins in Cowork(opens in new tab)](https://claude.ai/desktop/customize/plugins) or add more connectors from [**Customize**(opens in new tab)](https://claude.ai/desktop/customize/connectors) in the sidebar.
+A [plugin(opens in new tab)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude-cowork) packages the [skills(opens in new tab)](https://support.claude.com/en/articles/12512180-use-skills-in-claude), [connectors(opens in new tab)](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities), and slash commands for a role, so finishing setup leaves you with a starting point for real work, not an empty session. You can [browse all plugins in Cowork(opens in new tab)](https://claude.ai/desktop/customize/plugins) or [add more connectors(opens in new tab)](https://claude.ai/desktop/customize/connectors).
 
 ## 3. Give Claude Cowork a place to work[](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)
 
-*Select `Work in a folder` in the chat bar to pick where Claude can read context from and save finished work back to.*
+*From the message box, add a folder (in the desktop app) or pick a project.*
 
-With a working location set, Cowork finds what's relevant on its own and writes the result there as a real file you can open, share, or keep editing.
+With a folder set, Cowork finds what's relevant on its own and saves the files it makes there, ready to open, share, or keep editing.
 
 Diagram: shows a computer folder containing several files with an arrow leading into a Cowork chat composer that has the same folder attached, illustrating how setting a working folder lets Cowork read its contents and save finished work back into it.
 
@@ -60,12 +60,12 @@ Describe what you need
 
 Q2-Planning
 
-- A **folder** on your computer (in the desktop app) — Cowork reads what's there and saves new files alongside it. Scope it to one piece of work, or point it at a broader directory that several tasks share.
+- A **folder** on your computer — scope it to one piece of work, or point it at a broader directory that several tasks share.
 - A [**Project**(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-cowork) — keeps its own files, instructions, and memory across sessions. Create one from **Projects** in the sidebar.
 
 ## 4. Try your first task[](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)
 
-[Start a new task](claude://cowork/new) with something from your to-do list: a task that's spread across your tools, takes several steps, or needs real work on your computer. Set the working folder and describe the result you need.
+Start with something from your to-do list: a task that's spread across your tools, takes several steps, or needs real work on your computer. Set your folder or project and describe the result you need.
 
 - *Turn the research in this folder into a one-page brief.*
 - *Write a status summary from last week's Slack and Linear activity.*

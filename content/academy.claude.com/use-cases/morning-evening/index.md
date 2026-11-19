@@ -8,9 +8,9 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-xxhorrny.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kkbwysr5.png)
 
-Film: the user names the sections wanted from a morning briefing; Claude reads calendar, mail, mentions, and tracker issues to write a one-page briefing with top priorities, then schedules both briefing and wrap on weekdays.
+Film: a self-playing walkthrough where the user asks Claude for a morning briefing and evening wrap, and Claude reads calendar, mail, mentions, and tracker issues to produce a page naming what's on fire, due, and to do first, then schedules both runs daily.
 
-Morning and evening briefs
+Daily bookends
 
 You want to start the day knowing what needs you first.
 
@@ -48,17 +48,9 @@ This quarter
 
 MD
 
-Productivity
-
-/start
-
-/task-management
-
-/update
-
 How can I help you today?
 
-**/**start Run my morning briefing: what's on fire, what's due, who's waiting on me, and the three things to do first. Keep it under a page. Tonight I'll run /update for the wrap: done, slipped, and what tomorrow opens with.
+Run my morning briefing: what's on fire, what's due, who's waiting on me, and the three things to do first. Keep it under a page. Tonight I'll come back for the wrap: done, slipped, and what tomorrow opens with.
 
 Reading today’s calendar0s
 
@@ -170,7 +162,7 @@ From Calendar, Gmail (11 new), Slack (8 mentions), Linear (5 issues) and yesterd
 
 Run the morning briefing every weekday at 8:00am and the wrap at 6:00pm, both into Daily/<today>.md.
 
-**Daily briefing and wrap**Weekdays at 8:00 AM and 6:00 PM
+**Daily bookends**Weekdays at 8:00 AM and 6:00 PM
 
 Each run
 
@@ -188,11 +180,11 @@ Claude Academy
 
 Illustration. Product screens are simplified.
 
-Morning and evening briefs
+Daily bookends
 
 You want to start the day knowing what needs you first.
 
-Name the sections you want from the start skill, and run the wrap again tonight.
+Name the sections you want, and ask for the wrap tonight.
 
 Claude reads today’s calendar, new mail, your mentions, your tracker and yesterday’s page.
 
@@ -208,37 +200,15 @@ Schedule both runs, and each workday starts and ends on one page.
 
 You start and end each day knowing what needs you.
 
-Run my morning briefing: what's on fire, what's due, who's waiting on me, and the three things to do first. Keep it under a page. Tonight I'll run /update for the wrap: done, slipped, and what tomorrow opens with.
+Run my morning briefing: what's on fire, what's due, who's waiting on me, and the three things to do first. Keep it under a page. Tonight I'll come back for the wrap: done, slipped, and what tomorrow opens with.
 
 I read today’s six meetings, 11 mail threads, 8 mentions, 5 issues and last night’s wrap into Tuesday’s page: two on fire, three due, three people waiting, three to do first. The incident goes first, and two items are carried from last night’s wrap.
 
 2026-04-28.md
 
-Skill: /start (Productivity)
-
 Connectors: Google Calendar, Gmail, Slack, Linear
 
 ## Set up[](https://academy.claude.com/use-cases/morning-evening)
-
-### Try a plugin[](https://academy.claude.com/use-cases/morning-evening)
-
-The Productivity plugin ships with `/start` and `/update` as a starting point, already structured to read your calendar and channels and rank what matters. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
-
-
-
-ProductivitySkills for inbox sweeps, daily rundowns, meeting prep, and decision logs
-
-[Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=productivity)
-
-`/start`Read calendar, inbox, and channels and write a one-page start-of-day briefing
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fstart)
-
-`/update`Log what landed, what slipped, and queue tomorrow's opener
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fupdate)
-
-Show all 4 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/morning-evening)
 
@@ -290,7 +260,7 @@ Notion
 
 ### Set your working folder[](https://academy.claude.com/use-cases/morning-evening)
 
-Create a `Daily` folder and point Claude at it. Each morning briefing and evening wrap writes there as `YYYY-MM-DD.md`, so the evening run reads what the morning run set out to do, and Monday's briefing can look back over last week. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your priorities, mute list, and tone stay attached.
+Create a `Daily` folder and [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Each morning briefing and evening wrap writes there as `YYYY-MM-DD.md`, so the evening run reads what the morning run set out to do, and Monday's briefing can look back over last week. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so the priorities, mute list, and tone you give Claude stay attached.
 
 Daily
 
@@ -306,7 +276,7 @@ In Cowork’s chat bar:Daily
 
 ### Copy this into Claude[](https://academy.claude.com/use-cases/morning-evening)
 
-Run my morning briefing. Tell me what's on fire, what's due, who's waiting on me, and the three things I should do first. Keep it under a page. Tonight I'll ask you to run /update and you'll write the wrap: what got done, what slipped, and what tomorrow opens with.
+Run my morning briefing. Tell me what's on fire, what's due, who's waiting on me, and the three things I should do first. Keep it under a page. Tonight I'll come back and you'll write the wrap: what got done, what slipped, and what tomorrow opens with.
 
 
 
@@ -342,25 +312,27 @@ Run my morning briefing. Tell me what's on fire, what's due, who's waiting on me
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/morning-evening)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Once you've come back to the same task for the evening wrap, tell Claude your own rules for both runs, such as your channel list and your mute list. Then save what you've done as two skills of your own. A few minutes of conversation and they run with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /start skill with my feedback.
+Make what we've done in this task so far into two skills called /morning-briefing and /evening-wrap.
 
 
 
 DailyOpen in Claude
 
+Review each skill, and save it if Claude hasn't already.
+
 
 
-**Tip:** tell Claude to edit the skill for you.
+**Tip:** tell Claude to edit the skills for you.
 
 ## Make it repeatable[](https://academy.claude.com/use-cases/morning-evening)
 
 ### Run it at 8am and 6pm[](https://academy.claude.com/use-cases/morning-evening)
 
-The briefing should be waiting when you sit down. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skills run on their own at the start and end of every workday.
+The briefing should be waiting when you sit down. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/morning-briefing` and `/evening-wrap` run on their own at the start and end of every workday.
 
-Set up a scheduled task: run /start every weekday at 8:00am and /update every weekday at 6:00pm, both writing to Daily/<today>.md.
+Set up a scheduled task: run /morning-briefing every weekday at 8:00am and /evening-wrap every weekday at 6:00pm, both writing to Daily/<today>.md.
 
 
 
@@ -370,19 +342,21 @@ Set up a scheduled task: run /start every weekday at 8:00am and /update every we
 
 Daily bookends
 
-Runs `/start` at 8am and `/update` at 6pm against Calendar, Slack, and Gmail and appends both to today's file in Daily.
+Runs `/morning-briefing` at 8am and `/evening-wrap` at 6pm against your connected tools and appends both to today's file in Daily.
 
 Every **weekday at 8:00am and 6:00pm**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/morning-evening)
 
-Your customized `/start` and `/update` now carry your channel list, your priority rules, and your tone. Share them so anyone on your team starts and ends the day with the same one-page rhythm, and nobody's asking "what did I miss" in standup.
+Your `/morning-briefing` and `/evening-wrap` skills now carry your channel list, your priority rules, and your tone. Share them so anyone on your team starts and ends the day with the same one-page rhythm, and nobody's asking "what did I miss" in standup.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/start`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your buckets and mute list baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/morning-briefing`, select **Share**, and pick your teammates. Do the same for `/evening-wrap`. For your whole organization, open each skill and select **Publish to org**, if your admin allows. They get the skills with your channel list and mute list baked in, so they don't have to build them again.
 
 ## What changes for your day[](https://academy.claude.com/use-cases/morning-evening)
 

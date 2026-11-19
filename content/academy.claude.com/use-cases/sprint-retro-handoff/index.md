@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-ko3ehgyx.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lth7yta3.png)
 
-Film: the user asks Claude to read a closed sprint cycle and team and on-call channels, then write a sprint retro and on-call handoff. Claude separates shipped from slipped work with reasons, asks which themes to discuss, and drafts both documents for approval.
+Film: the user asks Claude to read a closed sprint cycle and team channels, then watches it draft a sourced retro and a separate on-call handoff, asking which themes to discuss before writing, with a post pending approval.
 
 Write the sprint retro and handoff
 
@@ -43,14 +43,6 @@ retro-template.md
 Team template
 
 MD
-
-Engineering
-
-/incident-response
-
-/standup
-
-/tech-debt
 
 How can I help you today?
 
@@ -132,7 +124,7 @@ Load test finally ran: rate limiter holds at 5×, p99 41 ms. Too late to cut ing
 
 Message #team-platform
 
-**/**standup Read the just-closed Linear cycle and two weeks of #team-platform and #oncall-platform. Write the sprint retro: shipped, slipped with reasons, themes worth discussing. Write a separate on-call handoff: open alerts, toil, what to watch. Keep each short enough to cover in a 30-minute meeting. Draft the handoff post to #oncall-platform for me to approve.
+Read the just-closed Linear cycle and two weeks of #team-platform and #oncall-platform. Write the sprint retro: shipped, slipped with reasons, themes worth discussing. Write a separate on-call handoff: open alerts, toil, what to watch. Keep each short enough to cover in a 30-minute meeting. Draft the handoff post to #oncall-platform for me to approve.
 
 Reading the Sprint 08 cycle0s
 
@@ -273,7 +265,7 @@ Write the sprint retro and handoff
 
 The sprint has closed and you need the retro and the on-call handoff written.
 
-Give the standup skill the cycle and channels, and ask why things slipped.
+Give Claude the cycle and channels, and ask why things slipped.
 
 Claude reads the cycle for what moved and the channels for why.
 
@@ -297,31 +289,9 @@ I read Sprint 08’s 21 issues and two weeks of #team-platform and #oncall-platf
 
 sprint-08-retro.md, oncall-handoff-2026-04-24.md
 
-Skill: /standup (Engineering)
-
 Connectors: Linear, Slack, PagerDuty
 
 ## Set up[](https://academy.claude.com/use-cases/sprint-retro-handoff)
-
-### Try a plugin[](https://academy.claude.com/use-cases/sprint-retro-handoff)
-
-The Engineering plugin ships with `/tech-debt` and `/standup` already structured to read a closed cycle and a channel window and split the output into discussion themes versus operational watch-fors. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
-
-
-
-EngineeringSkills for postmortems, design docs, on-call handoffs, and cost reviews
-
-[Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=engineering)
-
-`/tech-debt`Draft the sprint retro from the closed cycle and team channel
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Ftech-debt)
-
-`/standup`Write the on-call handoff from the week's alerts and pages
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fstandup)
-
-Show all 10 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/sprint-retro-handoff)
 
@@ -361,7 +331,7 @@ List every page in the rotation so toil is counted, not estimated.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/sprint-retro-handoff)
 
-Keep your retro template, the running action-items list, and last sprint's retro in one folder. Claude reads the format from there and writes both docs back so the retro and the handoff live next to their predecessors. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the folder so your team's definition of "shipped" and the discussion-prompt style carry over every cycle.
+Keep your retro template, the running action-items list, and last sprint's retro in one folder, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads the format from there and writes both docs back so the retro and the handoff live next to their predecessors. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the folder so your team's definition of "shipped" and the discussion-prompt style carry over every cycle.
 
 Platform / retros / 2026-sprint-08
 
@@ -413,13 +383,15 @@ Read the just-closed Linear cycle and two weeks of #team-platform and #oncall-pl
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/sprint-retro-handoff)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your retro template and what counts as a theme versus a status update, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /tech-debt skill with my feedback.
+Make what we've done in this task so far into a skill called /sprint-retro.
 
 
 
 Platform / retrosOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -429,9 +401,9 @@ Make what we've done in this task so far into a skill, or edit the /tech-debt sk
 
 ### Run it when the cycle closes[](https://academy.claude.com/use-cases/sprint-retro-handoff)
 
-Retro prep shouldn't be the TPM's Friday afternoon. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill drafts both docs the moment the cycle ends.
+Retro prep shouldn't be your Friday afternoon. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/sprint-retro` drafts both docs the week the cycle closes.
 
-Set up a scheduled task for every Friday at 3pm: run /tech-debt on the cycle that just closed and /standup on the last two weeks, write both to Platform/retros/<sprint>/, and post the handoff to #oncall-platform.
+Set up a scheduled task for every Friday at 3pm: if a cycle closed this week, run /sprint-retro on it and the last two weeks of channel history, write the retro and the handoff to Platform/retros/<sprint>/, and draft the handoff post to #oncall-platform for me to approve.
 
 
 
@@ -441,19 +413,21 @@ Set up a scheduled task for every Friday at 3pm: run /tech-debt on the cycle tha
 
 Sprint retro + on-call handoff
 
-At cycle close, runs `/tech-debt` and `/standup`, writes both to the dated retro folder, and posts the handoff to the on-call channel.
+If a cycle closed this week, runs `/sprint-retro`, writes the retro and the handoff to the dated retro folder, and drafts the handoff post to the on-call channel for you to approve.
 
 Every **Friday at 3:00pm**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/sprint-retro-handoff)
 
-Your customized `/tech-debt` now knows your tracker, your channels, your template, and what counts as a theme versus a status update. Share it so every squad runs the same retro prep and on-call handoffs read the same way org-wide.
+Your `/sprint-retro` skill now knows your tracker, your channels, your template, and what counts as a theme versus a status update. Share it so every squad runs the same retro prep and on-call handoffs read the same way org-wide.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/tech-debt`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your template and channel defaults baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/sprint-retro`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. Your teammates get the skill with your template and channel defaults baked in, so they don't have to build it again.
 
 ## What changes for retro day[](https://academy.claude.com/use-cases/sprint-retro-handoff)
 

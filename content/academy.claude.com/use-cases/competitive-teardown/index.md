@@ -284,7 +284,7 @@ Of the four not scheduled, the reviews point at two: free-plan seats (nine menti
 
 What they shipped is checked against your roadmap, answered or not.
 
-**/schedule** Every Monday at 9am: if a new quarter folder exists in Product / competitive, rerun this teardown there and list any cell that changed to Exposed.
+Every Monday at 9am: if a new quarter folder exists in Product / competitive, rerun this teardown there and list any cell that changed to Exposed.
 
 **Competitive teardown refresh**Mondays at 9:00 AM
 
@@ -342,7 +342,7 @@ Connectors: Figma, Linear
 
 ### Try a plugin[](https://academy.claude.com/use-cases/competitive-teardown)
 
-The Product Management plugin ships with `/competitive-brief` and other market-analysis skills as a starting point, already structured to build a matrix and score gaps. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Product Management plugin ships with `/competitive-brief` as a starting point, already structured to build a matrix and find gaps. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -392,7 +392,7 @@ Google DriveOptional
 
 ### Set your working folder[](https://academy.claude.com/use-cases/competitive-teardown)
 
-Drag the files you'll use (your product overview doc, last quarter's positioning one-pager, any competitor screenshots or pricing PDFs you've already collected) into one folder on your machine, then point Claude at it. Claude reads from it and writes the matrix and gap brief back to it. If you refresh this every quarter, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your competitor list, instructions, and memory stay attached.
+Drag the files you'll use (your product overview doc, last quarter's positioning one-pager, any competitor screenshots or pricing PDFs you've already collected) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from it and writes the matrix and gap brief back to it. If you refresh this every quarter, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your competitor list, instructions, and memory stay attached.
 
 Product / competitive / q2
 
@@ -446,13 +446,15 @@ Build a competitive teardown of Acme and Northwind against us. Browse their prod
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/competitive-teardown)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your matrix taxonomy and your scoring language, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /competitive-brief skill with my feedback.
+Make what we've done in this task so far into a skill called /competitive-teardown.
 
 
 
-Product / competitiveOpen in Claude
+Product / competitive / q2Open in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -462,9 +464,9 @@ Make what we've done in this task so far into a skill, or edit the /competitive-
 
 ### Refresh it every quarter[](https://academy.claude.com/use-cases/competitive-teardown)
 
-Competitors keep shipping after you've looked. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill re-browses the competitor set and rewrites the matrix on a weekly check.
+Competitors keep shipping after you've looked. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/competitive-teardown` re-browses the competitor set and rewrites the matrix when a weekly check finds a new quarter folder. For that check, give Claude access to the parent folder, Product / competitive.
 
-Set up a scheduled task for every Monday at 9am: if a new quarter folder exists under Product/competitive, run /competitive-brief, write the matrix and gap brief there, and post a one-line summary of new exposed cells.
+Set up a scheduled task for every Monday at 9am: if a new quarter folder exists under Product/competitive, run /competitive-teardown, write the matrix and gap brief there, and give me a one-line summary of new exposed cells.
 
 
 
@@ -472,21 +474,23 @@ Set up a scheduled task for every Monday at 9am: if a new quarter folder exists 
 
 Scheduled taskActive
 
-Quarterly competitive teardown
+Competitive teardown refresh
 
-Runs `/competitive-brief` against the standing competitor set and writes the refreshed matrix and unanswered-ships list to the quarter's folder.
+Runs `/competitive-teardown` against the standing competitor set when a new quarter folder exists, and writes the refreshed matrix and gap brief to that folder.
 
 Every **Monday at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/competitive-teardown)
 
-Your customized `/competitive-brief` now carries your competitor set, your matrix taxonomy, and your scoring language. Share it so PMs, marketers, and sellers all read the market against the same grid, and the "where are we exposed" conversation starts from one source of truth.
+Your `/competitive-teardown` skill now carries your competitor set, your matrix taxonomy, and your scoring language. Share it so PMs, marketers, and sellers all read the market against the same grid, and the "where are we exposed" conversation starts from one source of truth.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/competitive-brief`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your competitor set and scoring baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/competitive-teardown`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your competitor set and scoring baked in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/competitive-teardown)
 

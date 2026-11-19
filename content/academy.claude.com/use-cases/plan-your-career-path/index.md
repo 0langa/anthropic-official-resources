@@ -132,13 +132,13 @@ While exploring your career path, learn how AI is already reshaping that field. 
 
 Understanding this distinction helps you build the right skills: roles heavy on augmentation require strong judgment and creative direction, while automation-focused work demands technical fluency in managing AI systems. Use the job explorer to investigate your target occupations, then ask Claude to help you identify which skills will matter most as AI transforms the field.
 
-### Use instructions in your career conversations[](https://academy.claude.com/use-cases/plan-your-career-path)
-
-Add [project instructions(opens in new tab)](https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features) to a Project to shape how Claude engages with your questions. For example, ask Claude to respond like a career counselor: when you express doubts, Claude asks clarifying questions, and when you propose ideas, Claude helps you think through trade-offs. This back-and-forth refines both the plan and your own thinking. The instructions apply to every chat in that Project, so you only describe the kind of conversational partner you need for career decisions once.
-
 ### Track your ongoing career work[](https://academy.claude.com/use-cases/plan-your-career-path)
 
 Create a [Project(opens in new tab)](https://support.claude.com/en/articles/9517075-what-are-projects) and upload your resume, action tracker, and skills log once to the Project Knowledge. Every conversation in that Project automatically has access to everything—you won't need to re-upload or re-explain context. Claude's [Memory(opens in new tab)](https://support.claude.com/en/articles/11817273-using-claude-s-chat-search-and-memory-to-build-on-previous-context) feature allows it to learn from your conversations within a project, remembering your career priorities, target roles, and preferences to build upon previous discussions.
+
+### Use instructions in your career conversations[](https://academy.claude.com/use-cases/plan-your-career-path)
+
+Add [project instructions(opens in new tab)](https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features) to a Project to shape how Claude engages with your questions. For example, ask Claude to respond like a career counselor: when you express doubts, Claude asks clarifying questions, and when you propose ideas, Claude helps you think through trade-offs. This back-and-forth refines both the plan and your own thinking. The instructions apply to every chat in that Project, so you only describe the kind of conversational partner you need for career decisions once.
 
 ### Research your target roles and companies[](https://academy.claude.com/use-cases/plan-your-career-path)
 

@@ -34,7 +34,7 @@ The query, the chart, and the plain-English answer.
 
 ## Audit a folder of visual assets against your guidelines
 
-In Claude Cowork, Claude Opus 5.5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
+Claude Opus 5.5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
 
 ·Marketing·15 min](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)[![](https://academy.claude.com/assets/v1/thumbnail.light-f1fouzqt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iw1rj94h.png)
 
@@ -58,13 +58,13 @@ Plain-English answers over your wiki, code, and warehouse.
 
 ## Build analysis from browser charts and folder data
 
-Pull your quarterly revenue from scattered board decks, then grab GDP and inflation data from FRED. Cowork creates a comparison chart showing how your growth stacks up against the macro environment.
+Pull your quarterly revenue from scattered board decks, then grab GDP and inflation data from FRED. Claude creates a comparison chart showing how your growth stacks up against the macro environment.
 
 ·Finance·15 min](https://academy.claude.com/use-cases/build-analysis-from-browser-charts-and-folder-data)[![](https://academy.claude.com/assets/v1/thumbnail.light-lfte5epc.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ljg8b3c8.png)
 
 ## Build the competitive comparison doc
 
-Cowork reads competitor materials against your positioning, writes the win/lose/draw, and outputs a sales deck and Excel matrix.
+Claude reads competitor materials against your positioning, writes the win/lose/draw, and outputs a sales deck and Excel matrix.
 
 ·Marketing·10 min](https://academy.claude.com/use-cases/competitor-comparison)[![](https://academy.claude.com/assets/v1/thumbnail.light-fzzs6i6o.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-my91enox.png)
 
@@ -90,7 +90,7 @@ Heuristic-scored teardown of competitor flows with evidence.
 
 Where you win, where you're exposed, what they shipped.
 
-·Product·10 min](https://academy.claude.com/use-cases/competitive-teardown)[![](https://academy.claude.com/assets/v1/thumbnail.light-hd3p5r1z.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ci2tqnmp.png)
+·Product·10 min](https://academy.claude.com/use-cases/competitive-teardown)[![](https://academy.claude.com/assets/v1/thumbnail.light-hpdtjwiq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-fglkyo8r.png)
 
 ## Contract redlining
 
@@ -130,7 +130,7 @@ Shipped screens and PRs flagged for design-system drift.
 
 ## Draft a credit memo from spreads and statements with Claude for Excel
 
-Cowork pulls the borrower's filings and spreads through the S&P Global connector and reads the underwriting workbook from your deal folder. You take the ratios and exceptions into Claude for Excel to update the model, then bring the writeup into Claude for Word for the credit memo.
+Claude pulls the borrower's filings and spreads through the S&P Global connector and reads the underwriting workbook from your deal folder. You take the ratios and exceptions into Claude for Excel to update the model, then bring the writeup into Claude for Word for the credit memo.
 
 ·Finance·15 min](https://academy.claude.com/use-cases/draft-a-credit-memo-from-spreads-and-statements-with-claude-for-excel)[![](https://academy.claude.com/assets/v1/thumbnail.light-fnbe9wym.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nsjpa7is.png)
 

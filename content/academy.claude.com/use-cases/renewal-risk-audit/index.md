@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-om42hzcu.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mj4bkeih.png)
 
-Film: the user asks Claude to score renewal risk across a sales book using a pipeline-review skill, pulling CRM, usage, call notes, and ticket data into one shareable, filterable risk board, and schedules it to refresh weekly.
+Film: the user asks Claude to score renewals as red, yellow, or green using CRM, usage, sentiment, and ticket data, then publish a shareable board and schedule it to refresh weekly.
 
 Find the renewals at risk
 
@@ -156,7 +156,7 @@ Each score names its signal, so a red is something to act on.
 
 Leadership gets one link and can filter by segment, owner or risk.
 
-Run this every Monday at 7am: pull the current 90-day book from Salesforce, rescore it with /pipeline-review against risk-rubric.md, and refresh the board.
+Run this every Monday at 7am: pull the current 90-day book from Salesforce, rescore it against risk-rubric.md, and refresh the board.
 
 **Weekly renewal risk audit**Mondays at 7:00 AM
 
@@ -210,7 +210,7 @@ Connectors: Salesforce, Zendesk
 
 ### Try a plugin[](https://academy.claude.com/use-cases/renewal-risk-audit)
 
-The Sales plugin ships with `/pipeline-review` and other account-health skills as a starting point, already structured to score a book of business and flag what's at risk. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Sales plugin ships with `/pipeline-review` and other account-health skills as a starting point, already structured to check your open pipeline stage by stage and flag at-risk deals. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -266,7 +266,7 @@ Custom connector
 
 ### Set your working folder[](https://academy.claude.com/use-cases/renewal-risk-audit)
 
-Drag the files you'll use (a CRM export of the renewal book, a product-usage CSV, last quarter's QBR notes) into one folder and point Claude at it. Claude reads from it and writes the risk audit and the artifact link back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your renewal folder so your scoring rubric and the exec-commitment tracker stay attached.
+Drag the files you'll use (a CRM export of the renewal book, a product-usage CSV, last quarter's QBR notes) into one folder and [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from it and writes the risk audit and the artifact link back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your renewal folder so your scoring rubric and the exec-commitment tracker stay attached.
 
 Renewals / FY26-Q3
 
@@ -329,14 +329,16 @@ runs it" so the audit is also the save plan.
 
 ## 3. Make Claude work for you[](https://academy.claude.com/use-cases/renewal-risk-audit)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your usage thresholds and your save plays, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the
-/pipeline-review skill with my feedback.
+Make what we've done in this task so far into a skill called
+/renewal-risk.
 
 
 
-RenewalsOpen in Claude
+Renewals / FY26-Q3Open in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -346,10 +348,10 @@ Make what we've done in this task so far into a skill, or edit the
 
 ### Share it as an artifact[](https://academy.claude.com/use-cases/renewal-risk-audit)
 
-A spreadsheet is a snapshot. Ask Claude to publish the audit as an artifact and leadership opens one link, with filters for segment, owner, and risk.
+A spreadsheet is a snapshot. With the audit published as an artifact, leadership opens one link. Ask Claude to add filters for segment, owner, and risk.
 
-Publish that renewal-risk table as an artifact for sales leadership,
-filterable by segment and owner.
+Add filters for segment, owner, and risk to that renewal-risk artifact
+for sales leadership.
 
 
 
@@ -357,38 +359,40 @@ filterable by segment and owner.
 
 ### Run it on a schedule[](https://academy.claude.com/use-cases/renewal-risk-audit)
 
-Risk moves week to week. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill rescores the book and refreshes the artifact before your Monday forecast call.
+Risk moves week to week. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/renewal-risk` rescores the book and refreshes the artifact before your Monday forecast call.
 
-Set up a scheduled task for every Monday at 7am: rerun the renewal risk audit on the
-current 90-day book, refresh the artifact, and DM me any account that
+Set up a scheduled task for every Monday at 7am: rerun /renewal-risk on the
+current 90-day book, refresh the artifact, and mark any account that
 moved to red since last week.
 
 
 
-RenewalsOpen in Claude
+Renewals / FY26-Q3Open in Claude
 
 Scheduled taskActive
 
 Weekly renewal risk audit
 
-Rescores the 90-day renewal book on usage, sentiment, and open commitments,
-refreshes the artifact, and DMs new reds.
+Runs `/renewal-risk` to rescore the 90-day renewal book on usage, sentiment, and open commitments,
+refreshes the artifact, and marks new reds.
 
-Every **Mondays at 7:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
+Every **Mondays at 7:00 AM**[Open in Claude](https://claude.ai/desktop/scheduled-task)
+
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
 
 ## 5. Share with your teammates[](https://academy.claude.com/use-cases/renewal-risk-audit)
 
-Your customized skill now carries your scoring rubric, your usage thresholds, and your save-play library. Share it so every CSM and AE in the segment runs the same audit and the forecast call argues about action, not definitions.
+Your `/renewal-risk` skill now carries your usage thresholds and your save plays. Share it so every CSM and AE in the segment runs the same audit and the forecast call argues about action, not definitions.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...**
-menu next to your saved skill, select **Share**, and pick your teammates. For
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...**
+menu next to `/renewal-risk`, select **Share**, and pick your teammates. For
 your whole organization, open the skill and select **Publish to org**, if your
-admin allows. They get the skill with your instructions baked in, they don't
-repeat Steps 1-3.
+admin allows. They get the skill with your instructions baked in, so they don't
+have to build it again.
 
 ## What changes for the renewal motion[](https://academy.claude.com/use-cases/renewal-risk-audit)
 

@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-h6intrnq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ijzy6x76.png)
 
-Film: the user asks Claude to theme open-text survey comments by team and tenure, ranking by people raised rather than comment count, and separating loud-minority views from broad signal. Claude pauses to ask a judgment call, then delivers an anonymized brief with quotes and a 30-day plan per theme.
+Film: the user asks Claude to turn a raw engagement survey export into a leadership brief, ranking themes by people and segmenting by team and tenure. Claude pauses to ask about a borderline theme, then delivers the brief with action plans, and shows how to schedule it for future surveys.
 
 ![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)engagement-q2-export.csv
 
@@ -56,17 +56,9 @@ org-roster-apr.csv
 
 CSV
 
-Human Resources
-
-/org-planning
-
-/people-report
-
-/performance-review
-
 How can I help you today?
 
-**/**org-planning Theme the open-text responses, segment by team and tenure, and separate loud-minority comments from broad signal. Write a one-page People brief: top three themes with quotes and a draft 30-day action plan each. Never attribute a quote to an individual.
+Theme the open-text responses, segment by team and tenure, and separate loud-minority comments from broad signal. Write a one-page People brief: top three themes with quotes and a draft 30-day action plan each. Never attribute a quote to an individual.
 
 Reading 803 comments0s
 
@@ -90,7 +82,7 @@ Yes, call it out as one group’s concern.
 
 Used 3 sources45s
 
-I coded the 803 comments from 441 people into eight themes against your roster and ranked them by people: time with managers leads with 168. Office days is called out separately, as you chose, and each theme ends with a 30-day plan and an owner.
+I coded the 803 comments from 441 people into eight themes against your roster and ranked them by people: time with managers leads with 168. Office days is called out separately, as you chose, and each of the top three ends with a 30-day plan and an owner.
 
 Q2 people brief
 
@@ -246,7 +238,7 @@ Every comment and its theme code is in q2-comment-coding.xlsx (Comments tab, 803
 
 Quotes are never attributed to individuals.Every comment and its code: q2-comment-coding.xlsx
 
-Run this every Monday: if a new survey export is in People / engagement, code it the same way and write the brief and coding sheet to that quarter’s folder.
+Run this every Monday: if a new survey export is in the People folder, code it the same way and write the brief and coding sheet to that quarter’s folder.
 
 **Engagement survey brief**Mondays at 9:00 AM
 
@@ -270,7 +262,7 @@ Turn survey results into an action plan
 
 Your engagement survey results are in and leadership needs themes and actions.
 
-Ask the org planning skill to rank themes by people, not comments, and keep quotes anonymous.
+Ask Claude to rank themes by people, not comments, and keep quotes anonymous.
 
 Claude reads every comment and your roster, so themes break down by team and tenure.
 
@@ -290,35 +282,13 @@ Theme the open-text responses, segment by team and tenure, and separate loud-min
 
 Call out the office-days comments only one group raised? Yes, as one group’s concern / No, leave it in the list
 
-I coded the 803 comments from 441 people into eight themes against your roster and ranked them by people: time with managers leads with 168. Office days is called out separately, as you chose, and each theme ends with a 30-day plan and an owner.
+I coded the 803 comments from 441 people into eight themes against your roster and ranked them by people: time with managers leads with 168. Office days is called out separately, as you chose, and each of the top three ends with a 30-day plan and an owner.
 
 Q2 people brief, q2-comment-coding.xlsx
-
-Skill: /org-planning (Human Resources)
 
 Connectors: Google Drive
 
 ## Set up[](https://academy.claude.com/use-cases/engagement-survey-themes)
-
-### Try a plugin[](https://academy.claude.com/use-cases/engagement-survey-themes)
-
-The Human Resources plugin ships with `/org-planning` and other org-health skills as a starting point, already structured to cluster open text, weight by frequency, and draft an action plan. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
-
-
-
-Human ResourcesStreamline people operations — recruiting, onboarding, performance reviews, compensation analysis, and policy guidance. Maintain compliance and keep your team running smoothly.
-
-[Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=human-resources)
-
-`/org-planning`Headcount planning, org design, and team structure optimization.
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Forg-planning)
-
-`/people-report`Generate headcount, attrition, diversity, or org health reports.
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fpeople-report)
-
-Show all 9 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/engagement-survey-themes)
 
@@ -356,7 +326,7 @@ Google Drive
 
 ### Set your working folder[](https://academy.claude.com/use-cases/engagement-survey-themes)
 
-Drag the files you'll use (the raw survey CSV, the org roster for segmentation, last cycle's brief) into one folder on your machine, then point Claude at it. Claude reads from it and writes the People brief and action plan back to it. If you run engagement each quarter, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent engagement folder so prior cycles and your anonymization rules stay attached.
+Drag the files you'll use (the raw survey CSV, the org roster for segmentation, last cycle's brief) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from the folder and writes the People brief and action plan back to it. If you run engagement each quarter, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent People folder so prior cycles and your anonymization rules stay attached.
 
 People / engagement-Q2
 
@@ -382,7 +352,7 @@ Theme the open-text survey responses, segment by team and tenure where the data 
 
 Prompt
 
-**State the privacy rule explicitly.** "Never attribute a quote to an individual" is a standing instruction in the skill; Claude strips names, roles, and small-team identifiers so the brief is safe to share with leadership.
+**State the privacy rule explicitly.** "Never attribute a quote to an individual" tells Claude to leave names off quotes.
 
 Prompt
 
@@ -408,13 +378,15 @@ Theme the open-text survey responses, segment by team and tenure where the data 
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/engagement-survey-themes)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own standards for this task, such as your anonymization rules and your segment thresholds (the smallest group you report on). Then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /org-planning skill with my feedback.
+Make what we've done in this task so far into a skill called /survey-brief.
 
 
 
 People / engagement-Q2Open in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -424,9 +396,9 @@ Make what we've done in this task so far into a skill, or edit the /org-planning
 
 ### Run it every survey cycle[](https://academy.claude.com/use-cases/engagement-survey-themes)
 
-Surveys close on the same cadence each quarter. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs against the newest export and writes the brief and action plan to that quarter's folder.
+Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/survey-brief` runs against the newest export and writes the brief and action plan to that quarter's folder.
 
-Set up a scheduled task for every Monday at 9am: if a new export is in People/engagement-<quarter>, run /org-planning against it and write the People brief and action plan to that folder.
+Set up a scheduled task for every Monday at 9am: if a new export is in People/engagement-<quarter>, run /survey-brief against it and write the People brief and action plan to that folder.
 
 
 
@@ -434,29 +406,27 @@ Set up a scheduled task for every Monday at 9am: if a new export is in People/en
 
 Scheduled taskActive
 
-Quarterly engagement brief
+Engagement survey brief
 
-Runs `/org-planning` on the newest export in People/engagement and writes the one-page brief and 30-day action plans to that quarter's folder.
+Runs `/survey-brief` on the newest export in the People folder and writes the one-page brief and 30-day action plans to that quarter's folder.
 
 Every **Monday at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/engagement-survey-themes)
 
-Your customized `/org-planning` now carries your anonymization rules, your segment thresholds, and your action-plan format. Share it so HRBPs across the org produce the same shape of brief, and leaders see consistent readouts whether the survey ran in Lattice, CultureAmp, or a Google Form.
+Your `/survey-brief` skill now carries your anonymization rules, your segment thresholds, and your action-plan format. Share it so HRBPs across the org produce the same shape of brief, and leaders see consistent readouts whether the survey ran in Lattice, CultureAmp, or a Google Form.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/org-planning`, select **Share**, and pick your People partners. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your privacy rules and format baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/survey-brief`, select **Share**, and pick your People partners. For your whole organization, open the skill and select **Publish to org**, if your admin allows. Your teammates get the skill with your privacy rules and format baked in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/engagement-survey-themes)
 
 ### Now set up in Claude
-
-Your plugins
-
-Human Resources plugin
 
 Your tools
 
@@ -464,9 +434,9 @@ Your tools
 
 Your folder
 
-People / engagement
+People / engagement-Q2
 
-Open-text survey responses are themed, segmented, and anonymized into a one-page brief with a draft action plan for each theme — ready to act on instead of compile.
+Open-text survey responses are themed, segmented, and written up in a one-page brief with unattributed quotes and a draft action plan for each theme, ready to act on instead of compile.
 
 You did this for one engagement survey. The same approach works for exit-interview notes, onboarding feedback, and pulse-survey comments — each one becomes a skill your team runs the same way.
 

@@ -68,7 +68,7 @@ Continue the conversation with Claude to refine, expand, or explore further.
 
 ### Search your notes and messages for forgotten hints[](https://academy.claude.com/use-cases/thoughtful-gift-giving-with-claude)
 
-You've probably captured gift ideas throughout the year without realizing it. Claude can search your notes and messages to find those moments when someone mentioned wanting something specific.
+You've probably captured gift ideas throughout the year without realizing it. With the Notes and iMessage extensions added, Claude can search your notes and messages to find those moments when someone mentioned wanting something specific.
 
 Can you search through my notes and messages from the last few months? I feel like my wife mentioned a specific skincare brand she wanted to try, and I think my son texted me about some basketball shoes. Pull out anything that looks like a gift hint.
 

@@ -75,7 +75,7 @@ Ready-to-paste custom instructions that tell Claude to reference the Standards G
 
 1. Create a new Project in Claude
 2. Upload the Standards Guide to Project knowledge
-3. Paste the instructions from the markdown file into the custom instructions field
+3. Paste the instructions from the markdown file into the project instructions
 4. Optionally add your standard mutual NDA template for comparison reference
 
 Each review will now reference your standards automatically.

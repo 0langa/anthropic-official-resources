@@ -6,7 +6,7 @@ Connect Claude to Raiser's Edge NXT to access donor records, gift history, event
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-f6w4dl86.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gybx8tt3.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-ia3jvnl6.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dpc9wk92.png)
 
 The Blackbaud connector gives Claude secure access to your Raiser's Edge NXT fundraising data. Look up donor profiles, review gift history, search events, and draft personalized communications through natural language.
 
@@ -31,20 +31,18 @@ The Blackbaud integration relies on Claude's ability to [use remote connectors(o
 
 ### For organization owners[](https://academy.claude.com/tutorials/using-the-blackbaud-connector-in-claude)
 
-1. Go to [Claude.ai Settings(opens in new tab)](https://claude.ai/settings)
-2. Select Connectors or Integrations
-3. Choose `Add server` or `Browse connectors`
-4. Search for and select Blackbaud
-5. Select `Add to your team`
-6. Confirm authorization
+1. Open the [connectors directory(opens in new tab)](https://claude.ai/directory)
+2. Search for Blackbaud and open its page
+3. Select `Connect for your team` or `Add for your team`
+4. Follow any prompts to finish
 
 ### For individual users[](https://academy.claude.com/tutorials/using-the-blackbaud-connector-in-claude)
 
 1. Log in to Claude with your enterprise account
-2. Access [Settings(opens in new tab)](https://claude.ai/settings) > Connectors
-3. Select the Blackbaud connector and authorize
+2. Open the [connectors directory(opens in new tab)](https://claude.ai/directory)
+3. Search for Blackbaud, open its page, and connect it to Claude
 4. Sign in with your Blackbaud ID and grant permissions
-5. Your account displays as "Linked" when complete
+5. The connector shows as "Connected" when complete
 
 ## Common use cases[](https://academy.claude.com/tutorials/using-the-blackbaud-connector-in-claude)
 

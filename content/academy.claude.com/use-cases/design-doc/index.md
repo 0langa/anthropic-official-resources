@@ -208,7 +208,7 @@ A, phased: dual-write for two weeks, cut activation events over first, retire th
 - Flink on EKS or managed?
 - Dedupe key for mobile events that arrive offline-late.
 
-**/schedule** Weekdays at 9am: if there is a new notes file in RFCs / inbox, look up prior art and draft it in rfc-template.md the same way, my sections left empty.
+Run this every weekday at 9am: if there is a new notes file in RFCs / inbox, look up prior art and draft it in rfc-template.md the same way, my sections left empty.
 
 **RFC inbox drafts**Weekdays at 9:00 AM
 
@@ -264,7 +264,7 @@ Connectors: Confluence, GitHub
 
 ### Try a plugin[](https://academy.claude.com/use-cases/design-doc)
 
-The Engineering plugin ships with `/system-design` as a starting point, already structured to fill an RFC template and look up prior art across your wiki. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Engineering plugin ships with `/system-design` as a starting point, already structured to work through requirements and trade-offs, then write a design document with diagrams. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -292,7 +292,7 @@ Claude is more powerful when it works directly with your systems. You control pe
 
 Confluence
 
-Look up prior RFCs and architecture pages and write the new doc straight into your engineering space. Confluence access comes through the Atlassian Rovo connector (Jira and Confluence).
+Look up prior RFCs and architecture pages and write the new doc straight into your engineering space. Confluence access comes through the Atlassian connector (Jira and Confluence).
 
 [Connect](https://claude.ai/desktop/directory/atlassian)
 
@@ -320,7 +320,7 @@ Pull the RFC template and publish the draft into your design-review database.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/design-doc)
 
-Drag the files you'll use (your RFC template, the one-pager or notes you've already written, related past RFCs, the service's architecture diagram) into one folder and point Claude at it. Claude reads from there and writes the draft, the alternatives table, and the diagram back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your RFCs folder so your template, your review checklist, and your team's writing conventions stay attached.
+Drag the files you'll use (your RFC template, the one-pager or notes you've already written, related past RFCs, the service's architecture diagram) into one folder and [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from there and writes the draft back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your RFCs folder so your template and past RFCs stay attached.
 
 RFCs / 0087-streaming-events
 
@@ -372,13 +372,15 @@ Write a design doc for moving our event pipeline from batch to streaming. Look u
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/design-doc)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your prior-art sources and your reviewers' standing questions, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /system-design skill with my feedback.
+Make what we've done in this task so far into a skill called /rfc-draft.
 
 
 
-RFCsOpen in Claude
+RFCs / 0087-streaming-eventsOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -388,9 +390,9 @@ Make what we've done in this task so far into a skill, or edit the /system-desig
 
 ### Run it from any one-pager[](https://academy.claude.com/use-cases/design-doc)
 
-Design docs start as a paragraph in a Slack thread or a notes file. Ask Claude to set up a scheduled task or open **Scheduled** in the sidebar, and the customized skill watches your RFCs/inbox folder and turns any new one-pager into a structured first draft.
+Design docs start as a paragraph in a Slack thread or a notes file. Make an inbox folder inside your RFCs folder and save each new one-pager there. Ask Claude to set up a scheduled task or open **Scheduled** in the sidebar, and `/rfc-draft` turns any new one-pager in your RFCs/inbox folder into a structured first draft.
 
-Set up a scheduled task for weekdays at 9am: check RFCs/inbox for new one-pagers, run /system-design on each one, and write the structured draft to a numbered folder under RFCs/.
+Set up a scheduled task for weekdays at 9am: check RFCs/inbox for new one-pagers, run /rfc-draft on each one, and write the structured draft to a numbered folder under RFCs/.
 
 
 
@@ -398,21 +400,23 @@ Set up a scheduled task for weekdays at 9am: check RFCs/inbox for new one-pagers
 
 Scheduled taskActive
 
-RFC inbox to draft
+RFC inbox drafts
 
-Weekdays at 9am, picks up new one-pagers from RFCs/inbox, runs `/system-design` with prior-art lookup, and writes a structured draft to a numbered RFC folder.
+Weekdays at 9am, picks up new one-pagers from RFCs/inbox, runs `/rfc-draft` with prior-art lookup, and writes a structured draft to a numbered RFC folder.
 
 Every **weekday at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/design-doc)
 
-Your customized `/system-design` now carries your template, your prior-art sources, and your reviewers' standing questions. Share it so every tech lead's RFC arrives in the same shape, and architecture review spends time on the decision instead of the formatting.
+Your `/rfc-draft` skill now carries your template, your prior-art sources, and your reviewers' standing questions. Share it so every tech lead's RFC arrives in the same shape, and architecture review spends time on the decision instead of the formatting.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/system-design`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your template and review checklist baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/rfc-draft`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your template and your reviewers' standing questions baked in, so they don't have to build it again.
 
 ## What changes for design review[](https://academy.claude.com/use-cases/design-doc)
 

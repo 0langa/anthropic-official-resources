@@ -6,7 +6,7 @@ Set up and use Claude's FactSet integration for institutional-grade financial an
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-j8s9gw6x.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nkh1grv2.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-oeye0wql.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hftn7j5k.png)
 
 The FactSet integration is currently in early access; contact the FactSet team for additional details.
 
@@ -41,15 +41,12 @@ Claude applies FactSet's data to support comprehensive analysis:
 
 ### For Organization Owners[](https://academy.claude.com/tutorials/using-factset-for-comprehensive-financial-research)
 
-1. Navigate to [Admin settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors).
-2. Scroll down and click “Add custom connector" at the bottom of the list.
-3. Enter the FactSet integration URL (provided by your FactSet representative)
-4. Name the integration (e.g., "FactSet")
-5. Click "Add"
+1. Navigate to [Organization settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors).
+2. Use the Add button to browse all available connectors, then find **FactSet AI-Ready Data** and add it for your team.
 
 ### For Individual Users[](https://academy.claude.com/tutorials/using-factset-for-comprehensive-financial-research)
 
-Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory).
+Open [FactSet AI-Ready Data in the connectors directory(opens in new tab)](https://claude.ai/directory/factset), connect it to Claude, and sign in when asked. If an owner added it earlier by URL, connect it from [your connectors(opens in new tab)](https://claude.ai/customize/connectors/yours) instead. Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory).
 
 ## Common Use Cases[](https://academy.claude.com/tutorials/using-factset-for-comprehensive-financial-research)
 

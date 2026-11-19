@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-kwp2o4y3.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hfgoshpu.png)
 
-Film: the user asks Claude to review a law firm's invoices against billing guidelines and matter budgets, flagging off-pattern entries and budget drift. Claude asks a clarifying question, then returns a variance sheet and talking points, showing how recurring spend review can be scheduled automatically.
+Film: The user asks Claude to check outside counsel invoices against billing guidelines and matter budgets, and Claude flags off-pattern entries, identifies budget drift with drivers, and drafts partner-call talking points.
 
 Review your law firms’ invoices
 
@@ -16,7 +16,7 @@ Your law firms’ invoices are in and you need to review them.
 
 Legal-Ops / OC-Review-Q2
 
-Guidelines, budgets, Invoices-Q2
+Guidelines and budgets
 
 Folder
 
@@ -34,7 +34,7 @@ XLSX
 
 How can I help you today?
 
-Review Hargreave & Lyle's Q2 invoices in this folder. Flag entries that are off-pattern against our billing guidelines, list every matter drifting against budget with the variance and driver, and draft talking points for the partner call. Flag anything you're unsure of.
+Review Hargreave & Lyle's Q2 invoices from the connected matter system. Flag entries that are off-pattern against our billing guidelines, list every matter drifting against budget with the variance and driver, and draft talking points for the partner call. Flag anything you're unsure of.
 
 Reading your billing guidelines0s
 
@@ -44,7 +44,7 @@ Readoutside-counsel-billing-guidelines.pdf, 14 rules
 
 Readmatter-budgets-FY26.xlsx, 11 open matters
 
-ReadInvoices-Q2: 14 invoices, 1,137 entries
+ReadMatter system: 14 invoices, 1,137 entries
 
 Checkedeach entry against your rules and budgets
 
@@ -134,9 +134,9 @@ Sources: 14 invoices (Apr–Jun 2026, 1,137 entries) · outside-counsel-billing-
 
 Every talking point names your rule and the entry behind it.
 
-Run this on the first Monday of each month for every firm on the panel: last month’s invoices against our guidelines and budgets, with the variance table and talking points in that firm’s folder.
+Run this on the 1st of each month for every firm on the panel: last month’s invoices against our guidelines and budgets, with the variance table and talking points in that firm’s folder.
 
-**Outside counsel spend review**First Monday of the month at 8:00 AM
+**Outside counsel spend review**1st of the month at 8:00 AM
 
 Each run
 
@@ -164,7 +164,7 @@ Claude reads your guidelines and budgets first, then every invoice line the firm
 
 Claude asks you first wherever your judgment is needed.
 
-Claude says what it found and gives you the variance sheet and talking points.
+Claude says what it found and gives you the variance table and talking points.
 
 Each line over budget shows the work that drove it.
 
@@ -174,7 +174,7 @@ You can schedule the same review each month for every firm on your panel.
 
 You know which invoices to question and exactly what to say.
 
-Review Hargreave & Lyle's Q2 invoices in this folder. Flag entries that are off-pattern against our billing guidelines, list every matter drifting against budget with the variance and driver, and draft talking points for the partner call. Flag anything you're unsure of.
+Review Hargreave & Lyle's Q2 invoices from the connected matter system. Flag entries that are off-pattern against our billing guidelines, list every matter drifting against budget with the variance and driver, and draft talking points for the partner call. Flag anything you're unsure of.
 
 How far over budget before I flag a matter? Ten percent over, actual or forecast / Any amount over budget
 
@@ -218,11 +218,11 @@ The variance table lands as Excel and the talking points as Word, ready for the 
 
 ### Set the working folder[](https://academy.claude.com/use-cases/outside-counsel-review)
 
-Put your outside counsel billing guidelines and the matter budget tracker in one folder on your machine, then in the Claude desktop app click **+ Add folder** and select it. [Save it as a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your guidelines, instructions, and memory stay attached for the next firm review — Claude reads from the folder and writes the variance table and talking points back to it.
+Put your outside counsel billing guidelines and the matter budget tracker in one folder on your machine, then in the Claude desktop app choose [**Add folder**(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) and select it. [Save it as a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your guidelines, instructions, and memory stay attached for the next firm review — Claude reads from the folder and writes the variance table and talking points back to it.
 
 
 
-**Just want to try it once first?** Skip the project — click **+ Add folder** on a one-off folder and jump to the prompt below.
+**Just want to try it once first?** Skip the project — choose **Add folder** for a one-off folder and jump to the prompt below.
 
 Legal-Ops / OC-Review-Q2
 
@@ -272,13 +272,15 @@ Pull the billing and matter data for this firm from the connected matter system.
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/outside-counsel-review)
 
-No plugin ships with this one yet — once the prompt is producing the review the way you want, turn it into your own skill. A few minutes of conversation and it runs with your guidelines and format from then on.
+Once the prompt is producing the review the way you want, tell Claude your variance thresholds and your talking-point format, then turn what you've done into your own skill. A few minutes of conversation and it runs with your guidelines and format from then on.
 
-Make what we've done in this task so far into a skill called /oc-spend-review.
+Make what we've done in this task so far into a skill called /counsel-spend-review.
 
 
 
-Legal-OpsOpen in Claude
+Legal-Ops / OC-Review-Q2Open in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -288,31 +290,33 @@ Make what we've done in this task so far into a skill called /oc-spend-review.
 
 ### Run it before every partner review[](https://academy.claude.com/use-cases/outside-counsel-review)
 
-The variance table and talking points should be waiting before the quarterly review, not built the night before. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the skill runs monthly across every panel firm.
+The variance table and talking points should be waiting before the partner review, not built the night before. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/counsel-spend-review` runs monthly across every panel firm.
 
-Set up a scheduled task for the first Monday of each month at 8am: run /oc-spend-review for every firm on the panel and write the variance table and talking points to a subfolder named for the firm.
+Set up a scheduled task for the 1st of each month at 8am: run /counsel-spend-review for every firm on the panel and write the variance table and talking points to a subfolder named for the firm.
 
 
 
-Legal-OpsOpen in Claude
+Legal-Ops / OC-Review-Q2Open in Claude
 
 Scheduled taskActive
 
 Outside counsel spend review
 
-Runs `/oc-spend-review` for every panel firm and writes the variance table and talking points to a per-firm subfolder.
+Runs `/counsel-spend-review` for every panel firm and writes the variance table and talking points to a per-firm subfolder.
 
-Every **first Monday of each month at 8am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
+Every **1st of each month at 8am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
+
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/outside-counsel-review)
 
-Your `/oc-spend-review` now carries your billing guidelines, your variance thresholds, and your talking-point format. Share it so legal ops and the in-house owners run every firm the same way, and the partner conversation starts from the same prep.
+Your `/counsel-spend-review` skill now carries your billing guidelines, your variance thresholds, and your talking-point format. Share it so legal ops and the in-house owners run every firm the same way, and the partner conversation starts from the same prep.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/oc-spend-review`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your guidelines and thresholds baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/counsel-spend-review`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your guidelines and thresholds baked in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/outside-counsel-review)
 
@@ -324,7 +328,7 @@ Your tools
 
 Your folder
 
-Legal-Ops
+Legal-Ops / OC-Review-Q2
 
 Off-pattern entries and matters drifting against budget surface monthly with the driver named, so the relationship-partner conversation runs on substance instead of a spreadsheet hunt.
 

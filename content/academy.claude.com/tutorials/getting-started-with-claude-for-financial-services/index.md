@@ -12,7 +12,7 @@ Claude for Financial Services transforms how financial professionals analyze mar
 
 ## What is Claude for Financial Services?[](https://academy.claude.com/tutorials/getting-started-with-claude-for-financial-services)
 
-Claude for Financial Services is a comprehensive solution that includes Claude for Enterprise with specialized capabilities for financial analysis. This connects Claude to the data sources and tools you use daily, eliminating the need to juggle multiple browser tabs and improving source verification, to reduce the risk of errors from manual data gathering.
+Claude for Financial Services is a comprehensive solution that includes Claude Enterprise with specialized capabilities for financial analysis. This connects Claude to the data sources and tools you use daily, eliminating the need to juggle multiple browser tabs and improving source verification, to reduce the risk of errors from manual data gathering.
 
 ## Financial data provider connectors[](https://academy.claude.com/tutorials/getting-started-with-claude-for-financial-services)
 

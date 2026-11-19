@@ -35,9 +35,9 @@ Find the main themes and patterns across all sources — what keeps coming up? G
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/surface-themes-from-all-your-feedback-channels)
 
-Claude connects to your tools via [connectors(opens in new tab)](https://claude.com/connectors) and, started from the Claude Desktop app, also works with your local files through the app while it's open. The files it uses are processed on Anthropic's servers. Give it access to your call transcripts and connect your other feedback sources. Claude pulls from all of them in parallel.
+Claude connects to your tools via [connectors(opens in new tab)](https://claude.com/connectors) and, started from the Claude Desktop app, also works with your local files through the app while it's open. Give it access to your call transcripts and connect your other feedback sources. Claude pulls from all of them in parallel.
 
-**What to expect:** After your initial prompt, Claude may ask you questions about what themes matter most or how to prioritize, then build a plan you can review in the sidebar. This helps it work more independently and surface more useful patterns.
+**What to expect:** After your initial prompt, Claude may ask you questions about what themes matter most or how to prioritize, then list its steps and mark each one done as it works. Your answers help it work more independently and surface more useful patterns. To review the approach first, ask Claude in your prompt to share its plan and wait for your OK.
 
 ### Required context[](https://academy.claude.com/use-cases/surface-themes-from-all-your-feedback-channels)
 
@@ -111,13 +111,9 @@ Follow up with customers who raised issues. See everything a specific customer m
 
 When pulling from multiple sources, you can ask Claude to spin up subagents to query Slack, Linear, and Salesforce simultaneously.
 
-### Watch the progress panel and steer as Claude works[](https://academy.claude.com/use-cases/surface-themes-from-all-your-feedback-channels)
+### Follow along and steer as Claude works[](https://academy.claude.com/use-cases/surface-themes-from-all-your-feedback-channels)
 
 Claude shows which sources it is querying and what it's finding in real time. If one platform is returning less than expected, you can adjust mid-process.
-
-### Claude works with the files in your local folder[](https://academy.claude.com/use-cases/surface-themes-from-all-your-feedback-channels)
-
-When you start the task from the Claude Desktop app, Claude reads your call transcripts and exports from the folder you've shared, through the app while it's open, so you don't have to upload them yourself first. The files it uses are processed on Anthropic's servers. It can only see the folders and sources you give it access to.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/surface-themes-from-all-your-feedback-channels)
 

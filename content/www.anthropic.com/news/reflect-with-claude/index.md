@@ -20,7 +20,7 @@ Topics
 
 Related articles
 
-- Economics
+- Societal Impacts
 
   Mar 18, 2026
 
@@ -71,4 +71,4 @@ We built this tool to be a reflection of how you use Claude. For some users, thi
 
 ## Getting started
 
-This tool is currently available in beta for Free, Pro, and Max users who have memory turned on. Open [Settings in Claude](https://claude.ai/redirect/website.v1.b6db1e41-4b62-46fd-aede-f4ccd0e4b532/settings/reflect) on the web or the desktop app, and select the option to reflect on your usage to generate your report. If you can't generate a report, it may be because you don’t have [Memory](https://claude.ai/redirect/website.v1.b6db1e41-4b62-46fd-aede-f4ccd0e4b532/settings/capabilities?modal=memory) turned on. Reflecting on your Cowork conversations will be available soon.
+This tool is currently available in beta for Free, Pro, and Max users who have memory turned on. Open [Settings in Claude](https://claude.ai/redirect/website.v1.32e14498-d9f0-45a3-bcef-c22982e82f9f/settings/reflect) on the web or the desktop app, and select the option to reflect on your usage to generate your report. If you can't generate a report, it may be because you don’t have [Memory](https://claude.ai/redirect/website.v1.32e14498-d9f0-45a3-bcef-c22982e82f9f/settings/capabilities?modal=memory) turned on. Reflecting on your Cowork conversations will be available soon.

@@ -8,13 +8,13 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-h97eje0w.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-b4zgvlm6.png)
 
-Film: the user asks Claude to extract ASC 606 revenue-recognition fields from signed contracts into an intake sheet, flagging non-standard terms. Claude reads the policy, template, and contracts, asks a clarifying question, then shows results ready for booking or review, with scheduling for future runs.
+Film: a self-playing walkthrough where the user has Claude extract ASC 606 fields from signed contracts into an intake sheet, flagging non-standard terms for review and showing how to schedule the extraction recurringly.
 
 Get signed contracts into the ledger
 
 This week’s signed contracts need to go into the ledger under your policy.
 
-Revenue / Intake / 2026-W35
+Revenue / Intake
 
 12 contracts
 
@@ -32,17 +32,9 @@ Standard patterns
 
 MD
 
-Finance
-
-/close-management
-
-/journal-entry
-
-/reconciliation
-
 How can I help you today?
 
-**/**journal-entry Extract the ASC 606 fields (performance obligations, standalone selling price, contract term, billing schedule, variable consideration) from every executed contract into the rev-rec intake sheet, and flag any that don't match a standard pattern for my review before booking.
+Extract the ASC 606 fields (performance obligations, standalone selling price, contract term, billing schedule, variable consideration) from every executed contract into the rev-rec intake sheet, and flag any that don't match a standard pattern for my review before booking.
 
 Reading asc606-policy.md0s
 
@@ -102,7 +94,7 @@ Each line is filled into your columns and points to its clause.
 
 Standard ones go through; anything unusual waits for your decision.
 
-Run this every weekday at 5 pm: check Revenue / Intake for contracts added since the last run, append their lines to the intake sheet and send the exception list to #revenue-ops.
+Run this every weekday at 5 pm: check Revenue / Intake for contracts added since the last run, append their lines to the intake sheet and draft the exception list for #revenue-ops.
 
 **Contract intake to rev-rec**Weekdays at 5:00 PM
 
@@ -112,7 +104,7 @@ Extracts the fields from contracts added since the last run
 
 Appends their lines to the intake sheet
 
-Drafts the exception list for #revenue-ops*for you to send*
+Drafts the exception list for #revenue-ops*for you to post*
 
 Claude Academy
 
@@ -126,7 +118,7 @@ Get signed contracts into the ledger
 
 This week’s signed contracts need to go into the ledger under your policy.
 
-Using the Finance plugin’s journal entry skill, name your fields and ask for non-standard terms first.
+Name your fields and ask Claude to flag non-standard terms.
 
 Claude reads your policy and template first, then every contract in the folder.
 
@@ -150,13 +142,11 @@ I read the 12 executed contracts into your intake sheet as 21 obligation lines a
 
 revrec-intake-2026-W35.xlsx
 
-Skill: /journal-entry (Finance)
-
 ## Set up[](https://academy.claude.com/use-cases/contract-to-ledger)
 
 ### Try a plugin[](https://academy.claude.com/use-cases/contract-to-ledger)
 
-The Finance plugin ships with `/journal-entry` and seven other close-week skills as a starting point, already structured to read source documents and produce a structured accounting record. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Finance plugin ships with `/journal-entry` and other accounting skills. `/journal-entry` prepares a journal entry with debits, credits, and supporting detail, which helps once a contract on your intake sheet is ready to book. If your admin manages plugins and the Finance plugin isn't available yet, skip this step. The prompt below works without it.
 
 
 
@@ -167,10 +157,6 @@ FinanceStreamline finance and accounting workflows, from journal entries and rec
 `/journal-entry`Prepare journal entries with proper debits, credits, and supporting documentation for month-end close.
 
 [Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fjournal-entry)
-
-`/close-management`Manage the month-end close process with task sequencing, dependencies, and status tracking.
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fclose-management)
 
 Show all 7 skills
 
@@ -212,19 +198,19 @@ Cross-check deal terms against what the opportunity record says was sold.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/contract-to-ledger)
 
-Drag the files you'll use (the executed PDFs, your rev-rec intake template, your accounting policy memo) into one folder and point Claude at it. Claude reads each contract and writes the populated intake sheet and the exception list back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your rev-rec folder so the policy, the field list, and the standard-deal patterns stay attached.
+Drag the files you'll use (the executed PDFs, your rev-rec intake template, your accounting policy memo) into one folder and [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads each contract and writes the populated intake sheet and the exception list back to the folder. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from this folder so the policy, the field list, and the standard-deal patterns stay attached.
 
-Revenue / Intake / 2026-W17
+Revenue / Intake
 
-Northwind-MSA-executed.pdfApr 24, 20261.1 MB
+Northwind-MSA-executed.pdfAug 28, 20261.1 MB
 
-Helio-order-form-3.pdfApr 25, 2026340 KB
+Helio-order-form-3.pdfAug 29, 2026340 KB
 
 revrec-intake-template.xlsxJan 6, 202622 KB
 
 asc606-policy.mdNov 4, 202518 KB
 
-In Cowork’s chat bar:Revenue / Intake / 2026-W17
+In Cowork’s chat bar:Revenue / Intake
 
 ## The prompt[](https://academy.claude.com/use-cases/contract-to-ledger)
 
@@ -234,7 +220,7 @@ Extract the ASC 606 fields (performance obligations, standalone selling price, c
 
 
 
-Revenue / Intake / 2026-W17Open in Claude
+Revenue / IntakeOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/contract-to-ledger)
 
@@ -266,13 +252,15 @@ Extract the ASC 606 fields (performance obligations, standalone selling price, c
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/contract-to-ledger)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your field list and your definition of a standard deal, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /journal-entry skill with my feedback.
+Make what we've done in this task so far into a skill called /contract-to-ledger.
 
 
 
 Revenue / IntakeOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -282,9 +270,9 @@ Make what we've done in this task so far into a skill, or edit the /journal-entr
 
 ### Run it when contracts close[](https://academy.claude.com/use-cases/contract-to-ledger)
 
-Signed contracts come in all week. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill watches the executed-contracts folder and processes new arrivals into intake.
+Signed contracts come in all week. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/contract-to-ledger` runs each weekday on the contracts you add to your Revenue / Intake folder.
 
-Set up a scheduled task for every weekday at 5pm: run the contract-to-ledger skill on any executed contract added to Revenue/Intake since the last run, append to the intake sheet, and post the exception list to #revenue-ops.
+Set up a scheduled task for every weekday at 5pm: run /contract-to-ledger on any executed contract added to Revenue / Intake since the last run, append to the intake sheet, and draft the exception list for me to post to #revenue-ops.
 
 
 
@@ -294,19 +282,21 @@ Set up a scheduled task for every weekday at 5pm: run the contract-to-ledger ski
 
 Contract intake to rev-rec
 
-Daily at 5pm, extracts ASC 606 fields from any new executed contracts, appends to the intake sheet, and posts exceptions to #revenue-ops.
+Each weekday at 5pm, runs `/contract-to-ledger` on any new executed contracts, appends to the intake sheet, and drafts the exception list for you to post to #revenue-ops.
 
 Every **Weekdays at 5:00pm**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/contract-to-ledger)
 
-Your customized skill now carries your field list, your policy memo, and your definition of a standard deal. Share it so every revenue accountant runs the same extraction and the exception queue is one list, not five inboxes.
+Your `/contract-to-ledger` skill now carries your field list, your policy memo, and your definition of a standard deal. Share it so every revenue accountant runs the same extraction and the exception queue is one list, not five inboxes.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to your saved skill, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your instructions baked in, they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/contract-to-ledger`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your instructions baked in, so they don't have to build it again.
 
 ## What changes for revenue accounting[](https://academy.claude.com/use-cases/contract-to-ledger)
 

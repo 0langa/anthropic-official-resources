@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-c17k7zsz.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hmn3kocy.png)
 
-Film: the user asks Claude to read next week's calendar, gather Slack, email, and file context behind each meeting, and flag outstanding items owed to others. Claude produces one prioritized week-ahead brief and shows how to schedule it weekly.
+Film: the user asks Claude to prepare for next week's meetings, pulling calendar, Slack, and email context for each, then ranking which need the most prep. Claude checks in on a judgment call before writing one week-ahead brief, which can then run automatically every week.
 
 **‹****›**
 
@@ -144,14 +144,6 @@ Format to match
 
 MD
 
-Productivity
-
-/start
-
-/task-management
-
-/update
-
 How can I help you today?
 
 **‹****›**
@@ -254,7 +246,7 @@ Elena at Config (NYC)
 
 **Week retro*, 3:30pm, Room 4B***
 
-**/**start Read next week's calendar. For each meeting pull our last meeting, related Slack threads, docs in the invite and what I owe them. Draft a short agenda for each, and flag the three to prep for, and write one week-ahead doc.
+Read next week's calendar. For each meeting pull our last meeting, related Slack threads, docs in the invite and what I owe them. Draft a short agenda for each, flag the three to prep for, and write one week-ahead doc.
 
 Reading next week’s calendar0s
 
@@ -572,7 +564,7 @@ Prepare for next week’s meetings
 
 Your calendar for next week is full and nothing is prepared yet.
 
-Tell the start skill where to look per meeting, and ask which ones need you most.
+Tell Claude where to look per meeting, and ask which ones need you most.
 
 Claude reads each meeting on the calendar, then the threads, mail and files behind it.
 
@@ -588,7 +580,7 @@ Schedule it for the weekend and the brief is in the folder before the week start
 
 You start the week prepared for every meeting on your calendar.
 
-Read next week's calendar. For each meeting pull our last meeting, related Slack threads, docs in the invite and what I owe them. Draft a short agenda for each, and flag the three to prep for, and write one week-ahead doc.
+Read next week's calendar. For each meeting pull our last meeting, related Slack threads, docs in the invite and what I owe them. Draft a short agenda for each, flag the three to prep for, and write one week-ahead doc.
 
 How much should I write for recurring meetings? One line each unless something’s open / A full agenda for every meeting
 
@@ -596,31 +588,9 @@ I read next week’s 11 meetings, the related threads and mail and what you owe,
 
 week-ahead-2026-04-27.md
 
-Skill: /start (Productivity)
-
 Connectors: Google Calendar, Slack, Gmail
 
 ## Set up[](https://academy.claude.com/use-cases/week-ahead-prep)
-
-### Try a plugin[](https://academy.claude.com/use-cases/week-ahead-prep)
-
-The Productivity plugin ships with `/start` and other personal-planning skills as a starting point, already structured to walk a calendar and gather context per event. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
-
-
-
-ProductivitySkills for inbox sweeps, daily rundowns, meeting prep, and decision logs
-
-[Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=productivity)
-
-`/start`Walk next week's calendar and write a context-and-agenda brief per meeting
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fstart)
-
-`/task-management`Track the prep tasks and owners that fall out of the week-ahead
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Ftask-management)
-
-Show all 4 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/week-ahead-prep)
 
@@ -660,13 +630,13 @@ Google DriveOptional
 
 ### Set your working folder[](https://academy.claude.com/use-cases/week-ahead-prep)
 
-Create a `Week-of-<date>` folder and point Claude at it. The week-ahead doc, each meeting's agenda, and any prep notes you add through the week land there together. If you run this every week, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent folder so your agenda format and prep preferences stay attached.
+Create a `Planning` folder and [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Inside `Planning`, create a `Week-of-<date>` folder. The week-ahead doc and any prep notes you add through the week land there together. If you run this every week, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the `Planning` folder so your agenda format and prep preferences stay attached.
 
 Planning / Week-of-2026-04-27
 
-week-ahead.mdApr 26, 20269 KB
+week-ahead-2026-04-27.mdApr 26, 20269 KB
 
-staff-meeting-agenda.docxApr 26, 202614 KB
+week-ahead-example.mdApr 26, 202614 KB
 
 open-items-carryover.mdApr 24, 20262 KB
 
@@ -712,13 +682,15 @@ Look at my calendar for next week. For each meeting, pull the context: the last 
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/week-ahead-prep)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your skip list (meetings to leave out) and your prep tiers (how much prep each kind of meeting gets). Then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /start skill with my feedback.
+Make what we've done in this task so far into a skill called /week-ahead.
 
 
 
 PlanningOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -728,9 +700,9 @@ Make what we've done in this task so far into a skill, or edit the /start skill 
 
 ### Run it every Sunday at 5pm[](https://academy.claude.com/use-cases/week-ahead-prep)
 
-The briefing should be waiting before the week starts. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs every Sunday afternoon and writes to a fresh Week-of folder.
+The briefing should be waiting before the week starts. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/week-ahead` runs every Sunday afternoon and writes to a fresh Week-of folder.
 
-Set up a scheduled task: run /start every Sunday at 5:00pm, create a Week-of-<next-monday> folder under Planning, and write the week-ahead doc and per-meeting agendas there.
+Set up a scheduled task: run /week-ahead every Sunday at 5:00pm, create a Week-of-<next-monday> folder under Planning, and write the week-ahead doc there.
 
 
 
@@ -740,27 +712,25 @@ Set up a scheduled task: run /start every Sunday at 5:00pm, create a Week-of-<ne
 
 Week-ahead chief of staff
 
-Runs `/start` against Calendar, Slack, Gmail, and Drive and writes the briefing and agendas to a new Week-of folder.
+Runs `/week-ahead` against Calendar, Slack, Gmail, and Drive and writes the week-ahead doc to a new Week-of folder.
 
 Every **Sunday at 5:00pm**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/week-ahead-prep)
 
-Your customized `/start` now carries your skip list, your prep tiers, and your agenda format. Share it so your directs and your EA produce briefings in the same shape, and anyone covering for you walks into Monday with the same context you would.
+Your `/week-ahead` skill now carries your skip list, your prep tiers, and your agenda format. Share it so your directs and your EA produce briefings in the same shape, and anyone covering for you walks into Monday with the same context you would.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/start`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your agenda format and prep tiers baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/week-ahead`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your agenda format and prep tiers baked in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/week-ahead-prep)
 
 ### Now set up in Claude
-
-Your plugins
-
-Productivity plugin
 
 Your tools
 
@@ -768,9 +738,9 @@ Your tools
 
 Your folder
 
-Week-of-<date>
+Planning
 
-Every meeting on next week's calendar has its context gathered and an agenda drafted in one document, with the ones needing real preparation flagged. `/start` produces it the same way each week.
+Every meeting on next week's calendar has its context gathered and an agenda drafted in one document, with the ones needing real preparation flagged. Your `/week-ahead` skill produces it the same way each week.
 
 [Next: My voice skill](https://academy.claude.com/use-cases/my-voice)
 

@@ -1,4 +1,4 @@
-# Using S&P global data for financial analysis
+# Using S&P Global data for financial analysis
 
 Use Claude's Kensho integration to access S&P Global's financial data for comprehensive market and fundamental analysis of public companies.
 
@@ -6,9 +6,9 @@ Use Claude's Kensho integration to access S&P Global's financial data for compre
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-nd8wsmr6.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jcjpk2oq.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-llc1fxyx.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lf7o5dl6.png)
 
-The Kensho LLM-ready API integration provides Claude with access to S&P Global’s financial data, delivering comprehensive market and fundamental data for public companies. This article explains how to set up the Kensho integration and use S&P data for financial analysis, including price history, financial statements, segment data, and business relationships.
+The S&P - Deterministic Retrieval connector, built on the Kensho LLM-ready API, provides Claude with access to S&P Global’s financial data, delivering comprehensive market and fundamental data for public companies. This article explains how to set up the connector and use S&P data for financial analysis, including price history, financial statements, segment data, and business relationships.
 
 ## What This Integration Provides[](https://academy.claude.com/tutorials/using-s-p-global-data-for-financial-analysis)
 
@@ -41,15 +41,12 @@ For technical details of the Kensho integration, see the [Kensho Integration MCP
 
 ### For Organization Owners[](https://academy.claude.com/tutorials/using-s-p-global-data-for-financial-analysis)
 
-1. Navigate to [Admin settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors).
-2. Scroll down and click “Add custom connector" at the bottom of the list.
-3. Enter the Kensho integration URL: [https://kfinance.kensho.com/integrations/mcp(opens in new tab)](https://kfinance.kensho.com/integrations/mcp)
-4. Name the integration (e.g., "Kensho S&P")
-5. Click "Add"
+1. Navigate to [Organization settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors).
+2. Use the Add button to browse all available connectors, then find **S&P - Deterministic Retrieval** (the Kensho integration) and add it for your team.
 
 ### For Individual Users[](https://academy.claude.com/tutorials/using-s-p-global-data-for-financial-analysis)
 
-Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory).
+Open [S&P - Deterministic Retrieval in the connectors directory(opens in new tab)](https://claude.ai/directory/s-p-global) (the Kensho integration), connect it to Claude, and sign in when asked. Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory).
 
 ## Common Use Cases[](https://academy.claude.com/tutorials/using-s-p-global-data-for-financial-analysis)
 

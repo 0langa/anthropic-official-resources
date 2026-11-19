@@ -14,7 +14,7 @@ Embedded media: https://www.youtube-nocookie.com/embed/UAmKyyZ-b9E?enablejsapi=1
 
 ## 1. Describe the task[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
-Claude reads your bank statements and chart of accounts from a folder, then cross-references every transaction against the source documents.
+Claude reads your bank statements and chart of accounts, then cross-references every transaction against the source documents.
 
 Focus your prompt on what you need back: a reconciliation report, correcting journal entries, or both. Claude handles the matching while you work on something else.
 
@@ -28,16 +28,16 @@ Can you analyze the transactions, match them to the right accounts, and flag any
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
-When you start a task from the Claude Desktop app, Claude reaches your local files through the app while it's open, and the files it uses are processed on Anthropic's servers. Claude cross-references transactions across your bank statements and chart of accounts and identifies what's off.
+If you give Claude a folder in the desktop app, it reaches your files while the app is open. Claude cross-references transactions across your bank statements and chart of accounts and identifies what's off.
 
-**What to expect:** After your initial prompt, Claude may ask you clarifying questions about your accounts, then build a plan you can review in the sidebar. This helps it reconcile more thoroughly and produce a more complete output.
+**What to expect:** After your initial prompt, Claude may ask you clarifying questions about your accounts, then list its steps and mark each one done as it works. Your answers help it reconcile more thoroughly and produce a more complete output. To review the approach first, ask Claude in your prompt to share its plan and wait for your OK.
 
 ### Required context[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
 To get started:
 
-- Download [Claude Desktop(opens in new tab)](https://claude.com/download) and start a new task
-- In the Claude desktop app, give Claude access to the folder with your financial files, or use the ***+*** button to add individual files
+- Start a new conversation in Claude
+- Drag in your financial files, or give Claude access to their folder in the [Claude desktop app(opens in new tab)](https://claude.com/download)
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
@@ -103,13 +103,13 @@ Identify recurring issues in how transactions are recorded so you can fix the ro
 
 ## 5. Tricks, tips, and troubleshooting[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
-### Use the sidebar panels to track progress[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
+### Follow along as Claude works[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
-The Outputs panel shows files Claude creates, like your journal entries spreadsheet, as they're generated. The side panel also lists what Claude is working from, such as a connected folder or attached files.
+Alongside the conversation, you can see the steps Claude has finished, the files it creates (like your journal entries spreadsheet), and what it's working from (such as a connected folder or attached files).
 
 ### Grant folder access for seamless file output[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
-Before starting, point Claude to the folder where you want the final journal entries saved. Claude can write the reconciliation output directly there.
+In the desktop app, point Claude to the folder where you want the final journal entries saved. Claude can write the reconciliation output directly there.
 
 ### Let Claude work through multiple months in parallel[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
@@ -117,7 +117,7 @@ If you're catching up on several months of reconciliation, Claude can coordinate
 
 ### Start another task while this one runs[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
-Open a new session from the sidebar for other work while Claude reconciles. The dot or icon beside this task in the sidebar changes when it needs attention.
+Start another task from the sidebar for other work while Claude reconciles. The dot or icon beside this task in the sidebar changes when it needs attention.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 

@@ -6,7 +6,7 @@ Set up and use the Function integration with Claude to securely view lab test re
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-o7in2q4h.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lg4ny2y5.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-nga3g2f7.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gis7zvx4.png)
 
 The Function integration allows Function members to securely view their lab test results, ask health questions, and get nutrition plans. This article explains how to set up and use the Function integration with Claude.
 
@@ -20,7 +20,7 @@ With this connector, you can:
 
 - See an at-a-glance summary of your lab results by category
 - Understand which health areas may need more attention
-- Get nutrition plans informed by your lab results
+- Get the nutrition plan you've created in Function
 
 ## **Who should use the Function integration**[](https://academy.claude.com/tutorials/using-the-function-connector-in-claude)
 
@@ -32,10 +32,9 @@ For more details on accessing the integration, see [Function Health's MCP Server
 
 **For Individual Claude Users**
 
-1. From [Claude.ai(opens in new tab)](http://claude.ai/) or the Claude Desktop App, navigate to Settings > Connectors (Note: initial connector set-up cannot be completed from the Claude Mobile app)
-2. Find "**Function** **Health**"
-3. Click "Connect"
-4. Follow the instructions to log in with your Function credentials
+1. Sign in at [Claude.ai(opens in new tab)](http://claude.ai/) and open [Function Health in the connectors directory(opens in new tab)](https://claude.ai/directory/function-health) (Note: initial connector set-up cannot be completed from the Claude Mobile app)
+2. Connect it to Claude
+3. Follow the instructions to log in with your Function credentials
 
 Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory) in Claude.
 

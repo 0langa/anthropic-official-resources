@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-ejn575jr.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-m0b89rp1.png)
 
-Film: a self-playing walkthrough where the user asks Claude to compare actuals against the prior period and against budget, explaining lines over a set threshold. Claude reads spreadsheets and ledger detail, drafts commentary with drivers, flags unclear items, then schedules the task to run every Monday.
+Film: the user asks Claude to compare a month's actuals against the prior period and budget, and watches it explain each line that crosses a threshold, flag unclear drivers, and schedule the task to run again automatically.
 
 ![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)actuals-feb-2026.xlsx
 
@@ -58,9 +58,9 @@ The month has closed and you need to explain what moved against budg
 
 Google Drive
 
-FY26-Close / March
+FY26-Close
 
-3 files
+4 files
 
 Folder
 
@@ -78,9 +78,9 @@ PDF
 
 Finance
 
-/close-management
-
 /financial-statements
+
+/reconciliation
 
 /variance-analysis
 
@@ -161,7 +161,7 @@ Each line over your threshold gets a plain explanation.
 
 Anything Claude could not confirm is flagged for you to check.
 
-Run this every Monday: if a new actuals file is in FY26-Close, run /variance-analysis against the prior month and budget and save the draft commentary there.
+Run this every Monday: if a new actuals file is in FY26-Close, compare it against the prior month and budget and save the draft commentary there.
 
 **Monthly variance commentary**Mondays at 9:00 AM
 
@@ -215,7 +215,7 @@ Connectors: Google Drive
 
 ### Try a plugin[](https://academy.claude.com/use-cases/explain-a-variance)
 
-The Finance plugin ships with `/variance-analysis` and seven other close-week skills as a starting point, it already knows how to compare periods and structure commentary. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Finance plugin ships with `/variance-analysis` and other finance skills as a starting point. `/variance-analysis` already knows how to compare periods and structure commentary. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -230,10 +230,6 @@ FinanceStreamline finance and accounting workflows, from journal entries and rec
 `/financial-statements`Generate financial statements (income statement, balance sheet, cash flow) with period-over-period comparison and variance analysis.
 
 [Open in Claude](https://claude.ai/new?surface=cowork&q=%2Ffinancial-statements)
-
-`/close-management`Manage the month-end close process with task sequencing, dependencies, and status tracking.
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fclose-management)
 
 Show all 7 skills
 
@@ -263,7 +259,7 @@ Read and write spreadsheets, generate slides, and pull supporting docs from Driv
 
 Microsoft 365
 
-Build and edit Excel models with working formulas, and draft Word memos and PowerPoint decks.
+Read workbooks from SharePoint or OneDrive.
 
 [Connect](https://claude.ai/desktop/directory/microsoft-365)
 
@@ -275,9 +271,9 @@ Build and edit Excel models with working formulas, and draft Word memos and Powe
 
 ### Set your working folder[](https://academy.claude.com/use-cases/explain-a-variance)
 
-Drag the files you'll use (actuals, prior period, budget, chart of accounts) into one folder on your machine, then point Claude at it. Claude reads from it and writes the narrative back to it. If you'll run this every close, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so instructions, memory, and scheduled runs stay attached to it.
+Drag the files you'll use (actuals, prior period, budget, chart of accounts) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from the folder and writes the narrative back to it. If you'll run this every close, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so instructions, memory, and scheduled runs stay attached to it.
 
-FY26-Close / March
+FY26-Close
 
 actuals-mar-2026.xlsxApr 2, 202684 KB
 
@@ -287,7 +283,7 @@ budget-FY26.xlsxJan 8, 202642 KB
 
 chart-of-accounts.pdfDec 12, 2025118 KB
 
-In Cowork’s chat bar:FY26-Close / March
+In Cowork’s chat bar:FY26-Close
 
 ## The prompt[](https://academy.claude.com/use-cases/explain-a-variance)
 
@@ -297,7 +293,7 @@ Draft this month's variance commentary for the monthly review. Compare actuals t
 
 
 
-FY26-Close / MarchOpen in Claude
+FY26-CloseOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/explain-a-variance)
 
@@ -307,7 +303,7 @@ Draft this month's variance commentary for the monthly review. Compare actuals t
 
 Prompt
 
-**Name the audience.** "For leadership" tells Claude who's reading. so the same numbers are written with less line-level detail and more interpretation than the audit version would.
+**Name the audience.** "For leadership" tells Claude who's reading, so the same numbers are written with less line-level detail and more interpretation than the audit version would.
 
 Source
 
@@ -325,13 +321,15 @@ Draft this month's variance commentary for the monthly review. Compare actuals t
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/explain-a-variance)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your materiality threshold and your commentary format, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /variance-analysis skill with my feedback.
+Make what we've done in this task so far into a skill called /variance-narrative.
 
 
 
 FY26-CloseOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -347,13 +345,13 @@ Publish that variance analysis as an artifact for leadership. Have it read the a
 
 
 
-FY26-Close / MarchOpen in Claude
+FY26-CloseOpen in Claude
 
 ### Run it on a schedule[](https://academy.claude.com/use-cases/explain-a-variance)
 
-Variance commentary is due the same day every close. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs against the latest actuals automatically.
+Variance commentary is due every close. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/variance-narrative` runs against the latest actuals automatically.
 
-Set up a scheduled task for every Monday at 9am: if a new actuals file is in FY26-Close, run /variance-analysis against it and write the draft to that folder.
+Set up a scheduled task for every Monday at 9am: if a new actuals file is in FY26-Close, run /variance-narrative against it and write the draft to that folder.
 
 
 
@@ -361,21 +359,23 @@ Set up a scheduled task for every Monday at 9am: if a new actuals file is in FY2
 
 Scheduled taskActive
 
-Monthly variance narrative
+Monthly variance commentary
 
-Runs `/variance-analysis` against the latest actuals in FY26-Close and writes the draft commentary to the same folder.
+Runs `/variance-narrative` against the latest actuals in FY26-Close and writes the draft commentary to the same folder.
 
 Every **Monday at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/explain-a-variance)
 
-Your customized `/variance-analysis` now carries your team's standards. Share it so everyone on the close runs the same version, same threshold, same format, same voice.
+Your `/variance-narrative` skill now carries your team's standards. Share it so everyone on the close runs the same version, same threshold, same format, same voice.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/variance-analysis`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your instructions baked in, they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/variance-narrative`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your instructions baked in, so they don't have to build it again.
 
 ## What changes for close week[](https://academy.claude.com/use-cases/explain-a-variance)
 

@@ -6,7 +6,7 @@ Set up and use Chronograph for portfolio monitoring including tracking exposures
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-f25ixh7x.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-fjyf9v44.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-gc4pk6jh.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kmqq45ie.png)
 
 The Chronograph integration provides Claude with access to a portfolio monitoring platform that enables investment analysis and tracking. This article explains how to set up and use Chronograph to access portfolio data and investment insights. The Chronograph integration relies upon Claude’s ability to use remote connectors.
 
@@ -35,22 +35,19 @@ Claude applies Chronograph’s portfolio data to support your investment analysi
 
 ## Setting Up Chronograph Integration[](https://academy.claude.com/tutorials/using-chronograph-for-portfolio-monitoring)
 
-You will need to contact Chronograph to get access to the MCP server.
+You need a Chronograph account to use this connector.
 
 ### For Organization Owners[](https://academy.claude.com/tutorials/using-chronograph-for-portfolio-monitoring)
 
-1. Navigate to [Admin settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors).
-2. Scroll down and click “Add custom connector” at the bottom of the list.
-3. Enter the integration details provided by Chronograph.
-4. Name the integration (e.g., “Chronograph MCP”)
-5. Click “Add”
+1. Navigate to [Organization settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors).
+2. Use the Add button to browse all available connectors, then find **Chronograph** and add it for your team.
 
 ### For Individual Users[](https://academy.claude.com/tutorials/using-chronograph-for-portfolio-monitoring)
 
-1. Navigate to Settings > Connectors.
-2. Find Chronograph in the list and click Connect.
-3. In the new browser tab that appears, log in to your Chronograph account.
-4. A confirmation will appear to indicate successful authentication, at which point you can close the tab and begin interacting with your Chronograph data via Claude.
+1. Open [Chronograph in the connectors directory(opens in new tab)](https://claude.ai/directory/chronograph). If an owner added it earlier by URL, find it in [your connectors(opens in new tab)](https://claude.ai/customize/connectors/yours) instead.
+2. Connect it to Claude.
+3. On the sign-in page that opens, log in to your Chronograph account.
+4. Once Chronograph shows as connected, you can begin interacting with your Chronograph data via Claude.
 
 ## Common Use Cases[](https://academy.claude.com/tutorials/using-chronograph-for-portfolio-monitoring)
 
@@ -131,6 +128,6 @@ Search Chronograph’s help center for articles about [topic] or How do I [perfo
 - Specify investment status filters (Invested, Realized, Unrealized) to focus your analysis
 - Search the help center for platform-specific guidance before asking general questions
 
-**Note:** Claude currently cannot access documents, custom fields, or metrics that require a Primary Metric Type label.
+**Note:** Claude currently cannot access custom fields, or metrics that require a Primary Metric Type label.
 
 Was this helpful?

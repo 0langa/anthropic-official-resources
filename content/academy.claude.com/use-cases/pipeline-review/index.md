@@ -6,9 +6,9 @@ At-risk deals flagged, with the why.
 
 Try in ClaudeCopy prompt
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-jwybpfo3.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gah6gl3f.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-iw0g900y.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gybtmif4.png)
 
-Film: the user asks Claude to score open CRM opportunities against stage-exit criteria, flag at-risk deals with reasons, and produce a review document, then schedules it to run automatically before future meetings.
+Film: the user asks Claude to score open pipeline deals against stage-exit criteria, flag at-risk ones with reasons, and write a manager-ready review, pausing for the user's judgment call before finishing and showing how to schedule it weekly.
 
 Search...
 
@@ -34,7 +34,7 @@ You need to know which open deals are at risk before the pipeline r
 
 Salesforce
 
-Pipeline / 2026-W36
+Pipeline
 
 2 reference files
 
@@ -78,7 +78,7 @@ Search this list...
 
 <table><thead><tr><th class="n"></th><th class="ck"><b></b></th><th class="" style="width:300px"><span>Opportunity Name</span><i>▾</i></th><th class="" style="width:170px"><span>Account Name</span><i>▾</i></th><th class="" style="width:100px"><span>Amount</span><i>▾</i></th><th class="" style="width:110px"><span>Stage</span><i>▾</i></th><th class="so" style="width:100px"><span>Close Date</span><em>↑</em><i>▾</i></th><th class="" style="width:210px"><span>Next Step</span><i>▾</i></th><th class="" style="width:110px"><span>Last Activity</span><i>▾</i></th><th class="" style="width:130px"><span>Forecast Category</span><i>▾</i></th><th class="mn"></th></tr></thead><tbody><tr class="r0"><td class="n">1</td><td class="ck"><b></b></td><td class="c0"><a><span class="nm" style="position:relative;display:inline-block">Halvorsen Robotics – Inspection suite<span class="sw"></span></span></a></td><td class="c1">Halvorsen Robotics</td><td class="c2">$118,000</td><td class="c3">Evaluation</td><td class="c4">8/21/2026</td><td class="c5">Trial readout</td><td class="c6">8/12/2026</td><td class="c7">Best Case</td><td class="mn"><b>▾</b></td></tr><tr class="r1"><td class="n">2</td><td class="ck"><b></b></td><td class="c0"><a><span class="nm" style="position:relative;display:inline-block">Ironbark Foods – Multi-site rollout<span class="sw"></span></span></a></td><td class="c1">Ironbark Foods</td><td class="c2">$160,000</td><td class="c3">Negotiation</td><td class="c4">9/4/2026</td><td class="c5">Order form to procurement 9/2</td><td class="c6">8/27/2026</td><td class="c7">Commit</td><td class="mn"><b>▾</b></td></tr><tr class="r2"><td class="n">3</td><td class="ck"><b></b></td><td class="c0"><a><span class="nm" style="position:relative;display:inline-block">Tidewater Energy – Field ops platform<span class="sw"></span></span></a></td><td class="c1">Tidewater Energy</td><td class="c2">$205,000</td><td class="c3">Negotiation</td><td class="c4">9/10/2026</td><td class="c5">Security review call 9/3</td><td class="c6">8/26/2026</td><td class="c7">Commit</td><td class="mn"><b>▾</b></td></tr><tr class="r3"><td class="n">4</td><td class="ck"><b></b></td><td class="c0"><a><span class="nm" style="position:relative;display:inline-block">Northwind Logistics – Fleet routing<span class="sw"></span></span></a></td><td class="c1">Northwind Logistics</td><td class="c2">$142,000</td><td class="c3">Proposal</td><td class="c4">9/12/2026</td><td class="c5"></td><td class="c6">8/7/2026</td><td class="c7">Best Case</td><td class="mn"><b>▾</b></td></tr><tr class="r4"><td class="n">5</td><td class="ck"><b></b></td><td class="c0"><a><span class="nm" style="position:relative;display:inline-block">Linden Freight – Renewal + 40 seats<span class="sw"></span></span></a></td><td class="c1">Linden Freight</td><td class="c2">$88,000</td><td class="c3">Negotiation</td><td class="c4">9/15/2026</td><td class="c5">Countersign by 9/12</td><td class="c6">8/27/2026</td><td class="c7">Commit</td><td class="mn"><b>▾</b></td></tr><tr class="r5"><td class="n">6</td><td class="ck"><b></b></td><td class="c0"><a><span class="nm" style="position:relative;display:inline-block">Kestrel Analytics – Data team expansion<span class="sw"></span></span></a></td><td class="c1">Kestrel Analytics</td><td class="c2">$132,000</td><td class="c3">Evaluation</td><td class="c4">9/22/2026</td><td class="c5">Pilot check-in 9/1</td><td class="c6">8/25/2026</td><td class="c7">Best Case</td><td class="mn"><b>▾</b></td></tr><tr class="r6"><td class="n">7</td><td class="ck"><b></b></td><td class="c0"><a><span class="nm" style="position:relative;display:inline-block">Meridian Retail – Store analytics<span class="sw"></span></span></a></td><td class="c1">Meridian Retail</td><td class="c2">$64,000</td><td class="c3">Discovery</td><td class="c4">9/26/2026</td><td class="c5">follow up</td><td class="c6">8/11/2026</td><td class="c7">Pipeline</td><td class="mn"><b>▾</b></td></tr><tr class="r7"><td class="n">8</td><td class="ck"><b></b></td><td class="c0"><a><span class="nm" style="position:relative;display:inline-block">Aperture Health – Clinical scheduling<span class="sw"></span></span></a></td><td class="c1">Aperture Health</td><td class="c2">$86,000</td><td class="c3">Negotiation</td><td class="c4">9/30/2026</td><td class="c5">Awaiting redlines</td><td class="c6">8/19/2026</td><td class="c7">Commit</td><td class="mn"><b>▾</b></td></tr><tr class="r8"><td class="n">9</td><td class="ck"><b></b></td><td class="c0"><a><span class="nm" style="position:relative;display:inline-block">Greywake Maritime – Port logistics<span class="sw"></span></span></a></td><td class="c1">Greywake Maritime</td><td class="c2">$110,000</td><td class="c3">Proposal</td><td class="c4">9/30/2026</td><td class="c5">Proposal walkthrough 9/2</td><td class="c6">8/26/2026</td><td class="c7">Best Case</td><td class="mn"><b>▾</b></td></tr><tr class="r9"><td class="n">10</td><td class="ck"><b></b></td><td class="c0"><a><span class="nm" style="position:relative;display:inline-block">Corvid Labs – Research licenses<span class="sw"></span></span></a></td><td class="c1">Corvid Labs</td><td class="c2">$39,000</td><td class="c3">Proposal</td><td class="c4">9/30/2026</td><td class="c5">Send revised quote</td><td class="c6">8/4/2026</td><td class="c7">Pipeline</td><td class="mn"><b>▾</b></td></tr></tbody></table>
 
-**/**pipeline-review Score each open opp on stage hygiene, whether there's a real next step, and how long it's sat in stage. Flag the at-risk deals and say why in one line each, then write the manager-ready review doc for our Monday pipeline meeting.
+**/**pipeline-review Score each open opp in this week's pipeline on stage hygiene, whether there's a real next step, and how long it's sat in stage. Flag the at-risk deals and say why in one line each, then write the manager-ready review doc for our Monday pipeline meeting.
 
 Reading stage-exit-criteria.pdf0s
 
@@ -203,9 +203,9 @@ Add dated next steps on Northwind, Meridian, Fenwick and Quill & Ledger; set a n
 
 Each flagged deal gets one line you can take to the meeting.
 
-Run this every Monday at 8am: pull my open pipeline from Salesforce, score it with /pipeline-review against stage-exit-criteria.pdf, and write the sheet and review to a new week folder under Pipeline.
+Run this every Monday at 8am: pull my open pipeline from Salesforce, score it against stage-exit-criteria.pdf, and write the sheet and review to a new week folder under Pipeline.
 
-**Monday pipeline review**Mondays at 8:00 AM
+**Monday pipeline review**Monday at 8:00 AM
 
 Each run
 
@@ -243,7 +243,7 @@ Schedule it, and the scored sheet and review are in the folder before each meeti
 
 You walk into the pipeline review knowing which deals need attention.
 
-Score each open opp on stage hygiene, whether there's a real next step, and how long it's sat in stage. Flag the at-risk deals and say why in one line each, then write the manager-ready review doc for our Monday pipeline meeting.
+Score each open opp in this week's pipeline on stage hygiene, whether there's a real next step, and how long it's sat in stage. Flag the at-risk deals and say why in one line each, then write the manager-ready review doc for our Monday pipeline meeting.
 
 Downgrade Aperture Health from Commit to Best Case? Yes, move to Best Case / No, keep in Commit, flag it
 
@@ -259,7 +259,7 @@ Connectors: Salesforce
 
 ### Try a plugin[](https://academy.claude.com/use-cases/pipeline-review)
 
-The Sales plugin ships with `/pipeline-review` and other forecast-hygiene skills as a starting point, already structured to score opps and call out risk. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Sales plugin ships with `/pipeline-review` and other forecast-hygiene skills as a starting point, already structured to check your pipeline stage by stage and call out at-risk deals. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -305,17 +305,17 @@ prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/pipeline-review)
 
-Drag the files you'll use (this week's pipeline export, last week's review doc, your stage definitions) into one folder on your machine, then point Claude at it. Claude reads from it and writes the scored sheet and review doc back to it. If you run pipeline weekly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your stage criteria, instructions, and memory stay attached.
+Drag the files you'll use (this week's pipeline export, last week's review doc, your stage definitions) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from the folder and writes the scored sheet and review doc back to it. If you run pipeline weekly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your stage criteria, instructions, and memory stay attached.
 
-Pipeline / 2026-W17
+Pipeline
 
-pipeline-export-W17.xlsxApr 26, 202688 KB
+pipeline-export-W36.xlsxAug 28, 202688 KB
 
-review-doc-W16.docxApr 20, 202631 KB
+review-doc-W35.docxAug 21, 202631 KB
 
 stage-exit-criteria.pdfJan 6, 202652 KB
 
-In Cowork’s chat bar:Pipeline / 2026-W17
+In Cowork’s chat bar:Pipeline
 
 ## 2. The prompt[](https://academy.claude.com/use-cases/pipeline-review)
 
@@ -325,7 +325,7 @@ Score each open opp in this week's pipeline on stage hygiene, whether there's a 
 
 
 
-Pipeline / 2026-W17Open in Claude
+PipelineOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/pipeline-review)
 
@@ -367,14 +367,16 @@ so you know where to look first when you review the draft.
 
 ## 3. Make Claude work for you[](https://academy.claude.com/use-cases/pipeline-review)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your at-risk thresholds and your review doc format, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the
-/pipeline-review skill with my feedback.
+Make what we've done in this task so far into a skill called
+/pipeline-score.
 
 
 
 PipelineOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -384,9 +386,9 @@ Make what we've done in this task so far into a skill, or edit the
 
 ### Run it before the Monday meeting[](https://academy.claude.com/use-cases/pipeline-review)
 
-The review should be waiting before the meeting, not built during it. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill scores the pipeline and writes the doc every Monday morning.
+The review should be waiting before the meeting, not built during it. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/pipeline-score` scores the pipeline and writes the doc every Monday morning.
 
-Set up a scheduled task for every Monday at 8am: run /pipeline-review against the current
+Set up a scheduled task for every Monday at 8am: run /pipeline-score against the current
 Salesforce pipeline and write the scored sheet and review doc to a new folder
 under Pipeline named for the week.
 
@@ -398,24 +400,26 @@ under Pipeline named for the week.
 
 Monday pipeline review
 
-Runs `/pipeline-review` against the current Salesforce pipeline and writes
+Runs `/pipeline-score` against the current Salesforce pipeline and writes
 the scored sheet and review doc to a weekly folder.
 
 Every **Monday at 8:00 AM**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## 5. Share with your teammates[](https://academy.claude.com/use-cases/pipeline-review)
 
-Your customized `/pipeline-review` now carries your stage criteria, your at-risk thresholds, and your review doc format. Share it so every rep scores their own pipeline the same way, and the team meeting reads from one consistent doc per rep.
+Your `/pipeline-score` skill now carries your stage criteria, your at-risk thresholds, and your review doc format. Share it so every rep scores their own pipeline the same way, and the team meeting reads from one consistent doc per rep.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...**
-menu next to `/pipeline-review`, select **Share**, and pick your teammates.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...**
+menu next to `/pipeline-score`, select **Share**, and pick your teammates.
 For your whole organization, open the skill and select **Publish to org**, if
-your admin allows. They get the skill with your criteria and format baked in,
-so they don't repeat Steps 1-3.
+your admin allows. Your teammates get the skill with your criteria and format baked in,
+so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/pipeline-review)
 
@@ -427,7 +431,7 @@ Your plugins
 
 Your tools
 
-![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2300A1E0'%20d='M10.01%205.56a4.18%204.18%200%200%201%203.02-1.3c1.58%200%202.96.88%203.7%202.19a5.12%205.12%200%200%201%202.1-.45%205.18%205.18%200%200%201%200%2010.36c-.37%200-.73-.04-1.07-.11a3.77%203.77%200%200%201-4.94%201.55%204.3%204.3%200%200%201-7.99-.2%203.98%203.98%200%200%201-.82.09%203.97%203.97%200%200%201-1.96-7.43%204.57%204.57%200%200%201%207.96-4.7'/%3e%3c/svg%3e)Salesforce![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)Google Sheets
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2300A1E0'%20d='M10.01%205.56a4.18%204.18%200%200%201%203.02-1.3c1.58%200%202.96.88%203.7%202.19a5.12%205.12%200%200%201%202.1-.45%205.18%205.18%200%200%201%200%2010.36c-.37%200-.73-.04-1.07-.11a3.77%203.77%200%200%201-4.94%201.55%204.3%204.3%200%200%201-7.99-.2%203.98%203.98%200%200%201-.82.09%203.97%203.97%200%200%201-1.96-7.43%204.57%204.57%200%200%201%207.96-4.7'/%3e%3c/svg%3e)Salesforce![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)Google Drive
 
 Your folder
 

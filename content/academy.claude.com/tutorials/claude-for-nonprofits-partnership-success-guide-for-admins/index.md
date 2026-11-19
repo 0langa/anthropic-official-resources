@@ -6,7 +6,7 @@ A phased implementation framework to help nonprofit admins launch, scale, and su
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-obam6bfm.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-l6k10vcr.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-rl6i10ki.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ir68uyt0.png)
 
 Welcome to the Claude for nonprofits community. This guide provides everything you need to successfully launch and scale Claude at your organization.
 
@@ -72,7 +72,7 @@ The framework below is flexible and self-paced. Move through the phases at whate
 
 1. Build a weekly use case spotlight schedule
 2. Track activity metrics in your usage analytics dashboard and with surveys
-3. Enable appropriate connectors and capabilities in admin settings
+3. Enable appropriate connectors and capabilities in [Organization settings(opens in new tab)](https://claude.ai/admin-settings)
 
 #### Implementation tips
 

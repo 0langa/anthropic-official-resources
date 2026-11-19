@@ -21,20 +21,16 @@ This skill is designed for scientists and engineers at any career stage and in a
 **For Organization Owners (Team and Enterprise)**
 
 1. Download the ZIP for the **scientific-problem-selection** skill [here(opens in new tab)](https://github.com/anthropics/life-sciences/releases/download/v1.1.1/scientific-problem-selection-v1.1.1.zip)
-2. From [Claude.ai(opens in new tab)](http://claude.ai/), navigate to Admin settings > Capabilities > Skills
-3. Make sure Skills is activated for your organization
-4. Click “Organization skills library”
-5. Click “+Add”
-6. Upload the skill
+2. Open [Organization settings(opens in new tab)](https://claude.ai/admin-settings), search for “Skills” and click the first result. Make sure the switches for skills and code execution are both turned on.
+3. Open [your organization’s skills and plugins(opens in new tab)](https://claude.ai/admin-settings/skills), select the add button at the top, and upload the skill zip file
 
 Learn about [provisioning and managing skills for your organization(opens in new tab)](https://support.claude.com/en/articles/13119606-provisioning-and-managing-skills-for-your-organization)
 
 **For Individual Claude Users**
 
 1. Download the ZIP file for the **scientific-problem-selection** skill [here(opens in new tab)](https://github.com/anthropics/life-sciences/releases/download/v1.1.1/scientific-problem-selection-v1.1.1.zip)
-2. From [Claude.ai(opens in new tab)](http://claude.ai/), navigate to Settings > Capabilities > Skills (if Skills is not available, contact your team admin)
-3. Click “Upload skill”
-4. Upload the skill zip file
+2. Open [skills in Claude(opens in new tab)](https://claude.ai/customize/skills) and select **Add**. If you don’t see skills or **Add**, search Settings for “Code execution” and make sure it’s on (on a Team or Enterprise plan, contact your team admin).
+3. Choose the upload option, then select the skill zip file
 
 ## **How to access the skills in Claude Code**[](https://academy.claude.com/tutorials/how-to-use-the-scientific-problem-selection-skill-with-claude)
 

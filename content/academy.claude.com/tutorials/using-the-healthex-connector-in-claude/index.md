@@ -6,7 +6,7 @@ Using the HealthEx Connector in Claude
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-m6w51vq2.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-c71g2xhj.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-ktkhmv15.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-op9cjc8j.png)
 
 HealthEx connects Claude to your personal health records from all your care providers. This article explains how to set up and use the HealthEx integration with Claude to understand and manage your health data.
 
@@ -32,11 +32,11 @@ The HealthEx connector is for patients, including:
 
 ## **Who can access the HealthEx integration**[](https://academy.claude.com/tutorials/using-the-healthex-connector-in-claude)
 
-The HealthEx connector is available to Claude Pro, Max, and Ultra users in the United States at no additional charge. Consumers complete CLEAR-powered identity verification and provide explicit, revocable consent before any clinical records are retrieved. HealthEx uses CLEAR to verify your identity, but doesn't share biometric data or ID information with Claude.
+The HealthEx connector is available to Claude Pro, Max, and Ultra users in the United States at no additional charge. Consumers confirm their identity and provide explicit, revocable consent before any clinical records are retrieved. HealthEx doesn't share biometric data or ID information with Claude.
 
 Key requirements across all HealthEx connector users:
 
-- CLEAR-verified identity is required before any record retrieval.
+- HealthEx confirms it's really you before any record is released.
 - Explicit, task-scoped consent governs all data access.
 - You can view, limit, or revoke permissions at any time.
 - HealthEx applies a privacy-first, minimum-necessary access model, with data retrieved only when requested.
@@ -83,11 +83,10 @@ What types of exercise would be best for me?
 
 **For Individual Claude Users**
 
-1. From [Claude.ai(opens in new tab)](http://claude.ai/) or the Claude Desktop App, navigate to Settings > Connectors (Note: initial connector set-up cannot be completed from the Claude Mobile app)
-2. Find “**HealthEx**”
-3. Click “Connect”
-4. Choose whether to grant permission for Claude to access HealthEx
-5. Follow HealthEx’s instructions to complete CLEAR-powered identity verification and provide explicit, revocable consent before any clinical records are retrieved (See How to [securely connect to your HealthEx account(opens in new tab)](https://healthex.io/guides/claude) for more details)
+1. Sign in at [Claude.ai(opens in new tab)](http://claude.ai/) and open [HealthEx in the connectors directory(opens in new tab)](https://claude.ai/directory/healthex) (Note: initial connector set-up cannot be completed from the Claude Mobile app)
+2. Connect it to Claude
+3. Choose whether to grant permission for Claude to access HealthEx
+4. Follow HealthEx’s instructions to confirm your identity and provide explicit, revocable consent before any clinical records are retrieved (See How to [securely connect to your HealthEx account(opens in new tab)](https://healthex.io/guides/claude) for more details)
 
 Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory) in Claude.
 
@@ -95,10 +94,10 @@ For technical details of the HealthEx integration, see [HealthEx’s MCP Server 
 
 ## **How to securely connect to your HealthEx account**[](https://academy.claude.com/tutorials/using-the-healthex-connector-in-claude)
 
-Setup can take a few minutes. Users will need a phone, a valid US government ID, and logins for health portals.
+Setup takes about 15 minutes. Users will need a phone, a valid US government ID, and logins for health portals.
 
 1. Click get started
-2. Begin with identity verification by clicking Verify with CLEAR
+2. Begin with identity verification by clicking Verify with CLEAR, the service that checks your ID
    1. You will typically need to enter a phone number, email address, take a selfie, and take a picture of the front and back of your valid US government ID.
    2. CLEAR will transition you to your phone from the desktop via a text code or QR code. Once you are done, you will automatically be transitioned back to the HealthEx Connector experience on the desktop.
 3. Next, you will be asked to consent to access and connect your health records

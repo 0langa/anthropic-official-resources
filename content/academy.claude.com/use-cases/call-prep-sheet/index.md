@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-fzzs6i6o.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-my91enox.png)
 
-Film: the user asks Claude to prep for a sales call using a CRM record, call transcripts, and a shared action plan, producing a one-page sheet with asks and objections, then schedules it to run automatically each morning.
+Film: the user asks Claude to read a CRM record, recent call transcripts, and a mutual action plan, then watches Claude build a one-page call prep sheet with recurring concerns, asks, and objection responses, and how to schedule it daily.
 
 Prep for a sales call
 
@@ -64,7 +64,7 @@ ReadNorthwind - mutual action plan.xlsx, 12 milestones
 
 Readproposal-v2.pdf
 
-Readcandidate asks and likely objections
+Draftedcandidate asks and likely objections
 
 What do you want to ask for on tomorrow’s call?
 
@@ -182,7 +182,7 @@ If there’s time: Priya names the two pilot depots.
 
 <table class="owe"><tbody><tr><td><b>We owe</b>Updated security questionnaire appendix (Tom, by 3 Sep).</td><td><b>They owe</b>ROI review (Derek), redlines (Alana), pilot depot names (Priya).</td></tr></tbody></table>
 
-Run this every weekday at 7:30am: for each external meeting on today’s calendar, run /call-prep for that account and write the sheet to its calls folder.
+Run this every weekday at 7:30am: for each external meeting on today’s calendar, run the same prep for that account and write the sheet to its calls folder.
 
 **Morning call prep**Weekdays at 7:30 AM
 
@@ -190,7 +190,7 @@ Each run
 
 Finds today’s external meetings on your calendar
 
-Runs /call-prep for each account
+Runs the same prep for each account
 
 Writes each sheet to that account’s calls folder*for you to review*
 
@@ -238,7 +238,7 @@ Connectors: Salesforce, Google Drive
 
 ### Try a plugin[](https://academy.claude.com/use-cases/call-prep-sheet)
 
-The Sales plugin ships with `/call-prep` and other deal-cycle skills as a starting point, already structured to read the opp, the transcripts, and the plan and write a sheet you can scan a minute before the call. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Sales plugin ships with `/call-prep` and other deal-cycle skills as a starting point, already structured to read the opp and the transcripts and write a sheet you can scan a minute before the call. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -290,11 +290,11 @@ Google Drive
 
 ### Set your working folder[](https://academy.claude.com/use-cases/call-prep-sheet)
 
-Drag the files you'll use (the mutual action plan, your own notes, the proposal) into one folder on your machine, then point Claude at it. Claude reads from it and writes the prep sheet back to it. If you prep calls regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your account context, instructions, and memory stay attached.
+Drag the files you'll use (the mutual action plan, your own notes, the proposal) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from the folder and writes the prep sheet back to it. If you prep calls regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your account context, instructions, and memory stay attached.
 
 Accounts / Northwind / calls
 
-mutual-action-plan.xlsxApr 14, 202622 KB
+Northwind - mutual action plan.xlsxApr 14, 202622 KB
 
 call-notes-apr10.docxApr 10, 202611 KB
 
@@ -342,13 +342,15 @@ I'm meeting Northwind tomorrow. From the Salesforce record, the last three Gong 
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/call-prep-sheet)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your discovery framework and your objection playbook, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /call-prep skill with my feedback.
+Make what we've done in this task so far into a skill called /call-prep-sheet.
 
 
 
-AccountsOpen in Claude
+Accounts / Northwind / callsOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -358,9 +360,9 @@ Make what we've done in this task so far into a skill, or edit the /call-prep sk
 
 ### Run it before every external call[](https://academy.claude.com/use-cases/call-prep-sheet)
 
-Prep should be waiting before the meeting reminder fires. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill builds a sheet for every external call on your calendar each morning.
+Prep should be waiting before the meeting reminder fires. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/call-prep-sheet` builds a sheet for every external call on your calendar each morning.
 
-Set up a scheduled task for every weekday at 7:30am: run /call-prep for each external meeting on today's calendar and write each sheet to the matching account's calls folder under Accounts.
+Set up a scheduled task for every weekday at 7:30am: run /call-prep-sheet for each external meeting on today's calendar and write each sheet to the matching account's calls folder under Accounts.
 
 
 
@@ -370,19 +372,21 @@ Set up a scheduled task for every weekday at 7:30am: run /call-prep for each ext
 
 Morning call prep
 
-Runs `/call-prep` for each external meeting on today's calendar and writes the sheet to the account's calls folder.
+Runs `/call-prep-sheet` for each external meeting on today's calendar and writes the sheet to the account's calls folder.
 
 Every **weekday at 7:30 AM**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/call-prep-sheet)
 
-Your customized `/call-prep` now carries your discovery framework, your objection playbook, and your sheet format. Share it so every rep walks into calls with the same prep, and managers can read any sheet the same way.
+Your `/call-prep-sheet` skill now carries your discovery framework, your objection playbook, and your sheet format. Share it so every rep walks into calls with the same prep, and managers can read any sheet the same way.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/call-prep`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your framework and playbook baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/call-prep-sheet`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your framework and playbook baked in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/call-prep-sheet)
 
@@ -394,7 +398,7 @@ Your plugins
 
 Your tools
 
-![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2300A1E0'%20d='M10.01%205.56a4.18%204.18%200%200%201%203.02-1.3c1.58%200%202.96.88%203.7%202.19a5.12%205.12%200%200%201%202.1-.45%205.18%205.18%200%200%201%200%2010.36c-.37%200-.73-.04-1.07-.11a3.77%203.77%200%200%201-4.94%201.55%204.3%204.3%200%200%201-7.99-.2%203.98%203.98%200%200%201-.82.09%203.97%203.97%200%200%201-1.96-7.43%204.57%204.57%200%200%201%207.96-4.7'/%3e%3c/svg%3e)SalesforceGong![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)Google Drive
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2300A1E0'%20d='M10.01%205.56a4.18%204.18%200%200%201%203.02-1.3c1.58%200%202.96.88%203.7%202.19a5.12%205.12%200%200%201%202.1-.45%205.18%205.18%200%200%201%200%2010.36c-.37%200-.73-.04-1.07-.11a3.77%203.77%200%200%201-4.94%201.55%204.3%204.3%200%200%201-7.99-.2%203.98%203.98%200%200%201-.82.09%203.97%203.97%200%200%201-1.96-7.43%204.57%204.57%200%200%201%207.96-4.7'/%3e%3c/svg%3e)Salesforce![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20width='24'%20height='24'%20rx='5'%20fill='%23FFC127'/%3e%3cpath%20fill='%23000'%20d='M12%204.2%205.4%2018.9h3.37l1.02-2.42h4.42l1.02%202.42h3.37L12%204.2Zm0%204.87%201.54%203.64h-3.08L12%209.07Z'/%3e%3c/svg%3e)Apollo![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)Google Drive
 
 Your folder
 

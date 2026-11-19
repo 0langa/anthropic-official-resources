@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-f1fouzqt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iw1rj94h.png)
 
-Film: the user asks Claude to turn rough planning-call notes into a formatted campaign brief and matching kickoff deck, choosing a lead messaging angle and keeping figures consistent across both files.
+Film: the user turns rough planning notes into a formatted campaign brief and matching kickoff deck, with Claude checking in before choosing the lead message, then shows scheduling the same workflow to run again automatically.
 
 **strategy-notes***.DOCX*
 
@@ -71,7 +71,7 @@ Marketing
 
 How can I help you today?
 
-**/**campaign-plan Turn the strategy notes into a campaign brief: objective, audience, key message, channel plan, timeline, and success metrics. Offer three angles before you write. Then build a kickoff deck from the brief. Keep the voice consistent with our brand guidelines.
+**/**campaign-plan Turn the strategy notes into a campaign brief: objective, audience, key message, channel plan, timeline, and success metrics. Offer two angles before you write. Then build a kickoff deck from the brief. Keep the voice consistent with our brand guidelines.
 
 Reading strategy-notes.docx0s
 
@@ -244,9 +244,9 @@ Slide 6 of 8English (US)Notes▭ ▤ ▦— ◯ +  68%
 
 The brief and the deck show the same budget and launch date.
 
-Run this every weekday morning: if there is a new notes file in Campaigns, run /campaign-plan on it and save a brief and kickoff deck to a subfolder named for the campaign.
+Run this every weekday morning: if there is a new notes file in Campaigns, work from it and save a brief and kickoff deck to a subfolder named for the campaign.
 
-**Campaign brief from new notes**Weekdays at 9:00 AM
+**Campaign brief from strategy notes**Weekdays at 9:00 AM
 
 Each run
 
@@ -270,7 +270,7 @@ Build a campaign brief
 
 You have rough notes from the planning call and need a campaign brief.
 
-With the Marketing plugin’s campaign plan skill, name sections, and ask for a brief and deck.
+Pick the Marketing plugin’s campaign plan skill, then name the sections and ask for a brief and deck.
 
 Claude reads the notes first, then your template, brand guide and planning page.
 
@@ -286,7 +286,7 @@ You can schedule the same run for new notes files in your campaigns folder.
 
 You get a brief and a matching deck built around the message you chose.
 
-Turn the strategy notes into a campaign brief: objective, audience, key message, channel plan, timeline, and success metrics. Offer three angles before you write. Then build a kickoff deck from the brief. Keep the voice consistent with our brand guidelines.
+Turn the strategy notes into a campaign brief: objective, audience, key message, channel plan, timeline, and success metrics. Offer two angles before you write. Then build a kickoff deck from the brief. Keep the voice consistent with our brand guidelines.
 
 Which message should the campaign lead with? Hours go straight to payroll / Fair, predictable schedules
 
@@ -302,7 +302,7 @@ Connectors: Notion, Google Drive
 
 ### Try a plugin[](https://academy.claude.com/use-cases/campaign-brief)
 
-The Marketing plugin ships with `/campaign-plan` and other campaign-planning skills as a starting point, already structured around objective, audience, message, and metrics. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Marketing plugin ships with `/campaign-plan` as a starting point, already structured around objective, audience, message, and metrics. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -346,7 +346,7 @@ Notion
 
 ### Set your working folder[](https://academy.claude.com/use-cases/campaign-brief)
 
-Drag the files you'll use (the strategy notes, your brief template, the brand guidelines, last quarter's best brief) into one folder on your machine, then point Claude at it. Claude reads from it and writes the formatted brief and deck back to it. If you'll spin up campaigns regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent Campaigns folder so the template and brand voice stay attached.
+Drag the files you'll use (the strategy notes, your brief template, the brand guidelines) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from it and writes the formatted brief and deck back to it. If you'll spin up campaigns regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent Campaigns folder so the template and brand voice stay attached.
 
 Campaigns / Spring-Launch
 
@@ -398,13 +398,15 @@ Turn the strategy notes into a formatted campaign brief: objective, audience, ke
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/campaign-brief)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your brand voice and your metrics framework, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /campaign-plan skill with my feedback.
+Make what we've done in this task so far into a skill called /campaign-brief.
 
 
 
 CampaignsOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -414,9 +416,9 @@ Make what we've done in this task so far into a skill, or edit the /campaign-pla
 
 ### Run it on every new campaign[](https://academy.claude.com/use-cases/campaign-brief)
 
-Strategy notes get dropped, the brief should already be drafting. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs every weekday morning against any new strategy-notes files in Campaigns.
+Strategy notes get dropped, the brief should already be drafting. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/campaign-brief` runs every weekday morning against any new strategy-notes files in Campaigns.
 
-Set up a scheduled task for weekdays at 9 am: check Campaigns for new strategy-notes files and run /campaign-plan on each one, writing the brief and kickoff deck to a subfolder named for the campaign.
+Set up a scheduled task for weekdays at 9 am: check Campaigns for new strategy-notes files and run /campaign-brief on each one, writing the brief and kickoff deck to a subfolder named for the campaign.
 
 
 
@@ -426,19 +428,21 @@ Set up a scheduled task for weekdays at 9 am: check Campaigns for new strategy-n
 
 Campaign brief from strategy notes
 
-Checks Campaigns each weekday morning for new strategy-notes files, runs `/campaign-plan` on each, and writes the brief and deck to a campaign subfolder.
+Checks Campaigns each weekday morning for new strategy-notes files, runs `/campaign-brief` on each, and writes the brief and deck to a campaign subfolder.
 
 Every **weekday at 9 am — Campaigns folder**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/campaign-brief)
 
-Your customized `/campaign-plan` now carries your template, your brand voice, and your metrics framework. Share it so every campaign owner starts from the same structure, and stakeholders see one consistent brief format no matter who runs the program.
+Your `/campaign-brief` skill now carries your template, your brand voice, and your metrics framework. Share it so every campaign owner starts from the same structure, and stakeholders see one consistent brief format no matter who runs the program.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/campaign-plan`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your template and voice baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/campaign-brief`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. Your teammates get the skill with your template and voice baked in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/campaign-brief)
 

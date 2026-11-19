@@ -63,7 +63,7 @@ Welcome to the Claude for nonprofits community. This guide is a pathway to help 
 1. Participate in the train the trainer program
 2. Use Claude for complex projects: grant narratives, program evaluations, strategic planning
 3. Explore artifacts for editable documents, tables, and visual content
-4. Enable code execution and file sharing for spreadsheets or slide decks
+4. Use [file creation(opens in new tab)](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude) for spreadsheets or slide decks
 
 ### Implementation tips[](https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-guide-for-all-users)
 

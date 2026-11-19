@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-pa0satz7.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ewc5ye4g.png)
 
-Film: the user asks Claude to find every surface already using a similar filtering pattern before designing a new one, checking a component inventory, library, code, and usage data, then recommending which to reuse. The user saves this as a repeatable skill.
+Film: the user asks Claude to find every existing surface using a similar pattern before designing a new one, and watches Claude audit ownership and usage, then recommend which pattern to reuse, teaching that design should start from what already exists.
 
 Find existing patterns before you design
 
@@ -40,17 +40,9 @@ The surface to design
 
 PNG
 
-Design
-
-/design-critique
-
-/design-handoff
-
-/design-system
-
 How can I help you today?
 
-**/**design-handoff Before I propose an inline-filter pattern for search results, find every surface using something similar: chips, segmented controls, dropdown filters, faceted sidebars. For each, note which team owns it and how it performed. Tell me which to reuse and why.
+Before I propose an inline-filter pattern for search results, find every surface using something similar: chips, segmented controls, dropdown filters, faceted sidebars. For each, note which team owns it and how it performed. Tell me which to reuse and why.
 
 Reading component-inventory.md0s
 
@@ -82,7 +74,7 @@ Download
 
 # Inline filter: what already exists
 
-For Search results (owner Search & Nav; no filters today, search-results-current.png). Sources: component-inventory.md, Orchard / Product UI in Figma, orchard/web@main, filter-usage-90d.csv (1 Jun–29 Aug 2026). 28 Aug 2026.
+For Search results (owner Search & Nav; no filters today, search-results-current.png). Sources: component-inventory.md, Orchard / Product UI in Figma, orchard/web@main, filter-usage-90d.csv (1 Jun–29 Aug 2026). 31 Aug 2026.
 
 ## Side by side
 
@@ -104,7 +96,7 @@ Every instance sits side by side with its owner, component and usage.
 
 # Inline filter: what already exists
 
-For Search results (owner Search & Nav; no filters today, search-results-current.png). Sources: component-inventory.md, Orchard / Product UI in Figma, orchard/web@main, filter-usage-90d.csv (1 Jun–29 Aug 2026). 28 Aug 2026.
+For Search results (owner Search & Nav; no filters today, search-results-current.png). Sources: component-inventory.md, Orchard / Product UI in Figma, orchard/web@main, filter-usage-90d.csv (1 Jun–29 Aug 2026). 31 Aug 2026.
 
 ## Side by side
 
@@ -140,7 +132,7 @@ Find existing patterns before you design
 
 You are about to design something the product may already have.
 
-Using the Design plugin’s handoff skill, name the pattern and ask for each owner and usage.
+Name the pattern and ask for each owner and usage.
 
 Claude checks your inventory first, then searches the library, the code and usage data.
 
@@ -162,31 +154,9 @@ I searched the library, the orchard/web code and 90 days of usage for your four 
 
 inline-filter-audit.md
 
-Skill: /design-handoff (Design)
-
 Connectors: Figma, GitHub
 
 ## Set up[](https://academy.claude.com/use-cases/pattern-consistency-audit)
-
-### Try a plugin[](https://academy.claude.com/use-cases/pattern-consistency-audit)
-
-The Design plugin ships with `/design-handoff` and other design-system skills as a starting point, already structured to inventory components and cross-reference where they live. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
-
-
-
-DesignAccelerate design workflows — critique, design system management, UX writing, accessibility audits, research synthesis, and dev handoff. From exploration to pixel-perfect specs.
-
-[Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=design)
-
-`/design-handoff`Generate developer handoff specs from a design.
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdesign-handoff)
-
-`/research-synthesis`Synthesize user research into themes, insights, and recommendations.
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fresearch-synthesis)
-
-Show all 7 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/pattern-consistency-audit)
 
@@ -226,7 +196,7 @@ Pull engagement and conversion for each surface so the recommendation is grounde
 
 ### Set your working folder[](https://academy.claude.com/use-cases/pattern-consistency-audit)
 
-Drag the files you'll use (a Figma export of the design system, screenshots of the surfaces you already know about, the product sitemap) into one folder and point Claude at it. Claude reads from it and writes the audit back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your design-system folder so the component inventory and ownership map stay attached for every audit.
+Drag the files you'll use (your component inventory, screenshots of the surfaces you already know about, your ownership map, a usage export if you have one) into one folder and [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from it and writes the audit back to it. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your design-system folder so the component inventory and ownership map stay attached for every audit.
 
 Design-system / Audits / inline-filter
 
@@ -235,6 +205,8 @@ component-inventory.mdMar 18, 202642 KB
 search-results-current.pngApr 26, 2026410 KB
 
 surface-ownership.csvFeb 9, 20268 KB
+
+filter-usage-90d.csvAug 30, 202616 KB
 
 In Cowork’s chat bar:Design-system / Audits / inline-filter
 
@@ -278,13 +250,15 @@ Before I propose a new inline-filter pattern for the search results page, find e
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/pattern-consistency-audit)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as which component inventory to start from and which performance numbers to look up, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /design-handoff skill with my feedback.
+Make what we've done in this task so far into a skill called /pattern-audit.
 
 
 
 Design-system / AuditsOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -294,9 +268,9 @@ Make what we've done in this task so far into a skill, or edit the /design-hando
 
 ### Make it the default first step[](https://academy.claude.com/use-cases/pattern-consistency-audit)
 
-This audit should run before any new pattern enters review. Save it as a skill the whole design org can call with one line, swapping the pattern name each time, so "did we check what already exists" stops being a crit-week surprise.
+This audit should run before any new pattern enters review. Update `/pattern-audit` so the whole design org can call it with one line, swapping the pattern name each time, and "did we check what already exists" stops being a crit-week surprise.
 
-Save this as /pattern-audit. It should take a pattern name, search Figma, the codebase, and Amplitude for existing instances, and write the side-by-side with a reuse recommendation to Design-system/Audits/<pattern>.md.
+Update /pattern-audit. It should take a pattern name, search Figma, the codebase, and our usage data for existing instances, and write the side-by-side with a reuse recommendation to Design-system/Audits/<pattern>-audit.md.
 
 
 
@@ -304,19 +278,19 @@ Save this as /pattern-audit. It should take a pattern name, search Figma, the co
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/pattern-consistency-audit)
 
-Your customized `/pattern-audit` now carries your component inventory, your ownership map, and your performance lookups. Share it so every designer runs the same check before crit, and the design system stops growing five ways to do one thing.
+Your `/pattern-audit` skill now carries your component inventory, your ownership map, and your performance lookups. Share it so every designer runs the same check before crit, and the design system stops growing five ways to do one thing.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/pattern-audit`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your instructions baked in, they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/pattern-audit`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your instructions baked in, so they don't have to build it again.
 
 ## What changes for design crit[](https://academy.claude.com/use-cases/pattern-consistency-audit)
 
 You have every existing instance of the pattern inventoried with its owner and performance data, plus a recommendation on which to reuse. The decision is backed by evidence rather than preference.
 
-You did this for one filter pattern. The same approach covers navigation, empty states, and form patterns — each one becomes a skill your team runs before proposing something new.
+You did this for one filter pattern. The same approach covers navigation, empty states, and form patterns. Your team runs `/pattern-audit` on each one before proposing something new.
 
 ### Finish it where the file lives
 
@@ -324,7 +298,7 @@ You did this for one filter pattern. The same approach covers navigation, empty 
 
 Claude Design
 
-Mock the reuse option directly in your design file
+Mock up the reuse option with your design system
 
 Open](https://claude.ai/design)
 

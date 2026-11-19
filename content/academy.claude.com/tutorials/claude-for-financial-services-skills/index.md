@@ -16,15 +16,15 @@ A comps table, a DCF model, and an earnings update each follow a structure your 
 
 ## Prerequisites[](https://academy.claude.com/tutorials/claude-for-financial-services-skills)
 
-**For admins (Enterprise plans):** Owners must first enable both **Code execution and file creation** and **Skills** in [Admin settings > Skills(opens in new tab)](https://claude.ai/admin-settings/skills). Both toggles live on that page, and members won’t see Skills until both are on.
+**For admins (Enterprise plans):** Owners must first turn on both code execution and Skills for the organization. To find the two switches, open Organization settings, search for “Skills” and click the first result. Members won’t see Skills until both are on. The Help Center has more on [managing skills for your organization(opens in new tab)](https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization).
 
-**For individual members:** once Skills are enabled for your organization, you manage them from the **Customize** tab in the left sidebar, at [Customize > Skills(opens in new tab)](https://claude.ai/customize/skills).
+**For individual members:** once Skills are enabled for your organization, you can [manage your skills(opens in new tab)](https://claude.ai/customize/skills/yours).
 
 **How to enable Skills**
 
-1. Make sure **Code execution and file creation** is enabled. On Enterprise plans your admin controls this at the organization level; individual Free, Pro, Max, and Ultra accounts manage it in [Settings > Capabilities(opens in new tab)](https://claude.ai/settings/capabilities). Skills run in Claude’s secure sandboxed computing environment.
-2. Open [Customize > Skills(opens in new tab)](https://claude.ai/customize/skills).
-3. Toggle individual skills on or off as needed. You can also upload your own.
+1. Make sure **Create and edit files** (also called **Code execution and file creation**) is enabled. On Enterprise plans your admin controls this at the organization level (the code execution switch above); individual Free, Pro, Max, and Ultra accounts manage it in [Settings(opens in new tab)](https://claude.ai/settings/capabilities). Skills run in Claude’s secure sandboxed computing environment.
+2. Open [your skills(opens in new tab)](https://claude.ai/customize/skills/yours).
+3. Add or remove skills as you need them. You can also upload your own.
 
 Read more about [using Skills in Claude(opens in new tab)](https://support.claude.com/en/articles/12512180-using-skills-in-claude).
 

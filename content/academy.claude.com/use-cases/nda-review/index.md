@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-dydenpqj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jd1jgfwn.png)
 
-Film: the user points Claude at a folder of incoming NDAs and a playbook, asking it to flag only exceptions. Claude checks each agreement, asks about an uncovered clause, then delivers a triage sheet and sets the check to run on a schedule.
+Film: the user points Claude at a folder of incoming NDAs and a playbook, watching it check each agreement, ask about unclear clauses, and return a triage sheet separating routine paper from exceptions needing counsel.
 
 Intake
 
@@ -108,7 +108,7 @@ Term 5 years; confidentiality survives in perpetuity
 
 <table><thead><tr><th class="rh"></th><th style="width:210px">A</th><th style="width:150px">B</th><th style="width:100px">C</th><th style="width:420px">D</th><th style="width:110px">E</th><th style="width:170px">F</th><th style="width:190px">G</th></tr></thead><tbody><tr class="ttlr"><td class="rh">1</td><td colspan="7" style="font:700 15px -apple-system,Aptos,system-ui;color:#1f2328;height:30px;border-color:transparent transparent #e6e6e6">NDA intake triage — 27 Aug 2026<span style="font-weight:400;color:#6b7280;margin-left:10px">40 agreements checked against nda-playbook.pdf</span></td></tr><tr class="hdr"><td class="rh" style="opacity: 1;">2</td><td style="opacity: 1;">Counterparty<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td style="opacity: 1;">Paper<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td style="opacity: 1;">Result<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td style="opacity: 1;">Exception<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td style="opacity: 1;">Clause<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td style="opacity: 1;">Playbook<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td><td style="opacity: 1;">Next step<span style="float:right;color:#9aa;font-size:9px;margin-top:2px">▾</span></td></tr><tr class="r0"><td class="rh" style="opacity: 1;">3</td><td class="c0" style="opacity: 1;">Corvid Labs</td><td class="c1" style="opacity: 1;">Theirs</td><td class="c2" style="opacity: 1;"><span class="vw r">RED</span></td><td class="c3" style="opacity: 1;">Feedback clause assigns IP in derivatives to discloser</td><td class="c4" style="opacity: 1;">§11.2</td><td class="c5" style="opacity: 1;">§7 No IP terms</td><td class="c6" style="opacity: 1;">To GC — do not sign</td></tr><tr class="r1 band"><td class="rh" style="opacity: 1;">4</td><td class="c0" style="opacity: 1;">Osprey Payments</td><td class="c1" style="opacity: 1;">Theirs, one-way</td><td class="c2" style="opacity: 1;"><span class="vw r">RED</span></td><td class="c3" style="opacity: 1;">12-month non-compete on recipient</td><td class="c4" style="opacity: 1;">§9.1</td><td class="c5" style="opacity: 1;">§9 Covenants</td><td class="c6" style="opacity: 1;">To GC — do not sign</td></tr><tr class="r2"><td class="rh" style="opacity: 1;">5</td><td class="c0" style="opacity: 1;">Kestrel Analytics</td><td class="c1" style="opacity: 1;">Theirs</td><td class="c2" style="opacity: 1;"><span class="vw y">YELLOW</span></td><td class="c3" style="opacity: 1;">Term 5 years; confidentiality survives in perpetuity</td><td class="c4" style="opacity: 1;">§8.1, §8.3</td><td class="c5" style="opacity: 1;">§5 Term, §6 Survival</td><td class="c6" style="opacity: 1;">Counsel</td></tr><tr class="r3 band"><td class="rh" style="opacity: 1;">6</td><td class="c0" style="opacity: 1;">Halvorsen Robotics</td><td class="c1" style="opacity: 1;">Theirs</td><td class="c2" style="opacity: 1;"><span class="vw y">YELLOW</span></td><td class="c3" style="opacity: 1;">Governing law Singapore, not on approved list</td><td class="c4" style="opacity: 1;">§14</td><td class="c5" style="opacity: 1;">§11 Law and venue</td><td class="c6" style="opacity: 1;">Counsel</td></tr><tr class="r4"><td class="rh" style="opacity: 1;">7</td><td class="c0" style="opacity: 1;">Brightline Logistics</td><td class="c1" style="opacity: 1;">Theirs</td><td class="c2" style="opacity: 1;"><span class="vw y">YELLOW</span></td><td class="c3" style="opacity: 1;">Compelled-disclosure carve-out missing</td><td class="c4" style="opacity: 1;">§3</td><td class="c5" style="opacity: 1;">§4 Carve-outs</td><td class="c6" style="opacity: 1;">Counsel</td></tr><tr class="r5 band"><td class="rh" style="opacity: 1;">8</td><td class="c0" style="opacity: 1;">Meridian Health Partners</td><td class="c1" style="opacity: 1;">Theirs (scan)</td><td class="c2" style="opacity: 1;"><span class="vw y">YELLOW</span></td><td class="c3" style="opacity: 1;">Employee non-solicit, 24 months</td><td class="c4" style="opacity: 1;">§10</td><td class="c5" style="opacity: 1;">§9 Covenants</td><td class="c6" style="opacity: 1;">Counsel</td></tr><tr class="r6"><td class="rh" style="opacity: 1;">9</td><td class="c0" style="opacity: 1;">Sable &amp; Finch LLP</td><td class="c1" style="opacity: 1;">Theirs</td><td class="c2" style="opacity: 1;"><span class="vw y">YELLOW</span></td><td class="c3" style="opacity: 1;">Residuals clause — playbook silent, flagged per your answer</td><td class="c4" style="opacity: 1;">§6.4</td><td class="c5" style="opacity: 1;">Added to profile</td><td class="c6" style="opacity: 1;">Counsel</td></tr><tr class="r7 band"><td class="rh" style="opacity: 1;">10</td><td class="c0" style="opacity: 1;">Tidewater Energy</td><td class="c1" style="opacity: 1;">Theirs</td><td class="c2" style="opacity: 1;"><span class="vw y">YELLOW</span></td><td class="c3" style="opacity: 1;">One-sided attorneys’ fees; residuals clause flagged per your answer</td><td class="c4" style="opacity: 1;">§13.2, §5.2</td><td class="c5" style="opacity: 1;">§10 Fees</td><td class="c6" style="opacity: 1;">Counsel</td></tr><tr class="r8"><td class="rh" style="opacity: 1;">11</td><td class="c0" style="opacity: 1;">Quill &amp; Ledger</td><td class="c1" style="opacity: 1;">Ours, their edits</td><td class="c2" style="opacity: 1;"><span class="vw y">YELLOW</span></td><td class="c3" style="opacity: 1;">Marking requirement with 30-day written confirmation</td><td class="c4" style="opacity: 1;">§1.3</td><td class="c5" style="opacity: 1;">§3 Marking</td><td class="c6" style="opacity: 1;">Counsel</td></tr><tr class="r9 band"><td class="rh" style="opacity: 1;">12</td><td class="c0" style="opacity: 1;">Northwind Traders</td><td class="c1" style="opacity: 1;">Ours</td><td class="c2" style="opacity: 1;"><span class="vw g">GREEN</span></td><td class="c3" style="opacity: 1;">—</td><td class="c4" style="opacity: 1;">—</td><td class="c5" style="opacity: 1;">12 of 12</td><td class="c6" style="opacity: 1;">Cleared for signature</td></tr><tr class="r10"><td class="rh" style="opacity: 1;">13</td><td class="c0" style="opacity: 1;">Alder Street Studio</td><td class="c1" style="opacity: 1;">Theirs</td><td class="c2" style="opacity: 1;"><span class="vw g">GREEN</span></td><td class="c3" style="opacity: 1;">—</td><td class="c4" style="opacity: 1;">—</td><td class="c5" style="opacity: 1;">12 of 12</td><td class="c6" style="opacity: 1;">Cleared for signature</td></tr><tr class="r11 band"><td class="rh" style="opacity: 1;">14</td><td class="c0" style="opacity: 1;">Fenwick Mobility</td><td class="c1" style="opacity: 1;">Ours</td><td class="c2" style="opacity: 1;"><span class="vw g">GREEN</span></td><td class="c3" style="opacity: 1;">—</td><td class="c4" style="opacity: 1;">—</td><td class="c5" style="opacity: 1;">12 of 12</td><td class="c6" style="opacity: 1;">Cleared for signature</td></tr><tr class="r12"><td class="rh" style="opacity: 1;">15</td><td class="c0" style="opacity: 1;">Greywake Maritime</td><td class="c1" style="opacity: 1;">Theirs</td><td class="c2" style="opacity: 1;"><span class="vw g">GREEN</span></td><td class="c3" style="opacity: 1;">—</td><td class="c4" style="opacity: 1;">—</td><td class="c5" style="opacity: 1;">12 of 12</td><td class="c6" style="opacity: 1;">Cleared for signature</td></tr><tr class="r13 band"><td class="rh" style="opacity: 1;">16</td><td class="c0" style="opacity: 1;">Ironbark Foods</td><td class="c1" style="opacity: 1;">Ours</td><td class="c2" style="opacity: 1;"><span class="vw g">GREEN</span></td><td class="c3" style="opacity: 1;">—</td><td class="c4" style="opacity: 1;">—</td><td class="c5" style="opacity: 1;">12 of 12</td><td class="c6" style="opacity: 1;">Cleared for signature</td></tr><tr><td class="rh">17</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">18</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">19</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">20</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">21</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td class="rh">22</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
-TriageExceptions (11)Playbook checksRun log+Ready  ·  Count: 40
+TriageExceptions (9)Playbook checksRun log+Ready  ·  Count: 40
 
 Each document gets one verdict, so the routine ones clear immediately.
 
@@ -140,7 +140,7 @@ Kestrel Analytics - Mutual NDA (v2).pdf — page 3 of 6
 
 Each exception points to the exact clause to read.
 
-Run this every weekday morning on new files in Intake and post the exceptions for counsel.
+Run this every weekday morning on new files in Intake and draft the exceptions message for counsel.
 
 **NDA intake triage**Weekdays at 9:00 AM
 
@@ -148,7 +148,7 @@ Each run
 
 Adds new NDAs to the triage sheet
 
-Drafts the exceptions post for counsel*for you to review*
+Drafts the exceptions message for counsel*for you to review*
 
 Claude Academy
 
@@ -218,7 +218,7 @@ Commercial LegalReviews vendor agreements, NDAs, and SaaS subscriptions against 
 
 First run
 
-Commercial Legal comes from Anthropic's Legal marketplace, which has to be added once under **Browse Anthropic sources**. On a Team or Enterprise plan an admin does that from the organization's plugin settings (it then shows up for everyone); on an individual plan you can do it yourself. If **Add** doesn't take you straight to the plugin, that's usually the missing step. Once you've added Commercial Legal, run `/cold-start-interview` (a two-minute quick start on sensible defaults, or ten-plus minutes with your real documents) so the plugin learns your playbook — the full pass, with your NDA positions in it, is what lets `/review` clear standard paper to green; every other skill reads from that.
+Commercial Legal comes from Anthropic's Legal marketplace, which has to be added once under **Browse Anthropic sources**. On a Team or Enterprise plan an admin does that from the organization's plugin settings (it then shows up for everyone); on an individual plan you can do it yourself. If **Add** doesn't take you straight to the plugin, that's usually the missing step. Once you've added Commercial Legal, run `/cold-start-interview` (a two-minute quick start on sensible defaults, or ten-plus minutes with your real documents) so the plugin learns your playbook. Every other skill reads from that. The full pass, with your NDA positions in it, is what lets `/review` clear standard paper to green.
 
 ### Connect your tools[](https://academy.claude.com/use-cases/nda-review)
 
@@ -248,11 +248,11 @@ DocuSignOptional
 
 ### Set the working folder[](https://academy.claude.com/use-cases/nda-review)
 
-Put your standard mutual template and your NDA playbook in one folder on your machine, then in the Claude desktop app click **+ Add folder** and select it. [Save it as a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your playbook and template are loaded once and every inbound NDA runs against the same project knowledge — Claude reads from the folder and writes the triage card back to it.
+Put your standard mutual template and your NDA playbook in one folder on your machine, then in the Claude desktop app choose [**Add folder**(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) and select it. [Save it as a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your playbook and template are loaded once and every inbound NDA runs against the same project knowledge — Claude reads from the folder and writes the triage card back to it.
 
 
 
-**Just want to try it once first?** Skip the project — click **+ Add folder** on a one-off folder with a single NDA and jump to the prompt below.
+**Just want to try it once first?** Skip the project — choose **Add folder** for a one-off folder with a single NDA and your playbook, then jump to the prompt below.
 
 NDAs / Intake
 
@@ -304,13 +304,15 @@ Triage this NDA against our NDA playbook. For each criterion in the playbook, ma
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/nda-review)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your approved jurisdictions and your escalation triggers, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /review skill with my feedback.
+Make what we've done in this task so far into a skill called /nda-intake.
 
 
 
-NDAsOpen in Claude
+NDAs / IntakeOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -320,31 +322,33 @@ Make what we've done in this task so far into a skill, or edit the /review skill
 
 ### Run it on every new NDA[](https://academy.claude.com/use-cases/nda-review)
 
-NDAs arrive throughout the day. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill checks NDAs/Intake each weekday morning and runs /review on any new files before your day starts.
+NDAs arrive throughout the day. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and Claude checks NDAs/Intake each weekday morning and runs `/nda-intake` on any new files before your day starts.
 
-Set up a scheduled task for weekdays at 9am: run /review on every file in NDAs/Intake that wasn't there on the last run. Route cleared NDAs to DocuSign for signature and move them to NDAs/Processed. For anything with exceptions, write the triage card to NDAs/Exceptions and post the list to #legal-nda-review in Slack so counsel picks it up.
+Set up a scheduled task for weekdays at 9am: run /nda-intake on every file in NDAs/Intake that wasn't there on the last run. Move cleared NDAs to NDAs/Intake/Processed, ready for me to send for signature. For anything with exceptions, write the triage card to NDAs/Intake/Exceptions and draft a message with the list so I can review it and send it to counsel.
 
 
 
-NDAsOpen in Claude
+NDAs / IntakeOpen in Claude
 
 Scheduled taskActive
 
 NDA intake triage
 
-Each weekday morning, runs `/review` on files added to NDAs/Intake since the last run. Cleared paper routes to DocuSign and moves to NDAs/Processed (the executed copy lands wherever your DocuSign envelope settings already send it); exceptions get a triage card in NDAs/Exceptions and a Slack post to #legal-nda-review for counsel.
+Each weekday morning, runs `/nda-intake` on files added to NDAs/Intake since the last run. Cleared paper moves to NDAs/Intake/Processed, ready for you to send for signature; exceptions get a triage card in NDAs/Intake/Exceptions and a draft message for counsel that you review and send.
 
 Every **weekday at 9:00 AM — checks NDAs/Intake for new files**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/nda-review)
 
-Your customized `/review` now carries your full playbook checklist, your approved jurisdictions, and your escalation triggers. Share it so every requester and paralegal screens NDAs the same way, and counsel only sees the paper that actually needs them.
+Your `/nda-intake` skill now carries your full playbook checklist, your approved jurisdictions, and your escalation triggers. Share it so every requester and paralegal screens NDAs the same way, and counsel only sees the paper that actually needs them.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/review`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your checklist and routing rules baked in, so they don't repeat Steps 1-3; each teammate still runs `/cold-start-interview` the first time, pointed at the same playbook, because the plugin keeps its setup per person.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/nda-intake`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. Your teammates get the skill with your checklist and routing rules baked in, so they don't have to build it again; each teammate who uses the plugin still runs `/cold-start-interview` the first time, pointed at the same playbook, because the plugin keeps its setup per person.
 
 ## Going forward[](https://academy.claude.com/use-cases/nda-review)
 

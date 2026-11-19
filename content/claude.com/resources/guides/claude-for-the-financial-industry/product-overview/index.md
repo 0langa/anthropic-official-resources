@@ -40,7 +40,7 @@ Claude shows up to work in two forms: **products** your teams use directly such 
 
 ### Claude Chat
 
-The Claude web and desktop app, at [Claude.ai (opens in new tab)](https://claude.ai/redirect/claudedotcom.v1.d4988140-50ff-4b36-b98b-9578384cd28d), is a chat interface for research and drafting. An analyst might use it, for example, to summarize an earnings transcript or pressure-test a thesis before a memo goes to the committee. It is often the first place a new user starts.
+The Claude web and desktop app, at [Claude.ai (opens in new tab)](https://claude.ai/redirect/claudedotcom.v1.e813b6aa-7994-47b9-8400-7ead92a260ad), is a chat interface for research and drafting. An analyst might use it, for example, to summarize an earnings transcript or pressure-test a thesis before a memo goes to the committee. It is often the first place a new user starts.
 
 ### Claude Cowork
 

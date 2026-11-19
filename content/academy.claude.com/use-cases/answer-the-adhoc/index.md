@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-f72xos2e.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j0qghno4.png)
 
-Film: the user asks Claude why a regional metric fell, and Claude reads the schema and certified definitions, queries the warehouse, and explains the drivers with a chart and saved query, then shows the routine scheduled to run automatically.
+Film: the user pastes a finance stakeholder's question into a query skill, and Claude reads the schema and certified metrics, queries the warehouse, then explains the drivers behind the change with a chart and rerunnable query, before showing the task scheduled to run automatically.
 
 Search
 
@@ -103,7 +103,7 @@ Rosa Lindqvist · Finance Director, EMEA · Corran
 
 Answer the ad-hoc data question
 
-Finance asks you to explain why a number fell this month.
+Finance asks you to explain why a number fell this quarter.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%23F25022'%20d='M1%201h10.5v10.5H1z'/%3e%3cpath%20fill='%237FBA00'%20d='M12.5%201H23v10.5H12.5z'/%3e%3cpath%20fill='%2300A4EF'%20d='M1%2012.5h10.5V23H1z'/%3e%3cpath%20fill='%23FFB900'%20d='M12.5%2012.5H23V23H12.5z'/%3e%3c/svg%3e)
 
@@ -179,7 +179,7 @@ Query
 
 Download
 
-It runs on your tables and metric, so you can rerun it.
+The query runs on your tables and metric definitions, so you can rerun it.
 
 **emea-margin-drivers**
 
@@ -193,15 +193,15 @@ In percentage points, by country and cause. Six drivers sum to the 3.2-point fal
 
 The change is split into its parts; the biggest one stands out.
 
-Run this every hour on weekdays: check Analytics requests for new questions, run /write-query against the warehouse, and save a draft answer to Analytics / Inbox for me to review before anything goes back.
+Run this every hour on weekdays: check Analytics requests for new questions, query the warehouse, and save a draft answer to Analytics / Inbox for me to review before anything goes back.
 
-**Analytics requests inbox**Every hour on weekdays
+**Ad-hoc analytics inbox**Every hour on weekdays
 
 Each run
 
 Checks Analytics requests for new questions
 
-Runs /write-query on each against the warehouse
+Queries the warehouse for each one
 
 Writes a draft answer to Analytics / Inbox*for your review*
 
@@ -217,7 +217,7 @@ Illustration. Product screens are simplified.
 
 Answer the ad-hoc data question
 
-Finance asks you to explain why a number fell this month.
+Finance asks you to explain why a number fell this quarter.
 
 With the Data plugin’s query skill, paste their question and ask why, with a chart.
 
@@ -227,7 +227,7 @@ Claude reads your schema and metric definitions first, then queries the warehous
 
 Claude says what it found and gives you the chart and the query.
 
-It runs on your tables and metric, so you can rerun it.
+The query runs on your tables and metric definitions, so you can rerun it.
 
 The change is split into its parts; the biggest one stands out.
 
@@ -253,11 +253,11 @@ The Data plugin ships with `/write-query` and other warehouse-and-BI skills as a
 
 
 
-DataSkills for SQL generation, table profiling, dashboard specs, and metric narratives
+DataSkills for SQL generation, table profiling, dashboards, and charts
 
 [Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=data)
 
-`/write-query`Read the warehouse model, write the SQL, and answer the business question
+`/write-query`Write SQL for your warehouse's dialect from a plain-language question, then offer to run it
 
 [Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fwrite-query)
 
@@ -305,7 +305,7 @@ Query the warehouse directly when the answer isn't in the semantic model yet.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/answer-the-adhoc)
 
-Drag the files you'll use (your schema export or dbt models, your metrics library, your data dictionary) into one folder and point Claude at it. Claude reads the model from there and writes the SQL, the result table, and the answer memo back to it. If you field ad-hoc questions regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your naming conventions and certified-metric list stay attached.
+Drag the files you'll use (your schema export or dbt models, your metrics library, your data dictionary) into one folder and [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads the model from there and writes the SQL, the result table, and the answer memo back to it. If you field ad-hoc questions regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your naming conventions and certified-metric list stay attached.
 
 Analytics / EMEA-margin-question
 
@@ -357,13 +357,15 @@ Here's the question from the business: "Why is gross margin down in EMEA this qu
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/answer-the-adhoc)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own preferences for this task, such as your naming rules and your answer format, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /write-query skill with my feedback.
+Make what we've done in this task so far into a skill called /adhoc-answer.
 
 
 
 AnalyticsOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -373,9 +375,9 @@ Make what we've done in this task so far into a skill, or edit the /write-query 
 
 ### Run it on every inbound question[](https://academy.claude.com/use-cases/answer-the-adhoc)
 
-The ad-hoc queue never stops. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill watches your analytics-requests channel and drafts the query and answer before you've even read the message.
+The ad-hoc queue never stops. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/adhoc-answer` runs on new questions in your analytics-requests channel and drafts the query and answer before you've even read the message.
 
-Set up a scheduled task that runs every hour: check #analytics-requests for new questions, run /write-query on each one, and write the draft answer to Analytics/Inbox/<thread-id>.md for me to review before it goes back.
+Set up a scheduled task that runs every hour on weekdays: check #analytics-requests in Teams for new questions, run /adhoc-answer on each one, and write the draft answer to Analytics/Inbox/<thread-id>.md for me to review before it goes back.
 
 
 
@@ -385,19 +387,21 @@ Set up a scheduled task that runs every hour: check #analytics-requests for new 
 
 Ad-hoc analytics inbox
 
-Hourly, reads new questions in #analytics-requests, runs `/write-query` against the warehouse, and writes a draft answer for review.
+Hourly, reads new questions in #analytics-requests, runs `/adhoc-answer` against the warehouse, and writes a draft answer for review.
 
 Every **hour on weekdays**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/answer-the-adhoc)
 
-Your customized `/write-query` now carries your warehouse model, your certified metrics, and your answer format. Share it so every analyst writes SQL against the same definitions, and the business gets the same number no matter who they ask.
+Your `/adhoc-answer` skill now carries your warehouse model, your certified metrics, and your answer format. Share it so every analyst writes SQL against the same definitions, and the business gets the same number no matter who they ask.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/write-query`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your model and naming rules baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/adhoc-answer`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your model and naming rules baked in, so they don't have to build it again.
 
 ## What changes for the analytics queue[](https://academy.claude.com/use-cases/answer-the-adhoc)
 

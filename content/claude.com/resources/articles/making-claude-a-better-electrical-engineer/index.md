@@ -8,7 +8,7 @@ How collaboration with domain experts, like custom circuit board manufacturers, 
 - Reading time6 min
 - ShareCopy link
 
-[Diode Computers](https://www.diode.computer/) designs and manufactures custom circuit boards with AI. Diode’s toolchain turns circuit board design into a software problem; much like how software engineers can be more efficient with tools like Claude Code, Diode is applying the same techniques to help electrical engineers design boards that are ready to fab in hours.
+[Diode Computers](https://www.diode.computer/) designs and manufactures custom circuit boards with AI. Diode’s toolchain turns circuit board design into a software problem; much like how software engineers can be more efficient with tools like [Claude Code](https://claude.com/product/claude-code), Diode is applying the same techniques to help electrical engineers design boards that are ready to fab in hours.
 
 Diode develops and maintains the [Zener language](https://github.com/diodeinc/pcb/blob/main/docs/pages/spec.mdx), a domain-specific language built on top of [Starlark](https://github.com/bazelbuild/starlark) for describing printed circuit board (PCB) schematics, and [pcb](https://github.com/diodeinc/pcb?tab=readme-ov-file), which uses the Zener language to provide automations on top of KiCad.
 
@@ -56,7 +56,11 @@ This article was written in collaboration between Davide Asnaghi and Lenny Khaza
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 12, 2026
+[ArticleNov 17, 2026
+
+### Linked billing on the Claude Platform
+
+Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)[ArticleNov 12, 2026
 
 ### Operate Claude Managed Agents inside your security perimeter
 
@@ -70,13 +74,7 @@ A new plugin with 17 skills and four connectors helps manufacturers draft quotes
 
 ### Introducing Claude Meetings
 
-Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)[ArticleNov 10, 2026
-
-### Your apps can now open in Claude, and Claude can work in them
-
-Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
-
-Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)
+Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)
 
 ## Transform how your organization operates with Claude
 

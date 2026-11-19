@@ -4,15 +4,15 @@ A one-page brief on what changed and where you fit.
 
 10 minSalesClaude Cowork
 
-Try in CoworkCopy prompt
+Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-mtc5a1pi.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ha2dvss7.png)
 
-Film: the user asks Claude to research a prospect account before a call, naming sources and asking for openers. Claude reads CRM history, a filing, news, and executive posts, then writes a one-page brief with dated changes, fit, and openers, and shows scheduling it recurringly.
+Film: the user asks Claude to research an account before a call, pulling CRM history, a filing, news, and executive posts into a one-page brief with dated changes and tied openers, then schedules it to repeat automatically.
 
 Research an account before a call
 
-You have a customer call tomorrow and need a one-page brief on the account.
+You have a prospect call tomorrow and need a one-page brief on the account.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2300A1E0'%20d='M10.01%205.56a4.18%204.18%200%200%201%203.02-1.3c1.58%200%202.96.88%203.7%202.19a5.12%205.12%200%200%201%202.1-.45%205.18%205.18%200%200%201%200%2010.36c-.37%200-.73-.04-1.07-.11a3.77%203.77%200%200%201-4.94%201.55%204.3%204.3%200%200%201-7.99-.2%203.98%203.98%200%200%201-.82.09%203.97%203.97%200%200%201-1.96-7.43%204.57%204.57%200%200%201%207.96-4.7'/%3e%3c/svg%3e)
 
@@ -252,7 +252,7 @@ Illustration. Product screens are simplified.
 
 Research an account before a call
 
-You have a customer call tomorrow and need a one-page brief on the account.
+You have a prospect call tomorrow and need a one-page brief on the account.
 
 Using the Sales plugin’s account research skill, name your sources and ask for call openers.
 
@@ -284,7 +284,7 @@ Connectors: Salesforce
 
 ### Try a plugin[](https://academy.claude.com/use-cases/account-research-brief)
 
-The Sales plugin ships with `/account-research` and other prospecting skills as a starting point, already structured to pull CRM history, public signals, and notes into a single page. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Sales plugin ships with `/account-research` and other prospecting skills as a starting point, already structured to pull CRM records and public signals into a research brief. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -294,19 +294,19 @@ SalesProspect, craft outreach, and build deal strategy faster. Prep for calls, m
 
 `/account-research`Research a company or person and get actionable sales intel.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Faccount-research)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Faccount-research)
 
 `/call-prep`Prepare for a sales call with account context, attendee research, and suggested agenda.
 
-[Open in Cowork](https://claude.ai/new?surface=cowork&q=%2Fcall-prep)
+[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcall-prep)
 
 Show all 9 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/account-research-brief)
 
-Claude Cowork is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
+Claude is more powerful when it works directly with your systems. You control permissions and access. [Learn about tool access(opens in new tab)](https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access).
 
-Navigate to **Customize → Connectors** in Cowork to set up.
+[Add a connector(opens in new tab)](https://claude.ai/desktop/customize/connectors) for each tool you want Claude to use.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2300A1E0'%20d='M10.01%205.56a4.18%204.18%200%200%201%203.02-1.3c1.58%200%202.96.88%203.7%202.19a5.12%205.12%200%200%201%202.1-.45%205.18%205.18%200%200%201%200%2010.36c-.37%200-.73-.04-1.07-.11a3.77%203.77%200%200%201-4.94%201.55%204.3%204.3%200%200%201-7.99-.2%203.98%203.98%200%200%201-.82.09%203.97%203.97%200%200%201-1.96-7.43%204.57%204.57%200%200%201%207.96-4.7'/%3e%3c/svg%3e)
 
@@ -328,15 +328,15 @@ Pull firmographics, contacts, and recent signals so the brief opens with who is 
 
 [Connect](https://claude.ai/desktop/directory/apollo)
 
-[Browse connectors in Cowork](https://claude.ai/desktop/customize/connectors)
+[Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
 
 
-**Want to try this task before setting anything up?** Add your files to a working folder, point Cowork at the folder, and start with the prompt.
+**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/account-research-brief)
 
-Drag the files you'll use (your last call notes, the saved 10-K, any internal account docs) into one folder on your machine, then point Cowork at it. Cowork reads from it and writes the finished brief back to it. If you research accounts regularly, [create a Cowork project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your notes, instructions, and memory stay attached.
+Drag the files you'll use (your last call notes, the saved 10-K, any internal account docs) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from the folder and writes the finished brief back to it. If you research accounts regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your notes, instructions, and memory stay attached.
 
 Accounts / Northwind
 
@@ -350,19 +350,19 @@ In Cowork’s chat bar:Accounts / Northwind
 
 ## The prompt[](https://academy.claude.com/use-cases/account-research-brief)
 
-### Copy this into Claude Cowork[](https://academy.claude.com/use-cases/account-research-brief)
+### Copy this into Claude[](https://academy.claude.com/use-cases/account-research-brief)
 
 Build a one-page account brief on Northwind. Pull from Salesforce, recent news, the 10-K, their exec LinkedIn posts, and our last call notes. Cover what they do, what's changed in the last quarter, where we fit, and three openers for the first call. Save it to the account folder.
 
 
 
-Accounts / NorthwindOpen in Cowork
+Accounts / NorthwindOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/account-research-brief)
 
 Prompt
 
-**List the sections you want.** "What they do, what's changed, where we fit, three openers" gives Cowork the page structure up front, so the brief reads like yours instead of a generic company profile.
+**List the sections you want.** "What they do, what's changed, where we fit, three openers" gives Claude the page structure up front, so the brief reads like yours instead of a generic company profile.
 
 Prompt
 
@@ -374,27 +374,29 @@ Build a one-page account brief on Northwind. Pull from Salesforce, recent news, 
 
 Source
 
-**Put your files in the working folder.** Your last call notes and the saved 10-K sit in the working folder, so Cowork reads them in place and writes the brief back next to them.
+**Put your files in the working folder.** Your last call notes and the saved 10-K sit in the working folder, so Claude reads them in place and writes the brief back next to them.
 
 ### Get a better draft[](https://academy.claude.com/use-cases/account-research-brief)
 
 Practice
 
-**Add an example to match.** Drop an example you like into the folder and Cowork matches your structure and voice.
+**Add an example to match.** Drop an example you like into the folder and Claude matches your structure and voice.
 
 Practice
 
 **Ask it to flag uncertainty.** Add "flag anything you're not confident about" so you know where to look first when you review the draft.
 
-## Make Cowork work for you[](https://academy.claude.com/use-cases/account-research-brief)
+## Make Claude work for you[](https://academy.claude.com/use-cases/account-research-brief)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your ICP and your opener style, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /account-research skill with my feedback.
+Make what we've done in this task so far into a skill called /account-brief.
 
 
 
-AccountsOpen in Cowork
+Accounts / NorthwindOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -404,35 +406,37 @@ Make what we've done in this task so far into a skill, or edit the /account-rese
 
 ### Run it before every prospecting block[](https://academy.claude.com/use-cases/account-research-brief)
 
-The brief should be waiting before you open the account, not built while the prospect is on hold. Type `/schedule` in the prompt, or open **Scheduled** in the Cowork sidebar, and the customized skill works through your target list ahead of each prospecting block.
+The brief should be waiting before you open the account, not built while the prospect is on hold. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/account-brief` works through your target list ahead of each prospecting block.
 
-**/schedule** Every Monday at 7am, run /account-research on the next five accounts in my target list and write each brief to the matching folder under Accounts.
+Set up a scheduled task for every Monday at 7am: run /account-brief on the next five accounts in my target list in Salesforce and write each brief to the matching folder under Accounts.
 
 
 
-AccountsOpen in Cowork
+AccountsOpen in Claude
 
 Scheduled taskActive
 
 Weekly account briefs
 
-Runs `/account-research` on the next five accounts in the target list and writes each brief to its account folder.
+Runs `/account-brief` on the next five accounts in the target list and writes each brief to its account folder.
 
-Every **Monday at 7:00 AM**[Open in Cowork](https://claude.ai/desktop/scheduled-task)
+Every **Monday at 7:00 AM**[Open in Claude](https://claude.ai/desktop/scheduled-task)
+
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/account-research-brief)
 
-Your customized `/account-research` now carries your ICP, your section order, and your opener style. Share it so every rep on the team researches accounts the same way, and managers see a consistent brief no matter who built it.
+Your `/account-brief` skill now carries your ICP, your section order, and your opener style. Share it so every rep on the team researches accounts the same way, and managers see a consistent brief no matter who built it.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/account-research`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your format and value-prop language baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/account-brief`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. Your teammates get the skill with your format and opener style baked in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/account-research-brief)
 
-### Now in your Cowork
+### Now set up in Claude
 
 Your plugins
 

@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-bpm02atf.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-1b7ie80y.png)
 
-Film: the user asks Claude to compare a signed vendor agreement against a renewal proposal using contracts, Slack discussion, usage data, and quotes. Claude asks a judgment question, then produces a redline table and negotiation brief, and can be scheduled to run for future renewals.
+Film: the user asks Claude to compare a signed contract against a vendor's renewal proposal, prepare for a negotiation, and answers a judgment question Claude raises, then receives a redline table with positions and a one-page brief with leverage, pushback, ranked asks, and a walk-away line.
 
 Prep the vendor negotiation
 
@@ -112,7 +112,7 @@ ReadNorthwind-renewal-proposal-2026.pdf
 
 Readusage-and-comparables.xlsx
 
-![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)CheckedIT contracts register: notice due 1 Oct
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)CheckedContracts register: notice due 1 Oct
 
 Checkedsigned terms against the proposal
 
@@ -259,7 +259,7 @@ Connectors: Google Drive, Slack
 
 ### Try a plugin[](https://academy.claude.com/use-cases/vendor-negotiation)
 
-The Operations plugin ships with `/vendor-review` already structured to diff two contract versions into a redline table and turn usage and comparables into leverage. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Operations plugin ships with `/vendor-review` already structured to break down a renewal's cost and risk and list your negotiation points. If your admin manages plugins and it's not available yet, skip this step. The prompt below works with `/vendor-review` in front of it or on its own.
 
 
 
@@ -315,7 +315,7 @@ Pull stakeholder asks and pain points from the vendor channel so the brief cover
 
 ### Set your working folder[](https://academy.claude.com/use-cases/vendor-negotiation)
 
-Put the current agreement, the renewal proposal, your usage export, and the comparable quotes in one folder. Claude diffs the two contracts there and writes the redline table and the brief back next to them. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your procurement folder so your fallback positions and standard contract terms stay attached for every renewal.
+Put the current agreement, the renewal proposal, your usage export, and the comparable quotes in one folder, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude diffs the two contracts there and writes the redline table and the brief back next to them. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from your procurement folder so your fallback positions and standard contract terms stay attached for every renewal.
 
 Procurement / Northwind-renewal-2026
 
@@ -367,13 +367,15 @@ Compare the current agreement to the renewal proposal and summarize every materi
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/vendor-negotiation)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your standard fallback positions and what your Legal team will and won't accept, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /vendor-review skill with my feedback.
+Make what we've done in this task so far into a skill called /negotiation-brief.
 
 
 
-ProcurementOpen in Claude
+Procurement / Northwind-renewal-2026Open in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -383,9 +385,9 @@ Make what we've done in this task so far into a skill, or edit the /vendor-revie
 
 ### Run it before every renewal[](https://academy.claude.com/use-cases/vendor-negotiation)
 
-The brief should exist before the vendor's AE books the call. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill watches the renewal calendar and drops a brief 60 days out.
+The brief should exist before the vendor's AE books the call. Keep a contracts register with each vendor's renewal date in your procurement folder. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/negotiation-brief` runs for each renewal in the register and drops a brief 60 days out.
 
-Set up a scheduled task for every Monday at 9am: check the contracts spreadsheet for any vendor renewing in the next 60 days, run /vendor-review against that vendor's folder, and write the brief to Procurement/<vendor>-renewal-<year>/.
+Set up a scheduled task for every Monday at 9am: check the contracts register for any vendor renewing in the next 60 days, run /negotiation-brief against that vendor's folder, and write the brief to Procurement/<vendor>-renewal-<year>/.
 
 
 
@@ -395,23 +397,25 @@ Set up a scheduled task for every Monday at 9am: check the contracts spreadsheet
 
 Renewal negotiation briefs
 
-Weekly, finds vendors renewing in the next 60 days, runs `/vendor-review` on each, and writes the redline and brief to the vendor folder.
+Weekly, finds vendors renewing in the next 60 days, runs `/negotiation-brief` on each, and writes the redline and brief to the vendor folder.
 
 Every **Mondays at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/vendor-negotiation)
 
-Your customized `/vendor-review` now carries your standard fallback positions, your redline format, and what your Legal team will and won't accept. Share it so every category owner walks into renewals with the same prep.
+Your `/negotiation-brief` skill now carries your standard fallback positions, your redline format, and what your Legal team will and won't accept. Share it so every category owner walks into renewals with the same prep.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/vendor-review`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your positions and redline format baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/negotiation-brief`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your positions and redline format baked in, so they don't have to build it again.
 
 ## What changes for the renewal call[](https://academy.claude.com/use-cases/vendor-negotiation)
 
-Every material change in the renewal is documented with your position on it, and the negotiating brief is written from your own usage and spend data. You start the conversation prepared rather than reacting to the vendor's terms.
+Every material change in the renewal is documented with your position on it, and the negotiation brief is written from your own usage and spend data. You start the conversation prepared rather than reacting to the vendor's terms.
 
 You did this for one renewal. The same approach covers SOW reviews, contract amendments, and price-increase notices — each one becomes a skill your team runs the same way.
 

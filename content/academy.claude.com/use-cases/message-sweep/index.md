@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-jabaz0im.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nbrkrt31.png)
 
-Film: a self-playing walkthrough of Claude sweeping unread Slack, Teams, and Gmail messages, grouping them by topic, and saving draft replies for the user to review and send. It teaches topic-based triage across apps, with drafting kept separate from sending.
+Film: the user asks Claude to sweep unread Slack, Teams, and Gmail messages, grouping them by topic and flagging each as needing reply, reading, or FYI, with drafts saved for approval before sending.
 
 C
 
@@ -98,14 +98,6 @@ Microsoft 365
 
 Gmail
 
-Productivity
-
-/start
-
-/task-management
-
-/update
-
 How can I help you today?
 
 C
@@ -180,7 +172,7 @@ Priya Nair*7:41 AM*
 
 Message #launch-atlas
 
-**/**start Sweep my unread Slack DMs and mentions, Teams activity and Gmail since yesterday. Group everything by topic, not by app. Say whether each topic needs a reply, reading, or is FYI, and draft replies of three sentences or fewer.
+Sweep my unread Slack DMs and mentions, Teams activity and Gmail since yesterday. Group everything by topic, not by app. Say whether each topic needs a reply, reading, or is FYI, and draft replies of three sentences or fewer.
 
 Reading Slack0s
 
@@ -192,9 +184,9 @@ Read5 sources
 
 ![](data:image/svg+xml,%3csvg%20width='48'%20height='48'%20viewBox='0%200%2048%2048'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_4766_38693)'%3e%3cpath%20d='M11.9091%2034H16.3636V23.6969L10%2019.1515V32.1818C10%2033.1879%2010.8559%2034%2011.9091%2034Z'%20fill='%234285F4'/%3e%3cpath%20d='M31.6364%2034H36.0909C37.1473%2034%2038%2033.1848%2038%2032.1818V19.1515L31.6364%2023.6969'%20fill='%2334A853'/%3e%3cpath%20d='M31.6364%2015.8182V23.6969L38%2019.1515V16.7272C38%2014.4788%2035.305%2013.1969%2033.4182%2014.5454'%20fill='%23FBBC04'/%3e%3cpath%20d='M16.3636%2023.697V15.8182L24%2021.2727L31.6364%2015.8182V23.697L24%2029.1515'%20fill='%23EA4335'/%3e%3cpath%20d='M10%2016.7272V19.1515L16.3636%2023.6969V15.8182L14.5818%2014.5454C12.6918%2013.1969%2010%2014.4788%2010%2016.7272Z'%20fill='%23C5221F'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_4766_38693'%3e%3crect%20width='28'%20height='20'%20fill='white'%20transform='translate(10%2014)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e)Readunread inbox threads: 18
 
-Read41 messages into 7 topics
+Grouped41 messages into 7 topics
 
-Read4 replies, none sent
+Drafted4 replies, none sent
 
 Used 5 sources34s
 
@@ -236,7 +228,7 @@ Catch up on unread messages
 
 You come back to a pile of unread messages across chat and mail.
 
-Run the start skill and ask for your unreads grouped by topic, with short draft replies.
+Ask for your unreads grouped by topic, with short draft replies.
 
 Claude reads what is unread in each connected app, then merges messages about one thing.
 
@@ -256,31 +248,9 @@ Sweep my unread Slack DMs and mentions, Teams activity and Gmail since yesterday
 
 Needs replyBrightwave quote, 12% up: Dan’s email, Priya’s DM, Finance’s ping, one item. / ReadKestrel’s security questionnaire; the Fairmont recap. FYIJune offsite; nine notifications. / Four drafts are saved for your approval; nothing is sent.
 
-Skill: /start (Productivity)
-
 Connectors: Slack, Microsoft 365, Gmail
 
 ## Set up[](https://academy.claude.com/use-cases/message-sweep)
-
-### Try a plugin[](https://academy.claude.com/use-cases/message-sweep)
-
-The Productivity plugin ships with `/start` and other personal-inbox skills as a starting point, already structured to read across apps and sort by urgency. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
-
-
-
-ProductivitySkills for inbox sweeps, daily rundowns, meeting prep, and decision logs
-
-[Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=productivity)
-
-`/start`Sweep unreads across Slack, Teams, and email and group by topic
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fstart)
-
-`/update`Turn a long thread into a one-paragraph summary with owners
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fupdate)
-
-Show all 4 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/message-sweep)
 
@@ -310,13 +280,9 @@ Gmail
 
 [Browse connectors in Claude](https://claude.ai/desktop/customize/connectors)
 
-
-
-**Want to try this task before setting anything up?** Drag in your files, or give Claude access to a folder in the Claude desktop app. Then start with the prompt.
-
 ### Set your working folder[](https://academy.claude.com/use-cases/message-sweep)
 
-This one runs almost entirely through connectors, so the working folder is light. Point Claude at a notes folder if you want each day's sweep saved as a file you can search later; otherwise the sweep stays in the chat and the drafts stay in Slack and Teams. If you run it daily, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your channel list and reply preferences stay attached.
+This one runs almost entirely through connectors, so the working folder is light. [Give Claude access to a notes folder(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app if you want each day's sweep saved as a file you can search later; otherwise the sweep stays in the chat. Claude can save drafts in Slack and Gmail. It can't save drafts in Teams, so those replies stay in the chat too. If you run the sweep daily, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your channel list and reply preferences stay attached.
 
 Notes / Inbox-Sweeps
 
@@ -366,13 +332,15 @@ Sweep my unread Slack DMs and mentions, Teams activity feed, and Gmail inbox fro
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/message-sweep)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as which channels to include and which messages to skip, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /start skill with my feedback.
+Make what we've done in this task so far into a skill called /message-sweep.
 
 
 
-NotesOpen in Claude
+Notes / Inbox-SweepsOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -382,39 +350,35 @@ Make what we've done in this task so far into a skill, or edit the /start skill 
 
 ### Run it every morning at 8am[](https://academy.claude.com/use-cases/message-sweep)
 
-The sweep should be waiting before you open Slack. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs every weekday morning against your live connectors.
+The sweep should be waiting before you open Slack. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/message-sweep` runs every weekday morning against your live connectors.
 
-Set up a scheduled task: run /start every weekday at 8:00am against Slack, Teams, and Gmail, and post the topic-grouped sweep with drafts to me as a Slack DM.
+Set up a scheduled task: run /message-sweep every weekday at 8:00am against Slack, Teams, and Gmail, and post the topic-grouped sweep with drafts to me as a Slack DM.
 
 
 
-NotesOpen in Claude
+Notes / Inbox-SweepsOpen in Claude
 
 Scheduled taskActive
 
 Morning message sweep
 
-Runs `/start` across Slack, Teams, and Gmail and DMs you the topic-grouped list with reply drafts.
+Runs `/message-sweep` across Slack, Teams, and Gmail and DMs you the topic-grouped list with reply drafts.
 
 Every **weekday at 8:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/message-sweep)
 
-Your customized `/start` now carries your channel list, your priority senders, and your skip rules. Share it so teammates with the same channels get the same sorted morning, and new joiners inherit the watch-list on day one.
+Your `/message-sweep` skill now carries your channel list and your skip rules. Share it so teammates with the same channels get the same sorted morning, and new joiners inherit the watch-list on day one.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/start`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your channel list and skip rules baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/message-sweep`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. Your teammates get the skill with your channel list and skip rules baked in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/message-sweep)
 
 ### Now set up in Claude
-
-Your plugins
-
-Productivity plugin
 
 Your tools
 
@@ -422,9 +386,9 @@ Your tools
 
 Your folder
 
-Inbox-Sweeps
+Notes / Inbox-Sweeps
 
-`/start` groups your unreads across Slack, Teams, and email by topic, with drafts ready for the messages that need a reply — one list to act on instead of three apps to check.
+`/message-sweep` groups your unreads across Slack, Teams, and email by topic, with drafts ready for the messages that need a reply — one list to act on instead of three apps to check.
 
 [Next: Prep call look-ahead](https://academy.claude.com/use-cases/week-ahead-prep)
 

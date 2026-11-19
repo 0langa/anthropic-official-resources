@@ -4,7 +4,6 @@
   "complete_definition": "Fetched textual representation passed automated extraction checks; not a guarantee of media/interactive fidelity.",
   "language_policy": "English locale paths and declared English HTML; undeclared language is reported, not guessed.",
   "retained_partial_urls": [
-    "https://academy.claude.com/collections/claude-for-work",
     "https://academy.claude.com/courses/ai-capabilities-and-limitations/course-quiz",
     "https://academy.claude.com/courses/ai-fluency-for-builders/course-quiz",
     "https://academy.claude.com/courses/ai-fluency-for-creative-work/course-quiz",
@@ -372,6 +371,7 @@
     "https://www.anthropic.com/research/building-strong-safety-evaluations",
     "https://www.anthropic.com/research/claude-3-5-sonnet",
     "https://www.anthropic.com/research/claude-3-7-sonnet",
+    "https://www.anthropic.com/research/claude-black-hole-physics",
     "https://www.anthropic.com/research/claude-character",
     "https://www.anthropic.com/research/claude-code-auto-mode",
     "https://www.anthropic.com/research/claude-code-best-practices",
@@ -518,7 +518,7 @@
   ],
   "statuses": {
     "blocked": 27,
-    "complete": 5173,
+    "complete": 5178,
     "gone": 49,
     "out_of_scope": 44,
     "partial": 511
@@ -618,7 +618,6 @@
     "https://www.anthropic.com/resources"
   ],
   "unresolved_urls": [
-    "https://academy.claude.com/collections/claude-for-work",
     "https://academy.claude.com/courses/ai-capabilities-and-limitations/course-quiz",
     "https://academy.claude.com/courses/ai-fluency-for-builders/course-quiz",
     "https://academy.claude.com/courses/ai-fluency-for-creative-work/course-quiz",
@@ -1102,6 +1101,7 @@
     "https://www.anthropic.com/research/building-strong-safety-evaluations",
     "https://www.anthropic.com/research/claude-3-5-sonnet",
     "https://www.anthropic.com/research/claude-3-7-sonnet",
+    "https://www.anthropic.com/research/claude-black-hole-physics",
     "https://www.anthropic.com/research/claude-character",
     "https://www.anthropic.com/research/claude-code-auto-mode",
     "https://www.anthropic.com/research/claude-code-best-practices",

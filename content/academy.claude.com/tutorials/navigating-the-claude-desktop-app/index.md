@@ -6,7 +6,7 @@ Learn what changes when you use Claude in the desktop app, and what it can do ac
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-b9qlnr3z.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mpd67del.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-bihkt81p.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iz3gsf7e.png)
 
 The [Claude desktop app(opens in new tab)](https://claude.com/download) puts Claude on your computer. That lets Claude open from any app with a shortcut, work in more of your apps and websites, and directly read, edit, or save files in your folders to carry a task further from start to finish.
 
@@ -23,7 +23,7 @@ In this guide
 
 ## 1. Claude is one shortcut away[](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)
 
-In the [Claude desktop app(opens in new tab)](https://claude.com/download), quick entry is a small Claude window that opens on top of whatever app you're in and stays in front as you switch apps. Reach it a few ways:
+In the [Claude desktop app(opens in new tab)](https://claude.com/download), quick entry is a small Claude window that opens on top of whatever app you're in. Reach it a few ways:
 
 - **Type:** Double-tap Option on a Mac, or use the shortcut you set in [Settings(opens in new tab)](https://claude.ai/desktop/settings/desktop) on Windows or Linux (beta), then type your question.
 - **Speak (Mac):** Press Caps Lock, talk, then press it again (turn it on in Settings).
@@ -33,7 +33,7 @@ On a Mac you can also show your screen. Hover over a window to send a screenshot
 
 Voice, dictation, and uploads work on the web, your phone, and the desktop app (dictation isn't available on Linux yet); the desktop app lets you reach these features in Claude quickly, from whatever app you're in.
 
-Things to ask:
+Things to ask with a screenshot:
 
 - *What do these numbers mean, and which one should I keep an eye on?*
 - *Summarize what's on my screen right now.*
@@ -64,7 +64,7 @@ See [Use quick entry on Mac(opens in new tab)](https://support.claude.com/en/art
 
 ## 2. Claude can work in your files, apps, and websites[](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)
 
-On the desktop app, Claude can work directly in the files, apps, and websites where your work already is. Instead of carrying material to Claude and results away, you let Claude handle the whole task in place. You choose what Claude can use, and Claude works only with what you share: folders, apps, websites, or your screen.
+On the desktop app, Claude can work directly in the files, apps, and websites where your work already is. Instead of carrying material to Claude and results away, you let Claude handle the whole task in place. You can give Claude access to folders, apps, websites, or your screen.
 
 ### Folders[](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)
 
@@ -72,7 +72,7 @@ On the web you might upload or drag in files. On the desktop app, Claude can go 
 
 To give access:
 
-1. Under the message box, add a folder.
+1. From the message box, add a folder.
 2. Allow Claude to edit the files in it.
 
 With that permission, Claude reads what it needs from the folder and saves finished work back to it.
@@ -101,7 +101,7 @@ The built-in browser is a browser panel inside the desktop app, next to your tas
 
 1. In Settings, set the built-in browser as your preferred browser.
 2. Ask Claude to use a website.
-3. The first time Claude acts on that site, you choose to allow it once, allow it always for that site, or deny it.
+3. The first time Claude acts on that site, you choose to allow it once, allow it always for that site, or deny it. In [Auto mode(opens in new tab)](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork), Claude acts on most sites without asking first.
 
 Things to ask:
 
@@ -133,7 +133,7 @@ Q4 2025:2.3
 
 0%2%4%202320242025
 
-In the desktop app the built-in browser opens beside the task. It's Claude's browser, not yours: it never sees your Chrome tabs, bookmarks or passwords, and you sign in inside it only for the sites you choose.
+In the desktop app the built-in browser opens beside the task. It has its own tabs and history, separate from your own browser. You choose which sites to sign in to.
 
 A task in Claude, on the web or the desktop app, can also work in your own Chrome through the [Claude in Chrome(opens in new tab)](https://claude.com/chrome) browser extension. The same extension opens Claude in Chrome next to the page you're on.
 
@@ -165,7 +165,7 @@ By default, Claude asks before using an app, and you can stop Claude at any time
 
 1. Start it from the plus menu in the message box.
 2. Do the task once, saying what you're doing as you go.
-3. Choose **Done**, and Claude turns the recording into a skill.
+3. Choose **Done**, then review the skill Claude proposes and save it.
 
 The skill is then available in Claude. While recording, don't type passwords or secrets, or show sensitive information or private conversations.
 
@@ -197,7 +197,7 @@ Diagram: two still frames show recording a skill, starting from the plus menu un
 
 2
 
-Capturing · 1 stepDiscardDone
+CapturingDiscardDone
 
 Start from the plus menu, then do the task while Claude records.
 

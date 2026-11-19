@@ -24,7 +24,7 @@ Please help organize my desktop. Evaluate all of the scattered files and organiz
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
-To organize files on your computer, start the task in Claude Desktop and grant it access to your desktop or a folder. Claude reaches those files through the desktop app while it's open, and the files it uses are processed on Anthropic's servers.
+To organize files on your computer, start the task in Claude Desktop and grant it access to your desktop or a folder. Claude reaches those files through the desktop app while it's open.
 
 ### Required context[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
@@ -100,7 +100,7 @@ Set up folder conventions you can maintain. One cleanup helps, but a system keep
 
 ### Where Claude works on your files[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
-Claude reaches only the folders you've connected, with the permissions you've set. A task that runs in the cloud reads and writes those files through the Claude Desktop app, so start it from the desktop app and keep the app open. The files Claude uses in the cloud are processed on Anthropic's servers.
+Claude reaches only the folders you've connected, with the permissions you've set. A task that runs in the cloud reads and writes those files through the Claude Desktop app, so start it from the desktop app and keep the app open.
 
 ### Start with one area if you're nervous[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
@@ -112,7 +112,7 @@ Claude will ask before deleting anything that looks important, but if you know c
 
 ### Start another task while this one runs[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
-Organizing a full desktop takes a while. Open a new session from the sidebar for other work. The dot or icon beside this task in the sidebar changes when it needs attention.
+Organizing a full desktop takes a while. Start another task from the sidebar for other work. The dot or icon beside this task in the sidebar changes when it needs attention.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 

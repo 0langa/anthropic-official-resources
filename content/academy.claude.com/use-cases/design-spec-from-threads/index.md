@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-g1uo6xw3.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hq8pagpq.png)
 
-Film: the user asks Claude to assemble scattered chat threads, a kickoff document, screenshots, and a requirements draft into one design spec, quoting sources and flagging conflicts as open questions, then schedules it to re-run regularly.
+Film: the user asks Claude to turn a scattered project channel, notes, and a PRD draft into a sourced design spec, watching Claude ask about genuinely open decisions instead of guessing, then set up a recurring schedule to re-check sources and update the spec.
 
 ![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.951%209.85a1.47%201.47%200%201%201-2.94%200%201.47%201.47%200%200%201%201.47-1.471h1.47V9.85Zm.735%200a1.47%201.47%200%201%201%202.94%200v3.679a1.47%201.47%200%201%201-2.94%200V9.85Z'%20fill='%23E01E5A'/%3e%3cpath%20d='M6.157%203.943a1.47%201.47%200%201%201%200-2.943%201.47%201.47%200%200%201%201.47%201.471v1.472h-1.47Zm0%20.746a1.47%201.47%200%201%201%200%202.943H2.47a1.47%201.47%200%201%201%200-2.943h3.687Z'%20fill='%2336C5F0'/%3e%3cpath%20d='M12.049%206.16a1.47%201.47%200%201%201%202.94%200%201.47%201.47%200%200%201-1.47%201.472h-1.47V6.16Zm-.736%200a1.47%201.47%200%201%201-2.94%200V2.471a1.47%201.47%200%201%201%202.94%200V6.16Z'%20fill='%232EB67D'/%3e%3cpath%20d='M9.843%2012.057a1.47%201.47%200%201%201%200%202.943%201.47%201.47%200%200%201-1.47-1.471v-1.472h1.47Zm0-.735a1.47%201.47%200%201%201%200-2.943h3.687a1.47%201.47%200%201%201%200%202.943H9.843Z'%20fill='%23ECB22E'/%3e%3c/svg%3e)#checkout-redesign
 
@@ -63,14 +63,6 @@ spec-template.docx
 Team template
 
 DOCX
-
-Design
-
-/design-critique
-
-/design-handoff
-
-/research-synthesis
 
 How can I help you today?
 
@@ -134,7 +126,7 @@ Reopening one thing: guest checkout. 29% of carts die at sign-in. If people can 
 
 Message #checkout-redesign
 
-**/**design-handoff Assemble everything in this folder, #checkout-redesign and the Checkout PRD draft in Notion into a single design spec: problem, goals, constraints, proposed solution, open questions, out of scope. Quote the source for any decision already made and flag anything contradictory. What did we already decide on checkout?
+Assemble everything in this folder, #checkout-redesign and the Checkout PRD draft in Notion into a single design spec: problem, goals, constraints, proposed solution, open questions, out of scope. Quote the source for any decision already made and flag anything contradictory. What did we already decide on checkout?
 
 Reading #checkout-redesign0s
 
@@ -150,7 +142,7 @@ Openedcurrent-flow-screens.png
 
 Readspec-template.docx
 
-Did the April thread actually decide on guest checkout?
+Did the 24 Apr thread actually decide on guest checkout?
 
 No, list it as open
 
@@ -204,13 +196,13 @@ On mobile web, 32 of every 100 opened carts become orders; on desktop it is 51. 
 
    > “Roughly two sprints including order lookup by email. Fine by me if Risk is OK.”Tomás Reyes, same thread
 
-   Jordan Blake has not replied; thread not closed. **Needs:** Jordan and Maya, at or before review. If adopted, Goals and Out of scope change.
+   Jordan Blake has not replied; thread not closed. **Needs:** Jordan and Nadia, at or before review. If adopted, Goals and Out of scope change.
 2. Express wallet placement: the screenshot annotation asks “wallets above the fold?” but I found no discussion of it. Flagged as unconfirmed. **Needs:** Lena.
 3. Funnel figures run to 15 Apr. **Needs:** Chris to refresh before Thursday.
 
 ## Out of scope
 
-Desktop checkout. Promo-code entry Maya, 22 Apr: “a separate project”. Saved cards and wallet management. Post-purchase pages.
+Desktop checkout. Promo-code entry Nadia, 22 Apr: “a separate project”. Saved cards and wallet management. Post-purchase pages.
 
 ## Decision log 6 decisions, each with the message it came from
 
@@ -252,13 +244,13 @@ On mobile web, 32 of every 100 opened carts become orders; on desktop it is 51. 
 
    > “Roughly two sprints including order lookup by email. Fine by me if Risk is OK.”Tomás Reyes, same thread
 
-   Jordan Blake has not replied; thread not closed. **Needs:** Jordan and Maya, at or before review. If adopted, Goals and Out of scope change.
+   Jordan Blake has not replied; thread not closed. **Needs:** Jordan and Nadia, at or before review. If adopted, Goals and Out of scope change.
 2. Express wallet placement: the screenshot annotation asks “wallets above the fold?” but I found no discussion of it. Flagged as unconfirmed. **Needs:** Lena.
 3. Funnel figures run to 15 Apr. **Needs:** Chris to refresh before Thursday.
 
 ## Out of scope
 
-Desktop checkout. Promo-code entry Maya, 22 Apr: “a separate project”. Saved cards and wallet management. Post-purchase pages.
+Desktop checkout. Promo-code entry Nadia, 22 Apr: “a separate project”. Saved cards and wallet management. Post-purchase pages.
 
 ## Decision log 6 decisions, each with the message it came from
 
@@ -292,7 +284,7 @@ Turn scattered threads into a design spec
 
 Your design decisions are scattered across threads, and you need one spec.
 
-Give the handoff skill your section order, and ask where each decision came from.
+Give Claude your section order, and ask where each decision came from.
 
 Claude reads the project channel, the files in your folder and the requirements draft.
 
@@ -310,37 +302,15 @@ Your team reviews one spec instead of rereading every thread.
 
 Assemble everything in this folder, #checkout-redesign and the Checkout PRD draft in Notion into a single design spec: problem, goals, constraints, proposed solution, open questions, out of scope. Quote the source for any decision already made and flag anything contradictory. What did we already decide on checkout?
 
-Did the April thread actually decide on guest checkout? No, list it as open / Yes, record it as decided
+Did the 24 Apr thread actually decide on guest checkout? No, list it as open / Yes, record it as decided
 
 I read #checkout-redesign, the kickoff notes, the screenshots and the PRD draft and wrote the spec in your section order: six decisions quoted with who and where, one conflict flagged. Guest checkout is under Open questions with both sources quoted, beside two things I could not confirm.
 
 checkout-redesign-spec.docx
 
-Skill: /design-handoff (Design)
-
 Connectors: Slack, Notion
 
 ## Set up[](https://academy.claude.com/use-cases/design-spec-from-threads)
-
-### Try a plugin[](https://academy.claude.com/use-cases/design-spec-from-threads)
-
-The Design plugin ships with `/design-handoff` and other research and structuring skills as a starting point, already shaped to the section order most design reviews expect. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
-
-
-
-DesignAccelerate design workflows — critique, design system management, UX writing, accessibility audits, research synthesis, and dev handoff. From exploration to pixel-perfect specs.
-
-[Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=design)
-
-`/design-handoff`Generate developer handoff specs from a design.
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdesign-handoff)
-
-`/research-synthesis`Synthesize user research into themes, insights, and recommendations.
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fresearch-synthesis)
-
-Show all 7 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/design-spec-from-threads)
 
@@ -380,13 +350,13 @@ Reference the exploration frames and pull the screenshot annotations into the sp
 
 ### Set your working folder[](https://academy.claude.com/use-cases/design-spec-from-threads)
 
-Drag the files you'll use (exported Slack threads, meeting notes, the screenshots people kept pasting) into one folder on your machine, then point Claude at it. Claude reads from it and writes the assembled spec back to it. If you write specs regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your spec template, instructions, and memory stay attached.
+Drag the files you'll use (exported Slack threads, meeting notes, the screenshots people kept pasting) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from the folder and writes the assembled spec back to it. If you write specs regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your spec template, instructions, and memory stay attached.
 
 Design / Checkout-Redesign
 
 slack-export-checkout.txtApr 25, 202662 KB
 
-kickoff-notes.docxApr 18, 202624 KB
+kickoff-notes.docxApr 14, 202624 KB
 
 current-flow-screens.pngApr 18, 20261.1 MB
 
@@ -432,13 +402,15 @@ Assemble everything in this folder into a single design spec. Structure it as pr
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/design-spec-from-threads)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your section order and your decision-log format, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /design-handoff skill with my feedback.
+Make what we've done in this task so far into a skill called /design-spec.
 
 
 
 DesignOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -458,9 +430,9 @@ Publish that spec as an artifact for the squad. Keep a "decisions changed since 
 
 ### Run it the morning before every review[](https://academy.claude.com/use-cases/design-spec-from-threads)
 
-Review is on the calendar, the spec should already reflect last night's thread. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and set the customized skill to run each morning, re-reading the channel and folder.
+Review is on the calendar, the spec should already reflect last night's thread. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and set `/design-spec` to run each morning, re-reading the channel and folder.
 
-Set up a scheduled task for weekdays at 8am: re-read #checkout-redesign and Design/Checkout-Redesign and re-run /design-handoff, updating the spec file and listing any decisions that changed overnight.
+Set up a scheduled task for weekdays at 8am: re-read #checkout-redesign and Design/Checkout-Redesign and re-run /design-spec, updating the spec file and listing any decisions that changed overnight.
 
 
 
@@ -470,19 +442,21 @@ Set up a scheduled task for weekdays at 8am: re-read #checkout-redesign and Desi
 
 Spec freshness pass
 
-Each weekday at 8am, re-reads the project channel and folder, re-runs `/design-handoff`, and updates the spec with a list of decisions that changed overnight.
+Each weekday at 8am, re-reads the project channel and folder, re-runs `/design-spec`, and updates the spec with a list of decisions that changed overnight.
 
 Every **weekday at 8 am · re-reads #checkout-redesign and the project folder**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/design-spec-from-threads)
 
-Your customized `/design-handoff` now carries your section order, your decision-log format, and your contradiction flags. Share it so every designer on the team writes specs the same way, and reviewers know exactly where to look no matter who owns the project.
+Your `/design-spec` skill now carries your section order, your decision-log format, and your contradiction flags. Share it so every designer on the team writes specs the same way, and reviewers know exactly where to look no matter who owns the project.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/design-handoff`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your template and format baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/design-spec`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your template and format baked in, so they don't have to build it again.
 
 ## What changes for design review[](https://academy.claude.com/use-cases/design-spec-from-threads)
 

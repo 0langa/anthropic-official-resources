@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-e6bs284y.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-m8ta2480.png)
 
-Film: the user asks Claude to build a clickable HTML prototype from a flow spec and component library, restricted to approved components. Claude reads source files, asks a design judgment question, then delivers a working prototype and shows scheduling recurring rebuilds to stay current.
+Film: the user asks Claude to build a clickable HTML prototype from a design spec, tokens, and real component library, wiring navigation and asking rather than guessing at decisions. It closes by showing the rebuild scheduled to rerun automatically, keeping the prototype current with the spec.
 
 **Cobalt — Web**×
 
@@ -284,17 +284,9 @@ With design-system.css
 
 JSON
 
-Design
-
-/design-handoff
-
-/design-system
-
-/ux-copy
-
 How can I help you today?
 
-**/**design-handoff Build a clickable HTML prototype of the flow in this folder. Use only our design system library's components. Wire up the navigation, use realistic placeholder data, and write it to prototype/index.html so I can click through in a browser.
+Build a clickable HTML prototype of the flow in this folder. Use only our design system library's components. Wire up the navigation, use realistic placeholder data, and write it to prototype/index.html so I can click through in a browser.
 
 Reading invite-flow-spec.docx0s
 
@@ -398,13 +390,13 @@ Every control is a library component, and the navigation between scree
 
 Both options sit in one prototype, so a participant can try each.
 
-**/schedule** Weekdays at 7am: if the spec or the Figma frames changed, rebuild prototype/index.html from library components only and bump the version stamp.
+Run this every weekday at 7am: if the spec or the library changed, rebuild prototype/index.html from library components only and bump the version stamp.
 
 **Prototype rebuild**Weekdays at 7:00 AM
 
 Each run
 
-Checks Prototypes / Invite-Flow and the Figma file for changes
+Checks Prototypes / Invite-Flow for changes
 
 Rebuilds prototype/index.html from library components only
 
@@ -422,7 +414,7 @@ Build a clickable prototype
 
 You need a version of a new flow that people can actually click through.
 
-With the Design plugin’s handoff skill, give the spec and tokens, and allow only library components.
+Give Claude the spec and tokens, and allow only library components.
 
 Claude reads the spec, your tokens, the design frames and the component code first.
 
@@ -446,31 +438,9 @@ I built prototype/index.html from seven @cobalt/ui components with tokens.json a
 
 invite-flow-prototype
 
-Skill: /design-handoff (Design)
-
 Connectors: Figma, GitHub
 
 ## Set up[](https://academy.claude.com/use-cases/clickable-prototype)
-
-### Try a plugin[](https://academy.claude.com/use-cases/clickable-prototype)
-
-The Design plugin ships with `/design-handoff` already structured to read a flow description and a component library and emit a wired, clickable HTML build. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
-
-
-
-DesignAccelerate design workflows — critique, design system management, UX writing, accessibility audits, research synthesis, and dev handoff. From exploration to pixel-perfect specs.
-
-[Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=design)
-
-`/design-handoff`Generate developer handoff specs from a design.
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdesign-handoff)
-
-`/ux-copy`Write or review UX copy — microcopy, error messages, empty states, CTAs.
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fux-copy)
-
-Show all 7 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/clickable-prototype)
 
@@ -498,7 +468,7 @@ Pull the design-system package so generated markup matches what engineering ship
 
 Google DriveOptional
 
-Read the flow description and write the prototype link back to the project doc.
+Read the flow description from the project doc.
 
 [Connect](https://claude.ai/desktop/directory/google-drive-drivemcp)
 
@@ -510,7 +480,7 @@ Read the flow description and write the prototype link back to the project doc.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/clickable-prototype)
 
-Drag the files you'll use (the flow description or spec, the component library export, your tokens, sample content) into one folder on your machine, then point Claude at it. Claude reads from it and writes the prototype HTML back into a subfolder. If you prototype regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your library and conventions stay attached.
+Drag the files you'll use (the flow description or spec, the component library export, your tokens, sample content) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from it and writes the prototype HTML back into a subfolder. If you prototype regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your library and conventions stay attached.
 
 Prototypes / Invite-Flow
 
@@ -562,21 +532,23 @@ Build a clickable HTML prototype of the flow in this folder using only component
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/clickable-prototype)
 
-The plugin's `/design-handoff` is a generic starting point. Once Step 2 produces a build you'd actually put in front of a participant, tell Claude to write your version of the skill. Layer in your component naming, your data fixtures, your interaction conventions, and the wrapper page your prototypes always sit in. A few minutes of conversation and the skill runs with your standards from then on.
+Once the prompt produces a build you'd actually put in front of a participant, tell Claude to turn what you've done into a skill of your own. Layer in your component naming, your data fixtures, your interaction conventions, and the wrapper page your prototypes always sit in. A few minutes of conversation and the skill runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /design-handoff skill with my feedback.
+Make what we've done in this task so far into a skill called /clickable-prototype.
 
 
 
-PrototypesOpen in Claude
+Prototypes / Invite-FlowOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 ## Make it repeatable[](https://academy.claude.com/use-cases/clickable-prototype)
 
 ### Share it as an artifact[](https://academy.claude.com/use-cases/clickable-prototype)
 
-A prototype you have to email around gets stale. Ask Claude to publish it as an artifact and every reviewer and test participant has one link — re-run the skill (or schedule it) to refresh.
+A prototype you have to email around gets stale. Ask Claude to publish it as an artifact and everyone you share it with has one link. Re-run the skill (or schedule it) to refresh.
 
-Publish that prototype as an artifact. Add a small "v2, v3" version stamp in the corner.
+Publish that prototype as an artifact. Add a small version stamp in the corner, starting at v1.
 
 
 
@@ -584,31 +556,33 @@ Publish that prototype as an artifact. Add a small "v2, v3" version stamp in the
 
 ### Rebuild it on every spec change[](https://academy.claude.com/use-cases/clickable-prototype)
 
-The spec moves, the prototype should follow without a request. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and set the customized skill to rebuild each morning from whatever is in the folder.
+The spec moves, the prototype should follow without a request. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and set `/clickable-prototype` to rebuild each morning from whatever is in the folder.
 
-Set up a scheduled task for weekdays at 7am: check Prototypes/Invite-Flow for changes and re-run /design-handoff, rebuilding prototype/index.html and bumping the version stamp.
+Set up a scheduled task for weekdays at 7am: check Prototypes/Invite-Flow for changes and re-run /clickable-prototype, rebuilding prototype/index.html and bumping the version stamp.
 
 
 
-PrototypesOpen in Claude
+Prototypes / Invite-FlowOpen in Claude
 
 Scheduled taskActive
 
-Daily prototype rebuild
+Prototype rebuild
 
-Each weekday at 7am, checks the project folder for spec or library changes, re-runs `/design-handoff`, and rebuilds the clickable HTML with a bumped version stamp.
+Each weekday at 7am, checks the project folder for spec or library changes, re-runs `/clickable-prototype`, and rebuilds the clickable HTML with a bumped version stamp.
 
 Every **weekday at 7 am · checks Prototypes/Invite-Flow for changes**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/clickable-prototype)
 
-Your customized `/design-handoff` now carries your component map, your data fixtures, and your wrapper page. Share it so any designer on the team can go from spec to clickable build the same way, and concept testing stops waiting on someone who knows how to wire frames by hand.
+Your `/clickable-prototype` skill now carries your component naming, your data fixtures, and your wrapper page. Share it so any designer on the team can go from spec to clickable build the same way, and concept testing stops waiting on someone who knows how to wire frames by hand.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/design-handoff`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your library and conventions baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/clickable-prototype`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your library and conventions baked in, so they don't have to build it again.
 
 ## What changes for early concept testing[](https://academy.claude.com/use-cases/clickable-prototype)
 
@@ -622,7 +596,7 @@ You did this for one flow. The same approach covers onboarding, checkout, and si
 
 Claude Design
 
-Bring the prototype into Figma as on-brand frames
+Refine the screens with your design system
 
 Open](https://claude.ai/design)
 

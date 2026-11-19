@@ -6,7 +6,7 @@ Set up and use the ChEMBL integration with Claude to access bioactive compound d
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-oknl2y2r.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-g9x5xciu.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-lhuanpvf.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ml5qx2u7.png)
 
 The ChEMBL connector gives Claude access to EMBL-EBI's ChEMBL database, a manually curated repository of bioactive molecules with drug-like properties, their biological targets, and quantitative activity measurements. This article explains how to set up and use the ChEMBL integration with Claude to accelerate drug discovery through bioactive compound data.
 
@@ -25,7 +25,7 @@ This connector provides six primary tool calls that access different facets of t
 - **drug\_search** finds approved drugs and clinical candidates by therapeutic indication using MeSH disease terminology, returning drugs with their development phase, approval dates, and safety warnings.
 - **get\_admet** provides calculated molecular properties critical for drug-likeness assessment, including lipophilicity (ALogP), polar surface area, hydrogen bond donors/acceptors, Rule of Five violations, and QED drug-likeness scores.
 
-On the provider side, the connector queries ChEMBL's RESTful API and SQL database containing standardized, manually curated data extracted from medicinal chemistry literature, clinical trials databases, and high-throughput screening campaigns. All bioactivity data includes confidence scores, data validity flags, and full provenance tracing back to original publications.
+On the provider side, the connector queries ChEMBL's RESTful API, which serves standardized, manually curated data extracted from medicinal chemistry literature, clinical trials databases, and high-throughput screening campaigns. All bioactivity data includes confidence scores, data validity flags, and full provenance tracing back to original publications.
 
 ## **Who should use the ChEMBL integration**[](https://academy.claude.com/tutorials/using-the-chembl-connector-in-claude)
 
@@ -40,16 +40,13 @@ On the provider side, the connector queries ChEMBL's RESTful API and SQL databas
 
 **For Organization Owners (Team and Enterprise)**
 
-1. Navigate to Admin settings > Connectors
-2. Click "Browse connectors"
-3. Click “**ChEMBL**”
-4. Click “Add to your team”
+1. Navigate to [Organization settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors)
+2. Use the Add button to browse all available connectors, then find **ChEMBL** and add it for your team
 
 **For Individual Claude Users**
 
-1. Navigate to Settings > Connectors
-2. Find “**ChEMBL**”
-3. Click “Connect”
+1. Open [ChEMBL in the connectors directory(opens in new tab)](https://claude.ai/directory/chembl)
+2. Connect it to Claude
 
 Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory) in Claude.
 

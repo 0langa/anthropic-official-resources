@@ -4,7 +4,7 @@ Quiz 1 of 1 · AI Fluency for nonprofitsCourse Quiz
 
 Quiz8 min
 
-You've reached the final quiz for AI Fluency for nonprofits. Its 10 questions revisit the 4D Framework and its loops, how the course applies them to research, writing, and data analysis, and its guidance on privacy, sensitive data, and keeping a human in the loop. A score of 80% or higher passes. Once you pass, select **Create your completion badge** to add it to your account, where you can view it and share a verifiable link.
+You've reached the final quiz for AI Fluency for nonprofits. Its 10 questions revisit the 4D Framework and its loops, how the course applies them to research, writing, and data analysis, and its guidance on privacy, sensitive data, and keeping a human in the loop. A score of 80% or higher passes. Once you pass, your completion badge is added to your account, where you can view it and share a verifiable link.
 
 ## Sign in to take the quiz
 

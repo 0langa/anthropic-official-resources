@@ -54,7 +54,7 @@ GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearc
 
 ### Create on-brand content
 
-·Marketing·10 min](https://academy.claude.com/use-cases/on-brand-content)[![](https://academy.claude.com/assets/v1/thumbnail.light-d27lxpfj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ia2n89lp.png)
+·Marketing·10 min](https://academy.claude.com/use-cases/on-brand-content)[![](https://academy.claude.com/assets/v1/thumbnail.light-mj684wnl.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nqxicxm9.png)
 
 ### Forecast & scenario modeling
 
@@ -247,7 +247,7 @@ GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearc
 
 ### Find the cloud cost anomaly
 
-·Engineering·10 min](https://academy.claude.com/use-cases/cloud-cost-anomalies)[![](https://academy.claude.com/assets/v1/thumbnail.light-ggtsvh5v.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ckm3olk1.png)
+·Engineering·10 min](https://academy.claude.com/use-cases/cloud-cost-anomalies)[![](https://academy.claude.com/assets/v1/thumbnail.light-nv6geado.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-np92wlvz.png)
 
 ### On-call handoff brief
 
@@ -357,7 +357,7 @@ GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearc
 
 [View all](https://academy.claude.com/all)
 
-[![](https://academy.claude.com/assets/v1/thumbnail.light-d27lxpfj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ia2n89lp.png)
+[![](https://academy.claude.com/assets/v1/thumbnail.light-mj684wnl.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nqxicxm9.png)
 
 ### Forecast & scenario modeling
 
@@ -414,9 +414,9 @@ GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearc
 
 ### Prep the vendor negotiation
 
-·Operations·10 min](https://academy.claude.com/use-cases/vendor-negotiation)[![](https://academy.claude.com/assets/v1/thumbnail.light-f5rr63un.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nmenq2sv.png)
+·Operations·10 min](https://academy.claude.com/use-cases/vendor-negotiation)[![](https://academy.claude.com/assets/v1/thumbnail.light-fs8n0rwn.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dddrlr2v.png)
 
-### Process batches of vendors with Cowork
+### Process batches of vendors with Claude
 
 ·Operations·10 min](https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-ekdkz1b1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dwsje4gy.png)
 
@@ -561,11 +561,11 @@ GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearc
 
 [View all](https://academy.claude.com/all)
 
-[![](https://academy.claude.com/assets/v1/thumbnail.light-hd3p5r1z.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ci2tqnmp.png)
+[![](https://academy.claude.com/assets/v1/thumbnail.light-hpdtjwiq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-fglkyo8r.png)
 
 ### Contract redlining
 
-·Legal·15 min](https://academy.claude.com/use-cases/contract-playbook-review)[![](https://academy.claude.com/assets/v1/thumbnail.light-finygjm8.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gwhtyq3v.png)
+·Legal·15 min](https://academy.claude.com/use-cases/contract-playbook-review)[![](https://academy.claude.com/assets/v1/thumbnail.light-h962yh4e.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ceibqtjj.png)
 
 ### Legal research
 
@@ -630,7 +630,7 @@ GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearc
 
 ### Call prep
 
-·Sales·10 min](https://academy.claude.com/use-cases/call-prep-sheet)[![](https://academy.claude.com/assets/v1/thumbnail.light-jwybpfo3.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gah6gl3f.png)
+·Sales·10 min](https://academy.claude.com/use-cases/call-prep-sheet)[![](https://academy.claude.com/assets/v1/thumbnail.light-iw0g900y.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gybtmif4.png)
 
 ### Pipeline reviews
 

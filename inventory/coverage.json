@@ -1,34 +1,34 @@
 {
   "actionable_missing_pages": 1,
   "actionable_population_complete": false,
-  "archived_pages": 5712,
+  "archived_pages": 5717,
   "by_host": {
     "academy.claude.com": {
       "archived_pages": 891,
       "discovered_pages": 896
     },
     "claude.com": {
-      "archived_pages": 870,
-      "discovered_pages": 879
+      "archived_pages": 871,
+      "discovered_pages": 880
     },
     "code.claude.com": {
       "archived_pages": 256,
       "discovered_pages": 258
     },
     "platform.claude.com": {
-      "archived_pages": 2239,
-      "discovered_pages": 2269
+      "archived_pages": 2240,
+      "discovered_pages": 2270
     },
     "support.claude.com": {
-      "archived_pages": 798,
+      "archived_pages": 799,
       "discovered_pages": 833
     },
     "www.anthropic.com": {
-      "archived_pages": 658,
-      "discovered_pages": 670
+      "archived_pages": 660,
+      "discovered_pages": 673
     }
   },
-  "discovered_pages": 5805,
+  "discovered_pages": 5810,
   "exact_website_replica": false,
   "limitations": [
     "Discovery is the union of public indexes and hyperlinks, not proof that unlinked pages do not exist.",
@@ -37,7 +37,6 @@
     "A multi-request snapshot is not an atomic point-in-time copy."
   ],
   "live_errors": {
-    "https://academy.claude.com/collections/claude-for-work": "Network did not become idle within 8 seconds; content may still be loading.",
     "https://academy.claude.com/courses/ai-capabilities-and-limitations/course-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "https://academy.claude.com/courses/ai-fluency-for-builders/course-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
     "https://academy.claude.com/courses/ai-fluency-for-creative-work/course-quiz": "Quiz UI text retained; hidden questions/feedback and learner state are not certified complete.",
@@ -522,6 +521,7 @@
     "https://www.anthropic.com/research/building-strong-safety-evaluations": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/claude-3-5-sonnet": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/claude-3-7-sonnet": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/research/claude-black-hole-physics": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/claude-character": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/claude-code-auto-mode": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/claude-code-best-practices": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
@@ -672,7 +672,7 @@
   },
   "missing_pages": 93,
   "page_inventory_complete": false,
-  "pages_with_content_notes": 3851,
+  "pages_with_content_notes": 3854,
   "retained_partial_pages": 511,
   "terminal_pages": 92,
   "terminal_statuses": {

@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-njjghfnk.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-422m6clz.png)
 
-Film: a self-playing walkthrough of Claude reviewing a connected data room for M&A diligence, categorizing documents, flagging material issues, and drafting a cited summary. It shows Claude pausing to check a judgment call with the user and scheduling the review to re-run automatically.
+Film: the user asks Claude to review a connected data room, categorize every document, flag material issues in the contracts, and draft a cited diligence summary. Claude checks in on one judgment call before delivering the index and summary, showing how diligence review can be delegated with sourced citations.
 
 **Project Silvern — Data Room · Data room**×
 
@@ -202,7 +202,7 @@ Readdiligence-request-list.docx, 11 categories
 
 Readdiligence-summary-template.docx
 
-Listed614 documents into 11 categories, 1 empty
+Sorted614 documents into 11 categories, 1 empty
 
 ![](data:image/svg+xml,%3csvg%20width='24'%20height='25'%20viewBox='0%200%2024%2025'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_181_11527)'%3e%3cmask%20id='mask0_181_11527'%20style='mask-type:luminance'%20maskUnits='userSpaceOnUse'%20x='0'%20y='0'%20width='24'%20height='25'%3e%3cpath%20d='M19.2%200.855469H4.8C2.14903%200.855469%200%203.0045%200%205.65547V20.0555C0%2022.7064%202.14903%2024.8555%204.8%2024.8555H19.2C21.851%2024.8555%2024%2022.7064%2024%2020.0555V5.65547C24%203.0045%2021.851%200.855469%2019.2%200.855469Z'%20fill='white'/%3e%3c/mask%3e%3cg%20mask='url(%23mask0_181_11527)'%3e%3cpath%20d='M24%200.855469H0V24.8555H24V0.855469Z'%20fill='url(%23paint0_linear_181_11527)'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M12.1582%2014.6759C11.2427%2014.6759%2010.458%2013.8913%2010.458%2012.9322C10.458%2011.9732%2011.1991%2011.1885%2012.1582%2011.1885C13.0735%2011.1885%2013.8582%2011.9732%2013.8582%2012.9322C13.8582%2013.8913%2013.1172%2014.6759%2012.1582%2014.6759ZM7.1886%2014.6759C6.27316%2014.6759%205.48849%2013.8913%205.48849%2012.9322C5.48849%2011.9732%206.22956%2011.1885%207.1886%2011.1885C8.10405%2011.1885%208.8887%2011.9732%208.8887%2012.9322C8.8887%2013.8913%208.14763%2014.6759%207.1886%2014.6759ZM18.5226%2010.3602C18.7407%2010.0987%2019.1329%2010.0551%2019.3945%2010.273C19.656%2010.4474%2019.7433%2010.8397%2019.5253%2011.1013L17.956%2013.063L19.5253%2015.0247C19.7433%2015.2861%2019.656%2015.635%2019.3945%2015.8529C19.1329%2016.0273%2018.7407%2015.9837%2018.5226%2015.7657L17.1713%2014.1092L15.82%2015.7657C15.6019%2016.0273%2015.2097%2016.0708%2014.9481%2015.8529C14.6865%2015.6785%2014.5993%2015.2861%2014.8173%2015.0247L16.3866%2013.063L14.8609%2011.0577C14.6429%2010.7962%2014.7301%2010.4474%2014.9916%2010.2295C15.2532%2010.0551%2015.6455%2010.0987%2015.8635%2010.3166L17.2149%2012.0168L18.5226%2010.3602ZM4.96538%207.57031C5.27052%207.57031%205.53209%207.83186%205.53209%208.13701V10.6218C6.0116%2010.273%206.57831%2010.0551%207.23219%2010.0551C8.322%2010.0551%209.23745%2010.6654%209.71697%2011.6244C10.1965%2010.709%2011.1119%2010.0551%2012.2017%2010.0551C13.7711%2010.0551%2014.9916%2011.3629%2014.9916%2012.9758C14.9916%2014.5887%2013.7274%2015.8965%2012.2017%2015.8965C11.1119%2015.8965%2010.1965%2015.2861%209.71697%2014.3271C9.23745%2015.2426%208.322%2015.8965%207.23219%2015.8965C5.70645%2015.8965%204.44227%2014.6323%204.44227%2013.0193V8.13701C4.39868%207.83186%204.66023%207.57031%204.96538%207.57031Z'%20fill='white'/%3e%3c/g%3e%3c/g%3e%3cdefs%3e%3clinearGradient%20id='paint0_linear_181_11527'%20x1='12'%20y1='0.855469'%20x2='12'%20y2='24.8555'%20gradientUnits='userSpaceOnUse'%3e%3cstop%20stop-color='%232486FC'/%3e%3cstop%20offset='1'%20stop-color='%230061D5'/%3e%3c/linearGradient%3e%3cclipPath%20id='clip0_181_11527'%3e%3crect%20width='24'%20height='24'%20fill='white'%20transform='translate(0%200.855469)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e)Read02 Material Contracts, 63 above threshold
 
@@ -292,7 +292,7 @@ Re-reads the connected data room
 
 Updates the index and flags new documents
 
-Adds new issues to the summary*for the deal team to review*
+Adds new issues to the issues list*for the deal team to review*
 
 Claude Academy
 
@@ -412,11 +412,11 @@ The document index lands as Excel and the diligence summary as Word, ready for t
 
 ### Set the working folder[](https://academy.claude.com/use-cases/data-room-diligence)
 
-Put the diligence request list and your summary template in one folder on your machine, then in the Claude desktop app click **+ Add folder** and select it. [Save it as a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your request list, instructions, and memory stay attached as new documents land in the data room — Claude reads from the connected room and writes the index and summary back to the folder.
+Put the diligence request list and your summary template in one folder on your machine, then in the Claude desktop app choose [**Add folder**(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) and select it. [Save it as a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your request list, instructions, and memory stay attached as new documents land in the data room — Claude reads from the connected room and writes the index and summary back to the folder.
 
 
 
-**Just want to try it once first?** Skip the project — click **+ Add folder** on a one-off folder and jump to the prompt below.
+**Just want to try it once first?** Skip the project — choose **Add folder** for a one-off folder and jump to the prompt below.
 
 Deals / Project-Silvern
 
@@ -466,13 +466,15 @@ Read every document in the connected data room. Categorize each by type, then fo
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/data-room-diligence)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your summary format and the provisions you flag on every deal, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /diligence-issue-extraction skill with my feedback.
+Make what we've done in this task so far into a skill called /data-room-review.
 
 
 
-DealsOpen in Claude
+Deals / Project-SilvernOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -492,9 +494,9 @@ Publish the document index and material-issues list as an artifact for the deal 
 
 ### Re-run it as the room fills[](https://academy.claude.com/use-cases/data-room-diligence)
 
-New documents land in the data room every day during diligence. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill re-runs each morning so the index and issues list stay current. To read a folder on your computer during a scheduled task, make sure the Claude desktop app is open so Claude can access it.
+New documents land in the data room every day during diligence. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/data-room-review` re-runs each morning so the index and issues list stay current.
 
-Set up a scheduled task that runs daily at 7am during the diligence window: re-run /diligence-issue-extraction against the connected data room, update the document index and issues list, and note what's new since yesterday at the top.
+Set up a scheduled task that runs daily at 7am during the diligence window: re-run /data-room-review against the connected data room, update the document index and issues list, and note what's new since yesterday at the top.
 
 
 
@@ -504,19 +506,21 @@ Set up a scheduled task that runs daily at 7am during the diligence window: re-r
 
 Data-room diligence refresh
 
-Runs `/diligence-issue-extraction` against the connected data room, updates the document index and issues list, and notes what's new since the last run.
+Runs `/data-room-review` against the connected data room, updates the document index and issues list, and notes what's new since the last run.
 
 Every **day at 7am during the diligence window**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/data-room-diligence)
 
-Your customized `/diligence-issue-extraction` now carries your request list, your summary format, and the provisions you flag on every deal. Share it so the corporate team and outside counsel run the room the same way, and the issues list reads consistently no matter who picks up a folder.
+Your `/data-room-review` skill now carries your request list, your summary format, and the provisions you flag on every deal. Share it so the corporate team runs the room the same way, and the issues list reads consistently no matter who picks up a folder.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/diligence-issue-extraction`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your request list and summary format baked in, so they don't repeat Steps 1-3; each teammate still runs `/cold-start-interview` the first time, pointed at the same request list and thresholds, because the plugin keeps its setup per person.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/data-room-review`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your request list and summary format baked in, so they don't have to build it again; each teammate who uses the plugin still runs `/cold-start-interview` the first time, pointed at the same request list and thresholds, because the plugin keeps its setup per person.
 
 ## Going forward[](https://academy.claude.com/use-cases/data-room-diligence)
 
@@ -532,7 +536,7 @@ Your tools
 
 Your folder
 
-Deals
+Deals / Project-Silvern
 
 The whole data room is read, categorized, and summarized with a citation on every line. Associate hours go to judgment on the material issues instead of page-turning, and the deal team works from one index they can refresh as the room fills.
 

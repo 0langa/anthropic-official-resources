@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-ffjdr70o.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bm06b1oh.png)
 
-Film: the user asks Claude to turn brand guidelines, a voice doc, and design tokens into a shared skill. Claude reads the sources, checks which should win when they conflict, then writes and runs the skill, correcting an off-brand request with the rule named.
+Film: the user asks Claude to turn brand guidelines, a voice doc, and design tokens into a shared skill that enforces brand rules and refuses off-brand requests with a cited reason, then shares it workspace-wide.
 
 Turn brand guidelines into a skill
 
@@ -40,17 +40,9 @@ tokens.json
 
 JSON
 
-Design
-
-/accessibility-review
-
-/design-system
-
-/ux-copy
-
 How can I help you today?
 
-**/**design-system Turn the brand docs in this folder into a shared skill called /on-brand. The skill should enforce our color tokens, typography, spacing, and voice rules on any content or UI it generates, and refuse off-brand patterns with a short reason.
+Turn the brand docs in this folder into a shared skill called /on-brand. The skill should enforce our color tokens, typography, spacing, and voice rules on any content or UI it generates, and refuse off-brand patterns with a short reason.
 
 Reading brand-guidelines-2026.pdf0s
 
@@ -84,7 +76,7 @@ I turned the 82-page guidelines, the voice doc, the 24 tokens in tokens.json and
 
 Request: “Homepage banner, bright green button so it pops, add urgency — Don’t miss out!!”
 
-**Headline** — The spring bedding edit, 20% off until Sunday  
+**Headline** — The spring bedding edit, 20% off until Sunday 3 May  
 **Line** — Percale, linen and washed cotton in five new colors.  
 **Button** — Shop the edit (`ember-600` on `linen-50`)
 
@@ -108,7 +100,7 @@ Apply Marlow Home brand rules (color tokens, type, spacing, voice) to any copy o
 
 ## Sources of truth, in order
 
-tokens.json v3.2 (20 Apr 2026) → Figma “Marlow / Brand 2026” variables → brand-guidelines-2026.pdf → voice-and-tone.docx. Where the PDF and the tokens disagree, the tokens win (confirmed by Brand design, 28 Aug 2026).
+tokens.json v3.2 (20 Apr 2026) → Figma “Marlow / Brand 2026” variables → brand-guidelines-2026.pdf → voice-and-tone.docx. Where the PDF and the tokens disagree, the tokens win (confirmed by Brand design, 28 Apr 2026).
 
 ## Color — 11 tokens, nothing else
 
@@ -134,7 +126,7 @@ If a request breaks a rule above, do not produce that part. Say which rule and w
 
 Marlow Trade (B2B) uses `slate-700` for primary actions; all else applies. Seasonal palettes need a token added to tokens.json first — flag it, do not improvise one.
 
-Save /on-brand and share it with everyone at Marlow Home, view only; Brand design keeps edit rights.
+Save /on-brand so I can share it with everyone at Marlow Home.
 
 **/on-brand**Applies Marlow Home color tokens, type, spacing and voice to anything Claude writes or lays out, and refuses off-brand requests with the rule.
 
@@ -154,7 +146,7 @@ Turn brand guidelines into a skill
 
 You want every team’s drafts to follow the brand without your review.
 
-Point the Design plugin’s design system skill at your brand folder and ask for a skill.
+Point Claude at your brand folder and ask for a skill.
 
 Claude reads the guidelines, the tokens file and the library before it writes a rule.
 
@@ -174,35 +166,13 @@ Turn the brand docs in this folder into a shared skill called /on-brand. The ski
 
 Which Ember color is right: tokens.json or the PDF? tokens.json and Figma, what ships / The value in the PDF
 
-I turned the 82-page guidelines, the voice doc, the 24 tokens in tokens.json and the Figma library into /on-brand, with tokens.json and Figma winning where the PDF is older, as you chose. Here it is run once on the spring-sale banner request:Request: “Homepage banner, bright green button so it pops, add urgency — Don’t miss out!!”Headline — The spring bedding edit, 20% off until SundayLine — Percale, linen and washed cotton in five new colors.Button — Shop the edit (ember-600 on linen-50)The button stays ember-600: green is not in the palette, and moss-500 is for success states (brand-guidelines-2026.pdf p. 16). No exclamation marks or “don’t miss out” (voice-and-tone.docx §3); the real date carries the urgency.
+I turned the 82-page guidelines, the voice doc, the 24 tokens in tokens.json and the Figma library into /on-brand, with tokens.json and Figma winning where the PDF is older, as you chose. Here it is run once on the spring-sale banner request:Request: “Homepage banner, bright green button so it pops, add urgency — Don’t miss out!!”Headline — The spring bedding edit, 20% off until Sunday 3 MayLine — Percale, linen and washed cotton in five new colors.Button — Shop the edit (ember-600 on linen-50)The button stays ember-600: green is not in the palette, and moss-500 is for success states (brand-guidelines-2026.pdf p. 16). No exclamation marks or “don’t miss out” (voice-and-tone.docx §3); the real date carries the urgency.
 
 on-brand
-
-Skill: /design-system (Design)
 
 Connectors: Figma, Notion
 
 ## Set up[](https://academy.claude.com/use-cases/brand-guidelines-skill)
-
-### Try a plugin[](https://academy.claude.com/use-cases/brand-guidelines-skill)
-
-The Design plugin ships with `/ux-copy` and `/design-system` as starting points for brand-aware output; you'll build your own `/on-brand` on top. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
-
-
-
-DesignAccelerate design workflows — critique, design system management, UX writing, accessibility audits, research synthesis, and dev handoff. From exploration to pixel-perfect specs.
-
-[Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=design)
-
-`/ux-copy`Write or review UX copy — microcopy, error messages, empty states, CTAs.
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fux-copy)
-
-`/design-system`Audit, document, or extend your design system.
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdesign-system)
-
-Show all 7 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/brand-guidelines-skill)
 
@@ -242,7 +212,7 @@ Read the design-tokens package so the skill stays in sync with what ships.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/brand-guidelines-skill)
 
-Drag the files you'll use (the brand guidelines PDF, the voice and tone doc, the exported component docs, the tokens JSON) into one folder on your machine, then point Claude at it. Claude reads from it and writes the skill definition back to it. If you maintain the brand system, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so updates to the guidelines flow through.
+Drag the files you'll use (the brand guidelines PDF, the voice and tone doc, the tokens JSON) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from it and writes the skill definition back to it. If you maintain the brand system, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so updates to the guidelines flow through.
 
 Brand / System-Source
 
@@ -294,13 +264,13 @@ Turn the brand docs in this folder into a shared skill called /on-brand. The ski
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/brand-guidelines-skill)
 
-Your first `/on-brand` is a starting draft. Once Step 2 produces output that passes your own brand review, tell Claude to harden it. Layer in your exception list, your sub-brand variations, your accessibility minimums, and the phrasing you never want to see. A few minutes of conversation and the skill enforces your system from then on.
+Your first `/on-brand` is a starting draft. Once Claude gives you a skill that passes your own brand review, tell Claude to harden it. Layer in your exception list, your sub-brand variations, your accessibility minimums, and the phrasing you never want to see. A few minutes of conversation and the skill enforces your system from then on.
 
-Make what we've done in this task so far into a skill, or edit the /on-brand skill with my feedback.
+Edit the /on-brand skill with my feedback.
 
 
 
-BrandOpen in Claude
+Brand / System-SourceOpen in Claude
 
 
 
@@ -310,7 +280,7 @@ Make what we've done in this task so far into a skill, or edit the /on-brand ski
 
 ### Share it as an artifact[](https://academy.claude.com/use-cases/brand-guidelines-skill)
 
-Guidelines change; the skill should too. Ask Claude to publish a brand-compliance summary as an artifact so anyone can see exactly what `/on-brand` enforces today. Re-run the skill (or schedule it) and the page reflects the latest guidelines.
+Guidelines change; the skill should too. Ask Claude to publish a brand-compliance summary as an artifact so anyone can see exactly what `/on-brand` enforces today. Ask again when the skill changes and the summary shows the latest guidelines.
 
 Publish a one-page summary of what /on-brand enforces as an artifact for the whole company.
 
@@ -320,31 +290,33 @@ Publish a one-page summary of what /on-brand enforces as an artifact for the who
 
 ### Re-sync it with every guideline change[](https://academy.claude.com/use-cases/brand-guidelines-skill)
 
-The brand evolves; the skill should follow without a ticket. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and set the customized skill to rebuild itself weekly from the source folder and library.
+The brand evolves; the skill should follow without a ticket. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and Claude drafts an update to `/on-brand` each week from the source folder and library.
 
-Set up a scheduled task for Mondays at 9am: re-read Brand/System-Source and the Figma library and rebuild /on-brand, posting a short changelog of what the skill now enforces differently.
+Set up a scheduled task for Mondays at 9am: re-read Brand / System-Source and the Figma library and rebuild /on-brand, then give me a short changelog of what the skill now enforces differently.
 
 
 
-BrandOpen in Claude
+Brand / System-SourceOpen in Claude
 
 Scheduled taskActive
 
 Brand skill re-sync
 
-Each Monday at 9am, re-reads the guidelines folder and Figma library, rebuilds `/on-brand`, and posts a short changelog of what now enforces differently.
+Each Monday at 9am, re-reads the guidelines folder and Figma library, drafts an update to `/on-brand`, and gives you a short changelog of what the update enforces differently.
 
 Every **Monday at 9:00 AM**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/brand-guidelines-skill)
 
-Your customized `/on-brand` now carries your tokens, your type scale, your voice rules, and your refusal list. Share it workspace-wide so marketing, product, sales, and support all generate from the same system, and the design team stops being the brand police after the fact.
+Your `/on-brand` skill now carries your tokens, your type scale, your voice rules, and your refusal list. Share it workspace-wide so marketing, product, sales, and support all generate from the same system, and the design team stops being the brand police after the fact.
 
 
 
 Share the skill
 
-Open `/on-brand` in your list of skills and select **Publish to org**, if your admin allows it. Every team gets the skill with your guidelines baked in, so they don't repeat Steps 1-3.
+Open `/on-brand` in [your skills(opens in new tab)](https://claude.ai/customize/skills/yours) and select **Publish to org**, if your admin allows it. Every team gets the skill with your guidelines baked in, so they don't have to build it again.
 
 ## What changes for the design system team[](https://academy.claude.com/use-cases/brand-guidelines-skill)
 

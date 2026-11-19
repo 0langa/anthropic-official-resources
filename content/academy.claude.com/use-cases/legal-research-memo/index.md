@@ -6,9 +6,9 @@ A structured memo with citations, not a list of links.
 
 Try in ClaudeCopy prompt
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-finygjm8.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gwhtyq3v.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-h962yh4e.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ceibqtjj.png)
 
-Film: the user asks Claude to research a legal question and draft a cited memo. Claude searches a legal research service, checks with the user on searching the open web, then returns a memo with sourced citations and open issues flagged rather than guessed.
+Film: a self-playing walkthrough of Claude drafting a cited legal research memo, asking the user before guessing, and flagging unsupported points as open issues, then saved as a reusable, shareable skill with the team's format and jurisdictions built in.
 
 Search
 
@@ -130,17 +130,9 @@ House format
 
 DOCX
 
-Litigation Legal
-
-/brief-section-drafter
-
-/chronology
-
-/matter-briefing
-
 How can I help you today?
 
-**/**brief-section-drafter Research this question. Surface case law and regulatory guidance via Thomson Reuters and draft a research memo: question presented, short answer, discussion grouped by authority, and open issues. Cite every proposition to the source you relied on.
+Research this question. Surface the relevant case law and regulatory guidance via Thomson Reuters and draft a research memo: question presented, short answer, the discussion grouped by authority, and a list of open issues. Cite every proposition to the source you relied on.
 
 Reading the matter folder0s
 
@@ -182,7 +174,7 @@ Privileged & Confidential · Attorney Work ProductDraft 1 · not for distributio
 
 Memorandum
 
-<table class="cap"><tbody><tr><td>To</td><td>Maya Lindqvist, VP Operations</td></tr><tr><td>From</td><td>Daniel Okafor, Senior Counsel, Commercial (draft)</td></tr><tr><td>Date</td><td>August 28, 2026</td></tr><tr><td>Re</td><td>Norwell Facilities Services, tender of defense and indemnity in <i>Dorsey v. Ashgrove Medical Devices, Inc.</i>, No. 26-CV-04418 (Colum. Super. Ct.)</td></tr></tbody></table>
+<table class="cap"><tbody><tr><td>To</td><td>Maya Lindqvist, VP Operations</td></tr><tr><td>From</td><td>Daniel Okafor, Senior Counsel, Commercial (draft)</td></tr><tr><td>Date</td><td>August 26, 2026</td></tr><tr><td>Re</td><td>Norwell Facilities Services, tender of defense and indemnity in <i>Dorsey v. Ashgrove Medical Devices, Inc.</i>, No. 26-CV-04418 (Colum. Super. Ct.)</td></tr></tbody></table>
 
 ## *I.*Questions presented
 
@@ -205,7 +197,7 @@ Ashgrove engaged Norwell for floor care at the Brookline distribution center und
 
 ## *V.*Open issues
 
-**1. Anti-indemnity statute.** Fr. Civ. Code § 2790 [CoCounsel] voids provisions in “construction contracts” that indemnify a party against its own active negligence. Whether a recurring facilities-services agreement is a construction contract for this purpose is unsettled: the search returned the statute and one unpublished trial-court order, *Redfern v. Castellan Bldg. Servs.*, No. 22-CV-1187 (Fr. Super. Ct. Mar. 4, 2024) [CoCounsel, unpublished; not citable, Fr. R. Ct. 9.402], and no appellate authority. Per your instruction this point was not supplemented from web or model sources. [CITE NEEDED: resolve before relying on Part II.A; if § 2790 applies, Short Answer 2 stands but the route to it changes.]
+**1. Anti-indemnity statute.** Fr. Civ. Code § 2790 [CoCounsel] voids provisions in “construction contracts” that indemnify a party against its own active negligence. Whether a recurring facilities-services agreement is a construction contract for this purpose is unsettled: the search returned the statute and one unpublished trial-court order, *Redfern v. Castellan Bldg. Servs.*, No. 22-CV-1187 (Fr. Super. Ct. Mar. 4, 2024) [CoCounsel, unpublished; not citable, Fr. R. Ct. 9.402], and no appellate authority. Per your instruction this point was not supplemented from web or model sources. [CITE NEEDED: resolve before relying on Part IV.B; if § 2790 applies, Short Answer 2 stands but the route to it changes.]
 
 **2. Active or passive.** Turns on who owned signage under SOW Ex. B, which is not in the folder [VERIFY: SOW allocates signage to Vendor].
 
@@ -221,7 +213,7 @@ Every claim is cited to where Claude found it.
 
 What Claude could not support is listed as open, not guessed.
 
-Make what we’ve done in this task into a skill called /research-memo, with my house format, citation style and jurisdictions built in.
+Make what we’ve done in this task so far into a skill called /research-memo, with my house format, citation style and jurisdictions built in.
 
 **/research-memo**Drafts a cited research memo in the house format from a request in the folder, and lists unsupported points as open issues.
 
@@ -241,7 +233,7 @@ Write a legal research memo
 
 A colleague has emailed you a legal question and needs a cited memo.
 
-Name the research service and memo sections for the drafting skill, with every proposition cited.
+Name the research service and memo sections, with every proposition cited.
 
 Claude reads the request and your prior memos, then searches the research service for authority.
 
@@ -257,7 +249,7 @@ Save the run as a skill with your format and jurisdictions, then share it with t
 
 Your colleague gets a cited memo, after you have checked each source.
 
-Research this question. Surface case law and regulatory guidance via Thomson Reuters and draft a research memo: question presented, short answer, discussion grouped by authority, and open issues. Cite every proposition to the source you relied on.
+Research this question. Surface the relevant case law and regulatory guidance via Thomson Reuters and draft a research memo: question presented, short answer, the discussion grouped by authority, and a list of open issues. Cite every proposition to the source you relied on.
 
 Search the web where your research service has nothing? No, list it as open / Yes, and tag it to verify
 
@@ -265,13 +257,11 @@ I searched CoCounsel and two prior memos in iManage and drafted the memo in your
 
 Research memo - Norwell indemnity tender.docx
 
-Skill: /brief-section-drafter (Litigation Legal)
-
 ## Set up[](https://academy.claude.com/use-cases/legal-research-memo)
 
 ### Try a plugin[](https://academy.claude.com/use-cases/legal-research-memo)
 
-The Litigation Legal plugin is the starting point: its drafting skills, like `/brief-section-drafter`, tag every citation with the research source it came from and flag anything drawn from model knowledge alone as `[verify]`, so you know what to confirm before anyone relies on the memo. Later on this page you'll save the way you run this memo as your own `/research-memo` skill. It's one of twelve practice-area plugins for legal teams. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Litigation Legal plugin adds skills for the litigation work around a research memo. For example, `/brief-section-drafter` drafts a brief section in house style and flags every place a fact or cite needs verification, so you know what to confirm before anyone relies on the draft. Later on this page you'll save the way you run this memo as your own `/research-memo` skill. If your admin manages plugins and Litigation Legal isn't available yet, skip this step. The prompt below works without it.
 
 
 
@@ -333,19 +323,19 @@ Pull prior memos on the same question from the matter workspace so the answer bu
 
 ### Set the working folder[](https://academy.claude.com/use-cases/legal-research-memo)
 
-Put the research request, the relevant facts, and a prior memo in your house format in one folder on your machine, then in the Claude desktop app click **+ Add folder** and select it. [Save it as a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your memo format, instructions, and memory stay attached for the next question — Claude reads from the folder and writes the memo back to it.
+Put the research request, the relevant facts, and a prior memo in your house format in one folder on your machine, then in the Claude desktop app choose [**Add folder**(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) and select it. [Save it as a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so your memo format, instructions, and memory stay attached for the next question — Claude reads from the folder and writes the memo back to it.
 
 
 
-**Just want to try it once first?** Skip the project — click **+ Add folder** on a one-off folder and jump to the prompt below.
+**Just want to try it once first?** Skip the project — choose **Add folder** for a one-off folder and jump to the prompt below.
 
-Research / Acme-Indemnification-Q
+Research / Norwell-Indemnity-Tender
 
-research-request-and-facts.docxMay 12, 202624 KB
+research-request-and-facts.docxAug 24, 202624 KB
 
 memo-template-house-format.docxJan 8, 202638 KB
 
-In Cowork’s chat bar:Research / Acme-Indemnification-Q
+In Cowork’s chat bar:Research / Norwell-Indemnity-Tender
 
 ## The prompt[](https://academy.claude.com/use-cases/legal-research-memo)
 
@@ -355,7 +345,7 @@ Research this question. Surface the relevant case law and regulatory guidance vi
 
 
 
-Research / Acme-Indemnification-QOpen in Claude
+Research / Norwell-Indemnity-TenderOpen in Claude
 
 ### Why this works[](https://academy.claude.com/use-cases/legal-research-memo)
 
@@ -387,13 +377,15 @@ Research this question. Surface the relevant case law and regulatory guidance vi
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/legal-research-memo)
 
-The plugin is a starting point — save the way you just ran this memo as a skill of your own, with your practices and expertise built in. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for research memos, such as your citation style and your jurisdictions, then save the way you just ran this memo as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
 Make what we've done in this task so far into a skill called /research-memo, with my house format, citation style, and jurisdictions built in.
 
 
 
-ResearchOpen in Claude
+Research / Norwell-Indemnity-TenderOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -403,7 +395,7 @@ Make what we've done in this task so far into a skill called /research-memo, wit
 
 ### Run it on every new question[](https://academy.claude.com/use-cases/legal-research-memo)
 
-A research request lands in the intake folder, the cited first draft should already be writing. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs whenever a new request is added.
+Add your main Research folder the way you added the working folder, and put each new request in an Intake subfolder. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/research-memo` runs each weekday morning on any new request.
 
 Set up a scheduled task for weekdays at 9am: check Research/Intake for new requests and run /research-memo on each one, saving the memo to a subfolder named for the question.
 
@@ -419,6 +411,8 @@ Runs `/research-memo` on every new request in Research/Intake and saves the cite
 
 Every **weekday at 9am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/legal-research-memo)
 
 Your `/research-memo` skill now carries your house format, your citation style, and your jurisdictions. Share it so every memo the team produces reads the same way, and the requester gets a consistent first draft no matter who picks it up.
@@ -427,7 +421,7 @@ Your `/research-memo` skill now carries your house format, your citation style, 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/research-memo`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your house format and citation style baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/research-memo`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your house format and citation style baked in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/legal-research-memo)
 

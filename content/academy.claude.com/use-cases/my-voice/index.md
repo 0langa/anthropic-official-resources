@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-jpnl9xn4.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cdz8tber.png)
 
-Film: the user asks Claude to read their sent emails and Slack messages and describe their tone, and Claude reports back writing habits with cited examples, flagging uncertainty, then saves a corrected profile as a reusable skill for future drafts.
+Film: the user asks Claude to read their sent mail and messages and describe their tone, then Claude profiles how they write and the user saves it as a reusable skill for future drafts.
 
 Write in my voice
 
@@ -156,7 +156,7 @@ I read 412 sent emails and 1,847 Slack messages and compared how you open, close
 
 Each habit comes with lines you actually sent, so you can check.
 
-Two fixes: I do say “team” with clients, just not internally, and don’t copy the “Thanks!” habit into drafts. Then save this as a skill called my-voice and use it for anything you draft for me.
+Two fixes: I do say “team” with clients, just not internally, and don’t copy the “Thanks!” habit into drafts. Then save this as a skill called /my-voice and use it for anything you draft for me.
 
 **/my-voice**Drafts mail and messages the way you write them: the ask first, short sentences, “Folks” internally, signed — S. Your two rules are on top.
 
@@ -186,7 +186,7 @@ Each habit comes with lines you actually sent, so you can check.
 
 What Claude is unsure about is said, not guessed.
 
-Correct what it got wrong, then save it as a skill every draft uses.
+Correct what it got wrong, then save it as a skill for your drafts.
 
 Drafts Claude writes for you sound like you from the first line.
 
@@ -197,26 +197,6 @@ I read 412 sent emails and 1,847 Slack messages and compared how you open, close
 Connectors: Gmail, Slack
 
 ## Set up[](https://academy.claude.com/use-cases/my-voice)
-
-### Try a plugin[](https://academy.claude.com/use-cases/my-voice)
-
-The Productivity plugin ships with `/memory-management` so Claude can save what it learns about how you work; you'll build your own `/my-voice` on top. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
-
-
-
-ProductivityManage tasks, plan your day, and build up memory of important context about your work. Syncs with your calendar, email, and chat to keep everything organized and on track.
-
-[Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=productivity)
-
-`/memory-management`Two-tier memory system that makes Claude a true workplace collaborator.
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fmemory-management)
-
-`/update`Sync tasks and refresh memory from your current activity.
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fupdate)
-
-Show all 4 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/my-voice)
 
@@ -262,11 +242,9 @@ Google DriveOptional
 
 ### Set your working folder[](https://academy.claude.com/use-cases/my-voice)
 
-This one runs almost entirely through connectors, so the working folder is optional. If you'd rather not connect mail, export a folder of writing samples (sent emails, docs you're proud of) and point Claude at that instead. Either way, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) so the voice profile and your later corrections stay attached.
+This one runs almost entirely through connectors, so the working folder is optional. If you'd rather not connect mail, export a folder of writing samples (sent emails, docs you wrote) and [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app instead.
 
 Personal / Writing-Samples
-
-my-voice-profile.mdApr 26, 20264 KB
 
 all-hands-update-feb.docxFeb 12, 202622 KB
 
@@ -304,13 +282,23 @@ Read my sent messages and tell me about my tone and writing style.
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/my-voice)
 
-The first profile is a snapshot; your voice keeps moving. Every time you edit a draft Claude wrote and think "I wouldn't say it like that," feed the correction back. Tell Claude to add the rule to `/my-voice`, or just say "remember that" in the moment and Claude writes it into the skill's memory. Over a few weeks the profile tightens until the drafts barely need editing.
+Tell Claude what the profile got wrong, then save it as a skill of your own.
+
+Make what we've done in this task so far into a skill called /my-voice.
+
+
+
+Personal / Writing-SamplesOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
+
+The first profile is a snapshot; your voice keeps moving. Every time you edit a draft Claude wrote and think "I wouldn't say it like that," feed the correction back. Tell Claude to add the rule to `/my-voice`. Over a few weeks the profile tightens until the drafts barely need editing.
 
 Update **/my-voice** with what I just changed in that draft: I never open with "Hope you're well," I use "folks" not "team," I lead with the ask before the context, and I sign off with just my first initial on internal mail. Save those as rules in the skill and add this edited draft to the examples so future drafts match it.
 
 
 
-PersonalOpen in Claude
+Personal / Writing-SamplesOpen in Claude
 
 
 
@@ -320,39 +308,35 @@ Update **/my-voice** with what I just changed in that draft: I never open with "
 
 ### Refresh the profile monthly[](https://academy.claude.com/use-cases/my-voice)
 
-Your writing shifts as your role does. Ask Claude to schedule the refresh, or open **Scheduled** in the sidebar, and Claude re-reads the last 90 days each month and merges what's new into the skill without losing the rules you've added by hand.
+Your writing shifts as your role does. Ask Claude to schedule the refresh, or open **Scheduled** in the sidebar. Each month, Claude re-reads the last 90 days and drafts an update to `/my-voice` with what's new, without losing the rules you've added by hand.
 
-Set up a scheduled task for every Sunday at 6pm: re-read my sent mail and Slack from the last 90 days, update the /my-voice profile with anything new, and keep every rule I've added manually intact.
+Set up a scheduled task for the 1st of every month at 6pm: re-read my sent mail and Slack from the last 90 days, update the /my-voice profile with anything new, and keep every rule I've added manually intact.
 
 
 
-PersonalOpen in Claude
+Personal / Writing-SamplesOpen in Claude
 
 Scheduled taskActive
 
 Refresh /my-voice
 
-Re-reads the last 90 days of sent mail and Slack and merges anything new into `/my-voice`, preserving your hand-added rules.
+Re-reads the last 90 days of sent mail and Slack and drafts an update to `/my-voice` with anything new, preserving your hand-added rules.
 
-Every **Sunday at 6:00pm**[Open in Claude](https://claude.ai/desktop/scheduled-task)
+Every **1st of the month at 6:00pm**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/my-voice)
 
-`/my-voice` is personal by design, but the pattern is worth spreading. Share the base skill (without your profile) so teammates can build their own in one prompt, or share your version with an EA or comms partner who drafts on your behalf.
+`/my-voice` is personal by design, but the pattern is worth spreading. Teammates can build their own the same way, or you can share your version with an EA or comms partner who drafts on your behalf.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/my-voice`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill scaffold so they can build their own profile without repeating Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/my-voice`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get everything saved in the skill, including your profile and examples.
 
 ## Going forward[](https://academy.claude.com/use-cases/my-voice)
 
 ### Now set up in Claude
-
-Your plugins
-
-Personal plugin
 
 Your tools
 
@@ -362,7 +346,7 @@ Your folder
 
 Writing-Samples
 
-Every draft Claude writes for you now loads `/my-voice` first, so it matches how you actually write — you spend your review on the content, not on making it sound like you.
+When you ask for a draft, Claude can load `/my-voice`, or you can ask for it by name, so the draft matches how you actually write. You spend your review on the content, not on making it sound like you.
 
 [Next: Thread to decision doc](https://academy.claude.com/use-cases/thread-to-decision)
 

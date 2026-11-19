@@ -42,6 +42,8 @@ Start with tasks that have clear boundaries, like this one, and always review wh
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=Lbml7IuGJYw)
 
+*The video was recorded in an earlier version of the app, so some screens and settings may look different. On most plans, new tasks now [run in the cloud(opens in new tab)](https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile), where they're saved to your Claude account. The desktop app needs to stay open when a task uses files or apps on your computer, or the app's built-in browser.*
+
 Was this helpful?
 
 

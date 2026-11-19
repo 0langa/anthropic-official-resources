@@ -24,7 +24,7 @@ Anthropic Deputy CISO, Jason Clinton, details how the Security Engineering team 
 
 Claude CodeClaude Tag1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/how-anthropic-secures-its-ai-native-software-development-lifecycle)
 
-[WebinarUpcoming | Nov 18, 2026
+[WebinarNov 18, 2026
 
 ### How the Claude Code team does code review
 
@@ -32,7 +32,7 @@ When agents write the code, pull requests pile up faster than anyone can read th
 
 Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)
 
-[WebinarUpcoming | Nov 17, 2026
+[WebinarNov 17, 2026
 
 ### Build Agents with Claude Models on Google Cloud
 
@@ -40,13 +40,15 @@ The full Claude Platform is now on Google Cloud — build agents from the Google
 
 Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)
 
-[ArticleNov 13, 2026
+[ArticleNov 17, 2026
 
-### Building always-on agents
+### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
 
-Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
+How Claude spent two weeks load testing a staging cluster, breaking the Claude Docs service on purpose and fixing what fell over before launch, and what made the service legible enough for Claude to close the loop.
 
-Claude Platform](https://claude.com/resources/articles/building-always-on-agents)
+Claude CodeClaude apps
+
+(opens in new tab)](https://claude.dev/blog/chaos-loop-claude-docs-launch/)
 
 [ArticleJul 16, 2026
 
@@ -60,21 +62,37 @@ Featured resource 1 of 5: Working with Claude Fable 5 in Claude Cowork
 
 Advanced filters
 
-Showing 11 of 232 resources
+Showing 11 of 234 resources
 
-[WebinarUpcoming | Nov 18, 2026
+[WebinarNov 18, 2026
 
 ### How the Claude Code team does code review
 
 When agents write the code, pull requests pile up faster than anyone can read them.
 
-Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[WebinarUpcoming | Nov 17, 2026
+Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[WebinarNov 17, 2026
 
 ### Build Agents with Claude Models on Google Cloud
 
 The full Claude Platform is now on Google Cloud — build agents from the Google Cloud account you already run.
 
-Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[ArticleNov 13, 2026
+Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[ArticleNov 17, 2026
+
+### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
+
+How Claude spent two weeks load testing a staging cluster, breaking the Claude Docs service on purpose and fixing what fell over before launch, and what made the service legible enough for Claude to close the loop.
+
+Claude CodeClaude apps
+
+(opens in new tab)](https://claude.dev/blog/chaos-loop-claude-docs-launch/)[ArticleNov 16, 2026
+
+### How the Claude Code team thinks about verification
+
+How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)[ArticleNov 13, 2026
 
 ### Building always-on agents
 
@@ -118,20 +136,6 @@ Claude PlatformClaude Code
 
 Chat and Cowork are coming together into a single, simpler Claude experience across web, desktop, and mobile.
 
-Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[ArticleOct 27, 2026
-
-### Manage costs and demonstrate ROI for Claude Code on Google Cloud
-
-Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.
-
-Claude Code](https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud)[WebinarOn demand
-
-### Claude Rearview Roadmap Review: October 2026
-
-Your rollout plan depends on knowing what's changed and what matters the most.
-
-Claude CodeClaude Platform3 more: Claude Cowork, Claude apps, and Claude EnterpriseClaude CoworkClaude appsClaude Enterprise
-
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/93382d9c-795b-4053-9e0f-bcf3e2765258)
+Claude EnterpriseClaude Cowork1 more: Claude appsClaude apps](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
 
 View more

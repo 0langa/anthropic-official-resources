@@ -2,7 +2,7 @@
 
 Latest news
 
-November 17, 2026
+November 19, 2026
 
 [Announcements](https://www.anthropic.com/news/announcements)
 
@@ -102,7 +102,7 @@ The first AI-assisted drive on another planet. Claude helped NASA's Perseverance
 
 AllProductCompany
 
-284
+285
 
 ARTICLES
 
@@ -118,6 +118,19 @@ Category
 
 Date
 
+- [### Anthropic prices initial public offering](https://www.anthropic.com/news/anthropic-prices-initial-public-offering)
+
+  [Today Anthropic, PBC priced its initial public offering of its Class A common stock.](https://www.anthropic.com/news/anthropic-prices-initial-public-offering)
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+
+  Nov 18, 2026
+
+  Nov 18, 2026
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+
+  [### Anthropic prices initial public offering](https://www.anthropic.com/news/anthropic-prices-initial-public-offering)[Today Anthropic, PBC priced its initial public offering of its Class A common stock.](https://www.anthropic.com/news/anthropic-prices-initial-public-offering)
 - [### Anthropic launches roadshow for proposed initial public offering](https://www.anthropic.com/news/roadshow-launch)
 
   [Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.](https://www.anthropic.com/news/roadshow-launch)
@@ -417,19 +430,6 @@ Date
   [Features](https://www.anthropic.com/news/features)
 
   [### The Situation Report](https://www.anthropic.com/features/ebola-response)[A rare Ebola strain is spreading in the DRC, with no confirmed vaccine. Global health organizations are using Claude to respond as fast as possible.](https://www.anthropic.com/features/ebola-response)
-- [### Partnering with Accenture on embedded evaluation](https://www.anthropic.com/news/accenture-embedded-evaluation)
-
-  [We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.](https://www.anthropic.com/news/accenture-embedded-evaluation)
-
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-
-  Sep 18, 2026
-
-  Sep 18, 2026
-
-  [Partnerships](https://www.anthropic.com/news/partnerships)
-
-  [### Partnering with Accenture on embedded evaluation](https://www.anthropic.com/news/accenture-embedded-evaluation)[We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.](https://www.anthropic.com/news/accenture-embedded-evaluation)
 
 See more
 

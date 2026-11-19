@@ -34,7 +34,7 @@ Design: Quiet and organic. Warm cream, muted sage, soft olive. Think field journ
 
 Claude builds working artifacts directly in conversation. Check that Artifacts and **Create and edit files** (also called **Code execution and file creation**) are on in [Settings(opens in new tab)](https://claude.ai/settings/capabilities) so Claude can create interactive applications you can use immediately.
 
-This lets Claude generate apps with full interactivity—maps, state management, data visualization—that render right in the chat. No setup or deployment needed.
+This lets Claude generate apps with full interactivity—maps, state management, data visualization—that render right in the chat. No deployment needed.
 
 ### Required context[](https://academy.claude.com/use-cases/design-a-local-foraging-guide)
 

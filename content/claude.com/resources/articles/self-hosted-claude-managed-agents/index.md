@@ -14,7 +14,7 @@ Self-hosting is a new way to run [Managed Agents](https://claude.com/platform/cl
 
 ## Run your agent control plane in your own environment
 
-We first launched Managed Agents as a hosted service on the Claude Platform, where Anthropic runs the infrastructure for you. For teams who needed their code to stay in their own environment, we added [self-hosted sandboxes](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes).
+We [first launched Managed Agents](https://claude.com/resources/articles/claude-managed-agents) as a hosted service on the Claude Platform, where Anthropic runs the infrastructure for you. For teams who needed their code to stay in their own environment, we added [self-hosted sandboxes](https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes).
 
 Since then, agents have become more capable and are taking on more critical work, like fixing broken builds, testing releases, triaging alerts, and working through your bug backlog. They run unattended on your code and need access to your internal systems. For agents with that level of access, some teams want the whole service in their own environment, not just the sandbox. Until now, that meant building the platform themselves.
 
@@ -26,7 +26,7 @@ Session history is stored in your own database. If your organization has [zero d
 
 ## Designed for agent security
 
-When an agent runs unattended inside your code and systems, you can't rely on a person checking every step, so the limits have to be built into the system itself. That's why agent security starts with architecture, and why we designed Managed Agents around four principles. These principles apply whether Anthropic hosts everything, you host just the sandbox, or you host the whole service.
+When an agent runs unattended inside your code and systems, you can't rely on a person checking every step, so the limits have to be built into the system itself. That's why [agent security starts with architecture](https://claude.com/resources/articles/zero-trust-for-ai-agents), and why we designed Managed Agents around four principles. These principles apply whether Anthropic hosts everything, you host just the sandbox, or you host the whole service.
 
 **The brain and the hands are split**
 
@@ -52,7 +52,11 @@ Self-hosted Claude Managed Agents is now available in private beta. Contact your
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 12, 2026
+[ArticleNov 17, 2026
+
+### Linked billing on the Claude Platform
+
+Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)[ArticleNov 12, 2026
 
 ### Introducing Claude for Manufacturing
 
@@ -66,13 +70,7 @@ Add Claude to your video call and get the work started while you talk](https://c
 
 Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
 
-Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)[ArticleNov 10, 2026
-
-### More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
-
-Work at the speed of thought
-
-Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)
+Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)
 
 ## Transform how your organization operates with Claude
 

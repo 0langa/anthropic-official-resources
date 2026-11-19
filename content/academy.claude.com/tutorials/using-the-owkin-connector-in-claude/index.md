@@ -6,7 +6,7 @@ Set up and use the Owkin integration with Claude to access Pathology Explorer, a
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-f4yex9ts.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jg90q9wm.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-nf3vvuq3.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cid82a2y.png)
 
 The Owkin connector powers Pathology Explorer, an Owkin AI agent that transforms H&E pathology slides into queryable insights for drug discovery and development and clinical research. This article explains how to set up and use the Owkin integration with Claude to accelerate pathology-driven research.
 
@@ -35,7 +35,7 @@ For each cell type, the model provides:
 
 **Spatial organization features**
 
-For three types of regions (tumor, tumor core and tumor core stroma), the model provides for each cell type:
+For three types of regions (tumor, tumor core, and stroma in tumor core), the model provides for each cell type:
 
 - `density_{cell_type}_in_{region}`: The density of the specified cell type within the specified region.
 
@@ -103,17 +103,14 @@ More details on accessing the integration can be found in [Owkin’s MCP Server 
 
 **For Organization Owners (Team and Enterprise)**
 
-1. Navigate to Admin settings > Connectors
-2. Click "Browse connectors"
-3. Click “**Owkin**”
-4. Click “Add to your team”
+1. Navigate to [Organization settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors)
+2. Use the Add button to browse all available connectors, then find **Owkin** and add it for your team
 
 **For Individual Claude Users**
 
-1. Navigate to Settings > Connectors
-2. Find “**Owkin**”
-3. Click “Connect”
-4. Follow the instructions to enter your Owkin credentials to authenticate
+1. Open [Owkin in the connectors directory(opens in new tab)](https://claude.ai/directory/owkin)
+2. Connect it to Claude
+3. Follow the instructions to enter your Owkin credentials to authenticate
 
 Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory) in Claude.
 
@@ -139,7 +136,7 @@ I'm looking for Lung Adenocarcinoma patients that might be resistant to immunoth
 
 Open in Claude
 
-**Visualize whole-slide images.** Build confidence in the model output by retrieving whole-slide images directly within the chat interface.
+**Visualize slides.** Build confidence in the model output by retrieving slide thumbnails directly within the chat interface.
 
 Example prompt:
 

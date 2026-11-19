@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-nuxe06ft.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lz8vk1yx.png)
 
-Film: the user asks Claude to compare a cloud billing export to trend, flag anomalies, and assign owners. Claude checks monitoring and code history, confirms one spike with the user, then returns a ranked table with owners and next steps, plus a chart, and schedules a weekly check for each new month's export.
+Film: the user asks Claude to compare a month's cloud billing export to trend by service and team, flagging anomalies with a cause and owner. Claude checks a warehouse and monitoring, confirms one spike was planned, then returns a chart and ranked list with owners and next steps.
 
 ![](https://academy.claude.com/assets/v1/google-sheets-k5mxxqec.svg)aws-cur-2026-04.csv
 
@@ -64,17 +64,9 @@ Last month’s report
 
 MD
 
-Engineering
-
-/debug
-
-/deploy-checklist
-
-/documentation
-
 How can I help you today?
 
-**/**debug Compare this month's AWS costs to the trailing three-month average by service and tag:team. Flag any line more than 20% over trend, trace each to the workload or change behind it, and give every item an owner and recommended action.
+Compare this month's AWS costs to the trailing three-month average by service and tag:team. Flag any line more than 20% over trend, trace each to the workload or change behind it, and give every item an owner and recommended action.
 
 Reading aws-cur-2026-04.csv0s
 
@@ -102,7 +94,7 @@ Yes, planned, mark it expected
 
 Yes, that was planned, mark it expected.
 
-Used 6 sources45s
+Used 6 sources44s
 
 I compared April’s AWS bill to the three-month trend by service and team: spend is 8.9% over, and four lines past 20% make up $11,900 of the $15,200 increase. Each has a cause, an owner and a next step.
 
@@ -126,9 +118,9 @@ By service and owning team. Dashed line is your 20% threshold; hatched bar is a 
 
 −10%0%+10%+20%+30%+40%+50%+60%+70%NAT Gateway · search+$4,100CloudWatch Logs · payments+$1,500S3 · data-platformexpectedRDS · growth+$900EC2 · ml-platform+$5,400Lambda · growthOpenSearch · searchthreshold
 
-The chart shows only what crossed your threshold.
+The chart shows what crossed your threshold.
 
-Run this every Monday: if a new month’s export is in Infra / cloud-cost, compare it to trend with /debug and write the report to that month’s folder.
+Run this every Monday: if a new month’s export is in Infra / cloud-cost, compare it to trend and write the report to that month’s folder.
 
 **Monthly cloud-cost anomaly report**Mondays at 7:00 AM
 
@@ -136,7 +128,7 @@ Each run
 
 Checks Infra / cloud-cost for a new month’s export
 
-Compares it to trend with /debug
+Compares it to trend
 
 Writes the report to that month’s folder*for you to review*
 
@@ -162,9 +154,9 @@ Claude says what jumped and why, and gives you the chart and ranked list.
 
 Each item names its owner and a next step.
 
-The chart shows only what crossed your threshold.
+The chart shows what crossed your threshold.
 
-Schedule it, and the report is in the folder when each month’s export arrives.
+Schedule it, and the report is in the folder the Monday after each month’s export arrives.
 
 You know what drove the bill up and who is looking into each part.
 
@@ -176,31 +168,9 @@ I compared April’s AWS bill to the three-month trend by service and team: spen
 
 april-cost-vs-trend
 
-Skill: /debug (Engineering)
-
 Connectors: Snowflake, Datadog, GitHub
 
 ## Set up[](https://academy.claude.com/use-cases/cloud-cost-anomalies)
-
-### Try a plugin[](https://academy.claude.com/use-cases/cloud-cost-anomalies)
-
-The Engineering plugin ships with `/debug` already wired to read a Cost Explorer or BigQuery billing export, baseline it, and group the deltas by tag. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
-
-
-
-EngineeringSkills for postmortems, design docs, on-call handoffs, and cost reviews
-
-[Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=engineering)
-
-`/debug`Find over-trend cloud spend and trace each spike to a cause
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdebug)
-
-`/documentation`Write up the cost finding as a runbook entry the team can act on
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdocumentation)
-
-Show all 10 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/cloud-cost-anomalies)
 
@@ -240,7 +210,7 @@ Check what merged into the owning service around the date the spend changed.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/cloud-cost-anomalies)
 
-Drop the billing CSV (or point at the export bucket), your tag-to-team mapping, and last quarter's report into one folder so Claude has the baseline and the ownership map. The anomaly report and the per-team breakouts get written back here. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the folder so your thresholds and known-okay exceptions persist month to month.
+Drop the billing CSV, your tag-to-team mapping, and last month's report into one folder, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. With these files, Claude has the baseline and the ownership map. The anomaly report gets written back here. [Create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the folder so your thresholds and known-okay exceptions persist month to month.
 
 Infra / cloud-cost / 2026-04
 
@@ -296,19 +266,21 @@ Compare this month's AWS costs to the trailing three-month average by service an
 
 Claude for Excel
 
-Compare savings against the budget
+Check a flagged line against the billing export
 
 Install](https://claude.com/claude-for-microsoft-365)
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/cloud-cost-anomalies)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your tag scheme and the spikes you've already accepted, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /debug skill with my feedback.
+Make what we've done in this task so far into a skill called /cost-anomalies.
 
 
 
 Infra / cloud-costOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -318,9 +290,9 @@ Make what we've done in this task so far into a skill, or edit the /debug skill 
 
 ### Run it when the bill closes[](https://academy.claude.com/use-cases/cloud-cost-anomalies)
 
-The report should be waiting before anyone opens the console. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs against the new export as soon as the month closes.
+The report should be waiting before anyone opens the console. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/cost-anomalies` runs against the new export on the first Monday after it's in the folder.
 
-Set up a scheduled task for every Monday at 7am: if a new month's billing export is in Infra/cloud-cost, run /debug against it, write the anomaly report to that month's folder, and post the one-line summary to #infra-cost.
+Set up a scheduled task for every Monday at 7am: if a new month's billing export is in Infra/cloud-cost, run /cost-anomalies against it, write the anomaly report to that month's folder, and put the one-line summary for the infra channel at the top.
 
 
 
@@ -330,19 +302,21 @@ Set up a scheduled task for every Monday at 7am: if a new month's billing export
 
 Monthly cloud-cost anomaly report
 
-Runs `/debug` on the closed month, writes the ranked anomaly report to the dated folder, and posts the headline to the infra channel.
+Runs `/cost-anomalies` on the closed month, writes the ranked anomaly report to the dated folder, and puts the one-line summary for the infra channel at the top.
 
 Every **Monday at 7:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/cloud-cost-anomalies)
 
-Your customized `/debug` now knows your tag scheme, your threshold, and the spikes you've already accepted. Share it so any infra engineer can run the same analysis mid-month when something looks off.
+Your `/cost-anomalies` skill now knows your tag scheme, your threshold, and the spikes you've already accepted. Share it so any infra engineer can run the same analysis mid-month when something looks off.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/debug`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your thresholds and exceptions baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/cost-anomalies`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your thresholds and exceptions baked in, so they don't have to build it again.
 
 ## What changes for the bill review[](https://academy.claude.com/use-cases/cloud-cost-anomalies)
 

@@ -29,9 +29,9 @@ I'm preparing for our board meeting and need to show how our growth compares to 
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/build-analysis-from-browser-charts-and-folder-data)
 
-When you start a task from the Claude Desktop app, Claude reads your local files through the app while it's open and connects to websites through [Claude in Chrome(opens in new tab)](https://claude.com/chrome). The files it uses are processed on Anthropic's servers. For this workflow, it extracts data from your PowerPoint decks and pulls live economic data from sites like FRED, then combines them into a single deliverable.
+When you start a task from the Claude Desktop app, Claude reads your local files through the app while it's open and connects to websites through [Claude in Chrome(opens in new tab)](https://claude.com/chrome). For this workflow, it extracts data from your PowerPoint decks and pulls live economic data from sites like FRED, then combines them into a single deliverable.
 
-**What to expect:** After your initial prompt, Claude may ask you questions, like what to focus on or how to structure the output, then build a plan you can review in the sidebar. This helps it work longer and produce a more finished result.
+**What to expect:** After your initial prompt, Claude may ask you questions, like what to focus on or how to structure the output, then list its steps and mark each one done as it works. Your answers help it produce a more finished result. To review the approach first, ask Claude in your prompt to share its plan and wait for your OK.
 
 ### Required context[](https://academy.claude.com/use-cases/build-analysis-from-browser-charts-and-folder-data)
 
@@ -112,7 +112,7 @@ When you point Claude at a chart in your browser, it extracts the underlying num
 
 ### Local files plus web data in one workflow[](https://academy.claude.com/use-cases/build-analysis-from-browser-charts-and-folder-data)
 
-The combination is the point. Claude reads your scattered internal documents and pulls live web data in the same session, then merges them into a single output.
+The combination is the point. Claude reads your scattered internal documents and pulls live web data in the same conversation, then merges them into a single output.
 
 ### Everything saves to your folder[](https://academy.claude.com/use-cases/build-analysis-from-browser-charts-and-folder-data)
 

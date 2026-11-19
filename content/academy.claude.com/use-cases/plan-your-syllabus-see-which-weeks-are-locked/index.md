@@ -80,7 +80,7 @@ The locked/flexible tags are Claude's reading of the dependencies — based on s
 
 ### What to do with the visual next[](https://academy.claude.com/use-cases/plan-your-syllabus-see-which-weeks-are-locked)
 
-Ask Claude to turn the dependency view into an artifact and share it with students. Whether and how you can [share it(opens in new tab)](https://support.claude.com/en/articles/9547008-share-artifacts) depends on your Claude plan. The map you used to plan is a study map for them. To reuse this format for next semester's course, ask Claude to turn it into a skill. Or ask for the revised syllabus itself as a document, once the order's settled.
+Ask Claude to turn the dependency view into an artifact and share it with students. The map you used to plan is a study map for them. Whether and how you can [share it(opens in new tab)](https://support.claude.com/en/articles/9547008-share-artifacts) depends on your Claude plan. To reuse this format for next semester's course, ask Claude to turn it into a skill. Or ask for the revised syllabus itself as a document, once the order's settled.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/plan-your-syllabus-see-which-weeks-are-locked)
 

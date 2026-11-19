@@ -32,17 +32,18 @@ Organize all the new documents on my desktop.
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork)
 
-When you start a task from the Claude Desktop app, Claude reaches your local files through the app while it's open, and the files it uses are processed on Anthropic's servers. You don't need to copy and paste anything into the conversation. For browser work like filling portal forms, it uses [Claude in Chrome(opens in new tab)](https://claude.com/chrome).
+When you start a task from the Claude Desktop app, Claude reaches your local files through the app while it's open. You don't need to copy and paste anything into the conversation. For browser work like filling portal forms, it uses [Claude in Chrome(opens in new tab)](https://claude.com/chrome).
 
-**What to expect:** After your initial prompt, Claude may ask you questions about how to handle the batch, then build a plan you can review in the sidebar. This front-loading helps it run end-to-end with fewer interruptions.
+**What to expect:** After your initial prompt, Claude may ask you questions about how to handle the batch, then list its steps and mark each one done as it works. Your answers help it run end-to-end with fewer interruptions. To review the approach first, ask Claude in your prompt to share its plan and wait for your OK.
 
 ### Required context[](https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork)
 
 To get started:
 
 - Download [Claude Desktop(opens in new tab)](https://claude.com/download) and start a new task
-- In the Claude desktop app, give Claude access to the folder with your vendor tracker, contract templates, and vendor details
-- [Install Claude in Chrome(opens in new tab)](https://claude.com/chrome) and turn on the Claude in Chrome connector (Settings > Connectors), then log into your procurement portal
+- Give Claude access to the folder with your vendor tracker, contract templates, and vendor details
+- [Install Claude in Chrome(opens in new tab)](https://claude.com/chrome) and make sure the Claude in Chrome connector is on in the (+) menu in the chat bar, then log into your procurement portal
+- If your desktop app also has the built-in browser, choose Chrome as your [preferred browser(opens in new tab)](https://support.claude.com/en/articles/16607400-use-the-built-in-browser-in-claude-cowork)
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork)
 
@@ -102,15 +103,15 @@ Updating the vendor tracker and generating the contract don't depend on each oth
 
 ### Turn on the Claude in Chrome connector before starting[](https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork)
 
-Install Claude in Chrome and enable it under Settings > Connectors, then select it from the Connectors menu in your conversation. Log into your procurement portal before you start — Claude works within your authenticated session.
+Install Claude in Chrome, then make sure its connector is on in the (+) menu in the chat bar. Log into your procurement portal before you start — Claude works within your authenticated session.
 
-### The progress panel shows what Claude is working on[](https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork)
+### Follow along as Claude works[](https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork)
 
-Claude displays which files it is reading and what it's doing at each step. If something looks off, you can steer the work in progress.
+Claude shows what it's doing at each step. If something looks off, you can steer the work in progress.
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/process-batches-of-vendors-with-cowork)
 
-Use Claude to handle vendor onboarding in one session — updating your tracker, generating contracts, and filling portal forms.
+Use Claude to handle vendor onboarding in one conversation — updating your tracker, generating contracts, and filling portal forms.
 
 I need to onboard several vendors. Their documents spread across my desktop.
 
