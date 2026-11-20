@@ -24,7 +24,7 @@ First, grab an **API key** from platform.claude.com. Before your first API call,
 
 ![The Claude Console dialog showing a newly created API key with a Copy key button and a warning that the key won't be viewable again](https://academy.claude.com/assets/media/a2c759d789a3f677d109348d41c475d48fbd003d445582291e6d1e3d6fbba28c.png)
 
-Take the API key and store it in a `.env.local` file so it stays out of your version control. Hardcoding keys in source files is how they end up leaked on GitHub — keep them in environment files instead.
+In your project folder, create a file named `.env.local` with one line: `ANTHROPIC_API_KEY=` followed by your key. Add the file to `.gitignore` so it stays out of version control. Hardcoding keys in source files is how they end up leaked on GitHub, so keep them in environment files instead.
 
 Next, install the SDK:
 
@@ -95,7 +95,11 @@ Two things to notice here:
 1. The **`system`** prompt is where you shape the persona. I want a terse senior reviewer, not a chatty one — so I just say that.
 2. The **`message.content`** in the response is an **array of blocks**, not a string. For a basic text reply there's usually just one block of type `text`, but Claude can return multiple blocks — text, tool calls, thinking — so we always loop and check the type.
 
-Run it, and Claude spots that `add` is subtracting and tells you in one paragraph. That's it. That's the whole API call.
+Save the code as `review.mts` and run it with Node.js 24 or later. The `--env-file` flag loads your key from `.env.local`, and the SDK reads it from the `ANTHROPIC_API_KEY` environment variable.
+
+`node --env-file=.env.local review.mts`
+
+Claude spots that `add` is subtracting and tells you in one paragraph. That's it. That's the whole API call.
 
 ![Terminal output from running the script: Claude responds that the function is named add but uses subtraction, and suggests changing return a - b to return a + b](https://academy.claude.com/assets/media/dce7c9afcff7179ab8479e35af39099e6f199f94e09ac965b1d5e814e80cf428.png)
 
@@ -108,7 +112,7 @@ In a real product, this same `messages.create` shape is the engine behind someth
 ## Recap[](https://academy.claude.com/courses/claude-platform-101/your-first-api-call)
 
 - Your first API call is a **`messages.create`** function with a **model**, a **token limit**, and **messages**.
-- Store your API key in a `.env.local` file to keep it out of version control.
+- Store your API key in a `.env.local` file, and list that file in `.gitignore` to keep it out of version control.
 - Add a **system prompt** to shape Claude's behavior.
 - The response `content` is an array of blocks — loop and check each block's `type`.
 - From here, everything builds on this pattern.

@@ -16,7 +16,7 @@ Working with Claude on a project often meant moving the output over to another t
 
 ## Claude Whiteboards
 
-Many people use Claude as a thought partner, but brainstorming with it has typically meant copy-pasting the results elsewhere so you can then start brainstorming or collaborating with your coworkers. Now, you can talk through a messy plan out loud with Claude, and Claude can turn it into a board with a timeline with owners and dates, so you and your team can collaborate in real time. In a retro meeting, for example, everyone can add their notes, and Claude can group them by theme and draft the action items for each person. You can focus on any part of the board by dragging a box around it and asking Claude questions. When you’re done brainstorming, Claude can turn the board into a doc or deck, or bring it into tools like Lucid, Miro, or Vani by Zoho, where you can continue working on it with your team.
+Many people use Claude as a thought partner, but brainstorming with it has typically meant copy-pasting the results elsewhere so you can then start brainstorming or collaborating with your coworkers. Now, you can talk through a messy plan out loud with Claude, and Claude can turn it into a board with a timeline with owners and dates, so you and your team can collaborate in real time. [In a retro meeting (opens in new tab)](https://claude.com/resources/articles/claude-meetings), for example, everyone can add their notes, and Claude can group them by theme and draft the action items for each person. You can focus on any part of the board by dragging a box around it and asking Claude questions. When you’re done brainstorming, Claude can turn the board into a doc or deck, or bring it into tools like Lucid, Miro, or Vani by Zoho, where you can continue working on it with your team.
 
 ## Claude Sheets
 
@@ -51,7 +51,11 @@ Claude Whiteboards, Sheets, and Data work on web, desktop, and mobile. Claude Da
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 12, 2026
+[ArticleNov 17, 2026
+
+### Linked billing on the Claude Platform
+
+Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)[ArticleNov 12, 2026
 
 ### Operate Claude Managed Agents inside your security perimeter
 
@@ -65,13 +69,7 @@ A new plugin with 17 skills and four connectors helps manufacturers draft quotes
 
 ### Introducing Claude Meetings
 
-Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)[ArticleNov 10, 2026
-
-### Your apps can now open in Claude, and Claude can work in them
-
-Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
-
-Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)
+Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)
 
 ## Transform how your organization operates with Claude
 

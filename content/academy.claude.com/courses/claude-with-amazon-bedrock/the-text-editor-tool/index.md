@@ -16,6 +16,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/td0oYdyLb-E?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=td0oYdyLb-E)
 
+The notebooks for this course aren't available here.
+
 The Text Editor Tool is Claude's built-in capability that gives it file system access and text editing abilities. Unlike other tools where you write both the schema and implementation, Claude already knows how to request text editor operations - you just need to handle those requests.
 
 ## What the Text Editor Tool Does[](https://academy.claude.com/courses/claude-with-amazon-bedrock/the-text-editor-tool)

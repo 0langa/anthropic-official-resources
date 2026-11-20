@@ -2,7 +2,7 @@ Lesson 11 of 14 · The AI-native SDLC playbookHooks as approval gates
 
 # Hooks as approval gates
 
-Lesson 117 min
+Lesson 1115 min
 
 Sign in to save your progressYou can keep reading without an account, but completed lessons won’t be saved.
 
@@ -37,7 +37,7 @@ json
   "hooks": {
     "PreToolUse": [
       {
-        "matcher": "mcp__deploy-.*__release",
+        "matcher": "^mcp__.*__release$",
         "hooks": [
           { "type": "command",
             "command": "${CLAUDE_PROJECT_DIR}/.claude/hooks/release-gate.sh",
@@ -56,16 +56,21 @@ bash
 ```
 #!/bin/bash
 # Release gate. dev: allow. staging: ask. production: an approved change ticket for this version, or block.
+jq=/usr/bin/jq   # absolute path, so a jq earlier on PATH is never used
+fail() {   # exit code 2 blocks the call
+  echo "Release gate: jq failed, so this release is blocked. Tell the platform team." >&2
+  exit 2
+}
 input=$(cat)
-tool=$(jq -r '.tool_name' <<<"$input")
-version=$(jq -r '.tool_input.version' <<<"$input")
-ticket=$(jq -r '.tool_input.ticket // empty' <<<"$input")
+tool=$("$jq" -r '.tool_name' <<<"$input") || fail
+version=$("$jq" -r '.tool_input.version' <<<"$input") || fail
+ticket=$("$jq" -r '.tool_input.ticket // empty' <<<"$input") || fail
 
 decide() {   # decide <allow|ask|deny> <reason>
-  jq -n --arg decision "$1" --arg reason "$2" '{hookSpecificOutput: {
+  "$jq" -n --arg decision "$1" --arg reason "$2" '{hookSpecificOutput: {
     hookEventName: "PreToolUse",
     permissionDecision: $decision,
-    permissionDecisionReason: $reason}}'
+    permissionDecisionReason: $reason}}' || fail
   exit 0
 }
 
@@ -81,7 +86,7 @@ wait for the release manager to approve it, then call release again with that ti
     [[ "$ticket" =~ ^CHG-[0-9]+$ && "$version" =~ ^[0-9a-f]{7,40}$ ]] ||
       decide deny "Production needs an approved change ticket. $route"
     if approver=$(/usr/local/bin/change-ticket show --ticket "$ticket" --format json |
-        jq -er --arg v "$version" 'select(.state == "approved" and .version == $v) | .approver' 2>/dev/null); then
+        "$jq" -er --arg v "$version" 'select(.state == "approved" and .version == $v) | .approver' 2>/dev/null); then
       decide allow "$ticket approved by $approver"
     fi
     decide deny "$ticket is not approved for version $version. $route" ;;
@@ -94,7 +99,11 @@ In the script, `version` and `ticket` are the inputs Claude passes to the `relea
 
 In a non-interactive run nobody can answer an `ask`, so Claude Code denies the call. That is why the gate allows staging from the pipeline on `main`, where the approved merge is the approval.
 
-The gate has a limit. An engineer could set `GITHUB_REF` by hand in their own session, although doing that skips only the prompt they would have answered themselves.
+The gate has three limits:
+
+- An engineer could set `GITHUB_REF` by hand in their own session, although doing that skips only the prompt they would have answered themselves.
+- The script tells the environments apart by server name, and a server's name is a label chosen by whoever adds the server. The managed settings below allow any server whose URL matches `https://deploy.example.com/*`, whatever its name, so a server named `deploy-dev` could point at production. Have the production deployment server also check the change ticket.
+- The script runs with the environment of the session that starts it, so an engineer who changes that environment can still change its answer, even to allow a production release. It calls `jq` by absolute path. If `jq` is missing or exits with an error, the script blocks the call.
 
 The reason on an `ask` is shown to the person. The reason on a `deny` is shown to Claude, so the block message names the route to approval for Claude to pass on. The staging result comes first, then production with no ticket:
 
@@ -124,11 +133,11 @@ json
 
 ## Governance considerations[](https://academy.claude.com/courses/ai-native-sdlc-playbook/hooks-as-approval-gates)
 
-Hooks are the approval gates. The gate condition is enforced every time, for everyone. Allow and block decisions are logged with a timestamp. The gate also defines what counts as approval, whether that's an approved change ticket or the release manager's sign-off.
+Hooks are the approval gates. The gate condition is enforced every time, for everyone. Once OpenTelemetry events are exported, Claude Code can log allow and block decisions with a timestamp, though older builds leave no record when a managed hook refuses a direct tool call. The gate also defines what counts as approval, whether that's an approved change ticket or the release manager's sign-off.
 
 ## Managed settings for a regulated enterprise[](https://academy.claude.com/courses/ai-native-sdlc-playbook/hooks-as-approval-gates)
 
-Managed settings for a regulated enterprise, deployed by the platform team via mobile device management (MDM) or the admin console. Engineers cannot edit or override any of the settings therein. See below:
+Managed settings for a regulated enterprise, deployed by the platform team via mobile device management (MDM) or the admin console. An engineer's own settings files, project files, and `--settings` values can't override a value set here. How the settings are delivered matters too, and the end of this section covers it. Claude Code normally adds entries from an engineer's own settings to a managed list. The sample also sets the keys that stop those entries from widening the managed permission rules, network domains, readable paths, and MCP server list. See below:
 
 json
 
@@ -146,11 +155,23 @@ json
     "disableBypassPermissionsMode": "disable"
   },
   "allowManagedPermissionRulesOnly": true,
+  "disableAutoMode": "disable",
   "sandbox": {
     "enabled": true,
     "failIfUnavailable": true,
     "allowUnsandboxedCommands": false,
-    "network": { "allowedDomains": ["git.internal.example.com", "registry.npmjs.org"] },
+    "autoAllowBashIfSandboxed": false,
+    "enableWeakerNestedSandbox": false,
+    "enableWeakerNetworkIsolation": false,
+    "allowAppleEvents": false,
+    "allowNestedUserNamespaces": false,
+    "network": {
+      "allowedDomains": ["git.internal.example.com", "registry.npmjs.org"],
+      "allowManagedDomainsOnly": true,
+      "allowAllUnixSockets": false,
+      "allowLocalBinding": false
+    },
+    "filesystem": { "allowManagedReadPathsOnly": true },
     "credentials": {
       "files": [
         { "path": "~/.ssh", "mode": "deny" },
@@ -160,33 +181,96 @@ json
     }
   },
   "allowManagedHooksOnly": true,
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "^mcp__.*__release$",
+        "hooks": [
+          { "type": "command",
+            "command": "/opt/example-corp/claude-hooks/release-gate.sh",
+            "args": [],
+            "onFailure": "block" }
+        ]
+      }
+    ]
+  },
   "disableSideloadFlags": true,
+  "strictPluginOnlyCustomization": ["skills", "agents"],
   "allowManagedMcpServersOnly": true,
+  "allowedMcpServers": [
+    { "serverUrl": "https://deploy.example.com/*" }
+  ],
   "strictKnownMarketplaces": [
     { "source": "github", "repo": "example-corp/approved-plugins" }
   ],
-  "requiredMinimumVersion": "2.1.193"
+  "syncClaudeAiPlugins": false,
+  "requiredMinimumVersion": "2.1.309"
 }
 ```
 
 **What the settings do, in control terms:**
 
-- `permissions.deny` keeps secrets out of the agent's context and blocks arbitrary network egress through tools. `permissions.allow` pre-approves the safe inner loop so the deny list doesn't turn into prompt fatigue.
-- `disableBypassPermissionsMode` plus `allowManagedPermissionRulesOnly` means no engineer, project file, or command-line flag can widen the rules.
-- `sandbox` covers what permissions cannot. A tool-level deny on WebFetch doesn't stop a shell command reaching the network, whereas the OS-level domain allowlist blocks egress outright, so the two enforce one objective at different layers. `failIfUnavailable` and `allowUnsandboxedCommands` turn the sandbox into a precondition, meaning Claude Code refuses to start when the sandbox cannot initialize and a command that fails inside the sandbox cannot be retried outside it.
-- `credentials` handles a case the deny rules miss. `permissions.deny` governs Claude's file tools, but a sandboxed shell command could still read `~/.ssh` or `~/.aws/credentials` by default. This block denies those reads and strips the listed secrets from the environment of sandboxed commands.
-- `allowManagedHooksOnly` means only hooks defined in managed settings run; hooks in user, project, and local settings are blocked, including the standalone `.claude/settings.json` example above. To keep this play's approval gate enforced, define it in the managed file's own `hooks` block.
-- `disableSideloadFlags` and `strictKnownMarketplaces` mean that any skill, agent, hook, or MCP server on an engineer's machine came through the organization's approved plugin marketplace and not from a home directory. The marketplace allowlist controls what can be installed, and the flags that would sideload a plugin, agent, or MCP config for a single run are rejected at startup.
-- `allowManagedMcpServersOnly` makes the agent's tool surface an allowlist owned by the platform team.
-- `requiredMinimumVersion` refuses to start on a version below the approved floor, so the controls are enforced by a build the organization has actually assessed.
+**Permissions:**
 
-Treat the example as a starting point to customize to your own environment. Each deny rule removes some capability, and the right balance depends on the data classification of the repo. The [settings reference(opens in new tab)](https://code.claude.com/docs/en/settings) documents all keys, including the managed-only ones.
+- `permissions.deny` stops Claude's file tools, and by default sandboxed commands, from reading the project's `.env` files and its `./secrets` folder. It also blocks the WebFetch tool and the usual `curl` and `wget` commands.
+- `permissions.allow` lets the listed `git` and `make` commands run without a prompt.
+- `allowManagedPermissionRulesOnly` makes managed settings the only settings source of permission rules. Claude Code ignores the allow, ask, and deny rules in an engineer's or a project's settings, and it ignores `--allowedTools`. `--disallowedTools` still applies, because it can only restrict.
+- `disableBypassPermissionsMode` stops anyone from entering `bypassPermissions` mode.
+- `disableAutoMode` removes auto mode from the `Shift+Tab` cycle. A session that would have started in auto mode starts in Manual mode (`default`) instead, whether `--permission-mode auto`, a settings file, or the built-in default chose it. So under this policy, auto mode isn't available in the plan mode play from **Stage 3: Build**, and approving a plan offers auto-accept edits instead.
+
+**Sandbox:**
+
+- `sandbox` covers what permissions cannot. A tool-level deny on WebFetch doesn't stop a shell command reaching the network. Inside the sandbox a shell command has no direct route out, and each connection is checked against `allowedDomains`.
+- `allowManagedDomainsOnly` closes a gap in that list. On its own, `allowedDomains` only skips the approval prompt for the hosts on it, so an engineer could still approve another host or add one in their own settings. With `allowManagedDomainsOnly` set, only the managed list counts, and any other host is refused without a prompt.
+- `failIfUnavailable` and `allowUnsandboxedCommands` turn the sandbox into a precondition. On an engineer's machine, Claude Code refuses to start when the platform is unsupported or a sandbox dependency is missing, and refuses each sandboxed command if the sandbox fails later. A command that fails inside the sandbox can't be retried outside it.
+- `autoAllowBashIfSandboxed` set to `false` sends sandboxed commands through the regular permission flow, so the allow rules and the permission mode decide whether Claude Code asks before it runs a command. The sample sets it because its default differs between Claude Code versions, and because a repository's settings could otherwise change it.
+- The sandbox has limits. It covers only the shell commands Claude runs. Hooks and local MCP servers run outside it, so the hook and MCP settings below restrict them.
+- An engineer can still type a command at the `!` prompt and run it outside the sandbox, with the same access they have in any terminal outside Claude Code.
+- The [sandboxing docs(opens in new tab)](https://code.claude.com/docs/en/sandboxing) list the keys that an engineer's own settings could turn on to weaken the sandbox, such as `sandbox.network.allowAllUnixSockets`. The sample sets each of them to `false`, so an engineer's own settings can't turn any of them on.
+- Most of the other settings that loosen the sandbox have no managed-only lock, so an engineer's own settings can still change them. For example, `sandbox.excludedCommands` runs commands outside the sandbox, and `sandbox.filesystem.allowWrite` lets sandboxed commands write to more paths.
+- `credentials` covers credential files the deny rules don't name. By default the sandbox also keeps sandboxed commands away from the paths in `Read` deny rules. But the sample's deny rules name only `.env` files and `./secrets`, and by default a sandboxed command can read most of the machine, `~/.ssh` and `~/.aws/credentials` included. This block denies those reads and strips the listed secrets from the environment of sandboxed commands.
+- `allowManagedReadPathsOnly` stops an `allowRead` entry in an engineer's own settings from reopening the denied paths.
+
+**Hooks:**
+
+- `allowManagedHooksOnly` means only hooks defined in managed settings run, along with Agent SDK hooks and hooks from plugins the managed settings force-enable.
+- Hooks in user, project, and local settings don't run under `allowManagedHooksOnly`. So the standalone `.claude/settings.json` example above and the team hooks from step 3 don't run. Nor do the `api-policy.sh` hook from **Stage 3: Build** and the test-file and verification hooks from **Stage 4: Test**, while they sit in a repo's settings.
+- The sample's own `hooks` block defines this play's approval gate, so the gate stays enforced. The entry names the script by absolute path, in a folder only an administrator can write to. A path under `${CLAUDE_PROJECT_DIR}` would point at the engineer's own checkout, where they could edit the script to allow every call.
+- Settings delivered from the admin console can carry that `hooks` entry, but not the script file itself, so MDM installs the script on each machine.
+- With `onFailure` set to `block`, Claude Code blocks the call when the script can't start, times out, or exits with an unexpected code.
+
+**Plugins:**
+
+- `strictKnownMarketplaces`, `disableSideloadFlags`, `strictPluginOnlyCustomization`, and `syncClaudeAiPlugins` control where skills, agents, and plugins come from.
+- The marketplace allowlist, `strictKnownMarketplaces`, controls which plugins can be installed. It doesn't register anything. To put a plugin on every machine, and to keep its hooks running under `allowManagedHooksOnly`, the managed file also needs `extraKnownMarketplaces`, which registers the marketplace on each machine, and `enabledPlugins`, which names the plugins to install and enable from it.
+- At startup, `disableSideloadFlags` rejects the flags that would sideload a plugin, agent, or MCP config for a single run.
+- `strictPluginOnlyCustomization` blocks the skills and agents kept in a home directory or in a repo's `.claude/` folder, which neither the marketplace allowlist nor the sideload block covers. Claude Code still loads bundled skills, built-in agents, and skills and agents from the managed policy directory or from plugins, except skills-directory plugins. So `strictPluginOnlyCustomization` rules out the skills and subagents checked into a repo in **Stage 3: Build**, and under this policy teams share them through a plugin in the approved marketplace.
+- `strictPluginOnlyCustomization` also stops custom slash commands from loading from a repo's or an engineer's `.claude/commands/` or `.claude/skills/` folder. The commands in **Stage 2: Design** and the PR review play in **Stage 5: Deploy** are among them, if they're kept there.
+- Setting `syncClaudeAiPlugins` to `false` stops Claude Code from downloading and loading the plugins enabled for an engineer's claude.ai account.
+
+**MCP:**
+
+- `allowedMcpServers` and `allowManagedMcpServersOnly` together give the platform team an allowlist for the MCP servers that engineers, projects, and plugins add.
+- The list names the approved servers by URL, here the deployment servers. Because every entry is a URL, local servers that run as a command on the engineer's machine are blocked.
+- `allowManagedMcpServersOnly` makes that managed list the only allowlist that applies. It restricts nothing on its own. If the managed settings don't also set `allowedMcpServers`, every server that passes the denylist loads.
+- A server listed in a `.mcp.json` file loads only if it matches the list, and `claude mcp add` refuses one that doesn't. Servers built into Claude Code, such as Claude in Chrome, skip the allowlist, and a `deniedMcpServers` entry blocks a built-in server.
+
+**Version:**
+
+- With `requiredMinimumVersion` set, Claude Code refuses to start on a version below the floor, which keeps out older builds that lack some of these settings or enforce them less completely. The key itself arrived in a build from early June 2026, and it works only on that build and later ones.
+- Later releases have fixed further gaps in how these settings are enforced, so raise the floor as the organization approves newer builds. Newer versions still start. To keep engineers on versions the organization has assessed, also set `requiredMaximumVersion`.
+
+Treat the example as a starting point to customize to your own environment. Each deny rule removes some capability, and the right balance depends on the data classification of the repo. The [settings reference(opens in new tab)](https://code.claude.com/docs/en/settings-reference) documents all keys, including the managed-only ones.
+
+Settings delivered from the admin console are a client-side control that an engineer can get around on a device the organization doesn't manage. They are also bypassed when Claude Code is set to use a third-party provider such as Amazon Bedrock or Google Cloud's Agent Platform. Claude Code can apply its local cache of console settings at startup, so an engineer's edit to that cache can apply until the next successful fetch. The [security considerations(opens in new tab)](https://code.claude.com/docs/en/server-managed-settings) for admin console delivery list each case. For stronger enforcement, deliver the file through MDM to enrolled devices.
+
+By default Claude Code uses only the first managed source that delivers a policy key, and it checks the admin console first. So if the admin console sets even one policy key, Claude Code ignores the MDM copy without a warning, except for the [keys read from every source(opens in new tab)](https://code.claude.com/docs/en/managed-settings).
 
 ## How to measure it[](https://academy.claude.com/courses/ai-native-sdlc-playbook/hooks-as-approval-gates)
 
 For the hooks themselves:
 
-- **Leading indicator**: Time spent waiting on each approval gate. Every hook decision is written to the OpenTelemetry export with a timestamp and an allow or block verdict, so the wait is visible per gate.
+- **Leading indicator**: Time spent waiting on each approval gate. Once OpenTelemetry events are exported, which takes `CLAUDE_CODE_ENABLE_TELEMETRY` and `OTEL_LOGS_EXPORTER`, a permission decision event records a timestamp, an allow or block verdict, and whether a hook made the decision. Builds released before mid-November 2026, the sample's floor among them, leave no such record when a managed hook refuses a direct tool call.
 - **Lagging indicator**: Gate violations reaching production before and after hooks, from the incident tracker.
 
 Was this helpful?

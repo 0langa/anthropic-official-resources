@@ -10201,6 +10201,9 @@
   "https://support.claude.com/en/articles/18467148-use-your-claude-platform-account-in-a-third-party-app": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for": [
     "Native source; upstream MDX components retained."
   ],
@@ -11006,6 +11009,9 @@
   ],
   "https://www.anthropic.com/news/web-search-api": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
+  "https://www.anthropic.com/news/yes-claude-can-do-nine-loops": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"

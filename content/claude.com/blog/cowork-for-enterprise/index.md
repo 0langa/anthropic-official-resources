@@ -16,7 +16,7 @@ Today, we’re introducing organization controls to help teams deploy Claude Cow
 
 Claude Code helped developers transition from handing Claude questions to whole tasks, and we’re seeing the same pattern across the entire organization with Claude Cowork: the vast majority of Claude Cowork usage comes from outside engineering teams. Importantly, functions like operations, marketing, finance, and legal are not handing Claude their core work, but rather the work that surrounds their most critical tasks—project updates, collaboration decks, research sprints, etc.
 
-As early enterprise adopters of Claude Cowork have seen this pattern emerge in one team, they’ve often wanted to roll it out more broadly, opening questions like who gets access, spend management, and how to see what’s happening across teams.
+As early enterprise adopters of Claude Cowork have seen this pattern emerge in one team, they’ve often wanted to [roll it out more broadly](https://claude.com/resources/guides/deploying-claude-across-your-organization), opening questions like who gets access, spend management, and how to see what’s happening across teams.
 
 ## Controls for organization-wide deployment
 
@@ -24,11 +24,11 @@ Deploying agents with Claude Cowork’s capabilities across an organization requ
 
 **Role-based access controls.** Admins on Claude Enterprise can now organize users into groups — manually or via SCIM from your identity provider — and assign each a custom role defining which Claude capabilities its members can use. Turn Claude Cowork on for specific teams and adjust as adoption grows.
 
-**Group spend limits.** Set per-team budgets from the admin console. Predictable costs, adjustable as you learn what each team needs.
+**[Group spend limits](https://claude.com/resources/articles/giving-admins-more-visibility-and-control-over-claude-usage-and-spend).** Set per-team budgets from the admin console. Predictable costs, adjustable as you learn what each team needs.
 
 **Usage analytics.** Claude Cowork activity now appears in the admin dashboard and the Analytics API. From the dashboard, admins can track Claude Cowork sessions and active users across various date ranges. The Analytics API goes deeper: per-user Claude Cowork activity, skill and connector invocations, and DAU/WAU/MAU alongside existing Chat and Claude Code figures. See which teams are adopting, which workflows are landing, and where to invest next.
 
-**Expanded OpenTelemetry support.** Claude Cowork now emits events for tool and connector calls, files read or modified, skills used, and whether each AI-initiated action was approved manually or automatically. Events are compatible with standard SIEM pipelines like Splunk and Cribl, and a shared user account identifier lets you correlate OTEL events with Compliance API records. OpenTelemetry is available on Team and Enterprise plans.
+**Expanded OpenTelemetry support.** Claude Cowork now emits events for tool and connector calls, files read or modified, skills used, and whether each AI-initiated action was approved manually or automatically. Events are compatible with standard SIEM pipelines like Splunk and Cribl, and a shared user account identifier lets you correlate OTEL events with [Compliance API](https://claude.com/resources/articles/compliance-api-cowork-and-claude-code) records. OpenTelemetry is available on Team and Enterprise plans.
 
 **Zoom MCP connector.** Claude Cowork integrates with the tools your teams already use. Today, Zoom is launching a connector that brings meeting intelligence directly into the Cowork experience. The Zoom connector delivers AI Companion meeting summaries and action items alongside transcripts and smart recordings — helping teams use their conversations on Zoom to create agentic workflows in Cowork. Add Zoom from the connector directory in Claude's settings.
 

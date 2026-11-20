@@ -8,7 +8,7 @@ One conversation that carries context across all four apps
 - Reading time4 min
 - ShareCopy link
 
-Starting today, Claude for Excel, PowerPoint, and Word are generally available, and Claude for Outlook is now in public beta for all paid plans. As Claude moves between tasks in your Microsoft apps, it keeps the full context of your conversation.
+Starting today, [Claude for Excel, PowerPoint, and Word](https://claude.com/claude-for-microsoft-365) are generally available, and Claude for Outlook is now in public beta for all paid plans. As Claude moves between tasks in your Microsoft apps, it keeps the full context of your conversation.
 
 ‍
 
@@ -32,7 +32,7 @@ Open an attachment in Word or Excel and Claude already knows what the sender ask
 
 Claude for Excel, PowerPoint, and Word are now generally available, with the controls IT admins and organizations need. One AppSource listing covers Excel, PowerPoint, and Word, and a separate listing adds Outlook in beta. Admins can deploy both from the Microsoft admin center.
 
-Enterprise admins can configure [OpenTelemetry](https://support.claude.com/en/articles/14447276-configure-a-custom-opentelemetry-collector-for-office-agents) to stream prompts, tool calls, and document references to their own collector, so security teams see exactly what Claude does across every app. The [Analytics API](https://support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide) breaks out activity per user, per app, per day.
+Enterprise admins can configure [OpenTelemetry](https://support.claude.com/en/articles/14447276-configure-a-custom-opentelemetry-collector-for-office-agents) to stream prompts, tool calls, and document references to their own collector, so [security teams see exactly what Claude does](https://claude.com/resources/articles/claude-enterprise-security-updates) across every app. The [Analytics API](https://support.claude.com/en/articles/13703965-claude-enterprise-analytics-api-reference-guide) breaks out activity per user, per app, per day.
 
 Organizations can access all four add-ins with a Claude account, or route traffic through an existing LLM gateway to Claude models running on Amazon Bedrock, Google Cloud’s Vertex AI, or Microsoft Foundry.
 

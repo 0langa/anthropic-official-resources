@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/YKjCxFVbm3A?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=YKjCxFVbm3A)
 
+Download `images.zip` from the Downloads section at the end of this lesson, unzip it, and put the `images` folder in the same folder as your code. The notebooks for this course aren't available here.
+
 Claude's vision capabilities let you include images in your messages and ask Claude to analyze them in countless ways. You can ask Claude to describe what's in an image, compare multiple images, count objects, or perform complex visual analysis tasks.
 
 ## Image Handling Basics[](https://academy.claude.com/courses/building-with-the-claude-api/image-support)
@@ -145,5 +147,15 @@ For each item above (1-5), write one sentence summarizing your findings, with yo
 This detailed prompt guides Claude through a systematic analysis, resulting in much more accurate and useful assessments than a simple request would provide.
 
 Remember: the same prompting techniques that work for text apply to images. Invest time in crafting detailed, structured prompts rather than relying on simple questions if you want reliable results.
+
+## Downloads
+
+- 
+
+  ### Sample images (images.zip)
+
+  Contains the images folder, with seven satellite images of houses.
+
+  [Download](https://academy.claude.com/assets/v1/images-b6f3ouqk.zip)
 
 Was this helpful?

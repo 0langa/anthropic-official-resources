@@ -18,11 +18,11 @@ Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-1
 
 Plan availability
 
-Enterprise Search is available on Team and Enterprise plans, and must be enabled by a workspace admin. If you're on a Free, Pro, or Max plan, you can skip this lesson.
+Enterprise Search is available on Team and Enterprise plans, and an Owner must set it up before members can use it. If you're on a Free, Pro, Max, or Ultra plan, you can skip this lesson.
 
 ## What is Enterprise Search?[](https://academy.claude.com/courses/claude-101/enterprise-search)
 
-Enterprise Search adds a dedicated "Ask {Your Org Name}" option to your sidebar. This is designed specifically for finding and synthesizing knowledge buried across your company's tools and data sources. Think of Enterprise Search as a pre-built project for your entire organization — your company's knowledge base is already loaded, so you can jump right in to get context-aware responses to your questions.
+Enterprise Search adds a dedicated "Ask {Your Org Name}" option to your sidebar. This is designed specifically for finding and synthesizing knowledge buried across your company's tools and data sources. Think of Enterprise Search as a pre-built project for your entire organization. Once you connect your work tools, you can jump right in to get context-aware responses to your questions.
 
 Unlike regular chats with connectors enabled, Enterprise Search is specifically designed for information gathering, using custom instructions configured by the Anthropic team.
 
@@ -64,13 +64,13 @@ When you ask a question, Claude searches across all your connected tools—such 
 
 ## Setting up Enterprise Search[](https://academy.claude.com/courses/claude-101/enterprise-search)
 
-Enterprise Search requires a **two-step setup process**: first an admin configures it for the organization, then individual users authenticate with their personal accounts.
+Enterprise Search requires a **two-step setup process**: first an Owner configures it for the organization, then individual users authenticate with their personal accounts.
 
 ### For admins (Owners)[](https://academy.claude.com/courses/claude-101/enterprise-search)
 
 The Enterprise Search project is enabled by default for all Team and Enterprise organizations, but an Owner needs to complete the initial setup before team members can use it:
 
-1. Click "Ask Your Org" in the left sidebar.
+1. Click "Ask {Your Org Name}" in the left sidebar (it may read "Ask your org").
 2. Click "Set up for your org" to continue (or "Disable" to turn the feature off).
 3. Connect your organization's tools. You'll be required to choose a connector for **Documents** (like Google Drive or SharePoint) and **Chat** (like Slack or Microsoft Teams). Email is recommended but optional.
 4. Click "+ Add more" to set up any additional tools your team needs.
@@ -81,7 +81,7 @@ Once setup is complete, the project becomes available to all members of your org
 
 ### For users[](https://academy.claude.com/courses/claude-101/enterprise-search)
 
-After an admin has set up Enterprise Search, you'll see the "Ask {Org Name}" project starred in your sidebar. Here's how to get started:
+After an Owner has set up Enterprise Search, you'll see the "Ask {Org Name}" project pinned in your sidebar. Here's how to get started:
 
 1. Click on the project in your sidebar.
 2. Follow the guided onboarding flow to connect to the recommended services.

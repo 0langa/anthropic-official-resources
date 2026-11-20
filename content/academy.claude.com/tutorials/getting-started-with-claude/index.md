@@ -24,9 +24,29 @@ I missed this morning’s planning meeting. The transcript is attached. Tell me 
 
 Add files or photos⌘UAdd folderRecord a skillSkillsConnectorsDesign systemPluginsResearchWeb searchMemory
 
+Attach documents, spreadsheets, images or PDFs and Claude works from what is in them.
+
+**Add folder:** hand Claude a whole folder to read from and save into. Desktop app only.
+
+**Record a skill:** do a task once while Claude watches your screen and it keeps the steps as a skill. Desktop app only.
+
+**Skills:** saved instructions for work you do the same way every time.
+
+**Design system:** your colours, type and components, applied to every deck and design Claude makes.
+
+**Plugins:** bundles of skills and connectors for a kind of work, often set up by your team.
+
+**Research:** many searches over several minutes, returned as one cited brief.
+
+**Web search:** on by default; turn it off when the answer should come only from your documents.
+
+**Memory:** on by default; Claude draws on what it knows about you and your work.
+
 Browse connectorsManage connectorsDriveEmailCalendarMessagingCRM
 
-✓Claude FableFor your toughest challenges✓Claude OpusMost capable for ambitious work✓Claude SonnetMost efficient for everyday tasks✓Claude HaikuFastest for quick answersEffort
+Connectors let Claude read and act in the apps you already use: email, calendar, drive, chat, your CRM.
+
+✓Claude FableFor your toughest challenges✓Claude OpusFor complex work and everyday tasks✓Claude SonnetMost efficient for simpler tasks✓Claude HaikuFastest for quick answersEffort
 
 ProjectSonnet
 
@@ -751,7 +771,7 @@ HaldenDefaultNoneManage design systemsNew design system
 
 Browse connectorsManage connectorsDriveEmailCalendarMessagingCRM
 
-✓Claude FableFor your toughest challenges✓Claude OpusMost capable for ambitious work✓Claude SonnetMost efficient for everyday tasks✓Claude HaikuFastest for quick answersEffort
+✓Claude FableFor your toughest challenges✓Claude OpusFor complex work and everyday tasks✓Claude SonnetMost efficient for simpler tasks✓Claude HaikuFastest for quick answersEffort
 
 Higher effort means more thorough responses, but takes longer and uses your limits faster.
 
@@ -762,7 +782,7 @@ ProjectSonnet
 The + menu has a few more options for when a task needs them:
 
 - **[Connectors(opens in new tab)](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities):** let Claude read and act in the apps you already use, such as your email, calendar, drive, chat and CRM. Turn one on once and every conversation can search it, quote from it and, where you allow it, write back. [Browse the directory(opens in new tab)](https://claude.com/connectors).
-- **[Web search(opens in new tab)](https://support.claude.com/en/articles/10684626-enable-and-use-web-search):** on by default for Free, Pro, Max, and Ultra plans. On Team and Enterprise plans it's off by default, and an admin can turn it on. Turn it off when the answer should come only from your documents. If your + menu has no web search toggle, tell Claude in your prompt not to search.
+- **[Web search(opens in new tab)](https://support.claude.com/en/articles/10684626-enable-and-use-web-search):** on by default for Free, Pro, Max, and Ultra plans. On Team and Enterprise plans it's off by default, and an admin can turn it on. When the answer should come only from your documents, turn it off or, if your + menu has no web search toggle, tell Claude in your prompt not to search.
 - **[Research(opens in new tab)](https://support.claude.com/en/articles/11088861-use-research-on-claude):** runs many searches and returns one cited brief. It takes minutes, so save it for the big questions. Available on paid plans.
 - **[Skills(opens in new tab)](https://support.claude.com/en/articles/12512176-what-are-skills):** saved instructions for work you do the same way every time, including a tone or format you want on demand. On most paid plans, you can also [record yourself(opens in new tab)](https://support.claude.com/en/articles/12512198-how-to-create-custom-skills) doing a task once in the Claude desktop app and keep it as a skill.
 - **Add folder** ([desktop app(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)): hand Claude a whole folder on your computer to read from and save into, instead of uploading files one at a time. Available on paid plans.
@@ -774,8 +794,8 @@ The + menu has a few more options for when a task needs them:
 Once you've explained your project, your team, or how you like to work, you shouldn't have to explain it again. A few features carry the important things forward so each conversation starts where the last one left off:
 
 - **[Projects(opens in new tab)](https://support.claude.com/en/articles/9517075-what-are-projects):** a place for one ongoing piece of work. Add the files Claude should always have on hand, write a few lines of instruction (the brand voice, the format, the things to never forget), and every conversation inside starts already knowing them. Make one when you keep re-uploading the same files or re-explaining the same rules.
-- **[Instructions for Claude(opens in new tab)](https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features):** a short note in your Settings profile that Claude keeps in mind in every conversation, such as who you are, what to assume and how to talk to you. Set it once and it applies everywhere.
-- **[Memory(opens in new tab)](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context):** what Claude remembers about you across conversations, such as your team, your projects and how you like to work. Turn it on in Settings and it fills in as you go; you can read or edit it any time.
+- **[Instructions for Claude(opens in new tab)](https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features):** a short note in Settings that Claude keeps in mind in every conversation, such as who you are, what to assume and how to talk to you. Set it once and it applies everywhere.
+- **[Memory(opens in new tab)](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context):** what Claude remembers about you across conversations, such as your team, your projects and how you like to work. It fills in as you go, and you can read or edit it any time. If it isn't on yet, turn it on in Settings.
 
 ## Beyond the chat window[](https://academy.claude.com/tutorials/getting-started-with-claude)
 

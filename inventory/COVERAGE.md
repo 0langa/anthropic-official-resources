@@ -1,11 +1,11 @@
 # Coverage report
 
-Archived pages: **5717**
-Discovered resource pages: **5810**
-Unarchived pages: **93**
-Actionable missing pages: **1**
+Archived pages: **5720**
+Discovered resource pages: **5812**
+Unarchived pages: **92**
+Actionable missing pages: **0**
 Terminal unarchived pages: **92** (blocked 27, gone 41, out of scope 24)
-Archived pages retained with partial quality notes: **511**
+Archived pages retained with partial quality notes: **512**
 
 **Actionable population complete** means every currently discovered, allowed, reachable English page has an archived record. It does not certify a 1:1 website replica or undiscoverable pages. See `actionable-missing-urls.txt`, `terminal-urls.json`, `errors.json`, and `content-notes.json`.
 
@@ -15,5 +15,5 @@ Archived pages retained with partial quality notes: **511**
 | claude.com | 871 | 880 |
 | code.claude.com | 256 | 258 |
 | platform.claude.com | 2240 | 2270 |
-| support.claude.com | 799 | 833 |
-| www.anthropic.com | 660 | 673 |
+| support.claude.com | 800 | 834 |
+| www.anthropic.com | 662 | 674 |

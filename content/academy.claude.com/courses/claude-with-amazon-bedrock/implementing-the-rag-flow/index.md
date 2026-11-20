@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/m6kmqI6C-Mc?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=m6kmqI6C-Mc)
 
+Download `report.zip` from the Downloads section at the end of this lesson, unzip it, and put `report.md` in the same folder as your code. The notebooks for this course aren't available here.
+
 This walkthrough demonstrates the complete RAG (Retrieval-Augmented Generation) implementation using a practical example. We'll build a vector database from scratch and execute all five steps of the RAG workflow using a sample report document.
 
 ## Setting Up the Vector Database[](https://academy.claude.com/courses/claude-with-amazon-bedrock/implementing-the-rag-flow)
@@ -102,5 +104,15 @@ The distance metric helps you understand how confident the system is about the r
 A crucial design decision is storing the original text alongside each embedding. Without this, you'd only get back arrays of numbers, which aren't useful for generating responses. By including the source text, you can immediately use the retrieved chunks to provide context for your language model.
 
 This completes the core RAG workflow, though there are additional optimizations and improvements that can enhance performance in real-world scenarios.
+
+## Downloads
+
+- 
+
+  ### Sample report (report.zip)
+
+  Contains report.md, the fictional report this section searches.
+
+  [Download](https://academy.claude.com/assets/v1/report-k0tv13nc.zip)
 
 Was this helpful?

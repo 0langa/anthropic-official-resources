@@ -2,13 +2,13 @@
 
 [## Alignment](https://www.anthropic.com/research/team/alignment)
 
-51 posts
+50 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
 
 [## Economics](https://www.anthropic.com/research/team/economics)
 
-26 posts
+27 posts
 
 Studies and monitors the impact of AI systems on individuals, firms, and economies.
 
@@ -20,7 +20,7 @@ Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
 [## Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-39 posts
+38 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 
@@ -32,25 +32,25 @@ Studies how large language models work internally as a foundation for AI safety.
 
 [## Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-25 posts
+30 posts
 
 Studies how AI affects people, both individually and collectively.
 
 [## Science](https://www.anthropic.com/science)
 
-19 posts
+20 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 
 [## Alignment](https://www.anthropic.com/research/team/alignment)
 
-51 posts
+50 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
 
 [## Economics](https://www.anthropic.com/research/team/economics)
 
-26 posts
+27 posts
 
 Studies and monitors the impact of AI systems on individuals, firms, and economies.
 
@@ -62,7 +62,7 @@ Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
 [## Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-39 posts
+38 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 
@@ -74,13 +74,13 @@ Studies how large language models work internally as a foundation for AI safety.
 
 [## Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-25 posts
+30 posts
 
 Studies how AI affects people, both individually and collectively.
 
 [## Science](https://www.anthropic.com/science)
 
-19 posts
+20 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 
@@ -126,13 +126,21 @@ Anthropic’s Economics team is sharing a new model of how AI may affect economi
 
 05
 
-210
+211
 
 ARTICLES
 
 Filter
 
 Most recentGallery view
+
+[Science](https://www.anthropic.com/science)
+
+Nov 17, 2026![Abstract illustration of a black circle, like a black hole, at the center of swirling marbled patterns, blue and gold above and brown and pale blue below.](https://assets.claude.com/ec63fc5eb209aafb67c9a140685e4cb13148ea02.jpg?w=3840&q=75&fm=webp&fit=max)
+
+### [Claude solves two open problems in the physics of black holes](https://www.anthropic.com/research/claude-black-hole-physics)
+
+Claude has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity.
 
 [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
@@ -144,7 +152,7 @@ We’re shortening the disclosure window in our coordinated vulnerability disclo
 
 [Engineering](https://www.anthropic.com/engineering)
 
-Nov 13, 2026![Illustration of two dark green gridded squares on a light green background. On the left, a tilted red square and an upright blue square overlap imperfectly, leaving their edges exposed; on the right, the two align exactly.](https://assets.claude.com/bab5121b9ac9a4bc3d4f5a212714bb21736398e8.jpg?w=3840&q=75&fm=webp&fit=max)
+Nov 13, 2026![Illustration of a tilted red gridded square and an upright blue gridded square overlapping imperfectly to form a dark green square, on a light green background.](https://assets.claude.com/abd5df81fa75d3f4a2b489a120e93f7af2f7456f.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Building strong safety evaluations](https://www.anthropic.com/research/building-strong-safety-evaluations)
 
@@ -152,7 +160,7 @@ Recommendations for designing, running, and reporting safety evaluations, based 
 
 [Science](https://www.anthropic.com/science)
 
-Nov 9, 2026![Abstract collage combining a close-up photograph of a circuit board with bright green panels of winding copper-track patterns.](https://assets.claude.com/48f86f517e975d4b7d500a4e445e0608577f41db.jpg?w=3840&q=75&fm=webp&fit=max)
+Nov 9, 2026![Abstract collage combining a close-up photograph of a circuit board with bright green panels of winding copper-track patterns.](https://assets.claude.com/da1561d7096742c3620943441254fa9d4aaa5590.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Testing Claude on real-world electronics design](https://www.anthropic.com/research/claude-electronics-design)
 
@@ -184,7 +192,7 @@ We analyzed 207,000 research sessions to learn how Claude is used in science, wh
 
 [Science](https://www.anthropic.com/science)
 
-Nov 4, 2026![Collage illustration pairing vintage measuring scales over a black-and-white photograph with a green print of a ribbed, vaulted cathedral ceiling.](https://assets.claude.com/2f15c0f8ea55da524841be51c8fde89d75f9b0d9.jpg?w=3840&q=75&fm=webp&fit=max)
+Nov 4, 2026![Collage illustration pairing vintage measuring scales over a black-and-white photograph with a green print of a ribbed, vaulted cathedral ceiling.](https://assets.claude.com/50d60818006da4782dc5edb2d5ee1fe9586cd787.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Investigating vault particles with Claude](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
 
@@ -200,7 +208,7 @@ We have made progress on a type of cryptographic proof known as a “zkSNARK.”
 
 [Science](https://www.anthropic.com/science)
 
-Oct 27, 2026![](https://assets.claude.com/eb51635204f8a73d9a0016d3c80cd7a93c7cbdda.jpg?w=3840&q=75&fm=webp&fit=max)
+Oct 27, 2026![](https://assets.claude.com/e5bf870837273d5d1e0e5966af0cb1c7efbdeaae.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development)
 
@@ -317,13 +325,5 @@ Sep 24, 2026![Two-panel illustration: on a dark background, five colored bars re
 ### [Project Swap: What happens when agents trade for us?](https://www.anthropic.com/research/project-swap)
 
 To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.
-
-[TeamName]
-
-Sep 23, 2026![](https://assets.claude.com/32b5d4713d1bdf08a8f2812f0274a9acbb9453e0.jpg?w=3840&q=75&fm=webp&fit=max)
-
-### [Claude discovers a novel enzyme system with CRISPR-like repeats](https://www.anthropic.com/research/claude-discovers-novel-enzyme-system)
-
-We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR.
 
 See more

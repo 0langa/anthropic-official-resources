@@ -10,7 +10,7 @@
 
 Starting today, Claude Code can capture work progress as an [artifact](https://claude.com/features/artifacts), which turn Claude Code's work into live, shareable visual pages— including PR walkthroughs, system explainers, dashboards, and release checklists—that update themselves as your session works.
 
-A Claude Code session can range from investigating an incident to refactoring a service to analyzing months of data. Artifacts translate the work into a web page anyone can open and explore, like a pull request walkthrough, a dashboard you can filter and sort, or even a release checklist that fills itself out as work gets done. Artifacts make it easier to collaborate on shared work, so teams can spend more time building and less time communicating status updates.
+A [Claude Code](https://claude.com/product/claude-code) session can range from investigating an incident to refactoring a service to analyzing months of data. Artifacts translate the work into a web page anyone can open and explore, like a pull request walkthrough, a dashboard you can filter and sort, or even a release checklist that fills itself out as work gets done. Artifacts make it easier to collaborate on shared work, so teams can spend more time building and less time communicating status updates.
 
 Embedded media: https://www.youtube-nocookie.com/embed/m7TJqx8CYG8?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
@@ -26,7 +26,7 @@ From our internal testing, one of our most common use cases has been debugging. 
 
 ## **Private to your organization**
 
-Every artifact is private to its author by default. When you're ready, share it with your teammates and your organization directly from the page. Artifacts are viewable only by authenticated members of your org and cannot be made public. Admins manage access with an org-level toggle and role-based scoping, set retention policies, and get org-wide visibility through the compliance API.
+Every artifact is private to its author by default. When you're ready, share it with your teammates and your organization directly from the page. Artifacts are viewable only by authenticated members of your org and cannot be made public. Admins manage access with an org-level toggle and role-based scoping, set retention policies, and get org-wide visibility through the [compliance API](https://claude.com/resources/articles/compliance-api-cowork-and-claude-code).
 
 ## **Getting started**
 

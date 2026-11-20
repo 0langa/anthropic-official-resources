@@ -15,7 +15,7 @@ Authors
     See more...
 
 Team
-:   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
+:   [Economics](https://www.anthropic.com/research/team/economics)
 
 Topics
 :   - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)

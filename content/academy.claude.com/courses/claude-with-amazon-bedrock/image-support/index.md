@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/nURTM58S22E?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=nURTM58S22E)
 
+Download `images.zip` from the Downloads section at the end of this lesson, unzip it, and put the `images` folder in the same folder as your code. The notebooks for this course aren't available here.
+
 Claude's vision capabilities allow you to include images in your messages and ask Claude to analyze, compare, count objects, or perform virtually any visual task you can imagine. This opens up powerful possibilities for applications ranging from document analysis to automated assessments.
 
 ## Image Handling Basics[](https://academy.claude.com/courses/claude-with-amazon-bedrock/image-support)
@@ -107,5 +109,15 @@ response = chat(messages)
 The key to success with this type of complex visual analysis is providing detailed, structured prompts that guide Claude through specific analysis steps rather than asking for a simple assessment.
 
 Remember: when working with images, don't fall into the trap of using simple prompts. Apply the same prompt engineering techniques you've learned for text-based interactions to dramatically improve Claude's visual analysis accuracy.
+
+## Downloads
+
+- 
+
+  ### Sample images (images.zip)
+
+  Contains the images folder, with seven satellite images of houses.
+
+  [Download](https://academy.claude.com/assets/v1/images-b6f3ouqk.zip)
 
 Was this helpful?

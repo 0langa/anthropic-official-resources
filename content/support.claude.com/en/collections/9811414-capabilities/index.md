@@ -1,6 +1,6 @@
 # Capabilities
 
-9 articles
+10 articles
 
 [Manage project visibility and sharing](https://support.claude.com/en/articles/9519189-manage-project-visibility-and-sharing)
 
@@ -19,3 +19,5 @@
 [Get started with Claude Motion](https://support.claude.com/en/articles/17454997-get-started-with-claude-motion)
 
 [Use Claude Meetings](https://support.claude.com/en/articles/18325154-use-claude-meetings)
+
+[Set up computer use for Team and Enterprise plans](https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans)

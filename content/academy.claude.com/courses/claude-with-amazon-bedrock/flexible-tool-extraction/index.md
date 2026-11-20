@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-amazon-bedrock%2Fflexible-tool-extraction)
 
+
+
+This lesson works with Claude Haiku 4.5, the model this course uses. Some newer models, including Claude Opus 5.5 and Claude Sonnet 5.5, return an error when you force a tool. See [Forcing tool use(opens in new tab)](https://platform.claude.com/docs/en/agents-and-tools/tool-use/define-tools) for what to use instead.
+
 Embedded media: https://www.youtube-nocookie.com/embed/Jzf8phQoD4U?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=Jzf8phQoD4U)

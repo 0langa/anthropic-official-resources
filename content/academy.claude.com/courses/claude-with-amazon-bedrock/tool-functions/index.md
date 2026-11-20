@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/ra1sFJBqYl4?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=ra1sFJBqYl4)
 
+The notebooks for this course aren't available here.
+
 Building tools for Claude requires solving several challenges that aren't immediately obvious. When you want Claude to set reminders for future dates, you quickly discover that while Claude knows the current date, it doesn't always know the exact time, struggles with complex date arithmetic, and has no built-in way to actually set reminders.
 
 ![In a chat, a user asks for a reminder for a doctor's appointment a week from Thursday, a goal that takes 3 to 4 custom tools.](https://academy.claude.com/assets/media/59f1421b35b91a9e12d77fe6fc39b9aa25f631d512952ff9d558642a0644650e.png)

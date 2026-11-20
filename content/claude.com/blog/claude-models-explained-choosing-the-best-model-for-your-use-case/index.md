@@ -33,7 +33,7 @@ The Mythos class ships in two packages of the same underlying model. Claude **My
 
 ### Opus
 
-Opus is our powerful model class for reasoning-intensive enterprise tasks. Opus models consistently rank among leading models on key industry benchmarks such as GDPval-AA for knowledge work and Terminal-Bench 2.1 for agentic coding.
+Opus is our powerful model class for reasoning-intensive enterprise tasks. Opus models consistently rank among leading models on key industry benchmarks such as GDPval-AA for [knowledge work](https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work) and Terminal-Bench 2.1 for agentic coding.
 
 The choice between Opus and Fable may not seem clear on the surface, as both excel at coding, long-running agents, and knowledge work. In real-world situations, larger models such as Fable tend to have more wisdom, creativity, and writing skills despite having similar benchmark scores to models such as Opus.
 
@@ -99,7 +99,23 @@ There is no one-size-fits-all approach to AI model selection, which is why we ma
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 13, 2026
+[ArticleNov 17, 2026
+
+### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
+
+How Claude spent two weeks load testing a staging cluster, breaking the Claude Docs service on purpose and fixing what fell over before launch, and what made the service legible enough for Claude to close the loop.
+
+Claude CodeClaude apps
+
+(opens in new tab)](https://claude.dev/blog/chaos-loop-claude-docs-launch/)[ArticleNov 16, 2026
+
+### How the Claude Code team thinks about verification
+
+How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)[ArticleNov 13, 2026
 
 ### Building always-on agents
 
@@ -111,19 +127,7 @@ Claude Platform](https://claude.com/resources/articles/building-always-on-agents
 
 How leading startups use Claude Tag to ship faster and scale operations
 
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
-
-### How Curative is building a national provider network with agents on Claude
-
-Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
-
-Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 9, 2026
-
-### Safely scaling multi-agent teams with Claude Fable 5.2
-
-How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
-
-(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 

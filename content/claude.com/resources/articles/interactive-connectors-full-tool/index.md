@@ -55,7 +55,11 @@ You can connect the tools we mention above from the [directory (opens in new tab
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 12, 2026
+[ArticleNov 17, 2026
+
+### Linked billing on the Claude Platform
+
+Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)[ArticleNov 12, 2026
 
 ### Operate Claude Managed Agents inside your security perimeter
 
@@ -69,13 +73,7 @@ A new plugin with 17 skills and four connectors helps manufacturers draft quotes
 
 ### Introducing Claude Meetings
 
-Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)[ArticleNov 10, 2026
-
-### More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
-
-Work at the speed of thought
-
-Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)
+Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)
 
 ## Transform how your organization operates with Claude
 

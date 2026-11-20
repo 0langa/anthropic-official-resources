@@ -50,8 +50,8 @@ A short checklist for your first two weeks, with links to go deeper. Start soon,
   The habits of working well with AI that every teammate brings to the shared room.
 - **[Academy course: Introduction to agent skills(opens in new tab)](https://academy.claude.com/courses/introduction-to-agent-skills)** ↗  
   For engineering teams: how written skills let an agent reuse your team's ways of working.
-- **[Docs: Claude Code in Slack(opens in new tab)](https://code.claude.com/docs/en/slack)** ↗  
-  For engineering teams: an agent that works from your team's Slack channels.
+- **[Docs: Work with GitHub in Claude Tag(opens in new tab)](https://claude.com/docs/claude-tag/users/use-cases/work-with-github)** ↗  
+  For engineering teams: an agent that works with your GitHub repositories from Slack.
 - **[Docs: Agent Skills overview(opens in new tab)](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview)** ↗  
   The technical reference behind skills, for whoever sets the agent up.
 - **[Academy tutorial: What is Claude Managed Agents?(opens in new tab)](https://academy.claude.com/tutorials/what-is-claude-managed-agents)** ↗  

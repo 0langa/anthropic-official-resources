@@ -19,7 +19,7 @@ So we built a buying agent on Claude Managed Agents (beta) that takes a prospect
 
 Before building the buying agent, our inbound process was fairly straightforward. A buyer filled out a form. The lead was routed to a business development rep, who qualified it and passed it to an account executive. That still works well when a team can talk to everyone who’s interested in the product.
 
-We had tens of thousands of inbound requests every month, and our inbound BDR team couldn’t keep up. Reps spent their days answering questions the docs already covered, and we didn’t have an effective way to reach all of the customers in the queue. This wasn't the experience we wanted for our customers.
+We had tens of thousands of inbound requests every month, and our [inbound BDR team](https://claude.com/resources/articles/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale) couldn’t keep up. Reps spent their days answering questions the docs already covered, and we didn’t have an effective way to reach all of the customers in the queue. This wasn't the experience we wanted for our customers.
 
 We wanted every customer to get a knowledgeable answer at any hour and in any language, and to be able to buy however they preferred, which often means without talking to a sales rep. We wanted our reps to spend their time on the conversations where they can change the trajectory of the outcome.
 
@@ -37,7 +37,7 @@ We built the agent to follow the same work of our sales reps, which means unders
 
 ## **Why did we use Claude Managed Agents?**
 
-Under the hood, the buying agent is simple: a prompt, a handful of tools, and Claude, running on Claude Managed Agents. Because the platform takes care of hosting, session management and tool orchestration, our engineers spent their time with sales designing the buying experience instead of building the infrastructure.
+Under the hood, the buying agent is simple: a prompt, a handful of tools, and Claude, running on Claude Managed Agents. Because the platform takes care of [hosting, session management and tool orchestration](https://claude.com/resources/articles/building-with-claude-managed-agents), our engineers spent their time with sales designing the buying experience instead of building the infrastructure.
 
 We ultimately landed on Managed Agents for the following reasons:
 
@@ -83,7 +83,23 @@ Not long ago, inbound was a queue our team couldn't keep up with. Now it's a con
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 13, 2026
+[ArticleNov 17, 2026
+
+### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
+
+How Claude spent two weeks load testing a staging cluster, breaking the Claude Docs service on purpose and fixing what fell over before launch, and what made the service legible enough for Claude to close the loop.
+
+Claude CodeClaude apps
+
+(opens in new tab)](https://claude.dev/blog/chaos-loop-claude-docs-launch/)[ArticleNov 16, 2026
+
+### How the Claude Code team thinks about verification
+
+How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)[ArticleNov 13, 2026
 
 ### Building always-on agents
 
@@ -95,19 +111,7 @@ Claude Platform](https://claude.com/resources/articles/building-always-on-agents
 
 How leading startups use Claude Tag to ship faster and scale operations
 
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
-
-### How Curative is building a national provider network with agents on Claude
-
-Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
-
-Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 9, 2026
-
-### Safely scaling multi-agent teams with Claude Fable 5.2
-
-How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
-
-(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 

@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/0sIKuQAo6hA?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=0sIKuQAo6hA)
 
+Download `earth.zip` from the Downloads section at the end of this lesson, unzip it, and put `earth.pdf` in the same folder as your code. The PDF is an excerpt from the Wikipedia article [Earth(opens in new tab)](https://en.wikipedia.org/wiki/Earth), by Wikipedia contributors, shared under [CC BY-SA 4.0(opens in new tab)](https://creativecommons.org/licenses/by-sa/4.0/).
+
 When Claude answers questions based on documents you provide, users might assume it's just drawing from its training data. But what if Claude could show exactly where it found specific information? That's where citations come in - a powerful feature that lets Claude reference specific parts of your source documents and show users exactly where each piece of information comes from.
 
 ## Why Citations Matter[](https://academy.claude.com/courses/building-with-the-claude-api/citations)
@@ -100,5 +102,15 @@ Citations are particularly valuable when:
 - Users might want to explore the broader context around specific facts
 
 By implementing citations, you transform Claude from a "black box" that provides answers into a transparent research assistant that shows its work. This builds user trust and enables them to dive deeper into your source materials when needed.
+
+## Downloads
+
+- 
+
+  ### Sample PDF (earth.zip)
+
+  Contains earth.pdf, four pages from the Wikipedia article Earth (CC BY-SA 4.0).
+
+  [Download](https://academy.claude.com/assets/v1/earth-cy92tvmb.zip)
 
 Was this helpful?

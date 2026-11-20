@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/TXePgw\_s9Qw?enablejsapi=
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=TXePgw_s9Qw)
 
+The notebooks for this course aren't available here.
+
 Prompt caching is a powerful optimization feature that makes your API requests both faster and cheaper when you're repeatedly sending the same content to Claude. Let's explore how to implement it effectively in your applications.
 
 ## How Prompt Caching Works[](https://academy.claude.com/courses/building-with-the-claude-api/prompt-caching-in-action)

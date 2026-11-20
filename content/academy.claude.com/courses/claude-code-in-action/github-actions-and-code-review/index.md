@@ -97,7 +97,7 @@ jobs:
           claude_args: "--max-turns 5 --model claude-sonnet-5"
 ```
 
-Now someone writes `@claude implement the spec in the linked Linear issue` on a pull request, and the action picks it up. Claude pushes commits and posts comments describing what it did.
+Now someone writes `@claude implement the spec in the linked GitHub issue` on a pull request, and the action picks it up. Claude pushes commits and posts comments describing what it did.
 
 ## A workflow that runs on a schedule[](https://academy.claude.com/courses/claude-code-in-action/github-actions-and-code-review)
 

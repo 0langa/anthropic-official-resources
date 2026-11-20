@@ -41,9 +41,9 @@ CLAUDE.md isn't just one file sitting in your project. There are four places it 
 Here's what each one is for:
 
 - **Managed policy** — the org-level file your platform team controls. You can't exclude it, so org policy is always in play.
-- **User** — your personal preferences that follow you across every project on your machine.
-- **Project** — the file shared with your team, checked into the repo.
-- **Local** — ignored by git. Your personal notes for this one repository only.
+- **User** — your personal preferences that follow you across every project on your machine, in `~/.claude/CLAUDE.md`.
+- **Project** — the `CLAUDE.md` file shared with your team, checked into the repo.
+- **Local** — your personal notes for this one repository only, in `CLAUDE.local.md`. Add it to `.gitignore` so it isn't committed.
 
 That last one, local, is easy to overlook but really handy. Say you're refactoring off in your own branch and you want Claude to hold some architectural decisions in mind while you work. That doesn't belong in the shared project file where it'd affect your whole team. It goes in local, where it's just yours for this repo.
 

@@ -4,6 +4,8 @@ Quiz 4 of 8 · Claude with Amazon BedrockQuiz on tool use
 
 Quiz 43 min
 
+Answer these questions for Claude Haiku 4.5, the model this course uses.
+
 ## Sign in to take the quiz
 
 Your quiz results and progress are saved to your Claude account.

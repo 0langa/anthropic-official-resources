@@ -61,7 +61,7 @@ You can (and should) commit your CLAUDE.md to version control so your team benef
 
 ## Tips[](https://academy.claude.com/courses/claude-code-101/the-claude-md-file)
 
-**Save corrections to memory.** If you find yourself correcting Claude repeatedly — like telling it to always use server actions instead of API routes — explicitly ask Claude to save that rule to memory. Next time you open the project, it'll know.
+**Save corrections to CLAUDE.md.** If you keep correcting Claude, like telling it to always use server actions instead of API routes, ask it to add that rule to CLAUDE.md. Next time you open the project, it'll know.
 
 ![Asking Claude to save a rule to the CLAUDE.md file — always use server actions instead of API routes](https://academy.claude.com/assets/media/aa738f148200bde3fe73a9c6457da77f035577f249bc0dc74149c1b91b0328ae.jpg)
 
@@ -72,8 +72,10 @@ markdown
 ```
 ## README.md
 
-Please read if you need more info: @README.md
+See @README.md for the project overview.
 ```
+
+Claude loads an imported file along with CLAUDE.md in every session, so import only what it always needs.
 
 **Start without one.** We recommend starting a project without a CLAUDE.md file so you can see where you constantly have to course-correct the model. This keeps your CLAUDE.md compact and focused on only the necessary information. When you're ready, run `/init` to have Claude generate one for you.
 

@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/l65t\_hOz6Pc?enablejsapi=
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=l65t_hOz6Pc)
 
+The notebooks for this course aren't available here.
+
 Contextual retrieval is a technique that improves RAG pipeline accuracy by solving a fundamental problem: when you split a document into chunks, each chunk loses its connection to the broader document context.
 
 ![Text chunks, two citing incident INC-2023-Q4-011, and the source document feed a prompt asking Claude to situate the chunk.](https://academy.claude.com/assets/media/e3b6f9ccb54e4c38966ff1e694675a8d2227d273053cbaaffa2810417dd87faa.png)

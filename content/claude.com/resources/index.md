@@ -14,16 +14,14 @@ Search AI agents`⌘K`
   ### The Claude Code guide for startups
 
   Claude Code](https://claude.com/resources/articles/claude-code-guide-for-startups)
+- [ArticleNov 12, 2026
+
+  ### Using Claude Opus 5.5 as your daily driver for knowledge work](https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work)
 - [Video1 min watch
 
   ### Introducing Claude Fable 5.2
 
   (opens in new tab)](https://www.youtube.com/watch?v=6a1QSJlsYpU)
-- [Video3 min watch
-
-  ### How AI is being used in humanitarian work
-
-  (opens in new tab)](https://www.youtube.com/watch?v=oZgcAsfvS_g)
 - [ArticleSep 23, 2026
 
   ### How to prepare for AI-driven code modernization projects
@@ -78,7 +76,11 @@ Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-ful
 
 Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
 
-Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)[ArticleNov 12, 2026
+Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)[ArticleNov 17, 2026
+
+### Linked billing on the Claude Platform
+
+Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)[ArticleNov 12, 2026
 
 ### Operate Claude Managed Agents inside your security perimeter
 
@@ -94,15 +96,7 @@ A new plugin with 17 skills and four connectors helps manufacturers draft quotes
 
 Work at the speed of thought
 
-Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)[ArticleNov 9, 2026
-
-### Claude Fable 5.2 and Mythos 5.2
-
-Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.
-
-Claude appsClaude Code1 more: Claude PlatformClaude Platform
-
-(opens in new tab)](https://www.anthropic.com/claude-fable-and-mythos-5-2)
+Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)
 
 ## Best practices
 
@@ -110,35 +104,37 @@ Proven workflows and practical guides to help your team get more out of Claude, 
 
 [See more](https://claude.com/resources/best-practices)
 
-![Animated diagram of how the five primitives of an always-on agent fit together](https://assets.claude.com/9f8df7b2dcc9d4637d27f37dae6e40a2a5851c8a.gif)
+![Figure comparing what a unit test failure and an end-to-end test failure show](https://assets.claude.com/36209043e95f027ee1462c987cee1bd903a6c59d.png?w=2400&q=75&fm=webp&fit=max)
 
 Article
 
-### Building always-on agents
+### How the Claude Code team thinks about verification
 
-Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
+How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest.
 
-[Learn more](https://claude.com/resources/articles/building-always-on-agents)
+[Learn more (opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)
 
-[WebinarUpcoming | Nov 18, 2026
+[WebinarOn demand
 
 ### How the Claude Code team does code review
 
 When agents write the code, pull requests pile up faster than anyone can read them.
 
-Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[WebinarUpcoming | Nov 17, 2026
+Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[WebinarNov 17, 2026
 
 ### Build Agents with Claude Models on Google Cloud
 
 The full Claude Platform is now on Google Cloud — build agents from the Google Cloud account you already run.
 
-Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[ArticleNov 13, 2026
+Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[ArticleNov 17, 2026
 
-### The Claude Tag guide for startups
+### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
 
-How leading startups use Claude Tag to ship faster and scale operations
+How Claude spent two weeks load testing a staging cluster, breaking the Claude Docs service on purpose and fixing what fell over before launch, and what made the service legible enough for Claude to close the loop.
 
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
+Claude CodeClaude apps
+
+(opens in new tab)](https://claude.dev/blog/chaos-loop-claude-docs-launch/)
 
 Recurring webinars
 
@@ -148,19 +144,19 @@ Recurring webinars
 - [Building your first workflow with CoworkWebinar](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)
 - [Claude Code: FoundationsWebinar](https://claude.com/resources/webinars/claude-code-foundations-series)
 
-[WebinarNov 12, 2026
+[ArticleNov 13, 2026
 
-### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
+### Building always-on agents
 
-Most nonprofit staff on Claude open a chat, get a decent but generic answer, and go back to doing it by hand.
+Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
 
-Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[ArticleNov 10, 2026
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
 
-### How Curative is building a national provider network with agents on Claude
+### The Claude Tag guide for startups
 
-Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
+How leading startups use Claude Tag to ship faster and scale operations
 
-Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
 
 ## Perspectives
 
@@ -291,13 +287,11 @@ Claude Platform](https://claude.com/resources/articles/building-agents-when-to-f
 
 ### Introducing Claude Duet
 
-A research preview is available by waitlist today, starting with US Pro, Max, and Ultra subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleNov 13, 2026
+A research preview is available by waitlist today, starting with US Pro, Max, and Ultra subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleNov 17, 2026
 
-### Building always-on agents
+### Linked billing on the Claude Platform
 
-Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
-
-Claude Platform](https://claude.com/resources/articles/building-always-on-agents)
+Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)
 
 ## Guides
 
@@ -341,7 +335,7 @@ Live and recorded sessions with Anthropic and customer teams — demos, deep div
 
 [See more](https://claude.com/resources/webinars)
 
-[WebinarUpcoming | Nov 19, 2026
+[WebinarNov 19, 2026
 
 ### Claude Rearview Roadmap Review: November 2026
 
@@ -349,23 +343,23 @@ Join the Anthropic product team for a live look back at what shipped, including 
 
 ### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
 
-A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)[WebinarUpcoming | Nov 18, 2026
+A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)[WebinarUpcoming | Dec 8, 2026
+
+### Best Practices for Government: IT Modernization with Claude
+
+Hear directly from a government technology leader on modernizing a legacy system with Claude, what they learned, and how peers can do it securely.](https://claude.com/resources/webinars/best-practices-for-government-it-modernization-with-claude)[WebinarOn demand
 
 ### How the Claude Code team does code review
 
 When agents write the code, pull requests pile up faster than anyone can read them.
 
-Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[WebinarUpcoming | Nov 17, 2026
+Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[WebinarNov 17, 2026
 
 ### Build Agents with Claude Models on Google Cloud
 
 The full Claude Platform is now on Google Cloud — build agents from the Google Cloud account you already run.
 
-Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[WebinarUpcoming | Nov 17, 2026
-
-### Claude for Manufacturing: Put Your Plant’s Know-How to Work
-
-This one-hour technical session covers where that’s heading, what works today, and how to start.](https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work)
+Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)
 
 ## Videos
 

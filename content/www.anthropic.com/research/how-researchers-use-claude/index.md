@@ -23,7 +23,7 @@ Topics
 
 Related articles
 
-- Societal Impacts
+- Economics
 
   May 27, 2026
 

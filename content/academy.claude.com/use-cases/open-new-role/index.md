@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-lbgzsezl.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-crjbtqxa.png)
 
-Film: the user asks Claude, via a Human Resources recruiting skill, to interview them about a new role and draft a specification, reading a template, leveling guide, and team charter to ask judgment-based questions, push back on vague answers, and flag open items for the recruiter.
+Film: the user asks Claude to interview them about a new role's scope, must-haves, level, and day-90 outcomes before writing a role spec. Claude questions the user from reference documents, pushes back on vague answers, and saves the intake as a reusable shared skill.
 
 Open a new role
 
@@ -36,17 +36,9 @@ Product levels P3–P7
 
 PDF
 
-Human Resources
-
-/draft-offer
-
-/interview-prep
-
-/recruiting-pipeline
-
 How can I help you today?
 
-**/**recruiting-pipeline Walk me through the intake for a Senior PM, Growth role: scope, must-haves versus nice-to-haves, level, and day-90 outcomes. Push back where I'm vague, then write the spec in our format and list what's open for the recruiter.
+Walk me through the intake for a Senior PM, Growth role: scope, must-haves versus nice-to-haves, level, and day-90 outcomes. Push back where I'm vague, then write the spec in our format and list what's open for the recruiter.
 
 Reading role-spec-template.docx0s
 
@@ -212,7 +204,7 @@ P5 per leveling-guide-2026.pdf §3: "owns a product metric and its roadmap end t
 
 Save this intake as a shared skill so every hiring manager at Fernway gets the same questions before a req opens.
 
-**/recruiting-pipeline**Interviews the hiring manager on scope, must-haves, level and day-90 outcomes, follows up on vague answers, and writes the spec in the People team’s template.
+**/role-intake**Interviews the hiring manager on scope, must-haves, level and day-90 outcomes, follows up on vague answers, and writes the spec in the People team’s template.
 
 ReadsHiring folder![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)Google Drive
 
@@ -230,7 +222,7 @@ Open a new role
 
 You are opening a new role and need a spec for the recruiter.
 
-With the Human Resources plugin’s recruiting skill, ask Claude to interview you first and push back.
+Ask Claude to interview you first and push back.
 
 Claude reads your template, leveling guide and team charter, then asks its questions from them.
 
@@ -244,7 +236,7 @@ Anything you did not decide is listed for the recruiter, not guessed.
 
 Share the intake as a skill so every hiring manager answers the same questions.
 
-The recruiter gets a complete role spec in your own words.
+The recruiter gets a complete role spec in your standard format.
 
 Walk me through the intake for a Senior PM, Growth role: scope, must-haves versus nice-to-haves, level, and day-90 outcomes. Push back where I'm vague, then write the spec in our format and list what's open for the recruiter.
 
@@ -254,31 +246,9 @@ I asked you five questions from the template, leveling guide and charter, then w
 
 senior-pm-growth-role-spec
 
-Skill: /recruiting-pipeline (Human Resources)
-
 Connectors: Google Drive
 
 ## 1. Set up[](https://academy.claude.com/use-cases/open-new-role)
-
-### Try a plugin[](https://academy.claude.com/use-cases/open-new-role)
-
-The Human Resources plugin ships with `/recruiting-pipeline` and other recruiting skills as a starting point, already structured to ask the intake questions in order and write to a spec template. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
-
-
-
-Human Resources9 skills for recruiting, onboarding, performance reviews, comp analysis, and org health reporting
-
-[Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=human-resources)
-
-`/recruiting-pipeline`Run the hiring-manager intake and produce a complete role specification
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Frecruiting-pipeline)
-
-`/interview-prep`Draft the external job description from an approved role spec
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Finterview-prep)
-
-Show all 9 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/open-new-role)
 
@@ -314,7 +284,7 @@ prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/open-new-role)
 
-Drag the files you'll use (your role spec template, the leveling guide, the team charter) into one folder on your machine, then point Claude at it. Claude reads from it during the intake and writes the finished spec back to it. If you open roles regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent Hiring folder so your templates and instructions stay attached.
+Drag the files you'll use (your role spec template, the leveling guide, the team charter) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from the folder during the intake and writes the finished spec back to it. If you open roles regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent Hiring folder so your templates and instructions stay attached.
 
 Hiring / Senior-PM-Growth
 
@@ -376,14 +346,15 @@ so you know where to look first when you review the draft.
 
 ## 3. Make Claude work for you[](https://academy.claude.com/use-cases/open-new-role)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your intake questions and how you apply your leveling guide, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the
-/recruiting-pipeline skill with my feedback.
+Make what we've done in this task so far into a skill called /role-intake.
 
 
 
 HiringOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -393,11 +364,11 @@ Make what we've done in this task so far into a skill, or edit the
 
 ### Run it whenever a headcount is approved[](https://academy.claude.com/use-cases/open-new-role)
 
-A new req gets approved, the intake should be waiting for the hiring manager. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill starts the conversation whenever a new role folder appears under Hiring.
+When a new role is approved, the intake should be waiting for the hiring manager. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/role-intake` runs each weekday morning in any new role folder you add under Hiring.
 
 Set up a scheduled task for weekdays at 9am: check Hiring for any new subfolder, run
-/recruiting-pipeline in each one, and save the intake transcript and finished
-role spec there.
+/role-intake in each one, and save the intake questions there
+so the intake is ready to start.
 
 
 
@@ -407,32 +378,30 @@ role spec there.
 
 New role intake
 
-Runs `/recruiting-pipeline` in every new subfolder under Hiring and writes the
-intake transcript and finished spec to that role's folder.
+Runs `/role-intake` in every new subfolder under Hiring and writes the
+intake questions to that role's folder.
 
 Every **Weekdays at 9am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## 5. Share with your teammates[](https://academy.claude.com/use-cases/open-new-role)
 
-Your customized `/recruiting-pipeline` now carries your intake questions, your leveling guide, and your spec template. Share it so every hiring manager runs the same intake, and recruiting receives a complete spec before the first call instead of after it.
+Your `/role-intake` skill now carries your intake questions, your leveling guide, and your spec template. Share it so every hiring manager runs the same intake, and recruiting receives a complete spec before the first call instead of after it.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...**
-menu next to `/recruiting-pipeline`, select **Share**, and pick your hiring
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...**
+menu next to `/role-intake`, select **Share**, and pick your hiring
 managers. For your whole organization, open the skill and select
-**Publish to org**, if your admin allows. They get the skill with your intake
-and templates baked in, so they don't repeat Steps 1-3.
+**Publish to org**, if your admin allows. Your teammates get the skill with your intake
+and templates baked in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/open-new-role)
 
 ### Now set up in Claude
-
-Your plugins
-
-Human Resources plugin
 
 Your tools
 

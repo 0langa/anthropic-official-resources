@@ -98,7 +98,7 @@ Show me the knobs
 
 ### The bridge
 
-The sampling strategies you just used are more or less the same sampling constraints that developers pass to Claude. For LLMs, a few things differ.
+The sampling strategies you just used are more or less the same ones LLMs use to pick each token, but a few other things differ.
 
 Markov chain
 

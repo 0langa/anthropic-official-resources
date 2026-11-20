@@ -30,7 +30,7 @@ Related articles
 
 *Claude Sonnet 4.6 is our most capable Sonnet model yet*. It’s a full upgrade of the model’s skills across coding, computer use, long-context reasoning, agent planning, knowledge work, and design. Sonnet 4.6 also features a 1M token context window in beta.
 
-For those on our [Free and Pro plans](https://claude.com/pricing), Claude Sonnet 4.6 is now the default model in [claude.ai](https://claude.ai/redirect/website.v1.8568e075-644a-43cf-837c-994b32038739) and [Claude Cowork](https://claude.com/product/cowork). [Pricing](https://claude.com/pricing) remains the same as Sonnet 4.5, starting at $3/$15 per million tokens.
+For those on our [Free and Pro plans](https://claude.com/pricing), Claude Sonnet 4.6 is now the default model in [claude.ai](https://claude.ai/redirect/website.v1.9a04ae4a-4398-414f-b5ae-019ac21348dc) and [Claude Cowork](https://claude.com/product/cowork). [Pricing](https://claude.com/pricing) remains the same as Sonnet 4.5, starting at $3/$15 per million tokens.
 
 Sonnet 4.6 brings much-improved coding skills to more of our users. Improvements in consistency, instruction following, and more have made developers with early access prefer Sonnet 4.6 to its predecessor by a wide margin. They often even prefer it to our smartest model from November 2025, Claude Opus 4.5.
 

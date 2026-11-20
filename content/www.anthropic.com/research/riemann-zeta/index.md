@@ -23,9 +23,9 @@ Related articles
 
 - Science
 
-  Nov 4, 2026
+  Nov 17, 2026
 
-  [Investigating vault particles with Claude](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
+  [Claude solves two open problems in the physics of black holes](https://www.anthropic.com/research/claude-black-hole-physics)
 
 [View more](https://www.anthropic.com/search?topic=discovery)
 

@@ -25,12 +25,12 @@ things easier.
 You can choose how much oversight to keep while Claude works. Press `Shift + Tab` to cycle between modes.
 
 - **Manual mode:** Claude asks permission each time it wants to edit a file or run a command.
-- **Auto-accept mode:** File edits and common filesystem commands like `mkdir`, `mv`, and `rm` are automatically approved, but other commands still require your permission.
+- **Accept edits mode:** File edits and common filesystem commands like `mkdir`, `mv`, and `rm` are automatically approved, but other commands still require your permission.
 - **Auto mode:** Claude works without routine permission prompts while a background safety check screens most actions; when something is blocked, Claude usually finds a safer approach or asks you for the go-ahead.
 
 There's no right or wrong answer — it's whatever you're comfortable with.
 
-![Claude Code in auto-accept mode, reading files and working through a task](https://academy.claude.com/assets/media/03c5a203be29e0bc03bd7b3fd14794232c15a9a6e1ecf583dcf6372ead0afab5.jpg)
+![Claude Code in accept edits mode, reading files and working through a task](https://academy.claude.com/assets/media/03c5a203be29e0bc03bd7b3fd14794232c15a9a6e1ecf583dcf6372ead0afab5.jpg)
 
 ## Plan Mode[](https://academy.claude.com/courses/claude-code-101/your-first-prompt)
 

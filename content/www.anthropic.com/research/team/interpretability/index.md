@@ -155,13 +155,13 @@ See more
 
 [### Alignment](https://www.anthropic.com/research/team/alignment)
 
-51 posts
+50 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
-26 posts
+27 posts
 
 Studies and monitors the impact of AI systems on individuals, firms, and economies.
 
@@ -173,19 +173,19 @@ Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
 [### Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-39 posts
+38 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 
 [### Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-25 posts
+30 posts
 
 Studies how AI affects people, both individually and collectively.
 
 [### Science](https://www.anthropic.com/science)
 
-19 posts
+20 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 
@@ -197,13 +197,13 @@ Studies how large language models work internally as a foundation for AI safety.
 
 [### Alignment](https://www.anthropic.com/research/team/alignment)
 
-51 posts
+50 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
-26 posts
+27 posts
 
 Studies and monitors the impact of AI systems on individuals, firms, and economies.
 
@@ -215,19 +215,19 @@ Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
 [### Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-39 posts
+38 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 
 [### Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-25 posts
+30 posts
 
 Studies how AI affects people, both individually and collectively.
 
 [### Science](https://www.anthropic.com/science)
 
-19 posts
+20 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 

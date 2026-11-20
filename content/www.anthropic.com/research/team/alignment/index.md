@@ -47,7 +47,7 @@ Why would AI assistants behave like they’re human? We articulate a theory—dr
 
 03
 
-51
+50
 
 ARTICLES
 
@@ -145,9 +145,9 @@ Aug 15, 2025![](https://assets.claude.com/64e615fc7cc6c0c6a2b7b31949e67151c8316f
 
 ### [Claude Opus 4 and 4.1 can now end a rare subset of conversations](https://www.anthropic.com/research/end-subset-conversations)
 
-Jun 27, 2025![](https://assets.claude.com/297962e4279c396ea5cb84c3f32578a5a26548b4.jpg?w=1080&q=75&fm=webp&fit=max)
+Jun 20, 2025![A bright green grid with one small dark square embedded in the green grid.](https://assets.claude.com/0601ebcdafb2689e183a0e330566bf13307f6ee7.jpg?w=1080&q=75&fm=webp&fit=max)
 
-### [How people use Claude for support, advice, and companionship](https://www.anthropic.com/research/how-people-use-claude-for-support-advice-and-companionship)
+### [Agentic misalignment: How LLMs could be insider threats](https://www.anthropic.com/research/agentic-misalignment)
 
 See more
 
@@ -155,7 +155,7 @@ See more
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
-26 posts
+27 posts
 
 Studies and monitors the impact of AI systems on individuals, firms, and economies.
 
@@ -167,7 +167,7 @@ Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
 [### Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-39 posts
+38 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 
@@ -179,25 +179,25 @@ Studies how large language models work internally as a foundation for AI safety.
 
 [### Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-25 posts
+30 posts
 
 Studies how AI affects people, both individually and collectively.
 
 [### Science](https://www.anthropic.com/science)
 
-19 posts
+20 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 
 [### Alignment](https://www.anthropic.com/research/team/alignment)
 
-51 posts
+50 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
-26 posts
+27 posts
 
 Studies and monitors the impact of AI systems on individuals, firms, and economies.
 
@@ -209,7 +209,7 @@ Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
 [### Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-39 posts
+38 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 
@@ -221,18 +221,18 @@ Studies how large language models work internally as a foundation for AI safety.
 
 [### Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-25 posts
+30 posts
 
 Studies how AI affects people, both individually and collectively.
 
 [### Science](https://www.anthropic.com/science)
 
-19 posts
+20 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 
 [### Alignment](https://www.anthropic.com/research/team/alignment)
 
-51 posts
+50 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.

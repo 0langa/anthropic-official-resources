@@ -47,9 +47,11 @@ We expect many organizations conducting defensive cybersecurity work to qualify 
 
 Given the increased eligibility requirements and security controls, we expect applications in this tier to take a few weeks to review. Qualifying organizations will be enrolled in the Defense Accesstier while we review their Red Team Access applications. Currently, this tier is for organizations only; individual researchers are not eligible.
 
-**Specialized Access**, which has the fewest cyber blocks, is reserved for a limited set of verified organizations that are authorized to test safety systems that could impact people’s lives or disrupt markets, such as flight operating systems, power grids, telecom networks, interbank transfer infrastructure, and government administrative networks.
+**Specialized Access**, which has the fewest cyber blocks, is reserved for a limited set of verified organizations dedicated to red-teaming systemically important infrastructure whose failure could impact people’s lives or disrupt markets, such as flight operating systems, power grids, telecom networks, interbank transfer infrastructure, and government administrative networks. Organizations in this tier can conduct authorized penetration testing and red-teaming of this infrastructure, as well as research into the highest-severity techniques.
 
-For this tier, we currently review every organization in depth in collaboration with the US government. Existing members of Project Glasswing will transition to this tier and do not require reapproval for current models.
+Most critical infrastructure organizations can do their security work with Defense or Red Team Access. Operating critical infrastructure doesn’t, by itself, qualify an organization for Specialized Access; applicants must show that they’re authorized to test this type of infrastructure and describe the work they can’t do with Red Team Access. Like Red Team Access, this tier is available only on Enterprise and API plans.
+
+We currently review every application for this tier in depth, in collaboration with the US government, so reviews take longer than they do for Red Team Access. Organizations that qualify for a lower tier will receive access to that tier while we complete our review. Existing members of Project Glasswing will transition to Specialized Access and won’t need to be reapproved for current models.
 
 Our generally available models can continue to be used for tasks such as code review, patching known issues, vulnerability finding in owned source code, and triage of security alerts.
 
@@ -57,7 +59,7 @@ Data retention is required for organizations enrolled in the program so that we 
 
 Below, we share an overview of what’s available at each CVP access level, as well as requirements for security and privacy controls:
 
-![](https://assets.claude.com/2ba6c7a952f96fe64cd47303ae20d367f51e0b6a.png?w=3840&q=75&fm=webp&fit=max)
+![](https://assets.claude.com/0ab0a4a146f7058b9553e4f34ddd70a5b180d7c5.png?w=3840&q=75&fm=webp&fit=max)
 
 Overview of the Cyber Verification Program tiers.
 
@@ -96,3 +98,5 @@ Interested organizations can [apply to CVP here](https://portal.anthropic.com/pr
 CVP is available on the Claude Platform, Google Cloud’s Vertex AI, and Microsoft Foundry. CVP is only available on Amazon Bedrock for customers eligible for [Enterprise Frontier Safeguards](https://www.anthropic.com/news/enterprise-frontier-safeguards).
 
 If you’re blocked on work you think your tier should allow, you can [report it here](https://claude.com/form/cyber-block-false-positive-report-cvp-rejection-appeal). Full details on each tier can be found in our [Help Center](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude-opus-and-sonnet).
+
+*Updated November 18, 2026, to reflect changes to plan availability for Red Team Access and Specialized Access, and to clarify who qualifies for Specialized Access.*

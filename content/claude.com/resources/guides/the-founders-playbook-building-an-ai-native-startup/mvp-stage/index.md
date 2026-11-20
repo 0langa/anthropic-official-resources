@@ -56,7 +56,7 @@ The antidote is a written scope definition created before building begins, descr
 
 The hard truth is that agentic coding tools generate code that works, not code that is inherently secure. Functional code is easy, because either the feature works or it doesn't. Security vulnerabilities are invisible until they're exploited, which means there's no natural feedback loop to alert a first-time founder that something is wrong. Shipping a live MVP to real users, however, means real data, real exposure, and real consequences if something goes wrong.
 
-Slighting security isn't brand new to AI-native projects. Bootstrapped startups in every era often delayed security considerations until late in the build, sometimes waiting until the verge of production launch. A security review before any user touches your app or solution is the minimum responsible threshold for releasing a minimum viable product into the world.
+Slighting security isn't brand new to AI-native projects. Bootstrapped startups in every era often delayed security considerations until late in the build, sometimes waiting until the verge of production launch. A [security review (opens in new tab)](https://claude.com/resources/articles/automate-security-reviews-with-claude-code) before any user touches your app or solution is the minimum responsible threshold for releasing a minimum viable product into the world.
 
 ## How Claude can help MVP stage founders
 

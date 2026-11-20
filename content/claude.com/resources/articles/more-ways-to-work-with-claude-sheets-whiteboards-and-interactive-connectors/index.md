@@ -22,7 +22,7 @@ Starting today, Claude can build spreadsheets, whiteboards, and dashboards with 
 
 - [**New artifact types** (opens in new tab)](https://claude.com/resources/articles/sheets-whiteboards-data):
   - In Claude Sheets, your team and Claude build spreadsheets together, collaboratively organize data, create and edit formulas, and work across multiple tabs.
-  - Claude Whiteboards is a digital whiteboard that your team can use to lay out and organize ideas together in a meeting, then ask Claude to summarize the findings.
+  - Claude Whiteboards is a digital whiteboard that your team can use to lay out and organize ideas together [in a meeting](https://claude.com/resources/articles/claude-meetings), then ask Claude to summarize the findings.
   - Claude Data (formerly Dashboards) connects to tools like Snowflake and Salesforce and can use definitions your data team certifies (beta) to create dashboards, visual data stories, or narrated short videos.
 
 You can also ask Claude to build custom artifacts for the way your team works, like an account tracker, a daily briefing, a project status board, or a contract review table. Since Claude carries the same context through every step, an idea can carry over from a whiteboard to a spreadsheet to a dashboard, without the need to reiterate the details.
@@ -125,7 +125,11 @@ Modern work is set up around software, but Claude works around you. It knows you
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 12, 2026
+[ArticleNov 17, 2026
+
+### Linked billing on the Claude Platform
+
+Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)[ArticleNov 12, 2026
 
 ### Operate Claude Managed Agents inside your security perimeter
 
@@ -139,13 +143,7 @@ A new plugin with 17 skills and four connectors helps manufacturers draft quotes
 
 ### Introducing Claude Meetings
 
-Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)[ArticleNov 10, 2026
-
-### Your apps can now open in Claude, and Claude can work in them
-
-Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.
-
-Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)
+Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)
 
 ## Transform how your organization operates with Claude
 

@@ -10,7 +10,7 @@ ProductAll
 
 RoleAll
 
-431 resources
+428 resources
 
 [## AI capabilities and limitations
 
@@ -324,7 +324,7 @@ Effort tells your model how many resources to spend on a task. When to turn it d
 
 Claude Cowork brings Claude’s agentic capabilities to Claude.ai and the Claude Desktop app, enabling multi-step knowledge work beyond coding
 
-·20 min](https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide)[![](https://academy.claude.com/assets/v1/thumbnail.light-fug4apyj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-g8e7vz1g.png)
+·20 min](https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide)[![](https://academy.claude.com/assets/v1/thumbnail.light-din0sfxj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lul6z3c2.png)
 
 ## Claude Enterprise Administrator Guide
 
@@ -342,7 +342,7 @@ Overview of how Claude serves financial professionals with AI assistance for res
 
 A self-paced guide to help nonprofit staff build confidence with Claude and discover practical applications for their role.
 
-·2 min](https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-guide-for-all-users)[![](https://academy.claude.com/assets/v1/thumbnail.light-obam6bfm.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-l6k10vcr.png)
+·2 min](https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-guide-for-all-users)[![](https://academy.claude.com/assets/v1/thumbnail.light-rl6i10ki.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ir68uyt0.png)
 
 ## Claude for nonprofits partnership success guide for admins
 
@@ -560,57 +560,21 @@ ProductAll
 
 StatusAll
 
-107 webinars
+104 webinars
 
 [Upcoming
 
-## Claude for Manufacturing: Put Your Plant’s Know-How to Work 
+## Best Practices for Government: IT Modernization with Claude 
 
-How manufacturing teams use Claude to draft quotes, NCRs, and reports from plant records, plus the Model Hardware Standard and Infor connector demos.
+A government tech leader shares how to securely modernize legacy systems with Claude, where to start, and how to stay in control.
 
-ABGBNF+1
+CCMC
 
-·Nov 17·8:00 AM PT
+·Dec 8·9:00 AM PT
 
-·Upcoming·Nov 17·8:00 AM PT
+·Upcoming·Dec 8·9:00 AM PT
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-for-manufacturing-put-your-plants-know-how-to-work)[Upcoming
-
-## Build Agents with Claude Models on Google Cloud 
-
-Build agents on the full Claude Platform inside your Google Cloud account, with code execution, Files API, Skills, and governance.
-
-RAINED
-
-·Nov 17·10:00 AM PT
-
-·Upcoming·Nov 17·10:00 AM PT
-
- (opens in new tab)](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[Upcoming
-
-## How the Claude Code team does code review 
-
-How the Claude Code team cut reverts 40% while doubling merged PRs, with AI review, risk-based human approval, and evals.
-
-ML
-
-·Nov 18·12:00 PM PT
-
-·Upcoming·Nov 18·12:00 PM PT
-
- (opens in new tab)](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[Upcoming
-
-## Claude Rearview Roadmap Review: November 2026 
-
-A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
-
-SS
-
-·Nov 19·1:00 PM PT
-
-·Upcoming·Nov 19·1:00 PM PT
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording
+ (opens in new tab)](https://claude.com/resources/webinars/best-practices-for-government-it-modernization-with-claude)[Recording
 
 ## The State of Cybersecurity: What Frontier AI Changes for Security Leaders 
 
@@ -846,4 +810,40 @@ BNPNDP
 
 ·Recording·Sep 18
 
- (opens in new tab)](https://claude.com/resources/webinars/inside-claude-for-financial-advisors)Load more
+ (opens in new tab)](https://claude.com/resources/webinars/inside-claude-for-financial-advisors)[Recording
+
+## Enterprise Transformation with Claude on AWS: Paths to Production 
+
+Explore the multiple paths to running Claude on AWS, from Claude Platform and Bedrock to Claude Enterprise and Desktop, with live Claude Code demos.
+
+JASMAR
+
+·Sep 16
+
+·Recording·Sep 16
+
+ (opens in new tab)](https://claude.com/resources/webinars/enterprise-transformation-with-claude-on-aws-three-paths-to-production)[Recording
+
+## Scaling Claude with Cost Controls 
+
+A practical setup for Claude Enterprise cost controls: model defaults, per-teammate spend visibility, Analytics Chat, and usage reporting.
+
+MD
+
+·Sep 15
+
+·Recording·Sep 15
+
+ (opens in new tab)](https://claude.com/resources/webinars/scaling-claude-with-cost-controls-sept-2026)[Recording
+
+## Building Claude Commerce Agents 
+
+Blueprints for building consumer and merchant commerce agents on Claude, with reference implementations across retail, travel, telecom, and entertainment.
+
+ASNH
+
+·Sep 10
+
+·Recording·Sep 10
+
+ (opens in new tab)](https://claude.com/resources/webinars/building-claude-commerce-agents)Load more

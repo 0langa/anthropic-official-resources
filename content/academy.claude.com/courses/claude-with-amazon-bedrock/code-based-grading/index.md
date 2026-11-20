@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/RyjSheYdulg?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=RyjSheYdulg)
 
+The notebooks for this course aren't available here.
+
 Code-based grading adds an extra layer of validation to your prompt evaluations by checking whether the model's output follows the correct format and has valid syntax. This is especially useful when you're asking models to generate code, JSON, or regular expressions.
 
 ## How Code Grading Works[](https://academy.claude.com/courses/claude-with-amazon-bedrock/code-based-grading)

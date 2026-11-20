@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/Npo436sR4uY?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=Npo436sR4uY)
 
+The notebooks for this course aren't available here.
+
 When evaluating AI models that generate code, you need more than just checking if the response makes sense. You also need to verify that the generated code actually has valid syntax and follows the correct format. This is where code-based grading comes in.
 
 ## How Code Grading Works[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/code-based-grading)

@@ -21,18 +21,21 @@ When Claude responds with a tool use block, you extract the input parameters and
 python
 
 ```
-response.content[1].input
+tool_use = next(b for b in response.content if b.type == "tool_use")
+tool_use.input
 ```
 
-This gives you a dictionary of the arguments Claude wants to pass to your function. Since your function expects keyword arguments rather than a dictionary, you use Python's unpacking syntax:
+Find the block by its type, not its position. Claude doesn't always write text before the tool use block, so a fixed index such as `response.content[1]` can raise an `IndexError`.
+
+`tool_use.input` is a dictionary of the arguments Claude wants to pass to your function. Since your function expects keyword arguments rather than a dictionary, you use Python's unpacking syntax:
 
 python
 
 ```
-get_current_datetime(**response.content[1].input)
+get_current_datetime(**tool_use.input)
 ```
 
-![Notebook cell running the unpacking call shown above, which returns the time string "14:41:05".](https://academy.claude.com/assets/media/e2516a817e8c2faed5b8b550b6ee5b9ba916b72f3c56bfd3bdd116879ba030f8.png)
+![Notebook cell running the unpacking call, which returns the time string "14:41:05".](https://academy.claude.com/assets/media/e2516a817e8c2faed5b8b550b6ee5b9ba916b72f3c56bfd3bdd116879ba030f8.png)
 
 ## Tool Result Block[](https://academy.claude.com/courses/building-with-the-claude-api/sending-tool-results)
 
@@ -67,7 +70,7 @@ messages.append({
     "role": "user",
     "content": [{
         "type": "tool_result",
-        "tool_use_id": response.content[1].id,
+        "tool_use_id": tool_use.id,
         "content": "15:04:22",
         "is_error": False
     }]

@@ -28,8 +28,8 @@ Related articles
 
 [View more](https://www.anthropic.com/search?topic=cybersecurity)
 
-*Keane Lucas, Aengus Lynch, Luna Tong, Luke Champine, Zygi Straznickas, Dino Distefano, Harshikaa Agrawal, Cheru Berhanu  
-Evyatar Ben Asher, Ava Howell, Sami Jawhar, Chris Rohlf, Nickolai Zeldovich  
+*Keane Lucas, Aengus Lynch, Luna Tong, Luke Champine, Zygi Straznickas, Dino Distefano, Harshikaa Agrawal  
+Evyatar Ben Asher, Cheru Berhanu, Ava Howell, Sami Jawhar, Chris Rohlf, Nickolai Zeldovich  
 Nicholas Carlini, Rajashree Agrawal, Jason Gross*
 
 *Most software is riddled with bugs, which AI can now easily [find](https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/) and [exploit](https://www.anthropic.com/research/exploit-evals). The standard defenses against cyberattacks are no longer sufficient: we need ways to prove that code is free of bugs. Formal software verification could provide this guarantee, but it has historically required years of expert effort, making it impractical for most real-world projects. In a collaboration with [Theorem](https://theorem.dev/), however, we show this is no longer the case: LLMs can now produce formal proofs at large scale, enabling new software development workflows that include proven security guarantees. Using Claude, we proved security properties at the assembly code level (RISC-V) in over 100 real-world open-source software libraries. **To our knowledge, this represents the first large-scale effort to use AI to apply formal verification to production software at the assembly code level.** While writing the proofs, Claude also discovered bugs that had eluded detection for years, despite [trillions of test runs](https://opensource.googleblog.com/2016/12/announcing-oss-fuzz-continuous-fuzzing.html). As model capabilities continue to improve, we expect formal verification to become an essential part of secure software development.*

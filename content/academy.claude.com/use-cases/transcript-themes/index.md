@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-kzha9gcj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kjzr1f4d.png)
 
-Film: the user asks Claude to read a folder of sales call transcripts against a theme taxonomy and writes a one-page brief with counts, quotes, and accounts per theme. It shows Claude checking CRM records, asking which findings matter for product, and scheduling the brief to rerun for future quarters.
+Film: the user has Claude read sales call transcripts against a theme taxonomy, pausing to ask which customer requests to escalate, then returns a themes brief and coding sheet, and shows scheduling it quarterly.
 
 2026-Q2
 
@@ -40,17 +40,9 @@ themes-taxonomy.docx
 
 DOCX
 
-Sales
-
-/account-research
-
-/call-prep
-
-/call-summary
-
 How can I help you today?
 
-**/**call-summary Read every transcript in this folder and cluster what customers say into themes. For each theme give the count, the best one-line quote and which accounts said it. Write a one-page themes brief for product and marketing.
+Read every transcript in this folder and cluster what customers say into themes. For each theme give the count, the best one-line quote and which accounts said it. Write a one-page themes brief for product and marketing.
 
 Reading themes-taxonomy.docx0s
 
@@ -210,7 +202,7 @@ Audit log export 0 → 9 calls; onboarding up 9 → 14; report filters down 15 �
 
 Method: every call with its themes, best quote, speaker role and confidence is in q2-call-coding.xlsx (Calls tab, 40 rows; Themes tab, 10 rows).
 
-Run this every Monday: if a new quarter folder is in Calls, write its themes brief and coding sheet the same way and add what is new since last quarter.
+Run this every Monday: if a new quarter folder is in Calls, write the previous quarter’s themes brief and coding sheet the same way and add what is new since last quarter.
 
 **Quarterly call themes**Mondays at 9:00 AM
 
@@ -218,9 +210,9 @@ Each run
 
 Checks Calls for a new quarter folder
 
-Codes its transcripts against your taxonomy
+Codes the previous quarter’s transcripts against your taxonomy
 
-Writes the themes brief and coding sheet to that folder*for you to review*
+Writes the themes brief and coding sheet to that quarter’s folder*for you to review*
 
 Claude Academy
 
@@ -234,7 +226,7 @@ Find the themes across sales calls
 
 You have a quarter of sales call transcripts and need the themes across them.
 
-Using the Sales plugin’s call summary skill, give your theme list and ask for counts.
+Give your theme list and ask for counts.
 
 Claude reads every transcript against your taxonomy, then matches the accounts in your CRM.
 
@@ -258,31 +250,9 @@ I coded the 40 Q2 transcripts against your nine themes: slow first import leads 
 
 Q2-call-themes.docx, q2-call-coding.xlsx
 
-Skill: /call-summary (Sales)
-
 Connectors: Salesforce, Google Drive
 
 ## Set up[](https://academy.claude.com/use-cases/transcript-themes)
-
-### Try a plugin[](https://academy.claude.com/use-cases/transcript-themes)
-
-The Sales plugin ships with `/call-summary` and other voice-of-customer skills as a starting point, already structured to read a batch of transcripts and roll them up into named themes with counts and quotes. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
-
-
-
-SalesSkills for account research, call prep, pipeline review, and account health
-
-[Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=sales)
-
-`/call-summary`Cluster a folder of call transcripts into themes with counts and quotes
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcall-summary)
-
-`/pipeline-review`Score account health from usage, tickets, NPS, and the success plan
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fpipeline-review)
-
-Show all 9 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/transcript-themes)
 
@@ -312,7 +282,7 @@ Google Drive
 
 ### Set your working folder[](https://academy.claude.com/use-cases/transcript-themes)
 
-Drag the files you'll use (the transcript exports, any prior themes brief, your theme taxonomy if you have one) into one folder on your machine, then point Claude at it. Claude reads every transcript in place and writes the themes brief back to the same folder. If you run this every quarter, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your taxonomy, instructions, and memory stay attached.
+Drag the files you'll use (the transcript exports, any prior themes brief, your theme taxonomy if you have one) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads every transcript in place and writes the themes brief back to the same folder. If you run this every quarter, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your taxonomy, instructions, and memory stay attached.
 
 Calls / 2026-Q1
 
@@ -366,13 +336,15 @@ Read every transcript in this folder and cluster what customers are saying into 
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/transcript-themes)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your segment splits and your brief format, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /call-summary skill with my feedback.
+Make what we've done in this task so far into a skill called /call-themes.
 
 
 
-CallsOpen in Claude
+Calls / 2026-Q1Open in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -382,9 +354,9 @@ Make what we've done in this task so far into a skill, or edit the /call-summary
 
 ### Run it as the quarter closes[](https://academy.claude.com/use-cases/transcript-themes)
 
-Themes are most useful when they land before planning, not after. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill reads the quarter's folder and writes the brief as soon as the new quarter folder appears.
+Themes are most useful when they land before planning, not after. Give Claude access to the Calls folder that holds your quarter folders. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/call-themes` reads the quarter's folder and writes the brief once the new quarter folder appears.
 
-Set up a scheduled task for every Monday at 9am: if a new quarter folder exists under Calls, run /call-summary on the previous quarter's folder and write the themes brief there. Include a section on what's new versus last quarter.
+Set up a scheduled task for every Monday at 9am: if a new quarter folder exists under Calls and the previous quarter has no themes brief yet, run /call-themes on the previous quarter's folder and write the themes brief there. Include a section on what's new versus last quarter.
 
 
 
@@ -394,31 +366,29 @@ Set up a scheduled task for every Monday at 9am: if a new quarter folder exists 
 
 Quarterly call themes
 
-Runs `/call-summary` on the previous quarter's transcript folder and writes the one-page brief, with a section on what's new versus last quarter.
+Runs `/call-themes` on the previous quarter's transcript folder and writes the one-page brief, with a section on what's new versus last quarter.
 
 Every **Monday at 9:00 AM**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/transcript-themes)
 
-Your customized `/call-summary` now carries your taxonomy, your segment splits, and your brief format. Share it so anyone on the CS or sales team can run it on their own calls, and product hears the same theme names from every region.
+Your `/call-themes` skill now carries your taxonomy, your segment splits, and your brief format. Share it so anyone on the CS or sales team can run it on their own calls, and product hears the same theme names from every region.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/call-summary`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your taxonomy and format baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/call-themes`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your taxonomy and format baked in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/transcript-themes)
 
 ### Now set up in Claude
 
-Your plugins
-
-Sales plugin
-
 Your tools
 
-![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2300A1E0'%20d='M10.01%205.56a4.18%204.18%200%200%201%203.02-1.3c1.58%200%202.96.88%203.7%202.19a5.12%205.12%200%200%201%202.1-.45%205.18%205.18%200%200%201%200%2010.36c-.37%200-.73-.04-1.07-.11a3.77%203.77%200%200%201-4.94%201.55%204.3%204.3%200%200%201-7.99-.2%203.98%203.98%200%200%201-.82.09%203.97%203.97%200%200%201-1.96-7.43%204.57%204.57%200%200%201%207.96-4.7'/%3e%3c/svg%3e)SalesforceGong![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)Google Drive
+![](data:image/svg+xml,%3csvg%20viewBox='0%200%2024%2024'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill='%2300A1E0'%20d='M10.01%205.56a4.18%204.18%200%200%201%203.02-1.3c1.58%200%202.96.88%203.7%202.19a5.12%205.12%200%200%201%202.1-.45%205.18%205.18%200%200%201%200%2010.36c-.37%200-.73-.04-1.07-.11a3.77%203.77%200%200%201-4.94%201.55%204.3%204.3%200%200%201-7.99-.2%203.98%203.98%200%200%201-.82.09%203.97%203.97%200%200%201-1.96-7.43%204.57%204.57%200%200%201%207.96-4.7'/%3e%3c/svg%3e)Salesforce![](data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m1.846%2012.624.64%201.104c.133.233.324.415.548.548l2.284-3.953H.75c0%20.258.066.515.199.748l.897%201.553Z'%20fill='%230066DA'/%3e%3cpath%20d='M8%205.672%205.716%201.72a1.54%201.54%200%200%200-.548.548L.949%209.576a1.53%201.53%200%200%200-.199.747h4.568L8%205.672Z'%20fill='%2300AC47'/%3e%3cpath%20d='M12.966%2014.276c.225-.133.415-.315.548-.548l.266-.457%201.27-2.2a1.5%201.5%200%200%200%20.2-.748h-4.568l.972%201.91%201.312%202.043Z'%20fill='%23EA4335'/%3e%3cpath%20d='M8%205.672%2010.284%201.72a1.5%201.5%200%200%200-.748-.2H6.464a1.5%201.5%200%200%200-.748.2L8%205.672Z'%20fill='%2300832D'/%3e%3cpath%20d='M10.682%2010.323H5.318l-2.284%203.953c.224.133.482.2.747.2h8.438c.265%200%20.523-.075.747-.2l-2.284-3.953Z'%20fill='%232684FC'/%3e%3cpath%20d='m12.941%205.922-2.11-3.655a1.54%201.54%200%200%200-.547-.548L8%205.672l2.682%204.651h4.56a1.5%201.5%200%200%200-.2-.747L12.94%205.922Z'%20fill='%23FFBA00'/%3e%3c/svg%3e)Google Drive
 
 Your folder
 

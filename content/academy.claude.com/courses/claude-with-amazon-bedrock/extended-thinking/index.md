@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/42DzUMSO2rw?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=42DzUMSO2rw)
 
+The notebooks for this course aren't available here.
+
 Extended thinking is Claude's advanced feature that gives the model time to reason through complex problems before generating a final response. Think of it as Claude's internal monologue - you can see how it approaches your problem step by step.
 
 ![Claude chat about closing JSON delimiters, with callouts labeling "User Query", "Thinking / Reasoning" and "Response".](https://academy.claude.com/assets/media/0bd1c482a9cdf3617fbf43e2386eea9cd78fe67c3ad91b25908844201784558c.png)

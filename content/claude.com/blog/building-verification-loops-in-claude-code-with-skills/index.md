@@ -11,7 +11,7 @@ How to turn your manual checks into skills, so Claude closes its own feedback lo
 
 Most [agentic coding](https://claude.com/resources/articles/introduction-to-agentic-coding) sessions follow a loop: you ask for a change, Claude gathers context, takes action, verifies the results, and if needed, loops back to gather additional context.
 
-Verification is how agents check their work before responding. Claude already does some of this from observing the deterministic signals in your codebase, including type checkers, linters, tests, and runtime errors. Whatever Claude can't infer becomes the steps you take to manually check a feature.
+Verification is [how agents check their work](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/) before responding. Claude already does some of this from observing the deterministic signals in your codebase, including type checkers, linters, tests, and runtime errors. Whatever Claude can't infer becomes the steps you take to manually check a feature.
 
 These manual steps, however, can be transformed into verification loops. In [Claude Code](https://claude.com/product/claude-code), a verification loop is an iterative process where Claude checks and attempts to fix the work.
 
@@ -32,8 +32,8 @@ A verification loop is a repeating cycle where an AI agent checks its own work �
 Before diving into designing custom verification loops, it can be helpful to understand the built-in support Claude has for a number of different verification loops. Common features and approaches include:
 
 - **/verify skill**: builds, runs, and observes the changes in your application.
-- **Toolchain**: Claude aims to catch and act on error codes and warnings from any tool you provide such as a linter. A good practice is to list your exact build and test commands in CLAUDE.md so Claude doesn't have to infer them.
-- **Code Review (research preview)**: A managed multi-agent service that runs an automated review pass on PRs in the repos you enable. You can manually fix the finding and push, or close the loop by commenting @claude on the finding (if you’ve already set up and configured GitHub Actions, below).
+- **Toolchain**: Claude aims to catch and act on error codes and warnings from any tool you provide such as a linter. A good practice is to list your exact build and test commands in [CLAUDE.md](https://claude.com/resources/articles/using-claude-md-files) so Claude doesn't have to infer them.
+- **[Code Review](https://claude.com/resources/articles/code-review-is-now-generally-available) (research preview)**: A managed multi-agent service that runs an automated review pass on PRs in the repos you enable. You can manually fix the finding and push, or close the loop by commenting @claude on the finding (if you’ve already set up and configured GitHub Actions, below).
 - **GitHub Actions**: Define a job that invokes Claude with a verification skill, and the same checks you run locally fire on every push or PR.
 - **Spec validation**: A skill that helps verify each change against a markdown spec in the repo and looks to fix violations.
 - **Rubrics in Claude Managed Agents (beta)**: A managed agentic service that allows you to verify outcomes against a rubric using a separate grader agent. Failures loop back for rework automatically.
@@ -179,7 +179,23 @@ The more you can encode for Claude to follow, the more often Claude's response w
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 13, 2026
+[ArticleNov 17, 2026
+
+### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
+
+How Claude spent two weeks load testing a staging cluster, breaking the Claude Docs service on purpose and fixing what fell over before launch, and what made the service legible enough for Claude to close the loop.
+
+Claude CodeClaude apps
+
+(opens in new tab)](https://claude.dev/blog/chaos-loop-claude-docs-launch/)[ArticleNov 16, 2026
+
+### How the Claude Code team thinks about verification
+
+How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)[ArticleNov 13, 2026
 
 ### Building always-on agents
 
@@ -191,19 +207,7 @@ Claude Platform](https://claude.com/resources/articles/building-always-on-agents
 
 How leading startups use Claude Tag to ship faster and scale operations
 
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
-
-### How Curative is building a national provider network with agents on Claude
-
-Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
-
-Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 9, 2026
-
-### Safely scaling multi-agent teams with Claude Fable 5.2
-
-How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
-
-(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 

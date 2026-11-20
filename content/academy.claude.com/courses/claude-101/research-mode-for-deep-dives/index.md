@@ -19,7 +19,7 @@ Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-1
 
 Plan availability
 
-Research is available on paid plans (Pro, Max, Team, and Enterprise).
+Research is available on paid plans (Pro, Max, Ultra, Team, and Enterprise).
 
 ## What is Research?[](https://academy.claude.com/courses/claude-101/research-mode-for-deep-dives)
 
@@ -78,7 +78,7 @@ Where would you send it?Next question
 - The answer requires only one or two sources
 - Speed matters more than comprehensiveness
 
-**Consider turning on Thinking instead when:**
+**Consider raising the [effort level(opens in new tab)](https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings) or turning on Thinking instead when:**
 
 - You need deep reasoning on a complex problem that doesn't require external information
 - You're working on mathematical problems, code debugging, or logical analysis

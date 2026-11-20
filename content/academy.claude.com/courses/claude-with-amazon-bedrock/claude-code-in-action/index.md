@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/FJTSUsIgvzk?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=FJTSUsIgvzk)
 
+The files mentioned in this video aren't available here.
+
 Claude Code isn't just a tool for writing code - it's designed to be your coding partner throughout an entire project lifecycle. From initial setup to deployment and maintenance, Claude can help with every step of software development.
 
 ![Five project stages, Discover, Design, Build, Deploy, and Support and Scale, each with three Claude Code tasks.](https://academy.claude.com/assets/media/a7b4baf081b4100802708298bce2a0481adf57c1f574f05da55b83aa84a4aeea.png)
@@ -28,7 +30,7 @@ You can have multiple CLAUDE.md files for different scopes:
 - **Local** - not checked into git, your particular notes to Claude
 - **User** - used across all projects
 
-When running `/init`, you can add special directions for areas you want Claude to focus on. You can also use the `#` shortcut to add quick notes that get appended to your CLAUDE.md file.
+When running `/init`, you can add special directions for areas you want Claude to focus on. To add a note later, ask Claude to put it in your CLAUDE.md file.
 
 ## Common Workflows[](https://academy.claude.com/courses/claude-with-amazon-bedrock/claude-code-in-action)
 

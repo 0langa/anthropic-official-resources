@@ -32,7 +32,7 @@ python
 user_message = {
   "role": "user",
   "content": [
-    {"text": ""},
+    {"text": "Summarize this long text: ..."},
     {"cachePoint": {"type": "default"}}
   ]
 }
@@ -62,11 +62,9 @@ For example, you might have a conversation with a user message, assistant respon
 
 ## Minimum Content Length[](https://academy.claude.com/courses/claude-with-amazon-bedrock/rules-of-prompt-caching)
 
-Content must be at least 1024 tokens long to be cached. This is the sum of all messages and parts you're trying to cache before the cache point.
+There's a minimum length for caching, and it depends on the model. For Claude Haiku 4.5, the model this course uses, content must be at least 4,096 tokens long to be cached. This is the sum of all messages and parts you're trying to cache before the cache point.
 
-![Two conversations with a cache point: a single "Hi there!" is not cached, but "Hi there!" duplicated 503 times is cached.](https://academy.claude.com/assets/media/d0ef1cc4dc937f9d0324d64e61d382a9c0050d4c2df85857202b1e0741445644.png)
-
-A simple "Hi there!" message won't meet the 1024 token minimum, so nothing gets cached. But if you repeat "Hi there!" 500 times, that would exceed 1024 tokens and qualify for caching.
+A message like "Hi there!" is far too short to be cached, but a long prompt reaches the minimum. Content under the minimum is processed without caching, and the request still succeeds.
 
 ## Cache Point Locations[](https://academy.claude.com/courses/claude-with-amazon-bedrock/rules-of-prompt-caching)
 

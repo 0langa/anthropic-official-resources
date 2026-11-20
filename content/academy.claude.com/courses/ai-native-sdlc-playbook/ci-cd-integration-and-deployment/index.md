@@ -99,7 +99,7 @@ One `PreToolUse` hook on the `release` tools decides per environment. It is writ
 
 In production, `dontAsk` mode still runs a call that a `PreToolUse` hook approves, so with `release` off the allowlist the hook's `allow` is the only way through. Production therefore fails closed, because a release is denied if the hook fails to run. `rollback` stays on the allowlist because it is a runbook approved in advance.
 
-If the runner carries managed settings with `allowManagedHooksOnly`, the hook has to be defined in the managed settings, and with `allowManagedMcpServersOnly` the servers have to be on the managed allowlist.
+If the runner carries managed settings with `allowManagedHooksOnly`, the hook has to be defined in the managed settings, and with `allowManagedMcpServersOnly` the servers have to be on the managed allowlist. With `allowManagedPermissionRulesOnly`, Claude Code ignores `--allowedTools`, so the tools the job needs have to be allowed in the managed settings.
 
 ## Governance considerations[](https://academy.claude.com/courses/ai-native-sdlc-playbook/ci-cd-integration-and-deployment)
 

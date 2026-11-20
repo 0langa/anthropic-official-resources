@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/0sIKuQAo6hA?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=0sIKuQAo6hA)
 
+Download `earth.zip` from the Downloads section at the end of this lesson, unzip it, and put `earth.pdf` in the same folder as your code. The PDF is an excerpt from the Wikipedia article [Earth(opens in new tab)](https://en.wikipedia.org/wiki/Earth), by Wikipedia contributors, shared under [CC BY-SA 4.0(opens in new tab)](https://creativecommons.org/licenses/by-sa/4.0/).
+
 When Claude answers questions based on documents you provide, users might assume it's just pulling information from its training data. But what if Claude is actually citing specific sources? The citations feature lets you show users exactly where Claude found its information, building trust and transparency into your AI applications.
 
 ## Why Citations Matter[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/citations)
@@ -92,5 +94,15 @@ Citations are essential when:
 - Users might want to read the original source material
 
 By implementing citations, you transform Claude from a "black box" that gives answers into a transparent system that shows its work, making your AI applications more trustworthy and verifiable.
+
+## Downloads
+
+- 
+
+  ### Sample PDF (earth.zip)
+
+  Contains earth.pdf, four pages from the Wikipedia article Earth (CC BY-SA 4.0).
+
+  [Download](https://academy.claude.com/assets/v1/earth-cy92tvmb.zip)
 
 Was this helpful?

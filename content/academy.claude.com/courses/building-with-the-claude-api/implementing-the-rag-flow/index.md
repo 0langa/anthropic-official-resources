@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/ubaZc7TCg4o?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=ubaZc7TCg4o)
 
+Download `report.zip` from the Downloads section at the end of this lesson, unzip it, and put `report.md` in the same folder as your code. The notebooks for this course aren't available here.
+
 Now that we understand the RAG flow conceptually, let's implement it step by step. We'll walk through a complete example that demonstrates how to chunk text, generate embeddings, store them in a vector database, and perform similarity searches.
 
 ## The Five-Step RAG Implementation[](https://academy.claude.com/courses/building-with-the-claude-api/implementing-the-rag-flow)
@@ -118,5 +120,15 @@ Lower distance values indicate higher similarity, so Section 2 is the most relev
 This implementation works well for basic cases, but there are scenarios where it doesn't perform as expected. In the next sections, we'll explore improvements to make our RAG system more robust and accurate.
 
 The key takeaway is that RAG is fundamentally about converting text to numbers (embeddings), storing those numbers efficiently, and then using mathematical similarity to find relevant content when users ask questions.
+
+## Downloads
+
+- 
+
+  ### Sample report (report.zip)
+
+  Contains report.md, the fictional report this section searches.
+
+  [Download](https://academy.claude.com/assets/v1/report-k0tv13nc.zip)
 
 Was this helpful?

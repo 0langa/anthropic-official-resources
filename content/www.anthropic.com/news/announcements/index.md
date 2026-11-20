@@ -2,7 +2,7 @@
 
 # Announcements
 
-79
+81
 
 ARTICLES
 
@@ -14,6 +14,24 @@ Description
 
 Date
 
+- [### Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement](https://www.anthropic.com/news/ipo-close)
+
+  [Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise by the underwriters of their option to purchase an additional 147,000,000 shares of Class A common stock from Anthropic at the initial public offering price.](https://www.anthropic.com/news/ipo-close)
+
+  Nov 20, 2026
+
+  Nov 20, 2026
+
+  [### Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement](https://www.anthropic.com/news/ipo-close)[Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise by the underwriters of their option to purchase an additional 147,000,000 shares of Class A common stock from Anthropic at the initial public offering price.](https://www.anthropic.com/news/ipo-close)
+- [### Anthropic prices initial public offering](https://www.anthropic.com/news/anthropic-prices-initial-public-offering)
+
+  [Today Anthropic, PBC priced its initial public offering of its Class A common stock.](https://www.anthropic.com/news/anthropic-prices-initial-public-offering)
+
+  Nov 18, 2026
+
+  Nov 18, 2026
+
+  [### Anthropic prices initial public offering](https://www.anthropic.com/news/anthropic-prices-initial-public-offering)[Today Anthropic, PBC priced its initial public offering of its Class A common stock.](https://www.anthropic.com/news/anthropic-prices-initial-public-offering)
 - [### Anthropic launches roadshow for proposed initial public offering](https://www.anthropic.com/news/roadshow-launch)
 
   [Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.](https://www.anthropic.com/news/roadshow-launch)
@@ -212,24 +230,6 @@ Date
   Jul 20, 2026
 
   [### Apply for Anthropic’s AI for Science rare disease research grants](https://www.anthropic.com/news/rare-disease-research-grants)[Anthropic is sharing a focused call for AI for Science applications centered specifically on rare genetic diseases. Accepted applicants will receive up to $50,000 in Claude credits over six months, with the goal of building a community of researchers looking into how AI can reshape our understanding of rare disease.](https://www.anthropic.com/news/rare-disease-research-grants)
-- [### Anthropic commits $10 million to Canadian AI research](https://www.anthropic.com/news/canadian-ai-research)
-
-  [Anthropic is committing $10M to Canadian research institutions to fund the next generation of AI research.](https://www.anthropic.com/news/canadian-ai-research)
-
-  Jul 14, 2026
-
-  Jul 14, 2026
-
-  [### Anthropic commits $10 million to Canadian AI research](https://www.anthropic.com/news/canadian-ai-research)[Anthropic is committing $10M to Canadian research institutions to fund the next generation of AI research.](https://www.anthropic.com/news/canadian-ai-research)
-- [### Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust](https://www.anthropic.com/news/ben-bernanke)
-
-  [Former Federal Reserve Chair Ben Bernanke has been appointed to Anthropic's Long-Term Benefit Trust, bringing expertise on AI's economic impacts.](https://www.anthropic.com/news/ben-bernanke)
-
-  Jul 9, 2026
-
-  Jul 9, 2026
-
-  [### Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust](https://www.anthropic.com/news/ben-bernanke)[Former Federal Reserve Chair Ben Bernanke has been appointed to Anthropic's Long-Term Benefit Trust, bringing expertise on AI's economic impacts.](https://www.anthropic.com/news/ben-bernanke)
 
 See more
 

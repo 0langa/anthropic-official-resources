@@ -17,8 +17,8 @@ What you’ll learnBy the end of this course, you’ll be able to
 - Configure system prompts and control model behavior using temperature, response streaming, and structured output formats
 - Design and execute prompt evaluation workflows with test dataset generation and automated grading systems
 - Apply prompt engineering techniques including XML tag structuring, example-based learning, and clear directive formulation
-- Integrate Claude's tool use capabilities to extend functionality with custom tools, batch operations, and web search
-- Build retrieval-augmented generation (RAG) systems with text chunking, embeddings, BM25 search, and contextual retrieval
+- Integrate Claude's tool use capabilities to extend functionality with custom tools and web search
+- Build retrieval-augmented generation (RAG) systems with text chunking, embeddings, and BM25 search
 - Utilize Claude's extended features including extended thinking mode, image analysis, PDF processing, and citation generation
 - Implement prompt caching strategies to optimize API usage and reduce latency
 - Develop Model Context Protocol (MCP) servers and clients for standardized tool and resource integration
@@ -59,15 +59,15 @@ Learn to write prompts that actually work. Focuses on prompting strategies, eval
 
 13 lessons
 
-Extend Claude with custom tools and functions. Build apps with function calling, multi-turn tool interactions, batch tool calling, and leverage built-in utilities.
+Extend Claude with custom tools and functions. Build apps with function calling, multi-turn tool interactions, and built-in utilities.
 
-![](https://academy.claude.com/assets/media/26a857680b2257cd55080cf5b802b91f3fe31fea574c2305ce8d1f28e97b84cc.webp)![](https://academy.claude.com/assets/media/e210dc5f246e65c6403a4deb279d716cb063692a98b7908decc3e77639299db9.webp)![](https://academy.claude.com/assets/media/21f493533eb94b561db9153d92ec5b8cd12de2b043f2755c2637f2422ccf3975.webp)
+![](https://academy.claude.com/assets/media/26a857680b2257cd55080cf5b802b91f3fe31fea574c2305ce8d1f28e97b84cc.webp)![](https://academy.claude.com/assets/media/21f493533eb94b561db9153d92ec5b8cd12de2b043f2755c2637f2422ccf3975.webp)
 
 ### RAG and Agentic Search
 
 7 lessons
 
-Implementation guide for production RAG systems. Covers text chunking, embeddings, hybrid search with BM25, multi-index architectures, reranking, and contextual retrieval.
+Implementation guide for production RAG systems. Covers text chunking, embeddings, hybrid search with BM25, and multi-index architectures.
 
 ![](https://academy.claude.com/assets/media/a5455a0f1df401818be5b948b2f9786e2f33b83e19824f8a61d89ec1a8a01e6f.webp)![](https://academy.claude.com/assets/media/acc3f04cdfda2ce579d78c264ba0bb765e3c9141b4954e847382f45f87dea9dd.webp)![](https://academy.claude.com/assets/media/6fc4994e21018a93d1fa0fa9a31e50a1777ed8993a9c113e43e10db4912ec7d3.webp)
 

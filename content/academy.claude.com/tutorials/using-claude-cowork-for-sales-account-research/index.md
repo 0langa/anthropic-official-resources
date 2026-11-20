@@ -58,7 +58,7 @@ The skill is set up and your tools are connected. Now, the morning of a first ca
 
 AccountsOpen in Claude
 
-Claude reads from every connected source at once and writes one brief to your working folder — spend trajectory, the stakeholder map, what they’ve adopted, open deals, and the risk signals worth knowing before you’re in the room. You walk in with real context, so the first conversation is about strategy instead of getting oriented.
+Claude reads from every connected source at once and writes one brief to the folder or project you picked: spend trajectory, the stakeholder map, what they’ve adopted, open deals, and the risk signals worth knowing before you’re in the room. You walk in with real context, so the first conversation is about strategy instead of getting oriented.
 
 ## Step 3: Run the debrief after the call[](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)
 
@@ -93,7 +93,7 @@ This setup fits any role that walks into a meeting needing more context than the
 
 1. Start a task in Claude and describe what you’d want to know walking in — the sources, the signals, the format.
 2. Ask Claude to write it as a skill; run it on something you already know and refine.
-3. Connect the tools it names and pick a working folder.
+3. Connect the tools it names and pick a working folder or a project.
 4. Run it with one line before each meeting; run the debrief skill after.
 
 Claude does the gathering. The judgment about what to do with it is yours.

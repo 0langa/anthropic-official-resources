@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/70xU96DhpVc?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=70xU96DhpVc)
 
+Download `earth.zip` from the Downloads section at the end of this lesson, unzip it, and put `earth.pdf` in the same folder as your code. The PDF is an excerpt from the Wikipedia article [Earth(opens in new tab)](https://en.wikipedia.org/wiki/Earth), by Wikipedia contributors, shared under [CC BY-SA 4.0(opens in new tab)](https://creativecommons.org/licenses/by-sa/4.0/).
+
 When working with PDFs in Claude, one of the biggest challenges is trust. Users often have to take it on faith that the AI is correctly interpreting the document contents. Claude's citations feature directly addresses this problem by showing exactly where information comes from in your source documents.
 
 ## Enabling Citations[](https://academy.claude.com/courses/claude-with-amazon-bedrock/citations)
@@ -65,5 +67,15 @@ Citations provide several key benefits for PDF-based applications:
 - **Accuracy** - Citations encourage more careful information extraction
 
 This feature is particularly valuable in professional, academic, or research contexts where accuracy and source attribution are critical. Instead of treating Claude as a black box, citations turn it into a transparent research assistant that shows its work.
+
+## Downloads
+
+- 
+
+  ### Sample PDF (earth.zip)
+
+  Contains earth.pdf, four pages from the Wikipedia article Earth (CC BY-SA 4.0).
+
+  [Download](https://academy.claude.com/assets/v1/earth-cy92tvmb.zip)
 
 Was this helpful?

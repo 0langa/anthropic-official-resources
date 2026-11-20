@@ -10,7 +10,7 @@ Agents are only as useful as the systems they can reach. Teams tend to converge 
 
 ## Connecting agents to external systems
 
-We generally see three paths for connecting agents to external systems: direct API calls, CLIs, and MCP. Each makes sense somewhere, depending on what you're building. The key distinction is whether there's a common layer between agents and services, and how far that layer reaches.
+We generally see three paths for connecting agents to external systems: direct API calls, CLIs, and [MCP](https://claude.com/resources/articles/what-is-model-context-protocol). Each makes sense somewhere, depending on what you're building. The key distinction is whether there's a common layer between agents and services, and how far that layer reaches.
 
 ### Direct API calls
 
@@ -32,7 +32,7 @@ It requires a little bit more upfront investment. The return is that the integra
 
 ## Production agents run in the cloud
 
-Production agents increasingly run in the cloud, so they can scale and operate continuously. The systems they need to reach are cloud-hosted too: where your data lives, work is tracked, and your infrastructure runs. Often these systems are remote and behind auth, where MCP provides the common layer. And when those systems live inside a private network rather than on the public internet, [MCP tunnels in Claude Managed Agents](https://claude.com/resources/articles/claude-managed-agents-updates) connect agents to them over an outbound-only connection — no exposed ports or public endpoints required.
+Production agents increasingly run in the cloud, so they can scale and [operate continuously](https://claude.com/resources/articles/building-always-on-agents). The systems they need to reach are cloud-hosted too: where your data lives, work is tracked, and your infrastructure runs. Often these systems are remote and behind auth, where MCP provides the common layer. And when those systems live inside a private network rather than on the public internet, [MCP tunnels in Claude Managed Agents](https://claude.com/resources/articles/claude-managed-agents-updates) connect agents to them over an outbound-only connection — no exposed ports or public endpoints required.
 
 We’re already seeing this in adoption. The [MCP SDKs](https://modelcontextprotocol.io/docs/sdk) recently surpassed 300 million downloads a month, up from 100 million at the start of the year, with strong adoption across enterprises and popular agentic platforms. Millions of people use MCP with Claude every day, and the protocol underpins much of what we've shipped recently, including [Claude Cowork](https://claude.com/product/cowork), [Claude Managed Agents](https://claude.com/resources/articles/claude-managed-agents), and [channels in Claude Code](https://code.claude.com/docs/en/channels).  
 ‍  
@@ -122,7 +122,23 @@ Thanks to Den Delimarsky, David Soria Parra, Henry Shi, Felix Rieseberg, Conor K
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 13, 2026
+[ArticleNov 17, 2026
+
+### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
+
+How Claude spent two weeks load testing a staging cluster, breaking the Claude Docs service on purpose and fixing what fell over before launch, and what made the service legible enough for Claude to close the loop.
+
+Claude CodeClaude apps
+
+(opens in new tab)](https://claude.dev/blog/chaos-loop-claude-docs-launch/)[ArticleNov 16, 2026
+
+### How the Claude Code team thinks about verification
+
+How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)[ArticleNov 13, 2026
 
 ### Building always-on agents
 
@@ -134,19 +150,7 @@ Claude Platform](https://claude.com/resources/articles/building-always-on-agents
 
 How leading startups use Claude Tag to ship faster and scale operations
 
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
-
-### How Curative is building a national provider network with agents on Claude
-
-Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
-
-Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)[ArticleNov 9, 2026
-
-### Safely scaling multi-agent teams with Claude Fable 5.2
-
-How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.
-
-(opens in new tab)](https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/)
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 

@@ -8,7 +8,7 @@ Unsubscribe at any time.
 
 Live and recorded sessions with Anthropic and customer teams — demos, deep dives, Q&A, and practical takeaways.
 
-[WebinarUpcoming | Nov 19, 2026
+[WebinarNov 19, 2026
 
 ### Claude Rearview Roadmap Review: November 2026
 
@@ -20,13 +20,11 @@ Join the Anthropic product team for a live look back at what shipped, including 
 
 A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)
 
-[WebinarUpcoming | Nov 18, 2026
+[WebinarUpcoming | Dec 8, 2026
 
-### How the Claude Code team does code review
+### Best Practices for Government: IT Modernization with Claude
 
-When agents write the code, pull requests pile up faster than anyone can read them.
-
-Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)
+Hear directly from a government technology leader on modernizing a legacy system with Claude, what they learned, and how peers can do it securely.](https://claude.com/resources/webinars/best-practices-for-government-it-modernization-with-claude)
 
 [WebinarUpcoming | Multiple dates
 
@@ -42,7 +40,7 @@ New to Claude Code? You’re in the right place. Join Anthropic's Claude Code sp
 
 Claude Code](https://claude.com/resources/webinars/claude-code-foundations-series)
 
-[WebinarUpcoming | Nov 19, 2026
+[WebinarNov 19, 2026
 
 ### Claude Rearview Roadmap Review: November 2026
 
@@ -52,23 +50,17 @@ Featured resource 1 of 5: Claude Rearview Roadmap Review: November 2026
 
 Advanced filters
 
-Showing 21 of 120 resources
+Showing 20 of 121 resources
 
 ## Upcoming webinars
 
 Register for the live sessions with Anthropic and partner teams — bring your questions and get answers in real time.
 
-[WebinarUpcoming | Nov 18, 2026
+[WebinarUpcoming | Dec 8, 2026
 
-### How the Claude Code team does code review
+### Best Practices for Government: IT Modernization with Claude
 
-When agents write the code, pull requests pile up faster than anyone can read them.
-
-Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[WebinarUpcoming | Nov 19, 2026
-
-### Claude Rearview Roadmap Review: November 2026
-
-Join the Anthropic product team for a live look back at what shipped, including what each change means for your admins and users.](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)
+Hear directly from a government technology leader on modernizing a legacy system with Claude, what they learned, and how peers can do it securely.](https://claude.com/resources/webinars/best-practices-for-government-it-modernization-with-claude)
 
 ## Recurring webinars
 
@@ -126,13 +118,23 @@ Claude Code](https://claude.com/resources/webinars/claude-code-foundations-serie
 
 Missed the session? Stream past sessions anytime and catch up at your own pace.
 
-[WebinarNov 17, 2026
+[WebinarNov 19, 2026
+
+### Claude Rearview Roadmap Review: November 2026
+
+Join the Anthropic product team for a live look back at what shipped, including what each change means for your admins and users.](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[WebinarOn demand
+
+### How the Claude Code team does code review
+
+When agents write the code, pull requests pile up faster than anyone can read them.
+
+Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[WebinarNov 17, 2026
 
 ### Build Agents with Claude Models on Google Cloud
 
 The full Claude Platform is now on Google Cloud — build agents from the Google Cloud account you already run.
 
-Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[WebinarNov 12, 2026
+Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)[WebinarOn demand
 
 ### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
 
@@ -142,7 +144,7 @@ Claude for Nonprofits](https://claude.com/resources/webinars/claude-for-nonprofi
 
 ### Claude in Microsoft Foundry: control the cost, prove the value
 
-See how to cut Claude costs in Microsoft Foundry, track who’s spending what, and prove the ROI.](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)[WebinarNov 10, 2026
+See how to cut Claude costs in Microsoft Foundry, track who’s spending what, and prove the ROI.](https://claude.com/resources/webinars/claude-in-microsoft-foundry-control-the-cost-prove-the-value)[WebinarOn demand
 
 ### Claude for Nonprofits: An Admin’s Guide to Data Handling and AI Policy
 
@@ -180,21 +182,7 @@ Your advisors want to use Claude for Financial Advisors. Before you turn on Cowo
 
 Claude CoworkClaude Enterprise
 
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/1ca88184-6d7b-4558-94e0-691d4a625140)[WebinarOn demand
-
-### Claude Tag on-call: A new teammate in your incident channel
-
-We open on an incident. An alert fires in a Slack channel and, without anyone typing a prompt, Claude reads the logs, repos and…
-
-Claude Tag
-
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/1c9579ed-c917-4e8c-b2f8-fb56c077a7d5)[WebinarOn demand
-
-### Inside the Cyber Verification Program: Tiers, Migration, and Best Practices
-
-Join the teams behind the program for a walkthrough of the Cyber Verification Program.
-
-(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/d894bd8f-2433-4bbe-a3f8-754729d14847)
+(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/1ca88184-6d7b-4558-94e0-691d4a625140)
 
 View more
 

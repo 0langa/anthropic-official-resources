@@ -1,7 +1,7 @@
 {
-  "actionable_missing_pages": 1,
-  "actionable_population_complete": false,
-  "archived_pages": 5717,
+  "actionable_missing_pages": 0,
+  "actionable_population_complete": true,
+  "archived_pages": 5720,
   "by_host": {
     "academy.claude.com": {
       "archived_pages": 891,
@@ -20,15 +20,15 @@
       "discovered_pages": 2270
     },
     "support.claude.com": {
-      "archived_pages": 799,
-      "discovered_pages": 833
+      "archived_pages": 800,
+      "discovered_pages": 834
     },
     "www.anthropic.com": {
-      "archived_pages": 660,
-      "discovered_pages": 673
+      "archived_pages": 662,
+      "discovered_pages": 674
     }
   },
-  "discovered_pages": 5810,
+  "discovered_pages": 5812,
   "exact_website_replica": false,
   "limitations": [
     "Discovery is the union of public indexes and hyperlinks, not proof that unlinked pages do not exist.",
@@ -482,6 +482,7 @@
     "https://www.anthropic.com/news/the-anthropic-economic-index": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/third-party-testing": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/news/visible-extended-thinking": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/news/yes-claude-can-do-nine-loops": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/2": "HTTP 404: https://www.anthropic.com/research/2",
     "https://www.anthropic.com/research/2028-ai-leadership": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
@@ -670,10 +671,10 @@
     "https://www.anthropic.com/transparency/voluntary-commitments": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/webinars": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   },
-  "missing_pages": 93,
+  "missing_pages": 92,
   "page_inventory_complete": false,
-  "pages_with_content_notes": 3854,
-  "retained_partial_pages": 511,
+  "pages_with_content_notes": 3856,
+  "retained_partial_pages": 512,
   "terminal_pages": 92,
   "terminal_statuses": {
     "blocked": 27,

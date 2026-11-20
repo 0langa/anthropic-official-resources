@@ -21,25 +21,20 @@ picking the right one affects both **quality** and **cost**.
 
 ## The model tiers[](https://academy.claude.com/courses/claude-platform-101/choosing-the-right-model)
 
-Anthropic currently offers four model tiers, and you choose between them with the `model` parameter in your API call.
+Anthropic currently offers four model tiers, and you choose between them with the `model` parameter in your API call. The [models overview(opens in new tab)](https://platform.claude.com/docs/en/models/overview) lists the current model and ID for each tier.
 
 
 
-*Note that Claude Fable 5.1 has been generally available since September 1,
-2026, but is not reflected in the video above, and the three-card tier
-graphic below shows the lineup from before Fable 5.1. Learn more about Claude
-Fable 5.1 and Claude Mythos 5.1
-[here(opens in new tab)](https://www.anthropic.com/claude-fable-and-mythos-5-1). The video and
+*The video and the three-card tier graphic below both leave out Claude Fable. The video and
 terminal screenshot in this lesson were recorded with earlier models (Claude
-Opus 4.7 and Claude Sonnet 4.6). The code below uses the current model IDs;
-your latency and token numbers will differ.*
+Opus 4.7 and Claude Sonnet 4.6). Your latency and token numbers will differ.*
 
-- **Claude Fable** is our most capable model yet — a new tier that sits above Opus, built for your toughest challenges. It comes at a higher cost than Opus, so reserve it for work where that extra capability is worth paying for. The current Fable model is Claude Fable 5.1 (`claude-fable-5-1`).
-- **Claude Opus** is the most capable of the three core model families, but also the slowest and highest cost of the three. Use it for deep reasoning, complex analysis, multi-step coding, and nuanced writing. The current Opus model is Claude Opus 5.5 (`claude-opus-5-5`).
-- **Claude Haiku** is the fastest and lowest cost, optimized for speed and cost efficiency rather than maximum intelligence. Use it for high-volume, low-complexity work like classification, extraction, and routing. The current Haiku model is Claude Haiku 4.5 (`claude-haiku-4-5`).
-- **Claude Sonnet** sits in the sweet spot: a balanced combination of intelligence, speed, and cost that works well for most production work. The current Sonnet model is Claude Sonnet 5 (`claude-sonnet-5`).
+- **Claude Fable** is the tier above Opus, built for your toughest challenges. It comes at a higher cost than Opus, so reserve it for work where that extra capability is worth paying for.
+- **Claude Opus** is the most capable of the three core model families, but also the slowest and highest cost of the three. Use it for deep reasoning, complex analysis, multi-step coding, and nuanced writing.
+- **Claude Haiku** is the fastest and lowest cost, optimized for speed and cost efficiency rather than maximum intelligence. Use it for high-volume, low-complexity work like classification, extraction, and routing.
+- **Claude Sonnet** sits in the sweet spot: a balanced combination of intelligence, speed, and cost that works well for most production work.
 
-![Three cards from before Claude Fable 5.1, comparing three of the four Claude model tiers: Haiku (fastest, lowest cost, for classification and routing), Sonnet (capable and fast, for most production work), and Opus (labeled most intelligent and highest cost, for deep reasoning and complex analysis). The fourth tier, Claude Fable, now sits above Opus in capability and cost and is not shown.](https://academy.claude.com/assets/media/ee696666d9ca0b3bb8944eb4764fc2c9c97ec6eec6ad632e462e97459d16f9a2.png)
+![Three cards comparing three of the four Claude model tiers: Haiku (fastest, lowest cost, for classification and routing), Sonnet (capable and fast, for most production work), and Opus (labeled most intelligent and highest cost, for deep reasoning and complex analysis). The fourth tier, Claude Fable, sits above Opus in capability and cost and is not shown.](https://academy.claude.com/assets/media/ee696666d9ca0b3bb8944eb4764fc2c9c97ec6eec6ad632e462e97459d16f9a2.png)
 
 ## Start with a simple evaluation[](https://academy.claude.com/courses/claude-platform-101/choosing-the-right-model)
 
@@ -58,16 +53,18 @@ Let's see the difference between the tiers, not just talk about it. We'll send t
 python
 
 ```
-models = ["claude-haiku-4-5", "claude-sonnet-5", "claude-opus-5-5"]
+models = ["claude-haiku-5-5", "claude-sonnet-5-5", "claude-opus-5-5"]
 
 for model in models:
     response = client.messages.create(
         model=model,
-        max_tokens=300,
+        max_tokens=1024,
         messages=[{"role": "user", "content": prompt}],
     )
     print(model, response.usage)
 ```
+
+The model IDs in this sample were the latest in November 2026, so copy today's IDs from the [models overview(opens in new tab)](https://platform.claude.com/docs/en/models/overview) before you run it. Recent models think by default, and their thinking tokens count toward `max_tokens`, so set it high enough to leave room for both the thinking and the response text.
 
 Two things are going on here:
 

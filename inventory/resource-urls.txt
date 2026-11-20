@@ -4929,6 +4929,7 @@ https://support.claude.com/en/articles/18466110-compare-cloud-providers
 https://support.claude.com/en/articles/18467110
 https://support.claude.com/en/articles/18467110-offer-linked-billing-in-your-platform
 https://support.claude.com/en/articles/18467148-use-your-claude-platform-account-in-a-third-party-app
+https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
 https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer
@@ -5401,6 +5402,7 @@ https://www.anthropic.com/news/introducing-the-anthropic-economic-futures-progra
 https://www.anthropic.com/news/introducing-the-anthropic-national-security-and-public-sector-advisory-council
 https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals
 https://www.anthropic.com/news/investing-in-energy-to-secure-america-s-ai-future
+https://www.anthropic.com/news/ipo-close
 https://www.anthropic.com/news/jay-kreps-appointed-to-board-of-directors
 https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea
 https://www.anthropic.com/news/krishna-rao-joins-anthropic

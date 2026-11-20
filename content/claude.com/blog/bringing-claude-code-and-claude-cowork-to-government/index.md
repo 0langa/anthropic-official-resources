@@ -22,7 +22,7 @@ Today’s launch makes it easier for agencies to acquire, authorize, and allocat
 
 **Administration that matches how departments are organized.** Department-level administrators can allocate seats and prepaid usage to sub-agencies while allowing each to manage its own users. Administrators can use SCIM group mappings to set rate limits, dollar caps, and allowed models for specific seat tiers. Additionally, layered configuration sets defaults for sub-agencies including what Claude can connect to, which features are available, and instructions that guide how Claude interacts with users.
 
-**Oversight by design.** Every administrative action is recorded in a hash-chained audit log that organization administrators can review directly in the product. Sensitive operations on Anthropic's side require two-person approval. Usage exports are metering data only so agencies can answer ATO and IG requests without moving sensitive material.
+**Oversight by design.** Administrative actions are recorded in an audit log that organization administrators can review. Sensitive operations on Anthropic’s side require two-person approval. Usage exports are metering data only, so agencies can answer ATO and IG requests without moving sensitive material. Conversation history stays local on the agency-managed device.
 
 ## Security and oversight
 

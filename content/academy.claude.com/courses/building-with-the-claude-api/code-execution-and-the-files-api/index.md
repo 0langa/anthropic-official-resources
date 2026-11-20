@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/5gJJLsgr\_ok?enablejsapi=
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=5gJJLsgr_ok)
 
+Download `streaming.zip` from the Downloads section at the end of this lesson, unzip it, and put `streaming.csv` in the same folder as your code. The notebooks for this course aren't available here.
+
 The Anthropic API offers two powerful features that work exceptionally well together: the Files API and Code Execution. While they might seem separate at first, combining them opens up some really interesting possibilities for delegating complex tasks to Claude.
 
 ## Files API[](https://academy.claude.com/courses/building-with-the-claude-api/code-execution-and-the-files-api)
@@ -133,5 +135,15 @@ While data analysis is a natural fit, the combination of Files API and code exec
 - Report generation with custom formatting
 
 The key is that you can delegate complex, computational tasks to Claude while maintaining control over the inputs and outputs through the Files API. This creates a powerful workflow where Claude becomes your coding assistant that can actually execute and iterate on solutions.
+
+## Downloads
+
+- 
+
+  ### Sample data (streaming.zip)
+
+  Contains streaming.csv, the streaming service data this lesson analyzes.
+
+  [Download](https://academy.claude.com/assets/v1/streaming-msdihdug.zip)
 
 Was this helpful?

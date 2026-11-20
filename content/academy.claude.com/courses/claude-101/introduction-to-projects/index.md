@@ -66,7 +66,7 @@ These examples demonstrate the flexibility of what can be done with projects in 
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=GJ5jTgcbRHA)
 
-*The "selected style" this video mentions came from the "Use style" menu, which has since been deprecated. Skills, covered later in this course, now do that job.*
+*The "selected style" this video mentions came from the "Use style" menu, which has since been deprecated. Skills, covered later in this course, now do that job. The video also shows an earlier project page: you now pin a project instead of starring it, and you should follow the steps below where they differ from the video.*
 
 ## Key takeaways[](https://academy.claude.com/courses/claude-101/introduction-to-projects)
 
@@ -102,7 +102,7 @@ Setting up a project takes just a few minutes. Here's how to get started:
 
 ### Step 2: Add project instructions[](https://academy.claude.com/courses/claude-101/introduction-to-projects)
 
-Project instructions tell Claude how to behave across all conversations in this project. Click on "Instructions" to open the instructions panel.
+Project instructions tell Claude how to behave across all conversations in this project. Click "Add" or "+" next to "Instructions" to open the instructions panel.
 
 Good project instructions typically include:
 
@@ -117,9 +117,9 @@ You can also use project instructions to automate workflows — for example, "Wh
 
 ### Step 3: Build your knowledge base[](https://academy.claude.com/courses/claude-101/introduction-to-projects)
 
-Your project's knowledge base is where you upload documents that Claude should reference. You'll find the files menu on the right side of your project's main page.
+Your project's knowledge base is where you upload documents that Claude should reference. You'll find it on the right side of your project's main page, under "Context" or "Files."
 
-Click the "+" button to add content. You can upload various file types including PDF, DOCX, CSV, TXT, HTML, and more. You can also connect to Google Drive to link documents directly.
+Click "Add" or "+" there to add content. You can upload various file types including PDF, DOCX, CSV, TXT, HTML, and more. You can add Google Drive files from this menu once you've connected Drive, and only in private projects. The "Connecting your tools" lesson shows how to connect a service like Drive. On Team and Enterprise plans, an Owner has to enable it first.
 
 **What to upload:**
 
@@ -142,7 +142,7 @@ You might wonder what happens when you upload a lot of content. Projects automat
 
 When your project knowledge approaches the context window limit, Claude stops loading everything at once and instead searches your project's files, retrieving only what's relevant to your question. This expands your project's capacity by up to 10x while maintaining response quality.
 
-You'll see a visual indicator when your project is RAG-enabled, but the experience should feel the same—you can still upload documents, chat with Claude, and get context-aware responses.
+You may see a visual indicator when your project is RAG-enabled, but the experience should feel the same: you can still upload documents, chat with Claude, and get context-aware responses.
 
 ## Working within your project[](https://academy.claude.com/courses/claude-101/introduction-to-projects)
 
@@ -154,7 +154,7 @@ For users on Claude for Work (Team and Enterprise) plans, projects become even m
 
 ### Permission levels[](https://academy.claude.com/courses/claude-101/introduction-to-projects)
 
-When sharing a project, you can choose from three permission levels:
+A shared project has three permission levels:
 
 1. **Can view:** Members can see project contents, access knowledge, and chat—but can't make changes. Think of this as read-only access with discussion rights.
 2. **Can edit:** Members have full collaboration power. They can modify instructions, update knowledge, manage other members, and actively contribute to the project.
@@ -165,11 +165,11 @@ When sharing a project, you can choose from three permission levels:
 To share a project:
 
 - Open the project you want to share
-- Click the "Share project" button to the right of the project name
+- Click the "Share" button to the right of the project name
 - Add individual members using their name or email, or copy and paste a list of email addresses for bulk sharing (in this case, the project will show up in their "Shared with you" section)
-- Or, share with "Everyone at [your organization]" to make your project discoverable within the Team tab
+- Or, share with "Everyone at [your organization]" to make your project discoverable in the "Organization" tab
 
-Team members will receive email notifications when you share a project with them, and they can find shared projects in their "Shared with me" tab.
+Team members will receive email notifications when you share a project with them, and they can find shared projects in their "Shared with you" tab.
 
 ## Example projects to inspire you[](https://academy.claude.com/courses/claude-101/introduction-to-projects)
 

@@ -49,7 +49,14 @@ Working with Claude, you have a great partner and a powerful intelligent collabo
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=0vZ_UVLhSQQ)
 
-*This video was published in December 2025. The "Use style" menu it shows has since been deprecated.*
+*This video was published in December 2025, and parts of Claude have changed since:*
+
+- The "Use style" menu is gone.
+- Most options in the search and tools menu are now under the **+** button in the message box. On some accounts, the connectors you've added are listed there under **Plugins**.
+- In the [new Claude experience(opens in new tab)](https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude), there's no web search switch. Claude searches when it helps (on Team and Enterprise plans, once an Owner has turned web search on).
+- The long, cited reports come from Research, a feature of paid plans that lesson 10 covers.
+- To change how much Claude thinks, click the model name, then **Effort**. On the newest models thinking is always on, so choose a lower effort for a faster answer. Some older models have a **Thinking** or **Extended** switch, under **Effort** or directly in the model menu.
+- The model list has changed, not every model is on every plan, and you can now switch models in the middle of a chat. See [Change the model, effort, and thinking settings(opens in new tab)](https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings).
 
 ## Key takeaways[](https://academy.claude.com/courses/claude-101/your-first-conversation-with-claude)
 
@@ -61,7 +68,7 @@ Working with Claude, you have a great partner and a powerful intelligent collabo
 
 ## Starting your first conversation[](https://academy.claude.com/courses/claude-101/your-first-conversation-with-claude)
 
-When you open Claude.ai, you'll see a clean interface with a text input area at the bottom of the screen.
+When you open Claude.ai, you'll see a clean interface with a message box.
 
 Your prompts can range from simple questions (like brainstorming code names for a new feature) to complex requests to co-create files.
 
@@ -126,9 +133,12 @@ Once uploaded, Claude will automatically attempt to parse the file's content. In
 
 Pro tip
 
-If you'd like Claude to consider specific preferences in every response, go
-to Settings > Account > 'Instructions for Claude' to set preferences that
-apply to every conversation.
+If you'd like Claude to consider specific preferences in every response, click
+your name or initials in the lower left corner, choose **Settings**, and
+search for **Instructions**. What you write there applies to every
+conversation. In a phone browser, open the menu at the top left to find your
+name. Settings has no search box there, so choose the **Your Claude** tab
+(**Account** in the older Settings layout).
 
 ## Iterating on Claude's responses[](https://academy.claude.com/courses/claude-101/your-first-conversation-with-claude)
 
@@ -154,7 +164,7 @@ than add a new message.
 
 There are two features that help Claude work better for you over time to increase the power of your prompts.
 
-**Memory** automatically saves key context from your conversations (your role, preferences, past decisions, and working style) so you don't have to repeat yourself every time you start a new chat. For example, if you tell Claude you work in marketing at a B2B company, it'll remember that context going forward. You can turn memory on or off, and review, edit, or delete anything Claude remembers, anytime in **Settings > Memory**. Memory syncs across all your devices. It's on by default on Free, Pro, and Max plans. On Team and Enterprise plans, it's off by default, and you can turn it on in **Settings > Memory** once an organization Owner allows it.
+**Memory** automatically saves key context from your conversations (your role, preferences, past decisions, and working style) so you don't have to repeat yourself every time you start a new chat. For example, if you tell Claude you work in marketing at a B2B company, it'll remember that context going forward. To turn memory on or off, or to review, edit, or delete anything Claude remembers, open Settings and search for **Memory** (in a phone browser, look under **Your Claude** or **Memory**). The on/off switch is **Generate memory from chats**. Memory syncs across all your devices. On Free, Pro, Max, and Ultra plans, check that it's on if you want Claude to remember. On Team and Enterprise plans, it may start on or off, [depending on your organization(opens in new tab)](https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context), and you can change it yourself unless it's turned off for your organization.
 
 **Skills** are reusable sets of instructions that teach Claude how to approach specific tasks and workflows. They can encode your preferences for everything from how you write and the output formats you want to the specific processes you follow, the expertise you want applied, or how you like different types of work handled. Claude applies them automatically whenever they're relevant. Lesson 7, Working with skills, shows you how to enable and create them; for a quick overview, visit the [Anthropic Help Center(opens in new tab)](https://support.claude.com/en/articles/12512176-what-are-skills).
 

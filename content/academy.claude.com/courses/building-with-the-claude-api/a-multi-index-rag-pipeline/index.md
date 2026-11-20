@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/yz85LBlFL\_M?enablejsapi=
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=yz85LBlFL_M)
 
+The notebooks for this course aren't available here.
+
 We've built separate implementations for semantic search (using vector embeddings) and lexical search (using BM25). Now it's time to combine them into a unified search pipeline that leverages the strengths of both approaches.
 
 ## The Multi-Index Architecture[](https://academy.claude.com/courses/building-with-the-claude-api/a-multi-index-rag-pipeline)

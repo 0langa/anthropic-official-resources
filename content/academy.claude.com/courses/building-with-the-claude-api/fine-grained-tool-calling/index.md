@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/1R75P\_XZJRE?enablejsapi=
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=1R75P_XZJRE)
 
+The notebooks for this course aren't available here.
+
 When you combine tool use with streaming in Claude, you get real-time updates as the AI generates tool arguments. This creates a more responsive user experience, but there are some important details to understand about how it works behind the scenes.
 
 ## Basic Tool Streaming[](https://academy.claude.com/courses/building-with-the-claude-api/fine-grained-tool-calling)

@@ -67,7 +67,7 @@ To see what works and what breaks when agents are sent into a market, we made a
 
 05
 
-26
+27
 
 ARTICLES
 
@@ -117,6 +117,10 @@ Jun 16, 2026![](https://assets.claude.com/3c4cf865993f86e11be029e59111f70b16729b
 
 ### [Agentic coding and persistent returns to expertise](https://www.anthropic.com/research/claude-code-expertise)
 
+May 27, 2026![](https://assets.claude.com/0db513b9b828b22e611685d85f758b2bd6bd1b15.jpg?w=1080&q=75&fm=webp&fit=max)
+
+### [Coding agents in the social sciences](https://www.anthropic.com/research/coding-agents-social-sciences)
+
 Apr 22, 2026![](https://assets.claude.com/532575bea7ddbacf8d1703771fa7db731123b633.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [What 81,000 people told us about the economics of AI](https://www.anthropic.com/research/81k-economics)
@@ -132,10 +136,6 @@ Mar 31, 2026![](https://assets.claude.com/d46828491d61c541b4d83b8a56c7db5b2eb18e
 Mar 24, 2026![](https://assets.claude.com/7a1778e755e9d0e9478f087f38f89fd5031677a0.jpg?w=1080&q=75&fm=webp&fit=max)
 
 ### [Anthropic Economic Index report: Learning curves](https://www.anthropic.com/research/economic-index-march-2026-report)
-
-Mar 18, 2026![](https://assets.claude.com/a06f990032e3315c580e85cf03bf5403caa26934.png?w=1080&q=75&fm=webp&fit=max)
-
-### [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
 
 Mar 5, 2026![](https://assets.claude.com/35f54fe6537c0f1aeda833dd40699174d2fbac1b.jpg?w=1080&q=75&fm=webp&fit=max)
 
@@ -175,7 +175,7 @@ See more
 
 [### Alignment](https://www.anthropic.com/research/team/alignment)
 
-51 posts
+50 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
 
@@ -187,7 +187,7 @@ Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
 [### Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-39 posts
+38 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 
@@ -199,25 +199,25 @@ Studies how large language models work internally as a foundation for AI safety.
 
 [### Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-25 posts
+30 posts
 
 Studies how AI affects people, both individually and collectively.
 
 [### Science](https://www.anthropic.com/science)
 
-19 posts
+20 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
-26 posts
+27 posts
 
 Studies and monitors the impact of AI systems on individuals, firms, and economies.
 
 [### Alignment](https://www.anthropic.com/research/team/alignment)
 
-51 posts
+50 posts
 
 Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
 
@@ -229,7 +229,7 @@ Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
 [### Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
-39 posts
+38 posts
 
 Stress-tests AI systems to understand the full extent of their current capabilities and anticipate what comes next.
 
@@ -241,18 +241,18 @@ Studies how large language models work internally as a foundation for AI safety.
 
 [### Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
-25 posts
+30 posts
 
 Studies how AI affects people, both individually and collectively.
 
 [### Science](https://www.anthropic.com/science)
 
-19 posts
+20 posts
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
-26 posts
+27 posts
 
 Studies and monitors the impact of AI systems on individuals, firms, and economies.

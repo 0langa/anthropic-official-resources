@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/FJTSUsIgvzk?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=FJTSUsIgvzk)
 
+The files mentioned in this video aren't available here.
+
 Claude Code isn't just a tool for writing code - it's designed to work alongside you throughout every phase of a software project. Think of it as another engineer on your team who can handle everything from initial setup to deployment and support.
 
 ![Five project phases, Discover, Design, Build, Deploy and "Support and Scale", each with three Claude Code tasks.](https://academy.claude.com/assets/media/75870c12a77b65c49c1dca513d3185f6c6b4ef834ec50693930c42ec9e6b22c7.jpg)
@@ -32,7 +34,7 @@ When running `/init`, you can add special directions for areas you want Claude t
 
 ![Claude Code terminal with "/init" typed and the suggestion "Initialize a new CLAUDE.md file with codebase documentation".](https://academy.claude.com/assets/media/8c58fa20841988d5575a0a2945a5c28c1b91de3e9dc219d7124bc7b1d00590b7.jpg)
 
-You can also quickly add notes to your CLAUDE.md file using the `#` command. For example, typing `# Always use descriptive variable names` will prompt you to add this guideline to your project, local, or user memory.
+To add a note later, ask Claude to put it in your CLAUDE.md file. For example: `Add "Always use descriptive variable names" to CLAUDE.md`. You can also run `/memory` to open the file yourself.
 
 ## Common Workflows[](https://academy.claude.com/courses/building-with-the-claude-api/claude-code-in-action)
 
@@ -100,7 +102,7 @@ Claude Code includes several helpful commands:
 
 - `/clear` - Clears conversation history and resets context
 - `/init` - Scans codebase and creates CLAUDE.md documentation
-- `#` - Adds notes to your CLAUDE.md file
+- `/memory` - Opens your CLAUDE.md files for editing
 
 Claude can also handle routine development tasks like staging and committing changes to git, running tests, and managing dependencies. Instead of switching between your editor and terminal, you can ask Claude to handle these tasks while you focus on the bigger picture.
 

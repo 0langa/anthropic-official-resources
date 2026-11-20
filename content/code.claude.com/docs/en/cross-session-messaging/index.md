@@ -138,7 +138,7 @@ How a message travels, and whether it passes through Anthropic servers, depends 
 | On another of your machines | Through Anthropic servers, arriving over that machine's [Remote Control](/docs/en/remote-control) connection |
 | In the [cloud](/docs/en/claude-code-on-the-web) | Through Anthropic servers, straight to the cloud session |
 
-Starting a conversation with a session on another of your machines requires Claude Code v2.1.225 or later and a target that [appears in the listing](#see-which-sessions-claude-can-reach).
+Starting a conversation with a session on another of your machines requires Claude Code v2.1.225 or later.
 
 A session's row in [the listing](#see-which-sessions-claude-can-reach) can show a condition that changes what happens when Claude messages that session:
 

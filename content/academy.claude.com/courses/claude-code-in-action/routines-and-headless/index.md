@@ -66,7 +66,7 @@ Cloud scheduled tasks are great when the work can run on Anthropic's infrastruct
 
 The core of headless mode is the `-p` flag (short for `--print`). It runs Claude Code as a one-shot command with no interactive UI. It reads standard in and writes standard out, so it pipes like any other shell tool:
 
-`claude -p "summarize the changes in this diff"`
+`git diff | claude -p "summarize the changes in this diff"`
 
 One thing worth knowing: on its own, `-p` loads the same context an interactive session would, including hooks, skills, plugins, MCP servers, and the CLAUDE.md file. To skip all of that, add `--bare`, covered below.
 
@@ -89,9 +89,18 @@ That gives you a clean array you can hand to whatever comes next.
 
 ## Multi-step automation with sessions[](https://academy.claude.com/courses/claude-code-in-action/routines-and-headless)
 
-For work that happens across multiple steps, you don't have to cram everything into one command. Capture the session's ID from the JSON output and resume it later:
+For work that happens across multiple steps, you don't have to cram everything into one command. Save the JSON output, then resume the session by its ID:
 
-`claude --resume "$(jq -r .session_id /tmp/plan.json)"`
+bash
+
+```
+claude -p "Plan how to add input validation to the signup form" \
+  --output-format json > /tmp/plan.json
+
+claude -p "Carry out the plan" \
+  --resume "$(jq -r .session_id /tmp/plan.json)" \
+  --permission-mode acceptEdits
+```
 
 One script kicks off the work. Another resumes it later with full context. This is handy when the first pass produces a plan and a second pass carries it out.
 
@@ -107,7 +116,7 @@ The last step on the spectrum is the Agent SDK. This gets you a library that emb
 
 Both languages expose a `query` function and the same primitives as the CLI. You pass a prompt plus options, like:
 
-- `allowedTools` to control what Claude can do,
+- `allowedTools` to list the tools Claude can use without asking,
 - a system prompt,
 - and a permission mode.
 

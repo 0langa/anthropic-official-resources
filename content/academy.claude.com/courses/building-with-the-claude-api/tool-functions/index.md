@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/EaIpUid5lL8?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=EaIpUid5lL8)
 
+The notebooks for this course aren't available here.
+
 When building AI applications with Claude, you'll often need to give it access to real-time information or the ability to perform actions. This is where tool functions come in - they're Python functions that Claude can call when it needs additional data to help users.
 
 ![Claude needs to know the current date and time, isn't perfect with date time addition, and we need a way to set a reminder.](https://academy.claude.com/assets/media/dda5ecca119baaad2ad7715a7b3ff75b3dc2f78c066743b39ee8cf9729a6d999.png)

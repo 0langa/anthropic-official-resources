@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/\_qUlhTDkp8Q?enablejsapi=
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=_qUlhTDkp8Q)
 
+Download `report.zip` from the Downloads section at the end of this lesson, unzip it, and put `report.md` in the same folder as your code. The notebooks for this course aren't available here.
+
 Text chunking is one of the most critical steps in building a RAG (Retrieval Augmented Generation) pipeline. How you break up your documents directly impacts the quality of your entire system. A poor chunking strategy can lead to irrelevant context being inserted into your prompts, causing your AI to give completely wrong answers.
 
 ![A source document, an annual financial report, split into six chunks labeled Chunk 1 through Chunk 6.](https://academy.claude.com/assets/media/93d153d95565a34b8f54f369456c4867942a67313e604f11d87c7aa05bb41de0.jpg)
@@ -126,5 +128,15 @@ Your choice depends entirely on your use case and document guarantees:
 Size-based chunking with overlap is often the go-to choice in production because it's simple, reliable, and works with any document type. While it may not give perfect results, it consistently produces reasonable chunks that won't break your pipeline.
 
 Remember: there's no single "best" chunking strategy. The right approach depends on your specific documents, use cases, and the trade-offs you're willing to make between implementation complexity and chunk quality.
+
+## Downloads
+
+- 
+
+  ### Sample report (report.zip)
+
+  Contains report.md, the fictional report this section searches.
+
+  [Download](https://academy.claude.com/assets/v1/report-k0tv13nc.zip)
 
 Was this helpful?

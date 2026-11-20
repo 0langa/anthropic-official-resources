@@ -129,6 +129,12 @@ Kyle Finken, Engineer Manager, Mintlify
 
 Sajid Mehmood, CEO & Co-Founder, Niteshift
 
+![OpenArt](https://assets.claude.com/d6b1a30aedb8c8276e8c5646878cf9b20247e89e.svg)
+
+> “Claude is a core model in OpenArt’s agentic layer. With linked billing, our customers can link their Claude Platform organization to OpenArt with no API key to share, and Claude API usage in OpenArt is billed directly to that organization. That makes OpenArt simpler to adopt across their teams.”
+
+Coco Mao, Co-founder and CEO of OpenArt
+
 ![Omni](https://assets.claude.com/ade4bc4e76a4151d0e0ba0e7c78fa7eaf24f39c3.svg)
 
 > “Linked billing with Claude Platform lets customers link their Claude organization to Omni without sharing an API key. Alongside Omni’s own usage tracking, they can trace Claude token usage back to Omni for better auditability.”
@@ -177,7 +183,7 @@ Amanda Carroccio, Director of AI Partnerships, Ramp
 
 Cody De Arkland, GM, Agent Experience, Railway
 
-1/16
+1/17
 
 ## Related articles
 

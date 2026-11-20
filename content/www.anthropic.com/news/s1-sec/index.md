@@ -13,9 +13,9 @@ Related articles
 
 - Announcements
 
-  Nov 10, 2026
+  Nov 18, 2026
 
-  [Anthropic launches roadshow for proposed initial public offering](https://www.anthropic.com/news/roadshow-launch)
+  [Anthropic prices initial public offering](https://www.anthropic.com/news/anthropic-prices-initial-public-offering)
 
 [View more](https://www.anthropic.com/search?topic=funding)
 

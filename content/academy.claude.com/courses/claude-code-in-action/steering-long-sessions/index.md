@@ -79,9 +79,11 @@ To stop a self-paced loop while it waits for its next run, press escape. A loop 
 
 The steering metaphor so far assumes one steering wheel in one car. But when you're running multiple agents on the same codebase, you don't want two steering wheels in one car. That's unsafe. Two Claude sessions fighting over the same files leads to conflicts.
 
-That's where worktrees come in. Instead of sessions stepping on each other, each one gets its own independent file tree.
+That's where worktrees come in. Instead of sessions stepping on each other, each one gets its own independent file tree. Start a session in a new worktree by giving the worktree a name:
 
-Because each agent has its own tree, they can't clobber each other's changes. When a session exits, a clean worktree is automatically removed.
+`claude --worktree feature-auth`
+
+Because each agent has its own tree, they can't clobber each other's changes. When a session exits, a clean worktree is removed automatically. If you named the session, Claude asks you first.
 
 There's one helpful file to know about. A `.worktreeinclude` file at the repo root lists git-ignored files to copy into each worktree. This is useful for things like an environment variable file or a local config that you need in every worktree but don't want to commit to version control.
 

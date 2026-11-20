@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/DneX8qtqO\_I?enablejsapi=
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=DneX8qtqO_I)
 
+Download `earth.zip` from the Downloads section at the end of this lesson, unzip it, and put `earth.pdf` in the same folder as your code. The PDF is an excerpt from the Wikipedia article [Earth(opens in new tab)](https://en.wikipedia.org/wiki/Earth), by Wikipedia contributors, shared under [CC BY-SA 4.0(opens in new tab)](https://creativecommons.org/licenses/by-sa/4.0/).
+
 Claude can read and analyze PDF documents just as easily as it handles images. This capability opens up powerful possibilities for document analysis, summarization, and question-answering workflows.
 
 ## Setting Up PDF Processing[](https://academy.claude.com/courses/claude-with-amazon-bedrock/pdf-support)
@@ -63,5 +65,15 @@ Claude can handle various PDF processing tasks:
 - Work with PDFs containing both text and images
 
 The PDF processing capability becomes even more powerful when combined with other features like citations, which allow Claude to reference specific parts of the document in its responses. This makes it particularly useful for research, document analysis, and content extraction workflows.
+
+## Downloads
+
+- 
+
+  ### Sample PDF (earth.zip)
+
+  Contains earth.pdf, four pages from the Wikipedia article Earth (CC BY-SA 4.0).
+
+  [Download](https://academy.claude.com/assets/v1/earth-cy92tvmb.zip)
 
 Was this helpful?

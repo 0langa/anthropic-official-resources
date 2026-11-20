@@ -54,7 +54,7 @@ Ciro Yamada, Product Director
 
 ## Getting started
 
-For admins managing Claude across their organization: explore usage and cost breakdowns in the admin console, set model defaults and spend limits by group, and configure spend-threshold alerts to stay ahead of overages. Usage data is available in the admin dashboard, and the Analytics API lets finance and IT pull the same metrics into existing reporting systems, learn more [here](https://support.claude.com/en/articles/13694757-get-started-with-the-claude-enterprise-analytics-api).
+For admins managing Claude across their organization: explore usage and cost breakdowns in the admin console, set model defaults and [spend limits by group](https://claude.com/resources/articles/cowork-for-enterprise), and configure spend-threshold alerts to stay ahead of overages. Usage data is available in the admin dashboard, and the Analytics API lets finance and IT pull the same metrics into existing reporting systems, learn more [here](https://support.claude.com/en/articles/13694757-get-started-with-the-claude-enterprise-analytics-api).
 
 ## Related articles
 

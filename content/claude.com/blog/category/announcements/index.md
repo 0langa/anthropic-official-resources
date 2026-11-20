@@ -40,13 +40,11 @@ A research preview is available by waitlist today, starting with US Pro, Max, an
 
 ![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
-[ArticleNov 13, 2026
+[ArticleNov 17, 2026
 
-### Building always-on agents
+### Linked billing on the Claude Platform
 
-Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
-
-Claude Platform](https://claude.com/resources/articles/building-always-on-agents)
+Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)
 
 [ArticleNov 10, 2026
 
@@ -60,9 +58,13 @@ Featured resource 1 of 5: Your apps can now open in Claude, and Claude can work 
 
 Advanced filters(1)
 
-Showing 12 of 155 resources
+Showing 12 of 157 resources
 
-[ArticleNov 12, 2026
+[ArticleNov 17, 2026
+
+### Linked billing on the Claude Platform
+
+Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)[ArticleNov 12, 2026
 
 ### Operate Claude Managed Agents inside your security perimeter
 
@@ -118,12 +120,6 @@ Claude EnterpriseClaude apps](https://claude.com/resources/articles/claude-enter
 
 New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
 
-Claude Platform](https://claude.com/resources/articles/message-threads)[ArticleOct 28, 2026
-
-### Smart reports, surveys, and pooled group budgets for Claude Enterprise
-
-In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.
-
-Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)
+Claude Platform](https://claude.com/resources/articles/message-threads)
 
 View more

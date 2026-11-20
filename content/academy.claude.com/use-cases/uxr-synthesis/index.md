@@ -226,7 +226,7 @@ The Design plugin ships with `/research-synthesis` and other research and spec s
 
 
 
-DesignSkills for research synthesis, spec drafting, brand enforcement, and prototype generation
+DesignSkills for research synthesis, handoff specs, design critique, and accessibility review
 
 [Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=design)
 
@@ -234,7 +234,7 @@ DesignSkills for research synthesis, spec drafting, brand enforcement, and proto
 
 [Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fresearch-synthesis)
 
-`/design-handoff`Turn scattered threads and notes into a structured design spec
+`/design-handoff`Turn a design into a developer handoff spec
 
 [Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fdesign-handoff)
 
@@ -278,7 +278,7 @@ Drop the themes onto a board as sticky clusters for the workshop debrief.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/uxr-synthesis)
 
-Drag the files you'll use (the raw transcripts, your discussion guide, the participant roster) into one folder on your machine, then point Claude at it. Claude reads from it and writes the themed findings doc back to it. If you run studies regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your guide, taxonomy, and memory stay attached.
+Drag the files you'll use (the raw transcripts, your discussion guide, the participant roster) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from it and writes the themed findings doc back to it. If you run studies regularly, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your guide, taxonomy, and memory stay attached.
 
 Research / Onboarding-Study-Q2
 
@@ -330,13 +330,15 @@ Synthesize the interview transcripts into a research findings doc. Cluster the o
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/uxr-synthesis)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your taxonomy and your quote format, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /research-synthesis skill with my feedback.
+Make what we've done in this task so far into a skill called /interview-findings.
 
 
 
-ResearchOpen in Claude
+Research / Onboarding-Study-Q2Open in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -356,31 +358,33 @@ Publish those themes as an artifact for the product team. Keep a "what shifted s
 
 ### Run it after every interview day[](https://academy.claude.com/use-cases/uxr-synthesis)
 
-Sessions wrap, the synthesis should already be cooking. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and set the customized skill to run each evening, picking up any new transcripts in the study folder.
+Sessions wrap, the synthesis should already be cooking. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and set `/interview-findings` to run each evening, picking up any new transcripts in the study folder.
 
-Set up a scheduled task for weekdays at 6pm: check Research/Onboarding-Study-Q2 for new transcripts and re-run /research-synthesis, updating the findings doc and noting which themes moved.
+Set up a scheduled task for weekdays at 6pm: check Research/Onboarding-Study-Q2 for new transcripts and re-run /interview-findings, updating the findings doc and noting which themes moved.
 
 
 
-ResearchOpen in Claude
+Research / Onboarding-Study-Q2Open in Claude
 
 Scheduled taskActive
 
 Rolling research synthesis
 
-Each weekday at 6pm, checks the study folder for new transcripts, re-runs `/research-synthesis`, and updates the findings doc with a note on which themes moved.
+Each weekday at 6pm, checks the study folder for new transcripts, re-runs `/interview-findings`, and updates the findings doc with a note on which themes moved.
 
 Every **weekday at 6 pm · checks Research/Onboarding-Study-Q2 for new transcripts**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/uxr-synthesis)
 
-Your customized `/research-synthesis` now carries your taxonomy, your quote format, and your readout structure. Share it so every researcher on the team clusters the same way, and PMs see a consistent findings doc no matter who ran the study.
+Your `/interview-findings` skill now carries your taxonomy and your quote format. Share it so every researcher on the team clusters the same way, and PMs see a consistent findings doc no matter who ran the study.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/research-synthesis`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your taxonomy and format baked in, so they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/interview-findings`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your taxonomy and format baked in, so they don't have to build it again.
 
 ## What changes for the research team[](https://academy.claude.com/use-cases/uxr-synthesis)
 

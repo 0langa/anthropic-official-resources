@@ -8,7 +8,7 @@ Published
 :   Jun 27, 2025
 
 Team
-:   [Alignment](https://www.anthropic.com/research/team/alignment)
+:   [Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
 
 Topics
 :   - [How people use AI](https://www.anthropic.com/search?topic=how-people-use-ai)

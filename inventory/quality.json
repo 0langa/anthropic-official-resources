@@ -334,6 +334,7 @@
     "https://www.anthropic.com/news/the-anthropic-economic-index",
     "https://www.anthropic.com/news/third-party-testing",
     "https://www.anthropic.com/news/visible-extended-thinking",
+    "https://www.anthropic.com/news/yes-claude-can-do-nine-loops",
     "https://www.anthropic.com/research",
     "https://www.anthropic.com/research/2028-ai-leadership",
     "https://www.anthropic.com/research/81k-economics",
@@ -518,10 +519,10 @@
   ],
   "statuses": {
     "blocked": 27,
-    "complete": 5178,
+    "complete": 5180,
     "gone": 49,
     "out_of_scope": 44,
-    "partial": 511
+    "partial": 512
   },
   "terminal_unarchived_urls": [
     "https://academy.claude.com/courses/tool-use-with-the-messages-api/**call.input",
@@ -1062,6 +1063,7 @@
     "https://www.anthropic.com/news/the-anthropic-economic-index",
     "https://www.anthropic.com/news/third-party-testing",
     "https://www.anthropic.com/news/visible-extended-thinking",
+    "https://www.anthropic.com/news/yes-claude-can-do-nine-loops",
     "https://www.anthropic.com/research",
     "https://www.anthropic.com/research/2",
     "https://www.anthropic.com/research/2028-ai-leadership",

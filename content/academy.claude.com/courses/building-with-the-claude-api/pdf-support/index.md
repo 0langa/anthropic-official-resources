@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/PrwGTZd-4ac?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=PrwGTZd-4ac)
 
+Download `earth.zip` from the Downloads section at the end of this lesson, unzip it, and put `earth.pdf` in the same folder as your code. The PDF is an excerpt from the Wikipedia article [Earth(opens in new tab)](https://en.wikipedia.org/wiki/Earth), by Wikipedia contributors, shared under [CC BY-SA 4.0(opens in new tab)](https://creativecommons.org/licenses/by-sa/4.0/).
+
 Claude can read and analyze PDF files directly, making it a powerful tool for document processing. This capability works similarly to image processing, but with a few key differences in how you structure your code.
 
 ## Setting Up PDF Processing[](https://academy.claude.com/courses/building-with-the-claude-api/pdf-support)
@@ -69,5 +71,15 @@ This makes Claude essentially a one-stop solution for extracting any type of inf
 ![earth.pdf open over the notebook code, showing page 1 of 3 of the Wikipedia article Earth with a photo of Earth.](https://academy.claude.com/assets/media/6cc28f96e5c7497f59f73de8868a22b1d33047ea4074f99dd4e0d993b16ebe90.jpg)
 
 The example above shows Claude successfully processing a Wikipedia article about Earth that was saved as a PDF, demonstrating how it can understand and summarize complex document content in a single sentence.
+
+## Downloads
+
+- 
+
+  ### Sample PDF (earth.zip)
+
+  Contains earth.pdf, four pages from the Wikipedia article Earth (CC BY-SA 4.0).
+
+  [Download](https://academy.claude.com/assets/v1/earth-cy92tvmb.zip)
 
 Was this helpful?

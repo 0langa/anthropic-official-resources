@@ -73,7 +73,7 @@ Read your finished policy and ask yourself: *Is there anything I softened that I
 
 ## What's next[](https://academy.claude.com/courses/ai-fluency-for-small-businesses/human-in-the-loop)
 
-In the next lesson, we'll close out the course, share resources for what comes next, and you'll be able to collect your badge.
+In the next lesson, we'll close out the course and share resources for what comes next. After that, you'll take a short quiz to earn your completion badge.
 
 Was this helpful?
 

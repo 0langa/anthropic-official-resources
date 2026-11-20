@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/e2qPNdknFos?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=e2qPNdknFos)
 
+The notebooks for this course aren't available here.
+
 Building a custom prompt evaluation workflow starts with creating a clear goal and generating test data. In this case, we're building a prompt that helps users write AWS-specific code - either Python functions, JSON configurations, or regular expressions - with no extra explanations or formatting.
 
 ## Setting Up the Goal[](https://academy.claude.com/courses/claude-with-amazon-bedrock/generating-test-datasets)

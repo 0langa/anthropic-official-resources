@@ -10,6 +10,14 @@ The latest news about Claude, including new products, features, and updates.
 
 [ArticleNov 12, 2026
 
+### Operate Claude Managed Agents inside your security perimeter
+
+Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
+
+Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)
+
+[ArticleNov 12, 2026
+
 ### Introducing Claude for Manufacturing
 
 A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)
@@ -28,13 +36,11 @@ Our partners can now embed their apps directly in Claude, so you and Claude can 
 
 Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-full-tool)
 
-[ArticleNov 10, 2026
+[ArticleNov 17, 2026
 
-### More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
+### Linked billing on the Claude Platform
 
-Work at the speed of thought
-
-Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)
+Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)
 
 [ArticleNov 12, 2026
 
@@ -44,19 +50,17 @@ Introducing self-hosted Claude Managed Agents. Now you can run agents in your ow
 
 Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)
 
-[ArticleNov 12, 2026
-
-### Introducing Claude for Manufacturing
-
-A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)
-
-Featured resource 1 of 5: Introducing Claude for Manufacturing
+Featured resource 1 of 5: Operate Claude Managed Agents inside your security perimeter
 
 Advanced filters
 
-Showing 11 of 165 resources
+Showing 11 of 167 resources
 
-[ArticleNov 12, 2026
+[ArticleNov 17, 2026
+
+### Linked billing on the Claude Platform
+
+Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)[ArticleNov 12, 2026
 
 ### Operate Claude Managed Agents inside your security perimeter
 
@@ -106,12 +110,6 @@ Ask Claude about your money and get straight answers from the accounts you conne
 
 Claude EnterpriseClaude apps](https://claude.com/resources/articles/claude-enterprise-security-updates)[ArticleNov 4, 2026
 
-### New agents and products for security, productivity, and creative work on Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace)[ArticleNov 2, 2026
-
-### Make long-running agents faster with message threads
-
-New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
-
-Claude Platform](https://claude.com/resources/articles/message-threads)
+### New agents and products for security, productivity, and creative work on Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace)
 
 View more

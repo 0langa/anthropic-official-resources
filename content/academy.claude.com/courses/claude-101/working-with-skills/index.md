@@ -29,20 +29,20 @@ There are two categories of Skills you'll encounter:
 
 ## Enabling Skills[](https://academy.claude.com/courses/claude-101/working-with-skills)
 
-Skills are available on all plans. To use Skills, you'll need to have Code execution and file creation enabled, since Skills require Claude's secure sandboxed computing environment to function.
+Skills are available on all plans. To use Skills, you'll need to have **Create and edit files** turned on (some versions of Settings call it Code execution and file creation), since Skills require Claude's secure sandboxed computing environment to function.
 
 Here's how to enable Skills on the web or in the desktop app:
 
 1. Click your name in the lower left corner, then go to **Settings > Capabilities**.
-2. Ensure that **Code execution and file creation** is toggled on. (On Team and Enterprise plans, you won't see this toggle, because an organization Owner controls it in Organization settings. Skip to step 3.)
-3. Open **Customize > Skills** from the left sidebar.
-4. Click a skill to open it, then use the switch at the top of its page to turn it on or off.
+2. Ensure that **Create and edit files** (or **Code execution and file creation**) is toggled on. (On Team and Enterprise plans, you won't see this toggle, because an organization Owner controls it in Organization settings. Skip to step 3.)
+3. Open [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), or [browse skills(opens in new tab)](https://claude.ai/customize/skills) to find a new one. (On some accounts, Skills are listed with plugins.)
+4. Click a skill to open it. Depending on the skill, you can add it, turn it on or off, or remove it from its page. Removing a skill you made can delete it.
 
 For **Enterprise plans**, organization Owners need to make sure both Code execution and Skills are enabled in Organization settings before individual members can access them.
 
 For **Team plans**, this feature is enabled by default at the organization level.
 
-Once enabled, you'll see available Skills listed under **Customize > Skills**, including Anthropic's built-in Skills and any custom Skills you've uploaded.
+The Skills you've added or uploaded, and any your organization provides, are listed in [your skills(opens in new tab)](https://claude.ai/customize/skills/yours). Anthropic's built-in Skills for Excel, Word, PowerPoint, and PDF files work without being added.
 
 ## Using Skills in practice[](https://academy.claude.com/courses/claude-101/working-with-skills)
 
@@ -69,9 +69,7 @@ This lesson's video contains no spoken narration (screen demonstration with back
 
 This same capability means that Claude can work with **your actual files** (within a contained environment) to create updated versions of your files (note: when you upload a file in Chat, Claude creates a new version rather than editing your original in place). Upload slides, spreadsheets, contracts, (or any .xlsx, .pptx, .docx, or .pdf files) and watch as Claude creates slides, performs analyses, and adds suggested edits. When Claude is done, you can download these files or open them in Drive.
 
-Note: To use these capabilities you'll need to give Claude access to external data sources. Simply toggle Allow limited network access on when prompted:
-
-![Claude requesting permission to access external data, with the "Allow limited network access" toggle turned on](https://academy.claude.com/assets/media/f1d96f79e3a8512f7f18cacae7c299717d5a00eac8079c9494fdb12a555aeb76.png)
+Note: These capabilities work without network access, but Claude needs it to download extra tools for some files. See [Create and edit files with Claude(opens in new tab)](https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude) for how network access works and who controls it on your plan.
 
 ### Security considerations[](https://academy.claude.com/courses/claude-101/working-with-skills)
 
@@ -93,13 +91,13 @@ Here's how to create a Skill through conversation:
 1. **Start a new chat** and tell Claude what you want to create. For example: "I want to create a skill for writing quarterly business reviews" or "I need a skill that applies our brand guidelines to presentations."
 2. **Answer Claude's questions.** Claude will interview you about your workflow, asking things like: What should this skill do? What makes good output for this type of work? Can you give examples of when you'd use this skill?
 3. **Upload reference materials** if you have them. Templates, style guides, brand assets, or examples of work you're proud of all help Claude understand exactly what you're looking for.
-4. **Save your skill.** When finished, Claude generates a file containing your properly structured skill. Use **Save skill** on that file to add it to your Skills list, and it will be ready for Claude to use.
+4. **Save your skill.** When finished, Claude generates a file containing your properly structured skill. Use the save button on that file to add it to your Skills list, and it will be ready for Claude to use.
 
-**See your skills.** Find the Customize tab in the left sidebar. There you can see all of the skills that are available to you and even edit the skills you use manually or by chatting with Claude.
+**See your skills.** Open [your skills(opens in new tab)](https://claude.ai/customize/skills/yours). There you can see the skills you've added or created and even edit the skills you use manually or by chatting with Claude.
 
-Your custom Skill will appear in your Skills list alongside Anthropic's built-in Skills. From that point forward, Claude will automatically invoke it whenever you work on relevant tasks—no manual triggering needed. You can improve your skills with iteration — ask Claude to edit a skill and it will update the files for you.
+Your custom Skill will appear in your Skills list. From that point forward, Claude will automatically invoke it whenever you work on relevant tasks—no manual triggering needed. You can improve your skills with iteration: ask Claude to edit a skill, then click **Update** on the new version to save it.
 
-**Don't see your skill?** Download the file Claude created and add it yourself: in **Customize > Skills**, click **Add**, then **Upload skill**.
+**Don't see your skill?** Download the file Claude created and add it yourself: in [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), click **Add**, then choose the upload option.
 
 ## Skills vs. Projects[](https://academy.claude.com/courses/claude-101/working-with-skills)
 

@@ -62,6 +62,8 @@ python
 model_id = "us.anthropic.claude-haiku-4-5-20251001-v1:0"
 ```
 
+Keep this model for the whole course. Newer ones reject settings that later lessons teach, such as `temperature` and prefilled assistant messages.
+
 ## Creating User Messages[](https://academy.claude.com/courses/claude-with-amazon-bedrock/making-a-request)
 
 User messages have a specific structure that might look overly complex at first, but there's a good reason for it:

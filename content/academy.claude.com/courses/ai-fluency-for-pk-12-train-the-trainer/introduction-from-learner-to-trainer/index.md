@@ -34,7 +34,7 @@ AI is reshaping education right now, and the decisions being made today will sha
 
 ## What's next[](https://academy.claude.com/courses/ai-fluency-for-pk-12-train-the-trainer/introduction-from-learner-to-trainer)
 
-The next lesson, **Train the trainer kit**, lays out everything included and how to use it: a ready-to-run workshop deck, a facilitator guide with slide-by-slide talking points and timing (built into the deck as speaker notes you can toggle on), and a learner workbook to hand to your teachers.
+The next lesson, **How to use the kit**, lays out everything included: a ready-to-run workshop deck, a facilitator guide with slide-by-slide talking points and timing (built into the deck as speaker notes you can toggle on), and a learner workbook to hand to your teachers.
 
 #### Acknowledgments and license
 

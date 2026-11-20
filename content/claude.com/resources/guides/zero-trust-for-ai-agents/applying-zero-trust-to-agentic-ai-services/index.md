@@ -26,7 +26,7 @@ Each tier builds on the one before it, so advancing from **Foundation** to **Ent
 
 ## Agent identity and authentication
 
-Identity and authentication form the foundation for every other security capability. Without verifiable identity, you cannot enforce access controls, maintain audit trails, or attribute actions to specific agents.
+Identity and authentication form the foundation for every other security capability. Without [verifiable identity (opens in new tab)](https://claude.com/resources/articles/agent-identity-access-model), you cannot enforce access controls, maintain audit trails, or attribute actions to specific agents.
 
 ### Agent identity verification
 

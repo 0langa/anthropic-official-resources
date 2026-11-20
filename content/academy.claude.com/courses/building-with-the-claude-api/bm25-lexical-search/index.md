@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/nocfdTFbmXM?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=nocfdTFbmXM)
 
+The notebooks for this course aren't available here.
+
 When building RAG pipelines, you'll quickly discover that semantic search alone doesn't always return the best results. Sometimes you need exact term matches that semantic search might miss. The solution is to combine semantic search with lexical search using a technique called BM25.
 
 ## The Problem with Semantic Search Alone[](https://academy.claude.com/courses/building-with-the-claude-api/bm25-lexical-search)

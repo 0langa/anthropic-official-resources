@@ -12,7 +12,7 @@ When you give Claude Code a task to complete in your codebase, Claude will often
 
 ## Review the actual changes[](https://academy.claude.com/courses/claude-code-101/code-review)
 
-A diff is the before-and-after of a change: the lines removed and the lines added, file by file. The `/diff` command opens an interactive viewer of your uncommitted changes in that form, and it can also show what each of Claude's turns changed. Use the up and down arrows to move between files and `Enter` to open one.
+A diff is the before-and-after of a change: the lines removed and the lines added, file by file. The `/diff` command opens an interactive viewer of your uncommitted changes in that form, and it can also show what each of Claude's turns changed. If it opens above the prompt, use the up and down arrows to move between files and `Enter` to open one. If it opens as a panel beside the conversation, click a file to jump to it. The panel hides test files and generated files until you click their count line.
 
 `/diff`
 
@@ -26,7 +26,7 @@ The most important things that deserve a second look every time are:
 - **Tests that got weaker.** If the project you're working in contains tests, identify any that were skipped, deleted, or loosened until they passed.
 - **New packages and hard-coded values.** A dependency that was added for only one function, a URL or a key written straight into the code.
 
-If the whole change is wrong, run `/rewind` (or press `Esc` twice on an empty prompt), pick the prompt that produced it, and choose **Restore code and conversation**. One limit worth knowing: files changed by shell commands Claude ran, such as a package install, aren't rolled back.
+If the whole change is wrong, run `/rewind` (or press `Esc` twice on an empty prompt), pick the prompt that produced it, and choose **Restore code and conversation**. One limit worth knowing: files changed only by shell commands Claude ran, such as a package install, aren't rolled back. But once Claude has edited a file with its file editing tools in your conversation, rolling back also undoes changes that shell commands make to that file afterward.
 
 The exercise below uses a small signup-form task: Claude's summary on top, the eight files Claude touched underneath.
 

@@ -239,7 +239,7 @@ Organization-level controls and usage visibility.
 
 > [!NOTE]
 >
-> If you authenticate through an [LLM gateway](/docs/en/llm-gateway), feature availability matches the underlying provider the gateway forwards to, except for the features Claude Code itself turns off. Whenever `ANTHROPIC_BASE_URL` points at a host other than `api.anthropic.com`, Claude Code turns off features such as [Remote Control](/docs/en/remote-control#requirements) and [server-managed settings](/docs/en/server-managed-settings#platform-availability), whatever the gateway forwards. Some features, such as the [Advisor](/docs/en/advisor#requirements), work only if the gateway forwards requests intact.
+> If you authenticate through an [LLM gateway](/docs/en/llm-gateway), feature availability matches the underlying provider the gateway forwards to, except for the features Claude Code itself turns off. Whenever `ANTHROPIC_BASE_URL` points at a host other than `api.anthropic.com`, Claude Code turns off features such as [Remote Control](/docs/en/remote-control#requirements), whatever the gateway forwards. Some features, such as the [Advisor](/docs/en/advisor#requirements), work only if the gateway forwards requests intact.
 >
 > For how the requests Claude Code sends differ between an Amazon Bedrock- or Agent Platform-format gateway, an `ANTHROPIC_BASE_URL` gateway, and a Claude apps gateway sign-in, see [client behavior by connection method](/docs/en/llm-gateway-protocol#how-the-connection-method-changes-client-behavior).
 

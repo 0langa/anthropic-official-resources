@@ -6,11 +6,11 @@ Set up and use Aiera for access to earnings calls, SEC filings, and expert insig
 
 [Open Claude](https://claude.ai/new)
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-feg3cjc7.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bff9wrw3.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-dxxwd12t.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nqoloid9.png)
 
 The Aiera integration provides Claude with access to earnings calls, SEC filings, company publications, and expert insights for real-time financial intelligence. Additionally, the connector can pull information from Third Bridge events. This article explains how to set up and use Aiera to access corporate event data and analyst commentary for your market analysis.
 
-The Aiera integration relies upon Claude’s ability to use [remote connectors(opens in new tab)](https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp).
+The Aiera integration relies upon Claude’s ability to use [remote connectors(opens in new tab)](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities).
 
 ## What This Integration Provides[](https://academy.claude.com/tutorials/using-aiera-for-earnings-intelligence-and-market-analysis)
 
@@ -39,21 +39,18 @@ Claude applies Aiera’s intelligence platform to support real-time market analy
 
 ## Setting Up Aiera Integration[](https://academy.claude.com/tutorials/using-aiera-for-earnings-intelligence-and-market-analysis)
 
-For technical details of the Aiera integration, see [Aiera’s MCP Server Documentation(opens in new tab)](https://rest.aiera.com/docs/mcp). Contact Aiera to obtain API access credentials for the MCP server.
+For technical details of the Aiera integration, see [Aiera’s MCP Server Documentation(opens in new tab)](https://rest.aiera.com/docs/mcp). You need an active Aiera subscription. When asked to sign in, use your existing Aiera dashboard credentials.
 
 ### For Organization Owners[](https://academy.claude.com/tutorials/using-aiera-for-earnings-intelligence-and-market-analysis)
 
-1. Navigate to [Admin settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors).
-2. Click “Add” (or “Add connector”) and choose the custom option. If you then see “Web” and “Desktop,” select “Web.”
-3. Enter integration URL: `https://mcp-pub.aiera.com/?api_key={YOUR_API_KEY}`
-4. Name the integration (e.g., “Aiera MCP”)
-5. Click “Add”
+1. Navigate to [Organization settings > Connectors(opens in new tab)](https://claude.ai/admin-settings/connectors).
+2. Use the Add button to browse all available connectors, then find **Aiera** and add it for your team.
 
 ### For Individual Users[](https://academy.claude.com/tutorials/using-aiera-for-earnings-intelligence-and-market-analysis)
 
-Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory).
+Open [Aiera in the connectors directory(opens in new tab)](https://claude.ai/directory/aiera), connect it to Claude, and sign in when asked. If an owner added it earlier by URL, connect it from [your connectors(opens in new tab)](https://claude.ai/customize/connectors/yours) instead. Learn about [finding and connecting tools(opens in new tab)](https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory).
 
-**Note:** The Aiera connector also includes access to Third Bridge events. See [this section(opens in new tab)](https://rest.aiera.com/docs/mcp) of the Aiera MCP documentation for more information.
+**Note:** The Aiera connector also includes access to Third Bridge events. See the Third Bridge tools on the [Available MCP Tools(opens in new tab)](https://rest.aiera.com/docs/mcp-tools) page of the Aiera MCP documentation for more information.
 
 ## Common Use Cases[](https://academy.claude.com/tutorials/using-aiera-for-earnings-intelligence-and-market-analysis)
 

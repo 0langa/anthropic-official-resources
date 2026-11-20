@@ -38,7 +38,7 @@ Use [connectors(opens in new tab)](https://claude.com/blog/integrations) to give
 
 Set up connections to [Daloopa(opens in new tab)](https://claude.ai/directory/daloopa) for SEC filings and fundamental data, and [S&P Global(opens in new tab)](https://claude.ai/directory/s-p-global) for market intelligence and competitor analysis.
 
-This workflow uses capabilities available to [Claude for Enterprise(opens in new tab)](https://claude.com/blog/claude-for-enterprise) customers. Financial data connectors may require existing subscriptions or licenses with the underlying providers.
+This workflow uses capabilities available to [Claude Enterprise(opens in new tab)](https://claude.com/blog/claude-for-enterprise) customers. Financial data connectors may require existing subscriptions or licenses with the underlying providers.
 
 ![](data:image/svg+xml,%3csvg%20width='24'%20height='25'%20viewBox='0%200%2024%2025'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20y='0.855469'%20width='24'%20height='24'%20fill='%23012060'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M12.7708%203.85547C14.7289%203.85547%2016.6078%204.77652%2017.2919%205.27652V7.17126H16.1077C15.8445%206.43441%2014.8129%204.96073%2012.7919%204.96073C10.5814%204.96076%2010.3552%206.47427%2010.5814%207.01336C11.6081%209.46073%2017.766%2011.5923%2017.766%2016.8818C17.766%2022.1713%2013.7397%2022.8028%2011.9239%2022.8028C10.1081%2022.8028%206.47656%2021.5397%206.47656%2016.8818C6.55551%2012.9344%209.7134%2011.3555%2011.2134%2010.8028C10.1871%209.85547%208.60814%208.51336%208.60814%207.01336C8.60814%205.27653%2010.323%203.85548%2012.7708%203.85547ZM12.2397%2011.6713C10.4239%2012.3818%208.84498%2014.1186%208.84498%2016.8818C8.84498%2019.487%209.79235%2021.7765%2011.9239%2021.7765C13.9766%2021.7765%2015.3187%2020.0397%2015.3187%2016.8818C15.3187%2014.3555%2013.266%2012.3555%2012.2397%2011.6713Z'%20fill='white'/%3e%3c/svg%3e)
 
@@ -56,15 +56,13 @@ S&P Global
 
 ### Optional context[](https://academy.claude.com/use-cases/draft-investment-memos)
 
-In the chat settings, make sure [Web Search(opens in new tab)](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search) is turned on for additional context on the company you are evaluating.
-
-Enable [Extended Thinking(opens in new tab)](https://support.claude.com/en/articles/10574485-using-extended-thinking) for better synthesis when combining data from multiple platforms and creating higher-quality document outputs.
+Make sure [Web Search(opens in new tab)](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search) is turned on for additional context on the company you are evaluating. If you have the new Claude experience, there's no web search toggle. Claude searches the web when it helps.
 
 [
 
-Web Search](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search)[
+Web Search](https://support.claude.com/en/articles/10684626-enabling-and-using-web-search)
 
-Extended Thinking](https://support.claude.com/en/articles/10574485-using-extended-thinking)
+Raise the [effort level(opens in new tab)](https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings) in the model menu, or turn on thinking if your model has that toggle, for better synthesis when combining data from multiple platforms and creating higher-quality document outputs.
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/draft-investment-memos)
 
@@ -138,7 +136,7 @@ Claude has access to vast amounts of financial data when connected to multiple t
 
 The in-chat preview may not show the final typography, spacing hierarchy, and formatted tables that the document has. Open the file to see—and continue editing—the complete output.
 
-### Match model to task complexity[](https://academy.claude.com/use-cases/draft-investment-memos)
+### Match effort and model to task complexity[](https://academy.claude.com/use-cases/draft-investment-memos)
 
 Start with your default model. If the memo falls short, raise the effort level first, then switch to a more capable model if it still falls short. For quick jobs like brainstorming or simple formatting, lower the effort level first, then try a less capable model if you still want faster answers. Change the model and effort level in the [model menu(opens in new tab)](https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings), next to the send button. To learn more, see [Choosing a Claude model for knowledge workers(opens in new tab)](https://academy.claude.com/tutorials/choosing-the-right-claude-model).
 

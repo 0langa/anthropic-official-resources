@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/vUUc6Jt7hag?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=vUUc6Jt7hag)
 
+The files mentioned in this video aren't available here.
+
 After breaking a document into chunks, the next step in a RAG pipeline is finding which chunks are most relevant to a user's question. This is essentially a search problem - you need to look through all your text chunks and identify the ones that relate to what the user is asking about.
 
 ![User question "How many bugs did engineers fix this year?" and three text chunks, one calling XDR-47 a "bug".](https://academy.claude.com/assets/media/974fa9d12a1524d19e048317f4f35b378a1902c079fe4d3af09c7c0e836c3c65.jpg)

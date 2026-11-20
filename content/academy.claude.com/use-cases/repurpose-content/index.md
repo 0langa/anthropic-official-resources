@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-f5u6vtsc.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-0bz1039p.png)
 
-Film: the user asks Claude to turn a webinar transcript, slides, and attendee questions into a blog post, a LinkedIn thread, and short social posts, each leading with the talk's strongest point in brand voice, then shows scheduling the same routine after future webinars.
+Film: the user asks Claude to turn a webinar transcript and slides into a blog post, LinkedIn thread, and short social posts in the team's voice. Claude reads the source material, checks which point should lead, and drafts all formats, showing how to schedule the task for future webinars.
 
 Repurpose content across channels
 
@@ -76,7 +76,7 @@ Six deep integrations outran forty
 
 Six deep integrations outran forty.
 
-Used 6 sources45s
+Used 6 sources44s
 
 I read the 58-minute transcript, the slides, the 47 attendee questions and your voice guide, and wrote the blog post, the LinkedIn thread and three short posts to the webinar folder. Each piece opens on the point you picked, and Jonas’s quote needs his sign-off before anything goes out.
 
@@ -198,7 +198,7 @@ The recording of “Beyond connector count” is up, with the slides and written
 
 193 characters
 
-Run this every Friday at 9am: find the newest transcript in Webinars, run /draft-content with the voice guide, and write the post and social drafts to that webinar’s folder.
+Run this every Friday at 9am: find the newest transcript in Webinars, follow the voice guide, and write the post and social drafts to that webinar’s folder.
 
 **Webinar repurpose drafts**Fridays at 9:00 AM
 
@@ -206,7 +206,7 @@ Each run
 
 Finds the newest transcript in Webinars
 
-Runs /draft-content with your voice guide
+Drafts each format with your voice guide
 
 Writes the post and social drafts to that webinar’s folder*for you to review*
 
@@ -234,7 +234,7 @@ The post leads with the point you chose and cites the chart’s source.
 
 The thread opens on the same line, with three short posts under it.
 
-Schedule it after each webinar, and the drafts are in the folder next morning.
+Schedule it for Friday morning, and the drafts from that week’s webinar are in its folder.
 
 One talk becomes a draft for every channel, in your voice.
 
@@ -254,7 +254,7 @@ Connectors: Notion
 
 ### Try a plugin[](https://academy.claude.com/use-cases/repurpose-content)
 
-The Marketing plugin holds skills for content and campaign work as a starting point, describe the task and the relevant one runs. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
+The Marketing plugin holds skills for content and campaign work. Describe the task and the relevant one runs. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
 
 
 
@@ -314,7 +314,7 @@ Read the content calendar so the angles don't duplicate what's already scheduled
 
 ### Set your working folder[](https://academy.claude.com/use-cases/repurpose-content)
 
-Drag the files you'll use (transcript, slides, attendee questions, your brand-voice guide) into one folder on your machine, then point Claude at it. Claude reads from it and writes the drafts back to it. If you'll do this after every webinar, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent Webinars folder so instructions, memory, and scheduled runs stay attached.
+Drag the files you'll use (transcript, slides, attendee questions, your brand-voice guide) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from it and writes the drafts back to it. If you'll do this after every webinar, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from the parent Webinars folder so instructions, memory, and scheduled runs stay attached.
 
 Webinars / apr-platform-overview
 
@@ -364,13 +364,15 @@ Draft a blog post, a LinkedIn thread, and three short social posts from this web
 
 ## Make Claude work for you[](https://academy.claude.com/use-cases/repurpose-content)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your brand's word counts and voice references, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the /draft-content skill with my feedback.
+Make what we've done in this task so far into a skill called /repurpose-webinar.
 
 
 
 WebinarsOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -380,9 +382,9 @@ Make what we've done in this task so far into a skill, or edit the /draft-conten
 
 ### Run it on a schedule[](https://academy.claude.com/use-cases/repurpose-content)
 
-Webinars run on a calendar, and the repurposed drafts should land the morning after. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill runs against the newest transcript automatically.
+Webinars run on a calendar, so schedule the repurposed drafts for the morning after your webinar. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/repurpose-webinar` runs against the newest transcript automatically.
 
-Set up a scheduled task: run /draft-content every Friday at 9am against the newest transcript in the Webinars folder, and write the blog, thread, and social drafts to that same folder.
+Set up a scheduled task: run /repurpose-webinar every Friday at 9am against the newest transcript in the Webinars folder, and write the blog, thread, and social drafts to that webinar's folder.
 
 
 
@@ -392,19 +394,21 @@ Set up a scheduled task: run /draft-content every Friday at 9am against the newe
 
 Webinar repurpose drafts
 
-Runs `/draft-content` against the newest transcript in Webinars and writes the blog, thread, and social drafts to the same folder.
+Runs `/repurpose-webinar` against the newest transcript in Webinars and writes the blog, thread, and social drafts to that webinar's folder.
 
 Every **Friday at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## Share with your teammates[](https://academy.claude.com/use-cases/repurpose-content)
 
-Your customized `/draft-content` now carries your brand's word counts, structure, and voice references. Share it so every content writer starts from the same baseline, no one re-derives the house style.
+Your `/repurpose-webinar` skill now carries your brand's word counts, structure, and voice references. Share it so every content writer starts from the same baseline and no one re-derives the house style.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...** menu next to `/draft-content`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your formats and voice rules baked in, they don't repeat Steps 1-3.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/repurpose-webinar`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get the skill with your formats and voice rules baked in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/repurpose-content)
 
@@ -422,8 +426,8 @@ Your folder
 
 Webinars
 
-After every webinar, `/draft-content` writes a set of channel-specific drafts in your voice to the same folder — ready to review and publish instead of write from scratch.
+After every webinar, `/repurpose-webinar` writes a set of channel-specific drafts in your voice to that webinar's folder — ready to review and publish instead of write from scratch.
 
-[Next: Blog post from outline](https://academy.claude.com/use-cases/on-brand-content)
+[Next: Create on-brand content](https://academy.claude.com/use-cases/on-brand-content)
 
 Was this helpful?

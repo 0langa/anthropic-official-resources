@@ -226,7 +226,7 @@ On top of that time, allow for any [wait for a free slot](#concurrent-upstream-r
 
 ### Retry an unanswered request sooner with the first-byte deadline
 
-To make Claude Code retry an unanswered streaming request sooner, give it a first-byte deadline by setting [`CLAUDE_STREAM_FIRST_BYTE_TIMEOUT_MS`](/docs/en/env-vars) on your developers' machines. The deadline limits how long the first attempt waits for response headers. Without it, that attempt can wait 5 to 6 minutes. Requires Claude Code v2.1.307 or later on the developer's machine.
+To make Claude Code retry an unanswered streaming request sooner, give it a first-byte deadline by setting [`CLAUDE_STREAM_FIRST_BYTE_TIMEOUT_MS`](/docs/en/env-vars) on your developers' machines. The deadline limits how long the first attempt waits for response headers. Without it, that attempt can wait 5 to 6 minutes by default. Requires Claude Code v2.1.307 or later on the developer's machine.
 
 Set the variable to a positive whole number of milliseconds, in a [gateway policy's `env` block](#deliver-the-value-in-a-policy) or a developer's shell. Keep the value above your gateway's longest [time to first byte](#keep-api_timeout_ms-above-the-gateways-time-to-first-byte), or Claude Code can abort and re-send healthy requests whose headers take longer. This example sets 60 seconds in a developer's shell:
 
@@ -234,7 +234,7 @@ Set the variable to a positive whole number of milliseconds, in a [gateway polic
 export CLAUDE_STREAM_FIRST_BYTE_TIMEOUT_MS=60000
 ```
 
-An unanswered re-send can wait 5 to 6 minutes, until the [body idle timeout](/docs/en/network-config#streaming-idle-watchdogs) ends it and Claude Code retries it within the [retry budget](/docs/en/errors#tune-retry-behavior). If you lowered `API_TIMEOUT_MS` only to retry sooner, remove that value, or one unanswered re-send can end the turn with [No response from API](/docs/en/errors#no-response-from-api).
+By default, an unanswered re-send can wait until the [body idle timeout](/docs/en/network-config#streaming-idle-watchdogs) ends it and Claude Code retries it within the [retry budget](/docs/en/errors#tune-retry-behavior). Keep `API_TIMEOUT_MS` well above the body idle timeout, or one unanswered re-send can end the turn with [No response from API](/docs/en/errors#no-response-from-api).
 
 To confirm the deadline fired, have a developer start Claude Code with [debug logging](/docs/en/network-config#verify-your-configuration), then search the log for `[first-byte] no response headers`.
 
@@ -508,7 +508,7 @@ Pick a `CLAUDE_STREAM_IDLE_TIMEOUT_MS` value whose second column covers your lon
 | `900000` | About 22.5 minutes |
 | `1800000` | About 37.5 minutes |
 
-If an upstream hangs while the gateway keeps sending pings, your developers also wait that long before Claude Code gives up on the stream. A connection that goes fully silent still ends after 5 to 6 minutes, because the [body idle timeout](/docs/en/network-config#streaming-idle-watchdogs) doesn't follow this variable.
+If an upstream hangs while the gateway keeps sending pings, your developers also wait that long before Claude Code gives up on the stream.
 
 #### Deliver the value in a policy
 

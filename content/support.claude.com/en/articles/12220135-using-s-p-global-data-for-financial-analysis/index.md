@@ -8,7 +8,7 @@ Use Claude's Kensho integration to access S&P Global's financial data for compre
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-llc1fxyx.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lf7o5dl6.png)
 
-The Kensho LLM-ready API integration provides Claude with access to S&P Global’s financial data, delivering comprehensive market and fundamental data for public companies. This article explains how to set up the Kensho integration and use S&P data for financial analysis, including price history, financial statements, segment data, and business relationships.
+The S&P - Deterministic Retrieval connector, built on the Kensho LLM-ready API, provides Claude with access to S&P Global’s financial data, delivering comprehensive market and fundamental data for public companies. This article explains how to set up the connector and use S&P data for financial analysis, including price history, financial statements, segment data, and business relationships.
 
 ## What This Integration Provides[](https://academy.claude.com/tutorials/using-s-p-global-data-for-financial-analysis)
 

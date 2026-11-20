@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-kb8jxxpj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lt8ltc3p.png)
 
-Film: the user asks Claude to rate a customer account's health using CRM, support tickets, usage data, NPS, and the success plan. Claude checks with the user before calling it, then produces a summary with signals against goals and two tied actions, schedulable weekly.
+Film: the user asks Claude to check an account's usage, tickets, NPS, and success plan, and rate its health; Claude confirms the judgment call, then delivers a summary with two tied actions, and shows the routine scheduled weekly across accounts.
 
 Views+ Add
 
@@ -52,7 +52,7 @@ Zendesk
 
 Google Drive
 
-Accounts / Northwind Foods / health
+Accounts / Northwind / health
 
 3 files
 
@@ -69,14 +69,6 @@ health-summary-example.docx
 Format to match
 
 DOCX
-
-Sales
-
-/account-research
-
-/call-summary
-
-/pipeline-review
 
 How can I help you today?
 
@@ -170,7 +162,7 @@ P
 
 August invoice shows 250 seats, contract is 240Aug 16
 
-**/**pipeline-review From the usage data, Zendesk tickets, NPS responses, and success plan for Northwind, write the account health summary: call it red, yellow, or green with the reason in one or two sentences, then the two actions to take this week.
+From the usage data, Zendesk tickets, NPS responses, and success plan for Northwind, write the account health summary: call it red, yellow, or green with the reason in one or two sentences, then the two actions to take this week.
 
 Reading the account in Salesforce0s
 
@@ -247,13 +239,13 @@ You see each signal beside the goal agreed with the customer.
 
 Claude keeps the actions to two, each tied to a signal.
 
-Run this every Monday at 7am for each account in my book with /pipeline-review, write the summary to each account’s health folder, and put the red accounts first in one digest.
+Run this every Monday at 7am for each account in my book, write the summary to each account’s health folder, and put the red accounts first in one digest.
 
 **Weekly account health**Mondays at 7:00 AM
 
 Each run
 
-Runs /pipeline-review for each account in your book
+Runs the health check for each account in your book
 
 Writes the summary to each account’s health folder
 
@@ -271,7 +263,7 @@ Track account health
 
 You need to know how healthy a customer account really is.
 
-Using the Sales plugin’s pipeline review skill, name your sources and ask for a health rating.
+Name your sources and ask for a health rating.
 
 Claude reads the account and its tickets, then checks usage and scores against the plan.
 
@@ -295,31 +287,9 @@ I weighed usage, three open tickets, NPS and the success plan for Northwind Food
 
 Northwind Foods - account health - 31 Aug
 
-Skill: /pipeline-review (Sales)
-
 Connectors: Salesforce, Zendesk, Google Drive
 
 ## 1. Set up[](https://academy.claude.com/use-cases/account-tracking)
-
-### Try a plugin[](https://academy.claude.com/use-cases/account-tracking)
-
-The Sales plugin ships with `/pipeline-review` and other customer success skills as a starting point, already structured to weigh usage, tickets, and sentiment into one call. If your admin manages plugins and it's not available yet, skip this step. The prompt below works without it.
-
-
-
-SalesSkills for account research, call prep, pipeline review, and account health
-
-[Add](https://claude.ai/desktop/customize/plugins/new?marketplace=github.com%2Fanthropics%2Fknowledge-work-plugins&plugin=sales)
-
-`/pipeline-review`Score account health from usage, tickets, NPS, and the success plan
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fpipeline-review)
-
-`/call-summary`Cluster a folder of call transcripts into themes with counts and quotes
-
-[Open in Claude](https://claude.ai/new?surface=cowork&q=%2Fcall-summary)
-
-Show all 9 skills
 
 ### Connect your tools[](https://academy.claude.com/use-cases/account-tracking)
 
@@ -357,15 +327,15 @@ prompt.
 
 ### Set your working folder[](https://academy.claude.com/use-cases/account-tracking)
 
-Drag the files you'll use (the usage export, the success plan, the latest NPS responses) into one folder on your machine, then point Claude at it. Claude reads from it and writes the health summary back to it. If you track this account ongoing, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your health criteria, instructions, and memory stay attached.
+Drag the files you'll use (the usage export, the success plan, the latest NPS responses) into one folder on your machine, then [give Claude access to it(opens in new tab)](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app) in the Claude desktop app. Claude reads from the folder and writes the health summary back to it. If you track this account ongoing, [create a project(opens in new tab)](https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork) from that folder so your health criteria, instructions, and memory stay attached.
 
 Accounts / Northwind / health
 
-usage-export-apr.csvApr 25, 202664 KB
+usage-export-aug.csvAug 25, 202664 KB
 
 success-plan.docxFeb 3, 202638 KB
 
-nps-responses-q1.csvApr 2, 202612 KB
+nps-responses-q3.csvAug 3, 202612 KB
 
 In Cowork’s chat bar:Accounts / Northwind / health
 
@@ -419,14 +389,15 @@ so you know where to look first when you review the draft.
 
 ## 3. Make Claude work for you[](https://academy.claude.com/use-cases/account-tracking)
 
-A plugin skill is a starting point. Customize it with your own practices and expertise, or save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
+Tell Claude your own rules for this task, such as your usage thresholds and your risk rules, then save what you've done as a skill of your own. A few minutes of conversation and it runs with your standards from then on.
 
-Make what we've done in this task so far into a skill, or edit the
-/pipeline-review skill with my feedback.
+Make what we've done in this task so far into a skill called /account-health.
 
 
 
-AccountsOpen in Claude
+Accounts / Northwind / healthOpen in Claude
+
+Review the skill, and save it if Claude hasn't already.
 
 
 
@@ -436,11 +407,11 @@ Make what we've done in this task so far into a skill, or edit the
 
 ### Run it across your book every week[](https://academy.claude.com/use-cases/account-tracking)
 
-Health should be tracked, not checked when something breaks. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and the customized skill writes a fresh summary for every account in your book each week.
+Health should be tracked, not checked when something breaks. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/account-health` writes a fresh summary for every account in your book each week.
 
-Set up a scheduled task for every Monday at 7am: run /pipeline-review for each account in my
-book and write the summary to the matching health folder under Accounts. Roll
-up anything red into one digest at the top.
+Set up a scheduled task for every Monday at 7am: run /account-health for each account in my
+book and write the summary to the matching health folder under Accounts. Put
+the red accounts first in one digest.
 
 
 
@@ -450,32 +421,30 @@ up anything red into one digest at the top.
 
 Weekly account health
 
-Runs `/pipeline-review` for every account in your book and writes the summary
-to its health folder, with red accounts rolled up into one digest.
+Runs `/account-health` for every account in your book and writes the summary
+to its health folder, with red accounts first in one digest for you to confirm.
 
 Every **Monday at 7:00 AM**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 
+To use a folder on your computer during a scheduled task, keep your computer on and awake with the Claude desktop app open so Claude can access it.
+
 ## 5. Share with your teammates[](https://academy.claude.com/use-cases/account-tracking)
 
-Your customized `/pipeline-review` now carries your usage thresholds, your risk rules, and your summary format. Share it so every CSM scores health the same way, and the red/yellow/green means the same thing across the whole book.
+Your `/account-health` skill now carries your usage thresholds, your risk rules, and your summary format. Share it so every CSM scores health the same way, and the red/yellow/green means the same thing across the whole book.
 
 
 
 Share the skill
 
-You can share a skill you created. In your list of skills, open the **...**
-menu next to `/pipeline-review`, select **Share**, and pick your teammates.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...**
+menu next to `/account-health`, select **Share**, and pick your teammates.
 For your whole organization, open the skill and select **Publish to org**, if
 your admin allows. They get the skill with your thresholds and format baked
-in, so they don't repeat Steps 1-3.
+in, so they don't have to build it again.
 
 ## Going forward[](https://academy.claude.com/use-cases/account-tracking)
 
 ### Now set up in Claude
-
-Your plugins
-
-Sales plugin
 
 Your tools
 

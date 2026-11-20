@@ -10,7 +10,7 @@ Learn how Claude creates and edits files directly including spreadsheets, docume
 
 Too often knowledge workers spend entire days wrestling with spreadsheets, formatting documents, and building presentations, squeezing the interesting part — spotting opportunities and crafting the narrative — into crunched windows of time.
 
-Now Claude can create and work directly with your files, eliminating hours of manual busywork. This doesn't just save time; it brings Claude's analytical power straight into documents, spreadsheets, presentations, and PDFs.
+Claude can create and work directly with your files, eliminating hours of manual busywork. This doesn't just save time; it brings Claude's analytical power straight into documents, spreadsheets, presentations, and PDFs.
 
 This guide will explore what’s possible with file creation, to get you started and help you go further.
 
@@ -20,7 +20,7 @@ If you're using a Team or Enterprise plan, see [Configuring network access(opens
 
 ## File creation offers a different way to work with Claude[](https://academy.claude.com/tutorials/create-and-edit-files-with-claude-to-eliminate-hours-of-busy-work)
 
-Claude can now create and work directly with the documents that drive your business and return them back to you for further edits. This means you can:
+Claude can create and work directly with the documents that drive your business and return them back to you for further edits. This means you can:
 
 - **Build Excel models** — Develop financial forecasts with working formulas, create budget trackers with automatic calculations, or analyze sales data.
 - **Generate documents** — Directly generate reports, memos, technical papers, and more. Then download or export to GDrive in one click.

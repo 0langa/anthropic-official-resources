@@ -24,7 +24,7 @@ The Claude desktop app is your home base for working with Claude — from a quic
 
 The first two are where most knowledge workers spend their day; the third is the developer's workspace. The rest of this lesson makes the difference concrete, then shows where each one lives in the app today.
 
-**In the product today.** Turn-by-turn work happens in Chat. Work you hand off runs in Cowork. Building software happens in the Code tab. All three live in the Claude desktop app. If you have the new Claude experience, there's no separate Chat or Cowork: both kinds of work happen in any conversation.
+**In the product today.** All three live in the Claude desktop app. To see which layout you have, start a new chat and look at the message box. If it shows "Chat" and "Cowork" options, turn-by-turn work happens in Chat and work you hand off runs in Cowork. On Pro, Max, and Ultra plans, if it doesn't show them, you have the [new Claude experience(opens in new tab)](https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude): both kinds of work happen in any conversation, and you hand work off by describing the task. On Team and Enterprise plans, your organization decides whether you have the new experience and whether Cowork is on, so ask your admin if you're not sure. In the new experience, read Chat and Cowork in this course as two kinds of work rather than two places. Handing work off needs a paid plan, and local folders, the app's built-in browser, and computer use need the desktop app open. Building software happens in the Code tab.
 
 ## Working with Claude, turn by turn[](https://academy.claude.com/courses/claude-101/claude-desktop-app-chat-cowork-code)
 
@@ -38,13 +38,13 @@ This is Claude as a thinking partner: the shape of work where the value is in th
 
 **Try it out when:**
 
-- You're staring at an unfamiliar dashboard. Screenshot it and ask "what do these metrics mean?" Claude explains while the dashboard stays in view, and your follow-up ("okay, which of these should I actually worry about?") is the next turn.
+- You're staring at an unfamiliar dashboard. Screenshot it and ask "what do these metrics mean?" Claude explains, and your follow-up ("okay, which of these should I actually worry about?") is the next turn.
 - You're between meetings and need to structure a presentation. Talk it through by voice; Claude drafts an outline from what you said; you push back on section three; it revises. Four turns, done before your next call.
 - You've been jotting product-launch ideas across Apple Notes for weeks. Ask Claude to pull together everything about the launch, figure out what you left half-finished, and check your other connected tools for gaps. Then work the gaps together.
 
 **In the product today.** In the desktop app this is Chat — the same Claude you know from claude.ai, plus a few things that come from running natively on your computer:
 
-- **Quick entry.** Double-tap the Option key (Mac) to pull Claude up over whatever you're working on. It answers in a compact window that stays on top as you switch apps.
+- **Quick entry.** Double-tap the Option key (Mac) to pull Claude up over whatever you're working on. Type your message there, and the chat opens in the main Claude window.
 - **Screenshots and window sharing.** Capture a screenshot or share a window so Claude sees what you see. (Mac)
 - **Dictation.** Talk through a problem instead of typing. (Mac)
 - **Desktop connectors.** Connect local tools and services so Claude can work with what's on your machine.
@@ -75,10 +75,10 @@ Handing work off doesn't mean stepping back from it. Before Claude starts, it ma
 - **Subagents.** For a big job, Claude splits the work across background workers running in parallel, each with its own context, and hands you one finished deliverable.
 - **Projects.** Group related tasks into a workspace with its own files, instructions, and memory — like projects in Chat, but built around the tasks you run.
 - **Browser use.** With Claude in Chrome, Claude navigates websites and pulls what it finds straight into the task — competitor pricing across ten sites, data from pages with no API.
-- **Computer use.** When there's no connector for what you need, Claude can operate your computer directly — clicking, typing, opening apps — asking permission before each app it touches, with a blocklist for anything off-limits. In research preview on Pro and Max plans.
-- **Plugins.** Ready-made bundles of skills, connectors, and agents built for a specific kind of work — a sales plugin, a finance one, a legal one — so Claude works the way that role works. Browse and add them under Customize → Plugins.
+- **Computer use.** When there's no connector for what you need, Claude can operate your computer directly — clicking, typing, opening apps — asking permission before each app it touches, with a blocklist for anything off-limits. Check [Let Claude use your computer(opens in new tab)](https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork) to see whether your plan includes it.
+- **Plugins.** Ready-made bundles of skills, connectors, and agents built for a specific kind of work — a sales plugin, a finance one, a legal one — so Claude works the way that role works. Browse and add them on the [plugins page(opens in new tab)](https://claude.ai/desktop/customize/plugins).
 
-Cowork is available to Pro, Max, Team, and Enterprise users, with new capabilities added regularly.
+Cowork is available to Pro, Max, Ultra, Team, and Enterprise users, with new capabilities added regularly.
 
 ## Building software with Claude Code[](https://academy.claude.com/courses/claude-101/claude-desktop-app-chat-cowork-code)
 
@@ -87,7 +87,7 @@ If you write code, the desktop app gives you a full development environment. Cla
 You choose where the work happens:
 
 - **Local.** Select a folder on your computer and Claude works directly with those files — reading your project, using local tools, and running a development server you can preview in your browser.
-- **Cloud.** Connect a GitHub repository and Claude works in a cloud environment. Sessions continue even if you close the app, so you can start a big refactor and check back later. Good for larger codebases, or when you want to keep the work off your machine. You can run Cowork in the cloud (on Pro and Max plans, and in beta on Team plans and on Enterprise plans where an admin has enabled it) in the same spirit — see [Cowork in the cloud(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-cowork) in the Introduction to Claude Cowork course.
+- **Cloud.** Connect a GitHub repository and Claude works in a cloud environment. Sessions continue even if you close the app, so you can start a big refactor and check back later. Good for larger codebases, or when you want to keep the work off your machine. You can run Cowork in the cloud (on Pro, Max, Ultra, and Team plans, in beta on Team, and on Enterprise plans where an Owner has enabled it) in the same spirit — see [Cowork in the cloud(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-cowork) in the Introduction to Claude Cowork course.
 
 You also choose how much Claude does on its own, with settings including:
 
@@ -95,7 +95,7 @@ You also choose how much Claude does on its own, with settings including:
 - **Accept edits.** Claude applies file edits automatically.
 - **Plan.** Claude creates a plan before making changes.
 
-**In the product today.** This lives in the Code tab of the desktop app, available on Pro, Max, Team, and Enterprise plans. You can run multiple sessions across projects and filter them by environment (Local or Cloud) and status from the sidebar.
+**In the product today.** This lives in the Code tab of the desktop app, available on Pro, Max, Ultra, Team, and Enterprise plans. You can run multiple sessions across projects and group and sort them from the sidebar.
 
 ## Choosing the right shape for the task[](https://academy.claude.com/courses/claude-101/claude-desktop-app-chat-cowork-code)
 

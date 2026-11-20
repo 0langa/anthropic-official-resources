@@ -62,16 +62,16 @@ Anthropic maintains a [directory of connectors(opens in new tab)](https://claude
 
 Not sure which kind you need? It depends on where your work lives. In most cases, use a desktop extension for local files and tools on your computer, and a web connector for a service hosted on the internet, like Notion or Slack.
 
-The directory lists connectors rather than individual applications, so one entry can cover several related tools. The Atlassian connector, for example, reaches both Jira and Confluence, so look for Atlassian rather than either app by name. If a tool you need doesn't have its own entry, you can add it as a custom connector instead.
+The directory lists connectors rather than individual applications, so one entry can cover several related tools. The Atlassian connector, for example, reaches both Jira and Confluence, so look for Atlassian rather than either app by name. If a tool you need doesn't have its own entry, you may be able to add it as a custom connector instead.
 
-You can also browse connectors from inside Claude: open **Customize > Connectors** from the left sidebar, or click the **+** button in the lower left of the chat window, then select **Connectors**.
+You can also [browse connectors(opens in new tab)](https://claude.ai/customize/connectors) from inside Claude, or add one from the **+** menu in any chat. (On some accounts, connectors are listed with plugins.)
 
 ### Setting up a web connector[](https://academy.claude.com/courses/claude-101/connecting-your-tools)
 
 Here's how to connect a cloud service:
 
-1. **Find the connector:** Open the [connector directory(opens in new tab)](https://claude.ai/directory), or click **+** > **Connectors** in any chat
-2. **Click Connect:** Select the connector you want to add. On Team and Enterprise plans, an organization Owner needs to add that connector for your organization first
+1. **Find the connector:** Open the [connector directory(opens in new tab)](https://claude.ai/directory)
+2. **Connect it:** Select the connector you want and connect it to Claude. On Team and Enterprise plans, an organization Owner needs to add that connector for your organization first
 3. **Authenticate:** You'll be redirected to the service's login page. Sign in with your existing credentials
 4. **Grant permissions:** Review the specific permissions Claude is requesting, then authorize access
 5. **Test the connection:** Return to Claude and try a simple request, like "Can you access my [tool name]?"
@@ -91,7 +91,7 @@ Some desktop extensions include:
 To install a desktop extension:
 
 1. Download and install the [Claude Desktop app(opens in new tab)](https://claude.ai/download)
-2. Open the app and navigate to Settings > Extensions
+2. Open the app, open Settings, search for Extensions and click it in the results
 3. Browse available extensions and click Install
 4. Follow any additional setup steps specific to that extension
 
@@ -129,7 +129,7 @@ When you connect Claude to external services, you're granting it access to read�
 
 - **Scoped access:** Permissions are specific to what the connector needs and you can toggle individual permissions on and off within each application's menu.
 - **Claude sees what you see:** Claude can only access data *you* have access to. Connecting your work email doesn't give Claude access to your CEO's inbox—only your own.
-- **Revocable at any time:** You can disconnect a service in **Customize > Connectors** or through the third-party service's security settings. Just as with Skills, you can also find or build custom connectors. Exercise the same caution: only install connectors from trusted sources.
+- **Revocable at any time:** You can disconnect a service in [your connectors(opens in new tab)](https://claude.ai/customize/connectors/yours) or through the third-party service's security settings. Just as with Skills, you can also find or build custom connectors. Exercise the same caution: only install connectors from trusted sources.
 
 ## Lesson reflection[](https://academy.claude.com/courses/claude-101/connecting-your-tools)
 
