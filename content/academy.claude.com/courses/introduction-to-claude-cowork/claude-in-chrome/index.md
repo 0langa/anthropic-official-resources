@@ -163,7 +163,7 @@ Claude hands the browser steps to Claude in Chrome, takes the data back, pulls t
 
 ## A few watch-outs[](https://academy.claude.com/courses/introduction-to-claude-cowork/claude-in-chrome)
 
-- **You need to be signed in.** Claude can't sign in to a tool for you. If the dashboard requires authentication, you log in once in your browser; Claude works in the session you're already authenticated in.
+- **You need to be signed in.** If the dashboard requires authentication, you log in once in your browser; Claude works in the session you're already authenticated in. In Claude Desktop on a Mac, [1Password for Claude(opens in new tab)](https://support.claude.com/en/articles/15936181-get-started-with-1password-for-claude) (in beta) can fill in a saved login after you approve the request in 1Password. It needs the 1Password app and browser extension, and on Team and Enterprise plans an Owner has to turn it on first.
 - **Be deliberate about what you give Claude access to on the web.** Just like with connectors, Claude sees what you see — but on the open web, that includes anything you have access to. For sensitive sites, narrow what Claude can act on, and review the actions before approving them.
 
 To find the latest setup guidance, see [Get started with Claude in Chrome(opens in new tab)](https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome).

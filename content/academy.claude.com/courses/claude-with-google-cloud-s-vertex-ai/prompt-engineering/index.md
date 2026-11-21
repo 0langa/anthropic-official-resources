@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/AFoc3PZRSDE?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=AFoc3PZRSDE)
 
+The notebooks for this course aren't available here.
+
 Prompt engineering is about taking a prompt you've written and improving it to get more reliable, higher-quality outputs. This process involves iterative refinement - starting with a basic prompt, evaluating its performance, then systematically applying engineering techniques to improve it.
 
 ![Prompt evaluation, automated testing of prompts, leads to prompt engineering practices such as structuring with XML tags.](https://academy.claude.com/assets/media/135340165a55b554a968a55352c565b5d180ee9d685cc339021feb685f620efa.png)

@@ -1,6 +1,6 @@
 # One request, a workflow, or an agent
 
-Before you build a feature on Claude, choose how much to build: one request, a workflow your code runs in a fixed order, or an agent that picks its own steps. Start from the simplest, see when to move to the next one, and practice the choice on a few feature ideas.
+Test the simplest option first to choose whether your feature on Claude needs a single request, a workflow, or an agent.
 
 10 minClaude Platform
 

@@ -8,13 +8,17 @@ For work that belongs to the team. Tag Claude in Slack, delegate in the open, an
 
 Claude Tag (beta) brings Claude into your team's Slack workspace. Learn where to hand it work, how to steer and correct it, and the habits that help you and your team get more from it over time.
 
-·Course·11 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introduction-to-claude-tag)[![](https://academy.claude.com/assets/v1/thumbnail.dark-cdigm2ac.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cdigm2ac.png)
+·Course·11 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introduction-to-claude-tag)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.dark-cdigm2ac.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cdigm2ac.png)
 
 ### Best practices for using Claude Tag
 
 How to work with Claude Tag across your org: setting up where it has context, writing a task that goes well, and moving from one-off requests to work it runs on its own.
 
-·Tutorial·10 min](https://academy.claude.com/tutorials/best-practices-using-claude-tag)[![](https://academy.claude.com/assets/v1/thumbnail.dark-fvmviaxt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-fvmviaxt.png)
+·Tutorial·10 min](https://academy.claude.com/tutorials/best-practices-using-claude-tag)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.dark-fvmviaxt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-fvmviaxt.png)
 
 ### Tasks to try with Claude Tag in your workspace
 
@@ -32,31 +36,41 @@ A catalog of tasks to try handing to Claude Tag once it's in your workspace, eac
 
 Ask where a deal stands and Claude Tag answers in the thread from the CRM record and from what the team has said in the channel.
 
-·Use case·Sales·10 min](https://academy.claude.com/use-cases/pull-deal-and-account-state)[![](https://academy.claude.com/assets/v1/thumbnail.light-g2rf84ww.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ncxwpfp1.png)
+·Use case·Sales·10 min](https://academy.claude.com/use-cases/pull-deal-and-account-state)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-g2rf84ww.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ncxwpfp1.png)
 
 ## Answer requests in the IT help channel
 
 Give Claude Tag a standing responsibility in the IT help channel: it answers each request first from your policies, asks for missing details, and files one ticket for the owner when a request needs them.
 
-·Use case·Operations·10 min](https://academy.claude.com/use-cases/answer-requests-in-the-it-help-channel)[![](https://academy.claude.com/assets/v1/thumbnail.light-mlmvli26.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-o1dom7ee.png)
+·Use case·Operations·10 min](https://academy.claude.com/use-cases/answer-requests-in-the-it-help-channel)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-mlmvli26.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-o1dom7ee.png)
 
 ## Chart a metric from your data warehouse
 
 Ask a data question in the thread where a number is being discussed, and Claude Tag queries the connected warehouse and replies with a chart and the query.
 
-·Use case·Research·10 min](https://academy.claude.com/use-cases/chart-a-metric-from-your-data-warehouse)[![](https://academy.claude.com/assets/v1/thumbnail.light-hd84bxm1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-fxufp05i.png)
+·Use case·Research·10 min](https://academy.claude.com/use-cases/chart-a-metric-from-your-data-warehouse)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-hd84bxm1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-fxufp05i.png)
 
 ## Create meeting notes and tasks from a call transcript
 
 With proactive replies on in the project channel, Claude Tag reads each transcript the call recorder posts, replies with the decisions and action items, files the tickets and publishes the notes as a page.
 
-·Use case·Operations·10 min](https://academy.claude.com/use-cases/meeting-notes-and-filed-tasks-from-a-call-transcript)[![](https://academy.claude.com/assets/v1/thumbnail.light-ckl2rk6s.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mcz0r5p3.png)
+·Use case·Operations·10 min](https://academy.claude.com/use-cases/meeting-notes-and-filed-tasks-from-a-call-transcript)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-ckl2rk6s.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mcz0r5p3.png)
 
 ## Fix a reported bug with a draft PR
 
 Hand a bug report to Claude Tag in its thread. It reproduces the bug, fixes it and opens a draft pull request for an engineer to review.
 
-·Use case·Engineering·10 min](https://academy.claude.com/use-cases/fix-a-reported-bug-with-a-draft-pr)[![](https://academy.claude.com/assets/v1/thumbnail.light-lcoz3yje.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-n9q5b4on.png)
+·Use case·Engineering·10 min](https://academy.claude.com/use-cases/fix-a-reported-bug-with-a-draft-pr)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-lcoz3yje.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-n9q5b4on.png)
 
 ## Meeting prep and a weekly recap in your DM with Claude
 
@@ -106,6 +120,30 @@ In a direct message, set up a routine and Claude Tag posts a prep note before ea
   ·www.anthropic.com
 
    (opens in new tab)](https://www.anthropic.com/webinars/how-anthropic-works-with-claude-tag-in-slack)
+
+## Webinars
+
+[View all webinars](https://academy.claude.com/all)
+
+[Recording · Oct 15
+
+### Claude Tag on-call: A new teammate in your incident channel 
+
+See how Claude Tag works as a teammate in your Slack incident channel, from reading logs to drafting fixes, with setup you can do yourself.
+
+·Recording·Oct 15
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)[Recording · Jul 9
+
+### How Anthropic works with Claude Tag in Slack 
+
+See how Anthropic uses Claude Tag in Slack across eng, GTM, and data science, with live demos, everyday workflows, and its permissions model.
+
+CWAB
+
+·Recording·Jul 9
+
+ (opens in new tab)](https://claude.com/resources/webinars/how-anthropic-works-with-claude-tag-in-slack)
 
 ## Docs and reference
 

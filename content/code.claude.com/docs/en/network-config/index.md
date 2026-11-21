@@ -256,6 +256,8 @@ The two Datadog intake hosts carry only optional operational telemetry, and sett
 
 When using [Amazon Bedrock](/docs/en/amazon-bedrock), [Google Cloud's Agent Platform](/docs/en/google-vertex-ai), [Microsoft Foundry](/docs/en/microsoft-foundry), or a signed-in [Claude apps gateway](/docs/en/claude-apps-gateway) session, model traffic and authentication go to your provider or gateway instead of `api.anthropic.com`, `claude.ai`, or `platform.claude.com`. The WebFetch tool still calls `api.anthropic.com` for its [domain safety check](/docs/en/data-usage#webfetch-domain-safety-check) unless you set `skipWebFetchPreflight: true` in [settings](/docs/en/settings).
 
+If you set your provider or gateway in the Enterprise Admin Console, developers who sign in to your organization also need [these Anthropic hosts](https://claude.com/docs/third-party/claude-desktop/admin-console-claude-code#before-you-start).
+
 If your developers use [fast mode](/docs/en/fast-mode) behind an [LLM gateway](/docs/en/llm-gateway) set with [`ANTHROPIC_BASE_URL`](/docs/en/llm-gateway-connect#set-the-base-url-and-credential), keep `api.anthropic.com` reachable through your proxy. When Claude Code sends the fast mode availability check, it goes to that host through any configured HTTP proxy, never to the gateway. For when the check isn't sent, and the variable that restores fast mode in each case, see [Use fast mode behind proxies and LLM gateways](/docs/en/fast-mode#use-fast-mode-behind-proxies-and-llm-gateways).
 
 ### Organization IP allowlists and proxy egress

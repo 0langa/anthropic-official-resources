@@ -1,6 +1,6 @@
 # Write a prompt your app can ship
 
-A one-line prompt can leave Claude guessing, and a wrong guess gives your app a reply it can't use. Add context, the output format you want, and constraints to a dentist's reminder prompt, then make a new prompt clear and direct yourself.
+Give Claude the details your prompt is missing, so it can write a reply your app can use.
 
 10 minClaude Platform
 

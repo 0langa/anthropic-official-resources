@@ -1,6 +1,6 @@
 # Set up Claude on Google Cloud (Google managed)
 
-Check that you have the Google managed service, then get your Google Cloud project ready, give yourself access, and send Claude one test request. Then connect Claude Code or Claude Desktop and check that it answers, with no Anthropic API key. Google Cloud bills the usage.
+Reach Claude through Google Cloud's Agent Platform from Claude Code, Claude Desktop, or your own apps, with no Anthropic API key.
 
 20 minClaude Code
 

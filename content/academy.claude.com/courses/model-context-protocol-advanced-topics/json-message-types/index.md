@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fmodel-context-protocol-advanced-topics%2Fjson-message-types)
 
+
+
+This lesson describes MCP messages as they worked before the [2026-07-28 revision(opens in new tab)](https://modelcontextprotocol.io/specification/2026-07-28/changelog) of the specification. In that revision servers no longer start requests of their own. Servers and clients built on version 1 of the MCP Python SDK, which this course uses, still work as described here.
+
 Embedded media: https://www.youtube-nocookie.com/embed/-xRtmqcSNSA?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=-xRtmqcSNSA)

@@ -48,49 +48,65 @@ Learn to collaborate with AI effectively, efficiently, ethically, and safely usi
 
 Claude Cowork lets you hand off complete tasks to Claude — working directly with files on your computer, your connected tools, and your browser. This video walks through the basics: setting up folder access and connectors, delegating your first task, and reviewing Claude's plan before it makes changes on your machine.
 
-·Tutorial·4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-g4p7r6v4.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-k4i3k0hw.png)
+·Tutorial·4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-g4p7r6v4.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-k4i3k0hw.png)
 
 ## Delegating and scheduling tasks in Claude Cowork
 
 Claude Cowork lets you delegate complete, multi-step work. You can work alongside Claude when you want to provide input, or let tasks run on a schedule while you focus on other priorities. This video shows how to prepare for a major call by pulling context from your calendar, Slack, email, and past meeting notes. It also demonstrates how to set up recurring tasks that run automatically on your preferred schedule.
 
-·Tutorial·4 min](https://academy.claude.com/tutorials/delegating-and-scheduling-tasks-in-claude-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-k4d623ry.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-llu6mang.png)
+·Tutorial·4 min](https://academy.claude.com/tutorials/delegating-and-scheduling-tasks-in-claude-cowork)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-k4d623ry.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-llu6mang.png)
 
 ## Build a daily briefing across your tools
 
 Generate a daily briefing that pulls from Slack, Notion, and your team dashboard to surface priorities and connections you'd miss scanning each platform separately.
 
-·Use case·15 min](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)[![](https://academy.claude.com/assets/v1/thumbnail.light-cx9tbvoi.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-k5ry1o36.png)
+·Use case·15 min](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-cx9tbvoi.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-k5ry1o36.png)
 
 ## Using Claude for marketing ops: run a weekly review that preps itself
 
 Claude runs the gathering for your weekly review on a schedule, so you’re not pulling the numbers and starting the draft by hand each week. Your time goes into what the review says.
 
-·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-marketing-ops-review)[![](https://academy.claude.com/assets/v1/thumbnail.light-d0zjjn2v.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hdd30gkj.png)
+·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-marketing-ops-review)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-d0zjjn2v.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hdd30gkj.png)
 
 ## Using Claude for sales: research any account before the first call
 
 Before a first call, Claude pulls everything you’d want to know about an account into one brief. You go into the call already knowing the account, and the recap is written for you afterward.
 
-·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)[![](https://academy.claude.com/assets/v1/thumbnail.light-cb32kcve.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nq1i2588.png)
+·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-cb32kcve.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nq1i2588.png)
 
 ## Using Claude for legal: answer fast questions on past decisions
 
 When a question comes up about a past decision, Claude answers it from your own history of reviews, with a citation for every claim. You get the answer in minutes, and you can check the source yourself before you reply.
 
-·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)[![](https://academy.claude.com/assets/v1/thumbnail.light-calyi96r.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iv2hjqlx.png)
+·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-calyi96r.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iv2hjqlx.png)
 
 ## Feedback synthesis to prioritized themes
 
 The five themes that matter, quantified and quoted.
 
-·Use case·Product·10 min](https://academy.claude.com/use-cases/feedback-synthesis)[![](https://academy.claude.com/assets/v1/thumbnail.light-dk9zo6ae.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-e548vu0j.png)
+·Use case·Product·10 min](https://academy.claude.com/use-cases/feedback-synthesis)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-dk9zo6ae.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-e548vu0j.png)
 
 ## Audit a folder of visual assets against your guidelines
 
 Claude Opus 5.5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
 
-·Use case·Marketing·15 min](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)[![](https://academy.claude.com/assets/v1/thumbnail.light-mjmk2gjq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bpm7r9eg.png)
+·Use case·Marketing·15 min](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-mjmk2gjq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bpm7r9eg.png)
 
 ## Build an 'Ask the Company' agent
 

@@ -6,13 +6,17 @@ Build Claude into your products. Go from first call to production with the API, 
 
 [### Claude Platform 101
 
-This course teaches developers to build on the Claude Platform from the ground up, whether you've made a few API calls or have only used Claude through a chat window.
+Build on the Claude Platform from your first API call, so Claude can become part of your product.
 
-·Course·13 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-platform-101)[### Building with the Claude API
+·Course·13 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-platform-101)
+
+[### Building with the Claude API
 
 The full spectrum of working with Anthropic models using the Claude API: prompting, tool use, RAG, agents, MCP, and production patterns.
 
-·Course·67 lessons · 8 quizzes·9 hr](https://academy.claude.com/courses/building-with-the-claude-api)[### Introduction to Model Context Protocol
+·Course·67 lessons · 8 quizzes·9 hr](https://academy.claude.com/courses/building-with-the-claude-api)
+
+[### Introduction to Model Context Protocol
 
 Build MCP servers and clients from scratch with the Python SDK, covering the three core primitives—tools, resources, and prompts—that connect Claude to external services.
 
@@ -72,17 +76,7 @@ Build MCP servers and clients from scratch with the Python SDK, covering the thr
 
 [View all webinars](https://academy.claude.com/all)
 
-[Upcoming · Nov 19, 1:00 PM PT
-
-### Claude Rearview Roadmap Review: November 2026 
-
-A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
-
-SS
-
-·Upcoming·Nov 19·1:00 PM PT
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Oct 22
+[Recording · Oct 22
 
 ### Claude Rearview Roadmap Review: October 2026 
 
@@ -102,7 +96,17 @@ SMAR
 
 ·Recording·Oct 21
 
- (opens in new tab)](https://claude.com/resources/webinars/tokenomics-on-aws-control-and-optimize-your-claude-spend)
+ (opens in new tab)](https://claude.com/resources/webinars/tokenomics-on-aws-control-and-optimize-your-claude-spend)[Recording · Oct 8
+
+### AI as an Engineering Leadership Multiplier 
+
+Practical ways to use AI as an engineering leadership multiplier without outsourcing judgment, accountability, or the human work.
+
+SA
+
+·Recording·Oct 8
+
+ (opens in new tab)](https://claude.com/resources/webinars/ai-as-an-engineering-leadership-multiplier)
 
 ## Browse it all
 

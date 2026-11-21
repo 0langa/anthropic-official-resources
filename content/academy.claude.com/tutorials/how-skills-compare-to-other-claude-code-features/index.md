@@ -1,6 +1,6 @@
 # How skills compare to other Claude Code features
 
-Understand how skills differ from and complement other Claude Code features like agents, hooks, and commands.
+Pick a skill or another Claude Code feature for each job, so your setup stays simple.
 
 3 minClaude Code
 

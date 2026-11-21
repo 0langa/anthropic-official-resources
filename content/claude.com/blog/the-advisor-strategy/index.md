@@ -8,9 +8,9 @@ Pair Opus as an advisor with Sonnet or Haiku as an executor, and get near Opus-l
 - Reading time4 min
 - ShareCopy link
 
-Developers who want to better balance intelligence and cost have converged on what we call the advisor strategy: pair Opus as an advisor with Sonnet or Haiku as an executor. This brings near Opus-level intelligence to your agents while keeping costs near Sonnet levels.
+Developers who want to better [balance intelligence and cost](https://claude.dev/blog/which-claude-model-should-you-build-with/) have converged on what we call the advisor strategy: pair Opus as an advisor with Sonnet or Haiku as an executor. This brings near Opus-level intelligence to your agents while keeping costs near Sonnet levels.
 
-Today we're introducing the advisor tool on the Claude Platform to make the advisor strategy a one-line change in your API call.
+Today we're introducing the advisor tool on the [Claude Platform](https://claude.com/platform/api) to make the advisor strategy a one-line change in your API call.
 
 ## Build cost-effective agents with the advisor strategy
 
@@ -18,7 +18,7 @@ Today we're introducing the advisor tool on the Claude Platform to make the advi
 
 With the advisor strategy, Sonnet or Haiku runs the task end-to-end as the executor, calling tools, reading results, and iterating toward a solution. When the executor hits a decision it can't reasonably solve, it consults Opus for guidance as the advisor. Opus accesses the shared context and returns a plan, a correction, or a stop signal, and the executor resumes. The advisor never calls tools or produces user-facing output, and only provides guidance to the executor.
 
-This inverts a common sub-agent pattern, where a larger orchestrator model decomposes work and delegates to smaller worker models. In the advisor strategy, a smaller, more cost-effective model drives and escalates without decomposition, a worker pool, or orchestration logic. Frontier-level reasoning applies only when the executor needs it, and the rest of the run stays at executor-level cost.
+This inverts a [common sub-agent pattern](https://claude.com/resources/articles/building-multi-agent-systems-when-and-how-to-use-them), where a larger orchestrator model decomposes work and delegates to smaller worker models. In the advisor strategy, a smaller, more cost-effective model drives and escalates without decomposition, a worker pool, or orchestration logic. Frontier-level reasoning applies only when the executor needs it, and the rest of the run stays at executor-level cost.
 
 In our evaluations, Sonnet with Opus as an advisor showed a 2.7 percentage point increase on [SWE-bench Multilingual](https://www.swebench.com/multilingual.html)1 over Sonnet alone, while reducing cost per agentic task by 11.9%.
 

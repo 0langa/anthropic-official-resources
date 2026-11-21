@@ -45,7 +45,7 @@ This happens automatically - users can still just say "convert biking.mp4" witho
 
 ## Security and Boundaries[](https://academy.claude.com/courses/model-context-protocol-advanced-topics/roots)
 
-Roots also provide security by limiting access. If you only grant access to your Desktop folder, the MCP server cannot access files in other locations like Documents or Downloads.
+Roots tell a server which folders to stay in, and the server has to enforce that itself. If you only grant access to your Desktop folder, a server that checks its roots refuses files in other locations like Documents or Downloads.
 
 When Claude tries to access a file outside the approved roots, it gets an error and can inform the user that the file isn't accessible from the current server configuration.
 

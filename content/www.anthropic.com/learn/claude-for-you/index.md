@@ -60,19 +60,25 @@ Build an accurate mental model of what large language models can and cannot do: 
 
 Prepare and prioritize for your upcoming week through connecting your calendar and mail platforms.
 
-·Use case·15 min](https://academy.claude.com/use-cases/quickly-prep-for-your-week)[![](https://academy.claude.com/assets/v1/thumbnail.light-nrgu8exx.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bav3xbdv.png)
+·Use case·15 min](https://academy.claude.com/use-cases/quickly-prep-for-your-week)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-nrgu8exx.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bav3xbdv.png)
 
 ## Compare and analyze competing options
 
 Upload vendor proposals in any format and get a normalized comparison spreadsheet that extracts pricing structures, contract terms, and feature differences
 
-·Use case·15 min](https://academy.claude.com/use-cases/compare-and-analyze-competing-options)[![](https://academy.claude.com/assets/v1/thumbnail.light-o7v3ovgz.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dqa49rlu.png)
+·Use case·15 min](https://academy.claude.com/use-cases/compare-and-analyze-competing-options)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-o7v3ovgz.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dqa49rlu.png)
 
 ## Turn research into presentations
 
 Learn how to turn research into presentations that stick. Claude helps translate findings into slide outlines and speaker notes that show what's compelling, how to structure the story, and which visuals would help—giving you the framework to build your presentation.
 
-·Use case·Education·15 min](https://academy.claude.com/use-cases/turn-research-into-presentations)[![](https://academy.claude.com/assets/v1/thumbnail.light-ktp24exx.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gapzxql3.png)
+·Use case·Education·15 min](https://academy.claude.com/use-cases/turn-research-into-presentations)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-ktp24exx.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gapzxql3.png)
 
 ## Create a custom webpage
 

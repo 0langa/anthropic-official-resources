@@ -1,6 +1,6 @@
 # Creating your first skill
 
-A step-by-step walkthrough of creating your first skill in Claude Code, from setup to execution.
+Create your first skill, so Claude Code handles a task your way in every project.
 
 4 minClaude Code
 

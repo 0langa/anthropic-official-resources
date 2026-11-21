@@ -18,9 +18,9 @@ Related articles
 
 - Announcements
 
-  May 28, 2026
+  Nov 20, 2026
 
-  [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h)
+  [Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement](https://www.anthropic.com/news/ipo-close)
 
 [View more](https://www.anthropic.com/search?topic=partnerships)
 

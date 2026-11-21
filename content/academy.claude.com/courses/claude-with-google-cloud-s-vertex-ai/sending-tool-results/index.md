@@ -22,7 +22,7 @@ python
 
 ```
 # Access the tool use block
-tool_use_block = response.content[1]
+tool_use_block = next(b for b in response.content if b.type == "tool_use")
 
 # Get the input parameters
 input_params = tool_use_block.input
@@ -32,6 +32,8 @@ result = get_current_datetime(**input_params)
 ```
 
 The double asterisk (`**`) unpacks the dictionary into keyword arguments that your function expects.
+
+Find the block by its type, not its position. Claude doesn't always write text before the tool use block, so a fixed index such as `response.content[1]` can raise an `IndexError`.
 
 ## Tool Result Block[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/sending-tool-results)
 
@@ -66,7 +68,7 @@ messages.append({
     "role": "user",
     "content": [{
         "type": "tool_result",
-        "tool_use_id": response.content[1].id,
+        "tool_use_id": tool_use_block.id,
         "content": result,
         "is_error": False
     }]

@@ -39,11 +39,11 @@ The question for leaders in 2026 isn't whether to adopt AI agents but how to sca
 
 Nine in 10 leaders report that agents are shifting how their teams work, with employees spending more time on strategic activities, relationship building, and skill development rather than routine execution.
 
-This transition requires purpose-built infrastructure: models optimized for coding and enterprise workflows, frameworks like the Agent SDK, and tools like Claude Code that help teams move from prototype to production faster.
+This transition requires purpose-built infrastructure: models optimized for coding and enterprise workflows, frameworks like the [Agent SDK](https://claude.com/resources/articles/building-agents-with-the-claude-agent-sdk), and tools like [Claude Code](https://claude.com/product/claude-code) that help teams move from prototype to production faster.
 
 We're also finding that while coding has been the proving ground for AI agents, it's just the beginning. As agents expand into research, customer service, financial planning, and supply chain operations, the organizations that build expertise now will capture disproportionate value as the technology matures.
 
-**Read the full 2026 State of AI Agents Report, [here](https://cdn.sanity.io/files/4zrzovbb/website/cd77281ebc251e6b860543d8943ede8d06c4ef50.pdf).**
+**Read the full 2026 State of AI Agents Report, [here](https://claude.com/resources/guides/the-2026-state-of-ai-agents-report).**
 
 ## Related articles
 

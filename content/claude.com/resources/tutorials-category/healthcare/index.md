@@ -104,7 +104,7 @@ Build your skills with written guides and video lessons, from quick tasks to com
 
 ### Set up Claude on Google Cloud (Anthropic managed)
 
-·25 min](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-anthropic-managed)[![](https://academy.claude.com/assets/v1/thumbnail.dark-kjpsqj14.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kjpsqj14.png)
+·30 min](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-anthropic-managed)[![](https://academy.claude.com/assets/v1/thumbnail.dark-kjpsqj14.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kjpsqj14.png)
 
 ### Set up Claude on Google Cloud (Google managed)
 

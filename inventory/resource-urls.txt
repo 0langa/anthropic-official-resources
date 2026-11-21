@@ -2,6 +2,7 @@ https://academy.claude.com/
 https://academy.claude.com/all
 https://academy.claude.com/all?status=on-demand
 https://academy.claude.com/code/webinars
+https://academy.claude.com/collections/admins
 https://academy.claude.com/collections/ai-fluency
 https://academy.claude.com/collections/build-with-claude
 https://academy.claude.com/collections/claude-for-work
@@ -11,6 +12,7 @@ https://academy.claude.com/collections/higher-education
 https://academy.claude.com/collections/how-ai-works
 https://academy.claude.com/collections/human-agent-teams
 https://academy.claude.com/collections/k-12
+https://academy.claude.com/collections/new-to-claude
 https://academy.claude.com/collections/nonprofits
 https://academy.claude.com/collections/small-business
 https://academy.claude.com/courses
@@ -2568,6 +2570,19 @@ https://platform.claude.com/docs/en/api/beta/organization/api_keys/list
 https://platform.claude.com/docs/en/api/beta/organization/api_keys/list?sdk_languages=curl
 https://platform.claude.com/docs/en/api/beta/organization/api_keys/retrieve
 https://platform.claude.com/docs/en/api/beta/organization/api_keys/update
+https://platform.claude.com/docs/en/api/beta/organization/claude_code
+https://platform.claude.com/docs/en/api/beta/organization/claude_code/managed_settings
+https://platform.claude.com/docs/en/api/beta/organization/claude_code/managed_settings/configuration
+https://platform.claude.com/docs/en/api/beta/organization/claude_code/managed_settings/configuration/retrieve
+https://platform.claude.com/docs/en/api/beta/organization/claude_code/managed_settings/configuration/update
+https://platform.claude.com/docs/en/api/beta/organization/claude_code/managed_settings/rbac_group_default
+https://platform.claude.com/docs/en/api/beta/organization/claude_code/managed_settings/rbac_group_default/retrieve
+https://platform.claude.com/docs/en/api/beta/organization/claude_code/managed_settings/rbac_group_default/update
+https://platform.claude.com/docs/en/api/beta/organization/claude_code/managed_settings/rbac_groups
+https://platform.claude.com/docs/en/api/beta/organization/claude_code/managed_settings/rbac_groups/delete
+https://platform.claude.com/docs/en/api/beta/organization/claude_code/managed_settings/rbac_groups/list
+https://platform.claude.com/docs/en/api/beta/organization/claude_code/managed_settings/rbac_groups/retrieve
+https://platform.claude.com/docs/en/api/beta/organization/claude_code/managed_settings/rbac_groups/set
 https://platform.claude.com/docs/en/api/beta/organization/claude_tag
 https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles
 https://platform.claude.com/docs/en/api/beta/organization/claude_tag/bundles/list

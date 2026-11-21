@@ -1,10 +1,4 @@
-# Welcome to Claude Academy
-
-Learn to use AI safely, effectively, and with intention. Free courses, tutorials, and use cases from Anthropic’s education team.
-
-[Get started](https://academy.claude.com/start)[Browse all resources](https://academy.claude.com/all)
-
-What do you want to learn?
+# What do you want to learn?
 
 Free courses on Claude and AI, from Anthropic.
 

@@ -1,4 +1,4 @@
-Nov 19, 2026 — 1:00 – 2:00 PM PT
+On demand
 
 # Claude Rearview Roadmap Review: November 2026
 
@@ -8,7 +8,7 @@ Join the Anthropic product team for a live look back at what shipped, including 
 
 Register for the webinar
 
-Fill out the form below to reserve your seat.
+Fill out the form below to watch on demand.
 
 ## Featured speakers
 

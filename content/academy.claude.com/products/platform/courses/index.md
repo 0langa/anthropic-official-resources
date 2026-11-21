@@ -8,32 +8,46 @@
 
 The full spectrum of working with Anthropic models using the Claude API: prompting, tool use, RAG, agents, MCP, and production patterns.
 
-·67 lessons · 8 quizzes·9 hr](https://academy.claude.com/courses/building-with-the-claude-api)[## Claude on Google Cloud
+·67 lessons · 8 quizzes·9 hr](https://academy.claude.com/courses/building-with-the-claude-api)
+
+[## Claude on Google Cloud
 
 Working with Anthropic models through Google Cloud's Agent Platform: setup, prompting, tool use, RAG, agents, and production deployment patterns.
 
-·66 lessons · 9 quizzes·8.5 hr](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai)[## Claude Platform 101
+·66 lessons · 9 quizzes·8.5 hr](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai)
 
-This course teaches developers to build on the Claude Platform from the ground up, whether you've made a few API calls or have only used Claude through a chat window.
+[## Claude Platform 101
 
-·13 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-platform-101)[## Claude with Amazon Bedrock
+Build on the Claude Platform from your first API call, so Claude can become part of your product.
+
+·13 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-platform-101)
+
+[## Claude with Amazon Bedrock
 
 Integrating and deploying Claude through Amazon Bedrock: API implementation, tool use, RAG pipelines, agents, and production-ready applications on AWS.
 
-·65 lessons · 8 quizzes·8 hr](https://academy.claude.com/courses/claude-with-amazon-bedrock)[## Introduction to evals
+·65 lessons · 8 quizzes·8 hr](https://academy.claude.com/courses/claude-with-amazon-bedrock)
 
-Build a small eval on your own data to choose a Claude model by accuracy first and cost second, fix the prompt before you upgrade, and keep checking after launch.
+[## Introduction to evals
 
-·4 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduction-to-evals)[## Introduction to Model Context Protocol
+Build a small eval on your own data to choose a Claude model and prompt from evidence.
+
+·4 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduction-to-evals)
+
+[## Introduction to Model Context Protocol
 
 Build MCP servers and clients from scratch with the Python SDK, covering the three core primitives—tools, resources, and prompts—that connect Claude to external services.
 
-·10 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduction-to-model-context-protocol)[## Model Context Protocol: Advanced topics
+·10 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduction-to-model-context-protocol)
+
+[## Model Context Protocol: Advanced topics
 
 Go beyond MCP basics: sampling, notifications, and roots, with interactive walkthroughs of each protocol flow.
 
-·11 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/model-context-protocol-advanced-topics)[## Tool use with the Messages API
+·11 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/model-context-protocol-advanced-topics)
+
+[## Tool use with the Messages API
 
 Take tool use that already works and make it reliable, responsive, and cheaper to run, then add the tools Anthropic provides.
 
-·9 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/tool-use-with-the-messages-api)
+·9 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/tool-use-with-the-messages-api)

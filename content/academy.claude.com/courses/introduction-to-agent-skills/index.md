@@ -1,6 +1,6 @@
 # Introduction to agent skills
 
-Build, configure, and share skills in Claude Code — reusable markdown instructions that Claude applies automatically to matching tasks. Covers creating your first skill through team distribution and troubleshooting.
+Teach Claude Code your standards once with skills, so it applies them consistently.
 
 6 lessons1 hrNo completion badge
 

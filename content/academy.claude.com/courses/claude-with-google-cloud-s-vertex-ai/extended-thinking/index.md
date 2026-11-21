@@ -8,9 +8,15 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fextended-thinking)
 
+
+
+This lesson works with Claude Haiku 4.5, the model this course uses. Claude 4.7 and later models return an error for `budget_tokens`. On those models, use [adaptive thinking(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/extended-thinking).
+
 Embedded media: https://www.youtube-nocookie.com/embed/EBBk-6fnWvA?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=EBBk-6fnWvA)
+
+The notebooks for this course aren't available here.
 
 Extended thinking is Claude's advanced reasoning feature that gives the model time to think through complex problems before generating a response. When enabled, Claude produces a visible thinking process that users can examine to understand how the model approached their query.
 

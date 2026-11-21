@@ -16,14 +16,18 @@ This course doesn’t award a completion badge.
 
 Run long, hands-off Claude Code sessions you can trust: steer, configure, automate, and verify
 
-·9 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/claude-code-in-action)[### Introduction to agent skills
+·9 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/claude-code-in-action)
 
-Build, configure, and share skills in Claude Code — reusable markdown instructions that Claude applies automatically to matching tasks. Covers creating your first skill through team distribution and troubleshooting.
+[### Introduction to agent skills
 
-·6 lessons·1 hr](https://academy.claude.com/courses/introduction-to-agent-skills)[### Claude Code 101
+Teach Claude Code your standards once with skills, so it applies them consistently.
 
-An agentic coding tool that lives in your terminal. Learn what Claude Code is, how it works, and the core workflows for getting real work done with it.
+·6 lessons·1 hr](https://academy.claude.com/courses/introduction-to-agent-skills)
 
-·12 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-code-101)
+[### Claude Code 101
 
-[View your learning](https://academy.claude.com/dashboard)
+Use Claude Code on your codebase, so tasks that took an afternoon can fit in one session.
+
+·12 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-code-101)
+
+[View your journey](https://academy.claude.com/dashboard)

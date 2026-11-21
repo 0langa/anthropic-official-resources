@@ -6,34 +6,44 @@
 
 [## One request, a workflow, or an agent
 
-Before you build a feature on Claude, choose how much to build: one request, a workflow your code runs in a fixed order, or an agent that picks its own steps. Start from the simplest, see when to move to the next one, and practice the choice on a few feature ideas.
+Test the simplest option first to choose whether your feature on Claude needs a single request, a workflow, or an agent.
 
-·10 min](https://academy.claude.com/tutorials/one-request-a-workflow-or-an-agent)[![](https://academy.claude.com/assets/v1/thumbnail.dark-h18unnjf.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-h18unnjf.png)
+·10 min](https://academy.claude.com/tutorials/one-request-a-workflow-or-an-agent)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.dark-h18unnjf.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-h18unnjf.png)
 
 ## Set up Claude in Amazon Bedrock
 
-Get a first reply from Claude in your own AWS account. Sign in from your terminal as a role that's allowed to call Claude, then run one short Python file with Anthropic's Python SDK.
+Get a first reply from Claude in Amazon Bedrock, with the usage billed to your own AWS account.
 
-·25 min](https://academy.claude.com/tutorials/set-up-claude-in-amazon-bedrock)[![](https://academy.claude.com/assets/v1/thumbnail.dark-c7j6fik2.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-c7j6fik2.png)
+·25 min](https://academy.claude.com/tutorials/set-up-claude-in-amazon-bedrock)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.dark-c7j6fik2.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-c7j6fik2.png)
 
 ## Set up Claude on Google Cloud (Anthropic managed)
 
-Get a Google Cloud project ready for Claude Models on Google Cloud (Anthropic managed), give your own account access, and get a first reply from Claude in Python. Then run any Claude API sample by swapping its import and client.
+Call the Claude API, run by Anthropic, through your own Google Cloud project, so you sign in and pay through Google Cloud.
 
-·25 min](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-anthropic-managed)[![](https://academy.claude.com/assets/v1/thumbnail.dark-kjpsqj14.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kjpsqj14.png)
+·30 min](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-anthropic-managed)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.dark-kjpsqj14.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kjpsqj14.png)
 
 ## Set up Claude on Google Cloud (Google managed)
 
-Check that you have the Google managed service, then get your Google Cloud project ready, give yourself access, and send Claude one test request. Then connect Claude Code or Claude Desktop and check that it answers, with no Anthropic API key. Google Cloud bills the usage.
+Reach Claude through Google Cloud's Agent Platform from Claude Code, Claude Desktop, or your own apps, with no Anthropic API key.
 
-·20 min](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-google-managed)[![](https://academy.claude.com/assets/v1/thumbnail.dark-o4itmdcn.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-o4itmdcn.png)
+·20 min](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-google-managed)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.dark-o4itmdcn.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-o4itmdcn.png)
 
 ## What is Claude Managed Agents?
 
-Claude Managed Agents is a suite of APIs for building production-ready agents. You define the tools, environments, and success criteria.
+See what Claude Managed Agents lets you build, to decide if it fits your project.
 
-·4 min](https://academy.claude.com/tutorials/what-is-claude-managed-agents)[## Write a prompt your app can ship
+·4 min](https://academy.claude.com/tutorials/what-is-claude-managed-agents)
 
-A one-line prompt can leave Claude guessing, and a wrong guess gives your app a reply it can't use. Add context, the output format you want, and constraints to a dentist's reminder prompt, then make a new prompt clear and direct yourself.
+[## Write a prompt your app can ship
 
-·10 min](https://academy.claude.com/tutorials/write-a-prompt-your-app-can-ship)
+Give Claude the details your prompt is missing, so it can write a reply your app can use.
+
+·10 min](https://academy.claude.com/tutorials/write-a-prompt-your-app-can-ship)

@@ -6,7 +6,7 @@ Courses and tutorials from Anthropic for developers. Learn Claude Code and the C
 
 [### Claude Code 101
 
-An agentic coding tool that lives in your terminal. Learn what Claude Code is, how it works, and the core workflows for getting real work done with it.
+Use Claude Code on your codebase, so tasks that took an afternoon can fit in one session.
 
 ·Course·12 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-code-101)[### Claude Code in action
 
@@ -14,7 +14,7 @@ Run long, hands-off Claude Code sessions you can trust: steer, configure, automa
 
 ·Course·9 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/claude-code-in-action)[### Claude Platform 101
 
-This course teaches developers to build on the Claude Platform from the ground up, whether you've made a few API calls or have only used Claude through a chat window.
+Build on the Claude Platform from your first API call, so Claude can become part of your product.
 
 ·Course·13 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-platform-101)
 
@@ -22,23 +22,29 @@ This course teaches developers to build on the Claude Platform from the ground u
 
 [## Introduction to agent skills
 
-Build, configure, and share skills in Claude Code — reusable markdown instructions that Claude applies automatically to matching tasks. Covers creating your first skill through team distribution and troubleshooting.
+Teach Claude Code your standards once with skills, so it applies them consistently.
 
-·Course·6 lessons·1 hr](https://academy.claude.com/courses/introduction-to-agent-skills)[## Introduction to subagents
+·Course·6 lessons·1 hr](https://academy.claude.com/courses/introduction-to-agent-skills)
+
+[## Introduction to subagents
 
 Delegate tasks to Claude Code subagents that work in their own context windows and return focused summaries.
 
-·Course·4 lessons·45 min](https://academy.claude.com/courses/introduction-to-subagents)[![](https://academy.claude.com/assets/v1/thumbnail.dark-i0lrj1mq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-i0lrj1mq.png)
+·Course·4 lessons·45 min](https://academy.claude.com/courses/introduction-to-subagents)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.dark-i0lrj1mq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-i0lrj1mq.png)
 
 ## Choosing the right effort level in Claude Code
 
-Effort tells your model how many resources to spend on a task. When to turn it down, when to turn it up, and why the default is the right place to start.
+Match the effort in Claude Code to each task, so you can spend just the tokens the work needs.
 
-·Tutorial·15 min](https://academy.claude.com/tutorials/choosing-the-right-effort-level-in-claude-code)[![](https://academy.claude.com/assets/v1/thumbnail.dark-oiww3nbb.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-oiww3nbb.png)
+·Tutorial·15 min](https://academy.claude.com/tutorials/choosing-the-right-effort-level-in-claude-code)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.dark-oiww3nbb.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-oiww3nbb.png)
 
 ## Using Claude Code Remote Control
 
-Learn more about using Claude Code remote control to access Claude Code sessions on the go.
+Steer a Claude Code session from your phone, so you can leave your desk.
 
 ·Tutorial·3 min](https://academy.claude.com/tutorials/using-claude-code-remote-control)
 
@@ -48,11 +54,13 @@ Learn more about using Claude Code remote control to access Claude Code sessions
 
 The full spectrum of working with Anthropic models using the Claude API: prompting, tool use, RAG, agents, MCP, and production patterns.
 
-·Course·67 lessons · 8 quizzes·9 hr](https://academy.claude.com/courses/building-with-the-claude-api)[![](https://academy.claude.com/assets/v1/thumbnail.dark-o4itmdcn.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-o4itmdcn.png)
+·Course·67 lessons · 8 quizzes·9 hr](https://academy.claude.com/courses/building-with-the-claude-api)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.dark-o4itmdcn.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-o4itmdcn.png)
 
 ## What is Claude Managed Agents?
 
-Claude Managed Agents is a suite of APIs for building production-ready agents. You define the tools, environments, and success criteria.
+See what Claude Managed Agents lets you build, to decide if it fits your project.
 
 ·Tutorial·4 min](https://academy.claude.com/tutorials/what-is-claude-managed-agents)
 

@@ -46,7 +46,7 @@ Tools are the backbone of how agents work. Most AI assistants simply take text i
 Claude Code has several permission modes:
 
 - **Manual:** Claude asks for explicit permission before editing a file or running a shell command.
-- **Auto-accept:** Files are edited without asking, and common filesystem commands like `mkdir`, `mv`, and `rm` run without asking too. Other commands still require approval.
+- **Accept edits:** Files are edited without asking, and common filesystem commands like `mkdir`, `mv`, and `rm` run without asking too. Other commands still require approval.
 - **Plan mode:** Claude reads files and runs shell commands to explore, without editing your source files, and compiles a plan of action before starting any work.
 - **Auto mode:** Claude works without routine permission prompts while a classifier checks most actions in the background, targeted at blocking actions that are irreversible, destructive, or aimed outside your environment. When something is blocked, Claude usually finds a safer approach or asks you for the go-ahead.
 

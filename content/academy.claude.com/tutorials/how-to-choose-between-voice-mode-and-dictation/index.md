@@ -108,7 +108,7 @@ If you tried voice mode early on, here's what's different:
 
 Voice mode has a few settings of its own:
 
-- **Select Claude's listening mode:** Go hands-free so Claude listens the whole time and you can speak whenever a thought arrives. Or select push-to-talk so Claude hears you only while you hold the button; letting go sends what you said.
+- **Select Claude's listening mode:** Go hands-free so Claude listens the whole time and you can speak whenever a thought arrives. Or, in the iOS and Android apps, select push-to-talk so Claude hears you only while you hold the button; letting go sends what you said.
 - **Change Claude's language:** Voice conversations work in many languages beyond English (in beta). Claude doesn't detect your language automatically, so choose it before you start.
 - **Pick the voice Claude speaks with:** Choose the one you like from several options.
 - **Choose the model behind the conversation** (paid plans): Your usual chat model carries over as the default, and you can switch to a more capable model when the conversation calls for it.

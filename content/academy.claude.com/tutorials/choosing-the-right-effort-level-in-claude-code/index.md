@@ -1,6 +1,6 @@
 # Choosing the right effort level in Claude Code
 
-Effort tells your model how many resources to spend on a task. When to turn it down, when to turn it up, and why the default is the right place to start.
+Match the effort in Claude Code to each task, so you can spend just the tokens the work needs.
 
 15 minClaude Code
 

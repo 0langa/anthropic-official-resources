@@ -87,7 +87,7 @@ In your workspace · 5 minutes
 1. Pick something small you ask for every week.
 2. Send it in one message: what to read, what to post, when (day and time), the [format(opens in new tab)](https://claude.com/docs/claude-tag/users/good-habits), and what to do when there is nothing to report.
 3. Ask `@Claude what routines do you have set up in this channel?` to confirm.
-4. When the first post lands, tag Claude in its thread with one change, and ask it to apply the change to future runs.
+4. When the first post lands, tag Claude in its thread with one change.
 
 **Done when:** the routine list shows what you meant, and the first post's thread has your change.
 

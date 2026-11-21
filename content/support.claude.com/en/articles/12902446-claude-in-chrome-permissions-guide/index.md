@@ -30,7 +30,7 @@ In "Manually approve," Claude checks with you before it acts. What that looks li
 
 Claude creates a plan from your prompt, which you can approve before Claude starts. The plan specifies which websites you're allowing Claude to access, as well as the approach it will follow:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1795089600&amp;signature=b21ae07be24961d0deb4ba609f063ad40473e0973b11b6cd7d4152aacfa9f5c4&amp;req=dSgjFcp8nYZdXvMW3nq%2BgWGE%2FNALNwSW9tXFBtvjxAlmihNX6hQwXphGKquS%0A9a8XP1yiHJPYFRAde6ktzDXh9eo%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1795268700&amp;signature=4b498961eefb33ad7d6ccad0240ac94133fd0f4f680ce1d2cd552da08bfc90c5&amp;req=dSgjFcp8nYZdXvMW1HO4zYqyZMdP%2BoqwgN0ADj5oqFDlAB33vCbt%2FECWFaDR%0AxSAouWidkQBjk64nZD8%3D%0A)
 
 Note that Claude will only use the websites listed in the plan, so you’ll need to manually approve any additional access requests.
 
@@ -66,7 +66,7 @@ Only use Skip when you completely trust every action, connector, file, app, etc.
 
 There are some websites on which Claude requires approval for every action. If you navigate to one of these sites, a **New permissions required** prompt will appear in the extension side panel, Claude Cowork, or Claude Code where Claude will ask for permission before accessing the page or taking any action.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1795089600&amp;signature=11d04f33ad06604b470cd273f35637451143d3cf651a990594831a08d015fa41&amp;req=diYnEsB5nYldXPMW3nq%2BgcHRFEUTtWY0FbrSEFo4rGfk4muy8pxbOtUA63T5%0AToh9SRRCRjjkctdFRWfz7ntuKhM%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1795268700&amp;signature=d9e9a6ca2a434694ee7e44b6c0429ecc67a53f3496511528848aa5abd5763b74&amp;req=diYnEsB5nYldXPMW1HO4zZ3Nq2NyjiTr7A4lHPBihAW2tOCbwz7cyceLfEfT%0AR3itjS4g3DU7G6lzedo%3D%0A)
 
 ### Permission options
 

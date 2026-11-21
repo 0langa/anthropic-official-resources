@@ -326,7 +326,7 @@ When one agent sends another a message over `SendMessage`, Claude Code tells the
 In [auto mode](/docs/en/permission-modes#eliminate-prompts-with-auto-mode), the classifier applies two checks to messages between agents:
 
 * It treats an approval claim relayed from another agent as untrusted input rather than confirmation from you.
-* It reviews messages before Claude Code delivers them, including structured protocol messages such as a shutdown request. A message it blocks isn't delivered. Before you rely on this review, check [which messages skip it](/docs/en/permission-modes#how-the-classifier-evaluates-actions).
+* It reviews `SendMessage` messages before Claude Code delivers them, including structured protocol messages such as a shutdown request. A message it blocks isn't delivered. Before you rely on this review, check [which messages skip it](/docs/en/permission-modes#how-the-classifier-evaluates-actions).
 
 ### Context and communication
 

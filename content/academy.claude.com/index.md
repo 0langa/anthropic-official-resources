@@ -1,8 +1,8 @@
-# Welcome to Claude Academy
+# What do you want to learn?
 
-Learn to use AI safely, effectively, and with intention. Free courses, tutorials, and use cases from Anthropic’s education team.
+Free courses on Claude and AI, from Anthropic.
 
-[Get started](https://academy.claude.com/start)[Browse all resources](https://academy.claude.com/all)
+Search or ask ClaudeAsk
 
 ## Dive into a product
 
@@ -38,11 +38,15 @@ Mindsets and mental models that hold up as models and features change
 
 Learn to collaborate with AI effectively, efficiently, ethically, and safely using the 4D framework: Delegation, Description, Discernment, and Diligence.
 
-·Course·14 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-framework-foundations)[### AI capabilities and limitations
+·Course·14 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-framework-foundations)
+
+[### AI capabilities and limitations
 
 Build an accurate mental model of what large language models can and cannot do: next-token prediction, knowledge, working memory, steerability, and context limits.
 
-·Course·13 lessons · 1 quiz·3.5 hr](https://academy.claude.com/courses/ai-capabilities-and-limitations)[### Building effective human-agent teams (beta)
+·Course·13 lessons · 1 quiz·3.5 hr](https://academy.claude.com/courses/ai-capabilities-and-limitations)
+
+[### Building effective human-agent teams (beta)
 
 Explore the benefits of moving from single-player to multiplayer AI and learn how to prepare your team for the shift.
 

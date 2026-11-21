@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/gYg36HRFLyY?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=gYg36HRFLyY)
 
+The notebooks for this course aren't available here.
+
 The hybrid retrieval approach we've built works well, but it still has some rough edges. When we search for "what did the eng team do with INC-2023-Q4-011?", we'd expect the Software Engineering section to rank higher since it specifically mentions the engineering team and the incident. However, the Cybersecurity section still comes first.
 
 This is where re-ranking comes in - a post-processing technique that can significantly improve retrieval accuracy.

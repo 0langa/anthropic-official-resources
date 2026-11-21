@@ -1,6 +1,6 @@
 # Choose between a cloud session and Remote Control for a long task
 
-A long Claude Code task can keep going after you leave your desk, on your own machine with Remote Control or in a cloud session. Compare what each one gives you and where it stops, then use a few questions to pick one for a task and say why.
+Decide whether your long Claude Code task runs locally or in the cloud, so it can keep going while you're away.
 
 10 minClaude Code
 

@@ -315,7 +315,7 @@ Remote Control and [cloud sessions](/docs/en/claude-code-on-the-web) both use th
 
 Use Remote Control when you're in the middle of local work and want to keep going from another device. Use a cloud session when you want to start a task without any local setup, work on a repo you don't have cloned, or run multiple tasks in parallel. A [project](/docs/en/claude-projects) combines the two: its threads run in the cloud, and it uses Remote Control to [run a thread on your computer](/docs/en/claude-projects#run-a-thread-on-your-own-computer) when you ask for one there.
 
-Claude Code offers several ways to work when you're not at your terminal. They differ in what triggers the work, where Claude runs, and how much you need to set up.
+Claude Code offers several ways to work when you're not at your terminal. They differ in what triggers the work, where Claude runs, and how much you need to set up. [Dispatch](/docs/en/desktop#sessions-from-dispatch) isn't available to new users.
 
 | | Trigger | Claude runs on | Setup | Best for |
 | :- | :- | :- | :- | :- |

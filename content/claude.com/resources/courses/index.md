@@ -46,7 +46,7 @@ Courses on working with AI, building with Claude, and the Model Context Protocol
 
 ·6 lessons·1 hr](https://academy.claude.com/courses/introduction-to-agent-skills)[### The AI-native SDLC playbook
 
-·14 lessons·1 hr](https://academy.claude.com/courses/ai-native-sdlc-playbook)[### Deploying Claude Enterprise with confidence: The five decisions that shape your rollout
+·14 lessons·1.5 hr](https://academy.claude.com/courses/ai-native-sdlc-playbook)[### Deploying Claude Enterprise with confidence: The five decisions that shape your rollout
 
 ·14 lessons · 1 quiz·2.5 hr·Completion badge
 

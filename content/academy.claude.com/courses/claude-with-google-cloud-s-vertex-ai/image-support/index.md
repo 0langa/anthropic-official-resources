@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/YKjCxFVbm3A?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=YKjCxFVbm3A)
 
+Download `images.zip` from the Downloads section at the end of this lesson, unzip it, and put the `images` folder in the same folder as your code. The notebooks for this course aren't available here.
+
 Claude's vision capabilities let you include images in your messages and ask Claude to analyze them in sophisticated ways. You can ask Claude to describe image contents, compare multiple images, count objects, or perform complex visual analysis tasks.
 
 ## Image Handling Basics[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/image-support)
@@ -161,5 +163,15 @@ For each item above (1-5), write one sentence summarizing your findings, with yo
 This comprehensive prompt guides Claude through a systematic analysis, resulting in accurate and actionable fire risk assessments. When tested with a heavily tree-covered property, Claude correctly identified it as a "3 (High Risk)" due to significant tree overhang and connected canopies around the structure.
 
 The key takeaway is that Claude's vision capabilities are powerful, but they require the same careful prompt engineering you'd use for any complex task. Invest time in creating detailed, structured prompts rather than relying on simple questions.
+
+## Downloads
+
+- 
+
+  ### Sample images (images.zip)
+
+  Contains the images folder, with seven satellite images of houses.
+
+  [Download](https://academy.claude.com/assets/v1/images-b6f3ouqk.zip)
 
 Was this helpful?

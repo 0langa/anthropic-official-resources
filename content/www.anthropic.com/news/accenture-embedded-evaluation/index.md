@@ -17,11 +17,11 @@ Topics
 
 Related articles
 
-- Policy
+- Announcements
 
-  Oct 15, 2026
+  Nov 20, 2026
 
-  [An update on independent evaluators](https://www.anthropic.com/news/an-update-on-independent-evaluators)
+  [Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement](https://www.anthropic.com/news/ipo-close)
 
 [View more](https://www.anthropic.com/search?topic=partnerships)
 

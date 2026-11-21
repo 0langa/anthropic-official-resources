@@ -75,7 +75,7 @@ yaml
 ```
 ---
 name: codebase-onboarding
-description: Helps new developers understand the system works.
+description: Helps new developers understand how the system works.
 allowed-tools: Read, Grep, Glob, Bash
 model: sonnet
 ---

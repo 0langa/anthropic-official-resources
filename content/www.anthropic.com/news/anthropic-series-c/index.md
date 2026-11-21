@@ -16,11 +16,11 @@ Topics
 
 Related articles
 
-- Partnerships
+- Announcements
 
-  Mar 12, 2026
+  Nov 20, 2026
 
-  [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
+  [Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement](https://www.anthropic.com/news/ipo-close)
 
 [View more](https://www.anthropic.com/search?topic=funding)
 

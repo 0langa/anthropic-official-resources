@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/mNcw3xvHNGU?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=mNcw3xvHNGU)
 
+The notebooks for this course aren't available here.
+
 Building a custom prompt evaluation workflow starts with creating a solid prompt and then generating test data to see how well it performs. Let's walk through setting up an evaluation system for a prompt that helps users write AWS-specific code.
 
 ## Setting Up the Goal[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/generating-test-datasets)

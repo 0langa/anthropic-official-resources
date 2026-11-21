@@ -14,6 +14,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/uK7s4jXNZrE?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=uK7s4jXNZrE)
 
+The notebooks for this course aren't available here.
+
 Claude comes with one built-in tool that you don't need to create from scratch: the text editor tool. This tool gives Claude the ability to work with files and directories just like you would in a standard text editor.
 
 ## What the Text Editor Tool Can Do[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/the-text-edit-tool)

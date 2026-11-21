@@ -1,6 +1,6 @@
 # What are skills?
 
-Learn what skills are in Claude Code and how they extend Claude's capabilities with specialized knowledge and workflows.
+Spot instructions worth turning into skills, so Claude Code can handle those tasks more accurately.
 
 3 minClaude Code
 

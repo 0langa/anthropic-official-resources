@@ -22,11 +22,6 @@
   {
     "reason": "outside_scope",
     "type": "document",
-    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/04-inference-setup-grid-light.html"
-  },
-  {
-    "reason": "outside_scope",
-    "type": "document",
     "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/07-end-to-end-replication-light.html"
   },
   {
@@ -37,12 +32,12 @@
   {
     "reason": "outside_scope",
     "type": "document",
-    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/09-small-model-capability-light.html"
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/04-inference-setup-grid-light.html"
   },
   {
     "reason": "outside_scope",
     "type": "document",
-    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/20-spear-phishing-light.html"
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/09-small-model-capability-light.html"
   },
   {
     "reason": "outside_scope",
@@ -52,11 +47,41 @@
   {
     "reason": "outside_scope",
     "type": "document",
-    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/19-device-population-light.html"
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/16-context-window-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/14-prefill-speed-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/20-spear-phishing-light.html"
   },
   {
     "reason": "outside_scope",
     "type": "document",
     "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/21-test-network-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/17-tokens-per-memento-chain-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/13-memory-per-box-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/19-device-population-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/15-decode-speed-light.html"
   }
 ]

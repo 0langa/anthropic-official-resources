@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/u56bORVO4b8?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=u56bORVO4b8)
 
+The notebooks for this course aren't available here.
+
 Prompt caching is a powerful optimization feature that makes requests cheaper and faster when you're repeatedly sending the same content to Claude. The initial request writes to the cache, and follow-up requests can read from it. The cache lives for 5 minutes and is extremely useful since many applications send identical tool schemas, system prompts, or message histories repeatedly.
 
 ![Claude writes the work done on the prompt "Please summarize this" to the cache, then reads it on the follow-up request.](https://academy.claude.com/assets/media/8268dec9cc1f3305ccd658d3099e2e5cdb6e8fb9d6c9c2aba2dc40152ff63ed1.png)

@@ -1,6 +1,6 @@
 # Introduction to evals
 
-Build a small eval on your own data to choose a Claude model by accuracy first and cost second, fix the prompt before you upgrade, and keep checking after launch.
+Build a small eval on your own data to choose a Claude model and prompt from evidence.
 
 4 lessons1 hr1 quizCompletion badge
 

@@ -74,7 +74,7 @@ Send a prompt describing the objective — what you need done and what *done* lo
 
 Finished files in your folder, actions taken in your tools, and a record of everything that happened.
 
-In Cowork, you can **delegate, but stay in control**. Claude's actions show up in the sidebar, you can interrupt and redirect at any point, and it asks for your approval before anything consequential — sending an email, posting a message, changing a file outside your working folder.
+In Cowork, you can **delegate, but stay in control**. Claude's actions show up in the sidebar, you can interrupt and redirect at any point, and you choose how closely Claude checks with you: it can ask first, or keep going while an automated check blocks actions it flags as risky.
 
 ## What Cowork adds[](https://academy.claude.com/tutorials/choosing-between-claude-cowork-or-chat)
 

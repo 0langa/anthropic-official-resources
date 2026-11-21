@@ -1,6 +1,6 @@
 # Configuration and multi-file skills
 
-Learn how to configure skills and work with multi-file skill structures in Claude Code.
+Split a large Claude Code skill across supporting files, to save context window space.
 
 4 minClaude Code
 

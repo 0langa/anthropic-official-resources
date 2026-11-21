@@ -6,9 +6,11 @@ Build software with Claude. Plan, write, debug, and ship wherever you code.
 
 [### Claude Code 101
 
-An agentic coding tool that lives in your terminal. Learn what Claude Code is, how it works, and the core workflows for getting real work done with it.
+Use Claude Code on your codebase, so tasks that took an afternoon can fit in one session.
 
-·Course·12 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-code-101)[### Your first day 
+·Course·12 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-code-101)
+
+[### Your first day 
 
 Install, sign in, and ship your first change. The path from zero to a working session.
 
@@ -73,7 +75,7 @@ Go deep on Claude Code power skills: context engineering, MCP, hooks and permiss
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-code-workshop-advanced)[Upcoming · Nov 18, 12:00 PM PT
+ (opens in new tab)](https://claude.com/resources/webinars/claude-code-workshop-advanced)[Recording · Nov 18
 
 ### How the Claude Code team does code review 
 
@@ -81,7 +83,7 @@ How the Claude Code team cut reverts 40% while doubling merged PRs, with AI revi
 
 ML
 
-·Upcoming·Nov 18·12:00 PM PT
+·Recording·Nov 18
 
  (opens in new tab)](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)
 
@@ -140,4 +142,4 @@ ML
 
 ## Browse it all
 
-[Tutorials12 tutorials](https://academy.claude.com/all)[Courses7 courses](https://academy.claude.com/all)[Claude Code docs code.claude.com (opens in new tab)](https://code.claude.com/docs)[Developer blog claude.dev (opens in new tab)](https://claude.dev/)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+[Tutorials13 tutorials](https://academy.claude.com/all)[Courses7 courses](https://academy.claude.com/all)[Claude Code docs code.claude.com (opens in new tab)](https://code.claude.com/docs)[Developer blog claude.dev (opens in new tab)](https://claude.dev/)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)

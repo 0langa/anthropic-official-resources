@@ -118,6 +118,14 @@ To stop sharing an artifact, open it, click "Share," and under **Who has access*
 
 On Team and Enterprise plans, owners can also remove outside access to individual artifacts. Learn more in the **[Artifacts admin guide for Team and Enterprise plans](https://support.claude.com/en/articles/16994751-artifacts-admin-guide-for-team-and-enterprise-plans)**.
 
+### When an artifact's creator leaves your organization
+
+Artifacts shared with your organization stay shared after their creator leaves.
+
+To stop sharing an artifact, an Owner or Primary Owner can open **[Organization settings > Artifacts](https://claude.ai/admin-settings/artifacts)**, find it by name under **Published artifacts**, and choose "Stop sharing with [organization name]" or "Delete" from its menu.
+
+Legacy artifacts aren't listed there. Only the creator can unshare a legacy artifact, and it can't be transferred. You can add that person back with the same email address so that they can unshare it, or, on Enterprise plans, permanently delete the chat it was made in through the Compliance API.
+
 ---
 
 ## Open an artifact you were invited to
@@ -180,6 +188,8 @@ Click "Unpublish" to revoke access to a published artifact.
 1. Click "Share" in the upper right corner of the artifact.
 2. In the **Artifact shared** modal, click "Unshare."
 
+If the person who created a chat artifact leaves your organization, see **When an artifact's creator leaves your organization**.
+
 ---
 
 ## Learn more
@@ -193,7 +203,7 @@ Disappointed ReactionNeutral ReactionSmiley Reaction
 ## Related Articles
 
 - [Use live artifacts in Claude Cowork](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)
+- [Public links for shared chats](https://support.claude.com/en/articles/16762437-public-links-for-shared-chats)
 - [Share a chat with specific people](https://support.claude.com/en/articles/16762496-share-a-chat-with-specific-people)
-- [Get started with Claude Docs](https://support.claude.com/en/articles/16923645-get-started-with-claude-docs)
 - [Artifacts admin guide for Team and Enterprise plans](https://support.claude.com/en/articles/16994751-artifacts-admin-guide-for-team-and-enterprise-plans)
 - [What are artifacts and how do I use them?](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them)

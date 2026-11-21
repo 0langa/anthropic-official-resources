@@ -8,7 +8,9 @@ Learn how people and AI agents work together as one team, hear from companies al
 
 Explore the benefits of moving from single-player to multiplayer AI and learn how to prepare your team for the shift.
 
-·Course·5 lessons · 1 quiz·45 min](https://academy.claude.com/courses/building-effective-human-agent-teams)[![](https://academy.claude.com/assets/v1/thumbnail.light-o8smw8bd.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jl3ze518.png)
+·Course·5 lessons · 1 quiz·45 min](https://academy.claude.com/courses/building-effective-human-agent-teams)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-o8smw8bd.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jl3ze518.png)
 
 ### Building AI-fluent organizations
 
@@ -24,13 +26,17 @@ How work with AI is moving from single-player to multiplayer, with examples from
 
 ·claude.com
 
- (opens in new tab)](https://claude.com/blog/building-effective-human-agent-teams)[## Turning conversation into knowledge: how Slack builds human-agent teams 
+ (opens in new tab)](https://claude.com/blog/building-effective-human-agent-teams)
+
+[## Turning conversation into knowledge: how Slack builds human-agent teams 
 
 A conversation with Jaime DeLanghe, Chief Product Officer at Slack.
 
 ·claude.com
 
- (opens in new tab)](https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams)[## Agents you can coach: how Asana builds human-agent teams with Claude 
+ (opens in new tab)](https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams)
+
+[## Agents you can coach: how Asana builds human-agent teams with Claude 
 
 Arnab Bose, Chief Product Officer at Asana, on how Asana runs Claude-powered AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
 
@@ -46,13 +52,17 @@ Arnab Bose, Chief Product Officer at Asana, on how Asana runs Claude-powered AI 
 
 How to work with Claude Tag across your org: setting up where it has context, writing a task that goes well, and moving from one-off requests to work it runs on its own.
 
-·Tutorial·10 min](https://academy.claude.com/tutorials/best-practices-using-claude-tag)[![](https://academy.claude.com/assets/v1/thumbnail.dark-fvmviaxt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-fvmviaxt.png)
+·Tutorial·10 min](https://academy.claude.com/tutorials/best-practices-using-claude-tag)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.dark-fvmviaxt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-fvmviaxt.png)
 
 ## Tasks to try with Claude Tag in your workspace
 
 A catalog of tasks to try handing to Claude Tag once it's in your workspace, each with the prompt that starts it and what comes back.
 
-·Tutorial·9 min](https://academy.claude.com/tutorials/tasks-to-try-with-claude-tag-in-your-workspace)[## Hand Claude Tag your first task 
+·Tutorial·9 min](https://academy.claude.com/tutorials/tasks-to-try-with-claude-tag-in-your-workspace)
+
+[## Hand Claude Tag your first task 
 
 Check that Claude Tag has been added to your Slack channel, then send it your first message.
 
@@ -66,9 +76,11 @@ Check that Claude Tag has been added to your Slack channel, then send it your fi
 
 ## What is Claude Managed Agents?
 
-Claude Managed Agents is a suite of APIs for building production-ready agents. You define the tools, environments, and success criteria.
+See what Claude Managed Agents lets you build, to decide if it fits your project.
 
-·Tutorial·4 min](https://academy.claude.com/tutorials/what-is-claude-managed-agents)[## Get started with Claude Managed Agents 
+·Tutorial·4 min](https://academy.claude.com/tutorials/what-is-claude-managed-agents)
+
+[## Get started with Claude Managed Agents 
 
 For developers: create your first autonomous agent with the Claude API.
 

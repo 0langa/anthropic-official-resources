@@ -16,14 +16,18 @@ This course doesn’t award a completion badge.
 
 Go beyond MCP basics: sampling, notifications, and roots, with interactive walkthroughs of each protocol flow.
 
-·11 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/model-context-protocol-advanced-topics)[### Claude Code 101
+·11 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/model-context-protocol-advanced-topics)
 
-An agentic coding tool that lives in your terminal. Learn what Claude Code is, how it works, and the core workflows for getting real work done with it.
+[### Claude Code 101
 
-·12 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-code-101)[### Claude Code in action
+Use Claude Code on your codebase, so tasks that took an afternoon can fit in one session.
+
+·12 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-code-101)
+
+[### Claude Code in action
 
 Run long, hands-off Claude Code sessions you can trust: steer, configure, automate, and verify
 
-·9 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/claude-code-in-action)
+·9 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/claude-code-in-action)
 
-[View your learning](https://academy.claude.com/dashboard)
+[View your journey](https://academy.claude.com/dashboard)

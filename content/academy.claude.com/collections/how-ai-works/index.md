@@ -10,13 +10,17 @@ Learn how AI models work.
 
 When you send a message to an AI, there's a moment where it appears to be “thinking.” But what's actually happening? This video walks you through what's going on under the hood.
 
-·Tutorial·5 min](https://academy.claude.com/tutorials/what-happens-when-you-talk-to-ai)[![](https://academy.claude.com/assets/v1/thumbnail.light-b4ynrsvg.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ngbl1ah4.png)
+·Tutorial·5 min](https://academy.claude.com/tutorials/what-happens-when-you-talk-to-ai)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-b4ynrsvg.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ngbl1ah4.png)
 
 ### Can you trust what AI tells you?
 
 Ask an AI a question and the answer comes back confident, well-organized, maybe even cited. Can you trust it?
 
-·Tutorial·5 min](https://academy.claude.com/tutorials/can-you-trust-what-ai-tells-you)[![](https://academy.claude.com/assets/v1/thumbnail.light-kx6glduy.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iixfibz5.png)
+·Tutorial·5 min](https://academy.claude.com/tutorials/can-you-trust-what-ai-tells-you)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-kx6glduy.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iixfibz5.png)
 
 ### What does AI know about me?
 
@@ -30,19 +34,25 @@ People sometimes ask AI things they wouldn't broadcast, like medical questions, 
 
 Build an accurate mental model of what large language models can and cannot do: next-token prediction, knowledge, working memory, steerability, and context limits.
 
-·Course·13 lessons · 1 quiz·3.5 hr](https://academy.claude.com/courses/ai-capabilities-and-limitations)[![](https://academy.claude.com/assets/v1/thumbnail.light-ch4hj0py.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-khswa6t7.png)
+·Course·13 lessons · 1 quiz·3.5 hr](https://academy.claude.com/courses/ai-capabilities-and-limitations)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-ch4hj0py.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-khswa6t7.png)
 
 ## Why do AI models hallucinate?
 
 Learn what AI researchers mean when they talk about hallucination in AI models, why it may occur, and tactics you can use to spot this in your conversations.
 
-·Tutorial·5 min](https://academy.claude.com/tutorials/why-do-ai-models-hallucinate)[![](https://academy.claude.com/assets/v1/thumbnail.light-cnu2p8qc.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dhnab57m.png)
+·Tutorial·5 min](https://academy.claude.com/tutorials/why-do-ai-models-hallucinate)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-cnu2p8qc.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dhnab57m.png)
 
 ## What is sycophancy in AI models?
 
 Learn what AI researchers mean when they talk about sycophancy, when it's more likely to show up in conversations, and tactics you can use to steer AI towards truth.
 
-·Tutorial·6 min](https://academy.claude.com/tutorials/what-is-sycophancy-in-ai-models)[![](https://academy.claude.com/assets/v1/thumbnail.light-m8f63l05.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bde8q7dn.png)
+·Tutorial·6 min](https://academy.claude.com/tutorials/what-is-sycophancy-in-ai-models)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-m8f63l05.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bde8q7dn.png)
 
 ## Why does bias exist in AI models?
 
@@ -58,7 +68,9 @@ Learn what bias is, why it may occur, and tactics you can use to spot bias in yo
 
 Claude usage is measured in tokens. Whether you're monitoring a usage bill or wondering when a rate limit will kick in, tokens are the unit of measurement. Learn what a token is, predict how many a piece of text will use, and see how tokens encode meaning.
 
-·Tutorial·15 min](https://academy.claude.com/tutorials/tokens-and-embeddings)[![](https://academy.claude.com/assets/v1/thumbnail.light-hbwc6qac.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gxfjrbde.png)
+·Tutorial·15 min](https://academy.claude.com/tutorials/tokens-and-embeddings)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-hbwc6qac.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gxfjrbde.png)
 
 ## How context affects Claude's performance and cost
 

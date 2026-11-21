@@ -1,6 +1,6 @@
 # Use incognito chats
 
-**Note:** If you have the new Claude experience, incognito chats open in the previous chat experience, so Claude can't create files or run code in them.
+**Note:** If you have the new Claude experience, Claude can't create files or run code in incognito chats.
 
 ## What are incognito chats?
 
@@ -34,7 +34,7 @@ These differ from regular chats in several ways:
 
 When starting a new chat with Claude outside of a project, you'll see a ghost icon in the upper right corner of your screen:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719768744/c7a2fa56cf284e48472f3b9c4dbf/030563f8-9f97-4891-a749-9ae95968a063?expires=1795011300&amp;signature=52f2502f2fa0dec21329db690e687a03885c54b3c64ccd5fea69fda57eee1209&amp;req=dScmH854lYZbXfMW1HO4zeUcuge9b%2BSIDCAt3Cx%2FSO3f4Q3QSd24F9IfnU8f%0AEm7dzghlhopnZwZrkto%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719768744/c7a2fa56cf284e48472f3b9c4dbf/030563f8-9f97-4891-a749-9ae95968a063?expires=1795267800&amp;signature=ec2467d979f7c906ac7081fab1831d12fc26630fefe332d4c48e95c86407a26d&amp;req=dScmH854lYZbXfMW1HO4zeUcuge%2FaOKDDCAt3Cx%2FSO30TY8m2OFFhiyh%2FN3z%0AJxLwTikLTQpqs7pi8VU%3D%0A)
 
 1. Click the ghost icon to enable incognito mode.
 

@@ -244,7 +244,7 @@ Build a prompt for a real piece of your work. Fill the blanks for Fill the blank
 
 1Where is the work?
 
-Files on my computerFoldersA program I useExtensions, or computer useA websiteThe built-in browserEmail, calendar, DriveConnectors
+Files on my computerFoldersA program I useExtensions, or computer useA websiteThe built-in browserEmail, calendar, DriveConnectors
 
 [Download the desktop app(opens in new tab)](https://claude.com/download) for Mac, Windows, or Linux (beta).
 

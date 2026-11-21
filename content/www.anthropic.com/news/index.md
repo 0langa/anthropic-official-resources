@@ -2,7 +2,7 @@
 
 Latest news
 
-November 19, 2026
+November 21, 2026
 
 [Announcements](https://www.anthropic.com/news/announcements)
 
@@ -102,7 +102,7 @@ The first AI-assisted drive on another planet. Claude helped NASA's Perseverance
 
 AllProductCompany
 
-285
+286
 
 ARTICLES
 
@@ -118,6 +118,19 @@ Category
 
 Date
 
+- [### Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement](https://www.anthropic.com/news/ipo-close)
+
+  [Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise by the underwriters of their option to purchase an additional 147,000,000 shares of Class A common stock from Anthropic at the initial public offering price.](https://www.anthropic.com/news/ipo-close)
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+
+  Nov 20, 2026
+
+  Nov 20, 2026
+
+  [Announcements](https://www.anthropic.com/news/announcements)
+
+  [### Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement](https://www.anthropic.com/news/ipo-close)[Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise by the underwriters of their option to purchase an additional 147,000,000 shares of Class A common stock from Anthropic at the initial public offering price.](https://www.anthropic.com/news/ipo-close)
 - [### Anthropic prices initial public offering](https://www.anthropic.com/news/anthropic-prices-initial-public-offering)
 
   [Today Anthropic, PBC priced its initial public offering of its Class A common stock.](https://www.anthropic.com/news/anthropic-prices-initial-public-offering)
@@ -417,19 +430,6 @@ Date
   [Announcements](https://www.anthropic.com/news/announcements)
 
   [### Introducing Claude Opus 5.5](https://www.anthropic.com/claude-opus-5-5)[Claude Opus 5.5 leads in agentic coding and knowledge work, and costs 40% less to run than Opus 5 on typical workloads.](https://www.anthropic.com/claude-opus-5-5)
-- [### The Situation Report](https://www.anthropic.com/features/ebola-response)
-
-  [A rare Ebola strain is spreading in the DRC, with no confirmed vaccine. Global health organizations are using Claude to respond as fast as possible.](https://www.anthropic.com/features/ebola-response)
-
-  [Features](https://www.anthropic.com/news/features)
-
-  Sep 21, 2026
-
-  Sep 21, 2026
-
-  [Features](https://www.anthropic.com/news/features)
-
-  [### The Situation Report](https://www.anthropic.com/features/ebola-response)[A rare Ebola strain is spreading in the DRC, with no confirmed vaccine. Global health organizations are using Claude to respond as fast as possible.](https://www.anthropic.com/features/ebola-response)
 
 See more
 

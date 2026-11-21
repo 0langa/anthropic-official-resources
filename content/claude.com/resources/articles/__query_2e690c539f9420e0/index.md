@@ -58,7 +58,7 @@ Featured resource 1 of 5: Your apps can now open in Claude, and Claude can work 
 
 Advanced filters(1)
 
-Showing 12 of 156 resources
+Showing 12 of 157 resources
 
 [ArticleNov 17, 2026
 

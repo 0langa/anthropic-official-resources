@@ -1,6 +1,6 @@
 # Using Claude Code Remote Control
 
-Learn more about using Claude Code remote control to access Claude Code sessions on the go.
+Steer a Claude Code session from your phone, so you can leave your desk.
 
 3 minClaude Code
 

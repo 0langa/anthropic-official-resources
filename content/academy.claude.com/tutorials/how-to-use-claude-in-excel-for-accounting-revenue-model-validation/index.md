@@ -86,8 +86,8 @@ When you ask about the model, Claude doesn't guess—it reads all six sheets fir
 **Issues surface together.**
 Instead of discovering problems one at a time as you click through tabs, Claude presents everything it found upfront: the reconciliation gap, the duplicate, the missing entry, the flagged items. You decide what to tackle first.
 
-**Changes require confirmation.**
-Claude shows the math, explains what will change, and waits for your "yes, go ahead" before modifying anything. You see exactly what's happening and can verify the logic.
+**Changes wait for confirmation in "Ask before edits" mode.**
+In this mode, the default, Claude shows what it plans to change and waits for your approval before making edits, so you can check the logic first. If you switch to "Accept all edits", or choose "Always allow" on an approval prompt, Claude makes most edits without asking.
 
 **Context carries through the conversation.**
 When you say "let's go back to the issues you identified," Claude remembers what it flagged earlier. You don't need to re-explain or re-read the model.

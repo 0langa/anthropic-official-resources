@@ -338,7 +338,7 @@ In Enterprise organizations with the [HIPAA configuration](/docs/en/hipaa-setup)
 | [Remote Control](/docs/en/remote-control) | ✓ | ✓ | ✓ | Admin-enabled | Admin-enabled |
 | [Channels](/docs/en/channels) | ✓ | ✓ | ✓ | Admin-enabled | Admin-enabled |
 | [Computer use](/docs/en/computer-use) | ✓ | ✓ | ✓ | ✗ | ✗ |
-| Dispatch ([Desktop](/docs/en/desktop#sessions-from-dispatch)) | ✓ | ✓ | ✓ | ✗ | ✗ |
+| Dispatch ([Desktop](/docs/en/desktop#sessions-from-dispatch)) | Not available to new users | Not available to new users | Not available to new users | ✗ | ✗ |
 | [Code Review](/docs/en/code-review) | ✗ | ✗ | ✗ | ✓ | ✓ |
 | [Artifacts](/docs/en/artifacts) | ✓ | ✓ | ✓ | ✓ | ✓ |
 | [Analytics dashboard and contribution metrics](/docs/en/analytics) | ✗ | ✗ | ✗ | ✓ | ✓ |

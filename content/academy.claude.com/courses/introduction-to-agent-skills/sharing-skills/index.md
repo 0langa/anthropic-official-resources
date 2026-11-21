@@ -111,7 +111,7 @@ yaml
 ---
 name: frontend-security-accessibility-reviewer
 description: "Use this agent when you need to review frontend code for accessibility..."
-tools: Bash, Glob, Grep, Read, WebFetch, WebSearch, Skill...
+tools: Bash, Glob, Grep, Read, WebFetch, WebSearch, Skill
 model: sonnet
 color: blue
 skills: accessibility-audit, performance-check

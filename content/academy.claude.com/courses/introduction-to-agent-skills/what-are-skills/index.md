@@ -37,7 +37,7 @@ compare to other Claude Code customization options.
 - **Skills are folders of instructions** that Claude Code can discover and use to handle tasks more accurately. Each skill lives in a `SKILL.md` file with a name and description in its frontmatter
 - **Claude uses the description to match skills to requests.** When you ask Claude to do something, it compares your request against available skill descriptions and activates the ones that match
 - **Personal skills** go in `~/.claude/skills` and follow you across all projects. **Project skills** go in `.claude/skills` inside a repository and are shared with anyone who clones it
-- **Skills load on demand** — unlike CLAUDE.md (which loads into every conversation) or slash commands (which require explicit invocation), skills activate automatically when Claude recognizes the situation
+- **Skills load on demand**: unlike CLAUDE.md (which loads into every conversation), skills activate automatically when Claude recognizes the situation
 - If you find yourself **explaining the same thing to Claude repeatedly**, that's a skill waiting to be written
 
 Every time you explain your team's coding standards to Claude, you're repeating yourself. Every PR review, you re-describe how you want feedback structured. Every commit message, you remind Claude of your preferred format. Skills fix this.
@@ -78,11 +78,11 @@ Project skills get committed to version control alongside your code, so the whol
 
 ## Skills vs. CLAUDE.md vs. Slash Commands[](https://academy.claude.com/courses/introduction-to-agent-skills/what-are-skills)
 
-Claude Code has several ways to customize behavior. Skills are unique because they're automatic and task-specific. Here's how they compare:
+Claude Code has several ways to customize behavior. Skills load automatically and only for the task at hand. Here's how they compare:
 
 - **CLAUDE.md** files load into every conversation. If you want Claude to always use TypeScript's strict mode, that goes in CLAUDE.md.
 - **Skills** load on demand when they match your request. Claude only loads the name and description initially, so they don't fill up your entire context window. Your PR review checklist doesn't need to be in context when you're debugging — it loads when you actually ask for a review.
-- **Slash commands** require you to explicitly type them. Skills don't. Claude applies them when it recognizes the situation.
+- **Slash commands** are what you type to run something yourself. The video says they run only when you type them, but custom commands have been [merged into skills(opens in new tab)](https://code.claude.com/docs/en/skills): you can type `/name` to run a skill or a custom command, and Claude can also run either one when it recognizes the situation. To stop Claude from running one on its own, add `disable-model-invocation: true` to its frontmatter.
 
 When Claude matches a skill to your request, you'll see it load in the terminal:
 

@@ -46,9 +46,9 @@ Apps you've connected to Claude (like Google Drive, Gmail, Microsoft 365, or Sla
 
 - **Browsing:** Claude can open sites, read pages, click, and fill in forms, using the browser built into Claude Desktop or your own Chrome browser through Claude in Chrome. Learn more in **[Use the built-in browser in Claude Cowork](https://support.claude.com/en/articles/16607400)**.
 
-- **Computer use:** On Pro, Max, and Ultra plans, Claude can use apps on your computer directly by clicking, typing, and navigating your screen. Learn more in **[Let Claude use your computer in Cowork](https://support.claude.com/en/articles/14128542)**.
+- **Computer use:** On Pro, Max, and Ultra plans, Claude can use apps on your computer directly by clicking, typing, and navigating your screen. On Team and Enterprise plans, it's rolling out to organizations gradually in beta, and works once an owner turns it on. Learn more in **[Let Claude use your computer in Cowork](https://support.claude.com/en/articles/14128542)**.
 
-Claude reaches your local files, the built-in browser, and computer use only while Claude Desktop is open, and by default it asks before permanently deleting any files.
+Claude reaches your local files, the built-in browser, and computer use only while Claude Desktop is open. By default, Claude asks before permanently deleting files, but that protection doesn't cover computer use.
 
 *Try: "Organize my Downloads folder by file type and date."*
 
@@ -72,7 +72,7 @@ A task you start at your desk shows up in Claude Mobile too, so you can see how 
 
 A permission setting in the message box controls how independently Claude works:
 
-- **Auto (rolling out as the default on Pro, Max, Ultra, and Team plans):** Claude keeps working without stopping to ask about each step, and automated safety checks run before it takes an action.
+- **Auto (rolling out as the default on Pro, Max, Ultra, and Team plans):** Claude keeps working without stopping to ask about each step, and automated safety checks run before it takes most actions.
 
 - **Manual (default on Enterprise plans, except in the Cowork side panel in Chrome):** Claude asks before it takes actions, and you choose whether to allow each one.
 
@@ -130,7 +130,7 @@ Not sure where to start? Ask Claude what it can help with.
 
 - **Branching a conversation** from an earlier point isn't available.
 
-- **Incognito chats** still work, but they open in the previous experience, so Claude can't create files or run code in them.
+- **Incognito chats** still work, but Claude can't create files or run code in them.
 
 - **Search** doesn't include older Cowork tasks. It covers your chats and new conversations, and you can still find older tasks by name in **[Recents](https://claude.ai/chats)**.
 

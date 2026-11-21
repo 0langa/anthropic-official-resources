@@ -12,6 +12,8 @@ Embedded media: https://www.youtube-nocookie.com/embed/toBJoOo0Nnw?enablejsapi=1
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=toBJoOo0Nnw)
 
+Download `report.zip` from the Downloads section at the end of this lesson, unzip it, and put `report.md` in the same folder as your code. The notebooks for this course aren't available here.
+
 Now that we understand the RAG flow conceptually, let's implement it step by step using a practical example. We'll work through all five stages of the RAG process, from chunking text to finding relevant documents for user queries.
 
 ## Setting Up the Vector Database[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/implementing-the-rag-flow)
@@ -108,5 +110,15 @@ Some implementations store just an ID that points back to the original text, but
 ## What's Next[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/implementing-the-rag-flow)
 
 This implementation covers the core RAG workflow, but there are still improvements we can make. In real-world applications, you might encounter scenarios where this basic approach doesn't work as expected, and we'll explore those refinements in upcoming sections.
+
+## Downloads
+
+- 
+
+  ### Sample report (report.zip)
+
+  Contains report.md, the fictional report this section searches.
+
+  [Download](https://academy.claude.com/assets/v1/report-k0tv13nc.zip)
 
 Was this helpful?

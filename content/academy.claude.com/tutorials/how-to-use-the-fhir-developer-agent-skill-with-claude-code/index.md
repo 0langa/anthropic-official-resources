@@ -1,6 +1,6 @@
 # How to use the FHIR Developer agent skill with Claude Code
 
-How to use the FHIR Developer agent skill with Claude Code
+Install the FHIR Developer agent skill so Claude Code can help you connect healthcare systems faster.
 
 3 minClaude Code
 

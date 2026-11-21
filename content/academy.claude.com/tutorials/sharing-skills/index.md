@@ -1,6 +1,6 @@
 # Sharing skills
 
-Learn how to share your Claude Code skills with teammates and the community.
+Share your Claude Code skills with your team, so everyone works from the same standards.
 
 4 minClaude Code
 

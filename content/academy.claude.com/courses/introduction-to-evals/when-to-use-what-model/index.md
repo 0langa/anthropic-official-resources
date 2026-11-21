@@ -117,8 +117,8 @@ When you compare models, don't mix batch rates and standard rates in one compari
 ## The bottom line[](https://academy.claude.com/courses/introduction-to-evals/when-to-use-what-model)
 
 1. Set your accuracy floor first, from what a wrong answer would cost you.
-2. Give every model the same cases, and drop any model that doesn't clear the floor.
+2. Give every model the same cases, and drop any model that scores below the floor.
 3. Take each call's cost from its `usage` block, then divide the run cost by the number of tasks the model completed.
-4. Of the candidates that clear the floor, pick the one whose cost per completed task is lowest.
+4. Of the models at or above the floor, pick the one whose cost per completed task is lowest.
 
 Was this helpful?

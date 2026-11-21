@@ -84,11 +84,16 @@ Studies how AI affects people, both individually and collectively.
 
 Explores how AI can increase the pace of scientific progress through both research and collaborations.
 
+- [![Abstract illustration of a black circle, like a black hole, at the center of swirling marbled patterns, blue and gold above and brown and pale blue below.](https://assets.claude.com/ec63fc5eb209aafb67c9a140685e4cb13148ea02.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/claude-black-hole-physics)
 - [![Collage illustration pairing vintage measuring scales over a black-and-white photograph with a green print of a ribbed, vaulted cathedral ceiling.](https://assets.claude.com/50d60818006da4782dc5edb2d5ee1fe9586cd787.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
 - [![AI for scientific discovery: How researchers use Claude](https://assets.claude.com/85655fc29093e4a794f17c32de30480ef38db782.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/how-researchers-use-claude)
 - [![Collage of a vintage lithograph of a schooner heeling in a stormy sea, layered over an aged paper folder and a blue-tinted handwritten ship passenger list.](https://assets.claude.com/14baeb6c50d25035a3981403f8e9db52a1b08a2d.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/agents-judgment-calls)
-- [![Illuminating the frontier](https://assets.claude.com/264cdc847719955f0995311b80fe3e7bc529153b.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/institute/measuring-pace-of-ai-development)
-- [![Scenarios for our economic future](https://assets.claude.com/c156fa616617cb5148a76a7f731f4e26fce91797.png?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/institute/econ-scenarios)
+
+[Science](https://www.anthropic.com/science)
+
+Nov 17, 2026[## Claude solves two open problems in the physics of black holes](https://www.anthropic.com/research/claude-black-hole-physics)
+
+Claude has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity.
 
 [Science](https://www.anthropic.com/science)
 
@@ -108,23 +113,11 @@ Oct 27, 2026[## How AI agents shape experts’ judgment calls](https://www.anthr
 
 As AI does more of the hands-on work, the hope is that experts still make the judgment calls, meaning the decisions with more than one defensible answer. We tested this with 50 professional analysts who did a statistical analysis with Claude Code. On each key decision, we randomly assigned which of two defensible options the agent would favor. Analysts mostly went with the agent’s side, and few named the agent as a reason afterward.
 
-[Alignment](https://www.anthropic.com/research/team/alignment)
-
-Sep 17, 2026[## Illuminating the frontier](https://www.anthropic.com/institute/measuring-pace-of-ai-development)
-
-Anthropic is sharing new measurements that would give the public visibility into frontier AI development.
-
-[Economics](https://www.anthropic.com/research/team/economics)
-
-Sep 9, 2026[## Scenarios for our economic future](https://www.anthropic.com/institute/econ-scenarios)
-
-Anthropic’s Economics team is sharing a new model of how AI may affect economic growth, jobs, wages, and more by 2030. The model lets you explore the scenarios, tell us what you think will happen, and see how your answers compare to +10,000 Americans.
-
 01
 
 /
 
-05
+04
 
 211
 

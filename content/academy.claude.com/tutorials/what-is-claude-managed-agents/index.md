@@ -1,6 +1,6 @@
 # What is Claude Managed Agents?
 
-Claude Managed Agents is a suite of APIs for building production-ready agents. You define the tools, environments, and success criteria.
+See what Claude Managed Agents lets you build, to decide if it fits your project.
 
 4 minClaude Platform
 

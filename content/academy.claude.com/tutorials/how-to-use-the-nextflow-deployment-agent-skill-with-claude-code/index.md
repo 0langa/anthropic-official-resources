@@ -1,6 +1,6 @@
 # How to use the Nextflow Deployment agent skill with Claude Code
 
-How to use the Nextflow Deployment agent skill with Claude Code
+Install the Nextflow Deployment agent skill so you can ask Claude Code to run sequencing analyses.
 
 3 minClaude Code
 

@@ -35,7 +35,7 @@ Start in any conversation with what you want to do, then build on what Claude gi
 
 The artifact opens beside your conversation. It's also saved on the Artifacts page in the sidebar, so you can open it again later on the web, the desktop app, or the mobile app.
 
-Simulation: a conversation with Claude beside the working priorities tracker it built from an attached doc and the user's answers. You can check priorities off or add one.
+Simulation: shows a conversation where the user describes a problem and attaches a document, Claude asks clarifying questions, then builds a working priorities tracker artifact to try beside the chat, with checkmarks that don't save unless asked.
 
 Try the priorities tracker Claude built in this conversation
 

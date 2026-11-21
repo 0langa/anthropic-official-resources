@@ -8,13 +8,17 @@ Your thinking partner for big ambitions: work through a problem, pressure-test a
 
 Learn to use Claude for everyday work, from your first conversation and effective prompting to projects, artifacts, skills, and connected tools.
 
-·Course·13 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/claude-101)[![](https://academy.claude.com/assets/v1/thumbnail.light-khg817wt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-h1zlg9b3.png)
+·Course·13 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/claude-101)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-khg817wt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-h1zlg9b3.png)
 
 ### Getting started with Claude
 
 What Claude can do, how to write your first prompt, and how to set up a task with your own files and tools.
 
-·Tutorial·5 min](https://academy.claude.com/tutorials/getting-started-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-ofwck6bq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-09in3lr8.png)
+·Tutorial·5 min](https://academy.claude.com/tutorials/getting-started-with-claude)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-ofwck6bq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-09in3lr8.png)
 
 ### Intro to Projects
 
@@ -38,31 +42,41 @@ Admin setup](https://academy.claude.com/products/claude/setup)
 
 Transform one piece of content into multiple formats adapted for different platforms and audiences.
 
-·Use case·Marketing·15 min](https://academy.claude.com/use-cases/adapt-content-across-platforms)[![](https://academy.claude.com/assets/v1/thumbnail.light-ejsdnt6i.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dpzhlt0i.png)
+·Use case·Marketing·15 min](https://academy.claude.com/use-cases/adapt-content-across-platforms)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-ejsdnt6i.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dpzhlt0i.png)
 
 ## Analyze campaign performance
 
 Analyze campaign performance data to identify your best and worst performing channels, then get specific budget reallocation recommendations for next quarter.
 
-·Use case·Marketing·10 min](https://academy.claude.com/use-cases/analyze-campaign-performance)[![](https://academy.claude.com/assets/v1/thumbnail.light-hi5bnla4.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ls60okh6.png)
+·Use case·Marketing·10 min](https://academy.claude.com/use-cases/analyze-campaign-performance)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-hi5bnla4.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ls60okh6.png)
 
 ## Analyze fundraising performance
 
 Analyze performance across email, events, direct mail, social media, and other channels to identify highest-return investments and optimize resource allocation for maximum fundraising impact.
 
-·Use case·Marketing·15 min](https://academy.claude.com/use-cases/analyze-fundraising-performance)[![](https://academy.claude.com/assets/v1/thumbnail.light-b9tjjlgm.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-c5dd1y7u.png)
+·Use case·Marketing·15 min](https://academy.claude.com/use-cases/analyze-fundraising-performance)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-b9tjjlgm.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-c5dd1y7u.png)
 
 ## Analyze patterns in user feedback
 
 Find recurring themes and pain points across user feedback to separate meaningful patterns from noise.
 
-·Use case·Product·15 min](https://academy.claude.com/use-cases/analyze-patterns-in-user-feedback)[![](https://academy.claude.com/assets/v1/thumbnail.light-f7xyt41z.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-f02w418q.png)
+·Use case·Product·15 min](https://academy.claude.com/use-cases/analyze-patterns-in-user-feedback)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-f7xyt41z.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-f02w418q.png)
 
 ## Apply a formula as you learn it
 
 Claude builds a blank scatter right in the conversation — you place the points, drag them, watch what happens to the fit. For when you can do the calculation but don't yet have a feel for it.
 
-·Use case·Education·15 min](https://academy.claude.com/use-cases/apply-a-formula-as-you-learn-it-in-chat-with-claude)[![](https://academy.claude.com/assets/v1/thumbnail.light-fjnnaiiq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mslbc9us.png)
+·Use case·Education·15 min](https://academy.claude.com/use-cases/apply-a-formula-as-you-learn-it-in-chat-with-claude)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-fjnnaiiq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mslbc9us.png)
 
 ## Bring your whiteboard lesson to life
 
@@ -97,37 +111,37 @@ Work through how to teach a concept with Claude sketching alongside. The visual 
 
 [View all webinars](https://academy.claude.com/all)
 
-[Upcoming · Nov 19, 1:00 PM PT
+[Upcoming · Dec 8, 9:00 AM PT
 
-### Claude Rearview Roadmap Review: November 2026 
+### Best Practices for Government: IT Modernization with Claude 
 
-A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+A government tech leader shares how to securely modernize legacy systems with Claude, where to start, and how to stay in control.
 
-SS
+CCMC
 
-·Upcoming·Nov 19·1:00 PM PT
+·Upcoming·Dec 8·9:00 AM PT
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/best-practices-for-government-it-modernization-with-claude)[Recording · Nov 12
 
-### Claude Rearview Roadmap Review: October 2026 
+### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One 
 
-A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+A same-day staff guide to connecting your files and using Claude for Nonprofits skills to draft a year-end appeal in your voice.
 
-SSIP
+MW
 
-·Recording·Oct 22
+·Recording·Nov 12
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 21
+ (opens in new tab)](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[Recording · Nov 10
 
-### Tokenomics on AWS: Control and optimize your Claude spend 
+### Claude for Nonprofits: An Admin’s Guide to Data Handling and AI Policy 
 
-Optimize your Claude spend on AWS with admin controls, default model settings, and measuring cost per task on Bedrock and the API.
+An admin's guide to documenting how Claude handles your nonprofit's data and putting a one-page AI use policy in place.
 
-SMAR
+MW
 
-·Recording·Oct 21
+·Recording·Nov 10
 
- (opens in new tab)](https://claude.com/resources/webinars/tokenomics-on-aws-control-and-optimize-your-claude-spend)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-for-nonprofits-admin-guide-to-data-handling-ai-policy)
 
 ## Browse it all
 
