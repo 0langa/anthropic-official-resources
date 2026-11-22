@@ -8,19 +8,27 @@ Courses on working with AI, building with Claude, and the Model Context Protocol
 
 ·13 lessons · 1 quiz·2.5 hr·Completion badge
 
-·13 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/claude-101)[### Claude Code 101
+·13 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/claude-101)
+
+[### Claude Code 101
 
 ·12 lessons · 1 quiz·1.5 hr·Completion badge
 
-·12 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-code-101)[### Introduction to Claude Cowork
+·12 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-code-101)
+
+[### Introduction to Claude Cowork
 
 ·14 lessons · 1 quiz·2.5 hr·Completion badge
 
-·14 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introduction-to-claude-cowork)[### Introduction to Claude Tag
+·14 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introduction-to-claude-cowork)
+
+[### Introduction to Claude Tag
 
 ·11 lessons · 1 quiz·2.5 hr·Completion badge
 
-·11 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introduction-to-claude-tag)[### Claude Platform 101
+·11 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introduction-to-claude-tag)
+
+[### Claude Platform 101
 
 ·13 lessons · 1 quiz·1.5 hr·Completion badge
 
@@ -32,21 +40,33 @@ Courses on working with AI, building with Claude, and the Model Context Protocol
 
 ·9 lessons · 1 quiz·1 hr·Completion badge
 
-·9 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/claude-code-in-action)[### Introduction to Model Context Protocol
+·9 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/claude-code-in-action)
+
+[### Introduction to Model Context Protocol
 
 ·10 lessons · 1 quiz·1 hr·Completion badge
 
-·10 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduction-to-model-context-protocol)[### Model Context Protocol: Advanced topics
+·10 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduction-to-model-context-protocol)
+
+[### Model Context Protocol: Advanced topics
 
 ·11 lessons · 1 quiz·1.5 hr·Completion badge
 
-·11 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/model-context-protocol-advanced-topics)[### Introduction to subagents
+·11 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/model-context-protocol-advanced-topics)
 
-·4 lessons·45 min](https://academy.claude.com/courses/introduction-to-subagents)[### Introduction to agent skills
+[### Introduction to subagents
 
-·6 lessons·1 hr](https://academy.claude.com/courses/introduction-to-agent-skills)[### The AI-native SDLC playbook
+·4 lessons·45 min](https://academy.claude.com/courses/introduction-to-subagents)
 
-·14 lessons·1 hr](https://academy.claude.com/courses/ai-native-sdlc-playbook)[### Deploying Claude Enterprise with confidence: The five decisions that shape your rollout
+[### Introduction to agent skills
+
+·6 lessons·1 hr](https://academy.claude.com/courses/introduction-to-agent-skills)
+
+[### The AI-native SDLC playbook
+
+·14 lessons·1.5 hr](https://academy.claude.com/courses/ai-native-sdlc-playbook)
+
+[### Deploying Claude Enterprise with confidence: The five decisions that shape your rollout
 
 ·14 lessons · 1 quiz·2.5 hr·Completion badge
 
@@ -58,11 +78,15 @@ Courses on working with AI, building with Claude, and the Model Context Protocol
 
 ·14 lessons · 1 quiz·4 hr·Completion badge
 
-·14 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-framework-foundations)[### AI capabilities and limitations
+·14 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-framework-foundations)
+
+[### AI capabilities and limitations
 
 ·13 lessons · 1 quiz·3.5 hr·Completion badge
 
-·13 lessons · 1 quiz·3.5 hr](https://academy.claude.com/courses/ai-capabilities-and-limitations)[### Building effective human-agent teams (beta)
+·13 lessons · 1 quiz·3.5 hr](https://academy.claude.com/courses/ai-capabilities-and-limitations)
+
+[### Building effective human-agent teams (beta)
 
 ·5 lessons · 1 quiz·45 min·Completion badge
 
@@ -78,19 +102,27 @@ Courses on working with AI, building with Claude, and the Model Context Protocol
 
 ·67 lessons · 8 quizzes·9 hr·Completion badge
 
-·67 lessons · 8 quizzes·9 hr](https://academy.claude.com/courses/building-with-the-claude-api)[### Tool use with the Messages API
+·67 lessons · 8 quizzes·9 hr](https://academy.claude.com/courses/building-with-the-claude-api)
+
+[### Tool use with the Messages API
 
 ·9 lessons · 1 quiz·1.5 hr·Completion badge
 
-·9 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/tool-use-with-the-messages-api)[### Introduction to evals
+·9 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/tool-use-with-the-messages-api)
+
+[### Introduction to evals
 
 ·4 lessons · 1 quiz·1 hr·Completion badge
 
-·4 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduction-to-evals)[### Claude with Amazon Bedrock
+·4 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/introduction-to-evals)
+
+[### Claude with Amazon Bedrock
 
 ·65 lessons · 8 quizzes·8 hr·Completion badge
 
-·65 lessons · 8 quizzes·8 hr](https://academy.claude.com/courses/claude-with-amazon-bedrock)[### Claude on Google Cloud
+·65 lessons · 8 quizzes·8 hr](https://academy.claude.com/courses/claude-with-amazon-bedrock)
+
+[### Claude on Google Cloud
 
 ·66 lessons · 9 quizzes·8.5 hr·Completion badge
 

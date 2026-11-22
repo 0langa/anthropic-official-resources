@@ -12,7 +12,7 @@ Try in ClaudeCopy prompt
 
 ## 1. Describe the task[](https://academy.claude.com/use-cases/debate-practice-with-feedback)
 
-Claude takes your position and can research opposing viewpoints at depth. It can then turn that research into an interactive practice environment where you test your responses and get immediate feedback.
+You give Claude the position you plan to defend, and Claude can research opposing viewpoints at depth. It can then turn that research into an interactive practice environment where you test your responses and get immediate feedback.
 
 Tell Claude your debate topic and any arguments you've already encountered. Ask it to create an interactive simulator and specify you want performance feedback after each round.
 

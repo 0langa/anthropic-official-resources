@@ -186,7 +186,3 @@ Once you’ve installed Claude Code, these guides help you go deeper.
 - [Settings](https://code.claude.com/docs/en/settings): customize Claude Code for your workflow
 - [Troubleshooting](https://code.claude.com/docs/en/troubleshooting): solutions for common issues
 - [code.claude.com](https://code.claude.com/): demos, pricing, and product details
-
-Was this page helpful?
-
-YesNo

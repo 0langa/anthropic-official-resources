@@ -24,7 +24,7 @@ Anthropic Deputy CISO, Jason Clinton, details how the Security Engineering team 
 
 Claude CodeClaude Tag1 more: Claude EnterpriseClaude Enterprise](https://claude.com/resources/articles/how-anthropic-secures-its-ai-native-software-development-lifecycle)
 
-[WebinarNov 18, 2026
+[WebinarOn demand
 
 ### How the Claude Code team does code review
 
@@ -64,7 +64,7 @@ Advanced filters
 
 Showing 11 of 234 resources
 
-[WebinarNov 18, 2026
+[WebinarOn demand
 
 ### How the Claude Code team does code review
 
@@ -104,7 +104,7 @@ Claude Platform](https://claude.com/resources/articles/building-always-on-agents
 
 How leading startups use Claude Tag to ship faster and scale operations
 
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[WebinarNov 12, 2026
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[WebinarOn demand
 
 ### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One
 

@@ -34,17 +34,7 @@ APSM
 
 ## Upcoming live webinars
 
-[Upcoming · Nov 19, 1:00 PM PT
-
-### Claude Rearview Roadmap Review: November 2026 
-
-A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
-
-SS
-
-·Upcoming·Nov 19·1:00 PM PT
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Upcoming · Dec 8, 9:00 AM PT
+[Upcoming · Dec 8, 9:00 AM PT
 
 ### Best Practices for Government: IT Modernization with Claude 
 
@@ -60,7 +50,47 @@ CCMC
 
 [View all](https://academy.claude.com/all?status=on-demand)
 
-[Recording · Nov 5
+[Recording · Nov 19
+
+### Claude Rearview Roadmap Review: November 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SS
+
+·Recording·Nov 19
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Nov 18
+
+### How the Claude Code team does code review 
+
+How the Claude Code team cut reverts 40% while doubling merged PRs, with AI review, risk-based human approval, and evals.
+
+ML
+
+·Recording·Nov 18
+
+ (opens in new tab)](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[Recording · Nov 12
+
+### Claude for Nonprofits: A Staff Guide to Making Claude Useful on Day One 
+
+A same-day staff guide to connecting your files and using Claude for Nonprofits skills to draft a year-end appeal in your voice.
+
+MW
+
+·Recording·Nov 12
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-for-nonprofits-a-staff-guide-to-making-claude-useful-on-day-one)[Recording · Nov 10
+
+### Claude for Nonprofits: An Admin’s Guide to Data Handling and AI Policy 
+
+An admin's guide to documenting how Claude handles your nonprofit's data and putting a one-page AI use policy in place.
+
+MW
+
+·Recording·Nov 10
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-for-nonprofits-admin-guide-to-data-handling-ai-policy)[Recording · Nov 5
 
 ### The State of Cybersecurity: What Frontier AI Changes for Security Leaders 
 
@@ -108,42 +138,4 @@ See how Claude Tag works as a teammate in your Slack incident channel, from read
 
 ·Recording·Oct 15
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)[Recording · Oct 14
-
-### Inside the Cyber Verification Program: Tiers, Migration, and Best Practices 
-
-A walkthrough of the Cyber Verification Program, its three access tiers, verification, and migration for security teams.
-
-·Recording·Oct 14
-
- (opens in new tab)](https://claude.com/resources/webinars/inside-the-cyber-verification-program)[Recording · Oct 13
-
-### Measuring AI Fluency at Your Organization 
-
-A practical framework for measuring AI Fluency across your organization beyond usage numbers, and turning findings into an enablement plan.
-
-KSSMBP
-
-·Recording·Oct 13
-
- (opens in new tab)](https://claude.com/resources/webinars/measuring-ai-fluency-at-your-organization)[Recording · Oct 8
-
-### AI as an Engineering Leadership Multiplier 
-
-Practical ways to use AI as an engineering leadership multiplier without outsourcing judgment, accountability, or the human work.
-
-SA
-
-·Recording·Oct 8
-
- (opens in new tab)](https://claude.com/resources/webinars/ai-as-an-engineering-leadership-multiplier)[Recording · Oct 8
-
-### Claude Corps Cohort 2: How to Become a Host Organization 
-
-A walkthrough of the Claude Corps Cohort 2 timeline, revised intake interview, selection and matching, and host organization grants and contracts.
-
-CMCCJE
-
-·Recording·Oct 8
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-corps-cohort-2-how-to-become-a-host-organization)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)

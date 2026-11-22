@@ -1,0 +1,1 @@
+import{r as e}from"../../../../react-ml7fx0sn.js";import{d as t}from"../../../../ResourceWidget-dzow7xsz.js";import{n}from"../../../../_duet-osujt2pj.js";var r="/assets/v1/duet-ask-bud3wq8h.png",i="/assets/v1/duet-page-hudjlzps.png",a=e();function o(){let e=t();return(0,a.jsx)(n,{label:e("aria"),first:r,second:i})}export{o as default};

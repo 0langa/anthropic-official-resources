@@ -1,108 +1,75 @@
 # Build with Claude
 
-Courses and tutorials from Anthropic for developers. Learn Claude Code and the Claude API, then build agents with MCP, skills, and tool use.
+Claude Code, the Claude API, and agents
 
-## Start here
+[Start with Claude Code 101](https://academy.claude.com/courses/claude-code-101/what-is-claude-code)Save all to your journey
 
-[### Claude Code 101
+## Start with Claude Code
 
-An agentic coding tool that lives in your terminal. Learn what Claude Code is, how it works, and the core workflows for getting real work done with it.
+- [Claude Code 101
 
-·Course·12 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-code-101)[### Claude Code in action
+  What Claude Code is, how it works, and the core workflows for real work.
 
-Run long, hands-off Claude Code sessions you can trust: steer, configure, automate, and verify
+  ·Course·12 lessons·1 quiz·1.5 hr
 
-·Course·9 lessons · 1 quiz·1 hr](https://academy.claude.com/courses/claude-code-in-action)[### Claude Platform 101
+  ·Course·12 lessons·1 quiz·1.5 hr](https://academy.claude.com/courses/claude-code-101/what-is-claude-code)
+- [Claude Code in action
 
-This course teaches developers to build on the Claude Platform from the ground up, whether you've made a few API calls or have only used Claude through a chat window.
+  Run long, hands-off sessions you can trust.
 
-·Course·13 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-platform-101)
+  ·Course·9 lessons·1 quiz·1 hr
 
-## Learn Claude Code
+  ·Course·9 lessons·1 quiz·1 hr](https://academy.claude.com/courses/claude-code-in-action/steering-long-sessions)
 
-[## Introduction to agent skills
+## Teach Claude Code how you work
 
-Build, configure, and share skills in Claude Code — reusable markdown instructions that Claude applies automatically to matching tasks. Covers creating your first skill through team distribution and troubleshooting.
+- Learn what skills are, or build your first skill. Pick one:
 
-·Course·6 lessons·1 hr](https://academy.claude.com/courses/introduction-to-agent-skills)[## Introduction to subagents
+  [![](https://academy.claude.com/assets/v1/thumbnail.light-lzqcyhxd.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-f2wg51kz.png)
 
-Delegate tasks to Claude Code subagents that work in their own context windows and return focused summaries.
+  What are skills?
 
-·Course·4 lessons·45 min](https://academy.claude.com/courses/introduction-to-subagents)[![](https://academy.claude.com/assets/v1/thumbnail.dark-i0lrj1mq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-i0lrj1mq.png)
+  ·Tutorial·3 min
 
-## Choosing the right effort level in Claude Code
+  ·Tutorial·3 min](https://academy.claude.com/tutorials/what-are-skills)
 
-Effort tells your model how many resources to spend on a task. When to turn it down, when to turn it up, and why the default is the right place to start.
+  or
 
-·Tutorial·15 min](https://academy.claude.com/tutorials/choosing-the-right-effort-level-in-claude-code)[![](https://academy.claude.com/assets/v1/thumbnail.dark-oiww3nbb.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-oiww3nbb.png)
+  [![](https://academy.claude.com/assets/v1/thumbnail.light-os6jojba.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-o6rqr00h.png)
 
-## Using Claude Code Remote Control
+  Creating your first skill
 
-Learn more about using Claude Code remote control to access Claude Code sessions on the go.
+  ·Tutorial·4 min
 
-·Tutorial·3 min](https://academy.claude.com/tutorials/using-claude-code-remote-control)
+  ·Tutorial·4 min](https://academy.claude.com/tutorials/creating-your-first-skill)
+- [Introduction to subagents
 
-## Learn the Claude API
+  Split a big task across subagents that work in parallel.
 
-[## Building with the Claude API
+  ·Course·4 lessons·45 min
 
-The full spectrum of working with Anthropic models using the Claude API: prompting, tool use, RAG, agents, MCP, and production patterns.
+  ·Course·4 lessons·45 min](https://academy.claude.com/courses/introduction-to-subagents/what-are-subagents)
 
-·Course·67 lessons · 8 quizzes·9 hr](https://academy.claude.com/courses/building-with-the-claude-api)[![](https://academy.claude.com/assets/v1/thumbnail.dark-o4itmdcn.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-o4itmdcn.png)
+## Build on the Claude API
 
-## What is Claude Managed Agents?
+- [Claude Platform 101
 
-Claude Managed Agents is a suite of APIs for building production-ready agents. You define the tools, environments, and success criteria.
+  Start from your first API call, even if you’ve only used Claude in chat.
 
-·Tutorial·4 min](https://academy.claude.com/tutorials/what-is-claude-managed-agents)
+  ·Course·13 lessons·1 quiz·1.5 hr
 
-### Claude with your cloud provider
+  ·Course·13 lessons·1 quiz·1.5 hr](https://academy.claude.com/courses/claude-platform-101/what-is-the-claude-platform)
+- [Introduction to Model Context Protocol
 
-[Amazon Bedrock65 lessons · 8 quizzes](https://academy.claude.com/courses/claude-with-amazon-bedrock)[Google Cloud66 lessons · 9 quizzes](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai)
+  Connect Claude to outside services with your own MCP servers and clients.
 
-## Build agents with MCP and tool use
+  ·Course·10 lessons·1 quiz·1 hr
 
-- [Introduction to Model Context ProtocolCourse10 lessons · 1 quiz
+  ·Course·10 lessons·1 quiz·1 hr](https://academy.claude.com/courses/introduction-to-model-context-protocol/introducing-mcp)
+- [Introduction to evals
 
-  ·Course·10 lessons · 1 quiz](https://academy.claude.com/courses/introduction-to-model-context-protocol)
-- [Model Context Protocol: Advanced topicsCourse11 lessons · 1 quiz
+  Test your prompts and choose a model with a small eval on your own data.
 
-  ·Course·11 lessons · 1 quiz](https://academy.claude.com/courses/model-context-protocol-advanced-topics)
-- [Tool use with the Messages APICourse9 lessons · 1 quiz
+  ·Course·4 lessons·1 quiz·1 hr
 
-  ·Course·9 lessons · 1 quiz](https://academy.claude.com/courses/tool-use-with-the-messages-api)
-- [Building effective agents www.anthropic.com—
-
-  ·www.anthropic.com
-
-   (opens in new tab)](https://www.anthropic.com/engineering/building-effective-agents)
-- [Claude Agent SDK overview code.claude.com—
-
-  ·code.claude.com
-
-   (opens in new tab)](https://code.claude.com/docs/en/agent-sdk/overview)
-
-## Prompt engineering, context, and evals
-
-- [Introduction to evalsCourse4 lessons · 1 quiz
-
-  ·Course·4 lessons · 1 quiz](https://academy.claude.com/courses/introduction-to-evals)
-- [Prompt engineering best practices platform.claude.com—
-
-  ·platform.claude.com
-
-   (opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices)
-- [Interactive prompt engineering tutorial github.com—
-
-  ·github.com
-
-   (opens in new tab)](https://github.com/anthropics/prompt-eng-interactive-tutorial)
-- [Effective context engineering for AI agents www.anthropic.com—
-
-  ·www.anthropic.com
-
-   (opens in new tab)](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
-
-## More resources
-
-[Developer docs platform.claude.com (opens in new tab)](https://platform.claude.com/docs/en/home)[Claude Code docs code.claude.com (opens in new tab)](https://code.claude.com/docs/en/overview)[Claude cookbooks platform.claude.com (opens in new tab)](https://platform.claude.com/cookbook)[Claude Console platform.claude.com (opens in new tab)](https://platform.claude.com/)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+  ·Course·4 lessons·1 quiz·1 hr](https://academy.claude.com/courses/introduction-to-evals/when-to-use-what-model)

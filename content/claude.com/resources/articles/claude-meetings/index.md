@@ -37,7 +37,7 @@ We’re working with partners like Gong, Attention, Granola, Fireflies.ai, Otter
 
 Claude adds a separate page for each meeting in [claude.ai (opens in new tab)](http://claude.ai/) with the notes, transcript, and anything it built. People from your organization on the invite can see it and edit what Claude made, and it can be shared with others in your organization from the page.
 
-By default, Claude is set to stay out of calls when someone from outside your organization is invited, and to leave if someone from outside joins partway through. An admin can allow Claude on calls with outside guests. On those calls, Claude posts its notice in the call’s chat but doesn’t reply there, and what guests say is included in the notes and transcript.
+On Team plans, Claude can join calls with outside guests by default, and an admin can turn this off. On Enterprise plans, Claude stays out of those calls, and leaves if someone from outside joins partway through, until an admin allows it. On those calls, Claude posts its notice in the call’s chat but doesn’t reply there, and what guests say is included in the notes and transcript.
 
 Claude uses each person’s connected tools with that person’s permission. It asks the first time, and a yes applies going forward. For now, when someone asks out loud, Claude asks each time to confirm who’s speaking. An answer posted in the call’s chat is visible to everyone on the call.
 

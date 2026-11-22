@@ -30,7 +30,7 @@ In "Manually approve," Claude checks with you before it acts. What that looks li
 
 Claude creates a plan from your prompt, which you can approve before Claude starts. The plan specifies which websites you're allowing Claude to access, as well as the approach it will follow:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1795183200&amp;signature=4fe11868f6e31550c5af94c98491a53b4c14944329f1e672acb9098d8be3e7c9&amp;req=dSgjFcp8nYZdXvMW1HO4zYqyZMdM9IG1gN0ADj5oqFC8fHd%2FaNBjdLCjUd1g%0ACNIum0%2F%2Fmaxft0YzTj8%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1795356000&amp;signature=a9e1db66d77fba2d81ba797e14c41048fdb70617d5f1970f1f799da4dfd5335c&amp;req=dSgjFcp8nYZdXvMW1HO4zYqyZMdO%2BYS3gN0ADj5oqFBEZL9rK2NZgBH7tnGg%0AhUo1gJHNKZ5QS%2FFMuzs%3D%0A)
 
 Note that Claude will only use the websites listed in the plan, so you’ll need to manually approve any additional access requests.
 
@@ -66,7 +66,7 @@ Only use Skip when you completely trust every action, connector, file, app, etc.
 
 There are some websites on which Claude requires approval for every action. If you navigate to one of these sites, a **New permissions required** prompt will appear in the extension side panel, Claude Cowork, or Claude Code where Claude will ask for permission before accessing the page or taking any action.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1795183200&amp;signature=1887e5bd158fc49303123f7ae671e5319faaa452383cbeb697c05f973af34543&amp;req=diYnEsB5nYldXPMW1HO4zZ3Nq2NxgC%2Fu7A4lHPBihAXErJZf9beiyUP4xeu1%0AjWkhkr%2BdHqKnS90O%2BZc%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1795356000&amp;signature=6d8400c6d8e107f983d0fe69a0e1220c13e7b71038ed482d7009fb8c743cec88&amp;req=diYnEsB5nYldXPMW1HO4zZ3Nq2NzjSrs7A4lHPBihAXeSapLwzpUCjFEA2k%2B%0AESD8dZ%2BlMY%2BewQcIZhA%3D%0A)
 
 ### Permission options
 

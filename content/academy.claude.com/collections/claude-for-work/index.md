@@ -1,136 +1,77 @@
-# Claude for work
+# Work with Claude
 
-Resources for working with Claude in your organization. Learn the everyday tools, hand whole tasks to Claude, and set up your org.
+Hand off tasks and set up your everyday tools
 
-## Start here
+[Start with Claude Cowork](https://academy.claude.com/courses/introduction-to-claude-cowork/what-is-cowork)Save all to your journey
 
-[![](https://academy.claude.com/assets/v1/thumbnail.light-it98jcz1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nkhyzydu.png)
+## Start with Cowork
 
-### Get started in Claude Cowork in three steps
+- [Introduction to Claude Cowork
 
-The three setup steps before your first task: open Claude, run the guided setup, and point Cowork at where the work lives.
+  Set up, hand over a multi-step task, steer it, and review the result.
 
-·Tutorial·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)[![](https://academy.claude.com/assets/v1/thumbnail.light-bihkt81p.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iz3gsf7e.png)
+  ·Course·14 lessons·1 quiz·2.5 hr
 
-### Navigating the Claude desktop app
+  ·Course·14 lessons·1 quiz·2.5 hr](https://academy.claude.com/courses/introduction-to-claude-cowork/what-is-cowork)
 
-Learn what changes when you use Claude in the desktop app, and what it can do across your computer and tools.
+## Hand off a whole task
 
-·Tutorial·6 min](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)[![](https://academy.claude.com/assets/v1/thumbnail.light-lala3ba3.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-d7ynyke1.png)
+- Try it on something real. Pick one:
 
-### Choosing a Claude model for knowledge workers
+  [![](https://academy.claude.com/assets/v1/thumbnail.light-8vlsk4u2.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mc3bn43s.png)
 
-What each Claude model is for, which one to start with, and how to tell when a different model or effort level would help.
+  Delegating your first task in Claude Cowork
 
-·Tutorial·7 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)
+  ·Tutorial·4 min
 
-## Dig deeper with courses
+  ·Tutorial·4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)
 
-[### Claude 101
+  or
 
-Learn to use Claude for everyday work, from your first conversation and effective prompting to projects, artifacts, skills, and connected tools.
+  [![](https://academy.claude.com/assets/v1/thumbnail.light-k4d623ry.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-llu6mang.png)
 
-·Course·13 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/claude-101)[### Introduction to Claude Cowork
+  Build a daily briefing across your tools
 
-Delegate multi-step work to Claude in Cowork: set up workspaces, give context, run task loops, and use plugins for research, documents, and browser tasks.
+  ·Use case·15 min
 
-·Course·14 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/introduction-to-claude-cowork)[### AI Fluency: Framework and foundations
+  ·Use case·15 min](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)
 
-Learn to collaborate with AI effectively, efficiently, ethically, and safely using the 4D framework: Delegation, Description, Discernment, and Diligence.
+## Set up your everyday tools
 
-·Course·14 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-framework-foundations)
+- [![](https://academy.claude.com/assets/v1/thumbnail.light-ofwck6bq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-09in3lr8.png)
 
-## Hand whole tasks to Claude
+  Intro to Projects
 
-[![](https://academy.claude.com/assets/v1/thumbnail.light-8vlsk4u2.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mc3bn43s.png)
+  Keep files and instructions in one place, so you stop repeating yourself.
 
-## Delegating your first task in Claude Cowork
+  ·Tutorial·7 min
 
-Claude Cowork lets you hand off complete tasks to Claude — working directly with files on your computer, your connected tools, and your browser. This video walks through the basics: setting up folder access and connectors, delegating your first task, and reviewing Claude's plan before it makes changes on your machine.
+  ·Tutorial·7 min](https://academy.claude.com/tutorials/intro-to-projects)
+- [![](https://academy.claude.com/assets/v1/thumbnail.light-dhh4ob67.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-zr9ufl29.png)
 
-·Tutorial·4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-g4p7r6v4.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-k4i3k0hw.png)
+  Getting started with connectors
 
-## Delegating and scheduling tasks in Claude Cowork
+  Connect Claude to the tools you already use.
 
-Claude Cowork lets you delegate complete, multi-step work. You can work alongside Claude when you want to provide input, or let tasks run on a schedule while you focus on other priorities. This video shows how to prepare for a major call by pulling context from your calendar, Slack, email, and past meeting notes. It also demonstrates how to set up recurring tasks that run automatically on your preferred schedule.
+  ·Tutorial·4 min
 
-·Tutorial·4 min](https://academy.claude.com/tutorials/delegating-and-scheduling-tasks-in-claude-cowork)[![](https://academy.claude.com/assets/v1/thumbnail.light-k4d623ry.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-llu6mang.png)
+  ·Tutorial·4 min](https://academy.claude.com/tutorials/getting-started-with-connectors)
+- Work in a spreadsheet with Claude, or make a slide deck. Pick one:
 
-## Build a daily briefing across your tools
+  [![](https://academy.claude.com/assets/v1/thumbnail.dark-lzrm3kfb.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lzrm3kfb.png)
 
-Generate a daily briefing that pulls from Slack, Notion, and your team dashboard to surface priorities and connections you'd miss scanning each platform separately.
+  Getting started with Claude in Excel
 
-·Use case·15 min](https://academy.claude.com/use-cases/build-a-daily-briefing-across-your-tools)[![](https://academy.claude.com/assets/v1/thumbnail.light-cx9tbvoi.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-k5ry1o36.png)
+  ·Tutorial·7 min
 
-## Using Claude for marketing ops: run a weekly review that preps itself
+  ·Tutorial·7 min](https://academy.claude.com/tutorials/getting-started-with-claude-in-excel)
 
-Claude runs the gathering for your weekly review on a schedule, so you’re not pulling the numbers and starting the draft by hand each week. Your time goes into what the review says.
+  or
 
-·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-marketing-ops-review)[![](https://academy.claude.com/assets/v1/thumbnail.light-d0zjjn2v.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hdd30gkj.png)
+  [![](https://academy.claude.com/assets/v1/thumbnail.light-h7021hye.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ibapsq93.png)
 
-## Using Claude for sales: research any account before the first call
+  Making slides and presentations with Claude
 
-Before a first call, Claude pulls everything you’d want to know about an account into one brief. You go into the call already knowing the account, and the recap is written for you afterward.
+  ·Tutorial·10 min
 
-·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)[![](https://academy.claude.com/assets/v1/thumbnail.light-cb32kcve.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nq1i2588.png)
-
-## Using Claude for legal: answer fast questions on past decisions
-
-When a question comes up about a past decision, Claude answers it from your own history of reviews, with a citation for every claim. You get the answer in minutes, and you can check the source yourself before you reply.
-
-·Tutorial·15 min](https://academy.claude.com/tutorials/using-claude-cowork-for-legal-question-briefing)[![](https://academy.claude.com/assets/v1/thumbnail.light-calyi96r.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iv2hjqlx.png)
-
-## Feedback synthesis to prioritized themes
-
-The five themes that matter, quantified and quoted.
-
-·Use case·Product·10 min](https://academy.claude.com/use-cases/feedback-synthesis)[![](https://academy.claude.com/assets/v1/thumbnail.light-dk9zo6ae.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-e548vu0j.png)
-
-## Audit a folder of visual assets against your guidelines
-
-Claude Opus 5.5 can read a large folder of image exports at high resolution to spot off-brand colors, outdated logos, and missing legal copy. Point Claude at your assets folder and your brand guidelines, and get back a categorized list of violations with a confidence rating on each one.
-
-·Use case·Marketing·15 min](https://academy.claude.com/use-cases/audit-a-folder-of-visual-assets-against-your-guidelines)[![](https://academy.claude.com/assets/v1/thumbnail.light-mjmk2gjq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bpm7r9eg.png)
-
-## Build an 'Ask the Company' agent
-
-Plain-English answers over your wiki, code, and warehouse.
-
-·Use case·Engineering·10 min](https://academy.claude.com/use-cases/ask-the-company)
-
-## Work smarter with Claude
-
-- [Customize ClaudeTutorial7 min
-
-  ·Tutorial·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
-- [Intro to ProjectsTutorial7 min
-
-  ·Tutorial·7 min](https://academy.claude.com/tutorials/intro-to-projects)
-- [Making slides and presentations with ClaudeTutorial10 min
-
-  ·Tutorial·10 min](https://academy.claude.com/tutorials/using-claude-design-for-presentations-and-slide-decks)
-
-## Claude Tag
-
-- [Best practices for using Claude TagTutorial10 min
-
-  ·Tutorial·10 min](https://academy.claude.com/tutorials/best-practices-using-claude-tag)
-- [Tasks to try with Claude Tag in your workspaceTutorial9 min
-
-  ·Tutorial·9 min](https://academy.claude.com/tutorials/tasks-to-try-with-claude-tag-in-your-workspace)
-
-## Get your team up and running
-
-- [Claude Enterprise Administrator GuideTutorial20 min
-
-  ·Tutorial·20 min](https://academy.claude.com/tutorials/claude-enterprise-administrator-guide)
-- [Claude Cowork Enterprise Admin GuideTutorial20 min
-
-  ·Tutorial·20 min](https://academy.claude.com/tutorials/claude-cowork-enterprise-administrator-guide)
-- [Scaling workflows with Claude at your organization Tutorial15 min
-
-  ·Tutorial·15 min](https://academy.claude.com/tutorials/scaling-workflows-with-claude-cowork-at-your-organization)
-
-## More resources
-
-[Claude for teams claude.com (opens in new tab)](https://claude.com/team)[Claude for Enterprise claude.com (opens in new tab)](https://claude.com/enterprise)[Help Center support.claude.com (opens in new tab)](https://support.claude.com/)
+  ·Tutorial·10 min](https://academy.claude.com/tutorials/using-claude-design-for-presentations-and-slide-decks)

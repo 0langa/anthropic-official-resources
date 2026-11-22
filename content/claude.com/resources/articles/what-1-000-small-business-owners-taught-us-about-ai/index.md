@@ -71,7 +71,7 @@ To many, getting started with Claude Cowork was the hardest part; it’s a new w
 
 At our last stop, the CEO of a 30-person manufacturer told me, "You were able to help me do the things I was scared of doing" with AI. For most, a few hours of guided practice was all it took to get the hang of taking AI adoption beyond using a chatbot and actually running multi-step tasks.
 
-To help get you started, we recommend installing [Claude for Small Business](https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin) (available on any plan!) and asking Claude to “help me get onboarded onto the small business plug-in.”
+To help get you started, we recommend installing [Claude for Small Business](https://academy.claude.com/tutorials/how-to-install-the-claude-for-small-business-plugin) (available on any paid plan!) and asking Claude to “help me get onboarded onto the small business plug-in.”
 
 ## **Lesson 5: Small business owners want to learn from their peers**
 
@@ -91,7 +91,7 @@ The Claude SMB Tour was both inspirational and eye-opening; business owners were
 
 We’re kicking off the program with two sessions in San Francisco and New York City focused on giving community and AI partner organizations the tools necessary to help others learn AI fluency best practices (inspired by our SMB-focused course) and hands-on learning.
 
-We’re also excited to share that we’ll be kicking off part two of our [Claude SMB Tour](https://www.anthropic.com/events/build-with-claude?type=smb) this fall, visiting an all new slate of cities, starting with [Boston on September 16](https://anthropic.swoogo.com/claude-smb-workshop-boston/rta), and collecting even more feedback and learnings from small businesses and entrepreneurs to improve our product. Stay tuned for more details.
+This fall, part two of the Claude SMB Tour visited a new slate of cities and collected even more feedback and learnings from small businesses and entrepreneurs to improve our product. To join a hands-on session near you, [find a Claude SMB workshop (opens in new tab)](https://www.anthropic.com/events/build-with-claude?type=smb.).
 
 We can’t wait to see you on the road!
 

@@ -84,7 +84,7 @@ AudienceHow and when you disclose
 
 Name what will make you revisit this document. A policy without revision triggers goes stale silently. Check the ones you will use.
 
-A new tool or capabilityAn AI use question I cannot answerI catch a finished piece failing one of my standards, or I notice a pitfall in my workAn AI role drifts from what I decided
+A new tool or capabilityAn AI use question I cannot answerI catch a finished piece failing one of my standards, or I notice a pitfall in my workAn AI role drifts from what I decided
 
 Other triggers of your own
 

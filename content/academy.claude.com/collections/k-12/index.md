@@ -8,11 +8,15 @@ Support the craft behind great teaching. Courses, guides, and classroom workflow
 
 Helps pK-12 educators build practical AI fluency through the 4D Framework, supporting student learning while staying true to their mission and values. Created in partnership with Teach For America.
 
-·Course·10 lessons · 1 quiz·3 hr](https://academy.claude.com/courses/ai-fluency-for-k-12-educators)[### AI Fluency for pK-12 Train the Trainer
+·Course·10 lessons · 1 quiz·3 hr](https://academy.claude.com/courses/ai-fluency-for-k-12-educators)
+
+[### AI Fluency for pK-12 Train the Trainer
 
 This course empowers pK–12 educators to lead AI fluency training for their colleagues — equipping them with a ready-to-run workshop kit grounded in the 4D Framework, while staying true to educators' mission and values.
 
-·Course·4 lessons·45 min](https://academy.claude.com/courses/ai-fluency-for-pk-12-train-the-trainer)[![](https://academy.claude.com/assets/v1/thumbnail.light-g379bxy5.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hdkfkso3.png)
+·Course·4 lessons·45 min](https://academy.claude.com/courses/ai-fluency-for-pk-12-train-the-trainer)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-g379bxy5.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hdkfkso3.png)
 
 ### Claude for Teachers in action
 
@@ -28,7 +32,9 @@ See an elementary school teacher use Claude for Teachers to reflect on each day'
 
 What research shows about how people get better at working with Claude, and a curriculum model you can adapt for your organization.
 
-·Tutorial·6 min](https://academy.claude.com/tutorials/getting-good-at-claude-a-research-backed-curriculum)[![](https://academy.claude.com/assets/v1/thumbnail.light-blskv34c.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bv9w6wt2.png)
+·Tutorial·6 min](https://academy.claude.com/tutorials/getting-good-at-claude-a-research-backed-curriculum)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-blskv34c.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bv9w6wt2.png)
 
 ## A discussion guide for the AI Fluency Index
 
@@ -44,25 +50,33 @@ Explore how to build AI Fluency within your organization
 
 Claude Opus 5.5 reads a single source page in detail and returns a finished file for each audience that needs it. Here, one textbook spread becomes a slide deck and reading handouts at three levels.
 
-·Use case·Education·15 min](https://academy.claude.com/use-cases/adapt-a-standard-textbook-page-to-every-reading-level)[![](https://academy.claude.com/assets/v1/thumbnail.light-j5nmmtm6.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dh3ezc7v.png)
+·Use case·Education·15 min](https://academy.claude.com/use-cases/adapt-a-standard-textbook-page-to-every-reading-level)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-j5nmmtm6.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dh3ezc7v.png)
 
 ## Visualize the mechanism behind an explanation mid-chat
 
 Claude builds an interactive visual inline as you talk through the problem — shaped to the specific question you're asking, with controls you manipulate and buttons that drill deeper. Useful when a concept has moving parts text can't show.
 
-·Use case·Education·15 min](https://academy.claude.com/use-cases/visualize-the-mechanism-behind-an-explanation-mid-chat)[![](https://academy.claude.com/assets/v1/thumbnail.light-j58ju10h.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jg0eznj5.png)
+·Use case·Education·15 min](https://academy.claude.com/use-cases/visualize-the-mechanism-behind-an-explanation-mid-chat)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-j58ju10h.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jg0eznj5.png)
 
 ## Map your understanding and build lessons from the gaps
 
 Claude Opus 5.5 traces your confusion to its source. It maps what you already understand, finds the specific misconception underneath, and builds personalized learning experiences around it.
 
-·Use case·Personal·20 min](https://academy.claude.com/use-cases/map-your-understanding-and-build-lessons-from-the-gaps)[![](https://academy.claude.com/assets/v1/thumbnail.light-e4rnoq1t.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lsn6xpe9.png)
+·Use case·Personal·20 min](https://academy.claude.com/use-cases/map-your-understanding-and-build-lessons-from-the-gaps)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-e4rnoq1t.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lsn6xpe9.png)
 
 ## Chart your data in conversation with Claude before you commit to a reading
 
 Upload a CSV and Claude builds the correlation grid inline, flagging the patterns worth a second look. The flags are a starting point — you click into what's interesting and the conversation goes from there.
 
-·Use case·Education·15 min](https://academy.claude.com/use-cases/chart-your-data-before-you-commit)[![](https://academy.claude.com/assets/v1/thumbnail.light-a8f13pls.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ms6ban8i.png)
+·Use case·Education·15 min](https://academy.claude.com/use-cases/chart-your-data-before-you-commit)
+
+[![](https://academy.claude.com/assets/v1/thumbnail.light-a8f13pls.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ms6ban8i.png)
 
 ## Prepare and plan from your calendar
 

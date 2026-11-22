@@ -2,6 +2,12 @@
   "https://academy.claude.com/code/webinars": [
     "No semantic main/article element; full body retained."
   ],
+  "https://academy.claude.com/collections/admins": [
+    "No semantic main/article element; full body retained."
+  ],
+  "https://academy.claude.com/collections/new-to-claude": [
+    "No semantic main/article element; full body retained."
+  ],
   "https://academy.claude.com/courses/ai-capabilities-and-limitations/badge": [
     "No semantic main/article element; full body retained."
   ],

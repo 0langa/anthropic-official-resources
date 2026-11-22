@@ -52,7 +52,7 @@ If a test fails, fix the code, not the test.
 
 - **What is enforced**: Verification before a task is reported done, and the block on the agent editing test files during a fix, both implemented as hooks where the organization wants them guaranteed.
 - **What the evidence is**: The literal output of `make test`, the build log, or the screenshot diff that Claude ran and pasted, so the evidence comes from the toolchain.
-- **Where it is logged**: In the session transcript, which the OpenTelemetry export forwards to the organization's observability stack, and in the PR's check run, where the reviewer and any later auditor can both see it.
+- **Where it is logged**: In the session transcript, and in the PR's check run, where the reviewer and any later auditor can both see it. The OpenTelemetry export leaves out prompts, responses, and tool output by default. If the organization's observability stack needs that evidence too, review the [content logging settings(opens in new tab)](https://code.claude.com/docs/en/monitoring-usage), which can capture sensitive data and truncate long output.
 - **Who approves**: The code owner reviewing the PR, who can concentrate on intent and risk because the mechanical evidence is already attached.
 
 ## How to measure it[](https://academy.claude.com/courses/ai-native-sdlc-playbook/give-claude-a-feedback-loop)

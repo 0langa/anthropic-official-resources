@@ -353,7 +353,7 @@ This benchmark assesses Claude's protein design abilities. The Sequence Generati
 
 The Library Ranking variant assesses Claude's ability to decide which protein designs are worth testing in the lab first. Each problem gives Claude one set of candidate proteins along with real lab results from an actual protein engineering project, tells it what the researchers are trying to optimize for, and asks it to rank a new set of candidates from the same project that it has not seen results for. Claude Mythos 5.1 achieved 49.3%, ahead of Claude Mythos 5 at 48.2%, Claude Opus 5 at 48.0% and Claude Sonnet 5 at 41.3%.
 
-![Protein Design](https://assets.claude.com/ab71dc3d81d0a98846acf94db023138f8ccc5592.png?w=1920&q=75&fm=webp&fit=max)
+![Protein Design](https://assets.claude.com/ab71dc3d81d0a98846acf94db023138f8ccc5592.png?w=3840&q=75&fm=webp&fit=max)
 
 ## Claude Opus 5 Summary Table
 
@@ -690,7 +690,7 @@ This evaluation tests whether the model can carry out an influence operation end
 
 This evaluation is run against a "helpful-only" version of the model — one with its safety training reduced — in order to assess the raw capability of the model.
 
-![](https://assets.claude.com/b8283bf6bee70af8be6d8e8b064fac0be15ecaf4.png?w=1920&q=75&fm=webp&fit=max)
+![](https://assets.claude.com/b8283bf6bee70af8be6d8e8b064fac0be15ecaf4.png?w=3840&q=75&fm=webp&fit=max)
 
 Agentic influence operation evaluation results, helpful-only model. Percentages reflect the average share of success criteria that the model completed in a simulated environment. Higher indicates greater capability and therefore greater potential benefit to a malicious actor.
 
@@ -854,7 +854,7 @@ In one evaluation, we test how the model behaves when it is partway through a ta
 
 Claude Opus 4.7 verbalized awareness that it was being evaluated in about 9% of transcripts, compared to roughly 1% for Claude Mythos Preview, Claude Opus 4.6 and Claude Sonnet 4.6. Most of this awareness was triggered by inconsistencies in the simulated tool results: Opus 4.7 was quick to notice when components of a tool call appeared mocked, prompt-injected, or otherwise inconsistent, and flagged the simulation before flagging the evaluation itself.
 
-![](https://assets.claude.com/952614f221b5f15bd4ba92692dbe2eda815a7eb2.png?w=2048&q=75&fm=webp&fit=max)
+![](https://assets.claude.com/952614f221b5f15bd4ba92692dbe2eda815a7eb2.png?w=3840&q=75&fm=webp&fit=max)
 
 #### RSP Evaluations
 
@@ -924,7 +924,7 @@ Claude Mythos Preview represents a step-change in cyber capabilities, saturating
 
 CyberGym tests whether an AI model can reproduce real, previously discovered security vulnerabilities in widely used open-source software when given only a high-level description of the weakness. Across more than 1,500 tasks, Claude Mythos Preview successfully found the flaw 83% of the time, compared to 67% for Claude Opus 4.6 and 65% for Claude Sonnet 4.6.
 
-![Chart depicting the results from CyberGym tests](https://assets.claude.com/f2ec6545014df28e1bfa6f868777683c9e76af70.jpg?w=1920&q=75&fm=webp&fit=max)
+![Chart depicting the results from CyberGym tests](https://assets.claude.com/f2ec6545014df28e1bfa6f868777683c9e76af70.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ## Claude Sonnet 4.6 Summary Table
 
