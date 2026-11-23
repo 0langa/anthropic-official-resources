@@ -8,7 +8,7 @@ Unsubscribe at any time.
 
 Live and recorded sessions with Anthropic and customer teams — demos, deep dives, Q&A, and practical takeaways.
 
-[WebinarNov 19, 2026
+[WebinarOn demand
 
 ### Claude Rearview Roadmap Review: November 2026
 
@@ -40,7 +40,7 @@ New to Claude Code? You’re in the right place. Join Anthropic's Claude Code sp
 
 Claude Code](https://claude.com/resources/webinars/claude-code-foundations-series)
 
-[WebinarNov 19, 2026
+[WebinarOn demand
 
 ### Claude Rearview Roadmap Review: November 2026
 
@@ -118,7 +118,7 @@ Claude Code](https://claude.com/resources/webinars/claude-code-foundations-serie
 
 Missed the session? Stream past sessions anytime and catch up at your own pace.
 
-[WebinarNov 19, 2026
+[WebinarOn demand
 
 ### Claude Rearview Roadmap Review: November 2026
 

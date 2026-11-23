@@ -1,6 +1,6 @@
 # Claude Platform 101
 
-This course teaches developers to build on the Claude Platform from the ground up, whether you've made a few API calls or have only used Claude through a chat window.
+Build on the Claude Platform from your first API call, so Claude can become part of your product.
 
 13 lessons1.5 hr1 quizCompletion badge
 

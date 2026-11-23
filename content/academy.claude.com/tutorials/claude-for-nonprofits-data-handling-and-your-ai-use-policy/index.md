@@ -117,7 +117,7 @@ Pick people you'd trust with your case files, and name who holds these roles in 
 
 On Enterprise
 
-**Enterprise** Owners can set a [custom retention period(opens in new tab)](https://support.claude.com/en/articles/10440198-configure-custom-data-retention-controls-for-enterprise-plans) for the whole organization (minimum 30 days) so conversations auto-delete. Chats inside projects follow a separate project retention period, so set that too.
+**Enterprise** Owners can set a [custom retention period(opens in new tab)](https://support.claude.com/en/articles/10440198-configure-custom-data-retention-controls-for-enterprise-plans) for the whole organization (minimum 30 days) so conversations auto-delete. Chats inside projects follow a separate project retention period, so set that too. Data past its retention period is permanently deleted and can't be recovered. Data is kept indefinitely by default, and when you shorten the period, existing data outside it is scheduled for deletion as soon as you save. Agree on the length before you set it.
 
 Learn more about [how long Anthropic stores your organization's data(opens in new tab)](https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data).
 

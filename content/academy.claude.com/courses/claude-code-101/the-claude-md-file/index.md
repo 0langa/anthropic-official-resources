@@ -21,9 +21,9 @@ gives Claude Code persistent memory about your project.
 
 ## The Problem It Solves[](https://academy.claude.com/courses/claude-code-101/the-claude-md-file)
 
-When you open Claude Code without a CLAUDE.md file, it starts fresh every time. It has to re-explore your codebase, figure out what dependencies are needed, and understand what features are already implemented. Sometimes it makes assumptions, which makes it harder to steer Claude in the right direction.
+When you open Claude Code in a project with no written instructions, it starts each session knowing little about the project. It has to re-explore your codebase, figure out what dependencies are needed, and understand what features are already implemented. Sometimes it makes assumptions, which makes it harder to steer Claude in the right direction.
 
-CLAUDE.md solves this. It's a Markdown file you add to the root of your project, and Claude Code reads it automatically every time you start a session. Think of it as an onboarding script for your codebase. The contents of the CLAUDE.md file are appended to your prompt.
+CLAUDE.md solves this. It's a Markdown file you add to the root of your project, and Claude Code reads it automatically every time you start a session. Think of it as an onboarding script for your codebase. The contents of the CLAUDE.md file are appended to your prompt. If your project has an [AGENTS.md file(opens in new tab)](https://code.claude.com/docs/en/memory) and there is no CLAUDE.md or CLAUDE.local.md in your working directory or above it, Claude Code reads AGENTS.md instead by default.
 
 ## An Example[](https://academy.claude.com/courses/claude-code-101/the-claude-md-file)
 

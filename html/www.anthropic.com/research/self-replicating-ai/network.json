@@ -10,14 +10,14 @@
     "url": "https://assets.claude.ai/sdk/antalytics/latest.umd.js"
   },
   {
-    "reason": "outside_scope",
-    "type": "document",
-    "url": "https://a.anthropic.com/isolated-segment.html"
-  },
-  {
     "reason": "optional_media_widget_or_analytics",
     "type": "script",
     "url": "https://www.googletagmanager.com/gtm.js"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://a.anthropic.com/isolated-segment.html"
   },
   {
     "reason": "outside_scope",
@@ -42,7 +42,7 @@
   {
     "reason": "outside_scope",
     "type": "document",
-    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/22-guidance-grid-light.html"
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/20-spear-phishing-light.html"
   },
   {
     "reason": "outside_scope",
@@ -52,22 +52,17 @@
   {
     "reason": "outside_scope",
     "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/19-device-population-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
     "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/14-prefill-speed-light.html"
   },
   {
     "reason": "outside_scope",
     "type": "document",
-    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/20-spear-phishing-light.html"
-  },
-  {
-    "reason": "outside_scope",
-    "type": "document",
-    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/21-test-network-light.html"
-  },
-  {
-    "reason": "outside_scope",
-    "type": "document",
-    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/17-tokens-per-memento-chain-light.html"
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/15-decode-speed-light.html"
   },
   {
     "reason": "outside_scope",
@@ -77,11 +72,16 @@
   {
     "reason": "outside_scope",
     "type": "document",
-    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/19-device-population-light.html"
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/21-test-network-light.html"
   },
   {
     "reason": "outside_scope",
     "type": "document",
-    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/15-decode-speed-light.html"
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/22-guidance-grid-light.html"
+  },
+  {
+    "reason": "outside_scope",
+    "type": "document",
+    "url": "https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/17-tokens-per-memento-chain-light.html"
   }
 ]

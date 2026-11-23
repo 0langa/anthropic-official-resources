@@ -363,7 +363,7 @@ Both ends of the permission range have a cost:
 - Actions that look driven by content Claude read rather than by you
 
 When auto mode blocks an action, you get a notification and the action shows up under **Recently blocked** in `/permissions`, where you can [approve the action so Claude may retry](https://code.claude.com/docs/en/auto-mode-config). After [three blocks in a row](https://code.claude.com/docs/en/permission-modes) (or twenty in total), auto mode pauses and goes back to asking you.
-None of this replaces your deterministic controls, because it runs *after* them. Deny and ask rules and `PreToolUse` hooks apply before the classifier sees anything, so a deny rule blocks in auto mode exactly like it does everywhere else. The sandbox still confines the [shell commands it wraps](https://code.claude.com/docs/en/sandboxing).
+The sandbox still confines the [shell commands it wraps](https://code.claude.com/docs/en/sandboxing).
 
 You can also say `don't push until I've reviewed` in the conversation, and the classifier [treats that as a block signal](https://code.claude.com/docs/en/permission-modes). It’s still a model reading the transcript, and the sentence can get lost when the conversation compacts, so anything that matters belongs in a deny rule.
 
@@ -564,7 +564,3 @@ If any other advice on this page ever starts to feel like busywork, that’s pro
 - [Manage costs effectively](https://code.claude.com/docs/en/costs)
 - [Run Claude Code programmatically](https://code.claude.com/docs/en/headless) and [Automate work with cloud scheduled tasks](https://code.claude.com/docs/en/routines)
 - For team leads and admins: [Set up Claude Code for your organization](https://code.claude.com/docs/en/admin-setup)
-
-Was this page helpful?
-
-YesNo

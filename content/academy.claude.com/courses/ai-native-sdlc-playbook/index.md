@@ -1,6 +1,6 @@
 # The AI-native SDLC playbook
 
-For engineering, platform, and security leads whose organization already uses Claude Code. Twelve plays for using Claude at each stage of the software development lifecycle (SDLC), so the work around the code runs faster. About an hour of reading, with no quiz or completion badge.
+Bring Claude into each stage of your organization's software development lifecycle, so reviews and approvals can keep up with AI-written code.
 
 14 lessons1.5 hrNo completion badge
 

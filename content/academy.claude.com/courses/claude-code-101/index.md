@@ -1,6 +1,6 @@
 # Claude Code 101
 
-An agentic coding tool that lives in your terminal. Learn what Claude Code is, how it works, and the core workflows for getting real work done with it.
+Use Claude Code on your codebase, so tasks that took an afternoon can fit in one session.
 
 12 lessons1.5 hr1 quizCompletion badge
 

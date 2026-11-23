@@ -335,7 +335,7 @@ Live and recorded sessions with Anthropic and customer teams — demos, deep div
 
 [See more](https://claude.com/resources/webinars)
 
-[WebinarNov 19, 2026
+[WebinarOn demand
 
 ### Claude Rearview Roadmap Review: November 2026
 

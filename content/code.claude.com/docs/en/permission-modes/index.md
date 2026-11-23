@@ -583,6 +583,7 @@ The following sections cover the order Claude Code evaluates an action in, how t
 >    * No allow rule approves recognized `rm` and `rmdir` [critical-path removals](#critical-paths)
 >    * MCP tools marked [`requiresUserInteraction`](/docs/en/mcp#require-approval-for-a-specific-tool) prompt you directly even when an allow rule matches, and so do connector tools [your organization set to `ask`](/docs/en/mcp#organization-controls-on-connector-tools) in sessions where that setting reaches Claude Code
 >    * A shell command that carries [per-command allowed domains](/docs/en/sandboxing#per-command-allowed-domains-in-auto-mode) also routes to the classifier even when an allow rule matches, because a rule approves the command, not its hosts
+>    * Even in Manual, `acceptEdits`, and `dontAsk` modes, the classifier can review a [Claude in Chrome](/docs/en/chrome) action that an allow rule matches
 >    * Ask rules that match on a command's content, such as `Bash(git push *)`, fall back to a permission prompt
 >    * A write that the [symlink check](/docs/en/permissions#symlinks) resolves to a protected path prompts you when the path Claude requested isn't itself protected
 >    * A read from a [network path](/docs/en/permissions#network-paths) prompts you even when an allow rule matches
@@ -649,7 +650,7 @@ The following sections cover the order Claude Code evaluates an action in, how t
 
 If you set `dontAsk` mode, Claude Code auto-denies every tool call that would otherwise prompt you, though a [mod](/docs/en/plugins/mods/overview) you installed can still approve some of those calls. To check which calls a mod can approve, see [Extend permissions with hooks](/docs/en/permissions#precedence-among-rules-hooks-and-mods). Don't rely on `dontAsk` to stop a [tool call a mod makes itself](/docs/en/plugins/mods/reference#mods-api-methods).
 
-Claude still runs actions that need no approval in Manual mode, such as file reads inside your working directories and [read-only Bash commands](/docs/en/permissions#read-only-commands). Actions matching your `permissions.allow` rules and calls approved by a [PreToolUse hook](/docs/en/permissions#extend-permissions-with-hooks) run too. Use this mode for CI pipelines or restricted environments where you pre-define what Claude may do. The status bar shows `⏵⏵ don't ask on` in this mode.
+Claude still runs actions that need no approval in Manual mode, such as file reads inside your working directories and [read-only Bash commands](/docs/en/permissions#read-only-commands). Most calls that your `permissions.allow` rules or a [PreToolUse hook](/docs/en/permissions#extend-permissions-with-hooks) approve run too. Use this mode for CI pipelines or restricted environments where you pre-define what Claude may do. The status bar shows `⏵⏵ don't ask on` in this mode.
 
 These calls are denied where you'd otherwise see a prompt:
 

@@ -7,7 +7,7 @@ Install and update the Claude desktop app on Ubuntu and Debian
 >
 > Linux support for the Claude desktop app is in beta.
 
-The desktop app on Linux gives you the same Chat, Cowork, and Claude Code experience as on macOS and Windows: parallel sessions, visual diff review, an integrated terminal and editor, and live app preview. See [Use Claude Code Desktop](/docs/en/desktop) for the feature reference.
+The desktop app on Linux gives you Chat, [Cowork](#cowork-requirements), and Claude Code. In the desktop app, Claude Code has parallel sessions, visual diff review, an integrated terminal and editor, and live app preview. See [Use Claude Code Desktop](/docs/en/desktop) for the feature reference.
 
 ## Requirements
 

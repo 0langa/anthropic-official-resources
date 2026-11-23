@@ -864,7 +864,7 @@ Logged when a tool completes execution. Not emitted if the tool call was rejecte
 * `event.sequence`: per-process counter for ordering events, described under [Event correlation attributes](#event-correlation-attributes)
 * `tool_name`: Name of the tool
 * `tool_use_id`: Unique identifier for this tool invocation. Matches the `tool_use_id` passed to hooks, allowing correlation between OTel events and hook-captured data.
-* `request_id`: the [`request_id`](#event-correlation-attributes) of the API response that contained this tool call, so you can join the call to that response's API events. Absent when that response had no request ID, or when no API response contained the call. Requires Claude Code v2.1.310 or later
+* `request_id`: the [`request_id`](#event-correlation-attributes) of the API response that contained this tool call or the [Code Mode](/docs/en/code-mode#monitor-code-mode-with-opentelemetry) code that made it. Use it to join the call to that response's API events. Absent when that response had no request ID, or when no API response contained the call or its code. Requires Claude Code v2.1.310 or later
 * `success`: `"true"` or `"false"`
 * `duration_ms`: Execution time in milliseconds
 * `error_type`: Error category string when the tool failed, such as `"Error:ENOENT"` or `"ShellError"`
@@ -1018,7 +1018,7 @@ Logged when a tool permission decision is made (accept/reject).
 * `event.sequence`: per-process counter for ordering events, described under [Event correlation attributes](#event-correlation-attributes)
 * `tool_name`: Name of the tool (for example, "Read", "Edit", "Write", "NotebookEdit")
 * `tool_use_id`: Unique identifier for this tool invocation. Matches the `tool_use_id` passed to hooks, allowing correlation between OTel events and hook-captured data.
-* `request_id`: the [`request_id`](#event-correlation-attributes) of the API response that contained this tool call, so you can join the call to that response's API events. Absent when that response had no request ID, or when no API response contained the call. Requires Claude Code v2.1.310 or later
+* `request_id`: the [`request_id`](#event-correlation-attributes) of the API response that contained this tool call or the [Code Mode](/docs/en/code-mode#monitor-code-mode-with-opentelemetry) code that made it. Use it to join the call to that response's API events. Absent when that response had no request ID, or when no API response contained the call or its code. Requires Claude Code v2.1.310 or later
 * `decision`: Either `"accept"` or `"reject"`
 * `tool_source`: Always present. The tool's provenance, as a closed set of CLI-authored values:
   * `"builtin"`: the CLI's own tools
@@ -1055,6 +1055,7 @@ Logged when a tool permission decision is made (accept/reject).
 
   * An allow or deny [permission rule](/docs/en/permissions#manage-permissions) decided the call
   * Claude Code approved the call in auto mode without asking the classifier
+  * In [Code Mode](/docs/en/code-mode#monitor-code-mode-with-opentelemetry), the classifier's review of the code covered the call
   * The user answered the prompt Claude Code showed after [repeated blocks](/docs/en/permission-modes#repeated-block-thresholds)
   * In a `-p` run without `--permission-prompt-tool`, Claude Code denied the call after repeated blocks because there was nobody to answer a prompt. That event reports `decision` as `"reject"` and `source` as `"config"`
 * `classifier_category` (when `OTEL_LOG_TOOL_DETAILS=1`): The name of the [policy](/docs/en/auto-mode-config#fix-a-policy-denial) or [built-in rule](/docs/en/auto-mode-config#inspect-the-defaults-and-your-effective-config) the classifier named when it blocked the call, in lowercase with underscores, such as `"data_exfiltration"` for the Data Exfiltration rule. Requires Claude Code v2.1.301 or later. The attribute is present when both of these hold:

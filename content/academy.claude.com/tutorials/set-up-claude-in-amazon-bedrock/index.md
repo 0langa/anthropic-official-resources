@@ -1,6 +1,6 @@
 # Set up Claude in Amazon Bedrock
 
-Get a first reply from Claude in your own AWS account. Sign in from your terminal as a role that's allowed to call Claude, then run one short Python file with Anthropic's Python SDK.
+Get a first reply from Claude in Amazon Bedrock, with the usage billed to your own AWS account.
 
 25 minClaude Platform
 

@@ -10,7 +10,7 @@ Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fai-nativ
 
 One engineer can drive several streams of work at once.
 
-A **parallel session** is another full Claude Code instance, working a separate task in its own Git worktree. Each independent session knows nothing about the others, and the engineer steering them is the only thing they share.
+A **parallel session** is another full Claude Code instance, working a separate task in its own Git worktree. Each session has its own conversation and context window. Claude can [message another session(opens in new tab)](https://code.claude.com/docs/en/cross-session-messaging), for example when a change affects that session's work. A message carries only the text Claude writes, not the conversation history or files.
 
 **A [subagent(opens in new tab)](https://code.claude.com/docs/en/sub-agents)** runs inside a single session as a scoped helper with its own context window and tool limits and suits jobs that recur in multiple tasks, such as verifying the app runs as expected.
 

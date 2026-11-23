@@ -54,7 +54,7 @@ Hierarchy defines this pattern. One agent acts as a team lead that plans work, d
 
 A lead agent receives a task and determines how to approach it. It may handle some subtasks directly while dispatching others to subagents. Subagents complete their work and return results, which the orchestrator synthesizes into a final output.
 
-[Claude Code](https://claude.com/product/claude-code) uses this pattern. The main agent writes code, edits files, and runs commands itself, dispatching subagents in the background when it needs to search a large codebase or investigate independent questions so work continues while results stream back. Each subagent operates in its own context window and returns distilled findings. This keeps the orchestrator's context focused on the primary task while exploration happens in parallel.
+[Claude Code](https://claude.com/product/claude-code) [uses this pattern](https://claude.com/resources/articles/subagents-in-claude-code). The main agent writes code, edits files, and runs commands itself, dispatching subagents in the background when it needs to search a large codebase or investigate independent questions so work continues while results stream back. Each subagent operates in its own context window and returns distilled findings. This keeps the orchestrator's context focused on the primary task while exploration happens in parallel.
 
 ### Where it works well
 

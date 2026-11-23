@@ -83,7 +83,7 @@ Read [Plugin loading reference](/docs/en/plugins/loading) for the rules at each 
 
 ## Tell Anthropic's marketplaces from third-party ones
 
-A marketplace's name places it in one of three tiers. Claude Code accepts the official and community names only for marketplaces sourced from `github.com/anthropics/` repositories:
+A marketplace's name places it in one of three tiers. Claude Code accepts the official and community names for marketplaces sourced from `github.com/anthropics/` repositories:
 
 * **Official**: marketplaces with one of Anthropic's [official marketplace names](/docs/en/plugins/security#official-marketplace-names), including `claude-plugins-official` and `claude-code-plugins`.
 * **Community**: marketplaces with one of Anthropic's community names, such as `claude-community`. [Identify Anthropic's marketplaces by name](/docs/en/plugins/security#marketplace-tiers) lists them.

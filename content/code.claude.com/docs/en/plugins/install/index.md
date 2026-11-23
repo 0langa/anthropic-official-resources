@@ -120,7 +120,7 @@ Pick the tab for where you run Claude Code.
 
 > [tab] Cloud session
 >
-> A [cloud session](/docs/en/cloud-environments), including [the browser at claude.ai/code](/docs/en/claude-code-on-the-web), has no plugin browser and doesn't load the plugins you installed on your own machine or the ones your repository's `.claude/settings.json` turns on. For plugins your organization distributes through managed settings, see [Manage plugins for your organization](/docs/en/plugins/org).
+> A [cloud session](/docs/en/cloud-environments), including [the browser at claude.ai/code](/docs/en/claude-code-on-the-web), has no plugin browser and doesn't load the plugins you installed at user or local scope. For plugins your organization distributes through managed settings, see [Manage plugins for your organization](/docs/en/plugins/org).
 >
 > See [which parts of your setup are also available in a cloud session](/docs/en/cloud-environments#what-carries-over-from-your-setup) for the rest of your setup.
 
@@ -277,7 +277,7 @@ The **Installed** tab in `/plugin` lists your plugins with actions to enable, di
 A plugin's details menu offers **Disable plugin** or **Enable plugin**, **Update now**, and **Uninstall**. Two more items appear for plugins that take settings, and a plugin can show both:
 
 * **Configure options**: shown when the plugin's manifest declares [`userConfig` options](/docs/en/plugins/manifest-reference#user-configuration). Opens the dialog for those options
-* **Configure**: shown when the plugin includes a [bundled MCP server](/docs/en/plugins/components#include-a-packaged-mcpb-server). Sets that server's own `user_config` settings
+* **Configure**: shown when a marketplace plugin includes a [bundled MCP server](/docs/en/plugins/components#include-a-packaged-mcpb-server). Sets that server's own `user_config` settings
 
 The tab can also show plugins at **Managed** scope. Your organization installed those through [managed settings](/docs/en/settings#settings-files), and you can't enable, disable, or uninstall them here.
 

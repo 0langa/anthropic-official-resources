@@ -203,7 +203,7 @@ Disappointed ReactionNeutral ReactionSmiley Reaction
 ## Related Articles
 
 - [Use live artifacts in Claude Cowork](https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork)
-- [Public links for shared chats](https://support.claude.com/en/articles/16762437-public-links-for-shared-chats)
 - [Share a chat with specific people](https://support.claude.com/en/articles/16762496-share-a-chat-with-specific-people)
+- [Get started with Claude Docs](https://support.claude.com/en/articles/16923645-get-started-with-claude-docs)
 - [Artifacts admin guide for Team and Enterprise plans](https://support.claude.com/en/articles/16994751-artifacts-admin-guide-for-team-and-enterprise-plans)
 - [What are artifacts and how do I use them?](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them)

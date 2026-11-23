@@ -68,7 +68,7 @@ Hooks stack. A plugin's PreToolUse hook and your own PreToolUse hook both fire o
 
 Skills, agents, and commands are namespaced under the plugin name, so they never clash with yours.
 
-Once a plugin is installed you can see everything it added, manage it, and uninstall it from the plugin panel.
+Once a plugin is installed, run `/plugin` and open it on the Installed tab. There you can see its components, and disable, update, or uninstall it.
 
 ## Packaging your own plugin[](https://academy.claude.com/courses/claude-code-in-action/plugins)
 

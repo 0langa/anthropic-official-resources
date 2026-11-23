@@ -2,7 +2,7 @@
 
 # What do you want from AI?
 
-[Participate here](https://claude.ai/redirect/website.v1.6c4a9ab1-aa9d-4132-be01-fd1c0aff7a30/anthropic-interviewer/your-thoughts-on-ai?from=blog)
+[Participate here](https://claude.ai/redirect/website.v1.9cf60176-a059-4c05-8857-10a58c485a18/anthropic-interviewer/your-thoughts-on-ai?from=blog)
 
 ![What do you want from AI?](https://assets.claude.com/114da8126395c36da2b04121d9cbc713ec2f1952.jpg?w=1920&q=75&fm=webp&fit=max)
 
@@ -44,7 +44,7 @@ This project builds on a similar study conducted last December, in which [81,000
 
 AI and Anthropic have changed a lot since then. AI has improved, more people use Claude, and people’s feelings toward the technology have shifted. For the previous study, only the high-level results and a small number of quotes were made public. This time, we want your thoughts to be made widely available so that anyone can learn from them.
 
-We’ve written a FAQ so you can make an informed decision about whether to make your interview public and what to share. You can choose to [participate here](https://claude.ai/redirect/website.v1.6c4a9ab1-aa9d-4132-be01-fd1c0aff7a30/anthropic-interviewer/your-thoughts-on-ai?from=blog).
+We’ve written a FAQ so you can make an informed decision about whether to make your interview public and what to share. You can choose to [participate here](https://claude.ai/redirect/website.v1.9cf60176-a059-4c05-8857-10a58c485a18/anthropic-interviewer/your-thoughts-on-ai?from=blog).
 
 ## FAQ
 
