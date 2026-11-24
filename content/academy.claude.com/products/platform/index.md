@@ -76,7 +76,17 @@ Build MCP servers and clients from scratch with the Python SDK, covering the thr
 
 [View all webinars](https://academy.claude.com/all)
 
-[Recording · Oct 22
+[Recording · Nov 19
+
+### Claude Rearview Roadmap Review: November 2026 
+
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
+
+SS
+
+·Recording·Nov 19
+
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Oct 22
 
 ### Claude Rearview Roadmap Review: October 2026 
 
@@ -96,17 +106,7 @@ SMAR
 
 ·Recording·Oct 21
 
- (opens in new tab)](https://claude.com/resources/webinars/tokenomics-on-aws-control-and-optimize-your-claude-spend)[Recording · Oct 8
-
-### AI as an Engineering Leadership Multiplier 
-
-Practical ways to use AI as an engineering leadership multiplier without outsourcing judgment, accountability, or the human work.
-
-SA
-
-·Recording·Oct 8
-
- (opens in new tab)](https://claude.com/resources/webinars/ai-as-an-engineering-leadership-multiplier)
+ (opens in new tab)](https://claude.com/resources/webinars/tokenomics-on-aws-control-and-optimize-your-claude-spend)
 
 ## Browse it all
 

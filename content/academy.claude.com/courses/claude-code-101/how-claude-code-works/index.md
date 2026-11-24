@@ -45,8 +45,8 @@ Tools are the backbone of how agents work. Most AI assistants simply take text i
 
 Claude Code has several permission modes:
 
-- **Manual:** Claude asks for explicit permission before editing a file or running a shell command.
-- **Accept edits:** Files are edited without asking, and common filesystem commands like `mkdir`, `mv`, and `rm` run without asking too. Other commands still require approval.
+- **Manual:** Claude asks for explicit permission before editing a file or running a shell command, apart from a built-in set of read-only commands like `ls` and `git status`.
+- **Accept edits:** Files are edited without asking, and common filesystem commands like `mkdir`, `mv`, and `rm` run without asking too. Other commands ask as they do in manual mode.
 - **Plan mode:** Claude reads files and runs shell commands to explore, without editing your source files, and compiles a plan of action before starting any work.
 - **Auto mode:** Claude works without routine permission prompts while a classifier checks most actions in the background, targeted at blocking actions that are irreversible, destructive, or aimed outside your environment. When something is blocked, Claude usually finds a safer approach or asks you for the go-ahead.
 
@@ -67,6 +67,8 @@ Was this helpful?
 
 # How Claude Code works
 
+Correction: The video says every shell command asks for permission. Some don't. The words in brackets, at 1:54 and 2:04, correct what the video says.
+
 We know that Claude Code is different from usual chat applications, but how does it work? Claude Code is best explained through the agentic loop.
 
 You enter a prompt into Claude Code. Claude Code will then gather context required to complete your prompt. It does so by interacting with the model which will return text or a tool call that Claude Code can execute. Then it takes action. For example, editing a file or running a command. Finally, it verifies those results and determines if they achieve what your prompt set out to do in the first place. If they do, then Claude finishes and waits for the next prompt. And if they don't, Claude goes back and runs the loop again until the results are complete and verifiable. Throughout this loop, you're able to add context, interrupt it, or steer the model to help guide it towards your end goal.
@@ -75,7 +77,7 @@ Claude has a context window, which determines how much of your conversation, fil
 
 Tools are the backbone of how agents work. Currently, most AI assistants are simply input text and output text. Nothing in between. Tools let Claude Code and other agents determine when to execute code to get closer to a task. This could be Read File Tool or Search Web Tool, for example. Claude Code uses semantic searching to determine when to call a tool and get the output of it.
 
-Claude Code also has permission modes. Default behavior is that it has to ask explicit permission before editing a file or running a shell command. You can use Shift and Tab to toggle between different modes. Auto Accept edits files without asking but still asks for commands. Plan Mode uses read-only tools to help compile a plan of action before starting. It's worth being cautious when skipping permissions. Giving Claude Code free rein to run commands means a mistake could be harder to catch before it even happens.
+Claude Code also has permission modes. [In manual mode,] it has to ask explicit permission before editing a file or running a shell command[, apart from a built-in set of read-only commands like ls and git status]. You can use Shift and Tab to toggle between different modes. Auto Accept edits files without asking [and runs common filesystem commands like mkdir, mv, and rm, while other commands ask as they do in manual mode]. Plan Mode uses read-only tools to help compile a plan of action before starting. It's worth being cautious when skipping permissions. Giving Claude Code free rein to run commands means a mistake could be harder to catch before it even happens.
 
 Claude Code works by combining different agentic concepts, an agentic loop, a managed context window, tools, and configurable permissions into your terminal. It can read your code base, take action, and verify its own work, and that makes it fundamentally different from a chat window.
 

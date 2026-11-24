@@ -8,7 +8,7 @@ Works to understand the risks of AI models and develop ways to ensure future one
 
 [## Economics](https://www.anthropic.com/research/team/economics)
 
-27 posts
+28 posts
 
 Studies and monitors the impact of AI systems on individuals, firms, and economies.
 
@@ -50,7 +50,7 @@ Works to understand the risks of AI models and develop ways to ensure future one
 
 [## Economics](https://www.anthropic.com/research/team/economics)
 
-27 posts
+28 posts
 
 Studies and monitors the impact of AI systems on individuals, firms, and economies.
 
@@ -119,13 +119,21 @@ As AI does more of the hands-on work, the hope is that experts still make the ju
 
 04
 
-211
+212
 
 ARTICLES
 
 Filter
 
 Most recentGallery view
+
+[Economics](https://www.anthropic.com/research/team/economics)
+
+Nov 23, 2026![](https://assets.claude.com/18573939fbd864c74ee2d1de211c5fd2cea763fb.jpg?w=3840&q=75&fm=webp&fit=max)
+
+### [Working with AI](https://www.anthropic.com/research/working-with-ai)
+
+We interviewed people at 58 companies that use Claude about how AI is changing their work. They described few layoffs but reduced hiring, and said the most valuable uses of AI often involved reorganizing roles and workplaces around it.
 
 [Science](https://www.anthropic.com/science)
 
@@ -145,7 +153,7 @@ We’re shortening the disclosure window in our coordinated vulnerability disclo
 
 [Engineering](https://www.anthropic.com/engineering)
 
-Nov 13, 2026![Illustration of a tilted red gridded square and an upright blue gridded square overlapping imperfectly to form a dark green square, on a light green background.](https://assets.claude.com/abd5df81fa75d3f4a2b489a120e93f7af2f7456f.jpg?w=3840&q=75&fm=webp&fit=max)
+Nov 13, 2026![Illustration of two dark green gridded squares on a light green background. On the left, a tilted red square and an upright blue square overlap imperfectly, leaving their edges exposed; on the right, the two align exactly.](https://assets.claude.com/bab5121b9ac9a4bc3d4f5a212714bb21736398e8.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Building strong safety evaluations](https://www.anthropic.com/research/building-strong-safety-evaluations)
 
@@ -153,7 +161,7 @@ Recommendations for designing, running, and reporting safety evaluations, based 
 
 [Science](https://www.anthropic.com/science)
 
-Nov 9, 2026![Abstract collage combining a close-up photograph of a circuit board with bright green panels of winding copper-track patterns.](https://assets.claude.com/da1561d7096742c3620943441254fa9d4aaa5590.jpg?w=3840&q=75&fm=webp&fit=max)
+Nov 9, 2026![Abstract collage combining a close-up photograph of a circuit board with bright green panels of winding copper-track patterns.](https://assets.claude.com/48f86f517e975d4b7d500a4e445e0608577f41db.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Testing Claude on real-world electronics design](https://www.anthropic.com/research/claude-electronics-design)
 
@@ -185,7 +193,7 @@ We analyzed 207,000 research sessions to learn how Claude is used in science, wh
 
 [Science](https://www.anthropic.com/science)
 
-Nov 4, 2026![Collage illustration pairing vintage measuring scales over a black-and-white photograph with a green print of a ribbed, vaulted cathedral ceiling.](https://assets.claude.com/50d60818006da4782dc5edb2d5ee1fe9586cd787.jpg?w=3840&q=75&fm=webp&fit=max)
+Nov 4, 2026![Collage illustration pairing vintage measuring scales over a black-and-white photograph with a green print of a ribbed, vaulted cathedral ceiling.](https://assets.claude.com/2f15c0f8ea55da524841be51c8fde89d75f9b0d9.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Investigating vault particles with Claude](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
 
@@ -201,7 +209,7 @@ We have made progress on a type of cryptographic proof known as a “zkSNARK.”
 
 [Science](https://www.anthropic.com/science)
 
-Oct 27, 2026![](https://assets.claude.com/e5bf870837273d5d1e0e5966af0cb1c7efbdeaae.jpg?w=3840&q=75&fm=webp&fit=max)
+Oct 27, 2026![](https://assets.claude.com/eb51635204f8a73d9a0016d3c80cd7a93c7cbdda.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development)
 
@@ -310,13 +318,5 @@ Sep 29, 2026![](https://assets.claude.com/114da8126395c36da2b04121d9cbc713ec2f19
 ### [What do you want from AI?](https://www.anthropic.com/research/your-thoughts-on-ai)
 
 We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI.
-
-[Economics](https://www.anthropic.com/research/team/economics)
-
-Sep 24, 2026![Two-panel illustration: on a dark background, five colored bars resembling books on a shelf; on dotted paper, two columns of dots joined by crisscrossing colored lines, like a matching diagram pairing people with books.](https://assets.claude.com/278d0b68b4dc9a2ca5ef7268956f9504c72d2c0e.jpg?w=3840&q=75&fm=webp&fit=max)
-
-### [Project Swap: What happens when agents trade for us?](https://www.anthropic.com/research/project-swap)
-
-To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.
 
 See more

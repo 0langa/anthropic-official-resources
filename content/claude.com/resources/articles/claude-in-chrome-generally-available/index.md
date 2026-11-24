@@ -28,7 +28,7 @@ At launch, we described how we tested Claude’s defenses against these attacks 
 
 **Claude recognizes more attacks.** We train Claude against a growing library of prompt injection attacks, sourced from our internal automated attackers, external red-teamers, and real-world monitoring. When a new attack succeeds against a current model, it’s added to the library, where it informs the training of future models and our deployed safeguards so they learn to recognize it. Since we first wrote about our [prompt injection defenses for browser use](https://www.anthropic.com/research/prompt-injection-defenses) in November 2025, we’ve made Claude substantially more resistant to these attacks.
 
-**Probes screen web content before Claude acts on it.** Web content reaches Claude through tool results. To take an action like reading a page or opening an email, the model makes a tool call; the tool result lets the model read the output (in this case, the content of the page or the email). We train probes to scan those results for potential prompt injections. When a probe detects a likely attack, Claude is warned to treat the content with suspicion and, if needed, to check with you before taking an action. We first deployed these probes with Claude Opus 4.5, and have since expanded the types of attacks they cover.
+**Probes screen web content before Claude acts on it.** Web content reaches Claude through tool results. To take an action like reading a page or opening an email, the model makes a tool call; the tool result lets the model read the output (in this case, the content of the page or the email). We train [probes to scan those results for potential prompt injections](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents). When a probe detects a likely attack, Claude is warned to treat the content with suspicion and, if needed, to check with you before taking an action. We first deployed these probes with Claude Opus 4.5, and have since expanded the types of attacks they cover.
 
 **Actions are verified before they run**. In Claude in Chrome, Claude will now automatically approve actions it determines to be safe, using the same mechanism as [auto mode](https://claude.com/resources/articles/auto-mode-default-in-claude-code) in Claude Code. (You can switch this off in your settings if you’d prefer to continue to approve Claude’s actions manually.) A classifier reviews actions Claude is about to take, such as navigating to a new website or entering text into a page, and checks them against what you originally asked for. If the action doesn’t match your request, it’s blocked.
 
@@ -64,7 +64,17 @@ You’ll still need to use the Claude desktop app to work with files on your com
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
+
+### Zero data retention with Enterprise Frontier Safeguards is now in beta
+
+Claude Platform](https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards)[ArticleNov 23, 2026
+
+### Introducing Claude Ship
+
+Open a pull request and get back to building. Claude can now review pull requests, fix them, and approve the ones that a team's policy allows.
+
+Claude Ship](https://claude.com/resources/articles/introducing-claude-ship)[ArticleNov 17, 2026
 
 ### Linked billing on the Claude Platform
 
@@ -74,15 +84,7 @@ Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-
 
 Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
 
-Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)[ArticleNov 12, 2026
-
-### Introducing Claude for Manufacturing
-
-A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)[ArticleNov 12, 2026
-
-### Introducing Claude Meetings
-
-Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)
+Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)
 
 ## Transform how your organization operates with Claude
 

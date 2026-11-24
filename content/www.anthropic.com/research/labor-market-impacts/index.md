@@ -26,9 +26,11 @@ Topics
 
 Related articles
 
-- Jun 26, 2026
+- Economics
 
-  [Economic Index](https://www.anthropic.com/economic-index)
+  Nov 23, 2026
+
+  [Working with AI](https://www.anthropic.com/research/working-with-ai)
 
 [View more](https://www.anthropic.com/search?topic=labor-market)
 

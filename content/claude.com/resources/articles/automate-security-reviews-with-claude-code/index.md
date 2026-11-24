@@ -10,7 +10,7 @@ Today we're introducing automated security reviews in Claude Code. Using our Git
 
 Embedded media: https://www.youtube-nocookie.com/embed/YdiCjgYGKto?enablejsapi=1&rel=0&playsinline=1&modestbranding=1
 
-As developers increasingly rely on AI to ship faster and build more complex systems, ensuring code security becomes even more critical. These new features let you integrate security reviews into your existing workflows, helping you catch vulnerabilities before they reach production.
+As developers increasingly rely on AI to ship faster and build more complex systems, ensuring code security becomes even more critical. These new features let you integrate security reviews into your existing workflows, helping you [catch vulnerabilities before they reach production](https://claude.com/resources/articles/using-llms-to-secure-source-code).
 
 ### Review code for vulnerabilities from your terminal
 
@@ -62,7 +62,17 @@ Both features are available now for all Claude Code users. To start using automa
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
+
+### Zero data retention with Enterprise Frontier Safeguards is now in beta
+
+Claude Platform](https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards)[ArticleNov 23, 2026
+
+### Introducing Claude Ship
+
+Open a pull request and get back to building. Claude can now review pull requests, fix them, and approve the ones that a team's policy allows.
+
+Claude Ship](https://claude.com/resources/articles/introducing-claude-ship)[ArticleNov 17, 2026
 
 ### Linked billing on the Claude Platform
 
@@ -72,15 +82,7 @@ Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-
 
 Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
 
-Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)[ArticleNov 12, 2026
-
-### Introducing Claude for Manufacturing
-
-A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)[ArticleNov 12, 2026
-
-### Introducing Claude Meetings
-
-Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)
+Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)
 
 ## Transform how your organization operates with Claude
 

@@ -141,7 +141,7 @@ When to use PostToolUse:
 
 ### **PreCompact**
 
-Fires before Claude compacts the conversation context to free up space. Compaction summarizes older parts of the conversation, which means some details get lost. This hook gives you a chance to preserve information before that happens.
+Fires before Claude [compacts the conversation context](https://claude.com/resources/articles/context-management) to free up space. Compaction summarizes older parts of the conversation, which means some details get lost. This hook gives you a chance to preserve information before that happens.
 
 This PreCompact example backs up the transcript before automatic compaction. The matcher can be "auto" or "manual" so you can distinguish between automatic compaction and user-triggered compaction events.
 
@@ -236,7 +236,7 @@ When to use Stop:
 
 ### **SubagentStop**
 
-This hook fires whenever a subagent created via the Task tool finishes. Works the same way as Stop, but triggers specifically when a subagent completes its action (rather than the main agent). The configuration of SubagentStop mirrors the Stop hook structure:
+This hook fires whenever a [subagent](https://claude.com/resources/articles/subagents-in-claude-code) created via the Task tool finishes. Works the same way as Stop, but triggers specifically when a subagent completes its action (rather than the main agent). The configuration of SubagentStop mirrors the Stop hook structure:
 
 Copy
 
@@ -458,7 +458,13 @@ Hooks let you shape Claude Code to match your workflow rather than adapting your
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
+
+### The enterprise guide to securing coding agents
+
+How security and technical leaders can understand and bound risk as they scale Claude Code
+
+Claude Code](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)[ArticleNov 17, 2026
 
 ### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
 
@@ -480,13 +486,7 @@ Claude Code
 
 Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
 
-Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
-
-### The Claude Tag guide for startups
-
-How leading startups use Claude Tag to ship faster and scale operations
-
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)
 
 ## Transform how your organization operates with Claude
 

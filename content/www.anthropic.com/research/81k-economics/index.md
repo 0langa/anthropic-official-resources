@@ -25,9 +25,9 @@ Related articles
 
 - Economics
 
-  Oct 16, 2026
+  Nov 23, 2026
 
-  [The AI expectations gap](https://www.anthropic.com/research/ai-expectations-gap)
+  [Working with AI](https://www.anthropic.com/research/working-with-ai)
 
 [View more](https://www.anthropic.com/search?topic=economic-index)
 

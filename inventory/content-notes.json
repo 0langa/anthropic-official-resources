@@ -723,6 +723,9 @@
   "https://claude.com/resources/articles/key-benefits-transitioning-agentic-coding": [
     "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   ],
+  "https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
   "https://claude.com/resources/articles/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
@@ -1435,6 +1438,27 @@
   "https://code.claude.com/docs/en/analytics": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://code.claude.com/docs/en/approvals": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/approvals-classifiers": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/approvals-github-rules": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/approvals-policy": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/approvals-pull-requests": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/approvals-setup": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/approvals-troubleshooting": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
   "https://code.claude.com/docs/en/artifacts": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
@@ -1511,6 +1535,9 @@
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://code.claude.com/docs/en/claude-security": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/claude-ship": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://code.claude.com/docs/en/claude-tag": [
@@ -1858,6 +1885,21 @@
   "https://code.claude.com/docs/en/plugins/troubleshooting": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
+  "https://code.claude.com/docs/en/pr-steward": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/pr-steward-pull-requests": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/pr-steward-security": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/pr-steward-setup": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/pr-steward-troubleshooting": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
   "https://code.claude.com/docs/en/prompt-caching": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
@@ -1925,6 +1967,15 @@
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://code.claude.com/docs/en/setup": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/share-sessions": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/ship-command": [
+    "Contains upstream MDX/components; Markdown is not a visual website replica."
+  ],
+  "https://code.claude.com/docs/en/ship-command-troubleshooting": [
     "Contains upstream MDX/components; Markdown is not a visual website replica."
   ],
   "https://code.claude.com/docs/en/skills": [
@@ -3443,6 +3494,27 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/beta/organization/external_keys/validate": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/external_storage": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/external_storage/activate": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/external_storage/create": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/external_storage/delete": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/external_storage/list": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/external_storage/retrieve": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/beta/organization/external_storage/update": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/beta/organization/federation": [
@@ -7681,6 +7753,51 @@
   "https://platform.claude.com/docs/en/manage-claude/data-residency?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/customer-managed-keys": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/customer-owned-storage": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/external-storage": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/external-storage-manage": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/faq": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/flagged-cases": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/human-review-and-access-transparency": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/overview": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/safety-case-files": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/safety-cases-api": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/setup-amazon-bedrock": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/setup-claude-models-on-google-cloud-anthropic-managed": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/setup-claude-platform-on-aws": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/setup-console": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/setup-google-cloud-agent-platform": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/manage-claude/inference-hooks": [
     "Native source; upstream MDX components retained."
   ],
@@ -10249,6 +10366,12 @@
   "https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/18520573-manage-anthropic-email-updates-for-your-organization-members": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/18549037-block-files-and-email-from-claude-by-sensitivity-label": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for": [
     "Native source; upstream MDX components retained."
   ],
@@ -11602,6 +11725,10 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/what-work-can-robots-do": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/working-with-ai": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored.",
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/writing-tools-for-agents": [

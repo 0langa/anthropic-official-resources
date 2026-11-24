@@ -1,12 +1,12 @@
 # NDA triage at scale
 
-Standard NDAs routed for signature; only exceptions hit counsel.
+Standard NDAs cleared for signature; only exceptions go to counsel.
 
 10 minLegalClaude Cowork
 
 Try in ClaudeCopy prompt
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-dydenpqj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jd1jgfwn.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-k3l00906.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-k5ywic40.png)
 
 Film: the user points Claude at a folder of incoming NDAs and a playbook, watching it check each agreement, ask about unclear clauses, and return a triage sheet separating routine paper from exceptions needing counsel.
 
@@ -268,7 +268,7 @@ In Cowork’s chat bar:NDAs / Intake
 
 ### Copy this into Claude[](https://academy.claude.com/use-cases/nda-review)
 
-Triage this NDA against our NDA playbook. For each criterion in the playbook, mark whether this paper meets our standard. If everything passes, mark it cleared and route for signature. If anything is off-standard, list only the exceptions with a one-line reason each so counsel reviews just those.
+Triage this NDA against our NDA playbook. For each criterion in the playbook, mark whether this paper meets our standard. If everything passes, mark it cleared for signature so I can send it. If anything is off-standard, list only the exceptions with a one-line reason each so counsel reviews just those.
 
 
 
@@ -282,7 +282,7 @@ Triage this NDA against our NDA playbook. For each criterion in the playbook, ma
 
 Prompt
 
-**Define the two outcomes.** "Mark it cleared and route for signature" or "list only the exceptions" gives Claude a binary decision to make, which is what lets standard paper move without a lawyer touching it.
+**Define the two outcomes.** "Mark it cleared for signature" or "list only the exceptions" gives Claude a binary decision to make.
 
 Prompt
 
@@ -348,7 +348,7 @@ Your `/nda-intake` skill now carries your full playbook checklist, your approved
 
 Share the skill
 
-You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/nda-intake`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. Your teammates get the skill with your checklist and routing rules baked in, so they don't have to build it again; each teammate who uses the plugin still runs `/cold-start-interview` the first time, pointed at the same playbook, because the plugin keeps its setup per person.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/nda-intake`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. Your teammates get the skill with your checklist and escalation triggers built in, so they don't have to build it again; each teammate who uses the plugin still runs `/cold-start-interview` the first time, pointed at the same playbook, because the plugin keeps its setup per person.
 
 ## Going forward[](https://academy.claude.com/use-cases/nda-review)
 

@@ -18,7 +18,7 @@ In this post, I'll share how Managed Agents has changed the way I work as a prod
 
 ## **Product development, then and now**
 
-API design used to live in documents and comment threads; on the AI exponential, we build with what we ship. A spec that reads elegantly in a doc can fall apart the first time you try to build against it. With Claude Code, I can sketch out an agent against pre-production versions of our API specs, and within an afternoon be running a real prototype end-to-end.
+API design used to live in documents and comment threads; on the AI exponential, we build with what we ship. A spec that reads elegantly in a doc can fall apart the first time you try to build against it. With [Claude Code](https://claude.com/product/claude-code), I can sketch out an agent against pre-production versions of our API specs, and within an afternoon be running a real prototype end-to-end.
 
 We reshaped API abstractions and Claude Console UX several times based on what we learned building with our own primitives–changes that even a multi-week doc review would never have surfaced, and otherwise would've come up too late via user feedback. We still litigate shapes and run raw curl requests to make sure we're happy with the bare-metal experience, but Claude Code gets me from the basic "hello world" test to a functional agent in the same sitting. As I build these agents, I'm able to more concretely anticipate ways our harness and API can flex for the next wave of model and task evolution.
 
@@ -52,7 +52,19 @@ If you're a product manager and you haven't built an agent yet, that's where I'd
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
+
+### KPMG's Todd Lohr on AI when your data is also your clients' data
+
+Todd Lohr, KPMG US Vice Chair and Head of Client Technology & Innovation, on adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data.
+
+Claude Enterprise](https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data)[ArticleNov 23, 2026
+
+### The enterprise guide to securing coding agents
+
+How security and technical leaders can understand and bound risk as they scale Claude Code
+
+Claude Code](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)[ArticleNov 17, 2026
 
 ### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
 
@@ -68,19 +80,7 @@ How end-to-end, property and differential tests let coding agents verify their w
 
 Claude Code
 
-(opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)[ArticleNov 13, 2026
-
-### Building always-on agents
-
-Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
-
-Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
-
-### The Claude Tag guide for startups
-
-How leading startups use Claude Tag to ship faster and scale operations
-
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
+(opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)
 
 ## Transform how your organization operates with Claude
 

@@ -497,7 +497,13 @@ We hope you found this guide useful. Special thanks to Campfire, Descript, Flagl
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
+
+### The enterprise guide to securing coding agents
+
+How security and technical leaders can understand and bound risk as they scale Claude Code
+
+Claude Code](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)[ArticleNov 17, 2026
 
 ### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
 
@@ -519,13 +525,7 @@ Claude Code
 
 Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
 
-Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 10, 2026
-
-### How Curative is building a national provider network with agents on Claude
-
-Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
-
-Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)
 
 ## Transform how your organization operates with Claude
 

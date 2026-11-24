@@ -1,0 +1,5 @@
+https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/customer-owned-storage?cloud=aws
+https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/external-storage-manage?cloud=aws
+https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/external-storage?cloud=aws
+https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/external-storage?cloud=gcp
+https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/external-storage?method=api

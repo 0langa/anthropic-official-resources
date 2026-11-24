@@ -64,7 +64,7 @@ You’ll use the threat model in two places. In discovery, as scope**:** partiti
 
 ## **2. Sandbox: Run agents safely and verify exploitability**
 
-**One purpose of the sandbox is to protect your systems.** To enable models to run safely and autonomously, you need a strong isolation layer. Without it, the agent may overshoot the target and do something unexpected.
+**One purpose of the sandbox is to [protect your systems](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents).** To enable models to run safely and autonomously, you need a strong isolation layer. Without it, the agent may overshoot the target and do something unexpected.
 
 > “One team told the model it had no network access—when it actually did—and the model discovered it could fetch from GitHub anyway. Another team observed an agent answer a GitHub issue mid-scan. Neither action was malicious, but both demonstrated the need to enforce constraints via code and configuration.”
 
@@ -195,7 +195,7 @@ Some resources you might find helpful:
 
 - [Claude Security](https://www.anthropic.com/product/security): Anthropic’s managed product for agentic vulnerability detection and patching.
 - [`defending-code-reference-harness`](https://github.com/anthropics/defending-code-reference-harness): Companion repo with skills for interactive workflows and a demo harness for autonomous runs.
-- [`claude-code-security-review action`](https://github.com/anthropics/claude-code-security-review): Github action with Claude as a security reviewer on every pull request.
+- [`claude-code-security-review action`](https://github.com/anthropics/claude-code-security-review): Github action with Claude as a [security reviewer on every pull request](https://claude.com/resources/articles/automate-security-reviews-with-claude-code).
 - [Threat Intelligence Enrichment Agent](https://platform.claude.com/cookbook/tool-use-threat-intel-enrichment-agent): Cookbook to build an agent that enriches indicators of compromise against threat intel feeds.
 - [Vulnerability Detection Agent](https://platform.claude.com/cookbook/claude-agent-sdk-06-the-vulnerability-detection-agent): Cookbook to build an agent that builds a threat-model, scans for vulnerabilities, and triages findings into a structured report.
 
@@ -217,7 +217,13 @@ Written by Eugene Yan and Henna Dattani, with contributions from Michael Molash,
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
+
+### The enterprise guide to securing coding agents
+
+How security and technical leaders can understand and bound risk as they scale Claude Code
+
+Claude Code](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)[ArticleNov 17, 2026
 
 ### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
 
@@ -239,13 +245,7 @@ Claude Code
 
 Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
 
-Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
-
-### The Claude Tag guide for startups
-
-How leading startups use Claude Tag to ship faster and scale operations
-
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)
 
 ## Transform how your organization operates with Claude
 

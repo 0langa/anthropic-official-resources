@@ -90,7 +90,7 @@ Each control below is stated twice, first as the requirement any agent environme
 
 **Connector allowlists draw your data boundary:** allowlists for connectors (MCPs) let you decide which systems the agent can reach. Claude Cowork uses a two-gate model: an admin enables each connector org-wide, and each user then individually authorizes their own account. There is a per-role connector control, so enabling a connector makes it available to everyone in that role (groups from your IdP can be assigned to roles). The admin decision about which connectors to turn on is also the decision about which data the agent can reach. Keep connectors on the corporate side of your corporate/production data boundary or, if they access information from untrusted sources, ensure that human review is required for any destructive or one-way decision. For example, if a personal agent is being used for email but using web search results as a part of its input, an excellent default is to only allow *draft* emails to be created and never sent externally, automatically, without human review. If data must cross the boundary, it should go through the DLP or DSPM controls.
 
-**Per-tool, per-action approval is where risk reduction gets granular:** the agent's tool list is a more fine-grained permission boundary, so you need to be able to remove any particular connector’s verbs/actions and not only that entire connector system. In Claude Enterprise Chat and Cowork, admins can now restrict which actions are available within each connector org-wide and per-role: allow drafting docs but never automatically send them, allow reads and searches but never deletes. If the failure mode that keeps you up at night is "the production database gets deleted," remove the delete verb from the agent's world entirely. It will never attempt an action that isn't in its tool list. (A note on this: Claude in Chrome and Claude Code enable more degrees of freedom and so are more risky, if not governed well. An agent could use an engineer’s browser to delete a production resource or their command line CSP tool to do the same. See our guide to [securing Claude Code](https://code.claude.com/docs/en/security) for more.)
+**Per-tool, per-action approval is where risk reduction gets granular:** the agent's tool list is a more fine-grained permission boundary, so you need to be able to remove any particular connector’s verbs/actions and not only that entire connector system. In Claude Enterprise Chat and Cowork, admins can now restrict which actions are available within each connector org-wide and per-role: allow drafting docs but never automatically send them, allow reads and searches but never deletes. If the failure mode that keeps you up at night is "the production database gets deleted," remove the delete verb from the agent's world entirely. It will never attempt an action that isn't in its tool list. (A note on this: Claude in Chrome and Claude Code enable more degrees of freedom and so are more risky, if not governed well. An agent could use an engineer’s browser to delete a production resource or their command line CSP tool to do the same. See our guide to [securing Claude Code](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents) for more.)
 
 **Sandboxed execution keeps the agent's working environment away from production credentials:** one principle that we hold constant at Anthropic is that the environment the agent loop runs in should never hold a credential worth stealing. In Claude Cowork's remote sessions, the agent loop runs in an isolated, temporary sandbox on Anthropic-managed infrastructure. Connector authorization tokens never enter the sandbox, because connector calls are made via a reverse proxy that injects real credentials, so the sandbox never holds a credential that can be exfiltrated. As of July 2026, more than 50% of all code submitted for pull requests at Anthropic is authored by our internal version of a Claude Tag-like system. The primary reasons we can run that safely are that all of it happens in ephemeral VMs separated from our production keys and accounts, with a human review before anything lands.
 
@@ -136,7 +136,19 @@ Waiting for zero risk means waiting forever. The web is adversarial, the models 
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
+
+### KPMG's Todd Lohr on AI when your data is also your clients' data
+
+Todd Lohr, KPMG US Vice Chair and Head of Client Technology & Innovation, on adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data.
+
+Claude Enterprise](https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data)[ArticleNov 23, 2026
+
+### The enterprise guide to securing coding agents
+
+How security and technical leaders can understand and bound risk as they scale Claude Code
+
+Claude Code](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)[ArticleNov 17, 2026
 
 ### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
 
@@ -152,19 +164,7 @@ How end-to-end, property and differential tests let coding agents verify their w
 
 Claude Code
 
-(opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)[ArticleNov 13, 2026
-
-### Building always-on agents
-
-Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
-
-Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
-
-### The Claude Tag guide for startups
-
-How leading startups use Claude Tag to ship faster and scale operations
-
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
+(opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)
 
 ## Transform how your organization operates with Claude
 

@@ -143,27 +143,27 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Nov 19
 
-### Claude Rearview Roadmap Review: October 2026 
+### Claude Rearview Roadmap Review: November 2026 
 
 A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
 
-SSIP
+SS
 
-·Recording·Oct 22
+·Recording·Nov 19
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Nov 4
 
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+### Unified Claude: What it means for admins 
 
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+What changes for admins and security teams as Chat and Cowork merge into one Claude, including governance, security review, and rollout.
 
-DF
+DFMMAP
 
-·Recording·Oct 20
+·Recording·Nov 4
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
 
 ## Browse it all
 
@@ -317,27 +317,27 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Nov 19
 
-### Claude Rearview Roadmap Review: October 2026 
+### Claude Rearview Roadmap Review: November 2026 
 
 A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
 
-SSIP
+SS
 
-·Recording·Oct 22
+·Recording·Nov 19
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Nov 4
 
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+### Unified Claude: What it means for admins 
 
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+What changes for admins and security teams as Chat and Cowork merge into one Claude, including governance, security review, and rollout.
 
-DF
+DFMMAP
 
-·Recording·Oct 20
+·Recording·Nov 4
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
 
 ## Browse it all
 
@@ -491,27 +491,27 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Nov 19
 
-### Claude Rearview Roadmap Review: October 2026 
+### Claude Rearview Roadmap Review: November 2026 
 
 A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
 
-SSIP
+SS
 
-·Recording·Oct 22
+·Recording·Nov 19
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Nov 4
 
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+### Unified Claude: What it means for admins 
 
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+What changes for admins and security teams as Chat and Cowork merge into one Claude, including governance, security review, and rollout.
 
-DF
+DFMMAP
 
-·Recording·Oct 20
+·Recording·Nov 4
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
 
 ## Browse it all
 
@@ -665,27 +665,27 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Nov 19
 
-### Claude Rearview Roadmap Review: October 2026 
+### Claude Rearview Roadmap Review: November 2026 
 
 A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
 
-SSIP
+SS
 
-·Recording·Oct 22
+·Recording·Nov 19
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Nov 4
 
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+### Unified Claude: What it means for admins 
 
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+What changes for admins and security teams as Chat and Cowork merge into one Claude, including governance, security review, and rollout.
 
-DF
+DFMMAP
 
-·Recording·Oct 20
+·Recording·Nov 4
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
 
 ## Browse it all
 
@@ -839,27 +839,27 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Nov 19
 
-### Claude Rearview Roadmap Review: October 2026 
+### Claude Rearview Roadmap Review: November 2026 
 
 A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
 
-SSIP
+SS
 
-·Recording·Oct 22
+·Recording·Nov 19
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Nov 4
 
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+### Unified Claude: What it means for admins 
 
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+What changes for admins and security teams as Chat and Cowork merge into one Claude, including governance, security review, and rollout.
 
-DF
+DFMMAP
 
-·Recording·Oct 20
+·Recording·Nov 4
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
 
 ## Browse it all
 
@@ -1005,27 +1005,27 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Nov 19
 
-### Claude Rearview Roadmap Review: October 2026 
+### Claude Rearview Roadmap Review: November 2026 
 
 A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
 
-SSIP
+SS
 
-·Recording·Oct 22
+·Recording·Nov 19
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Nov 4
 
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+### Unified Claude: What it means for admins 
 
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+What changes for admins and security teams as Chat and Cowork merge into one Claude, including governance, security review, and rollout.
 
-DF
+DFMMAP
 
-·Recording·Oct 20
+·Recording·Nov 4
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
 
 ## Browse it all
 
@@ -1179,27 +1179,27 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Nov 19
 
-### Claude Rearview Roadmap Review: October 2026 
+### Claude Rearview Roadmap Review: November 2026 
 
 A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
 
-SSIP
+SS
 
-·Recording·Oct 22
+·Recording·Nov 19
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Nov 4
 
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+### Unified Claude: What it means for admins 
 
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+What changes for admins and security teams as Chat and Cowork merge into one Claude, including governance, security review, and rollout.
 
-DF
+DFMMAP
 
-·Recording·Oct 20
+·Recording·Nov 4
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
 
 ## Browse it all
 
@@ -1345,27 +1345,27 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Nov 19
 
-### Claude Rearview Roadmap Review: October 2026 
+### Claude Rearview Roadmap Review: November 2026 
 
 A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
 
-SSIP
+SS
 
-·Recording·Oct 22
+·Recording·Nov 19
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Nov 4
 
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+### Unified Claude: What it means for admins 
 
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+What changes for admins and security teams as Chat and Cowork merge into one Claude, including governance, security review, and rollout.
 
-DF
+DFMMAP
 
-·Recording·Oct 20
+·Recording·Nov 4
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
 
 ## Browse it all
 
@@ -1479,27 +1479,27 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Nov 19
 
-### Claude Rearview Roadmap Review: October 2026 
+### Claude Rearview Roadmap Review: November 2026 
 
 A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
 
-SSIP
+SS
 
-·Recording·Oct 22
+·Recording·Nov 19
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Nov 4
 
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+### Unified Claude: What it means for admins 
 
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+What changes for admins and security teams as Chat and Cowork merge into one Claude, including governance, security review, and rollout.
 
-DF
+DFMMAP
 
-·Recording·Oct 20
+·Recording·Nov 4
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
 
 ## Browse it all
 
@@ -1653,27 +1653,27 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Nov 19
 
-### Claude Rearview Roadmap Review: October 2026 
+### Claude Rearview Roadmap Review: November 2026 
 
 A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
 
-SSIP
+SS
 
-·Recording·Oct 22
+·Recording·Nov 19
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Nov 4
 
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+### Unified Claude: What it means for admins 
 
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+What changes for admins and security teams as Chat and Cowork merge into one Claude, including governance, security review, and rollout.
 
-DF
+DFMMAP
 
-·Recording·Oct 20
+·Recording·Nov 4
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
 
 ## Browse it all
 
@@ -1746,11 +1746,11 @@ Material issues flagged and the diligence summary drafted, every line cited to t
 
 ·Use case·Legal·15 min](https://academy.claude.com/use-cases/data-room-diligence)
 
-[![](https://academy.claude.com/assets/v1/thumbnail.light-dydenpqj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jd1jgfwn.png)
+[![](https://academy.claude.com/assets/v1/thumbnail.light-k3l00906.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-k5ywic40.png)
 
 ## NDA triage at scale
 
-Standard NDAs routed for signature; only exceptions hit counsel.
+Standard NDAs cleared for signature; only exceptions go to counsel.
 
 ·Use case·Legal·10 min](https://academy.claude.com/use-cases/nda-review)
 
@@ -1827,27 +1827,27 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Nov 19
 
-### Claude Rearview Roadmap Review: October 2026 
+### Claude Rearview Roadmap Review: November 2026 
 
 A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
 
-SSIP
+SS
 
-·Recording·Oct 22
+·Recording·Nov 19
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Nov 4
 
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+### Unified Claude: What it means for admins 
 
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+What changes for admins and security teams as Chat and Cowork merge into one Claude, including governance, security review, and rollout.
 
-DF
+DFMMAP
 
-·Recording·Oct 20
+·Recording·Nov 4
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
 
 ## Browse it all
 
@@ -2001,27 +2001,27 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Nov 19
 
-### Claude Rearview Roadmap Review: October 2026 
+### Claude Rearview Roadmap Review: November 2026 
 
 A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
 
-SSIP
+SS
 
-·Recording·Oct 22
+·Recording·Nov 19
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Nov 4
 
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+### Unified Claude: What it means for admins 
 
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+What changes for admins and security teams as Chat and Cowork merge into one Claude, including governance, security review, and rollout.
 
-DF
+DFMMAP
 
-·Recording·Oct 20
+·Recording·Nov 4
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
 
 ## Browse it all
 
@@ -2135,27 +2135,27 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Nov 19
 
-### Claude Rearview Roadmap Review: October 2026 
+### Claude Rearview Roadmap Review: November 2026 
 
 A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
 
-SSIP
+SS
 
-·Recording·Oct 22
+·Recording·Nov 19
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Nov 4
 
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+### Unified Claude: What it means for admins 
 
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+What changes for admins and security teams as Chat and Cowork merge into one Claude, including governance, security review, and rollout.
 
-DF
+DFMMAP
 
-·Recording·Oct 20
+·Recording·Nov 4
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
 
 ## Browse it all
 
@@ -2269,27 +2269,27 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Nov 19
 
-### Claude Rearview Roadmap Review: October 2026 
+### Claude Rearview Roadmap Review: November 2026 
 
 A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
 
-SSIP
+SS
 
-·Recording·Oct 22
+·Recording·Nov 19
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Nov 4
 
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+### Unified Claude: What it means for admins 
 
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+What changes for admins and security teams as Chat and Cowork merge into one Claude, including governance, security review, and rollout.
 
-DF
+DFMMAP
 
-·Recording·Oct 20
+·Recording·Nov 4
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
 
 ## Browse it all
 
@@ -2403,27 +2403,27 @@ APSM
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)[Recording · Nov 19
 
-### Claude Rearview Roadmap Review: October 2026 
+### Claude Rearview Roadmap Review: November 2026 
 
 A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
 
-SSIP
+SS
 
-·Recording·Oct 22
+·Recording·Nov 19
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 20
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)[Recording · Nov 4
 
-### Claude for Financial Advisors: Your Cowork Security and Compliance Questions, Answered 
+### Unified Claude: What it means for admins 
 
-The security and compliance answers wealth firms need before connecting Cowork to your CRM, custodian and portfolio systems.
+What changes for admins and security teams as Chat and Cowork merge into one Claude, including governance, security review, and rollout.
 
-DF
+DFMMAP
 
-·Recording·Oct 20
+·Recording·Nov 4
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)
+ (opens in new tab)](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)
 
 ## Browse it all
 

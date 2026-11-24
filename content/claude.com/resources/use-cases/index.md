@@ -846,7 +846,7 @@ GeneralMarketingProductEngineeringHRFinanceOperationsDataDesignLegalSalesResearc
 
 ·Legal·15 min](https://academy.claude.com/use-cases/data-room-diligence)
 
-[![](https://academy.claude.com/assets/v1/thumbnail.light-dydenpqj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jd1jgfwn.png)
+[![](https://academy.claude.com/assets/v1/thumbnail.light-k3l00906.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-k5ywic40.png)
 
 ### NDA triage at scale
 

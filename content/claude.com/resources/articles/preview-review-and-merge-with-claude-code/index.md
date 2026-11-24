@@ -8,7 +8,7 @@ Updates to Claude Code on desktop help you close the development loop, so you ca
 - Reading time4 min
 - ShareCopy link
 
-Today, we're shipping Claude Code improvements that let you preview running apps, auto-review code, auto-fix and merge PRs, and seamlessly switch between desktop, mobile, and CLI. Together these updates help you spend less time on the toil around code and more time on the parts you enjoy.
+Today, we're shipping [Claude Code](https://claude.com/product/claude-code) improvements that let you preview running apps, auto-review code, auto-fix and merge PRs, and seamlessly switch between desktop, mobile, and CLI. Together these updates help you spend less time on the toil around code and more time on the parts you enjoy.
 
 ## **Write code and see it run**
 
@@ -48,7 +48,17 @@ These updates are available now to all users. Update or download [Claude Code on
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
+
+### Zero data retention with Enterprise Frontier Safeguards is now in beta
+
+Claude Platform](https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards)[ArticleNov 23, 2026
+
+### Introducing Claude Ship
+
+Open a pull request and get back to building. Claude can now review pull requests, fix them, and approve the ones that a team's policy allows.
+
+Claude Ship](https://claude.com/resources/articles/introducing-claude-ship)[ArticleNov 17, 2026
 
 ### Linked billing on the Claude Platform
 
@@ -58,15 +68,7 @@ Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-
 
 Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
 
-Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)[ArticleNov 12, 2026
-
-### Introducing Claude for Manufacturing
-
-A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)[ArticleNov 12, 2026
-
-### Introducing Claude Meetings
-
-Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)
+Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)
 
 ## Transform how your organization operates with Claude
 

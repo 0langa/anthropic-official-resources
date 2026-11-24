@@ -30,7 +30,7 @@ Without the context that skills provide, Claude has to guess at what you want. W
 
 ## **Why skills and MCP work well together**
 
-MCP handles connectivity: secure, standardized access to external systems. Whether you're connecting to GitHub, Salesforce, Notion, or your own internal APIs, MCP servers give Claude the ability to reach your tools and data.
+MCP handles connectivity: secure, standardized access to external systems. Whether you're connecting to GitHub, Salesforce, Notion, or your own internal APIs, [MCP servers](https://claude.com/resources/articles/what-is-model-context-protocol) give Claude the ability to reach your tools and data.
 
 Skills handle expertise: the domain knowledge and workflow logic that turn raw tool access into reliable outcomes. A skill knows when to query your CRM, what to look for in the results, how to format the output, and which edge cases require different handling.  
   
@@ -183,7 +183,13 @@ Explore more insights on building with Claude's agentic capabilities.
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
+
+### The enterprise guide to securing coding agents
+
+How security and technical leaders can understand and bound risk as they scale Claude Code
+
+Claude Code](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)[ArticleNov 17, 2026
 
 ### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
 
@@ -205,13 +211,7 @@ Claude Code
 
 Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
 
-Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
-
-### The Claude Tag guide for startups
-
-How leading startups use Claude Tag to ship faster and scale operations
-
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)
 
 ## Transform how your organization operates with Claude
 

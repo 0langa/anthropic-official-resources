@@ -150,7 +150,7 @@ Claude Code registers the `claude-cli://` handler with your operating system on 
 * Send anything to an interactive `claude` session, such as a message or `/help`. Starting one and sending nothing doesn't register the handler.
 * Start Claude Code in [agent view](/docs/en/agent-view), such as with `claude agents`, in a folder you've [trusted](/docs/en/permissions#project-allow-rules-and-workspace-trust)
 
-You don't run a separate install command. Registration writes to user-level locations only:
+Registration writes to user-level locations only:
 
 | Platform | Handler location |
 | - | - |

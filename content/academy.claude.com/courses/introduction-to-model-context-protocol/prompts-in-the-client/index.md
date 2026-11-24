@@ -42,7 +42,7 @@ For example, if your server has a `format_document` prompt that expects a `doc_i
 
 ## Testing Prompts in Action[](https://academy.claude.com/courses/introduction-to-model-context-protocol/prompts-in-the-client)
 
-Once implemented, you can test prompts through the CLI. When you type a slash (`/`), available prompts appear as commands. Selecting a prompt like "format" will prompt you to choose from available documents.
+Once implemented, you can test prompts through the CLI. When you type a slash (`/`), available prompts appear as commands. Highlight a prompt like "format" with the arrow keys, then press the space bar, not Enter, to list the documents. Enter crashes the app until you pick one, so highlight a document first and then press Enter.
 
 ![The CLI after typing "/format plan.md", showing a dropdown of available documents — deposition.md, report.pdf, financials.docx, outlook.pdf, plan.md, and spec.txt — with plan.md highlighted](https://academy.claude.com/assets/media/d4db71aadca319d6c81483b5010f88bd1ad0508b6985ef6e59829c1e77af7ec0.png)
 

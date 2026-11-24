@@ -20,7 +20,7 @@ Claude includes a built-in web search tool that lets it search the internet for 
 
 ## Setting Up the Web Search Tool[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/the-web-search-tool)
 
-To use the web search tool, you create a schema object with these required fields:
+To use the web search tool, you create a schema object. The `type` and `name` fields are required, and `max_uses` is optional:
 
 python
 
@@ -32,7 +32,7 @@ web_search_schema = {
 }
 ```
 
-The `max_uses` field limits how many searches Claude can perform. Claude might do follow-up searches based on initial results, so this prevents excessive API calls.
+The `max_uses` field limits how many searches Claude can perform in a single turn. Claude might do follow-up searches based on initial results, so this prevents excessive searches.
 
 ## How It Works[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/the-web-search-tool)
 
@@ -48,7 +48,7 @@ The response contains several types of blocks:
 
 ## Restricting Search Domains[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/the-web-search-tool)
 
-You can limit searches to specific domains using the `allowed_domains` field. This is particularly useful when you want authoritative sources:
+You can limit searches to specific domains using the optional `allowed_domains` field. This is particularly useful when you want authoritative sources:
 
 python
 

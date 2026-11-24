@@ -56,7 +56,7 @@ Both components are configurable: you can easily choose to allow or disallow spe
 
 ![](https://assets.claude.com/957f5aaf1b2662b9ac5fe25815f0a8491f8966ff.png)
 
-Sandboxing ensures that even a successful prompt injection is fully isolated, and cannot impact overall user security. This way, a compromised Claude Code can't steal your SSH keys, or phone home to an attacker's server.
+Sandboxing ensures that [even a successful prompt injection is fully isolated](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents), and cannot impact overall user security. This way, a compromised Claude Code can't steal your SSH keys, or phone home to an attacker's server.
 
 To get started with this feature, run: `claude --sandbox`, and read more technical details about our security model here.
 
@@ -77,7 +77,7 @@ Our new sandboxed bash tool and Claude Code on the web offer substantial improve
 To get started with these tools:
 
 1. Run `claude --sandbox` and check out [our docs](https://docs.claude.com/en/docs/claude-code/sandboxing) on how to configure this sandbox.
-2. Go to [claude.com/code](http://claude.ai/redirect/claudedotcom.v1.9f6a2746-0a6b-40dc-b562-ab62f6129d4c/code) to try out Claude Code on the web.
+2. Go to [claude.com/code](http://claude.ai/redirect/claudedotcom.v1.91b7c031-a7fe-42ce-ace0-f436e7e60ed2/code) to try out Claude Code on the web.
 
 ‍
 
@@ -101,7 +101,17 @@ User feedback plays a crucial role in Claude's improvement. By analyzing user in
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
+
+### Zero data retention with Enterprise Frontier Safeguards is now in beta
+
+Claude Platform](https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards)[ArticleNov 23, 2026
+
+### Introducing Claude Ship
+
+Open a pull request and get back to building. Claude can now review pull requests, fix them, and approve the ones that a team's policy allows.
+
+Claude Ship](https://claude.com/resources/articles/introducing-claude-ship)[ArticleNov 17, 2026
 
 ### Linked billing on the Claude Platform
 
@@ -111,15 +121,7 @@ Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-
 
 Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
 
-Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)[ArticleNov 12, 2026
-
-### Introducing Claude for Manufacturing
-
-A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)[ArticleNov 12, 2026
-
-### Introducing Claude Meetings
-
-Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)
+Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)
 
 ## Transform how your organization operates with Claude
 

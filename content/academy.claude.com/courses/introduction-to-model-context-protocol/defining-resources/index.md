@@ -91,6 +91,10 @@ You can test resources using the MCP Inspector. Start your server with:
 
 `uv run mcp dev mcp_server.py`
 
+If you set up without uv, activate your Python environment and run this instead:
+
+`npx @modelcontextprotocol/inspector mcp run mcp_server.py`
+
 Then connect to your server in the inspector and open the **Resources** tab. You'll see two sections:
 
 - **URIs** - Lists your direct/static resources

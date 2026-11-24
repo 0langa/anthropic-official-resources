@@ -57,7 +57,13 @@ As models with the capabilities of Claude Mythos become part of everyday securit
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleOct 22, 2026
+[ArticleNov 23, 2026
+
+### KPMG's Todd Lohr on AI when your data is also your clients' data
+
+Todd Lohr, KPMG US Vice Chair and Head of Client Technology & Innovation, on adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data.
+
+Claude Enterprise](https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data)[ArticleOct 22, 2026
 
 ### Building agents: When to fold subagents into your main agent loop
 
@@ -73,14 +79,7 @@ Uber's CISO, Philip Martin, on the importance of monitoring and observability fo
 
 Bradley Axen, Head of AI Capabilities at Block, on how his team evaluates new large language models, how Claude Fable 5 orchestrates company-wide code migrations, and why safeguards are a critical part of deploying frontier intelligence responsibly, at scale.
 
-Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)[ArticleSep 29, 2026
-
-### Agents you can coach: how Asana builds human-agent teams with Claude
-
-Arnab Bose, Chief Product Officer at Asana, on how Asana runs AI agents as teammates with scoped roles, shared memory, and work that everyone can see.
-‍
-
-Claude Platform](https://claude.com/resources/articles/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude)
+Claude Enterprise](https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests)
 
 ## Transform how your organization operates with Claude
 

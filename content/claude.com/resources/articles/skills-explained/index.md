@@ -82,7 +82,7 @@ Embedded media: https://www.youtube-nocookie.com/embed/ysPbXH0LpIE?enablejsapi=1
 
 **Pro-tip:** Prompts are your primary way of interacting with Claude, but they don't persist across conversations. For repeated workflows or specialized knowledge, consider capturing prompts as Skills or project instructions.
 
-**When to use a Skill instead:** If you find yourself typing the same prompt repeatedly across multiple conversations, it's time to create a Skill. Transform recurring instructions like "review this code for security vulnerabilities using OWASP standards" or "format this analysis with executive summary, key findings, and recommendations" into Skills. This saves you from re-explaining procedures each time and ensures consistent execution.
+**When to use a Skill instead:** If you find yourself typing the same prompt repeatedly across multiple conversations, it's time to [create a Skill](https://claude.com/resources/guides/the-complete-guide-to-building-skills-for-claude). Transform recurring instructions like "review this code for security vulnerabilities using OWASP standards" or "format this analysis with executive summary, key findings, and recommendations" into Skills. This saves you from re-explaining procedures each time and ensures consistent execution.
 
 Check out our [prompt library](https://docs.claude.com/en/prompt-library/library), [prompting best practices](https://claude.com/resources/articles/best-practices-for-prompt-engineering), or [our smart prompt maker](https://claude.ai/public/artifacts/3796db7e-4ef1-4cab-b70c-d045778f23ec) to get started.
 
@@ -151,7 +151,7 @@ The Model Context Protocol (MCP) is an open standard for connecting AI assistant
 
 **Example:** Connect Claude to your company's Google Drive via MCP. Now Claude can search documents, read files, and reference internal knowledge without manual uploads—the connection persists and updates automatically.
 
-**When to use a Skill instead:** MCP connects Claude to data; Skills teach Claude what to do with that data. If you're explaining *how* to use a tool or follow procedures—like "when querying our database, always filter by date range first" or "format Excel reports with these specific formulas"—that's a Skill. If you need Claude to *access* the database or Excel files in the first place, that's MCP. Use both together: MCP for connectivity, Skills for procedural knowledge.
+**When to use a Skill instead:** MCP connects Claude to data; [Skills teach Claude what to do with that data](https://claude.com/resources/articles/extending-claude-capabilities-with-skills-mcp-servers). If you're explaining *how* to use a tool or follow procedures—like "when querying our database, always filter by date range first" or "format Excel reports with these specific formulas"—that's a Skill. If you need Claude to *access* the database or Excel files in the first place, that's MCP. Use both together: MCP for connectivity, Skills for procedural knowledge.
 
 [Learn more](https://www.anthropic.com/news/model-context-protocol) about MCP and check out [documentation](https://modelcontextprotocol.io/docs/develop/build-server) on how to build an MCP server.
 
@@ -361,7 +361,13 @@ Start using Skills with Claude to build more powerful applications today.
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
+
+### The enterprise guide to securing coding agents
+
+How security and technical leaders can understand and bound risk as they scale Claude Code
+
+Claude Code](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)[ArticleNov 17, 2026
 
 ### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
 
@@ -383,13 +389,7 @@ Claude Code
 
 Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
 
-Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
-
-### The Claude Tag guide for startups
-
-How leading startups use Claude Tag to ship faster and scale operations
-
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)
 
 ## Transform how your organization operates with Claude
 

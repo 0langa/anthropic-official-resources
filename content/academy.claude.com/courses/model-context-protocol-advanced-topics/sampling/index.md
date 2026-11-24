@@ -119,6 +119,8 @@ async with ClientSession(
     await session.initialize()
 ```
 
+This callback accepts every request, and each one is billed to your API key. Before you connect to a server you don't control, let the user review and deny requests, and limit how often the server can ask.
+
 ## When to Use Sampling[](https://academy.claude.com/courses/model-context-protocol-advanced-topics/sampling)
 
 Sampling is most valuable when building publicly accessible MCP servers. You don't want random users generating unlimited text at your expense. By using sampling, each client pays for their own AI usage while still benefiting from your server's functionality.

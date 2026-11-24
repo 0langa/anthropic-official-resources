@@ -155,7 +155,7 @@ See more
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
-27 posts
+28 posts
 
 Studies and monitors the impact of AI systems on individuals, firms, and economies.
 
@@ -197,7 +197,7 @@ Works to understand the risks of AI models and develop ways to ensure future one
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
-27 posts
+28 posts
 
 Studies and monitors the impact of AI systems on individuals, firms, and economies.
 

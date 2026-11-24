@@ -20,7 +20,11 @@ First, make sure your Python environment is activated (check your project's READ
 
 `mcp dev mcp_server.py`
 
-This starts the MCP Inspector and prints a local URL that starts with `http://127.0.0.1:6274`. If it doesn't open on its own, copy the full URL into your browser.
+`mcp dev` needs uv to start your server. If you set up without uv, run this instead:
+
+`npx @modelcontextprotocol/inspector mcp run mcp_server.py`
+
+Either command starts the MCP Inspector and prints a local URL that starts with `http://127.0.0.1:6274`. If it doesn't open on its own, copy the full URL into your browser.
 
 ## Using the Inspector Interface[](https://academy.claude.com/courses/introduction-to-model-context-protocol/the-server-inspector)
 

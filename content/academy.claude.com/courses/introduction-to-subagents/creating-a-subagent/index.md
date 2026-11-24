@@ -37,7 +37,7 @@ Next, you can choose how to create it. You can write the configuration manually,
 
 ## Customizing Tools[](https://academy.claude.com/courses/introduction-to-subagents/creating-a-subagent)
 
-During creation, you get the chance to customize which tools the subagent can access. The tool categories include:
+You can also choose which tools the subagent can access. The file's `tools` field lists them by name, such as `Read, Grep, Bash`. The wizard grouped them into categories, which are still a useful way to decide what to ask for:
 
 - Read-only tools
 - Edit tools
@@ -85,7 +85,7 @@ and identify issues that could impact reliability, security, maintainability, or
 Let's break down each field:
 
 - **`name`** -- A unique identifier for the subagent. This is how you reference it, either by asking Claude directly or by typing `@agent-code-quality-reviewer` in your message.
-- **`description`** -- Controls when Claude decides to use the subagent. This must be a single line (use escaped newline characters `\n` if you need breaks). You can include example conversations here to help Claude understand when delegation is appropriate.
+- **`description`** -- Controls when Claude decides to use the subagent. For line breaks, type `\n` where each break goes, or write `description: |` and put the text on the lines below it, indented with spaces (not tabs). A line of text that isn't indented can be dropped or stop the subagent from loading. You can include example conversations here to help Claude understand when delegation is appropriate.
 - **`tools`** -- Lists which tools the subagent can access. Claude fills this in from your request, but you can edit the list here at any time.
 - **`model`** -- Specifies which Claude model to use: an alias (`sonnet`, `opus`, `haiku`, or `fable`), a full model ID such as `claude-sonnet-5`, or `inherit`.
 - **`color`** -- The UI color for identifying the subagent.
@@ -123,6 +123,8 @@ Was this helpful?
 
 # Creating a subagent
 
+Correction: From 0:28, the video creates the subagent in the /agents wizard, which was removed in Claude Code v2.1.198. Ask Claude to write the subagent file instead. The file and its fields are unchanged. The video also says the description must be on a single line. It can span several lines. The words in brackets, at 2:10, correct what the video says.
+
 In the previous video, we covered what subagents are and how they work. Claude Code includes built-in subagents, but you can also create your own subagents as specialized in certain tasks.
 
 Custom subagents are markdown files with YAML front matter. These markdown files contain configuration that helps Claude understand when to use this subagent and provides directions to the subagent itself. Now the easiest way to create a subagent is with the /agents command. This panel is the main interface for managing your subagents.
@@ -135,7 +137,7 @@ Now given that our subagent is only responsible for reviewing code, you might de
 
 Now at the summary window, we see that the subagent config file will be saved into my current project at this path. Now let's open up that file to get a better idea of what's going on.
 
-The name field is a unique identifier. This is how you reference the subagent either by asking Claude directly or using @agent code quality reviewer in your message. The description controls when Claude decides to use the subagent. The description must be on a single line. Notice that there are escaped new line characters in there. If you want Claude to use the subagent automatically more often, add in the word proactively to the description. You can also add example conversations to help Claude understand when it should be using the subagent.
+The name field is a unique identifier. This is how you reference the subagent either by asking Claude directly or using @agent code quality reviewer in your message. The description controls when Claude decides to use the subagent. The description [can stay on a single line, as it does here, or span several indented lines after a | character]. Notice that there are escaped new line characters in there. If you want Claude to use the subagent automatically more often, add in the word proactively to the description. You can also add example conversations to help Claude understand when it should be using the subagent.
 
 The tools field lists which tools the subagent can access. The list of tools will match the tools we granted access to during the agent generation. But you can further edit the list of tools in this file if you want.
 

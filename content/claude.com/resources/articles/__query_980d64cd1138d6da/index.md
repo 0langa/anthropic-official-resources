@@ -40,11 +40,13 @@ A research preview is available by waitlist today, starting with US Pro, Max, an
 
 ![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
 
-### Linked billing on the Claude Platform
+### KPMG's Todd Lohr on AI when your data is also your clients' data
 
-Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)
+Todd Lohr, KPMG US Vice Chair and Head of Client Technology & Innovation, on adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data.
+
+Claude Enterprise](https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data)
 
 [ArticleNov 10, 2026
 
@@ -58,9 +60,15 @@ Featured resource 1 of 5: Your apps can now open in Claude, and Claude can work 
 
 Advanced filters(1)
 
-Showing 12 of 112 resources
+Showing 12 of 113 resources
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
+
+### The enterprise guide to securing coding agents
+
+How security and technical leaders can understand and bound risk as they scale Claude Code
+
+Claude Code](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)[ArticleNov 17, 2026
 
 ### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
 
@@ -136,12 +144,6 @@ How do you review code at the volume agents produce it? The Claude Code team sha
 
 Claude Code
 
-(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)[ArticleOct 15, 2026
-
-### Code Review is now generally available
-
-Catch more bugs before they reach production.
-
-Claude Code](https://claude.com/resources/articles/code-review-is-now-generally-available)
+(opens in new tab)](https://claude.dev/blog/solving-code-review-at-anthropic/)
 
 View more

@@ -332,7 +332,7 @@ Every **1st of the month at 6:00pm**[Open in Claude](https://claude.ai/deskto
 
 Share the skill
 
-You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/my-voice`, select **Share**, and pick your teammates. For your whole organization, open the skill and select **Publish to org**, if your admin allows. They get everything saved in the skill, including your profile and examples.
+You can share a skill you created. In [your skills(opens in new tab)](https://claude.ai/customize/skills/yours), open the **...** menu next to `/my-voice`, select **Share**, and pick your teammates. They get everything saved in the skill, including your profile and examples. Before you share, ask Claude to take out anything from real messages that they shouldn't see.
 
 ## Going forward[](https://academy.claude.com/use-cases/my-voice)
 

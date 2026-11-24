@@ -27,7 +27,7 @@ Knowledge workers whose day is spent moving information between files, apps, and
 
 Before you start
 
-- A paid Claude plan (Pro, Max, Team, or Enterprise); the Claude desktop app for the lessons that work on folders on your computer
+- A paid Claude plan (Pro, Max, Ultra, Team, or Enterprise); the Claude desktop app for the lessons that work on folders on your computer
 - Comfort with everyday desktop apps — no coding or command-line experience needed
 
 Cowork is Claude working directly with your files, folders, and apps — reading, editing, and producing real outputs. It turns a conversation with Claude into a working session: you describe the task, Claude plans and executes it, and you steer along the way.

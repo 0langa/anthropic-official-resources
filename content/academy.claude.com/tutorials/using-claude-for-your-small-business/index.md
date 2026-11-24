@@ -134,7 +134,7 @@ Reads each overdue invoice, scores the customer on how they've paid before, and 
 
 You read each draft, change what you want, and approve
 
-Nothing sends until you say so.
+Tell Claude which reminders to send.
 
 Outcome
 
@@ -142,11 +142,11 @@ A 30-day cash chart, a ranked overdue list with payment history, a reminder for 
 
 ## Things to note[](https://academy.claude.com/tutorials/using-claude-for-your-small-business)
 
-- **You approve before anything sends, posts, or pays** — skills draft, propose, and stage. Nothing goes out until you say so.
+- **Choose how Claude checks with you.** The plugin's skills tell Claude to get your approval before it sends, posts, or pays. Your [permission settings(opens in new tab)](https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork) and [what you allow each tool to do(opens in new tab)](https://claude.com/docs/connectors/getting-started) also decide when Claude has to stop and ask. Some settings let it go ahead without asking, and one of them may be your default. For anything that involves money or customers, check both, set Claude to ask you first, and read each action before you approve it.
 - **The big decisions stay with you** — Claude prepares the work and shows you what it found, but the calls that matter — what to charge, what to sign, what to send your accountant — are yours and your professionals' to make.
 - **The skills update when you correct them** — tell `/invoice-chase` you chase at 15 days, or tell `/monday-brief` what to lead with, and ask Claude to add the change to the plugin. Save the plugin again when Claude shows the updated version, and the next run uses the change. The pattern is in [How to customize plugins in Claude(opens in new tab)](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork).
 - **Your existing permissions hold** — Claude reads what your account in each tool can read. It can't see data you don't already have access to.
-- **Anthropic doesn't train Claude on your business data** — the full policy is in the [Trust Center(opens in new tab)](https://trust.anthropic.com/).
+- **How Anthropic uses your data depends on your plan.** Read the policy for [individual plans(opens in new tab)](https://privacy.claude.com/en/articles/10023580-is-my-data-used-for-model-training) or for [Team and Enterprise plans(opens in new tab)](https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training).
 
 ## Learn more[](https://academy.claude.com/tutorials/using-claude-for-your-small-business)
 

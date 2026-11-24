@@ -375,7 +375,7 @@ Make what we've done in this task so far into a skill called /offer-package.
 
 Hiring / Senior-PM-Growth / offersOpen in Claude
 
-Review the skill, and save it if Claude hasn't already.
+Review the skill, take out anything about this candidate (name, pay, interview notes), and save it if Claude hasn't already.
 
 
 

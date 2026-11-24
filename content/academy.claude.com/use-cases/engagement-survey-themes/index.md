@@ -352,7 +352,7 @@ Theme the open-text survey responses, segment by team and tenure where the data 
 
 Prompt
 
-**State the privacy rule explicitly.** "Never attribute a quote to an individual" tells Claude to leave names off quotes.
+**State the privacy rule explicitly.** "Never attribute a quote to an individual" tells Claude to leave names off quotes. A colleague may still recognize who wrote one, so read each quote before you share the brief.
 
 Prompt
 

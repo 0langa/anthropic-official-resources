@@ -6019,7 +6019,7 @@ Before v2.1.217, Claude Code dropped the failing writes without a warning, and a
 **What to do:**
 
 * Fix the condition the error code names: free disk space for `ENOSPC`; raise or clear the quota for `EDQUOT`; restore write access to the transcript location for `EACCES`, `EPERM`, or `EROFS`
-* The warning clears on its own at the next successful write; no restart is needed
+* The warning clears on its own at the next successful write
 * Messages sent while the warning was showing may still be missing when you resume the session later
 
 ### Transcript saving is off because CLAUDE_CODE_SKIP_PROMPT_HISTORY is set

@@ -24,7 +24,7 @@ Claude Tag is Claude in your team's Slack workspace. In a channel, write `@Claud
 
 This is also what makes Claude Tag more than a chatbot you ask questions. Because it lives in the channel, it can keep working when no one has tagged it:
 
-- **[Untagged replies(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-tag/proactivity-let-claude-reply-without-being-tagged):** in a channel where people post requests or problems, such as an IT help channel or a bug-report channel, you tell Claude once which messages to handle. From then on it replies to each new one on its own: answering the question, asking for missing details, or tagging the right owner.
+- **[Untagged replies(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-tag/proactivity-let-claude-reply-without-being-tagged):** in a channel where people post requests or problems, such as an IT help channel or a bug-report channel, you tell Claude once which messages to handle. From then on it can reply to new ones on its own: answering the question, asking for missing details, or tagging the right owner.
 - **[A standing responsibility(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-tag/proactivity-let-claude-reply-without-being-tagged):** Claude looks after something over days or weeks, for example keeping a launch checklist up to date and telling you when something slips.
 - **[Routines(opens in new tab)](https://academy.claude.com/courses/introduction-to-claude-tag/put-recurring-work-on-a-schedule):** you describe a task once, for example "post a summary of this channel every Monday at 9am," and Claude repeats it on that schedule.
 

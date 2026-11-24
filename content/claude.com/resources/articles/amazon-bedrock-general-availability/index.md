@@ -42,7 +42,11 @@ We can’t wait to see what you build.
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
+
+### Zero data retention with Enterprise Frontier Safeguards is now in beta
+
+Claude Platform](https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards)[ArticleNov 17, 2026
 
 ### Linked billing on the Claude Platform
 
@@ -56,11 +60,7 @@ Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self
 
 ### Introducing Claude for Manufacturing
 
-A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)[ArticleNov 12, 2026
-
-### Introducing Claude Meetings
-
-Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)
+A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)
 
 ## Transform how your organization operates with Claude
 

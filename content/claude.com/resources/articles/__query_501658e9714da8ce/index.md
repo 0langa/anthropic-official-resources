@@ -40,11 +40,13 @@ A research preview is available by waitlist today, starting with US Pro, Max, an
 
 ![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
 
-### Linked billing on the Claude Platform
+### KPMG's Todd Lohr on AI when your data is also your clients' data
 
-Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)
+Todd Lohr, KPMG US Vice Chair and Head of Client Technology & Innovation, on adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data.
+
+Claude Enterprise](https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data)
 
 [ArticleNov 10, 2026
 

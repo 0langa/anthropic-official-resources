@@ -10,7 +10,7 @@ We share a security framework for deploying autonomous AI agents in the enterpri
 
 Frontier AI models are compressing the timeline between vulnerability and exploit from months to hours. Defenders who adopt these tools find and fix bugs faster; attackers who adopt them, or who simply wait for defenders' patches and reverse-engineer them into exploits, move faster too. This is not a future concern: models can already find serious vulnerabilities that traditional tooling and human reviewers have missed for years.
 
-This acceleration matters twice for any organization deploying agents. The infrastructure your agents run on is exposed to AI-accelerated offense like the rest of your estate, and the agents themselves introduce autonomy to interpret goals, select tools, and execute multi-step operations. Traditional access controls won't prevent agents from misusing legitimate permissions, and monitoring needs to account for attacks designed to succeed through persistence rather than exploitation.
+This acceleration matters twice for any organization deploying agents. The infrastructure your agents run on is exposed to AI-accelerated offense like the rest of your estate, and the agents themselves introduce autonomy to interpret goals, select tools, and execute multi-step operations. Traditional access controls won't prevent [agents from misusing legitimate permissions](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents), and monitoring needs to account for attacks designed to succeed through persistence rather than exploitation.
 
 [Zero Trust](https://en.wikipedia.org/wiki/Zero_trust_architecture)—trust nothing, verify everything, and assume breach has already occurred—gives security leaders a proven foundation to address this. But the principles need new shape for agentic systems: identities that are cryptographically rooted, permissions scoped per task, memory protected against poisoning, and defensive operations that run at the speed of autonomous attackers.
 
@@ -35,7 +35,13 @@ Get started with [Claude Security](https://claude.com/product/claude-security) t
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
+
+### The enterprise guide to securing coding agents
+
+How security and technical leaders can understand and bound risk as they scale Claude Code
+
+Claude Code](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)[ArticleNov 17, 2026
 
 ### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
 
@@ -57,13 +63,7 @@ Claude Code
 
 Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
 
-Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
-
-### The Claude Tag guide for startups
-
-How leading startups use Claude Tag to ship faster and scale operations
-
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)
 
 ## Transform how your organization operates with Claude
 

@@ -449,7 +449,7 @@ Make what we've done in this task so far into a skill called /team-review-drafts
 
 ReviewsOpen in Claude
 
-Review the skill, and save it if Claude hasn't already.
+Review the skill, take out anything about your direct reports (names, review details), and save it if Claude hasn't already.
 
 
 

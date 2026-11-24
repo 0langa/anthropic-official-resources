@@ -506,6 +506,7 @@
     "https://www.anthropic.com/research/vibe-physics",
     "https://www.anthropic.com/research/visible-extended-thinking",
     "https://www.anthropic.com/research/what-work-can-robots-do",
+    "https://www.anthropic.com/research/working-with-ai",
     "https://www.anthropic.com/research/writing-tools-for-agents",
     "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
     "https://www.anthropic.com/research/your-thoughts-on-ai",
@@ -519,10 +520,10 @@
   ],
   "statuses": {
     "blocked": 27,
-    "complete": 5195,
-    "gone": 49,
+    "complete": 5238,
+    "gone": 50,
     "out_of_scope": 44,
-    "partial": 512
+    "partial": 513
   },
   "terminal_unarchived_urls": [
     "https://academy.claude.com/courses/tool-use-with-the-messages-api/**call.input",
@@ -939,6 +940,7 @@
     "https://support.claude.com/en/articles/15330089",
     "https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion",
     "https://support.claude.com/en/articles/17274727-artifact-usage-promotion",
+    "https://support.claude.com/en/articles/17889756-anthropic-ipo-international-retail-brokers-and-selling-agents",
     "https://support.claude.com/en/articles/18324088-redeem-the-mac-mini-and-claude-team-offer-through-cdw",
     "https://support.claude.com/en/articles/7996866-how-long-do-you-store-personal-data",
     "https://support.claude.com/en/articles/9945670-using-the-github-integration",
@@ -1240,6 +1242,7 @@
     "https://www.anthropic.com/research/vibe-physics",
     "https://www.anthropic.com/research/visible-extended-thinking",
     "https://www.anthropic.com/research/what-work-can-robots-do",
+    "https://www.anthropic.com/research/working-with-ai",
     "https://www.anthropic.com/research/writing-tools-for-agents",
     "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
     "https://www.anthropic.com/research/your-thoughts-on-ai",

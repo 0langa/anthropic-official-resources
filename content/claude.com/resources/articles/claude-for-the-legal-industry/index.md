@@ -238,33 +238,27 @@ For legal aid and access-to-justice organizations who are interested in partneri
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
+
+### Zero data retention with Enterprise Frontier Safeguards is now in beta
+
+Claude Platform](https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards)[ArticleNov 23, 2026
+
+### The enterprise guide to securing coding agents
+
+How security and technical leaders can understand and bound risk as they scale Claude Code
+
+Claude Code](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)[ArticleNov 23, 2026
+
+### Introducing Claude Ship
+
+Open a pull request and get back to building. Claude can now review pull requests, fix them, and approve the ones that a team's policy allows.
+
+Claude Ship](https://claude.com/resources/articles/introducing-claude-ship)[ArticleNov 17, 2026
 
 ### Linked billing on the Claude Platform
 
-Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)[ArticleNov 17, 2026
-
-### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
-
-How Claude spent two weeks load testing a staging cluster, breaking the Claude Docs service on purpose and fixing what fell over before launch, and what made the service legible enough for Claude to close the loop.
-
-Claude CodeClaude apps
-
-(opens in new tab)](https://claude.dev/blog/chaos-loop-claude-docs-launch/)[ArticleNov 16, 2026
-
-### How the Claude Code team thinks about verification
-
-How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest.
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)[ArticleNov 13, 2026
-
-### Building always-on agents
-
-Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
-
-Claude Platform](https://claude.com/resources/articles/building-always-on-agents)
+Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)
 
 ## Transform how your organization operates with Claude
 

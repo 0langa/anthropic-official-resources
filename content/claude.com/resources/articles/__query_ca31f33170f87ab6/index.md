@@ -40,11 +40,13 @@ A research preview is available by waitlist today, starting with US Pro, Max, an
 
 ![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
 
-### Linked billing on the Claude Platform
+### KPMG's Todd Lohr on AI when your data is also your clients' data
 
-Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)
+Todd Lohr, KPMG US Vice Chair and Head of Client Technology & Innovation, on adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data.
+
+Claude Enterprise](https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data)
 
 [ArticleNov 10, 2026
 
@@ -58,9 +60,15 @@ Featured resource 1 of 5: Your apps can now open in Claude, and Claude can work 
 
 Advanced filters(1)
 
-Showing 12 of 47 resources
+Showing 12 of 48 resources
 
-[ArticleNov 5, 2026
+[ArticleNov 23, 2026
+
+### KPMG's Todd Lohr on AI when your data is also your clients' data
+
+Todd Lohr, KPMG US Vice Chair and Head of Client Technology & Innovation, on adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data.
+
+Claude Enterprise](https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data)[ArticleNov 5, 2026
 
 ### More visibility and control over Claude Enterprise for security teams
 
@@ -122,13 +130,6 @@ Claude Enterprise](https://claude.com/resources/articles/deploying-ai-from-pilot
 
 Our CI job volume increased 25x over 6 months. We patched our test selection service three times before finding a sustainable solution.
 
-Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)[ArticleAug 21, 2026
-
-### The AI-native SDLC playbook
-
-How to transform your software development lifecycle with AI—stage by stage.
-‍
-
-Claude EnterpriseClaude Code1 more: Claude TagClaude Tag](https://claude.com/resources/articles/the-ai-native-sdlc-playbook)
+Claude CodeClaude Enterprise1 more: Claude TagClaude Tag](https://claude.com/resources/articles/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic)
 
 View more

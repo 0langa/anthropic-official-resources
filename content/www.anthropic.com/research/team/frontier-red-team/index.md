@@ -18,7 +18,6 @@ Our researchers work to translate technical findings into useful evidence for de
 - [![LLMs are making formal software verification feasible at a much larger scale](https://assets.claude.com/0527d779c530eef166457ec5145f51395af53fe7.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/formal-verification)
 - [![Claude reveals ECDSA curve origins](https://assets.claude.com/221374eb84b550e64121d1cd8a7216d1b68406c9.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/ecdsa-curve-origins)
 - [![Launching an opt-in vulnerability-finding service for open-source software](https://assets.claude.com/8f74a7a10dca58459cd908ae8ebf9d3d4a8c5eb6.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source)
-- [![GLM-5.3 and the spread of advanced cyber capabilities](https://assets.claude.com/503368eb8992f028e85e92ed327a24ce34c943d4.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities)
 
 [Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
 
@@ -46,19 +45,11 @@ We’re making available OSS Scanner, an opt-in vulnerability scanner for the op
 
 [Read more](https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source)
 
-[Frontier Red Team](https://www.anthropic.com/research/team/frontier-red-team)
-
-Sep 29, 2026[## GLM-5.3 and the spread of advanced cyber capabilities](https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities)
-
-Like Claude Mythos Preview, GLM-5.3 has strong capabilities for autonomously building end-to-end cyber exploits. But unlike other frontier models, GLM-5.3 has been released without meaningful safeguards to limit misuse.
-
-[Read more](https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities)
-
 01
 
 /
 
-05
+04
 
 38
 
@@ -174,7 +165,7 @@ Works to understand the risks of AI models and develop ways to ensure future one
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
-27 posts
+28 posts
 
 Studies and monitors the impact of AI systems on individuals, firms, and economies.
 
@@ -216,7 +207,7 @@ Works to understand the risks of AI models and develop ways to ensure future one
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
-27 posts
+28 posts
 
 Studies and monitors the impact of AI systems on individuals, firms, and economies.
 

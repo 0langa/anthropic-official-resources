@@ -111,9 +111,10 @@ In terminal sessions, a synced plugin's skills, agents, hooks, MCP servers, and 
 
 For the components Cowork loads, see the [component support table](https://claude.com/docs/plugins/platform-support#compare-component-support-by-app) on claude.com.
 
-Synced plugins load in Cowork sessions and in terminal sessions where you sign in with your claude.ai account:
+Synced plugins load in Cowork sessions, cloud sessions, and terminal sessions where you sign in with your claude.ai account:
 
 * **[Cowork](https://claude.com/product/cowork)**: Claude Code downloads them into the session's own environment when the session starts
+* **[Cloud sessions](/docs/en/claude-code-on-the-web)**: they download when you start a session or Claude starts a thread in your [project](/docs/en/claude-projects). For a self-hosted environment, see [what differs on Amazon Bedrock or Google Cloud's Agent Platform](/docs/en/self-hosted-environments-configuration#what-differs-from-sessions-on-the-anthropic-api)
 * **Terminal sessions**: each time you start Claude Code, it syncs once in the background, downloading new and updated plugins and removing the ones that you or your organization turned off. Syncing in terminal sessions requires Claude Code v2.1.273 or later
 
 #### Sync timing in cloud Cowork sessions

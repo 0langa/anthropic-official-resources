@@ -1,7 +1,7 @@
 # CLI reference
 Source: https://code.claude.com/docs/en/cli-reference
 
-Complete reference for Claude Code command-line interface, including commands and flags.
+Reference for the Claude Code command-line interface, including commands and flags.
 
 ## CLI commands
 

@@ -1,34 +1,34 @@
 {
-  "actionable_missing_pages": 0,
-  "actionable_population_complete": true,
-  "archived_pages": 5735,
+  "actionable_missing_pages": 5,
+  "actionable_population_complete": false,
+  "archived_pages": 5780,
   "by_host": {
     "academy.claude.com": {
       "archived_pages": 893,
       "discovered_pages": 898
     },
     "claude.com": {
-      "archived_pages": 871,
-      "discovered_pages": 880
+      "archived_pages": 875,
+      "discovered_pages": 884
     },
     "code.claude.com": {
-      "archived_pages": 256,
-      "discovered_pages": 258
+      "archived_pages": 272,
+      "discovered_pages": 274
     },
     "platform.claude.com": {
-      "archived_pages": 2253,
-      "discovered_pages": 2283
+      "archived_pages": 2275,
+      "discovered_pages": 2310
     },
     "support.claude.com": {
-      "archived_pages": 800,
-      "discovered_pages": 834
+      "archived_pages": 802,
+      "discovered_pages": 836
     },
     "www.anthropic.com": {
-      "archived_pages": 662,
-      "discovered_pages": 674
+      "archived_pages": 663,
+      "discovered_pages": 675
     }
   },
-  "discovered_pages": 5827,
+  "discovered_pages": 5877,
   "exact_website_replica": false,
   "limitations": [
     "Discovery is the union of public indexes and hyperlinks, not proof that unlinked pages do not exist.",
@@ -358,6 +358,7 @@
     "https://support.claude.com/en/articles/15330089": "HTTP 404: https://support.claude.com/en/articles/15330089",
     "https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion": "HTTP 404: https://support.claude.com/en/articles/15400594-claude-cowork-june-2026-usage-promotion",
     "https://support.claude.com/en/articles/17274727-artifact-usage-promotion": "HTTP 404: https://support.claude.com/en/articles/17274727-artifact-usage-promotion",
+    "https://support.claude.com/en/articles/17889756-anthropic-ipo-international-retail-brokers-and-selling-agents": "HTTP 404: https://support.claude.com/en/articles/17889756-anthropic-ipo-international-retail-brokers-and-selling-agents",
     "https://support.claude.com/en/articles/18324088-redeem-the-mac-mini-and-claude-team-offer-through-cdw": "HTTP 404: https://support.claude.com/en/articles/18324088-redeem-the-mac-mini-and-claude-team-offer-through-cdw",
     "https://support.claude.com/en/articles/7996866-how-long-do-you-store-personal-data": "HTTP 404: https://support.claude.com/en/articles/7996866-how-long-do-you-store-personal-data",
     "https://support.claude.com/en/articles/9945670-using-the-github-integration": "HTTP 404: https://academy.claude.com/tutorials/using-the-github-integration",
@@ -659,6 +660,7 @@
     "https://www.anthropic.com/research/vibe-physics": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/visible-extended-thinking": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/what-work-can-robots-do": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/research/working-with-ai": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/writing-tools-for-agents": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/yes-claude-can-do-nine-loops": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/your-thoughts-on-ai": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
@@ -671,10 +673,10 @@
     "https://www.anthropic.com/transparency/voluntary-commitments": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/webinars": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   },
-  "missing_pages": 92,
+  "missing_pages": 97,
   "page_inventory_complete": false,
-  "pages_with_content_notes": 3871,
-  "retained_partial_pages": 512,
+  "pages_with_content_notes": 3913,
+  "retained_partial_pages": 513,
   "terminal_pages": 92,
   "terminal_statuses": {
     "blocked": 27,

@@ -2,6 +2,7 @@
 
 *Opus 5.5 is the default model in Claude on Pro, Max, Ultra, and Team plans. Here's how it compares with our other models, and how to get the most from it for knowledge work.*
 
+- Category[Best practices](https://claude.com/resources/best-practices)
 - AuthorAleksandra Todorova
 - DateNovember 12, 2026
 - Reading time12 min
@@ -92,11 +93,13 @@ Pick something you'd normally split across several requests, like a research mem
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
 
-### Linked billing on the Claude Platform
+### The enterprise guide to securing coding agents
 
-Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)[ArticleNov 17, 2026
+How security and technical leaders can understand and bound risk as they scale Claude Code
+
+Claude Code](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)[ArticleNov 17, 2026
 
 ### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
 

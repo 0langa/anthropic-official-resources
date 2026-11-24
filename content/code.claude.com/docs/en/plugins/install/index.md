@@ -66,7 +66,7 @@ Pick the tab for where you run Claude Code.
 >
 > The last sentence of the summary tells you whether the plugin is usable in this session yet:
 >
-> * **Active now**: `Plugin is now active.` No reload is needed.
+> * **Active now**: `Plugin is now active.`
 > * **Active, but a server needs setup**: `Plugin is now active.` is followed by a note that starts `Its bundled MCP server needs`. The plugin's [bundled MCP server](/docs/en/plugins/components#include-a-packaged-mcpb-server) can't start until you set its options. Select the plugin on the **Installed** tab in `/plugin` and choose **Configure**.
 > * **Reload needed**: `Run /reload-plugins to apply.` The panel closes and Claude Code runs that reload for you. If the reload would [invalidate the prompt cache](/docs/en/prompt-caching#enabling-or-disabling-a-plugin), it warns and leaves the plugin pending instead. Run `/reload-plugins --force` to activate it anyway, which costs one uncached request.
 > * **Load failed**: the summary includes `The plugin couldn't`. Open the **Errors** tab in `/plugin` for the reason, then see [After install: plugin not working](/docs/en/plugins/troubleshooting#plugin-installed-but-not-working).
@@ -120,9 +120,9 @@ Pick the tab for where you run Claude Code.
 
 > [tab] Cloud session
 >
-> A [cloud session](/docs/en/cloud-environments), including [the browser at claude.ai/code](/docs/en/claude-code-on-the-web), has no plugin browser and doesn't load the plugins you installed at user or local scope. For plugins your organization distributes through managed settings, see [Manage plugins for your organization](/docs/en/plugins/org).
+> To use a plugin in a [cloud session](/docs/en/cloud-environments), add it to your claude.ai account at [claude.ai/customize/plugins](https://claude.ai/customize/plugins), then start a new session. You can [pick a listed plugin, add a marketplace, or upload a plugin](https://claude.com/docs/plugins/overview#find-and-add-a-plugin). On Team and Enterprise plans, an [Owner](/docs/en/server-managed-settings#access-control) controls which of these you can use. For a self-hosted environment, see [what differs on Amazon Bedrock or Google Cloud's Agent Platform](/docs/en/self-hosted-environments-configuration#what-differs-from-sessions-on-the-anthropic-api).
 >
-> See [which parts of your setup are also available in a cloud session](/docs/en/cloud-environments#what-carries-over-from-your-setup) for the rest of your setup.
+> Plugins you install on your computer at user or local scope aren't available in cloud sessions. For plugins your organization distributes through managed settings, see [Manage plugins for your organization](/docs/en/plugins/org). For the rest of your setup, see [What carries over from your setup](/docs/en/cloud-environments#what-carries-over-from-your-setup).
 
 ### Choose an install scope
 

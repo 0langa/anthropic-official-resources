@@ -15,7 +15,7 @@ For organizations planning their 2026 priorities, four areas demand immediate at
 1. **Mastering multi-agent coordination** to handle complexity that single-agent systems cannot address
 2. **Scaling human-agent oversight** through AI-automated review systems that focus human attention where it matters most
 3. **Extending agentic coding beyond engineering** to empower domain experts across departments
-4. **Embedding security architecture** as a part of agentic system design from the earliest stages
+4. [**Embedding security architecture** as a part of agentic system design (opens in new tab)](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents) from the earliest stages
 
 Organizations that treat agentic coding as a strategic priority in 2026 will define what becomes possible, while those that treat it as an incremental productivity tool will discover they are competing in a game with new rules. The key to success lies in understanding that the goal isn't to remove humans from the loop—it's to make human expertise count where it matters most.
 

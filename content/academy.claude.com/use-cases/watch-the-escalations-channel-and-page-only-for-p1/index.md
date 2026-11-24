@@ -6,7 +6,7 @@ Set up Claude Tag to triage escalations in your channel. It can set a severity, 
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-f1s0xs3j.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cb395e2p.png)
 
-A support team no longer needs someone reading every post in the escalations channel to catch the urgent one. Claude Tag can assess and route a message the moment it arrives, and @-mention a person only for a P1.
+A support team can spend less time watching the escalations channel for the urgent one. Claude Tag can assess and route a message when it arrives, and @-mention a person only for a P1.
 
 With your ticketing tool connected, give Claude Tag that job as a **[standing responsibility(opens in new tab)](https://claude.com/docs/claude-tag/users/proactivity)**. With **[proactive replies(opens in new tab)](https://claude.com/docs/claude-tag/users/when-claude-responds)** on for the channel, Claude triages each escalation without being tagged. It matches the escalation to earlier tickets and tags the team that owns it. It also drafts a first response for an agent to send. Anyone in the channel can correct a severity or an owner, or change when Claude alerts a person.
 
@@ -32,7 +32,7 @@ Public or private. Post the instruction in the channel itself rather than in a t
 
 Zendesk, Intercom or Jira Service ManagementRequired
 
-Connected to the channel with write access, so Claude can match new escalations to earlier tickets and merge duplicates. Your admin grants it per channel.
+Connected to the channel, so Claude can match new escalations to earlier tickets and flag likely duplicates. To link tickets, as in the P1 example below, Claude needs write access. Your admin grants it per channel.
 
 Include `@Claude` in the escalation integration's message template so each post reaches Claude without anyone tagging it. If it can't, a person tags Claude in the escalation's thread.
 
@@ -64,7 +64,7 @@ Send this once in your escalations channel. From then on, Claude sets a severity
 
 Here are Claude's replies to four escalations posted one Tuesday, shown together. Each went in its own escalation's thread:
 
-Film: from a standing instruction, Claude triages escalations in a support channel, setting severities, matching and merging tickets, tagging an owning team and drafting replies for an agent to send, and mentions the on-call lead only for a P1.
+Film: from a standing instruction, Claude triages escalations in a support channel, setting severities, matching tickets, flagging likely duplicates, tagging an owning team and drafting replies for an agent to send, and mentions the on-call lead only for a P1.
 
 #support-escalationsZYReplay
 
@@ -72,7 +72,7 @@ Y
 
 Yousent once, last weekCopy
 
-@Claude remember for this channel: classify each escalation by severity, match it against prior tickets and merge duplicates into the open ticket, tag the owning team, and page a person only if it is a P1.
+@Claude remember for this channel: classify each escalation by severity, match it against prior tickets, flag likely duplicates and leave the merge to an agent, tag the owning team, and page a person only if it is a P1.
 
 Tuesday
 
@@ -124,11 +124,11 @@ Customer update, Whitlock Group (ESC-4473)Not sent
 
 posted in the escalation's thread · an agent sends it from your support tool
 
-
+
 
-Merged ESC-4473 into ESC-4388
+Flagged ESC-4473 as a likely duplicate of ESC-4388
 
-in the connected ticketing tool · no new ticket opened
+in the escalation's thread · an agent decides whether to merge
 
 
 
@@ -138,9 +138,9 @@ in the connected ticketing tool
 
 This is an illustrative example of what Claude Tag can do.
 
-Claude mentioned Zoe because three related reports made this a P1. It tagged the account team because the instruction says to tag the team that owns it. It merged and linked tickets in the support tool, and the drafted replies are for an agent to send.
+Claude mentioned Zoe because three related reports made this a P1. It tagged the account team because the instruction says to tag the team that owns it. It flagged the likely duplicate and left the merge to an agent. The drafted replies are for an agent to send.
 
-Before an agent acts on one, open the ticket Claude matched and read the draft.
+Before merging tickets or sending a reply, open the ticket Claude matched and read the draft.
 
 ## Follow ups[](https://academy.claude.com/use-cases/watch-the-escalations-channel-and-page-only-for-p1)
 

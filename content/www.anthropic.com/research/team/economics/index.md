@@ -67,11 +67,15 @@ To see what works and what breaks when agents are sent into a market, we made a
 
 05
 
-27
+28
 
 ARTICLES
 
 Most recentGrid view
+
+Nov 23, 2026![](https://assets.claude.com/105d9bbc7744153eb45473e80b4918a631c4111c.png?w=1920&q=75&fm=webp&fit=max)
+
+### [Working with AI](https://www.anthropic.com/research/working-with-ai)
 
 Nov 5, 2026![](https://assets.claude.com/85655fc29093e4a794f17c32de30480ef38db782.jpg?w=1080&q=75&fm=webp&fit=max)
 
@@ -165,10 +169,6 @@ Sep 15, 2025![](https://assets.claude.com/244d1d62265eb0392bbe2cb587f828651fa8ad
 
 ### [Anthropic Economic Index: Tracking AI’s role in the US and global economy](https://www.anthropic.com/research/economic-index-geography)
 
-Sep 15, 2025![](https://assets.claude.com/6f159411c32d404ccea1a809a2c1dd99402ca45c.jpg?w=1080&q=75&fm=webp&fit=max)
-
-### [Anthropic Economic Index report: Uneven geographic and enterprise AI adoption](https://www.anthropic.com/research/anthropic-economic-index-september-2025-report)
-
 See more
 
 ## Explore work from other teams
@@ -211,7 +211,7 @@ Explores how AI can increase the pace of scientific progress through both resear
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
-27 posts
+28 posts
 
 Studies and monitors the impact of AI systems on individuals, firms, and economies.
 
@@ -253,6 +253,6 @@ Explores how AI can increase the pace of scientific progress through both resear
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
-27 posts
+28 posts
 
 Studies and monitors the impact of AI systems on individuals, firms, and economies.

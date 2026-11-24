@@ -82,11 +82,11 @@ The **name** identifies your skill. The **description** tells Claude when to use
 
 ## Testing Your Skill[](https://academy.claude.com/courses/introduction-to-agent-skills/creating-your-first-skill)
 
-Claude Code watches your skills directories, so a new skill is available in the current session without a restart. If `~/.claude/skills` didn't exist when the session started, Claude Code isn't watching it yet, so run `/reload-skills` now, and again after each later change. You can verify your skill is available by checking the available skills list.
+Claude Code watches your skills directories, so a new skill is available in the current session without a restart. If a new skill doesn't show up, run `/reload-skills`. You can verify your skill is available by checking the available skills list.
 
 ![Claude Code Available Skills output, with skills such as "documentation", "debugging", pr-description and commit-message.](https://academy.claude.com/assets/media/d0528266edd1bb7977cdc3b270c851e43b1242dc0c8b83b45bb153181412358d.png)
 
-You should see your skill listed. To test it, make some changes on a branch and say something like "write a PR description for my changes." Claude will indicate it's using the PR description skill, check your diff, and write a description following your template — same format every time.
+You should see your skill listed. To test it, commit some changes on a branch, because the skill's `git diff` shows only committed work. If your default branch isn't `main`, update that command in the skill. Then say something like "write a PR description for my changes." Claude will indicate it's using the PR description skill, check your diff, and write a description following your template — same format every time.
 
 ## How Skill Matching Works[](https://academy.claude.com/courses/introduction-to-agent-skills/creating-your-first-skill)
 

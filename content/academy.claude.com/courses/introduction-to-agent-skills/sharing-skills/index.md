@@ -142,6 +142,8 @@ Was this helpful?
 
 # Sharing skills
 
+Correction: The video says built-in subagents can't use skills, and that custom subagents can use only the skills you list. A subagent that has the Skill tool can find and invoke skills. The words in brackets, at 1:56 and 2:04, correct what the video says.
+
 Skills become more valuable when shared. A PR review skill that only you use is helpful. The same skill shared across your team standardizes code review and provides a consistent experience amongst your organization, which is much better. Here are ways you can share your skills.
 
 Now, the simplest sharing method is committing skills to your repository. Place them in .claude/skills. Anyone who clones a repository gets these skills automatically. No extra installation. It's just what you're doing already. When you push updates, everyone gets them on the next pull. This works well for team coding standards, project-specific workflows, skills that reference your codebase structure.
@@ -150,7 +152,7 @@ Another way you can distribute your skills is through plugins. Think of plugins 
 
 Administrators can deploy skills organization-wide through managed settings. Enterprise skills take highest priority. Like we discussed before, they override personal project and plugin skills with the same name. This is for mandatory standards, security requirements, compliance workflows, coding practices that must be consistent across the organization. Keyword must.
 
-Here's something that surprises people. Subagents don't automatically see your skills. Yeah. When you delegate a task to a subagent, it starts with a fresh, clean context. Built-in agents like the Explore, Plan, and Verify can't access skills at all. Only custom subagents you define can use them, and only when you explicitly list them.
+Here's something that surprises people. [Subagents don't see the skills you've already invoked.] Yeah. When you delegate a task to a subagent, it starts with a fresh, clean context. [Built-in agents like Explore and Plan don't preload skills, but a subagent that has the Skill tool can still find and invoke them. Only custom subagents you define can preload skills, and only the ones you list.]
 
 To create a custom subagent with skills, add an agent.md file in .claude/agents. The skills field lists which skills to load. These skills are loaded when the subagent starts, not on demand like in the main conversation. So take that into consideration. First ensure these skills exist. Okay, it exists. Then create the subagent using the Claude Code subagent creator. If you have a subagent that you want to add these skills to already, just go to the existing agent.md file. Then after that, create the skills field and add your skills. When you delegate to the subagent, it has both skills loaded and applies them to every single review.
 

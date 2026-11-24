@@ -12,7 +12,7 @@ Connect the IT knowledge base and the ticket queue to the channel and give Claud
 
 ## Set up[](https://academy.claude.com/use-cases/answer-requests-in-the-it-help-channel)
 
-Checklist: the setup for giving Claude a standing responsibility in an IT help channel, covering where to post the instruction, the required knowledge base and ticketing tools, Okta or Jamf as an optional tool, and turning on Respond automatically.
+Checklist: the setup for giving Claude a standing responsibility in an IT help channel, covering where to post the instruction, the required knowledge base and ticketing tools, and turning on Respond automatically.
 
 
 
@@ -39,12 +39,6 @@ Connected to the channel with your IT policies and how-to articles, so Claude ca
 Jira Service Management, ServiceNow or FreshserviceRequired
 
 Connected with write access, so Claude can file a ticket and assign it to the owner.
-
-
-
-Okta or JamfOptional
-
-If connected, Claude can check the state of someone's account or device before it answers.
 
 
 

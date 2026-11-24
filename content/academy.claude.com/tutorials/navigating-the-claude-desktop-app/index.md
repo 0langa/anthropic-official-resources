@@ -141,13 +141,13 @@ A task in Claude, on the web or the desktop app, can also work in your own Chrom
 
 Some pages carry hidden text meant to mislead an AI, and safety checks reduce that risk without removing it. Start with sites you trust, and handle anything sensitive yourself, like bank accounts or health records. See [Use Claude in Chrome safely(opens in new tab)](https://support.claude.com/en/articles/12902428-using-claude-for-chrome-safely) and [Use the built-in browser(opens in new tab)](https://support.claude.com/en/articles/16607400).
 
-### Your screen, through computer use (beta)[](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)
+### Your screen, through computer use[](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)
 
 For work that isn't in your files, connected tools, or on the web, computer use lets Claude work in other apps and programs by using your screen, mouse, and keyboard. Claude usually tries a connector first, then the built-in browser, and turns to computer use when neither fits, because clicking through one step at a time is the slowest of the three.
 
 Computer use suits installed software with no connector, like an accounting program, a design tool, or an internal company app, and work that moves between apps, such as taking figures from one program into another.
 
-Once it's turned on in Settings, Claude uses computer use on its own when a task needs it, or when you ask for it directly. While it works, Claude is moving the cursor and typing.
+If your plan includes computer use and it isn't on yet, turn it on in Settings. Claude then uses it when a task needs it, or when you ask for it directly. Depending on your computer, your settings, and the task, Claude either works in background windows, so you can keep using your computer, or takes over the cursor and keyboard.
 
 Things to ask:
 
@@ -157,7 +157,7 @@ Things to ask:
 
 
 
-By default, Claude asks before using an app, and you can stop Claude at any time. Claude can see what's on your screen while it works, so close anything sensitive first. See [Let Claude use your computer(opens in new tab)](https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork).
+By default, Claude asks before it uses an app. Once you approve, it can keep using that app in the same session without asking again, and you can stop Claude at any time. Through the apps you approve, Claude can open, change, or delete files outside the folders you've connected, and it may delete a file without asking you first. Claude can see what's on your screen while it works, so close anything sensitive first. See [Let Claude use your computer(opens in new tab)](https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork).
 
 ### Record a skill[](https://academy.claude.com/tutorials/navigating-the-claude-desktop-app)
 
@@ -208,8 +208,8 @@ Good to know
 Working in your folders, the built-in browser, computer use, and Record a skill need a paid plan:
 
 - Folders come with every paid plan.
-- The built-in browser is on Pro, Max, Ultra, Team, and Enterprise. On Team and Enterprise plans, your organization's owner controls whether it's available.
-- Computer use is in beta on Mac and Windows, for Pro, Max, and Ultra.
+- The built-in browser is on Pro, Max, Ultra, Team, and Enterprise. On Team and Enterprise plans, your admin controls whether it's available.
+- Computer use is on Mac and Windows. Check [Let Claude use your computer(opens in new tab)](https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork) to see whether your plan includes it. On Team and Enterprise plans, it's in beta, and your admin decides whether to turn it on.
 - Record a skill is on Pro, Max, Ultra, and Team, on Mac.
 
 On Team and Enterprise plans, your admin can limit which extensions are allowed. See [Install Claude Desktop(opens in new tab)](https://support.claude.com/en/articles/10065433-install-claude-desktop).

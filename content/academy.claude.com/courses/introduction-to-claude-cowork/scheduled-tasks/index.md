@@ -85,9 +85,8 @@ Scheduled Tasks in Cowork: Set it once, Claude handles the rest
 SummaryTranscript
 
 This video was recorded in an earlier version of the app, so some screens
-may look different. Where a
-scheduled task runs, and whether your computer needs to be on, is covered
-just below.
+may look different. Whether your computer needs to be on for a scheduled
+task is covered just below.
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=b-ntWZqHF78)
 
@@ -95,7 +94,7 @@ Scheduled tasks let you set up a task once and have Claude run it on a cadence.
 
 There are two ways to set up a scheduled task. You can start fresh: ask Claude to set up a scheduled task, describe the task and the cadence, and Claude drafts a prompt for you to review and accept. Or take the more natural path: do the task once in Cowork, confirm the output looks right, then ask Claude to turn that exact process into a recurring one. Tell Claude your preferred cadence (for example hourly, daily, weekdays, or weekly), review the prompt, and accept.
 
-Where a scheduled task runs depends on what it needs. A task that only uses your connectors can run remotely at its set time — your computer doesn't need to be on. A task that needs files or apps on your computer runs on your computer, so the desktop app has to be open at the time; if your laptop is closed, asleep, or off at the scheduled time, Claude picks the task up as soon as you're back and lets you know it was delayed.
+Whether your computer needs to be on depends on where the task runs and what it uses. On most plans, a task that only uses your connectors can run remotely at its set time, so your computer doesn't need to be on. A task that runs on your computer, or uses files or apps on it, needs the computer awake and the desktop app open at its set time. If your laptop is closed, asleep, or off, that run may start late, once you're back, or be skipped until the next scheduled time.
 
 Some ideas worth scheduling:
 

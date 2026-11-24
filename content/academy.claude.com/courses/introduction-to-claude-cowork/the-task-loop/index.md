@@ -31,6 +31,8 @@ done.
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=Lbml7IuGJYw)
 
+*The video was recorded in an earlier version of the app, so some screens and settings may look different. On most plans, new tasks now [run in the cloud(opens in new tab)](https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile), where they're saved to your Claude account. The desktop app needs to stay open when a task runs on your computer or uses files or apps on it.*
+
 ### Key takeaways[](https://academy.claude.com/courses/introduction-to-claude-cowork/the-task-loop)
 
 - **Claude may ask before it commits.** Some tasks start with a clarifying question or two. The questions are how Claude closes context gaps before the work starts, not friction in the way.
@@ -166,9 +168,11 @@ Was this helpful?
 
 # Hand Claude Cowork your first task
 
+Correction: The video's list of plans leaves out Ultra. The word in brackets, at 0:30, corrects what the video says.
+
 Claude Cowork meets you where your work happens, and allows you to delegate complete tasks to Claude. If it's on your computer, Claude can find and edit it. If it's in the cloud, Claude connects through services like Google Drive, Notion, and Slack. If it's in the browser, Claude is there too through Claude in Chrome. Describe what you need done and Claude does it. You can watch it work, steer when it matters, or step away and come back to the results.
 
-Claude Cowork is generally available in the Claude Desktop app on macOS and Windows for Pro, Max, Team, and Enterprise users. To get started, open Claude Desktop and click the Cowork tab. In a regular Claude chat, you work with Claude step-by-step. In Cowork, you hand off tasks and Claude handles the rest while you focus on other work.
+Claude Cowork is generally available in the Claude Desktop app on macOS and Windows for Pro, Max, [Ultra,] Team, and Enterprise users. To get started, open Claude Desktop and click the Cowork tab. In a regular Claude chat, you work with Claude step-by-step. In Cowork, you hand off tasks and Claude handles the rest while you focus on other work.
 
 First, give Claude access to a folder on your computer. Select the folder directory or project you want Claude to operate in. It asks permission before making changes to your file system. Claude can now read, create, and edit files in that folder directly. You can favorite the folders you go to most or select multiple folders to connect disparate data sources.
 

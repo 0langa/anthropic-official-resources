@@ -3786,6 +3786,7 @@ https://academy.claude.com/assets/v1/thumbnail.dark-k1zbkjix.png
 https://academy.claude.com/assets/v1/thumbnail.dark-k41o64xt.png
 https://academy.claude.com/assets/v1/thumbnail.dark-k4i3k0hw.png
 https://academy.claude.com/assets/v1/thumbnail.dark-k5ry1o36.png
+https://academy.claude.com/assets/v1/thumbnail.dark-k5ywic40.png
 https://academy.claude.com/assets/v1/thumbnail.dark-k5yy2xcp.png
 https://academy.claude.com/assets/v1/thumbnail.dark-k7xxgqjb.png
 https://academy.claude.com/assets/v1/thumbnail.dark-kabymbiu.png
@@ -4167,6 +4168,7 @@ https://academy.claude.com/assets/v1/thumbnail.dark.losslessr1-k1zbkjix.webp
 https://academy.claude.com/assets/v1/thumbnail.dark.losslessr1-k41o64xt.webp
 https://academy.claude.com/assets/v1/thumbnail.dark.losslessr1-k4i3k0hw.webp
 https://academy.claude.com/assets/v1/thumbnail.dark.losslessr1-k5ry1o36.webp
+https://academy.claude.com/assets/v1/thumbnail.dark.losslessr1-k5ywic40.webp
 https://academy.claude.com/assets/v1/thumbnail.dark.losslessr1-k5yy2xcp.webp
 https://academy.claude.com/assets/v1/thumbnail.dark.losslessr1-k7xxgqjb.webp
 https://academy.claude.com/assets/v1/thumbnail.dark.losslessr1-kabymbiu.webp
@@ -4760,6 +4762,7 @@ https://academy.claude.com/assets/v1/thumbnail.light-jslgxynt.png
 https://academy.claude.com/assets/v1/thumbnail.light-jwybpfo3.png
 https://academy.claude.com/assets/v1/thumbnail.light-jxfunbwe.png
 https://academy.claude.com/assets/v1/thumbnail.light-jz02ndah.png
+https://academy.claude.com/assets/v1/thumbnail.light-k3l00906.png
 https://academy.claude.com/assets/v1/thumbnail.light-k3y0qtqk.png
 https://academy.claude.com/assets/v1/thumbnail.light-k4d623ry.png
 https://academy.claude.com/assets/v1/thumbnail.light-k5oxrrdq.png
@@ -5118,6 +5121,7 @@ https://academy.claude.com/assets/v1/thumbnail.light.losslessr1-jslgxynt.webp
 https://academy.claude.com/assets/v1/thumbnail.light.losslessr1-jwybpfo3.webp
 https://academy.claude.com/assets/v1/thumbnail.light.losslessr1-jxfunbwe.webp
 https://academy.claude.com/assets/v1/thumbnail.light.losslessr1-jz02ndah.webp
+https://academy.claude.com/assets/v1/thumbnail.light.losslessr1-k3l00906.webp
 https://academy.claude.com/assets/v1/thumbnail.light.losslessr1-k3y0qtqk.webp
 https://academy.claude.com/assets/v1/thumbnail.light.losslessr1-k4d623ry.webp
 https://academy.claude.com/assets/v1/thumbnail.light.losslessr1-k5oxrrdq.webp
@@ -5660,6 +5664,7 @@ https://assets.claude.com/022800b9e57096aa089637c5dd404450388349bd.jpg?w=828&q=7
 https://assets.claude.com/022a8cde49faa0151b0945cbb9e4daeefa1b8be0.jpg?w=128&h=128&fit=crop
 https://assets.claude.com/0231cd39f02075d990e6ab76b64cadef9fbdf7fe.png
 https://assets.claude.com/02419151c794ef4addbd1c43c31add73843e45ba.png?w=3840&q=75&fm=webp&fit=max
+https://assets.claude.com/025127e31acd32296a5732e8e7b7316b1b11b18b.jpg?w=3840&q=75&fm=webp&fit=max
 https://assets.claude.com/02794cae131d86ae8d46e3238f14d1a7ad685181.svg
 https://assets.claude.com/027b10ca405e9bb66b98c88d911b4b21a0b70123.pdf
 https://assets.claude.com/029887e431bc94e8ec06834401c535ee0e0a3c91.jpg?w=1080&q=75&fm=webp&fit=max
@@ -6175,6 +6180,7 @@ https://assets.claude.com/0c94bb427389a6c81f9c49895fcbe479688e4185.png?w=640&q=7
 https://assets.claude.com/0c94bb427389a6c81f9c49895fcbe479688e4185.png?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/0c94bb427389a6c81f9c49895fcbe479688e4185.png?w=828&q=75&fm=webp&fit=max
 https://assets.claude.com/0c9ef5f6d0bb96e0267b77ae7ec4ee3249a71778.png
+https://assets.claude.com/0cb09418f04d09baf72922e53a3f17383ef838c9.pdf
 https://assets.claude.com/0cbe8650d249aa2b1118bec5ecfd53c51ed4eb79.svg
 https://assets.claude.com/0cd3a7b2e6fce665631f1c77a10eb6de8d0c1a08.png
 https://assets.claude.com/0cd5e5e12be576e52a6a6cf71383b157f186960a.png
@@ -6299,6 +6305,7 @@ https://assets.claude.com/0df370a938abc9e047e115591239d8122cac197f.jpg?w=640&q=7
 https://assets.claude.com/0df370a938abc9e047e115591239d8122cac197f.jpg?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/0df370a938abc9e047e115591239d8122cac197f.jpg?w=828&q=75&fm=webp&fit=max
 https://assets.claude.com/0e0460fbf4e1894b2ab552db722fa50709125f14.png
+https://assets.claude.com/0e0f4605392016086364837ea880cb4d898c796c.png
 https://assets.claude.com/0e2431b0f4c10fb7cdaa4c5a08d3048cf0320583.svg
 https://assets.claude.com/0e2493b60dbe1a71a144ca649e1916bade399bf7.svg
 https://assets.claude.com/0e293ffb459f3ed44142295bb86613151ee49b6c.png?w=1080&q=75&fm=webp&fit=max
@@ -6467,6 +6474,7 @@ https://assets.claude.com/1223bc0ccf4ea5d1016df6caa71550ea5ccf400c.jpg?w=96&q=75
 https://assets.claude.com/122680b4a90e354a227934e7b37b3cd62b0cc11f.svg
 https://assets.claude.com/12479235c5333a980a291538e2dbdaf5add7c990.jpg?w=128&h=128&fit=crop
 https://assets.claude.com/12c9aca44d78efd023bb5d03ab3cc795f6b47688.jpg?w=128&h=128&fit=crop
+https://assets.claude.com/12c9aca44d78efd023bb5d03ab3cc795f6b47688.jpg?w=168&q=75&fm=webp&fit=max
 https://assets.claude.com/1309546df049dbb8196876155f61757c6a75ea00.svg
 https://assets.claude.com/133bab63a8e5bc0cac6a166ea6992762c600d4ef.png?w=256&q=75&fm=webp&fit=max
 https://assets.claude.com/133bab63a8e5bc0cac6a166ea6992762c600d4ef.png?w=640&q=75&fm=webp&fit=max
@@ -6683,6 +6691,10 @@ https://assets.claude.com/18006b27e7dbcfc72fff2869e22f455d80e9ab1d.jpg?w=828&q=7
 https://assets.claude.com/1810e1151d4fbf3a573c33608ff5393b1fbcae35.png
 https://assets.claude.com/181600a66676825accdbc3ff497a457671061514.png
 https://assets.claude.com/1823d34aa048c694f22dc8a035442c228205e6e7.png?w=128&h=128&fit=crop
+https://assets.claude.com/18573939fbd864c74ee2d1de211c5fd2cea763fb.jpg?w=1080&q=75&fm=webp&fit=max
+https://assets.claude.com/18573939fbd864c74ee2d1de211c5fd2cea763fb.jpg?w=1920&q=75&fm=webp&fit=max
+https://assets.claude.com/18573939fbd864c74ee2d1de211c5fd2cea763fb.jpg?w=2048&q=75&fm=webp&fit=max
+https://assets.claude.com/18573939fbd864c74ee2d1de211c5fd2cea763fb.jpg?w=3840&q=75&fm=webp&fit=max
 https://assets.claude.com/18636e2f18982e3166a613b3f028e27b196bfe2f.png
 https://assets.claude.com/18636e2f18982e3166a613b3f028e27b196bfe2f.png?w=1920&q=75&fm=webp&fit=max
 https://assets.claude.com/18636e2f18982e3166a613b3f028e27b196bfe2f.png?w=828&q=75&fm=webp&fit=max
@@ -6730,6 +6742,7 @@ https://assets.claude.com/18dd2698bfbcd5587a6dfeab22b8eeac471ee7d4.png?w=3840&q=
 https://assets.claude.com/18dd2698bfbcd5587a6dfeab22b8eeac471ee7d4.png?w=640&q=75&fm=webp&fit=max
 https://assets.claude.com/18dd2698bfbcd5587a6dfeab22b8eeac471ee7d4.png?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/18dd2698bfbcd5587a6dfeab22b8eeac471ee7d4.png?w=828&q=75&fm=webp&fit=max
+https://assets.claude.com/18e8dec2ece0d685715d94078c742b0a4c2eaa20.svg
 https://assets.claude.com/18f5baa444a4adb5a7c958ad22184b3c5ce8bf1a.png?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/18f5baa444a4adb5a7c958ad22184b3c5ce8bf1a.png?w=1200&q=75&fm=webp&fit=max
 https://assets.claude.com/18f5baa444a4adb5a7c958ad22184b3c5ce8bf1a.png?w=1920&q=75&fm=webp&fit=max
@@ -7548,6 +7561,7 @@ https://assets.claude.com/2a42bc446aa9ca8b37a47b8a658b909a9a481e5b.png
 https://assets.claude.com/2a4c7cc7e947456494483c92f029618b0f7c56f1.jpg?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/2a4c7cc7e947456494483c92f029618b0f7c56f1.jpg?w=640&q=75&fm=webp&fit=max
 https://assets.claude.com/2a4c7cc7e947456494483c92f029618b0f7c56f1.jpg?w=96&q=75&fm=webp&fit=max
+https://assets.claude.com/2a72b687af32e0d798bd2859b12576be1f607f13.png
 https://assets.claude.com/2aa68ab75cf424a4b50e60c12472bb0d5c587d55.svg
 https://assets.claude.com/2aa737898594e9b7b3a542b27cf9c74ce2dc3f1d.png?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/2aa737898594e9b7b3a542b27cf9c74ce2dc3f1d.png?w=1200&q=75&fm=webp&fit=max
@@ -7577,6 +7591,7 @@ https://assets.claude.com/2ad888f5aac3302eb70d844c1bd131cb39e39c11.png?w=3840&q=
 https://assets.claude.com/2ad888f5aac3302eb70d844c1bd131cb39e39c11.png?w=640&q=75&fm=webp&fit=max
 https://assets.claude.com/2ad888f5aac3302eb70d844c1bd131cb39e39c11.png?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/2ad888f5aac3302eb70d844c1bd131cb39e39c11.png?w=828&q=75&fm=webp&fit=max
+https://assets.claude.com/2ad8e82eaffc6a4868da5f81e11d8b6878fbea89.svg
 https://assets.claude.com/2ada6a095d69e1e49f0e16d084e44e00713d7e03.svg
 https://assets.claude.com/2adfe320dd75c4dbbb938a221fb583b2a9f9ac2a.jpg
 https://assets.claude.com/2b0c94b75aa81c160289105e777a25eecc8fcdd0.png?w=1080&q=75&fm=webp&fit=max
@@ -7638,6 +7653,14 @@ https://assets.claude.com/2cac5914e526becbfb506a035f11f758b9f10010.png?w=640&q=7
 https://assets.claude.com/2cac5914e526becbfb506a035f11f758b9f10010.png?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/2cac5914e526becbfb506a035f11f758b9f10010.png?w=828&q=75&fm=webp&fit=max
 https://assets.claude.com/2cf7818833e2b979cc9a0e8f8c14ee9c6e035b90.svg
+https://assets.claude.com/2cfb3389391d51357b0fcf4b360e0e20faaabaff.png?w=1080&q=75&fm=webp&fit=max
+https://assets.claude.com/2cfb3389391d51357b0fcf4b360e0e20faaabaff.png?w=1200&q=75&fm=webp&fit=max
+https://assets.claude.com/2cfb3389391d51357b0fcf4b360e0e20faaabaff.png?w=1920&q=75&fm=webp&fit=max
+https://assets.claude.com/2cfb3389391d51357b0fcf4b360e0e20faaabaff.png?w=2048&q=75&fm=webp&fit=max
+https://assets.claude.com/2cfb3389391d51357b0fcf4b360e0e20faaabaff.png?w=3840&q=75&fm=webp&fit=max
+https://assets.claude.com/2cfb3389391d51357b0fcf4b360e0e20faaabaff.png?w=640&q=75&fm=webp&fit=max
+https://assets.claude.com/2cfb3389391d51357b0fcf4b360e0e20faaabaff.png?w=750&q=75&fm=webp&fit=max
+https://assets.claude.com/2cfb3389391d51357b0fcf4b360e0e20faaabaff.png?w=828&q=75&fm=webp&fit=max
 https://assets.claude.com/2d33c208c478a76cdf5e1709331e8062ea06e5b1.png?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/2d33c208c478a76cdf5e1709331e8062ea06e5b1.png?w=1200&q=75&fm=webp&fit=max
 https://assets.claude.com/2d33c208c478a76cdf5e1709331e8062ea06e5b1.png?w=1920&q=75&fm=webp&fit=max
@@ -7660,6 +7683,7 @@ https://assets.claude.com/2dae1cc3e0cce051493bbd9dc4a64c6017aaef44.png?w=3840&q=
 https://assets.claude.com/2dae1cc3e0cce051493bbd9dc4a64c6017aaef44.png?w=640&q=75&fm=webp&fit=max
 https://assets.claude.com/2dae1cc3e0cce051493bbd9dc4a64c6017aaef44.png?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/2dae1cc3e0cce051493bbd9dc4a64c6017aaef44.png?w=828&q=75&fm=webp&fit=max
+https://assets.claude.com/2dbedd21386ce0c58466096b0cc640231b76ce6c.png?w=3840&q=75&fm=webp&fit=max
 https://assets.claude.com/2dc3f817d4e2d1a60281710824b0be56af297073.png
 https://assets.claude.com/2de448df750ac57760e61a59fe8af1defc46d86e.png
 https://assets.claude.com/2de98bd3a82b7e3f0ccd07b98947bd8a19eda8fa.jpg?w=1080&q=75&fm=webp&fit=max
@@ -8425,6 +8449,7 @@ https://assets.claude.com/3b0ce5da844b454d85f4538162bb70f749dc5877.png?w=828&q=7
 https://assets.claude.com/3b11d2c9bb56881898e54b4a31428d9d6d8d6131.svg
 https://assets.claude.com/3b53fddaaceb20fb3cf68c3ccaca0f1cffbcb521.jpg?w=128&h=128&fit=crop
 https://assets.claude.com/3b5a508cb3f67769d4f8ffd27b005ec7368c7d92.jpg?w=128&h=128&fit=crop
+https://assets.claude.com/3b5fa6d188937030373792607c2cc73fc01e52b1.png
 https://assets.claude.com/3b70f1ba376a60b96b365aeb6ec7537b88010b16.jpg?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/3b70f1ba376a60b96b365aeb6ec7537b88010b16.jpg?w=1920&q=75&fm=webp&fit=max
 https://assets.claude.com/3b89c8c4e229501a45726fca1a88bd1e03bb47b3.png?w=1080&q=75&fm=webp&fit=max
@@ -8563,6 +8588,7 @@ https://assets.claude.com/3ddac5be07a0773922ec9df06afec55922f8194a.png?w=640&q=7
 https://assets.claude.com/3ddac5be07a0773922ec9df06afec55922f8194a.png?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/3ddac5be07a0773922ec9df06afec55922f8194a.png?w=828&q=75&fm=webp&fit=max
 https://assets.claude.com/3ead16dbc271d174d8aa0067f2df09f23f964daf.png
+https://assets.claude.com/3eb8a4dc0caccee702f17909b923bd4f36ab88e3.png
 https://assets.claude.com/3ecc6fb3c36328f216239a92947c6a75e5dd54d9.svg
 https://assets.claude.com/3ed5a6fe2b9a0a64be162f28ada46ab34081af84.jpg?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/3ed5a6fe2b9a0a64be162f28ada46ab34081af84.jpg?w=1200&q=75&fm=webp&fit=max
@@ -8618,6 +8644,7 @@ https://assets.claude.com/4053bf3440c0c85b8852052770c5b4cf882689c3.pdf
 https://assets.claude.com/4055b0eb1bbdbc737b760474c20bd0d684a98ea9.svg
 https://assets.claude.com/405cebff82290df89fec544559f3eb701ab39547.jpg?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/405cebff82290df89fec544559f3eb701ab39547.jpg?w=1920&q=75&fm=webp&fit=max
+https://assets.claude.com/407895af12324a5800318809efd87eda92ff500d.webp
 https://assets.claude.com/407d1a67eadd3ebd1d4ec34fd1fabebb42b64829.png
 https://assets.claude.com/4082ca813c5023fd34d741075aea8da5e734c7ff.jpg?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/4082ca813c5023fd34d741075aea8da5e734c7ff.jpg?w=640&q=75&fm=webp&fit=max
@@ -8772,6 +8799,7 @@ https://assets.claude.com/43c1b2c146acdc5f3f103dd44bfe50813d254f0e.jpg?w=96&q=75
 https://assets.claude.com/43d8842644ea630405cb4ece638853f24b3186c2.svg
 https://assets.claude.com/43ec7e770925deabc3f0bc1dbf0133769fd03812.pdf
 https://assets.claude.com/43fef9c040583f473dc6ffe852b377af920e8bad.svg
+https://assets.claude.com/44050228876da8e6828dcf77a83330fc9966e677.png
 https://assets.claude.com/440f4c1037a629695ec66eb0a17c218782b51d35.png
 https://assets.claude.com/4420b4cf40aed67f25838ab406b757c413ea3a80.png?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/4420b4cf40aed67f25838ab406b757c413ea3a80.png?w=1200&q=75&fm=webp&fit=max
@@ -8989,6 +9017,7 @@ https://assets.claude.com/4997ea75834cfd045f7b4c78cdf72546c8c8621a.png?w=3840&q=
 https://assets.claude.com/4997ea75834cfd045f7b4c78cdf72546c8c8621a.png?w=640&q=75&fm=webp&fit=max
 https://assets.claude.com/4997ea75834cfd045f7b4c78cdf72546c8c8621a.png?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/4997ea75834cfd045f7b4c78cdf72546c8c8621a.png?w=828&q=75&fm=webp&fit=max
+https://assets.claude.com/49dd4517ec32bf73cf3b4c159439f4ea5a4692f3.svg
 https://assets.claude.com/49f9305666e19f9882b44e7f05256b24864f465d.png?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/49f9305666e19f9882b44e7f05256b24864f465d.png?w=1200&q=75&fm=webp&fit=max
 https://assets.claude.com/49f9305666e19f9882b44e7f05256b24864f465d.png?w=1920&q=75&fm=webp&fit=max
@@ -9433,6 +9462,7 @@ https://assets.claude.com/542044519014a793cf042a08a730ebd8977c57b0.png?w=3840&q=
 https://assets.claude.com/543843116da2645dd9515c558f0728f169a1558f.png
 https://assets.claude.com/54407be01239ce7ceeb185840a457333a4691afc.png
 https://assets.claude.com/5463fa5a44d12868ceec5ae30bfc8c412cafdeae.svg
+https://assets.claude.com/546bc847beb7159cbbb134971cd3b6c01afca8e9.svg
 https://assets.claude.com/547b842bf1173a41ffa2e0ae77422eb17ef1d1ea.png?w=1920&q=75&fm=webp&fit=max
 https://assets.claude.com/547b842bf1173a41ffa2e0ae77422eb17ef1d1ea.png?w=3840&q=75&fm=webp&fit=max
 https://assets.claude.com/547f3af27e33331c1409324c549d765f790ca68d.svg
@@ -9826,6 +9856,7 @@ https://assets.claude.com/5c49cc247484cecf107c699baf29250302e5da70.pdf
 https://assets.claude.com/5c6e32afcbfc38d375f25ec0f9d187c8cefd49cc.png
 https://assets.claude.com/5c7ff55cfdaa84b8b6ae03a99ad794f7e3862ce0.png
 https://assets.claude.com/5c9c5cc2da7167c3016c29a3d0da2f7b7932b702.png
+https://assets.claude.com/5cab3d3179a2ba77b0a19319b35946148a469c1f.svg
 https://assets.claude.com/5ce47761e06eea0ebce95e7f6fa878ca6de07b81.jpg
 https://assets.claude.com/5cef4ebbe7514e68cd37f99fc7683e5af3bd1529.svg
 https://assets.claude.com/5cf47f585feec37328c2887645bd7ccfe8738505.png?w=1080&q=75&fm=webp&fit=max
@@ -10104,6 +10135,7 @@ https://assets.claude.com/6351f3b1a93eec24d8bc2132bec467a7be086b52.png?w=3840&q=
 https://assets.claude.com/6351f3b1a93eec24d8bc2132bec467a7be086b52.png?w=640&q=75&fm=webp&fit=max
 https://assets.claude.com/6351f3b1a93eec24d8bc2132bec467a7be086b52.png?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/6351f3b1a93eec24d8bc2132bec467a7be086b52.png?w=828&q=75&fm=webp&fit=max
+https://assets.claude.com/635a1675ea125007f1d5f686db25959d8485d5fc.png
 https://assets.claude.com/636a3dab31908cec04a9e55db04b10b5eb0b112e.svg
 https://assets.claude.com/6370638bb32735653348b88f6a436e6530d863ff.png?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/6370638bb32735653348b88f6a436e6530d863ff.png?w=1200&q=75&fm=webp&fit=max
@@ -10523,6 +10555,7 @@ https://assets.claude.com/6bdbdecdc8a95813e35fc4b81e81f267e41a5bbc.png?w=750&q=7
 https://assets.claude.com/6bdbdecdc8a95813e35fc4b81e81f267e41a5bbc.png?w=828&q=75&fm=webp&fit=max
 https://assets.claude.com/6be37f83645dcfc480d4735c8855c229cb559914.svg
 https://assets.claude.com/6be99a52cb68eb70eb9572b4cafad13df32ed995.pdf
+https://assets.claude.com/6beae6085c1dc6bb43a62e6acf1f5563a14f4238.png
 https://assets.claude.com/6bede3f6101d15bd899922917ea6246adda4515b.png?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/6bede3f6101d15bd899922917ea6246adda4515b.png?w=1200&q=75&fm=webp&fit=max
 https://assets.claude.com/6bede3f6101d15bd899922917ea6246adda4515b.png?w=1920&q=75&fm=webp&fit=max
@@ -10629,6 +10662,7 @@ https://assets.claude.com/6e1aeb2faa99b726492929f72989b958ac653034.jpg?w=828&q=7
 https://assets.claude.com/6e29759b50e8b3a8363b38b1f573d854df968671.png?w=3840&q=75&fm=webp&fit=max
 https://assets.claude.com/6e652b4a53149faa6fbba9866584e3bca6c113ec.png?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/6e652b4a53149faa6fbba9866584e3bca6c113ec.png?w=640&q=75&fm=webp&fit=max
+https://assets.claude.com/6e6e1d5218174690c704d9ddebd647dabd6c2f9b.png
 https://assets.claude.com/6e75feea1b6b62627d36a5c4ef96d22b4a900a9f.png?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/6e75feea1b6b62627d36a5c4ef96d22b4a900a9f.png?w=1200&q=75&fm=webp&fit=max
 https://assets.claude.com/6e75feea1b6b62627d36a5c4ef96d22b4a900a9f.png?w=1920&q=75&fm=webp&fit=max
@@ -10652,6 +10686,7 @@ https://assets.claude.com/6ea59a36fe82c2b300bceaf3b880a4b4852c552d.png?w=640&q=7
 https://assets.claude.com/6ea59a36fe82c2b300bceaf3b880a4b4852c552d.png?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/6ea59a36fe82c2b300bceaf3b880a4b4852c552d.png?w=828&q=75&fm=webp&fit=max
 https://assets.claude.com/6ee9006723da038933b4e3e4a6c6e2fa8b4b2f69.jpg?w=168&q=75&fm=webp&fit=max
+https://assets.claude.com/6f10ea6a3d2cb3d21aa39137a38c40658925847b.png?w=3840&q=75&fm=webp&fit=max
 https://assets.claude.com/6f159411c32d404ccea1a809a2c1dd99402ca45c.jpg?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/6f159411c32d404ccea1a809a2c1dd99402ca45c.jpg?w=640&q=75&fm=webp&fit=max
 https://assets.claude.com/6f159411c32d404ccea1a809a2c1dd99402ca45c.jpg?w=96&q=75&fm=webp&fit=max
@@ -11430,6 +11465,7 @@ https://assets.claude.com/82bcf86e07b6fa2d0988fa8b53e43b7a88f6ce9a.png
 https://assets.claude.com/8303b1fc5d03c6d83cccc0bc06b707767292f648.jpg?w=128&h=128&fit=crop
 https://assets.claude.com/83100ba17df9b9120ac4f801efba2c5bd7654619.png?w=1920&q=75&fm=webp&fit=max
 https://assets.claude.com/83100ba17df9b9120ac4f801efba2c5bd7654619.png?w=3840&q=75&fm=webp&fit=max
+https://assets.claude.com/8311ac4c1e71b90b235793fe80369f9425177775.png
 https://assets.claude.com/8318a3de9541ad64ca00097d19273e8b7ad60a5a.svg
 https://assets.claude.com/832b1347b30c1f7840ac6e5193580c962e8d7d00.svg
 https://assets.claude.com/83395b24bf904d7d65b949a13d25106c10b82b26.jpg?w=1080&q=75&fm=webp&fit=max
@@ -11682,6 +11718,7 @@ https://assets.claude.com/8a552a9992b7c46eea45d3b0a821714af209966b.jpg?w=640&q=7
 https://assets.claude.com/8a552a9992b7c46eea45d3b0a821714af209966b.jpg?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/8a552a9992b7c46eea45d3b0a821714af209966b.jpg?w=828&q=75&fm=webp&fit=max
 https://assets.claude.com/8a70486968864d42bbbf9bbbc410c62a09f19bfd.png?w=128&h=128&fit=crop
+https://assets.claude.com/8a7da8abca173526f9f3c704f965406fd67180b1.png
 https://assets.claude.com/8a8a0c19bc294c64ab0b4e985e5df7c3cd85ce5b.jpg?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/8a8a0c19bc294c64ab0b4e985e5df7c3cd85ce5b.jpg?w=640&q=75&fm=webp&fit=max
 https://assets.claude.com/8a8a0c19bc294c64ab0b4e985e5df7c3cd85ce5b.jpg?w=96&q=75&fm=webp&fit=max
@@ -12168,6 +12205,14 @@ https://assets.claude.com/918f94cf845a0cf2adf4cce5cd42d4314568d7aa.png?w=828&q=7
 https://assets.claude.com/919f933a2518ba673326a22d96532edc1e185606.jpg?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/919f933a2518ba673326a22d96532edc1e185606.jpg?w=1920&q=75&fm=webp&fit=max
 https://assets.claude.com/91a09fba4ca7c545f37c577b576a4176de3b104a.png?w=128&h=128&fit=crop
+https://assets.claude.com/91b8f4998c83a5b4af153c6d8ea6737c71a9e2f2.png?w=1080&q=75&fm=webp&fit=max
+https://assets.claude.com/91b8f4998c83a5b4af153c6d8ea6737c71a9e2f2.png?w=1200&q=75&fm=webp&fit=max
+https://assets.claude.com/91b8f4998c83a5b4af153c6d8ea6737c71a9e2f2.png?w=1920&q=75&fm=webp&fit=max
+https://assets.claude.com/91b8f4998c83a5b4af153c6d8ea6737c71a9e2f2.png?w=2048&q=75&fm=webp&fit=max
+https://assets.claude.com/91b8f4998c83a5b4af153c6d8ea6737c71a9e2f2.png?w=3840&q=75&fm=webp&fit=max
+https://assets.claude.com/91b8f4998c83a5b4af153c6d8ea6737c71a9e2f2.png?w=640&q=75&fm=webp&fit=max
+https://assets.claude.com/91b8f4998c83a5b4af153c6d8ea6737c71a9e2f2.png?w=750&q=75&fm=webp&fit=max
+https://assets.claude.com/91b8f4998c83a5b4af153c6d8ea6737c71a9e2f2.png?w=828&q=75&fm=webp&fit=max
 https://assets.claude.com/921fd10de481a1094bdd4b483f52933e68791fb2.jpg?w=168&q=75&fm=webp&fit=max
 https://assets.claude.com/925575acea8e2ec6af2ba37612000fe20f2bb381.jpg?w=96&q=75&fm=webp&fit=max
 https://assets.claude.com/925c2e9b8c5b01825b167dd188286e266f3ef2c8.png?w=1920&q=75&fm=webp&fit=max
@@ -12958,6 +13003,7 @@ https://assets.claude.com/a2fb5f5f8027a143fd39480d4bf6c91f942e1489.jpg?w=3840&q=
 https://assets.claude.com/a2fb5f5f8027a143fd39480d4bf6c91f942e1489.jpg?w=640&q=75&fm=webp&fit=max
 https://assets.claude.com/a2fb5f5f8027a143fd39480d4bf6c91f942e1489.jpg?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/a2fb5f5f8027a143fd39480d4bf6c91f942e1489.jpg?w=828&q=75&fm=webp&fit=max
+https://assets.claude.com/a30243fe61e4cc224ebfdcdb8d693b69c125b060.png
 https://assets.claude.com/a304399325b106186614bff98451ae08496ceb40.png
 https://assets.claude.com/a329ba8a009b387368875f4157e8968d99840b28.jpg?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/a329ba8a009b387368875f4157e8968d99840b28.jpg?w=1200&q=75&fm=webp&fit=max
@@ -13227,6 +13273,7 @@ https://assets.claude.com/a8bef95425966495629095a5cb38bde4a8b13558.png?w=3840&q=
 https://assets.claude.com/a8c196506682d36e5adf571c13332dceb8243b1f.png
 https://assets.claude.com/a8cf8d786f7fb97bb2222e66aa377838ff9a496c.png
 https://assets.claude.com/a8f4de962073f5e5b755fbefdb73a4bc4a764785.png
+https://assets.claude.com/a908873f0456683f1b98ad867f1f1defe6363a68.png
 https://assets.claude.com/a91e04b09aba7e55240bf37c4010a504a223b493.jpg
 https://assets.claude.com/a9278d607c2e4f5a19846945b2335fe1bfe1689a.png?w=1920&q=75&fm=webp&fit=max
 https://assets.claude.com/a9278d607c2e4f5a19846945b2335fe1bfe1689a.png?w=750&q=75&fm=webp&fit=max
@@ -13235,6 +13282,7 @@ https://assets.claude.com/a9783c5faf5adba4787150f71faf3b7ab83cc681.jpg?w=1080&q=
 https://assets.claude.com/a9783c5faf5adba4787150f71faf3b7ab83cc681.jpg?w=640&q=75&fm=webp&fit=max
 https://assets.claude.com/a9783c5faf5adba4787150f71faf3b7ab83cc681.jpg?w=96&q=75&fm=webp&fit=max
 https://assets.claude.com/a989a0691b3e63ab667f0019e75c58746deb1c71.svg
+https://assets.claude.com/a9af843550617c1a8fce2ff4a74777b11d0cf3e0.svg
 https://assets.claude.com/a9c069131f1d2fcfff97c3b540e5bd208be080f7.jpg?w=128&h=128&fit=crop
 https://assets.claude.com/a9c59a1a38358baf37ff840be0e7fe3ebefff4e1.jpg?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/a9c59a1a38358baf37ff840be0e7fe3ebefff4e1.jpg?w=1920&q=75&fm=webp&fit=max
@@ -13274,6 +13322,7 @@ https://assets.claude.com/aabaffe03de7251a14d71e4883df7ead6971ab44.png?w=3840&q=
 https://assets.claude.com/aabaffe03de7251a14d71e4883df7ead6971ab44.png?w=640&q=75&fm=webp&fit=max
 https://assets.claude.com/aabaffe03de7251a14d71e4883df7ead6971ab44.png?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/aabaffe03de7251a14d71e4883df7ead6971ab44.png?w=828&q=75&fm=webp&fit=max
+https://assets.claude.com/aabbaac0e88f3064fc95654d2bc63f5577613fb3.png
 https://assets.claude.com/aac23b865dde8b55afd3ea57c38e3de96aef0209.svg
 https://assets.claude.com/aae1d5fc07c6afe61ccf3535516eb26dc7c79c8e.jpg?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/aae1d5fc07c6afe61ccf3535516eb26dc7c79c8e.jpg?w=1920&q=75&fm=webp&fit=max
@@ -13534,6 +13583,7 @@ https://assets.claude.com/af0cd2e2b08bb4687e1924b6094dc2c4159486cf.jpg?w=750&q=7
 https://assets.claude.com/af0cd2e2b08bb4687e1924b6094dc2c4159486cf.jpg?w=828&q=75&fm=webp&fit=max
 https://assets.claude.com/af1a00158a2b527ace0f662c229bf0ede549e7a1.svg
 https://assets.claude.com/af1bb9358ee0e5aac7291ad82c0287503c9b7b63.svg
+https://assets.claude.com/af2e0415962faaf5fef90b5afb3f927d18dec83d.svg
 https://assets.claude.com/af5633c94ed2beb282f6a53c595eb437e8e7b630.pdf
 https://assets.claude.com/af663cbd16ca4072d246f34e2faf44236e832ef4.png?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/af663cbd16ca4072d246f34e2faf44236e832ef4.png?w=1200&q=75&fm=webp&fit=max
@@ -13757,6 +13807,7 @@ https://assets.claude.com/b2a3cd3b5897a178c985d7886d43cf53d39b0813.jpg?w=1080&q=
 https://assets.claude.com/b2a3cd3b5897a178c985d7886d43cf53d39b0813.jpg?w=640&q=75&fm=webp&fit=max
 https://assets.claude.com/b2a3cd3b5897a178c985d7886d43cf53d39b0813.jpg?w=96&q=75&fm=webp&fit=max
 https://assets.claude.com/b2a76c6f6992465c09a6f2fce282f6c0cea8c200.pdf
+https://assets.claude.com/b2a943197cdf8a11b2ac7b63ecee2763fe5cc652.svg
 https://assets.claude.com/b2afbe8dcc6cb95a6c49115d3c8deeb4ffd8ef07.svg
 https://assets.claude.com/b3266f5cebd6e2613593339d21200b3a7c034b9a.png
 https://assets.claude.com/b337dba4936f7173818993dcc2249265c0b14fe1.png?w=1080&q=75&fm=webp&fit=max
@@ -14024,6 +14075,14 @@ https://assets.claude.com/b85fd6f58a1f1a493b2cc9de09044b6b2164466e.png
 https://assets.claude.com/b871f40d87f637c0cf1e581828cf33f142a9aa1c.png
 https://assets.claude.com/b87507b2ca680b626804a95946d15f34391e07f7.png
 https://assets.claude.com/b89e39e3f6bd810907270b9866cd54e06c8dea2c.png
+https://assets.claude.com/b8a511edb078752c5aa30a54fcb1f882a39d5a2f.png?w=1080&q=75&fm=webp&fit=max
+https://assets.claude.com/b8a511edb078752c5aa30a54fcb1f882a39d5a2f.png?w=1200&q=75&fm=webp&fit=max
+https://assets.claude.com/b8a511edb078752c5aa30a54fcb1f882a39d5a2f.png?w=1920&q=75&fm=webp&fit=max
+https://assets.claude.com/b8a511edb078752c5aa30a54fcb1f882a39d5a2f.png?w=2048&q=75&fm=webp&fit=max
+https://assets.claude.com/b8a511edb078752c5aa30a54fcb1f882a39d5a2f.png?w=3840&q=75&fm=webp&fit=max
+https://assets.claude.com/b8a511edb078752c5aa30a54fcb1f882a39d5a2f.png?w=640&q=75&fm=webp&fit=max
+https://assets.claude.com/b8a511edb078752c5aa30a54fcb1f882a39d5a2f.png?w=750&q=75&fm=webp&fit=max
+https://assets.claude.com/b8a511edb078752c5aa30a54fcb1f882a39d5a2f.png?w=828&q=75&fm=webp&fit=max
 https://assets.claude.com/b8a65a36c208d7e99570641b9c4d7ae1833c0a27.png
 https://assets.claude.com/b8a7594584b08cf688085642b32ac3d7508b00f2.png
 https://assets.claude.com/b8ba7d1de491cc71f82691972492b1d2749f85b4.svg
@@ -14240,6 +14299,7 @@ https://assets.claude.com/bc4642762edbb6a91985e8a4afae7f09d966964e.jpg?w=1080&q=
 https://assets.claude.com/bc4642762edbb6a91985e8a4afae7f09d966964e.jpg?w=1920&q=75&fm=webp&fit=max
 https://assets.claude.com/bc5343b7f36d1704f728e53c69f672ae05c576e1.png
 https://assets.claude.com/bc70ffa27371c9821d8f2c18b9a7e936e10e6962.jpg?w=128&h=128&fit=crop
+https://assets.claude.com/bc8564043d89e3be8aa0b40630b189c53486bb08.png
 https://assets.claude.com/bc864f69d8da560ee1915487c2d1945527d2e6e7.png?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/bc864f69d8da560ee1915487c2d1945527d2e6e7.png?w=1200&q=75&fm=webp&fit=max
 https://assets.claude.com/bc864f69d8da560ee1915487c2d1945527d2e6e7.png?w=1920&q=75&fm=webp&fit=max
@@ -14489,6 +14549,14 @@ https://assets.claude.com/c30757e82424b243b0c6c86c1a0da100a72f4101.jpg?w=3840&q=
 https://assets.claude.com/c30757e82424b243b0c6c86c1a0da100a72f4101.jpg?w=640&q=75&fm=webp&fit=max
 https://assets.claude.com/c30757e82424b243b0c6c86c1a0da100a72f4101.jpg?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/c30757e82424b243b0c6c86c1a0da100a72f4101.jpg?w=828&q=75&fm=webp&fit=max
+https://assets.claude.com/c31ec00df169743b88562ec419df063053313cfd.png?w=1080&q=75&fm=webp&fit=max
+https://assets.claude.com/c31ec00df169743b88562ec419df063053313cfd.png?w=1200&q=75&fm=webp&fit=max
+https://assets.claude.com/c31ec00df169743b88562ec419df063053313cfd.png?w=1920&q=75&fm=webp&fit=max
+https://assets.claude.com/c31ec00df169743b88562ec419df063053313cfd.png?w=2048&q=75&fm=webp&fit=max
+https://assets.claude.com/c31ec00df169743b88562ec419df063053313cfd.png?w=3840&q=75&fm=webp&fit=max
+https://assets.claude.com/c31ec00df169743b88562ec419df063053313cfd.png?w=640&q=75&fm=webp&fit=max
+https://assets.claude.com/c31ec00df169743b88562ec419df063053313cfd.png?w=750&q=75&fm=webp&fit=max
+https://assets.claude.com/c31ec00df169743b88562ec419df063053313cfd.png?w=828&q=75&fm=webp&fit=max
 https://assets.claude.com/c31f46149240e9cf520233205433c728e47160e4.png?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/c31f46149240e9cf520233205433c728e47160e4.png?w=1200&q=75&fm=webp&fit=max
 https://assets.claude.com/c31f46149240e9cf520233205433c728e47160e4.png?w=1920&q=75&fm=webp&fit=max
@@ -14580,6 +14648,7 @@ https://assets.claude.com/c4c6e0d8b4e2326b5cce4bab8f25bed7f4baf025.jpg?w=1080&q=
 https://assets.claude.com/c4c6e0d8b4e2326b5cce4bab8f25bed7f4baf025.jpg?w=1920&q=75&fm=webp&fit=max
 https://assets.claude.com/c4dd64f44e6bad9429beb4b0f8de0cdd0c85fb6b.jpg?w=96&q=75&fm=webp&fit=max
 https://assets.claude.com/c5415b38d23f0b5f4e73032df6237e1df47c703f.jpg
+https://assets.claude.com/c54fad39009493579dd50e4c3ca7b2d4a3cef593.jpg?w=3840&q=75&fm=webp&fit=max
 https://assets.claude.com/c55b327ad4e7242889786067087a907c5ccf386c.png
 https://assets.claude.com/c56553c8bf4a12ea4838deee45086e66131d0ba7.png?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/c56553c8bf4a12ea4838deee45086e66131d0ba7.png?w=1200&q=75&fm=webp&fit=max
@@ -14622,6 +14691,7 @@ https://assets.claude.com/c6201190841aee092e0a0db527b6219224187b8f.jpg?w=750&q=7
 https://assets.claude.com/c6201190841aee092e0a0db527b6219224187b8f.jpg?w=828&q=75&fm=webp&fit=max
 https://assets.claude.com/c6233df0e9437b16fd5fa6660594a4384e14a9a0.jpg
 https://assets.claude.com/c648f36c6c6167a41d7dfd9bc9df5bcd1aa877d1.jpg?w=128&h=128&fit=crop
+https://assets.claude.com/c6832086d36407567641b1b4de4d705f79ef3fca.png
 https://assets.claude.com/c68cf84bd62a29285fc07c7065ff76b5382e35d5.jpg?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/c68cf84bd62a29285fc07c7065ff76b5382e35d5.jpg?w=1200&q=75&fm=webp&fit=max
 https://assets.claude.com/c68cf84bd62a29285fc07c7065ff76b5382e35d5.jpg?w=1920&q=75&fm=webp&fit=max
@@ -15887,6 +15957,7 @@ https://assets.claude.com/de96ba83730b332dd5cf581c0cfcc8b6557a016a.png?w=640&q=7
 https://assets.claude.com/de96ba83730b332dd5cf581c0cfcc8b6557a016a.png?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/de96ba83730b332dd5cf581c0cfcc8b6557a016a.png?w=828&q=75&fm=webp&fit=max
 https://assets.claude.com/de977cfbbd0d24ace485030e1ad6088f9b0c75db.svg
+https://assets.claude.com/debb29b66026bd3e0a55de89f8884d8ffe903570.webp
 https://assets.claude.com/dee21336ef41d9272ccbf02503b7f8e91c17d79e.png?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/dee21336ef41d9272ccbf02503b7f8e91c17d79e.png?w=1200&q=75&fm=webp&fit=max
 https://assets.claude.com/dee21336ef41d9272ccbf02503b7f8e91c17d79e.png?w=1920&q=75&fm=webp&fit=max
@@ -15997,6 +16068,7 @@ https://assets.claude.com/e1d27aa7e51bb19b0ef5b5f22cb09db221dbb581.png?w=3840&q=
 https://assets.claude.com/e1d27aa7e51bb19b0ef5b5f22cb09db221dbb581.png?w=640&q=75&fm=webp&fit=max
 https://assets.claude.com/e1d27aa7e51bb19b0ef5b5f22cb09db221dbb581.png?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/e1d27aa7e51bb19b0ef5b5f22cb09db221dbb581.png?w=828&q=75&fm=webp&fit=max
+https://assets.claude.com/e1deaac362da2eb9fac5d8dc38feebc89b80ec00.webp
 https://assets.claude.com/e1ef108ee3ca8e39f36059c8fb0421af1ce1fe2e.png?w=3840&q=75&fm=webp&fit=max
 https://assets.claude.com/e25fc9b5e32720040e72958b1b53e847233694eb.png?w=128&h=128&fit=crop
 https://assets.claude.com/e2a549048da628777be5ab3b1e48a1a528c4f029.png
@@ -16021,6 +16093,7 @@ https://assets.claude.com/e2d956b8d755355e3dca8a9063b118cfae019170.png?w=3840&q=
 https://assets.claude.com/e2d956b8d755355e3dca8a9063b118cfae019170.png?w=640&q=75&fm=webp&fit=max
 https://assets.claude.com/e2d956b8d755355e3dca8a9063b118cfae019170.png?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/e2d956b8d755355e3dca8a9063b118cfae019170.png?w=828&q=75&fm=webp&fit=max
+https://assets.claude.com/e2f7188da798d7c2235413a20109ef981ccf04ff.png
 https://assets.claude.com/e2fc02bb8f51efef7ceac0666d434f36364d037d.png
 https://assets.claude.com/e3066ca1eb7a1e7266772388edb6d0e19e714e5c.jpg?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/e3066ca1eb7a1e7266772388edb6d0e19e714e5c.jpg?w=640&q=75&fm=webp&fit=max
@@ -16044,6 +16117,7 @@ https://assets.claude.com/e320fbc76e712cf1e879cfb9bfde15763b5ce834.jpg?w=3840&q=
 https://assets.claude.com/e320fbc76e712cf1e879cfb9bfde15763b5ce834.jpg?w=640&q=75&fm=webp&fit=max
 https://assets.claude.com/e320fbc76e712cf1e879cfb9bfde15763b5ce834.jpg?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/e320fbc76e712cf1e879cfb9bfde15763b5ce834.jpg?w=828&q=75&fm=webp&fit=max
+https://assets.claude.com/e35ee53fc465db82afbb8f031f5b30e98be5bf5f.png
 https://assets.claude.com/e35f51e67250164340de169834495f360b8ff295.png
 https://assets.claude.com/e3758f1bc27af0786f4249cc1ab194fc2c6cce63.png?w=96&q=75&fm=webp&fit=max
 https://assets.claude.com/e38fc1f7307d90b23337621e0b1ca340e74e4b19.svg
@@ -16388,6 +16462,7 @@ https://assets.claude.com/ea9138206661c7d1cc499745af08a5812d95431f.png?w=3840&q=
 https://assets.claude.com/ea9138206661c7d1cc499745af08a5812d95431f.png?w=640&q=75&fm=webp&fit=max
 https://assets.claude.com/ea9138206661c7d1cc499745af08a5812d95431f.png?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/ea9138206661c7d1cc499745af08a5812d95431f.png?w=828&q=75&fm=webp&fit=max
+https://assets.claude.com/eaa627f67288a6d195be2c3f194138f6766064d9.png
 https://assets.claude.com/eab0ecbe5fcca624552cdaed0b7f0321393cfb45.png?w=384&q=75&fm=webp&fit=max
 https://assets.claude.com/eab0ecbe5fcca624552cdaed0b7f0321393cfb45.png?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/eb283889a737e2c4115df62facffcf82d0149794.png?w=1080&q=75&fm=webp&fit=max
@@ -16423,6 +16498,7 @@ https://assets.claude.com/ebd79a06316e629436a14f44095b66abc48a0391.jpg?w=3840&q=
 https://assets.claude.com/ebd79a06316e629436a14f44095b66abc48a0391.jpg?w=640&q=75&fm=webp&fit=max
 https://assets.claude.com/ebd79a06316e629436a14f44095b66abc48a0391.jpg?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/ebd79a06316e629436a14f44095b66abc48a0391.jpg?w=828&q=75&fm=webp&fit=max
+https://assets.claude.com/ebdf1ee45c4754bbc281e16f5f3ce839e7e09e3d.svg
 https://assets.claude.com/ebe7f4bb40a0855ccf79efc59241e7a42c2198d3.jpg?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/ebe7f4bb40a0855ccf79efc59241e7a42c2198d3.jpg?w=1920&q=75&fm=webp&fit=max
 https://assets.claude.com/ebea04f981742354f8ac456eec1feb18437fa5ac.png
@@ -16666,6 +16742,7 @@ https://assets.claude.com/f0aad7833a82f85e11bd1bc8c2a61261186d568a.png?w=640&q=7
 https://assets.claude.com/f0aad7833a82f85e11bd1bc8c2a61261186d568a.png?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/f0aad7833a82f85e11bd1bc8c2a61261186d568a.png?w=828&q=75&fm=webp&fit=max
 https://assets.claude.com/f0ad434614518667f9ed3cc34b7722bae9628eef.png
+https://assets.claude.com/f0caec900385c80cdaddb5e06e70d0c207863316.svg
 https://assets.claude.com/f0cdc0c1a361d28bcf4f0c26ad8870a3b0f879ec.png?w=128&h=128&fit=crop
 https://assets.claude.com/f0dfb70b9b309d7c52845f73da8d964140669ff7.pdf
 https://assets.claude.com/f1032cee11167162c2154ded0fdadb04183e04ae.png?w=1080&q=75&fm=webp&fit=max
@@ -17068,6 +17145,7 @@ https://assets.claude.com/fa8f8c05f896941b344facf500eb726b35aec431.jpg?w=640&q=7
 https://assets.claude.com/fa8f8c05f896941b344facf500eb726b35aec431.jpg?w=750&q=75&fm=webp&fit=max
 https://assets.claude.com/fa8f8c05f896941b344facf500eb726b35aec431.jpg?w=828&q=75&fm=webp&fit=max
 https://assets.claude.com/facbb36f20bcded62b3295402d5ba517a4eac900.pdf
+https://assets.claude.com/fade9e974aaa79148bdf5ae15829688b69113589.svg
 https://assets.claude.com/faf941fe1ebfd09139d39b8e4ad9048121979284.png?w=1080&q=75&fm=webp&fit=max
 https://assets.claude.com/faf941fe1ebfd09139d39b8e4ad9048121979284.png?w=1200&q=75&fm=webp&fit=max
 https://assets.claude.com/faf941fe1ebfd09139d39b8e4ad9048121979284.png?w=1920&q=75&fm=webp&fit=max
@@ -17547,6 +17625,7 @@ https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a86fc9ddbdb6a1fb6d6
 https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a96d932afebe800aba280e2_Startup%20Guide%20to%20Claude%20Code%20v3.pdf
 https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6aa46440db7c5ad962ef7ef2_Claude-Accenture-Deploying-AI-from-pilot-to-production-09112026%20(1).pdf
 https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6aa8884a409cf1cabf867265_Claude-eBook-Building-an-AI-native-revenue-organization-09142026.pdf
+https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6aba736348bdf4f08183f463_AI%20Native%20SDLC%20Playbook_designv2%20%281%29.pdf
 https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6aba736348bdf4f08183f463_AI%20Native%20SDLC%20Playbook_designv2%20(1).pdf
 https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5a8066e04cba3dd0a8dde_augment%20code_light.svg
 https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/68b5a80a8b51472408dce9b3_augment%20code_dark.svg
@@ -18897,6 +18976,7 @@ https://downloads.intercomcdn.com/i/o/lupk8zyo/1893088365/2ca4b782dda90abea1fe5f
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1893088365/2ca4b782dda90abea1fe5f4150af/CleanShot+2025-12-18+at+13_14_30%402x.png?expires=1794837600&signature=453aea22d58f4c05d2e626304c90963d0195ab739eb5a3d97d9f4ef7fe469583&req=dSguFcl2lYJZXPMW1HO4zWggDtpZpZucRC8c%2FcM5c2Kfy5NA6sjW7yijQVza%0AYLCurJoxhxIIEPHQrlQ%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1893088365/2ca4b782dda90abea1fe5f4150af/CleanShot+2025-12-18+at+13_14_30%402x.png?expires=1795012200&signature=c5d8110091884d2b2f310f9dc17a95482e36bdee07ed7f486cdf2d83d317b28e&req=dSguFcl2lYJZXPMW1HO4zWggDttRp56YRC8c%2FcM5c2JXxOrCtMnnHjdpDzbl%0AqHsnDaz3s2wb0Fo7fUM%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1893088365/2ca4b782dda90abea1fe5f4150af/CleanShot+2025-12-18+at+13_14_30%402x.png?expires=1795267800&signature=3e28fba75bb8885016b360345a6b477e86b122df23e30211c5dd920900f2b8f0&req=dSguFcl2lYJZXPMW1HO4zWggDttToJuSRC8c%2FcM5c2Kt4IVd7DqTH29bi7CN%0AGyzRtPG%2FUcjOTKbHm7c%3D%0A
+https://downloads.intercomcdn.com/i/o/lupk8zyo/1893088365/2ca4b782dda90abea1fe5f4150af/CleanShot+2025-12-18+at+13_14_30%402x.png?expires=1795534200&signature=fa5da43d87ec842953d8677ab171069755e72dd26496602eac5596b164bc95ce&req=dSguFcl2lYJZXPMW1HO4zWggDttUpZiYRC8c%2FcM5c2KgzGAxZvqT6ezGSly0%0AmyogwwQeElRI5ksb3Zo%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1788005700&signature=b4559b9616cdfd170583c4f4d8261f663a0d70ba8381e185059f52eba41a192e&req=dSkmEMt%2BlYRYUfMW1HO4zV2J7SfKtIKG9crMELaMZPzjbE3yxWyRbSUvUWS%2F%0AMc3xCROxO2JQ8F9ibvQ%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1788057900&signature=04d247129a61b0510754b3a96312d282e9a75633cad6b9f76e1cdc116b0ef35e&req=dSkmEMt%2BlYRYUfMW1HO4zV2J7SfKsYCI9crMELaMZPz9bFaXgNRxEInt%2Bwp%2F%0Aj5iqY7tSilKGhjJpO5E%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1788066000&signature=76cb9648aac50d821ad998d98f801d29ba860038203b6533d1f8ad6be82c608c&req=dSkmEMt%2BlYRYUfMW1HO4zV2J7SfKsoGB9crMELaMZPxEzrNJmlyaR%2B7Evg7t%0Ae2%2BhFXb4iCWweoINxMw%3D%0A
@@ -18991,6 +19071,7 @@ https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b5798
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1795184100&signature=4aec4f951633c5361b74929aea3558258a5786d8cbaae34d2995b13c7cd91e79&req=dSkmEMt%2BlYRYUfMW1HO4zV2J7CrLvIOA9crMELaMZPxTHj27U%2BIYhUZH5ad5%0A71vagjzyH2wC%2BTgoJjY%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1795270500&signature=471a70d9f292848b63c835c651590f9da5ac960c19619ad8ba74b6d714695276&req=dSkmEMt%2BlYRYUfMW1HO4zV2J7CrIs4eE9crMELaMZPz9kvBN6j7lsHu1dfIg%0APs67bEV4%2Fecr1bIGKm4%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1795448700&signature=8ac121ec3e3a40d14ea3fc680759a75b8fd08ee03f4dc5c28b09a910d07b0d68&req=dSkmEMt%2BlYRYUfMW1HO4zV2J7CrOsI%2BG9crMELaMZPx3PXHlyG2FYYPu7AIB%0AHEvNeSfXT%2Fk3RPuznkk%3D%0A
+https://downloads.intercomcdn.com/i/o/lupk8zyo/1916208578/2cf2ea52f1f884084b57983a8805/image.png?expires=1795536000&signature=28d6c5ad09b8bd0926b72017078c7f0caa238ebd488b0548b5679eadbb44e7e3&req=dSkmEMt%2BlYRYUfMW1HO4zV2J7CrPt4GB9crMELaMZPyMeA1VO1BGoTsYkWcY%0Aqs6U3VxQ%2F0%2BbxIR5dHY%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1921669913/7cc7be48cfc7a18f9f469d6cd83c/CleanShot+2026-01-08+at+10_20_43%402x.png?expires=1788003900&signature=b2f16727fef5954598fdb4b447d8f6a9c848d044d50249ce274e2f7836ee0c1c&req=dSklF894lIheWvMW1HO4zWn5HzsdYkZic9cNIYuX0GHUcchYeVK3LQiTFJWN%0AwOPerCy8SlfBzJZJhs0%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1921669913/7cc7be48cfc7a18f9f469d6cd83c/CleanShot+2026-01-08+at+10_20_43%402x.png?expires=1788064200&signature=2d0bfc159efcc562eb9de1b9bd0f69fb240008614c1de47df6eacc92ffc805cf&req=dSklF894lIheWvMW1HO4zWn5HzsdZEFpc9cNIYuX0GHFj06RzUSZKNmHAi4a%0AHAq80IWQ%2FBZ6JOMkGZY%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1921669913/7cc7be48cfc7a18f9f469d6cd83c/CleanShot+2026-01-08+at+10_20_43%402x.png?expires=1788086700&signature=9c82c84b9965e41660cf6829550860e65280ed4583b3daf599d83565461358d7&req=dSklF894lIheWvMW1HO4zWn5HzsdakNsc9cNIYuX0GGpwA1Nrs%2FSbT5WP7y1%0ANmjzlqFSqkVdtfHWuwY%3D%0A
@@ -19173,6 +19254,7 @@ https://downloads.intercomcdn.com/i/o/lupk8zyo/1922141785/666191101c11030b05f03a
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1922141785/666191101c11030b05f03a668a74/image.png?expires=1795184100&signature=d5033bafde00a59a4fd17ef5f9c222b55523540ac9a282a585276a4fd25df9a7&req=dSklFMh6nIZXXPMW1HO4zVXW8WiqYzfNQoNvNFTb5cclURQi%2FjE5oraiyrIH%0AeqyjLOVdy%2F0ZTwDRWy4%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1922141785/666191101c11030b05f03a668a74/image.png?expires=1795353300&signature=29cbd87621a88220945db968eb8806eb4892ba6a9a12d2b875672be719db805e&req=dSklFMh6nIZXXPMW1HO4zVXW8WiobjDPQoNvNFTb5ceKd7NkrCiXMLubvNxK%0ARpwrrAjediaLbpm9IdU%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1922141785/666191101c11030b05f03a668a74/image.png?expires=1795448700&signature=bce64a05ceec55fb5b4ddc961a69df88e9b93dadd7c31806f316f53c3edf33d9&req=dSklFMh6nIZXXPMW1HO4zVXW8WivbzvLQoNvNFTb5ces7clKy7DckvO3pf2I%0AseAnh8INubU%2Fqj0mA0A%3D%0A
+https://downloads.intercomcdn.com/i/o/lupk8zyo/1922141785/666191101c11030b05f03a668a74/image.png?expires=1795536900&signature=e448abf9af640a237a88c5f01f19a39e451d202e6e525d390645529dec82419e&req=dSklFMh6nIZXXPMW1HO4zVXW8WiuaDXFQoNvNFTb5cdn%2FuhtnUro9988ts7Z%0AerbAnLGgfhUyy2eMQTg%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1922145253/f2e3d4e0fe43a2ea07e89244764c/image.png?expires=1788004800&signature=8b340ac2072aacf15351b4e9bcf477989146cff3de60d2c489c24c6fa3b5a335&req=dSklFMh6mINaWvMW1HO4zRZTxFLBu8%2FbKAqLF4ERnlWG4H89EyUGmyTShi%2FD%0Awz6Npmq8w5%2FTFaygOJ8%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1922145253/f2e3d4e0fe43a2ea07e89244764c/image.png?expires=1788057000&signature=9c4a857bcadfcdd6da8646c36a3e3987d2ce003522cf91c19ef44c1cc645b0aa&req=dSklFMh6mINaWvMW1HO4zRZTxFLBvszTKAqLF4ERnlXzxYuWXD5phfJhCj7r%0Ack8euibHcPw1cwIR2SY%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1922145253/f2e3d4e0fe43a2ea07e89244764c/image.png?expires=1788065100&signature=4cde3ab59ade96c51c394d6ed1b61fcf2196109f945be6a47d3142a2cb7266f1&req=dSklFMh6mINaWvMW1HO4zRZTxFLBvc7SKAqLF4ERnlVoUiJ1jyIW1OEzlKsq%0AikxIeg3hTcY6YqHoV3s%3D%0A
@@ -19266,6 +19348,7 @@ https://downloads.intercomcdn.com/i/o/lupk8zyo/1922145253/f2e3d4e0fe43a2ea07e892
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1922145253/f2e3d4e0fe43a2ea07e89244764c/image.png?expires=1795183200&signature=00c65f447ba7f90e59584351ed70745bbc2aff564af2ca94e942b518fb7ac18e&req=dSklFMh6mINaWvMW1HO4zRZTxV%2FAs8jRKAqLF4ERnlXa1nhEP7wefOFbUuP5%0AT6x%2FAQMyGC3X1WCN08s%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1922145253/f2e3d4e0fe43a2ea07e89244764c/image.png?expires=1795268700&signature=552dc5f4c2b8fd95b2d469bb68168657622d4d002d7057511f41858fca66dba1&req=dSklFMh6mINaWvMW1HO4zRZTxV%2FDvcPUKAqLF4ERnlWe5fgtx7lb%2BJ8o6sl1%0Ak1Q2tLjd%2BxKc0CGyi%2Bo%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1922145253/f2e3d4e0fe43a2ea07e89244764c/image.png?expires=1795356000&signature=d0a89d04ef772574d86ea797298deba33f0e49720b4e6f2c304ad94f9d200290&req=dSklFMh6mINaWvMW1HO4zRZTxV%2FCvs3TKAqLF4ERnlWvfhWwiq%2BRqnGEUGML%0AcUX3gcqUlnMQ%2FzTApsw%3D%0A
+https://downloads.intercomcdn.com/i/o/lupk8zyo/1922145253/f2e3d4e0fe43a2ea07e89244764c/image.png?expires=1795535100&signature=626c78fdcf6b7149eeea13bef448780dcd0aec00112ff2be9759212d21471351&req=dSklFMh6mINaWvMW1HO4zRZTxV%2FEuM7SKAqLF4ERnlX3ccsucpVXDHjQYjY9%0AjkxRwpLWDoQeFk7sOlk%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1922579101/ede30d38dca693c59f9c15d79e69/CleanShot+2026-01-08+at+15_45_20%402x.png?expires=1788004800&signature=82a5bcc89c9fa6c57d192a0e3c9f33f719486e241edaf402eafec24cd3980b1a&req=dSklFMx5lIBfWPMW1HO4zRpFC8AETRZ%2BO9Kw38RlAYIBgQzFxuSLag2eSl8U%0ATzxuyqtrIBD%2Fm6FlFA4%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1922579101/ede30d38dca693c59f9c15d79e69/CleanShot+2026-01-08+at+15_45_20%402x.png?expires=1788065100&signature=1f8b8a34da723f19d045945caedbff41b5c8aaf977221bb25609f3662388b1d8&req=dSklFMx5lIBfWPMW1HO4zRpFC8AESxd3O9Kw38RlAYIfFUb2I%2B493VFyfA8K%0Adi5KtnNlFZUQZFye9fM%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1922579101/ede30d38dca693c59f9c15d79e69/CleanShot+2026-01-08+at+15_45_20%402x.png?expires=1788087600&signature=d17a4348ded75749d898e242e68e93599f2e68e453ccda26d15c07d498168287&req=dSklFMx5lIBfWPMW1HO4zRpFC8AERRVwO9Kw38RlAYLjx0KYEYlsvLgAhqh0%0AYCW%2B6%2Fn8i2aS6wFTA18%3D%0A
@@ -19346,6 +19429,7 @@ https://downloads.intercomcdn.com/i/o/lupk8zyo/1935026646/d90d1613a3dbe763fef5ab
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1935026646/d90d1613a3dbe763fef5abb96e3c/image.png?expires=1794837600&signature=2cda5e10ee7360d1c66d23741f76795f13f9a81eea93e5a1b13fa76a96fa20f8&req=dSkkE8l8m4dbX%2FMW1HO4zcrI5o3ko4cL8vUNcPt4%2B71%2FjW1ZszNgyw3pLEW4%0AeeRAbJr8EjZxBqEWcw0%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1935026646/d90d1613a3dbe763fef5abb96e3c/image.png?expires=1795012200&signature=574d11f464f634e5f9c41b8a108f96396b863906f7a258f11debacb26f0f76fa&req=dSkkE8l8m4dbX%2FMW1HO4zcrI5ozsoYIP8vUNcPt4%2B72WOoBdBzfAIX0oRyyC%0ATY8SnhllIoyX%2BHcc7eA%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1935026646/d90d1613a3dbe763fef5abb96e3c/image.png?expires=1795268700&signature=286582048770485ecdbbe300e75536f393e4722d32899ddd512d01f7c2c47d09&req=dSkkE8l8m4dbX%2FMW1HO4zcrI5ozupogK8vUNcPt4%2B70pjus4qkw9heWA4q3G%0AGNc58P5rpQr4l0JNPmk%3D%0A
+https://downloads.intercomcdn.com/i/o/lupk8zyo/1935026646/d90d1613a3dbe763fef5abb96e3c/image.png?expires=1795535100&signature=441684ee4191733ac087b5729313246b42a08048f9311b1f15bed709f0c05f8a&req=dSkkE8l8m4dbX%2FMW1HO4zcrI5ozpo4UM8vUNcPt4%2B72vtKbiMe%2Bc24M8FVWr%0AlTm0vNuTwShEzBra6U4%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1941108004/5217903737ddd9bb62fe5d7a904c/CleanShot+2026-01-14+at+09_12_58.png?expires=1788005700&signature=7285a5c8167ca8acf568e1be6cb40344288a264be335766fc25996ea56fc7be1&req=dSkjF8h%2BlYFfXfMW1HO4zUS%2BB1f2WX7oylfYa7uDb9liIT4QbkWx4Y4m2WBy%0AzXz9Y270DqxVFWzm1Gk%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1941108004/5217903737ddd9bb62fe5d7a904c/CleanShot+2026-01-14+at+09_12_58.png?expires=1788066000&signature=6548290f0973841673964059e92b44081218a34ee242af354ac8e31b656f4274&req=dSkjF8h%2BlYFfXfMW1HO4zUS%2BB1f2X33vylfYa7uDb9lc9rAb6BIJCqVy7Oue%0AGSLv9D6fcfIG5c8k4OQ%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1941108004/5217903737ddd9bb62fe5d7a904c/CleanShot+2026-01-14+at+09_12_58.png?expires=1788088500&signature=afcba7183339e71ce5063ebdaeecba15c5c25f65fb1b52463c7b5a3f665eb422&req=dSkjF8h%2BlYFfXfMW1HO4zUS%2BB1f2UXPqylfYa7uDb9kjhu6R7c%2Bn8Fk6KpY6%0A1tA%2Fqy7fhscXWn1KiJA%3D%0A
@@ -19393,6 +19477,7 @@ https://downloads.intercomcdn.com/i/o/lupk8zyo/1941108004/5217903737ddd9bb62fe5d
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1941108004/5217903737ddd9bb62fe5d7a904c/CleanShot+2026-01-14+at+09_12_58.png?expires=1794924900&signature=472d557b133990722302634c7687d6582081f99a50c0e0aac873b31071595883&req=dSkjF8h%2BlYFfXfMW1HO4zUS%2BBlv%2FW3%2FmylfYa7uDb9nfPNqLbVNjz%2BQl2Rbp%0AS2tCdvKxQTPqoeBOFEo%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1941108004/5217903737ddd9bb62fe5d7a904c/CleanShot+2026-01-14+at+09_12_58.png?expires=1795098600&signature=e7c070d07c828bd3b97cb454b01938609570b9c35b34f309c1c16ff38025af53&req=dSkjF8h%2BlYFfXfMW1HO4zUS%2BBlr2UHPpylfYa7uDb9nCbPDd1MuV%2B0zjyzds%0A3LDEpPuGx4ahUXFKpPQ%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1941108004/5217903737ddd9bb62fe5d7a904c/CleanShot+2026-01-14+at+09_12_58.png?expires=1795353300&signature=ed4fe79922eb8a8773f3a865a6693608f2c9a914e10a1f95ba43bf722fc1ddd5&req=dSkjF8h%2BlYFfXfMW1HO4zUS%2BBlr1XHjsylfYa7uDb9mj7K1oB%2FSsNyAB9%2FqM%0Adz%2F%2FW6nt0NMggHfcmDM%3D%0A
+https://downloads.intercomcdn.com/i/o/lupk8zyo/1941108004/5217903737ddd9bb62fe5d7a904c/CleanShot+2026-01-14+at+09_12_58.png?expires=1795536900&signature=5698be4929c01b93a6b57afc5e237b247ff8c190c5e1f9216170a59e1e3c1c0d&req=dSkjF8h%2BlYFfXfMW1HO4zUS%2BBlrzWn3mylfYa7uDb9kKcQ3gqXFG%2B78sWiLu%0Am3pMkKxhUwzi2rn4Wsc%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1951676927/c66153a2c075c6a64404306aefd0/Screenshot%2B2025-10-28%2Bat%2B1_58_24-E2-80-AFPM.png?expires=1788006600&signature=f9e61fffbf5661ab3d99fe1ebb0e00d664fe55b3751f24a84bf858c208aeb1f1&req=dSkiF895m4hdXvMW1HO4zW9EwgG9%2BXK1gj8mTHivCKYfIN50bNhZteCzBKHp%0AJWII28O78Cwb%2BQhJ0Bs%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1951676927/c66153a2c075c6a64404306aefd0/Screenshot%2B2025-10-28%2Bat%2B1_58_24-E2-80-AFPM.png?expires=1788057900&signature=046fd6fe64b30140bee78192e627e8bcf327f72a3656dfe8d572f8473dd03b37&req=dSkiF895m4hdXvMW1HO4zW9EwgG9%2FHO6gj8mTHivCKbdRBHUhxmcVui35wos%0AOYi5etT2Rg5I6Rx6jSo%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/1951676927/c66153a2c075c6a64404306aefd0/Screenshot%2B2025-10-28%2Bat%2B1_58_24-E2-80-AFPM.png?expires=1788059700&signature=5ed0f1f054e86f4d38c215b8ae9b7dd0d2e69e56be5c42188c634aa3ac2ff0cd&req=dSkiF895m4hdXvMW1HO4zW9EwgG9%2FH20gj8mTHivCKYFUbM8oc6aD6x%2BzQ%2FM%0AAqgOQLV4Wgju4AAgcYo%3D%0A
@@ -19556,6 +19641,7 @@ https://downloads.intercomcdn.com/i/o/lupk8zyo/2053873852/1cbccea3b7067e03205f2f
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2053873852/1cbccea3b7067e03205f2ff8546b/CleanShot+2026-02-11+at+11_16_07%402x.png?expires=1794837600&signature=1933bc0b0b6c3c38c9831cd8895e8da631dbc0e1e2498419cc90d2b639285bab&req=diAiFcF5nolaW%2FMW1HO4zUrhF%2B%2BQag8ckeFUnrkrQZhXduazUjBluKXf2KQ6%0AYIMOBtTOTKvQP6qtrZ4%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2053873852/1cbccea3b7067e03205f2ff8546b/CleanShot+2026-02-11+at+11_16_07%402x.png?expires=1795012200&signature=aedfde58a7194988c89c113cedd349f73f0a4cc2a69f80061381a533a08e29ab&req=diAiFcF5nolaW%2FMW1HO4zUrhF%2B6YaAoYkeFUnrkrQZgykgblXS9%2FSUssp8Zr%0A%2FO8J4fn9XUpVXFuYtpY%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2053873852/1cbccea3b7067e03205f2ff8546b/CleanShot+2026-02-11+at+11_16_07%402x.png?expires=1795268700&signature=e53c3e81ce537abc0fea4ac32d2a3c400c52818cd87894da07dcc7f288eb40cb&req=diAiFcF5nolaW%2FMW1HO4zUrhF%2B6abwAdkeFUnrkrQZjkAx5dDbOnpSa6blia%0AjjVbxwzB6Rb50eJz2xc%3D%0A
+https://downloads.intercomcdn.com/i/o/lupk8zyo/2053873852/1cbccea3b7067e03205f2ff8546b/CleanShot+2026-02-11+at+11_16_07%402x.png?expires=1795535100&signature=355e2a04eb22d7b6ab14f517c44da6b83e42c2c541829e1de6377699d1556e34&req=diAiFcF5nolaW%2FMW1HO4zUrhF%2B6dag0bkeFUnrkrQZi9%2Br38S3hkfNRV7vwL%0AlzFi9NKqaNYaDFj2d5I%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2053902291/8c39d1a79dedc97411eed54dec5c/CleanShot+2026-02-11+at+11_25_34%402x.png?expires=1788006600&signature=36a2436da46750d04e35d4424fc3835888ad9e88ddc713f92df4f38371d826d4&req=diAiFcB%2Bn4NWWPMW1HO4zfGib2%2BkawZZYabJlVJ9VPw%2BXszG%2BGN3ZRLw6WYF%0Ap46xhVdxZr%2FOz6Xk6z8%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2053902291/8c39d1a79dedc97411eed54dec5c/CleanShot+2026-02-11+at+11_25_34%402x.png?expires=1788057900&signature=2c0f6b026b752d6402fc14f1a053751eb8a88fe15b455f544bca850ffaae3735&req=diAiFcB%2Bn4NWWPMW1HO4zfGib2%2BkbgdWYabJlVJ9VPxE7x7bN9f5NTeKtWa1%0AEdyCif%2F8GqbKOpCJElg%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2053902291/8c39d1a79dedc97411eed54dec5c/CleanShot+2026-02-11+at+11_25_34%402x.png?expires=1788066000&signature=43a769053aa5efd34d7744b6a020789126a5c5ff076614c138f37cf5ec4b7339&req=diAiFcB%2Bn4NWWPMW1HO4zfGib2%2BkbQZfYabJlVJ9VPzNCnRW6UjjZhJJqFfv%0ABFh%2FzPzdeGCmpVQDT6Y%3D%0A
@@ -19828,6 +19914,7 @@ https://downloads.intercomcdn.com/i/o/lupk8zyo/2105391273/8359cbf8be20dce0f1cd3f
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2105391273/8359cbf8be20dce0f1cd3fd40e6f/CleanShot-2B2026-02-25-2Bat-2B15_50_16.png?expires=1795182300&signature=dba644db55a204b1dc412161ed24e2cb21ec586d0975c029739090907505a5d8&req=diEnE8p3nINYWvMW1HO4zSOgDi4pyuSuH%2BdCnFXB0uiUunujwx2sJiZCk3Ph%0AV1gS%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2105391273/8359cbf8be20dce0f1cd3fd40e6f/CleanShot-2B2026-02-25-2Bat-2B15_50_16.png?expires=1795267800&signature=7b1a282b680d7bf0c15bba5e685fcc6bb8ce82edbf406b64ffce129fbd4bfd92&req=diEnE8p3nINYWvMW1HO4zSOgDi4qxOGlH%2BdCnFXB0ujtsaDKxkRMpaIZdDux%0AEiuX%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2105391273/8359cbf8be20dce0f1cd3fd40e6f/CleanShot-2B2026-02-25-2Bat-2B15_50_16.png?expires=1795356000&signature=6fe1f5775559d501984edaa392cbd79a3a8c3bc8450be87be23bccea3f42d84f&req=diEnE8p3nINYWvMW1HO4zSOgDi4rx%2BCtH%2BdCnFXB0uhCbc49m%2BFlHCb6SX6v%0AIiME%0A
+https://downloads.intercomcdn.com/i/o/lupk8zyo/2105391273/8359cbf8be20dce0f1cd3fd40e6f/CleanShot-2B2026-02-25-2Bat-2B15_50_16.png?expires=1795534200&signature=01feea5081d7b92972ef68d35d6e6b4db471b9df49f4cc34e88296679eee1206&req=diEnE8p3nINYWvMW1HO4zSOgDi4tweKvH%2BdCnFXB0ugjb%2BIJtw2GjkYAWiy8%0AQAps%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2149347604/936ac4eb025d3ef1f00c3b8a26b0/image.png?expires=1788003900&signature=89c72b7918af5de22da2a2a9f3b3b3d6f7d40b3e495c500c497e2aacdee15737&req=diEjH8p6modfXfMW1HO4zQHwg6nXli2v6DwhVVpk1mCS%2BbyBkGEOIeBQnWzH%0AFr2dlxojHpAX5%2FfiEX0%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2149347604/936ac4eb025d3ef1f00c3b8a26b0/image.png?expires=1788057000&signature=10f6203096bbf3fded7a9335079cbd442175af00a6b4ebb310bf697484b84656&req=diEjH8p6modfXfMW1HO4zQHwg6nXkymm6DwhVVpk1mCFem4C%2BaKGvnurgugL%0A9N2wSoi0nv21dqupqYY%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2149347604/936ac4eb025d3ef1f00c3b8a26b0/image.png?expires=1788065100&signature=10ef54c4c1c994fbef8e0a3d680bfd742918ccfd5a8699c46b0f783b43d50744&req=diEjH8p6modfXfMW1HO4zQHwg6nXkCun6DwhVVpk1mAhQEz2zluy8d8rySg6%0AcKCKqhqF5%2BoiIjLBnNA%3D%0A
@@ -20322,6 +20409,7 @@ https://downloads.intercomcdn.com/i/o/lupk8zyo/2157396844/4a790e10f5b88df770783d
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2157396844/4a790e10f5b88df770783df1d7e9/image.png?expires=1795183200&signature=a726a4f3cc0c6a382a97e9c6641dbbd71914deed0768c590403927a85d76a2af&req=diEiEcp3m4lbXfMW1HO4zf4NBfP9i0OWmKUxugP2BQvujn4pFgEUNcJcIyxm%0AYrz%2FYlOLz5LhZ%2BQJYek%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2157396844/4a790e10f5b88df770783df1d7e9/image.png?expires=1795268700&signature=d23e441f62ead8dc56e3533b82f9a6c3616ff40fe01b9f4d34f61ddad7794622&req=diEiEcp3m4lbXfMW1HO4zf4NBfP%2BhUiTmKUxugP2BQviyssFHW21WOlAMFvV%0APDk8gg4FsUsiXrlR3BU%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2157396844/4a790e10f5b88df770783df1d7e9/image.png?expires=1795447800&signature=99ff9da257f5cec822a9603a419375c0c1e5c34d88f5e7615a5922a8d943a59d&req=diEiEcp3m4lbXfMW1HO4zf4NBfP4h0ecmKUxugP2BQssHOQ19dtLx7BoYs%2BJ%0A0%2Fuf3h6Kj6x3YFYwZD4%3D%0A
+https://downloads.intercomcdn.com/i/o/lupk8zyo/2157396844/4a790e10f5b88df770783df1d7e9/image.png?expires=1795535100&signature=4b6e23cf2c776a0bc55d922a559e115dee327bb1f6f48b63dfccd8b7f54a913d&req=diEiEcp3m4lbXfMW1HO4zf4NBfP5gEWVmKUxugP2BQvOMW6cYk9Px5FWrK9o%0AjcPPihSKrCMmpzYq8G8%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2183717962/acdc11bcc825ae76a13f508365bc/CleanShot+2026-03-20+at+09_12_08.png?expires=1788004800&signature=cc0f58716f52723ca2ee866b65e44e7bd650795529313c6db944cf9c4d55ef11&req=diEvFc5%2FmohZW%2FMW1HO4zQQ7UGtdypwXjggUT7FIJz8HJDK%2FrwDid7gR8UBa%0AGIgkED18yuIT55WpI88%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2183717962/acdc11bcc825ae76a13f508365bc/CleanShot+2026-03-20+at+09_12_08.png?expires=1788057900&signature=069c6ab628e5e76ff95f6000528d68d57ec09f2a76a624eab0617367a997d78e&req=diEvFc5%2FmohZW%2FMW1HO4zQQ7UGtdz58WjggUT7FIJz8jwQeu3w1pKqLyd6gv%0ApQlhoIVYRg0HnR%2FV1eI%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2183717962/acdc11bcc825ae76a13f508365bc/CleanShot+2026-03-20+at+09_12_08.png?expires=1788065100&signature=d0b21637d0c97da0eef08d3996ea19256ab83ab8f43a0b3c33a1962eec7b8ac8&req=diEvFc5%2FmohZW%2FMW1HO4zQQ7UGtdzJ0ejggUT7FIJz8ewHNHyV%2FNJ8SB4iYS%0A0haI2hLdu89CBZz99tI%3D%0A
@@ -20415,6 +20503,7 @@ https://downloads.intercomcdn.com/i/o/lupk8zyo/2183717962/acdc11bcc825ae76a13f50
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2183717962/acdc11bcc825ae76a13f508365bc/CleanShot+2026-03-20+at+09_12_08.png?expires=1795183200&signature=c94a750cd407e26e67f818866871d10c5e3787c754c95b7e9a422564e16ec19f&req=diEvFc5%2FmohZW%2FMW1HO4zQQ7UWZcwpsdjggUT7FIJz%2Fohv%2FRjFulr%2Fu1iMAj%0AanmWtB9U6tDyPRUSZ7E%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2183717962/acdc11bcc825ae76a13f508365bc/CleanShot+2026-03-20+at+09_12_08.png?expires=1795269600&signature=971dfec9fee60a645f77f33d6663382fb006dcb7174f32c8192b6459759ba170&req=diEvFc5%2FmohZW%2FMW1HO4zQQ7UWZfzJEZjggUT7FIJz%2Bo9QB5ki6lIbjb2HHQ%0AZIybobd5VfoV5sTMZCs%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2183717962/acdc11bcc825ae76a13f508365bc/CleanShot+2026-03-20+at+09_12_08.png?expires=1795447800&signature=973ed9cec159682fda82bd503e0f13802a0457597ef47cfb4ba990c89ee54950&req=diEvFc5%2FmohZW%2FMW1HO4zQQ7UWZZzp8XjggUT7FIJz98UI9azRMjS3J1T2eg%0AJVmT%2BGraVpJbSb3czy4%3D%0A
+https://downloads.intercomcdn.com/i/o/lupk8zyo/2183717962/acdc11bcc825ae76a13f508365bc/CleanShot+2026-03-20+at+09_12_08.png?expires=1795535100&signature=7f2cb74dcbf29c20be35e8d03540912d59408f4e345ee428af082b5f421d9278&req=diEvFc5%2FmohZW%2FMW1HO4zQQ7UWZYyZ0ejggUT7FIJz9SzEpF5n%2FtIH37aRfc%0AmagTAaNFm8FtGM51lyg%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2183720240/6f6ef438913391703598d86d606c/CleanShot+2026-03-20+at+09_11_43.png?expires=1788004800&signature=9ecad077b6476da20277dcb27d1d667d12cdb398096393773bd8adbe358a0047&req=diEvFc58nYNbWfMW1HO4zcOgiw260Sx9ZwSvwegvtgzTh5IROzFQICv8WDIr%0AjdAP0qOFFVEOuW3qPOM%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2183720240/6f6ef438913391703598d86d606c/CleanShot+2026-03-20+at+09_11_43.png?expires=1788057900&signature=08653135f84d93cd09277f1f16f0f4eb8b1a57177a05ef203429a7ff0a4fac74&req=diEvFc58nYNbWfMW1HO4zcOgiw261C98ZwSvwegvtgxe3wlOg3FPLlI3YoCv%0A6srVCAHvktBD8ReUMyw%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2183720240/6f6ef438913391703598d86d606c/CleanShot+2026-03-20+at+09_11_43.png?expires=1788065100&signature=52adf4b2624a8669d0fd3fc1cd19f72994d918c01496034ea43fdec576fde768&req=diEvFc58nYNbWfMW1HO4zcOgiw261y10ZwSvwegvtgyWXs9EKlcGnc2Gr0Yd%0AhccJPhWxBHQ42irewt0%3D%0A
@@ -20508,6 +20597,7 @@ https://downloads.intercomcdn.com/i/o/lupk8zyo/2183720240/6f6ef438913391703598d8
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2183720240/6f6ef438913391703598d86d606c/CleanShot+2026-03-20+at+09_11_43.png?expires=1795183200&signature=d993f67d6174704caba8fb2c5d69ebebbb6c531cc41124aaf8cb9e804a29fabf&req=diEvFc58nYNbWfMW1HO4zcOgigC72St3ZwSvwegvtgwwJ%2FDOTFXwNh2CoOwQ%0AYOchmz8QWjOv4MMjI6o%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2183720240/6f6ef438913391703598d86d606c/CleanShot+2026-03-20+at+09_11_43.png?expires=1795269600&signature=da5bc79c22daa2b48f1ff1d9cb86b8cdef2b3b47218f118baeb74cab1fd16a8b&req=diEvFc58nYNbWfMW1HO4zcOgigC41yFzZwSvwegvtgwRiPodNiKWZRELEN1i%0AG9Qukeor22MYPJsx2Is%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2183720240/6f6ef438913391703598d86d606c/CleanShot+2026-03-20+at+09_11_43.png?expires=1795447800&signature=98491bb28eadfc6264e34758df16639df424082907396d45882911cc916028b1&req=diEvFc58nYNbWfMW1HO4zcOgigC%2B1S99ZwSvwegvtgwl8kRKkyqaStz4WKkO%0ARR%2FAEbld3OYWUGOstik%3D%0A
+https://downloads.intercomcdn.com/i/o/lupk8zyo/2183720240/6f6ef438913391703598d86d606c/CleanShot+2026-03-20+at+09_11_43.png?expires=1795535100&signature=e7734ac4fb08fe759271a905322b356f76ba7c30d554d2cd281a028eec544947&req=diEvFc58nYNbWfMW1HO4zcOgigC%2F0i10ZwSvwegvtgws%2F52ojK1htn9P79Ol%0ArQ718sR2zuW7BvsM3KM%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2183727973/7a25430123d9e13e7c3cdd411f70/CleanShot+2026-03-20+at+09_13_41.png?expires=1788004800&signature=9e34eaea78a26812ce0eb597549e2b9995efaf1d8b14ad8f7581637c996a6245&req=diEvFc58mohYWvMW1HO4zU%2FKAitG%2FCfEI7f%2FdY0VL6jQq9GHHbnYpzJ1lRqF%0A247AnypWgwqdt4Qpots%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2183727973/7a25430123d9e13e7c3cdd411f70/CleanShot+2026-03-20+at+09_13_41.png?expires=1788057900&signature=f1c93044de3112ec8548fa9c00827510cbc77e07726e61fb0aa1e3aeb02c3ce5&req=diEvFc58mohYWvMW1HO4zU%2FKAitG%2BSTFI7f%2FdY0VL6iIJfdM%2BBN4k0okUDfj%0A54xNcYmXvzm6B%2Bg8Ht8%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2183727973/7a25430123d9e13e7c3cdd411f70/CleanShot+2026-03-20+at+09_13_41.png?expires=1788065100&signature=d36fbb97f8d406b5dcc063a1447a610f52a3b01568a853bec07282f3c2112d98&req=diEvFc58mohYWvMW1HO4zU%2FKAitG%2BibNI7f%2FdY0VL6gjwkZY86UmGhS7Iu7O%0Auc%2F5rHki1yCLVzTzWSk%3D%0A
@@ -20601,6 +20691,7 @@ https://downloads.intercomcdn.com/i/o/lupk8zyo/2183727973/7a25430123d9e13e7c3cdd
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2183727973/7a25430123d9e13e7c3cdd411f70/CleanShot+2026-03-20+at+09_13_41.png?expires=1795183200&signature=27b4de0dba06e98d0258c3b75da82db3103bfc692dd0fb3550faad447f05ca8f&req=diEvFc58mohYWvMW1HO4zU%2FKAyZH9CDOI7f%2FdY0VL6jTQ9Ox8lpOkiIc3ICD%0AvY001ffHUU6bWTojoUI%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2183727973/7a25430123d9e13e7c3cdd411f70/CleanShot+2026-03-20+at+09_13_41.png?expires=1795269600&signature=f3a9689108dadd6add03ea70ba02a13adfd06e1f27d1e42768364062b27c840c&req=diEvFc58mohYWvMW1HO4zU%2FKAyZE%2BirKI7f%2FdY0VL6hS4m232hPZuA2MddTk%0AKesh8SLYd9sNk50bHyI%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2183727973/7a25430123d9e13e7c3cdd411f70/CleanShot+2026-03-20+at+09_13_41.png?expires=1795447800&signature=70bad02644ce833c70abae1013c0936c7f455d87a67683cb2a012f67c26b10fd&req=diEvFc58mohYWvMW1HO4zU%2FKAyZC%2BCTEI7f%2FdY0VL6hYiqKkxfzi2Hg5bb5O%0A5Bbo8ndkU8Mp%2FKtJwWU%3D%0A
+https://downloads.intercomcdn.com/i/o/lupk8zyo/2183727973/7a25430123d9e13e7c3cdd411f70/CleanShot+2026-03-20+at+09_13_41.png?expires=1795535100&signature=6ebfaf5fc83e27c7b0f6ad7e3df3c63c7f131abcd6fd2d5642136c9746ee4534&req=diEvFc58mohYWvMW1HO4zU%2FKAyZD%2FybNI7f%2FdY0VL6jptQhjDIrriFwnLMTR%0ALE4SKDY2PFKPLEzIpxI%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2193200015/a239033a9ab19fbd39f1a0d9edce/CleanShot+2026-03-23+at+11_41_31%402x.png?expires=1788004800&signature=dba72e30b6c453f25a7b8839b3af222e76a5853928fd63f52b924aaea9c9eb0f&req=diEuFct%2BnYFeXPMW1HO4zUYv5tX5wXscRDH%2FtUo5ov5ZmKNIM8LSDlYPOExH%0AxfEKoGa3J3HDNBd6zYs%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2193200015/a239033a9ab19fbd39f1a0d9edce/CleanShot+2026-03-23+at+11_41_31%402x.png?expires=1788057900&signature=46f8019cdf8cf0bf151b5b6cac10d21b49fed000688133e7ecaeca3429d6b44a&req=diEuFct%2BnYFeXPMW1HO4zUYv5tX5xHgdRDH%2FtUo5ov5x5Yql6IrAwGwRfIro%0ACbbl0EMUI8t1m85dxdE%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2193200015/a239033a9ab19fbd39f1a0d9edce/CleanShot+2026-03-23+at+11_41_31%402x.png?expires=1788065100&signature=0d15f60a8f0412b0b44d3a0236fd161a0c85d4acfb1a19b7f239e75e53f38bce&req=diEuFct%2BnYFeXPMW1HO4zUYv5tX5x3oVRDH%2FtUo5ov4x9uX80KH0MSbcIuYD%0AAH7gTHzjRf%2BTbZQAUE0%3D%0A
@@ -20800,6 +20891,7 @@ https://downloads.intercomcdn.com/i/o/lupk8zyo/2312608119/e4b0ef4f309f3c4eac8311
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2312608119/e4b0ef4f309f3c4eac8311a6ef47/image.png?expires=1795183200&signature=17369daeb5f2f043d470e9f7758232b7add5bd20297614d726fb16c2f7e5cf55&req=diMmFM9%2BlYBeUPMW1HO4zX%2F4f7%2Fxwzgd43OpyTHzM9QJmV5xeVh1%2FmDnawDq%0AlHYL%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2312608119/e4b0ef4f309f3c4eac8311a6ef47/image.png?expires=1795269600&signature=0cc7b7ce2b0b4bf6dc5b3e8ebd98957d449caf0cf555849e505a60e5c4ab0f2d&req=diMmFM9%2BlYBeUPMW1HO4zX%2F4f7%2FyzTIZ43OpyTHzM9SW6EOklokbmNIGS%2B72%0Ama6B%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2312608119/e4b0ef4f309f3c4eac8311a6ef47/image.png?expires=1795447800&signature=13927d85bd6660a6fcad6d1b3ed43222c055b77735e782e7cee7dcd0026dd085&req=diMmFM9%2BlYBeUPMW1HO4zX%2F4f7%2F0zzwX43OpyTHzM9S37DAlvLvE1b2ZZ2Hl%0Ay9HB%0A
+https://downloads.intercomcdn.com/i/o/lupk8zyo/2312608119/e4b0ef4f309f3c4eac8311a6ef47/image.png?expires=1795536000&signature=ca88b5c6c61221ba928a942421a43da48797fb7235f97c46cf9bd7a493a7c419&req=diMmFM9%2BlYBeUPMW1HO4zX%2F4f7%2F1yD0f43OpyTHzM9SwQS9vRX4NDaqNQ6ZD%0AE0sP%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2312613548/44cd5970ee3c3b2c7f8dcd592d71/image+%2824%29.png?expires=1788005700&signature=824307c2a2e9fdcbce3b178b693a33f7bcaa19e7362787374ec3428db1d101be&req=diMmFM9%2FnoRbUfMW1HO4zW4gbD2tNcizrgfl7PnOiunzQvTMPTFE%2FCC9bbYP%0AJWtX%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2312613548/44cd5970ee3c3b2c7f8dcd592d71/image+%2824%29.png?expires=1788057900&signature=6fcd615f9471500689d449f9c47613c28e3514996bbad4e18058e43dfc2f7069&req=diMmFM9%2FnoRbUfMW1HO4zW4gbD2tMMq9rgfl7PnOiuk1njCBnk%2FDNs7SQ5GC%0AwRcb%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2312613548/44cd5970ee3c3b2c7f8dcd592d71/image+%2824%29.png?expires=1788065100&signature=4b01bd374877ddd2831acc30a26bb2e9f01bd2c7c1f3274ee6a4677724d41d30&req=diMmFM9%2FnoRbUfMW1HO4zW4gbD2tM8i1rgfl7PnOiulWDUpdZ41XDPKTHKd3%0AC0jy%0A
@@ -20894,6 +20986,7 @@ https://downloads.intercomcdn.com/i/o/lupk8zyo/2312613548/44cd5970ee3c3b2c7f8dcd
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2312613548/44cd5970ee3c3b2c7f8dcd592d71/image+%2824%29.png?expires=1795183200&signature=ab1278d3501c4a56977fc91920d223c5a5f4da9b7ac73facce28d56571acfc73&req=diMmFM9%2FnoRbUfMW1HO4zW4gbTCsPc62rgfl7PnOiunJmby0etXpIODHBebq%0A5QZc%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2312613548/44cd5970ee3c3b2c7f8dcd592d71/image+%2824%29.png?expires=1795269600&signature=17115ddb557154c32d2dd3703e7db2b047479a18bcccb6b89357ea9e0353a7ff&req=diMmFM9%2FnoRbUfMW1HO4zW4gbTCvM8Syrgfl7PnOiulUALNOUs2nv8YR1fQN%0APGC6%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2312613548/44cd5970ee3c3b2c7f8dcd592d71/image+%2824%29.png?expires=1795447800&signature=ff8dbe44870ac731a968e6a3131563149eb6cde57b1ff62e11f97fe6050471ab&req=diMmFM9%2FnoRbUfMW1HO4zW4gbTCpMcq8rgfl7PnOium%2BxEI1aveVc0umCcFu%0Aj5dE%0A
+https://downloads.intercomcdn.com/i/o/lupk8zyo/2312613548/44cd5970ee3c3b2c7f8dcd592d71/image+%2824%29.png?expires=1795536000&signature=40abcc32dd8527b2aa3d5dcd835433cfd85ba399e90a6d075473555ae09646dc&req=diMmFM9%2FnoRbUfMW1HO4zW4gbTCoNsu0rgfl7PnOiumuwH0CoO%2FgUsRqKSDJ%0APTj%2F%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2533906328/1f5cd0a57def40676410f8f379b4/member-usage-30d-model.png?expires=1788004800&signature=921c6a4ed4862d680ea479417b22ea1e818ba11fc4dfa34c49edb7863de772a0&req=diUkFcB%2Bm4JdUfMW1HO4zfveB6fFfO%2FSWGUKUw6QS4977dGjL7a61bFKS947%0AXjQdVLRxw4KQZp%2BNqYo%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2533906328/1f5cd0a57def40676410f8f379b4/member-usage-30d-model.png?expires=1788057000&signature=47045e3bcc80d81c1dfc7dd7c23e418288efbc064ef2e5fcf5c73fd0624a8bcc&req=diUkFcB%2Bm4JdUfMW1HO4zfveB6fFeezaWGUKUw6QS48gCiopJgAZibaYuV%2FX%0Ai2TaZPdyjJAkCKR8Fnk%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2533906328/1f5cd0a57def40676410f8f379b4/member-usage-30d-model.png?expires=1788065100&signature=aa5c7a542f7bbadb55095d35b0e1213a3e82c79c79547a5778899595f26cf032&req=diUkFcB%2Bm4JdUfMW1HO4zfveB6fFeu7bWGUKUw6QS49qB7V6vNcfWoRqfIuv%0A33QxZ2u0LVtjHk6a5Qc%3D%0A
@@ -21080,6 +21173,7 @@ https://downloads.intercomcdn.com/i/o/lupk8zyo/2583875713/e3cb3c329f3b643cb9a380
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2583875713/e3cb3c329f3b643cb9a3809876b3/image.png?expires=1795183200&signature=e00d0c34a692655b3639237fc98c1223844a486adc699aab928a3e3e281f3993&req=diUvFcF5mIZeWvMW1HO4zciS3K3okr1pDFD6TO7tG4gZR8hdCCa1GCui61Lv%0ARxgAeLGYY0OVlgaDDLs%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2583875713/e3cb3c329f3b643cb9a3809876b3/image.png?expires=1795268700&signature=75a3fd5cda66c94e3544ee05657f637529f7f20eb202705903da4b5fa97dab1b&req=diUvFcF5mIZeWvMW1HO4zciS3K3rnLZsDFD6TO7tG4hJwF%2BclB7J3i9txeNQ%0AAVtRB6%2Bw86Y9M4Q4D0c%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2583875713/e3cb3c329f3b643cb9a3809876b3/image.png?expires=1795356000&signature=57f1637a9884b10e1cbbec501a6043897e084759815f96ee17018cc91d842f37&req=diUvFcF5mIZeWvMW1HO4zciS3K3qn7hrDFD6TO7tG4gCNSJV4u%2F619j5m1yy%0AjQNs6eipkE4MH0Af36c%3D%0A
+https://downloads.intercomcdn.com/i/o/lupk8zyo/2583875713/e3cb3c329f3b643cb9a3809876b3/image.png?expires=1795608000&signature=f8884a2e409cc276954a133ad71c6bbb743187f50fc3100102b2dfcd105d0bbc&req=diUvFcF5mIZeWvMW3nq%2BgUj34YQiWEEHq%2B6oYKeXb6X6R6ROmWBnIqsVPtkt%0Aqz3KTvNjO%2BnxQbFZsQhwM6X1y6Q%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2671030907/7b62b605189fe8e9474a20c1eaf2/image.png?expires=1789581600&signature=1dd7cc66f8b893dda845091f2fcc7fdbca1f9365f02b41bfeae92d7191a4c2d8&req=diYgF8l9nYhfXvMW3nq%2BgYjLrMqDS388cT%2BueNPeNxwiA%2FYzoxCtRF78x%2B9J%0AbPN8OsDb8BVeJfaBVQXFyx6rYi0%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2671030907/7b62b605189fe8e9474a20c1eaf2/image.png?expires=1789641900&signature=88b15d42e66ba2c4f858eec4e6e35bdc1ff74ddfc547df5b4d7b70277b857e8a&req=diYgF8l9nYhfXvMW1HO4zZse%2B2uaTwkFVa%2FWhnGS4Gl7VFcVW4NbPyyiwRAP%0AFaLle3yiJ1r3leD%2B%2Bus%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2671030907/7b62b605189fe8e9474a20c1eaf2/image.png?expires=1789810200&signature=638de7963fdf8a9bb573646611887f09c2313e939f3ce4c8ad8f317c8fc3d166&req=diYgF8l9nYhfXvMW1HO4zZse%2B2uUSggOVa%2FWhnGS4GngYrRUReUNcycPXerJ%0A9%2B0kPnEcALHbwFIDJwo%3D%0A
@@ -21113,6 +21207,7 @@ https://downloads.intercomcdn.com/i/o/lupk8zyo/2671030907/7b62b605189fe8e9474a20
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2671030907/7b62b605189fe8e9474a20c1eaf2/image.png?expires=1794837600&signature=73f7e9b3b9e97bb7acf0fab8c0ab7cc632d2579af9c8692d99ac6bc663b654f9&req=diYgF8l9nYhfXvMW1HO4zZse%2BmaUSA8KVa%2FWhnGS4GmKt7MYHurnbmvolBgs%0A%2F0PlJE6L4iNYM7wPdLU%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2671030907/7b62b605189fe8e9474a20c1eaf2/image.png?expires=1795011300&signature=6c5e8ab2ee39d16fc83c940ad322c76f4bdb99a719cd32c5e4b578a5ccbef26f&req=diYgF8l9nYhfXvMW1HO4zZse%2BmecSgkPVa%2FWhnGS4Glv1IslOwWG3XJvzd5F%0A2fPs4NV1pw0VG8qftno%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2671030907/7b62b605189fe8e9474a20c1eaf2/image.png?expires=1795267800&signature=ddccdcf4119c95fc061ad39450c8235135acee4a87d6e42139e28107f4d18540&req=diYgF8l9nYhfXvMW1HO4zZse%2BmeeTQ8EVa%2FWhnGS4GnZ3Yv3%2BES503MUo4DU%0A8ITsX0nXareQNy1H3vk%3D%0A
+https://downloads.intercomcdn.com/i/o/lupk8zyo/2671030907/7b62b605189fe8e9474a20c1eaf2/image.png?expires=1795534200&signature=c028ea3e97af1094a122ad1c64579c5af65c7b92b07c5cb07c2cb10e2c544060&req=diYgF8l9nYhfXvMW1HO4zZse%2BmeZSAwOVa%2FWhnGS4Gm7mi6D0H5uocVD8nxJ%0A8wxRtKALQFWhhp4ttCk%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2671031695/3781b98c5cb9cdc069439aa3d9ab/image.png?expires=1789581600&signature=57d21575863bd54e9ed8f50a5638c2385448b918dbfdef3472b80c3179f53040&req=diYgF8l9nIdWXPMW3nq%2BgWLYAa4c22%2F9RQqRMc0VtCQ5b7RSzEgqbdss7%2Bna%0AZC5JuNscwiO5e8KZ5kmVLcPyFDc%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2671031695/3781b98c5cb9cdc069439aa3d9ab/image.png?expires=1789641900&signature=d66bb1c965f0600aa747bb084632eead0595933b62402aa71adf970ea3fed616&req=diYgF8l9nIdWXPMW1HO4zcPtgzv3D97NtjDEKfEvx0OG0HMx6TFxVcPjWr0f%0A6nrzTmE%2BPH8HIt9%2BWyc%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2671031695/3781b98c5cb9cdc069439aa3d9ab/image.png?expires=1789810200&signature=8fb40c4e7fa39ad1de8ec25ea0b670817ff4d0fa3ef6929d80dfd1e98bdd076c&req=diYgF8l9nIdWXPMW1HO4zcPtgzv5Ct%2FGtjDEKfEvx0PrBlTtHDI7h4TuCPC5%0Ai0AzeeOelQgJoGSVL5I%3D%0A
@@ -21169,6 +21264,7 @@ https://downloads.intercomcdn.com/i/o/lupk8zyo/2671032083/2b075387a4a3473f884a8b
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2671032083/2b075387a4a3473f884a8ba26436/image.png?expires=1794837600&signature=627d3c8cc0e647fb84d95291bb262f68b6fc16ba960c936c128686a3b6318f33&req=diYgF8l9n4FXWvMW1HO4zdLkImut6UEvnUoxuhUXEhiYz5QI8DiboFqtsFAp%0A%2Bx6athFQ9yrEy4Y15ss%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2671032083/2b075387a4a3473f884a8ba26436/image.png?expires=1795011300&signature=6d4d9a4d7b138fa0d6795b84b234ad03d57bae214962ab285eb8c6bc857cb6b2&req=diYgF8l9n4FXWvMW1HO4zdLkImql60cqnUoxuhUXEhiq4MOXt8ZurBk3OlVn%0AX0hv9%2FPAUMvQgYLAGM4%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2671032083/2b075387a4a3473f884a8ba26436/image.png?expires=1795267800&signature=71f01175f6722857774a6d3e815a6d2c90b47a50ab4dc47cf41f171b0fcd7026&req=diYgF8l9n4FXWvMW1HO4zdLkImqn7EEhnUoxuhUXEhghoqzaiZtpU3W9NVpS%0Ad7oHBGSWFDJG1R7%2BN8M%3D%0A
+https://downloads.intercomcdn.com/i/o/lupk8zyo/2671032083/2b075387a4a3473f884a8ba26436/image.png?expires=1795534200&signature=da60c2638812ebc99bc82fe537a0c8061850e0c640afdb91c373d52a10be6419&req=diYgF8l9n4FXWvMW1HO4zdLkImqg6UIrnUoxuhUXEhhD7aD8L0vLZBQDXDU2%0AXgSP1nhbaWe6w3%2FFmRY%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2771304819/746adaaa5ae3196304f0af43cbdd/image.png?expires=1793445300&signature=f9b3f8593649187f5d525e9868bb38c2b031f33e115cac71c467b397781644f2&req=dicgF8p%2BmYleUPMW1HO4zRKi0HWHiUtlhdMrWDTaChVRgWNe7bDyWclJ6625%0AYJxSsXOod4wmj4ztEm8%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2771304819/746adaaa5ae3196304f0af43cbdd/image.png?expires=1793626200&signature=ed835daee20d2a8c9d068aefa9574a142563096625d3e377a6159d82dfe75d05&req=dicgF8p%2BmYleUPMW1HO4zRKi0HWFj0hkhdMrWDTaChV8yhKHfes4%2BEvh%2FLfU%0A4CSyJYa58m2eJEjAp1M%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2771304819/746adaaa5ae3196304f0af43cbdd/image.png?expires=1793799900&signature=03e3786bb43db982c5863aa21635032238afff8498960290bd8a0c254e5442e1&req=dicgF8p%2BmYleUPMW1HO4zRKi0HWEhEdvhdMrWDTaChVebsLKhojBLn9%2BKcuv%0AjKgO9hRKst%2BbBbYpyY4%3D%0A
@@ -21179,6 +21275,7 @@ https://downloads.intercomcdn.com/i/o/lupk8zyo/2771304819/746adaaa5ae3196304f0af
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2771304819/746adaaa5ae3196304f0af43cbdd/image.png?expires=1794837600&signature=cf3ce6b66eb2755d95b90ef384e77fd035ba0f3adac9581a8a5600513da24375&req=dicgF8p%2BmYleUPMW1HO4zRKi0HKLjklghdMrWDTaChX1kkkRASLgnIQMU%2BLD%0AZXROFRpBmYrbAzwGWU8%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2771304819/746adaaa5ae3196304f0af43cbdd/image.png?expires=1795011300&signature=8d3b0ffab252ee58e8717cd158b697718dd0dfc97cfbd3ab2e6f740065e3678d&req=dicgF8p%2BmYleUPMW1HO4zRKi0HODjE9lhdMrWDTaChVzJKf6nvsTXtqh7J6d%0APBbtskSLkqyrl0pFppw%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2771304819/746adaaa5ae3196304f0af43cbdd/image.png?expires=1795267800&signature=bb19dcd98c0d4e632c2c55cbd72c770009e72a4d699e23ab33955b0146b9b785&req=dicgF8p%2BmYleUPMW1HO4zRKi0HOBi0luhdMrWDTaChUZcREmdUL%2FFNvWoyGN%0ArYB1UMCejvx9drqklPU%3D%0A
+https://downloads.intercomcdn.com/i/o/lupk8zyo/2771304819/746adaaa5ae3196304f0af43cbdd/image.png?expires=1795534200&signature=9d2cb37a99a996354ce4e4bd59e09b44c29111ad45a26a78b796804de0fb8f7c&req=dicgF8p%2BmYleUPMW1HO4zRKi0HOGjkpkhdMrWDTaChVUmSX0jpYb7VDHHzGw%0ARFxtjCMuGK95LLXh%2BMc%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2806511265/bf14805691a94c651943902ed7ad/CleanShot+2026-11-12+at+2_43_29+PM.png?expires=1794700800&signature=aeb7c5491be328a983937488626313e7a86f2bca3e75af25c4d14db39f064085&req=dignEMx%2FnINZXPMW3nq%2BgawX3zNbTMWhQH3W18YNmcd3voOAjGN5ApekkKqv%0AkOAxX0yp6tbm9BacrIkKQy1m4WM%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2806511265/bf14805691a94c651943902ed7ad/CleanShot+2026-11-12+at+2_43_29+PM.png?expires=1794749400&signature=2ae1d3e6fabfc1a4222c6d69fb3152e590da9bd5c8689d088cc0a52c9a60378d&req=dignEMx%2FnINZXPMW1HO4zUslpEBA5n88wA0QijyN3qqBLs2D%2BvyJnPDkEieN%0ACmzAjC13ovuBm78Ne6g%3D%0A
 https://downloads.intercomcdn.com/i/o/lupk8zyo/2806511265/bf14805691a94c651943902ed7ad/CleanShot+2026-11-12+at+2_43_29+PM.png?expires=1795024800&signature=39ffcd99aca8d74471c0c4cd4e7ca9b9d60a93dacd68abf1e9c42b424835999b&req=dignEMx%2FnINZXPMW3nq%2BgawX3zNbTcKjRH3W18YNmce6UEKsLEl%2BOJoKDerN%0AZPRZikAcg%2FFaLDwQ9C%2BS724mUF8%3D%0A
@@ -21200,6 +21297,7 @@ https://example.com/paper.pdf
 https://example.com/plugin.zip
 https://example.com/pricing/price-list.csv
 https://exploitbench.ai/exploitbench.pdf
+https://fion.ac/jellyfish.pdf
 https://github.com/RichmondAlake.png
 https://github.com/anthropics.png
 https://github.com/anthropics/FlashProve/blob/main/paper/paper.pdf
@@ -21452,6 +21550,12 @@ https://mintcdn.com/claude-code/c5r9_6tjPMzFdDDT/images/vs-code-spark-icon.svg?f
 https://mintcdn.com/claude-code/c5r9_6tjPMzFdDDT/images/vs-code-spark-icon.svg?fit=max\&auto=format\&n=c5r9_6tjPMzFdDDT\&q=85\&s=3ca45e00deadec8c8f4b4f807da94505
 https://mintcdn.com/claude-code/c5r9_6tjPMzFdDDT/logo/dark.svg?fit=max&auto=format&n=c5r9_6tjPMzFdDDT&q=85&s=1298a0c3b3a1da603b190d0de0e31712
 https://mintcdn.com/claude-code/c5r9_6tjPMzFdDDT/logo/light.svg?fit=max&auto=format&n=c5r9_6tjPMzFdDDT&q=85&s=78fd01ff4f4340295a4f66e2ea54903c
+https://mintcdn.com/claude-code/cMjxXVBUSLLh9iVu/images/code-review-setup-review-runs-light.png?fit=max
+https://mintcdn.com/claude-code/cMjxXVBUSLLh9iVu/images/code-review-setup-review-runs-light.png?fit=max\&auto=format\&n=cMjxXVBUSLLh9iVu\&q=85\&s=fe7c63cddcc105ddf7bab4e10e104ba7
+https://mintcdn.com/claude-code/cMjxXVBUSLLh9iVu/images/pr-steward-setup-edit-options-light.png?fit=max
+https://mintcdn.com/claude-code/cMjxXVBUSLLh9iVu/images/pr-steward-setup-edit-options-light.png?fit=max\&auto=format\&n=cMjxXVBUSLLh9iVu\&q=85\&s=6dd7aaf84aa00b6893b9e7533b1089d7
+https://mintcdn.com/claude-code/cMjxXVBUSLLh9iVu/images/pr-steward-setup-repositories.png?fit=max
+https://mintcdn.com/claude-code/cMjxXVBUSLLh9iVu/images/pr-steward-setup-repositories.png?fit=max\&auto=format\&n=cMjxXVBUSLLh9iVu\&q=85\&s=a76bbd05275c5a96053cbbe7e6f1a547
 https://mintcdn.com/claude-code/dgiVO_Od1X1faduV/images/mods-heat-map.svg?fit=max
 https://mintcdn.com/claude-code/dgiVO_Od1X1faduV/images/mods-heat-map.svg?fit=max\&auto=format\&n=dgiVO_Od1X1faduV\&q=85\&s=b91bcce3bad74bc851149133d4acc5d5
 https://mintcdn.com/claude-code/dgiVO_Od1X1faduV/images/mods-screen-map.svg?fit=max
@@ -21494,6 +21598,18 @@ https://mintcdn.com/claude-code/oa7CKjMeIChox26S/images/permission-prompt-bash-l
 https://mintcdn.com/claude-code/oa7CKjMeIChox26S/images/permission-prompt-bash-light.png?fit=max\&auto=format\&n=oa7CKjMeIChox26S\&q=85\&s=87585d008a29304873466399f7b476f6
 https://mintcdn.com/claude-code/qq7LHDi_F0aeFHgk/images/plugin-eval-report.png?fit=max
 https://mintcdn.com/claude-code/qq7LHDi_F0aeFHgk/images/plugin-eval-report.png?fit=max\&auto=format\&n=qq7LHDi_F0aeFHgk\&q=85\&s=106eb6e6a70a6565f891ea3a4564f87d
+https://mintcdn.com/claude-code/sMH7RDpTvyWlAkrg/images/approvals-flow.svg?fit=max
+https://mintcdn.com/claude-code/sMH7RDpTvyWlAkrg/images/approvals-flow.svg?fit=max\&auto=format\&n=sMH7RDpTvyWlAkrg\&q=85\&s=29bc7cd0a0a49c1986cab5afdf57ca3b
+https://mintcdn.com/claude-code/sMH7RDpTvyWlAkrg/images/claude-ship-overview.svg?fit=max
+https://mintcdn.com/claude-code/sMH7RDpTvyWlAkrg/images/claude-ship-overview.svg?fit=max\&auto=format\&n=sMH7RDpTvyWlAkrg\&q=85\&s=6c972cdcb9dfc1c7a9a54e421bcf35a5
+https://mintcdn.com/claude-code/sMH7RDpTvyWlAkrg/images/pr-steward-customize.png?fit=max
+https://mintcdn.com/claude-code/sMH7RDpTvyWlAkrg/images/pr-steward-customize.png?fit=max\&auto=format\&n=sMH7RDpTvyWlAkrg\&q=85\&s=10695821d6e7766ee94cdb5706c1319f
+https://mintcdn.com/claude-code/sMH7RDpTvyWlAkrg/images/pr-steward-flow.svg?fit=max
+https://mintcdn.com/claude-code/sMH7RDpTvyWlAkrg/images/pr-steward-flow.svg?fit=max\&auto=format\&n=sMH7RDpTvyWlAkrg\&q=85\&s=4a1de46fbee43c2a00ef78c3dca36e59
+https://mintcdn.com/claude-code/sMH7RDpTvyWlAkrg/images/pr-steward-pull-request.svg?fit=max
+https://mintcdn.com/claude-code/sMH7RDpTvyWlAkrg/images/pr-steward-pull-request.svg?fit=max\&auto=format\&n=sMH7RDpTvyWlAkrg\&q=85\&s=2c76cf9593743c0a05718e7a90c45796
+https://mintcdn.com/claude-code/sMH7RDpTvyWlAkrg/images/ship-flow.svg?fit=max
+https://mintcdn.com/claude-code/sMH7RDpTvyWlAkrg/images/ship-flow.svg?fit=max\&auto=format\&n=sMH7RDpTvyWlAkrg\&q=85\&s=ccfa7e5848711d691b8cdf65ac22b26e
 https://mintcdn.com/claude-code/v_J840yKc6uuKDX_/images/agent-view-light.png?fit=max
 https://mintcdn.com/claude-code/v_J840yKc6uuKDX_/images/agent-view-light.png?fit=max\&auto=format\&n=v_J840yKc6uuKDX_\&q=85\&s=bd95fda83ea66ca8b2e0e7b68f8cb29e
 https://mintcdn.com/claude-code/x7pO8l4XcvAXCoVc/images/hooks-lifecycle-dark.svg?fit=max&auto=format&n=x7pO8l4XcvAXCoVc&q=85&s=c9b3d88487335f58cce0b52e2f9e7531
@@ -21662,6 +21778,7 @@ https://platform.claude.com/docs/images/cost-intel/tail.svg
 https://platform.claude.com/docs/images/cost-intel/time-awareness.svg
 https://platform.claude.com/docs/images/cost-intel/tool-search.svg
 https://platform.claude.com/docs/images/cost-intel/upgrade-ladder-sonnet-5-5.svg
+https://platform.claude.com/docs/images/efs-how-it-works-enterprise-data-controls.svg
 https://platform.claude.com/docs/images/how-thinking-streams.svg
 https://platform.claude.com/docs/images/how-thinking-works.svg
 https://platform.claude.com/docs/images/how-to-prompt-eng.png
@@ -22254,6 +22371,7 @@ https://www.nber.org/system/files/working_papers/w32966/w32966.pdf
 https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/11/miracle-or-myth-assessing-the-macroeconomic-productivity-gains-from-artificial-intelligence_fde2a597/b524a072-en.pdf
 https://www.oig.dot.gov/sites/default/files/FAA%20Flight%20Decek%20Automation_Final%20Report%5E1-7-16.pdf
 https://www.rand.org/content/dam/rand/pubs/research_reports/RRA2800/RRA2849-1/RAND_RRA2849-1.pdf
+https://www.rfberlin.com/wp-content/uploads/2026/03/26078.pdf
 https://www.scag.gov/media/opvgxagq/2025-05-15-letter-to-congress-re-proposed-ai-preemption-_final.pdf
 https://www.schemastore.org/claude-code-keybindings.json
 https://www.sqfi.com/wp-content/uploads/2018/08/FSMA-FAQs-for-website-.pdf

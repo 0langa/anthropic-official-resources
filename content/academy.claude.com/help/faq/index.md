@@ -14,7 +14,7 @@ Academy lives at its own address, so signing in is a quick one-time authorizatio
 
 ### I signed in with my company’s SSO, but Academy shows my personal account
 
-Academy links your learning to the Claude account, and the organization inside it, that was active when you authorized. If that was a personal account, your enrollments were recorded there. To get company-attributed learning going forward: sign out of claude.ai, sign back in through your company’s SSO, then re-authorize Academy. Enrollments and progress on the personal account stay there. If that personal account uses the same email address as your company sign-in, you can move those courses to your organization once you’re signed in with your organization, from Your learning or the course’s page. Courses can’t be moved between Claude accounts with different email addresses.
+Academy links your learning to the Claude account, and the organization inside it, that was active when you authorized. If that was a personal account, your enrollments were recorded there. To get company-attributed learning going forward: sign out of claude.ai, sign back in through your company’s SSO, then re-authorize Academy. Enrollments and progress on the personal account stay there. If that personal account uses the same email address as your company sign-in, you can move those courses to your organization once you’re signed in with your organization, from Your journey or the course’s page. Courses can’t be moved between Claude accounts with different email addresses.
 
 ### What is Claude Academy? Is it free? Do I need a paid plan or a work account?
 
@@ -32,7 +32,7 @@ Our old course site, anthropic.skilljar.com, closes in early December. After tha
 
 ### How do I bring my Skilljar progress over to Claude Academy?
 
-Sign in here with a Claude account that uses the same email you used on anthropic.skilljar.com (you can create a free one). Then use the “Import your Skilljar progress” banner on Your learning, or the same option in Settings.
+Sign in here with a Claude account that uses the same email you used on anthropic.skilljar.com (you can create a free one). Then use the “Import your Skilljar progress” banner on Your journey, or the same option in Settings.
 
 ### What carries over from Skilljar, and what doesn’t?
 
@@ -40,7 +40,7 @@ Nearly all your courses and all your certificates carry over, and certificates a
 
 ### I used anthropic.skilljar.com, but I don’t see the import banner
 
-The banner appears only when there’s course activity under your Claude account’s email. Activity on the old site can take up to two days to show up. If your emails match and it’s still missing from Your learning and Settings after that, use the support messenger in the corner of the page. If you’ve already imported, the banner doesn’t come back, and your courses are on Your learning.
+The banner appears only when there’s course activity under your Claude account’s email. Activity on the old site can take up to two days to show up. If your emails match and it’s still missing from Your journey and Settings after that, use the support messenger in the corner of the page. If you’ve already imported, the banner doesn’t come back, and your courses are on Your journey.
 
 ### My Skilljar email is different from my Claude account email. Can you move my history across?
 
@@ -60,13 +60,13 @@ Neither moves over on its own, and we can’t merge them. Import your anthropic.
 
 ### I earned certificates on Skilljar. Where do I find them?
 
-Once you import, each one appears on Your learning as a completion badge with its original date, and you can download or share it. You won’t be able to download certificates from the old site after it closes in early December, so save any PDFs you want before then.
+Once you import, each one appears on Your journey as a completion badge with its original date, and you can download or share it. You won’t be able to download certificates from the old site after it closes in early December, so save any PDFs you want before then.
 
 ## Completion badges
 
 ### Can I change my name on my completion badge?
 
-Yes. Open the badge on Your learning and choose “Edit name”. Badges are issued automatically with your Claude account name when you pass the final required quiz. If we couldn’t fill it in, you’ll type it when you claim the badge. You can change the name any time, and a rename keeps the badge’s public verification link the same, so anywhere you’ve already shared it keeps working.
+Yes. Open the badge on Your journey and choose “Edit name”. Badges are issued automatically with your Claude account name when you pass the final required quiz. If we couldn’t fill it in, you’ll type it when you claim the badge. You can change the name any time, and a rename keeps the badge’s public verification link the same, so anywhere you’ve already shared it keeps working.
 
 ### I finished every lesson. Where’s my completion badge?
 
@@ -78,7 +78,7 @@ You can’t delete a completion badge yourself yet. Message support through the 
 
 ### The course ended with a feedback form and I closed the tab without submitting. Did I lose my completion badge?
 
-No. Your completion badge isn’t tied to the feedback form. Completion badges are issued the moment you pass the final required quiz, before any feedback step. Check Your learning: it should already be there. If it isn’t (this can happen when we couldn’t pre-fill your name), open the course and claim it. Your quiz passes are stored, so nothing is lost.
+No. Your completion badge isn’t tied to the feedback form. Completion badges are issued the moment you pass the final required quiz, before any feedback step. Check Your journey: it should already be there. If it isn’t (this can happen when we couldn’t pre-fill your name), open the course and claim it. Your quiz passes are stored, so nothing is lost.
 
 ### I didn’t pass the final quiz. Do I retake the whole course or just the quiz? Is there a retry limit or timeout?
 
@@ -94,7 +94,7 @@ Your work isn’t lost. When we update a course, quizzes you’ve already passed
 
 ### How do I download or share my completion badge?
 
-Every completion badge you’ve earned is listed on Your learning, at academy.claude.com. Open a badge there and choose Download PDF to save a copy, or Add to LinkedIn to put it on your profile. Each badge also has a public verification link you can share anywhere. Anyone with the link can confirm it’s genuine. There’s nothing to request from support: if you’ve earned it, it’s already on Your learning.
+Every completion badge you’ve earned is listed on Your journey, at academy.claude.com. Open a badge there and choose Download PDF to save a copy, or Add to LinkedIn to put it on your profile. Each badge also has a public verification link you can share anywhere. Anyone with the link can confirm it’s genuine. There’s nothing to request from support: if you’ve earned it, it’s already on Your journey. A badge from a private course works differently: it has no PDF, LinkedIn button, or public link, and it shows only while you can open that course. If it’s missing, log out and sign in with the organization that has access to the course.
 
 ### I’m registered for a Claude certification exam. Is that the same as an Academy completion badge?
 
@@ -134,7 +134,7 @@ If you took a course while signed in with a personal Claude account, and you’r
 
 ### Can I move a course to my organization?
 
-Yes. On Your learning, a banner shows how many of your courses count elsewhere and offers to move them. Nothing moves until you confirm. The confirmation lists each course, and you choose which ones to move.
+Yes. On Your journey, a banner shows how many of your courses count elsewhere and offers to move them. Nothing moves until you confirm. The confirmation lists each course, and you choose which ones to move.
 
 ### What does my organization see after a move?
 

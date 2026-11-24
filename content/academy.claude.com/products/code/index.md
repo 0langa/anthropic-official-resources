@@ -75,17 +75,17 @@ Go deep on Claude Code power skills: context engineering, MCP, hooks and permiss
 
 ·Recurring
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-code-workshop-advanced)[Recording · Nov 18
+ (opens in new tab)](https://claude.com/resources/webinars/claude-code-workshop-advanced)[Recording · Nov 19
 
-### How the Claude Code team does code review 
+### Claude Rearview Roadmap Review: November 2026 
 
-How the Claude Code team cut reverts 40% while doubling merged PRs, with AI review, risk-based human approval, and evals.
+A live look back at what shipped across Claude chat, Cowork, Claude Code and the Platform, what it means for your admins and users, plus a demo and Q&A.
 
-ML
+SS
 
-·Recording·Nov 18
+·Recording·Nov 19
 
- (opens in new tab)](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-november-2026)
 
 ## Docs and reference
 

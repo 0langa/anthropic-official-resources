@@ -204,13 +204,13 @@ Ratings as submitted, scale 1–4 per the rubric; – = not assessed in that int
 
 *This brief organizes the panel’s evidence. It does not recommend hire or no-hire; that decision is the panel’s.*
 
-Run this every weekday morning: for any candidate in Hiring whose last scorecard came in, write the debrief brief to that role’s folder, never with a recommendation.
+Run this every weekday morning: for any candidate in Hiring with every scorecard in and no brief yet, write the debrief brief to that role’s folder, never with a recommendation.
 
 **Debrief brief when scorecards are in**Weekdays at 9:00 AM
 
 Each run
 
-Checks Hiring for candidates with every scorecard submitted
+Checks Hiring for candidates with every scorecard in and no brief yet
 
 Reads the scorecards against that role’s rubric and plan
 
@@ -357,7 +357,7 @@ Make what we've done in this task so far into a skill called
 
 Hiring / Senior-PM-Growth / debriefOpen in Claude
 
-Review the skill, and save it if Claude hasn't already.
+Review the skill, take out anything about this candidate (name, scores, interview feedback), and save it if Claude hasn't already.
 
 
 
@@ -367,10 +367,10 @@ Review the skill, and save it if Claude hasn't already.
 
 ### Run it when the last scorecard is in[](https://academy.claude.com/use-cases/interview-debrief)
 
-The brief should be waiting before the debrief starts. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/interview-debrief` runs every weekday morning. Give Claude access to the whole Hiring folder, and Claude checks it for candidates with all scorecards submitted and runs the skill on each.
+The brief should be waiting before the debrief starts. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/interview-debrief` runs every weekday morning. Give Claude access to the whole Hiring folder, and Claude checks it for candidates with all scorecards submitted and no brief yet, and runs the skill on each.
 
 Set up a scheduled task for weekdays at 9am: check the hiring folder for candidates with all
-scorecards in, run /interview-debrief on each, and write the brief to
+scorecards in and no brief yet, run /interview-debrief on each, and write the brief to
 Hiring/<role>/debrief.
 
 
@@ -382,8 +382,8 @@ Hiring/<role>/debrief.
 Debrief brief when scorecards are in
 
 Runs `/interview-debrief` each weekday morning on any candidate with all
-scorecards in the hiring folder and writes the brief to that role's debrief
-folder.
+scorecards in the hiring folder and no brief yet, and writes the brief to that
+role's debrief folder.
 
 Every **Weekdays at 9am · checks the hiring folder for complete scorecard sets**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 

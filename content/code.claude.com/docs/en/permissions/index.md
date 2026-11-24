@@ -81,7 +81,7 @@ Claude Code supports several permission modes that control how it approves tool 
 >
 > In `bypassPermissions` mode, Claude Code skips permission prompts, including for writes to [protected paths](/docs/en/permission-modes#protected-paths) such as `.git` and `.claude`. The [cross-session messaging safeguards](/docs/en/permission-modes#skip-all-checks-with-bypasspermissions-mode) still apply. Only use this mode in isolated environments like containers or VMs where Claude Code can't cause damage.
 
-To prevent `bypassPermissions` or `auto` mode from being used, set `permissions.disableBypassPermissionsMode` or `permissions.disableAutoMode` to `"disable"` in any [settings file](/docs/en/settings#where-settings-live). These are most useful in [managed settings](#managed-settings) where they can't be overridden.
+To prevent `bypassPermissions` or `auto` mode from being used, set [`permissions.disableBypassPermissionsMode`](/docs/en/settings-reference#permissions-disablebypasspermissionsmode) or [`permissions.disableAutoMode`](/docs/en/settings-reference#disableautomode) to `"disable"`. These are most useful in [managed settings](#managed-settings) where they can't be overridden.
 
 To deny calls that would wait on a permission prompt, so an unattended session keeps working, set [`permissions.denyInsteadOfPrompting`](/docs/en/settings-reference#permissions-denyinsteadofprompting) to `true` in your user or managed settings. `dontAsk` is a permission mode of its own, while this key works with the permission mode you're in.
 

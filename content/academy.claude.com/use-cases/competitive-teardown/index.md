@@ -284,15 +284,15 @@ Of the four not scheduled, the reviews point at two: free-plan seats (nine menti
 
 What they shipped is checked against your roadmap, answered or not.
 
-Every Monday at 9am: if a new quarter folder exists in Product / competitive, rerun this teardown there and list any cell that changed to Exposed.
+Every Monday at 9am: if the newest quarter folder in Product / competitive has no matrix yet, rerun this teardown there and list any cell that changed to Exposed.
 
 **Competitive teardown refresh**Mondays at 9:00 AM
 
 Each run
 
-Checks Product / competitive for a new quarter folder
+Checks whether the newest quarter folder has a matrix yet
 
-Browses Trellis and Holloway again and rewrites the matrix and gap brief
+Browses Trellis and Holloway again and writes a new matrix and gap brief
 
 Lists cells that changed to Exposed*for you*
 
@@ -464,9 +464,9 @@ Review the skill, and save it if Claude hasn't already.
 
 ### Refresh it every quarter[](https://academy.claude.com/use-cases/competitive-teardown)
 
-Competitors keep shipping after you've looked. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/competitive-teardown` re-browses the competitor set and rewrites the matrix when a weekly check finds a new quarter folder. For that check, give Claude access to the parent folder, Product / competitive.
+Competitors keep shipping after you've looked. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/competitive-teardown` re-browses the competitor set and writes a new matrix when a weekly check finds the newest quarter folder has no matrix yet. For that check, give Claude access to the parent folder, Product / competitive.
 
-Set up a scheduled task for every Monday at 9am: if a new quarter folder exists under Product/competitive, run /competitive-teardown, write the matrix and gap brief there, and give me a one-line summary of new exposed cells.
+Set up a scheduled task for every Monday at 9am: if the newest quarter folder under Product/competitive has no matrix yet, run /competitive-teardown, write the matrix and gap brief there, and give me a one-line summary of new exposed cells.
 
 
 
@@ -476,7 +476,7 @@ Set up a scheduled task for every Monday at 9am: if a new quarter folder exists 
 
 Competitive teardown refresh
 
-Runs `/competitive-teardown` against the standing competitor set when a new quarter folder exists, and writes the refreshed matrix and gap brief to that folder.
+Runs `/competitive-teardown` against the standing competitor set when the newest quarter folder has no matrix yet, and writes a new matrix and gap brief to that folder.
 
 Every **Monday at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 

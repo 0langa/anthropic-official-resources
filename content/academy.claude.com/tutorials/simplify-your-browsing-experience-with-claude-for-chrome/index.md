@@ -60,7 +60,7 @@ Once you create a successful workflow or find yourself repeating the same reques
 
 ### Record a workflow to create a shortcut (classic side panel)[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
 
-Teach Claude your task by demonstration. Click the cursor icon in the menu bar or type `/` in the chat bar and select ‘Record workflow’. Perform the task, clicking, typing, and narrating, while Claude watches your screen and listens to your voice. When you finish, Claude generates a shortcut: a name, a prompt describing what you did, and the starting URL.
+Teach Claude your task by demonstration. Click the cursor icon in the menu bar or type `/` in the chat bar and select ‘Record workflow’. Perform the task, clicking and typing, while Claude watches your screen. When you finish, Claude generates a shortcut: a name, a prompt describing what you did, and the starting URL.
 
 ### Convert a conversation to a shortcut (classic side panel)[](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
 

@@ -51,6 +51,7 @@ Before you turn on Code Mode, check that you can accept these limits:
 * **Model**: Claude Opus 5.5, Sonnet 5.5, Haiku 5.5, or Fable 5.2
 * **Surface**: an interactive `claude` session in a terminal. Code Mode doesn't work with the VS Code panel, the Desktop app, or cloud sessions
 * **Agent teams**: to use Code Mode with [agent teams](/docs/en/agent-teams) on, you need v2.1.326 or later. Teammates run in Code Mode in the default [in-process display mode](/docs/en/agent-teams#choose-a-display-mode), and start without it in split panes
+* **Mods**: to use Code Mode with a [mod](/docs/en/plugins/mods/overview) that hooks tool calls, you need v2.1.327 or later. If you're on the `stable` channel and an update doesn't reach that version, [switch to `latest`](/docs/en/setup#configure-release-channel)
 * **Telemetry settings**: to use Code Mode with [feature-flag fetching off](/docs/en/env-vars#features-that-need-feature-flag-fetching) or [OpenTelemetry](/docs/en/monitoring-usage) events and metrics on, you need v2.1.329 or later. Keep [tracing](/docs/en/monitoring-usage#traces-beta) off on any version
 * **Installation**: the [native build](/docs/en/setup) of Claude Code
 * **Windows**: [Git for Windows](https://git-scm.com/downloads/win) is installed
@@ -234,7 +235,7 @@ After you stop the code, check `/tasks` for [subagents](/docs/en/sub-agents), [s
 
 ### Check code output with a hook
 
-To check or redact what the code returns before Claude reads it, write a [`PostToolUse` hook](/docs/en/hooks#posttooluse) that matches `REPL`, the tool that runs the code. The same hook runs when [background code](#long-running-code) finishes and when code throws an error.
+To check or redact what the code returns, write a [`PostToolUse` hook](/docs/en/hooks#posttooluse) that matches `REPL`, the tool that runs the code. The same hook runs when [background code](#long-running-code) finishes and when code throws an error.
 
 #### Read code output in the hook
 
@@ -309,8 +310,8 @@ If you check code output in a [`UserPromptSubmit` hook](/docs/en/hooks#userpromp
 | `it needs settings that Claude Code downloads from Anthropic` | [Update Claude Code](/docs/en/setup#update-claude-code) to meet the [telemetry settings requirement](#requirements). To stay on your version, unset the variable that [turns off feature-flag fetching](/docs/en/env-vars#features-that-need-feature-flag-fetching), such as `DISABLE_TELEMETRY` |
 | `OpenTelemetry tracing is on` | Unset `CLAUDE_CODE_ENHANCED_TELEMETRY_BETA`, `ENABLE_ENHANCED_TELEMETRY_BETA`, and `ENABLE_BETA_TRACING_DETAILED` if you can work without [traces](/docs/en/monitoring-usage#traces-beta) |
 | `OpenTelemetry is on` | To keep events and metrics on, [update Claude Code](/docs/en/setup#update-claude-code) and meet the [telemetry settings requirement](#requirements). To stay on your version, unset `CLAUDE_CODE_ENABLE_TELEMETRY` and `ENABLE_BETA_TRACING_DETAILED` if you can work without [OpenTelemetry export](/docs/en/monitoring-usage) |
-| `it doesn't yet work with the plugin` | In a session, run `/plugin` and disable each plugin that the reason names. If your organization turned one on, ask your administrator to turn it off |
-| `it doesn't yet work with an installed mod` | Turn off the [mod](/docs/en/plugins/mods/overview) that checks tool calls |
+| `it doesn't yet work with the plugin` | [Update Claude Code](/docs/en/setup#update-claude-code) to meet the [mods requirement](#requirements). To stay on your version, run `/plugin` and disable each plugin that the reason names. If your organization turned one on, ask your administrator to turn it off |
+| `it doesn't yet work with an installed mod` | [Update Claude Code](/docs/en/setup#update-claude-code) to meet the [mods requirement](#requirements). To stay on your version, run `/plugin` and disable each mod you installed |
 | `it can't be used together with agent teams yet` | To keep agent teams on, [update Claude Code](/docs/en/setup#update-claude-code) to v2.1.326 or later. To stay on your version, unset `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS` |
 | `this launch's tool options` | Start without `--restricted`, add `REPL` to `--tools`, and remove `REPL` from `--disallowedTools` and your `deny` rules |
 | `couldn't save your answer` | Make `~/.claude.json` writable |

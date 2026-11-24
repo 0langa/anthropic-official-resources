@@ -1,6 +1,6 @@
 # What are artifacts and how do I use them?
 
-Updated over a week ago
+Updated today
 
 Copy for LLM
 
@@ -183,9 +183,9 @@ Available on Pro, Max, Ultra, Team, and Enterprise plans, on Claude on web and d
 
 Artifacts can connect to the apps you've connected to Claude, so they can read from and write to tools like Asana, Google Calendar, and Slack. They can also connect to any **[custom connectors](https://support.claude.com/en/articles/11175166)** you've set up.
 
-The first time an artifact needs a connected app, Claude shows which apps and tools it will use and asks you to approve them. You can turn individual tools off, and your choice carries over to later uses of that artifact. Connector tools that need approval for each action aren't available to artifacts.
+The first time an artifact needs a connected app, Claude shows which apps and tools it will use and asks you to approve them. You can turn individual tools off, and your choice carries over to later uses of that artifact. If your organization sets a tool to "Needs approval," you're asked each time an artifact uses it, unless "Always allow" is offered and you choose it.
 
-**Important:** Everyone connects their own apps, even when using a shared or published artifact. On Team and Enterprise plans, an owner can turn this off for your whole organization. Learn more in the **[Artifacts admin guide for Team and Enterprise plans](https://support.claude.com/en/articles/16994751)**.
+**Important:** Everyone connects their own apps, even when using a shared or published artifact. The exception is live sharing, which shows results from the connection of the editor who shared it. On Team and Enterprise plans, an owner can turn this off for your whole organization. Learn more in the **[Artifacts admin guide for Team and Enterprise plans](https://support.claude.com/en/articles/16994751)**.
 
 ---
 

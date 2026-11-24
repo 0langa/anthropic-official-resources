@@ -53,10 +53,10 @@ Templates are the starting points users pick when they create an artifact.
 
 Certified queries and live sharing have their own settings under **Data** in **Templates**. These settings are hidden when **Data** is off. Both are on by default on Team plans and off by default on Enterprise plans.
 
-| **Setting**           | **What it controls**                                                                                                          |
-| --------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| **Certified queries** | Whether users can certify queries so Claude reuses them across your organization                                              |
-| **Live sharing**      | Whether a dashboard can show results from its owner’s connection to people in your organization who don’t have that connector |
+| **Setting**           | **What it controls**                                                                                                                              |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Certified queries** | Whether users can certify queries so Claude reuses them across your organization                                                                  |
+| **Live sharing**      | Whether a dashboard can show results from the connection of the editor who shared it to people in your organization who don’t have that connector |
 
 When you turn on **Certified queries**, pick the marketplace and plugin that store your certified queries. If you clear that choice, existing certifications go away. They come back if you select the same plugin again.
 
@@ -134,7 +134,7 @@ Some artifacts can't leave your organization even with these settings on:
 
 Other artifacts, including docs and artifacts that use connected apps or ask Claude questions, can leave your organization when these settings allow it:
 
-- **By link:** When **External sharing** is on, or you've allowed it for that artifact, anyone with the link can open it. Most artifacts shared this way open without a Claude account or sign-in. Docs open only for people signed in to Claude, who can only view them. Legacy artifacts shared from a chat also need a Claude account, and some other artifacts show part or all of their content only after the visitor signs in. Connected apps and Claude features don't work for people who open the link from outside your organization or without signing in.
+- **By link:** When **External sharing** is on, or you've allowed it for that artifact, anyone with the link can open it. Most artifacts shared this way open without a Claude account or sign-in. Docs and sheets open only for people signed in to Claude, who can only view them. Legacy artifacts shared from a chat also need a Claude account, and some other artifacts show part or all of their content only after the visitor signs in. Connected apps and Claude features don't work for people who open the link from outside your organization or without signing in.
 
 - **By email invitation:** When **Email invitations outside your organization** is on, people you invite sign in to Claude with the invited address. This setting is on by default on Team plans and off by default on Enterprise plans. Some organizations can't invite people outside the organization, including those with HIPAA-ready configurations, CMEK, education or K-12 terms, zero data retention with redaction, or a hybrid deployment.
 
@@ -156,7 +156,7 @@ It's on by default on Team and Enterprise plans, and it only applies while **Art
 
 ## Let artifacts use connected apps
 
-**Enable artifact connectors** lets users work with artifacts that read from and write to their connected apps. Each user connects their own apps, even in a shared artifact. The exception is a dashboard shared with live sharing, which shows results from its owner’s connection. You can turn this on or off for your whole organization, but you can't limit which apps artifacts can reach.
+**Enable artifact connectors** lets users work with artifacts that read from and write to their connected apps. Each user connects their own apps, even in a shared artifact. The exception is a dashboard shared with live sharing, which shows results from the connection of the editor who shared it. You can turn this on or off for your whole organization, but you can't limit which apps artifacts can reach.
 
 1. Navigate to **[Organization settings > Capabilities](https://claude.ai/admin-settings/capabilities)**.
 
@@ -281,7 +281,7 @@ When an artifact is shared with a group, access follows current group membership
 
 ## Third-party platform availability
 
-Artifacts are available in Claude on web and desktop, in Claude Code, and at claude.ai/design for standalone Claude Design until it closes. In Claude for iOS and Claude for Android, users can ask for an artifact, view the result, and edit docs, decks, and designs. Artifacts aren't available through third-party cloud platforms.
+Artifacts are available in Claude on web and desktop, in Claude Code, and at claude.ai/design for standalone Claude Design until it closes. In Claude for iOS and Claude for Android, users can ask for an artifact, view the result, and edit docs, decks, designs, and sheets. Artifacts aren't available through third-party cloud platforms.
 
 ---
 

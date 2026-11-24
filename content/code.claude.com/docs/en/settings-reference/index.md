@@ -1,7 +1,7 @@
 # All settings
 Source: https://code.claude.com/docs/en/settings-reference
 
-Complete reference for every Claude Code settings.json key: where each one goes, its type and default, and a paste-ready example, with an index of every key.
+Reference for Claude Code settings.json keys: where each one goes, its type and default, and a paste-ready example, with an index of keys.
 
 [Back to index](#all-settings)
 
@@ -2910,7 +2910,7 @@ Each entry's URL, label, and badge count are bounded as follows:
 
 When a turn completes, Claude Code matches each entry's `pattern` regex against the turn output on the main thread, so a slow regex blocks the UI until it finishes. Nested quantifiers such as `(a+)+$` can take exponentially long against certain inputs and freeze the session, so keep each `pattern` linear and avoid nesting `+` or `*`.
 
-Footer badges render alongside a [custom status line](/docs/en/statusline) when one is configured; neither replaces the other. Use a status line for a script-driven row that computes its own content from session data, and footer badges to turn IDs from the conversation into links without a script.
+Footer badges render alongside a [custom status line](/docs/en/statusline) when one is configured. Use a status line for a script-driven row that computes its own content from session data, and footer badges to turn IDs from the conversation into links without a script.
 
 ### `keybindingFlavor`
 
@@ -4478,9 +4478,7 @@ A [`deniedMcpServers`](#deniedmcpservers) entry for `claude-in-chrome` still blo
 
 Allowlist the MCP servers people can add. Claude Code blocks any server that doesn't match an entry wherever it's defined, including plugin servers, servers a user passes with `--mcp-config`, and servers from claude.ai.
 
-Built-in servers such as Claude in Chrome, the `ide` server Claude Code connects to in a running [VS Code](/docs/en/vs-code#the-built-in-ide-mcp-server) or [JetBrains](/docs/en/jetbrains#the-built-in-ide-mcp-server) IDE, and servers the CLI itself configures are exempt from the allowlist, and the denylist still applies to them. On Claude Code v2.1.268 or later, a [Claude Tag](/docs/en/claude-tag) session's Slack tools are also exempt from the allowlist, and the denylist still applies to them. In-process `type: "sdk"` servers are exempt from both lists; the [app that started the session](/docs/en/mcp#how-connectors-reach-claude-code) registers them.
-
-Servers your organization delivers are also exempt from the allowlist, and the denylist still applies to them. The exemption covers every [`managedMcpServers`](#managedmcpservers) entry, and any [`managed-mcp.json`](/docs/en/managed-mcp#exclusive-control-with-managed-mcp-json) entry whose values use [no `${VAR}` expansion outside `env`](/docs/en/managed-mcp#how-allowlists-and-denylists-apply-to-the-managed-set). See [How a server is evaluated](/docs/en/managed-mcp#how-a-server-is-evaluated) for the full check order. Before v2.1.259, servers from `managed-mcp.json` had to match too.
+[Some servers skip the allowlist](/docs/en/managed-mcp#servers-that-skip-the-allowlist-check), such as [`managedMcpServers`](#managedmcpservers) entries. A [Claude Tag](/docs/en/claude-tag) session's Slack tools skip it on v2.1.268 or later. Denylist entries in managed or user settings still apply to these servers. In-process `type: "sdk"` servers are exempt from both lists.
 
 * **Scope**: [`Any file`](#scopes). For servers users add, entries from every file merge into one allowlist unless [`allowManagedMcpServersOnly`](#allowmanagedmcpserversonly) is set. To keep users from adding entries, deploy both keys in managed settings.
 * **Type**: array of objects, each with exactly one key. Use `serverName`, a string limited to letters, numbers, hyphens, and underscores; `serverCommand`, an array of the command and its arguments matched exactly; or `serverUrl`, a URL pattern with `*` wildcards

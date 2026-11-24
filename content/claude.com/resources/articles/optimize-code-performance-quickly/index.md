@@ -44,12 +44,12 @@ This approach minimizes deployment risk but requires coordination across multipl
 
 Many development teams are moving beyond reactive profiling tools toward proactive performance engineering with AI coding assistants like Claude. These tools analyze functions instantly, identify algorithmic bottlenecks, and provide ways to improve your code. You can work with Claude in two ways:
 
-- [**Claude.ai**](https://claude.ai/redirect/claudedotcom.v1.340a5d10-e98a-4341-ae88-0f39753f7b0b): Free web interface. Paste slow functions, get complexity analysis and optimization recommendations. Any browser, no setup required.
+- [**Claude.ai**](https://claude.ai/redirect/claudedotcom.v1.7304e3b7-d7e1-4de6-9d75-4a35690e2388): Free web interface. Paste slow functions, get complexity analysis and optimization recommendations. Any browser, no setup required.
 - [**Claude Code**](https://claude.com/product/claude-code): Agentic terminal coding tool that integrates with your development environment. Analyzes project-wide performance patterns, directly implements optimizations across multiple files. Install with npm.
 
 ## Start with Claude.ai
 
-Before setting up complex profiling environments or writing benchmark suites, paste short code snippets in [Claude.ai](https://claude.ai/redirect/claudedotcom.v1.340a5d10-e98a-4341-ae88-0f39753f7b0b) to quickly determine whether a performance issue is algorithmic, structural, or configuration-related. Unlike traditional profilers that only show where time is spent, Claude explains why code is slow and how to fix it. This initial analysis helps you decide between a quick code change or a comprehensive architectural review.
+Before setting up complex profiling environments or writing benchmark suites, paste short code snippets in [Claude.ai](https://claude.ai/redirect/claudedotcom.v1.7304e3b7-d7e1-4de6-9d75-4a35690e2388) to quickly determine whether a performance issue is algorithmic, structural, or configuration-related. Unlike traditional profilers that only show where time is spent, Claude explains why code is slow and how to fix it. This initial analysis helps you decide between a quick code change or a comprehensive architectural review.
 
 ### Get quick optimization ideas
 
@@ -67,9 +67,9 @@ Claude: "I see two main bottlenecks here: 1. The nested loop creates O(n²) comp
 
 Typical questions that work well:
 
-- ["Why are my code functions slow with large datasets?"](https://claude.ai/redirect/claudedotcom.v1.340a5d10-e98a-4341-ae88-0f39753f7b0b/new?q=Why+are+my+code+functions+slow+with+large+datasets%3F)
-- ["Can you rewrite my code to be more efficient?"](https://claude.ai/redirect/claudedotcom.v1.340a5d10-e98a-4341-ae88-0f39753f7b0b/new?q=Can+you+help+me+rewrite+my+code+to+be+more+efficient%3F)
-- ["What's wrong with this algorithm performance-wise?"](https://claude.ai/redirect/claudedotcom.v1.340a5d10-e98a-4341-ae88-0f39753f7b0b/new?q=What%27s+wrong+with+this+algorithm+performance-wise%3F)
+- ["Why are my code functions slow with large datasets?"](https://claude.ai/redirect/claudedotcom.v1.7304e3b7-d7e1-4de6-9d75-4a35690e2388/new?q=Why+are+my+code+functions+slow+with+large+datasets%3F)
+- ["Can you rewrite my code to be more efficient?"](https://claude.ai/redirect/claudedotcom.v1.7304e3b7-d7e1-4de6-9d75-4a35690e2388/new?q=Can+you+help+me+rewrite+my+code+to+be+more+efficient%3F)
+- ["What's wrong with this algorithm performance-wise?"](https://claude.ai/redirect/claudedotcom.v1.7304e3b7-d7e1-4de6-9d75-4a35690e2388/new?q=What%27s+wrong+with+this+algorithm+performance-wise%3F)
 
 ### Understand why your code is slow
 
@@ -133,7 +133,7 @@ Claude Code typically identifies additional optimizations such as adding composi
 
 ## Choose your optimization approach
 
-[**Claude.ai**](https://claude.ai/redirect/claudedotcom.v1.340a5d10-e98a-4341-ae88-0f39753f7b0b): Use Claude.ai when you're investigating a specific slow function, validating an optimization approach, or need quick analysis without environment setup. The browser interface makes it ideal for sharing optimization ideas with others or getting second opinions on performance tradeoffs.
+[**Claude.ai**](https://claude.ai/redirect/claudedotcom.v1.7304e3b7-d7e1-4de6-9d75-4a35690e2388): Use Claude.ai when you're investigating a specific slow function, validating an optimization approach, or need quick analysis without environment setup. The browser interface makes it ideal for sharing optimization ideas with others or getting second opinions on performance tradeoffs.
 
 [**Claude Code**](https://claude.com/product/claude-code): Use Claude Code when performance issues span multiple files, require coordinated changes across services, or need automated testing to verify improvements. The terminal integration is essential for implementing optimizations that touch database schemas, API contracts, or caching layers.
 
@@ -153,7 +153,7 @@ Results:
 
 ## Get started with systematic optimization
 
-**Immediate performance analysis**: Visit [Claude.ai](https://claude.ai/redirect/claudedotcom.v1.340a5d10-e98a-4341-ae88-0f39753f7b0b), paste slow functions, get instant complexity analysis and optimization recommendations.
+**Immediate performance analysis**: Visit [Claude.ai](https://claude.ai/redirect/claudedotcom.v1.7304e3b7-d7e1-4de6-9d75-4a35690e2388), paste slow functions, get instant complexity analysis and optimization recommendations.
 
 **Comprehensive optimization**: Install [Claude Code](https://claude.com/product/claude-code):
 
@@ -187,7 +187,13 @@ It depends on your starting point. Eliminating N+1 queries can reduce response t
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
+
+### The enterprise guide to securing coding agents
+
+How security and technical leaders can understand and bound risk as they scale Claude Code
+
+Claude Code](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)[ArticleNov 17, 2026
 
 ### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
 
@@ -209,13 +215,7 @@ Claude Code
 
 Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
 
-Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
-
-### The Claude Tag guide for startups
-
-How leading startups use Claude Tag to ship faster and scale operations
-
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)
 
 ## Transform how your organization operates with Claude
 
