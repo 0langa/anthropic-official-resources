@@ -23,9 +23,9 @@ Related articles
 
 - Economics
 
-  Oct 16, 2026
+  Nov 23, 2026
 
-  [Working at the frontier shapes expectations for the future](https://www.anthropic.com/research/expectations-for-the-future)
+  [Working with AI](https://www.anthropic.com/research/working-with-ai)
 
 [View more](https://www.anthropic.com/search?topic=labor-market)
 

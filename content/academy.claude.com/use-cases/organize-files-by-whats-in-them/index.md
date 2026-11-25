@@ -108,7 +108,7 @@ If granting full desktop access feels like too much, give Claude access to just 
 
 ### Be specific about what you want to keep[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 
-Claude will ask before deleting anything that looks important, but if you know certain file types are always junk (like .tmp files or duplicate downloads), mention that upfront. What you get back depends on what you put in: the clearer your rules, the more Claude can do without checking in. When the summary appears, give it a quick check before you call the job done: confirm the Cleaned up list only removed real junk, and open a file or two in the new folders to make sure they landed where you'd look for them. Match the check to the stakes: a skim is enough for screenshots, but a tax form or a contract deserves a closer look.
+When Claude asks to delete files, one yes covers the whole folder you gave it access to, for the rest of the task, and deleted files can't be restored. To check first, tell Claude in your prompt to list what it wants to delete and wait for your OK. If you know certain file types are always junk (like .tmp files or duplicate downloads), mention that upfront. What you get back depends on what you put in: the clearer your rules, the more Claude can do without checking in. When the summary appears, give it a quick check before you call the job done: confirm the Cleaned up list only removed real junk, and open a file or two in the new folders to make sure they landed where you'd look for them. Match the check to the stakes: a skim is enough for screenshots, but a tax form or a contract deserves a closer look.
 
 ### Start another task while this one runs[](https://academy.claude.com/use-cases/organize-files-by-whats-in-them)
 

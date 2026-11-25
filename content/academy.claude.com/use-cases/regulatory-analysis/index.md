@@ -342,7 +342,7 @@ Review the skill, and save it if Claude hasn't already.
 
 When a final rule drops, the applicability brief should already be drafting. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/applicability-brief` runs each weekday on any new regulation you add to a watch folder. Create it as Regulatory/Watch, next to EU-AI-Act, and give Claude access to Regulatory.
 
-Set up a scheduled task for weekdays at 9am: check Regulatory/Watch for any new file, run /applicability-brief on it against our product descriptions and policies in Regulatory/EU-AI-Act, and write the applicability brief and action table to a subfolder named for the regulation.
+Set up a scheduled task for weekdays at 9am: check Regulatory/Watch for any new file, run /applicability-brief on it against our product descriptions and policies in Regulatory/EU-AI-Act, and write the applicability brief and action table to a subfolder named for the regulation. Skip any file that already has a brief, and never overwrite an existing file. Tell me which files you skipped.
 
 
 

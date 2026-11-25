@@ -16,7 +16,7 @@ Financial analysis at Anthropic requires deep knowledge of data warehouse schema
 
 ### The approach
 
-The team's first step was connecting Claude Cowork to the data warehouse via MCP and asking ad-hoc questions against live data. The jump to building skills was encoding the four queries they kept re-running as skills: an insight agent for ad-hoc questions, a financial statements skill that produces standard reports, a variance analysis skill that explains deltas rather than only flagging them, and a dashboard builder that generates interactive HTML dashboards from a description of what you want to see.
+The team's first step was connecting Claude Cowork to the data warehouse via MCP and [asking ad-hoc questions against live data (opens in new tab)](https://claude.com/resources/articles/how-anthropic-enables-self-service-data-analytics-with-claude). The jump to building skills was encoding the four queries they kept re-running as skills: an insight agent for ad-hoc questions, a financial statements skill that produces standard reports, a variance analysis skill that explains deltas rather than only flagging them, and a dashboard builder that generates interactive HTML dashboards from a description of what you want to see.
 
 The true unlock, however, came when they shipped a company-wide data skill anyone at Anthropic can install. It knows the schema, the naming conventions, and the quirks of the tables so that a PM or a sales manager can ask a question of the warehouse without knowing SQL or which of seventeen tables has the number they need.
 
@@ -34,7 +34,7 @@ Legal is information-dense, high-stakes, and chronically bottlenecked. Throughpu
 
 ### The approach
 
-The team built the Legal plugin in an afternoon, not by coding anything, but by pointing Claude at their actual work product: the memos, the risk frameworks, the policy docs. The plugin is markdown files that tell Claude how Anthropic's legal team thinks about risk, reviews launches, and structures advice.
+The team [built the Legal plugin (opens in new tab)](https://claude.com/resources/articles/how-anthropic-uses-claude-legal) in an afternoon, not by coding anything, but by pointing Claude at their actual work product: the memos, the risk frameworks, the policy docs. The plugin is markdown files that tell Claude how Anthropic's legal team thinks about risk, reviews launches, and structures advice.
 
 As Pike describes it, the project is recursive: he used Claude to build the plugin, and now uses the plugin every day to do his actual job. The plugin is [open-source on GitHub (opens in new tab)](https://claude.com/lp/cowork-for-legal) alongside the other knowledge-work plugins, because there's nothing proprietary about it. It's system instructions, not case law.
 

@@ -22,7 +22,7 @@ This page includes the following analytics:
 
 - Sessions in Cowork
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2515895966/9f231a620f47d49e0ee648152189/848c1787-4eaa-4809-8fd2-1dbe2722560f?expires=1795356000&amp;signature=2302f0352a505e8ff5df084498f508f30ce7f856af8d087c23560935adc6b97a&amp;req=diUmE8F3mIhZX%2FMW1HO4zZL6wKNxnoNxExEG4dCAGDZZSU%2BbeZK6k3%2Bk2PIc%0Am0zQKEVFwaagiJrY4Pc%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2515895966/9f231a620f47d49e0ee648152189/848c1787-4eaa-4809-8fd2-1dbe2722560f?expires=1795620600&amp;signature=2235de946c208293ae6a1129cdbbbeb38a67b599effd4aa32704d47d57cc1bc9&amp;req=diUmE8F3mIhZX%2FMW1HO4zZL6wKN0mYV3ExEG4dCAGDbz0JXLIpQYcr9TnZeF%0ARw2vInWa4COxLyGAey0%3D%0A)
 
 ### Who’s using Claude?
 
@@ -34,7 +34,7 @@ This page includes the following analytics:
 
 Use the dropdown on the **Active members and assigned seats** chart to filter by product, including Claude Design.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2515896351/4d955858e6662c37489cc1470871/457cf159-8c2a-4403-ba22-cb92cb47e459?expires=1795356000&amp;signature=c76a7868d6c2fb8f8a161cba837da2b776d83b288908057cdb361bfaf1280051&amp;req=diUmE8F3m4JaWPMW1HO4zYEqezKqR5avYqPRsgaNdTyCe1G%2FwDZbZxB0JHQX%0AbtjWwNDd%2FLgc%2FPhTf7o%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2515896351/4d955858e6662c37489cc1470871/457cf159-8c2a-4403-ba22-cb92cb47e459?expires=1795620600&amp;signature=abfb9066bdc033318c1a85c1ca3eb39e7b75b04e40c25b3ef1acfd5b59b42e68&amp;req=diUmE8F3m4JaWPMW1HO4zYEqezKvQJCpYqPRsgaNdTz4WnCgKCesvaVxpYBp%0AMin42ZK1rzTjn9V65hI%3D%0A)
 
 ### How are they using Claude?
 
@@ -48,9 +48,9 @@ Use the dropdown on the **Active members and assigned seats** chart to filter by
 
 - How agentic is their work? (beta)
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2583875713/e3cb3c329f3b643cb9a3809876b3/image.png?expires=1795356000&amp;signature=57f1637a9884b10e1cbbec501a6043897e084759815f96ee17018cc91d842f37&amp;req=diUvFcF5mIZeWvMW1HO4zciS3K3qn7hrDFD6TO7tG4gCNSJV4u%2F619j5m1yy%0AjQNs6eipkE4MH0Af36c%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2583875713/e3cb3c329f3b643cb9a3809876b3/image.png?expires=1795620600&amp;signature=11f81358f9eb37d024ac5e8d25b90f417bc6776b1fbf809a94063f3fcaf1e460&amp;req=diUvFcF5mIZeWvMW1HO4zciS3K3vmL5tDFD6TO7tG4hI%2BgVyToi%2FKIHHYopz%0AxzzP5d24rkiEcnaXwCs%3D%0A)
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2515896563/abf008596ce5501297a609696362/fce5423c-4769-4b73-9a0a-c50f6407ebea?expires=1795356000&amp;signature=2a34ae0db64b1c36019db9796a8ea6f17d124940fbdc29afebc187b8a05d1bf5&amp;req=diUmE8F3m4RZWvMW1HO4zR%2BID4JtuPH3LS3kobW3ZgTZMOZCiMXWNnqdymGM%0AThMRCUjGaWVgfpJ3v6I%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2515896563/abf008596ce5501297a609696362/fce5423c-4769-4b73-9a0a-c50f6407ebea?expires=1795620600&amp;signature=2cc59662e0975c612baff959a70b044759bba061832476a0b98c0e84cb6d380f&amp;req=diUmE8F3m4RZWvMW1HO4zR%2BID4Jov%2FfxLS3kobW3ZgS085Go4uAwki2rCJtH%0Af6SHImqLfXW7ihstmi4%3D%0A)
 
 ### What are the results?
 
@@ -66,7 +66,7 @@ Use the dropdown on the **Active members and assigned seats** chart to filter by
 
 - Estimated time saved
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2515896943/dd415f03afe56ca38308ef987f86/189e8ebc-5594-4f4b-bd84-e3c11c824d5b?expires=1795356000&amp;signature=56eb65c8b1f6d36346773e65f9265698ae0c1b53e01be18f424fb801886d4aee&amp;req=diUmE8F3m4hbWvMW1HO4zfJThSE8rNpGiovaLYNN7Rn5qqBANM2lt4EvFMlW%0AfRCQlqUh83gz104IpHs%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2515896943/dd415f03afe56ca38308ef987f86/189e8ebc-5594-4f4b-bd84-e3c11c824d5b?expires=1795620600&amp;signature=4005a62c5513d873e09c7183606f081f6d94d2b1cbae1e108ad8b4b139126c90&amp;req=diUmE8F3m4hbWvMW1HO4zfJThSE5q9xAiovaLYNN7RnNngNLWHQSwOpD5V7n%0A6Tbyjfu9tHIbhHEK1cc%3D%0A)
 
 ### How much is Claude costing?
 
@@ -82,9 +82,9 @@ This section includes the following analytics:
 
 - Spend by model (month-to-date, quarter-to-date, year-to-date, 1 year)
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2515896942/b403f2d216fc40b5195911020b8e/446b99f1-3187-4b79-b2be-9f17b1632ff8?expires=1795356000&amp;signature=ed0cfe0bc1a9401977368e4852e16cae978b9a93473990624f388e2564750145&amp;req=diUmE8F3m4hbW%2FMW1HO4zYE%2BQtsB6TfdWbBLGZ4vBJWm8gMRccZuGAPeQO1e%0AGqEx2JRQBCke93Ck%2BZA%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2515896942/b403f2d216fc40b5195911020b8e/446b99f1-3187-4b79-b2be-9f17b1632ff8?expires=1795620600&amp;signature=39e10b78c3ffc17532039192af2b481b04f8b69bbc74492c237b1fafafaf4ee6&amp;req=diUmE8F3m4hbW%2FMW1HO4zYE%2BQtsE7jHbWbBLGZ4vBJWbKkrfljknlC%2BiUzl3%0ANKgiY4Qid1nlmXpM8FE%3D%0A)
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2515896941/2239ce38639df339b24d5af1cb50/f829bc2a-ee52-4135-9b13-09ef1b7d66d6?expires=1795356000&amp;signature=5c7c3442e2d286a99683b848c342835813751a14e1eb91de28b0616792323f2a&amp;req=diUmE8F3m4hbWPMW1HO4zTz0N%2B8BIs9QC%2BtvTPa1I7Gk10TNPycUCip8ThlS%0A4UoHd75ujjeQ5ui1LoI%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2515896941/2239ce38639df339b24d5af1cb50/f829bc2a-ee52-4135-9b13-09ef1b7d66d6?expires=1795620600&amp;signature=ab80c04c8c415cd8db464549afb2f8162f99a180d7faaa2466f0f2db8dae30b8&amp;req=diUmE8F3m4hbWPMW1HO4zTz0N%2B8EJclWC%2BtvTPa1I7F0eD22%2BmjFQxSm5Xen%0Av%2BC91Afdf6f4ouG20Ec%3D%0A)
 
 **Note:** For a view of how spend limits are affecting your organization, you can also check the **Blocked by a spend limit** section at the top of **[Organization settings > Usage](https://claude.ai/admin-settings/usage)**. **Blocked by a spend limit** is built for usage-based Enterprise plans. Orgs without usage-based seats only see how many members are blocked or near their limit right now. Learn more about **[monitoring usage and spend on Enterprise plans](https://support.claude.com/en/articles/11526368-how-am-i-billed-for-my-enterprise-plan#h_ae17ec8236)**.
 
@@ -162,7 +162,7 @@ Navigate to **[Analytics > Claude Chat](https://claude.ai/analytics/usage)** to 
 
 - Top members by chats
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2515898793/405db0c492da11886c28a2b82731/71a55afc-1cef-4c50-b7e1-86775cb9a168?expires=1795356000&amp;signature=723643827bf28216c892b9faab52926b11b928c7a07baddea8f7b4114132c0d1&amp;req=diUmE8F3lYZWWvMW1HO4zbhc8PifZOIhTcfMEUwBBiVekxZEu4oocTlK8Jz1%0ABDjZMCNEz0amQNHttgw%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2515898793/405db0c492da11886c28a2b82731/71a55afc-1cef-4c50-b7e1-86775cb9a168?expires=1795620600&amp;signature=af9385c49bf578adeec17f9cc3fdcd9eeb52c44a4c11f7df49f1ea8cdf1b20d9&amp;req=diUmE8F3lYZWWvMW1HO4zbhc8PiaY%2BQnTcfMEUwBBiUmcloyqimDA2JF4bGM%0AcAZXc5lDzYhWYbVOB48%3D%0A)
 
 ### Projects
 
@@ -174,7 +174,7 @@ Navigate to **[Analytics > Claude Chat](https://claude.ai/analytics/usage)** to 
 
 - Top members by project usage
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2515899610/91d93108f0767e795fb9e488e882/71607d6d-dff1-4a13-a445-aa1d79850eed?expires=1795356000&amp;signature=181869ce0ddcd2e9f50e81dba9d05e2f6f44d5abebe5bf9f803baed3137f84dd&amp;req=diUmE8F3lIdeWfMW1HO4zWhGoDmaniWiExu5cYiHHN%2FmkEfh%2B10PWt5J91%2BB%0AO7XIt1KJ%2Bk8hQheFFRI%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2515899610/91d93108f0767e795fb9e488e882/71607d6d-dff1-4a13-a445-aa1d79850eed?expires=1795620600&amp;signature=60fa525d78ac02bb914b5a764ba3436eb377355608e7822c2c1743f8e5555b2e&amp;req=diUmE8F3lIdeWfMW1HO4zWhGoDmfmSOkExu5cYiHHN%2BkapgevfSz5Otl9AAp%0AneTFdQdEdzBWI6WxraM%3D%0A)
 
 ### Artifacts
 
@@ -184,7 +184,7 @@ Navigate to **[Analytics > Claude Chat](https://claude.ai/analytics/usage)** to 
 
 - Top 10 users by artifacts generated (month-to-date, quarter-to-date, year-to-date, 1 year)
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2515899838/33d737f2357d6e485704669962ae/43faadc3-47da-4a93-bbb7-47a7983e7441?expires=1795356000&amp;signature=1471fd7050fe11670f2897c4beb879ba7e3c280609b39b182bb6fcfe942e26d7&amp;req=diUmE8F3lIlcUfMW1HO4zcSk47%2FRe%2BjAjHDogqK0V%2BzgVtTErDWHcltk1fuZ%0A5CM%2FWhG5wMwUoPrTNKQ%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2515899838/33d737f2357d6e485704669962ae/43faadc3-47da-4a93-bbb7-47a7983e7441?expires=1795620600&amp;signature=cc18a86d7a48a8b638324fc4c6faf792a624ec608b6aa3b19267a8514e7ab091&amp;req=diUmE8F3lIlcUfMW1HO4zcSk47%2FUfO7GjHDogqK0V%2Bx%2ByXKdb7ovXcZp7jh3%0A2AW3HeXPDP3Cnoo2zmg%3D%0A)
 
 ---
 
@@ -280,7 +280,7 @@ Navigate to **[Analytics > Cowork](https://claude.ai/analytics/cowork)** to view
 
 - Daily, weekly, and monthly active Cowork users
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2515901489/8005693d55b7fefbfe9233258d39/106c22a0-3f47-47a6-abbd-4788dd70f218?expires=1795356000&amp;signature=1ee478718d3159a250f171709b39712784f3f77e5f1a507f236ddffd55099f1b&amp;req=diUmE8B%2BnIVXUPMW1HO4zX7WE42yWEeoFSi1Z3SzLLtbRlpaV8cVM%2Bo3naR5%0ASPGR99uoJ57vKOlwdjs%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2515901489/8005693d55b7fefbfe9233258d39/106c22a0-3f47-47a6-abbd-4788dd70f218?expires=1795620600&amp;signature=b67aa12f56fb447392bd406dcf0407bf7c1fbcdfd2d325b7d2d96d3997a0d83d&amp;req=diUmE8B%2BnIVXUPMW1HO4zX7WE423X0GuFSi1Z3SzLLtXWwV17KoB2GgqO9xg%0ADCoFz8FKFlQeWvxA%2FVU%3D%0A)
 
 **Note:** Cowork analytics are available alongside Chat and Claude Code data in the **[Analytics API](https://platform.claude.com/docs/en/manage-claude/analytics-api)**.
 
@@ -294,17 +294,39 @@ Navigate to **[Analytics > Surveys](https://claude.ai/analytics/surveys)** to as
 
 ## View your own usage as a member
 
-On Enterprise plans with usage-based billing, when your admin turns on individual usage analytics, any member of the organization can see their own usage broken down by product, model, and skill, along with where they stand against any spend limits set for them. Individual usage analytics are available in **[Settings > Usage](https://claude.ai/settings/usage)**.
+If you’re on a usage-based seat on an Enterprise plan, you can go to **[Settings > Usage](https://claude.ai/settings/usage)** in Claude on the web or Claude Desktop to see your own usage. This page shows only your own usage.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2533906328/1f5cd0a57def40676410f8f379b4/member-usage-30d-model.png?expires=1795356000&amp;signature=144895d89345cfef49430a114969bba38a5b9a9365c8804cc542b447fddf2333&amp;req=diUkFcB%2Bm4JdUfMW1HO4zfveBqrGee3aWGUKUw6QS480Ltyf3pkJMD1AVial%0A2Pe9gET41tgFBkXl23w%3D%0A)
+Your organization's admins may also see your usage in analytics and spend reports. Seeing your usage doesn’t change your limits, plan, or billing.
+
+**Settings > Usage** shows:
+
+- Your spend this month, any monthly spend limit set for you, and when it resets
+
+- An hourly view of when you used Claude this week and, if you also used Claude last week, how the two weeks compare
+
+- Your share of requests by product and by model this month
+
+- Your skills ranked by estimated spend
+
+- Your daily spend by product
+
+- The devices signed in to your account (you can sign out of other browsers and apps listed there)
+
+Spend this month and daily spend show your usage as it counts toward your spend limit. They aren’t billed amounts and can differ from your organization’s invoice.
+
+**Note:** Recent usage can take a few hours to appear in the hourly view. The "Spend by skill" section shows the current month through yesterday, and its costs are estimates, not what your organization is billed. Spend by skill and daily spend appear only for organizations on usage-based billing. If your organization has turned off **Member analytics**, you won’t see the hourly view or the breakdowns.
+
+**Note:** This view is for usage-based seats. Seat-based users and users in organizations with FERPA or HIPAA protections see a different **Settings > Usage** page.
 
 ---
 
 ## Turn individual usage analytics on or off
 
-**Note:** Individual usage analytics is available to Enterprise organizations on usage-based billing. The **Member analytics** toggle does not appear for Team plan organizations or for seat-based Enterprise organizations.
+**Note:** The **Member analytics** toggle is available to Enterprise organizations on usage-based billing. It doesn’t appear for Team plan organizations or for seat-based Enterprise organizations.
 
-Owners and Primary Owners control whether members can see this view. The setting applies to the whole organization.
+Owners, Primary Owners, and custom roles with the Billing permission set to "Can manage" can use the Member analytics toggle to control whether members see the hourly view and usage breakdowns in **Settings > Usage**. The setting applies to the whole organization.
+
+To turn individual usage analytics on or off:
 
 1. Navigate to **[Organization settings > Usage](https://claude.ai/admin-settings/usage)**.
 
@@ -312,7 +334,9 @@ Owners and Primary Owners control whether members can see this view. The setting
 
 3. Switch it on or off.
 
-**Note:** Individual usage analytics is default on since July 11, 2026. If you want to keep member-level visibility off, change the setting.
+When it’s off, users no longer see the hourly view, the comparison with last week, their daily spend, or which products, models, and skills they use. They still see their spend this month, any spend limits, and their signed-in devices.
+
+**Note:** **Member analytics** has been on by default since July 11, 2026. To keep users from seeing these breakdowns, turn the setting off.
 
 ---
 
@@ -320,4 +344,4 @@ Owners and Primary Owners control whether members can see this view. The setting
 
 If you’re on an Enterprise plan and want to pull analytics data into your own dashboards or reporting tools, the Analytics API gives you programmatic access to the same usage and engagement metrics available in the analytics dashboard. To get started, refer to our **[Analytics API docs](https://platform.claude.com/docs/en/manage-claude/analytics-api)**.
 
-**Important**: Only your organization's Primary Owner can enable the Analytics API and create Analytics API keys, from **[Organization settings > API](https://claude.ai/admin-settings/api-access)**: under **APIs**, turn on Analytics API; under **Keys**, click "+Create key" and select the `read:analytics` scope. Owners and Admins don't see the Analytics API on that page at all. That's expected, not a permissions error—ask your Primary Owner to enable it and create the key. If your organization is linked to a parent organization, the parent organization's Primary Owner does this.
+**Important**: Only your organization's Primary Owner can enable the Analytics API and create Analytics API keys, from **[Organization settings > API](https://claude.ai/admin-settings/api-access)**: under **APIs**, turn on Analytics API; under **Keys**, click "+Create key" and select the `read:analytics` scope. Owners and Admins don't see the Analytics API on that page at all. That's expected, not a permissions error—ask your Primary Owner to enable it and create the key.

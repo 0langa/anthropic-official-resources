@@ -154,7 +154,7 @@ Claude for NonprofitsClaude Enterprise](https://claude.com/resources/webinars/cl
 
 ### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
 
-A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)[WebinarNov 4, 2026
+A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)[WebinarOn demand
 
 ### Unified Claude: What it means for admins
 
@@ -200,7 +200,7 @@ Live briefings for technology and security leaders on what it takes to run Claud
 
 Lessons on leading engineering teams, roadmap decisions, and career paths in the AI era.](https://claude.com/resources/webinar-series/guest-lecture-series-leadership-in-engineering)
 
-[Webinar series10 webinars
+[Webinar series6 webinars
 
 ### Build faster with Claude on Google Cloud
 

@@ -100,33 +100,27 @@ David Traina, Senior Software Engineer
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 24, 2026
 
-### Linked billing on the Claude Platform
+### Turn artifacts into Mac and Windows apps
 
-Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)[ArticleNov 17, 2026
+Open the artifacts you use every day like any other app, and let them do more on your computer
 
-### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
+Claude apps](https://claude.com/resources/articles/install-as-app)[ArticleNov 24, 2026
 
-How Claude spent two weeks load testing a staging cluster, breaking the Claude Docs service on purpose and fixing what fell over before launch, and what made the service legible enough for Claude to close the loop.
+### MCP servers can now ship skills, run tasks, and more with Claude
 
-Claude CodeClaude apps
+Claude appsClaude Platform](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more)[ArticleNov 23, 2026
 
-(opens in new tab)](https://claude.dev/blog/chaos-loop-claude-docs-launch/)[ArticleNov 16, 2026
+### KPMG's Todd Lohr on AI when your data is also your clients' data
 
-### How the Claude Code team thinks about verification
+Todd Lohr, KPMG US Vice Chair and Head of Client Technology & Innovation, on adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data.
 
-How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest.
+Claude Enterprise](https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data)[ArticleNov 23, 2026
 
-Claude Code
+### Zero data retention with Enterprise Frontier Safeguards is now in beta
 
-(opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)[ArticleNov 13, 2026
-
-### Building always-on agents
-
-Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
-
-Claude Platform](https://claude.com/resources/articles/building-always-on-agents)
+Claude Platform](https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards)
 
 ## Transform how your organization operates with Claude
 

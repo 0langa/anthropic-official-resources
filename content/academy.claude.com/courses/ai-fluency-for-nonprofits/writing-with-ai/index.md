@@ -31,6 +31,8 @@ proposal he can stand behind.
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=OQzANXIckWo)
 
+*This video mentions styles, which the Claude apps no longer have. To give Claude lasting context, use [instructions, projects, or skills(opens in new tab)](https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features).*
+
 ## Key takeaways[](https://academy.claude.com/courses/ai-fluency-for-nonprofits/writing-with-ai)
 
 - **Upload past successful work** to help AI understand your organization's voice and approach—this saves time and improves authenticity

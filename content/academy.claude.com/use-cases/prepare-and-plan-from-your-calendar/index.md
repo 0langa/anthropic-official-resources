@@ -1,12 +1,12 @@
 # Prepare and plan from your calendar
 
-Claude in Chrome reads your calendar, pulls context from email threads, flags which meetings need prep, and books rooms for the ones missing them. Run it every evening and start each day knowing what's coming.
+Claude in Chrome reads your calendar, pulls context from email threads, flags which meetings need prep, and suggests rooms for the ones missing them. Run it every evening and start each day knowing what's coming.
 
 10 minClaude in Chrome
 
 Get Claude in ChromeCopy prompt
 
-![](https://academy.claude.com/assets/v1/thumbnail.light-a8f13pls.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ms6ban8i.png)
+![](https://academy.claude.com/assets/v1/thumbnail.light-ed0994v0.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cnxcgtv4.png)
 
 ![Prepare and plan from your calendar result](https://academy.claude.com/assets/v1/prepare-and-plan-from-your-calendar-o4y1fyqa.png)
 
@@ -22,7 +22,7 @@ Look at my calendar and help me get ready for tomorrow.
 
 - Tell me if it's internal or external (check the attendee domains)
 - Find any recent email threads with those attendees about this topic
-- Flag if the meeting is missing a room (for in-person) or a video link (for remote). If it is, assign one to the meeting.
+- Flag if the meeting is missing a room (for in-person) or a video link (for remote). If it is, suggest one, but don't change the meeting until I approve.
 - For external meetings, note anything I should review beforehand, like relevant docs attached to the meeting or related emails.
 
 Give me a quick prep summary for the day, finding what needs my attention before I show up.
@@ -90,9 +90,9 @@ For the Acme meeting, can you summarize the last few email threads I've had with
 
 ### Make this a nightly routine[](https://academy.claude.com/use-cases/prepare-and-plan-from-your-calendar)
 
-Claude can run tasks on a schedule. Save this as a skill, and schedule the prompt from step 1 for every evening so you start each morning with prep done. The first tip below shows how.
+Claude can run tasks on a schedule. Save this as a skill, and schedule the prompt from step 1 for every evening so you start each morning ready. The first tip below shows how.
 
-Can you save this as a skill? Call it "prep-tomorrow" and have it review my calendar, flag external meetings, and check for missing rooms or links.
+Can you save this as a skill? Call it "prep-tomorrow" and have it review my calendar, flag external meetings, and check for missing rooms or links, without changing a meeting until I approve.
 
 Copy prompt
 
@@ -116,7 +116,7 @@ Whether Claude asks for approval before clicking "send," "publish," "post," "sub
 
 ## 6. Ready to try for yourself?[](https://academy.claude.com/use-cases/prepare-and-plan-from-your-calendar)
 
-Install the Claude in Chrome extension and watch Claude scan tomorrow's meetings, find what you need to know, and fix what's missing—prep done before tomorrow arrives.
+Install the Claude in Chrome extension and watch Claude scan tomorrow's meetings, find what you need to know, and suggest fixes for what's missing, so you're ready before tomorrow arrives.
 
 [Try in Claude(opens in new tab)](https://claude.com/download)
 

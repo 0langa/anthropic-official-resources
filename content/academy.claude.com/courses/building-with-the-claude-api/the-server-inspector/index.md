@@ -21,7 +21,11 @@ First, make sure your Python environment is activated (check your project's READ
 bash
 
 ```
+# If using uv (recommended)
 mcp dev mcp_server.py
+
+# If using pip, without uv
+npx @modelcontextprotocol/inspector mcp run mcp_server.py
 ```
 
 This starts a development server on port 6277 and gives you a local URL to open in your browser. The inspector interface will load, showing the MCP Inspector dashboard.

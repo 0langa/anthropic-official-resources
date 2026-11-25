@@ -66,7 +66,7 @@ The id of the document you need to reformat is:
 
 
 Add in headers, bullet points, tables, etc as necessary. Feel free to add in extra formatting.
-Use the 'edit_document' tool to edit the document. After the document has been reformatted...
+Use the 'edit_document' tool to edit the document. After the document has been edited, respond with the final version of the doc. Don't explain your changes.
 """
     
     return [

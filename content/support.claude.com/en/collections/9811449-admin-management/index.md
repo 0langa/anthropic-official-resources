@@ -1,6 +1,8 @@
 # Admin management
 
-34 articles
+36 articles
+
+[Set an internal help contact for your organization](https://support.claude.com/en/articles/18559929-set-an-internal-help-contact-for-your-organization)
 
 [Roles and permissionsRoles and permissions that can be set for members of your plan](https://support.claude.com/en/articles/9267276-roles-and-permissions)
 
@@ -69,3 +71,5 @@
 [Plan for restricted models and access programs](https://support.claude.com/en/articles/18466097-plan-for-restricted-models-and-access-programs)
 
 [Compare cloud providers](https://support.claude.com/en/articles/18466110-compare-cloud-providers)
+
+[Manage Anthropic email updates for your organization members](https://support.claude.com/en/articles/18520573-manage-anthropic-email-updates-for-your-organization-members)

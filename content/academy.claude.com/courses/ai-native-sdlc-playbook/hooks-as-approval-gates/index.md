@@ -28,7 +28,7 @@ The play sits in **Stage 5: Deploy** because the release gate is the clearest ca
 
 This example is an insurer's customer portal, released to dev, staging, and production. Deployment runs through MCP tools, one server per environment, and each server has a `release` tool.
 
-The entry below is a standalone example in the project's `.claude/settings.json`. Its matcher catches `release` on every server. The empty `args` list makes Claude Code run the script directly instead of through a shell:
+The entry below is a standalone example in the project's `.claude/settings.json`. Its matcher catches `release` on every server. The empty `args` list makes Claude Code run the script directly instead of through a shell. With `onFailure` set to `block`, Claude Code blocks the release if the script can't start or times out:
 
 json
 
@@ -41,7 +41,8 @@ json
         "hooks": [
           { "type": "command",
             "command": "${CLAUDE_PROJECT_DIR}/.claude/hooks/release-gate.sh",
-            "args": [] }
+            "args": [],
+            "onFailure": "block" }
         ]
       }
     ]
@@ -49,7 +50,9 @@ json
 }
 ```
 
-The gate itself, `.claude/hooks/release-gate.sh`:
+`onFailure` needs Claude Code 2.1.295 or later. On Windows outside WSL, this script can't start, so every release is blocked.
+
+Save the gate itself as `.claude/hooks/release-gate.sh` and make it executable with `chmod +x`:
 
 bash
 
@@ -133,7 +136,7 @@ json
 
 ## Governance considerations[](https://academy.claude.com/courses/ai-native-sdlc-playbook/hooks-as-approval-gates)
 
-Hooks are the approval gates. The gate condition is enforced every time, for everyone. Once OpenTelemetry events are exported, Claude Code can log allow and block decisions with a timestamp, though older builds leave no record when a managed hook refuses a direct tool call. The gate also defines what counts as approval, whether that's an approved change ticket or the release manager's sign-off.
+Hooks are the approval gates. An engineer's own settings can't switch off a gate in managed settings, though the limits above and the delivery limits in the next section still apply. A gate in the project's `.claude/settings.json` is one an engineer can switch off, for example with `disableAllHooks` in their local settings. Once OpenTelemetry events are exported, Claude Code can log allow and block decisions with a timestamp, though older builds leave no record when a managed hook refuses a direct tool call. The gate also defines what counts as approval, whether that's an approved change ticket or the release manager's sign-off.
 
 ## Managed settings for a regulated enterprise[](https://academy.claude.com/courses/ai-native-sdlc-playbook/hooks-as-approval-gates)
 

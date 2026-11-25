@@ -203,13 +203,13 @@ If Northwind will not come below $90 a seat with Premium Support included and an
 
 The brief ends with the walk-away you confirmed.
 
-Run this every Monday: check the contracts register for renewals in the next 60 days and write the redline and brief to each vendor’s folder.
+Run this every Monday: check the contracts register for renewals in the next 60 days that have no brief yet, write the redline and brief to each vendor’s folder, and tell me which vendors you skipped.
 
 **Renewal negotiation briefs**Mondays at 9:00 AM
 
 Each run
 
-Checks the register for renewals in the next 60 days
+Checks the register for renewals in the next 60 days with no brief yet
 
 Writes the redline table and the brief to that vendor’s folder
 
@@ -387,7 +387,7 @@ Review the skill, and save it if Claude hasn't already.
 
 The brief should exist before the vendor's AE books the call. Keep a contracts register with each vendor's renewal date in your procurement folder. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/negotiation-brief` runs for each renewal in the register and drops a brief 60 days out.
 
-Set up a scheduled task for every Monday at 9am: check the contracts register for any vendor renewing in the next 60 days, run /negotiation-brief against that vendor's folder, and write the brief to Procurement/<vendor>-renewal-<year>/.
+Set up a scheduled task for every Monday at 9am: check the contracts register for any vendor renewing in the next 60 days whose folder has no brief yet, run /negotiation-brief against that vendor's folder, and write the brief to Procurement/<vendor>-renewal-<year>/. Tell me which vendors you skipped because they already have a brief.
 
 
 
@@ -397,7 +397,7 @@ Set up a scheduled task for every Monday at 9am: check the contracts register fo
 
 Renewal negotiation briefs
 
-Weekly, finds vendors renewing in the next 60 days, runs `/negotiation-brief` on each, and writes the redline and brief to the vendor folder.
+Weekly, finds vendors renewing in the next 60 days that have no brief yet, runs `/negotiation-brief` on each, and writes the redline and brief to the vendor folder. Lists the vendors it skipped.
 
 Every **Mondays at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 

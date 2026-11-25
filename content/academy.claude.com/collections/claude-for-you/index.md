@@ -8,7 +8,7 @@ Make Claude part of how you think, learn, and get things done, starting from you
 
 Learn to use Claude for everyday work, from your first conversation and effective prompting to projects, artifacts, skills, and connected tools.
 
-·Course·13 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/claude-101)
+·Course·13 lessons · 1 quiz·2.5 hr](https://academy.claude.com/courses/claude-101)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-khg817wt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-h1zlg9b3.png)
 
@@ -16,7 +16,7 @@ Learn to use Claude for everyday work, from your first conversation and effectiv
 
 What Claude can do, how to write your first prompt, and how to set up a task with your own files and tools.
 
-·Tutorial·5 min](https://academy.claude.com/tutorials/getting-started-with-claude)
+·Tutorial·5 min](https://academy.claude.com/tutorials/getting-started-with-claude)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-d2q52a81.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-oqcjuafg.png)
 
@@ -24,7 +24,7 @@ What Claude can do, how to write your first prompt, and how to set up a task wit
 
 New to Claude? Start here. Tell Claude your role and get a personalized guide to the capabilities that will matter for your work.
 
-·Use case·15 min](https://academy.claude.com/use-cases/explore-what-claude-can-do-for-you)
+·Use case·15 min](https://academy.claude.com/use-cases/explore-what-claude-can-do-for-you)
 
 ## Build your AI fluency
 
@@ -32,13 +32,13 @@ New to Claude? Start here. Tell Claude your role and get a personalized guide to
 
 Learn to collaborate with AI effectively, efficiently, ethically, and safely using the 4D framework: Delegation, Description, Discernment, and Diligence.
 
-·Course·14 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-framework-foundations)
+·Course·14 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-framework-foundations)
 
 [### AI capabilities and limitations
 
 Build an accurate mental model of what large language models can and cannot do: next-token prediction, knowledge, working memory, steerability, and context limits.
 
-·Course·13 lessons · 1 quiz·3.5 hr](https://academy.claude.com/courses/ai-capabilities-and-limitations)
+·Course·13 lessons · 1 quiz·3.5 hr](https://academy.claude.com/courses/ai-capabilities-and-limitations)
 
 ## Get more out of every conversation
 
@@ -66,7 +66,7 @@ Build an accurate mental model of what large language models can and cannot do: 
 
 Prepare and prioritize for your upcoming week through connecting your calendar and mail platforms.
 
-·Use case·15 min](https://academy.claude.com/use-cases/quickly-prep-for-your-week)
+·Use case·15 min](https://academy.claude.com/use-cases/quickly-prep-for-your-week)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-nrgu8exx.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bav3xbdv.png)
 
@@ -74,7 +74,7 @@ Prepare and prioritize for your upcoming week through connecting your calendar a
 
 Upload vendor proposals in any format and get a normalized comparison spreadsheet that extracts pricing structures, contract terms, and feature differences
 
-·Use case·15 min](https://academy.claude.com/use-cases/compare-and-analyze-competing-options)
+·Use case·15 min](https://academy.claude.com/use-cases/compare-and-analyze-competing-options)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-o7v3ovgz.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dqa49rlu.png)
 
@@ -82,7 +82,7 @@ Upload vendor proposals in any format and get a normalized comparison spreadshee
 
 Learn how to turn research into presentations that stick. Claude helps translate findings into slide outlines and speaker notes that show what's compelling, how to structure the story, and which visuals would help—giving you the framework to build your presentation.
 
-·Use case·Education·15 min](https://academy.claude.com/use-cases/turn-research-into-presentations)
+·Use case·Education·15 min](https://academy.claude.com/use-cases/turn-research-into-presentations)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-ktp24exx.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gapzxql3.png)
 
@@ -90,7 +90,7 @@ Learn how to turn research into presentations that stick. Claude helps translate
 
 Build a portfolio site to showcase your work and learn how to deploy it live without writing a line of code.
 
-·Use case·Personal·15 min](https://academy.claude.com/use-cases/create-a-custom-webpage)
+·Use case·Personal·15 min](https://academy.claude.com/use-cases/create-a-custom-webpage)
 
 ## For students and educators
 

@@ -1,6 +1,6 @@
 # SOX & controls documentation
 
-Process narrative, RCM, and flowchart in under an hour.
+Process narrative, RCM, and flowchart, drafted from your walkthrough notes.
 
 10 minFinanceClaude Cowork
 
@@ -8,7 +8,7 @@ Try in ClaudeCopy prompt
 
 ![](https://academy.claude.com/assets/v1/thumbnail.light-gtq6ufl9.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dqfzjo1d.png)
 
-Film: the user describes a process to Claude and asks for a process narrative, risk-control matrix, and flowchart, flagging missing controls or segregation-of-duties issues, then shows scheduling the same package to regenerate automatically for new walkthroughs.
+Film: the user describes how a process runs and asks Claude to draft a process narrative, risk-control matrix, and flowchart, flagging steps with missing controls or segregation-of-duties issues, then set it as a recurring scheduled task.
 
 Document your SOX controls
 
@@ -162,7 +162,7 @@ The narrative uses the same step numbers, so the files agree.
 
 On a schedule, Claude drafts the package for each new walkthrough added to the folder.
 
-The auditors get complete documentation, with the gaps already flagged for you.
+You get a full draft to review before audit, with the gaps already flagged.
 
 Here's how the process runs. Write the process narrative in our standard format, build the RCM with each risk's control, owner and frequency, and draw the flowchart. Flag any step missing a control or where duties aren't segregated.
 
@@ -290,7 +290,7 @@ Review the skill, and save it if Claude hasn't already.
 
 Give Claude access to the parent Controls folder, where process owners drop their walkthrough notes. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/controls-package` runs on each new walkthrough added to the Controls folder.
 
-Set up a scheduled task for weekdays at 9am: check Controls for any new walkthrough file, run /controls-package against it, and write the narrative, RCM, and flowchart to a subfolder named for the process.
+Set up a scheduled task for weekdays at 9am: check Controls for any new walkthrough file, run /controls-package against it, and write the narrative, RCM, and flowchart to a subfolder named for the process. Skip any walkthrough older than its package, and never overwrite an existing file.
 
 
 
@@ -308,7 +308,7 @@ To use a folder on your computer during a scheduled task, keep your computer on 
 
 ## Share with your teammates[](https://academy.claude.com/use-cases/sox-controls-doc)
 
-Your `/controls-package` skill now carries your RCM columns, your control-ID scheme, and your narrative voice. Share it so every process owner produces the same audit-ready package, and internal audit sees one consistent format across the cycle.
+Your `/controls-package` skill now carries your RCM columns, your control-ID scheme, and your narrative voice. Share it so every process owner produces the same package, and internal audit sees one consistent format across the cycle.
 
 
 
@@ -332,7 +332,7 @@ Your folder
 
 Controls
 
-Each process has audit-ready documentation in your standard format, with control gaps and segregation-of-duties issues already flagged for follow-up.
+Each process has draft documentation in your standard format for its owner to review, with control gaps and segregation-of-duties issues already flagged for follow-up.
 
 [Next: Explain a variance](https://academy.claude.com/use-cases/explain-a-variance)
 

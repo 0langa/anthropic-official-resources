@@ -10,7 +10,7 @@ Claude shows up to work for lawyers in a few forms: Claude chat, Claude Cowork, 
 
 ### Claude Chat
 
-The Claude web and desktop app, at [Claude.ai (opens in new tab)](https://claude.ai/redirect/claudedotcom.v1.2500f9ea-eee9-485a-87ee-1679898c3d6f), is a chat interface for research and drafting. An associate might use it to summarize a deposition transcript or pressure-test an argument before pulling it into a brief. Use Chat when the work fits inside a single conversation: a question to the model, a research summary, an inline draft. Each conversation is its own session, so Chat is suited to one-off tasks rather than ongoing matters. It is often the first place a new user starts.
+The Claude web and desktop app, at [Claude.ai (opens in new tab)](https://claude.ai/redirect/claudedotcom.v1.32ba2dcc-f81b-4e4a-8ec0-4e08dc16fe07), is a chat interface for research and drafting. An associate might use it to summarize a deposition transcript or pressure-test an argument before pulling it into a brief. Use Chat when the work fits inside a single conversation: a question to the model, a research summary, an inline draft. Each conversation is its own session, so Chat is suited to one-off tasks rather than ongoing matters. It is often the first place a new user starts.
 
 ### Claude Cowork
 

@@ -1,6 +1,6 @@
-Lesson 2 of 9 · Claude Code in actionA CLAUDE.md that follows
+Lesson 2 of 9 · Claude Code in actionWriting a CLAUDE.md that Claude actually follows
 
-# A CLAUDE.md that follows
+# Writing a CLAUDE.md that Claude actually follows
 
 Lesson 27 min
 
@@ -10,7 +10,7 @@ Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-c
 
 Embedded media: https://www.youtube-nocookie.com/embed/o9-NIQF9tNw?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
-A CLAUDE.md that follows
+Writing a CLAUDE.md that Claude actually follows
 
 Here's a trap that catches almost everyone: your CLAUDE.md file keeps
 growing. You hit a problem, you add a rule. You hit another, you add another

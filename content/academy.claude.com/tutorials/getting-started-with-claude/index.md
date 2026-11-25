@@ -38,9 +38,9 @@ Attach documents, spreadsheets, images or PDFs and Claude works from what is in 
 
 **Research:** many searches over several minutes, returned as one cited brief.
 
-**Web search:** on by default; turn it off when the answer should come only from your documents.
+**Web search:** on by default on the individual plans; on Team and Enterprise, check with your administrator for availability. Where you see the switch, turn it off when the answer should come only from your documents.
 
-**Memory:** on by default; Claude draws on what it knows about you and your work.
+**Memory:** when it’s on, Claude draws on what it knows about you and your work.
 
 Browse connectorsManage connectorsDriveEmailCalendarMessagingCRM
 

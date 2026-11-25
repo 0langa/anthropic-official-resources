@@ -4,7 +4,7 @@
 
 50 posts
 
-Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
+Works to understand the risks of AI models and develops ways to ensure future ones remain helpful, honest, and harmless.
 
 [## Economics](https://www.anthropic.com/research/team/economics)
 
@@ -46,7 +46,7 @@ Explores how AI can increase the pace of scientific progress through both resear
 
 50 posts
 
-Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
+Works to understand the risks of AI models and develops ways to ensure future ones remain helpful, honest, and harmless.
 
 [## Economics](https://www.anthropic.com/research/team/economics)
 

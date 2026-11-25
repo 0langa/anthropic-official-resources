@@ -85,6 +85,8 @@ Now we'll create our dataset generation function:
 python
 
 ```
+import json
+
 def generate_dataset():
     prompt = """
 Generate an evaluation dataset for a prompt evaluation. The dataset will be used to evaluate prompts that generate Python, JSON, or Regex specifically for AWS-related tasks. Generate an array of JSON objects, each representing task that requires Python, JSON, or a Regex to complete.

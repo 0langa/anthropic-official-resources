@@ -14,7 +14,7 @@ You work with Claude Duet differently in a few ways:
 
 - **It comes to you:** The Claude app waits for you to open a chat, and you work on something alongside Claude. Claude Duet comes to you. Each morning, it sends you a short brief on the most important items in your email and calendar. Throughout the day, it keeps tabs on your connected apps, and it messages you when something needs your attention.
 - **You message it like you would a person:** You can message it through typing or voice in one ongoing thread, so a quick reply and a weeklong project both start in the same place, like how you communicate with coworkers.
-- **Work continues when you step away:** It works on its own computer in the cloud, so it can keep working after you close the app. You’ll receive a notification when a task is complete or needs your review.
+- **Work continues when you step away:** It works on its own computer in the cloud, so it can keep working after you close the app. You’ll receive a notification when something is ready or needs your review.
 - **You set the limits:** Claude Duet can get things done in the apps you connect. It’s built to check with you before taking important actions, like sending an email or making a purchase, but it won’t always ask first, for example when it runs a task you’ve scheduled. You can turn off a connector’s tools in your connector settings.
 
 Diagram: Shows the Claude and Claude Duet app icons side by side, each labeled with its name, illustrating that they are two separate apps and that Claude Duet runs on your Claude account.
@@ -115,7 +115,7 @@ Diagram: Two phone screens show a morning brief listing items needing attention,
 The phone app has tabs at the bottom of the screen, and you can add channels for separate topics.
 
 - **Chat:** Your main thread stays in one place, so Claude Duet picks up where you left off.
-- **Tasks:** The Tasks tab shows what Claude Duet is working on and highlights tasks that need your input. It may suggest that a task looks finished, but only you can mark a task as completed.
+- **Tasks:** The Tasks tab shows what Claude Duet is working on and highlights tasks that need your input. When Claude Duet can see that a task is over, it can close the task for you. If it closes one too soon, you can reopen it.
 - **Make:** Finished work, like a research brief, a financial model, a slide deck, or a dashboard, appears in the Make tab.
 - **Channels:** You can also start separate channels for different topics, and they share the same memory. You don’t need channels to get started. Add one when a topic keeps coming up and you want to keep it apart from your main thread. Some people keep one per client or per area of the business, such as sales, staffing, and events.
 

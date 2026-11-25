@@ -39,7 +39,7 @@ For component types a plugin can hold, with an example of each, see [Plugin comp
 
 Skills, subagents, hooks, and MCP servers all work on their own, without a plugin. A skill you save in `~/.claude/skills/`, for example, is available in every project on your machine. To set one up on its own, see [Skills](/docs/en/skills), [Subagents](/docs/en/sub-agents), [Hooks](/docs/en/hooks-guide), or [MCP](/docs/en/mcp).
 
-Use a plugin when you want several skills, subagents, hooks, or MCP servers packaged as one unit. Install one to get a setup someone else built, with one command and updates from its marketplace. Make one to give your own setup to teammates, install it in many projects, or publish versioned releases.
+Use a plugin when you want several skills, subagents, hooks, or MCP servers packaged as one unit. Install one to get a setup someone else built, with one command and updates from its marketplace. Make one to share your own setup, install it in many projects, or publish versioned releases.
 
 ### What an enabled plugin adds to your sessions
 
@@ -119,6 +119,6 @@ Once you've installed or built a plugin, these pages cover what comes next:
 
 * **Share what you built**: [Publish and distribute a plugin](/docs/en/plugins/publish), through your own marketplace or [Anthropic's directory](/docs/en/plugins/publish#submit-to-anthropics-directory)
 * **Check whether it works and is used**: [Test plugins with evals](/docs/en/plugin-evals) and [Measure plugin cost and usage](/docs/en/plugins/measure)
-* **Run a marketplace for your team**: [Create a marketplace](/docs/en/plugins/create-marketplace), then [Host and maintain a marketplace](/docs/en/plugins/host-marketplace)
+* **Run a marketplace**: [Create a marketplace](/docs/en/plugins/create-marketplace), then [Host and maintain a marketplace](/docs/en/plugins/host-marketplace)
 * **Set plugin policy for an organization**: [Manage plugins for your organization](/docs/en/plugins/org)
 * **Fix a problem**: [Troubleshoot plugins](/docs/en/plugins/troubleshooting)

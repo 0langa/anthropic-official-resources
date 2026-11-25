@@ -20,7 +20,7 @@ Code Review reads your repository's `CLAUDE.md` files as project context. A chan
 
 A review reads the `CLAUDE.md` at your repository root and the `CLAUDE.md` files in the parent directories of each changed file. A subdirectory's `CLAUDE.md` is read when the pull request changes a file under that path.
 
-## Use REVIEW\.md for review-only rules
+## Use REVIEW.md for review-only rules
 
 `REVIEW.md` is a file at your repository root that tailors Code Review to your repository. On a [protected branch](#what-a-review-reads-for-each-branch-setup), you can also add a `REVIEW.md` in [most subdirectories](#when-a-subdirectory-review-md-doesnt-apply) to add checks for changes under that subdirectory, on top of the root file.
 
@@ -43,7 +43,7 @@ Before you rely on a subdirectory file, protect your default branch and check [w
 >
 > The Code Review service and the local [`/code-review` command](/docs/en/code-review-local) are two separate tools, and they read different files. The service reads both `CLAUDE.md` and `REVIEW.md`. The `/code-review` command, which you run inside a Claude Code session on your own machine, reads your `CLAUDE.md` files and not `REVIEW.md`. Put guidance you want applied in both places in `CLAUDE.md`, and keep `REVIEW.md` for rules specific to pull request review.
 
-### When a subdirectory REVIEW\.md doesn't apply
+### When a subdirectory REVIEW.md doesn't apply
 
 Code Review doesn't apply a `REVIEW.md` in or below a subdirectory with one of these names, whatever the subdirectory holds. A subdirectory name matches only as a whole, in any letter case and at any depth, so `Tests` matches and `integration-tests` doesn't:
 
@@ -56,7 +56,7 @@ Put checks for those subdirectories in the root `REVIEW.md`, or in a parent subd
 
 The remaining subdirectory `REVIEW.md` files on the paths a pull request changes share a limit of 150,000 bytes, not counting the root file. If the [check run](/docs/en/code-review-pull-requests#check-run-output) reports that some of them didn't fit, shorten the files to fit that limit.
 
-### Example REVIEW\.md
+### Example REVIEW.md
 
 This `REVIEW.md` recalibrates severity for a backend service, caps nits, skips generated files, and adds repo-specific checks.
 
@@ -88,7 +88,7 @@ Report at most five Nits per review.
 - Database queries are scoped to the caller's tenant
 ```
 
-### Choose what to write in REVIEW\.md
+### Choose what to write in REVIEW.md
 
 `REVIEW.md` is freeform Markdown that changes what a review finds and reports. It doesn't change the format of the review. Find the problem you're seeing, then add an instruction like the one shown. The [example](#example-review-md) uses the first four.
 
@@ -102,7 +102,7 @@ Some of these instructions [need the root file on a protected default branch](#w
 
 Keep `REVIEW.md` to instructions that change review behavior, and leave general project context in `CLAUDE.md`.
 
-### Include other files in REVIEW\.md
+### Include other files in REVIEW.md
 
 You can split review instructions across several files and pull them into your root `REVIEW.md`. Use this when `REVIEW.md` grows long or when you already keep review rules in another file.
 
@@ -200,7 +200,7 @@ The review reads:  Run ˋps ¦ grep apiˋ and ask @ alice.
 
 Where a rule depends on one of those characters, state it in words too.
 
-### Which branch REVIEW\.md is read from
+### Which branch REVIEW.md is read from
 
 Code Review reads `REVIEW.md` from the pull request's base branch or from the default branch, never from the pull request's own changes. To change review behavior, merge the `REVIEW.md` change first.
 

@@ -198,7 +198,7 @@ The recording of “Beyond connector count” is up, with the slides and written
 
 193 characters
 
-Run this every Friday at 9am: find the newest transcript in Webinars, follow the voice guide, and write the post and social drafts to that webinar’s folder.
+Run this every Friday at 9am: find the newest transcript in Webinars, follow the voice guide, and write the post and social drafts to that webinar’s folder. If the drafts are already there, skip the run and tell me.
 
 **Webinar repurpose drafts**Fridays at 9:00 AM
 
@@ -384,7 +384,7 @@ Review the skill, and save it if Claude hasn't already.
 
 Webinars run on a calendar, so schedule the repurposed drafts for the morning after your webinar. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/repurpose-webinar` runs against the newest transcript automatically.
 
-Set up a scheduled task: run /repurpose-webinar every Friday at 9am against the newest transcript in the Webinars folder, and write the blog, thread, and social drafts to that webinar's folder.
+Set up a scheduled task: run /repurpose-webinar every Friday at 9am against the newest transcript in the Webinars folder, and write the blog, thread, and social drafts to that webinar's folder. If that folder already has drafts, skip the run and tell me.
 
 
 
@@ -394,7 +394,7 @@ Set up a scheduled task: run /repurpose-webinar every Friday at 9am against the 
 
 Webinar repurpose drafts
 
-Runs `/repurpose-webinar` against the newest transcript in Webinars and writes the blog, thread, and social drafts to that webinar's folder.
+Runs `/repurpose-webinar` against the newest transcript in Webinars and writes the blog, thread, and social drafts to that webinar's folder. If the drafts are already there, skips the run and tells you.
 
 Every **Friday at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 

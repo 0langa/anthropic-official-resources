@@ -520,8 +520,8 @@
   ],
   "statuses": {
     "blocked": 27,
-    "complete": 5238,
-    "gone": 50,
+    "complete": 5258,
+    "gone": 52,
     "out_of_scope": 44,
     "partial": 513
   },
@@ -667,8 +667,10 @@
     "https://claude.com/blog",
     "https://claude.com/blog/",
     "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code",
+    "https://claude.com/blog/android-app",
     "https://claude.com/blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous",
     "https://claude.com/blog/build-responsive-web-layouts",
+    "https://claude.com/blog/building-verification-loops-in-claude-code-with-skills",
     "https://claude.com/blog/category/agents",
     "https://claude.com/blog/category/announcements",
     "https://claude.com/blog/category/claude-code",

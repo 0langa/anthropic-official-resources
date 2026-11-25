@@ -22,7 +22,7 @@ is that hooks are **deterministic** — they always run.
 
 ## Why Use Hooks[](https://academy.claude.com/courses/claude-code-101/hooks)
 
-You can tell Claude in your CLAUDE.md to run Prettier after every file edit. Most of the time it will. But sometimes it won't. A hook makes it happen every single time, no exceptions.
+You can tell Claude in your CLAUDE.md to run Prettier after every file edit. Most of the time it will. But sometimes it won't. A hook doesn't rely on Claude remembering: Claude Code runs it whenever the event it's set up for happens.
 
 Common use cases include:
 
@@ -62,7 +62,7 @@ json
         "hooks": [
           {
             "type": "command",
-            "command": "file=$(jq -r '.tool_input.file_path') && npx prettier --write -- \"$file\""
+            "command": "file=$(jq -r '.tool_input.file_path') && npx prettier --write --ignore-unknown -- \"$file\""
           }
         ]
       }
@@ -71,7 +71,7 @@ json
 }
 ```
 
-To test it, ask Claude to edit a file, then check that the file was reformatted.
+To test it, ask Claude to edit a file, then check that the file was reformatted. Claude can also change files with shell commands like `sed`, and those edits don't trigger this hook.
 
 ## Blocking with PreToolUse[](https://academy.claude.com/courses/claude-code-101/hooks)
 
@@ -102,7 +102,9 @@ Was this helpful?
 
 # Hooks
 
-Hooks let you run commands at different points in Claude Code's life cycle. The key difference between hooks and everything else we've covered is that hooks are deterministic. They always run. So put it this way: you can tell Claude in your CLAUDE.md file to run Prettier after every file edit, and most of the time it will do that, but sometimes it won't. It's not perfect. But a hook makes it happen every single time with no exceptions.
+Correction: The video says a hook runs after every file edit with no exceptions. It runs whenever its event happens, and edits made with shell commands like sed don't trigger an edit hook. The words in brackets, at 0:30, correct what the video says.
+
+Hooks let you run commands at different points in Claude Code's life cycle. The key difference between hooks and everything else we've covered is that hooks are deterministic. They always run. So put it this way: you can tell Claude in your CLAUDE.md file to run Prettier after every file edit, and most of the time it will do that, but sometimes it won't. It's not perfect. But a hook makes it happen [whenever the event it's set up for happens].
 
 Use cases could include auto-formatting after file edits, logging all executed commands for compliance, blocking dangerous operations like modifying production files, and sending yourself notifications when Claude finishes a task.
 

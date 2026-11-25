@@ -30,6 +30,7 @@ draft into something that actually fits a real classroom.
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=p-j2xKehTK4)
 
+*This video mentions styles, which the Claude apps no longer have. To give Claude lasting context, use [instructions, projects, or skills(opens in new tab)](https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features).*
 
 ### The Description ↔ Discernment loop
 

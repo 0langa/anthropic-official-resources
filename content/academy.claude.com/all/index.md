@@ -10,7 +10,7 @@ ProductAll
 
 RoleAll
 
-432 resources
+433 resources
 
 [## AI capabilities and limitations
 
@@ -752,7 +752,7 @@ ProductAll
 
 StatusAll
 
-108 webinars
+109 webinars
 
 [Upcoming
 
@@ -760,7 +760,7 @@ StatusAll
 
 A government tech leader shares how to securely modernize legacy systems with Claude, where to start, and how to stay in control.
 
-CCMC
+CTCCMC
 
 ·Dec 8·9:00 AM PT
 
@@ -827,6 +827,18 @@ RGBA
 ·Recording·Nov 5
 
  (opens in new tab)](https://claude.com/resources/webinars/the-state-of-cybersecurity)[Recording
+
+## Unified Claude: What it means for admins 
+
+What changes for admins and security teams as Chat and Cowork merge into one Claude, including governance, security review, and rollout.
+
+DFMMAP
+
+·Nov 4
+
+·Recording·Nov 4
+
+ (opens in new tab)](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[Recording
 
 ## Claude Rearview Roadmap Review: October 2026 
 
@@ -1026,16 +1038,4 @@ WL
 
 ·Recording·Sep 21
 
- (opens in new tab)](https://claude.com/resources/webinars/how-to-roadmap-with-decisions-rather-than-dates)[Recording
-
-## Enterprise Readiness: A CISO's Guide to Deploying Claude 
-
-A CISO's guide to rolling out Claude Enterprise, from deployment models and governance controls to scaling from chat into Claude Code.
-
-DFBNIP
-
-·Sep 18
-
-·Recording·Sep 18
-
- (opens in new tab)](https://claude.com/resources/webinars/enterprise-readiness-a-cisos-guide-to-deploying-claude)Load more
+ (opens in new tab)](https://claude.com/resources/webinars/how-to-roadmap-with-decisions-rather-than-dates)Load more

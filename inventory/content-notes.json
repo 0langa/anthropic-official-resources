@@ -702,6 +702,9 @@
   "https://claude.com/resources/articles/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
+  "https://claude.com/resources/articles/install-as-app": [
+    "Embedded media URLs preserved; video/audio binaries are not mirrored."
+  ],
   "https://claude.com/resources/articles/integrate-apis-seamlessly": [
     "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   ],
@@ -4726,6 +4729,9 @@
   "https://platform.claude.com/docs/en/api/files/upload?sdk_languages=curl": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/api/handle-errors": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/api/handling-stop-reasons": [
     "Native source; upstream MDX components retained."
   ],
@@ -7759,10 +7765,25 @@
   "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/customer-owned-storage": [
     "Native source; upstream MDX components retained."
   ],
+  "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/customer-owned-storage?cloud=aws": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/external-storage": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/external-storage-manage": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/external-storage-manage?cloud=aws": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/external-storage?cloud=aws": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/external-storage?cloud=gcp": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/external-storage?method=api": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/faq": [
@@ -7823,6 +7844,36 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/manage-claude/oauth-apps/branding-samples": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/oauth-apps/endpoints-and-parameters": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/oauth-apps/linked-billing": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/oauth-apps/linked-billing/credential-for-each-customer": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/oauth-apps/linked-billing/errors": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/oauth-apps/linked-billing/link-and-bill-a-customer": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/oauth-apps/linked-billing/link-button": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/oauth-apps/linked-billing/manage-customers": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/oauth-apps/linked-billing/set-up-your-app": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/oauth-apps/linked-billing/test-and-publish": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/manage-claude/oauth-apps/linked-billing/what-your-customers-see": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/manage-claude/oauth-apps/oauth-reference": [
@@ -10366,10 +10417,22 @@
   "https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/18516354-install-an-artifact-as-an-app": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/18520573-manage-anthropic-email-updates-for-your-organization-members": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/18534325-send-files-to-connected-apps-and-save-files-from-them": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/18537562-claude-sonnet-4-6-is-leaving-the-model-selector": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/18549037-block-files-and-email-from-claude-by-sensitivity-label": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/18559929-set-an-internal-help-contact-for-your-organization": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for": [
@@ -11657,7 +11720,7 @@
   ],
   "https://www.anthropic.com/research/self-replicating-ai": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored.",
-    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/04-inference-setup-grid-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/07-end-to-end-replication-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/08-replication-with-setup-scripted-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/09-small-model-capability-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/13-memory-per-box-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/14-prefill-speed-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/15-decode-speed-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/16-context-window-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/17-tokens-per-memento-chain-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/19-device-population-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/20-spear-phishing-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/21-test-network-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/22-guidance-grid-light.html"
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/04-inference-setup-grid-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/07-end-to-end-replication-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/08-replication-with-setup-scripted-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/09-small-model-capability-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/19-device-population-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/20-spear-phishing-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/21-test-network-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/22-guidance-grid-light.html"
   ],
   "https://www.anthropic.com/research/shade-arena-sabotage-monitoring": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"

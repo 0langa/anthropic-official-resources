@@ -8,44 +8,13 @@ Unsubscribe at any time.
 
 Watchable demos, talks, and tutorials from the teams building and using Claude.
 
-[Video21 min watch
+[Video3 min watch
 
-### How Ramp engineers work with AI agents at every step
+### A season on the farm with AI
 
-Ramp runs AI agents across its entire engineering lifecycle: writing code, reviewing it, watching production, and root-causing incidents.
-Boris sat down with Austin Ray and Rahul Sengottuvelu of Ramp to talk about how they got there. Building for the models that are coming rather than the ones that exist, giving every engineer uncapped access to intelligence, and the guardrails that make it work. They compare notes on Claude Code setups, loops versus dynamic workflows, and what Claude Fable 5 unlocked.
+Martina Wanis is a biologist from Vienna who grows sweet potatoes in Slovenia. This year, she took Claude along for the whole season.
 
-Claude Code
-
-(opens in new tab)](https://www.youtube.com/watch?v=i4odXOmgMLw)
-
-[Video10 min watch
-
-### How Factory is building autonomous software with Claude
-
-Factory is bringing autonomy to software engineering with Droids, AI coding agents that handle enterprise work. In this conversation, Co-founder and CEO Matan Grinberg sits down with Anthropic's Kai Gill to talk about his journey founding Factory, how Claude's frontier models handle long-horizon tasks across large codebases so teams can trust agent plans with less oversight, and what it will take to build a fully autonomous "dark factory" for software.
-
-Claude Platform
-
-(opens in new tab)](https://www.youtube.com/watch?v=N6FkmdL0Lg0)
-
-[Video12 min watch
-
-### Inside Shopify's AI strategy with CTO Mikhail Parakhin
-
-In this conversation with Boris, Shopify's CTO explains why the real value of working with Claude is in building things that weren't possible before. He describes solving a problem he'd worked on for seven years, how Shopify built a digital twin of the company, and the unique barbell strategy he recommends for getting the most out of Claude.
-
-(opens in new tab)](https://www.youtube.com/watch?v=9GtcbnmldcY)
-
-[Video33 min watch
-
-### Building secure agents for knowledge work
-
-Katelyn Lesse sat down with Dan Shipper and Willie William at Every to talk about the AI coworker they built.
-
-Claude Platform
-
-(opens in new tab)](https://www.youtube.com/watch?v=z7cNbsr3b5s)
+(opens in new tab)](https://www.youtube.com/watch?v=RRj07Hc3ikU)
 
 [Video15 min watch
 
@@ -68,13 +37,53 @@ Claude Code
 
 (opens in new tab)](https://www.youtube.com/watch?v=i4odXOmgMLw)
 
-Featured resource 1 of 5: How Ramp engineers work with AI agents at every step
+[Video10 min watch
+
+### How Factory is building autonomous software with Claude
+
+Factory is bringing autonomy to software engineering with Droids, AI coding agents that handle enterprise work. In this conversation, Co-founder and CEO Matan Grinberg sits down with Anthropic's Kai Gill to talk about his journey founding Factory, how Claude's frontier models handle long-horizon tasks across large codebases so teams can trust agent plans with less oversight, and what it will take to build a fully autonomous "dark factory" for software.
+
+Claude Platform
+
+(opens in new tab)](https://www.youtube.com/watch?v=N6FkmdL0Lg0)
+
+[Video4 min watch
+
+### Five brand new ways to use Claude at work
+
+Claude's family of tools helps teams work at the speed of thought.
+Add Claude to your call with Claude Meetings, and ask it out loud to start a board in Claude Whiteboards while it takes notes. Afterward, ask for a spreadsheet in Claude Sheets or a dashboard in Claude Data. With interactive connectors, you work in the apps you already use without leaving Claude.
+
+(opens in new tab)](https://www.youtube.com/watch?v=t2Zo3YAJdj4)
+
+[Video3 min watch
+
+### A season on the farm with AI
+
+Martina Wanis is a biologist from Vienna who grows sweet potatoes in Slovenia. This year, she took Claude along for the whole season.
+
+(opens in new tab)](https://www.youtube.com/watch?v=RRj07Hc3ikU)
+
+Featured resource 1 of 5: A season on the farm with AI
 
 Advanced filters
 
-Showing 11 of 56 resources
+Showing 11 of 58 resources
 
-[Video15 min watch
+[Video4 min watch
+
+### Five brand new ways to use Claude at work
+
+Claude's family of tools helps teams work at the speed of thought.
+Add Claude to your call with Claude Meetings, and ask it out loud to start a board in Claude Whiteboards while it takes notes. Afterward, ask for a spreadsheet in Claude Sheets or a dashboard in Claude Data. With interactive connectors, you work in the apps you already use without leaving Claude.
+
+(opens in new tab)](https://www.youtube.com/watch?v=t2Zo3YAJdj4)[Video3 min watch
+
+### A season on the farm with AI
+
+Martina Wanis is a biologist from Vienna who grows sweet potatoes in Slovenia. This year, she took Claude along for the whole season.
+
+(opens in new tab)](https://www.youtube.com/watch?v=RRj07Hc3ikU)[Video15 min watch
 
 ### How Salesforce uses Claude Code
 
@@ -143,20 +152,6 @@ Claude Code already runs your tests, type checks, and linters.
 
 Claude Code
 
-(opens in new tab)](https://www.youtube.com/watch?v=mQZB0l-rhxE)[Video18 min watch
-
-### Patrick Collison on Claude Code at Stripe
-
-Stripe CEO Patrick Collison joined Boris to talk about how Stripe builds with Claude Code.
-
-Claude Code
-
-(opens in new tab)](https://www.youtube.com/watch?v=S_lzYIvtEaQ)[Video3 min watch
-
-### How AI is being used in humanitarian work
-
-A look at the International Rescue Committee's fight against child malnutrition in Nigeria and how Claude could help this work.
-
-(opens in new tab)](https://www.youtube.com/watch?v=oZgcAsfvS_g)
+(opens in new tab)](https://www.youtube.com/watch?v=mQZB0l-rhxE)
 
 View more

@@ -98,11 +98,13 @@ Was this helpful?
 
 # Installing Claude Code
 
+Correction: The video's list of plans leaves out Ultra and Team. The words in brackets, at 0:42, correct what the video says.
+
 Claude Code is simple to install whether you want to use it in your terminal, the web, or your IDE.
 
 If you're on macOS, Linux, or WSL, use this curl command to install it in one go. If you prefer to use Homebrew, you can also use brew install to install it, but note that this doesn't have auto-update capabilities. For Windows, there's also a couple ways. In PowerShell, use the Invoke-RestMethod command. If you're on CMD, you can also use this curl command. We also have a winget command as well if you'd prefer, but just like Homebrew, it won't auto-update.
 
-Now go to your project directory and run Claude. You will go through some initial instructions like choosing your color theme and signing in with your Claude account, which could be the Pro, Max, or Enterprise. Or you can use an API key. If your organization has a Claude Enterprise account, be sure to select that option. Whatever directory you decide to run Claude in, it will have access to that directory and all of its subfolders.
+Now go to your project directory and run Claude. You will go through some initial instructions like choosing your color theme and signing in with your Claude account, which could be the Pro, Max, [Ultra, Team,] or Enterprise. Or you can use an API key. If your organization has a Claude Enterprise account, be sure to select that option. Whatever directory you decide to run Claude in, it will have access to that directory and all of its subfolders.
 
 In Visual Studio Code, open up your extensions panel and search for Claude Code. You will see the extension by Anthropic. Make sure it has the blue check and hit Install. After installation, you might need to restart VS Code. After that, you can open up the Command Palette with Control or Command and Shift and P and search "Claude Code: Open in New Tab". You can also click on the Claude logo if you see it when a file is open. You can also opt out of the UI and just use the terminal experience directly in your settings file.
 

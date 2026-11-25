@@ -18,13 +18,13 @@ While Claude Code can help write more secure code, we recommend using it alongsi
 
 **Automated vulnerability remediation:** Use Claude Code to not just identify security issues but propose specific fixes. "This SQL query is vulnerable to injection—here's the parameterized version" becomes part of its standard response pattern.
 
-**Configuring enterprise permissions:** With Claude Code, admins can push out configurations and permitted MCP tools to all users through enterprise managed policy settings that take precedence over user and project settings. This centralized approach transforms Claude Code from a powerful but potentially inconsistent individual tool into a governed, enterprise-ready development platform.
+**Configuring enterprise permissions:** With Claude Code, admins can push out configurations and permitted MCP tools to all users through [enterprise managed policy settings (opens in new tab)](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents) that take precedence over user and project settings. This centralized approach transforms Claude Code from a powerful but potentially inconsistent individual tool into a governed, enterprise-ready development platform.
 
 ### MCP server management
 
 [Model context protocol (opens in new tab)](https://modelcontextprotocol.io/) is an open standard released by Anthropic that standardizes how AI models connect with external data sources and tools. By integrating MCP servers with Claude Code, you can add additional context and functionality to your software development environment. Still, while the agentic coding ecosystem moves fast, not all MCP server integrations meet enterprise security standards. Here's how to keep your MCP servers up-to-date:
 
-**Security-first evaluation process:** Before approving any MCP server, conduct thorough security assessments. Evaluate data handling, API security, access controls, and vendor security posture. Create a standardized evaluation rubric that covers code access, data transmission, and third-party dependencies.
+**Security-first evaluation process:** Before approving any MCP server, [conduct thorough security assessments (opens in new tab)](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents). Evaluate data handling, API security, access controls, and vendor security posture. Create a standardized evaluation rubric that covers code access, data transmission, and third-party dependencies.
 
 **Curated integration marketplace:** Create an internal "app store" of pre-approved MCP servers. Include security assessments, approved use cases, and implementation guidelines for each tool. This prevents shadow IT adoption while enabling innovation.
 

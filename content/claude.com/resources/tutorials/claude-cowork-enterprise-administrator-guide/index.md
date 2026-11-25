@@ -43,7 +43,7 @@ Identify who you need before you start. Later steps stall if these people aren�
 
 #### Plan desktop app installation
 
-- Claude Cowork is available in the Claude Desktop app. On Enterprise plans it is also available on the web and mobile once an Owner turns on Run Cowork in the cloud (off by default) and grants the Cowork in the cloud capability to groups through custom roles. The [unified Claude experience(opens in new tab)](https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization) also brings it to the web, desktop, and mobile without that setting. On the Claude Desktop app, decide whether you’ll push via MDM or have users self-install, and plan comms so users know to install it before launch day. See the Claude Desktop collection for installation resources. See [Installing Claude Desktop(opens in new tab)](https://support.claude.com/en/articles/10065433-installing-claude-desktop).
+- Claude Cowork is available in the Claude Desktop app. On Enterprise plans it is also available on the web and mobile once an Owner turns on Cowork in the cloud (off by default). That setting covers users on a built-in role. Users on a custom role also need the Cowork in the cloud capability. The [unified Claude experience(opens in new tab)](https://support.claude.com/en/articles/17444462-set-up-and-manage-the-new-unified-claude-experience-for-your-enterprise-organization) also brings it to the web, desktop, and mobile, and doesn’t need Cowork in the cloud. On the Claude Desktop app, decide whether you’ll push via MDM or have users self-install, and plan comms so users know to install it before launch day. See the Claude Desktop collection for installation resources. See [Installing Claude Desktop(opens in new tab)](https://support.claude.com/en/articles/10065433-installing-claude-desktop).
 
 #### Choose your org architecture
 
@@ -74,7 +74,7 @@ Identity is the foundation everything else depends on. RBAC, connectors, and dep
 - For existing Claude Enterprise orgs, confirm your SSO and SCIM configuration and set up IdP groups for role-based access controls . For new orgs, complete the [full identity setup(opens in new tab)](https://support.claude.com/en/collections/17270717-identity-management-sso-jit-scim).
 - Create IdP groups before configuring RBAC — RBAC references groups, not individual users. Nested IdP groups are not supported; only direct members sync.
 - SSO controls who can log in; RBAC (next step) controls which Claude product surfaces they can access — including Claude Cowork.
-- Only enforce SSO after both groups/mappings and RBAC roles are fully configured and tested. Enforcing early locks out everyone who isn’t yet provisioned, and there’s no self-service recovery.
+- Only enforce SSO after both groups/mappings and RBAC roles are fully configured and tested. Enforcing early locks out everyone who isn’t yet provisioned, and those users can’t get back in on their own. An Owner who can still sign in can usually turn off Require SSO for Claude. Otherwise, contact Support.
 
 #### Configure Role-based access controls
 

@@ -6,7 +6,7 @@ Chapter 04
 
 50 min remaining
 
-Agentic systems face a distinct threat landscape. Current threats identified by [OWASP (opens in new tab)](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) include prompt injection, tool and resource hijacking, identity and access privilege abuses, memory and context poisoning, and supply chain risks.
+Agentic systems face a distinct threat landscape. Current threats identified by [OWASP (opens in new tab)](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) include [prompt injection, tool and resource hijacking, identity and access privilege abuses (opens in new tab)](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents), memory and context poisoning, and supply chain risks.
 
 ## Prompt injection and instruction manipulation
 

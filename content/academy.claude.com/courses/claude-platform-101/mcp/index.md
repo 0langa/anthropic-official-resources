@@ -38,7 +38,7 @@ The short version: **tools are for your stuff, skills are for your processes, an
 
 ## Connecting to an MCP server[](https://academy.claude.com/courses/claude-platform-101/mcp)
 
-The cleanest way to get a feel for MCP is to point Claude at any MCP server and let it discover what's there. For this example, we'll use the Linear MCP server, with the connection details and auth token stored in a `.env` file.
+The cleanest way to get a feel for MCP is to point Claude at any MCP server and let it discover what's there. For this example, we'll use the Linear MCP server. It needs an auth token, and the docs show [how to get one(opens in new tab)](https://platform.claude.com/docs/en/agents-and-tools/mcp-connector). Add the token to your `.env.local` file on a new line: `LINEAR_MCP_TOKEN=` followed by its value.
 
 Two pieces work together in the request. The `mcp_servers` key declares the connection — a type, a URL, a name to refer to it by, and optionally an auth token. Then a tool with the type `mcp_toolset` configures which tools Claude can use from that server. The default is all of them, but if you want to scope it down, this is where you do it.
 
@@ -47,7 +47,9 @@ python
 ```
 import os
 import anthropic
+from dotenv import load_dotenv
 
+load_dotenv(".env.local")  # loads ANTHROPIC_API_KEY and LINEAR_MCP_TOKEN
 client = anthropic.Anthropic()
 
 response = client.beta.messages.create(

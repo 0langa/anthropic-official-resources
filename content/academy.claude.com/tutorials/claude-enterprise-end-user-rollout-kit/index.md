@@ -1,6 +1,6 @@
 # Unified Claude: end-user rollout kit
 
-This kit gives Claude Enterprise admins what they need to tell employees about the unified Claude experience and roll it out in stages.
+This kit gives admins on Team and Enterprise plans what they need to tell employees about the unified Claude experience. For Enterprise plans, it also covers a staged rollout.
 
 8 minClaude
 
@@ -10,9 +10,9 @@ This kit gives Claude Enterprise admins what they need to tell employees about t
 
 ## How to use this kit[](https://academy.claude.com/tutorials/claude-enterprise-end-user-rollout-kit)
 
-This kit gives Claude Enterprise admins what they need to tell employees about the unified Claude experience and roll it out in stages. Copy any piece, fill in the bracketed blanks, and send it under your own name.
+This kit gives admins on Team and Enterprise plans what they need to tell employees about the unified Claude experience. For Enterprise plans, it also covers a staged rollout. Copy any piece, fill in the bracketed blanks, and send it under your own name.
 
-Unified Claude isn't yet available for organizations using zero data retention for Claude Code, the HIPAA-ready configuration, or customer-managed encryption keys, so this kit doesn't apply to them.
+Unified Claude isn't yet available for organizations using zero data retention for Claude Code, or for Enterprise organizations using the HIPAA-ready configuration or customer-managed encryption keys, so this kit doesn't apply to them.
 
 <table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium" style="text-align:left">Piece</th><th class="border-b border-strong p-sm text-left font-medium" style="text-align:left">Who it's for</th><th class="border-b border-strong p-sm text-left font-medium" style="text-align:left">When to use it</th></tr></thead><tbody><tr><td class="border-b p-sm" style="text-align:left">Announcement template</td><td class="border-b p-sm" style="text-align:left">All employees</td><td class="border-b p-sm" style="text-align:left">A few days before each group gets access</td></tr><tr><td class="border-b p-sm" style="text-align:left">What's changing for you</td><td class="border-b p-sm" style="text-align:left">All employees</td><td class="border-b p-sm" style="text-align:left">Linked from the announcement</td></tr><tr><td class="border-b p-sm" style="text-align:left">Quick-start</td><td class="border-b p-sm" style="text-align:left">All employees</td><td class="border-b p-sm" style="text-align:left">The first week each group has access</td></tr><tr><td class="border-b p-sm" style="text-align:left">End-user FAQ</td><td class="border-b p-sm" style="text-align:left">All employees</td><td class="border-b p-sm" style="text-align:left">Linked from the announcement and your intranet</td></tr><tr><td class="border-b p-sm" style="text-align:left">Rollout plan template</td><td class="border-b p-sm" style="text-align:left">Admins and IT</td><td class="border-b p-sm" style="text-align:left">When you plan your pilot and org-wide rollout</td></tr><tr><td class="border-b p-sm" style="text-align:left">IT helpdesk cheat sheet</td><td class="border-b p-sm" style="text-align:left">Your internal support team</td><td class="border-b p-sm" style="text-align:left">Before the pilot starts</td></tr></tbody></table>
 
@@ -61,6 +61,30 @@ Send this a few days before each group gets access. There is an email version an
 
 Chat and Cowork are now one Claude. You start every conversation the same way, and Claude moves into a bigger task only when the work needs it.
 
+Illustration: a before-and-after view of Claude's start screen, showing a switch to pick Chat or Cowork beforehand, then the same screen with that switch removed since every conversation now starts the same way.
+
+BeforePick Chat or Cowork before you start.
+
+Alex returns!
+
+How can I help you today?
+
+
+
+ChatCowork
+
+
+
+AfterOne Claude. Nothing to pick first.
+
+Alex returns!
+
+How can I help you today?
+
+
+
+*This is an illustration with an invented name. Your screen may look different.*
+
 ### What changes[](https://academy.claude.com/tutorials/claude-enterprise-end-user-rollout-kit)
 
 - **You don't choose first.** There is no separate chat and Cowork to pick between. Ask for what you need.
@@ -77,7 +101,7 @@ Chat and Cowork are now one Claude. You start every conversation the same way, a
 
 ### Staying in control[](https://academy.claude.com/tutorials/claude-enterprise-end-user-rollout-kit)
 
-By default, Claude works on files and code in its cloud workspace on its own and asks before most actions outside it. You review what Claude makes before you use or share it.
+A permission setting in the message box controls how much Claude checks with you before it acts. You review what Claude makes before you use or share it.
 
 ## Quick-start[](https://academy.claude.com/tutorials/claude-enterprise-end-user-rollout-kit)
 
@@ -117,7 +141,7 @@ A quick question still gets a quick answer.
 
 **Will Claude take action without asking me?**
 
-By default, Claude works on files and code in its cloud workspace on its own and asks before most actions outside it. Your organization decides whether you can change that.
+A permission setting in the message box controls how much Claude checks with you before it acts. Your organization decides whether you can change that.
 
 **Can Claude still work with files on my computer?**
 
@@ -137,9 +161,11 @@ Most scheduled tasks keep running with no changes. Tasks that use files or tools
 
 ## Rollout plan template[](https://academy.claude.com/tutorials/claude-enterprise-end-user-rollout-kit)
 
-Plan backward from the default-on date and cutoff in your general availability email. If you take no action, unified Claude turns on by default, so select `Keep disabled` in `Organization settings > Capabilities` if your review won't be finished. The security review takes the longest, so it starts first. We recommend piloting with a small test group during the review, then turning it on for the whole organization.
+Plan backward from the cutoff date in your general availability email. On Enterprise plans, unified Claude is on by default if no admin has turned it on or off for your organization. Where `Chat` or `Cloud code execution and file creation` is off, it turns on as soon as both are on. If your security review isn't finished, an Owner or Primary Owner can turn `Chat and Cowork unified` off in `Organization settings > Capabilities`. The security review takes the longest, so it starts first. We recommend piloting with a small test group during the review, then turning it on for the whole organization.
 
-<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium" style="text-align:left">Stage</th><th class="border-b border-strong p-sm text-left font-medium" style="text-align:left">What to do</th></tr></thead><tbody><tr><td class="border-b p-sm" style="text-align:left">1. Security review</td><td class="border-b p-sm" style="text-align:left">Share the <a aria-describedby="_R_2hm2upj35mq_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary break-words" data-cds="TextLink" href="https://support.claude.com/en/articles/17444462" rel="noopener" target="_blank">admin setup guide<span class="sr-only" hidden="" id="_R_2hm2upj35mq_">(opens in new tab)</span></a> and <a aria-describedby="_R_4hm2upj35mq_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary break-words" data-cds="TextLink" href="https://trust.anthropic.com/resources?s=uukz8hyx7jmdmo80lys36s&amp;name=claude-cowork-and-unified-claude-security-best-practices" rel="noopener" target="_blank">security best practices<span class="sr-only" hidden="" id="_R_4hm2upj35mq_">(opens in new tab)</span></a> with IT, security and procurement. A review of Cowork in the cloud that is already underway carries over.</td></tr><tr><td class="border-b p-sm" style="text-align:left">2. Check settings</td><td class="border-b p-sm" style="text-align:left">Review network egress, connectors, sharing, remote control, approvals and <code class="cds-inline-code">Efficient mode</code>. Confirm <code class="cds-inline-code">Chat</code> and <code class="cds-inline-code">Cloud code execution and file creation</code> are on.</td></tr><tr><td class="border-b p-sm" style="text-align:left">3. Pilot during review</td><td class="border-b p-sm" style="text-align:left">Where your security team can accept the risk, start a small test group while the review runs. Move everyone outside the pilot, except Owners and Admins, to a custom role that keeps their current access but not <code class="cds-inline-code">Chat and Cowork unified</code>, give it to the pilot role, then turn it on in <code class="cds-inline-code">Organization settings &gt; Capabilities</code>. Pilot members removed later keep moved chats as read-only. Brief your helpdesk first, then use feedback to adjust settings and starter prompts.</td></tr><tr><td class="border-b p-sm" style="text-align:left">4. Whole organization</td><td class="border-b p-sm" style="text-align:left">Once the security review clears, give <code class="cds-inline-code">Chat and Cowork unified</code> to the remaining roles. Send the announcement a few days before.</td></tr></tbody></table>
+Members on a custom role get unified Claude only if that role includes `Chat and Cowork unified`. On December 8, 2026, if your Enterprise organization is still on by default, unified Claude turns on for custom roles that include `Chat` and `Cloud code execution and file creation`, even if an admin turned it off for that role. You can turn it off again by role after that. If an admin has turned it on or off for your organization, that choice stays, and nothing changes on December 8.
+
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium" style="text-align:left">Stage</th><th class="border-b border-strong p-sm text-left font-medium" style="text-align:left">What to do</th></tr></thead><tbody><tr><td class="border-b p-sm" style="text-align:left">1. Security review</td><td class="border-b p-sm" style="text-align:left">Share the <a aria-describedby="_R_2hmeupj35mq_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary break-words" data-cds="TextLink" href="https://support.claude.com/en/articles/17444462" rel="noopener" target="_blank">admin setup guide<span class="sr-only" hidden="" id="_R_2hmeupj35mq_">(opens in new tab)</span></a> and <a aria-describedby="_R_4hmeupj35mq_" class="cds-reset cds-text-link cds-text-link-underline inline cursor-pointer text-primary break-words" data-cds="TextLink" href="https://trust.anthropic.com/resources?s=uukz8hyx7jmdmo80lys36s&amp;name=claude-cowork-and-unified-claude-security-best-practices" rel="noopener" target="_blank">security best practices<span class="sr-only" hidden="" id="_R_4hmeupj35mq_">(opens in new tab)</span></a> with IT, security and procurement. A review of Cowork in the cloud that is already underway carries over.</td></tr><tr><td class="border-b p-sm" style="text-align:left">2. Check settings</td><td class="border-b p-sm" style="text-align:left">Review network egress, connectors, sharing, remote control, approvals and <code class="cds-inline-code">Efficient mode</code>. Confirm <code class="cds-inline-code">Chat</code> and <code class="cds-inline-code">Cloud code execution and file creation</code> are on.</td></tr><tr><td class="border-b p-sm" style="text-align:left">3. Pilot during review</td><td class="border-b p-sm" style="text-align:left">Where your security team can accept the risk, start a small test group while the review runs. Move everyone outside the pilot, except Owners and Admins, to a custom role that keeps their current access but not <code class="cds-inline-code">Chat and Cowork unified</code>, give it to the pilot role, then turn it on in <code class="cds-inline-code">Organization settings &gt; Capabilities</code>. In the list of roles that opens, every eligible custom role starts selected, so clear every role except the pilot role, then confirm. Built-in roles and roles set to <code class="cds-inline-code">All capabilities</code> or <code class="cds-inline-code">All generally available</code> can't be cleared, so their members get it too unless you move them first. Pilot members removed later keep moved chats as read-only. Brief your helpdesk first, then use feedback to adjust settings and starter prompts.</td></tr><tr><td class="border-b p-sm" style="text-align:left">4. Whole organization</td><td class="border-b p-sm" style="text-align:left">Once the security review clears, give <code class="cds-inline-code">Chat and Cowork unified</code> to the remaining roles. Send the announcement a few days before.</td></tr></tbody></table>
 
 ### Before the pilot and org-wide rollout[](https://academy.claude.com/tutorials/claude-enterprise-end-user-rollout-kit)
 

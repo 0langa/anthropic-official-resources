@@ -28,7 +28,7 @@ More webinar series from Anthropic experts and the teams building with Claude in
 
 ### Claude in Production: Executive Briefings
 
-Live briefings for technology and security leaders on what it takes to run Claude safely at enterprise scale.](https://claude.com/resources/webinar-series/claude-at-the-frontier-executive-briefings)[Webinar series10 webinars
+Live briefings for technology and security leaders on what it takes to run Claude safely at enterprise scale.](https://claude.com/resources/webinar-series/claude-at-the-frontier-executive-briefings)[Webinar series6 webinars
 
 ### Build faster with Claude on Google Cloud
 

@@ -112,7 +112,7 @@ Permissions are where always-on agents carry the most risk. A run [holds the use
 The components for permissions are the same ones other agents use:
 
 - **Credential store:** Always-on agents often need sensitive user credentials like passwords or access tokens to be useful. The [recommended pattern](https://code.claude.com/docs/en/agent-sdk/secure-deployment) is a proxy outside the agent’s environment that adds credentials to outgoing requests. The agent sends requests without credentials, and the proxy injects the real credentials before forwarding.
-- **Auto mode:** An always-on agent should be able to work without constant user input. We’ve already tackled a version of this problem with [auto mode](https://www.anthropic.com/research/claude-code-auto-mode) in Claude Code. Auto mode uses classifiers to review higher-risk actions and block the ones they identify as dangerous so Claude can find a safer approach. User review, however, is still necessary for the most important decisions.
+- **Auto mode:** An always-on agent should be able to work without constant user input. We’ve already tackled a version of this problem with [auto mode](https://www.anthropic.com/research/claude-code-auto-mode) in Claude Code. Auto mode uses [classifiers to review higher-risk actions](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents) and block the ones they identify as dangerous so Claude can find a safer approach. User review, however, is still necessary for the most important decisions.
 - **Deferred tool calls:** In Claude Code, [a hook can defer a tool call](https://code.claude.com/docs/en/hooks) and wait for additional input from the user. The same pattern applies to always-on agents, which may need clarification or approval before taking certain actions. When a call is deferred, the run ends and the session is saved mid-call. The request is shown to the user (e.g., through an interactive card built with [MCP Apps](https://modelcontextprotocol.io/extensions/apps/overview)), and their answer comes back as an event in the inbox. That event starts a new run, which resumes the saved session with the user’s input. While the deferred call waits for a response, the worker can pick up other events, so the agent isn’t blocked.
 
 ### Outbox
@@ -153,7 +153,13 @@ Together, these form a cycle. A run can set a timer that wakes the agent again l
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
+
+### The enterprise guide to securing coding agents
+
+How security and technical leaders can understand and bound risk as they scale Claude Code
+
+Claude Code](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)[ArticleNov 17, 2026
 
 ### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
 
@@ -175,13 +181,7 @@ Claude Code
 
 How leading startups use Claude Tag to ship faster and scale operations
 
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 10, 2026
-
-### How Curative is building a national provider network with agents on Claude
-
-Curative’s deal-making agent negotiates 2,000+ provider contracts a week.
-
-Claude PlatformClaude Code](https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude)
+Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
 
 ## Transform how your organization operates with Claude
 

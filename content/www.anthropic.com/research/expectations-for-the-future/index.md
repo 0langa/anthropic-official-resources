@@ -21,9 +21,9 @@ Related articles
 
 - Economics
 
-  Oct 16, 2026
+  Nov 23, 2026
 
-  [How employment is changing at Anthropic](https://www.anthropic.com/research/employment-at-anthropic)
+  [Working with AI](https://www.anthropic.com/research/working-with-ai)
 
 [View more](https://www.anthropic.com/search?topic=labor-market)
 

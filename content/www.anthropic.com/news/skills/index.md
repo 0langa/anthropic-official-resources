@@ -140,7 +140,17 @@ Keep in mind, this feature gives Claude access to execute code. While powerful, 
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 23, 2026
+[ArticleNov 24, 2026
+
+### Turn artifacts into Mac and Windows apps
+
+Open the artifacts you use every day like any other app, and let them do more on your computer
+
+Claude apps](https://claude.com/resources/articles/install-as-app)[ArticleNov 24, 2026
+
+### MCP servers can now ship skills, run tasks, and more with Claude
+
+Claude appsClaude Platform](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more)[ArticleNov 23, 2026
 
 ### Zero data retention with Enterprise Frontier Safeguards is now in beta
 
@@ -150,17 +160,7 @@ Claude Platform](https://claude.com/resources/articles/zero-data-retention-with-
 
 Open a pull request and get back to building. Claude can now review pull requests, fix them, and approve the ones that a team's policy allows.
 
-Claude Ship](https://claude.com/resources/articles/introducing-claude-ship)[ArticleNov 17, 2026
-
-### Linked billing on the Claude Platform
-
-Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)[ArticleNov 12, 2026
-
-### Operate Claude Managed Agents inside your security perimeter
-
-Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
-
-Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)
+Claude Ship](https://claude.com/resources/articles/introducing-claude-ship)
 
 ## Transform how your organization operates with Claude
 

@@ -10,7 +10,7 @@ When evaluating agentic coding solutions for code modernization, organizations m
 
 ## Deep codebase awareness
 
-Effective agentic coding tools demonstrate the ability to understand and navigate complex codebases without requiring extensive manual setup. These tools should run multi-file tasks using deep codebase awareness that automatically understands project structures, dependencies and architectural patterns, enabling consistent changes across entire codebases. Advanced tools like Claude Code can trace execution paths through multiple files and frameworks, understanding how changes propagate through systems and identifying potential impacts before they become problems.
+Effective agentic coding tools demonstrate the ability to understand and navigate complex codebases without requiring extensive manual setup. These tools should run multi-file tasks using deep codebase awareness that automatically understands project structures, dependencies and architectural patterns, enabling consistent changes across entire codebases. Advanced tools like Claude Code can [trace execution paths through multiple files and frameworks (opens in new tab)](https://claude.com/resources/articles/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start), understanding how changes propagate through systems and identifying potential impacts before they become problems.
 
 ## Working with all your tools
 

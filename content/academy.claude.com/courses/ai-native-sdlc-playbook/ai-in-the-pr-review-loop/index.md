@@ -17,7 +17,7 @@ Claude both gives and receives reviews. It reviews incoming PRs against the orga
 ## Getting started[](https://academy.claude.com/courses/ai-native-sdlc-playbook/ai-in-the-pr-review-loop)
 
 - **Prerequisites**: An updated `CLAUDE.md` file from **Stage 3: Build**, skills, if the review passes are to enforce written policies, and defined subagents.
-- **Infrastructure**: A repo with the Claude integration installed, either the managed [Code Review(opens in new tab)](https://code.claude.com/docs/en/code-review) service enabled by an Owner of your Claude organization or the claude-code-action running in your own CI, with model calls through Amazon Bedrock, Google Cloud's Vertex AI, or Microsoft Foundry where needed (the CI/CD play covers the deployment options). Branch protection policies that require a code owner's approval are also worthwhile.
+- **Infrastructure**: A repo with the Claude integration installed, either the managed [Code Review(opens in new tab)](https://code.claude.com/docs/en/code-review) service enabled by an Owner of your Claude organization or the claude-code-action running in your own CI, with model calls through Amazon Bedrock, Google Cloud's Vertex AI, or Microsoft Foundry where needed (the CI/CD play covers the deployment options). You also need branch protection that requires a code owner's approval, as Governance considerations explains.
 
 ## How to execute it[](https://academy.claude.com/courses/ai-native-sdlc-playbook/ai-in-the-pr-review-loop)
 
@@ -58,7 +58,7 @@ The first finding exists only because the compliance pass reads the committed `p
 
 ## Governance considerations[](https://academy.claude.com/courses/ai-native-sdlc-playbook/ai-in-the-pr-review-loop)
 
-Separation of duties is preserved, because the agent that wrote the code has no way to approve it. The review policy in `REVIEW.md` is applied to all PRs, and findings, fixes, ratings, and approvals are logged in the PR history, so the PR is the audit record. Approval comes from a human through branch protection, informed by the findings.
+Separation of duties holds only if branch protection requires a person's approval. A plain count of required approvals isn't enough, because GitHub can count a bot's approving review toward it. So require review from [code owners(opens in new tab)](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners), give every path an owner, and make sure those owners are people. Also dismiss approvals when new commits are pushed, turn off bypass, and keep code owners' credentials away from agents. With those in place, approval comes from a human, informed by the findings. The review policy in `REVIEW.md` is applied to all PRs, and findings, fixes, ratings, and approvals are logged in the PR history, so the PR is the audit record.
 
 ## How to measure it[](https://academy.claude.com/courses/ai-native-sdlc-playbook/ai-in-the-pr-review-loop)
 

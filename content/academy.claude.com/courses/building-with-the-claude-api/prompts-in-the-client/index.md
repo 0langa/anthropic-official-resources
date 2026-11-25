@@ -59,7 +59,7 @@ When the client calls `get_prompt`, the arguments dictionary should contain the 
 
 ## Testing Prompts in the CLI[](https://academy.claude.com/courses/building-with-the-claude-api/prompts-in-the-client)
 
-Once implemented, you can test prompts through the command-line interface. When you type a forward slash, available prompts appear as commands. Selecting a prompt may prompt you to choose from available options (like document IDs), and then the complete prompt gets sent to Claude.
+Once implemented, you can test prompts through the command-line interface. When you type a forward slash, available prompts appear as commands. Highlight a prompt with the arrow keys, then press the space bar, not Enter, to list its options (like document IDs). Enter crashes the app until you pick one, so highlight an option first. Then press Enter to send the complete prompt to Claude.
 
 ![Terminal running uv run main.py with "/format plan.md" typed and a file autocomplete list with plan.md highlighted.](https://academy.claude.com/assets/media/65779584e09ca0af5e0dd86aa055a63359caab1f40166d6177cf41791bbbef50.jpg)
 

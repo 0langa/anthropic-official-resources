@@ -8,7 +8,7 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fthe-web-search-tool)
 
-**Important note:** Your organization must enable the Web Search tool in the settings console before using it. You can find this setting here: [https://platform.claude.com/settings/capabilities(opens in new tab)](https://platform.claude.com/settings/capabilities)
+**Important note:** Web search is enabled for your organization unless an administrator has disabled it in the [Claude Console(opens in new tab)](https://platform.claude.com/settings/capabilities).
 
 Embedded media: https://www.youtube-nocookie.com/embed/Yb0xWR3EdEA?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
@@ -22,7 +22,7 @@ Claude includes a built-in web search tool that lets it search the internet for 
 
 ## Setting Up the Web Search Tool[](https://academy.claude.com/courses/building-with-the-claude-api/the-web-search-tool)
 
-To use the web search tool, you create a schema object with these required fields:
+To use the web search tool, you create a schema object. The `type` and `name` fields are required, and `max_uses` is optional:
 
 python
 
@@ -34,7 +34,7 @@ web_search_schema = {
 }
 ```
 
-The `max_uses` field limits how many searches Claude can perform. Claude might do follow-up searches based on initial results, so this prevents excessive API calls. A single search returns multiple results, but Claude may decide additional searches are needed.
+The `max_uses` field limits how many searches Claude can perform in a single turn. Claude might do follow-up searches based on initial results, so this prevents excessive API calls. A single search returns multiple results, but Claude may decide additional searches are needed.
 
 ## How the Response Works[](https://academy.claude.com/courses/building-with-the-claude-api/the-web-search-tool)
 
@@ -52,7 +52,7 @@ The response structure lets you see exactly what Claude searched for and which s
 
 ## Restricting Search Domains[](https://academy.claude.com/courses/building-with-the-claude-api/the-web-search-tool)
 
-You can limit searches to specific domains using the `allowed_domains` field. This is particularly useful when you want reliable, authoritative sources:
+You can limit searches to specific domains using the optional `allowed_domains` field. This is particularly useful when you want reliable, authoritative sources:
 
 python
 

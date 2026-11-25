@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fbuilding-with-the-claude-api%2Fmaking-a-request)
 
+
+
+This course uses Claude Haiku 4.5 and the `anthropic` package below version 1. Copy the install command and model from the code blocks on this page. Claude Sonnet 4 is retired, so requests to it fail. Installing `anthropic` without `<1` gets a newer version, which breaks the code in "Temperature" and many later lessons.
+
 Embedded media: https://www.youtube-nocookie.com/embed/BOQejBZ6NnQ?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=BOQejBZ6NnQ)

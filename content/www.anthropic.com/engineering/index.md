@@ -1,4 +1,4 @@
-# The Engineering team builds the infrastructure that makes Claude reliable and trustworthy. They translate our research into production systems, and share what they learn about building, evaluating, and deploying AI agents at scale.
+# The Engineering team builds the infrastructure that makes Claude reliable and trustworthy. We translate our research into production systems, and share what we learn about building, evaluating, and deploying AI agents at scale.
 
 - [![Illustration of two offset half circles with a grid pattern, one green and one pink, facing each other across a gap on a light blue background.](https://assets.claude.com/8d3836735b8659a7c39c9c9b5b795d579195bde1.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/components-of-agent-memory)
 - [![Redesigning source control at Anthropic](https://assets.claude.com/cfb6c0671a1e04252d55fc3c6776daad399e8356.jpg?w=3840&q=75&fm=webp&fit=max)](https://www.anthropic.com/research/redesigning-source-control)
@@ -151,11 +151,11 @@ See more
 
 50 posts
 
-Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
+Works to understand the risks of AI models and develops ways to ensure future ones remain helpful, honest, and harmless.
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
-27 posts
+28 posts
 
 Studies and monitors the impact of AI systems on individuals, firms, and economies.
 
@@ -193,11 +193,11 @@ Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
 50 posts
 
-Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
+Works to understand the risks of AI models and develops ways to ensure future ones remain helpful, honest, and harmless.
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
-27 posts
+28 posts
 
 Studies and monitors the impact of AI systems on individuals, firms, and economies.
 

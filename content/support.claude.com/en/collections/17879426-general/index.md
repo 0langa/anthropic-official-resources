@@ -1,6 +1,6 @@
 # General
 
-8 articles
+9 articles
 
 [Use connectors to extend Claude's capabilities](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)
 
@@ -17,3 +17,5 @@
 [How Claude suggests connected apps](https://support.claude.com/en/articles/14730684-how-claude-suggests-connected-apps)
 
 [Auto-connect your organization’s apps to Claude](https://support.claude.com/en/articles/15537633-auto-connect-your-organization-s-apps-to-claude)
+
+[Send files to connected apps and save files from them](https://support.claude.com/en/articles/18534325-send-files-to-connected-apps-and-save-files-from-them)

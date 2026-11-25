@@ -12,61 +12,46 @@ Embedded media: https://www.youtube-nocookie.com/embed/nVGcWczH8fk?enablejsapi=1
 
 GitHub Actions and Code Review
 
-The best place to hand off repetitive work is the pull request. It's where
-review happens, where changes land, and where a lot of your busywork lives.
-Here are two ways to put Claude to work there, and they solve different
-problems. One is a managed service you turn on. The other is a GitHub
-Action you wire up yourself. Let's walk through both and figure out when to
-reach for each.
+A lot of your busywork lives in the pull request, so it's a good place to
+hand work to Claude. You can do that in two ways: turn on a managed review
+service, or set up a GitHub Action yourself.
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=nVGcWczH8fk)
 
-## The managed path: Code Review[](https://academy.claude.com/courses/claude-code-in-action/github-actions-and-code-review)
+## Which one should you use?[](https://academy.claude.com/courses/claude-code-in-action/github-actions-and-code-review)
 
-The simplest option is Code Review. It's an Anthropic-hosted service that reviews your pull requests through the Claude GitHub app. There's nothing for you to build or host. You turn it on, and it starts posting findings as inline comments right on the lines that matter.
+The two solve different problems. **Use Code Review for comments on pull requests, and the GitHub Action when Claude should do work in CI.**
 
-An Owner of your Claude organization enables it from the Claude Code admin settings. You'll find a Code review section with an Allow code review switch that starts the setup.
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium"></th><th class="border-b border-strong p-sm text-left font-medium">Code Review</th><th class="border-b border-strong p-sm text-left font-medium">GitHub Action</th></tr></thead><tbody><tr><td class="border-b p-sm">What it does</td><td class="border-b p-sm">Posts findings on pull requests</td><td class="border-b p-sm">Runs any job you'd write a workflow for</td></tr><tr><td class="border-b p-sm">Who sets it up</td><td class="border-b p-sm">An Owner of your Claude organization</td><td class="border-b p-sm">A repo admin</td></tr><tr><td class="border-b p-sm">What you need</td><td class="border-b p-sm">A Team or Enterprise plan</td><td class="border-b p-sm">A way to sign in, such as an API key</td></tr><tr><td class="border-b p-sm">What you maintain</td><td class="border-b p-sm">Nothing</td><td class="border-b p-sm">A workflow file</td></tr></tbody></table>
 
-From there the Owner installs the Claude GitHub app, picks which repos it watches, and decides when it runs. If the Owner isn't also an owner of the GitHub organization, one has to install and link the app first. You have a few choices for timing:
+If you aren't on a Team or Enterprise plan, skip ahead to the GitHub Action.
 
-- Once when a PR opens
-- On every push to the PR
-- Only when someone comments `@claude review`
+## Turn on Code Review[](https://academy.claude.com/courses/claude-code-in-action/github-actions-and-code-review)
 
-Once it's on, everything runs on Anthropic's infrastructure. A set of review agents analyzes the diff against your full codebase, not just the changed lines in isolation. Then it posts findings as inline comments on the specific lines, tagged by severity, with a summary table in the check run.
+Code Review runs on Anthropic's infrastructure, so there's nothing to build or host. An Owner of your Claude organization sets it up once:
 
-Each finding lands as a comment from Claude, right on the line, with a clear explanation and a suggested fix.
+1. **Start the setup.** Open your organization's [Code Review settings(opens in new tab)](https://claude.ai/admin-settings/claude-code) and click the switch. The [setup guide(opens in new tab)](https://code.claude.com/docs/en/code-review-setup) shows each click.
+2. **Pick the repos.** Install the Claude GitHub app and choose which repos it watches. If you don't own the GitHub organization, an owner has to install and link the app first.
+3. **Confirm the setup.** If the setup ends in a dialog, Code Review stays off until you confirm it. If you weren't asked to pick repos, add them from the Repositories table.
+4. **Set the timing.** Each repo starts with a review on every push, which runs the most reviews and costs more. Click Edit on the repo's row to review once when a PR opens, or only when someone comments `@claude review`.
 
-The nice part is it deduplicates and ranks the findings. So instead of a wall of nitpicks, you read a handful of real issues worth your attention.
+## What Code Review does[](https://academy.claude.com/courses/claude-code-in-action/github-actions-and-code-review)
 
-## What Code Review will and won't do[](https://academy.claude.com/courses/claude-code-in-action/github-actions-and-code-review)
+A set of review agents checks each diff against your full codebase. They remove duplicates and rank what's left, so you read a handful of real issues. Each one lands as an inline comment with a severity, an explanation, and a suggested fix. The check run sums them up in a table.
 
-A couple of things to keep in mind about the boundaries here:
+**By itself, Code Review only comments, so the decision and the fix stay with you.** It doesn't approve or block a PR, and it doesn't push fixes. Your repo's GitHub branch rules decide what merges.
 
-- It never approves or blocks the PR. The judgment call stays with a human. Claude flags things; you decide.
-- It doesn't push fixes. The service posts findings only.
-- It's available on Team and Enterprise plans.
+To check your fix before you push, run `/code-review` in your own terminal. That starts a separate review of your diff, and `--fix` applies that review's findings to your working tree.
 
-Since the service only posts findings, acting on one is your move: fix the code and push. To check your fix before you push, run `/code-review` from your own terminal. It runs its own review of your diff, and its `--fix` flag applies that review's findings to your working tree.
+## Set up the GitHub Action[](https://academy.claude.com/courses/claude-code-in-action/github-actions-and-code-review)
 
-## The do-it-yourself path: the GitHub Action[](https://academy.claude.com/courses/claude-code-in-action/github-actions-and-code-review)
+When the job goes beyond review, use the action, `anthropics/claude-code-action@v1`. Run `/install-github-app` in Claude Code, which needs admin rights on the repo. It walks you through installing the GitHub app and saving your Anthropic API key as a repo secret. It can also add workflow files on a new branch, which turn on once you create and merge that pull request.
 
-Code Review handles review. When the job goes beyond review, you reach for the GitHub Action. This is for custom CI: implementing changes from a comment, running scheduled reports, anything you'd normally write a workflow for. It runs the agent on PR comments, scheduled jobs, and any GitHub event.
+**The `prompt` input decides when Claude runs.** Without one, the action waits for someone to mention `@claude`. With one, Claude runs as soon as the event fires. The next two workflows show one of each.
 
-Setup starts inside Claude Code. Run the `/install-github-app` command. You'll need repo admin to do this. The slash command walks you through installing the GitHub app and setting the Anthropic API key secret on the repo.
+## Respond to @claude[](https://academy.claude.com/courses/claude-code-in-action/github-actions-and-code-review)
 
-The action itself is `anthropics/claude-code-action@v1`. Here are the inputs you'll actually use:
-
-- `anthropic_api_key` — required when the run calls the Claude API, unless you authenticate with `claude_code_oauth_token` (from a Claude subscription) or with workload identity federation (set up through a Claude Console service account, so no stored secret). Not used with the cloud providers below.
-- `github_token` — optional. Leave it out and the action authenticates as the Claude GitHub app you installed at setup. Pass a token only to override that.
-- `trigger_phrase` — what the action listens for in comments. Defaults to `@claude`.
-- `use_bedrock` / `use_vertex` / `use_foundry` — route the run through Amazon Bedrock, Google Cloud's Agent Platform, or Microsoft Foundry instead of the Claude API, signing in with your cloud account rather than an API key.
-- `prompt` — the instruction for an automated run. Set it and Claude runs on the event without waiting for a mention. Leave it out and the action waits for the trigger phrase.
-- `claude_args` — a string of CLI arguments passed straight through to Claude Code.
-
-## A workflow that responds to @claude[](https://academy.claude.com/courses/claude-code-in-action/github-actions-and-code-review)
-
-Drop a workflow into `.github/workflows/claude.yaml` and it listens for `@claude` on PR comments and issue comments. Here's the whole file. The `id-token: write` permission lets the action sign in as the Claude GitHub app:
+This workflow has no `prompt`, so it waits for `@claude` in PR and issue comments. **If setup added a `claude.yml`, merge that one and don't add a second.** Otherwise, save this one as `.github/workflows/claude.yml`. The `id-token: write` permission lets the action sign in as the Claude GitHub app:
 
 yaml
 
@@ -94,14 +79,14 @@ jobs:
       - uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
-          claude_args: "--max-turns 5 --model claude-sonnet-5"
+          claude_args: "--model claude-sonnet-5"
 ```
 
-Now someone writes `@claude implement the spec in the linked GitHub issue` on a pull request, and the action picks it up. Claude pushes commits and posts comments describing what it did.
+Suppose someone comments `@claude implement the spec in the linked GitHub issue` on a pull request. The action picks it up, and Claude pushes commits and comments with what it did.
 
-## A workflow that runs on a schedule[](https://academy.claude.com/courses/claude-code-in-action/github-actions-and-code-review)
+## Run on a schedule[](https://academy.claude.com/courses/claude-code-in-action/github-actions-and-code-review)
 
-The same action works for a daily rollup. A cron trigger fires at, say, 9:00 UTC, the action runs your `prompt`, and you read the rollup in that run's log. A scheduled run doesn't post a comment on its own. You can also add a `workflow_dispatch` trigger so you can kick it off manually from the Actions tab:
+This workflow has a `prompt`, so it runs on its own at 9:00 UTC every day. The `workflow_dispatch` line also lets you start it by hand from the Actions tab. The prompt names the repo, because this job has no checkout step:
 
 yaml
 
@@ -122,28 +107,34 @@ jobs:
       - uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
-          prompt: "Generate a summary of yesterday's commits and open issues"
+          prompt: "Generate a summary of yesterday's commits and open issues in ${{ github.repository }}"
           claude_args: |
+            --permission-mode dontAsk
             --allowedTools "mcp__github__list_commits,mcp__github__list_issues"
 ```
 
-When the action runs, you can watch it work through the steps in the Actions tab, just like any other GitHub workflow.
+**A scheduled run doesn't post a comment on its own.** You read the result in the run's log, in the Actions tab.
 
-## Tuning the run with claude\_args[](https://academy.claude.com/courses/claude-code-in-action/github-actions-and-code-review)
+## Limit what a run can do[](https://academy.claude.com/courses/claude-code-in-action/github-actions-and-code-review)
 
-The `claude_args` line is where the fine-tuning happens. A few knobs worth knowing:
+No one is at the keyboard during a run, so **give each job only what it needs.** The `claude_args` input passes CLI arguments straight to Claude Code, and three of them set the limits:
 
-- `--max-turns 5` puts a hard cap on the agent loop, so it can't run forever.
-- Permission mode. For an unattended job you'll want it to not stop and ask, since there's no one there to answer.
-- Allowed tools. Give the job exactly what it needs and nothing more. For a report, that means read-only.
+- `--max-turns` caps the agent loop, so it can't run forever. A run that goes over the cap fails. So leave room, because even a small `@claude` code change can take more than five turns.
+- `--allowedTools` lists the tools Claude can use without asking. For a report, list only read-only tools.
+- `--permission-mode dontAsk` denies anything else that needs approval. Use it on a job like the report, because it would also deny file edits you haven't listed. Without it, the action defaults to auto mode, where a safety review can let unlisted tools through.
 
-## Which one should you use?[](https://academy.claude.com/courses/claude-code-in-action/github-actions-and-code-review)
+## Adapt it to your setup[](https://academy.claude.com/courses/claude-code-in-action/github-actions-and-code-review)
 
-Here's the short version:
+Both workflows sign in with an API key and act as the Claude GitHub app. **If your setup differs, start from these inputs:**
 
-- For PR reviews, take the managed path. Enable Code Review, let the GitHub app post inline findings, then fix the code and push.
-- Reach for the action when the job is more than review. Use `/install-github-app` for setup, one workflow for `@claude` mentions, one for cron, and all the tuning lives in `claude_args`.
+<table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">If you want to</th><th class="border-b border-strong p-sm text-left font-medium">Use</th></tr></thead><tbody><tr><td class="border-b p-sm">Sign in with a Claude subscription</td><td class="border-b p-sm"><code class="cds-inline-code">claude_code_oauth_token</code></td></tr><tr><td class="border-b p-sm">Store no secret</td><td class="border-b p-sm">Workload identity federation, set up through a Claude Console service account</td></tr><tr><td class="border-b p-sm">Run on Amazon Bedrock</td><td class="border-b p-sm"><code class="cds-inline-code">use_bedrock: "true"</code></td></tr><tr><td class="border-b p-sm">Run on Google Cloud's Agent Platform</td><td class="border-b p-sm"><code class="cds-inline-code">use_vertex: "true"</code></td></tr><tr><td class="border-b p-sm">Run on Microsoft Foundry</td><td class="border-b p-sm"><code class="cds-inline-code">use_foundry: "true"</code></td></tr><tr><td class="border-b p-sm">Act as something other than the app</td><td class="border-b p-sm"><code class="cds-inline-code">github_token</code></td></tr><tr><td class="border-b p-sm">Listen for a different phrase</td><td class="border-b p-sm"><code class="cds-inline-code">trigger_phrase</code></td></tr></tbody></table>
 
-Start with the managed service. Move to the action the moment you need Claude to actually do something in CI, not just comment on it.
+With a subscription, point that input at the `CLAUDE_CODE_OAUTH_TOKEN` secret and remove the API key line. With a cloud provider, you sign in with your cloud account, which takes a few [more setup steps(opens in new tab)](https://code.claude.com/docs/en/github-actions-cloud-providers). If you change the trigger phrase, change the workflow's `if` line to match.
+
+## Key takeaways[](https://academy.claude.com/courses/claude-code-in-action/github-actions-and-code-review)
+
+- Turn on Code Review when you want findings on pull requests with nothing to maintain.
+- Set up the action when Claude should make changes or run on a schedule.
+- Use `claude_args` to limit what each run can do.
 
 Was this helpful?

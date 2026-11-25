@@ -1365,6 +1365,7 @@ https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-c
 https://claude.com/resources/articles/improved-web-search-with-dynamic-filtering
 https://claude.com/resources/articles/improving-frontend-design-through-skills
 https://claude.com/resources/articles/improving-skill-creator-test-measure-and-refine-agent-skills
+https://claude.com/resources/articles/install-as-app
 https://claude.com/resources/articles/integrate-apis-seamlessly
 https://claude.com/resources/articles/integrations
 https://claude.com/resources/articles/interactive-connectors-full-tool
@@ -1424,6 +1425,7 @@ https://claude.com/resources/articles/self-service-data-analytics-in-slack-how-a
 https://claude.com/resources/articles/sheets-whiteboards-data
 https://claude.com/resources/articles/skills
 https://claude.com/resources/articles/skills-explained
+https://claude.com/resources/articles/skills-over-mcp-tasks-and-more
 https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets
 https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more
 https://claude.com/resources/articles/structured-outputs-on-the-claude-developer-platform
@@ -2299,6 +2301,7 @@ https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-fetch-tool?sdk
 https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool
 https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool?sdk_languages=curl
 https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool?sdk_languages=http
+https://platform.claude.com/docs/en/api/$shared
 https://platform.claude.com/docs/en/api/admin
 https://platform.claude.com/docs/en/api/admin-api/apikeys/list-api-keys
 https://platform.claude.com/docs/en/api/admin-api/invites/get-invite
@@ -3046,6 +3049,7 @@ https://platform.claude.com/docs/en/api/files/list?sdk_languages=curl
 https://platform.claude.com/docs/en/api/files/retrieve_metadata
 https://platform.claude.com/docs/en/api/files/upload
 https://platform.claude.com/docs/en/api/files/upload?sdk_languages=curl
+https://platform.claude.com/docs/en/api/handle-errors
 https://platform.claude.com/docs/en/api/handling-stop-reasons
 https://platform.claude.com/docs/en/api/http
 https://platform.claude.com/docs/en/api/http/$shared
@@ -4090,6 +4094,16 @@ https://platform.claude.com/docs/en/manage-claude/inference-hooks?sdk_languages=
 https://platform.claude.com/docs/en/manage-claude/ip-allowlist
 https://platform.claude.com/docs/en/manage-claude/oauth-apps/app-review
 https://platform.claude.com/docs/en/manage-claude/oauth-apps/branding-samples
+https://platform.claude.com/docs/en/manage-claude/oauth-apps/endpoints-and-parameters
+https://platform.claude.com/docs/en/manage-claude/oauth-apps/linked-billing
+https://platform.claude.com/docs/en/manage-claude/oauth-apps/linked-billing/credential-for-each-customer
+https://platform.claude.com/docs/en/manage-claude/oauth-apps/linked-billing/errors
+https://platform.claude.com/docs/en/manage-claude/oauth-apps/linked-billing/link-and-bill-a-customer
+https://platform.claude.com/docs/en/manage-claude/oauth-apps/linked-billing/link-button
+https://platform.claude.com/docs/en/manage-claude/oauth-apps/linked-billing/manage-customers
+https://platform.claude.com/docs/en/manage-claude/oauth-apps/linked-billing/set-up-your-app
+https://platform.claude.com/docs/en/manage-claude/oauth-apps/linked-billing/test-and-publish
+https://platform.claude.com/docs/en/manage-claude/oauth-apps/linked-billing/what-your-customers-see
 https://platform.claude.com/docs/en/manage-claude/oauth-apps/oauth-reference
 https://platform.claude.com/docs/en/manage-claude/oauth-apps/organization-billing-connections
 https://platform.claude.com/docs/en/manage-claude/oauth-apps/overview
@@ -4992,8 +5006,13 @@ https://support.claude.com/en/articles/18467110
 https://support.claude.com/en/articles/18467110-offer-linked-billing-in-your-platform
 https://support.claude.com/en/articles/18467148-use-your-claude-platform-account-in-a-third-party-app
 https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans
+https://support.claude.com/en/articles/18516354-install-an-artifact-as-an-app
 https://support.claude.com/en/articles/18520573-manage-anthropic-email-updates-for-your-organization-members
+https://support.claude.com/en/articles/18534325
+https://support.claude.com/en/articles/18534325-send-files-to-connected-apps-and-save-files-from-them
+https://support.claude.com/en/articles/18537562-claude-sonnet-4-6-is-leaving-the-model-selector
 https://support.claude.com/en/articles/18549037-block-files-and-email-from-claude-by-sensitivity-label
+https://support.claude.com/en/articles/18559929-set-an-internal-help-contact-for-your-organization
 https://support.claude.com/en/articles/7996845-what-are-some-things-i-can-use-claude-for
 https://support.claude.com/en/articles/7996853-introduction-to-prompt-design
 https://support.claude.com/en/articles/7996857-my-prompt-isn-t-giving-me-a-helpful-answer

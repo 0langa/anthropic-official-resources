@@ -43,7 +43,7 @@ This is the best place to course-correct because it's before any code is written
 
 ## Code[](https://academy.claude.com/courses/claude-code-101/the-explore-plan-code-commit-workflow)
 
-Once the plan looks good, select "approve" to accept it and let Claude work through the list items. Your permission mode determines how Claude proceeds: it can ask you at each step, auto-accept file edits, or run in auto mode with a background safety check screening most actions.
+Once the plan looks good, select one of the "Yes" options to accept it and let Claude work through the list items. The option you pick sets your permission mode. One has Claude ask you before each edit. The other runs in auto mode with a background safety check screening most actions, or auto-accepts file edits if auto mode isn't available to you.
 
 Claude will do its best to troubleshoot before considering the plan "finished," but at times you'll need to step in. This is the benefit of working with Plan Mode — after execution, you also have the context of how you got to the results, which helps guide Claude's next decisions.
 
@@ -83,11 +83,13 @@ Was this helpful?
 
 # The explore → plan → code → commit workflow
 
+Correction: The video says to select approve. No option has that name. The words in brackets, at 1:12 and 1:18, correct what the video says.
+
 If you take one thing away from Claude Code, let it be this workflow. Explore, plan, code, and commit. Without this, most people jump straight to asking Claude to write code, which means more course correcting later on.
 
 The fastest way to handle step one and two is with plan mode. With plan mode, Claude can't edit files. It just reads files to gather research on how to tackle its implementation. To enter plan mode, hit shift and tab until you see the plan mode under the text input. I need to add WebP conversion to our image upload pipeline. Figure out where in the pipeline it should happen, whether we need new dependencies and how to approach it. And Claude will read relevant files, do some web searches and give you a plan of action. Make sure you review it and determine if it meets your criteria. Otherwise, you can ask it to add on or revise some areas. Perfect. And this right here is the best place to course correct because it's before any code is written. You can also use Explore without being in plan mode by just asking Claude to explore your code base.
 
-Now, once the plan looks good, you can select approve to accept the plan and let Claude tackle all the list items it provided. You can determine if you want Claude to auto-accept the file edits or ask every single time. Claude will do its best to troubleshoot your codebase before considering the plan finished, but at times you'll need to course correct. This is the benefit of working with plan mode, because after the plan is finished, we also have the context of how it got to the results to help it guide its next decision.
+Now, once the plan looks good, you can select [one of the "Yes" options] to accept the plan and let Claude tackle all the list items it provided. [The option you pick has Claude ask before each edit, or run in auto mode, or auto-accept file edits if auto mode isn't available to you.] Claude will do its best to troubleshoot your codebase before considering the plan finished, but at times you'll need to course correct. This is the benefit of working with plan mode, because after the plan is finished, we also have the context of how it got to the results to help it guide its next decision.
 
 In order for Claude to be confident in its results, it has to be clear on what it deems correct. When writing your plan, make this explicit. Adding tools that will help Claude complete its goals will remove a lot of back and forth. For example, if you're building web UIs, make sure you have the Claude in Chrome extension so that Claude Code can control a tab and test out the UI before deeming it finished. In your project, include a test suite that Claude can continuously validate on. Claude can even write tests for you. Before passing this off to Claude, make sure that the tests are a source of truth for you and your team to avoid any false positives. Quick tip, if you find Claude keeps running into these same issues, ask Claude to save the solution to its CLAUDE.md file.
 

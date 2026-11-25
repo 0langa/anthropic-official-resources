@@ -22,7 +22,7 @@ Skills are how an organization makes its institutional knowledge operational. Th
 3. Put the skill in the repo at `.claude/skills/<name>/` so it ships with the code, or distribute it organization-wide through a plugin.
 4. Test that the skill triggers. Ask Claude to do the relevant task in different ways and confirm the skill loads each time.
 5. When the policy changes, change the skill and have the policy owner sign off on the change.
-6. Engineers pick up the new version automatically in their next session.
+6. Engineers get the new version when they pull the repo. For a plugin, release a new version and have an admin turn on [auto-update(opens in new tab)](https://code.claude.com/docs/en/plugins/host-marketplace). It is off by default for a marketplace you host.
 
 ## What it looks like[](https://academy.claude.com/courses/ai-native-sdlc-playbook/skills-as-institutional-knowledge)
 
@@ -95,20 +95,23 @@ json
 }
 ```
 
-The hook script, `.claude/hooks/api-policy.sh`:
+The hook needs `jq`. If `jq` is missing or fails, it tells Claude that the edit was not checked. Save the script as `.claude/hooks/api-policy.sh` and make it executable with `chmod +x`:
 
 bash
 
 ```
 #!/bin/bash
 # Backs rule 4 of the secure-api-review skill with the same script the skill runs.
-file=$(jq -r '.tool_input.file_path')
+file=$(jq -er '.tool_input.file_path') || {
+  echo "API policy hook: jq is missing or failed, so this edit was not checked." >&2
+  exit 2
+}
 case "$file" in
-  "$CLAUDE_PROJECT_DIR"/claims-api/routes/*.py) ;;
+  */claims-api/routes/*.py) ;;                   # an endpoint, in the repo or a worktree
   *) exit 0 ;;                                   # not an endpoint
 esac
-cd "$CLAUDE_PROJECT_DIR" || exit 2
-if ! found=$(scripts/check-endpoints.sh "${file#"$CLAUDE_PROJECT_DIR"/}"); then
+cd "${file%/claims-api/routes/*}" || exit 2      # the checkout that holds the file
+if ! found=$("$CLAUDE_PROJECT_DIR"/scripts/check-endpoints.sh "${file#"$PWD"/}"); then
   echo "secure-api-review rule 4: a pii field reaches a log or an error message." >&2
   echo "$found" >&2
   exit 2

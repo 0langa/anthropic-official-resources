@@ -21,7 +21,7 @@ Learning to use AI will help individuals and organizations take advantage of the
 
 At Anthropic, we believe the journey to AI fluency begins on an employee’s first day. During onboarding, we teach all employees the [4D AI Fluency Framework](https://academy.claude.com/collections/ai-fluency), best practices on managing what agents know, and how fast the AI exponential moves. Learners practice making intentional decisions about what tasks should be done by AI and what tasks they should do themselves. They also learn the mistakes that AI tends to make so they can review AI-generated work more effectively. After onboarding, we offer a variety of “ever-boarding” (always-on onboarding) programs that deeply explore [AI’s capabilities and limitations](https://academy.claude.com/tutorials/the-4-properties-of-ai) as well as evidence-based practices for working on [human-agent teams](https://claude.com/resources/articles/building-effective-human-agent-teams). In a field moving this fast, continuous learning is an expectation for every role.
 
-In addition to live and online instruction, we also provide all Anthropic employees with Claude-powered tools (like Claude Tag) to ensure they get instant answers to virtually any question related to the company, their job, or their specific onboarding plan. We also have Claude-moderated Slack channels for IT, legal, and benefits so people can focus on what matters most.
+In addition to live and online instruction, we also provide all Anthropic employees with Claude-powered tools (like [Claude Tag](https://claude.com/resources/articles/how-anthropic-employees-use-claude-tag)) to ensure they get instant answers to virtually any question related to the company, their job, or their specific onboarding plan. We also have Claude-moderated Slack channels for IT, legal, and benefits so people can focus on what matters most.
 
 When employees become AI fluent, we see them forming teams flexibly around real problems, taking on projects with expanded scope, and learning from company experts at scale. For Anthropic, AI fluency is the foundation required to have impact.
 
@@ -87,25 +87,27 @@ We welcome your feedback about what learning works best for you. Every course, t
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 24, 2026
 
-### Linked billing on the Claude Platform
+### Turn artifacts into Mac and Windows apps
 
-Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)[ArticleNov 12, 2026
+Open the artifacts you use every day like any other app, and let them do more on your computer
 
-### Operate Claude Managed Agents inside your security perimeter
+Claude apps](https://claude.com/resources/articles/install-as-app)[ArticleNov 24, 2026
 
-Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
+### MCP servers can now ship skills, run tasks, and more with Claude
 
-Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)[ArticleNov 12, 2026
+Claude appsClaude Platform](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more)[ArticleNov 23, 2026
 
-### Introducing Claude for Manufacturing
+### Zero data retention with Enterprise Frontier Safeguards is now in beta
 
-A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)[ArticleNov 12, 2026
+Claude Platform](https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards)[ArticleNov 23, 2026
 
-### Introducing Claude Meetings
+### Introducing Claude Ship
 
-Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)
+Open a pull request and get back to building. Claude can now review pull requests, fix them, and approve the ones that a team's policy allows.
+
+Claude Ship](https://claude.com/resources/articles/introducing-claude-ship)
 
 ## Transform how your organization operates with Claude
 

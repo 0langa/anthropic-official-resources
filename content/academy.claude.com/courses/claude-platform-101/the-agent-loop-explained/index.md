@@ -43,7 +43,9 @@ python
 
 ```
 import anthropic
+from dotenv import load_dotenv
 
+load_dotenv(".env.local")  # loads ANTHROPIC_API_KEY
 client = anthropic.Anthropic()
 
 # The tools array tells Claude what's available:
@@ -86,6 +88,8 @@ while True:
         messages=messages,
     )
 
+    print(f"Stop reason: {response.stop_reason}")
+
     if response.stop_reason == "end_turn":
         # Claude is done. Print the final text and break.
         for block in response.content:
@@ -99,6 +103,7 @@ while True:
         for block in response.content:
             if block.type == "tool_use":
                 result = run_tool(block.name, block.input)
+                print(f"Tool call: {block.name} {block.input} -> {result}")
                 tool_results.append(
                     {
                         "type": "tool_result",
@@ -130,7 +135,21 @@ Don't leave out that last branch. Without it, a reply that's cut off at `max_tok
 
 ## Running it[](https://academy.claude.com/courses/claude-platform-101/the-agent-loop-explained)
 
-When you run the script, you'll see two turns:
+Save the script as `agent.py` in the folder that holds your `.env.local` file. Python doesn't read that file on its own, so the script's two `dotenv` lines load your key from it. Add the same two lines to the other Python scripts in this course.
+
+With Python 3.10 or later, create a virtual environment, install the packages, and run the script:
+
+bash
+
+```
+python3 -m venv .venv && source .venv/bin/activate
+pip install anthropic python-dotenv
+python agent.py
+```
+
+In Windows PowerShell, replace the first line with two commands: `py -m venv .venv`, then `.venv\Scripts\Activate.ps1`.
+
+You'll see two turns:
 
 1. **Turn one:** the stop reason is `tool_use`. Claude requests `get_weather` for Austin, and your code returns the temperature and conditions.
 2. **Turn two:** the stop reason is `end_turn`, and Claude tells you to wear something light and breathable.

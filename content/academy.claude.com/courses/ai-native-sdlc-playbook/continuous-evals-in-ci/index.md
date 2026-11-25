@@ -102,7 +102,7 @@ The `--bare` flag makes a non-interactive run start faster. It does so by skippi
 
 Read more The checker script
 
-This script, `evals/check.sh`, runs each check on the files Claude left behind. It fails any run that changed something outside the folders and files the eval allows, except files Git ignores, such as test caches. That way an agent cannot pass by rewriting the `Makefile` or the checks, and for the same reason the workflow runs the script from a copy made before any run.
+This script, `evals/check.sh`, runs each check on the files Claude left behind. It fails any run that changed something outside the folders and files the eval allows, except files Git ignores, such as test caches. That catches a plain edit to the `Makefile` or the repo's own check scripts. The workflow also runs the script from a copy made before any run. Neither step locks the checks: the `Edit` rule in `--allowedTools` names no path, so it reaches `/tmp/evals`, and so can any test that `make test` runs.
 
 bash
 

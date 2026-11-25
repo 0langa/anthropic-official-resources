@@ -33,7 +33,7 @@ The skill is what turns a one-line prompt into a full account brief — it tells
 **Add the plugin and set it up:**
 
 1. **Open the [Sales plugin(opens in new tab)](https://claude.ai/desktop/customize/plugins/new?marketplace=https%3A%2F%2Fgithub.com%2Fanthropics%2Fknowledge-work-plugins&plugin=sales)** and add it. The plugin comes with the `account-research` skill, built on how a working sales team uses it.
-2. **[Connect the tools(opens in new tab)](https://claude.ai/desktop/customize/connectors)** the skill draws on: your CRM (like [HubSpot(opens in new tab)](https://claude.ai/desktop/directory/hubspot) or [Salesforce(opens in new tab)](https://claude.ai/desktop/directory/salesforce-headless-360)), the data warehouse, call recordings, email, chat, and the web. When the skill runs, Claude reads all of them at once.
+2. **[Connect the tools(opens in new tab)](https://claude.ai/desktop/customize/connectors)** you use. Out of the box, the skill reads your CRM (like [HubSpot(opens in new tab)](https://claude.ai/desktop/directory/hubspot) or [Salesforce(opens in new tab)](https://claude.ai/desktop/directory/salesforce-headless-360)), data enrichment tools, and the web. The debrief in Step 3 reads the call transcript (connect your call recorder, or paste it in) and your CRM, and uses email and chat for the follow-up drafts. For anything else you want in the brief, like a data warehouse, connect it and name it when you tailor the skill below.
 3. **In the chat bar**, pick a place Claude can read, edit, and save to: a working folder if you're in the desktop app, or a project. The brief lands there before the call and the debrief goes next to it after, so over time it becomes the account’s history.
 
 With the plugin added and your tools connected, tell Claude to tailor the skill to your company — your systems, the signals that matter, and the brief format you read fastest:
@@ -58,7 +58,7 @@ The skill is set up and your tools are connected. Now, the morning of a first ca
 
 AccountsOpen in Claude
 
-Claude reads from every connected source at once and writes one brief to the folder or project you picked: spend trajectory, the stakeholder map, what they’ve adopted, open deals, and the risk signals worth knowing before you’re in the room. You walk in with real context, so the first conversation is about strategy instead of getting oriented.
+Claude reads the sources you built into the skill and writes one brief to the folder or project you picked: spend trajectory, the stakeholder map, what they’ve adopted, open deals, and the risk signals worth knowing before you’re in the room. You walk in with real context, so the first conversation is about strategy instead of getting oriented.
 
 ## Step 3: Run the debrief after the call[](https://academy.claude.com/tutorials/using-claude-cowork-for-sales-account-research)
 

@@ -360,7 +360,7 @@ Publish those themes as an artifact for the product team. Keep a "what shifted s
 
 Sessions wrap, the synthesis should already be cooking. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and set `/interview-findings` to run each evening, picking up any new transcripts in the study folder.
 
-Set up a scheduled task for weekdays at 6pm: check Research/Onboarding-Study-Q2 for new transcripts and re-run /interview-findings, updating the findings doc and noting which themes moved.
+Set up a scheduled task for weekdays at 6pm: check Research/Onboarding-Study-Q2 for new transcripts and re-run /interview-findings, updating the findings doc and noting which themes moved. Save a dated copy of the old doc first, and keep my edits.
 
 
 
@@ -370,7 +370,7 @@ Set up a scheduled task for weekdays at 6pm: check Research/Onboarding-Study-Q2 
 
 Rolling research synthesis
 
-Each weekday at 6pm, checks the study folder for new transcripts, re-runs `/interview-findings`, and updates the findings doc with a note on which themes moved.
+Each weekday at 6pm, checks the study folder for new transcripts, saves a dated copy of the findings doc, then re-runs `/interview-findings` and updates the doc with a note on which themes moved.
 
 Every **weekday at 6 pm · checks Research/Onboarding-Study-Q2 for new transcripts**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 

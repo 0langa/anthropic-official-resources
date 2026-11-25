@@ -102,7 +102,7 @@ With skill:
 
 ## Using the skill-creator skill
 
-The `skill-creator` skill - available in Claude.ai via plugin directory or download for Claude Code - can help you build and iterate on skills. If you have an MCP server and know your top 2-3 workflows, you can build and test a functional skill in a single sitting - often in 15-30 minutes.
+The [`skill-creator` skill (opens in new tab)](https://claude.com/resources/articles/improving-skill-creator-test-measure-and-refine-agent-skills) - available in Claude.ai via plugin directory or download for Claude Code - can help you build and iterate on skills. If you have an MCP server and know your top 2-3 workflows, you can build and test a functional skill in a single sitting - often in 15-30 minutes.
 
 #### Creating skills
 

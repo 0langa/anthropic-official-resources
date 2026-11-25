@@ -76,11 +76,11 @@ Upload a CSV and Claude builds the correlation grid inline, flagging the pattern
 
 ·Use case·Education·15 min](https://academy.claude.com/use-cases/chart-your-data-before-you-commit)
 
-[![](https://academy.claude.com/assets/v1/thumbnail.light-a8f13pls.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ms6ban8i.png)
+[![](https://academy.claude.com/assets/v1/thumbnail.light-ed0994v0.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cnxcgtv4.png)
 
 ## Prepare and plan from your calendar
 
-Claude in Chrome reads your calendar, pulls context from email threads, flags which meetings need prep, and books rooms for the ones missing them. Run it every evening and start each day knowing what's coming.
+Claude in Chrome reads your calendar, pulls context from email threads, flags which meetings need prep, and suggests rooms for the ones missing them. Run it every evening and start each day knowing what's coming.
 
 ·Use case·10 min](https://academy.claude.com/use-cases/prepare-and-plan-from-your-calendar)
 

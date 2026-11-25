@@ -85,7 +85,9 @@ The [`opusplan` model setting](/docs/en/model-config#opusplan-model-setting) res
 
 [Automatic model fallback](/docs/en/model-config#automatic-model-fallback) on Fable models, Opus 5.5, Sonnet 5.5, and Opus 5 is also a model switch. When a safety classifier flags a request in a category that has a fallback model and Claude Code re-runs the request on that model, the session continues there.
 
-When a skill or command's frontmatter names a [`model`](/docs/en/skills#frontmatter-reference) other than the session's current model, that turn is also a model switch: the next request reads the entire conversation history with no cache hits. The session model resumes on your next prompt. A `context: fork` skill sets the [forked subagent's model](/docs/en/skills#run-skills-in-a-subagent) instead.
+#### Skills and commands that set a model
+
+When a skill or command's [`model` value applies](/docs/en/skills#frontmatter-reference) and differs from the session's current model, that turn is a model switch. The next request reads the entire conversation history with no cache hits. The session model resumes on your next prompt. With `context: fork`, the value goes to a [subagent](/docs/en/skills#run-skills-in-a-subagent) with [its own cache](#subagents-and-the-cache) instead.
 
 ### Changing effort level
 
@@ -237,7 +239,7 @@ Before v2.1.251, a mid-session style switch kept the cache but didn't apply unti
 
 ### Invoking skills and commands
 
-[Skills](/docs/en/skills) and [commands](/docs/en/commands) inject their instructions as user messages at the point of invocation. Nothing earlier in the conversation changes. A skill or command whose frontmatter names a `model` can be a [model switch](#switching-models) for that turn.
+[Skills](/docs/en/skills) and [commands](/docs/en/commands) inject their instructions as user messages at the point of invocation. Nothing earlier in the conversation changes. A skill or command whose [`model` value applies](/docs/en/skills#frontmatter-reference) can be a [model switch](#switching-models) for that turn.
 
 ### Running `/recap`
 

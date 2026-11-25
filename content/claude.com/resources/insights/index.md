@@ -8,6 +8,14 @@ Unsubscribe at any time.
 
 Research, trends, and analysis on how AI is reshaping the way organizations work, plan, and build.
 
+[ArticleNov 9, 2026
+
+### Claude can design electronic prototypes from start to finish
+
+We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.
+
+(opens in new tab)](https://www.anthropic.com/research/claude-electronics-design)
+
 [ArticleNov 6, 2026
 
 ### The components of agent memory
@@ -36,13 +44,13 @@ Claude Code
 
 (opens in new tab)](https://claude.dev/blog/what-a-task-costs-on-opus-5-5/)
 
-[ArticleSep 24, 2026
+[ArticleNov 13, 2026
 
-### Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.
+### Building strong safety evaluations
 
-Our latest Opus model is priced and trained to optimize costs for how developers code now.
+Recommendations for designing, running, and reporting safety evaluations, based on our own experiences.
 
-Claude CodeClaude Enterprise](https://claude.com/resources/articles/claude-opus-5-5-built-for-coding-sessions-that-use-more-context)
+(opens in new tab)](https://www.anthropic.com/research/building-strong-safety-evaluations)
 
 [ArticleNov 9, 2026
 
@@ -52,23 +60,19 @@ We asked Claude to design three electronic devices: a speakerphone, a voice-assi
 
 (opens in new tab)](https://www.anthropic.com/research/claude-electronics-design)
 
-[ArticleNov 6, 2026
-
-### The components of agent memory
-
-For Claude to learn from experience, it has to decide what's worth remembering before it knows what's next. Here's how "dreaming" helps it organize memory and correct mistakes.
-
-Claude Platform
-
-(opens in new tab)](https://www.anthropic.com/research/components-of-agent-memory)
-
-Featured resource 1 of 5: The components of agent memory
+Featured resource 1 of 5: Claude can design electronic prototypes from start to finish
 
 Advanced filters
 
-Showing 11 of 17 resources
+Showing 11 of 18 resources
 
-[ArticleNov 9, 2026
+[ArticleNov 13, 2026
+
+### Building strong safety evaluations
+
+Recommendations for designing, running, and reporting safety evaluations, based on our own experiences.
+
+(opens in new tab)](https://www.anthropic.com/research/building-strong-safety-evaluations)[ArticleNov 9, 2026
 
 ### Claude can design electronic prototypes from start to finish
 
@@ -130,12 +134,6 @@ Claude Cowork](https://claude.com/resources/articles/claude-for-the-legal-indust
 
 A practical deployment guide: Claude products, real-world financial services examples, and a phased rollout roadmap.
 
-Claude Enterprise](https://claude.com/resources/guides/claude-for-the-financial-industry)[ArticleMar 11, 2026
-
-### Advancing Claude for Excel and PowerPoint
-
-Claude for Excel and PowerPoint now share full context across open files, and skills make any workflow instantly repeatable.
-
-Claude Enterprise](https://claude.com/resources/articles/claude-excel-powerpoint-updates)
+Claude Enterprise](https://claude.com/resources/guides/claude-for-the-financial-industry)
 
 View more

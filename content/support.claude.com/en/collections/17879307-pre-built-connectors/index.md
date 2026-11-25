@@ -1,6 +1,6 @@
 # Pre-Built Connectors
 
-8 articles
+9 articles
 
 [Use Google Workspace connectors](https://support.claude.com/en/articles/10166901-use-google-workspace-connectors)
 
@@ -9,6 +9,8 @@
 [Connect to Microsoft 365](https://support.claude.com/en/articles/15183774-connect-to-microsoft-365)
 
 [Set up the Microsoft 365 connector](https://support.claude.com/en/articles/12542951-set-up-the-microsoft-365-connector)
+
+[Block files and email from Claude by sensitivity label](https://support.claude.com/en/articles/18549037-block-files-and-email-from-claude-by-sensitivity-label)
 
 [Microsoft 365 connector security guide](https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide)
 

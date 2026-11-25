@@ -1,34 +1,34 @@
 {
-  "actionable_missing_pages": 5,
+  "actionable_missing_pages": 2,
   "actionable_population_complete": false,
-  "archived_pages": 5780,
+  "archived_pages": 5802,
   "by_host": {
     "academy.claude.com": {
       "archived_pages": 893,
       "discovered_pages": 898
     },
     "claude.com": {
-      "archived_pages": 875,
-      "discovered_pages": 884
+      "archived_pages": 877,
+      "discovered_pages": 886
     },
     "code.claude.com": {
       "archived_pages": 272,
       "discovered_pages": 274
     },
     "platform.claude.com": {
-      "archived_pages": 2275,
-      "discovered_pages": 2310
+      "archived_pages": 2291,
+      "discovered_pages": 2322
     },
     "support.claude.com": {
-      "archived_pages": 802,
-      "discovered_pages": 836
+      "archived_pages": 806,
+      "discovered_pages": 841
     },
     "www.anthropic.com": {
       "archived_pages": 663,
       "discovered_pages": 675
     }
   },
-  "discovered_pages": 5877,
+  "discovered_pages": 5896,
   "exact_website_replica": false,
   "limitations": [
     "Discovery is the union of public indexes and hyperlinks, not proof that unlinked pages do not exist.",
@@ -84,8 +84,10 @@
     "https://claude.com/blog": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html",
     "https://claude.com/blog/": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html",
     "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code": "Request or redirect outside configured hosts",
+    "https://claude.com/blog/android-app": "HTTP 404: https://claude.com/blog/android-app",
     "https://claude.com/blog/beyond-permission-prompts-making-claude-code-more-secure-and-autonomous": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html",
     "https://claude.com/blog/build-responsive-web-layouts": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html",
+    "https://claude.com/blog/building-verification-loops-in-claude-code-with-skills": "HTTP 404: https://claude.com/blog/building-verification-loops-in-claude-code-with-skills",
     "https://claude.com/blog/category/agents": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html",
     "https://claude.com/blog/category/announcements": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html",
     "https://claude.com/blog/category/claude-code": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html",
@@ -637,7 +639,7 @@
     "https://www.anthropic.com/research/reward-tampering": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/riemann-zeta": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/sabotage-evaluations": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
-    "https://www.anthropic.com/research/self-replicating-ai": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/04-inference-setup-grid-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/07-end-to-end-replication-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/08-replication-with-setup-scripted-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/09-small-model-capability-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/13-memory-per-box-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/14-prefill-speed-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/15-decode-speed-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/16-context-window-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/17-tokens-per-memento-chain-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/19-device-population-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/20-spear-phishing-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/21-test-network-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/22-guidance-grid-light.html",
+    "https://www.anthropic.com/research/self-replicating-ai": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/04-inference-setup-grid-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/07-end-to-end-replication-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/08-replication-with-setup-scripted-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/09-small-model-capability-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/19-device-population-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/20-spear-phishing-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/21-test-network-light.html, https://assets.claude.ai/brand/artifacts/editorial/ai-worms-figures-blog/22-guidance-grid-light.html",
     "https://www.anthropic.com/research/shade-arena-sabotage-monitoring": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/small-samples-poison": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/smart-contracts": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
@@ -673,9 +675,9 @@
     "https://www.anthropic.com/transparency/voluntary-commitments": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/webinars": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   },
-  "missing_pages": 97,
+  "missing_pages": 94,
   "page_inventory_complete": false,
-  "pages_with_content_notes": 3913,
+  "pages_with_content_notes": 3934,
   "retained_partial_pages": 513,
   "terminal_pages": 92,
   "terminal_statuses": {

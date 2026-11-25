@@ -40,7 +40,7 @@ APSM
 
 A government tech leader shares how to securely modernize legacy systems with Claude, where to start, and how to stay in control.
 
-CCMC
+CTCCMC
 
 ·Upcoming·Dec 8·9:00 AM PT
 
@@ -100,7 +100,17 @@ RGBA
 
 ·Recording·Nov 5
 
- (opens in new tab)](https://claude.com/resources/webinars/the-state-of-cybersecurity)[Recording · Oct 22
+ (opens in new tab)](https://claude.com/resources/webinars/the-state-of-cybersecurity)[Recording · Nov 4
+
+### Unified Claude: What it means for admins 
+
+What changes for admins and security teams as Chat and Cowork merge into one Claude, including governance, security review, and rollout.
+
+DFMMAP
+
+·Recording·Nov 4
+
+ (opens in new tab)](https://claude.com/resources/webinars/unified-claude-what-it-means-for-admins)[Recording · Oct 22
 
 ### Claude Rearview Roadmap Review: October 2026 
 
@@ -130,12 +140,4 @@ DF
 
 ·Recording·Oct 20
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)[Recording · Oct 15
-
-### Claude Tag on-call: A new teammate in your incident channel 
-
-See how Claude Tag works as a teammate in your Slack incident channel, from reading logs to drafting fixes, with setup you can do yourself.
-
-·Recording·Oct 15
-
- (opens in new tab)](https://claude.com/resources/webinars/claude-tag-on-call-a-new-teammate-in-your-incident-channel)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-financial-advisors-cowork-security-qa)

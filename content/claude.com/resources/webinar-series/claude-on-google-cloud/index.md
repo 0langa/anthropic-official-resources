@@ -16,12 +16,8 @@ What each session covers
 - [On demandDeploying multi-agent systems using MCP and A2A with Claude on Vertex AI](https://claude.com/resources/webinars/deploying-multi-agent-systems-using-mcp-and-a2a-with-claude-on-vertex-ai)
 - [On demandBuilding with Advanced Agent Capabilities for Claude on Vertex AI](https://claude.com/resources/webinars/claude-on-vertex-ai)
 - [On demandShip Code Faster with Claude Code on Vertex AI(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/0e1d85b2-da2f-4607-a115-0e55b0a48d06)
-- [On demandShip Code Faster with Claude Code on Vertex AI(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/8ece3570-86d5-4165-bfbe-f9a221c7502d)
 - [On demandClaude on Google Cloud: Monitoring and Securing Agents at Scale(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/cb955779-9d60-44ff-bfec-f1574d711b5b)
-- [On demandClaude on Google Cloud: Monitoring and Securing Agents at Scale(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/4c49d05a-b396-4b06-a6e1-2abe077ec059)
 - [On demandHow to control costs and show ROI for Claude Code on Google Cloud(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/a4617e0d-1c9f-4009-81be-5576fe7b013d)
-- [On demandHow to control costs and show ROI for Claude Code on Google Cloud(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/4508fc6a-abed-4aab-b1e0-d5277d015d6e)
-- [On demandHow to control costs and show ROI for Claude Code on Google Cloud(opens in new tab)](https://anthropic.ondemand.goldcast.io/on-demand/235c7e08-cbdc-48f6-944b-af9bebfc80ac)
 
 Register now
 

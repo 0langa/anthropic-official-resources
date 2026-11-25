@@ -40,11 +40,13 @@ A research preview is available by waitlist today, starting with US Pro, Max, an
 
 ![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
-[ArticleNov 17, 2026
+[ArticleNov 24, 2026
 
-### Linked billing on the Claude Platform
+### Turn artifacts into Mac and Windows apps
 
-Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)
+Open the artifacts you use every day like any other app, and let them do more on your computer
+
+Claude apps](https://claude.com/resources/articles/install-as-app)
 
 [ArticleNov 10, 2026
 
@@ -58,9 +60,29 @@ Featured resource 1 of 5: Your apps can now open in Claude, and Claude can work 
 
 Advanced filters(1)
 
-Showing 12 of 157 resources
+Showing 12 of 161 resources
 
-[ArticleNov 17, 2026
+[ArticleNov 24, 2026
+
+### Turn artifacts into Mac and Windows apps
+
+Open the artifacts you use every day like any other app, and let them do more on your computer
+
+Claude apps](https://claude.com/resources/articles/install-as-app)[ArticleNov 24, 2026
+
+### MCP servers can now ship skills, run tasks, and more with Claude
+
+Claude appsClaude Platform](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more)[ArticleNov 23, 2026
+
+### Zero data retention with Enterprise Frontier Safeguards is now in beta
+
+Claude Platform](https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards)[ArticleNov 23, 2026
+
+### Introducing Claude Ship
+
+Open a pull request and get back to building. Claude can now review pull requests, fix them, and approve the ones that a team's policy allows.
+
+Claude Ship](https://claude.com/resources/articles/introducing-claude-ship)[ArticleNov 17, 2026
 
 ### Linked billing on the Claude Platform
 
@@ -104,22 +126,6 @@ Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the harde
 
 Claude appsClaude Code1 more: Claude PlatformClaude Platform
 
-(opens in new tab)](https://www.anthropic.com/claude-fable-and-mythos-5-2)[ArticleNov 5, 2026
-
-### Introducing Personal Finance in Claude
-
-Ask Claude about your money and get straight answers from the accounts you connect.](https://claude.com/resources/articles/introducing-personal-finance-in-claude)[ArticleNov 5, 2026
-
-### More visibility and control over Claude Enterprise for security teams
-
-Claude EnterpriseClaude apps](https://claude.com/resources/articles/claude-enterprise-security-updates)[ArticleNov 4, 2026
-
-### New agents and products for security, productivity, and creative work on Claude Marketplace](https://claude.com/resources/articles/new-agents-and-products-claude-marketplace)[ArticleNov 2, 2026
-
-### Make long-running agents faster with message threads
-
-New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.
-
-Claude Platform](https://claude.com/resources/articles/message-threads)
+(opens in new tab)](https://www.anthropic.com/claude-fable-and-mythos-5-2)
 
 View more

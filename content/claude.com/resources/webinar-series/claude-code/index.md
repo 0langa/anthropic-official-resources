@@ -38,7 +38,7 @@ Live briefings for technology and security leaders on what it takes to run Claud
 
 ### Guest Lecture Series: Leadership in Engineering
 
-Lessons on leading engineering teams, roadmap decisions, and career paths in the AI era.](https://claude.com/resources/webinar-series/guest-lecture-series-leadership-in-engineering)[Webinar series10 webinars
+Lessons on leading engineering teams, roadmap decisions, and career paths in the AI era.](https://claude.com/resources/webinar-series/guest-lecture-series-leadership-in-engineering)[Webinar series6 webinars
 
 ### Build faster with Claude on Google Cloud
 

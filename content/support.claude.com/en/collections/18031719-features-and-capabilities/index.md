@@ -1,10 +1,12 @@
 # Features and capabilities
 
-40 articles
+41 articles
 
 [What are artifacts and how do I use them?](https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them)
 
 [Share artifacts](https://support.claude.com/en/articles/9547008-share-artifacts)
+
+[Install an artifact as an app](https://support.claude.com/en/articles/18516354-install-an-artifact-as-an-app)
 
 [Get started with Claude Data](https://support.claude.com/en/articles/17454700-get-started-with-claude-data)
 

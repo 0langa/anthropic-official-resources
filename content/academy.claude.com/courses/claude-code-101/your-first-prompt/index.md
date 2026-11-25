@@ -24,8 +24,8 @@ things easier.
 
 You can choose how much oversight to keep while Claude works. Press `Shift + Tab` to cycle between modes.
 
-- **Manual mode:** Claude asks permission each time it wants to edit a file or run a command.
-- **Accept edits mode:** File edits and common filesystem commands like `mkdir`, `mv`, and `rm` are automatically approved, but other commands still require your permission.
+- **Manual mode:** Claude asks permission before it edits a file or runs a command, apart from a built-in set of read-only commands like `ls` and `git status`.
+- **Accept edits mode:** File edits and common filesystem commands like `mkdir`, `mv`, and `rm` are automatically approved, but other commands ask as they do in manual mode.
 - **Auto mode:** Claude works without routine permission prompts while a background safety check screens most actions; when something is blocked, Claude usually finds a safer approach or asks you for the go-ahead.
 
 There's no right or wrong answer — it's whatever you're comfortable with.
@@ -69,9 +69,11 @@ Was this helpful?
 
 # Your first prompt
 
+Correction: The video says Auto Accept mode asks before every command. It doesn't. The words in brackets, at 0:26, correct what the video says.
+
 You talk to Claude Code like you would talk to any AI assistant. When entering your prompt, here are some things that you can consider that can both protect and make things easier for you.
 
-You can choose whether Claude auto accepts every file change it suggests or require it to ask you for explicit permission each time. With Shift plus Tab, you can cycle between both modes. In Auto Accept mode, it will automatically approve an edit or creation of a file, but still ask your permission to run commands. There isn't a right or wrong way. It's just whatever you feel the most comfortable with.
+You can choose whether Claude auto accepts every file change it suggests or require it to ask you for explicit permission each time. With Shift plus Tab, you can cycle between both modes. In Auto Accept mode, it will automatically approve an edit or creation of a file, [and common filesystem commands like mkdir, mv, and rm. It still asks for other commands, apart from a built-in set of read-only ones like ls and git status]. There isn't a right or wrong way. It's just whatever you feel the most comfortable with.
 
 Within this shift tab menu is the plan mode. Plan mode takes your prompt and uses read-only tools to analyze your code base and do research on your suggested implementation. It will also ask you questions on items that it wants clarification on. It then returns to you a long detailed plan that it can execute on in more detail. Plan mode works great for planning complex changes or doing a safe code review. A lot of the time, you're asking Claude to do multi-step implementations towards a feature, and this is exactly what plan mode excels at.
 

@@ -17,11 +17,11 @@ Search AI agents`⌘K`
 - [ArticleNov 12, 2026
 
   ### Using Claude Opus 5.5 as your daily driver for knowledge work](https://claude.com/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work)
-- [Video1 min watch
+- [ArticleMay 27, 2026
 
-  ### Introducing Claude Fable 5.2
+  ### Zero Trust for AI agents
 
-  (opens in new tab)](https://www.youtube.com/watch?v=6a1QSJlsYpU)
+  Claude Security](https://claude.com/resources/articles/zero-trust-for-ai-agents)
 - [ArticleSep 23, 2026
 
   ### How to prepare for AI-driven code modernization projects
@@ -54,17 +54,23 @@ The latest news about Claude, including new products, features, and updates.
 
 [See more](https://claude.com/resources/product-updates)
 
-![Video thumbnail](https://i.ytimg.com/vi/YUYeHMsqbmY/maxresdefault.jpg)
+![Diagram of Claude Ship in three steps: Review with Code Review, Fix with PR Steward, and Approve with Claude Approvals, taking a pull request from findings to fixes to ready to merge.](https://assets.claude.com/661fd2a607b0192047ecec819716174113fd5443.gif)
 
 Article
 
-### Introducing Claude Meetings
+### Introducing Claude Ship
 
-Add Claude to your video call and get the work started while you talk
+Open a pull request and get back to building. Claude can now review pull requests, fix them, and approve the ones that a team's policy allows.
 
-[Learn more](https://claude.com/resources/articles/claude-meetings)
+[Learn more](https://claude.com/resources/articles/introducing-claude-ship)
 
-[ArticleNov 10, 2026
+[ArticleNov 24, 2026
+
+### Turn artifacts into Mac and Windows apps
+
+Open the artifacts you use every day like any other app, and let them do more on your computer
+
+Claude apps](https://claude.com/resources/articles/install-as-app)[ArticleNov 10, 2026
 
 ### Your apps can now open in Claude, and Claude can work in them
 
@@ -76,27 +82,22 @@ Claude appsMCP](https://claude.com/resources/articles/interactive-connectors-ful
 
 Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.
 
-Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)[ArticleNov 17, 2026
+Claude apps](https://claude.com/resources/articles/sheets-whiteboards-data)[ArticleNov 24, 2026
 
-### Linked billing on the Claude Platform
+### MCP servers can now ship skills, run tasks, and more with Claude
 
-Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)[ArticleNov 12, 2026
+Claude appsClaude Platform](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more)[ArticleNov 23, 2026
 
-### Operate Claude Managed Agents inside your security perimeter
+### Zero data retention with Enterprise Frontier Safeguards is now in beta
 
-Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
+Claude Platform](https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards)[Video4 min watch
 
-Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)[ArticleNov 12, 2026
+### Five brand new ways to use Claude at work
 
-### Introducing Claude for Manufacturing
+Claude's family of tools helps teams work at the speed of thought.
+Add Claude to your call with Claude Meetings, and ask it out loud to start a board in Claude Whiteboards while it takes notes. Afterward, ask for a spreadsheet in Claude Sheets or a dashboard in Claude Data. With interactive connectors, you work in the apps you already use without leaving Claude.
 
-A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)[ArticleNov 10, 2026
-
-### More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors
-
-Work at the speed of thought
-
-Claude apps](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)
+(opens in new tab)](https://www.youtube.com/watch?v=t2Zo3YAJdj4)
 
 ## Best practices
 
@@ -104,15 +105,15 @@ Proven workflows and practical guides to help your team get more out of Claude, 
 
 [See more](https://claude.com/resources/best-practices)
 
-![Figure comparing what a unit test failure and an end-to-end test failure show](https://assets.claude.com/36209043e95f027ee1462c987cee1bd903a6c59d.png?w=2400&q=75&fm=webp&fit=max)
+![Animated diagram of a request passing through external checks, a model inside an environment with a hard ceiling, and external checks on the way out.](https://assets.claude.com/81ca1073236829b885ca6f2ae029e643beaba415.gif)
 
 Article
 
-### How the Claude Code team thinks about verification
+### The enterprise guide to securing coding agents
 
-How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest.
+How security and technical leaders can understand and bound risk as they scale Claude Code
 
-[Learn more (opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)
+[Learn more](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)
 
 [WebinarOn demand
 
@@ -144,19 +145,21 @@ Recurring webinars
 - [Building your first workflow with CoworkWebinar](https://claude.com/resources/webinars/recurring-building-your-first-workflow-with-cowork)
 - [Claude Code: FoundationsWebinar](https://claude.com/resources/webinars/claude-code-foundations-series)
 
-[ArticleNov 13, 2026
+[ArticleNov 16, 2026
+
+### How the Claude Code team thinks about verification
+
+How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest.
+
+Claude Code
+
+(opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)[ArticleNov 13, 2026
 
 ### Building always-on agents
 
 Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
 
-Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
-
-### The Claude Tag guide for startups
-
-How leading startups use Claude Tag to ship faster and scale operations
-
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)
 
 ## Perspectives
 
@@ -164,36 +167,33 @@ Ideas and points of view on where AI is headed, from builders and leaders thinki
 
 [See more](https://claude.com/resources/perspectives)
 
-![how salesforce uses claude code](https://i.ytimg.com/vi/4ZsVR-6YOzs/maxresdefault.jpg)
+![A season on the farm with AI](https://assets.claude.com/4e4635972088eb639ddd42a17b2b7615cea643a8.jpg?w=2400&q=75&fm=webp&fit=max)
 
 Video
+
+### A season on the farm with AI
+
+Martina Wanis is a biologist from Vienna who grows sweet potatoes in Slovenia. This year, she took Claude along for the whole season.
+
+[ArticleNov 23, 2026
+
+### KPMG's Todd Lohr on AI when your data is also your clients' data
+
+Todd Lohr, KPMG US Vice Chair and Head of Client Technology & Innovation, on adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data.
+
+Claude Enterprise](https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data)[Video15 min watch
 
 ### How Salesforce uses Claude Code
 
 Engineering leaders from Salesforce explain how they measure AI coding ROI with an "effective output" score built with Stanford researchers, and how an agent maturity curve moved engineers from simple prompts to autonomous agents across the software development life cycle.
 
-[WebinarOn demand
+Claude Code
+
+(opens in new tab)](https://www.youtube.com/watch?v=4ZsVR-6YOzs)[WebinarOn demand
 
 ### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
 
-A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)[Video21 min watch
-
-### How Ramp engineers work with AI agents at every step
-
-Ramp runs AI agents across its entire engineering lifecycle: writing code, reviewing it, watching production, and root-causing incidents.
-Boris sat down with Austin Ray and Rahul Sengottuvelu of Ramp to talk about how they got there. Building for the models that are coming rather than the ones that exist, giving every engineer uncapped access to intelligence, and the guardrails that make it work. They compare notes on Claude Code setups, loops versus dynamic workflows, and what Claude Fable 5 unlocked.
-
-Claude Code
-
-(opens in new tab)](https://www.youtube.com/watch?v=i4odXOmgMLw)[Video10 min watch
-
-### How Factory is building autonomous software with Claude
-
-Factory is bringing autonomy to software engineering with Droids, AI coding agents that handle enterprise work. In this conversation, Co-founder and CEO Matan Grinberg sits down with Anthropic's Kai Gill to talk about his journey founding Factory, how Claude's frontier models handle long-horizon tasks across large codebases so teams can trust agent plans with less oversight, and what it will take to build a fully autonomous "dark factory" for software.
-
-Claude Platform
-
-(opens in new tab)](https://www.youtube.com/watch?v=N6FkmdL0Lg0)
+A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)
 
 ## Insights
 
@@ -201,15 +201,15 @@ Research, trends, and analysis on how AI is reshaping the way organizations work
 
 [See more](https://claude.com/resources/insights)
 
-![dreaming](https://assets.claude.com/7d86aef9d33347ad0ce448d81e5e6e90af2d7eaf.png?w=2400&q=75&fm=webp&fit=max)
+![Diagram titled Recommendations for building AI safety evals, with steps for safety first, design, run and report](https://assets.claude.com/a57e0aca61ff16e439ddf6d81b9421f4effdfcdc.png?w=2400&q=75&fm=webp&fit=max)
 
 Article
 
-### The components of agent memory
+### Building strong safety evaluations
 
-For Claude to learn from experience, it has to decide what's worth remembering before it knows what's next. Here's how "dreaming" helps it organize memory and correct mistakes.
+Recommendations for designing, running, and reporting safety evaluations, based on our own experiences.
 
-[Learn more (opens in new tab)](https://www.anthropic.com/research/components-of-agent-memory)
+[Learn more (opens in new tab)](https://www.anthropic.com/research/building-strong-safety-evaluations)
 
 Claude Academy
 
@@ -225,13 +225,15 @@ Claude Academy
 
 We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.
 
-(opens in new tab)](https://www.anthropic.com/research/claude-electronics-design)[ArticleOct 22, 2026
+(opens in new tab)](https://www.anthropic.com/research/claude-electronics-design)[ArticleNov 6, 2026
 
-### LLMs are making formal software verification feasible at a much larger scale
+### The components of agent memory
 
-We need ways to prove that code is free of bugs. Formal software verification could provide this guarantee.
+For Claude to learn from experience, it has to decide what's worth remembering before it knows what's next. Here's how "dreaming" helps it organize memory and correct mistakes.
 
-(opens in new tab)](https://www.anthropic.com/research/formal-verification)
+Claude Platform
+
+(opens in new tab)](https://www.anthropic.com/research/components-of-agent-memory)
 
 ## Enterprise announcements
 
@@ -265,7 +267,13 @@ News, announcements, and stories from Anthropic about Claude and the people buil
 
 [See more](https://claude.com/resources/articles)
 
-[ArticleNov 10, 2026
+[ArticleNov 24, 2026
+
+### Turn artifacts into Mac and Windows apps
+
+Open the artifacts you use every day like any other app, and let them do more on your computer
+
+Claude apps](https://claude.com/resources/articles/install-as-app)[ArticleNov 10, 2026
 
 ### Your apps can now open in Claude, and Claude can work in them
 
@@ -287,11 +295,7 @@ Claude Platform](https://claude.com/resources/articles/building-agents-when-to-f
 
 ### Introducing Claude Duet
 
-A research preview is available by waitlist today, starting with US Pro, Max, and Ultra subscribers.](https://claude.com/resources/articles/claude-duet)[ArticleNov 17, 2026
-
-### Linked billing on the Claude Platform
-
-Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)
+A research preview is available by waitlist today, starting with US Pro, Max, and Ultra subscribers.](https://claude.com/resources/articles/claude-duet)
 
 ## Guides
 
@@ -367,7 +371,20 @@ Watchable demos, talks, and tutorials from the teams building and using Claude.
 
 [See more](https://claude.com/resources/videos)
 
-[Video15 min watch
+[Video4 min watch
+
+### Five brand new ways to use Claude at work
+
+Claude's family of tools helps teams work at the speed of thought.
+Add Claude to your call with Claude Meetings, and ask it out loud to start a board in Claude Whiteboards while it takes notes. Afterward, ask for a spreadsheet in Claude Sheets or a dashboard in Claude Data. With interactive connectors, you work in the apps you already use without leaving Claude.
+
+(opens in new tab)](https://www.youtube.com/watch?v=t2Zo3YAJdj4)[Video3 min watch
+
+### A season on the farm with AI
+
+Martina Wanis is a biologist from Vienna who grows sweet potatoes in Slovenia. This year, she took Claude along for the whole season.
+
+(opens in new tab)](https://www.youtube.com/watch?v=RRj07Hc3ikU)[Video15 min watch
 
 ### How Salesforce uses Claude Code
 
@@ -392,18 +409,4 @@ Factory is bringing autonomy to software engineering with Droids, AI coding agen
 
 Claude Platform
 
-(opens in new tab)](https://www.youtube.com/watch?v=N6FkmdL0Lg0)[Video12 min watch
-
-### Inside Shopify's AI strategy with CTO Mikhail Parakhin
-
-In this conversation with Boris, Shopify's CTO explains why the real value of working with Claude is in building things that weren't possible before. He describes solving a problem he'd worked on for seven years, how Shopify built a digital twin of the company, and the unique barbell strategy he recommends for getting the most out of Claude.
-
-(opens in new tab)](https://www.youtube.com/watch?v=9GtcbnmldcY)[Video33 min watch
-
-### Building secure agents for knowledge work
-
-Katelyn Lesse sat down with Dan Shipper and Willie William at Every to talk about the AI coworker they built.
-
-Claude Platform
-
-(opens in new tab)](https://www.youtube.com/watch?v=z7cNbsr3b5s)
+(opens in new tab)](https://www.youtube.com/watch?v=N6FkmdL0Lg0)

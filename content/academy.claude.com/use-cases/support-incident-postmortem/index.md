@@ -362,7 +362,7 @@ In Cowork’s chat bar:Support / Incidents / INC-4417
 
 ### Copy this into Claude[](https://academy.claude.com/use-cases/support-incident-postmortem)
 
-Draft the customer-facing incident review for INC-4417. Pull the war-room thread, tickets from the impact window, deploys from the prior 24 hours, and direct customer quotes. Reconstruct the timeline, quantify how many customers were impacted and for how long, and write the first cut in our template with recommended remediation owners.
+Draft the customer-facing incident review for INC-4417. Pull the war-room thread, tickets from the impact window, deploys from the prior 24 hours, and direct customer quotes. Reconstruct the timeline, quantify how many customers were impacted and for how long, and write the first cut in our template with recommended remediation owners. Put the customer quotes and the suspect deploys in an internal appendix that I'll delete before sending.
 
 
 
@@ -390,7 +390,7 @@ Draft the customer-facing incident review for INC-4417. Pull the war-room thread
 
 Practice
 
-**Separate internal from external.** Add "write an internal appendix with the suspect deploys; keep the customer doc to impact and remediation" so one run produces both.
+**Delete the appendix before you send.** The customer quotes and suspect deploys are for your team only.
 
 Practice
 
@@ -418,7 +418,7 @@ Review the skill, and save it if Claude hasn't already.
 
 The customer doc should exist before the first CSM asks for it. Ask Claude to set up a scheduled task, or open **Scheduled** in the sidebar, and `/incident-review` runs each weekday on newly closed war rooms and writes the first cut.
 
-Set up a scheduled task for every weekday at 9am: check for any #inc- channel marked resolved in the last 24 hours, run /incident-review on it, and write the draft to Support/Incidents/<incident-id>/customer-review.md.
+Set up a scheduled task for every weekday at 9am: check for any #inc- channel marked resolved in the last 24 hours, run /incident-review on it, and write the draft to Support/Incidents/<incident-id>/customer-review.md. If that file already exists, leave it alone and tell me.
 
 
 
@@ -428,7 +428,7 @@ Set up a scheduled task for every weekday at 9am: check for any #inc- channel ma
 
 Customer incident-review draft
 
-Each weekday at 9am, finds war rooms resolved in the last 24h, runs `/incident-review` on each, and writes the customer-facing draft to the incident folder.
+Each weekday at 9am, finds war rooms resolved in the last 24h, runs `/incident-review` on each, and writes the customer-facing draft to the incident folder, unless one is already there.
 
 Every **weekdays at 9:00am**[Open in Claude](https://claude.ai/desktop/scheduled-task)
 

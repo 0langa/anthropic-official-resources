@@ -93,7 +93,11 @@ You can test your resources using the MCP Inspector. Run your server with:
 bash
 
 ```
+# If using uv (recommended)
 uv run mcp dev mcp_server.py
+
+# If using pip, without uv (activate your environment first)
+npx @modelcontextprotocol/inspector mcp run mcp_server.py
 ```
 
 Then connect to the inspector in your browser. You'll see:

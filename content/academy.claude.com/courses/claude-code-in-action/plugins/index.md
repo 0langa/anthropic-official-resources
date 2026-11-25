@@ -74,7 +74,7 @@ Once a plugin is installed, run `/plugin` and open it on the Installed tab. Ther
 
 Now the other side. Once you've built a `.claude` directory that works, don't make your team copy and paste it between machines. Package it instead.
 
-The good news is you don't have to rewrite anything. You copy the pieces of your `.claude` directory into the plugin's own folder:
+The good news is that most of it moves over unchanged. You copy the pieces of your `.claude` directory into the plugin's own folder:
 
 text
 
@@ -87,11 +87,15 @@ svg-splitter-review/
 └── .mcp.json
 ```
 
-Hooks are the one piece that leaves `settings.json`: copy the `hooks` object into `hooks/hooks.json`. Claude Code discovers the rest by convention. To try the plugin before you share it, start a session with its folder:
+Hooks are the one piece that leaves `settings.json`: copy the `hooks` object into `hooks/hooks.json`. Claude Code discovers the rest by convention.
+
+If a hook runs a script, copy the script into `hooks/` too. Then change the start of the hook's `command` path from `${CLAUDE_PROJECT_DIR}/.claude/hooks/` to `${CLAUDE_PLUGIN_ROOT}/hooks/`. With the old path, the hook fails wherever that script is missing, and the tool call goes ahead. To try the plugin before you share it, start a session with its folder:
 
 `claude --plugin-dir ./svg-splitter-review`
 
-Once it works, delete the originals from `.claude` and take the `hooks` object out of `settings.json`. Until you do, each hook runs twice.
+That flag loads the plugin for one session only. So once the plugin works, list it in your team's [marketplace(opens in new tab)](https://code.claude.com/docs/en/plugins/publish) and have everyone install it. Only then delete the originals from `.claude` and take the `hooks` object out of `settings.json`. Until you do, each hook runs twice.
+
+Cloud sessions don't load plugins you install yourself. So if your team uses them, keep a security hook and its script in the repo. Project threads and sessions with several repos skip repo hooks too.
 
 ## The manifest[](https://academy.claude.com/courses/claude-code-in-action/plugins)
 

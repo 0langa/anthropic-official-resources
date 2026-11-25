@@ -12,11 +12,11 @@ Loading
 
 ## 1. Describe the task[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
-Claude reads your bank statements and chart of accounts, then cross-references every transaction against the source documents.
+Claude reads your bank statements, ledger, and chart of accounts, then cross-references every transaction against the source documents.
 
 Focus your prompt on what you need back: a reconciliation report, correcting journal entries, or both. Claude handles the matching while you work on something else.
 
-I need to reconcile my January 2024 bank statement. I've uploaded my checking account statement export and my current chart of accounts.
+I need to reconcile my January 2024 bank statement. I've uploaded my checking account statement export, my January general ledger export, and my current chart of accounts.
 
 Can you analyze the transactions, match them to the right accounts, and flag anything that doesn't line up? If there are discrepancies, I'd love journal entries to fix them.
 
@@ -26,7 +26,7 @@ Can you analyze the transactions, match them to the right accounts, and flag any
 
 ## 2. Give Claude context[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
-If you give Claude a folder in the desktop app, it reaches your files while the app is open. Claude cross-references transactions across your bank statements and chart of accounts and identifies what's off.
+If you give Claude a folder in the desktop app, it reaches your files while the app is open. Claude cross-references transactions across your bank statements and ledger and identifies what's off.
 
 **What to expect:** After your initial prompt, Claude may ask you clarifying questions about your accounts, then list its steps and mark each one done as it works. Your answers help it reconcile more thoroughly and produce a more complete output. To review the approach first, ask Claude in your prompt to share its plan and wait for your OK.
 
@@ -39,7 +39,7 @@ To get started:
 
 ## 3. What Claude creates[](https://academy.claude.com/use-cases/reconcile-transactions-across-your-accounts)
 
-Claude analyzes both files, matches transactions to accounts, and surfaces exactly what needs fixing. The response shows the reconciliation logic, specific discrepancies found, and correctly-formatted journal entries ready for review.
+Claude analyzes the files, matches transactions to accounts, and surfaces exactly what needs fixing. The response shows the reconciliation logic, specific discrepancies found, and correctly-formatted journal entries ready for review.
 
 #### Bank Statement Summary
 
@@ -121,7 +121,7 @@ Start another task from the sidebar for other work while Claude reconciles. The 
 
 Give Claude your source files and let it do the cross-referencing. Review the matches, refine as needed, and export the result when you're ready.
 
-I need to reconcile my January 2024 bank statement. I've uploaded my checking account statement export and my current chart of accounts.
+I need to reconcile my January 2024 bank statement. I've uploaded my checking account statement export, my January general ledger export, and my current chart of accounts.
 
 Can you analyze the transactions, match them to the right accounts, and flag anything that doesn't line up? If there are discrepancies, I'd love journal entries to fix them.
 
