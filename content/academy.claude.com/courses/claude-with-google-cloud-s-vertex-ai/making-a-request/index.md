@@ -8,6 +8,10 @@ Sign in to save your progressYou can keep reading without an account, but comple
 
 Not now[Sign in](https://academy.claude.com/login?returnTo=%2Fcourses%2Fclaude-with-google-cloud-s-vertex-ai%2Fmaking-a-request)
 
+
+
+This course uses Claude Haiku 4.5, not the older Claude Sonnet 4, and the `anthropic` package below version 1. Copy the install command and model from the code blocks on this page. Installing `anthropic[vertex]` without `<1` gets a newer version, which breaks the code in "Temperature" and many later lessons.
+
 Embedded media: https://www.youtube-nocookie.com/embed/U3ws82x8eKk?enablejsapi=1&origin=https%3A%2F%2Facademy.claude.com&rel=0
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=U3ws82x8eKk)

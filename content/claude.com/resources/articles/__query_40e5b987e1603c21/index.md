@@ -40,13 +40,13 @@ A research preview is available by waitlist today, starting with US Pro, Max, an
 
 ![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
-[ArticleNov 23, 2026
+[ArticleNov 24, 2026
 
-### KPMG's Todd Lohr on AI when your data is also your clients' data
+### Turn artifacts into Mac and Windows apps
 
-Todd Lohr, KPMG US Vice Chair and Head of Client Technology & Innovation, on adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data.
+Open the artifacts you use every day like any other app, and let them do more on your computer
 
-Claude Enterprise](https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data)
+Claude apps](https://claude.com/resources/articles/install-as-app)
 
 [ArticleNov 10, 2026
 
@@ -60,9 +60,13 @@ Featured resource 1 of 5: Your apps can now open in Claude, and Claude can work 
 
 Advanced filters(1)
 
-Showing 12 of 103 resources
+Showing 12 of 104 resources
 
-[ArticleNov 17, 2026
+[ArticleNov 24, 2026
+
+### MCP servers can now ship skills, run tasks, and more with Claude
+
+Claude appsClaude Platform](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more)[ArticleNov 17, 2026
 
 ### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
 
@@ -136,12 +140,6 @@ Claude Platform
 
 See how Cresta built Conductor, an agent that builds other agents, on the Claude Agent SDK, and how the team evaluates it with every new Claude model.
 
-Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)[ArticleSep 30, 2026
-
-### How Anthropic's sales team rebuilt inbound with Claude Managed Agents
-
-Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.
-
-Claude Platform](https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents)
+Claude Platform](https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk)
 
 View more

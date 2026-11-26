@@ -4,7 +4,7 @@ Owners and Primary Owners can choose Microsoft Purview sensitivity labels to blo
 
 You connect your Microsoft Entra tenant to Claude, then pick labels from a list. You can connect one tenant to each Claude organization.
 
-Sensitivity label blocking is in beta for Enterprise plans. It's rolling out gradually, so it may not have reached you yet. Label blocking isn't available to organizations that have enabled HIPAA, to hybrid deployments, or in government and national clouds. It also isn't available to organizations with FERPA or zero data retention terms.
+Sensitivity label blocking is in beta for Enterprise plans. Label blocking isn't available to organizations that have enabled HIPAA, to hybrid deployments, or in government and national clouds. It also isn't available to organizations with FERPA or zero data retention terms.
 
 **Important:** When enabled, Claude is restricted from reaching files with specific Purview labels, even if the user has access to them normally. Not all files or surfaces are covered, so this setting shouldn't replace your organization's own access controls. See **[What label blocking doesn't cover](#h_5d523d6ae7)**.
 
@@ -37,6 +37,8 @@ The connector checks Word, Excel, and PowerPoint files, PDFs, and MP4 videos. Wh
 ### In Claude for Excel, PowerPoint, Word, and Outlook
 
 Claude doesn't work with an open document, email, or draft that has a blocked label, or whose label it can't check. The pane shows a message instead. If an add-in can't load your organization's list, Claude may read and work with content that has a blocked label until the list loads.
+
+For what each message means, how to check that it works, and what isn’t covered in the add-ins, see **[Block documents and email by sensitivity label](https://claude.com/docs/office-agents/sensitivity-labels)**.
 
 ## Before you start
 
@@ -108,7 +110,7 @@ When you choose labels, keep these rules in mind:
 
 - **You can block up to 48 labels in each tenant,** counted across every Claude organization that's connected to it.
 
-Changes to your label blocklist usually reach the Microsoft 365 connector within 30 minutes. People may need to reload or reopen an add-in.
+Changes to your label blocklist usually reach the Microsoft 365 connector within 30 minutes. People may need to reload or reopen an add-in. See **[Set up label blocking](https://claude.com/docs/office-agents/sensitivity-labels#set-up-label-blocking)**.
 
 Once a change takes effect, Claude can't open newly blocked content. Content Claude already read stays in existing chats.
 
@@ -117,6 +119,8 @@ Once a change takes effect, Claude can't open newly blocked content. Content Cla
 Use a OneDrive or SharePoint file with a blocked label that doesn't apply encryption, and an email with a blocked label sent from another account. Allow a few minutes after you label them, and 30 minutes after you change your list.
 
 Ask Claude to open the file and the email with the connector. Claude should respond with a message explaining that it can't show their content, or say that it can't find them.
+
+To check the add-ins, see **[Check that blocking works](https://claude.com/docs/office-agents/sensitivity-labels#check-that-blocking-works)**.
 
 ## Remove a label or disconnect
 
@@ -158,7 +162,7 @@ Claude compares your list with the label that Microsoft reports, or the label st
 
 - **Content Claude creates:** new files and emails.
 
-- **The add-ins**
+- **The add-ins:** see **[What is not covered](https://claude.com/docs/office-agents/sensitivity-labels#what-is-not-covered)**.
 
 **Labels that encrypt content:** add each one you want blocked to your list. Don't rely on the encryption alone to keep the content from Claude.
 

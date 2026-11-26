@@ -304,7 +304,7 @@ Tip
 
 AI agents are not deterministic, but a lot of highly regulated work requires processes to be done the same way every time. Claude Code has features that can help combine frontier intelligence with deterministic processes.
 
-[Hooks](https://code.claude.com/docs/en/hooks) are user-defined commands that fire at fixed points in Claude Code's lifecycle and can serve as hard gates. They execute every time regardless of what the model decides. For example they can be used to block a write that fails a lint, require a test pass before commit, or strip secrets before anything leaves the sandbox.
+[Hooks](https://code.claude.com/docs/en/hooks) are user-defined commands that fire at fixed points in Claude Code's lifecycle and can serve as hard gates. They execute every time regardless of what the model decides. For example they can be used to block a write that fails a lint, require a test pass before commit, or [strip secrets before anything leaves the sandbox](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents).
 
 [Dynamic workflows](https://code.claude.com/docs/en/workflows) orchestrate subagents with deterministic sequencing, separate context windows, and focused goals. `/goal` is helpful for long complex tasks where Claude may prematurely call the job done, prefer its own findings when reviewing, and drift from its original goals.
 
@@ -411,7 +411,19 @@ These insights come from your peers building at the frontier and we hope you fou
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
+
+### KPMG's Todd Lohr on AI when your data is also your clients' data
+
+Todd Lohr, KPMG US Vice Chair and Head of Client Technology & Innovation, on adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data.
+
+Claude Enterprise](https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data)[ArticleNov 23, 2026
+
+### The enterprise guide to securing coding agents
+
+How security and technical leaders can understand and bound risk as they scale Claude Code
+
+Claude Code](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)[ArticleNov 17, 2026
 
 ### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
 
@@ -427,19 +439,7 @@ How end-to-end, property and differential tests let coding agents verify their w
 
 Claude Code
 
-(opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)[ArticleNov 13, 2026
-
-### Building always-on agents
-
-Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
-
-Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
-
-### The Claude Tag guide for startups
-
-How leading startups use Claude Tag to ship faster and scale operations
-
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
+(opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)
 
 ## Transform how your organization operates with Claude
 

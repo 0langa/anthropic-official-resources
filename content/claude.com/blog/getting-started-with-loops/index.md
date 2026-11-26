@@ -103,7 +103,7 @@ Copy
 /loop 5m check my PR, address review comments, and fix failing CI
 ```
 
-`/loop` runs on your computer, so if you turn it off, it stops. You can move the loop to the cloud by creating a routine with `/schedule`.
+`/loop` runs on your computer, so if you turn it off, it stops. You can move the loop to the cloud by [creating a routine](https://claude.com/resources/articles/introducing-routines-in-claude-code) with `/schedule`.
 
 ## **Proactive loops**
 
@@ -173,7 +173,19 @@ For more information, read the Claude Code docs on [running agents in parallel,]
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
+
+### KPMG's Todd Lohr on AI when your data is also your clients' data
+
+Todd Lohr, KPMG US Vice Chair and Head of Client Technology & Innovation, on adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data.
+
+Claude Enterprise](https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data)[ArticleNov 23, 2026
+
+### The enterprise guide to securing coding agents
+
+How security and technical leaders can understand and bound risk as they scale Claude Code
+
+Claude Code](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)[ArticleNov 17, 2026
 
 ### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
 
@@ -189,19 +201,7 @@ How end-to-end, property and differential tests let coding agents verify their w
 
 Claude Code
 
-(opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)[ArticleNov 13, 2026
-
-### Building always-on agents
-
-Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
-
-Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
-
-### The Claude Tag guide for startups
-
-How leading startups use Claude Tag to ship faster and scale operations
-
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
+(opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)
 
 ## Transform how your organization operates with Claude
 

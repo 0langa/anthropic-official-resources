@@ -413,9 +413,6 @@
   "https://claude.com/blog/how-anthropic-uses-claude-marketing": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
-  "https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds": [
-    "Embedded media URLs preserved; video/audio binaries are not mirrored."
-  ],
   "https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
@@ -2489,6 +2486,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool?sdk_languages=http": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://platform.claude.com/docs/en/api/$shared": [
     "Native source; upstream MDX components retained."
   ],
   "https://platform.claude.com/docs/en/api/admin": [
@@ -10423,6 +10423,9 @@
   "https://support.claude.com/en/articles/18520573-manage-anthropic-email-updates-for-your-organization-members": [
     "Native source; upstream MDX components retained."
   ],
+  "https://support.claude.com/en/articles/18534325": [
+    "Native source; upstream MDX components retained."
+  ],
   "https://support.claude.com/en/articles/18534325-send-files-to-connected-apps-and-save-files-from-them": [
     "Native source; upstream MDX components retained."
   ],
@@ -11626,6 +11629,9 @@
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/measuring-model-persuasiveness": [
+    "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
+  ],
+  "https://www.anthropic.com/research/migrating-api-to-rust": [
     "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html"
   ],
   "https://www.anthropic.com/research/multi-agent-research-system": [

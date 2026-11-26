@@ -48,7 +48,7 @@ When you define a prompt function in your MCP server, any parameters become avai
 
 ## Testing the Implementation[](https://academy.claude.com/courses/claude-with-google-cloud-s-vertex-ai/prompts-in-the-client)
 
-Once implemented, you can test prompts through the CLI. When you type a forward slash, available prompts appear as commands. Selecting a prompt like "format" will prompt you to choose values for any required arguments (like selecting a document to format). The system then:
+Once implemented, you can test prompts through the CLI. When you type a forward slash, available prompts appear as commands. Highlight a prompt like "format" with the arrow keys, then press the space bar, not Enter, to list the documents. Enter crashes the app until you pick one, so highlight a document first and then press Enter. The system then:
 
 1. Retrieves the prompt with your arguments interpolated
 2. Sends the complete prompt to Claude

@@ -63,6 +63,8 @@ Here's the core function structure:
 python
 
 ```
+import json
+
 def generate_dataset():
     prompt = """
     Generate an evaluation dataset for a prompt evaluation. The dataset will be used to evaluate prompts 

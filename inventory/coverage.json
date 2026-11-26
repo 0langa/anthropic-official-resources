@@ -1,34 +1,34 @@
 {
-  "actionable_missing_pages": 2,
+  "actionable_missing_pages": 1,
   "actionable_population_complete": false,
-  "archived_pages": 5802,
+  "archived_pages": 5807,
   "by_host": {
     "academy.claude.com": {
       "archived_pages": 893,
       "discovered_pages": 898
     },
     "claude.com": {
-      "archived_pages": 877,
-      "discovered_pages": 886
+      "archived_pages": 879,
+      "discovered_pages": 888
     },
     "code.claude.com": {
       "archived_pages": 272,
       "discovered_pages": 274
     },
     "platform.claude.com": {
-      "archived_pages": 2291,
+      "archived_pages": 2292,
       "discovered_pages": 2322
     },
     "support.claude.com": {
-      "archived_pages": 806,
-      "discovered_pages": 841
+      "archived_pages": 807,
+      "discovered_pages": 842
     },
     "www.anthropic.com": {
-      "archived_pages": 663,
-      "discovered_pages": 675
+      "archived_pages": 664,
+      "discovered_pages": 676
     }
   },
-  "discovered_pages": 5896,
+  "discovered_pages": 5900,
   "exact_website_replica": false,
   "limitations": [
     "Discovery is the union of public indexes and hyperlinks, not proof that unlinked pages do not exist.",
@@ -611,6 +611,7 @@
     "https://www.anthropic.com/research/many-shot-jailbreaking": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/measuring-agent-autonomy": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/measuring-model-persuasiveness": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+    "https://www.anthropic.com/research/migrating-api-to-rust": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/multi-agent-research-system": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/multiagent-systems": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/research/mythos-preview": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
@@ -675,10 +676,10 @@
     "https://www.anthropic.com/transparency/voluntary-commitments": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/webinars": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   },
-  "missing_pages": 94,
+  "missing_pages": 93,
   "page_inventory_complete": false,
-  "pages_with_content_notes": 3934,
-  "retained_partial_pages": 513,
+  "pages_with_content_notes": 3936,
+  "retained_partial_pages": 514,
   "terminal_pages": 92,
   "terminal_statuses": {
     "blocked": 27,

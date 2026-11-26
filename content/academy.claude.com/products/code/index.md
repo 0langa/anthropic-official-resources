@@ -8,7 +8,7 @@ Build software with Claude. Plan, write, debug, and ship wherever you code.
 
 Use Claude Code on your codebase, so tasks that took an afternoon can fit in one session.
 
-·Course·12 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-code-101)
+·Course·12 lessons · 1 quiz·1.5 hr](https://academy.claude.com/courses/claude-code-101)
 
 [### Your first day 
 

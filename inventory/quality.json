@@ -456,6 +456,7 @@
     "https://www.anthropic.com/research/many-shot-jailbreaking",
     "https://www.anthropic.com/research/measuring-agent-autonomy",
     "https://www.anthropic.com/research/measuring-model-persuasiveness",
+    "https://www.anthropic.com/research/migrating-api-to-rust",
     "https://www.anthropic.com/research/multi-agent-research-system",
     "https://www.anthropic.com/research/multiagent-systems",
     "https://www.anthropic.com/research/mythos-preview",
@@ -520,10 +521,10 @@
   ],
   "statuses": {
     "blocked": 27,
-    "complete": 5258,
+    "complete": 5262,
     "gone": 52,
     "out_of_scope": 44,
-    "partial": 513
+    "partial": 514
   },
   "terminal_unarchived_urls": [
     "https://academy.claude.com/courses/tool-use-with-the-messages-api/**call.input",
@@ -1193,6 +1194,7 @@
     "https://www.anthropic.com/research/many-shot-jailbreaking",
     "https://www.anthropic.com/research/measuring-agent-autonomy",
     "https://www.anthropic.com/research/measuring-model-persuasiveness",
+    "https://www.anthropic.com/research/migrating-api-to-rust",
     "https://www.anthropic.com/research/multi-agent-research-system",
     "https://www.anthropic.com/research/multiagent-systems",
     "https://www.anthropic.com/research/mythos-preview",

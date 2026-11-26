@@ -32,6 +32,16 @@ There are several overarching strategies we’ve deployed to accomplish this wit
 
 In this article, we’ll cover the security processes we have implemented at specific stages of the software development lifecycle as well as the core principles behind them. These principles are more enduring as security teams must reexamine, and often reinvent, their processes as model capabilities evolve.
 
+Companion guide
+
+### How this article fits with the enterprise guide to securing coding agents
+
+This article has a companion. [The enterprise guide to securing coding agents](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents) covers the controls any organization can deploy with Claude Code, from permission rules and hooks to sandboxing and managed settings. This article covers how Anthropic’s own security team secures each stage of its software development lifecycle.
+
+Read this article to see how we secure an AI-native SDLC. Read the guide to decide what coding agents are allowed to do in yours.
+
+[Read the guide to securing coding agents](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)
+
 ## **The evolving software development lifecycle**
 
 ![](https://assets.claude.com/8a4767e652bdda6c9680055b306c14d2b7b765ad.png)
@@ -151,7 +161,7 @@ When an alert fires at Anthropic, Claude starts:
 
 What this agent can’t do is deploy the fix automatically. It’s a single-purpose system account agent with three permissions: it can write new docs, post in company channels, and access production logs.
 
-The fix needs to come from a separate agent-human reviewer system. The reason for this comes back to managing identity, permissions, and hard boundaries: it’s important to contain the blast radius when pushing code into production. Separating agents is critical as one (or multiple) agents act as checks on the other.
+The fix needs to come from a separate agent-human reviewer system. The reason for this comes back to [managing identity, permissions, and hard boundaries](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents): it’s important to contain the blast radius when pushing code into production. Separating agents is critical as one (or multiple) agents act as checks on the other.
 
 ![](https://assets.claude.com/75a8858b23bfc4815039eb395150b5c9ca6639b8.png)
 
@@ -193,7 +203,19 @@ What doesn’t quite work today or isn’t quite economically feasible likely wi
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
+
+### KPMG's Todd Lohr on AI when your data is also your clients' data
+
+Todd Lohr, KPMG US Vice Chair and Head of Client Technology & Innovation, on adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data.
+
+Claude Enterprise](https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data)[ArticleNov 23, 2026
+
+### The enterprise guide to securing coding agents
+
+How security and technical leaders can understand and bound risk as they scale Claude Code
+
+Claude Code](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)[ArticleNov 17, 2026
 
 ### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
 
@@ -209,19 +231,7 @@ How end-to-end, property and differential tests let coding agents verify their w
 
 Claude Code
 
-(opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)[ArticleNov 13, 2026
-
-### Building always-on agents
-
-Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
-
-Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
-
-### The Claude Tag guide for startups
-
-How leading startups use Claude Tag to ship faster and scale operations
-
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
+(opens in new tab)](https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/)
 
 ## Transform how your organization operates with Claude
 

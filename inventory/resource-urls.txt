@@ -1730,6 +1730,7 @@ https://claude.com/resources/webinars/deloitte-code-modernization
 https://claude.com/resources/webinars/deploying-cowork-across-the-enterprise-with-paypal
 https://claude.com/resources/webinars/deploying-multi-agent-systems-using-mcp-and-a2a-with-claude-on-vertex-ai
 https://claude.com/resources/webinars/dri-ing-your-career
+https://claude.com/resources/webinars/engineers-agents-and-black-friday-what-shopify-learned-at-peak
 https://claude.com/resources/webinars/enterprise-readiness-a-cisos-guide-to-deploying-claude
 https://claude.com/resources/webinars/enterprise-transformation-with-claude-on-aws-paths-to-production-apac-rebroadcast
 https://claude.com/resources/webinars/enterprise-transformation-with-claude-on-aws-paths-to-production-emea-rebroadcast
@@ -1739,6 +1740,7 @@ https://claude.com/resources/webinars/future-of-ai-at-work-introducing-cowork
 https://claude.com/resources/webinars/future-of-ai-coding-mcp-vs-code
 https://claude.com/resources/webinars/getting-started-with-claude-design
 https://claude.com/resources/webinars/how-anthropic-and-asana-transform-work-at-scale-with-ai-agents
+https://claude.com/resources/webinars/how-anthropic-secures-its-agents
 https://claude.com/resources/webinars/how-anthropic-works-with-claude-tag-in-slack
 https://claude.com/resources/webinars/how-anthropics-marketing-team-uses-claude-cowork
 https://claude.com/resources/webinars/how-anthropics-sales-leader-runs-his-week-with-claude
@@ -4956,6 +4958,7 @@ https://support.claude.com/en/articles/17458093
 https://support.claude.com/en/articles/17458093-claude-docs-keyboard-shortcuts
 https://support.claude.com/en/articles/17506494
 https://support.claude.com/en/articles/17506494-claude-fable-5-2-launch-offers
+https://support.claude.com/en/articles/17603594-free-claude-ship-promotional-credits-for-claude-enterprise
 https://support.claude.com/en/articles/17603594-free-code-review-promotional-credits-for-claude-enterprise
 https://support.claude.com/en/articles/17631495
 https://support.claude.com/en/articles/17631495-get-started-with-claude-duet
@@ -5777,6 +5780,7 @@ https://www.anthropic.com/research/measuring-agent-autonomy
 https://www.anthropic.com/research/measuring-faithfulness-in-chain-of-thought-reasoning
 https://www.anthropic.com/research/measuring-model-persuasiveness
 https://www.anthropic.com/research/measuring-progress-on-scalable-oversight-for-large-language-models
+https://www.anthropic.com/research/migrating-api-to-rust
 https://www.anthropic.com/research/multi-agent-research-system
 https://www.anthropic.com/research/multiagent-systems
 https://www.anthropic.com/research/mythos-preview

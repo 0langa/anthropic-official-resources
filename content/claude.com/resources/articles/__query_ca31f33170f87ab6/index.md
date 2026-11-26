@@ -40,13 +40,13 @@ A research preview is available by waitlist today, starting with US Pro, Max, an
 
 ![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
-[ArticleNov 23, 2026
+[ArticleNov 24, 2026
 
-### KPMG's Todd Lohr on AI when your data is also your clients' data
+### Turn artifacts into Mac and Windows apps
 
-Todd Lohr, KPMG US Vice Chair and Head of Client Technology & Innovation, on adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data.
+Open the artifacts you use every day like any other app, and let them do more on your computer
 
-Claude Enterprise](https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data)
+Claude apps](https://claude.com/resources/articles/install-as-app)
 
 [ArticleNov 10, 2026
 
@@ -60,7 +60,7 @@ Featured resource 1 of 5: Your apps can now open in Claude, and Claude can work 
 
 Advanced filters(1)
 
-Showing 12 of 48 resources
+Showing 12 of 49 resources
 
 [ArticleNov 23, 2026
 

@@ -34,7 +34,7 @@ You can also use Claude Code on mobile. As part of this research preview, we’r
 
 ## Security-first cloud execution
 
-Every Claude Code task runs in an isolated sandbox environment with network and filesystem restrictions. Git interactions are handled through a secure proxy service that ensures Claude can only access authorized repositories—helping keep your code and credentials protected throughout the entire workflow.
+Every Claude Code task runs in an [isolated sandbox environment with network and filesystem restrictions](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents). Git interactions are handled through a secure proxy service that ensures Claude can only access authorized repositories—helping keep your code and credentials protected throughout the entire workflow.
 
 You can also add custom network configuration to choose what domains Claude Code can connect to from its sandbox. For example, you can allow Claude to download npm packages over the internet so that it can run tests and validate changes.
 
@@ -50,25 +50,27 @@ Cloud-based sessions share rate limits with all other Claude Code usage. [Explor
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 24, 2026
 
-### Linked billing on the Claude Platform
+### Turn artifacts into Mac and Windows apps
 
-Claude Platform](https://claude.com/resources/articles/linked-billing-on-claude-platform)[ArticleNov 12, 2026
+Open the artifacts you use every day like any other app, and let them do more on your computer
 
-### Operate Claude Managed Agents inside your security perimeter
+Claude apps](https://claude.com/resources/articles/install-as-app)[ArticleNov 24, 2026
 
-Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
+### MCP servers can now ship skills, run tasks, and more with Claude
 
-Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)[ArticleNov 12, 2026
+Claude appsClaude Platform](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more)[ArticleNov 23, 2026
 
-### Introducing Claude for Manufacturing
+### Zero data retention with Enterprise Frontier Safeguards is now in beta
 
-A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.](https://claude.com/resources/articles/claude-for-manufacturing)[ArticleNov 12, 2026
+Claude Platform](https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards)[ArticleNov 23, 2026
 
-### Introducing Claude Meetings
+### Introducing Claude Ship
 
-Add Claude to your video call and get the work started while you talk](https://claude.com/resources/articles/claude-meetings)
+Open a pull request and get back to building. Claude can now review pull requests, fix them, and approve the ones that a team's policy allows.
+
+Claude Ship](https://claude.com/resources/articles/introducing-claude-ship)
 
 ## Transform how your organization operates with Claude
 

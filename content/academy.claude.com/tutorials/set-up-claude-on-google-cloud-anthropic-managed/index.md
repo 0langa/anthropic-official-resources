@@ -92,7 +92,7 @@ Each developer who calls Claude does these steps in their own terminal, in order
 
 One request from Python shows that the whole setup works. Stay in the terminal where you set the two variables.
 
-1. **Install the SDK with its Google Cloud extra.** The SDK client for this service is in beta.
+1. **Install the SDK with its Google Cloud extra.**
 
    bash
 

@@ -10,37 +10,37 @@ Build your skills with written guides and video lessons, from quick tasks to com
 
 ### Getting started with Claude
 
-·5 min](https://academy.claude.com/tutorials/getting-started-with-claude)
+·5 min](https://academy.claude.com/tutorials/getting-started-with-claude)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-ofwck6bq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-09in3lr8.png)
 
 ### Intro to Projects
 
-·7 min](https://academy.claude.com/tutorials/intro-to-projects)
+·7 min](https://academy.claude.com/tutorials/intro-to-projects)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-lala3ba3.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-d7ynyke1.png)
 
 ### Choosing a Claude model for knowledge workers
 
-·7 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)
+·7 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-dhh4ob67.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-zr9ufl29.png)
 
 ### Getting started with connectors
 
-·4 min](https://academy.claude.com/tutorials/getting-started-with-connectors)
+·4 min](https://academy.claude.com/tutorials/getting-started-with-connectors)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-oo54igq8.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dj768tsz.png)
 
 ### Teach Claude your way of working using skills
 
-·10 min](https://academy.claude.com/tutorials/teach-claude-your-way-of-working-using-skills)
+·10 min](https://academy.claude.com/tutorials/teach-claude-your-way-of-working-using-skills)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-oi1gl21n.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nqg67vsk.png)
 
 ### Build and share tools in Claude with custom artifacts
 
-·9 min](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)
+·9 min](https://academy.claude.com/tutorials/build-custom-artifacts-with-claude)
 
 ## Claude Cowork
 
@@ -50,37 +50,37 @@ Build your skills with written guides and video lessons, from quick tasks to com
 
 ### Get started in Claude Cowork in three steps
 
-·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)
+·4 min](https://academy.claude.com/tutorials/get-started-in-claude-cowork-in-three-steps)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-8vlsk4u2.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-mc3bn43s.png)
 
 ### Delegating your first task in Claude Cowork
 
-·4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)
+·4 min](https://academy.claude.com/tutorials/delegating-your-first-task-in-claude-cowork)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-elo1j6u1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bl2sp83f.png)
 
 ### Customize Claude
 
-·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
+·7 min](https://academy.claude.com/tutorials/customize-claude-cowork)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-m7h6cx31.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bp8m6m89.png)
 
 ### Choosing between Claude Cowork or Chat
 
-·5 min](https://academy.claude.com/tutorials/choosing-between-claude-cowork-or-chat)
+·5 min](https://academy.claude.com/tutorials/choosing-between-claude-cowork-or-chat)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-g4p7r6v4.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-k4i3k0hw.png)
 
 ### Delegating and scheduling tasks in Claude Cowork
 
-·4 min](https://academy.claude.com/tutorials/delegating-and-scheduling-tasks-in-claude-cowork)
+·4 min](https://academy.claude.com/tutorials/delegating-and-scheduling-tasks-in-claude-cowork)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-gsf1x23c.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-eb5bteog.png)
 
 ### How to customize plugins in Claude
 
-·6 min](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork)
+·6 min](https://academy.claude.com/tutorials/how-to-customize-plugins-in-cowork)
 
 ## Claude Code
 
@@ -90,71 +90,71 @@ Build your skills with written guides and video lessons, from quick tasks to com
 
 ### What are skills?
 
-·3 min](https://academy.claude.com/tutorials/what-are-skills)
+·3 min](https://academy.claude.com/tutorials/what-are-skills)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-os6jojba.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-o6rqr00h.png)
 
 ### Creating your first skill
 
-·4 min](https://academy.claude.com/tutorials/creating-your-first-skill)
+·4 min](https://academy.claude.com/tutorials/creating-your-first-skill)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-ctra72zy.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ktlv28wr.png)
 
 ### Configuration and multi-file skills
 
-·4 min](https://academy.claude.com/tutorials/configuration-and-multi-file-skills)
+·4 min](https://academy.claude.com/tutorials/configuration-and-multi-file-skills)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-ivqu4vft.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-j4y0w23v.png)
 
 ### Sharing skills
 
-·4 min](https://academy.claude.com/tutorials/sharing-skills)
+·4 min](https://academy.claude.com/tutorials/sharing-skills)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-k7saeu8d.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jqgq95g9.png)
 
 ### Troubleshooting skills
 
-·4 min](https://academy.claude.com/tutorials/troubleshooting-skills)
+·4 min](https://academy.claude.com/tutorials/troubleshooting-skills)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.dark-oiww3nbb.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-oiww3nbb.png)
 
 ### Using Claude Code Remote Control
 
-·3 min](https://academy.claude.com/tutorials/using-claude-code-remote-control)
+·3 min](https://academy.claude.com/tutorials/using-claude-code-remote-control)
 
 ## Claude Platform
 
 [### One request, a workflow, or an agent
 
-·10 min](https://academy.claude.com/tutorials/one-request-a-workflow-or-an-agent)
+·10 min](https://academy.claude.com/tutorials/one-request-a-workflow-or-an-agent)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.dark-h18unnjf.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-h18unnjf.png)
 
 ### Set up Claude in Amazon Bedrock
 
-·25 min](https://academy.claude.com/tutorials/set-up-claude-in-amazon-bedrock)
+·25 min](https://academy.claude.com/tutorials/set-up-claude-in-amazon-bedrock)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.dark-c7j6fik2.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-c7j6fik2.png)
 
 ### Set up Claude on Google Cloud (Anthropic managed)
 
-·30 min](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-anthropic-managed)
+·30 min](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-anthropic-managed)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.dark-kjpsqj14.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kjpsqj14.png)
 
 ### Set up Claude on Google Cloud (Google managed)
 
-·20 min](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-google-managed)
+·20 min](https://academy.claude.com/tutorials/set-up-claude-on-google-cloud-google-managed)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.dark-o4itmdcn.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-o4itmdcn.png)
 
 ### What is Claude Managed Agents?
 
-·4 min](https://academy.claude.com/tutorials/what-is-claude-managed-agents)
+·4 min](https://academy.claude.com/tutorials/what-is-claude-managed-agents)
 
 [### Write a prompt your app can ship
 
-·10 min](https://academy.claude.com/tutorials/write-a-prompt-your-app-can-ship)
+·10 min](https://academy.claude.com/tutorials/write-a-prompt-your-app-can-ship)
 
 ## How AI works
 
@@ -164,37 +164,37 @@ Build your skills with written guides and video lessons, from quick tasks to com
 
 ### What happens when you talk to AI?
 
-·5 min](https://academy.claude.com/tutorials/what-happens-when-you-talk-to-ai)
+·5 min](https://academy.claude.com/tutorials/what-happens-when-you-talk-to-ai)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-b4ynrsvg.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ngbl1ah4.png)
 
 ### Can you trust what AI tells you?
 
-·5 min](https://academy.claude.com/tutorials/can-you-trust-what-ai-tells-you)
+·5 min](https://academy.claude.com/tutorials/can-you-trust-what-ai-tells-you)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-kx6glduy.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-iixfibz5.png)
 
 ### What does AI know about me?
 
-·5 min](https://academy.claude.com/tutorials/what-does-ai-know-about-me)
+·5 min](https://academy.claude.com/tutorials/what-does-ai-know-about-me)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-hbwc6qac.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gxfjrbde.png)
 
 ### How context affects Claude's performance and cost
 
-·20 min](https://academy.claude.com/tutorials/parametric-memory-and-context)
+·20 min](https://academy.claude.com/tutorials/parametric-memory-and-context)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-o6cqv60g.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dzby7rgv.png)
 
 ### Tokens: why some inputs cost more than others
 
-·15 min](https://academy.claude.com/tutorials/tokens-and-embeddings)
+·15 min](https://academy.claude.com/tutorials/tokens-and-embeddings)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-cnu2p8qc.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dhnab57m.png)
 
 ### What is sycophancy in AI models?
 
-·6 min](https://academy.claude.com/tutorials/what-is-sycophancy-in-ai-models)
+·6 min](https://academy.claude.com/tutorials/what-is-sycophancy-in-ai-models)
 
 ## Collaborating with AI
 
@@ -204,37 +204,37 @@ Build your skills with written guides and video lessons, from quick tasks to com
 
 ### The 4 Ds of AI Fluency — Behavioral Indicators
 
-·5 min](https://academy.claude.com/tutorials/the-4-ds-of-ai-fluency-behavioral-indicators)
+·5 min](https://academy.claude.com/tutorials/the-4-ds-of-ai-fluency-behavioral-indicators)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-mgzhysjk.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jvn9chjj.png)
 
 ### Writing an AI diligence statement
 
-·15 min](https://academy.claude.com/tutorials/writing-an-ai-diligence-statement)
+·15 min](https://academy.claude.com/tutorials/writing-an-ai-diligence-statement)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-blskv34c.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-bv9w6wt2.png)
 
 ### A discussion guide for the AI Fluency Index
 
-·10 min](https://academy.claude.com/tutorials/a-discussion-guide-for-the-ai-fluency-index)
+·10 min](https://academy.claude.com/tutorials/a-discussion-guide-for-the-ai-fluency-index)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-cu6wjiio.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-omuj02iu.png)
 
 ### Anthropic Education Report: How people check Claude's work
 
-·10 min](https://academy.claude.com/tutorials/discernment-toolkit)
+·10 min](https://academy.claude.com/tutorials/discernment-toolkit)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-cq67r4kj.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-d9qi1x8j.png)
 
 ### Anthropic Education Report: The AI Fluency Index
 
-·10 min](https://academy.claude.com/tutorials/the-ai-fluency-index)
+·10 min](https://academy.claude.com/tutorials/the-ai-fluency-index)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-fibnfxv4.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ov8b09q9.png)
 
 ### Getting good at Claude: A research-backed curriculum
 
-·6 min](https://academy.claude.com/tutorials/getting-good-at-claude-a-research-backed-curriculum)
+·6 min](https://academy.claude.com/tutorials/getting-good-at-claude-a-research-backed-curriculum)
 
 ## More ways to use Claude
 
@@ -244,34 +244,34 @@ Build your skills with written guides and video lessons, from quick tasks to com
 
 ### Getting started with Claude in Excel
 
-·Claude for Excel·7 min](https://academy.claude.com/tutorials/getting-started-with-claude-in-excel)
+·Claude for Excel·7 min](https://academy.claude.com/tutorials/getting-started-with-claude-in-excel)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-hwgnqzc8.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-i04sxjy4.png)
 
 ### Building a PowerPoint with Claude
 
-·Claude for PowerPoint·4 min](https://academy.claude.com/tutorials/building-a-powerpoint-with-claude)
+·Claude for PowerPoint·4 min](https://academy.claude.com/tutorials/building-a-powerpoint-with-claude)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.dark-b49emwd1.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-b49emwd1.png)
 
 ### Simplify your browsing experience with Claude in Chrome
 
-·Claude in Chrome·15 min](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
+·Claude in Chrome·15 min](https://academy.claude.com/tutorials/simplify-your-browsing-experience-with-claude-for-chrome)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.dark-cdigm2ac.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cdigm2ac.png)
 
 ### Best practices for using Claude Tag
 
-·Claude Tag·10 min](https://academy.claude.com/tutorials/best-practices-using-claude-tag)
+·Claude Tag·10 min](https://academy.claude.com/tutorials/best-practices-using-claude-tag)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-h7021hye.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ibapsq93.png)
 
 ### Making slides and presentations with Claude
 
-·Claude Design·10 min](https://academy.claude.com/tutorials/using-claude-design-for-presentations-and-slide-decks)
+·Claude Design·10 min](https://academy.claude.com/tutorials/using-claude-design-for-presentations-and-slide-decks)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-ec0g8s4j.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-niae113s.png)
 
 ### Getting started with Claude Security
 
-·Claude Security·8 min](https://academy.claude.com/tutorials/getting-started-with-claude-security)
+·Claude Security·8 min](https://academy.claude.com/tutorials/getting-started-with-claude-security)

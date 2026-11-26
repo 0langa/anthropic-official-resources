@@ -90,6 +90,7 @@ python
 
 ```
 if thinking:
+    params["max_tokens"] = thinking_budget + 3000
     params["thinking"] = {
         "type": "enabled",
         "budget_tokens": thinking_budget

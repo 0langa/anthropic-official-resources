@@ -573,6 +573,7 @@
   "https://www.anthropic.com/research/many-shot-jailbreaking": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/research/measuring-agent-autonomy": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/research/measuring-model-persuasiveness": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
+  "https://www.anthropic.com/research/migrating-api-to-rust": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/research/multi-agent-research-system": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/research/multiagent-systems": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
   "https://www.anthropic.com/research/mythos-preview": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",

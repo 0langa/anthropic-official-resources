@@ -27,7 +27,7 @@ When you enable extended thinking, Claude's response includes two parts instead 
 
 ![With thinking, our server sends "Write a short guide on recursion" and Claude returns reasoning then the final text.](https://academy.claude.com/assets/media/7737b60029d867e83be1ad7abaea1c521cfb6cedbbad66a74b5560b6aed71a0e.png)
 
-The reasoning content shows you exactly how Claude breaks down your problem, what it considers, and how it arrives at its final answer. This transparency can be incredibly valuable for understanding and debugging complex tasks.
+The reasoning content gives you a summary of how Claude breaks down your problem, what it considers, and how it arrives at its final answer. This transparency can be incredibly valuable for understanding and debugging complex tasks.
 
 ## Trade-offs to Consider[](https://academy.claude.com/courses/claude-with-amazon-bedrock/extended-thinking)
 
@@ -105,6 +105,21 @@ def chat(
 ):
 ```
 
+Bedrock reads the thinking setting from `additionalModelRequestFields`. Add this block inside the function, just before the `client.converse` call:
+
+python
+
+```
+if thinking:
+    additional_model_fields = params.setdefault("additionalModelRequestFields", {})
+    additional_model_fields["thinking"] = {
+        "type": "enabled",
+        "budget_tokens": thinking_budget
+    }
+```
+
+With thinking on, the first part is the reasoning, not the text. So if your function still has the line `text = response["output"]["message"]["content"][0]["text"]`, delete it. Then call `chat(messages, thinking=True)` and print the `parts` it returns to see the reasoning.
+
 ## Testing Your Implementation[](https://academy.claude.com/courses/claude-with-amazon-bedrock/extended-thinking)
 
 When building applications that handle extended thinking, you'll want to test both normal reasoning content and redacted content scenarios. There's actually a special test string that forces Claude to return redacted content - useful for making sure your code handles both cases properly.
@@ -113,7 +128,7 @@ The most important takeaway about extended thinking is that the decision to use 
 
 ## Practice: run adaptive thinking yourself[](https://academy.claude.com/courses/claude-with-amazon-bedrock/extended-thinking)
 
-Adaptive thinking is easiest to understand by watching it make decisions. In the code where you have been building the chat function, turn it on:
+Adaptive thinking is easiest to understand by watching it make decisions. Claude Haiku 4.5, the model this course uses, doesn't support it, so on Haiku keep the manual budget. On a model that supports it, replace the manual setting inside `if thinking:` in your chat function with this one:
 
 python
 

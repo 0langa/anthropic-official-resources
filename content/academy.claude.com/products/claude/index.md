@@ -117,7 +117,7 @@ Work through how to teach a concept with Claude sketching alongside. The visual 
 
 A government tech leader shares how to securely modernize legacy systems with Claude, where to start, and how to stay in control.
 
-CCMC
+CTCCMC
 
 ·Upcoming·Dec 8·9:00 AM PT
 

@@ -134,7 +134,7 @@ Both settings rank the sources the same way. These terms recur in this section:
 
 Claude Code checks the sources in this order, highest priority first:
 
-1. Remote settings, delivered from claude.ai as [server-managed settings](/docs/en/server-managed-settings) or by a [Claude apps gateway](/docs/en/claude-apps-gateway). Claude Code fetches this source only when the session meets one of these conditions:
+1. Remote settings, delivered from claude.ai as [server-managed settings](/docs/en/server-managed-settings) or by a [Claude apps gateway](/docs/en/claude-apps-gateway). Claude Code can fetch this source when the session meets one of these conditions:
 
    * It has an [eligible credential](/docs/en/server-managed-settings#platform-availability)
    * It signs in to a gateway with `/login`

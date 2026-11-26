@@ -61,7 +61,7 @@ The MCP Python SDK automatically serializes whatever you return. You don't need 
 
 ## Testing Your Resources[](https://academy.claude.com/courses/claude-with-amazon-bedrock/defining-resources)
 
-You can test resources using the MCP Inspector tool. Start your server with `uv run mcp dev mcp_server.py` and navigate to the web interface.
+You can test resources using the MCP Inspector tool. Start your server with `uv run mcp dev mcp_server.py` and navigate to the web interface. If you set up without uv, activate your Python environment and run `npx @modelcontextprotocol/inspector mcp run mcp_server.py` instead.
 
 ![MCP Inspector Resources tab: docs://documents resource, the fetch_doc template, and a JSON response listing six documents.](https://academy.claude.com/assets/media/aaba6fbd4b955f7b77e8a806c6ac6bc7c7b6a7406c9094b4bdddc93f146e8dcb.png)
 

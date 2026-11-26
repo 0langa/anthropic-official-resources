@@ -1,4 +1,4 @@
-# The Alignment team works to understand the risks of AI models and develop ways to ensure that future ones remain helpful, honest, and harmless. We also work to develop and implement the ideal persona for our AI assistant, Claude.
+# The Alignment team works to understand the risks of AI models and develops ways to ensure that future ones remain helpful, honest, and harmless. We also work to develop and implement the ideal persona for our AI assistant, Claude.
 
 ![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FI9aGC6Ui3eE%2Fsddefault.jpg&w=3840&q=75)
 
@@ -161,7 +161,7 @@ Studies and monitors the impact of AI systems on individuals, firms, and economi
 
 [### Engineering](https://www.anthropic.com/engineering)
 
-29 posts
+30 posts
 
 Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
@@ -193,7 +193,7 @@ Explores how AI can increase the pace of scientific progress through both resear
 
 50 posts
 
-Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
+Works to understand the risks of AI models and develops ways to ensure future ones remain helpful, honest, and harmless.
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
@@ -203,7 +203,7 @@ Studies and monitors the impact of AI systems on individuals, firms, and economi
 
 [### Engineering](https://www.anthropic.com/engineering)
 
-29 posts
+30 posts
 
 Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
@@ -235,4 +235,4 @@ Explores how AI can increase the pace of scientific progress through both resear
 
 50 posts
 
-Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
+Works to understand the risks of AI models and develops ways to ensure future ones remain helpful, honest, and harmless.

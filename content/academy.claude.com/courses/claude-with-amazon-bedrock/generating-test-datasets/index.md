@@ -50,6 +50,8 @@ The dataset generation function uses Claude to create realistic test scenarios. 
 python
 
 ```
+import json
+
 def generate_dataset():
     prompt = """
     Generate 3 AWS-related tasks that require Python, JSON, or Regex solutions.

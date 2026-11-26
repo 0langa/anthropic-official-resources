@@ -2,6 +2,20 @@
 
 ## November 2026
 
+### November 24, 2026
+
+**Monthly recap is out of beta**
+
+The monthly recap (Reflect, in Settings) is now out of beta for Free, Pro, Max, and Ultra plans on the web, Claude Desktop, and Claude for iOS and Android. Recaps can now draw on your Claude Code sessions and Claude Cowork tasks in the cloud, and you can delete your stored recaps from the page. For more information, see **[See your monthly recap](https://support.claude.com/en/articles/15672559-see-your-monthly-recap)**.
+
+**Install artifacts as apps (beta)**
+
+You can now install an artifact that Claude makes for you as an app on your Mac or Windows computer. It gets its own window and icon, opens like any other app, and can even interact with the operating system the way any other app might. This feature is currently in beta. For more information, see **[Install an app as an artifact](https://support.claude.com/en/articles/18516354-install-an-artifact-as-an-app)**.
+
+**Send files to connected apps and save files from them (beta)**
+
+Claude can now send a file to an app you've connected, or save a file that the app offers. File transfers with connectors are rolling out gradually in beta on Pro, Max, and Ultra plans, and on Team and Enterprise plans when an owner turns them on. For more information, see **[Send files to connected apps and save files from them](https://support.claude.com/en/articles/18534325)**.
+
 ### November 20, 2026
 
 **A refreshed look for Claude Mobile**

@@ -1,14 +1,26 @@
-# Free Code Review promotional credits for Claude Enterprise
+# Free Claude Ship promotional credits for Claude Enterprise
 
-We're giving eligible Claude Enterprise organizations promotional credits: a dollar amount of free Code Review. An Owner or Primary Owner claims them on the Code Review settings page.
+**November 23, 2026 update:** These terms were updated on November 23, 2026. The credits now also cover PR Steward and Claude Approvals, in addition to Code Review.
 
-Claim by the last day given under "How to get it." You can claim only once, and your amount is set when you claim, so read "How to get it" first. From the moment of the claim, your organization's reviews of pull requests are paid for from these credits first. That lasts for 30 days or until the credits are used up, whichever comes first. After that, Code Review is billed as usual, within your organization's spend limits.
+We're giving eligible Claude Enterprise organizations promotional credits: a dollar amount of free use of Code Review, PR Steward, and Claude Approvals. An Owner or Primary Owner claims them on the Claude Ship settings page.
+
+Claim by the last day given under "How to get it." You can claim only once, and your amount is set when you claim, so read "How to get it" first. From the moment of the claim, these credits pay first for your organization's Code Review use and, starting November 23, 2026, its use of PR Steward and Claude Approvals. That lasts for 30 days or until the credits are used up, whichever comes first. After that, Code Review is billed as usual, within your organization's spend limits. PR Steward and Claude Approvals are also billed as usual.
 
 This article explains who's eligible, how to claim the credits, how they're counted, and what happens when they run out or their 30 days end.
 
 Available to eligible paid Claude Enterprise organizations. See **[Eligibility](#h_29caa9c16f)** for exclusions.
 
 Additional offer terms apply and are available here: **[Claude Promotional Credit Offer Terms](https://www.anthropic.com/legal/promotion-credit-terms).**
+
+## Claude Ship agents
+
+Starting November 23, 2026, these credits also pay for PR Steward and Claude Approvals. Together with Code Review, these are the Claude Ship agents. All three draw on the same amount and the same 30 days. PR Steward and Claude Approvals are in beta and aren't available to every organization. If yours can't use one, the credits still cover the others.
+
+If your organization has already claimed, this applies to any credits and time you have left. It doesn't add credits or restart your 30 days.
+
+The spend-limit rules in this article apply only to Code Review. PR Steward and Claude Approvals use that the credits don't cover is billed as usual.
+
+A Code Review that fails or is stopped because of a problem on our side isn't billed and doesn't count against the amount. This rule doesn't apply to PR Steward or Claude Approvals.
 
 ## Eligibility
 
@@ -26,15 +38,15 @@ The offer isn't available to:
 
 - Organizations that can't use Code Review (for example, those with zero data retention)
 
-Your organization's subscription must be active and in good standing throughout the offer. If your organization stops being eligible, reviews are billed as usual from then on. If your organization claimed the earlier free Code Review offer, it can't claim this one, even after the earlier offer has ended. While the earlier offer still applies, the Code Review settings page shows that offer and not this one. The earlier offer keeps applying as before until it ends.
+Your organization's subscription must be active and in good standing throughout the offer. If your organization stops being eligible, use of the Claude Ship agents is billed as usual from then on. If your organization claimed the earlier free Code Review offer, it can't claim this one, even after the earlier offer has ended. While the earlier offer still applies, the Claude Ship settings page shows that offer and not this one. The earlier offer keeps applying as before until it ends.
 
 ## How to get it
 
 To claim the credits, an Owner or Primary Owner of your organization can take the following steps:
 
-1. Go to **[Organization settings > Claude Code](https://claude.ai/admin-settings/claude-code)**.
+1. Go to[https://claude.ai/admin-settings/claude-code](https://claude.ai/admin-settings/claude-code)**[Organization settings > Claude Ship](https://claude.ai/admin-settings/claude-ship)**.
 
-2. Find the **Code Review** section.
+2. Find the **Repositories** section.
 
 3. Click "Claim."
 
@@ -46,17 +58,17 @@ Claiming does two things at that moment: it sets your organization's amount, and
 
 **Important:** Set up Code Review on your repositories before you claim. Your 30 days run from the claim whether or not reviews are running.
 
-If nobody claims by the last day to claim, your organization gets no credits, and reviews are billed as usual.
+If nobody claims by the last day to claim, your organization gets no credits, and use of the Claude Ship agents is billed as usual.
 
 ## How the credits work
 
-The amount of your organization's credits, in US dollars, is set at the moment of the claim. It's between $10,000 and $50,000, based on your organization's active Claude Code seats. The Code Review settings page shows it after the claim.
+The amount of your organization's credits, in US dollars, is set at the moment of the claim. It's between $10,000 and $50,000, based on your organization's active Claude Code seats. The Claude Ship settings page shows it after the claim.
 
-Each review counts against the amount, including reviews of new commits and re-reviews requested on the same pull request.
+Each Code Review run counts against the amount, including reviews of new commits and re-reviews requested on the same pull request. PR Steward invocations and Claude Approvals invocations also count against the amount. Their use is counted at its actual cost, including runs that fail.
 
-The credits pay for reviews triggered between the moment of the claim and the same time 30 days later.
+The credits pay for reviews triggered, and PR Steward and Claude Approvals requests made, between the moment of the claim and the same time 30 days later. For PR Steward and Claude Approvals, this starts November 23, 2026.
 
-## How each review is counted
+## How each Code Review is counted
 
 - Every review that starts runs as a normal Code Review. When it finishes, its actual cost is taken from your credits first, to the last cent. The cost is worked out at the same list prices as any other Code Review.
 
@@ -80,7 +92,7 @@ While you have credits left, reviews can run even if your organization has reach
 
 The part of a review covered by the credits doesn't count toward your organization's spend limits and isn't charged to you. These credits are separate from your organization's prepaid extra usage credit.
 
-What's not covered: self-hosted Code Review (the GitHub Action), the `/code-review` command in the Claude Code CLI, the `/ultrareview` command, Claude Code usage, Claude Cowork, Claude chat, the Claude API, or any usage outside Code Review. That usage continues to be metered and billed as usual.
+What's not covered: self-hosted Code Review (the GitHub Action), the `/code-review` command in the Claude Code CLI, the `/ultrareview`, `/ship`, and `/steward` commands, other Claude Code usage, Claude Cowork, Claude chat, the Claude API, or any usage outside the Claude Ship agents. That usage continues to be metered and billed as usual.
 
 ## When your 30 days end
 
@@ -90,13 +102,13 @@ The last moment to claim is 23:59 UTC (3:59 PM PT) on January 15, 2027. An organ
 
 Anthropic may shorten or extend the time to claim. Once your organization claims, we won't lower its amount or shorten its 30 days, except as described under "Eligibility" and "Holds on eligibility." If this article conflicts with the Claude Promotional Credit Offer Terms, this article controls for this offer.
 
-After your 30 days end or the amount is used up, Code Review continues as a paid feature. Reviews are billed as usual, within your organization's usual Code Review billing and spend limits.
+After your 30 days end or the amount is used up, the Claude Ship agents continue as paid features. Reviews are billed as usual, within your organization's usual Code Review billing and spend limits.
 
-An Owner or Primary Owner can turn off Code Review at any time from the Code Review settings page. Turning it off stops new reviews. Reviews already running finish and are counted as described above.
+An Owner or Primary Owner can turn off Code Review, PR Steward, and Claude Approvals at any time from **[Organization settings > Claude Ship](https://claude.ai/admin-settings/claude-ship)**. Turning off Code Review doesn't stop reviews that a Claude Approvals policy starts. To stop those, change the policy or turn off Claude Approvals. PR Steward may finish work in progress. Reviews already running finish and are counted as described above.
 
 ## Track usage in your organization
 
-Before the claim, if your organization can claim, the Code Review settings page shows an Owner or Primary Owner the "Claim" button and the last day to claim. After the claim, it shows the amount of your credits, how much is used, and the date and time your 30 days end. Once the amount is used up, the page says so. The Code Review analytics page counts reviews paid for from the credits along with your other reviews.
+Before the claim, if your organization can claim, the Claude Ship settings page shows an Owner or Primary Owner the "Claim" button and the last day to claim. After the claim, it shows the amount of your credits, how much is used, and the date and time your 30 days end. Once the amount is used up, the page says so. The Code Review analytics page counts reviews paid for from the credits along with your other reviews.
 
 ## Holds on eligibility
 
@@ -106,11 +118,11 @@ If we detect abuse, we may pause an organization's credits while we review the a
 
 ### Do you need to do anything to get it?
 
-Yes. An Owner or Primary Owner claims the credits once on the Code Review settings page, no later than the last day to claim. Until then your organization has no credits, and reviews are billed as usual.
+Yes. An Owner or Primary Owner claims the credits once on the Claude Ship settings page, no later than the last day to claim. Until then your organization has no credits, and use of the Claude Ship agents is billed as usual.
 
 ### What happens when you click "Claim"?
 
-Two things happen at that moment. Your organization's amount is set, and your 30 days start. Reviews triggered from then on are paid for from the credits first. A claim can't be undone or made a second time, and the amount isn't set again.
+Two things happen at that moment. Your organization's amount is set, and your 30 days start. Reviews triggered from then on are paid for from the credits first, as is use of PR Steward and Claude Approvals starting November 23, 2026. A claim can't be undone or made a second time, and the amount isn't set again.
 
 ### Can you claim later?
 
@@ -130,6 +142,8 @@ A review is one Code Review of a pull request. Each of these can start a review,
 
 - Requesting a re-review of the same commits
 
+- A Claude Approvals policy that uses Code Review's result, including in observe mode
+
 A review can start when someone asks for one with `@claude review`, or automatically, depending on your organization's Code Review settings.
 
 ### What if a review costs more than what's left?
@@ -148,7 +162,7 @@ Once the credits are used up or their 30 days end, reviews are subject to your s
 
 ### How is your amount set?
 
-It's set for your organization when you claim, between $10,000 and $50,000, based on your organization's active Claude Code seats. After the claim, the Code Review settings page shows it.
+It's set for your organization when you claim, between $10,000 and $50,000, based on your organization's active Claude Code seats. After the claim, the Claude Ship settings page shows it.
 
 ### Are failed reviews counted?
 

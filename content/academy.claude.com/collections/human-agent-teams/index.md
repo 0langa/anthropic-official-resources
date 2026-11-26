@@ -8,7 +8,7 @@ Learn how people and AI agents work together as one team, hear from companies al
 
 Explore the benefits of moving from single-player to multiplayer AI and learn how to prepare your team for the shift.
 
-·Course·5 lessons · 1 quiz·45 min](https://academy.claude.com/courses/building-effective-human-agent-teams)
+·Course·5 lessons · 1 quiz·45 min](https://academy.claude.com/courses/building-effective-human-agent-teams)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-o8smw8bd.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jl3ze518.png)
 
@@ -16,7 +16,7 @@ Explore the benefits of moving from single-player to multiplayer AI and learn ho
 
 Three levers drive organizational transformation with AI: the mindsets people hold, the AI-related skills they can use on complex tasks, and the access they have. For leaders building a culture of AI fluency, these levers work as one system.
 
-·Tutorial·5 min](https://academy.claude.com/tutorials/building-ai-fluent-organizations)
+·Tutorial·5 min](https://academy.claude.com/tutorials/building-ai-fluent-organizations)
 
 ## Insights from companies building human-agent teams
 
@@ -52,7 +52,7 @@ Arnab Bose, Chief Product Officer at Asana, on how Asana runs Claude-powered AI 
 
 How to work with Claude Tag across your org: setting up where it has context, writing a task that goes well, and moving from one-off requests to work it runs on its own.
 
-·Tutorial·10 min](https://academy.claude.com/tutorials/best-practices-using-claude-tag)
+·Tutorial·10 min](https://academy.claude.com/tutorials/best-practices-using-claude-tag)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.dark-fvmviaxt.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-fvmviaxt.png)
 
@@ -60,7 +60,7 @@ How to work with Claude Tag across your org: setting up where it has context, wr
 
 A catalog of tasks to try handing to Claude Tag once it's in your workspace, each with the prompt that starts it and what comes back.
 
-·Tutorial·9 min](https://academy.claude.com/tutorials/tasks-to-try-with-claude-tag-in-your-workspace)
+·Tutorial·9 min](https://academy.claude.com/tutorials/tasks-to-try-with-claude-tag-in-your-workspace)
 
 [## Hand Claude Tag your first task 
 
@@ -78,7 +78,7 @@ Check that Claude Tag has been added to your Slack channel, then send it your fi
 
 See what Claude Managed Agents lets you build, to decide if it fits your project.
 
-·Tutorial·4 min](https://academy.claude.com/tutorials/what-is-claude-managed-agents)
+·Tutorial·4 min](https://academy.claude.com/tutorials/what-is-claude-managed-agents)
 
 [## Get started with Claude Managed Agents 
 

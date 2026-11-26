@@ -38,11 +38,11 @@ Companion guide
 
 ### How this guide fits with the AI-Native SDLC Playbook
 
-This guide has a companion. The [AI-Native SDLC Playbook](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6aba736348bdf4f08183f463_AI%20Native%20SDLC%20Playbook_designv2%20%281%29.pdf) covers how to redesign software development around agents, stage by stage from planning to maintenance. This guide covers the security controls underneath that work.
+This guide has a companion. The [AI-Native SDLC Playbook](https://claude.com/resources/articles/the-ai-native-sdlc-playbook) covers how to redesign software development around agents, stage by stage from planning to maintenance. This guide covers the security controls underneath that work.
 
 Read the playbook to decide where agents fit in your lifecycle. Read this guide to decide what they’re allowed to do when they get there.
 
-[Read the AI-Native SDLC Playbook](https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6aba736348bdf4f08183f463_AI%20Native%20SDLC%20Playbook_designv2%20%281%29.pdf)
+[Read the AI-Native SDLC Playbook](https://claude.com/resources/articles/the-ai-native-sdlc-playbook)
 
 *This guide is written for organizations on Claude Team and Enterprise plans. If you reach Claude through a cloud provider such as AWS, Google Cloud, or Microsoft Azure, the same principles and local controls apply.*
 

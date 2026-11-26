@@ -12,6 +12,11 @@ We'll send occasional emails on the topics you pick. You can unsubscribe at any 
 
 ## Featured speakers
 
+- ![](https://assets.claude.com/f4d04afac556803d9417119eb2e916d8bd079ebb.png?w=128&h=128&fit=crop)
+
+  Chris Tonjes
+
+  Chief Information Officer, DC Department of Employment Services
 - ![](https://assets.claude.com/ea903c02e85f92c6f5f56cbabf5c83a3bba5265f.jpg?w=128&h=128&fit=crop)
 
   Chesley Chan

@@ -42,7 +42,7 @@ The method returns messages that form a conversation ready to be fed directly in
 
 ## Testing Prompts in Action[](https://academy.claude.com/courses/claude-with-amazon-bedrock/prompts-in-the-client)
 
-When you run the client and type a forward slash, you'll see available prompts as commands. Selecting a prompt like "format" will prompt you to choose from available documents. The system then:
+When you run the client and type a forward slash, you'll see available prompts as commands. Highlight a prompt like "format", then press the space bar, not Enter, to list the documents. Highlight a document, then press Enter. The system then:
 
 - Takes the prompt with the document ID interpolated
 - Feeds it directly to Claude as a user message

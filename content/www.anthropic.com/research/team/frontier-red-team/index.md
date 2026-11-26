@@ -161,7 +161,7 @@ See more
 
 50 posts
 
-Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
+Works to understand the risks of AI models and develops ways to ensure future ones remain helpful, honest, and harmless.
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
@@ -171,7 +171,7 @@ Studies and monitors the impact of AI systems on individuals, firms, and economi
 
 [### Engineering](https://www.anthropic.com/engineering)
 
-29 posts
+30 posts
 
 Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
@@ -203,7 +203,7 @@ Stress-tests AI systems to understand the full extent of their current capabilit
 
 50 posts
 
-Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
+Works to understand the risks of AI models and develops ways to ensure future ones remain helpful, honest, and harmless.
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
@@ -213,7 +213,7 @@ Studies and monitors the impact of AI systems on individuals, firms, and economi
 
 [### Engineering](https://www.anthropic.com/engineering)
 
-29 posts
+30 posts
 
 Builds the infrastructure and systems that make Claude reliable and trustworthy.
 

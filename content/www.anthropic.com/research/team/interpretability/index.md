@@ -1,4 +1,4 @@
-# The Interpretability team studies how large language models work internally as a foundation for AI safety. They seek to understand what happens inside neural networks so that we can better trust the models we build.
+# The Interpretability team studies how large language models work internally as a foundation for AI safety. We seek to understand what happens inside neural networks so that we can better trust the models we build.
 
 ![Video thumbnail](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fimg.youtube.com%2Fvi%2FTxhhMTOTMDg%2Fsddefault.jpg&w=3840&q=75)
 
@@ -157,7 +157,7 @@ See more
 
 50 posts
 
-Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
+Works to understand the risks of AI models and develops ways to ensure future ones remain helpful, honest, and harmless.
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
@@ -167,7 +167,7 @@ Studies and monitors the impact of AI systems on individuals, firms, and economi
 
 [### Engineering](https://www.anthropic.com/engineering)
 
-29 posts
+30 posts
 
 Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
@@ -199,7 +199,7 @@ Studies how large language models work internally as a foundation for AI safety.
 
 50 posts
 
-Works to understand the risks of AI models and develop ways to ensure future ones remain helpful, honest, and harmless.
+Works to understand the risks of AI models and develops ways to ensure future ones remain helpful, honest, and harmless.
 
 [### Economics](https://www.anthropic.com/research/team/economics)
 
@@ -209,7 +209,7 @@ Studies and monitors the impact of AI systems on individuals, firms, and economi
 
 [### Engineering](https://www.anthropic.com/engineering)
 
-29 posts
+30 posts
 
 Builds the infrastructure and systems that make Claude reliable and trustworthy.
 

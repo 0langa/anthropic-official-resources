@@ -19,7 +19,7 @@ as real inputs change.
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=qpSyAg0_lHY)
 
-*The demo in this video was recorded in August 2026. It ran on Claude Haiku 4.5, Claude Sonnet 5, and Claude Opus 5. Results will differ on newer models. Each lesson's demo is a separate eval run, so its scores and costs won't match those in other lessons.*
+*The demo in this video was recorded in August 2026. It ran on Claude Haiku 4.5, Claude Sonnet 5, and Claude Opus 5. Results will differ on newer models: the current Haiku is Claude Haiku 5.5, and Sonnet and Opus have 5.5 versions too. Each lesson's demo is a separate eval run, so its scores and costs won't match those in other lessons.*
 
 **Your eval still runs after launch, because two things keep changing.** Your team will edit the prompt, and an edit can break answers that were right. Real inputs change too, until they stop looking like the ones you tested. So the eval runs on every edit before it ships, and on live traffic after.
 
@@ -34,7 +34,7 @@ These four steps keep Meridian's eval working after launch:
 
 ## Run a few cases on every pull request[](https://academy.claude.com/courses/introduction-to-evals/evals-in-production)
 
-**Add a workflow to CI, short for continuous integration, and have it run on each pull request.** The workflow runs a smoke eval, which takes few enough of the full suite's cases to finish while you wait. Its score passes or fails a check on the pull request. Meridian picks 10 of its 50 cases to cover every kind of report, and runs them on Claude Haiku 4.5 in about a minute.
+**Add a workflow to CI, short for continuous integration, and have it run on each pull request.** The workflow runs a smoke eval, which takes few enough of the full suite's cases to finish while you wait. Its score passes or fails a check on the pull request. Meridian picks 10 of its 50 cases to cover every kind of report, and in the August 2026 demo they ran on Claude Haiku 4.5 in about a minute.
 
 The threshold is the lowest passing score, and Meridian's is 88%, so nine of the ten cases have to succeed. The workflow does four tasks, in this order:
 
@@ -77,7 +77,7 @@ The red check keeps the merge button grey, and its comment shows the engineer wh
 
 ## Run the full suite as one batch[](https://academy.claude.com/courses/introduction-to-evals/evals-in-production)
 
-**Run the full suite [whenever you change the prompt or the model(opens in new tab)](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents), and send it through the [Batch API(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/batch-processing).** Meridian's eval compares Haiku 4.5, Claude Sonnet 5, and Claude Opus 5, so its batch holds 150 requests, all 50 cases for each. The Batch API runs them all for [half the usual price for input and output tokens(opens in new tab)](https://platform.claude.com/docs/en/about-claude/pricing), and you collect the answers later, [usually within the hour(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/batch-processing).
+**Run the full suite [whenever you change the prompt or the model(opens in new tab)](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents), and send it through the [Batch API(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/batch-processing).** The August 2026 demo compared Haiku 4.5, Claude Sonnet 5, and Claude Opus 5, so its batch held 150 requests, all 50 cases for each. The Batch API runs them all for [half the usual price for input and output tokens(opens in new tab)](https://platform.claude.com/docs/en/about-claude/pricing), and you collect the answers later, [usually within the hour(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/batch-processing).
 
 <table class="w-full text-body"><thead><tr><th class="border-b border-strong p-sm text-left font-medium">Model</th><th class="border-b border-strong p-sm text-left font-medium">Standard price</th><th class="border-b border-strong p-sm text-left font-medium">Batch API price</th></tr></thead><tbody><tr><td class="border-b p-sm">Haiku 4.5</td><td class="border-b p-sm">$0.0468</td><td class="border-b p-sm">$0.0234</td></tr><tr><td class="border-b p-sm">Sonnet 5</td><td class="border-b p-sm">$0.1301</td><td class="border-b p-sm">$0.0650</td></tr><tr><td class="border-b p-sm">Opus 5</td><td class="border-b p-sm">$0.3432</td><td class="border-b p-sm">$0.1716</td></tr></tbody></table>
 
@@ -87,7 +87,7 @@ The red check keeps the merge button grey, and its comment shows the engineer wh
 
 The eval script needs two changes.
 
-**Label each request with a `custom_id`.** [Results can arrive in any order(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/batch-processing), so you match them by this label, and it has to be unique in the batch. Each case goes to three models, so join the case ID to the model, as in `r041_claude-haiku-4-5`.
+**Label each request with a `custom_id`.** [Results can arrive in any order(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/batch-processing), so you match them by this label, and it has to be unique in the batch. Each case goes to every model you compare, so join the case ID to the model, as in `r041_claude-haiku-5-5` for a run on Claude Haiku 5.5, the current Haiku.
 
 python
 
@@ -107,6 +107,8 @@ batch = client.messages.batches.create(
     ]
 )
 ```
+
+If you run this on Claude Haiku 5.5, leave room for thinking. [Thinking tokens count toward `max_tokens`(opens in new tab)](https://platform.claude.com/docs/en/models/haiku-5-5/migration-guide), so a small `max_tokens` can stop a request after a `thinking` block and before any text.
 
 **Read `request_counts` before you score.** It counts how many requests ended each way, which shows when a run came back short. [A batch not done within 24 hours expires(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/batch-processing), and [an expired request costs nothing but has no answer(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/batch-processing).
 

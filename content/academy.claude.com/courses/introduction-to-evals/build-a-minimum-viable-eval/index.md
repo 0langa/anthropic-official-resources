@@ -19,7 +19,7 @@ engineering consultancy.
 
 [Watch on YouTube(opens in new tab)](https://www.youtube.com/watch?v=UiC4gbDGnoU)
 
-*The demo in this video was recorded in August 2026. It ran on Claude Haiku 4.5, Claude Sonnet 5, and Claude Opus 5. Results will differ on newer models. Each lesson's demo is a separate eval run, so its scores and costs won't match those in other lessons.*
+*The demo in this video was recorded in August 2026. It ran on Claude Haiku 4.5, Claude Sonnet 5, and Claude Opus 5. Results will differ on newer models. Run your own eval on the newest Haiku, Sonnet, and Opus models: Claude Haiku 5.5, Claude Sonnet 5.5, and Claude Opus 5.5. The [Models overview(opens in new tab)](https://platform.claude.com/docs/en/models/overview) compares the current lineup. Each lesson's demo is a separate eval run, so its scores and costs won't match those in other lessons.*
 
 **An eval is a test that models take.** It has three parts: realistic inputs, the answer you expect for each, and a way to grade what each model returns. Each model runs your prompt on every input. An input together with its expected answer makes a case, and grading every case gives you a score.
 
@@ -111,7 +111,7 @@ Next jobStart over
 
 ## Run the models and grade their answers[](https://academy.claude.com/courses/introduction-to-evals/build-a-minimum-viable-eval)
 
-Before anything can be graded, you need answers. Run your prompt on every case with each model you're testing, and save every answer to a file. Meridian ran its extraction prompt on all 50 cases with Claude Haiku 4.5, Claude Sonnet 5, and Claude Opus 5.
+Before anything can be graded, you need answers. Run your prompt on every case with each model you're testing, and save every answer to a file. For your own run, use the Claude API model IDs `claude-haiku-5-5`, `claude-sonnet-5-5`, and `claude-opus-5-5`. Meridian ran its extraction prompt on all 50 cases with Claude Haiku 4.5, Claude Sonnet 5, and Claude Opus 5.
 
 **Test the judge once, on cases code can also grade, to see whether the two graders agree.** Meridian's first judge run took only the 10 missing-risk cases, which came to 30 answers across the three models. Their expected answer is `null`, so code could grade them too. Save each verdict next to its answer, so you can check the judge by hand later.
 

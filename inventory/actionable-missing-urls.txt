@@ -1,2 +1,1 @@
-https://platform.claude.com/docs/en/api/$shared
-https://support.claude.com/en/articles/18534325
+https://support.claude.com/en/articles/17603594-free-claude-ship-promotional-credits-for-claude-enterprise

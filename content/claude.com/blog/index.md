@@ -40,13 +40,13 @@ A research preview is available by waitlist today, starting with US Pro, Max, an
 
 ![](https://assets.claude.com/9273e22b909074c1c2d42ca3514a239623f8af40.svg)](https://claude.com/resources/articles/claude-duet)
 
-[ArticleNov 23, 2026
+[ArticleNov 24, 2026
 
-### KPMG's Todd Lohr on AI when your data is also your clients' data
+### Turn artifacts into Mac and Windows apps
 
-Todd Lohr, KPMG US Vice Chair and Head of Client Technology & Innovation, on adopting frontier AI and building safeguards at the same time, and what that means for a firm that holds its clients' most sensitive data.
+Open the artifacts you use every day like any other app, and let them do more on your computer
 
-Claude Enterprise](https://claude.com/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data)
+Claude apps](https://claude.com/resources/articles/install-as-app)
 
 [ArticleNov 10, 2026
 
@@ -60,9 +60,19 @@ Featured resource 1 of 5: Your apps can now open in Claude, and Claude can work 
 
 Advanced filters
 
-Showing 11 of 328 resources
+Showing 11 of 330 resources
 
-[ArticleNov 23, 2026
+[ArticleNov 24, 2026
+
+### Turn artifacts into Mac and Windows apps
+
+Open the artifacts you use every day like any other app, and let them do more on your computer
+
+Claude apps](https://claude.com/resources/articles/install-as-app)[ArticleNov 24, 2026
+
+### MCP servers can now ship skills, run tasks, and more with Claude
+
+Claude appsClaude Platform](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more)[ArticleNov 23, 2026
 
 ### KPMG's Todd Lohr on AI when your data is also your clients' data
 
@@ -116,18 +126,6 @@ Recommendations for designing, running, and reporting safety evaluations, based 
 
 Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
 
-Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
-
-### The Claude Tag guide for startups
-
-How leading startups use Claude Tag to ship faster and scale operations
-
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)[ArticleNov 12, 2026
-
-### Operate Claude Managed Agents inside your security perimeter
-
-Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.
-
-Claude PlatformClaude Managed Agents](https://claude.com/resources/articles/self-hosted-claude-managed-agents)
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)
 
 View more

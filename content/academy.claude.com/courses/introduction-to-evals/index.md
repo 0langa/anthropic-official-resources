@@ -30,3 +30,5 @@ This course is for you if you have a working prompt and no graded eval. The less
 ## Prerequisites[](https://academy.claude.com/courses/introduction-to-evals)
 
 Take Claude Platform 101 first unless you can call the Messages API and read the response. The code is Python, plus one GitHub Actions workflow in YAML in the "Evals in production" lesson. Reading them is enough. That lesson assumes you know pull requests and CI checks. Your own eval needs a Claude Console account, an API key, and real inputs with expected answers.
+
+The code calls the Claude API. The Batch API in "Evals in production" isn't available on [Amazon Bedrock(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock) or [Claude Models on Google Cloud (Google managed)(opens in new tab)](https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/google-managed). On Google managed, the judge in "Build a minimum viable eval" runs only if your organization's policy [allows structured outputs(opens in new tab)](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/claude/structured-outputs).

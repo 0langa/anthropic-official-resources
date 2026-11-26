@@ -39,6 +39,7 @@ This table below lists the beta and research preview features currently availabl
 | **[Claude Motion](https://support.claude.com/en/articles/17454997)**                                                                                             | Artifacts         | Beta       |
 | **[Claude Sheets](https://support.claude.com/en/articles/18324300)**                                                                                             | Artifacts         | Beta       |
 | **[Claude Whiteboards](https://support.claude.com/en/articles/18324319)**                                                                                        | Artifacts         | Beta       |
+| **[Install artifacts as apps](https://support.claude.com/en/articles/18516354-install-an-artifact-as-an-app)**                                                   | Artifacts         | Beta       |
 | **[Enterprise security center](https://support.claude.com/en/articles/18246629-review-your-organization-s-security-posture-with-the-security-center)**           | Enterprise admin  | Beta       |
 | **[Sign members out through the Admin API](https://platform.claude.com/docs/en/manage-claude/user-management#sign-a-member-out-everywhere)**                     | Enterprise admin  | Beta       |
 | **[Self-serve IP allowlist](https://platform.claude.com/docs/en/manage-claude/ip-allowlist)**                                                                    | Enterprise admin  | Beta       |
@@ -46,6 +47,7 @@ This table below lists the beta and research preview features currently availabl
 | **[Centralized management](https://support.claude.com/en/articles/18232924)**                                                                                    | Enterprise admin  | Beta       |
 | **[Track spend by cost code with project tags](https://support.claude.com/en/articles/18251257-track-spend-by-project-with-tags)**                               | Enterprise admin  | Beta       |
 | **[Personal Finance](https://support.claude.com/en/articles/18185620-use-personal-finance-with-claude)**                                                         | Connectors        | Beta       |
+| **[File transfers with connectors](https://support.claude.com/en/articles/18534325)**                                                                            | Connectors        | Beta       |
 | **[Claude Meetings](https://support.claude.com/en/articles/18325154-use-claude-meetings)**                                                                       | Meetings          | Beta       |
 
 **Note:** Availability varies by plan. Check each linked article to confirm which plans support the feature.

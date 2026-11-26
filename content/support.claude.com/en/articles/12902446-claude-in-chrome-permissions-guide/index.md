@@ -30,7 +30,7 @@ In "Manually approve," Claude checks with you before it acts. What that looks li
 
 Claude creates a plan from your prompt, which you can approve before Claude starts. The plan specifies which websites you're allowing Claude to access, as well as the approach it will follow:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1795535100&amp;signature=39520c912b362a2cb3ef7a67289427013070b3369e6e4216d0f936f2e2e6626a&amp;req=dSgjFcp8nYZdXvMW1HO4zYqyZMdI%2F4e2gN0ADj5oqFAPQF%2FgegeYkMjOGGEq%0A%2FO4IHLTSKZtmfEYsIF0%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1843320727/8d1c859ae9b8e0cdb536d024bf40/9bc3d239-8eb6-4bae-a032-a236f88ee606?expires=1795705200&amp;signature=84c04b0a25f91844f3bba2129adbae0ac3e9d180b236096e7e26c1842d7a447a&amp;req=dSgjFcp8nYZdXvMW1HO4zYqyZMdK%2FIe1gN0ADj5oqFCsY8FZP4Sln1wudG0d%0Aark9QdGpTsPmlfuhwp0%3D%0A)
 
 Note that Claude will only use the websites listed in the plan, so you’ll need to manually approve any additional access requests.
 
@@ -66,7 +66,7 @@ Only use Skip when you completely trust every action, connector, file, app, etc.
 
 There are some websites on which Claude requires approval for every action. If you navigate to one of these sites, a **New permissions required** prompt will appear in the extension side panel, Claude Cowork, or Claude Code where Claude will ask for permission before accessing the page or taking any action.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1795535100&amp;signature=6626d5a1a91d9ab0c8113a98362760253bf01d095a1f8e85e83d644080c0d07b&amp;req=diYnEsB5nYldXPMW1HO4zZ3Nq2N1iynt7A4lHPBihAVchn3U0NvWQCwOFmdL%0ASBR1iowz2xf9oMNPFds%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2604970825/d7b961271be69e7541b406df1efd/d845324e-6b4a-4f54-83b9-0bea86ec09c6?expires=1795705200&amp;signature=29f70a61f682babee1ce1103bd141558a4a4a8facfb3f1746b4db355292ecf1f&amp;req=diYnEsB5nYldXPMW1HO4zZ3Nq2N3iCnu7A4lHPBihAU8eWAktNE4lEbJKrWG%0Awnom6AamOX5hIIqOMQM%3D%0A)
 
 ### Permission options
 

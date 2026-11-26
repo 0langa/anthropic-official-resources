@@ -76,7 +76,15 @@ Build MCP servers and clients from scratch with the Python SDK, covering the thr
 
 [View all webinars](https://academy.claude.com/all)
 
-[Recording · Nov 19
+[Upcoming · Dec 9, 10:00 AM PT
+
+### How Anthropic secures its agents 
+
+How Anthropic stacks model safeguards, controls, and monitoring to contain overreach, hijacking, and misuse in your own agents.
+
+·Upcoming·Dec 9·10:00 AM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/how-anthropic-secures-its-agents)[Recording · Nov 19
 
 ### Claude Rearview Roadmap Review: November 2026 
 
@@ -96,17 +104,7 @@ SSIP
 
 ·Recording·Oct 22
 
- (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)[Recording · Oct 21
-
-### Tokenomics on AWS: Control and optimize your Claude spend 
-
-Optimize your Claude spend on AWS with admin controls, default model settings, and measuring cost per task on Bedrock and the API.
-
-SMAR
-
-·Recording·Oct 21
-
- (opens in new tab)](https://claude.com/resources/webinars/tokenomics-on-aws-control-and-optimize-your-claude-spend)
+ (opens in new tab)](https://claude.com/resources/webinars/claude-rearview-roadmap-review-october-2026)
 
 ## Browse it all
 

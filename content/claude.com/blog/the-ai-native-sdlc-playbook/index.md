@@ -39,7 +39,7 @@ When code is no longer the bottleneck and the build phase runs faster than the t
 
 Build is no longer the constraint — the human-speed steps around it are. Human-speed stages keep their length while build collapses to hours.
 
-Let's use a security bottleneck as an example. Security teams are sized for human output, so when agents multiply code output, either the review queue builds or code ships under-reviewed. A regulated organization can't accept either outcome, so its security and policy checks have to keep pace with the agents.
+Let's use a security bottleneck as an example. Security teams are sized for human output, so when agents multiply code output, either the review queue builds or code ships under-reviewed. A regulated organization can't accept either outcome, so its [security and policy checks have to keep pace with the agents](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents).
 
 To better realize the productivity gains of and secure agentic AI, the traditional SDLC lifecycle requires the same level of transformation as the implementation phase has undergone.
 
@@ -54,6 +54,16 @@ Table of contents
 7. [Stage 5 — Deploy](https://claude.com/resources/articles/the-ai-native-sdlc-playbook)
 8. [Stage 6 — Maintain](https://claude.com/resources/articles/the-ai-native-sdlc-playbook)
 9. [Closing thoughts](https://claude.com/resources/articles/the-ai-native-sdlc-playbook)
+
+Companion guide
+
+### How this playbook fits with the enterprise guide to securing coding agents
+
+This playbook has a companion. [The enterprise guide to securing coding agents](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents) covers the security controls underneath this work: what to require of an AI provider, the risks specific to agents, and the layers that bound them. This playbook covers how to redesign software development around agents, stage by stage from planning to maintenance.
+
+Read this playbook to decide where agents fit in your lifecycle. Read the security guide to decide what they’re allowed to do when they get there.
+
+[Read the guide to securing coding agents](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)
 
 ## What is an AI-native SDLC?
 
@@ -1108,7 +1118,13 @@ Thanks to Jim Blackhurst, Will Steuk, and Jamal Arif for their contributions to 
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 17, 2026
+[ArticleNov 23, 2026
+
+### The enterprise guide to securing coding agents
+
+How security and technical leaders can understand and bound risk as they scale Claude Code
+
+Claude Code](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)[ArticleNov 17, 2026
 
 ### Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests
 
@@ -1130,13 +1146,7 @@ Claude Code
 
 Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.
 
-Claude Platform](https://claude.com/resources/articles/building-always-on-agents)[ArticleNov 13, 2026
-
-### The Claude Tag guide for startups
-
-How leading startups use Claude Tag to ship faster and scale operations
-
-Claude Tag](https://claude.com/resources/articles/claude-tag-guide-for-startups)
+Claude Platform](https://claude.com/resources/articles/building-always-on-agents)
 
 ## Transform how your organization operates with Claude
 

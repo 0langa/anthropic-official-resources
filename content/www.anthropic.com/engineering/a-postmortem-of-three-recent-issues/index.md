@@ -21,11 +21,11 @@ Topics
 
 Related articles
 
-- Announcements
+- Engineering
 
-  Sep 28, 2026
+  Nov 25, 2026
 
-  [Introducing Claude Sonnet 5.5](https://www.anthropic.com/claude-sonnet-5-5)
+  [Migrating our Messages API to Rust](https://www.anthropic.com/research/migrating-api-to-rust)
 
 [View more](https://www.anthropic.com/search?topic=transparency)
 

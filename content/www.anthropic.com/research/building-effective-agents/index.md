@@ -20,11 +20,11 @@ Topics
 
 Related articles
 
-- Announcements
+- Engineering
 
-  May 18, 2026
+  Nov 25, 2026
 
-  [Anthropic acquires Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless)
+  [Migrating our Messages API to Rust](https://www.anthropic.com/research/migrating-api-to-rust)
 
 [View more](https://www.anthropic.com/search?topic=agents)
 

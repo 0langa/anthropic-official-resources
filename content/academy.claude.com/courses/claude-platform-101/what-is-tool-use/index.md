@@ -119,6 +119,7 @@ const messages = [
 ];
 
 function runTool(name, input) {
+  console.log("Tool call:", name, input);
   switch (name) {
     case "get_weather":
       return getWeather(input.city);

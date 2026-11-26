@@ -36,7 +36,7 @@ Organizations across industries are putting these patterns into practice, balanc
 
 ### **The path forward**
 
-For organizations planning their 2026 priorities, four areas demand immediate attention: mastering [multi-agent coordination](https://claude.com/resources/articles/multi-agent-coordination-patterns), scaling human-agent oversight through [AI-automated review](https://claude.com/resources/articles/code-review-is-now-generally-available), [extending agentic coding beyond engineering teams](https://claude.com/resources/articles/how-anthropic-teams-use-claude-code), and embedding security architecture from the earliest stages.  
+For organizations planning their 2026 priorities, four areas demand immediate attention: mastering [multi-agent coordination](https://claude.com/resources/articles/multi-agent-coordination-patterns), scaling human-agent oversight through [AI-automated review](https://claude.com/resources/articles/code-review-is-now-generally-available), [extending agentic coding beyond engineering teams](https://claude.com/resources/articles/how-anthropic-teams-use-claude-code), and [embedding security architecture from the earliest stages](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents).  
   
 Organizations that treat agentic coding as a strategic priority will define what becomes possible.
 
@@ -48,7 +48,13 @@ Read the full **2026 Agentic Coding Trends Report** [here](https://resources.ant
 
 Explore more product news and best practices for teams building with Claude.
 
-[ArticleNov 9, 2026
+[ArticleNov 13, 2026
+
+### Building strong safety evaluations
+
+Recommendations for designing, running, and reporting safety evaluations, based on our own experiences.
+
+(opens in new tab)](https://www.anthropic.com/research/building-strong-safety-evaluations)[ArticleNov 9, 2026
 
 ### Claude can design electronic prototypes from start to finish
 
@@ -68,15 +74,7 @@ Claude Platform
 
 We need ways to prove that code is free of bugs. Formal software verification could provide this guarantee.
 
-(opens in new tab)](https://www.anthropic.com/research/formal-verification)[ArticleSep 25, 2026
-
-### What a task costs on Opus 5.5
-
-The same token price can cost very different amounts per task. Learn what Claude Code tasks cost on Opus 5.5 and which settings change the bill.
-
-Claude Code
-
-(opens in new tab)](https://claude.dev/blog/what-a-task-costs-on-opus-5-5/)
+(opens in new tab)](https://www.anthropic.com/research/formal-verification)
 
 ## Transform how your organization operates with Claude
 

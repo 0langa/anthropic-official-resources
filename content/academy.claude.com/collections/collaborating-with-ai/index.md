@@ -8,7 +8,7 @@ Learn the AI Fluency framework for collaborating with AI safely and effectively.
 
 Learn to collaborate with AI effectively, efficiently, ethically, and safely using the 4D framework: Delegation, Description, Discernment, and Diligence.
 
-·Course·14 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-framework-foundations)
+·Course·14 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-framework-foundations)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-peff89t8.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-lrenqyqv.png)
 
@@ -16,7 +16,7 @@ Learn to collaborate with AI effectively, efficiently, ethically, and safely usi
 
 This tutorial offers a full list of the AI fluency behaviors cited in the Anthropic Education Report. It's a quick reference to help you understand what each behavior looks like alongside specific tactics you can try in your day-to-day work.
 
-·Tutorial·5 min](https://academy.claude.com/tutorials/the-4-ds-of-ai-fluency-behavioral-indicators)
+·Tutorial·5 min](https://academy.claude.com/tutorials/the-4-ds-of-ai-fluency-behavioral-indicators)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-mgzhysjk.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-jvn9chjj.png)
 
@@ -24,7 +24,7 @@ This tutorial offers a full list of the AI fluency behaviors cited in the Anthro
 
 Create transparent, specific disclosures of AI use in your work
 
-·Tutorial·15 min](https://academy.claude.com/tutorials/writing-an-ai-diligence-statement)
+·Tutorial·15 min](https://academy.claude.com/tutorials/writing-an-ai-diligence-statement)
 
 ## Choose your edition
 
@@ -40,7 +40,7 @@ Create transparent, specific disclosures of AI use in your work
 
 Anthropic's AI Fluency Index measures 11 observable behaviors across thousands of Claude.ai conversations to understand how people develop AI collaboration skills.
 
-·Tutorial·10 min](https://academy.claude.com/tutorials/the-ai-fluency-index)
+·Tutorial·10 min](https://academy.claude.com/tutorials/the-ai-fluency-index)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-cu6wjiio.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-omuj02iu.png)
 
@@ -48,7 +48,7 @@ Anthropic's AI Fluency Index measures 11 observable behaviors across thousands o
 
 We asked 129 Claude Academy participants what discernment looks like when they work with Claude. Checking Claude's work usually means verifying it against something external, lack of domain expertise is the biggest barrier, and errors caught too late spur new discernment habits.
 
-·Tutorial·10 min](https://academy.claude.com/tutorials/discernment-toolkit)
+·Tutorial·10 min](https://academy.claude.com/tutorials/discernment-toolkit)
 
 [## Anthropic Education Report: How university students use Claude 
 

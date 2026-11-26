@@ -26,7 +26,7 @@ These differ from regular chats in several ways:
 
   - Incognito chats will not be included in future memory entries.
 
-- Incognito chats aren't included in **[your monthly recap](https://support.claude.com/en/articles/15672559)**.
+- **[Your monthly recap](https://support.claude.com/en/articles/15672559)** is designed to leave out incognito chats. If you have the monthly recap, we still record the time you have Claude open, in incognito chats too.
 
 ---
 
@@ -34,7 +34,7 @@ These differ from regular chats in several ways:
 
 When starting a new chat with Claude outside of a project, you'll see a ghost icon in the upper right corner of your screen:
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719768744/c7a2fa56cf284e48472f3b9c4dbf/030563f8-9f97-4891-a749-9ae95968a063?expires=1795450500&amp;signature=53a578bc4b870c95c403b0a62be53f4e256d777daf1dd5dca191d416fc9f856d&amp;req=dScmH854lYZbXfMW1HO4zeUcuge5a%2BWODCAt3Cx%2FSO2Cjz476LVpVlR%2Bg7CR%0AcJFADQz1KeL%2FCgC2fdI%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/1719768744/c7a2fa56cf284e48472f3b9c4dbf/030563f8-9f97-4891-a749-9ae95968a063?expires=1795704300&amp;signature=33dd0db7760217ce36d9029a86c1e58e93d0ba358eaf2fdb588c9f4c29e6e55c&amp;req=dScmH854lYZbXfMW1HO4zeUcuge6buGIDCAt3Cx%2FSO0qV8cvdYpBlFfjaPjo%0AzGhD%2F51N08Z0z3QVUNg%3D%0A)
 
 1. Click the ghost icon to enable incognito mode.
 

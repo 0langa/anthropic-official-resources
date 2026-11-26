@@ -118,13 +118,15 @@ Count the unsupported answers and any correct answers that turned wrong. Meridia
 
 The three typical cases that failed on `schedule_status` passed this time, though no change touched that field's line. A model can answer the same case differently from one run to the next, so [run every setup two or more times before you trust a score(opens in new tab)](https://github.com/anthropics/claude-cookbooks/blob/main/cost_optimization/cost_optimization.ipynb).
 
-Keep changing the prompt and rerunning while the score moves. When it stops moving short of your accuracy floor, [the model lacks a capability, and that's when to upgrade(opens in new tab)](https://platform.claude.com/docs/en/about-claude/models/choosing-a-model). If you're starting your own eval today, begin with Claude Haiku 5.5, the current Haiku model, and upgrade only when prompt changes stop moving the score.
+Keep changing the prompt and rerunning while the score moves. When it stops moving short of your accuracy floor, rerun the same cases at a higher [effort level(opens in new tab)](https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence), which lets the model think more. Higher effort spends more tokens, so compare its cost with the next model up.
+
+If the score still falls short, [the model lacks a capability, and that's when to upgrade(opens in new tab)](https://platform.claude.com/docs/en/about-claude/models/choosing-a-model). If you're starting your own eval today, begin with Claude Haiku 5.5, the current Haiku model. Its effort defaults to `medium`, so you have higher levels to try.
 
 ## The bottom line[](https://academy.claude.com/courses/introduction-to-evals/iterate-the-prompt-before-you-upgrade-the-model)
 
 1. Start by reading the failed cases, grouped by the kind of report each one is and the field it got wrong.
 2. Fix what the prompt leaves out by saying what to return when the document holds no answer and by asking for the quote first.
 3. Rerun the same cases two or more times, and check that unsupported answers drop while no correct answer turns wrong.
-4. Upgrade to a bigger model only once prompt changes stop moving the score.
+4. Upgrade to a bigger model only once prompt changes and a higher effort level stop moving the score.
 
 Was this helpful?
