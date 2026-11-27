@@ -37,7 +37,7 @@ Be among the first retailers to partner with Anthropic in building the future of
 #### Start your journey today
 
 - [Contact Anthropic's Sales team (opens in new tab)](https://claude.com/contact-sales) to discuss your specific retail use cases and implementation strategy
-- Access Claude through our [API (opens in new tab)](https://console.anthropic.com/), [web interface (opens in new tab)](https://claude.ai/redirect/claudedotcom.v1.90f11123-c5da-4bb7-accd-899e978d143a), or [Claude for Work (opens in new tab)](https://claude.ai/redirect/claudedotcom.v1.90f11123-c5da-4bb7-accd-899e978d143a) to begin piloting with your teams
+- Access Claude through our [API (opens in new tab)](https://console.anthropic.com/), [web interface (opens in new tab)](https://claude.ai/redirect/claudedotcom.v1.067a9069-a7c1-4fa5-95a3-f73f33f53132), or [Claude for Work (opens in new tab)](https://claude.ai/redirect/claudedotcom.v1.067a9069-a7c1-4fa5-95a3-f73f33f53132) to begin piloting with your teams
 - Review our enterprise documentation and safety guidelines at [platform.claude.com/doc (opens in new tab)](https://platform.claude.com/docs/en/home) and our [Trust Center (opens in new tab)](https://trust.anthropic.com/)
 - Explore [Claude Code (opens in new tab)](https://claude.com/product/claude-code) to accelerate development of e-commerce features and integrations
 

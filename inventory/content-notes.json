@@ -690,9 +690,6 @@
   "https://claude.com/resources/articles/how-anthropic-uses-claude-marketing": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
-  "https://claude.com/resources/articles/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds": [
-    "Embedded media URLs preserved; video/audio binaries are not mirrored."
-  ],
   "https://claude.com/resources/articles/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate": [
     "Embedded media URLs preserved; video/audio binaries are not mirrored."
   ],
@@ -10268,6 +10265,9 @@
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/17506494-claude-fable-5-2-launch-offers": [
+    "Native source; upstream MDX components retained."
+  ],
+  "https://support.claude.com/en/articles/17603594-free-claude-ship-promotional-credits-for-claude-enterprise": [
     "Native source; upstream MDX components retained."
   ],
   "https://support.claude.com/en/articles/17603594-free-code-review-promotional-credits-for-claude-enterprise": [

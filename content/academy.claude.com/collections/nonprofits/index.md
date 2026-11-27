@@ -10,7 +10,7 @@ Make a small team go further. Courses, guides, and workflows for nonprofit staff
 
 Learn how to access Claude's nonprofit pricing, connect to fundraising and donor management tools, and get your team started.
 
-·Tutorial·3 min](https://academy.claude.com/tutorials/getting-started-with-claude-for-nonprofits)
+·Tutorial·3 min](https://academy.claude.com/tutorials/getting-started-with-claude-for-nonprofits)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-le9jkk1r.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-hzyhro7q.png)
 
@@ -18,13 +18,13 @@ Learn how to access Claude's nonprofit pricing, connect to fundraising and donor
 
 A self-paced guide to help nonprofit staff build confidence with Claude and discover practical applications for their role.
 
-·Tutorial·2 min](https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-guide-for-all-users)
+·Tutorial·2 min](https://academy.claude.com/tutorials/claude-for-nonprofits-partnership-guide-for-all-users)
 
 [### AI Fluency for nonprofits
 
 Build practical AI collaboration skills for nonprofit work using the 4D Framework: Delegation, Description, Discernment, and Diligence. Covers research, writing, data analysis, and organization-wide AI adoption while staying true to your mission and values.
 
-·Course·9 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-for-nonprofits)
+·Course·9 lessons · 1 quiz·4 hr](https://academy.claude.com/courses/ai-fluency-for-nonprofits)
 
 ## See Claude for Nonprofits in action
 
@@ -34,7 +34,7 @@ Build practical AI collaboration skills for nonprofit work using the 4D Framewor
 
 Tell Claude where things live, once. An operations lead who is new to Claude asks it to learn where her organization keeps everything.
 
-·Tutorial](https://academy.claude.com/tutorials/claude-for-nonprofits-in-action-getting-started)
+·Tutorial](https://academy.claude.com/tutorials/claude-for-nonprofits-in-action-getting-started)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-b9l86rdi.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-kmg77r4y.png)
 
@@ -42,7 +42,7 @@ Tell Claude where things live, once. An operations lead who is new to Claude ask
 
 Create a map of where your records are kept and a voice guide, then follow a nonprofit as it finds funders and drafts a grant report. In each step you ask Claude for research or a first draft based on your organization's documents, then review it before you use it.
 
-·Tutorial·10 min](https://academy.claude.com/tutorials/fundraising-with-claude-for-nonprofits)
+·Tutorial·10 min](https://academy.claude.com/tutorials/fundraising-with-claude-for-nonprofits)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-kluegw5m.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-cwddvbaa.png)
 
@@ -50,7 +50,7 @@ Create a map of where your records are kept and a voice guide, then follow a non
 
 A year-end campaign on five hours a week. An operations lead at an organization with no marketing staff has a year-end campaign to plan.
 
-·Tutorial](https://academy.claude.com/tutorials/claude-for-nonprofits-in-action-marketing)
+·Tutorial](https://academy.claude.com/tutorials/claude-for-nonprofits-in-action-marketing)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-dn7gj15c.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-htmc9ng5.png)
 
@@ -58,7 +58,7 @@ A year-end campaign on five hours a week. An operations lead at an organization 
 
 From open role to first 90 days. An operations manager has an open seat for a development associate.
 
-·Tutorial](https://academy.claude.com/tutorials/claude-for-nonprofits-in-action-people)
+·Tutorial](https://academy.claude.com/tutorials/claude-for-nonprofits-in-action-people)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-b7w9a45r.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-eatdr2d7.png)
 
@@ -66,7 +66,7 @@ From open role to first 90 days. An operations manager has an open seat for a de
 
 “Can I put our donor list into Claude?” A development associate has thank-you letters to write and takes care with donor information, so she asks before connecting any tools or sharing the list.
 
-·Tutorial](https://academy.claude.com/tutorials/claude-for-nonprofits-in-action-ai-policy)
+·Tutorial](https://academy.claude.com/tutorials/claude-for-nonprofits-in-action-ai-policy)
 
 ## Work smarter with Claude
 
@@ -76,7 +76,7 @@ From open role to first 90 days. An operations manager has an open seat for a de
 
 What each Claude model is for, which one to start with, and how to tell when a different model or effort level would help.
 
-·Tutorial·7 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)
+·Tutorial·7 min](https://academy.claude.com/tutorials/choosing-the-right-claude-model)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-ofwck6bq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-09in3lr8.png)
 
@@ -84,7 +84,7 @@ What each Claude model is for, which one to start with, and how to tell when a d
 
 Learn how Projects can streamline your workflow with Claude for more organized and efficient conversations.
 
-·Tutorial·7 min](https://academy.claude.com/tutorials/intro-to-projects)
+·Tutorial·7 min](https://academy.claude.com/tutorials/intro-to-projects)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-oo54igq8.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dj768tsz.png)
 
@@ -92,7 +92,7 @@ Learn how Projects can streamline your workflow with Claude for more organized a
 
 Learn how Claude Skills let you package proven work approaches so Claude automatically applies them across conversations.
 
-·Tutorial·10 min](https://academy.claude.com/tutorials/teach-claude-your-way-of-working-using-skills)
+·Tutorial·10 min](https://academy.claude.com/tutorials/teach-claude-your-way-of-working-using-skills)
 
 ## Fundraising and development
 
@@ -100,19 +100,19 @@ Learn how Claude Skills let you package proven work approaches so Claude automat
 
 ### Work through grant options in chat
 
-·Use case·Research·15 min](https://academy.claude.com/use-cases/work-through-grant-options-in-chat-with-claude)
+·Use case·Research·15 min](https://academy.claude.com/use-cases/work-through-grant-options-in-chat-with-claude)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-gokcztzn.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-nqgcnxqq.png)
 
 ### See what your campaign goal actually requires
 
-·Use case·15 min](https://academy.claude.com/use-cases/see-what-your-campaign-goal-actually-requires)
+·Use case·15 min](https://academy.claude.com/use-cases/see-what-your-campaign-goal-actually-requires)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-ggft1kqa.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-i7l537hu.png)
 
 ### See why donor retention beats acquisition, in chat with Claude
 
-·Use case·15 min](https://academy.claude.com/use-cases/see-why-donor-retention-beats-acquisition)
+·Use case·15 min](https://academy.claude.com/use-cases/see-why-donor-retention-beats-acquisition)
 
 ## Programs and volunteers
 
@@ -120,13 +120,13 @@ Learn how Claude Skills let you package proven work approaches so Claude automat
 
 ### Develop a program toolkit
 
-·Use case·15 min](https://academy.claude.com/use-cases/develop-a-program-toolkit)
+·Use case·15 min](https://academy.claude.com/use-cases/develop-a-program-toolkit)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-lz7o5gud.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-ithgdle4.png)
 
 ### Create a volunteer management system
 
-·Use case·Operations·15 min](https://academy.claude.com/use-cases/create-a-volunteer-management-system)
+·Use case·Operations·15 min](https://academy.claude.com/use-cases/create-a-volunteer-management-system)
 
 ## Measurement and evaluation
 
@@ -134,13 +134,13 @@ Learn how Claude Skills let you package proven work approaches so Claude automat
 
 ### Write an impact report
 
-·Use case·15 min](https://academy.claude.com/use-cases/write-an-impact-report)
+·Use case·15 min](https://academy.claude.com/use-cases/write-an-impact-report)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-hed4429w.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-pdsn7leg.png)
 
 ### Visualize program data
 
-·Use case·15 min](https://academy.claude.com/use-cases/visualize-program-data)
+·Use case·15 min](https://academy.claude.com/use-cases/visualize-program-data)
 
 ## Finance, strategy, and governance
 
@@ -148,19 +148,19 @@ Learn how Claude Skills let you package proven work approaches so Claude automat
 
 ### See budget futures side by side, in chat with Claude
 
-·Use case·Finance·15 min](https://academy.claude.com/use-cases/see-budget-futures-side-by-side)
+·Use case·Finance·15 min](https://academy.claude.com/use-cases/see-budget-futures-side-by-side)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-oxaeog5i.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-l5d1fd7u.png)
 
 ### See your theory of change in chat with Claude
 
-·Use case·15 min](https://academy.claude.com/use-cases/see-your-theory-of-change-in-chat-with-claude)
+·Use case·15 min](https://academy.claude.com/use-cases/see-your-theory-of-change-in-chat-with-claude)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-zernvaqe.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dwsv9rpk.png)
 
 ### Workflow improvement planner
 
-·Use case·Operations·15 min](https://academy.claude.com/use-cases/workflow-improvement-planner)
+·Use case·Operations·15 min](https://academy.claude.com/use-cases/workflow-improvement-planner)
 
 ## Communications and marketing
 
@@ -168,25 +168,25 @@ Learn how Claude Skills let you package proven work approaches so Claude automat
 
 ### Create a company newsletter
 
-·Use case·10 min](https://academy.claude.com/use-cases/create-a-company-newsletter)
+·Use case·10 min](https://academy.claude.com/use-cases/create-a-company-newsletter)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-k5oxrrdq.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-orgsju4c.png)
 
 ### Surface themes from all your feedback channels
 
-·Use case·Research·15 min](https://academy.claude.com/use-cases/surface-themes-from-all-your-feedback-channels)
+·Use case·Research·15 min](https://academy.claude.com/use-cases/surface-themes-from-all-your-feedback-channels)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-o7v3ovgz.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-dqa49rlu.png)
 
 ### Turn research into presentations
 
-·Use case·Education·15 min](https://academy.claude.com/use-cases/turn-research-into-presentations)
+·Use case·Education·15 min](https://academy.claude.com/use-cases/turn-research-into-presentations)
 
 [![](https://academy.claude.com/assets/v1/thumbnail.light-ktp24exx.png)![](https://academy.claude.com/assets/v1/thumbnail.dark-gapzxql3.png)
 
 ### Create a custom webpage
 
-·Use case·Personal·15 min](https://academy.claude.com/use-cases/create-a-custom-webpage)
+·Use case·Personal·15 min](https://academy.claude.com/use-cases/create-a-custom-webpage)
 
 ## Connect your nonprofit tools
 

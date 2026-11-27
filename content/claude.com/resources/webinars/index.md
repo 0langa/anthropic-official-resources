@@ -20,25 +20,23 @@ Join the Anthropic product team for a live look back at what shipped, including 
 
 A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)
 
+[WebinarUpcoming | Dec 9, 2026
+
+### How Anthropic secures its agents
+
+Giving an agent real access means planning for three things: overreach, hijacking and misuse. Human approval alone won't catch all of them, so Anthropic starts from a harder assumption: any single layer can fail.](https://claude.com/resources/webinars/how-anthropic-secures-its-agents)
+
 [WebinarUpcoming | Dec 8, 2026
 
 ### Best Practices for Government: IT Modernization with Claude
 
 Hear directly from a government technology leader on modernizing a legacy system with Claude, what they learned, and how peers can do it securely.](https://claude.com/resources/webinars/best-practices-for-government-it-modernization-with-claude)
 
-[WebinarUpcoming | Multiple dates
+[WebinarUpcoming | Dec 3, 2026
 
-### Unified Claude: Security and admins Q&A session
+### Engineers, agents, and Black Friday: what Shopify learned at peak
 
-We invite admins and security teams to join Anthropic’s team for guidance on how to migrate your org before the deprecation of the separate chat and Cowork experience.](https://claude.com/resources/webinars/unified-claude-security-and-admins-q-and-a-session)
-
-[WebinarUpcoming | Multiple dates
-
-### Claude Code: Foundations
-
-New to Claude Code? You’re in the right place. Join Anthropic's Claude Code specialist team for a hands-on introduction to…
-
-Claude Code](https://claude.com/resources/webinars/claude-code-foundations-series)
+As part of our Guest Lecture Series, Farhan Thawar, VP and Head of Engineering, shares what the weekend showed about Shopify’s systems, people, and agents.](https://claude.com/resources/webinars/engineers-agents-and-black-friday-what-shopify-learned-at-peak)
 
 [WebinarOn demand
 
@@ -50,17 +48,25 @@ Featured resource 1 of 5: Claude Rearview Roadmap Review: November 2026
 
 Advanced filters
 
-Showing 20 of 121 resources
+Showing 22 of 123 resources
 
 ## Upcoming webinars
 
 Register for the live sessions with Anthropic and partner teams — bring your questions and get answers in real time.
 
-[WebinarUpcoming | Dec 8, 2026
+[WebinarUpcoming | Dec 3, 2026
+
+### Engineers, agents, and Black Friday: what Shopify learned at peak
+
+As part of our Guest Lecture Series, Farhan Thawar, VP and Head of Engineering, shares what the weekend showed about Shopify’s systems, people, and agents.](https://claude.com/resources/webinars/engineers-agents-and-black-friday-what-shopify-learned-at-peak)[WebinarUpcoming | Dec 8, 2026
 
 ### Best Practices for Government: IT Modernization with Claude
 
-Hear directly from a government technology leader on modernizing a legacy system with Claude, what they learned, and how peers can do it securely.](https://claude.com/resources/webinars/best-practices-for-government-it-modernization-with-claude)
+Hear directly from a government technology leader on modernizing a legacy system with Claude, what they learned, and how peers can do it securely.](https://claude.com/resources/webinars/best-practices-for-government-it-modernization-with-claude)[WebinarUpcoming | Dec 9, 2026
+
+### How Anthropic secures its agents
+
+Giving an agent real access means planning for three things: overreach, hijacking and misuse. Human approval alone won't catch all of them, so Anthropic starts from a harder assumption: any single layer can fail.](https://claude.com/resources/webinars/how-anthropic-secures-its-agents)
 
 ## Recurring webinars
 

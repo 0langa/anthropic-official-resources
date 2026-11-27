@@ -34,7 +34,17 @@ APSM
 
 ## Upcoming live webinars
 
-[Upcoming · Dec 8, 9:00 AM PT
+[Upcoming · Dec 3, 11:20 AM PT
+
+### Engineers, agents, and Black Friday: what Shopify learned at peak 
+
+Shopify's Farhan Thawar on how engineers and AI agents prepared the platform for peak Black Friday traffic over nine months.
+
+FT
+
+·Upcoming·Dec 3·11:20 AM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/engineers-agents-and-black-friday-what-shopify-learned-at-peak)[Upcoming · Dec 8, 9:00 AM PT
 
 ### Best Practices for Government: IT Modernization with Claude 
 
@@ -44,7 +54,15 @@ CTCCMC
 
 ·Upcoming·Dec 8·9:00 AM PT
 
- (opens in new tab)](https://claude.com/resources/webinars/best-practices-for-government-it-modernization-with-claude)
+ (opens in new tab)](https://claude.com/resources/webinars/best-practices-for-government-it-modernization-with-claude)[Upcoming · Dec 9, 10:00 AM PT
+
+### How Anthropic secures its agents 
+
+How Anthropic stacks model safeguards, controls, and monitoring to contain overreach, hijacking, and misuse in your own agents.
+
+·Upcoming·Dec 9·10:00 AM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/how-anthropic-secures-its-agents)
 
 ## On demand
 

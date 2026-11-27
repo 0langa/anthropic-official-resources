@@ -55,6 +55,16 @@ Table of contents
 8. [Stage 6 — Maintain](https://claude.com/resources/articles/the-ai-native-sdlc-playbook)
 9. [Closing thoughts](https://claude.com/resources/articles/the-ai-native-sdlc-playbook)
 
+Companion guide
+
+### How this playbook fits with the enterprise guide to securing coding agents
+
+This playbook has a companion. [The enterprise guide to securing coding agents](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents) covers the security controls underneath this work: what to require of an AI provider, the risks specific to agents, and the layers that bound them. This playbook covers how to redesign software development around agents, stage by stage from planning to maintenance.
+
+Read this playbook to decide where agents fit in your lifecycle. Read the security guide to decide what they’re allowed to do when they get there.
+
+[Read the guide to securing coding agents](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)
+
 ## What is an AI-native SDLC?
 
 The AI-native SDLC is a reimagined process that combines the old control objectives with new enforcement. Instead of a linear flow, the process becomes a loop, and AI is embedded at each point. The AI-native SDLC promotes automated handover and triggering of subsequent plays, helping to address the manual and clunky nature of handoff between the phases of the traditional SDLC.

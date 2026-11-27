@@ -10,7 +10,7 @@ ProductAll
 
 RoleAll
 
-433 resources
+435 resources
 
 [## AI capabilities and limitations
 
@@ -752,9 +752,21 @@ ProductAll
 
 StatusAll
 
-109 webinars
+111 webinars
 
 [Upcoming
+
+## Engineers, agents, and Black Friday: what Shopify learned at peak 
+
+Shopify's Farhan Thawar on how engineers and AI agents prepared the platform for peak Black Friday traffic over nine months.
+
+FT
+
+·Dec 3·11:20 AM PT
+
+·Upcoming·Dec 3·11:20 AM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/engineers-agents-and-black-friday-what-shopify-learned-at-peak)[Upcoming
 
 ## Best Practices for Government: IT Modernization with Claude 
 
@@ -766,7 +778,17 @@ CTCCMC
 
 ·Upcoming·Dec 8·9:00 AM PT
 
- (opens in new tab)](https://claude.com/resources/webinars/best-practices-for-government-it-modernization-with-claude)[Recording
+ (opens in new tab)](https://claude.com/resources/webinars/best-practices-for-government-it-modernization-with-claude)[Upcoming
+
+## How Anthropic secures its agents 
+
+How Anthropic stacks model safeguards, controls, and monitoring to contain overreach, hijacking, and misuse in your own agents.
+
+·Dec 9·10:00 AM PT
+
+·Upcoming·Dec 9·10:00 AM PT
+
+ (opens in new tab)](https://claude.com/resources/webinars/how-anthropic-secures-its-agents)[Recording
 
 ## Claude Rearview Roadmap Review: November 2026 
 
@@ -1014,28 +1036,4 @@ APNWNL
 
 ·Recording·Sep 25
 
- (opens in new tab)](https://claude.com/resources/webinars/opus-5-5-for-work)[Recording
-
-## Modernizing Legacy Code with Claude Code 
-
-Live demos of Claude Code modernizing real codebases, from COBOL-to-Java migration to a 500K-line Java upgrade, using the modernization plugin.
-
-BNHPML
-
-·Sep 24
-
-·Recording·Sep 24
-
- (opens in new tab)](https://claude.com/resources/webinars/modernizing-legacy-code-with-claude-code)[Recording
-
-## How to Roadmap with Decisions Rather Than Dates 
-
-How to run a decision-constrained engineering organization, leading your roadmap by decisions rather than dates as AI tools improve.
-
-WL
-
-·Sep 21
-
-·Recording·Sep 21
-
- (opens in new tab)](https://claude.com/resources/webinars/how-to-roadmap-with-decisions-rather-than-dates)Load more
+ (opens in new tab)](https://claude.com/resources/webinars/opus-5-5-for-work)Load more

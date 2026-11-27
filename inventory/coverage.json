@@ -1,7 +1,7 @@
 {
-  "actionable_missing_pages": 1,
-  "actionable_population_complete": false,
-  "archived_pages": 5807,
+  "actionable_missing_pages": 0,
+  "actionable_population_complete": true,
+  "archived_pages": 5808,
   "by_host": {
     "academy.claude.com": {
       "archived_pages": 893,
@@ -20,7 +20,7 @@
       "discovered_pages": 2322
     },
     "support.claude.com": {
-      "archived_pages": 807,
+      "archived_pages": 808,
       "discovered_pages": 842
     },
     "www.anthropic.com": {
@@ -676,7 +676,7 @@
     "https://www.anthropic.com/transparency/voluntary-commitments": "Content dependencies blocked by scope or robots policy: https://a.anthropic.com/isolated-segment.html",
     "https://www.anthropic.com/webinars": "Content dependencies blocked by scope or robots policy: https://a.claude.com/isolated-segment.html"
   },
-  "missing_pages": 93,
+  "missing_pages": 92,
   "page_inventory_complete": false,
   "pages_with_content_notes": 3936,
   "retained_partial_pages": 514,

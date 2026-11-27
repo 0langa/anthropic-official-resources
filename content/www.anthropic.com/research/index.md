@@ -14,7 +14,7 @@ Studies and monitors the impact of AI systems on individuals, firms, and economi
 
 [## Engineering](https://www.anthropic.com/engineering)
 
-29 posts
+30 posts
 
 Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
@@ -56,7 +56,7 @@ Studies and monitors the impact of AI systems on individuals, firms, and economi
 
 [## Engineering](https://www.anthropic.com/engineering)
 
-29 posts
+30 posts
 
 Builds the infrastructure and systems that make Claude reliable and trustworthy.
 
@@ -119,7 +119,7 @@ As AI does more of the hands-on work, the hope is that experts still make the ju
 
 04
 
-212
+213
 
 ARTICLES
 
@@ -127,9 +127,17 @@ Filter
 
 Most recentGallery view
 
+[Engineering](https://www.anthropic.com/engineering)
+
+Nov 25, 2026![](https://assets.claude.com/3005501db46139ddf6cbf5954744cb4c18cef482.jpg?w=3840&q=75&fm=webp&fit=max)
+
+### [Migrating our Messages API to Rust](https://www.anthropic.com/research/migrating-api-to-rust)
+
+How we migrated our Messages API from Python to Rust.
+
 [Economics](https://www.anthropic.com/research/team/economics)
 
-Nov 23, 2026![](https://assets.claude.com/18573939fbd864c74ee2d1de211c5fd2cea763fb.jpg?w=3840&q=75&fm=webp&fit=max)
+Nov 23, 2026![](https://assets.claude.com/18573939fbd864c74ee2d1de211c5fd2cea763fb.jpg?w=1920&q=75&fm=webp&fit=max)
 
 ### [Working with AI](https://www.anthropic.com/research/working-with-ai)
 
@@ -137,7 +145,7 @@ We interviewed people at 58 companies that use Claude about how AI is changing t
 
 [Science](https://www.anthropic.com/science)
 
-Nov 17, 2026![Abstract illustration of a black circle, like a black hole, at the center of swirling marbled patterns, blue and gold above and brown and pale blue below.](https://assets.claude.com/ec63fc5eb209aafb67c9a140685e4cb13148ea02.jpg?w=3840&q=75&fm=webp&fit=max)
+Nov 17, 2026![Abstract illustration of a black circle, like a black hole, at the center of swirling marbled patterns, blue and gold above and brown and pale blue below.](https://assets.claude.com/6d8063c48d1b3397632daa51c8240476aad8cba3.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Claude solves two open problems in the physics of black holes](https://www.anthropic.com/research/claude-black-hole-physics)
 
@@ -153,7 +161,7 @@ We’re shortening the disclosure window in our coordinated vulnerability disclo
 
 [Engineering](https://www.anthropic.com/engineering)
 
-Nov 13, 2026![Illustration of two dark green gridded squares on a light green background. On the left, a tilted red square and an upright blue square overlap imperfectly, leaving their edges exposed; on the right, the two align exactly.](https://assets.claude.com/bab5121b9ac9a4bc3d4f5a212714bb21736398e8.jpg?w=3840&q=75&fm=webp&fit=max)
+Nov 13, 2026![Illustration of a tilted red gridded square and an upright blue gridded square overlapping imperfectly to form a dark green square, on a light green background.](https://assets.claude.com/abd5df81fa75d3f4a2b489a120e93f7af2f7456f.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Building strong safety evaluations](https://www.anthropic.com/research/building-strong-safety-evaluations)
 
@@ -161,7 +169,7 @@ Recommendations for designing, running, and reporting safety evaluations, based 
 
 [Science](https://www.anthropic.com/science)
 
-Nov 9, 2026![Abstract collage combining a close-up photograph of a circuit board with bright green panels of winding copper-track patterns.](https://assets.claude.com/48f86f517e975d4b7d500a4e445e0608577f41db.jpg?w=3840&q=75&fm=webp&fit=max)
+Nov 9, 2026![Abstract collage combining a close-up photograph of a circuit board with bright green panels of winding copper-track patterns.](https://assets.claude.com/da1561d7096742c3620943441254fa9d4aaa5590.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Testing Claude on real-world electronics design](https://www.anthropic.com/research/claude-electronics-design)
 
@@ -193,7 +201,7 @@ We analyzed 207,000 research sessions to learn how Claude is used in science, wh
 
 [Science](https://www.anthropic.com/science)
 
-Nov 4, 2026![Collage illustration pairing vintage measuring scales over a black-and-white photograph with a green print of a ribbed, vaulted cathedral ceiling.](https://assets.claude.com/2f15c0f8ea55da524841be51c8fde89d75f9b0d9.jpg?w=3840&q=75&fm=webp&fit=max)
+Nov 4, 2026![Collage illustration pairing vintage measuring scales over a black-and-white photograph with a green print of a ribbed, vaulted cathedral ceiling.](https://assets.claude.com/50d60818006da4782dc5edb2d5ee1fe9586cd787.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Investigating vault particles with Claude](https://www.anthropic.com/research/investigating-vault-particles-with-claude)
 
@@ -209,7 +217,7 @@ We have made progress on a type of cryptographic proof known as a “zkSNARK.”
 
 [Science](https://www.anthropic.com/science)
 
-Oct 27, 2026![](https://assets.claude.com/eb51635204f8a73d9a0016d3c80cd7a93c7cbdda.jpg?w=3840&q=75&fm=webp&fit=max)
+Oct 27, 2026![](https://assets.claude.com/e5bf870837273d5d1e0e5966af0cb1c7efbdeaae.jpg?w=3840&q=75&fm=webp&fit=max)
 
 ### [Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development)
 
@@ -310,13 +318,5 @@ Sep 30, 2026![What work can robots do?](https://assets.claude.com/cf4343e7048637
 ### [What work can robots do?](https://www.anthropic.com/research/what-work-can-robots-do)
 
 We built an index of how well today’s robots can perform US job tasks. Robots can already do three-quarters of physical tasks, mostly in limited settings, but are cost-competitive for just 0.3% of them.
-
-[Societal Impacts](https://www.anthropic.com/research/team/societal-impacts)
-
-Sep 29, 2026![](https://assets.claude.com/114da8126395c36da2b04121d9cbc713ec2f1952.jpg?w=3840&q=75&fm=webp&fit=max)
-
-### [What do you want from AI?](https://www.anthropic.com/research/your-thoughts-on-ai)
-
-We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI.
 
 See more

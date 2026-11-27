@@ -32,6 +32,16 @@ There are several overarching strategies we’ve deployed to accomplish this wit
 
 In this article, we’ll cover the security processes we have implemented at specific stages of the software development lifecycle as well as the core principles behind them. These principles are more enduring as security teams must reexamine, and often reinvent, their processes as model capabilities evolve.
 
+Companion guide
+
+### How this article fits with the enterprise guide to securing coding agents
+
+This article has a companion. [The enterprise guide to securing coding agents](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents) covers the controls any organization can deploy with Claude Code, from permission rules and hooks to sandboxing and managed settings. This article covers how Anthropic’s own security team secures each stage of its software development lifecycle.
+
+Read this article to see how we secure an AI-native SDLC. Read the guide to decide what coding agents are allowed to do in yours.
+
+[Read the guide to securing coding agents](https://claude.com/resources/articles/enterprise-guide-to-securing-coding-agents)
+
 ## **The evolving software development lifecycle**
 
 ![](https://assets.claude.com/8a4767e652bdda6c9680055b306c14d2b7b765ad.png)
