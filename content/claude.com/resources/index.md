@@ -347,23 +347,19 @@ Join the Anthropic product team for a live look back at what shipped, including 
 
 ### The State of Cybersecurity: What Frontier AI Changes for Security Leaders
 
-A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)[WebinarUpcoming | Dec 8, 2026
+A briefing for CISOs and security leaders on what attackers can do with AI now, and how to adjust your security program.](https://claude.com/resources/webinars/the-state-of-cybersecurity)[WebinarUpcoming | Dec 9, 2026
+
+### How Anthropic secures its agents
+
+Giving an agent real access means planning for three things: overreach, hijacking and misuse. Human approval alone won't catch all of them, so Anthropic starts from a harder assumption: any single layer can fail.](https://claude.com/resources/webinars/how-anthropic-secures-its-agents)[WebinarUpcoming | Dec 8, 2026
 
 ### Best Practices for Government: IT Modernization with Claude
 
-Hear directly from a government technology leader on modernizing a legacy system with Claude, what they learned, and how peers can do it securely.](https://claude.com/resources/webinars/best-practices-for-government-it-modernization-with-claude)[WebinarOn demand
+Hear directly from a government technology leader on modernizing a legacy system with Claude, what they learned, and how peers can do it securely.](https://claude.com/resources/webinars/best-practices-for-government-it-modernization-with-claude)[WebinarUpcoming | Dec 3, 2026
 
-### How the Claude Code team does code review
+### Engineers, agents, and Black Friday: what Shopify learned at peak
 
-When agents write the code, pull requests pile up faster than anyone can read them.
-
-Claude Code](https://claude.com/resources/webinars/how-the-claude-code-team-does-code-review)[WebinarNov 17, 2026
-
-### Build Agents with Claude Models on Google Cloud
-
-The full Claude Platform is now on Google Cloud — build agents from the Google Cloud account you already run.
-
-Claude PlatformClaude Code](https://claude.com/resources/webinars/build-agents-with-claude-platform-on-google-cloud)
+As part of our Guest Lecture Series, Farhan Thawar, VP and Head of Engineering, shares what the weekend showed about Shopify’s systems, people, and agents.](https://claude.com/resources/webinars/engineers-agents-and-black-friday-what-shopify-learned-at-peak)
 
 ## Videos
 

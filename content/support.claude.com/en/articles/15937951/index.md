@@ -27,7 +27,7 @@ The portal must be opened from within a Claude or Console web session:
 
 4. Click the portal link at the top of the panel (“Looking for your company’s conversations? Go to customer portal”).
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2545327968/cebd68e8fd893a51c8bdf3edcb10/2ebb320b-15cf-4e60-a380-c6bb173ea611?expires=1795621500&amp;signature=4dec1f33b8fcec38b26d332d0ab415d99a837903dfddf1b0c4cafa0f9395890d&amp;req=diUjE8p8mohZUfMW1HO4zapwI0cyZpDb2xzTpDBjzI%2BrlAg5hy9jiKPqki2v%0AG%2Bkyxv0BhMVu3bA0cQ0%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2545327968/cebd68e8fd893a51c8bdf3edcb10/2ebb320b-15cf-4e60-a380-c6bb173ea611?expires=1795874400&amp;signature=3a3d85afe970e992df1b3798217463619930b703a4a9cbdf97b8e6fe6e449fb6&amp;req=diUjE8p8mohZUfMW1HO4zapwI0c8Y5Xa2xzTpDBjzI9slMuLe7C92C%2Fvsx8m%0ARYlcle%2FecRBVGOQXE4w%3D%0A)
 
 **Note:** The portal requires session authentication from the messenger, so opening the portal from a direct link or bookmark may not work reliably.
 
@@ -39,7 +39,7 @@ The portal must be opened from within a Claude or Console web session:
 
 3. Click any row to open the full conversation thread and see its status.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2545327970/e8e46b36c7e4ea25a7bcf621e024/e867f372-1192-4a1a-9345-d53ae985ca60?expires=1795621500&amp;signature=18c54c37cfffb0c6ffa8ca575d4c404e4999d4de6ca659f96ce8a030e9b26408&amp;req=diUjE8p8mohYWfMW1HO4zagalNr7qEKyUedsMn4pB%2BONa1etKBGz%2FT4jF%2F1%2F%0AeCjIQiGeTQD9lXpdfVg%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2545327970/e8e46b36c7e4ea25a7bcf621e024/e867f372-1192-4a1a-9345-d53ae985ca60?expires=1795874400&amp;signature=359a4aff81a281b869db30a55e0a66145b9464a6e1f961ed53fed0162e99b8d5&amp;req=diUjE8p8mohYWfMW1HO4zagalNr1rUezUedsMn4pB%2BPm4QLZmcvqUU1tt9Uq%0Aj3Wg6IjhnAXRWCJpqrE%3D%0A)
 
 ## Why is there an organization dropdown?
 

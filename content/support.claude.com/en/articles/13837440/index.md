@@ -58,7 +58,7 @@ In Cowork, open the "Cowork" tab first, then open **Customize**.
 
 You can also upload a custom plugin file if you built one yourself. On Team and Enterprise plans, a colleague can share a plugin with you directly instead of sending you the file. See **[Use a plugin shared with you](https://support.claude.com/en/articles/13837440-use-plugins-in-claude#h_ef985546b4)** below. Plugins you add in Claude on the web or in Claude Desktop are saved to your account, not to your computer, so they follow you to chat, Cowork, and Claude Code.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2100409211/fc01614dde1a616fa31ffaa9cb04/47bacf5b-a810-45b5-a468-9769f1a58ef8?expires=1795621500&amp;signature=77a0afec7e08a22c1e80953188554cbdc073a2cb17b72204b57c07e418c7b303&amp;req=diEnFs1%2BlINeWPMW1HO4zZF3IxDbMfRQxakFVfq5WwwjUbsEKWX39wXZwUGw%0AM3q2qPAwmr7DspD9I4s%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2100409211/fc01614dde1a616fa31ffaa9cb04/47bacf5b-a810-45b5-a468-9769f1a58ef8?expires=1795873500&amp;signature=e3f0c2e204153726dedb5f400e28c4ca50853b10c011ec9be913d507fc23be95&amp;req=diEnFs1%2BlINeWPMW1HO4zZF3IxDVNPZQxakFVfq5Wwwwfo%2FuZdVtmC5UYAmc%0AsuiFFGEmGA75IvXEz58%3D%0A)
 
 If you're on the Enterprise plan and your organization has skill scanning turned on, plugins are checked for malicious content when they're installed or updated. A plugin with malicious content is blocked, and one that may carry risk shows a caution banner. Learn more about **[skill and plugin scanning](https://support.claude.com/en/articles/15927065)**.
 
@@ -68,7 +68,7 @@ If you're on the Enterprise plan and your organization has skill scanning turned
 
 Each plugin you add brings skills and commands you can use while working with Claude. Type "/" or click the "+" button to see the available skills from your plugins, in chat and in Cowork. In Cowork, you can also run a plugin's command by typing `/plugin-name:command`. Click any skill to see its details.
 
-![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2157396844/4a790e10f5b88df770783df1d7e9/image.png?expires=1795621500&amp;signature=dff9ca42ec2a1342aef6f8f9a78e09645cc8b96269932b57ca82d8f5fa3f5d5b&amp;req=diEiEcp3m4lbXfMW1HO4zf4NBfP6gUGRmKUxugP2BQviN4cOv8NvXOsOAhGV%0AigGFE3gFTNyJqxU9q0E%3D%0A)
+![](https://downloads.intercomcdn.com/i/o/lupk8zyo/2157396844/4a790e10f5b88df770783df1d7e9/image.png?expires=1795873500&amp;signature=e6b8daadcf5f510a3829147f0d12e1cb104b6109db9d8b5130e028f281846734&amp;req=diEiEcp3m4lbXfMW1HO4zf4NBfP0hEORmKUxugP2BQteE8CiPzbsaIG3VQer%0AWV72GU9THyoJD1%2BMFa4%3D%0A)
 
 ---
 
